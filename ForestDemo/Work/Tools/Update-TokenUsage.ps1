@@ -46,9 +46,18 @@ foreach ($job in $jobs) {
     $u = $latest.payload.info.total_token_usage
     if (!$latest) { $issues.Add('No recorded usage available; missing values are unknown, not zero.') }
     if ($matches.Count -ne 1) { $issues.Add('Expected exactly one rollout file; verify source coverage.') }
+    if ($models.Count -eq 0) { $issues.Add('No model metadata observed.') }
+    if ($efforts.Count -eq 0) { $issues.Add('No reasoning-effort metadata observed.') }
+    if ($job.theme -ne 'Supervisor') {
+        if ($models.Count -ne 1 -or !$models.Contains('gpt-6-astra')) { $issues.Add('Observed model differs from the experiment model gpt-6-astra or includes mixed models.') }
+        if ($efforts.Count -ne 1 -or !$efforts.Contains($job.effort)) { $issues.Add('Observed reasoning effort differs from the assigned effort or includes mixed efforts.') }
+    }
     if ($u) {
-        if ($u.total_tokens -ne ($u.input_tokens + $u.output_tokens)) { $issues.Add('Total differs from input + output.') }
-        if ($u.cached_input_tokens -gt $u.input_tokens -or $u.reasoning_output_tokens -gt $u.output_tokens) { $issues.Add('Token subset invariant failed.') }
+        foreach ($field in @('input_tokens','cached_input_tokens','output_tokens','reasoning_output_tokens','total_tokens')) {
+            if ($null -eq $u.$field) { $issues.Add('Missing token field: ' + $field + '; value is unknown.') }
+        }
+        if ($null -ne $u.total_tokens -and $null -ne $u.input_tokens -and $null -ne $u.output_tokens -and $u.total_tokens -ne ($u.input_tokens + $u.output_tokens)) { $issues.Add('Total differs from input + output.') }
+        if (($null -ne $u.cached_input_tokens -and $null -ne $u.input_tokens -and $u.cached_input_tokens -gt $u.input_tokens) -or ($null -ne $u.reasoning_output_tokens -and $null -ne $u.output_tokens -and $u.reasoning_output_tokens -gt $u.output_tokens)) { $issues.Add('Token subset invariant failed.') }
     }
     $rows += [pscustomobject][ordered]@{
         theme = $job.theme
@@ -59,7 +68,7 @@ foreach ($job in $jobs) {
         usage_recorded_at_utc = $latest.timestamp
         input_tokens = $(if ($u) { $u.input_tokens } else { $null })
         cached_input_tokens = $(if ($u) { $u.cached_input_tokens } else { $null })
-        uncached_input_tokens = $(if ($u) { $u.input_tokens - $u.cached_input_tokens } else { $null })
+        uncached_input_tokens = $(if ($u -and $null -ne $u.input_tokens -and $null -ne $u.cached_input_tokens) { $u.input_tokens - $u.cached_input_tokens } else { $null })
         cache_write_input_tokens = $(if ($u) { $u.cache_write_input_tokens } else { $null })
         output_tokens = $(if ($u) { $u.output_tokens } else { $null })
         reasoning_output_tokens = $(if ($u) { $u.reasoning_output_tokens } else { $null })

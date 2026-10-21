@@ -2,6 +2,8 @@
   "baseline_commit": "7558c8f",
   "rules_commit": "53a1fc3",
   "timezone": "Asia/Seoul",
+  "last_supervisor_check_utc": "2026-10-21T12:41:44.7075003+00:00",
+  "last_supervisor_summary": "Forest/high first submission inspected: four actual PNGs, ownership evidence and 46 delivery hashes pass. Runtime play-start evidence requested before approval/commit. Other seven working. MountainStation/medium UTC elapsed calculation corrected and verified. Latest token snapshot has no issues; all eight use gpt-6-astra with assigned efforts.",
   "efforts": [
     {
       "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
@@ -9,7 +11,7 @@
       "effort": "medium",
       "dispatched_at_utc": "2026-10-21T12:11:37Z",
       "status": "working",
-      "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:1",
+      "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:3",
       "initial_turn_started_at_utc": "2026-10-21T12:11:42.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:50Z",
       "asset_root": "ForestDemo/Content/Forest/medium/",
@@ -20,12 +22,17 @@
       "hostId": "local",
       "effort": "high",
       "dispatched_at_utc": "2026-10-21T12:11:42Z",
-      "status": "working",
-      "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:1",
+      "status": "supervisor_rework",
+      "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:3",
       "initial_turn_started_at_utc": "2026-10-21T12:11:46.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:54Z",
       "asset_root": "ForestDemo/Content/Forest/high/",
-      "theme": "Forest"
+      "theme": "Forest",
+      "first_ready_at_utc": "2026-10-21T12:40:14.899003+00:00",
+      "first_ready_elapsed_seconds": 1700.899003,
+      "first_dispatch_to_ready_seconds": 1712.899003,
+      "supervisor_review_started_at_utc": "2026-10-21T12:40:14Z",
+      "supervisor_required_followup": "Actual play world start, pawn possession and runtime collision/BeginPlay evidence. Existing actual PNGs inspected; no art redesign requested."
     },
     {
       "threadId": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
@@ -33,7 +40,7 @@
       "effort": "xhigh",
       "dispatched_at_utc": "2026-10-21T12:11:46Z",
       "status": "working",
-      "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:1",
+      "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:3",
       "initial_turn_started_at_utc": "2026-10-21T12:11:49.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:57.0000000+00:00",
       "asset_root": "ForestDemo/Content/Forest/xhigh/",
@@ -45,7 +52,7 @@
       "effort": "ultra",
       "dispatched_at_utc": "2026-10-21T12:11:49Z",
       "status": "working",
-      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:1",
+      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:3",
       "initial_turn_started_at_utc": "2026-10-21T12:11:52.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:12:01Z",
       "asset_root": "ForestDemo/Content/Forest/ultra/",
@@ -72,7 +79,7 @@
       "map": "/Game/Maps/MountainStation_medium",
       "work_root": "ForestDemo/Work/MountainStation/medium/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/medium/",
-      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:1",
+      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:3",
       "initial_turn_started_at_utc": "2026-10-21T12:27:03.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:10Z"
     },
@@ -87,7 +94,7 @@
       "map": "/Game/Maps/MountainStation_high",
       "work_root": "ForestDemo/Work/MountainStation/high/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/high/",
-      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:1",
+      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:2",
       "initial_turn_started_at_utc": "2026-10-21T12:27:07.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:18Z"
     },
@@ -102,7 +109,7 @@
       "map": "/Game/Maps/MountainStation_xhigh",
       "work_root": "ForestDemo/Work/MountainStation/xhigh/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/xhigh/",
-      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:1",
+      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:3",
       "initial_turn_started_at_utc": "2026-10-21T12:27:13.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:24Z"
     },
@@ -117,7 +124,7 @@
       "map": "/Game/Maps/MountainStation_ultra",
       "work_root": "ForestDemo/Work/MountainStation/ultra/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/ultra/",
-      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:1",
+      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:3",
       "initial_turn_started_at_utc": "2026-10-21T12:27:17.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:25.0000000+00:00"
     }
