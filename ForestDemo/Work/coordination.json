@@ -2,28 +2,34 @@
   "baseline_commit": "7558c8f",
   "rules_commit": "53a1fc3",
   "timezone": "Asia/Seoul",
-  "last_supervisor_check_utc": "2026-10-21T12:41:44.7075003+00:00",
-  "last_supervisor_summary": "Forest/high first submission inspected: four actual PNGs, ownership evidence and 46 delivery hashes pass. Runtime play-start evidence requested before approval/commit. Other seven working. MountainStation/medium UTC elapsed calculation corrected and verified. Latest token snapshot has no issues; all eight use gpt-6-astra with assigned efforts.",
+  "last_supervisor_check_utc": "2026-10-21T13:20:22.2719889+00:00",
+  "last_supervisor_summary": "Forest high/ultra and MountainStation high individually committed, first-delivery tokens frozen. Forest medium requires fresh final-ground registry verification; MountainStation medium requires failed Pawn movement correction. Forest xhigh and station xhigh/ultra still in progress. New Forest UV/image-generated texture/beach pass authorized and persisted; waiting for all four Forest initial commits.",
   "efforts": [
     {
       "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
       "hostId": "local",
       "effort": "medium",
       "dispatched_at_utc": "2026-10-21T12:11:37Z",
-      "status": "working",
-      "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:3",
+      "status": "supervisor_rework",
+      "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:8",
       "initial_turn_started_at_utc": "2026-10-21T12:11:42.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:50Z",
       "asset_root": "ForestDemo/Content/Forest/medium/",
-      "theme": "Forest"
+      "theme": "Forest",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Fresh process without asset regeneration: forced registry rescan for final GroundSmooth material slots and recursive deps; current graph incorrectly empty. Strengthen runtime ground hit actor evidence. Preserve first ready.",
+      "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z",
+      "first_ready_at_utc": "2026-10-21T13:08:52.1361498Z",
+      "first_ready_elapsed_seconds": 3422.1361498,
+      "first_dispatch_to_ready_seconds": 3435.1361498
     },
     {
       "threadId": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
       "hostId": "local",
       "effort": "high",
       "dispatched_at_utc": "2026-10-21T12:11:42Z",
-      "status": "supervisor_rework",
-      "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:3",
+      "status": "committed",
+      "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:8",
       "initial_turn_started_at_utc": "2026-10-21T12:11:46.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:54Z",
       "asset_root": "ForestDemo/Content/Forest/high/",
@@ -32,7 +38,42 @@
       "first_ready_elapsed_seconds": 1700.899003,
       "first_dispatch_to_ready_seconds": 1712.899003,
       "supervisor_review_started_at_utc": "2026-10-21T12:40:14Z",
-      "supervisor_required_followup": "Actual play world start, pawn possession and runtime collision/BeginPlay evidence. Existing actual PNGs inspected; no art redesign requested."
+      "supervisor_required_followup": "Actual play world start, pawn possession and runtime collision/BeginPlay evidence. Existing actual PNGs inspected; no art redesign requested.",
+      "first_commit_hash": "90ea6f99d308328340a732bf55357293f8a23088",
+      "first_commit_at_utc": "2026-10-21T13:09:52Z",
+      "first_commit_at_kst": "2026-10-21T22:09:52+09:00",
+      "accepted_ready_at_utc": "2026-10-21T13:02:06.461440Z",
+      "total_wall_to_accepted_ready_seconds": 3012.46144,
+      "dispatch_to_accepted_ready_seconds": 3024.46144,
+      "supplement_elapsed_seconds": 1242.46144,
+      "recorded_mutex_wait_seconds": 1175.9636311,
+      "token_usage_at_first_delivery": {
+        "theme": "Forest",
+        "effort": "high",
+        "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "high"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
+        "input_tokens": 17097083,
+        "cached_input_tokens": 16901632,
+        "uncached_input_tokens": 195451,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 64746,
+        "reasoning_output_tokens": 23486,
+        "total_tokens": 17161829,
+        "token_events_observed": 131,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:10:33.5549951+00:00",
+      "validation_summary": "46 delivered files hash-match scratch and manifest; own recursive packages only; non-WP; 100m footprint; four actual PNGs inspected; PIE possession, ground collision, movement input 2324.7596cm and native Hello automation passed. Nonfatal viewport realtime override ensure and DefaultPawn-only navigation documented."
     },
     {
       "threadId": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
@@ -40,23 +81,67 @@
       "effort": "xhigh",
       "dispatched_at_utc": "2026-10-21T12:11:46Z",
       "status": "working",
-      "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:3",
+      "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:7",
       "initial_turn_started_at_utc": "2026-10-21T12:11:49.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:57.0000000+00:00",
       "asset_root": "ForestDemo/Content/Forest/xhigh/",
-      "theme": "Forest"
+      "theme": "Forest",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings."
     },
     {
       "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
       "hostId": "local",
       "effort": "ultra",
       "dispatched_at_utc": "2026-10-21T12:11:49Z",
-      "status": "working",
-      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:3",
+      "status": "committed",
+      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:7",
       "initial_turn_started_at_utc": "2026-10-21T12:11:52.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:12:01Z",
       "asset_root": "ForestDemo/Content/Forest/ultra/",
-      "theme": "Forest"
+      "theme": "Forest",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings.",
+      "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z",
+      "runtime_player_evidence_checked_at_utc": "2026-10-21T12:54:06Z",
+      "runtime_player_evidence_finished_at_utc": "2026-10-21T12:51:55.386444+00:00",
+      "runtime_player_evidence_summary": "Actual PIE controller/DefaultPawn possession at PlayerStart, 200cm horizontal sweep, downward ground block, terrain and prop traces, normal exit. Logger present in running PIE; no separate Hello screen proof. Overall delivery still awaiting final material/render validation.",
+      "first_ready_at_utc": "2026-10-21T13:02:55.236892Z",
+      "accepted_ready_at_utc": "2026-10-21T13:02:55.236892Z",
+      "first_ready_elapsed_seconds": 3054.236892,
+      "first_dispatch_to_ready_seconds": 3066.236892,
+      "first_commit_hash": "f335695925b1ff23ea8633dee9449274f3378159",
+      "first_commit_at_utc": "2026-10-21T13:10:53Z",
+      "first_commit_at_kst": "2026-10-21T22:10:53+09:00",
+      "recorded_mutex_wait_seconds": 883.9417568,
+      "recorded_ue_execution_seconds": 558.7941098,
+      "token_usage_at_first_delivery": {
+        "theme": "Forest",
+        "effort": "ultra",
+        "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "ultra"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+        "input_tokens": 13293778,
+        "cached_input_tokens": 13070080,
+        "uncached_input_tokens": 223698,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 83318,
+        "reasoning_output_tokens": 34128,
+        "total_tokens": 13377096,
+        "token_events_observed": 95,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:12:54.7320007+00:00",
+      "validation_summary": "53 delivered files hash-match scratch/publication; own recursive dependencies only; 100m; non-WP; four actual PNGs inspected. PIE possession, 200cm direct pawn sweep, downward ground block and prop traces passed. Final water material was reloaded/rendered in production process; a new-process final-package reload remains required at integration. Bright overview water documented."
     }
   ],
   "completion_policy": "Supervisor validates and commits each (theme, effort) separately. Workers never stage or commit. Retire only baseline main after all eight approved; preserve four Forest plus four MountainStation maps.",
@@ -74,14 +159,21 @@
       "theme": "MountainStation",
       "effort": "medium",
       "dispatched_at_utc": "2026-10-21T12:26:57Z",
-      "status": "working",
+      "status": "supervisor_rework",
       "asset_root": "ForestDemo/Content/MountainStation/medium/",
       "map": "/Game/Maps/MountainStation_medium",
       "work_root": "ForestDemo/Work/MountainStation/medium/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/medium/",
-      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:3",
+      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:7",
       "initial_turn_started_at_utc": "2026-10-21T12:27:03.000Z",
-      "worker_started_at_utc": "2026-10-21T12:27:10Z"
+      "worker_started_at_utc": "2026-10-21T12:27:10Z",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Fix/verify failed actual Pawn movement, investigate backdrop persistence and runtime overlap/collision; independent Visibility sphere sweeps do not replace Pawn movement. Screenshots/capture_manifest.json required.",
+      "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z",
+      "first_ready_at_utc": "2026-10-21T13:05:26.4557133Z",
+      "first_ready_elapsed_seconds": 2296.4557133,
+      "first_dispatch_to_ready_seconds": 2309.4557133,
+      "movement_supplement_started_at_utc": "2026-10-21T13:15:03Z"
     },
     {
       "threadId": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
@@ -89,14 +181,51 @@
       "theme": "MountainStation",
       "effort": "high",
       "dispatched_at_utc": "2026-10-21T12:27:03Z",
-      "status": "working",
+      "status": "committed",
       "asset_root": "ForestDemo/Content/MountainStation/high/",
       "map": "/Game/Maps/MountainStation_high",
       "work_root": "ForestDemo/Work/MountainStation/high/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/high/",
-      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:2",
+      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:6",
       "initial_turn_started_at_utc": "2026-10-21T12:27:07.000Z",
-      "worker_started_at_utc": "2026-10-21T12:27:18Z"
+      "worker_started_at_utc": "2026-10-21T12:27:18Z",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings.",
+      "first_ready_at_utc": "2026-10-21T13:08:46.116387Z",
+      "first_ready_elapsed_seconds": 2488.116387,
+      "first_dispatch_to_ready_seconds": 2503.116387,
+      "first_commit_hash": "30571a354ab11068f170a63fe28211ed86131a01",
+      "first_commit_at_utc": "2026-10-21T13:17:47.0000000+00:00",
+      "first_commit_at_kst": "2026-10-21T22:17:47.0000000+09:00",
+      "recorded_mutex_wait_seconds": 1181.849,
+      "recorded_ue_execution_seconds": 205.757,
+      "token_usage_at_first_delivery": {
+        "theme": "MountainStation",
+        "effort": "high",
+        "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "high"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+        "input_tokens": 10670356,
+        "cached_input_tokens": 10494336,
+        "uncached_input_tokens": 176020,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 61023,
+        "reasoning_output_tokens": 18831,
+        "total_tokens": 10731379,
+        "token_events_observed": 96,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:17:48.4853579+00:00",
+      "validation_summary": "36 final packages SHA-256 match scratch/publication, recursive own package refs, 100m terrain/non-WP, persisted NoCollision backdrop on reload. Actual PIE possession, three ground/ramp/platform blocking pawn sweeps, 300cm platform movement and normal exit. Four actual common-view PNGs inspected. Exterior station, short standalone rock tunnel and indirect Hello evidence documented."
     },
     {
       "threadId": "01a15e6e-0712-76f0-9586-f65cc202196c",
@@ -109,9 +238,12 @@
       "map": "/Game/Maps/MountainStation_xhigh",
       "work_root": "ForestDemo/Work/MountainStation/xhigh/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/xhigh/",
-      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:3",
+      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:7",
       "initial_turn_started_at_utc": "2026-10-21T12:27:13.000Z",
-      "worker_started_at_utc": "2026-10-21T12:27:24Z"
+      "worker_started_at_utc": "2026-10-21T12:27:24Z",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings.",
+      "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z"
     },
     {
       "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
@@ -124,9 +256,30 @@
       "map": "/Game/Maps/MountainStation_ultra",
       "work_root": "ForestDemo/Work/MountainStation/ultra/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/ultra/",
-      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:3",
+      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:7",
       "initial_turn_started_at_utc": "2026-10-21T12:27:17.000Z",
-      "worker_started_at_utc": "2026-10-21T12:27:25.0000000+00:00"
+      "worker_started_at_utc": "2026-10-21T12:27:25.0000000+00:00",
+      "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
+      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings."
     }
-  ]
+  ],
+  "forest_texture_pass": {
+    "completed_initial_efforts": [
+      "high",
+      "ultra"
+    ],
+    "status": "waiting_for_four_first_delivery_commits",
+    "requirements": [
+      "UV islands on placed prop surfaces with consistent measured texel density, padding and overlap checks",
+      "Image-generated unique-surface textures, prompts, original outputs and mapping recorded per effort",
+      "Beach white foam, time-varying waves and underwater caustic bright patterns; state artistic approximation vs simulated refraction",
+      "No cross-effort/theme UV, texture, material, source-art or script inspection/reuse",
+      "Keep first delivery evidence/screenshots in owned FirstDelivery before dispatch; preserve initial timing/token/commit",
+      "Separate second-pass start/finish/wall, generation and UE wait/run time; token delta; actual common-view before/after screenshots and timed water evidence"
+    ],
+    "dispatch_policy": "Resume the same four Forest chats with original model/effort, once; supervisor owns all Git.",
+    "dispatched_efforts": [],
+    "prerequisite": "All four Forest first deliveries verified and individually committed; MountainStation completion is independent.",
+    "user_authorized_at_observed_utc": "2026-10-21T13:12:54.7361746+00:00"
+  }
 }

@@ -82,3 +82,31 @@ them in that single report alongside analysis, timings, validation and limitatio
 Final integration preserves all eight scene maps. Retire only baseline main.umap
 after all eight results are validated; never delete the other theme's maps to
 enforce the old four-map count. The default can remain /Game/Maps/medium.
+
+## Authorized Forest texture and beach follow-up
+
+After all four Forest first deliveries are reviewed and individually committed,
+the supervisor will dispatch a second pass to the same four Forest chats with
+their original efforts. Do not start this pass before that supervisor dispatch.
+MountainStation remains independent and its completion is not a prerequisite.
+
+The second pass assigns UV islands with consistent texel density to placed props
+such as trees and uses independently generated images as textures for their unique
+surfaces. Each worker records its UV density target, measured density/scale,
+padding, overlap checks and exceptions, plus image-generation prompts, original
+outputs and surface mapping within its own Work directory. Newly authored UVs,
+textures, materials and source images obey the same strict ownership boundaries;
+no cross-effort or cross-theme reuse or inspection is allowed.
+
+Improve beach detail with white foam, time-varying waves, and underwater bright
+caustic patterns. Document whether refraction/caustics are simulated or artistic
+approximations. Maintain the restrained rounded game art. Generated imagery is
+allowed for asset textures; screenshots remain actual UE renders, never generated
+scene evidence. Validate the updated saved map, runtime behavior, dependencies,
+UVs and materials, and recapture the common views plus timed water evidence.
+
+The supervisor preserves first-delivery evidence and screenshots under each
+Forest worker's Work/<effort>/FirstDelivery before dispatch. Preserve original
+start, completion, commit and frozen token records; record second-pass timings
+and token deltas separately. Workers still never commit. Supervisor completion
+includes this pass, its separate per-effort commits and before/after comparisons.

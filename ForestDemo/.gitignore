@@ -23,3 +23,11 @@ Plugins/**/Intermediate/
 .DS_Store
 Thumbs.db
 *.log
+
+# Keep reviewed evidence logs; omit generated Python caches and Blender backups
+!Work/**/Logs/*.log
+!Work/**/Evidence/*.log
+__pycache__/
+*.py[cod]
+*.blend1
+*.blend2
