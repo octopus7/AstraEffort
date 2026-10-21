@@ -6,7 +6,7 @@ tasks: medium, high, xhigh, ultra. The coordinating chat owns integration and Gi
 ## Worker ownership
 
 A worker assigned EFFORT may write only:
-- `ForestDemo/Content/EFFORT/**`
+- `ForestDemo/Content/Forest/EFFORT/**`
 - `ForestDemo/Content/Maps/EFFORT.umap` (level files only in Maps)
 - `ForestDemo/Work/EFFORT/**`
 - ignored scratch/output under `ForestDemo/Saved/Workers/EFFORT/**`
@@ -17,6 +17,13 @@ scripts, reports, or scratch project. `/Engine` built-in assets and baseline
 including generated textures, materials, meshes, and source artwork, belong to
 the assigned effort. No cross-effort asset references are allowed.
 
+Latest user change (2026-10-21 21:19:35 KST): add a Forest theme folder below
+Content. The only valid final asset root is `/Game/Forest/EFFORT/`; old
+`/Game/EFFORT/` references must be migrated/rebuilt inside the private project,
+resaved, and verified absent before publication. Do not move .uasset files with
+filesystem operations alone. Map paths stay `/Game/Maps/EFFORT` and Work/Saved
+paths stay unchanged. Record migration overhead without resetting work start time.
+
 Run asset production in a separate scratch UE project under your own ignored
 scratch directory; never launch a saving/editor-generation session against the
 shared ForestDemo project. Use separate background Blender processes if needed;
@@ -26,9 +33,9 @@ non-World-Partition, without external actors or external object packages, so
 all authored resources fit their ownership scope. Save and validate before
 copying only your owned final deliverables out of scratch.
 Use dynamic lighting; do not create map-adjacent baked-lighting BuiltData assets.
-Recursively validate /Game dependencies: only /Game/EFFORT assets may be used by
+Recursively validate /Game dependencies: only /Game/Forest/EFFORT assets may be used by
 your map, plus its own /Game/Maps/EFFORT package. Close the private editor before
-publishing the validated Content/EFFORT directory and EFFORT.umap.
+publishing the validated Content/Forest/EFFORT directory and EFFORT.umap.
 
 ## Git and future work
 

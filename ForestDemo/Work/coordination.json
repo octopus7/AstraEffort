@@ -11,7 +11,8 @@
       "status": "working",
       "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:1",
       "initial_turn_started_at_utc": "2026-10-21T12:11:42.0000000+00:00",
-      "worker_started_at_utc": "2026-10-21T12:11:50Z"
+      "worker_started_at_utc": "2026-10-21T12:11:50Z",
+      "asset_root": "ForestDemo/Content/Forest/medium/"
     },
     {
       "threadId": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
@@ -21,7 +22,8 @@
       "status": "working",
       "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:1",
       "initial_turn_started_at_utc": "2026-10-21T12:11:46.0000000+00:00",
-      "worker_started_at_utc": "2026-10-21T12:11:54Z"
+      "worker_started_at_utc": "2026-10-21T12:11:54Z",
+      "asset_root": "ForestDemo/Content/Forest/high/"
     },
     {
       "threadId": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
@@ -31,7 +33,8 @@
       "status": "working",
       "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:1",
       "initial_turn_started_at_utc": "2026-10-21T12:11:49.0000000+00:00",
-      "worker_started_at_utc": "2026-10-21T12:11:57.0000000+00:00"
+      "worker_started_at_utc": "2026-10-21T12:11:57.0000000+00:00",
+      "asset_root": "ForestDemo/Content/Forest/xhigh/"
     },
     {
       "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
@@ -41,11 +44,15 @@
       "status": "working",
       "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:1",
       "initial_turn_started_at_utc": "2026-10-21T12:11:52.0000000+00:00",
-      "worker_started_at_utc": "2026-10-21T12:12:01Z"
+      "worker_started_at_utc": "2026-10-21T12:12:01Z",
+      "asset_root": "ForestDemo/Content/Forest/ultra/"
     }
   ],
   "completion_policy": "Supervisor validates and commits each effort separately. Workers never stage or commit. Retire main after all four approved.",
   "automation_id": "forestdemo",
   "comparison_report": "ForestDemo/Work/SUPERVISION.md",
-  "screenshot_requirement": "overview.png, top_down.png, lake.png, beach.png plus capture_manifest.json under each Work/<effort>/Screenshots; actual UE renders, 1920x1080"
+  "screenshot_requirement": "overview.png, top_down.png, lake.png, beach.png plus capture_manifest.json under each Work/<effort>/Screenshots; actual UE renders, 1920x1080",
+  "asset_root": "ForestDemo/Content/Forest/<effort>/",
+  "asset_package_root": "/Game/Forest/<effort>/",
+  "asset_path_changed_at_utc": "2026-10-21T12:19:35Z"
 }

@@ -21,7 +21,7 @@ Preserve the baseline ScreenDebugLogger behavior in each map where practical.
 
 ## Isolation and integration
 
-- Assets: `ForestDemo/Content/<effort>/**`.
+- Assets: `ForestDemo/Content/Forest/<effort>/**`.
 - Map: `ForestDemo/Content/Maps/<effort>.umap`.
 - Scripts, source artwork, evidence, result: `ForestDemo/Work/<effort>/**`.
 - Private authoring project: `ForestDemo/Saved/Workers/<effort>/**` (ignored).
@@ -56,6 +56,10 @@ Missing timestamps remain unknown rather than estimated from a polling interval.
   completion, failure, a meaningful change, or a user decision needs attention.
 
 - All four chats confirmed active. Supervisor heartbeat: forestdemo, every 5 minutes.
+- 2026-10-21 21:19:35 KST: 사용자 요청으로 에셋 경로를
+  `Content/Forest/<effort>/` (`/Game/Forest/<effort>/`)로 변경했습니다.
+  레벨은 `Content/Maps/<effort>.umap`에 유지합니다. 제작 대화가 자기 scratch에서
+  패키지 경로와 참조를 갱신하고 재검증하며, 이 변경에 든 시간은 별도 기록합니다.
 
 ## 공통 캡처 기준
 
