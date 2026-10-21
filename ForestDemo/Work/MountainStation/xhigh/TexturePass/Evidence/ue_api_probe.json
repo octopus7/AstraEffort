@@ -1,0 +1,77 @@
+{
+  "GeometryScript_AssetUtils": {
+    "exists": true,
+    "matching_names": [],
+    "copy_mesh_from_static_mesh_v2": "X.copy_mesh_from_static_mesh_v2(from_static_mesh_asset, to_dynamic_mesh, asset_options, requested_lod, use_section_materials=True, debug=None) -> (DynamicMesh, outcome=GeometryScriptOutcomePins)\r\nExtracts a Dynamic Mesh from a Static Mesh Asset.\n\nNote that the LOD Index in RequestedLOD will be silently clamped to the available number of LODs (SourceModel or RenderData)\r\n\r\nArgs:\r\n    from_static_mesh_asset (StaticMesh): \r\n    to_dynamic_mesh (DynamicMesh): \r\n    asset_options (GeometryScriptCopyMeshFromAssetOptions): \r\n    requested_lod (GeometryScriptMeshReadLOD): \r\n    use_section_materials (bool): Whether to use the mesh section indices as material IDs. If true, use GetSectionMaterialListFromStaticMesh to get the corresponding materials. If false, use GetMaterialListFromStaticMesh to get the materials instead.\r\n    debug (GeometryScriptDebug): \r\n\r\nReturns:\r\n    GeometryScriptOutcomePins: \r\n\r\n    outcome (GeometryScriptOutcomePins):"
+  },
+  "GeometryScript_MeshQueries": {
+    "exists": true,
+    "matching_names": [
+      "compute_triangle_barycentric_coords",
+      "get_all_triangle_i_ds",
+      "get_all_triangle_indices",
+      "get_all_uv_seam_edges",
+      "get_has_triangle_id_gaps",
+      "get_has_triangle_normals",
+      "get_interpolated_triangle_normal",
+      "get_interpolated_triangle_normal_tangents",
+      "get_interpolated_triangle_position",
+      "get_interpolated_triangle_uv",
+      "get_interpolated_triangle_vertex_color",
+      "get_mesh_uv_area",
+      "get_num_triangle_i_ds",
+      "get_num_uv_islands",
+      "get_num_uv_sets",
+      "get_triangle_face_normal",
+      "get_triangle_indices",
+      "get_triangle_normal_tangents",
+      "get_triangle_normals",
+      "get_triangle_positions",
+      "get_triangle_u_vs",
+      "get_triangle_vertex_colors",
+      "get_uv_set_bounding_box",
+      "get_vertex_connected_triangles",
+      "is_valid_triangle_id"
+    ],
+    "get_triangle_positions": "X.get_triangle_positions(target_mesh, triangle_id) -> (is_valid_triangle=bool, vertex1=Vector, vertex2=Vector, vertex3=Vector)\r\n* Returns the 3D positions (in the mesh local space) of the three vertices of the requested triangle.\n* If the Triangle ID is not an element of the Target Mesh, all three vertices will be returned as (0, 0, 0) and bIsValidTriangle will be set to false.\r\n\r\nArgs:\r\n    target_mesh (DynamicMesh): \r\n    triangle_id (int32): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    is_valid_triangle (bool): \r\n\r\n    vertex1 (Vector): \r\n\r\n    vertex2 (Vector): \r\n\r\n    vertex3 (Vector):",
+    "get_triangle_u_vs": "X.get_triangle_u_vs(target_mesh, uv_set_index, triangle_id) -> (uv1=Vector2D, uv2=Vector2D, uv3=Vector2D, have_valid_u_vs=bool)\r\nReturns the UV values associated with the three vertices of the triangle in the specified UV Channel.\nIf the Triangle does not exist in the mesh or if no UVs are set in the specified UV Channel for the triangle, the resulting values will be (0,0) and bHaveValidUVs will be set to false.\r\n\r\nArgs:\r\n    target_mesh (DynamicMesh): \r\n    uv_set_index (int32): \r\n    triangle_id (int32): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    uv1 (Vector2D): \r\n\r\n    uv2 (Vector2D): \r\n\r\n    uv3 (Vector2D): \r\n\r\n    have_valid_u_vs (bool):",
+    "get_all_triangle_i_ds": "X.get_all_triangle_i_ds(target_mesh) -> (DynamicMesh, triangle_id_list=GeometryScriptIndexList, has_triangle_id_gaps=bool)\r\nReturns an Index List of all Triangle IDs in a mesh.\r\n\r\nArgs:\r\n    target_mesh (DynamicMesh): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    triangle_id_list (GeometryScriptIndexList): \r\n\r\n    has_triangle_id_gaps (bool): will be true on return if there are breaks in the sequential numeration of Triangle IDs, as would happen after deleting triangles.",
+    "get_mesh_volume_area": "X.get_mesh_volume_area(target_mesh) -> (surface_area=float, volume=float)\r\nComputes the volume and area of the mesh.\r\n\r\nArgs:\r\n    target_mesh (DynamicMesh): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    surface_area (float): \r\n\r\n    volume (float):"
+  },
+  "GeometryScript_ListUtilityFunctions": {
+    "exists": false,
+    "matching_names": [],
+    "convert_index_list_to_array": "None"
+  },
+  "GeometryScript_Materials": {
+    "exists": true,
+    "matching_names": [
+      "delete_triangles_by_material_id",
+      "get_all_triangle_material_i_ds",
+      "get_material_i_ds_of_triangles",
+      "get_triangle_material_id",
+      "get_triangles_by_material_id",
+      "set_all_triangle_material_i_ds",
+      "set_material_id_on_triangles",
+      "set_triangle_material_id"
+    ],
+    "get_all_triangle_material_i_ds": "X.get_all_triangle_material_i_ds(target_mesh) -> (DynamicMesh, material_id_list=GeometryScriptIndexList, has_material_i_ds=bool)\r\nReturns an Index List of all triangle Material IDs, constructed with one entry for each consecutive Triangle ID.\nIf Material IDs are not enabled on the mesh, bHasMaterialsIDs will be set to false on return and nothing will be added to the Material ID List.\r\nwarning: if the mesh is not Triangle-Compact (eg GetHasTriangleIDGaps == false) then the returned list will also have the same gaps where the number -1 will be recorded for any missing Triangle IDs.\r\n\r\nArgs:\r\n    target_mesh (DynamicMesh): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    material_id_list (GeometryScriptIndexList): \r\n\r\n    has_material_i_ds (bool):"
+  },
+  "MaterialEditingLibrary": {
+    "exists": true,
+    "matching_names": [
+      "get_material_property_input_node",
+      "get_material_property_input_node_output_name",
+      "get_used_textures"
+    ],
+    "get_used_textures": "X.get_used_textures(material) -> Array[Texture]\r\nGet the list of textures used by a material\r\n\r\nArgs:\r\n    material (Material): \r\n\r\nReturns:\r\n    Array[Texture]:",
+    "get_inputs_for_material_expression": "X.get_inputs_for_material_expression(material, material_expression) -> Array[MaterialExpression]\r\nGet the set of nodes acting as inputs to a node from an active material editor\r\n\r\nArgs:\r\n    material (Material): \r\n    material_expression (MaterialExpression): \r\n\r\nReturns:\r\n    Array[MaterialExpression]:",
+    "get_material_property_input_node": "X.get_material_property_input_node(material, property_) -> MaterialExpression\r\nGet the node providing the output for a given material property from an active material editor\r\n\r\nArgs:\r\n    material (Material): \r\n    property_ (MaterialProperty): \r\n\r\nReturns:\r\n    MaterialExpression:"
+  },
+  "Texture2D": {
+    "exists": true,
+    "matching_names": [],
+    "blueprint_get_size_x": "x.blueprint_get_size_x() -> int32\r\nGets the X size of the texture, in pixels\r\n\r\nReturns:\r\n    int32:",
+    "blueprint_get_size_y": "x.blueprint_get_size_y() -> int32\r\nGets the Y size of the texture, in pixels\r\n\r\nReturns:\r\n    int32:"
+  }
+}

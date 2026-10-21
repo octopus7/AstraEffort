@@ -1,0 +1,208 @@
+{
+  "texture_pass_started_at_utc": "2026-10-21T14:47:03+00:00",
+  "pie_requested_at_utc": "2026-10-21T15:02:12.131308+00:00",
+  "checks": {
+    "actual_pie_world": true,
+    "controller_exists": true,
+    "pawn_exists": true,
+    "controller_possesses_pawn": true,
+    "spawn_at_player_start": true,
+    "native_hello_in_game_world": true,
+    "short_move_100cm": true,
+    "runtime_floor_heights": true,
+    "runtime_pawn_sweeps_blocked": true,
+    "normal_pie_end": true
+  },
+  "errors": [],
+  "limitations": [
+    "DefaultPawn uses floating movement. These are real collision sweeps, not a new character controller or railway simulation."
+  ],
+  "spawn_setting_note": "module 'unreal' has no attribute 'LevelEditorPlaySettings'",
+  "game_world": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh",
+  "pie_started_at_utc": "2026-10-21T15:02:12.190311+00:00",
+  "hello_viewport_screenshot_requested_at_utc": "2026-10-21T15:02:13.707577+00:00",
+  "controller": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.PlayerController_0",
+  "pawn": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.DefaultPawn_0",
+  "pawn_class": "/Script/Engine.DefaultPawn",
+  "initial_location_cm": [
+    -3800.0,
+    -300.0,
+    135.0
+  ],
+  "player_start_locations_cm": [
+    [
+      -3800.0,
+      -300.0,
+      135.0
+    ]
+  ],
+  "native_hello_actors": [
+    "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.ScreenDebugLogger_0"
+  ],
+  "hello_source_sha256": "9c460b896ceb3719d8cd6fff65ddf586e7fbf05629e7b1d3d7630df9a64a5ad0",
+  "hello_implementation": "Unmodified baseline native BeginPlay adds green Hello for 10 seconds. Separate runtime_hello.png is requested during that interval; visual verification recorded separately.",
+  "short_move": {
+    "from": [
+      -3800.0,
+      -300.0,
+      135.0
+    ],
+    "target": [
+      -3700.0,
+      -300.0,
+      135.0
+    ],
+    "reached": [
+      -3700.0,
+      -300.0,
+      135.0
+    ],
+    "sweep": {
+      "blocking": false,
+      "initial_overlap": false,
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actor": null,
+      "actor_label": null,
+      "component": null,
+      "mesh": null
+    }
+  },
+  "floor_traces": [
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3800.0,
+        -300.0,
+        28.000009059906006
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_2",
+      "actor_label": "Alder_Paths",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/xhigh/Meshes/SM_Paths.SM_Paths",
+      "name": "approach",
+      "height_correct": true
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3200.0,
+        -600.0,
+        73.50001931190491
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3",
+      "actor_label": "Alder_Platform",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/xhigh/Meshes/SM_Platform.SM_Platform",
+      "name": "ramp_middle",
+      "height_correct": true
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -2200.0,
+        -1250.0,
+        121.999990940094
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3",
+      "actor_label": "Alder_Platform",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/xhigh/Meshes/SM_Platform.SM_Platform",
+      "name": "platform",
+      "height_correct": true
+    }
+  ],
+  "blocking_pawn_sweeps": [
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3800.0,
+        -300.0,
+        65.56373834609985
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_2",
+      "actor_label": "Alder_Paths",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/xhigh/Meshes/SM_Paths.SM_Paths",
+      "movement_start_cm": [
+        -3800.0,
+        -300.0,
+        450.0
+      ],
+      "positive_distance_cm": 382.8362703323364,
+      "name": "approach",
+      "pawn_stopped_at_cm": [
+        -3800.0,
+        -300.0,
+        67.16372966766357
+      ],
+      "same_ground_actor_as_trace": true,
+      "same_component_mesh_as_trace": true
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3200.0,
+        -600.0,
+        108.75635147094727
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3",
+      "actor_label": "Alder_Platform",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/xhigh/Meshes/SM_Platform.SM_Platform",
+      "movement_start_cm": [
+        -3200.0,
+        -600.0,
+        450.0
+      ],
+      "positive_distance_cm": 339.643657207489,
+      "name": "ramp_middle",
+      "pawn_stopped_at_cm": [
+        -3200.0,
+        -600.0,
+        110.35634279251099
+      ],
+      "same_ground_actor_as_trace": true,
+      "same_component_mesh_as_trace": true
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -2200.0,
+        -1250.0,
+        157.00002908706665
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3",
+      "actor_label": "Alder_Platform",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/xhigh/Meshes/SM_Platform.SM_Platform",
+      "movement_start_cm": [
+        -2200.0,
+        -1250.0,
+        450.0
+      ],
+      "positive_distance_cm": 291.39997959136963,
+      "name": "platform",
+      "pawn_stopped_at_cm": [
+        -2200.0,
+        -1250.0,
+        158.60002040863037
+      ],
+      "same_ground_actor_as_trace": true,
+      "same_component_mesh_as_trace": true
+    }
+  ],
+  "checks_completed_at_utc": "2026-10-21T15:02:15.215612+00:00",
+  "finished_at_utc": "2026-10-21T15:02:15.278188+00:00",
+  "pie_execution_seconds": 3.1468803882598877,
+  "success": true
+}

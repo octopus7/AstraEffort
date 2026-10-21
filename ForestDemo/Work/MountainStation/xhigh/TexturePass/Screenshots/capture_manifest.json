@@ -1,0 +1,155 @@
+{
+  "theme": "MountainStation",
+  "effort": "xhigh",
+  "map": "/Game/Maps/MountainStation_xhigh",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 22,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scalability": "High (all sg groups 2)",
+  "screen_percentage": 100,
+  "renderer": "UE 5.7 SceneCapture2D FinalColorLDR, offscreen D3D12, dynamic raster lighting",
+  "debug_ui": "SceneCapture does not draw editor overlays; screen messages disabled for evidence only",
+  "captures": [
+    {
+      "name": "overview",
+      "position": [
+        12000,
+        -12000,
+        16022
+      ],
+      "target": [
+        0,
+        0,
+        22
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "captured_at_utc": "2026-10-21T15:01:35.314194+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 2244875,
+      "sha256": "3167c4f8c8bbc4153b76bc97993b015e154af8c6c902767572b9a7d9c0182f74",
+      "file_modified_at_utc": "2026-10-21T15:01:35.314194+00:00",
+      "captured_at_kst": "2026-10-22T00:01:35.314194+09:00"
+    },
+    {
+      "name": "top_down",
+      "position": [
+        0,
+        0,
+        20022
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "captured_at_utc": "2026-10-21T15:01:47.561426+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 3090912,
+      "sha256": "b8eba48527d8b005168cc8321b748c12bd0c24c1e02010c4c3cf5186e29ebef5",
+      "file_modified_at_utc": "2026-10-21T15:01:47.561426+00:00",
+      "captured_at_kst": "2026-10-22T00:01:47.561426+09:00"
+    },
+    {
+      "name": "platform",
+      "position": [
+        1380,
+        -1080,
+        292
+      ],
+      "target": [
+        -1100,
+        -970,
+        310
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        0.41544071819700934,
+        177.46031954965932,
+        -9.967401030306743e-09
+      ],
+      "captured_at_utc": "2026-10-21T15:01:59.844251+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 3090912,
+      "sha256": "85b9f27291d0122639362271f1d65fa22998f43d6a2f10e88847342b293e995b",
+      "file_modified_at_utc": "2026-10-21T15:01:59.844251+00:00",
+      "captured_at_kst": "2026-10-22T00:01:59.844251+09:00"
+    },
+    {
+      "name": "tracks",
+      "position": [
+        2000,
+        -920,
+        192
+      ],
+      "target": [
+        3250,
+        -900,
+        350
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        7.2030704719240015,
+        0.9166542563852877,
+        -8.903362998022658e-10
+      ],
+      "captured_at_utc": "2026-10-21T15:02:12.109068+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 3090912,
+      "sha256": "d13852e232aff5c44a2dedd1f84bdee19f0777398d9f5e79c564478070399916",
+      "file_modified_at_utc": "2026-10-21T15:02:12.109068+00:00",
+      "captured_at_kst": "2026-10-22T00:02:12.109068+09:00"
+    }
+  ],
+  "actual_console_values": {
+    "sg.ViewDistanceQuality": 2,
+    "sg.AntiAliasingQuality": 2,
+    "sg.ShadowQuality": 2,
+    "sg.GlobalIlluminationQuality": 2,
+    "sg.ReflectionQuality": 2,
+    "sg.PostProcessQuality": 2,
+    "sg.TextureQuality": 2,
+    "sg.EffectsQuality": 2,
+    "sg.FoliageQuality": 2,
+    "sg.ShadingQuality": 2,
+    "r.ScreenPercentage": 100
+  },
+  "first_delivery_camera_reference": "../FirstDelivery/Screenshots/capture_manifest.json",
+  "render_target_format": "RTF_RGBA8_SRGB (native sRGB output, no image post-processing)",
+  "elapsed_seconds": 72.21210646629333,
+  "first_delivery_exact_camera_match": true,
+  "first_delivery_manifest_sha256": "a40e32be015857f0fc00c9a0e7a90f4bb4346b946328d79be602e92c191e0f15",
+  "file_metadata_verified_at_utc": "2026-10-21T15:04:52.042170+00:00"
+}

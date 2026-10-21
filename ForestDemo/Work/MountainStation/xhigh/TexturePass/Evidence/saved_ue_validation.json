@@ -1,0 +1,996 @@
+{
+  "started_at_utc": "2026-10-21T15:00:56.215562+00:00",
+  "scope": "New process. Saved SourceModel and RenderData LOD0: complete triangle/material inventories, aggregate geometric/UV areas and island count; deterministic samples up to 256 triangles per material per LOD for individual density and placed geometry. Source Blender audit is exhaustive. Saved UE individual densities are sampled, not exhaustive.",
+  "materials": {
+    "Timber": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Timber.M_Timber",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Wood.T_Wood"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Wood.T_Wood",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Wood": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Wood.M_Wood",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Wood.T_Wood"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Wood.T_Wood",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Cargo": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Cargo.M_Cargo",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Wood.T_Wood"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Wood.T_Wood",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Rock": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Rock.M_Rock",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "RockLight": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_RockLight.M_RockLight",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Ballast": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Ballast.M_Ballast",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Trail": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Trail.M_Trail",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Paving": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Paving.M_Paving",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "EdgeStone": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_EdgeStone.M_EdgeStone",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Plaster": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Plaster.M_Plaster",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Earth": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Earth.M_Earth",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Mineral.T_Mineral",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Roof": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Roof.M_Roof",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "RoofSeam": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_RoofSeam.M_RoofSeam",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Metal": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Metal.M_Metal",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Rail": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Rail.M_Rail",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Red": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Red.M_Red",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_PaintedMetal.T_PaintedMetal",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Pine": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Pine.M_Pine",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "PineLight": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_PineLight.M_PineLight",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Bush": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Bush.M_Bush",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "Grass": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_Grass.M_Grass",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    },
+    "GrassLight": {
+      "saved_material": "/Game/MountainStation/xhigh/Materials/M_GrassLight.M_GrassLight",
+      "compiled_used_textures": [
+        "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage"
+      ],
+      "expected_texture": "/Game/MountainStation/xhigh/Textures/T_Foliage.T_Foliage",
+      "resolution": [
+        1254,
+        1254
+      ],
+      "srgb": false,
+      "mips": "<TextureMipGenSettings.TMGS_NO_MIPMAPS: 13>",
+      "address_x": "<TextureAddress.TA_WRAP: 0>",
+      "address_y": "<TextureAddress.TA_WRAP: 0>",
+      "uv_channel": 0,
+      "uv_multiplier": 1,
+      "binding_verified": true
+    }
+  },
+  "meshes": {
+    "Cargo": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_0",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F09D6780B8) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 319.99671630418374,
+      "lods": {
+        "source": {
+          "all_triangles": 24876,
+          "all_surface_area_m2": 319.996725,
+          "all_uv_area": 13.337206784599402,
+          "area_weighted_density_px_per_m": 256.0101664945324,
+          "all_island_count": 15454,
+          "material_triangle_counts": {
+            "0": 188,
+            "1": 752,
+            "2": 188,
+            "3": 10596,
+            "4": 1128,
+            "5": 752,
+            "6": 11272
+          },
+          "sampled_triangles": 1656,
+          "missing_samples": 0,
+          "sample_regular_min": 255.8659065023745,
+          "sample_regular_max": 256.10025591970134,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 577,
+          "source_area_relative_difference": 2.7174704708698982e-08,
+          "sample_file": "Cargo_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 24876,
+          "all_surface_area_m2": 319.996725,
+          "all_uv_area": 13.337206784599402,
+          "area_weighted_density_px_per_m": 256.0101664945324,
+          "all_island_count": 18881,
+          "material_triangle_counts": {
+            "0": 188,
+            "1": 752,
+            "2": 188,
+            "3": 10596,
+            "4": 1128,
+            "5": 752,
+            "6": 11272
+          },
+          "sampled_triangles": 1656,
+          "missing_samples": 0,
+          "sample_regular_min": 255.9355236541186,
+          "sample_regular_max": 256.0931708257179,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 571,
+          "source_area_relative_difference": 2.7174704708698982e-08,
+          "sample_file": "Cargo_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "LandscapeDetails": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_1",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails.SM_LandscapeDetails",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FD8F8) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 6354.631666543285,
+      "lods": {
+        "source": {
+          "all_triangles": 166937,
+          "all_surface_area_m2": 6354.6316,
+          "all_uv_area": 265.1979567296221,
+          "area_weighted_density_px_per_m": 256.1754066545441,
+          "all_island_count": 142311,
+          "material_triangle_counts": {
+            "0": 26772,
+            "1": 26607,
+            "2": 53439,
+            "3": 1280,
+            "4": 2320,
+            "5": 3520,
+            "6": 52999
+          },
+          "sampled_triangles": 1792,
+          "missing_samples": 0,
+          "sample_regular_min": 255.81074386254636,
+          "sample_regular_max": 256.1751766458221,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 367,
+          "source_area_relative_difference": 1.0471619571461588e-08,
+          "sample_file": "LandscapeDetails_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 166937,
+          "all_surface_area_m2": 6354.6316,
+          "all_uv_area": 265.1979567296221,
+          "area_weighted_density_px_per_m": 256.1754066545441,
+          "all_island_count": 157971,
+          "material_triangle_counts": {
+            "0": 26772,
+            "1": 26607,
+            "2": 53439,
+            "3": 1280,
+            "4": 2320,
+            "5": 3520,
+            "6": 52999
+          },
+          "sampled_triangles": 1792,
+          "missing_samples": 0,
+          "sample_regular_min": 255.81074386254636,
+          "sample_regular_max": 256.1751766458221,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 367,
+          "source_area_relative_difference": 1.0471619571461588e-08,
+          "sample_file": "LandscapeDetails_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Paths": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_2",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Paths.SM_Paths",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FDA38) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 369.84466493553595,
+      "lods": {
+        "source": {
+          "all_triangles": 1310,
+          "all_surface_area_m2": 369.8447,
+          "all_uv_area": 15.413615129888058,
+          "area_weighted_density_px_per_m": 256.00007472725304,
+          "all_island_count": 881,
+          "material_triangle_counts": {
+            "0": 218,
+            "1": 1092
+          },
+          "sampled_triangles": 474,
+          "missing_samples": 0,
+          "sample_regular_min": 255.95499692834025,
+          "sample_regular_max": 256.02300728779005,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 13,
+          "source_area_relative_difference": 9.48086247287705e-08,
+          "sample_file": "Paths_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 1310,
+          "all_surface_area_m2": 369.8447,
+          "all_uv_area": 15.413615129888058,
+          "area_weighted_density_px_per_m": 256.00007472725304,
+          "all_island_count": 1040,
+          "material_triangle_counts": {
+            "0": 218,
+            "1": 1092
+          },
+          "sampled_triangles": 474,
+          "missing_samples": 0,
+          "sample_regular_min": 255.95643753988645,
+          "sample_regular_max": 256.02831526025693,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 12,
+          "source_area_relative_difference": 9.48086247287705e-08,
+          "sample_file": "Paths_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Platform": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Platform.SM_Platform",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FDCB8) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 1124.317398036157,
+      "lods": {
+        "source": {
+          "all_triangles": 13118,
+          "all_surface_area_m2": 1124.3174,
+          "all_uv_area": 46.85676024630084,
+          "area_weighted_density_px_per_m": 255.99954845665337,
+          "all_island_count": 8011,
+          "material_triangle_counts": {
+            "0": 698,
+            "1": 10716,
+            "2": 172,
+            "3": 28,
+            "4": 1504
+          },
+          "sampled_triangles": 968,
+          "missing_samples": 0,
+          "sample_regular_min": 255.95754363917337,
+          "sample_regular_max": 256.05107190079013,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 346,
+          "source_area_relative_difference": 1.7466978974312042e-09,
+          "sample_file": "Platform_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 13118,
+          "all_surface_area_m2": 1124.3174,
+          "all_uv_area": 46.85676024630084,
+          "area_weighted_density_px_per_m": 255.99954845665337,
+          "all_island_count": 10910,
+          "material_triangle_counts": {
+            "0": 698,
+            "1": 10716,
+            "2": 172,
+            "3": 28,
+            "4": 1504
+          },
+          "sampled_triangles": 968,
+          "missing_samples": 0,
+          "sample_regular_min": 255.95567878868144,
+          "sample_regular_max": 256.0417200835584,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 353,
+          "source_area_relative_difference": 1.7466978974312042e-09,
+          "sample_file": "Platform_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Props": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_4",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Props.SM_Props",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FEA28) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 141.58509479874473,
+      "lods": {
+        "source": {
+          "all_triangles": 130680,
+          "all_surface_area_m2": 141.5850875,
+          "all_uv_area": 5.931077047975577,
+          "area_weighted_density_px_per_m": 256.65844731432713,
+          "all_island_count": 85637,
+          "material_triangle_counts": {
+            "0": 20304,
+            "1": 3948,
+            "2": 37676,
+            "3": 968,
+            "4": 376,
+            "5": 936,
+            "6": 66472
+          },
+          "sampled_triangles": 1792,
+          "missing_samples": 0,
+          "sample_regular_min": 255.92769233802517,
+          "sample_regular_max": 256.0896125239231,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 999,
+          "source_area_relative_difference": 5.155023385938762e-08,
+          "sample_file": "Props_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 130680,
+          "all_surface_area_m2": 141.5850875,
+          "all_uv_area": 5.931077047975577,
+          "area_weighted_density_px_per_m": 256.65844731432713,
+          "all_island_count": 98961,
+          "material_triangle_counts": {
+            "0": 20304,
+            "1": 3948,
+            "2": 37676,
+            "3": 968,
+            "4": 376,
+            "5": 936,
+            "6": 66472
+          },
+          "sampled_triangles": 1792,
+          "missing_samples": 0,
+          "sample_regular_min": 255.92769233802517,
+          "sample_regular_max": 256.0896125239231,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 999,
+          "source_area_relative_difference": 5.155023385938762e-08,
+          "sample_file": "Props_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Railway": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_5",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Railway.SM_Railway",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FDB78) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 1030.1391627599583,
+      "lods": {
+        "source": {
+          "all_triangles": 97056,
+          "all_surface_area_m2": 1030.1392,
+          "all_uv_area": 43.178955604322255,
+          "area_weighted_density_px_per_m": 256.7353354770047,
+          "all_island_count": 68807,
+          "material_triangle_counts": {
+            "0": 572,
+            "1": 26884,
+            "2": 27072,
+            "3": 13728,
+            "4": 28800
+          },
+          "sampled_triangles": 1280,
+          "missing_samples": 0,
+          "sample_regular_min": 255.70829601606738,
+          "sample_regular_max": 256.09672572746786,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 217,
+          "source_area_relative_difference": 3.615049615213195e-08,
+          "sample_file": "Railway_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 97056,
+          "all_surface_area_m2": 1030.1392,
+          "all_uv_area": 43.178955604322255,
+          "area_weighted_density_px_per_m": 256.7353354770047,
+          "all_island_count": 82564,
+          "material_triangle_counts": {
+            "0": 572,
+            "1": 26884,
+            "2": 27072,
+            "3": 13728,
+            "4": 28800
+          },
+          "sampled_triangles": 1280,
+          "missing_samples": 0,
+          "sample_regular_min": 255.6826672762211,
+          "sample_regular_max": 256.10436723898545,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 211,
+          "source_area_relative_difference": 3.615049615213195e-08,
+          "sample_file": "Railway_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Station": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_6",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Station.SM_Station",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FEC58) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 1213.996974914322,
+      "lods": {
+        "source": {
+          "all_triangles": 57054,
+          "all_surface_area_m2": 1213.9971,
+          "all_uv_area": 50.68778242392,
+          "area_weighted_density_px_per_m": 256.2361247439548,
+          "all_island_count": 35830,
+          "material_triangle_counts": {
+            "0": 376,
+            "1": 190,
+            "2": 27540,
+            "3": 908,
+            "4": 10416,
+            "5": 564,
+            "6": 468,
+            "7": 14428,
+            "8": 376,
+            "9": 800,
+            "10": 800,
+            "11": 188
+          },
+          "sampled_triangles": 2938,
+          "missing_samples": 0,
+          "sample_regular_min": 255.90488971265353,
+          "sample_regular_max": 256.07570327536575,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 1116,
+          "source_area_relative_difference": 1.0303623532159634e-07,
+          "sample_file": "Station_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 57054,
+          "all_surface_area_m2": 1213.9971,
+          "all_uv_area": 50.68778242392,
+          "area_weighted_density_px_per_m": 256.2361247439548,
+          "all_island_count": 43112,
+          "material_triangle_counts": {
+            "0": 376,
+            "1": 190,
+            "2": 27540,
+            "3": 908,
+            "4": 10416,
+            "5": 564,
+            "6": 468,
+            "7": 14428,
+            "8": 376,
+            "9": 800,
+            "10": 800,
+            "11": 188
+          },
+          "sampled_triangles": 2938,
+          "missing_samples": 0,
+          "sample_regular_min": 255.9297046077952,
+          "sample_regular_max": 256.0629318721132,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 1107,
+          "source_area_relative_difference": 1.0303623532159634e-07,
+          "sample_file": "Station_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Terrain": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_7",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Terrain.SM_Terrain",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FF8D8) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 33377.301123378165,
+      "lods": {
+        "source": {
+          "all_triangles": 20956,
+          "all_surface_area_m2": 33377.2992,
+          "all_uv_area": 1391.0158765595406,
+          "area_weighted_density_px_per_m": 255.9988321103702,
+          "all_island_count": 15223,
+          "material_triangle_counts": {
+            "0": 20000,
+            "1": 956
+          },
+          "sampled_triangles": 512,
+          "missing_samples": 0,
+          "sample_regular_min": 255.9572114856253,
+          "sample_regular_max": 256.05341084761017,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 0,
+          "source_area_relative_difference": 5.762533517028601e-08,
+          "sample_file": "Terrain_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 20956,
+          "all_surface_area_m2": 33377.2992,
+          "all_uv_area": 1391.0158765595406,
+          "area_weighted_density_px_per_m": 255.9988321103702,
+          "all_island_count": 15332,
+          "material_triangle_counts": {
+            "0": 20000,
+            "1": 956
+          },
+          "sampled_triangles": 512,
+          "missing_samples": 0,
+          "sample_regular_min": 255.9570594891893,
+          "sample_regular_max": 256.0531612063183,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 0,
+          "source_area_relative_difference": 5.762533517028601e-08,
+          "sample_file": "Terrain_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    },
+    "Tunnel": {
+      "actor": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_8",
+      "component": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0",
+      "asset": "/Game/MountainStation/xhigh/Meshes/SM_Tunnel.SM_Tunnel",
+      "placement_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "build_scale": "<Struct 'Vector' (0x000001F0CB2FFB08) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "full_precision_uvs": true,
+      "source_reference_area_m2": 3087.935567515458,
+      "lods": {
+        "source": {
+          "all_triangles": 11040,
+          "all_surface_area_m2": 3087.9354,
+          "all_uv_area": 128.6925269518979,
+          "area_weighted_density_px_per_m": 256.000078011438,
+          "all_island_count": 7904,
+          "material_triangle_counts": {
+            "0": 3572,
+            "1": 5608,
+            "2": 1660,
+            "3": 12,
+            "4": 188
+          },
+          "sampled_triangles": 968,
+          "missing_samples": 0,
+          "sample_regular_min": 255.93617577650141,
+          "sample_regular_max": 256.0581332749136,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 63,
+          "source_area_relative_difference": 5.424836579948078e-08,
+          "sample_file": "Tunnel_source_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        },
+        "render": {
+          "all_triangles": 11040,
+          "all_surface_area_m2": 3087.9354,
+          "all_uv_area": 128.6925269518979,
+          "area_weighted_density_px_per_m": 256.000078011438,
+          "all_island_count": 9917,
+          "material_triangle_counts": {
+            "0": 3572,
+            "1": 5608,
+            "2": 1660,
+            "3": 12,
+            "4": 188
+          },
+          "sampled_triangles": 968,
+          "missing_samples": 0,
+          "sample_regular_min": 255.93617577650141,
+          "sample_regular_max": 256.04808276680296,
+          "sample_regular_outside_2pct": 0,
+          "sample_tiny_under_16_target_pixels": 82,
+          "source_area_relative_difference": 5.424836579948078e-08,
+          "sample_file": "Tunnel_render_uv_samples.json",
+          "saved_overlap_padding_scope": "Source full island shelf audit proves >=8px nominal padding in unbounded UV plane. UE island count/UV area and per-material sample coordinates rechecked; no exhaustive saved-UE island intersection/padding claim. Modulo-one tile reuse deliberately overlaps."
+        }
+      }
+    }
+  },
+  "errors": [],
+  "private_package_hashes": {
+    "MountainStation\\xhigh\\Materials\\M_Amber.uasset": "0e012cd50cf9e3e230b12f840ca2be53d1e3ebae3a5b0a3c9b0b9771af0d26a4",
+    "MountainStation\\xhigh\\Materials\\M_Backdrop.uasset": "4b51f3dc88d1a4cc0addf162a79546c9a379cb23c7e37737cdb691527cc75714",
+    "MountainStation\\xhigh\\Materials\\M_Ballast.uasset": "ce1dd9244ae0b4fe8cfd6b7c6be805e77da8c7a71505a2997d70bd03f475561e",
+    "MountainStation\\xhigh\\Materials\\M_Bush.uasset": "22e4684fe9a7d74a602f19c9fb6f0b5d24493769142e7147255d80db47b9d86d",
+    "MountainStation\\xhigh\\Materials\\M_Cargo.uasset": "3322de297817590918b139cfa1d023f27370477d8e421887b5208e51b9b7c7ec",
+    "MountainStation\\xhigh\\Materials\\M_Cream.uasset": "f0b636f51b2c4b35e84249c3608e54236a529af37e154b662721f46c2b0df706",
+    "MountainStation\\xhigh\\Materials\\M_Dark.uasset": "11af0991112f95da40afac016387c43e629e491e235468f34f2150616bf644b7",
+    "MountainStation\\xhigh\\Materials\\M_Earth.uasset": "b57622b7ac832ab0bd71b1bc17577ce82e24db5140543a4a5f595bcae0606ffa",
+    "MountainStation\\xhigh\\Materials\\M_EdgeStone.uasset": "f630f07ac2e49d2d00677390d0527cd566bfe5b22929f410a4bec282347450f9",
+    "MountainStation\\xhigh\\Materials\\M_Flowers.uasset": "6e4d3cc516ef03cb8170f56afee1e13b8e054c4d960100e6abfd1257b56b6e26",
+    "MountainStation\\xhigh\\Materials\\M_Glass.uasset": "f85eeece1d35ecd48d17653e607e162849267508b3673944670c43123ee8eac7",
+    "MountainStation\\xhigh\\Materials\\M_Grass.uasset": "053edf43800f71a085b34d80c0446d934f4d3436b506760c7cce203e68a83387",
+    "MountainStation\\xhigh\\Materials\\M_GrassLight.uasset": "3e76244b514bae3267a26c28cccd4c5fc660535053dc5c0d25b9bcb2ce6a991e",
+    "MountainStation\\xhigh\\Materials\\M_Metal.uasset": "87571fc85dce813e689d115a3d124710db645047786837f226ccc3266b864833",
+    "MountainStation\\xhigh\\Materials\\M_Paving.uasset": "caf2ce5243dfccf4500a3b07bd347868b35a625dbd4fccc27981e2e8f01ec8ae",
+    "MountainStation\\xhigh\\Materials\\M_Pine.uasset": "7ac49c1de88648fceedd26675d6955662d8219051a6b1328191c37e84823cc77",
+    "MountainStation\\xhigh\\Materials\\M_PineLight.uasset": "48735c3c9a61a809e395f21b89fc438fa7c534e732d7522b8e29a81fdd1badc0",
+    "MountainStation\\xhigh\\Materials\\M_Plaster.uasset": "5273a7fcdec6b449cc0cd56460cfb887533cfaccb2e47a24113ac9a8d747ca39",
+    "MountainStation\\xhigh\\Materials\\M_Rail.uasset": "6c2d89b1a631ddd98924ff57855308a23f2c3955b17c1aab72cb5ae5479de331",
+    "MountainStation\\xhigh\\Materials\\M_Red.uasset": "5e3670660db33c7d7c4f16b1cc96cc69f3082fc194ed8d0f9e51275a057dd8d1",
+    "MountainStation\\xhigh\\Materials\\M_Rock.uasset": "9ef13689739716049ead8249bf46c3e2b026833d7b502c75c0c30ac647ce2a12",
+    "MountainStation\\xhigh\\Materials\\M_RockLight.uasset": "6e94609d2b89f2287af9af12e738e395597c5ee2bdc202ef80419718e7ac9daf",
+    "MountainStation\\xhigh\\Materials\\M_Roof.uasset": "a068415a10028433852fb446e9c3cd565f0f23c46d6fc8c3b6a78253d7638bfc",
+    "MountainStation\\xhigh\\Materials\\M_RoofSeam.uasset": "8e223a085d09ee1db0ca920b0ecad0a91bd4d9bb9dcb337461315db01d67cfd1",
+    "MountainStation\\xhigh\\Materials\\M_Timber.uasset": "61911c472c063c02fc6ebbc183375afe422495135bccdaecef34f607a5c57f1d",
+    "MountainStation\\xhigh\\Materials\\M_Trail.uasset": "98762843d0b8965425f68ec1c050ae2d4446fddf13edf23162e3e79d3b399c5f",
+    "MountainStation\\xhigh\\Materials\\M_Wood.uasset": "7f25e83549ec409c0fd29f785d08cd1a7560c6517bb4d38221b39cff0c129ef4",
+    "MountainStation\\xhigh\\Meshes\\SM_Cargo.uasset": "76d158542d3d4f49154e328729d15d88c3e88bcf239e65bfe02713ea130c6217",
+    "MountainStation\\xhigh\\Meshes\\SM_LandscapeDetails.uasset": "4afbc582c5fdb58d499ade1a1192091bf548520bc1d3e73c2c94d8c4048f7b11",
+    "MountainStation\\xhigh\\Meshes\\SM_Paths.uasset": "a03f726b1e30bdd74dc58858b35434630c5e11a0ae276310d10249274d1d6651",
+    "MountainStation\\xhigh\\Meshes\\SM_Platform.uasset": "ae2aa84afb3d5b82371a4cbb0fcd29fec51b8013a8a587bdfc560728e5f9254b",
+    "MountainStation\\xhigh\\Meshes\\SM_Props.uasset": "7d5c077197903dcac00f1ffd176d2861c1b419c19bc1833f7dd6502afb829b55",
+    "MountainStation\\xhigh\\Meshes\\SM_Railway.uasset": "c26103570106e2515f2da4e5fbc1a625e974677dc03974c0078a84e32a1f2f63",
+    "MountainStation\\xhigh\\Meshes\\SM_Station.uasset": "845da0a8106134d93923c398424664a46f10ea142bedd82cdab55fddeec7e545",
+    "MountainStation\\xhigh\\Meshes\\SM_Terrain.uasset": "653fe749cc73b0de1d099b863a58b4be1b359cbd3343f4369fa5bd4b8bee3e68",
+    "MountainStation\\xhigh\\Meshes\\SM_Tunnel.uasset": "2d14336973077e64f25697b4e487d71f562d9a95c84cc9573c0da0505c3efae7",
+    "MountainStation\\xhigh\\Textures\\T_Foliage.uasset": "d99c7f757f4acecb46bab2a2ac15cae1806e395d7bd694a6ca09a2b153c391f9",
+    "MountainStation\\xhigh\\Textures\\T_Mineral.uasset": "ffd99bf22ad8d370d0cb22d3ccc19b02638baccb83aa354c0aae9e475e5e43f7",
+    "MountainStation\\xhigh\\Textures\\T_PaintedMetal.uasset": "ea57c0976cc8805c8774730473fe6872645df087d8f1851a0110ce8363b6e6ac",
+    "MountainStation\\xhigh\\Textures\\T_Wood.uasset": "97e20fb0cc218b0e0e2caef2f9ee70f6930c82bf2af22fceb43254b345d67c2d",
+    "Maps/MountainStation_xhigh.umap": "4357cb68ca6abd999cb0950d40fa5e31a4fa0301ff050405a558a9a8e80acee7"
+  },
+  "success": true,
+  "finished_at_utc": "2026-10-21T15:00:59.908695+00:00",
+  "elapsed_seconds": 3.693133592605591
+}

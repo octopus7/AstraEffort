@@ -1,0 +1,3 @@
+$ErrorActionPreference='Stop'
+& 'D:/github/AstraEffort/ForestDemo/Work/Tools/Run-UnrealIsolated.ps1' -Project 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/ForestDemo.uproject' -LogPath 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/TexturePass/Logs/partition.log' -TimingPath 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/TexturePass/Timings/partition.json' -EditorArguments @('-ExecutePythonScript=D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/TexturePass/check_partition.py','-NullRHI','-nosound')
+exit $LASTEXITCODE

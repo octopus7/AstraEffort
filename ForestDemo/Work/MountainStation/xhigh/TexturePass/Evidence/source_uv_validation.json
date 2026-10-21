@@ -1,0 +1,925 @@
+{
+  "started_at_utc": "2026-10-21T14:53:24.089325+00:00",
+  "source_blend_sha256": "1eb330767e7183692c205c53fa24cda07abf4e7697188d6c48ba609bcfa4803d",
+  "target_pixels_per_metre": 256,
+  "native_texture_resolution": 1254,
+  "uv_units_per_metre": 0.20414673046251994,
+  "physical_repeat_m": 4.8984375,
+  "padding_native_pixels": 8,
+  "scope": "All triangles in all nine assemblies; source object transforms applied. Orthogonal surface projection; planar edge-connected same-material islands. All repeats use intentional modulo-one reuse.",
+  "assemblies": {
+    "Cargo": {
+      "vertices": 13588,
+      "triangles": 24996,
+      "islands": 15456,
+      "area_m2": 319.99671630418374,
+      "uv_area": 13.336149863127506,
+      "area_weighted_density_px_per_m": 256.00002586973943,
+      "density_min": 254.14044314768785,
+      "density_p01": 254.93490522786843,
+      "density_p50": 256.0014022462714,
+      "density_p99": 256.9898569510617,
+      "density_max": 257.87242321975646,
+      "outside_1pct": 0,
+      "degenerate_triangles": 120,
+      "tiny_below_one_native_pixel": 9638,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.990807480790835,
+        1.6395582719282669
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "RockLight": {
+          "triangles": 188,
+          "area_m2": 89.8878841379831,
+          "uv_area": 3.746157264604065,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99999700667183
+        },
+        "Timber": {
+          "triangles": 752,
+          "area_m2": 10.600339560142626,
+          "uv_area": 0.4417778305014522,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99978875507946
+        },
+        "Roof": {
+          "triangles": 188,
+          "area_m2": 94.51636894898138,
+          "uv_area": 3.9390535006700134,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99999791742346
+        },
+        "Wood": {
+          "triangles": 10716,
+          "area_m2": 86.86604477735516,
+          "uv_area": 3.6202230696147315,
+          "tiny_below_one_native_pixel": 408,
+          "degenerate": 120,
+          "area_weighted_density_px_per_m": 256.00012568759996
+        },
+        "Cargo": {
+          "triangles": 1128,
+          "area_m2": 32.307487899989134,
+          "uv_area": 1.3464430997120722,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99998732716486
+        },
+        "Metal": {
+          "triangles": 752,
+          "area_m2": 5.4133216719528585,
+          "uv_area": 0.2256049879003399,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0000014648427
+        },
+        "Cream": {
+          "triangles": 11272,
+          "area_m2": 0.405269307790393,
+          "uv_area": 0.01689011012482705,
+          "tiny_below_one_native_pixel": 9230,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.001152094455
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "LandscapeDetails": {
+      "vertices": 97694,
+      "triangles": 191824,
+      "islands": 142744,
+      "area_m2": 6354.631666543285,
+      "uv_area": 264.8348640311784,
+      "area_weighted_density_px_per_m": 255.9999754572063,
+      "density_min": 0.0,
+      "density_p01": 255.7759667183981,
+      "density_p50": 255.999426913149,
+      "density_p99": 256.20258653243496,
+      "density_max": 1132.9024898186146,
+      "outside_1pct": 139,
+      "degenerate_triangles": 24854,
+      "tiny_below_one_native_pixel": 39004,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.993446205552466,
+        21.816042826981842
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "Timber": {
+          "triangles": 26772,
+          "area_m2": 448.59485245184646,
+          "uv_area": 18.695579447744485,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.9999371325273
+        },
+        "PineLight": {
+          "triangles": 26622,
+          "area_m2": 1762.7941371486818,
+          "uv_area": 73.46599227751094,
+          "tiny_below_one_native_pixel": 295,
+          "degenerate": 8,
+          "area_weighted_density_px_per_m": 255.99996868882985
+        },
+        "Pine": {
+          "triangles": 53478,
+          "area_m2": 3515.272483679405,
+          "uv_area": 146.502068396103,
+          "tiny_below_one_native_pixel": 621,
+          "degenerate": 28,
+          "area_weighted_density_px_per_m": 255.99997171691402
+        },
+        "RockLight": {
+          "triangles": 1280,
+          "area_m2": 105.67597400396622,
+          "uv_area": 4.4041455114280055,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0001598844178
+        },
+        "Bush": {
+          "triangles": 2320,
+          "area_m2": 205.58436598838787,
+          "uv_area": 8.567894610439264,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99975633294946
+        },
+        "Rock": {
+          "triangles": 3520,
+          "area_m2": 307.6884597144272,
+          "uv_area": 12.823211191359352,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.00021502276974
+        },
+        "GrassLight": {
+          "triangles": 77832,
+          "area_m2": 9.021393556642625,
+          "uv_area": 0.37597259659436594,
+          "tiny_below_one_native_pixel": 38088,
+          "degenerate": 24818,
+          "area_weighted_density_px_per_m": 255.99932356407737
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Paths": {
+      "vertices": 894,
+      "triangles": 1534,
+      "islands": 888,
+      "area_m2": 369.84466493553595,
+      "uv_area": 15.413605196417903,
+      "area_weighted_density_px_per_m": 256.00000437174145,
+      "density_min": 255.95553125161408,
+      "density_p01": 255.95873593943298,
+      "density_p50": 255.99998986903933,
+      "density_p99": 256.01938702402856,
+      "density_max": 256.0380973882761,
+      "outside_1pct": 0,
+      "degenerate_triangles": 224,
+      "tiny_below_one_native_pixel": 224,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.9228728562734,
+        1.4887116476299294
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "Trail": {
+          "triangles": 218,
+          "area_m2": 303.5607232667179,
+          "uv_area": 12.651161019928931,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99998431640287
+        },
+        "Paving": {
+          "triangles": 1316,
+          "area_m2": 66.28394166881596,
+          "uv_area": 2.7624441764889704,
+          "tiny_below_one_native_pixel": 224,
+          "degenerate": 224,
+          "area_weighted_density_px_per_m": 256.00009621920645
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Platform": {
+      "vertices": 6824,
+      "triangles": 13118,
+      "islands": 8011,
+      "area_m2": 1124.317398036157,
+      "uv_area": 46.85692421662462,
+      "area_weighted_density_px_per_m": 255.99999660163954,
+      "density_min": 255.70892176607177,
+      "density_p01": 255.9541585237842,
+      "density_p50": 255.99917895057527,
+      "density_p99": 256.06106548992454,
+      "density_max": 256.15219098233166,
+      "outside_1pct": 0,
+      "degenerate_triangles": 0,
+      "tiny_below_one_native_pixel": 0,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.99160421266377,
+        3.3470563356195724
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "Paving": {
+          "triangles": 698,
+          "area_m2": 1053.864738928758,
+          "uv_area": 43.92074934986446,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0000028804255
+        },
+        "EdgeStone": {
+          "triangles": 10716,
+          "area_m2": 56.322695233052244,
+          "uv_area": 2.3472991048361376,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0000431507298
+        },
+        "Cream": {
+          "triangles": 172,
+          "area_m2": 5.187312569736787,
+          "uv_area": 0.21618579471331284,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.9999640759321
+        },
+        "Rock": {
+          "triangles": 28,
+          "area_m2": 3.3985349896492636,
+          "uv_area": 0.14163489839847898,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99813499402225
+        },
+        "Metal": {
+          "triangles": 1504,
+          "area_m2": 5.544116314956563,
+          "uv_area": 0.2310550688122327,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99950178389568
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Props": {
+      "vertices": 74510,
+      "triangles": 131060,
+      "islands": 85662,
+      "area_m2": 141.58509479874473,
+      "uv_area": 5.900686407973366,
+      "area_weighted_density_px_per_m": 256.000041588145,
+      "density_min": 229.43685014804433,
+      "density_p01": 254.68932642252375,
+      "density_p50": 256.0033478938755,
+      "density_p99": 257.1677013114095,
+      "density_max": 322.2105956286223,
+      "outside_1pct": 30,
+      "degenerate_triangles": 380,
+      "tiny_below_one_native_pixel": 88602,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.993465581989533,
+        2.360028804241525
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "Wood": {
+          "triangles": 20304,
+          "area_m2": 93.42185435843034,
+          "uv_area": 3.893437213942207,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99995121852976
+        },
+        "Metal": {
+          "triangles": 3948,
+          "area_m2": 17.86882110840064,
+          "uv_area": 0.7447005756810264,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0002743852905
+        },
+        "Cream": {
+          "triangles": 37684,
+          "area_m2": 5.462142129138045,
+          "uv_area": 0.22763829983686037,
+          "tiny_below_one_native_pixel": 28658,
+          "degenerate": 8,
+          "area_weighted_density_px_per_m": 255.99925700511844
+        },
+        "Roof": {
+          "triangles": 1128,
+          "area_m2": 15.84552817293207,
+          "uv_area": 0.6603798730327242,
+          "tiny_below_one_native_pixel": 160,
+          "degenerate": 160,
+          "area_weighted_density_px_per_m": 256.0006633961669
+        },
+        "Red": {
+          "triangles": 376,
+          "area_m2": 2.46228649510602,
+          "uv_area": 0.10261813665238151,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.00020150278823
+        },
+        "Cargo": {
+          "triangles": 1128,
+          "area_m2": 0.5539446096938107,
+          "uv_area": 0.023085475502286776,
+          "tiny_below_one_native_pixel": 240,
+          "degenerate": 192,
+          "area_weighted_density_px_per_m": 255.9963530265158
+        },
+        "Timber": {
+          "triangles": 66492,
+          "area_m2": 5.970517925040984,
+          "uv_area": 0.24882683332587874,
+          "tiny_below_one_native_pixel": 59544,
+          "degenerate": 20,
+          "area_weighted_density_px_per_m": 256.00010268513756
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Railway": {
+      "vertices": 50134,
+      "triangles": 97056,
+      "islands": 68807,
+      "area_m2": 1030.1391627599583,
+      "uv_area": 42.932294283470455,
+      "area_weighted_density_px_per_m": 256.00098497354577,
+      "density_min": 255.56554816059963,
+      "density_p01": 255.71909384436077,
+      "density_p50": 255.9999684174893,
+      "density_p99": 256.1342270759494,
+      "density_max": 256.40119372654743,
+      "outside_1pct": 0,
+      "degenerate_triangles": 0,
+      "tiny_below_one_native_pixel": 1152,
+      "packed_min_gap_pixels": 7.999999999991317,
+      "bounds_uv": [
+        31.993574474226627,
+        41.07283643634312
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "Ballast": {
+          "triangles": 572,
+          "area_m2": 432.1913313633224,
+          "uv_area": 18.011957782961897,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.000003221254
+        },
+        "Timber": {
+          "triangles": 26884,
+          "area_m2": 311.2227673308873,
+          "uv_area": 12.970900282371286,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.00409764398006
+        },
+        "Metal": {
+          "triangles": 27072,
+          "area_m2": 28.191947702159506,
+          "uv_area": 1.174752209040558,
+          "tiny_below_one_native_pixel": 1152,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.98123565320842
+        },
+        "Rail": {
+          "triangles": 13728,
+          "area_m2": 218.15383966227526,
+          "uv_area": 9.091855097725068,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0014107582562
+        },
+        "Rock": {
+          "triangles": 28800,
+          "area_m2": 40.379276701307035,
+          "uv_area": 1.6828289113716628,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99898958344227
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Station": {
+      "vertices": 33210,
+      "triangles": 60526,
+      "islands": 35895,
+      "area_m2": 1213.996974914322,
+      "uv_area": 50.59448657727269,
+      "area_weighted_density_px_per_m": 256.00021543393296,
+      "density_min": 0.0,
+      "density_p01": 254.83663652609707,
+      "density_p50": 256.00144834710346,
+      "density_p99": 257.09585340482346,
+      "density_max": 278.869233316723,
+      "outside_1pct": 41,
+      "degenerate_triangles": 3468,
+      "tiny_below_one_native_pixel": 29202,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.993609183609937,
+        10.947138044693173
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "RockLight": {
+          "triangles": 376,
+          "area_m2": 201.20083934785146,
+          "uv_area": 8.38522401759215,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0000070256597
+        },
+        "Plaster": {
+          "triangles": 190,
+          "area_m2": 317.77575444617986,
+          "uv_area": 13.243602453963547,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.00015312183774
+        },
+        "Timber": {
+          "triangles": 27668,
+          "area_m2": 140.5061937758517,
+          "uv_area": 5.855755773833711,
+          "tiny_below_one_native_pixel": 16658,
+          "degenerate": 124,
+          "area_weighted_density_px_per_m": 256.00077469710044
+        },
+        "Roof": {
+          "triangles": 940,
+          "area_m2": 447.12318643517796,
+          "uv_area": 18.634270712927226,
+          "tiny_below_one_native_pixel": 32,
+          "degenerate": 32,
+          "area_weighted_density_px_per_m": 256.0001035185079
+        },
+        "RoofSeam": {
+          "triangles": 13536,
+          "area_m2": 57.94618605479755,
+          "uv_area": 2.4149676027740608,
+          "tiny_below_one_native_pixel": 3272,
+          "degenerate": 3120,
+          "area_weighted_density_px_per_m": 256.0004700462993
+        },
+        "EdgeStone": {
+          "triangles": 564,
+          "area_m2": 7.325515239578084,
+          "uv_area": 0.30529859660848047,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0005228944774
+        },
+        "Glass": {
+          "triangles": 564,
+          "area_m2": 16.321487293370115,
+          "uv_area": 0.6802125071351384,
+          "tiny_below_one_native_pixel": 96,
+          "degenerate": 96,
+          "area_weighted_density_px_per_m": 256.00000713349976
+        },
+        "Cream": {
+          "triangles": 14524,
+          "area_m2": 9.530743732899767,
+          "uv_area": 0.3972114320562832,
+          "tiny_below_one_native_pixel": 9144,
+          "degenerate": 96,
+          "area_weighted_density_px_per_m": 256.0029737087358
+        },
+        "Wood": {
+          "triangles": 376,
+          "area_m2": 7.416155071193635,
+          "uv_area": 0.30907659359752415,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0007242181359
+        },
+        "Bush": {
+          "triangles": 800,
+          "area_m2": 7.863407783728389,
+          "uv_area": 0.3277118323698409,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.99895860293302
+        },
+        "Flowers": {
+          "triangles": 800,
+          "area_m2": 0.8757756077103638,
+          "uv_area": 0.03649844684262149,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.9990218657489
+        },
+        "Amber": {
+          "triangles": 188,
+          "area_m2": 0.11173012590102054,
+          "uv_area": 0.004656607572087523,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.00427193809
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Terrain": {
+      "vertices": 11097,
+      "triangles": 20988,
+      "islands": 15224,
+      "area_m2": 33377.301123378165,
+      "uv_area": 1391.0286047443374,
+      "area_weighted_density_px_per_m": 255.99999596214838,
+      "density_min": 255.95972534445494,
+      "density_p01": 255.99538132106647,
+      "density_p50": 256.0001649849584,
+      "density_p99": 256.00455234696295,
+      "density_max": 256.0504579077238,
+      "outside_1pct": 0,
+      "degenerate_triangles": 32,
+      "tiny_below_one_native_pixel": 32,
+      "packed_min_gap_pixels": 7.999999999982407,
+      "bounds_uv": [
+        31.99330040723677,
+        103.2863966711046
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "Grass": {
+          "triangles": 20000,
+          "area_m2": 10428.833698567272,
+          "uv_area": 434.63109443030476,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0000570870378
+        },
+        "Earth": {
+          "triangles": 988,
+          "area_m2": 22948.467424810682,
+          "uv_area": 956.3975103140326,
+          "tiny_below_one_native_pixel": 32,
+          "degenerate": 32,
+          "area_weighted_density_px_per_m": 255.99996818419797
+        }
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "Tunnel": {
+      "vertices": 5740,
+      "triangles": 11040,
+      "islands": 7904,
+      "area_m2": 3087.935567515458,
+      "uv_area": 128.69247735720774,
+      "area_weighted_density_px_per_m": 256.0000217398179,
+      "density_min": 255.91948738591736,
+      "density_p01": 255.9563042952807,
+      "density_p50": 255.99994291725656,
+      "density_p99": 256.0458455755018,
+      "density_max": 256.078977022443,
+      "outside_1pct": 0,
+      "degenerate_triangles": 0,
+      "tiny_below_one_native_pixel": 0,
+      "packed_min_gap_pixels": 7.999999999995772,
+      "bounds_uv": [
+        31.98948863846212,
+        8.552087720976685
+      ],
+      "overlap": "Zero between distinct island bounding rectangles in unbounded UV plane, verified by complete shelf interval audit. Modulo-one repeats overlap intentionally.",
+      "materials": {
+        "EdgeStone": {
+          "triangles": 3572,
+          "area_m2": 58.63807257744943,
+          "uv_area": 2.4437934704867263,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.9999869632005
+        },
+        "RockLight": {
+          "triangles": 5608,
+          "area_m2": 880.2509412535103,
+          "uv_area": 36.68523958929807,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.00000118044863
+        },
+        "Rock": {
+          "triangles": 1660,
+          "area_m2": 2065.9314500958803,
+          "uv_area": 86.09954892601026,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 256.0000328671437
+        },
+        "Dark": {
+          "triangles": 12,
+          "area_m2": 82.0160012309219,
+          "uv_area": 3.418089611736578,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.9999987430963
+        },
+        "Cream": {
+          "triangles": 188,
+          "area_m2": 1.09910235770214,
+          "uv_area": 0.045805759676113667,
+          "tiny_below_one_native_pixel": 0,
+          "degenerate": 0,
+          "area_weighted_density_px_per_m": 255.9991432420268
+        }
+      },
+      "original_object_matrix": [
+        [
+          0.9479222297668457,
+          -0.31850185990333557,
+          0.0,
+          -3.814697265625e-06
+        ],
+        [
+          0.31850185990333557,
+          0.9479222297668457,
+          0.0,
+          -9.5367431640625e-07
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "final_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "finished_at_utc": "2026-10-21T14:53:48.328340+00:00",
+  "elapsed_seconds": 24.28601360321045
+}

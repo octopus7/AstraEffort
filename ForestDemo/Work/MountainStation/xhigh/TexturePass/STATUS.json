@@ -1,0 +1,48 @@
+{
+  "theme": "MountainStation",
+  "effort": "xhigh",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-21T14:47:03+00:00",
+  "started_at_kst": "2026-10-21T23:47:03+09:00",
+  "finished_at_utc": "2026-10-21T15:13:56.606004+00:00",
+  "elapsed_seconds": 1613.606004,
+  "map": "/Game/Maps/MountainStation_xhigh",
+  "validation": {
+    "saved_ue": true,
+    "non_world_partition_direct": true,
+    "recursive_dependencies": true,
+    "materials_with_texture": 21,
+    "source_all_triangles": 552142,
+    "ue_individual_density_samples": 24760,
+    "four_exact_camera_pngs": true,
+    "pie": {
+      "actual_pie_world": true,
+      "controller_exists": true,
+      "pawn_exists": true,
+      "controller_possesses_pawn": true,
+      "spawn_at_player_start": true,
+      "native_hello_in_game_world": true,
+      "short_move_100cm": true,
+      "runtime_floor_heights": true,
+      "exact_expected_ground_meshes": true,
+      "runtime_pawn_sweeps_blocked": true,
+      "normal_pie_end": true
+    },
+    "native_hello_visually_confirmed": true,
+    "published_package_hashes_match": true,
+    "first_delivery_unchanged": true
+  },
+  "blockers": [],
+  "finished_at_kst": "2026-10-22T00:13:56.606004+09:00",
+  "mutex_wait_seconds": 254.6452246,
+  "ue_execution_seconds": 221.83689789999997,
+  "imagegen_batch_wall_seconds": 96.743,
+  "imagegen_summed_request_seconds": 250.796,
+  "known_limitations": [
+    "NPOT 1254px originals: no mipmaps/streaming.",
+    "UE per-triangle density and overlap/padding checks sampled; source density/packing exhaustive.",
+    "Tiny faces, curved facet seams and intentional repeating UV reuse.",
+    "Build process saved assets then returned abnormal shutdown code; subsequent validation/capture/runtime processes exited 0.",
+    "DefaultPawn flight; static exterior and closed tunnel rear."
+  ]
+}

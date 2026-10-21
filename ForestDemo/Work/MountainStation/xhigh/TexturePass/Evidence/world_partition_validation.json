@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-21T15:12:41.415922+00:00",
+  "map": "/Game/Maps/MountainStation_xhigh",
+  "method": "WorldSettings.get_editor_property(\"world_partition\") after a fresh saved-map load",
+  "engine_source_evidence": "UE5.7 GameFramework/WorldSettings.h:515-516 declares VisibleAnywhere Instanced WorldPartition; Engine/Private/World.cpp:6858-6861 UWorld::GetWorldPartition delegates to WorldSettings.",
+  "direct_check_available": true,
+  "world": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh",
+  "settings": "/Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.WorldSettings",
+  "world_partition_object": null,
+  "non_world_partition": true,
+  "success": true
+}

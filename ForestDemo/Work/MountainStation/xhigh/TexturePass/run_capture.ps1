@@ -1,0 +1,3 @@
+$ErrorActionPreference='Stop'
+& 'D:/github/AstraEffort/ForestDemo/Work/Tools/Run-UnrealIsolated.ps1' -Project 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/ForestDemo.uproject' -LogPath 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/TexturePass/Logs/capture.log' -TimingPath 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/TexturePass/Timings/capture.json' -EditorArguments @('-ExecutePythonScript=D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/TexturePass/capture_bootstrap.py','-RenderOffscreen','-nosound','-windowed','-ResX=1920','-ResY=1080')
+exit $LASTEXITCODE
