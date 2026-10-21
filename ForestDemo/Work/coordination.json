@@ -7913,7 +7913,7 @@
     "xhigh_utc_notation_verified": true
   },
   "ultra_self_improvement": {
-    "status": "forest_verified_station_closed_per_user_stop_report_finalizing",
+    "status": "complete_per_latest_user_scope",
     "user_authorized_at_observed_utc": "2026-10-21T15:01:04.9688409+00:00",
     "report": "ForestDemo/Work/ULTRA_IMPROVEMENT.md",
     "accounting_root": "ForestDemo/Work/UltraImprovementAccounting",
@@ -9015,7 +9015,12 @@
       "migration_instruction_scope": "This coordinating conversation, coordination.json and task heartbeat only",
       "reason": "User clarified only the specific BP_AnimeFoliageTree migration instruction must be excluded from repository/global AGENTS.md. General self-improvement coordination rules remain."
     },
-    "latest_accounting_snapshot": "ForestDemo/Work/UltraImprovementAccounting/snapshot_20261021T160001Z.json"
+    "latest_accounting_snapshot": "ForestDemo/Work/UltraImprovementAccounting/snapshot_20261021T160001Z.json",
+    "completed_at_utc": "2026-10-21T16:36:51.2770778+00:00",
+    "completed_at_kst": "2026-10-22T01:36:51.2770778+09:00",
+    "report_commit": "1c13759ef4a5218201362b8f62efd5ea55f96818",
+    "report_sha256": "B40ED9CCF652411BFE900BBF9F4B560D03AE1458BDBD7E7179258D7A62B512CD",
+    "completion_scope": "Forest improvement verified and committed; MountainStation stopped and checkpointed by direct human request, not accepted as completed improvement. Separate report/accounting committed; comparison frozen; no remaining authorized work."
   },
   "final_integration_world_partition_check": {
     "source_verified_at_utc": "2026-10-21T15:15:02.8329230+00:00",
@@ -9152,5 +9157,18 @@
     "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A",
     "freeze_commit": "90415994bd207a1ec50a85f031c490efca9b5895"
   },
-  "comparison_report_completed": true
+  "comparison_report_completed": true,
+  "supervision_completion": {
+    "automation_id": "forestdemo",
+    "status": "complete_per_latest_user_scope",
+    "pending_work": [],
+    "automation_status": "PAUSED",
+    "completed_at_utc": "2026-10-21T16:36:51.2770778+00:00",
+    "report_links_in_completion_response": [
+      "ForestDemo/Work/SUPERVISION.md",
+      "ForestDemo/Work/ULTRA_IMPROVEMENT.md"
+    ],
+    "report_commit": "1c13759ef4a5218201362b8f62efd5ea55f96818",
+    "completed_at_kst": "2026-10-22T01:36:51.2770778+09:00"
+  }
 }
