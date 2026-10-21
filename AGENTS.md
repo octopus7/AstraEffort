@@ -47,3 +47,11 @@ status, started_at_utc, finished_at_utc, elapsed_seconds, map, validation summar
 and blockers. Use status `working`, `needs_attention`, or `ready_for_review`.
 No invented durations or claims of rendering/validation that did not occur.
 Supervisor-owned coordination documents live directly under `ForestDemo/Work/`.
+
+The user also requires one final comparison report with screenshots in
+`ForestDemo/Work/SUPERVISION.md`. Workers provide actual UE rendered
+`Work/EFFORT/Screenshots/{overview,top_down,lake,beach}.png` and a
+`capture_manifest.json` documenting camera/render settings and timestamps.
+Follow the common capture specification in SUPERVISION.md. Never replace scene
+evidence with generated imagery. Supervisor must inspect the images and embed
+them in that single report alongside analysis, timings, validation and limitations.
