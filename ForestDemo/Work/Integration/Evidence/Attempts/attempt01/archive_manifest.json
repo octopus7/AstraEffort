@@ -1,0 +1,62 @@
+{
+  "archived_at_utc": "2026-10-21T16:10:52.7270662+00:00",
+  "evidence_files": [
+    {
+      "path": "baseline_snapshot.json",
+      "sha256": "833F4D65674A6A9659A1ACE5A416E7FB1D00C4E268786FEB65888105C5C552C7",
+      "bytes": 348330
+    },
+    {
+      "path": "candidate_snapshot.json",
+      "sha256": "E52821DB7B3F8787C8BDEDACE0ADC2AE6A55B543F6A86BE8F54C093B602B2299",
+      "bytes": 348487
+    },
+    {
+      "path": "maps_invocation.json",
+      "sha256": "B1480EC198D953EDC201ABE0702A002C21A00B075920F557E1F99E4C94ABC2C8",
+      "bytes": 683
+    },
+    {
+      "path": "maps_timing.json",
+      "sha256": "6280C000D18DDCA7145BC7AC9910D5D6FFABB6380E84781A40B1BCE2ED4049A1",
+      "bytes": 700
+    },
+    {
+      "path": "maps.log",
+      "sha256": "70AFA465059D112545B957667F581E145EBDA93A81E0DC20A39ED06FACBEFD47",
+      "bytes": 201580
+    },
+    {
+      "path": "native_binary_seed.json",
+      "sha256": "2478B61FB82BE486A3085F3D81A34AD3A4BCC5CC89C06199862C6AEBBDBE02D6",
+      "bytes": 4620
+    },
+    {
+      "path": "saved_maps_validation.json",
+      "sha256": "09C335BF871180F0D5F7AD3FDD83A788BF01CCECC044346399ED215D00473587",
+      "bytes": 1110
+    }
+  ],
+  "scripts": [
+    {
+      "path": "Invoke-QueueCall.ps1",
+      "sha256": "1798ABAD59F53E5163E395C6357907A3F9780B8E88CD507BFABBEA51BD914CCA"
+    },
+    {
+      "path": "Prepare-ComparisonSnapshot.ps1",
+      "sha256": "64546237F239D0228BB6596AF695BF59ECE4556D9B2222B21AAA98FEFAE538F5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "428BBE94BAC13ECC4A467C5A8A5DD989A60F2AD6B8EF58BBAD1D6C3861AEBF9F"
+    },
+    {
+      "path": "Run-ComparisonVerification.ps1",
+      "sha256": "FFBFAED30D3D84A5CE06E58C26F544F91F5A1B9BE88B938BFDBE2AFDE6276ACA"
+    },
+    {
+      "path": "verify_all_maps.py",
+      "sha256": "11FF1B0BEC9A166ED2E714B29A8870CE6EC2FCDA41D6A03BAE0893D88D54713B"
+    }
+  ]
+}

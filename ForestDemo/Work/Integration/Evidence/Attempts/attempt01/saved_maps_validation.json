@@ -1,0 +1,18 @@
+{
+  "started_at_utc": "2026-10-21T16:07:02.874937+00:00",
+  "baseline_commit": "1514f1af789d75ddf94d210c8017a95dcececb8b",
+  "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\Supervisor\\Integration-1514f1af789d75ddf94d210c8017a95dcececb8b-comparison\\Project",
+  "passed": false,
+  "maps": [],
+  "errors": [
+    {
+      "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/Integration/verify_all_maps.py\", line 102, in <module>\n    defaults[key] = u.SystemLibrary.break_soft_object_path(value)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'SystemLibrary' has no attribute 'break_soft_object_path'\n"
+    }
+  ],
+  "files_verified_before": 1756,
+  "finished_at_utc": "2026-10-21T16:07:03.492562+00:00",
+  "limitations": [
+    "Saved-world integration and native-class presence only; per-scene PIE/collision and visual evidence remain in the committed comparison reports.",
+    "Hello dispatch/message registration is verified by a separate native automation process, not by this script."
+  ]
+}

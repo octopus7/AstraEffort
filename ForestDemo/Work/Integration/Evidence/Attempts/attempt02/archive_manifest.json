@@ -1,0 +1,71 @@
+{
+  "evidence_files": [
+    {
+      "bytes": 348330,
+      "path": "baseline_snapshot.json",
+      "sha256": "833F4D65674A6A9659A1ACE5A416E7FB1D00C4E268786FEB65888105C5C552C7"
+    },
+    {
+      "bytes": 348487,
+      "path": "candidate_snapshot.json",
+      "sha256": "E52821DB7B3F8787C8BDEDACE0ADC2AE6A55B543F6A86BE8F54C093B602B2299"
+    },
+    {
+      "bytes": 683,
+      "path": "maps_invocation.json",
+      "sha256": "A1E9E59F5FFBF9F48CD8D39A83CC44828342E5F13018A62142D3ED83FDCDC2AB"
+    },
+    {
+      "bytes": 699,
+      "path": "maps_timing.json",
+      "sha256": "C37C256D54BD66D2A3FE94C69BE5C08DC74FA72E362B1D0DF2B95ACB672B1464"
+    },
+    {
+      "bytes": 201580,
+      "path": "maps-backup-2026.10.21-16.07.08.log",
+      "sha256": "70AFA465059D112545B957667F581E145EBDA93A81E0DC20A39ED06FACBEFD47"
+    },
+    {
+      "bytes": 207602,
+      "path": "maps.log",
+      "sha256": "948C0E725B1374B2A0EAC110D02A7815AE07553CF71BFA4013AE395A1BEB4AD5"
+    },
+    {
+      "bytes": 4620,
+      "path": "native_binary_seed.json",
+      "sha256": "2478B61FB82BE486A3085F3D81A34AD3A4BCC5CC89C06199862C6AEBBDBE02D6"
+    },
+    {
+      "bytes": 474865,
+      "path": "saved_maps_validation.json",
+      "sha256": "A732C120E360DEF90E42F08A245CFD1B076ADD11003154ADE665F6E01B44D573"
+    }
+  ],
+  "scripts": [
+    {
+      "sha256": "EFA4585E7B788D3E4CB672F38B23678B54B7CA03B5A50FC773D3A818F7C63D31",
+      "path": "Invoke-QueueCall.ps1"
+    },
+    {
+      "sha256": "64546237F239D0228BB6596AF695BF59ECE4556D9B2222B21AAA98FEFAE538F5",
+      "path": "Prepare-ComparisonSnapshot.ps1"
+    },
+    {
+      "sha256": "AA87832B1788971A25095375CACA4DBF87E4E3881BE7073D73C57D96D8565783",
+      "path": "README.md"
+    },
+    {
+      "sha256": "FFBFAED30D3D84A5CE06E58C26F544F91F5A1B9BE88B938BFDBE2AFDE6276ACA",
+      "path": "Run-ComparisonVerification.ps1"
+    },
+    {
+      "sha256": "FE7D9F2C2698BC1BCBED303808BD8A5D10DC9776CC0B81E74ECE9D7FAC7C23CC",
+      "path": "Test-ExitPropagation.ps1"
+    },
+    {
+      "sha256": "B6EACFCD8B29F6891782A0DFCDA2ABC779BBB5C79A2576EBC86DDF37C461ACCB",
+      "path": "verify_all_maps.py"
+    }
+  ],
+  "archived_at_utc": "2026-10-21T16:19:22.5771964+00:00"
+}
