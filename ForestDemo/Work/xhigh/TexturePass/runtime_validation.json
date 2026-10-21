@@ -1,0 +1,191 @@
+{
+  "started_at_utc": "2026-10-21T14:25:30.909636+00:00",
+  "map": "/Game/Maps/xhigh",
+  "mode": "PlayInEditor",
+  "checks": {
+    "actual_pie_world": true,
+    "player_controller_created": true,
+    "pawn_spawned_and_possessed": true,
+    "runtime_player_start": true,
+    "spawn_matches_player_start": true,
+    "baseline_logger_exists_in_play_world": true,
+    "runtime_terrain_trace_blocks": true,
+    "runtime_ground_matches_source": true,
+    "pawn_positive_clearance_move": true,
+    "pawn_sweep_started_without_penetration": true,
+    "pawn_sweep_has_blocking_hit_on_terrain": true,
+    "pawn_sweep_blocked_by_ground": true,
+    "short_path_movement_succeeds": true,
+    "normal_pie_shutdown": true,
+    "baseline_native_hello_beginplay_test": true
+  },
+  "errors": [],
+  "world": "/Game/Maps/UEDPIE_0_xhigh.xhigh",
+  "controller_class": "/Script/Engine.PlayerController",
+  "pawn_class": "/Script/Engine.DefaultPawn",
+  "spawn_cm": [
+    800.0,
+    -900.0,
+    413.48259474762983
+  ],
+  "player_start_cm": [
+    800.0,
+    -900.0,
+    413.48259474762983
+  ],
+  "hello_evidence": "Baseline native actor in actual PIE. The existing BeginPlay calls AddOnScreenDebugMessage(Hello, 10 seconds). runtime_hello.png requested immediately after pawn possession; direct visual inspection records whether Hello is visible.",
+  "possession_at_utc": "2026-10-21T14:25:31.035489+00:00",
+  "runtime_ground_hit_cm": [
+    800.0,
+    -900.0,
+    303.561270236969
+  ],
+  "pre_sweep_clearance": {
+    "before_cm": [
+      800.0,
+      -900.0,
+      423.48259474762983
+    ],
+    "after_cm": [
+      800.0,
+      -900.0,
+      463.48259474762983
+    ],
+    "positive_upward_distance_cm": 40.0,
+    "hit": {
+      "returned_type": "HitResult",
+      "export_text": "(FaceIndex=0,Time=1.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=0.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=0.000000),Normal=(X=0.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=0.000000,Y=0.000000,Z=0.000000),TraceStart=(X=800.000000,Y=-900.000000,Z=423.482595),TraceEnd=(X=800.000000,Y=-900.000000,Z=463.482595),PenetrationDepth=0.000000,MyItem=-1,Item=0,ElementIndex=0,bBlockingHit=False,bStartPenetrating=False,PhysMaterial=None,HitObjectHandle=(ReferenceObject=None),Component=None,BoneName=\"\",MyBoneName=\"\")",
+      "tuple_length": 18,
+      "tuple_types": [
+        "bool",
+        "bool",
+        "float",
+        "float",
+        "Vector",
+        "Vector",
+        "Vector",
+        "Vector",
+        "NoneType",
+        "NoneType",
+        "NoneType",
+        "Name",
+        "Name",
+        "int",
+        "int",
+        "int",
+        "Vector",
+        "Vector"
+      ],
+      "blocking_hit": false,
+      "initial_overlap": false,
+      "time": 1.0,
+      "distance_cm": 0.0,
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "impact_point_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "impact_normal": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": null,
+      "hit_component": null,
+      "hit_is_terrain": false
+    },
+    "pawn_radius_cm": 35.0,
+    "bottom_above_traced_ground_cm": 124.92132451066084
+  },
+  "downward_sweep": {
+    "start_cm": [
+      800.0,
+      -900.0,
+      463.48259474762983
+    ],
+    "requested_cm": [
+      800.0,
+      -900.0,
+      103.48259474762983
+    ],
+    "actual_cm": [
+      800.0,
+      -900.0,
+      339.9583294583232
+    ],
+    "ground_z_cm": 303.48259474762983,
+    "positive_travel_before_stop_cm": 123.52426528930664,
+    "hit": {
+      "returned_type": "HitResult",
+      "export_text": "(FaceIndex=-1,Time=0.343123,Distance=124.884262,Location=(X=800.000000,Y=-900.000000,Z=338.598331),ImpactPoint=(X=798.411377,Y=-899.750793,Z=303.635284),Normal=(X=0.045390,Y=-0.007121,Z=0.998944),ImpactNormal=(X=0.045390,Y=-0.007121,Z=0.998944),TraceStart=(X=800.000000,Y=-900.000000,Z=463.482595),TraceEnd=(X=800.000000,Y=-900.000000,Z=103.482595),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=None,HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshActor'/Game/Maps/UEDPIE_0_xhigh.xhigh:PersistentLevel.StaticMeshActor_895'\"),Component=\"/Script/Engine.StaticMeshComponent'/Game/Maps/UEDPIE_0_xhigh.xhigh:PersistentLevel.StaticMeshActor_895.StaticMeshComponent0'\",BoneName=\"\",MyBoneName=\"\")",
+      "tuple_length": 18,
+      "tuple_types": [
+        "bool",
+        "bool",
+        "float",
+        "float",
+        "Vector",
+        "Vector",
+        "Vector",
+        "Vector",
+        "NoneType",
+        "StaticMeshActor",
+        "StaticMeshComponent",
+        "Name",
+        "Name",
+        "int",
+        "int",
+        "int",
+        "Vector",
+        "Vector"
+      ],
+      "blocking_hit": true,
+      "initial_overlap": false,
+      "time": 0.3431229591369629,
+      "distance_cm": 124.88426208496094,
+      "location_cm": [
+        800.0,
+        -900.0,
+        338.598331470576
+      ],
+      "impact_point_cm": [
+        798.411376953125,
+        -899.7507934570312,
+        303.6352844238281
+      ],
+      "impact_normal": [
+        0.04539000242948532,
+        -0.007120890077203512,
+        0.9989439845085144
+      ],
+      "hit_actor": "/Game/Maps/UEDPIE_0_xhigh.xhigh:PersistentLevel.StaticMeshActor_895",
+      "hit_component": "/Game/Maps/UEDPIE_0_xhigh.xhigh:PersistentLevel.StaticMeshActor_895.StaticMeshComponent0",
+      "hit_is_terrain": true
+    },
+    "target_mesh": "/Game/Forest/xhigh/Meshes/SM_Terrain.SM_Terrain"
+  },
+  "short_path_sweep": {
+    "before_cm": [
+      800.0,
+      -900.0,
+      433.48259474762983
+    ],
+    "after_cm": [
+      800.0,
+      -800.0,
+      433.48259474762983
+    ],
+    "distance_cm": 100.0
+  },
+  "native_hello_test_name": "ForestDemo.ScreenDebugLogger.HelloOnBeginPlay",
+  "native_test_log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\xhigh\\texture_release_validate_capture.log",
+  "native_hello_test_result": "[2026.10.21-14.25.44:251][ 12]LogAutomationController: Display: Test Completed. Result={Success} Name={HelloOnBeginPlay} Path={ForestDemo.ScreenDebugLogger.HelloOnBeginPlay}",
+  "finished_at_utc": "2026-10-21T14:25:44.277303+00:00",
+  "elapsed_seconds": 13.367667,
+  "passed": true
+}

@@ -41,8 +41,8 @@
   "path_change_regeneration_finished_at_utc": "2026-10-21T12:25:49.162629+00:00",
   "first_scene_saved_at_utc": "2026-10-21T12:25:49.162629+00:00",
   "resource_queue_policy": "Shared Run-UnrealIsolated.ps1 named mutex; timing records retained in private scratch",
-  "current_phase": "Published and verified; ready for supervisor review",
-  "last_progress_at_utc": "2026-10-21T13:16:38.946966+00:00",
+  "current_phase": "Texture pass published; ready for supervisor review",
+  "last_progress_at_utc": "2026-10-21T14:27:57.943323+00:00",
   "runtime_supplement_started_at_utc": "2026-10-21T12:46:06.220292+00:00",
   "runtime_supplement_scope": "Actual PIE possession, runtime ground trace, blocked downward pawn sweep, short 100cm path sweep, native Hello screenshot and normal PIE shutdown; integrated into pending capture session",
   "resource_queue_wait_seconds": 1861.5113022,
@@ -50,5 +50,35 @@
   "capture_started_at_utc": "2026-10-21T13:20:09.223396+00:00",
   "capture_finished_at_utc": "2026-10-21T13:21:37.018395+00:00",
   "runtime_supplement_finished_at_utc": "2026-10-21T13:21:50.442500+00:00",
-  "first_submitted_at_utc": "2026-10-21T13:23:13.500449+00:00"
+  "first_submitted_at_utc": "2026-10-21T13:23:13.500449+00:00",
+  "phase": "texture_pass",
+  "texture_pass_started_at_utc": "2026-10-21T13:45:50+00:00",
+  "texture_pass_finished_at_utc": "2026-10-21T14:27:57.943323+00:00",
+  "texture_pass_elapsed_seconds": 2527.943323,
+  "texture_pass_validation": {
+    "passed": true,
+    "fresh_map_checks": 17,
+    "texture_checks": {
+      "source_uv_no_overlaps": true,
+      "all_saved_meshes_have_uv": true,
+      "both_pines_full_precision_uv": true,
+      "all_895_saved_scale_corrections_match": true,
+      "five_generated_textures_used_by_saved_materials": true,
+      "WaterSea_translucent": true,
+      "WaterLake_translucent": true,
+      "Foam_translucent": true
+    },
+    "packages_checked": 56,
+    "forbidden_game_dependencies": 0,
+    "uv_meshes": 28,
+    "placement_scales_verified": 889,
+    "generated_images_applied": 5,
+    "uv_roundtrip_meshes": 4,
+    "actual_ue_images": 6,
+    "same_first_delivery_cameras": true,
+    "water_animation_difference_passed": true,
+    "actual_pie_passed": true,
+    "publication_sha256_verified": true
+  },
+  "texture_pass_result": "TexturePass/RESULT.md"
 }

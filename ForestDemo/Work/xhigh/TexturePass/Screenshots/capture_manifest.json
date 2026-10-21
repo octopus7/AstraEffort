@@ -1,0 +1,157 @@
+{
+  "map": "/Game/Maps/xhigh",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z0_cm": 350.38687275608095,
+  "ground_reference_definition": "terrain height at site center (0,0)",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scalability": "High (sg.* = 2)",
+  "screen_percentage": 100,
+  "capture_method": "UE SceneCapture2D FinalColorLDR, RGBA8 render target, target gamma 2.2; no UI and no image manipulation",
+  "warmup_seconds": {
+    "first_view": 45,
+    "subsequent_views": 10,
+    "post_capture_export_delay": 3
+  },
+  "note": "First four cameras and render settings match xhigh first delivery exactly. water_t0 and water_t1 share a fixed additional camera; actual UE Time animation remains enabled.",
+  "started_at_utc": "2026-10-21T14:23:36.728967+00:00",
+  "views": [
+    {
+      "name": "overview",
+      "position_cm": [
+        12000,
+        -12000,
+        16350.38687275608
+      ],
+      "target_cm": [
+        0,
+        0,
+        350.38687275608095
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_deg": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "render_world_time_seconds": 48.682703483849764,
+      "captured_at_utc": "2026-10-21T14:24:24.924826+00:00"
+    },
+    {
+      "name": "top_down",
+      "position_cm": [
+        0,
+        0,
+        20350.38687275608
+      ],
+      "rotation_deg": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "render_world_time_seconds": 61.86465808004141,
+      "captured_at_utc": "2026-10-21T14:24:38.110246+00:00"
+    },
+    {
+      "name": "lake",
+      "position_cm": [
+        -170,
+        730,
+        521.9987540353704
+      ],
+      "target_cm": [
+        -2100,
+        1800,
+        260
+      ],
+      "projection": "perspective",
+      "horizontal_fov_deg": 70,
+      "ground_z_cm": 351.99875403537044,
+      "eye_height_cm": 170,
+      "rotation_deg": [
+        -6.770770423145075,
+        150.99583231352293,
+        1.3790093100953195e-07
+      ],
+      "render_world_time_seconds": 75.06111018359661,
+      "captured_at_utc": "2026-10-21T14:24:51.311563+00:00"
+    },
+    {
+      "name": "beach",
+      "position_cm": [
+        900,
+        -1710,
+        305.9459928840306
+      ],
+      "target_cm": [
+        -2700,
+        -2520,
+        100
+      ],
+      "projection": "perspective",
+      "horizontal_fov_deg": 70,
+      "ground_z_cm": 135.94599288403057,
+      "eye_height_cm": 170,
+      "rotation_deg": [
+        -3.1944734417547895,
+        -167.3196165081802,
+        -7.222649516997333e-08
+      ],
+      "render_world_time_seconds": 88.26009948179126,
+      "captured_at_utc": "2026-10-21T14:25:04.514939+00:00"
+    },
+    {
+      "name": "water_t0",
+      "position_cm": [
+        900,
+        -2650,
+        500
+      ],
+      "target_cm": [
+        -500,
+        -3400,
+        -100
+      ],
+      "projection": "perspective",
+      "horizontal_fov_deg": 70,
+      "rotation_deg": [
+        -20.695418255098854,
+        -151.82140989004085,
+        -4.156211680413113e-07
+      ],
+      "render_world_time_seconds": 101.46360538899899,
+      "captured_at_utc": "2026-10-21T14:25:17.710654+00:00"
+    },
+    {
+      "name": "water_t1",
+      "position_cm": [
+        900,
+        -2650,
+        500
+      ],
+      "target_cm": [
+        -500,
+        -3400,
+        -100
+      ],
+      "projection": "perspective",
+      "horizontal_fov_deg": 70,
+      "rotation_deg": [
+        -20.695418255098854,
+        -151.82140989004085,
+        -4.156211680413113e-07
+      ],
+      "render_world_time_seconds": 114.64585488662124,
+      "captured_at_utc": "2026-10-21T14:25:30.906636+00:00"
+    }
+  ],
+  "finished_at_utc": "2026-10-21T14:25:30.906636+00:00"
+}

@@ -1,0 +1,143 @@
+{
+  "recorded_at_utc": "2026-10-21T14:22:10.754385+00:00",
+  "mesh": "SM_Pine_0",
+  "source_degenerate_triangles": 0,
+  "ue_roundtrip_uv_degenerate_triangles": 3,
+  "geometric_degenerate_triangles": 0,
+  "affected_geometry_area_m2": 0.0032674727711036206,
+  "whole_mesh_surface_area_m2": 139.63857805655033,
+  "details": [
+    {
+      "triangle": 54,
+      "geometry_area_m2": 0.00018368288843888497,
+      "uv_area": 0.0,
+      "geometry_degenerate": false,
+      "uv_degenerate": true,
+      "positions_m": [
+        [
+          0.024995287880301476,
+          2.1851573883679976e-09,
+          10.300485610961914
+        ],
+        [
+          0.020222719758749008,
+          0.014694522134959698,
+          10.300335884094238
+        ],
+        [
+          0.007722179871052504,
+          -0.023776233196258545,
+          10.30024242401123
+        ]
+      ],
+      "uv_coordinates": [
+        [
+          0.87548828125,
+          0.9726409912109375
+        ],
+        [
+          0.87548828125,
+          0.97314453125
+        ],
+        [
+          0.87548828125,
+          0.971527099609375
+        ]
+      ]
+    },
+    {
+      "triangle": 55,
+      "geometry_area_m2": 7.016074651404796e-05,
+      "uv_area": 0.0,
+      "geometry_degenerate": false,
+      "uv_degenerate": true,
+      "positions_m": [
+        [
+          0.007722179871052504,
+          -0.023776233196258545,
+          10.30024242401123
+        ],
+        [
+          0.02022050879895687,
+          -0.0146945184096694,
+          10.300450325012207
+        ],
+        [
+          0.024995287880301476,
+          2.1851573883679976e-09,
+          10.300485610961914
+        ]
+      ],
+      "uv_coordinates": [
+        [
+          0.87548828125,
+          0.971527099609375
+        ],
+        [
+          0.87548828125,
+          0.9720306396484375
+        ],
+        [
+          0.87548828125,
+          0.9726409912109375
+        ]
+      ]
+    },
+    {
+      "triangle": 717,
+      "geometry_area_m2": 0.003013629136150688,
+      "uv_area": 0.0,
+      "geometry_degenerate": false,
+      "uv_degenerate": true,
+      "positions_m": [
+        [
+          -0.2215658724308014,
+          0.38376325368881226,
+          9.5941801071167
+        ],
+        [
+          -0.013033287599682808,
+          0.02257431298494339,
+          10.31929874420166
+        ],
+        [
+          -0.007198879960924387,
+          0.026866575703024864,
+          10.318517684936523
+        ]
+      ],
+      "uv_coordinates": [
+        [
+          0.68017578125,
+          0.8719482421875
+        ],
+        [
+          0.68017578125,
+          0.838623046875
+        ],
+        [
+          0.68017578125,
+          0.838623046875
+        ]
+      ]
+    }
+  ],
+  "cause_evidence": "Three positive-area triangles have zero exported UV area; U coordinates snapped to repeated half-float values. Corrected both pine mesh build settings to full precision UVs. Final fresh roundtrip must have zero degenerate triangles.",
+  "repair": {
+    "finished_at_utc": "2026-10-21T14:19:19.559174+00:00",
+    "changed_meshes": [
+      "SM_Pine_0",
+      "SM_Pine_1"
+    ],
+    "reason": "UE half-precision built UV buffer collapsed three narrow SM_Pine_0 tip triangles; their world geometry area is positive. Retain full precision UVs on both pine variants. A fresh reload and roundtrip is required after this repair.",
+    "requires_fresh_reload": true
+  },
+  "final_roundtrip_degenerate_triangles": {
+    "SM_Broadleaf_1": 0,
+    "SM_Pine_0": 0,
+    "SM_Boulder_0": 0,
+    "SM_Dock": 0
+  },
+  "final_roundtrip_passed": true,
+  "final_roundtrip_checked_at_utc": "2026-10-21T14:25:05.057968+00:00"
+}
