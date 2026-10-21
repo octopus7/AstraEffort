@@ -1,0 +1,207 @@
+{
+  "started_at_utc": "2026-10-21T15:13:51.101602+00:00",
+  "checks": {
+    "pie_world": true,
+    "controller_and_pawn": true,
+    "possession": true,
+    "arrival_start": true,
+    "arrival_blocking_sweep": true,
+    "ramp_blocking_sweep": true,
+    "platform_blocking_sweep": true,
+    "short_movement": true,
+    "native_logger_in_pie": true,
+    "normal_pie_end": true
+  },
+  "sweeps": [
+    {
+      "site": "arrival",
+      "start_cm": [
+        -600.0,
+        -3300.0,
+        180.0
+      ],
+      "requested_end_cm": [
+        -600.0,
+        -3300.0,
+        -150.0
+      ],
+      "actual_end_cm": [
+        -600.0,
+        -3300.0,
+        39.83000189065933
+      ],
+      "actual_travel_cm": 140.16999810934067,
+      "hit_result": {
+        "hit_result_returned": true,
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.42475757002830505,
+        "distance_cm": 141.5,
+        "location_cm": [
+          -600.0,
+          -3300.0,
+          38.49999725818634
+        ],
+        "impact_point_cm": [
+          -600.0,
+          -3300.0,
+          3.5
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.StaticMeshActor_7",
+        "actor_label": "GroundPaths",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0",
+        "mesh": "/Game/MountainStation/high/Meshes/SM_GroundPaths.SM_GroundPaths",
+        "native_break_field_count": 18
+      },
+      "passed": true
+    },
+    {
+      "site": "ramp",
+      "start_cm": [
+        1550.0,
+        -800.0,
+        220.38
+      ],
+      "requested_end_cm": [
+        1550.0,
+        -800.0,
+        -109.62
+      ],
+      "actual_end_cm": [
+        1550.0,
+        -800.0,
+        76.82858300685882
+      ],
+      "actual_travel_cm": 143.55141699314117,
+      "hit_result": {
+        "hit_result_returned": true,
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.4350042939186096,
+        "distance_cm": 144.8814239501953,
+        "location_cm": [
+          1550.0,
+          -800.0,
+          75.49857837438583
+        ],
+        "impact_point_cm": [
+          1550.0,
+          -797.1822509765625,
+          40.612186431884766
+        ],
+        "normal": [
+          0.0,
+          -0.08050705401555389,
+          0.9967540389954468
+        ],
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.StaticMeshActor_2",
+        "actor_label": "Platform",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+        "mesh": "/Game/MountainStation/high/Meshes/SM_Platform.SM_Platform",
+        "native_break_field_count": 18
+      },
+      "passed": true
+    },
+    {
+      "site": "platform",
+      "start_cm": [
+        1000.0,
+        180.0,
+        285.0
+      ],
+      "requested_end_cm": [
+        1000.0,
+        180.0,
+        -45.0
+      ],
+      "actual_end_cm": [
+        1000.0,
+        180.0,
+        143.58000308275223
+      ],
+      "actual_travel_cm": 141.41999691724777,
+      "hit_result": {
+        "hit_result_returned": true,
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.42854544520378113,
+        "distance_cm": 142.75,
+        "location_cm": [
+          1000.0,
+          180.0,
+          142.24999845027924
+        ],
+        "impact_point_cm": [
+          1000.0,
+          180.0,
+          107.25
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.StaticMeshActor_2",
+        "actor_label": "Platform",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+        "mesh": "/Game/MountainStation/high/Meshes/SM_Platform.SM_Platform",
+        "native_break_field_count": 18
+      },
+      "passed": true
+    }
+  ],
+  "start_location_cm": [
+    -600.0,
+    -3300.0,
+    120.0
+  ],
+  "short_movement": {
+    "start": [
+      1000.0,
+      180.0,
+      160.0
+    ],
+    "end": [
+      700.0,
+      180.0,
+      160.0
+    ],
+    "travel_cm": 300.0,
+    "hit_result": {
+      "hit_result_returned": true,
+      "blocking_hit": false,
+      "initial_overlap": false,
+      "time": 1.0,
+      "distance_cm": 0.0,
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "impact_point_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actor": null,
+      "actor_label": null,
+      "component": null,
+      "mesh": null,
+      "native_break_field_count": 18
+    }
+  },
+  "hello_observation": "Unchanged native class instance observed in active PIE; baseline source/DLL retained. No separate observation of on-screen Hello or instrumented BeginPlay counter is claimed.",
+  "finished_at_utc": "2026-10-21T15:13:53.242165+00:00",
+  "elapsed_seconds": 2.140563488006592,
+  "passed": true
+}

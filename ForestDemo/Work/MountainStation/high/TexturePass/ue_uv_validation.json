@@ -1,0 +1,906 @@
+{
+  "validated_at_utc": "2026-10-21T15:16:19.899876+00:00",
+  "scope": "Every exported LOD0 triangle from all 11 saved UE assemblies; all placement scales checked from loaded UE actors. Exported FBX unit conversion verified against actual UE mesh bounds. Rigid actor rotation/reflection preserves area. No instancing assumption: authored repeated parts are already baked into assemblies and counted individually.",
+  "target_px_m": 128,
+  "texture_source_and_loaded_size": 1254,
+  "material_uv_multiplier": [
+    1,
+    1
+  ],
+  "overlap_scope": "Source chart bounding boxes are analytically disjoint before modulo. UE roundtrip measured UV areas and density for every triangle. No exhaustive within-chart triangle intersection test; projected normal patches can have local overlap on tiny/degenerate curved bevel faces. Repeated image addresses modulo 1 are intentional tiling, not unique baked surface artwork.",
+  "padding_scope": "Source UV0 uses 16 source pixels per chart edge / 32 between packed rectangles; UV1 uniformly normalized for inspection. These gaps isolate charts geometrically; wrap sampling intentionally reuses a single material tile, so padding is not baked-atlas dilation.",
+  "exceptions": {
+    "Glass": "plain tinted window glass, no generated texture",
+    "Lamp": "emissive light pane, no generated texture",
+    "SkyBackdrop": "unlit presentation background, not authored surface density scope"
+  },
+  "meshes": [
+    {
+      "mesh": "SM_Terrain",
+      "ue_export_sha256": "dc494ecbca89dd20e30c51df5ab15eb158a0e59e218b446c726ba2b76a62ce3f",
+      "all_triangles_inspected": 20188,
+      "uv_channels": 2,
+      "world_area_m2": 31214.118910511985,
+      "uv_area": 325.21025122958235,
+      "density_px_m": 127.99827290440798,
+      "density_all_min_p05_p50_p95_max": [
+        121.44459087970783,
+        124.68516682859233,
+        128.84259275359472,
+        128.89217647027212,
+        132.5676666563703
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        121.44459087970783,
+        124.68516682859233,
+        128.84259275359472,
+        128.89217647027212,
+        132.5676666563703
+      ],
+      "subpixel_triangles": 0,
+      "subpixel_world_area_m2": 0.0,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 2.136230477844947e-06,
+      "world_dimensions_m": [
+        100.00000762939453,
+        100.00000762939453,
+        14.35176134109497
+      ],
+      "expected_ue_dimensions_m": [
+        100.00000976562501,
+        100.00000976562501,
+        14.351761322021485
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 9.145546996819667e-08,
+      "material_stats": {
+        "M_Grass": {
+          "triangles": 20000,
+          "area_m2": 10394.762833082777,
+          "uv_area": 108.29403751250356,
+          "density_px_m": 127.99485624415851
+        },
+        "M_Earth": {
+          "triangles": 188,
+          "area_m2": 20819.356077429195,
+          "uv_area": 216.9162137170788,
+          "density_px_m": 127.99997875266683
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Railway",
+      "ue_export_sha256": "1ba4fc5dc6821dd42d715eff3e18317699b94cb4233b11f3afc87ae2203398d9",
+      "all_triangles_inspected": 85380,
+      "uv_channels": 2,
+      "world_area_m2": 883.4021902037877,
+      "uv_area": 9.204149940921528,
+      "density_px_m": 128.00005113485682,
+      "density_all_min_p05_p50_p95_max": [
+        122.33549231900544,
+        123.60210389400739,
+        127.99512367831589,
+        131.3620258074767,
+        133.7516354443444
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        123.10071907260678,
+        123.95640397226957,
+        128.00131931788806,
+        131.53081646428677,
+        133.57260660139863
+      ],
+      "subpixel_triangles": 39005,
+      "subpixel_world_area_m2": 0.5568249408602167,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 6.103515630684342e-07,
+      "world_dimensions_m": [
+        101.55311584472656,
+        14.051147222518921,
+        0.3349999785423279
+      ],
+      "expected_ue_dimensions_m": [
+        101.553115234375,
+        14.0511474609375,
+        0.3349999809265137
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 8.948245592859174e-08,
+      "material_stats": {
+        "M_Gravel": {
+          "triangles": 400,
+          "area_m2": 430.9443944495272,
+          "uv_area": 4.489997827447951,
+          "density_px_m": 128.000004214636
+        },
+        "M_Rail": {
+          "triangles": 3200,
+          "area_m2": 86.18897431252073,
+          "uv_area": 0.8980076218722388,
+          "density_px_m": 128.0005075310891
+        },
+        "M_Wood": {
+          "triangles": 27260,
+          "area_m2": 295.2113172668512,
+          "uv_area": 3.0757977232240705,
+          "density_px_m": 127.99998558280191
+        },
+        "M_Metal": {
+          "triangles": 54520,
+          "area_m2": 71.05750417489153,
+          "uv_area": 0.7403467683772682,
+          "density_px_m": 128.00005444643514
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Platform",
+      "ue_export_sha256": "142ae6ceae3af2d45828b720b27efdbfa783c804a16811300c155170cedab525",
+      "all_triangles_inspected": 44820,
+      "uv_channels": 2,
+      "world_area_m2": 1246.133375786018,
+      "uv_area": 12.983428686402725,
+      "density_px_m": 128.00000036158457,
+      "density_all_min_p05_p50_p95_max": [
+        123.44040243588167,
+        124.61603656915038,
+        127.963752948925,
+        130.00407936321628,
+        133.94880614633124
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        124.11512252443127,
+        126.60535987581481,
+        127.997953465423,
+        129.23354921756743,
+        133.94880614633124
+      ],
+      "subpixel_triangles": 19320,
+      "subpixel_world_area_m2": 0.2576692681956066,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 9.918212882098487e-07,
+      "world_dimensions_m": [
+        42.047271728515625,
+        18.07765007019043,
+        2.1448448598384857
+      ],
+      "expected_ue_dimensions_m": [
+        42.047271728515625,
+        18.077651062011718,
+        2.1448448181152346
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 5.8317525047559084e-08,
+      "material_stats": {
+        "M_Stone": {
+          "triangles": 676,
+          "area_m2": 784.3450914881989,
+          "uv_area": 8.172070139553398,
+          "density_px_m": 128.00000532205192
+        },
+        "M_Cream": {
+          "triangles": 15792,
+          "area_m2": 51.65342795544437,
+          "uv_area": 0.5381748788811578,
+          "density_px_m": 127.99991259476272
+        },
+        "M_Ochre": {
+          "triangles": 15792,
+          "area_m2": 10.73333352465073,
+          "uv_area": 0.11183065816840099,
+          "density_px_m": 128.00020482045932
+        },
+        "M_StoneLight": {
+          "triangles": 11844,
+          "area_m2": 293.2749854792262,
+          "uv_area": 3.0556233594599007,
+          "density_px_m": 127.99999015206421
+        },
+        "M_Path": {
+          "triangles": 12,
+          "area_m2": 96.52814326711605,
+          "uv_area": 1.0057239814195782,
+          "density_px_m": 127.99999810116742
+        },
+        "M_Metal.001": {
+          "triangles": 704,
+          "area_m2": 9.598394071336012,
+          "uv_area": 0.10000566892028928,
+          "density_px_m": 128.0001733699851
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Station",
+      "ue_export_sha256": "89a7965092564e26bc3b9b4967ea02b9e58a6efaa64c28fa5d3b5ff6595fb0a9",
+      "all_triangles_inspected": 8518,
+      "uv_channels": 2,
+      "world_area_m2": 1516.4144284785293,
+      "uv_area": 15.799480038176455,
+      "density_px_m": 128.0000029765961,
+      "density_all_min_p05_p50_p95_max": [
+        121.86439184741383,
+        125.07029629270363,
+        127.99884033682577,
+        131.37234911411147,
+        134.39598457393674
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        121.93867490045854,
+        125.41782695974558,
+        127.9987742585095,
+        130.91302574726524,
+        134.28384541406413
+      ],
+      "subpixel_triangles": 1088,
+      "subpixel_world_area_m2": 0.02559399410877198,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 4.2438507108499834e-07,
+      "world_dimensions_m": [
+        18.040002942085266,
+        11.70417857170105,
+        7.030000686645508
+      ],
+      "expected_ue_dimensions_m": [
+        18.040002517700195,
+        11.704178771972657,
+        7.030000610351562
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 3.844574908224079e-08,
+      "material_stats": {
+        "M_Stone.001": {
+          "triangles": 188,
+          "area_m2": 351.2388995422863,
+          "uv_area": 3.6595496196459862,
+          "density_px_m": 128.00002446236337
+        },
+        "M_Plaster": {
+          "triangles": 190,
+          "area_m2": 454.6685624463621,
+          "uv_area": 4.7371809789547115,
+          "density_px_m": 128.0000271246728
+        },
+        "M_Trim": {
+          "triangles": 1128,
+          "area_m2": 59.01819313801792,
+          "uv_area": 0.6149067328462934,
+          "density_px_m": 127.99977493250039
+        },
+        "M_StoneLight.001": {
+          "triangles": 1316,
+          "area_m2": 52.1878499192135,
+          "uv_area": 0.5437442434451896,
+          "density_px_m": 128.00005910505874
+        },
+        "M_Roof": {
+          "triangles": 396,
+          "area_m2": 426.96022367584004,
+          "uv_area": 4.448487419743117,
+          "density_px_m": 128.0000122471865
+        },
+        "M_RoofEdge": {
+          "triangles": 1540,
+          "area_m2": 73.0033400581456,
+          "uv_area": 0.7606168214529134,
+          "density_px_m": 127.99975376162848
+        },
+        "M_Cream.001": {
+          "triangles": 2444,
+          "area_m2": 61.589957725849295,
+          "uv_area": 0.6417045498934613,
+          "density_px_m": 128.0000510305259
+        },
+        "M_Glass": {
+          "triangles": 1316,
+          "area_m2": 37.74740197281783,
+          "uv_area": 0.3932896721947827,
+          "density_px_m": 128.00008984870206
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Canopy",
+      "ue_export_sha256": "b63545ba1db6cfd063f010d85230a999c46b908870d9924156e84893619a5176",
+      "all_triangles_inspected": 1480,
+      "uv_channels": 2,
+      "world_area_m2": 201.5149628228058,
+      "uv_area": 2.0995781330988166,
+      "density_px_m": 127.99998171388697,
+      "density_all_min_p05_p50_p95_max": [
+        124.4298819479628,
+        126.56108860238562,
+        127.99691155276577,
+        130.94181046572717,
+        133.1797316039072
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        124.4298819479628,
+        126.45468111201677,
+        127.99677972732196,
+        130.90393503914635,
+        133.1797316039072
+      ],
+      "subpixel_triangles": 256,
+      "subpixel_world_area_m2": 0.010730888028051831,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 1.7642974903253617e-07,
+      "world_dimensions_m": [
+        18.00000023841858,
+        4.540001273155212,
+        3.084999680519104
+      ],
+      "expected_ue_dimensions_m": [
+        18.00000030517578,
+        4.540001449584961,
+        3.084999542236328
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 3.325247584472934e-08,
+      "material_stats": {
+        "M_Roof.001": {
+          "triangles": 188,
+          "area_m2": 167.7242810236558,
+          "uv_area": 1.7475145135140338,
+          "density_px_m": 127.99999796078686
+        },
+        "M_Cream.002": {
+          "triangles": 188,
+          "area_m2": 21.779588579886365,
+          "uv_area": 0.22692071557116833,
+          "density_px_m": 127.99994201031483
+        },
+        "M_Trim.001": {
+          "triangles": 1104,
+          "area_m2": 12.011093219263671,
+          "uv_area": 0.1251429040136145,
+          "density_px_m": 127.99982683426563
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Signs",
+      "ue_export_sha256": "22c82eefa9c5f98ffbddae6b03fc1b97f6ba741d18c4152899b30acf1d5c65ef",
+      "all_triangles_inspected": 85460,
+      "uv_channels": 2,
+      "world_area_m2": 39.81567280020157,
+      "uv_area": 0.4148387187348652,
+      "density_px_m": 128.00005292665546,
+      "density_all_min_p05_p50_p95_max": [
+        121.05520010950644,
+        125.04334597476917,
+        127.9697960056325,
+        130.85508473236735,
+        140.04338277889207
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        122.39868688784884,
+        125.81702902861144,
+        128.00215936124562,
+        129.93818217816565,
+        132.2384265920501
+      ],
+      "subpixel_triangles": 76451,
+      "subpixel_world_area_m2": 0.5130615090843677,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 2.212524414346717e-06,
+      "world_dimensions_m": [
+        43.999990463256836,
+        13.60600221157074,
+        4.025000214576721
+      ],
+      "expected_ue_dimensions_m": [
+        43.99999267578125,
+        13.606002349853515,
+        4.025000305175781
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 1.5088048710501713e-07,
+      "material_stats": {
+        "M_Cream.003": {
+          "triangles": 82364,
+          "area_m2": 10.297577225034424,
+          "uv_area": 0.10729042514712062,
+          "density_px_m": 128.0001536069153
+        },
+        "M_Roof.002": {
+          "triangles": 564,
+          "area_m2": 26.482618849299605,
+          "uv_area": 0.2759217090206789,
+          "density_px_m": 128.00001105610684
+        },
+        "M_Metal.002": {
+          "triangles": 2532,
+          "area_m2": 3.0354767258673543,
+          "uv_area": 0.031626584567065685,
+          "density_px_m": 128.00007667200126
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Tunnel",
+      "ue_export_sha256": "aafd1c84132e5094ad9361608b27f705653194e88c5c8415e03581b4d0b4ace9",
+      "all_triangles_inspected": 3740,
+      "uv_channels": 2,
+      "world_area_m2": 1623.9356225424465,
+      "uv_area": 16.9197388950127,
+      "density_px_m": 127.99999732636014,
+      "density_all_min_p05_p50_p95_max": [
+        123.2323555239485,
+        124.73585882583538,
+        127.99999574855308,
+        131.44731626586847,
+        133.80960917296431
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        123.2323555239485,
+        124.74433799264592,
+        128.00001321315588,
+        131.44759041086178,
+        133.02914641164676
+      ],
+      "subpixel_triangles": 102,
+      "subpixel_world_area_m2": 0.004321826409855167,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 1.602172851278283e-06,
+      "world_dimensions_m": [
+        14.732110977172852,
+        16.13515543937683,
+        10.800000190734863
+      ],
+      "expected_ue_dimensions_m": [
+        14.732109375,
+        16.13515594482422,
+        10.800000457763671
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 3.353134697247405e-08,
+      "material_stats": {
+        "M_Stone.002": {
+          "triangles": 1668,
+          "area_m2": 874.9792640978054,
+          "uv_area": 9.11638382083089,
+          "density_px_m": 127.99999623838966
+        },
+        "M_StoneLight.002": {
+          "triangles": 872,
+          "area_m2": 67.84789466387888,
+          "uv_area": 0.7069050594466262,
+          "density_px_m": 127.99997756284844
+        },
+        "M_Dark": {
+          "triangles": 52,
+          "area_m2": 132.31960151550206,
+          "uv_area": 1.378634398803115,
+          "density_px_m": 128.00000882800643
+        },
+        "M_Hill": {
+          "triangles": 960,
+          "area_m2": 547.0807291024337,
+          "uv_area": 5.700018694857135,
+          "density_px_m": 127.99999951695094
+        },
+        "M_Cream.004": {
+          "triangles": 188,
+          "area_m2": 1.708133162827888,
+          "uv_area": 0.01779692107493247,
+          "density_px_m": 127.99974707673722
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_GroundPaths",
+      "ue_export_sha256": "dced32ce6d6a17ba4ddd3dac2271a3bc7670f0e30856c68ce20ab9dd216e1013",
+      "all_triangles_inspected": 916,
+      "uv_channels": 2,
+      "world_area_m2": 308.1728154257661,
+      "uv_area": 3.2108246357772714,
+      "density_px_m": 127.99961599484341,
+      "density_all_min_p05_p50_p95_max": [
+        124.0874062920082,
+        127.97383932229658,
+        127.99888898480864,
+        128.15179102731577,
+        129.79144631326426
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        124.0874062920082,
+        127.97383932229658,
+        127.99888898480864,
+        128.15179102731577,
+        129.79144631326426
+      ],
+      "subpixel_triangles": 0,
+      "subpixel_world_area_m2": 0.0,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 2.3651123086665393e-06,
+      "world_dimensions_m": [
+        53.90660285949707,
+        88.39836502075195,
+        8.239630546420813
+      ],
+      "expected_ue_dimensions_m": [
+        53.90660522460938,
+        88.39836669921876,
+        8.239630737304688
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 7.845495650002933e-08,
+      "material_stats": {
+        "M_Path.001": {
+          "triangles": 168,
+          "area_m2": 302.59391725989565,
+          "uv_area": 3.152698101475835,
+          "density_px_m": 127.99960584689805
+        },
+        "M_Wood.001": {
+          "triangles": 748,
+          "area_m2": 5.5788981658719665,
+          "uv_area": 0.05812653430143655,
+          "density_px_m": 128.0001664081371
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Cargo",
+      "ue_export_sha256": "c38fadb6f4baf3ca4c974c78aa87e53d7706ac8919163ff64e5839cdfd86d9ac",
+      "all_triangles_inspected": 7392,
+      "uv_channels": 2,
+      "world_area_m2": 652.1376250881623,
+      "uv_area": 6.794604798075056,
+      "density_px_m": 128.00001143598033,
+      "density_all_min_p05_p50_p95_max": [
+        122.78621281493297,
+        125.43790934173083,
+        128.00291547736114,
+        132.79488041390488,
+        134.36720651466834
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        122.78621281493297,
+        125.16854205507505,
+        127.99742026485215,
+        131.26668235265745,
+        133.81799225210085
+      ],
+      "subpixel_triangles": 2808,
+      "subpixel_world_area_m2": 0.05712174445565985,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 6.866455084519885e-07,
+      "world_dimensions_m": [
+        16.20000123977661,
+        10.000001907348633,
+        3.8999998569488525
+      ],
+      "expected_ue_dimensions_m": [
+        16.200000915527344,
+        10.000001220703124,
+        3.9
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 8.359764851417225e-08,
+      "material_stats": {
+        "M_Gravel.001": {
+          "triangles": 188,
+          "area_m2": 311.10293649924904,
+          "uv_area": 3.2413738592331356,
+          "density_px_m": 128.00002189817315
+        },
+        "M_Wood.002": {
+          "triangles": 528,
+          "area_m2": 156.267424448094,
+          "uv_area": 1.628145723449279,
+          "density_px_m": 127.99999295823493
+        },
+        "M_Roof.003": {
+          "triangles": 188,
+          "area_m2": 94.54815883287408,
+          "uv_area": 0.9850948522598628,
+          "density_px_m": 128.00001579793613
+        },
+        "M_Trim.002": {
+          "triangles": 5076,
+          "area_m2": 19.71002535211928,
+          "uv_area": 0.2053577190574174,
+          "density_px_m": 127.9998500865482
+        },
+        "M_RoofEdge.001": {
+          "triangles": 188,
+          "area_m2": 18.748327599922483,
+          "uv_area": 0.19533824099630692,
+          "density_px_m": 127.99998124445462
+        },
+        "M_Cream.005": {
+          "triangles": 44,
+          "area_m2": 1.5681044443905359,
+          "uv_area": 0.016338320111799476,
+          "density_px_m": 128.00111243509684
+        },
+        "M_Ochre.001": {
+          "triangles": 940,
+          "area_m2": 43.070418668510335,
+          "uv_area": 0.4487496079879634,
+          "density_px_m": 128.0000180563597
+        },
+        "M_Metal.003": {
+          "triangles": 240,
+          "area_m2": 7.1222292430014145,
+          "uv_area": 0.07420647497929167,
+          "density_px_m": 128.0001455012368
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Furniture",
+      "ue_export_sha256": "be5e97960033c14b24ee45ba29ef3d5a7e0d6446e8e0c039ee4179d6b7c0681d",
+      "all_triangles_inspected": 22636,
+      "uv_channels": 2,
+      "world_area_m2": 134.84655218164295,
+      "uv_area": 1.4049648733649676,
+      "density_px_m": 128.00011100171085,
+      "density_all_min_p05_p50_p95_max": [
+        122.9765621203668,
+        124.89780429334546,
+        127.9986049778951,
+        131.2607052804575,
+        134.27561318457026
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        123.26733525936261,
+        125.7154586571171,
+        127.99626728824005,
+        130.50784058080419,
+        134.0440794961746
+      ],
+      "subpixel_triangles": 11027,
+      "subpixel_world_area_m2": 0.2552248978363366,
+      "excluded_degenerate_triangles": 0,
+      "excluded_world_area_m2": 0.0,
+      "dimension_check_error_m": 3.204345702556566e-06,
+      "world_dimensions_m": [
+        56.92499923706055,
+        71.8899974822998,
+        8.61397647857666
+      ],
+      "expected_ue_dimensions_m": [
+        56.92500244140625,
+        71.88999755859375,
+        8.613976440429688
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 4.1590697256933115e-10,
+      "material_stats": {
+        "M_Wood.003": {
+          "triangles": 9776,
+          "area_m2": 59.723892247344814,
+          "uv_area": 0.6222634895382271,
+          "density_px_m": 128.00019902340622
+        },
+        "M_Metal.004": {
+          "triangles": 5300,
+          "area_m2": 16.60374094834015,
+          "uv_area": 0.17299380094812733,
+          "density_px_m": 127.99995958038932
+        },
+        "M_Leather": {
+          "triangles": 564,
+          "area_m2": 9.145812304649034,
+          "uv_area": 0.09528997001518746,
+          "density_px_m": 128.00000584669587
+        },
+        "M_Trim.003": {
+          "triangles": 1636,
+          "area_m2": 12.947518768480835,
+          "uv_area": 0.13490012581245736,
+          "density_px_m": 128.00013840099416
+        },
+        "M_Stone.003": {
+          "triangles": 300,
+          "area_m2": 2.9233157852043363,
+          "uv_area": 0.030457984946224315,
+          "density_px_m": 128.00008395711444
+        },
+        "M_Lamp": {
+          "triangles": 940,
+          "area_m2": 4.743475491002882,
+          "uv_area": 0.04942202949480645,
+          "density_px_m": 127.99985974844735
+        },
+        "M_Roof.004": {
+          "triangles": 940,
+          "area_m2": 3.862969689846982,
+          "uv_area": 0.040248244681372114,
+          "density_px_m": 128.00011460466092
+        },
+        "M_Cream.006": {
+          "triangles": 2820,
+          "area_m2": 12.950576307397977,
+          "uv_area": 0.1349321557529919,
+          "density_px_m": 128.0002206752158
+        },
+        "M_LeafLight": {
+          "triangles": 360,
+          "area_m2": 11.945250639374848,
+          "uv_area": 0.12445707217557356,
+          "density_px_m": 127.99991851941043
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    },
+    {
+      "mesh": "SM_Vegetation",
+      "ue_export_sha256": "52e2583d13bbc02c5b41bc91af051cd7f0d81fc7278c875ea2a349662d87cf4f",
+      "all_triangles_inspected": 52834,
+      "uv_channels": 2,
+      "world_area_m2": 3349.3682003473186,
+      "uv_area": 34.89690111366224,
+      "density_px_m": 127.99986792880307,
+      "density_all_min_p05_p50_p95_max": [
+        46.89350503263435,
+        124.60091871804353,
+        128.00013658133201,
+        131.22822304589457,
+        287.85714208905
+      ],
+      "density_at_least_one_pixel_triangle_min_p05_p50_p95_max": [
+        120.80134733614712,
+        124.60134558369424,
+        128.00013658133201,
+        131.22817484281444,
+        133.73073614675022
+      ],
+      "subpixel_triangles": 6,
+      "subpixel_world_area_m2": 4.436266713228125e-06,
+      "excluded_degenerate_triangles": 32,
+      "excluded_world_area_m2": 3.290534472376868e-05,
+      "dimension_check_error_m": 4.577636715907829e-06,
+      "world_dimensions_m": [
+        94.74103546142578,
+        93.95465087890625,
+        20.712297201156616
+      ],
+      "expected_ue_dimensions_m": [
+        94.7410400390625,
+        93.9546533203125,
+        20.712297439575195
+      ],
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "source_area_relative_error": 1.4237756387366086e-06,
+      "material_stats": {
+        "M_Wood.004": {
+          "triangles": 1224,
+          "area_m2": 188.2693248408516,
+          "uv_area": 1.9615737185486068,
+          "density_px_m": 128.00002986505547
+        },
+        "M_Leaf": {
+          "triangles": 31008,
+          "area_m2": 1752.0541184537294,
+          "uv_area": 18.254552006749236,
+          "density_px_m": 127.99982258914399
+        },
+        "M_LeafLight.001": {
+          "triangles": 16650,
+          "area_m2": 966.5445406483809,
+          "uv_area": 10.070379160215793,
+          "density_px_m": 127.99986502135725
+        },
+        "M_Stone.004": {
+          "triangles": 3920,
+          "area_m2": 442.5002164043747,
+          "uv_area": 4.610396228148602,
+          "density_px_m": 127.99998490055425
+        }
+      },
+      "passed": true,
+      "uv_to_source_coordinate_transform": "identity",
+      "triangles_outside_original_nonoverlap_chart_bounds": 0,
+      "chart_containment_tolerance_uv": 0.0001,
+      "minimum_inter_chart_padding_lower_bound_pixels": 31.7092
+    }
+  ],
+  "passed": true,
+  "elapsed_seconds": 7.696765184402466
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/TexturePass/Source/import_unreal.py", line 33, in <module>
+    mix=expr(u.MaterialExpressionLinearInterpolate,-50,0);mix.const_alpha=.72;u.MaterialEditingLibrary.connect_material_expressions(base,'',mix,'A');u.MaterialEditingLibrary.connect_material_expressions(mult,'',mix,'B');u.MaterialEditingLibrary.connect_material_property(mix,'',u.MaterialProperty.MP_BASE_COLOR)
+                                                          ^^^^^^^^^^^^^^^
+AttributeError: 'MaterialExpressionLinearInterpolate' object has no attribute 'const_alpha'

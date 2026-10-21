@@ -1,0 +1,1099 @@
+{
+  "validated_at_utc": "2026-10-21T15:06:03.148458+00:00",
+  "checks": {
+    "fresh_process_map_reload": true,
+    "owned_recursive_dependencies": true,
+    "all_11_assemblies": true,
+    "two_uv_channels": true,
+    "full_precision_uvs": true,
+    "actual_material_texture_links": true,
+    "actor_scale_absolute_one": true,
+    "collision_complex": true,
+    "player_start": true,
+    "native_logger": true
+  },
+  "passed": true,
+  "package_count": 42,
+  "forbidden_dependencies": [],
+  "dependency_graph": {
+    "/Game/MountainStation/high/Materials/M_Flower": [
+      "/Game/MountainStation/high/Textures/T_foliage"
+    ],
+    "/Game/MountainStation/high/Textures/T_foliage": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/high/Materials/M_Brick": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Textures/T_stone": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/high/Materials/M_SkyBackdrop": [],
+    "/Game/MountainStation/high/Materials/M_StoneLight": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Materials/M_Gravel": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Materials/M_Lamp": [],
+    "/Game/MountainStation/high/Materials/M_Stone": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Materials/M_Path": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Materials/M_Glass": [],
+    "/Game/MountainStation/high/Materials/M_Earth": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Materials/M_Dark": [
+      "/Game/MountainStation/high/Textures/T_stone"
+    ],
+    "/Game/MountainStation/high/Textures/T_plaster": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/high/Materials/M_Cream": [
+      "/Game/MountainStation/high/Textures/T_plaster"
+    ],
+    "/Game/MountainStation/high/Materials/M_Plaster": [
+      "/Game/MountainStation/high/Textures/T_plaster"
+    ],
+    "/Game/MountainStation/high/Materials/M_Leather": [
+      "/Game/MountainStation/high/Textures/T_plaster"
+    ],
+    "/Game/MountainStation/high/Textures/T_metal": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/high/Materials/M_Roof": [
+      "/Game/MountainStation/high/Textures/T_metal"
+    ],
+    "/Game/MountainStation/high/Materials/M_Metal": [
+      "/Game/MountainStation/high/Textures/T_metal"
+    ],
+    "/Game/MountainStation/high/Materials/M_Rail": [
+      "/Game/MountainStation/high/Textures/T_metal"
+    ],
+    "/Game/MountainStation/high/Materials/M_RoofEdge": [
+      "/Game/MountainStation/high/Textures/T_metal"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Signs": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Metal"
+    ],
+    "/Game/MountainStation/high/Textures/T_wood": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/high/Materials/M_Trim": [
+      "/Game/MountainStation/high/Textures/T_wood"
+    ],
+    "/Game/MountainStation/high/Materials/M_Ochre": [
+      "/Game/MountainStation/high/Textures/T_wood"
+    ],
+    "/Game/MountainStation/high/Materials/M_Wood": [
+      "/Game/MountainStation/high/Textures/T_wood"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_GroundPaths": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_Path"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Railway": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Gravel",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_Rail"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Canopy": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Cargo": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim",
+      "/Game/MountainStation/high/Materials/M_Gravel",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Ochre",
+      "/Game/MountainStation/high/Materials/M_RoofEdge",
+      "/Game/MountainStation/high/Materials/M_Wood"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Platform": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Ochre",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Path"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Station": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Materials/M_RoofEdge",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Glass",
+      "/Game/MountainStation/high/Materials/M_Plaster"
+    ],
+    "/Game/MountainStation/high/Materials/M_LeafLight": [
+      "/Game/MountainStation/high/Textures/T_foliage"
+    ],
+    "/Game/MountainStation/high/Materials/M_Grass": [
+      "/Game/MountainStation/high/Textures/T_foliage"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Terrain": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Earth",
+      "/Game/MountainStation/high/Materials/M_Grass"
+    ],
+    "/Game/MountainStation/high/Materials/M_Hill": [
+      "/Game/MountainStation/high/Textures/T_foliage"
+    ],
+    "/Game/MountainStation/high/Materials/M_Leaf": [
+      "/Game/MountainStation/high/Textures/T_foliage"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Vegetation": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_LeafLight",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Leaf"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Furniture": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Ochre",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_Lamp",
+      "/Game/MountainStation/high/Materials/M_LeafLight",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Leather"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Tunnel": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Materials/M_Dark",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Hill"
+    ],
+    "/Game/Maps/MountainStation_high": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/BasicShapes/Plane",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/EngineResources/DefaultTextureCube",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/MountainStation/high/Meshes/SM_Canopy",
+      "/Game/MountainStation/high/Materials/M_SkyBackdrop",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Meshes/SM_Cargo",
+      "/Game/MountainStation/high/Meshes/SM_Furniture",
+      "/Game/MountainStation/high/Meshes/SM_GroundPaths",
+      "/Game/MountainStation/high/Meshes/SM_Platform",
+      "/Game/MountainStation/high/Meshes/SM_Railway",
+      "/Game/MountainStation/high/Meshes/SM_Signs",
+      "/Game/MountainStation/high/Meshes/SM_Station",
+      "/Game/MountainStation/high/Meshes/SM_Terrain",
+      "/Game/MountainStation/high/Meshes/SM_Tunnel",
+      "/Game/MountainStation/high/Meshes/SM_Vegetation",
+      "/Script/ForestDemo"
+    ]
+  },
+  "mesh_geometry_exports": [
+    {
+      "name": "SM_Terrain",
+      "path": "/Game/MountainStation/high/Meshes/SM_Terrain.SM_Terrain",
+      "actor": "Terrain",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        0.0,
+        0.0,
+        482.5880813598633
+      ],
+      "asset_bounds_extent_cm": [
+        5000.00048828125,
+        5000.00048828125,
+        717.5880661010742
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Grass.M_Grass",
+        "/Game/MountainStation/high/Materials/M_Earth.M_Earth"
+      ]
+    },
+    {
+      "name": "SM_Railway",
+      "path": "/Game/MountainStation/high/Meshes/SM_Railway.SM_Railway",
+      "actor": "Railway",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        0.0,
+        -992.557373046875,
+        37.24999713897705
+      ],
+      "asset_bounds_extent_cm": [
+        5077.65576171875,
+        702.557373046875,
+        16.749999046325684
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Gravel.M_Gravel",
+        "/Game/MountainStation/high/Materials/M_Rail.M_Rail",
+        "/Game/MountainStation/high/Materials/M_Wood.M_Wood",
+        "/Game/MountainStation/high/Materials/M_Metal.M_Metal"
+      ]
+    },
+    {
+      "name": "SM_Platform",
+      "path": "/Game/MountainStation/high/Meshes/SM_Platform.SM_Platform",
+      "actor": "Platform",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -200.23748779296875,
+        396.11732482910156,
+        97.24224090576172
+      ],
+      "asset_bounds_extent_cm": [
+        2102.3635864257812,
+        903.8825531005859,
+        107.24224090576172
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Stone.M_Stone",
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+        "/Game/MountainStation/high/Materials/M_Ochre.M_Ochre",
+        "/Game/MountainStation/high/Materials/M_StoneLight.M_StoneLight",
+        "/Game/MountainStation/high/Materials/M_Path.M_Path",
+        "/Game/MountainStation/high/Materials/M_Metal.M_Metal"
+      ]
+    },
+    {
+      "name": "SM_Station",
+      "path": "/Game/MountainStation/high/Meshes/SM_Station.SM_Station",
+      "actor": "Station",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -799.9998741149902,
+        879.7910614013672,
+        351.5000305175781
+      ],
+      "asset_bounds_extent_cm": [
+        902.0001258850098,
+        585.2089385986328,
+        351.5000305175781
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Stone.M_Stone",
+        "/Game/MountainStation/high/Materials/M_Plaster.M_Plaster",
+        "/Game/MountainStation/high/Materials/M_Trim.M_Trim",
+        "/Game/MountainStation/high/Materials/M_StoneLight.M_StoneLight",
+        "/Game/MountainStation/high/Materials/M_Roof.M_Roof",
+        "/Game/MountainStation/high/Materials/M_RoofEdge.M_RoofEdge",
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+        "/Game/MountainStation/high/Materials/M_Glass.M_Glass"
+      ]
+    },
+    {
+      "name": "SM_Canopy",
+      "path": "/Game/MountainStation/high/Meshes/SM_Canopy.SM_Canopy",
+      "actor": "Canopy",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -799.9999847412109,
+        128.00008010864258,
+        259.24999237060547
+      ],
+      "asset_bounds_extent_cm": [
+        900.0000152587891,
+        227.00007247924805,
+        154.2499771118164
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Roof.M_Roof",
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+        "/Game/MountainStation/high/Materials/M_Trim.M_Trim"
+      ]
+    },
+    {
+      "name": "SM_Signs",
+      "path": "/Game/MountainStation/high/Meshes/SM_Signs.SM_Signs",
+      "actor": "Signs",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -50.0001220703125,
+        566.4999313354492,
+        291.25001525878906
+      ],
+      "asset_bounds_extent_cm": [
+        2199.9996337890625,
+        680.3001174926758,
+        201.25001525878906
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+        "/Game/MountainStation/high/Materials/M_Roof.M_Roof",
+        "/Game/MountainStation/high/Materials/M_Metal.M_Metal"
+      ]
+    },
+    {
+      "name": "SM_Tunnel",
+      "path": "/Game/MountainStation/high/Meshes/SM_Tunnel.SM_Tunnel",
+      "actor": "Tunnel",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        3486.193359375,
+        -976.6866607666016,
+        420.00003814697266
+      ],
+      "asset_bounds_extent_cm": [
+        736.60546875,
+        806.7577972412109,
+        540.0000228881836
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Stone.M_Stone",
+        "/Game/MountainStation/high/Materials/M_StoneLight.M_StoneLight",
+        "/Game/MountainStation/high/Materials/M_Dark.M_Dark",
+        "/Game/MountainStation/high/Materials/M_Hill.M_Hill",
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream"
+      ]
+    },
+    {
+      "name": "SM_GroundPaths",
+      "path": "/Game/MountainStation/high/Meshes/SM_GroundPaths.SM_GroundPaths",
+      "actor": "GroundPaths",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -1218.4070434570312,
+        580.0816650390625,
+        415.4815368652344
+      ],
+      "asset_bounds_extent_cm": [
+        2695.3302612304688,
+        4419.9183349609375,
+        411.9815368652344
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Path.M_Path",
+        "/Game/MountainStation/high/Materials/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "name": "SM_Cargo",
+      "path": "/Game/MountainStation/high/Meshes/SM_Cargo.SM_Cargo",
+      "actor": "Cargo",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        1260.0001983642578,
+        2299.9999389648438,
+        195.0
+      ],
+      "asset_bounds_extent_cm": [
+        810.0000457763672,
+        500.00006103515625,
+        195.0
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Gravel.M_Gravel",
+        "/Game/MountainStation/high/Materials/M_Wood.M_Wood",
+        "/Game/MountainStation/high/Materials/M_Roof.M_Roof",
+        "/Game/MountainStation/high/Materials/M_Trim.M_Trim",
+        "/Game/MountainStation/high/Materials/M_RoofEdge.M_RoofEdge",
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+        "/Game/MountainStation/high/Materials/M_Ochre.M_Ochre",
+        "/Game/MountainStation/high/Materials/M_Metal.M_Metal"
+      ]
+    },
+    {
+      "name": "SM_Furniture",
+      "path": "/Game/MountainStation/high/Meshes/SM_Furniture.SM_Furniture",
+      "actor": "Furniture",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -666.2501220703125,
+        431.5003662109375,
+        430.6988220214844
+      ],
+      "asset_bounds_extent_cm": [
+        2846.2501220703125,
+        3594.4998779296875,
+        430.6988220214844
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Wood.M_Wood",
+        "/Game/MountainStation/high/Materials/M_Metal.M_Metal",
+        "/Game/MountainStation/high/Materials/M_Ochre.M_Ochre",
+        "/Game/MountainStation/high/Materials/M_Trim.M_Trim",
+        "/Game/MountainStation/high/Materials/M_Stone.M_Stone",
+        "/Game/MountainStation/high/Materials/M_Lamp.M_Lamp",
+        "/Game/MountainStation/high/Materials/M_Roof.M_Roof",
+        "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+        "/Game/MountainStation/high/Materials/M_LeafLight.M_LeafLight",
+        "/Game/MountainStation/high/Materials/M_Leather.M_Leather"
+      ]
+    },
+    {
+      "name": "SM_Vegetation",
+      "path": "/Game/MountainStation/high/Meshes/SM_Vegetation.SM_Vegetation",
+      "actor": "Vegetation",
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "asset_bounds_origin_cm": [
+        -13.637939453125,
+        -60.378173828125,
+        990.4816856384277
+      ],
+      "asset_bounds_extent_cm": [
+        4737.052001953125,
+        4697.732666015625,
+        1035.6148719787598
+      ],
+      "uv_channels": 2,
+      "full_precision_uvs": true,
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "materials": [
+        "/Game/MountainStation/high/Materials/M_Wood.M_Wood",
+        "/Game/MountainStation/high/Materials/M_Leaf.M_Leaf",
+        "/Game/MountainStation/high/Materials/M_LeafLight.M_LeafLight",
+        "/Game/MountainStation/high/Materials/M_Stone.M_Stone"
+      ]
+    }
+  ],
+  "material_links": [
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Plaster.M_Plaster",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_plaster.T_plaster",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_plaster.T_plaster"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_plaster.T_plaster",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Cream.M_Cream",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_plaster.T_plaster",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_plaster.T_plaster"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_plaster.T_plaster",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Leather.M_Leather",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_plaster.T_plaster",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_plaster.T_plaster"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_plaster.T_plaster",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Wood.M_Wood",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_wood.T_wood",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_wood.T_wood"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_wood.T_wood",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Trim.M_Trim",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_wood.T_wood",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_wood.T_wood"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_wood.T_wood",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Ochre.M_Ochre",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_wood.T_wood",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_wood.T_wood"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_wood.T_wood",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Stone.M_Stone",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_StoneLight.M_StoneLight",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Gravel.M_Gravel",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Path.M_Path",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Dark.M_Dark",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Earth.M_Earth",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Brick.M_Brick",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_stone.T_stone"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_stone.T_stone",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Roof.M_Roof",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_metal.T_metal"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_RoofEdge.M_RoofEdge",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_metal.T_metal"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Metal.M_Metal",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_metal.T_metal"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Rail.M_Rail",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_metal.T_metal"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_metal.T_metal",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Grass.M_Grass",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_foliage.T_foliage"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Hill.M_Hill",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_foliage.T_foliage"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Leaf.M_Leaf",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_foliage.T_foliage"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_LeafLight.M_LeafLight",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_foliage.T_foliage"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Flower.M_Flower",
+      "expected_texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+      "actual_used_textures": [
+        "/Game/MountainStation/high/Textures/T_foliage.T_foliage"
+      ],
+      "base_color_graph_samples": [
+        {
+          "texture": "/Game/MountainStation/high/Textures/T_foliage.T_foliage",
+          "coordinate_index_default": 0,
+          "upstream_nodes": []
+        }
+      ],
+      "verified": true,
+      "uv_multiplier": [
+        1,
+        1
+      ],
+      "coordinate_channel": 0
+    }
+  ],
+  "scope": "All saved authored meshes exported from this new UE process. CPU geometry/UV roundtrip audit follows separately."
+}

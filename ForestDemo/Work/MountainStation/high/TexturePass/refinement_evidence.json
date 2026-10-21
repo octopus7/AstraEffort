@@ -1,0 +1,38 @@
+{
+  "finished_at_utc": "2026-10-21T15:13:09.553958+00:00",
+  "root_cause": "PresentationGround engine plane reused StoneLight, which acquired a generated stone texture at plane UV scale. Split its unchanged constant palette into a dedicated material. Foliage contrast also reduced without changing UVs or textures.",
+  "background_previous_material": "/Game/MountainStation/high/Materials/M_StoneLight.M_StoneLight",
+  "background_material": "/Game/MountainStation/high/Materials/M_PresentationGround.M_PresentationGround",
+  "background_color": [
+    0.61,
+    0.61,
+    0.52
+  ],
+  "changes": [
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Grass.M_Grass",
+      "previous_weight": 0.7200000286102295,
+      "generated_weight": 0.1
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Hill.M_Hill",
+      "previous_weight": 0.7200000286102295,
+      "generated_weight": 0.1
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Leaf.M_Leaf",
+      "previous_weight": 0.7200000286102295,
+      "generated_weight": 0.24
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_LeafLight.M_LeafLight",
+      "previous_weight": 0.7200000286102295,
+      "generated_weight": 0.24
+    },
+    {
+      "material": "/Game/MountainStation/high/Materials/M_Flower.M_Flower",
+      "previous_weight": 0.7200000286102295,
+      "generated_weight": 0.24
+    }
+  ]
+}

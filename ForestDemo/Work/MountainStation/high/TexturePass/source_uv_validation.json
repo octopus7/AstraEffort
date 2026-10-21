@@ -1,0 +1,645 @@
+{
+  "target_px_per_m": 128.0,
+  "texture_resolution": 1254,
+  "units": "Blender meter; applied scene assembly transforms; UE placement abs scale 1 expected and rechecked independently",
+  "UV0": "nonoverlapping charts outside 0-1; repeating texture addressing deliberately reuses image samples",
+  "UV1": "normalized nonoverlapping inspection layout; not used for rendering or baked lighting",
+  "padding_per_chart_edge_pixels": 16,
+  "minimum_packed_rectangle_gap_pixels": 32,
+  "normal_patch_angle_degrees": 25,
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "vertices": 10297,
+      "polygons": 10098,
+      "triangles": 20188,
+      "islands": 25,
+      "curved_islands": 17,
+      "area_m2": 31214.12176521416,
+      "uv_area": 325.2102516395971,
+      "area_weighted_density_px_m": 127.99826713202484,
+      "density_min_p05_p50_p95_max": [
+        121.44454916605576,
+        124.68829124043262,
+        128.84259275359472,
+        128.89218039660548,
+        132.5676666563703
+      ],
+      "subpixel_triangles": 0,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        36.0663098349457
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Grass": {
+          "area_m2": 10394.76560491174,
+          "uv_area": 108.29403747757897,
+          "triangles": 20000,
+          "area_weighted_density_px_m": 127.99483915820572
+        },
+        "Earth": {
+          "area_m2": 20819.356160302406,
+          "uv_area": 216.91621416201815,
+          "triangles": 188,
+          "area_weighted_density_px_m": 127.99997862918647
+        }
+      },
+      "inspection_uv_scale": 0.027726706851252933
+    },
+    {
+      "name": "SM_Railway",
+      "vertices": 43770,
+      "polygons": 44430,
+      "triangles": 85380,
+      "islands": 12190,
+      "curved_islands": 6098,
+      "area_m2": 883.4022692527923,
+      "uv_area": 9.204149929810963,
+      "area_weighted_density_px_m": 128.00004533072115,
+      "density_min_p05_p50_p95_max": [
+        122.33620915024376,
+        123.59772469957922,
+        127.99504135643754,
+        131.35709677865756,
+        133.78832001969678
+      ],
+      "subpixel_triangles": 39005,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        15.722552528813452
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Gravel": {
+          "area_m2": 430.94440808264704,
+          "uv_area": 4.4899978237226605,
+          "triangles": 400,
+          "area_weighted_density_px_m": 128.00000213686724
+        },
+        "Rail": {
+          "area_m2": 86.18896074217344,
+          "uv_area": 0.8980076110456139,
+          "triangles": 3200,
+          "area_weighted_density_px_m": 128.00051683624642
+        },
+        "Wood": {
+          "area_m2": 295.21139321683984,
+          "uv_area": 3.07579772693137,
+          "triangles": 27260,
+          "area_weighted_density_px_m": 127.99996919445603
+        },
+        "Metal": {
+          "area_m2": 71.05750721116446,
+          "uv_area": 0.7403467681113192,
+          "triangles": 54520,
+          "area_weighted_density_px_m": 128.00005168873665
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Platform",
+      "vertices": 22908,
+      "polygons": 23206,
+      "triangles": 44820,
+      "islands": 4226,
+      "curved_islands": 2479,
+      "area_m2": 1246.1334484574365,
+      "uv_area": 12.983428568932482,
+      "area_weighted_density_px_m": 127.99999605020976,
+      "density_min_p05_p50_p95_max": [
+        123.42643005510712,
+        124.61805143140712,
+        127.96389824456244,
+        130.0042023501664,
+        133.9483816852121
+      ],
+      "subpixel_triangles": 19320,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        2.3066148596637372
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Stone": {
+          "area_m2": 784.3451116917712,
+          "uv_area": 8.172070141416043,
+          "triangles": 676,
+          "area_weighted_density_px_m": 128.00000368809373
+        },
+        "Cream": {
+          "area_m2": 51.653428101470155,
+          "uv_area": 0.5381748793828365,
+          "triangles": 15792,
+          "area_weighted_density_px_m": 127.99991247349274
+        },
+        "Ochre": {
+          "area_m2": 10.733332393796438,
+          "uv_area": 0.1118306582131936,
+          "triangles": 15792,
+          "area_weighted_density_px_m": 128.0002115890872
+        },
+        "StoneLight": {
+          "area_m2": 293.2750258622927,
+          "uv_area": 3.0556233030176827,
+          "triangles": 11844,
+          "area_weighted_density_px_m": 127.99998015728049
+        },
+        "Path": {
+          "area_m2": 96.52815828903395,
+          "uv_area": 1.0057239208836108,
+          "triangles": 12,
+          "area_weighted_density_px_m": 127.99998428909927
+        },
+        "Metal": {
+          "area_m2": 9.598392119026446,
+          "uv_area": 0.10000566601911487,
+          "triangles": 704,
+          "area_weighted_density_px_m": 128.00018453093037
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Station",
+      "vertices": 4410,
+      "polygons": 4128,
+      "triangles": 8518,
+      "islands": 1139,
+      "curved_islands": 364,
+      "area_m2": 1516.4144867782202,
+      "uv_area": 15.799479904251086,
+      "area_weighted_density_px_m": 127.99999997356775,
+      "density_min_p05_p50_p95_max": [
+        121.85186660768818,
+        125.07255771186342,
+        127.99864836762754,
+        131.3598242550083,
+        134.3883037418053
+      ],
+      "subpixel_triangles": 1088,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        3.0272069720332873
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Stone": {
+          "area_m2": 351.23890481795564,
+          "uv_area": 3.659549601659819,
+          "triangles": 188,
+          "area_weighted_density_px_m": 128.00002318652108
+        },
+        "Plaster": {
+          "area_m2": 454.66859806941125,
+          "uv_area": 4.737180999087286,
+          "triangles": 190,
+          "area_weighted_density_px_m": 128.00002238229885
+        },
+        "Trim": {
+          "area_m2": 59.01818886228633,
+          "uv_area": 0.6149067240081081,
+          "triangles": 1128,
+          "area_weighted_density_px_m": 127.99977864926042
+        },
+        "StoneLight": {
+          "area_m2": 52.18786102042836,
+          "uv_area": 0.5437442450752883,
+          "triangles": 1316,
+          "area_weighted_density_px_m": 128.00004568306758
+        },
+        "Roof": {
+          "area_m2": 426.96026861388367,
+          "uv_area": 4.448487302110664,
+          "triangles": 396,
+          "area_weighted_density_px_m": 128.0000038187465
+        },
+        "RoofEdge": {
+          "area_m2": 73.00329414249886,
+          "uv_area": 0.7606168117603147,
+          "triangles": 1540,
+          "area_weighted_density_px_m": 127.99979319898625
+        },
+        "Cream": {
+          "area_m2": 61.58995986858488,
+          "uv_area": 0.6417045514001529,
+          "triangles": 2444,
+          "area_weighted_density_px_m": 128.0000489542123
+        },
+        "Glass": {
+          "area_m2": 37.74741138317603,
+          "uv_area": 0.3932896691494534,
+          "triangles": 1316,
+          "area_weighted_density_px_m": 128.00007339804452
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Canopy",
+      "vertices": 768,
+      "polygons": 700,
+      "triangles": 1480,
+      "islands": 222,
+      "curved_islands": 62,
+      "area_m2": 201.5149561219346,
+      "uv_area": 2.0995780337973713,
+      "area_weighted_density_px_m": 127.99998081510762,
+      "density_min_p05_p50_p95_max": [
+        124.43004174666214,
+        126.63694503378743,
+        127.99699396584589,
+        130.94198109097073,
+        133.16740576564732
+      ],
+      "subpixel_triangles": 256,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        1.9369224420104871
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Roof": {
+          "area_m2": 167.7242815127932,
+          "uv_area": 1.7475144589880074,
+          "triangles": 188,
+          "area_weighted_density_px_m": 127.99999577721162
+        },
+        "Cream": {
+          "area_m2": 21.77958639857043,
+          "uv_area": 0.22692068727246806,
+          "triangles": 188,
+          "area_weighted_density_px_m": 127.99994043890445
+        },
+        "Trim": {
+          "area_m2": 12.011088210569858,
+          "uv_area": 0.12514288753689584,
+          "triangles": 1104,
+          "area_weighted_density_px_m": 127.99984509616269
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Signs",
+      "vertices": 49664,
+      "polygons": 46022,
+      "triangles": 85468,
+      "islands": 5103,
+      "curved_islands": 4522,
+      "area_m2": 39.81567880761058,
+      "uv_area": 0.4148386813642926,
+      "area_weighted_density_px_m": 128.00003750488457,
+      "density_min_p05_p50_p95_max": [
+        121.08702585582546,
+        125.04129703714437,
+        127.96995409826698,
+        130.85224983310584,
+        139.64635315903507
+      ],
+      "subpixel_triangles": 76463,
+      "degenerate_triangles_excluded": 8,
+      "uv_bounds": [
+        16,
+        0.9482772931763556
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Cream": {
+          "area_m2": 10.297577865451716,
+          "uv_area": 0.10729040249690469,
+          "triangles": 82364,
+          "area_weighted_density_px_m": 128.00013611554596
+        },
+        "Roof": {
+          "area_m2": 26.482625408721972,
+          "uv_area": 0.2759216972314107,
+          "triangles": 564,
+          "area_weighted_density_px_m": 127.99999246956843
+        },
+        "Metal": {
+          "area_m2": 3.035475533437432,
+          "uv_area": 0.0316265816359772,
+          "triangles": 2532,
+          "area_weighted_density_px_m": 128.000095881823
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Tunnel",
+      "vertices": 1970,
+      "polygons": 2635,
+      "triangles": 3742,
+      "islands": 824,
+      "curved_islands": 496,
+      "area_m2": 1623.9356769951971,
+      "uv_area": 16.919738845726272,
+      "area_weighted_density_px_m": 127.9999949939249,
+      "density_min_p05_p50_p95_max": [
+        123.23320120338052,
+        124.73788285809297,
+        128.0000007523663,
+        131.44728220516416,
+        133.7997869407032
+      ],
+      "subpixel_triangles": 102,
+      "degenerate_triangles_excluded": 2,
+      "uv_bounds": [
+        16,
+        2.7838453536056473
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Stone": {
+          "area_m2": 874.9792687797901,
+          "uv_area": 9.116383811488674,
+          "triangles": 1668,
+          "area_weighted_density_px_m": 127.9999958303424
+        },
+        "StoneLight": {
+          "area_m2": 67.84789999310883,
+          "uv_area": 0.7069050603013238,
+          "triangles": 872,
+          "area_weighted_density_px_m": 127.99997261323966
+        },
+        "Dark": {
+          "area_m2": 132.31960962328617,
+          "uv_area": 1.37863440066576,
+          "triangles": 52,
+          "area_weighted_density_px_m": 128.00000499292358
+        },
+        "Hill": {
+          "area_m2": 547.0807633429844,
+          "uv_area": 5.700018652249128,
+          "triangles": 960,
+          "area_weighted_density_px_m": 127.99999503293117
+        },
+        "Cream": {
+          "area_m2": 1.7081352560285308,
+          "uv_area": 0.01779692102138597,
+          "triangles": 188,
+          "area_weighted_density_px_m": 127.99966845677152
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_GroundPaths",
+      "vertices": 580,
+      "polygons": 322,
+      "triangles": 916,
+      "islands": 244,
+      "curved_islands": 4,
+      "area_m2": 308.1728396034528,
+      "uv_area": 3.210824602465891,
+      "area_weighted_density_px_m": 127.99961030976162,
+      "density_min_p05_p50_p95_max": [
+        124.0712876211415,
+        127.97559122627814,
+        127.99888898480864,
+        128.15178210192326,
+        129.79144894114157
+      ],
+      "subpixel_triangles": 0,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        4.029921512033652
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Path": {
+          "area_m2": 302.59394161201527,
+          "uv_area": 3.1526980865746737,
+          "triangles": 168,
+          "area_weighted_density_px_m": 127.99960039383565
+        },
+        "Wood": {
+          "area_m2": 5.578897991443488,
+          "uv_area": 0.05812651589121742,
+          "triangles": 748,
+          "area_weighted_density_px_m": 128.00014813861807
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Cargo",
+      "vertices": 3792,
+      "polygons": 3720,
+      "triangles": 7392,
+      "islands": 782,
+      "curved_islands": 508,
+      "area_m2": 652.1376796053388,
+      "uv_area": 6.794604554890682,
+      "area_weighted_density_px_m": 128.0000037951186,
+      "density_min_p05_p50_p95_max": [
+        122.78648805088592,
+        125.43412977563115,
+        128.0023887126201,
+        132.7916794909895,
+        134.40905179279
+      ],
+      "subpixel_triangles": 2808,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        2.0161384714956574
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Gravel": {
+          "area_m2": 311.1029987742954,
+          "uv_area": 3.241373721815762,
+          "triangles": 188,
+          "area_weighted_density_px_m": 128.0000063737026
+        },
+        "Wood": {
+          "area_m2": 156.26741926890173,
+          "uv_area": 1.6281456450774385,
+          "triangles": 528,
+          "area_weighted_density_px_m": 127.99999199871444
+        },
+        "Roof": {
+          "area_m2": 94.54816403441016,
+          "uv_area": 0.9850948316643553,
+          "triangles": 188,
+          "area_weighted_density_px_m": 128.0000109389402
+        },
+        "Trim": {
+          "area_m2": 19.710002032432747,
+          "uv_area": 0.20535771034998618,
+          "triangles": 5076,
+          "area_weighted_density_px_m": 127.9999230936993
+        },
+        "RoofEdge": {
+          "area_m2": 18.74832990027312,
+          "uv_area": 0.19533824283644208,
+          "triangles": 188,
+          "area_weighted_density_px_m": 127.99997399478848
+        },
+        "Cream": {
+          "area_m2": 1.568106774997044,
+          "uv_area": 0.01633831982940137,
+          "triangles": 44,
+          "area_weighted_density_px_m": 128.00101620770533
+        },
+        "Ochre": {
+          "area_m2": 43.070427033038044,
+          "uv_area": 0.44874960706471256,
+          "triangles": 940,
+          "area_weighted_density_px_m": 128.00000549551203
+        },
+        "Metal": {
+          "area_m2": 7.122231786996312,
+          "uv_area": 0.07420647625258425,
+          "triangles": 240,
+          "area_weighted_density_px_m": 128.00012373916746
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Furniture",
+      "vertices": 11656,
+      "polygons": 11566,
+      "triangles": 22636,
+      "islands": 3417,
+      "curved_islands": 1369,
+      "area_m2": 134.84655223772657,
+      "uv_area": 1.4049648092088027,
+      "area_weighted_density_px_m": 128.00010805260106,
+      "density_min_p05_p50_p95_max": [
+        122.18252332580624,
+        124.88006972492745,
+        127.99834071277378,
+        131.2438692155893,
+        134.4508197871722
+      ],
+      "subpixel_triangles": 11069,
+      "degenerate_triangles_excluded": 0,
+      "uv_bounds": [
+        16,
+        0.9844750695841229
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Wood": {
+          "area_m2": 59.72388899524219,
+          "uv_area": 0.622263455911451,
+          "triangles": 9776,
+          "area_weighted_density_px_m": 128.00019904982798
+        },
+        "Metal": {
+          "area_m2": 16.60375275119309,
+          "uv_area": 0.17299379402833992,
+          "triangles": 5300,
+          "area_weighted_density_px_m": 127.99991152569397
+        },
+        "Leather": {
+          "area_m2": 9.14581332118511,
+          "uv_area": 0.09528996253177979,
+          "triangles": 564,
+          "area_weighted_density_px_m": 127.99999370713046
+        },
+        "Trim": {
+          "area_m2": 12.947515439581483,
+          "uv_area": 0.13490010961363197,
+          "triangles": 1636,
+          "area_weighted_density_px_m": 128.00014717073304
+        },
+        "Stone": {
+          "area_m2": 2.923314923450245,
+          "uv_area": 0.030457984822533035,
+          "triangles": 300,
+          "area_weighted_density_px_m": 128.00010256356117
+        },
+        "Lamp": {
+          "area_m2": 4.743475432229991,
+          "uv_area": 0.04942202931019324,
+          "triangles": 940,
+          "area_weighted_density_px_m": 127.99986030235493
+        },
+        "Roof": {
+          "area_m2": 3.862969544847666,
+          "uv_area": 0.04024824457942344,
+          "triangles": 940,
+          "area_weighted_density_px_m": 128.00011684483675
+        },
+        "Cream": {
+          "area_m2": 12.950577250669868,
+          "uv_area": 0.13493215623587673,
+          "triangles": 2820,
+          "area_weighted_density_px_m": 128.00021624272432
+        },
+        "LeafLight": {
+          "area_m2": 11.945244579326333,
+          "uv_area": 0.12445707217557356,
+          "triangles": 360,
+          "area_weighted_density_px_m": 127.99995098779617
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    },
+    {
+      "name": "SM_Vegetation",
+      "vertices": 27902,
+      "polygons": 30152,
+      "triangles": 54836,
+      "islands": 7200,
+      "curved_islands": 4901,
+      "area_m2": 3349.372969102957,
+      "uv_area": 34.89690107671004,
+      "area_weighted_density_px_m": 127.99977673945453,
+      "density_min_p05_p50_p95_max": [
+        0.8222625582506458,
+        124.22202649929986,
+        128.00012766260176,
+        131.22631768043874,
+        316.47781430276063
+      ],
+      "subpixel_triangles": 6,
+      "degenerate_triangles_excluded": 2034,
+      "uv_bounds": [
+        16,
+        8.40926144535723
+      ],
+      "island_rectangle_nonoverlap": "all charts analytically disjoint by shelf construction; no 0-1 unique-bake claim",
+      "material_statistics": {
+        "Wood": {
+          "area_m2": 188.2692981871701,
+          "uv_area": 1.961573692584352,
+          "triangles": 1224,
+          "area_weighted_density_px_m": 128.00003807853972
+        },
+        "Leaf": {
+          "area_m2": 1752.0573350528932,
+          "uv_area": 18.254551994380904,
+          "triangles": 31008,
+          "area_weighted_density_px_m": 127.99970504839578
+        },
+        "LeafLight": {
+          "area_m2": 966.5461304108527,
+          "uv_area": 10.070379161596179,
+          "triangles": 16650,
+          "area_weighted_density_px_m": 127.99975976383222
+        },
+        "Stone": {
+          "area_m2": 442.50020545206746,
+          "uv_area": 4.610396228148602,
+          "triangles": 3920,
+          "area_weighted_density_px_m": 127.99998648461585
+        }
+      },
+      "inspection_uv_scale": 0.0625
+    }
+  ],
+  "elapsed_seconds": 8.896116733551025
+}

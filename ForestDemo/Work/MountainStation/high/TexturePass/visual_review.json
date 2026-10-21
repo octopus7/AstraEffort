@@ -1,0 +1,22 @@
+{
+  "screenshot_sha256": {
+    "tracks.png": "b6eaa5c563189112aaaf660c9f6fec51ffa3af5925bf9534491779b19f7f0030",
+    "overview.png": "59ac3006c89852c7042415433ccdff21562178d1cc444c2c7caac2ebcb5932fa",
+    "top_down.png": "393d86795739ef20a901f65e6fdb28f6cb94dc050f9bdb88197380313b1e4241",
+    "platform.png": "cb9f0fc7d234eadccb614f7d92726e7bf21fe0d91c4f3a57fa55b24cff2cb7a1"
+  },
+  "passed": true,
+  "observations": {
+    "overview": "Original layout retained. Background calm after dedicated material; terrain variation restrained; station and rail curve remain readable.",
+    "top_down": "Path network and curved rail legible; no enlarged background texture; original framing preserved.",
+    "tracks": "Stone arch and wooden sleepers show generated texture; tunnel remains dark, original exit/horizon retained.",
+    "platform": "Plaster, paving, wood, roof and foliage texture visible; geometry and framing preserved. Canopy shade remains dark as in original lighting."
+  },
+  "reviewer": "MountainStation/high worker, direct inspection of all four actual UE PNGs",
+  "limitations": [
+    "No numerical tile seam certification",
+    "No mip chain; distant texture may alias",
+    "Existing tunnel and canopy shadows retained"
+  ],
+  "reviewed_at_utc": "2026-10-21T15:17:37.0525350+00:00"
+}
