@@ -1,0 +1,33 @@
+Using bundled DotNet SDK version: 8.0.412 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ForestDemoEditor Win64 Development -Project=D:/github/AstraEffort/ForestDemo/ForestDemo.uproject -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\blendue\AppData\Local\UnrealBuildTool\Log.txt
+Using 'git status' to determine working set for adaptive non-unity build (D:\github\AstraEffort).
+Creating makefile for ForestDemoEditor (command line arguments changed)
+UHT compiled-in object format Default
+Parsing headers for ForestDemoEditor
+  Running Internal UnrealHeaderTool D:\github\AstraEffort\ForestDemo\ForestDemo.uproject D:\github\AstraEffort\ForestDemo\Intermediate\Build\Win64\ForestDemoEditor\Development\ForestDemoEditor.uhtmanifest -WarningsAsErrors -installed
+UHT processed ForestDemoEditor in 1.1549184 seconds (6 files written)
+Building ForestDemoEditor...
+Using Visual Studio 2022 14.44.35216 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from ForestUltraTrees unity file: ForestUltraAnimeTreeActor.cpp, ForestUltraCanopyRimSubsystem.cpp, ForestUltraCanopyRimViewExtension.cpp, ForestUltraTreesModule.cpp
+Determining max actions to execute in parallel (12 physical cores, 24 logical cores)
+  Executing up to 12 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  Storage capacity 40Gb
+---- Starting trace: 261022_012002 ----
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[1/9] Resource Default.rc2
+[2/9] Compile [x64] Module.ForestUltraTrees.cpp
+[3/9] Compile [x64] ForestUltraTreesModule.cpp
+[4/9] Compile [x64] ForestUltraAnimeTreeActor.cpp
+[5/9] Compile [x64] ForestUltraCanopyRimSubsystem.cpp
+[6/9] Compile [x64] ForestUltraCanopyRimViewExtension.cpp
+[7/9] Link [x64] UnrealEditor-ForestUltraTrees.lib
+[8/9] Link [x64] UnrealEditor-ForestUltraTrees.dll
+[9/9] WriteMetadata ForestDemoEditor.target [NoUba]
+
+Trace written to file C:/Users/blendue/AppData/Local/UnrealBuildTool/Log.uba with size 4.6kb
+Total time in Unreal Build Accelerator local executor: 3.31 seconds
+
+Result: Succeeded
+Total execution time: 8.47 seconds
