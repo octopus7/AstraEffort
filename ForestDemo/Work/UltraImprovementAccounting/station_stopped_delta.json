@@ -1,0 +1,81 @@
+{
+  "theme": "MountainStation",
+  "effort": "ultra",
+  "status": "stopped_by_user_unvalidated_checkpoint",
+  "snapshot": "ForestDemo/Work/UltraImprovementAccounting/station_stopped_snapshot.json",
+  "captured_at_utc": "2026-10-21T16:10:20.9850899+00:00",
+  "baseline_utc": "2026-10-21T15:37:23.4631689+00:00",
+  "members": [
+    {
+      "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+      "category": "configured_parent",
+      "baseline_present": true,
+      "input_tokens": 4529891,
+      "cached_input_tokens": 4419456,
+      "uncached_input_tokens": 110435,
+      "output_tokens": 37157,
+      "reasoning_output_tokens": 14214,
+      "total_tokens": 4567048
+    },
+    {
+      "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+      "category": "automatic_approval_review",
+      "baseline_present": true,
+      "input_tokens": 0,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_output_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+      "category": "automatic_approval_review",
+      "baseline_present": true,
+      "input_tokens": 0,
+      "cached_input_tokens": 0,
+      "uncached_input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_output_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "thread_id": "01a15f0c-c702-7c11-b202-9433a4aa9255",
+      "category": "automatic_approval_review",
+      "baseline_present": true,
+      "input_tokens": 303188,
+      "cached_input_tokens": 272896,
+      "uncached_input_tokens": 30292,
+      "output_tokens": 421,
+      "reasoning_output_tokens": 150,
+      "total_tokens": 303609
+    },
+    {
+      "thread_id": "01a15f1e-0776-7390-9738-02affcaf5b48",
+      "category": "delegated_subagent",
+      "baseline_present": false,
+      "input_tokens": 1873565,
+      "cached_input_tokens": 1761280,
+      "uncached_input_tokens": 112285,
+      "output_tokens": 11114,
+      "reasoning_output_tokens": 3525,
+      "total_tokens": 1884679
+    },
+    {
+      "thread_id": "01a15f34-cfc1-7160-9e57-88eac2c96fec",
+      "category": "automatic_approval_review",
+      "baseline_present": false,
+      "input_tokens": 66559,
+      "cached_input_tokens": 40960,
+      "uncached_input_tokens": 25599,
+      "output_tokens": 507,
+      "reasoning_output_tokens": 269,
+      "total_tokens": 67066
+    }
+  ],
+  "parent_total_delta": 4567048,
+  "verified_child_total_delta": 2255354.0,
+  "combined_total_delta": 6822402.0,
+  "unknown_members": [],
+  "note": "Each eligible parent/child last cumulative value minus its own baseline; a new child uses zero only when its creation after the baseline is proven. Cached input and reasoning are subsets."
+}

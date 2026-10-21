@@ -7913,7 +7913,7 @@
     "xhigh_utc_notation_verified": true
   },
   "ultra_self_improvement": {
-    "status": "forest_active_station_stopped_by_user",
+    "status": "forest_verified_station_closed_per_user_stop_report_finalizing",
     "user_authorized_at_observed_utc": "2026-10-21T15:01:04.9688409+00:00",
     "report": "ForestDemo/Work/ULTRA_IMPROVEMENT.md",
     "accounting_root": "ForestDemo/Work/UltraImprovementAccounting",
@@ -7935,7 +7935,8 @@
       "completed_at_kst": "2026-10-22T01:26:37.8291457+09:00",
       "report_commit": "54304c05023236d1d4ba01ed314f467f37449bf1",
       "allow_comparison_writes": false,
-      "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A"
+      "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A",
+      "freeze_commit": "90415994bd207a1ec50a85f031c490efca9b5895"
     },
     "jobs": [
       {
@@ -7943,7 +7944,7 @@
         "effort": "ultra",
         "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
         "hostId": "local",
-        "status": "working",
+        "status": "verified_and_committed",
         "work_root": "ForestDemo/Work/ultra/SelfImprovement",
         "asset_root": "ForestDemo/Content/Forest/ultra",
         "map": "ForestDemo/Content/Maps/ultra.umap",
@@ -8280,18 +8281,118 @@
         "dispatch_count": 1,
         "dispatch_details": "Explicit existing-chat continuation with original model/ultra; import specified TunaSweeper BP and preserve required native/rendering behavior; no worker shared changes or Git.",
         "worker_turn_started_at_utc": "2026-10-21T15:30:23.0000000+00:00",
-        "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:22",
+        "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:23",
         "worker_started_at_utc": "2026-10-21T15:30:53Z",
         "requires_native_integration": true,
         "native_integration": {
           "build_evidence": "ForestDemo/Work/UltraImprovementIntegration/build_timing.json",
-          "status": "shared_build_passed_runtime_smoke_pending",
+          "status": "shared_build_and_both_fresh_process_smokes_passed",
           "temporary_redirects": false,
           "shared_renderer_setting": "r.CustomDepth=3",
           "installed_files": 10,
           "build_exit_code": 0,
           "commit": "3d1f790641615153688c976aad660113325c6038"
-        }
+        },
+        "worker_finished_at_utc": "2026-10-21T16:24:27.478715+00:00",
+        "worker_finished_at_kst": "2026-10-22T01:24:27.478715+09:00",
+        "elapsed_seconds": 3214.478715,
+        "commit": "31f7b64b12da02a443d747d5d693fbd4674cef09",
+        "committed_at_utc": "2026-10-21T16:31:28+00:00",
+        "validation": {
+          "worker_checks": 24,
+          "published_files_rehashed": 11,
+          "supervisor_medium_checks": 18,
+          "supervisor_ultra_checks": 16,
+          "details": "Work/UltraImprovementIntegration/Evidence",
+          "frozen_comparison_files_rehashed": 2300,
+          "exit_codes": [
+            0,
+            0
+          ],
+          "limitations": [
+            "No packaged/non-D3D12 test",
+            "Medium style/pass inactivity inferred from source guard and zero actors; not a GPU measurement",
+            "Known one-off worker palette-study shutdown access violation; subsequent final and supervisor runs exit0"
+          ],
+          "final_renders_directly_reviewed": 5
+        },
+        "token_delta": {
+          "theme": "Forest",
+          "effort": "ultra",
+          "status": "submitted_ready_for_review",
+          "baseline": "forest_baseline.json",
+          "snapshot": "final_snapshot.json",
+          "baseline_utc": "2026-10-21T15:28:19.9150287+00:00",
+          "captured_at_utc": "2026-10-21T16:29:16.4049372+00:00",
+          "members": [
+            {
+              "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+              "category": "configured_parent",
+              "baseline_present": true,
+              "created_at_utc": "2026-10-21T12:11:52.020Z",
+              "recorded_at_utc": "2026-10-21T16:26:35.978Z",
+              "input_tokens": 11860629,
+              "cached_input_tokens": 11610624,
+              "uncached_input_tokens": 250005,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 73915,
+              "reasoning_output_tokens": 31835,
+              "total_tokens": 11934544,
+              "issues": []
+            },
+            {
+              "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
+              "category": "automatic_approval_review",
+              "baseline_present": true,
+              "created_at_utc": "2026-10-21T12:17:32.497Z",
+              "recorded_at_utc": "2026-10-21T13:01:36.132Z",
+              "input_tokens": 0,
+              "cached_input_tokens": 0,
+              "uncached_input_tokens": 0,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 0,
+              "reasoning_output_tokens": 0,
+              "total_tokens": 0,
+              "issues": []
+            },
+            {
+              "thread_id": "01a15ebf-e499-7163-a7bf-4f30c8714975",
+              "category": "automatic_approval_review",
+              "baseline_present": true,
+              "created_at_utc": "2026-10-21T13:56:36.745Z",
+              "recorded_at_utc": "2026-10-21T15:42:59.716Z",
+              "input_tokens": 318990,
+              "cached_input_tokens": 0,
+              "uncached_input_tokens": 318990,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 332,
+              "reasoning_output_tokens": 140,
+              "total_tokens": 319322,
+              "issues": []
+            },
+            {
+              "thread_id": "01a15f25-3d12-72c0-a110-7a0acb60f15b",
+              "category": "automatic_approval_review",
+              "baseline_present": false,
+              "created_at_utc": "2026-10-21T15:47:18.519Z",
+              "recorded_at_utc": "2026-10-21T16:20:35.525Z",
+              "input_tokens": 726400,
+              "cached_input_tokens": 632960,
+              "uncached_input_tokens": 93440,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1459,
+              "reasoning_output_tokens": 667,
+              "total_tokens": 727859,
+              "issues": []
+            }
+          ],
+          "unknown_members": [],
+          "parent_total_tokens": 11934544,
+          "child_total_tokens": 1047181,
+          "combined_total_tokens": 12981725,
+          "method": "Same-ID latest cumulative minus baseline once per member; verified new children start after baseline. Cache is part of input; reasoning is part of output. No monetary conversion."
+        },
+        "final_report": "ForestDemo/Work/ULTRA_IMPROVEMENT.md"
       },
       {
         "theme": "MountainStation",
@@ -8984,14 +9085,7 @@
       "threadId": "01a15e6e-0712-76f0-9586-f65cc202196c"
     }
   ],
-  "active_monitor_targets": [
-    {
-      "effort": "ultra",
-      "phase": "self_improvement",
-      "theme": "Forest",
-      "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e"
-    }
-  ],
+  "active_monitor_targets": [],
   "monitor_policy": "Only active remaining assignments; remove completed targets after approval/commit. Do not wake completed chats. Supervisor integration/report work continues separately.",
   "ue_priority_policy": {
     "implementation_status": "applied_and_root_test_passed",
@@ -9055,7 +9149,8 @@
     "completed_at_kst": "2026-10-22T01:26:37.8291457+09:00",
     "report_commit": "54304c05023236d1d4ba01ed314f467f37449bf1",
     "allow_comparison_writes": false,
-    "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A"
+    "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A",
+    "freeze_commit": "90415994bd207a1ec50a85f031c490efca9b5895"
   },
   "comparison_report_completed": true
 }
