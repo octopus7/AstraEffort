@@ -1,0 +1,595 @@
+{
+  "site_metres": [
+    100,
+    100
+  ],
+  "palette": {
+    "Meadow": [
+      "#7F9171",
+      0.95
+    ],
+    "MeadowLight": [
+      "#95A17B",
+      0.96
+    ],
+    "Earth": [
+      "#6E7966",
+      1
+    ],
+    "Stone": [
+      "#969D91",
+      0.9
+    ],
+    "StoneLight": [
+      "#B8B6A1",
+      0.86
+    ],
+    "StoneDark": [
+      "#727C76",
+      0.94
+    ],
+    "Gravel": [
+      "#AFA38B",
+      0.98
+    ],
+    "Ballast": [
+      "#777F78",
+      1
+    ],
+    "Timber": [
+      "#685749",
+      0.9
+    ],
+    "WoodLight": [
+      "#A59170",
+      0.82
+    ],
+    "Sage": [
+      "#7F9D91",
+      0.84
+    ],
+    "SageDark": [
+      "#557C74",
+      0.85
+    ],
+    "Cream": [
+      "#E0D7B9",
+      0.78
+    ],
+    "Roof": [
+      "#B57960",
+      0.83
+    ],
+    "RoofLight": [
+      "#C48A6D",
+      0.8
+    ],
+    "Metal": [
+      "#435955",
+      0.54
+    ],
+    "Rail": [
+      "#8C9993",
+      0.4
+    ],
+    "Glass": [
+      "#466A73",
+      0.26
+    ],
+    "Pine": [
+      "#527B6C",
+      0.94
+    ],
+    "PineLight": [
+      "#668873",
+      0.95
+    ],
+    "PineDark": [
+      "#3C665B",
+      0.94
+    ],
+    "Mustard": [
+      "#CEAE65",
+      0.78
+    ],
+    "Luggage": [
+      "#9B6656",
+      0.8
+    ],
+    "Ink": [
+      "#354D49",
+      0.8
+    ],
+    "Lamp": [
+      "#F3D99B",
+      0.5
+    ],
+    "Interior": [
+      "#263D39",
+      1
+    ],
+    "Flower": [
+      "#C4B58A",
+      1
+    ]
+  },
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Terrain.fbx",
+      "vertices": 10201,
+      "polygons": 10000,
+      "materials": [
+        "Meadow",
+        "MeadowLight"
+      ]
+    },
+    {
+      "name": "SM_TerrainSkirt",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TerrainSkirt.fbx",
+      "vertices": 1200,
+      "polygons": 800,
+      "materials": [
+        "Earth"
+      ]
+    },
+    {
+      "name": "SM_Ballast",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Ballast.fbx",
+      "vertices": 1604,
+      "polygons": 1602,
+      "materials": [
+        "Ballast"
+      ]
+    },
+    {
+      "name": "SM_Sleepers",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Sleepers.fbx",
+      "vertices": 8232,
+      "polygons": 7938,
+      "materials": [
+        "Timber"
+      ]
+    },
+    {
+      "name": "SM_RailFasteners",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_RailFasteners.fbx",
+      "vertices": 13104,
+      "polygons": 12636,
+      "materials": [
+        "Metal"
+      ]
+    },
+    {
+      "name": "SM_Rails",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Rails.fbx",
+      "vertices": 9624,
+      "polygons": 9604,
+      "materials": [
+        "Rail",
+        "Metal"
+      ]
+    },
+    {
+      "name": "SM_Platform",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Platform.fbx",
+      "vertices": 276,
+      "polygons": 206,
+      "materials": [
+        "Stone"
+      ]
+    },
+    {
+      "name": "SM_PlatformCoping",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_PlatformCoping.fbx",
+      "vertices": 552,
+      "polygons": 548,
+      "materials": [
+        "Cream",
+        "Mustard"
+      ]
+    },
+    {
+      "name": "SM_Paving",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Paving.fbx",
+      "vertices": 4704,
+      "polygons": 4536,
+      "materials": [
+        "StoneLight",
+        "Mustard"
+      ]
+    },
+    {
+      "name": "SM_AccessRamp",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_AccessRamp.fbx",
+      "vertices": 8,
+      "polygons": 5,
+      "materials": [
+        "StoneLight"
+      ]
+    },
+    {
+      "name": "SM_Railings",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Railings.fbx",
+      "vertices": 672,
+      "polygons": 648,
+      "materials": [
+        "Metal"
+      ]
+    },
+    {
+      "name": "SM_Footpath",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Footpath.fbx",
+      "vertices": 11775,
+      "polygons": 21592,
+      "materials": [
+        "Gravel"
+      ]
+    },
+    {
+      "name": "SM_StationStone",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationStone.fbx",
+      "vertices": 112,
+      "polygons": 108,
+      "materials": [
+        "StoneLight"
+      ]
+    },
+    {
+      "name": "SM_StationWalls",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationWalls.fbx",
+      "vertices": 62,
+      "polygons": 56,
+      "materials": [
+        "Sage"
+      ]
+    },
+    {
+      "name": "SM_StationCladding",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationCladding.fbx",
+      "vertices": 2352,
+      "polygons": 2268,
+      "materials": [
+        "SageDark"
+      ]
+    },
+    {
+      "name": "SM_StationTrim",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationTrim.fbx",
+      "vertices": 1456,
+      "polygons": 1404,
+      "materials": [
+        "Cream",
+        "StoneDark"
+      ]
+    },
+    {
+      "name": "SM_StationRoof",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationRoof.fbx",
+      "vertices": 112,
+      "polygons": 108,
+      "materials": [
+        "Roof"
+      ]
+    },
+    {
+      "name": "SM_RoofSeams",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_RoofSeams.fbx",
+      "vertices": 2856,
+      "polygons": 2754,
+      "materials": [
+        "RoofLight"
+      ]
+    },
+    {
+      "name": "SM_StationDoors",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationDoors.fbx",
+      "vertices": 184,
+      "polygons": 170,
+      "materials": [
+        "Cream",
+        "SageDark",
+        "Mustard"
+      ]
+    },
+    {
+      "name": "SM_StationGlass",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_StationGlass.fbx",
+      "vertices": 280,
+      "polygons": 270,
+      "materials": [
+        "Glass"
+      ]
+    },
+    {
+      "name": "SM_Canopy",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Canopy.fbx",
+      "vertices": 784,
+      "polygons": 756,
+      "materials": [
+        "Roof",
+        "Cream",
+        "SageDark"
+      ]
+    },
+    {
+      "name": "SM_Signage",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Signage.fbx",
+      "vertices": 504,
+      "polygons": 486,
+      "materials": [
+        "SageDark",
+        "Mustard",
+        "Metal",
+        "Cream"
+      ]
+    },
+    {
+      "name": "SM_Lettering",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Lettering.fbx",
+      "vertices": 47400,
+      "polygons": 41203,
+      "materials": [
+        "Cream",
+        "Ink"
+      ]
+    },
+    {
+      "name": "SM_Clock",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Clock.fbx",
+      "vertices": 1360,
+      "polygons": 1240,
+      "materials": [
+        "Metal",
+        "Cream",
+        "Ink"
+      ]
+    },
+    {
+      "name": "SM_Benches",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Benches.fbx",
+      "vertices": 2688,
+      "polygons": 2592,
+      "materials": [
+        "Metal",
+        "WoodLight"
+      ]
+    },
+    {
+      "name": "SM_Lamps",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Lamps.fbx",
+      "vertices": 2368,
+      "polygons": 2224,
+      "materials": [
+        "Metal",
+        "Lamp"
+      ]
+    },
+    {
+      "name": "SM_Luggage",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Luggage.fbx",
+      "vertices": 672,
+      "polygons": 648,
+      "materials": [
+        "Luggage",
+        "Timber",
+        "Metal",
+        "Mustard",
+        "SageDark"
+      ]
+    },
+    {
+      "name": "SM_Timetable",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Timetable.fbx",
+      "vertices": 112,
+      "polygons": 108,
+      "materials": [
+        "Metal",
+        "Cream"
+      ]
+    },
+    {
+      "name": "SM_FreightShed",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_FreightShed.fbx",
+      "vertices": 392,
+      "polygons": 378,
+      "materials": [
+        "Stone",
+        "SageDark",
+        "Roof",
+        "Cream"
+      ]
+    },
+    {
+      "name": "SM_Cargo",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Cargo.fbx",
+      "vertices": 3566,
+      "polygons": 3504,
+      "materials": [
+        "WoodLight",
+        "Timber",
+        "Cream"
+      ]
+    },
+    {
+      "name": "SM_Handcart",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Handcart.fbx",
+      "vertices": 648,
+      "polygons": 570,
+      "materials": [
+        "WoodLight",
+        "Metal",
+        "Timber"
+      ]
+    },
+    {
+      "name": "SM_TunnelInterior",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TunnelInterior.fbx",
+      "vertices": 58,
+      "polygons": 26,
+      "materials": [
+        "StoneDark"
+      ]
+    },
+    {
+      "name": "SM_TunnelMasonry",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TunnelMasonry.fbx",
+      "vertices": 1328,
+      "polygons": 1248,
+      "materials": [
+        "Stone",
+        "StoneLight"
+      ]
+    },
+    {
+      "name": "SM_TunnelRibs",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TunnelRibs.fbx",
+      "vertices": 8064,
+      "polygons": 7776,
+      "materials": [
+        "Stone"
+      ]
+    },
+    {
+      "name": "SM_TunnelDarkness",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TunnelDarkness.fbx",
+      "vertices": 4,
+      "polygons": 1,
+      "materials": [
+        "Interior"
+      ]
+    },
+    {
+      "name": "SM_TunnelHill",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TunnelHill.fbx",
+      "vertices": 1022,
+      "polygons": 1120,
+      "materials": [
+        "StoneDark",
+        "Meadow"
+      ]
+    },
+    {
+      "name": "SM_Outcrops",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Outcrops.fbx",
+      "vertices": 1560,
+      "polygons": 1800,
+      "materials": [
+        "StoneDark",
+        "Stone"
+      ]
+    },
+    {
+      "name": "SM_OutcropMoss",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_OutcropMoss.fbx",
+      "vertices": 620,
+      "polygons": 720,
+      "materials": [
+        "MeadowLight"
+      ]
+    },
+    {
+      "name": "SM_Trunks",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Trunks.fbx",
+      "vertices": 4284,
+      "polygons": 4046,
+      "materials": [
+        "Timber"
+      ]
+    },
+    {
+      "name": "SM_Conifers",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Conifers.fbx",
+      "vertices": 19040,
+      "polygons": 17952,
+      "materials": [
+        "PineDark",
+        "Pine",
+        "PineLight"
+      ]
+    },
+    {
+      "name": "SM_Shrubs",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Shrubs.fbx",
+      "vertices": 5304,
+      "polygons": 6120,
+      "materials": [
+        "PineLight"
+      ]
+    },
+    {
+      "name": "SM_MeadowDetails",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_MeadowDetails.fbx",
+      "vertices": 2808,
+      "polygons": 3456,
+      "materials": [
+        "Flower"
+      ]
+    },
+    {
+      "name": "SM_Fences",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Fences.fbx",
+      "vertices": 1960,
+      "polygons": 1890,
+      "materials": [
+        "WoodLight"
+      ]
+    },
+    {
+      "name": "SM_TrailSigns",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_TrailSigns.fbx",
+      "vertices": 224,
+      "polygons": 216,
+      "materials": [
+        "Timber",
+        "Cream"
+      ]
+    },
+    {
+      "name": "SM_Planters",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Planters.fbx",
+      "vertices": 628,
+      "polygons": 684,
+      "materials": [
+        "WoodLight",
+        "PineLight"
+      ]
+    },
+    {
+      "name": "SM_Bins",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_Bins.fbx",
+      "vertices": 384,
+      "polygons": 328,
+      "materials": [
+        "SageDark",
+        "Metal"
+      ]
+    },
+    {
+      "name": "SM_WaterTap",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_WaterTap.fbx",
+      "vertices": 112,
+      "polygons": 108,
+      "materials": [
+        "Metal"
+      ]
+    },
+    {
+      "name": "SM_PedestrianCrossing",
+      "file": "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/SourceArt/SM_PedestrianCrossing.fbx",
+      "vertices": 1288,
+      "polygons": 1242,
+      "materials": [
+        "WoodLight"
+      ]
+    }
+  ],
+  "trees": 34,
+  "rail_gauge_cm": 152,
+  "platform_height_cm": 152,
+  "ramp_rise_cm": 112,
+  "ramp_run_cm": 1300,
+  "metadata_refreshed_at_utc": "2026-10-21T13:34:49.559425+00:00",
+  "authoritative_source": "SourceArt/AlderPass.blend",
+  "ramp_plan_run_cm": 1334.1664064126335
+}

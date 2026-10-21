@@ -1,0 +1,9 @@
+{
+  "observed_at_utc": "2026-10-21T16:01:21.2079724+00:00",
+  "rejected_capture_directory": "Screenshots/before_current",
+  "reason": "Images contained only the sky backdrop. The adapted script omitted the explicit SceneCaptureComponent2D.capture_scene call on each camera change.",
+  "corrective_action": "Restored the 130 hash-preserved baseline packages in the private project; added explicit capture_scene; captured six fresh frames to before_fixed; restored the 137-package improvement candidate after editor exit.",
+  "evidence_accepted": "Screenshots/before_fixed",
+  "original_baseline_pngs": "Screenshots/before",
+  "first_capture_not_scene_evidence": true
+}

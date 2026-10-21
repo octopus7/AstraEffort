@@ -1,0 +1,2321 @@
+{
+  "started_at_utc": "2026-10-21T16:02:24.585842+00:00",
+  "map": "/Game/Maps/MountainStation_ultra",
+  "materials": [
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768.MI_stone_Meadow_32768",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        26.130781499202552,
+        26.130781499202552
+      ],
+      "virtual_atlas_side_px": 32768,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Earth_8192.MI_stone_Earth_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Ballast_8192.MI_stone_Ballast_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_8192.MI_wood_Timber_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_4096.MI_metal_Metal_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Rail_4096.MI_metal_Rail_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Cream_2048.MI_stone_Cream_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Mustard_2048.MI_stone_Mustard_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_4096.MI_wood_Mustard_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_2048.MI_stone_StoneLight_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Gravel_8192.MI_stone_Gravel_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Sage_4096.MI_wood_Sage_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096.MI_stone_StoneDark_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Roof_4096.MI_metal_Roof_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_RoofLight_4096.MI_metal_RoofLight_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024.MI_wood_Cream_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024.MI_wood_Mustard_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096.MI_wood_Roof_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_2048.MI_wood_SageDark_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_2048.MI_wood_Mustard_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_2048.MI_wood_Cream_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Luggage_1024.MI_wood_Luggage_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512.MI_metal_Metal_512",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.4082934609250399,
+        0.4082934609250399
+      ],
+      "virtual_atlas_side_px": 512,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_512.MI_wood_Cream_512",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.4082934609250399,
+        0.4082934609250399
+      ],
+      "virtual_atlas_side_px": 512,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_4096.MI_wood_WoodLight_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_4096.MI_wood_Timber_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_1024.MI_wood_WoodLight_1024",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        0.8165869218500797,
+        0.8165869218500797
+      ],
+      "virtual_atlas_side_px": 1024,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_8192.MI_stone_StoneDark_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_8192.MI_stone_Meadow_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_16384.MI_stone_StoneDark_16384",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        13.065390749601276,
+        13.065390749601276
+      ],
+      "virtual_atlas_side_px": 16384,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_16384.MI_stone_Stone_16384",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        13.065390749601276,
+        13.065390749601276
+      ],
+      "virtual_atlas_side_px": 16384,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_MeadowLight_4096.MI_foliage_MeadowLight_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_bark_Timber_8192.MI_bark_Timber_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "bark",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_bark.T_bark",
+      "image_sha256": "eaab06f9f9e6fd44dff23ca1628313bce00f8ceae045491c8c4225ae92cfbbc9",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineDark_16384.MI_foliage_PineDark_16384",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        13.065390749601276,
+        13.065390749601276
+      ],
+      "virtual_atlas_side_px": 16384,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Pine_16384.MI_foliage_Pine_16384",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        13.065390749601276,
+        13.065390749601276
+      ],
+      "virtual_atlas_side_px": 16384,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_16384.MI_foliage_PineLight_16384",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        13.065390749601276,
+        13.065390749601276
+      ],
+      "virtual_atlas_side_px": 16384,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_4096.MI_foliage_PineLight_4096",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        3.266347687400319,
+        3.266347687400319
+      ],
+      "virtual_atlas_side_px": 4096,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Flower_2048.MI_foliage_Flower_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_2048.MI_foliage_PineLight_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "foliage",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+      "image_sha256": "c5ea1a6edd598a620e67c63639c5ad65044525ef6079b7481040d8887cdeaf17",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_stone_Ballast_8192.MI_stone_Ballast_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_metal_Rail_8192.MI_metal_Rail_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_metal_Metal_8192.MI_metal_Metal_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "metal",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+      "image_sha256": "87cac9f515452208ca7156f6ecf9dcab42206f01b47bfdaa5c24a9b7158e662d",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_SoftPath_8192.MI_SoftPath_8192",
+      "parent": "/Game/MountainStation/ultra/Materials/SelfImprovement/M_SoftPath.M_SoftPath",
+      "image": "stone",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+      "image_sha256": "c3c98166105ba08199c259e7e010442d2fafd5a232430c2c99abb82425801b66",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        6.532695374800638,
+        6.532695374800638
+      ],
+      "virtual_atlas_side_px": 8192,
+      "base_texels_per_meter": 128
+    },
+    {
+      "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+      "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+      "image": "wood",
+      "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+      "image_sha256": "d8d5500c05ed0748a56d26ba9d1ca7e31563949fbcf207b88ce0c3bb36d0a917",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "uv_scale": [
+        1.6331738437001595,
+        1.6331738437001595
+      ],
+      "virtual_atlas_side_px": 2048,
+      "base_texels_per_meter": 128
+    }
+  ],
+  "meshes": [
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+      "name": "SM_Terrain",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Meadow",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768.MI_stone_Meadow_32768",
+          "image": "stone",
+          "uv_scale": [
+            26.130781499202552,
+            26.130781499202552
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 32768
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TerrainSkirt.SM_TerrainSkirt",
+      "name": "SM_TerrainSkirt",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Earth",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Earth_8192.MI_stone_Earth_8192",
+          "image": "stone",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192
+    },
+    {
+      "name": "SM_Ballast",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Ballast",
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_stone_Ballast_8192.MI_stone_Ballast_8192",
+          "image": "stone",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "section_collision_restored": [
+        true
+      ]
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Sleepers.SM_Sleepers",
+      "name": "SM_Sleepers",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Timber",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_8192.MI_wood_Timber_8192",
+          "image": "wood",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_RailFasteners.SM_RailFasteners",
+      "name": "SM_RailFasteners",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_4096.MI_metal_Metal_4096",
+          "image": "metal",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "name": "SM_Rails",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Rails.SM_Rails",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Rail",
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_metal_Rail_8192.MI_metal_Rail_8192",
+          "image": "metal",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_metal_Metal_8192.MI_metal_Metal_8192",
+          "image": "metal",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "section_collision_restored": [
+        true,
+        true
+      ]
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform",
+      "name": "SM_Platform",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Stone",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping",
+      "name": "SM_PlatformCoping",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Cream_2048.MI_stone_Cream_2048",
+          "image": "stone",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Mustard",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Mustard_2048.MI_stone_Mustard_2048",
+          "image": "stone",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Paving.SM_Paving",
+      "name": "SM_Paving",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "StoneLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Mustard",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_4096.MI_wood_Mustard_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_AccessRamp.SM_AccessRamp",
+      "name": "SM_AccessRamp",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "StoneLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_2048.MI_stone_StoneLight_2048",
+          "image": "stone",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Railings.SM_Railings",
+      "name": "SM_Railings",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "image": "metal",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "name": "SM_Footpath",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Footpath.SM_Footpath",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Gravel",
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_SoftPath_8192.MI_SoftPath_8192",
+          "image": "stone",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "section_collision_restored": [
+        true
+      ]
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationStone.SM_StationStone",
+      "name": "SM_StationStone",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "StoneLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationWalls.SM_StationWalls",
+      "name": "SM_StationWalls",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Sage",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Sage_4096.MI_wood_Sage_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationCladding.SM_StationCladding",
+      "name": "SM_StationCladding",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationTrim.SM_StationTrim",
+      "name": "SM_StationTrim",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "StoneDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096.MI_stone_StoneDark_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationRoof.SM_StationRoof",
+      "name": "SM_StationRoof",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Roof",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Roof_4096.MI_metal_Roof_4096",
+          "image": "metal",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_RoofSeams.SM_RoofSeams",
+      "name": "SM_RoofSeams",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "RoofLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_RoofLight_4096.MI_metal_RoofLight_4096",
+          "image": "metal",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationDoors.SM_StationDoors",
+      "name": "SM_StationDoors",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024.MI_wood_Cream_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "Mustard",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024.MI_wood_Mustard_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationGlass.SM_StationGlass",
+      "name": "SM_StationGlass",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Glass",
+          "material": "/Game/MountainStation/ultra/Materials/M_Glass.M_Glass",
+          "texture_exemption": "Stylized glass retains its existing smooth surface"
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Canopy.SM_Canopy",
+      "name": "SM_Canopy",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Roof",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096.MI_wood_Roof_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Signage.SM_Signage",
+      "name": "SM_Signage",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_2048.MI_wood_SageDark_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Mustard",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_2048.MI_wood_Mustard_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "image": "metal",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 3,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_2048.MI_wood_Cream_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Lettering.SM_Lettering",
+      "name": "SM_Lettering",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/M_Cream.M_Cream",
+          "texture_exemption": "Small text remains solid for legibility"
+        },
+        {
+          "slot": 1,
+          "source_palette": "Ink",
+          "material": "/Game/MountainStation/ultra/Materials/M_Ink.M_Ink",
+          "texture_exemption": "Small text remains solid for legibility"
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Clock.SM_Clock",
+      "name": "SM_Clock",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/M_Metal.M_Metal",
+          "texture_exemption": "Clock face and hands retain clear solid markings"
+        },
+        {
+          "slot": 1,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/M_Cream.M_Cream",
+          "texture_exemption": "Clock face and hands retain clear solid markings"
+        },
+        {
+          "slot": 2,
+          "source_palette": "Ink",
+          "material": "/Game/MountainStation/ultra/Materials/M_Ink.M_Ink",
+          "texture_exemption": "Clock face and hands retain clear solid markings"
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Benches.SM_Benches",
+      "name": "SM_Benches",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "image": "metal",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "WoodLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Lamps.SM_Lamps",
+      "name": "SM_Lamps",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "image": "metal",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Lamp",
+          "material": "/Game/MountainStation/ultra/Materials/M_Lamp.M_Lamp",
+          "texture_exemption": "Emissive lamp glass retains original emission"
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Luggage.SM_Luggage",
+      "name": "SM_Luggage",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Luggage",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Luggage_1024.MI_wood_Luggage_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Timber",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+          "image": "metal",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 3,
+          "source_palette": "Mustard",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024.MI_wood_Mustard_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 4,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Timetable.SM_Timetable",
+      "name": "SM_Timetable",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512.MI_metal_Metal_512",
+          "image": "metal",
+          "uv_scale": [
+            0.4082934609250399,
+            0.4082934609250399
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_512.MI_wood_Cream_512",
+          "image": "wood",
+          "uv_scale": [
+            0.4082934609250399,
+            0.4082934609250399
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 512
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_FreightShed.SM_FreightShed",
+      "name": "SM_FreightShed",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Stone",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "Roof",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096.MI_wood_Roof_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 3,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Cargo.SM_Cargo",
+      "name": "SM_Cargo",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "WoodLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_4096.MI_wood_WoodLight_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Timber",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_4096.MI_wood_Timber_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "image": "wood",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Handcart.SM_Handcart",
+      "name": "SM_Handcart",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "WoodLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_1024.MI_wood_WoodLight_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+          "image": "metal",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "Timber",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelInterior.SM_TunnelInterior",
+      "name": "SM_TunnelInterior",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "StoneDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096.MI_stone_StoneDark_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelMasonry.SM_TunnelMasonry",
+      "name": "SM_TunnelMasonry",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Stone",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "StoneLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelRibs.SM_TunnelRibs",
+      "name": "SM_TunnelRibs",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Stone",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "image": "stone",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelDarkness.SM_TunnelDarkness",
+      "name": "SM_TunnelDarkness",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Interior",
+          "material": "/Game/MountainStation/ultra/Materials/M_Interior.M_Interior",
+          "texture_exemption": "Dark visual backing is not a physical surface treatment"
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelHill.SM_TunnelHill",
+      "name": "SM_TunnelHill",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "StoneDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_8192.MI_stone_StoneDark_8192",
+          "image": "stone",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Meadow",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_8192.MI_stone_Meadow_8192",
+          "image": "stone",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Outcrops.SM_Outcrops",
+      "name": "SM_Outcrops",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "StoneDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_16384.MI_stone_StoneDark_16384",
+          "image": "stone",
+          "uv_scale": [
+            13.065390749601276,
+            13.065390749601276
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Stone",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_16384.MI_stone_Stone_16384",
+          "image": "stone",
+          "uv_scale": [
+            13.065390749601276,
+            13.065390749601276
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 16384
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_OutcropMoss.SM_OutcropMoss",
+      "name": "SM_OutcropMoss",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "MeadowLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_MeadowLight_4096.MI_foliage_MeadowLight_4096",
+          "image": "foliage",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Trunks.SM_Trunks",
+      "name": "SM_Trunks",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Timber",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_bark_Timber_8192.MI_bark_Timber_8192",
+          "image": "bark",
+          "uv_scale": [
+            6.532695374800638,
+            6.532695374800638
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Conifers.SM_Conifers",
+      "name": "SM_Conifers",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "PineDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineDark_16384.MI_foliage_PineDark_16384",
+          "image": "foliage",
+          "uv_scale": [
+            13.065390749601276,
+            13.065390749601276
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Pine",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Pine_16384.MI_foliage_Pine_16384",
+          "image": "foliage",
+          "uv_scale": [
+            13.065390749601276,
+            13.065390749601276
+          ]
+        },
+        {
+          "slot": 2,
+          "source_palette": "PineLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_16384.MI_foliage_PineLight_16384",
+          "image": "foliage",
+          "uv_scale": [
+            13.065390749601276,
+            13.065390749601276
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 16384
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Shrubs.SM_Shrubs",
+      "name": "SM_Shrubs",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "PineLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_4096.MI_foliage_PineLight_4096",
+          "image": "foliage",
+          "uv_scale": [
+            3.266347687400319,
+            3.266347687400319
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_MeadowDetails.SM_MeadowDetails",
+      "name": "SM_MeadowDetails",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Flower",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Flower_2048.MI_foliage_Flower_2048",
+          "image": "foliage",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Fences.SM_Fences",
+      "name": "SM_Fences",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "WoodLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TrailSigns.SM_TrailSigns",
+      "name": "SM_TrailSigns",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Timber",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Cream",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024.MI_wood_Cream_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Planters.SM_Planters",
+      "name": "SM_Planters",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "WoodLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "PineLight",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_2048.MI_foliage_PineLight_2048",
+          "image": "foliage",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Bins.SM_Bins",
+      "name": "SM_Bins",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "SageDark",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+          "image": "wood",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        },
+        {
+          "slot": 1,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+          "image": "metal",
+          "uv_scale": [
+            0.8165869218500797,
+            0.8165869218500797
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true,
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_WaterTap.SM_WaterTap",
+      "name": "SM_WaterTap",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "Metal",
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512.MI_metal_Metal_512",
+          "image": "metal",
+          "uv_scale": [
+            0.4082934609250399,
+            0.4082934609250399
+          ]
+        }
+      ],
+      "section_collision_restored": [
+        true
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 512
+    },
+    {
+      "name": "SM_PedestrianCrossing",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_PedestrianCrossing.SM_PedestrianCrossing",
+      "slots": [
+        {
+          "slot": 0,
+          "source_palette": "WoodLight",
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "image": "wood",
+          "uv_scale": [
+            1.6331738437001595,
+            1.6331738437001595
+          ]
+        }
+      ],
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "section_collision_restored": [
+        true
+      ]
+    }
+  ],
+  "exemptions": {
+    "SM_Lettering": "Small text remains solid for legibility",
+    "SM_Clock": "Clock face and hands retain clear solid markings",
+    "SM_StationGlass": "Stylized glass retains its existing smooth surface",
+    "SM_TunnelDarkness": "Dark visual backing is not a physical surface treatment"
+  },
+  "saved": true,
+  "finished_at_utc": "2026-10-21T16:02:28.910735+00:00",
+  "material_instance_count": 53,
+  "pass": "SelfImprovement",
+  "changed_meshes": [
+    "SM_Ballast",
+    "SM_Rails",
+    "SM_Footpath",
+    "SM_PedestrianCrossing"
+  ],
+  "added_lights": [
+    {
+      "label": "Tunnel entrance fill",
+      "location_cm": [
+        3216.2177679851548,
+        582.0336986758862,
+        532.35
+      ],
+      "intensity_lumens": 900.0,
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "attenuation_radius_cm": 650.0
+    },
+    {
+      "label": "Tunnel inner fill",
+      "location_cm": [
+        3487.3925599505155,
+        803.3123289196204,
+        532.35
+      ],
+      "intensity_lumens": 650.0,
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "attenuation_radius_cm": 650.0
+    }
+  ]
+}
