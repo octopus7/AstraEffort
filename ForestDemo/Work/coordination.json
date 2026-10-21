@@ -7924,18 +7924,18 @@
     ],
     "dispatch_policy": "Each existing ultra chat may begin after its own comparison delivery baseline is preserved and committed. Neither waits for other efforts or final integration; latest human instructions override earlier all-work gate.",
     "comparison_freeze": {
-      "status": "report_complete_pending_hash_freeze",
-      "report": "ForestDemo/Work/SUPERVISION.md",
-      "token_snapshot": "ForestDemo/Work/token_usage.json",
-      "protect_referenced_images": true,
-      "future_token_collection": "Default comparison collection honors per-job cutoffs. Improvement snapshots must use -NoWrite -IgnoreComparisonCutoffs into UltraImprovementAccounting. After full report frozen, all comparison writes forbidden.",
-      "forest_boundary_utc": "2026-10-21T15:28:19.9150287+00:00",
-      "forest_evidence_manifest": "ForestDemo/Work/UltraImprovementAccounting/forest_comparison_evidence_freeze.json",
-      "forest_content_baseline_commit": "65f16249f1aacb3dee28b3c3f12b1c70b6207d63",
-      "evidence_byte_preservation_commit": "9eb27078afedfc1e236d81d7b3d0760d958ace42",
-      "station_ultra_boundary_utc": "2026-10-21T15:37:23.4631689+00:00",
-      "station_ultra_evidence_manifest": "ForestDemo/Work/UltraImprovementAccounting/station_comparison_evidence_freeze.json",
-      "station_ultra_content_baseline_commit": "3e13e569b0e8725f4a9faaeee8e3d13ddf7b5737"
+      "completed_at_utc": "2026-10-21T16:26:37.8291457+00:00",
+      "manifest": "ForestDemo/Work/ComparisonFreeze/manifest.json",
+      "integration_commit": "0257e81cef52a2c2ff8fef318eef957ac29b76d6",
+      "manifest_sha256": "0298EC34EA29AC7E45D80F7E2719FC3BCD8688E928CDC473267910B8CEC3F272",
+      "token_usage_sha256": "250193CA9C464B5F8DD58CF74D3304DF5FAC5C8E002963B3C42AC0BB758047EC",
+      "files": 2300,
+      "content_baseline_commit": "1514f1af789d75ddf94d210c8017a95dcececb8b",
+      "status": "frozen",
+      "completed_at_kst": "2026-10-22T01:26:37.8291457+09:00",
+      "report_commit": "54304c05023236d1d4ba01ed314f467f37449bf1",
+      "allow_comparison_writes": false,
+      "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A"
     },
     "jobs": [
       {
@@ -9042,5 +9042,20 @@
     "completed_at_utc": "2026-10-21T16:22:38.5870126+00:00",
     "commit_at_utc": "2026-10-21T16:24:03+00:00",
     "result": "ForestDemo/Work/Integration/Evidence/integration_result.json"
-  }
+  },
+  "comparison_freeze": {
+    "completed_at_utc": "2026-10-21T16:26:37.8291457+00:00",
+    "manifest": "ForestDemo/Work/ComparisonFreeze/manifest.json",
+    "integration_commit": "0257e81cef52a2c2ff8fef318eef957ac29b76d6",
+    "manifest_sha256": "0298EC34EA29AC7E45D80F7E2719FC3BCD8688E928CDC473267910B8CEC3F272",
+    "token_usage_sha256": "250193CA9C464B5F8DD58CF74D3304DF5FAC5C8E002963B3C42AC0BB758047EC",
+    "files": 2300,
+    "content_baseline_commit": "1514f1af789d75ddf94d210c8017a95dcececb8b",
+    "status": "frozen",
+    "completed_at_kst": "2026-10-22T01:26:37.8291457+09:00",
+    "report_commit": "54304c05023236d1d4ba01ed314f467f37449bf1",
+    "allow_comparison_writes": false,
+    "report_sha256": "A6A9065FCF39944484B911AB4DDB561226DF8C5BB6DB1D6EED899A1BC4B9199A"
+  },
+  "comparison_report_completed": true
 }
