@@ -1,0 +1,96 @@
+{
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "Z0_cm": 0,
+  "map": "/Game/Maps/medium",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High (sg.*=2), screen percentage 100",
+  "capture_method": "SceneCapture2D FinalColorLDR, actual UE renderer",
+  "captures": [
+    {
+      "name": "overview",
+      "location_cm": [
+        12000,
+        -12000,
+        16000
+      ],
+      "actual_component_location": "<Struct 'Vector' (0x0000025FC4E055A0) {x: 12000.000000, y: -12000.000000, z: 16000.000000}>",
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941E-07
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "horizontal_fov": null,
+      "captured_at_utc": "2026-10-21T13:07:33.3562560+00:00"
+    },
+    {
+      "name": "top_down",
+      "location_cm": [
+        0,
+        0,
+        20000
+      ],
+      "actual_component_location": "<Struct 'Vector' (0x0000025E8BB38BA0) {x: 0.000000, y: 0.000000, z: 20000.000000}>",
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "horizontal_fov": null,
+      "captured_at_utc": "2026-10-21T13:07:35.6047290+00:00"
+    },
+    {
+      "name": "lake",
+      "location_cm": [
+        -300,
+        200,
+        248.69157799811882
+      ],
+      "actual_component_location": "<Struct 'Vector' (0x0000025E8BB3BC10) {x: -300.000000, y: 200.000000, z: 248.691578}>",
+      "rotation_pitch_yaw_roll": [
+        -4.610317381714467,
+        139.39870535499554,
+        8.679530528026725E-08
+      ],
+      "projection": "perspective",
+      "ortho_width_cm": null,
+      "horizontal_fov": 70,
+      "captured_at_utc": "2026-10-21T13:07:37.8208390+00:00"
+    },
+    {
+      "name": "beach",
+      "location_cm": [
+        1400,
+        -2650,
+        209.1869981720273
+      ],
+      "actual_component_location": "<Struct 'Vector' (0x0000025E8BB38E70) {x: 1400.000000, y: -2650.000000, z: 209.186998}>",
+      "rotation_pitch_yaw_roll": [
+        -3.529083335589907,
+        -158.40468955103233,
+        -7.553195530278695E-08
+      ],
+      "projection": "perspective",
+      "ortho_width_cm": null,
+      "horizontal_fov": 70,
+      "captured_at_utc": "2026-10-21T13:07:40.0475050+00:00"
+    }
+  ],
+  "closeup_eye_height_cm": 170,
+  "closeup_comparison_limit": "Lake and beach positions are site-specific; only height and horizontal FOV are normalized.",
+  "visual_review": {
+    "four_views_correct": true,
+    "reviewed_at_utc": "2026-10-21T13:08:33.3678224+00:00",
+    "four_views_nonblank": true,
+    "image_retouched": false
+  }
+}
