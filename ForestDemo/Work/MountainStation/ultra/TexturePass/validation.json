@@ -1,0 +1,1082 @@
+{
+  "started_at_utc": "2026-10-21T15:24:15.218119+00:00",
+  "finished_at_utc": "2026-10-21T15:24:15.225117+00:00",
+  "map_reloaded": true,
+  "map": "/Game/Maps/MountainStation_ultra",
+  "actor_count": 56,
+  "site_bounds_cm": {
+    "origin": [
+      0.0,
+      0.0,
+      763.2531461715698
+    ],
+    "extent": [
+      5000.0,
+      5000.0,
+      755.2198762893677
+    ]
+  },
+  "world_path": "/Game/Maps/MountainStation_ultra.MountainStation_ultra",
+  "world_partition": null,
+  "world_partition_query": "WorldSettings.world_partition read succeeded; pointer is None",
+  "force_no_precomputed_lighting": true,
+  "dependency_packages_checked": 130,
+  "foreign_game_dependencies": [],
+  "dependency_graph": {
+    "/Game/MountainStation/ultra/Materials/M_WoodLight": [],
+    "/Game/MountainStation/ultra/Materials/M_Timber": [],
+    "/Game/MountainStation/ultra/Materials/M_StoneLight": [],
+    "/Game/MountainStation/ultra/Materials/M_StoneDark": [],
+    "/Game/MountainStation/ultra/Materials/M_Stone": [],
+    "/Game/MountainStation/ultra/Materials/M_SageDark": [],
+    "/Game/MountainStation/ultra/Materials/M_Sage": [],
+    "/Game/MountainStation/ultra/Materials/M_RoofLight": [],
+    "/Game/MountainStation/ultra/Materials/M_Roof": [],
+    "/Game/MountainStation/ultra/Materials/M_Rail": [],
+    "/Game/MountainStation/ultra/Materials/M_PineLight": [],
+    "/Game/MountainStation/ultra/Materials/M_PineDark": [],
+    "/Game/MountainStation/ultra/Materials/M_Pine": [],
+    "/Game/MountainStation/ultra/Materials/M_Mustard": [],
+    "/Game/MountainStation/ultra/Materials/M_MeadowLight": [],
+    "/Game/MountainStation/ultra/Materials/M_Meadow": [],
+    "/Game/MountainStation/ultra/Materials/M_Luggage": [],
+    "/Game/MountainStation/ultra/Materials/M_Gravel": [],
+    "/Game/MountainStation/ultra/Materials/M_Flower": [],
+    "/Game/MountainStation/ultra/Materials/M_Earth": [],
+    "/Game/MountainStation/ultra/Materials/M_Ballast": [],
+    "/Game/MountainStation/ultra/Meshes/SM_Trunks": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_bark_Timber_8192"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_bark_Timber_8192": [
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_bark",
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail": [
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Textures/TexturePass/T_wood": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/ultra/Textures/TexturePass/T_bark": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Shrubs": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Planters": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_2048",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_OutcropMoss": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_MeadowLight_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_MeadowLight_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_MeadowDetails": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Flower_2048"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Flower_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Conifers": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineDark_16384",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_16384",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Pine_16384"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Pine_16384": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_16384": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineDark_16384": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_TunnelHill": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_8192",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_8192"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_8192": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Textures/TexturePass/T_stone": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_8192": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_WaterTap": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Textures/TexturePass/T_metal": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Timetable": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_512"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_512": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_TerrainSkirt": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Earth_8192"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Earth_8192": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Terrain": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_StationWalls": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Sage_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Sage_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_TunnelInterior": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_StationTrim": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_StationRoof": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Roof_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Roof_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_TrailSigns": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_StationDoors": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Sleepers": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_8192"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_8192": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_RoofSeams": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_RoofLight_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_RoofLight_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Rails": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Rail_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Rail_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_RailFasteners": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_4096"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Cream_2048",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Mustard_2048"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Mustard_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Cream_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_StationStone": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Paving": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Outcrops": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_16384",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_16384"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_16384": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_16384": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Lamps": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/M_Lamp",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Materials/M_Lamp": [],
+    "/Game/MountainStation/ultra/Meshes/SM_TunnelRibs": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_TunnelMasonry": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Platform": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_FreightShed": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Footpath": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Gravel_8192"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Gravel_8192": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_StationCladding": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Luggage": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Luggage_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Luggage_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_metal"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Handcart": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_1024"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_1024": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/M_SkyBackdrop": [],
+    "/Game/MountainStation/ultra/Materials/M_Cream": [],
+    "/Game/MountainStation/ultra/Materials/M_Ink": [],
+    "/Game/MountainStation/ultra/Meshes/SM_Lettering": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/M_Cream",
+      "/Game/MountainStation/ultra/Materials/M_Ink"
+    ],
+    "/Game/MountainStation/ultra/Materials/M_Metal": [],
+    "/Game/MountainStation/ultra/Meshes/SM_Clock": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/M_Cream",
+      "/Game/MountainStation/ultra/Materials/M_Ink",
+      "/Game/MountainStation/ultra/Materials/M_Metal"
+    ],
+    "/Game/MountainStation/ultra/Materials/M_Glass": [],
+    "/Game/MountainStation/ultra/Meshes/SM_StationGlass": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/M_Glass"
+    ],
+    "/Game/MountainStation/ultra/Materials/M_Interior": [],
+    "/Game/MountainStation/ultra/Meshes/SM_TunnelDarkness": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/M_Interior"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_AccessRamp": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_2048"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Ballast_8192": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_stone"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Ballast": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Ballast_8192"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Benches": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Bins": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Canopy": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_4096": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Cargo": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_4096",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_4096"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Railings": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_2048": [
+      "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail",
+      "/Game/MountainStation/ultra/Textures/TexturePass/T_wood"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Signage": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_2048",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_2048",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_2048"
+    ],
+    "/Game/MountainStation/ultra/Meshes/SM_Fences": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Script/InterchangeImport",
+      "/Script/InterchangePipelines",
+      "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048"
+    ],
+    "/Game/Maps/MountainStation_ultra": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/MountainStation/ultra/Materials/M_SkyBackdrop",
+      "/Game/MountainStation/ultra/Meshes/SM_AccessRamp",
+      "/Game/MountainStation/ultra/Meshes/SM_Ballast",
+      "/Game/MountainStation/ultra/Meshes/SM_Benches",
+      "/Game/MountainStation/ultra/Meshes/SM_Bins",
+      "/Game/MountainStation/ultra/Meshes/SM_Canopy",
+      "/Game/MountainStation/ultra/Meshes/SM_Cargo",
+      "/Game/MountainStation/ultra/Meshes/SM_Clock",
+      "/Game/MountainStation/ultra/Meshes/SM_Conifers",
+      "/Game/MountainStation/ultra/Meshes/SM_FreightShed",
+      "/Game/MountainStation/ultra/Meshes/SM_Handcart",
+      "/Game/MountainStation/ultra/Meshes/SM_Lettering",
+      "/Game/MountainStation/ultra/Meshes/SM_Luggage",
+      "/Game/MountainStation/ultra/Meshes/SM_MeadowDetails",
+      "/Game/MountainStation/ultra/Meshes/SM_OutcropMoss",
+      "/Game/MountainStation/ultra/Meshes/SM_Outcrops",
+      "/Game/MountainStation/ultra/Meshes/SM_Paving",
+      "/Game/MountainStation/ultra/Meshes/SM_Planters",
+      "/Game/MountainStation/ultra/Meshes/SM_Platform",
+      "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping",
+      "/Game/MountainStation/ultra/Meshes/SM_RailFasteners",
+      "/Game/MountainStation/ultra/Meshes/SM_Railings",
+      "/Game/MountainStation/ultra/Meshes/SM_Rails",
+      "/Game/MountainStation/ultra/Meshes/SM_RoofSeams",
+      "/Game/MountainStation/ultra/Meshes/SM_Signage",
+      "/Game/MountainStation/ultra/Meshes/SM_Sleepers",
+      "/Game/MountainStation/ultra/Meshes/SM_StationCladding",
+      "/Game/MountainStation/ultra/Meshes/SM_StationDoors",
+      "/Game/MountainStation/ultra/Meshes/SM_StationGlass",
+      "/Game/MountainStation/ultra/Meshes/SM_StationRoof",
+      "/Game/MountainStation/ultra/Meshes/SM_StationStone",
+      "/Game/MountainStation/ultra/Meshes/SM_StationTrim",
+      "/Game/MountainStation/ultra/Meshes/SM_StationWalls",
+      "/Game/MountainStation/ultra/Meshes/SM_TerrainSkirt",
+      "/Game/MountainStation/ultra/Meshes/SM_Timetable",
+      "/Game/MountainStation/ultra/Meshes/SM_TrailSigns",
+      "/Game/MountainStation/ultra/Meshes/SM_Trunks",
+      "/Game/MountainStation/ultra/Meshes/SM_TunnelDarkness",
+      "/Game/MountainStation/ultra/Meshes/SM_TunnelInterior",
+      "/Game/MountainStation/ultra/Meshes/SM_TunnelMasonry",
+      "/Game/MountainStation/ultra/Meshes/SM_TunnelRibs",
+      "/Game/MountainStation/ultra/Meshes/SM_WaterTap",
+      "/Game/MountainStation/ultra/Meshes/SM_Fences",
+      "/Game/MountainStation/ultra/Meshes/SM_Footpath",
+      "/Game/MountainStation/ultra/Meshes/SM_Lamps",
+      "/Game/MountainStation/ultra/Meshes/SM_Shrubs",
+      "/Game/MountainStation/ultra/Meshes/SM_Terrain",
+      "/Game/MountainStation/ultra/Meshes/SM_TunnelHill",
+      "/Script/ForestDemo"
+    ]
+  },
+  "collision_samples": [
+    {
+      "name": "arrival",
+      "xy_cm": [
+        -2950,
+        488.46
+      ],
+      "ground_hit_cm": [
+        -2950.0,
+        488.4599914550781,
+        44.30769348144531
+      ],
+      "normal": [
+        -0.08583587496127372,
+        0.0,
+        0.9963092906169411
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_9"
+    },
+    {
+      "name": "ramp_1",
+      "xy_cm": [
+        -2700,
+        430.77
+      ],
+      "ground_hit_cm": [
+        -2700.0,
+        430.7699890136719,
+        65.84615325927734
+      ],
+      "normal": [
+        -0.08583587496127372,
+        0.0,
+        0.9963092906169411
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_9"
+    },
+    {
+      "name": "ramp_2",
+      "xy_cm": [
+        -2400,
+        361.54
+      ],
+      "ground_hit_cm": [
+        -2400.0,
+        361.5400085449219,
+        91.69230651855469
+      ],
+      "normal": [
+        -0.08583587496127372,
+        0.0,
+        0.9963092906169411
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_9"
+    },
+    {
+      "name": "ramp_3",
+      "xy_cm": [
+        -2100,
+        292.31
+      ],
+      "ground_hit_cm": [
+        -2100.0,
+        292.30999755859375,
+        117.53845977783203
+      ],
+      "normal": [
+        -0.08583587496127372,
+        0.0,
+        0.9963092906169411
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_9"
+    },
+    {
+      "name": "ramp_end",
+      "xy_cm": [
+        -1710,
+        202.31
+      ],
+      "ground_hit_cm": [
+        -1710.0,
+        202.30999755859375,
+        151.13845825195312
+      ],
+      "normal": [
+        -0.08583587496127372,
+        0.0,
+        0.9963092906169411
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_9"
+    },
+    {
+      "name": "platform_start",
+      "xy_cm": [
+        -1690,
+        200
+      ],
+      "ground_hit_cm": [
+        -1690.0,
+        200.0,
+        152.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_6"
+    },
+    {
+      "name": "platform",
+      "xy_cm": [
+        500,
+        -100
+      ],
+      "ground_hit_cm": [
+        500.0,
+        -100.0,
+        152.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_6"
+    },
+    {
+      "name": "platform_detail",
+      "xy_cm": [
+        800,
+        -190
+      ],
+      "ground_hit_cm": [
+        800.0,
+        -190.0,
+        152.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_6"
+    },
+    {
+      "name": "tracks_detail",
+      "xy_cm": [
+        2100,
+        -420
+      ],
+      "ground_hit_cm": [
+        2100.0,
+        -420.0,
+        29.234294891357422
+      ],
+      "normal": [
+        -0.031686476586656284,
+        0.029008229483624557,
+        0.9990768187800919
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_0"
+    },
+    {
+      "name": "trail",
+      "xy_cm": [
+        -1600,
+        1600
+      ],
+      "ground_hit_cm": [
+        -1600.0,
+        1600.0,
+        142.96498107910156
+      ],
+      "normal": [
+        0.26195705148042797,
+        -0.24093951479012948,
+        0.9345194772675299
+      ],
+      "initial_overlap": false,
+      "hit_actor": "StaticMeshActor_11"
+    }
+  ],
+  "ramp_join_difference_cm": 0.861541748046875,
+  "player_start": [
+    -2950.0,
+    488.46,
+    155.0
+  ],
+  "native_logger_class": "/Script/ForestDemo.ScreenDebugLogger",
+  "static_meshes": [
+    {
+      "label": "Terrain",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain"
+    },
+    {
+      "label": "TerrainSkirt",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TerrainSkirt.SM_TerrainSkirt"
+    },
+    {
+      "label": "Ballast",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast"
+    },
+    {
+      "label": "Sleepers",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Sleepers.SM_Sleepers"
+    },
+    {
+      "label": "RailFasteners",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_RailFasteners.SM_RailFasteners"
+    },
+    {
+      "label": "Rails",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Rails.SM_Rails"
+    },
+    {
+      "label": "Platform",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform"
+    },
+    {
+      "label": "PlatformCoping",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping"
+    },
+    {
+      "label": "Paving",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Paving.SM_Paving"
+    },
+    {
+      "label": "AccessRamp",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_AccessRamp.SM_AccessRamp"
+    },
+    {
+      "label": "Railings",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Railings.SM_Railings"
+    },
+    {
+      "label": "Footpath",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Footpath.SM_Footpath"
+    },
+    {
+      "label": "StationStone",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationStone.SM_StationStone"
+    },
+    {
+      "label": "StationWalls",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationWalls.SM_StationWalls"
+    },
+    {
+      "label": "StationCladding",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationCladding.SM_StationCladding"
+    },
+    {
+      "label": "StationTrim",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationTrim.SM_StationTrim"
+    },
+    {
+      "label": "StationRoof",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationRoof.SM_StationRoof"
+    },
+    {
+      "label": "RoofSeams",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_RoofSeams.SM_RoofSeams"
+    },
+    {
+      "label": "StationDoors",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationDoors.SM_StationDoors"
+    },
+    {
+      "label": "StationGlass",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationGlass.SM_StationGlass"
+    },
+    {
+      "label": "Canopy",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Canopy.SM_Canopy"
+    },
+    {
+      "label": "Signage",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Signage.SM_Signage"
+    },
+    {
+      "label": "Lettering",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Lettering.SM_Lettering"
+    },
+    {
+      "label": "Clock",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Clock.SM_Clock"
+    },
+    {
+      "label": "Benches",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Benches.SM_Benches"
+    },
+    {
+      "label": "Lamps",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Lamps.SM_Lamps"
+    },
+    {
+      "label": "Luggage",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Luggage.SM_Luggage"
+    },
+    {
+      "label": "Timetable",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Timetable.SM_Timetable"
+    },
+    {
+      "label": "FreightShed",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_FreightShed.SM_FreightShed"
+    },
+    {
+      "label": "Cargo",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Cargo.SM_Cargo"
+    },
+    {
+      "label": "Handcart",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Handcart.SM_Handcart"
+    },
+    {
+      "label": "TunnelInterior",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelInterior.SM_TunnelInterior"
+    },
+    {
+      "label": "TunnelMasonry",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelMasonry.SM_TunnelMasonry"
+    },
+    {
+      "label": "TunnelRibs",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelRibs.SM_TunnelRibs"
+    },
+    {
+      "label": "TunnelDarkness",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelDarkness.SM_TunnelDarkness"
+    },
+    {
+      "label": "TunnelHill",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelHill.SM_TunnelHill"
+    },
+    {
+      "label": "Outcrops",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Outcrops.SM_Outcrops"
+    },
+    {
+      "label": "OutcropMoss",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_OutcropMoss.SM_OutcropMoss"
+    },
+    {
+      "label": "Trunks",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Trunks.SM_Trunks"
+    },
+    {
+      "label": "Conifers",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Conifers.SM_Conifers"
+    },
+    {
+      "label": "Shrubs",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Shrubs.SM_Shrubs"
+    },
+    {
+      "label": "MeadowDetails",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_MeadowDetails.SM_MeadowDetails"
+    },
+    {
+      "label": "Fences",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Fences.SM_Fences"
+    },
+    {
+      "label": "TrailSigns",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TrailSigns.SM_TrailSigns"
+    },
+    {
+      "label": "Planters",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Planters.SM_Planters"
+    },
+    {
+      "label": "Bins",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Bins.SM_Bins"
+    },
+    {
+      "label": "WaterTap",
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_WaterTap.SM_WaterTap"
+    },
+    {
+      "label": "Alpine sky backdrop",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere"
+    }
+  ],
+  "limitations": [
+    "Collision traces verify sampled surfaces; no character locomotion simulation or railway operations simulation is implemented."
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "started_at_utc": "2026-10-21T15:14:55.262854+00:00",
+  "scope": "Every LOD0 triangle of all owned placed static meshes, actual component transforms in centimetres, actual imported UV0 and material texture dimensions/scales",
+  "uv_import_basis": "UE FbxStaticMeshImport.cpp line 758 flips V for DirectX; convert back with (u,1-v) only for layout correspondence. Density is flip-invariant.",
+  "meshes": [
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 32768,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768.MI_stone_Meadow_32768",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            26.130781173706055,
+            26.130781173706055
+          ],
+          "effective_pixel_axes": [
+            32767.999591827393,
+            32767.999591827393
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 20000
+        }
+      ],
+      "triangles_checked": 20000,
+      "world_surface_area_m2": 10881.14753112013,
+      "source_world_area_m2": 10881.75499518702,
+      "source_triangles": 20000,
+      "triangle_density_percentiles": {
+        "0": 96.27939602697263,
+        "1": 127.85748249325069,
+        "5": 127.9992708556678,
+        "50": 127.99999996212033,
+        "95": 136.19724733772833,
+        "99": 136.22542882311208,
+        "100": 139.34860179972912
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 96.27939602697263,
+        "1": 127.85748249325069,
+        "5": 127.9992708556678,
+        "50": 127.99999996212033,
+        "95": 136.19724733772833,
+        "99": 136.22542882311208,
+        "100": 139.34860179972912
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 1345,
+      "area_fraction_outside_5_percent": 0.062318012613098536,
+      "uv_chart_containment_failures": 1486,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": null,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 9271,
+      "source_charts": 10000,
+      "invalid_examples": [
+        {
+          "section": 0,
+          "triangle": 402,
+          "uv_pixels": [
+            [
+              4341.0126953125,
+              4107.0
+            ],
+            [
+              4213.0,
+              4107.0
+            ],
+            [
+              4196.03125,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            201,
+            4205,
+            3971,
+            145,
+            145,
+            128.01794767912435,
+            128.00054892635833,
+            1.0001037881275723,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 403,
+          "uv_pixels": [
+            [
+              4341.0126953125,
+              4107.0
+            ],
+            [
+              4196.03125,
+              3979.0
+            ],
+            [
+              4341.01806640625,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            201,
+            4205,
+            3971,
+            145,
+            145,
+            128.01794767912435,
+            128.00054892635833,
+            1.0001037881275723,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 404,
+          "uv_pixels": [
+            [
+              4486.00439453125,
+              4107.0
+            ],
+            [
+              4341.01806640625,
+              3979.0
+            ],
+            [
+              4486.00732421875,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            202,
+            4350,
+            3971,
+            145,
+            145,
+            128.00737004998982,
+            128.00059412078144,
+            1.0000375025247896,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 405,
+          "uv_pixels": [
+            [
+              4486.00439453125,
+              4107.0
+            ],
+            [
+              4358.0,
+              4107.0
+            ],
+            [
+              4341.01806640625,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            202,
+            4350,
+            3971,
+            145,
+            145,
+            128.00737004998982,
+            128.00059412078144,
+            1.0000375025247896,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 410,
+          "uv_pixels": [
+            [
+              4921.01123046875,
+              4107.0
+            ],
+            [
+              4793.00390625,
+              4107.0
+            ],
+            [
+              4776.00146484375,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            205,
+            4785,
+            3971,
+            145,
+            145,
+            128.01114917592776,
+            128.0005859436244,
+            1.000060113159388,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 411,
+          "uv_pixels": [
+            [
+              4921.01123046875,
+              4107.0
+            ],
+            [
+              4776.00146484375,
+              3979.0
+            ],
+            [
+              4921.00732421875,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            205,
+            4785,
+            3971,
+            145,
+            145,
+            128.01114917592776,
+            128.0005859436244,
+            1.000060113159388,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 412,
+          "uv_pixels": [
+            [
+              5066.02294921875,
+              4107.0
+            ],
+            [
+              4938.005859375,
+              4107.0
+            ],
+            [
+              4921.00732421875,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            206,
+            4930,
+            3971,
+            145,
+            145,
+            128.02308529396873,
+            128.00052810445274,
+            1.000138582479509,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 413,
+          "uv_pixels": [
+            [
+              5066.02294921875,
+              4107.0
+            ],
+            [
+              4921.00732421875,
+              3979.0
+            ],
+            [
+              5066.017578125,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            206,
+            4930,
+            3971,
+            145,
+            145,
+            128.02308529396873,
+            128.00052810445274,
+            1.000138582479509,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 414,
+          "uv_pixels": [
+            [
+              5211.03759765625,
+              4107.0
+            ],
+            [
+              5083.00732421875,
+              4107.0
+            ],
+            [
+              5066.017578125,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            207,
+            5075,
+            3971,
+            145,
+            145,
+            128.03740338719936,
+            128.00044941685883,
+            1.000240755146808,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 415,
+          "uv_pixels": [
+            [
+              5211.03759765625,
+              4107.0
+            ],
+            [
+              5066.017578125,
+              3979.0
+            ],
+            [
+              5211.03076171875,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            207,
+            5075,
+            3971,
+            145,
+            145,
+            128.03740338719936,
+            128.00044941685883,
+            1.000240755146808,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 416,
+          "uv_pixels": [
+            [
+              5356.05224609375,
+              4107.0
+            ],
+            [
+              5211.03759765625,
+              4107.0
+            ],
+            [
+              5211.03076171875,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            208,
+            5220,
+            3971,
+            145,
+            145,
+            128.05247414635696,
+            128.00034844252573,
+            1.0003549281100659,
+            2
+          ],
+          "row": 26
+        },
+        {
+          "section": 0,
+          "triangle": 417,
+          "uv_pixels": [
+            [
+              5356.05224609375,
+              4107.0
+            ],
+            [
+              5211.03076171875,
+              3979.0
+            ],
+            [
+              5356.0458984375,
+              3979.0
+            ]
+          ],
+          "assigned_chart": [
+            208,
+            5220,
+            3971,
+            145,
+            145,
+            128.05247414635696,
+            128.00034844252573,
+            1.0003549281100659,
+            2
+          ],
+          "row": 26
+        }
+      ]
+    }
+  ],
+  "passed": false
+}

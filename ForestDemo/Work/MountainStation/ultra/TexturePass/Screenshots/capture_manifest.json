@@ -1,0 +1,128 @@
+{
+  "map": "/Game/Maps/MountainStation_ultra",
+  "renderer": "UE 5.7 SceneCapture2D FinalColorLDR; actual scene render",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "site_center_cm": [
+    0,
+    0,
+    0
+  ],
+  "quality": "High (scalability groups 2)",
+  "screen_percentage": 100,
+  "lighting": "Dynamic key + two non-shadowing fill directionals + movable cubemap skylight",
+  "capture_method": "Offscreen editor with real RHI; render-target PNG export; no generated imagery",
+  "camera_notes": "Overview and top-down use exact common capture specification. Details use walking-height cameras. No editor overlay or debug draw is included.",
+  "captures": [
+    {
+      "name": "overview",
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "clip_planes": "SceneCapture2D engine defaults with automatic ortho plane shifting disabled",
+      "rotation": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "resolution": [
+        1920,
+        1080
+      ],
+      "captured_at_utc": "2026-10-21T15:25:25.135528+00:00"
+    },
+    {
+      "name": "top_down",
+      "location": [
+        0,
+        0,
+        20000
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "clip_planes": "SceneCapture2D engine defaults with automatic ortho plane shifting disabled",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "captured_at_utc": "2026-10-21T15:25:37.147626+00:00"
+    },
+    {
+      "name": "platform",
+      "location": [
+        800,
+        -190,
+        322.0
+      ],
+      "target": [
+        -550,
+        260,
+        360
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_height_cm": 152.0,
+      "camera_height_above_ground_cm": 170,
+      "rotation": [
+        1.5296445275095987,
+        161.565051177078,
+        -3.3408868703431285e-08
+      ],
+      "resolution": [
+        1920,
+        1080
+      ],
+      "captured_at_utc": "2026-10-21T15:25:49.172831+00:00"
+    },
+    {
+      "name": "tracks",
+      "location": [
+        2100,
+        -420,
+        199.23429489135742
+      ],
+      "target": [
+        3160,
+        520,
+        315
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_height_cm": 29.234294891357422,
+      "camera_height_above_ground_cm": 170,
+      "rotation": [
+        4.671361177513005,
+        41.56636963754948,
+        -2.6222839645770813e-08
+      ],
+      "resolution": [
+        1920,
+        1080
+      ],
+      "captured_at_utc": "2026-10-21T15:26:01.209408+00:00"
+    }
+  ],
+  "comparison_reference": "FirstDelivery/Screenshots/capture_manifest.json",
+  "settings_identical_to_first_delivery": true,
+  "pass_name": "TexturePass",
+  "exposure": "Manual; bias 0; physical camera exposure disabled",
+  "camera_and_geometry_changes": false,
+  "capture_started_at_utc": "2026-10-21T15:25:12.932542+00:00",
+  "capture_finished_at_utc": "2026-10-21T15:26:01.209408+00:00"
+}

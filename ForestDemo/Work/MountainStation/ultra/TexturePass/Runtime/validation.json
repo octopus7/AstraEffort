@@ -1,0 +1,1583 @@
+{
+  "started_at_utc": "2026-10-21T15:24:24.558185+00:00",
+  "tests": [
+    {
+      "name": "platform_downward",
+      "requested_start_cm": [
+        300.0,
+        -300.0,
+        800.0
+      ],
+      "actual_start_cm": [
+        300.0,
+        -300.0,
+        800.0
+      ],
+      "requested_target_cm": [
+        300.0,
+        -300.0,
+        40.0
+      ],
+      "root_component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.DefaultPawn_0.CollisionComponent0",
+      "root_class": "/Script/Engine.SphereComponent",
+      "sphere_radius_cm": 35.0,
+      "collision_object_channel": "<CollisionChannel.ECC_PAWN: 2>",
+      "profile": "Pawn",
+      "source_triangle": null,
+      "start_probe": null,
+      "same_shape_same_channel_trace": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.8065788149833679,
+        "distance_cm": 612.9998779296875,
+        "location_cm": [
+          300.0,
+          -300.0,
+          187.00010061264038
+        ],
+        "impact_point_cm": [
+          300.0,
+          -300.0,
+          152.0001220703125
+        ],
+        "normal": [
+          0.0,
+          1.5871802361288957e-07,
+          0.9999999999999876
+        ],
+        "impact_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 234,
+        "trace_start_cm": [
+          300.0,
+          -300.0,
+          800.0
+        ],
+        "trace_end_cm": [
+          300.0,
+          -300.0,
+          40.0
+        ]
+      },
+      "movement_hit": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.8042629957199097,
+        "distance_cm": 612.9998779296875,
+        "location_cm": [
+          300.0,
+          -300.0,
+          187.00010061264038
+        ],
+        "impact_point_cm": [
+          300.0,
+          -300.0,
+          152.0001220703125
+        ],
+        "normal": [
+          0.0,
+          1.5871802361288957e-07,
+          0.9999999999999876
+        ],
+        "impact_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "physical_material": null,
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": -1,
+        "trace_start_cm": [
+          300.0,
+          -300.0,
+          800.0
+        ],
+        "trace_end_cm": [
+          300.0,
+          -300.0,
+          40.0
+        ]
+      },
+      "actual_end_cm": [
+        300.0,
+        -300.0,
+        188.76012325286865
+      ],
+      "actual_distance_moved_cm": 611.2398767471313,
+      "remaining_distance_to_target_cm": 148.76012325286865,
+      "expected_platform_or_terrain_meshes": [
+        "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform"
+      ],
+      "passed": true
+    },
+    {
+      "name": "terrain_section_0",
+      "requested_start_cm": [
+        333.3333333333333,
+        -3033.3333333333335,
+        421.82663853963214
+      ],
+      "actual_start_cm": [
+        333.3333333333333,
+        -3033.3333333333335,
+        421.82663853963214
+      ],
+      "requested_target_cm": [
+        333.3333333333333,
+        -3033.3333333333335,
+        -78.17336146036784
+      ],
+      "root_component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.DefaultPawn_0.CollisionComponent0",
+      "root_class": "/Script/Engine.SphereComponent",
+      "sphere_radius_cm": 35.0,
+      "collision_object_channel": "<CollisionChannel.ECC_PAWN: 2>",
+      "profile": "Pawn",
+      "source_triangle": {
+        "section": 0,
+        "material_slot": 0,
+        "section_triangle_index": 3906,
+        "vertex_indices": [
+          7812,
+          7813,
+          7814
+        ],
+        "vertices_world_cm": [
+          [
+            400.0,
+            -3000.0,
+            19.99370765686035
+          ],
+          [
+            300.0,
+            -3000.0,
+            22.235090255737305
+          ],
+          [
+            300.0,
+            -3100.0,
+            23.251117706298828
+          ]
+        ],
+        "barycentric": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "centroid_world_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          21.82663853963216
+        ],
+        "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+      },
+      "start_probe": null,
+      "same_shape_same_channel_trace": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.7299787998199463,
+        "distance_cm": 364.9894104003906,
+        "location_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          56.837238629659
+        ],
+        "impact_point_cm": [
+          332.5491027832031,
+          -3033.688720703125,
+          21.84781265258789
+        ],
+        "normal": [
+          0.022407081063266086,
+          0.010157179125981417,
+          0.9996973314110761
+        ],
+        "impact_normal": [
+          0.022407042489244,
+          0.010157199016209803,
+          0.9996973320735784
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 3906,
+        "trace_start_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          421.82663853963214
+        ],
+        "trace_end_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          -78.17336146036784
+        ]
+      },
+      "movement_hit": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.7269787788391113,
+        "distance_cm": 364.9894104003906,
+        "location_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          56.837238629659
+        ],
+        "impact_point_cm": [
+          332.5491027832031,
+          -3033.688720703125,
+          21.84781265258789
+        ],
+        "normal": [
+          0.022407081063266086,
+          0.010157179125981417,
+          0.9996973314110761
+        ],
+        "impact_normal": [
+          0.022407042489244,
+          0.010157199016209803,
+          0.9996973320735784
+        ],
+        "physical_material": null,
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": -1,
+        "trace_start_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          421.82663853963214
+        ],
+        "trace_end_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          -78.17336146036786
+        ]
+      },
+      "actual_end_cm": [
+        333.3333333333333,
+        -3033.3333333333335,
+        58.33724912007648
+      ],
+      "actual_distance_moved_cm": 363.48938941955566,
+      "remaining_distance_to_target_cm": 136.51061058044434,
+      "expected_platform_or_terrain_meshes": [
+        "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain"
+      ],
+      "actual_impact_xy_barycentric_in_selected_triangle": [
+        0.32549102783203127,
+        0.33762176513671877,
+        0.3368872070312499
+      ],
+      "passed": true
+    },
+    {
+      "name": "platform_front_side",
+      "requested_start_cm": [
+        500.0,
+        -800.0,
+        170.0
+      ],
+      "actual_start_cm": [
+        500.0,
+        -800.0,
+        170.0
+      ],
+      "requested_target_cm": [
+        500.0,
+        -400.0,
+        170.0
+      ],
+      "root_component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.DefaultPawn_0.CollisionComponent0",
+      "root_class": "/Script/Engine.SphereComponent",
+      "sphere_radius_cm": 35.0,
+      "collision_object_channel": "<CollisionChannel.ECC_PAWN: 2>",
+      "profile": "Pawn",
+      "source_triangle": null,
+      "start_probe": null,
+      "same_shape_same_channel_trace": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.4120570421218872,
+        "distance_cm": 164.82281494140625,
+        "location_cm": [
+          500.0,
+          -635.1771831512451,
+          170.0
+        ],
+        "impact_point_cm": [
+          493.59979248046875,
+          -600.767333984375,
+          170.0
+        ],
+        "normal": [
+          0.1828628464515847,
+          -0.9831384334810762,
+          0.0
+        ],
+        "impact_normal": [
+          0.1828628501387756,
+          -0.983138432795262,
+          0.0
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 446,
+        "trace_start_cm": [
+          500.0,
+          -800.0,
+          170.0
+        ],
+        "trace_end_cm": [
+          500.0,
+          -400.0,
+          170.0
+        ]
+      },
+      "movement_hit": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.4085570275783539,
+        "distance_cm": 164.82281494140625,
+        "location_cm": [
+          500.0,
+          -635.1771831512451,
+          170.0
+        ],
+        "impact_point_cm": [
+          493.59979248046875,
+          -600.767333984375,
+          170.0
+        ],
+        "normal": [
+          0.1828628464515847,
+          -0.9831384334810762,
+          0.0
+        ],
+        "impact_normal": [
+          0.1828628501387756,
+          -0.983138432795262,
+          0.0
+        ],
+        "physical_material": null,
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": -1,
+        "trace_start_cm": [
+          500.0,
+          -800.0,
+          170.0
+        ],
+        "trace_end_cm": [
+          500.0,
+          -400.0,
+          170.0
+        ]
+      },
+      "actual_end_cm": [
+        500.0,
+        -636.5771889686584,
+        170.0
+      ],
+      "actual_distance_moved_cm": 163.42281103134155,
+      "remaining_distance_to_target_cm": 236.57718896865845,
+      "expected_platform_or_terrain_meshes": [
+        "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform",
+        "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping"
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "terrain_lod0": {
+    "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+    "lod": 0,
+    "num_sections": 1,
+    "material_slots": [
+      "Meadow"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "material_slot": 0,
+        "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768.MI_stone_Meadow_32768",
+        "collision_enabled": true,
+        "vertices": 40000,
+        "triangles": 20000,
+        "triangle_candidates": [
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3906,
+            "vertex_indices": [
+              7812,
+              7813,
+              7814
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -3000.0,
+                19.99370765686035
+              ],
+              [
+                300.0,
+                -3000.0,
+                22.235090255737305
+              ],
+              [
+                300.0,
+                -3100.0,
+                23.251117706298828
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              333.3333333333333,
+              -3033.3333333333335,
+              21.82663853963216
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4105,
+            "vertex_indices": [
+              8208,
+              8210,
+              8211
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -2900.0,
+                21.352689743041992
+              ],
+              [
+                200.0,
+                -3000.0,
+                24.702281951904297
+              ],
+              [
+                300.0,
+                -3000.0,
+                22.235090255737305
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              266.6666666666667,
+              -2966.6666666666665,
+              22.7633539835612
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3905,
+            "vertex_indices": [
+              7808,
+              7810,
+              7811
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -3000.0,
+                22.235090255737305
+              ],
+              [
+                200.0,
+                -3100.0,
+                25.394710540771484
+              ],
+              [
+                300.0,
+                -3100.0,
+                23.251117706298828
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              266.6666666666667,
+              -3066.6666666666665,
+              23.626972834269207
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4106,
+            "vertex_indices": [
+              8212,
+              8213,
+              8214
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -2900.0,
+                18.85555648803711
+              ],
+              [
+                300.0,
+                -2900.0,
+                21.352689743041992
+              ],
+              [
+                300.0,
+                -3000.0,
+                22.235090255737305
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              333.3333333333333,
+              -2933.3333333333335,
+              20.81444549560547
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3904,
+            "vertex_indices": [
+              7808,
+              7809,
+              7810
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -3000.0,
+                22.235090255737305
+              ],
+              [
+                200.0,
+                -3000.0,
+                24.702281951904297
+              ],
+              [
+                200.0,
+                -3100.0,
+                25.394710540771484
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              233.33333333333334,
+              -3033.3333333333335,
+              24.110694249471027
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4107,
+            "vertex_indices": [
+              8212,
+              8214,
+              8215
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -2900.0,
+                18.85555648803711
+              ],
+              [
+                300.0,
+                -3000.0,
+                22.235090255737305
+              ],
+              [
+                400.0,
+                -3000.0,
+                19.99370765686035
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              366.6666666666667,
+              -2966.6666666666665,
+              20.361451466878254
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4104,
+            "vertex_indices": [
+              8208,
+              8209,
+              8210
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -2900.0,
+                21.352689743041992
+              ],
+              [
+                200.0,
+                -2900.0,
+                24.10164451599121
+              ],
+              [
+                200.0,
+                -3000.0,
+                24.702281951904297
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              233.33333333333334,
+              -2933.3333333333335,
+              23.385538736979168
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3907,
+            "vertex_indices": [
+              7812,
+              7814,
+              7815
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -3000.0,
+                19.99370765686035
+              ],
+              [
+                300.0,
+                -3100.0,
+                23.251117706298828
+              ],
+              [
+                400.0,
+                -3100.0,
+                21.30359649658203
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              366.6666666666667,
+              -3066.6666666666665,
+              21.516140619913738
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3908,
+            "vertex_indices": [
+              7816,
+              7817,
+              7818
+            ],
+            "vertices_world_cm": [
+              [
+                500.0,
+                -3000.0,
+                18.042984008789062
+              ],
+              [
+                400.0,
+                -3000.0,
+                19.99370765686035
+              ],
+              [
+                400.0,
+                -3100.0,
+                21.30359649658203
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              433.3333333333333,
+              -3033.3333333333335,
+              19.78009605407715
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4103,
+            "vertex_indices": [
+              8204,
+              8206,
+              8207
+            ],
+            "vertices_world_cm": [
+              [
+                200.0,
+                -2900.0,
+                24.10164451599121
+              ],
+              [
+                100.0,
+                -3000.0,
+                27.32396697998047
+              ],
+              [
+                200.0,
+                -3000.0,
+                24.702281951904297
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              166.66666666666666,
+              -2966.6666666666665,
+              25.375964482625324
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3706,
+            "vertex_indices": [
+              7412,
+              7413,
+              7414
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -3100.0,
+                21.30359649658203
+              ],
+              [
+                300.0,
+                -3100.0,
+                23.251117706298828
+              ],
+              [
+                300.0,
+                -3200.0,
+                24.383075714111328
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              333.3333333333333,
+              -3133.3333333333335,
+              22.979263305664062
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4305,
+            "vertex_indices": [
+              8608,
+              8610,
+              8611
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -2800.0,
+                20.619497299194336
+              ],
+              [
+                200.0,
+                -2900.0,
+                24.10164451599121
+              ],
+              [
+                300.0,
+                -2900.0,
+                21.352689743041992
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              266.6666666666667,
+              -2866.6666666666665,
+              22.02461051940918
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4108,
+            "vertex_indices": [
+              8216,
+              8217,
+              8218
+            ],
+            "vertices_world_cm": [
+              [
+                500.0,
+                -2900.0,
+                16.682533264160156
+              ],
+              [
+                400.0,
+                -2900.0,
+                18.85555648803711
+              ],
+              [
+                400.0,
+                -3000.0,
+                19.99370765686035
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              433.3333333333333,
+              -2933.3333333333335,
+              18.51059913635254
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3903,
+            "vertex_indices": [
+              7804,
+              7806,
+              7807
+            ],
+            "vertices_world_cm": [
+              [
+                200.0,
+                -3000.0,
+                24.702281951904297
+              ],
+              [
+                100.0,
+                -3100.0,
+                27.672422409057617
+              ],
+              [
+                200.0,
+                -3100.0,
+                25.394710540771484
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              166.66666666666666,
+              -3066.6666666666665,
+              25.9231383005778
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3704,
+            "vertex_indices": [
+              7408,
+              7409,
+              7410
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -3100.0,
+                23.251117706298828
+              ],
+              [
+                200.0,
+                -3100.0,
+                25.394710540771484
+              ],
+              [
+                200.0,
+                -3200.0,
+                26.166725158691406
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              233.33333333333334,
+              -3133.3333333333335,
+              24.937517801920574
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4307,
+            "vertex_indices": [
+              8612,
+              8614,
+              8615
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -2800.0,
+                17.909103393554688
+              ],
+              [
+                300.0,
+                -2900.0,
+                21.352689743041992
+              ],
+              [
+                400.0,
+                -2900.0,
+                18.85555648803711
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              366.6666666666667,
+              -2866.6666666666665,
+              19.37244987487793
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3705,
+            "vertex_indices": [
+              7408,
+              7410,
+              7411
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -3100.0,
+                23.251117706298828
+              ],
+              [
+                200.0,
+                -3200.0,
+                26.166725158691406
+              ],
+              [
+                300.0,
+                -3200.0,
+                24.383075714111328
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              266.6666666666667,
+              -3166.6666666666665,
+              24.600306193033855
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4306,
+            "vertex_indices": [
+              8612,
+              8613,
+              8614
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -2800.0,
+                17.909103393554688
+              ],
+              [
+                300.0,
+                -2800.0,
+                20.619497299194336
+              ],
+              [
+                300.0,
+                -2900.0,
+                21.352689743041992
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              333.3333333333333,
+              -2833.3333333333335,
+              19.960430145263672
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3902,
+            "vertex_indices": [
+              7804,
+              7805,
+              7806
+            ],
+            "vertices_world_cm": [
+              [
+                200.0,
+                -3000.0,
+                24.702281951904297
+              ],
+              [
+                100.0,
+                -3000.0,
+                27.32396697998047
+              ],
+              [
+                100.0,
+                -3100.0,
+                27.672422409057617
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              133.33333333333334,
+              -3033.3333333333335,
+              26.56622378031413
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4109,
+            "vertex_indices": [
+              8216,
+              8218,
+              8219
+            ],
+            "vertices_world_cm": [
+              [
+                500.0,
+                -2900.0,
+                16.682533264160156
+              ],
+              [
+                400.0,
+                -3000.0,
+                19.99370765686035
+              ],
+              [
+                500.0,
+                -3000.0,
+                18.042984008789062
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              466.6666666666667,
+              -2966.6666666666665,
+              18.239741643269856
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4304,
+            "vertex_indices": [
+              8608,
+              8609,
+              8610
+            ],
+            "vertices_world_cm": [
+              [
+                300.0,
+                -2800.0,
+                20.619497299194336
+              ],
+              [
+                200.0,
+                -2800.0,
+                23.603586196899414
+              ],
+              [
+                200.0,
+                -2900.0,
+                24.10164451599121
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              233.33333333333334,
+              -2833.3333333333335,
+              22.774909337361652
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3707,
+            "vertex_indices": [
+              7412,
+              7414,
+              7415
+            ],
+            "vertices_world_cm": [
+              [
+                400.0,
+                -3100.0,
+                21.30359649658203
+              ],
+              [
+                300.0,
+                -3200.0,
+                24.383075714111328
+              ],
+              [
+                400.0,
+                -3200.0,
+                22.76251220703125
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              366.6666666666667,
+              -3166.6666666666665,
+              22.816394805908203
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 4102,
+            "vertex_indices": [
+              8204,
+              8205,
+              8206
+            ],
+            "vertices_world_cm": [
+              [
+                200.0,
+                -2900.0,
+                24.10164451599121
+              ],
+              [
+                100.0,
+                -2900.0,
+                27.022930145263672
+              ],
+              [
+                100.0,
+                -3000.0,
+                27.32396697998047
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              133.33333333333334,
+              -2933.3333333333335,
+              26.149513880411785
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          },
+          {
+            "section": 0,
+            "material_slot": 0,
+            "section_triangle_index": 3909,
+            "vertex_indices": [
+              7816,
+              7818,
+              7819
+            ],
+            "vertices_world_cm": [
+              [
+                500.0,
+                -3000.0,
+                18.042984008789062
+              ],
+              [
+                400.0,
+                -3100.0,
+                21.30359649658203
+              ],
+              [
+                500.0,
+                -3100.0,
+                19.60847282409668
+              ]
+            ],
+            "barycentric": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "centroid_world_cm": [
+              466.6666666666667,
+              -3066.6666666666665,
+              19.651684443155926
+            ],
+            "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+          }
+        ],
+        "test_triangle": {
+          "section": 0,
+          "material_slot": 0,
+          "section_triangle_index": 3906,
+          "vertex_indices": [
+            7812,
+            7813,
+            7814
+          ],
+          "vertices_world_cm": [
+            [
+              400.0,
+              -3000.0,
+              19.99370765686035
+            ],
+            [
+              300.0,
+              -3000.0,
+              22.235090255737305
+            ],
+            [
+              300.0,
+              -3100.0,
+              23.251117706298828
+            ]
+          ],
+          "barycentric": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "centroid_world_cm": [
+            333.3333333333333,
+            -3033.3333333333335,
+            21.82663853963216
+          ],
+          "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+        }
+      }
+    ],
+    "slot1_triangle_count": 0,
+    "slot1_note": "No slot-1 faces exist in final imported LOD0; final presentation refinement assigned every terrain face to Meadow slot 0."
+  },
+  "world": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra",
+  "player_controller": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.PlayerController_0",
+  "player_pawn": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.DefaultPawn_0",
+  "possessed": true,
+  "candidate_path_queries": [
+    {
+      "test": "platform_downward",
+      "start_cm": [
+        300.0,
+        -300.0,
+        800.0
+      ],
+      "target_cm": [
+        300.0,
+        -300.0,
+        40.0
+      ],
+      "hit": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.8065788149833679,
+        "distance_cm": 612.9998779296875,
+        "location_cm": [
+          300.0,
+          -300.0,
+          187.00010061264038
+        ],
+        "impact_point_cm": [
+          300.0,
+          -300.0,
+          152.0001220703125
+        ],
+        "normal": [
+          0.0,
+          1.5871802361288957e-07,
+          0.9999999999999876
+        ],
+        "impact_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 234,
+        "trace_start_cm": [
+          300.0,
+          -300.0,
+          800.0
+        ],
+        "trace_end_cm": [
+          300.0,
+          -300.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "test": "terrain_section_0",
+      "start_cm": [
+        333.3333333333333,
+        -3033.3333333333335,
+        421.82663853963214
+      ],
+      "target_cm": [
+        333.3333333333333,
+        -3033.3333333333335,
+        -78.17336146036784
+      ],
+      "hit": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.7299787998199463,
+        "distance_cm": 364.9894104003906,
+        "location_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          56.837238629659
+        ],
+        "impact_point_cm": [
+          332.5491027832031,
+          -3033.688720703125,
+          21.84781265258789
+        ],
+        "normal": [
+          0.022407081063266086,
+          0.010157179125981417,
+          0.9996973314110761
+        ],
+        "impact_normal": [
+          0.022407042489244,
+          0.010157199016209803,
+          0.9996973320735784
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 3906,
+        "trace_start_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          421.82663853963214
+        ],
+        "trace_end_cm": [
+          333.3333333333333,
+          -3033.3333333333335,
+          -78.17336146036784
+        ]
+      }
+    },
+    {
+      "test": "platform_front_side",
+      "start_cm": [
+        500.0,
+        -800.0,
+        170.0
+      ],
+      "target_cm": [
+        500.0,
+        -400.0,
+        170.0
+      ],
+      "hit": {
+        "blocking_hit": true,
+        "initial_overlap": false,
+        "time": 0.4120570421218872,
+        "distance_cm": 164.82281494140625,
+        "location_cm": [
+          500.0,
+          -635.1771831512451,
+          170.0
+        ],
+        "impact_point_cm": [
+          493.59979248046875,
+          -600.767333984375,
+          170.0
+        ],
+        "normal": [
+          0.1828628464515847,
+          -0.9831384334810762,
+          0.0
+        ],
+        "impact_normal": [
+          0.1828628501387756,
+          -0.983138432795262,
+          0.0
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 446,
+        "trace_start_cm": [
+          500.0,
+          -800.0,
+          170.0
+        ],
+        "trace_end_cm": [
+          500.0,
+          -400.0,
+          170.0
+        ]
+      }
+    }
+  ],
+  "test_errors": [],
+  "checks_passed": true,
+  "normal_shutdown": true,
+  "finished_at_utc": "2026-10-21T15:24:32.907585+00:00"
+}

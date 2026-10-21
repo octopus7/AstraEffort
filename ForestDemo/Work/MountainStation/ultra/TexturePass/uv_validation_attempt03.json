@@ -1,0 +1,79 @@
+{
+  "started_at_utc": "2026-10-21T15:21:58.871817+00:00",
+  "scope": "Every LOD0 triangle of all owned placed static meshes, actual component transforms in centimetres, actual imported UV0 and material texture dimensions/scales",
+  "uv_import_basis": "UE FbxStaticMeshImport.cpp line 758 flips V for DirectX; convert back with (u,1-v) only for layout correspondence. Density is flip-invariant.",
+  "meshes": [
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 32768,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768.MI_stone_Meadow_32768",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            26.130781173706055,
+            26.130781173706055
+          ],
+          "effective_pixel_axes": [
+            32767.999591827393,
+            32767.999591827393
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 20000
+        }
+      ],
+      "triangles_checked": 20000,
+      "world_surface_area_m2": 10881.147531120068,
+      "source_world_area_m2": 10881.75499518702,
+      "source_triangles": 20000,
+      "triangle_density_percentiles": {
+        "0": 96.27939602697263,
+        "1": 127.85748249325069,
+        "5": 127.99922758049759,
+        "50": 127.99997226608659,
+        "95": 128.00076939092057,
+        "99": 128.20802028902358,
+        "100": 137.05838897720184
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 96.27939602697263,
+        "1": 127.85748249325069,
+        "5": 127.99922758049759,
+        "50": 127.99997226608659,
+        "95": 128.00076939092057,
+        "99": 128.20802028902358,
+        "100": 137.05838897720184
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 32,
+      "area_fraction_outside_5_percent": 0.0019090075839127334,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 32.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 10000,
+      "source_charts": 10000,
+      "invalid_examples": []
+    }
+  ],
+  "passed": false
+}
