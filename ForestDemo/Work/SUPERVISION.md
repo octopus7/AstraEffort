@@ -41,13 +41,15 @@ Missing timestamps remain unknown rather than estimated from a polling interval.
 
 | Effort | Chat | Dispatch (KST) | Worker start | Ready | Wall time | Status | Commit |
 |---|---|---|---|---|---|---|---|
-| medium | pending | pending | pending | pending | pending | preparing | pending |
-| high | pending | pending | pending | pending | pending | preparing | pending |
-| xhigh | pending | pending | pending | pending | pending | preparing | pending |
-| ultra | pending | pending | pending | pending | pending | preparing | pending |
+| medium | 01a15e5f-d4b8-7e53-b162-d84c019c5478 | 2026-10-21 12:11:37 | pending | pending | pending | working | pending |
+| high | 01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c | 2026-10-21 12:11:42 | pending | pending | pending | working | pending |
+| xhigh | 01a15e5f-f174-72d3-bc4b-f9f812ebf7db | 2026-10-21 12:11:46 | pending | pending | pending | working | pending |
+| ultra | 01a15e5f-fef9-7323-8733-3c0553c29d7e | 2026-10-21 12:11:49 | pending | pending | pending | working | pending |
 
 ## Supervisor log
 
 - Prepared isolated ownership rules, per-worker delivery boundaries, and central
   commit control. Automatic follow-up will inspect progress and stay quiet unless
   completion, failure, a meaningful change, or a user decision needs attention.
+
+- All four chats confirmed active. Supervisor heartbeat: forestdemo, every 5 minutes.
