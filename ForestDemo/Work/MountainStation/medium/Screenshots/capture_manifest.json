@@ -1,0 +1,94 @@
+{
+  "map": "/Game/Maps/MountainStation_medium",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High (sg.* 2)",
+  "screen_percentage": 100,
+  "method": "UE SceneCapture2D FinalColorLDR, manual exposure, RGBA8 export",
+  "site_center_cm": [
+    0,
+    0,
+    0
+  ],
+  "shots": [
+    {
+      "file": "overview.png",
+      "location_cm": [
+        12000,
+        -12000,
+        16000
+      ],
+      "rotation_deg": {
+        "pitch": -43.31385665828305,
+        "yaw": 135.0,
+        "roll": 7.173851131232941E-07
+      },
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "horizontal_fov": null,
+      "captured_at_utc": "2026-10-21T13:01:31.363030+00:00"
+    },
+    {
+      "file": "top_down.png",
+      "location_cm": [
+        0,
+        0,
+        20000
+      ],
+      "rotation_deg": {
+        "pitch": -90.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "horizontal_fov": null,
+      "captured_at_utc": "2026-10-21T13:01:59.582646+00:00"
+    },
+    {
+      "file": "platform.png",
+      "location_cm": [
+        -2100,
+        520,
+        242
+      ],
+      "rotation_deg": {
+        "pitch": 1.3308145034115444,
+        "yaw": -11.996899307923579,
+        "roll": 2.158355218464619E-09
+      },
+      "projection": "perspective",
+      "ortho_width_cm": null,
+      "horizontal_fov": 70,
+      "captured_at_utc": "2026-10-21T13:02:27.774596+00:00"
+    },
+    {
+      "file": "tracks.png",
+      "location_cm": [
+        1800,
+        1100,
+        170
+      ],
+      "rotation_deg": {
+        "pitch": 3.2621946046934926,
+        "yaw": 4.085616779974877,
+        "roll": -1.800977260690995E-09
+      },
+      "projection": "perspective",
+      "ortho_width_cm": null,
+      "horizontal_fov": 70,
+      "captured_at_utc": "2026-10-21T13:02:55.994661+00:00"
+    }
+  ],
+  "capture_wall_seconds": 112.8383903503418,
+  "manual_exposure_bias": 2.0,
+  "physical_camera_exposure": false,
+  "visual_review": "All four final images directly inspected; no editor overlays; platform camera +170cm above 72cm platform; tracks +170cm above ground",
+  "collision_only_revision": {
+    "verified_at_utc": "2026-10-21T13:26:33.003983+00:00",
+    "description": "Persisted NoCollision profile and actor collision off on Quiet blue horizon. No visual geometry/material/light/camera change. All four existing actual UE captures retained unchanged.",
+    "runtime_evidence": "movement_runtime_validation.json"
+  }
+}

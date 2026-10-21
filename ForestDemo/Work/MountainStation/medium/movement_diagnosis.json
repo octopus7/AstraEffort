@@ -1,0 +1,96 @@
+{
+  "started_at_utc": "2026-10-21T13:18:11.069692+00:00",
+  "map": "/Game/Maps/MountainStation_medium",
+  "phase": "before_fix",
+  "saved_editor_backdrop": [
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2",
+      "label": "Quiet blue horizon",
+      "actor_collision": true,
+      "profile": "BlockAll",
+      "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+    }
+  ],
+  "pawn": {
+    "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.DefaultPawn_0",
+    "label": "DefaultPawn0",
+    "actor_collision": true,
+    "profile": "Pawn",
+    "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "object_type": "<CollisionChannel.ECC_PAWN: 2>",
+    "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+  },
+  "possessed": true,
+  "spawn_location_cm": [
+    -1900.0,
+    -1150.0,
+    120.0
+  ],
+  "pie_backdrop_before": [
+    {
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2",
+      "label": "Quiet blue horizon",
+      "actor_collision": true,
+      "profile": "BlockAll",
+      "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+    }
+  ],
+  "pawn_profile_sweep_before": "(True, True, 0.0, 0.0, <Struct 'Vector' (0x0000024EC261C150) {x: -1900.000000, y: -1000.000000, z: 150.000000}>, <Struct 'Vector' (0x0000024EC261C290) {x: -88276.520281, y: -46461.673306, z: 6969.198970}>, <Struct 'Vector' (0x0000024EF5698BF0) {x: -0.882765, y: -0.464617, z: 0.069692}>, <Struct 'Vector' (0x0000024EF5699000) {x: -0.882765, y: -0.464617, z: 0.069692}>, <Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x0000024E905AE640) Class 'PhysicalMaterial'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2' (0x0000024F00324B00) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0' (0x0000024EFCC46800) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, -1, <Struct 'Vector' (0x0000024EF56EE860) {x: -1900.000000, y: -1000.000000, z: 150.000000}>, <Struct 'Vector' (0x0000024EF56ED0F0) {x: -1900.000000, y: -800.000000, z: 150.000000}>)",
+  "movement_before": {
+    "from": [
+      -1900.0,
+      -1000.0,
+      150.0
+    ],
+    "to": [
+      -1900.0,
+      -1000.0,
+      150.0
+    ],
+    "distance_cm": 0.0,
+    "hit": null
+  },
+  "pie_backdrop_disabled": [
+    {
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2",
+      "label": "Quiet blue horizon",
+      "actor_collision": false,
+      "profile": "NoCollision",
+      "enabled": "<CollisionEnabled.NO_COLLISION: 0>",
+      "object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+    }
+  ],
+  "movement_after_backdrop_disabled": {
+    "from": [
+      -1900.0,
+      -1000.0,
+      150.0
+    ],
+    "to": [
+      -1900.0,
+      -800.0,
+      150.0
+    ],
+    "distance_cm": 200.0,
+    "hit": "(False, False, 1.0, 0.0, <Struct 'Vector' (0x0000024EC261C150) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x0000024EF5698BF0) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x0000024EF5699000) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x0000024EF56EE860) {x: 0.000000, y: 0.000000, z: 0.000000}>, None, None, None, Name(\"None\"), Name(\"None\"), 0, 0, 0, <Struct 'Vector' (0x0000024EF56ED0F0) {x: -1900.000000, y: -1000.000000, z: 150.000000}>, <Struct 'Vector' (0x0000024EF56ED140) {x: -1900.000000, y: -800.000000, z: 150.000000}>)"
+  },
+  "backdrop_cause_confirmed": true,
+  "normal_pie_shutdown": true,
+  "saved_reloaded_backdrop_after": [
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2",
+      "label": "Quiet blue horizon",
+      "actor_collision": false,
+      "profile": "NoCollision",
+      "enabled": "<CollisionEnabled.NO_COLLISION: 0>",
+      "object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+      "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+    }
+  ],
+  "finished_at_utc": "2026-10-21T13:18:17.170936+00:00"
+}
