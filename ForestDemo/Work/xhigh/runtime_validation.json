@@ -1,0 +1,72 @@
+{
+  "started_at_utc": "2026-10-21T13:21:37.020398+00:00",
+  "map": "/Game/Maps/xhigh",
+  "mode": "PlayInEditor",
+  "checks": {
+    "actual_pie_world": true,
+    "player_controller_created": true,
+    "pawn_spawned_and_possessed": true,
+    "runtime_player_start": true,
+    "spawn_matches_player_start": true,
+    "baseline_logger_exists_in_play_world": true,
+    "runtime_terrain_trace_blocks": true,
+    "runtime_ground_matches_source": true,
+    "pawn_sweep_blocked_by_ground": true,
+    "short_path_movement_succeeds": true,
+    "normal_pie_shutdown": true,
+    "baseline_native_hello_beginplay_test": true
+  },
+  "errors": [],
+  "world": "/Game/Maps/UEDPIE_0_xhigh.xhigh",
+  "controller_class": "/Script/Engine.PlayerController",
+  "pawn_class": "/Script/Engine.DefaultPawn",
+  "spawn_cm": [
+    800.0,
+    -900.0,
+    413.48259474762983
+  ],
+  "player_start_cm": [
+    800.0,
+    -900.0,
+    413.48259474762983
+  ],
+  "hello_evidence": "Baseline native actor in actual PIE. The existing BeginPlay calls AddOnScreenDebugMessage(Hello, 10 seconds). runtime_hello.png requested immediately after pawn possession; direct visual inspection records whether Hello is visible.",
+  "possession_at_utc": "2026-10-21T13:21:37.156156+00:00",
+  "runtime_ground_hit_cm": [
+    800.0,
+    -900.0,
+    303.561270236969
+  ],
+  "downward_sweep": {
+    "requested_cm": [
+      800.0,
+      -900.0,
+      103.48259474762983
+    ],
+    "actual_cm": [
+      800.0,
+      -900.0,
+      339.9183132840068
+    ],
+    "ground_z_cm": 303.48259474762983
+  },
+  "short_path_sweep": {
+    "before_cm": [
+      800.0,
+      -900.0,
+      433.48259474762983
+    ],
+    "after_cm": [
+      800.0,
+      -800.0,
+      433.48259474762983
+    ],
+    "distance_cm": 100.0
+  },
+  "native_hello_test_name": "ForestDemo.ScreenDebugLogger.HelloOnBeginPlay",
+  "native_test_log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\xhigh\\water_final.log",
+  "native_hello_test_result": "[2026.10.21-13.21.50:390][512]LogAutomationController: Display: Test Completed. Result={Success} Name={HelloOnBeginPlay} Path={ForestDemo.ScreenDebugLogger.HelloOnBeginPlay}",
+  "finished_at_utc": "2026-10-21T13:21:50.442500+00:00",
+  "elapsed_seconds": 13.422102,
+  "passed": true
+}

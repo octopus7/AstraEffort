@@ -1,0 +1,366 @@
+{
+  "utc": "2026-10-21T13:20:07.780133+00:00",
+  "map": "/Game/Maps/xhigh",
+  "checks": {
+    "map_reloaded": true,
+    "footprint_10000_by_10000_cm": true,
+    "separate_lake_and_sea": true,
+    "player_start_present": true,
+    "baseline_hello_actor_present": true,
+    "overview_camera_present": true,
+    "dynamic_lighting": true,
+    "no_external_actor_packages": true,
+    "non_world_partition": true,
+    "recursive_game_dependencies_owned": true,
+    "instance_rotations_match_manifest": true,
+    "terrain_complex_collision": true,
+    "spawn_ground_trace": true,
+    "all_terrain_samples_match_source_within_5cm": true,
+    "decorative_foliage_has_no_collision": true,
+    "forest_tree_population": true,
+    "beach_dressing": true
+  },
+  "errors": [],
+  "terrain_bounds_cm": {
+    "origin": [
+      0.0,
+      0.0,
+      195.60641479492188
+    ],
+    "extent": [
+      5000.00048828125,
+      5000.00048828125,
+      519.7829895019531
+    ]
+  },
+  "external_actor_packages": [],
+  "world_settings_class": "/Script/Engine.WorldSettings",
+  "world_partition": "None",
+  "dependency_graph": {
+    "/Game/Forest/xhigh/Materials/M_StoneDark": [],
+    "/Game/Forest/xhigh/Materials/M_Sand": [],
+    "/Game/Forest/xhigh/Materials/M_Path": [],
+    "/Game/Forest/xhigh/Materials/M_BarkLight": [],
+    "/Game/Forest/xhigh/Materials/M_Wood": [],
+    "/Game/Forest/xhigh/Meshes/SM_Bench": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_BarkLight",
+      "/Game/Forest/xhigh/Materials/M_Wood"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Stone": [],
+    "/Game/Forest/xhigh/Meshes/SM_Boulder_1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Stone"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Boulder_3": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Stone"
+    ],
+    "/Game/Forest/xhigh/Materials/M_StoneLight": [],
+    "/Game/Forest/xhigh/Meshes/SM_Pebbles_0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_StoneLight"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Pebbles_1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_StoneLight"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Boulder_0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Stone",
+      "/Game/Forest/xhigh/Materials/M_StoneLight"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Boulder_2": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Stone",
+      "/Game/Forest/xhigh/Materials/M_StoneLight"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Bark": [],
+    "/Game/Forest/xhigh/Materials/M_LeafLight": [],
+    "/Game/Forest/xhigh/Materials/M_LeafMoss": [],
+    "/Game/Forest/xhigh/Materials/M_LeafSage": [],
+    "/Game/Forest/xhigh/Meshes/SM_Shrub": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_LeafMoss",
+      "/Game/Forest/xhigh/Materials/M_LeafSage"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Broadleaf_0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_BarkLight",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_LeafLight",
+      "/Game/Forest/xhigh/Materials/M_LeafMoss",
+      "/Game/Forest/xhigh/Materials/M_LeafSage"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Broadleaf_1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_BarkLight",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_LeafLight",
+      "/Game/Forest/xhigh/Materials/M_LeafMoss",
+      "/Game/Forest/xhigh/Materials/M_LeafSage"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Broadleaf_2": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_BarkLight",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_LeafLight",
+      "/Game/Forest/xhigh/Materials/M_LeafMoss",
+      "/Game/Forest/xhigh/Materials/M_LeafSage"
+    ],
+    "/Game/Forest/xhigh/Materials/M_EndGrain": [],
+    "/Game/Forest/xhigh/Meshes/SM_Dock": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Wood",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_EndGrain"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_FallenLog": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_BarkLight",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_EndGrain"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Stump": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_EndGrain"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Grass": [],
+    "/Game/Forest/xhigh/Meshes/SM_Fern": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_LeafSage",
+      "/Game/Forest/xhigh/Materials/M_Grass"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Grass_0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_LeafLight",
+      "/Game/Forest/xhigh/Materials/M_Grass"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Grass_1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_LeafLight",
+      "/Game/Forest/xhigh/Materials/M_Grass"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Grass_2": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_LeafLight",
+      "/Game/Forest/xhigh/Materials/M_Grass"
+    ],
+    "/Game/Forest/xhigh/Materials/M_WaterLake": [],
+    "/Game/Forest/xhigh/Meshes/SM_Lake": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_WaterLake"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Pine": [],
+    "/Game/Forest/xhigh/Materials/M_PineTips": [],
+    "/Game/Forest/xhigh/Meshes/SM_Pine_0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_Pine",
+      "/Game/Forest/xhigh/Materials/M_PineTips"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Pine_1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Bark",
+      "/Game/Forest/xhigh/Materials/M_Pine",
+      "/Game/Forest/xhigh/Materials/M_PineTips"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Reed": [],
+    "/Game/Forest/xhigh/Materials/M_RushTip": [],
+    "/Game/Forest/xhigh/Meshes/SM_Reeds": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Reed",
+      "/Game/Forest/xhigh/Materials/M_RushTip"
+    ],
+    "/Game/Forest/xhigh/Materials/M_WaterSea": [],
+    "/Game/Forest/xhigh/Meshes/SM_Sea": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_WaterSea"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Foam": [],
+    "/Game/Forest/xhigh/Meshes/SM_Surf_0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Foam"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Surf_1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Foam"
+    ],
+    "/Game/Forest/xhigh/Meshes/SM_Surf_2": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Foam"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Terrain": [],
+    "/Game/Forest/xhigh/Meshes/SM_Terrain": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Terrain"
+    ],
+    "/Game/Forest/xhigh/Materials/M_Petal": [],
+    "/Game/Forest/xhigh/Meshes/SM_Wildflowers": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/xhigh/Materials/M_Grass",
+      "/Game/Forest/xhigh/Materials/M_Petal"
+    ],
+    "/Game/Maps/xhigh": [
+      "/Script/NavigationSystem",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/Forest/xhigh/Meshes/SM_Bench",
+      "/Game/Forest/xhigh/Meshes/SM_Boulder_0",
+      "/Game/Forest/xhigh/Meshes/SM_Boulder_1",
+      "/Game/Forest/xhigh/Meshes/SM_Boulder_2",
+      "/Game/Forest/xhigh/Meshes/SM_Boulder_3",
+      "/Game/Forest/xhigh/Meshes/SM_Broadleaf_0",
+      "/Game/Forest/xhigh/Meshes/SM_Broadleaf_1",
+      "/Game/Forest/xhigh/Meshes/SM_Broadleaf_2",
+      "/Game/Forest/xhigh/Meshes/SM_Dock",
+      "/Game/Forest/xhigh/Meshes/SM_FallenLog",
+      "/Game/Forest/xhigh/Meshes/SM_Fern",
+      "/Game/Forest/xhigh/Meshes/SM_Grass_0",
+      "/Game/Forest/xhigh/Meshes/SM_Grass_1",
+      "/Game/Forest/xhigh/Meshes/SM_Grass_2",
+      "/Game/Forest/xhigh/Meshes/SM_Lake",
+      "/Game/Forest/xhigh/Meshes/SM_Pebbles_0",
+      "/Game/Forest/xhigh/Meshes/SM_Pebbles_1",
+      "/Game/Forest/xhigh/Meshes/SM_Pine_0",
+      "/Game/Forest/xhigh/Meshes/SM_Pine_1",
+      "/Game/Forest/xhigh/Meshes/SM_Reeds",
+      "/Game/Forest/xhigh/Meshes/SM_Sea",
+      "/Game/Forest/xhigh/Meshes/SM_Shrub",
+      "/Game/Forest/xhigh/Meshes/SM_Stump",
+      "/Game/Forest/xhigh/Meshes/SM_Surf_0",
+      "/Game/Forest/xhigh/Meshes/SM_Surf_1",
+      "/Game/Forest/xhigh/Meshes/SM_Surf_2",
+      "/Game/Forest/xhigh/Meshes/SM_Terrain",
+      "/Game/Forest/xhigh/Meshes/SM_Wildflowers",
+      "/Script/ForestDemo"
+    ]
+  },
+  "forbidden_game_dependencies": [],
+  "checked_package_count": 51,
+  "static_mesh_actor_count": 895,
+  "collision_enabled_actor_count": 258,
+  "misoriented_instances": [],
+  "terrain_traces": [
+    {
+      "xy_cm": [
+        800,
+        -900
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        800.0,
+        -900.0,
+        303.5612106323242
+      ],
+      "expected_terrain_height_cm": 303.48259474762983,
+      "height_error_cm": 0.0786158846943863
+    },
+    {
+      "xy_cm": [
+        800,
+        0
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        800.0,
+        0.0,
+        360.6581687927246
+      ],
+      "expected_terrain_height_cm": 360.6082145286325,
+      "height_error_cm": 0.04995426409209358
+    },
+    {
+      "xy_cm": [
+        1200,
+        1500
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        1200.0,
+        1500.0,
+        548.9027500152588
+      ],
+      "expected_terrain_height_cm": 548.9629037813781,
+      "height_error_cm": 0.06015376611935608
+    },
+    {
+      "xy_cm": [
+        600,
+        2800
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        600.0,
+        2800.0,
+        446.84505462646484
+      ],
+      "expected_terrain_height_cm": 446.8411966130878,
+      "height_error_cm": 0.0038580133770551583
+    },
+    {
+      "xy_cm": [
+        -1800,
+        1400
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        -1800.0,
+        1400.0,
+        65.00005722045898
+      ],
+      "expected_terrain_height_cm": 65.0,
+      "height_error_cm": 5.7220458984375e-05
+    },
+    {
+      "xy_cm": [
+        3000,
+        -1900
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        3000.0,
+        -1900.0,
+        80.06644248962402
+      ],
+      "expected_terrain_height_cm": 80.02133175934728,
+      "height_error_cm": 0.045110730276746835
+    },
+    {
+      "xy_cm": [
+        -3000,
+        -1900
+      ],
+      "blocking_hit": true,
+      "impact_point_cm": [
+        -3000.0,
+        -1900.0,
+        193.0382251739502
+      ],
+      "expected_terrain_height_cm": 193.47215826317688,
+      "height_error_cm": 0.4339330892266844
+    }
+  ],
+  "actor_count": 903,
+  "roles": {
+    "terrain": 1,
+    "xhigh": 897,
+    "water": 5,
+    "tree": 148,
+    "rock": 42,
+    "lake_rock": 9,
+    "lake_reeds": 26,
+    "understory": 589,
+    "beach_grass": 17,
+    "beach_stones": 48,
+    "prop": 6,
+    "rest_bench": 1,
+    "lake_dock": 1,
+    "driftwood": 2,
+    "player_start": 1,
+    "baseline_hello": 1
+  },
+  "passed": true
+}
