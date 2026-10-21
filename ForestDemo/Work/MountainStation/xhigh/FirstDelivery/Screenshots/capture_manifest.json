@@ -1,0 +1,156 @@
+{
+  "theme": "MountainStation",
+  "effort": "xhigh",
+  "map": "/Game/Maps/MountainStation_xhigh",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 22,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scalability": "High (all sg groups 2)",
+  "screen_percentage": 100,
+  "renderer": "UE 5.7 SceneCapture2D FinalColorLDR, offscreen D3D12, dynamic raster lighting",
+  "debug_ui": "SceneCapture does not draw editor overlays; screen messages disabled for evidence only",
+  "captures": [
+    {
+      "name": "overview",
+      "position": [
+        12000,
+        -12000,
+        16022
+      ],
+      "target": [
+        0,
+        0,
+        22
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "captured_at_utc": "2026-10-21T13:25:31.198040+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 2244875,
+      "bytes_observed_at_export_request": 2244875,
+      "sha256": "620b6ff3f086eb6a0a5beb2ca1e1124774139758ebfe03f18943d14e7e492e90",
+      "file_modified_at_utc": "2026-10-21T13:25:31.198040+00:00",
+      "file_verified_at_utc": "2026-10-21T13:31:20.467085+00:00"
+    },
+    {
+      "name": "top_down",
+      "position": [
+        0,
+        0,
+        20022
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "captured_at_utc": "2026-10-21T13:25:43.479596+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 2244875,
+      "bytes_observed_at_export_request": 2244875,
+      "sha256": "d9685aa3db19bea026c37663de73433d1f2841934edfc935bb9e677b3f826de0",
+      "file_modified_at_utc": "2026-10-21T13:25:43.479597+00:00",
+      "file_verified_at_utc": "2026-10-21T13:31:20.467085+00:00"
+    },
+    {
+      "name": "platform",
+      "position": [
+        1380,
+        -1080,
+        292
+      ],
+      "target": [
+        -1100,
+        -970,
+        310
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        0.41544071819700934,
+        177.46031954965932,
+        -9.967401030306743e-09
+      ],
+      "captured_at_utc": "2026-10-21T13:25:55.794224+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 2244875,
+      "bytes_observed_at_export_request": 2244875,
+      "sha256": "e0f190690e5381898af176804d3847ad08ce70be3e26cc091423e598a334b6ed",
+      "file_modified_at_utc": "2026-10-21T13:25:55.794225+00:00",
+      "file_verified_at_utc": "2026-10-21T13:31:20.467085+00:00"
+    },
+    {
+      "name": "tracks",
+      "position": [
+        2000,
+        -920,
+        192
+      ],
+      "target": [
+        3250,
+        -900,
+        350
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        7.2030704719240015,
+        0.9166542563852877,
+        -8.903362998022658e-10
+      ],
+      "captured_at_utc": "2026-10-21T13:26:08.038697+00:00",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 3090912,
+      "bytes_observed_at_export_request": 3090912,
+      "sha256": "60ed93220bf95cacdf5e24328c265ec7e2d2fee73e339b9eb0dafd4012796ba5",
+      "file_modified_at_utc": "2026-10-21T13:26:08.038698+00:00",
+      "file_verified_at_utc": "2026-10-21T13:31:20.467085+00:00"
+    }
+  ],
+  "actual_console_values": {
+    "sg.ViewDistanceQuality": 2,
+    "sg.AntiAliasingQuality": 2,
+    "sg.ShadowQuality": 2,
+    "sg.GlobalIlluminationQuality": 2,
+    "sg.ReflectionQuality": 2,
+    "sg.PostProcessQuality": 2,
+    "sg.TextureQuality": 2,
+    "sg.EffectsQuality": 2,
+    "sg.FoliageQuality": 2,
+    "sg.ShadingQuality": 2,
+    "r.ScreenPercentage": 100
+  },
+  "render_target_format": "RTF_RGBA8_SRGB (native sRGB output, no image post-processing)",
+  "elapsed_seconds": 72.24655795097351,
+  "file_metadata_note": "Final byte sizes, hashes and modification timestamps verified after UE exit; captured_at_utc records the render export request. Immediate export-request sizes can describe a previous asynchronously replaced PNG."
+}

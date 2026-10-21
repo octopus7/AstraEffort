@@ -1,0 +1,48 @@
+{
+  "started_at_utc": "2026-10-21T13:23:41.016604+00:00",
+  "utc": "2026-10-21T13:23:44.028046+00:00",
+  "pie_world_count": 1,
+  "worlds": [
+    {
+      "world": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra",
+      "utc": "2026-10-21T13:23:44.028046+00:00",
+      "passed": false,
+      "player_controller": "/Script/Engine.PlayerController",
+      "player_pawn": "/Script/Engine.DefaultPawn",
+      "possessed": true,
+      "player_start_cm": [
+        -2950.0,
+        488.46,
+        155.0
+      ],
+      "native_logger_count": 1,
+      "native_logger_class": "/Script/ForestDemo.ScreenDebugLogger",
+      "ramp_movement": [
+        {
+          "target_cm": [
+            -2950.0,
+            488.46153846153845,
+            109.30769348144531
+          ],
+          "actual_cm": [
+            -2950.0,
+            488.46,
+            155.0
+          ],
+          "ground_hit_cm": [
+            -2950.0,
+            488.4615478515625,
+            44.30769348144531
+          ],
+          "ground_actor": "StaticMeshActor_9",
+          "error_cm": 45.692306544454716,
+          "sweep_result": "None"
+        }
+      ],
+      "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/runtime_checks.py\", line 24, in runtime_checks\n    assert distance<3,'Ramp movement sweep was blocked unexpectedly'\n           ^^^^^^^^^^\nAssertionError: Ramp movement sweep was blocked unexpectedly\n"
+    }
+  ],
+  "hello_evidence": "Additional runtime_hello.png requested from live PIE viewport while baseline 10-second Hello is active. Inspect pixels; SceneCapture comparison views exclude debug text.",
+  "normal_shutdown": true,
+  "finished_at_utc": "2026-10-21T13:23:53.010851+00:00"
+}

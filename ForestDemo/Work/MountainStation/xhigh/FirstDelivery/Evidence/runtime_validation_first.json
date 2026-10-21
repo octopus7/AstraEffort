@@ -1,0 +1,163 @@
+{
+  "supervisor_supplement_started_at_utc": "2026-10-21T12:46:44Z",
+  "pie_requested_at_utc": "2026-10-21T13:09:23.438485+00:00",
+  "checks": {
+    "actual_pie_world": true,
+    "controller_exists": true,
+    "pawn_exists": true,
+    "controller_possesses_pawn": true,
+    "spawn_at_player_start": true,
+    "native_hello_in_game_world": true,
+    "short_move_100cm": true,
+    "runtime_floor_heights": true,
+    "runtime_pawn_sweeps_blocked": true,
+    "normal_pie_end": true
+  },
+  "errors": [],
+  "limitations": [
+    "DefaultPawn uses floating movement. These are real collision sweeps, not a new character controller or railway simulation."
+  ],
+  "spawn_setting_note": "module 'unreal' has no attribute 'LevelEditorPlaySettings'",
+  "game_world": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh",
+  "pie_started_at_utc": "2026-10-21T13:09:23.502485+00:00",
+  "hello_viewport_screenshot_requested_at_utc": "2026-10-21T13:09:25.027565+00:00",
+  "controller": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.PlayerController_0",
+  "pawn": "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.DefaultPawn_0",
+  "pawn_class": "/Script/Engine.DefaultPawn",
+  "initial_location_cm": [
+    -3800.0,
+    -300.0,
+    135.0
+  ],
+  "player_start_locations_cm": [
+    [
+      -3800.0,
+      -300.0,
+      135.0
+    ]
+  ],
+  "native_hello_actors": [
+    "/Game/Maps/UEDPIE_0_MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.ScreenDebugLogger_0"
+  ],
+  "hello_source_sha256": "9c460b896ceb3719d8cd6fff65ddf586e7fbf05629e7b1d3d7630df9a64a5ad0",
+  "hello_implementation": "Unmodified baseline native BeginPlay adds green Hello for 10 seconds. Separate runtime_hello.png is requested during that interval; visual verification recorded separately.",
+  "short_move": {
+    "from": [
+      -3800.0,
+      -300.0,
+      135.0
+    ],
+    "target": [
+      -3700.0,
+      -300.0,
+      135.0
+    ],
+    "reached": [
+      -3700.0,
+      -300.0,
+      135.0
+    ],
+    "sweep": {
+      "blocking": false,
+      "initial_overlap": false,
+      "location_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actor": null
+    }
+  },
+  "floor_traces": [
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3800.0,
+        -300.0,
+        28.000009059906006
+      ],
+      "actor": "StaticMeshActor_2",
+      "name": "approach",
+      "height_correct": true
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3200.0,
+        -600.0,
+        73.50001931190491
+      ],
+      "actor": "StaticMeshActor_3",
+      "name": "ramp_middle",
+      "height_correct": true
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -2200.0,
+        -1100.0,
+        121.999990940094
+      ],
+      "actor": "StaticMeshActor_3",
+      "name": "platform",
+      "height_correct": true
+    }
+  ],
+  "blocking_pawn_sweeps": [
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3800.0,
+        -300.0,
+        65.56373834609985
+      ],
+      "actor": "StaticMeshActor_2",
+      "name": "approach",
+      "pawn_stopped_at_cm": [
+        -3800.0,
+        -300.0,
+        67.16372966766357
+      ]
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -3200.0,
+        -600.0,
+        108.75635147094727
+      ],
+      "actor": "StaticMeshActor_3",
+      "name": "ramp_middle",
+      "pawn_stopped_at_cm": [
+        -3200.0,
+        -600.0,
+        110.35634279251099
+      ]
+    },
+    {
+      "blocking": true,
+      "initial_overlap": false,
+      "location_cm": [
+        -2200.0,
+        -1100.0,
+        216.85665249824524
+      ],
+      "actor": "StaticMeshActor_4",
+      "name": "platform",
+      "pawn_stopped_at_cm": [
+        -2200.0,
+        -1100.0,
+        218.45664381980896
+      ]
+    }
+  ],
+  "checks_completed_at_utc": "2026-10-21T13:09:34.395722+00:00",
+  "finished_at_utc": "2026-10-21T13:09:34.434722+00:00",
+  "pie_execution_seconds": 10.99623703956604,
+  "success": true
+}

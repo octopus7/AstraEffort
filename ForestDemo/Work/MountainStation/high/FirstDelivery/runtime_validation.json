@@ -1,0 +1,187 @@
+{
+  "supplement_requested_at_utc": "2026-10-21T12:46:15Z",
+  "started_at_utc": "2026-10-21T13:07:55.850091+00:00",
+  "map": "/Game/Maps/MountainStation_high",
+  "checks": {
+    "pie_world": true,
+    "player_controller_created": true,
+    "pawn_created": true,
+    "pawn_possessed": true,
+    "spawn_at_arrival": true,
+    "native_logger_in_pie": true,
+    "arrival_ground_runtime_blocking_sweep": true,
+    "access_ramp_runtime_blocking_sweep": true,
+    "platform_runtime_blocking_sweep": true,
+    "short_platform_movement": true,
+    "pie_ended_normally": true
+  },
+  "observations": {
+    "spawn_location_cm": [
+      -600.0,
+      -3300.0,
+      120.0
+    ],
+    "pawn_class": "DefaultPawn",
+    "set_actor_location_doc": "x.set_actor_location(new_location, sweep, teleport) -> HitResult or None\r\nMove the Actor to the specified location.\r\n\r\nArgs:\r\n    new_location (Vector): The new location to move the Actor to.\r\n    sweep (bool): Whether we sweep to the destination location, triggering overlaps along the way and stopping short of the target if blocked by something. Only the root component is swept and checked for blocking collision, child components move without sweeping. If collision is off, this has no effect.\r\n    teleport (bool): Whether we teleport the physics state (if physics collision is enabled for this object). If true, physics velocity for this object is unchanged (so ragdoll parts are not affected by change in location). If false, physics velocity is updated based on the change in position (affecting ragdoll parts). If CCD is on and not teleporting, this will affect objects along the entire swept volume. Note that when teleporting, any child/attached components will be teleported too, maintaining their current offset even if they are being simulated. Setting the location without teleporting will not update the location of simulated child/attached components.\r\n\r\nReturns:\r\n    HitResult or None: Whether the location was successfully set (if not swept), or whether movement occurred at all (if swept).\r\n\r\n    sweep_hit_result (HitResult): The hit result from the move if swept.",
+    "root_mobility": "<ComponentMobility.MOVABLE: 2>",
+    "runtime_mesh_collision": [
+      {
+        "label": "Terrain",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Railway",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Platform",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Station",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Canopy",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Signs",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Tunnel",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "GroundPaths",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Cargo",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Furniture",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Vegetation",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "profile": "BlockAll"
+      },
+      {
+        "label": "Quiet blue backdrop",
+        "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+        "profile": "NoCollision"
+      },
+      {
+        "label": "PresentationGround",
+        "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+        "profile": "NoCollision"
+      }
+    ],
+    "line_trace_doc": "X.line_trace_single(world_context_object, start, end, trace_channel, trace_complex, actors_to_ignore, draw_debug_type, ignore_self=True, trace_color=[1.000000, 0.000000, 0.000000, 1.000000], trace_hit_color=[0.000000, 1.000000, 0.000000, 1.000000], draw_time=5.000000) -> HitResult or None\r\nDoes a collision trace along the given line and returns the first blocking hit encountered.\nThis trace finds the objects that RESPONDS to the given TraceChannel\r\n\r\nArgs:\r\n    world_context_object (Object): \r\n    start (Vector): Start of line segment.\r\n    end (Vector): End of line segment.\r\n    trace_channel (TraceTypeQuery): \r\n    trace_complex (bool): True to test against complex collision, false to test against simplified collision.\r\n    actors_to_ignore (Array[Actor]): \r\n    draw_debug_type (DrawDebugTrace): \r\n    ignore_self (bool): \r\n    trace_color (LinearColor): \r\n    trace_hit_color (LinearColor): \r\n    draw_time (float): \r\n\r\nReturns:\r\n    HitResult or None: True if there was a hit, false otherwise.\r\n\r\n    out_hit (HitResult): Properties of the trace hit.",
+    "logger_runtime_path": [
+      "/Game/Maps/UEDPIE_0_MountainStation_high.MountainStation_high:PersistentLevel.ScreenDebugLogger_0"
+    ],
+    "hello_beginplay_evidence": "PIE started with the unchanged native ScreenDebugLogger actor. Baseline 7558c8f BeginPlay calls AddOnScreenDebugMessage(..., TEXT(\"Hello\")). No replacement implementation or manual BeginPlay call.",
+    "collision_sweeps": [
+      {
+        "site": "arrival_ground",
+        "start_cm": [
+          -600,
+          -3300,
+          180
+        ],
+        "requested_end_cm": [
+          -600,
+          -3300,
+          -150
+        ],
+        "actual_end_cm": [
+          -600.0,
+          -3300.0,
+          39.83000189065933
+        ],
+        "sweep_result": "<Struct 'HitResult' (0x0000019578409600) {}>",
+        "line_trace": "<Struct 'HitResult' (0x000001957840A780) {}>",
+        "blocking_trace_hit": true,
+        "blocked": true
+      },
+      {
+        "site": "access_ramp",
+        "start_cm": [
+          1550,
+          -800,
+          220.38
+        ],
+        "requested_end_cm": [
+          1550,
+          -800,
+          -109.62
+        ],
+        "actual_end_cm": [
+          1550.0,
+          -800.0,
+          76.82858300685882
+        ],
+        "sweep_result": "<Struct 'HitResult' (0x000001957835FB40) {}>",
+        "line_trace": "<Struct 'HitResult' (0x000001957835FA00) {}>",
+        "blocking_trace_hit": true,
+        "blocked": true
+      },
+      {
+        "site": "platform",
+        "start_cm": [
+          1000,
+          180,
+          285
+        ],
+        "requested_end_cm": [
+          1000,
+          180,
+          -45
+        ],
+        "actual_end_cm": [
+          1000.0,
+          180.0,
+          143.58000308275223
+        ],
+        "sweep_result": "<Struct 'HitResult' (0x000001957835F640) {}>",
+        "line_trace": "<Struct 'HitResult' (0x000001957835F500) {}>",
+        "blocking_trace_hit": true,
+        "blocked": true
+      }
+    ],
+    "short_move": {
+      "from": [
+        1000.0,
+        180.0,
+        160.0
+      ],
+      "to": [
+        700.0,
+        180.0,
+        160.0
+      ],
+      "sweep": true
+    }
+  },
+  "limitations": [
+    "On-screen Hello text is not captured in clean scene evidence; native BeginPlay execution is supported by PIE startup and unchanged class/source, not by a separately exposed counter."
+  ],
+  "finished_at_utc": "2026-10-21T13:07:57.466598+00:00",
+  "elapsed_seconds": 1.6165075302124023,
+  "passed": true
+}

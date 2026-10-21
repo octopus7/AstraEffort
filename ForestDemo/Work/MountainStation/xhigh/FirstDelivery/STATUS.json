@@ -1,0 +1,52 @@
+{
+  "theme": "MountainStation",
+  "effort": "xhigh",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-21T12:27:24Z",
+  "started_at_kst": "2026-10-21T21:27:24+09:00",
+  "finished_at_utc": "2026-10-21T13:31:46.334766+00:00",
+  "elapsed_seconds": 3862.334766,
+  "map": "/Game/Maps/MountainStation_xhigh",
+  "validation": {
+    "editor": {
+      "player_start": true,
+      "native_hello_actor": true,
+      "dynamic_lighting": true,
+      "site_100m": true,
+      "recursive_dependencies_owned_only": true,
+      "no_external_or_builtdata": true,
+      "floor_samples_blocking": true,
+      "floor_samples_heights": true,
+      "required_assemblies": true
+    },
+    "runtime": {
+      "actual_pie_world": true,
+      "controller_exists": true,
+      "pawn_exists": true,
+      "controller_possesses_pawn": true,
+      "spawn_at_player_start": true,
+      "native_hello_in_game_world": true,
+      "short_move_100cm": true,
+      "runtime_floor_heights": true,
+      "runtime_pawn_sweeps_blocked": true,
+      "normal_pie_end": true
+    },
+    "native_hello_visible": true,
+    "screenshots": "4 actual UE 1920x1080 native sRGB PNGs visually inspected",
+    "published_files": 37,
+    "hash_match": true
+  },
+  "blockers": [],
+  "updated_at_utc": "2026-10-21T13:31:46.334766+00:00",
+  "supervisor_supplement_started_at_utc": "2026-10-21T12:46:44Z",
+  "finished_at_kst": "2026-10-21T22:31:46.334766+09:00",
+  "first_ready_at_utc": "2026-10-21T13:31:46.334766+00:00",
+  "known_limitations": [
+    "PIE displays equal-priority directional light warning; engine selects brighter light as fallback.",
+    "DefaultPawn flying movement; no bespoke walking controller.",
+    "Static exterior; tunnel rear closed; no performance benchmark."
+  ],
+  "mutex_wait_seconds": 1551.5888974000002,
+  "ue_execution_seconds": 457.1660978,
+  "supervisor_supplement_finished_at_utc": "2026-10-21T13:31:46.334766+00:00"
+}

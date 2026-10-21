@@ -1,9 +1,10 @@
 # ForestDemo 작업 결과 비교 · 수행 시간 · 스크린샷
 
 최종 결과를 모으는 단일 보고서입니다. Forest 4개와 MountainStation 4개를
-테마별로 비교합니다. Forest 네 최초 결과와 MountainStation medium·high·xhigh를 검증 후 개별 커밋했습니다.
-나머지 기차역 결과를 검토 중이며, Forest 최초 기록을 보존하고 UV·이미지 생성 텍스처·해변
-보강 패스를 같은 네 대화에 지시합니다. MountainStation도 네 최초 납품 완료 후 같은 네 대화에서 UV·텍스처 보강을 수행합니다. 초기 결과와 보강 결과를 구분하여 비교합니다.
+테마별로 비교합니다. 여덟 최초 결과와 Forest 네 UV·텍스처·해변 보강 결과를 검증 후
+각각 개별 커밋했습니다. MountainStation 최초 기록을 보존하고 14:46 UTC에 기존 네 대화에
+UV·이미지 생성 텍스처 보강을 지시했습니다. 기차역 보강과 최종 8맵 통합이 남아 있습니다.
+초기 결과와 보강 결과를 구분하여 비교합니다.
 
 Supervisor setup started: 2026-10-21 21:09:14 KST (12:09:14 UTC).
 Baseline: `7558c8f`. Each theme uses four user-owned local chats and the configured
@@ -371,7 +372,7 @@ medium 4846.402초, high 3012.461초, xhigh 4276.500초, ultra 3054.237초는 �
 | medium | 01a15e6d-dfb3-7341-acd9-f1785bab245e | 2026-10-21 21:26:57 | 2026-10-21 21:27:10 | 보완 완료 22:27:54.389 | 전체 3644.389초 | 최초 납품 커밋 완료 | 101cec4 |
 | high | 01a15e6d-f1ff-76c1-941c-93b1378d7351 | 2026-10-21 21:27:03 | 2026-10-21 21:27:18 | 22:08:46.116 | 2488.116초 | 최초 납품 커밋 완료 | 30571a3 |
 | xhigh | 01a15e6e-0712-76f0-9586-f65cc202196c | 2026-10-21 21:27:08 | 2026-10-21 21:27:24 | 22:31:46.335 | 3862.335초 | 최초 납품 커밋 완료 | 0091a21 |
-| ultra | 01a15e6e-1907-7ff1-b13c-5a4a31875490 | 2026-10-21 21:27:13 | 2026-10-21 21:27:25 | 최초 제출22:44:03.775 | 최초4598.775초 | 플랫폼 Pawn 차단 보완 | pending |
+| ultra | 01a15e6e-1907-7ff1-b13c-5a4a31875490 | 2026-10-21 21:27:13 | 2026-10-21 21:27:25 | 보완 완료23:37:37.823 | 전체7812.823초 | 최초 납품 커밋 완료 | d8ee129 |
 
 각 작업은 실제 시작/종료 UTC·KST, 전체 wall time, UE 실행 대기, 실행/검증 시간을
 기록합니다. 추가 감독 수정과 캡처 시간을 구분하고 작업 시작 시각을 재설정하지 않습니다.
@@ -391,21 +392,22 @@ UI 없는 실제 UE 렌더를 사용합니다. 각 Work 경로의 Screenshots에
 
 capture_manifest.json에 실제 카메라/렌더 설정과 촬영 시각을 기록합니다.
 감독자는 네 작업의 같은 구도끼리 비교 배치하고 직접 이미지를 확인합니다.
-medium·high·xhigh 실제 캡처와 검증은 완료했고 ultra 실제 캡처도 확인했습니다. ultra 충돌 보완 이후 네 최초 결과의 고정 사본을 같은 시점끼리 비교 배치합니다.
+네 작업의 실제 캡처와 검증을 마쳤습니다. 최초 결과는 FirstDelivery의 고정 사본이며,
+아래의 작업별 검토와 같은 시점별 비교 표에 삽입했습니다.
 
 ## MountainStation — 결과 비교와 분석
 
-| 비교 항목 | medium | high | xhigh | ultra (승인 보완 중) |
+| 비교 항목 | medium | high | xhigh | ultra |
 |---|---|---|---|---|
-| 100×100m 및 테마 요구 | 지형·역·승강장·철길·터널·화물·길 확인 | 동일 필수 구성 확인 | 동일 필수 구성 확인 | 시각/정적 구성 확인, 충돌 보완 중 |
+| 100×100m 및 테마 요구 | 지형·역·승강장·철길·터널·화물·길 확인 | 동일 필수 구성 확인 | 동일 필수 구성 확인 | 필수 구성·100m 지형 확인 |
 | 산악 지형과 역 비례 | 큰 다각 바위 줄·단층 역 | 완만한 언덕·중앙 역 | 숲 언덕·작은 역, 원경 대비 낮음 | 녹지 언덕과 둥근 바위·청록 역/주황 지붕 |
 | 선로·승강장·터널 연결 | 연속 레일/침목, 짧은 터널 뒤 출구 보임 | 연속 구간, 터널이 독립 바위 덩어리 | 곡선 승강장/철길·아치, 막힌 터널 | 큰 곡선 철길·터널 입구, 내부와 지형 겹침/깊은 그늘 |
-| 접근·플레이·충돌 | 실제200cm 이동·ground/ramp/platform 차단 | 실제300cm sweep·floor 차단 | 실제100cm 이동·3영역 Pawn 차단 | 8램프 이동 확인; platform hit/terrain section 검증 미완 |
+| 접근·플레이·충돌 | 실제200cm 이동·ground/ramp/platform 차단 | 실제300cm sweep·floor 차단 | 실제100cm 이동·3영역 Pawn 차단 | 8램프 이동·플랫폼 상면/옆면·지형의 실제 Pawn 차단 |
 | 프랍 다양성·완성도 | 벤치·화물·등·울타리, 차양 어두움 | 포장·짐·조명·벤치·프레임 | 시계·표지·통·짐·화분·전나무 | 외벽 판재·번호판·짐·화분·시계·손수레 |
 | 둥근 형태·차분한 색 | 청록/크림, 산은 거친 다각 | 차분한 청록/크림 | 밝은 파스텔, 단순 전나무 | 청록/주황·둥근 프랍, 깊은 그늘 |
 | 의존성 격리 | 22패키지, 소유 참조만 | 36패키지, 소유 참조만 | 37패키지, 소유 참조만 | 76패키지, 소유 참조만 |
 | 재현·수정 구조 | 결합1메시/20재질, Blender개별 원본 | 의미별11어셈블리 | 의미별9메시/27재질 | 47메시/28재질, 일부 정제 스크립트 비멱등 |
-| 시간과 한계 | 3644.389초, 충돌 보완 포함 | 2488.116초, 산악 밀도 낮음 | 3862.335초, 방향광 경고 | 최초4598.775초, 충돌 추가 보완 중 |
+| 시간과 한계 | 3644.389초, 충돌 보완 포함 | 2488.116초, 산악 밀도 낮음 | 3862.335초, 방향광 경고 | 최초4598.775초, 보완 후7812.823초; Forest 우선 대기 포함 |
 
 작업별 강점과 미흡한 점을 실제 화면·검증 결과로 분석합니다. 임의 점수나 성능 추정은
 사용하지 않고, 단일 제작 사례를 추론 강도의 인과 효과로 단정하지 않습니다.
@@ -440,9 +442,9 @@ Hello는 PIE의 native logger와 baseline 코드의 간접 근거이며 별도 �
 
 | 조감 | 수직 조감 |
 |---|---|
-| ![MountainStation high overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/Screenshots/overview.png) | ![MountainStation high top down](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/Screenshots/top_down.png) |
+| ![MountainStation high overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/overview.png) | ![MountainStation high top down](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/top_down.png) |
 | 승강장 근접 | 철길·터널 근접 |
-| ![MountainStation high platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/Screenshots/platform.png) | ![MountainStation high tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/Screenshots/tracks.png) |
+| ![MountainStation high platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/platform.png) | ![MountainStation high tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/tracks.png) |
 
 네 장은 실제 UE 1920×1080 High/SP100이며 공통 조감·탑뷰와 근접 FOV70°입니다.
 근접 시점은 작업마다 다릅니다. Blender 원본과 11개 분리 어셈블리의 재생성 자료를
@@ -531,9 +533,9 @@ PIE 13:21:37.020398–13:21:50.442500 UTC(13.422초)를 별도로 기록합니�
 
 | 조감 | 수직 조감 |
 |---|---|
-| ![Station medium overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/Screenshots/overview.png) | ![Station medium top](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/Screenshots/top_down.png) |
+| ![Station medium overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/overview.png) | ![Station medium top](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/top_down.png) |
 | 승강장 근접 | 철길 근접 |
-| ![Station medium platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/Screenshots/platform.png) | ![Station medium tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/Screenshots/tracks.png) |
+| ![Station medium platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/platform.png) | ![Station medium tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/tracks.png) |
 
 실제 UE 1920×1080 High/SP100, 조감·탑뷰 Z0=0, 근접 FOV70°이며 근접 위치는 서로 다릅니다.
 100m 지형의 양쪽으로 레일이 약 52cm씩 이어집니다. UE에서는 메시 하나와 재질 20개로
@@ -586,9 +588,9 @@ UE 실행 457.166098초는 8회 실패·수정·캡처를 포함합니다.
 
 | 조감 | 수직 조감 |
 |---|---|
-| ![Station xhigh overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/Screenshots/overview.png) | ![Station xhigh top](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/Screenshots/top_down.png) |
+| ![Station xhigh overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/overview.png) | ![Station xhigh top](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/top_down.png) |
 | 승강장 근접 | 철길 근접 |
-| ![Station xhigh platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/Screenshots/platform.png) | ![Station xhigh tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/Screenshots/tracks.png) |
+| ![Station xhigh platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/platform.png) | ![Station xhigh tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/tracks.png) |
 
 1920×1080 High/SP100, native sRGB 실제 UE 렌더이며 공통 Z0=22cm, 근접 FOV70°입니다.
 근접 위치는 다른 작업과 다릅니다. 지형은 10000.00098cm이고 레일 끝은 약 0.64–0.91m
@@ -597,7 +599,7 @@ UE 실행 457.166098초는 8회 실패·수정·캡처를 포함합니다.
 최초 커밋 0091a212fddbc3dca645817ca7f74545d2d0b6b6,
 2026-10-21 13:46:25 UTC / 22:46:25+09:00 KST.
 
-## MountainStation — ultra 최초 제출의 시각·기술 검토 (승인 보완 중)
+## MountainStation — ultra 최초 제출과 보완 승인
 
 최초 시작 2026-10-21 12:27:25 UTC / 21:27:25+09:00 KST, 제출
 13:44:03.774679 UTC / 22:44:03.774679+09:00 KST, wall4598.774679초,
@@ -614,69 +616,498 @@ UE 등록 보류 구간은 대기열 입장 전이므로 mutex 대기에 포함�
 녹지와 성긴 전나무·둥근 바위가 많으며 밀집된 산간 마을보다는 작은 디오라마에 가깝습니다.
 터널 근접에서 아치 돌·레일·침목은 보이지만 내부가 매우 어둡고 지형/안감이 겹치는
 형태와 울퉁불퉁한 경계가 보입니다. 차양 아래의 깊은 그늘, 일부 길 이음부가 개선 항목입니다.
-이는 최초 시각 평가이며 실제 플랫폼/일부 지형 면의 충돌 승인 보완은 아직 남아 있습니다.
+이는 최초 시각 평가이며, 당시 남았던 충돌 보완은 아래 후속 기록에서 해결됐습니다.
 
 | 조감 | 수직 조감 |
 |---|---|
-| ![Station ultra overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/Screenshots/overview.png) | ![Station ultra top](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/Screenshots/top_down.png) |
+| ![Station ultra overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/overview.png) | ![Station ultra top](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/top_down.png) |
 | 승강장 근접 | 철길 근접 |
-| ![Station ultra platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/Screenshots/platform.png) | ![Station ultra tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/Screenshots/tracks.png) |
+| ![Station ultra platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/platform.png) | ![Station ultra tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/tracks.png) |
 
 76개 패키지의 공유/private/manifest 해시, 재귀 소유 참조와 47메시의84재질 슬롯은
 정합합니다. 100m 지형·non-WP/no external 조건도 확인했습니다. PNG4장은1920×1080,
 공통 Z0=0 조감·탑뷰/High/SP100, 근접 지면+170cm/FOV70°입니다. 근접 위치는 서로 다릅니다.
 native Hello는 원본 C++ 해시와 transient ReceiveBeginPlay 호출 로그의 실행 근거이며,
 Hello 픽셀을 확인한 증거는 아닙니다. 전체 보행·실내·열차·패키징·성능은 미검증입니다.
-추가 충돌 보완 전에는 첫 커밋이나 기차역 UV 패스 시작을 승인하지 않습니다.
+충돌 보완은 13:52:25.1127606–14:37:37.823151 UTC /
+22:52:25.1127606–23:37:37.823151+09:00 KST의 2712.710391초입니다.
+실패 시도 포함 대기1889.312337초·실행162.297712초이며, 이 중 한 실행의
+Forest 우선 대기가1820.985939초였습니다. 실제 Pawn의 비겹침 시작과 양의 이동 뒤
+platform 상면611.239877cm, terrain363.489389cm, platform coping 옆면163.422811cm에서
+차단됐고 실제 hit actor/component/mesh와 같은 프로파일 sphere trace가 일치했습니다.
+최종 로그 정상 종료·exit0, Error/Fatal/ensure 없음과 실제 LOD0 지형 충돌1section을 확인했습니다.
+원래76패키지와4PNG 해시는 변경되지 않아 초기 렌더가 그대로 최종 최초 납품 증거입니다.
+
+원래 시작부터 보완 완료까지7812.823151초, dispatch부터7824.823151초이며 최초 제출
+4598.774679초를 덮어쓰지 않았습니다. 알려진 누적 대기3193.914771초·실행734.676221초입니다.
+첫 커밋 `d8ee129160ce74fea83c0cbd03af108ae0798240`, 2026-10-21 14:43:03UTC /
+23:43:03+09:00KST, 소유230파일입니다. 첫 커밋 기준 부모23,087,845·부모+후손24,025,036토큰을
+고정했습니다. 14:46UTC 이후 텍스처 패스의 증분과 별도로 보존합니다.
+
+### 2026-10-21 13:58 UTC 감독 확인
+
+Forest medium은 컴팩션 뒤 폐기된 초기 /Game/medium 지침을 다시 적용하려 하며
+13:46:36 UTC에 중간 종료했습니다. 디스크의 root/자기 AGENTS는 이미 /Game/Forest/medium으로
+일치했습니다. 감독자가 확정 경로를 다시 명시해 13:59:31 UTC에 재개했고, 관측된
+종료→재개 간격775초는 두 번째 패스 wall에 포함됩니다. 최초 두 번째 시작13:42:41 UTC는
+유지합니다. 다른 세 숲은 독립 이미지 생성·UV 측정/보정·UE 적용을 진행 중입니다.
+
+기차역 ultra의 새 프로세스 검사에서는 실제 Terrain LOD0가 section1개/triangle20000개이고
+모두 slot0·collision enabled임을 확인했습니다. slot1의 실제 면은0개여서 과거 두 material
+슬롯을 두 section으로 해석한 기록과 구분합니다. 최종 승인에는 비겹침 시작에서 실제 Pawn
+이동 후 플랫폼/지형에 차단되는 보완 결과가 여전히 필요합니다. 현재 후보 위치가 레일과
+겹쳐 검사가 올바르게 실패했고 제작 대화가 위치를 수정 중입니다.
+새 최초 납품 승인은 없으며 기차역 두 번째 패스는 네 첫 커밋 완료 조건을 유지합니다.
+
+14:01 UTC까지의 읽기 전용 보조 검토에서 Forest high의 이미지 원본 1장, xhigh 5장,
+ultra 4장과 각자의 프롬프트·생성 출처·UV 기록을 확인했습니다. 모두 자기 경로에 있으며
+작업 파일이 계속 갱신되고 있습니다. high의 재질 연결 오류와 ultra의 재질 생성자 오류는
+중간 빌드 실패 기록이며 후속 수정 중입니다. 이 원본·UV 기록의 존재를 최종 UE 적용이나
+검증 완료로 간주하지 않습니다. 현재 사용자 개입이 필요한 차단은 확인되지 않았습니다.
+### 2026-10-21 14:06 UTC 감독 확인
+
+숲 네 대화는 UV·텍스처의 private UE 적용 또는 새 프로세스 검증·동일 카메라 캡처를
+진행 중입니다. 새 최초/두 번째 납품 승인은 없습니다. 기차역 ultra는 보완 실행 대기 중이며,
+공유 대기열에서 Forest priority 0, MountainStation priority 1이 유지되고 있습니다.
+
+Forest ultra의 두 번째 패스 시작은13:43:06 UTC인데 중간 STATUS 경과값33547.1859352초는
+관측 시각과 맞지 않습니다. 감독자가 UTC/KST 파싱과 경과 계산 정정을 요청했습니다.
+해당 값은 시간 비교에서 제외하고 원래 시작 시각을 유지합니다. 최종 완료 때 실제 종료
+시각에서 다시 계산한 값과 정정 근거를 검토합니다. 이번 토큰 집계는 모델·effort와
+부모/후손 기록에 보고된 issues가 없으며 진행 중 잠정치입니다.
+
+읽기 전용 재현에서 기본 JSON 날짜 변환 후 DateTimeOffset.Parse에 암시적으로 넘기면
+13:43:06Z가04:43:06Z로 해석되어 정확히32400초 차이가 발생했습니다. STATUS 작성 명령
+자체는 저장된 스크립트에서 찾지 못했으므로 이 재현과 원본 명령 확인을 구분합니다.
+xhigh의22:45:50+09:00은13:45:50Z와 같은 시점이며 UTC 필드 표기 정규화를 요청했습니다.
+medium 검증 스크립트에 복사된 첫 납품 보완 시각12:46:14Z도 이번 패스 시간 집계에서
+분리하도록 지시했습니다. 세 작업 모두 최초 시작 시각을 변경하지 않습니다.
+
+### 2026-10-21 14:10 UTC 감독 확인 — 두 번째 패스 예비 검토
+
+Forest ultra의 시간 정정 기록을 확인했습니다. 원래13:43:06 UTC를 유지하며
+14:08:40.4371724 UTC의 경과는1534.4371724초입니다. 이는 중간 관측값으로 완료 시간이
+아닙니다. medium 런타임 스크립트에서도 이전 납품 시각이 제거되고 이번 패스 시작과
+실제 검증 실행 시작이 구분됐습니다. xhigh는 UTC 표기 정규화와 수면 표현 조정을 진행 중입니다.
+
+감독자가 ultra의14:10 UTC 실제 UE 조감·호수·해변 원본과 최초 호수 원본을 비교했습니다.
+생성 텍스처와 수중 밝은 무늬는 보이지만, 나무/바위에 삼각형 단위 명암 단절이 두드러지고
+해변 흰 거품은 사각 대시·떠 있는 리본/그림자처럼 읽힙니다. 넓은 회백색 수면과 강한
+집광 선의 균형도 기존 차분한 색감에 비해 약점입니다. UV 이음/노멀, 포말의 수면 접합과
+마스크, 물 색과 집광 강도를 자기 자료 안에서 보완하도록 지시했습니다. 해당 예비 이미지
+해시는 coordination.json에 남겼고, 최종 비교 이미지와 승인에는 보완 후 렌더를 사용합니다.
+UV 밀도·독립 생성 텍스처·원래 시작 시각은 유지해야 합니다. 현재 두 번째 납품 승인은 없습니다.
+
+xhigh 예비 기록에는 배치 스케일/저장 CPD를 반영한889소품 면적 RMS 밀도
+127.999993–128.000007px/m,28종 소스의 겹침0·최소 간격15.509px,독립 생성 원본5장과
+저장 재질 연결,56개 재귀 패키지의 소유 경로 일치 근거가 있습니다. 다만 UE 왕복 검사는
+4종 표본이며 SM_Pine_0에 원본과 다른 퇴화 삼각형3개가 기록돼 원인·영향과 예외 여부를
+확인하도록 지시했습니다. 면적 RMS를 모든 삼각형의 동일 밀도로 해석하지 않습니다.
+수면 수정 전14:06–14:08 UTC의 증거는 최종 수정본 재검증을 대신하지 않으며, 런타임
+차단 대상·이동 근거 보강과 handled ensure 한계 기록도 요청했습니다.
+
+기차역 ultra는 Forest 우선권에 따라 보완 UE 실행을 기다리고 있습니다. 다른 기차역
+세 결과는 첫 커밋 상태를 유지하며 네 결과가 모두 검증·커밋된 뒤 함께 UV 패스를 시작합니다.
+
+### 2026-10-21 14:14 UTC 감독 확인
+
+네 숲의 후속 제작은 계속 진행 중입니다. medium은 메시 재질 이름 접미사 처리,
+high는 파도보다 위로 나온 집광 무늬용 해저 표면의 높이, xhigh는 수면/UV 검증 보완,
+ultra는 감독이 확인한 표면·포말·물 색 보완을 진행 중입니다. high의14:12 UTC 조감과
+해변 원본을 감독자가 직접 읽었고, 넓고 밝은 집광 무늬 표면과 수면이 분리되어 보이는
+현상을 확인했습니다. 제작자가 이미 해당 깊이를 수정하고 있어 보완 후 화면을 기다립니다.
+기차역 ultra는 우선권 대기 중이며 새 최초/두 번째 납품 승인은 없습니다.
+
+high 예비 감사에서17종·228변형·742배치의 소스 UV, 독립 생성 원본1장/표면 영역4개,
+23재질 매핑을 확인했습니다. 소스 차트 평균 밀도15.6924–16.3168px/m, 차트 사이4px와
+외곽2px 여백, 곡면 편차·지형/물 예외는 구분해서 기록합니다. 저장 UE의 UV 채널/재질
+연결 근거는 있으나 준비된3종 왕복 표본 검사는 소스 면적을 분모로 사용하므로, 실제
+수출 면적·단위·배치 스케일의 독립 측정으로 보강하도록 지시했습니다. 최종 non-WP·
+redirector·external/BuiltData 검증과 해저 수정 후 증거 연결도 승인 때 확인합니다.
+
+이번 토큰 집계에서는 감독 계보의 자동 승인 검토 대화1개에 아직 usage 이벤트가 없습니다.
+그 대화의 토큰을0으로 처리하지 않고 감독 묶음 전체를 미확인, 알려진 부분합을 별도로
+표시했습니다. 제작8개 묶음은 현재 확인 가능한 누적치로 유지합니다. 이는 청구 금액이
+아니며 이후 해당 기록이 생기는지 다시 확인합니다.
+
+### 2026-10-21 14:21 UTC 감독 확인 — ultra 보완 화면
+
+감독자가 ultra의14:20–14:21 UTC 조감·수직 조감·호수·해변과 같은 카메라의 시간차
+물 화면2장을 직접 읽었습니다. 이전 모자이크 대비가 줄어 둥근 나무 형태가 회복됐고,
+청록색 수면과 모래가 구분되며 집광 무늬 강도도 낮아졌습니다. 시간차 프레임에서는
+흰 물결 띠와 해안선의 위치 변화가 보입니다. 근접 바위의 일부 삼각형 이음, 평행한
+그래픽 띠 형태의 포말은 남은 한계이며 물리적 쇄파/굴절 시뮬레이션으로 해석하지 않습니다.
+제작자가 포말을 계속 다듬고 있어 이 화면을 최종 승인하지 않았고, 검토한6장 해시는
+coordination.json에 기록했습니다. 최종 게시본과 검증/시간차 측정값이 연결되는지 확인 중입니다.
+
+ultra 예비 정량 감사에서는922배치(비균일 배율55개)의 배율 반영, 겹침0·최소 간격
+2.999934px, 메시별 밀도31.9999849–32.0000154px/m를 확인했습니다.466996삼각형 중
+기존 영면적32개는 제외하며 나머지 개별 면은31.8926–32.0937px/m입니다. 노멀 연속성은
+FBX3종 표본에 한정됩니다. 생성 원본4장 해시·저장16재질 연결·979재귀 소유 패키지,
+non-WP/no external/BuiltData 근거가 있습니다. 실제 PIE 빙의·200cm 이동과 지형6점/
+프랍3종 trace는 확인했으며, 최종 예정 실행에서 하강 HitResult의 blocking/비겹침/
+실제 이동 거리/대상 메시까지 명시하도록 요청했습니다. native Hello는 간접 증거 범위를
+유지합니다. FirstDelivery32파일 해시와 첫 완료·두 번째 시작 시각은 보존돼 있습니다.
+
+## Forest — 두 번째 패스 검증·개별 커밋
+
+네 작업의 게시본을 검증하고 각각 커밋했습니다. high·xhigh와 medium·ultra의 세부 기록을
+아래에 나누어 제공합니다. 통합 프로젝트의 최종 재로드는 기차역 보강 후 수행할 예정입니다.
+아래 완료 시각은 작업자가 게시·검증을 끝낸 실제 시각이며, 최초 납품 기록과 별개입니다.
+감독자가 각 작업의 실제 UE PNG 6장을 원본으로 직접 읽었습니다.
+
+| 항목 | high | xhigh |
+|---|---|---|
+| 시작 UTC / KST | 2026-10-21 13:43:00 / 22:43:00+09:00 | 2026-10-21 13:45:50 / 22:45:50+09:00 |
+| 완료 UTC / KST | 2026-10-21 14:30:04.339546 / 23:30:04.339546+09:00 | 2026-10-21 14:27:57.943323 / 23:27:57.943323+09:00 |
+| 전체 wall / dispatch-to-ready | 2824.340초 / 2877.340초 | 2527.943초 / 2747.943초 |
+| imagegen 기록 창 | 1회, 28초 | 5회, 합계128초; 첫 창에 프롬프트 저장 포함 |
+| UE mutex 대기 / 실행 | 966.875초 / 536.644초, 8시도 | 517.758초 / 586.188초 |
+| 완료 후 감독 검토·커밋까지 | 254.660초 | 432.057초 |
+| 개별 커밋 | `411df4f9a09ab3aacd85c39df304c2623baa3c36` | `8c4dcd8af61bf02d8300f3b631d70bf7f7b8325d` |
+| 커밋 UTC / KST | 2026-10-21 14:34:19 / 23:34:19+09:00 | 2026-10-21 14:35:10 / 23:35:10+09:00 |
+| 커밋 파일 범위 | 자기 Content·맵·Work 538파일 | 자기 Content·맵·Work 138파일 |
+
+대기·실행·imagegen 창은 전체 wall 안에 포함됩니다. 완료 후 감독 구간은 관측된
+경과 시간이며 순수 검토 CPU 시간이나 추가 제작 시간으로 해석하지 않습니다.
+감독이 별도로 UE를 실행하거나 장면을 재촬영하지 않았습니다. 검토 시 Python 파일
+말미의 중복 빈 줄만 high6개·xhigh2개에서 정리했고 실행 의미와 원본 이미지·패키지는
+바꾸지 않았습니다. 같은 머신의 대기열과 재시도, 감독 보완 요청이 서로 달랐습니다.
+Forest 우선권 때문에 대기 중인 MountainStation의 시간과 직접 속도를 비교할 수 없습니다.
+
+### 검증과 제작 방식의 차이
+
+| 항목 | high | xhigh |
+|---|---|---|
+| 생성 이미지의 적용 | 1254² 원본1장, 4표면 영역을 23재질에 연결; 742배치·228메시 변형 | 1254² 원본5장: 껍질·잎·돌·목재·caustic; 889프랍 |
+| UV 밀도 | 목표16px/m, 원본 chart 평균15.6924–16.3168; 실제 UE 표본15.7487–16.3028 | 목표128px/m, 저장 배율 보정895액터; UE 표본 RMS127.9993–128.0143 |
+| UV 검사 범위 | 원본 전체 겹침0·chart 간4px·외곽2px; UE 정량 왕복은3메시/7배치 | 원본28종 겹침0; UE 왕복4종 퇴화·겹침0; 소나무2종 full precision 수정 |
+| 재귀 격리·게시 | 301패키지, 검증 시점·private·게시 해시 일치 | 56패키지, private·게시 해시 일치 |
+| 실제 플레이 | 빙의·입력 이동2226.720cm·하강 blocking·정상 종료 | 빙의·100cm 이동·비겹침 시작 후123.524cm 하강·SM_Terrain 차단·정상 종료 |
+| Hello | native BeginPlay 자동화 Success, 화면 문구 확인과 구분 | native BeginPlay 자동화 Success, 화면 문구 확인과 구분 |
+| 수면 | 작은 정점 파도·이동 포말·별도 바닥의 강한 집광 무늬 | 반투명 물·움직이는 포말3띠·생성 집광 마스크의 수중 투영 |
+| 최초 기록 보존 | FirstDelivery26파일(해시 대상25+manifest) | FirstDelivery36파일 해시 보존 |
+
+두 작업 모두 최종 수정 후 새 UE 프로세스에서 저장 맵을 열어 검증했습니다.
+금지/옛 `/Game/<effort>` 참조와 redirector, World Partition, external/BuiltData를
+검사했고 자기 테마·강도 패키지만 사용했습니다. high의 사용 재질·UV 채널·full precision은
+전체 배치에서 확인했지만 정량 왕복 밀도는 표본 범위입니다. xhigh도 같은 한계를 갖습니다.
+xhigh의128px/m는 UV0를 저장된 배율 보정값으로 곱해 이미지를 타일링하는 유효 밀도입니다.
+high의 고유 아틀라스 chart 밀도와 수치만으로 화질 우열을 비교하지 않습니다. 반복 인스턴스는
+자기 프랍의 UV/텍스처를 재사용하고, 곡면의 삼각형별 국소 밀도 편차는 두 작업 모두 남습니다.
+수면·굴절·caustic은 미술적 근사이며 물리 광학이나 수영·부력을 검증한 결과가 아닙니다.
+
+### 렌더 근거로 본 보강 효과와 한계
+
+high는 기존 수종·다리·바위 고리 구성을 유지하면서 목재와 돌의 표면 변화를 더했습니다.
+해변의 움직이는 흰 물가와 집광 무늬는 초기의 단순 수면보다 명확합니다. 반면 조감에서도
+집광 선이 수면 전체에 강하게 반복되어 시선이 몰리고, 근접 수관과 바위에는 큰 패치와 UV
+이음이 드러납니다. 길·모래의 격자 경계와 날카로운 지피, 어두운 수관 아래는 남았습니다.
+개선 우선순위는 집광 대비·깊이별 감쇠 조정, 표면 이음 완화, 길 경계의 자연스러운 전이입니다.
+
+xhigh는 잎 무늬와 돌의 얼룩이 근접 화면에서 읽히며, 호수 바닥의 집광 무늬와 청록색 물이
+공간감을 더합니다. 조감에서는 전체 배치와 차분한 색이 유지됩니다. 다만 잎 무늬가 UV 섬
+경계에서 끊기고, 흰 포말이 규칙적인 점선·평행 띠로 보이며 수면 바깥 직사각 경계가 드러납니다.
+NPOT 원본을 무밉맵으로 사용해 원거리 흔들림 가능성도 남습니다. 개선 우선순위는 포말의
+불규칙한 분포·감쇠, UV 경계의 무늬 연속성, 거리별 텍스처 안정성입니다.
+
+두 결과는 기능 보강과 근접 표면 정보를 확인할 수 있으나, 텍스처 추가가 모든 시점의
+실루엣·조명·동선을 개선한 것은 아닙니다. 프랍 수와 원래 공간 구성이 다르고 밀도 적용법도
+달라, 이번 한 사례의 차이를 추론 강도만의 인과 효과나 임의 점수로 환산하지 않습니다.
+
+### high 동일 카메라 전후
+
+1920×1080, High/SP100, 공통 조감·탑뷰와 FOV70° 근접 카메라입니다. Z0=300cm.
+보강 촬영은14:26:26–14:27:27UTC입니다. 서로 다른 작업의 근접 위치는 동일하지 않습니다.
+
+| 최초 | 보강 |
+|---|---|
+| ![high initial overview](D:/github/AstraEffort/ForestDemo/Work/high/FirstDelivery/Screenshots/overview.png) | ![high texture overview](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/overview.png) |
+| ![high initial top](D:/github/AstraEffort/ForestDemo/Work/high/FirstDelivery/Screenshots/top_down.png) | ![high texture top](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/top_down.png) |
+| ![high initial lake](D:/github/AstraEffort/ForestDemo/Work/high/FirstDelivery/Screenshots/lake.png) | ![high texture lake](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/lake.png) |
+| ![high initial beach](D:/github/AstraEffort/ForestDemo/Work/high/FirstDelivery/Screenshots/beach.png) | ![high texture beach](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/beach.png) |
+
+| 물 시간 t0 | 같은 카메라 t1, 약12.219초 후 |
+|---|---|
+| ![high water t0](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/water_t0.png) | ![high water t1](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/water_t1.png) |
+
+### xhigh 동일 카메라 전후
+
+1920×1080, High/SP100, 공통 조감·탑뷰와 FOV70° 근접 카메라입니다.
+Z0=350.386873cm, 보강 촬영14:24:24–14:25:30UTC. 첫4개 카메라는 자기 최초 캡처와 같습니다.
+
+| 최초 | 보강 |
+|---|---|
+| ![xhigh initial overview](D:/github/AstraEffort/ForestDemo/Work/xhigh/FirstDelivery/Screenshots/overview.png) | ![xhigh texture overview](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/overview.png) |
+| ![xhigh initial top](D:/github/AstraEffort/ForestDemo/Work/xhigh/FirstDelivery/Screenshots/top_down.png) | ![xhigh texture top](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/top_down.png) |
+| ![xhigh initial lake](D:/github/AstraEffort/ForestDemo/Work/xhigh/FirstDelivery/Screenshots/lake.png) | ![xhigh texture lake](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/lake.png) |
+| ![xhigh initial beach](D:/github/AstraEffort/ForestDemo/Work/xhigh/FirstDelivery/Screenshots/beach.png) | ![xhigh texture beach](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/beach.png) |
+
+| 물 시간 t0 | 같은 카메라 t1, 약13.196초 후 |
+|---|---|
+| ![xhigh water t0](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/water_t0.png) | ![xhigh water t1](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/water_t1.png) |
+
+### 두 번째 패스 토큰 고정값
+
+각 개별 커밋 시각 이전 마지막 로컬 누적값으로 동결했습니다. 원래 최초 납품 값은
+덮어쓰지 않았으며 coordination.json의 texture_pass에 전체 행과 dispatch 기준을 보존했습니다.
+모델은 두 작업 모두 관측된 gpt-6-astra이며 각각 high/xhigh를 유지합니다.
+
+| 작업 | 커밋 기준 부모 누적 | 부모+후손 누적 | 보강 부모 증분 | 보강 부모+후손 증분 |
+|---|---:|---:|---:|---:|
+| Forest high | 27,367,465 | 28,724,422 | 10,205,636 | 10,740,647 |
+| Forest xhigh | 26,897,361 | 28,427,838 | 8,591,958 | 8,816,679 |
+
+각각 후손2개는 자동 승인 검토이며 위임 제작 에이전트는0개입니다. 감독 보조 리뷰 토큰은
+감독 묶음에 별도로 집계합니다. imagegen 비용은 이 토큰 수에 포함되지 않고 청구 금액도
+산정하지 않습니다. 보강 증분에는 도구 오류·재검증·감독 지시 후 수정과 반복 문맥이 포함됩니다.
+high가 더 긴 대기와 많은 메시 변형을 사용했으므로 이 두 숫자로 추론 효율을 단정하지 않습니다.
+
+## Forest — medium·ultra 보강 결과와 네 작업 비교
+
+| 항목 | medium | ultra |
+|---|---|---|
+| 시작 UTC / KST | 2026-10-21 13:42:41 / 22:42:41+09:00 | 2026-10-21 13:43:06 / 22:43:06+09:00 |
+| 완료 UTC / KST | 2026-10-21 14:32:06.555362 / 23:32:06.555362+09:00 | 2026-10-21 14:35:48.601183 / 23:35:48.601183+09:00 |
+| 전체 wall / dispatch-to-ready | 2965.555초 / 3004.555초 | 3162.601초 / 3215.601초 |
+| imagegen 기록 | 1회 32초 | Bark 23초; Canopy·Stone·Wood는 겹치는79초 구간 |
+| UE 대기 / 실행 | 1128.880초 / 279.563초 | 1015.912초 / 653.252초 |
+| 완료 후 감독 검토·커밋 경과 | 701.445초 | 481.399초 |
+| 개별 커밋 | 0a01b9e253034670972031b956b0f1b85dc833fa | 8a686096a17e6560bd8b08241746eef7606fa8e1 |
+| 커밋 UTC / KST | 2026-10-21 14:43:48 / 23:43:48+09:00 | 2026-10-21 14:43:50 / 23:43:50+09:00 |
+| 커밋 소유 파일 | 265개 | 1932개 |
+
+medium의 775초 중간 종료·재개 간격은 wall에 포함하며 추가 가산하지 않습니다.
+ultra의 병렬 imagegen 세 호출을 합산하면 실제 경과 시간을 과대 계산하므로 각각의
+기록만 표시합니다. 감독 검토와 캡처 보완 요청은 제작 중에도 들어갔으며 순수 아트
+작업 시간으로 분리 측정되지 않았습니다. 최종 감독 검토에서 추가 UE 실행·촬영은 없었습니다.
+
+medium은 85종 UV 변형과 660개 배치를 처리했습니다. 실제 저장 UE 메시 54,996삼각형의
+밀도는15.99527–16.00891px/m이고, 원본 단계에서 겹침0·간격4px를 검사했습니다.
+저장 UV의 겹침을 별도로 전수 재검사한 결과는 아닙니다. 최대0.04987의 배율 양자화 변화가
+있고 작은 식물 면은 한 픽셀보다 작을 수 있습니다. 재질 연결은 메시별 첫 배치의 모든
+슬롯을 확인한 범위이며 모든 배치 override 전수 검사는 아닙니다. 128개 패키지의
+private·게시 해시, 재귀 소유 참조, 실제 PIE 빙의·100cm 이동·GroundSmooth 차단과
+정상 종료를 확인했습니다. 별도 runtime_hello.png에 Hello가 보입니다. non-WP는 생성
+이력·파일·의존성 근거이며 직접 WorldPartition 속성 조회로 확인한 것은 아닙니다.
+최종 통합 시 직접 조회도 포함합니다. FirstDelivery34파일 해시는 보존됐습니다.
+
+ultra는 배치별 배율을 구운922변형으로55개 비균일 배율까지 반영했습니다. 원본·FBX의
+메시별 밀도31.9999849–32.0000154px/m, 최소 간격2.999934px와 겹침0을 확인했습니다.
+32개 기존 영면적 삼각형은 밀도에서 제외되며, 나머지 면별 범위는31.8926–32.0937px/m입니다.
+생성 원본4장·16개 실제 재질 연결,979개 재귀 소유 패키지,private·게시 해시와 FirstDelivery32파일을
+확인했습니다. 실제 PIE 빙의·200cm 이동과 비겹침 시작 후71.811877cm 하강의 SM_Ground 차단,
+지형6점·프랍3종 trace,정상 종료가 있습니다. Hello는 native actor 존재·생명주기까지의
+간접 증거입니다. 노멀 연속성은 FBX3종 표본이며 전체 UE 표면의 이음 없음이라는 뜻은 아닙니다.
+
+medium의 새 해변은 흰 물가와 작은 파도·집광 무늬가 초기 단색 수면보다 분명합니다.
+나무·바위 표면에도 변화가 생겼지만 근접에서는 삼각형 패치가 보이고 반복되는 평행 파도는
+도식적입니다. 호수는 기존 재질을 유지하여 해변과 상세도가 다르며, 타원형 물가의 톱니 경계와
+단순한 길이 남았습니다. 개선 우선순위는 표면 이음·호수/길 전이·파도 반복 완화입니다.
+물은 불투명 색상 근사이며 실제 수중 투과나 굴절을 구현한 것으로 해석하지 않습니다.
+
+ultra는 중간의 과한 모자이크 대비를 낮추고 청록 수면을 복원해 둥근 수관의 형태를 유지했습니다.
+바위에는 일부 삼각형 이음이 남고 넓은 모래와 평행한 포말 점선은 자연스러운 쇄파보다
+그래픽 효과에 가깝습니다. 호수와 바다의 밝은 무늬가 보이며 시간차 이미지의 물가·포말 위치도
+변합니다. 개선 우선순위는 포말 분포의 불규칙성과 이음 완화, 배치별922메시의 재사용 구조입니다.
+NPOT 무밉맵 텍스처와 큰 메시 변형 수의 성능 영향은 측정하지 않았습니다.
+
+| 보강 비교 | medium | high | xhigh | ultra |
+|---|---|---|---|---|
+| 표면 방식 | 1장4영역, 삼각형별 아일랜드 | 1장4영역, 스케일 bucket별 chart | 5장, UV+저장 배율 보정 타일링 | 4장, 배치별 삼각형 아일랜드 |
+| 근접 강점 | 나무·돌의 단색 표면에 변화 | 목재·돌·수관의 표면 변화 | 잎·돌 무늬의 식별과 수중 표현 | 둥근 수관 유지와 은은한 표면 변화 |
+| 해변 강점 | 밝은 포말·움직이는 파도 | 명확한 물가와 강한 집광 | 반투명 수면·호수 바닥 무늬 | 차분한 청록색과 움직이는 포말 |
+| 남는 시각 한계 | 삼각형 패치·평행 파도 | 큰 패치·집광 대비 과다 | UV 방향 이음·점선 포말 | 삼각형 이음·규칙적인 포말 |
+| 수정 용이성 | 85변형·9재질 연결 | 228변형·23재질 | 28메시 재사용, 배율 바꾸면 보정 필요 | 922변형, 배치 수정 시 재생성 부담 |
+| 시간 해석 | 775초 중단 포함 | 8UE시도·대기966.875초 | 소나무 정밀도 보완·표본 왕복 | 시각 보완·다수 에셋·병렬 imagegen |
+
+밀도16/128/32 수치는 서로 다른 샘플링 방법이므로 그대로 세부 묘사의 순위를 뜻하지 않습니다.
+같은 초기 요구에서 독립 제작했지만 공간 구성·원본·생성 호출 수·감독 개입·머신 부하가 달라,
+추론 강도만으로 시간이나 완성도를 설명할 수 없습니다. 모든 최종 PNG를 직접 읽은 관찰입니다.
+
+### medium 동일 카메라 전후
+
+1920×1080의 실제 UE 원본입니다. 최초와 보강의 자기 카메라가 같으며,
+다른 작업과 근접 위치까지 동일하지는 않습니다.
+
+| 최초 | 보강 |
+|---|---|
+| ![medium initial overview](D:/github/AstraEffort/ForestDemo/Work/medium/FirstDelivery/Screenshots/overview.png) | ![medium texture overview](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/overview.png) |
+| ![medium initial top_down](D:/github/AstraEffort/ForestDemo/Work/medium/FirstDelivery/Screenshots/top_down.png) | ![medium texture top_down](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/top_down.png) |
+| ![medium initial lake](D:/github/AstraEffort/ForestDemo/Work/medium/FirstDelivery/Screenshots/lake.png) | ![medium texture lake](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/lake.png) |
+| ![medium initial beach](D:/github/AstraEffort/ForestDemo/Work/medium/FirstDelivery/Screenshots/beach.png) | ![medium texture beach](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/beach.png) |
+
+| 물 시간 t0 | 같은 카메라 t1 |
+|---|---|
+| ![medium water t0](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/water_t0.png) | ![medium water t1](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/water_t1.png) |
+
+### ultra 동일 카메라 전후
+
+1920×1080의 실제 UE 원본입니다. 최초와 보강의 자기 카메라가 같으며,
+다른 작업과 근접 위치까지 동일하지는 않습니다.
+
+| 최초 | 보강 |
+|---|---|
+| ![ultra initial overview](D:/github/AstraEffort/ForestDemo/Work/ultra/FirstDelivery/Screenshots/overview.png) | ![ultra texture overview](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/overview.png) |
+| ![ultra initial top_down](D:/github/AstraEffort/ForestDemo/Work/ultra/FirstDelivery/Screenshots/top_down.png) | ![ultra texture top_down](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/top_down.png) |
+| ![ultra initial lake](D:/github/AstraEffort/ForestDemo/Work/ultra/FirstDelivery/Screenshots/lake.png) | ![ultra texture lake](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/lake.png) |
+| ![ultra initial beach](D:/github/AstraEffort/ForestDemo/Work/ultra/FirstDelivery/Screenshots/beach.png) | ![ultra texture beach](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/beach.png) |
+
+| 물 시간 t0 | 같은 카메라 t1 |
+|---|---|
+| ![ultra water t0](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/water_t0.png) | ![ultra water t1](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/water_t1.png) |
+
+medium의 물 두 장은 game-world 약2.216초, ultra는 약3.174초 차이입니다.
+medium은 해안의 흰 띠·명암, ultra는 포말 점선·물가 위치의 변화를 직접 확인했습니다.
+시간차 픽셀 차이에는 temporal 렌더 노이즈도 포함될 수 있습니다.
+
+| 추가 고정 토큰 | 커밋 기준 부모 누적 | 부모+후손 누적 | 보강 부모 증분 | 보강 부모+후손 증분 |
+|---|---:|---:|---:|---:|
+| Forest medium | 32,194,492 | 34,483,885 | 7,049,564 | 7,423,691 |
+| Forest ultra | 23,634,637 | 25,073,209 | 10,257,541 | 10,801,940 |
+
+모델은 gpt-6-astra, 각 medium/ultra로 관측됐습니다. 제작 대화의 후손은 각각 자동 승인
+검토2개이며 위임 제작 에이전트0개입니다. 감독 보조 에이전트는 감독 행에 따로 집계합니다.
+보강 증분은 해당 dispatch 직전 기록부터 개별 커밋 시각 이전 마지막 누적 기록까지입니다.
+최초 완료 기록과 병합하지 않으며 캐시·추론을 중복 가산하지 않습니다.
+
+### Forest 보강 결과 같은 시점 비교
+
+동일 범주의 네 결과를 나란히 배치했습니다. 근접 위치는 작업별로 다릅니다.
+
+#### overview
+
+| medium | high |
+|---|---|
+| ![medium overview](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/overview.png) | ![high overview](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/overview.png) |
+| xhigh | ultra |
+| ![xhigh overview](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/overview.png) | ![ultra overview](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/overview.png) |
+
+#### top_down
+
+| medium | high |
+|---|---|
+| ![medium top_down](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/top_down.png) | ![high top_down](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/top_down.png) |
+| xhigh | ultra |
+| ![xhigh top_down](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/top_down.png) | ![ultra top_down](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/top_down.png) |
+
+#### lake
+
+| medium | high |
+|---|---|
+| ![medium lake](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/lake.png) | ![high lake](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/lake.png) |
+| xhigh | ultra |
+| ![xhigh lake](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/lake.png) | ![ultra lake](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/lake.png) |
+
+#### beach
+
+| medium | high |
+|---|---|
+| ![medium beach](D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/Screenshots/beach.png) | ![high beach](D:/github/AstraEffort/ForestDemo/Work/high/TexturePass/Screenshots/beach.png) |
+| xhigh | ultra |
+| ![xhigh beach](D:/github/AstraEffort/ForestDemo/Work/xhigh/TexturePass/Screenshots/beach.png) | ![ultra beach](D:/github/AstraEffort/ForestDemo/Work/ultra/TexturePass/Screenshots/beach.png) |
+
+## MountainStation — 최초 결과 보존과 두 번째 패스 시작
+
+첫 검증·커밋을 모두 마친 후 medium41/high33/xhigh38/ultra82개의 최초 증거 파일을
+각 FirstDelivery에 복사하고 원본 SHA-256 일치를 확인했습니다. 초기 이미지 링크도 그 사본으로
+고정했습니다. 기존 네 대화에 같은 모델·추론 강도로 두 번째 UV·이미지 생성 텍스처 작업을
+명시적으로 지시했습니다. dispatch는 2026-10-21 medium14:46:21/high14:46:30/
+xhigh14:46:38/ultra14:46:52UTC, 각각 KST23:46:21/30/38/52+09:00입니다.
+실제 제작 시작은 각 워커가 기록하는 별도 시각이며 dispatch와 같다고 가정하지 않습니다.
+
+네 작업의 건물·철길·침목·승강장·터널·나무·프랍에 고유 UV와 측정 밀도, 자기 생성 텍스처를
+적용합니다. 같은 카메라의 실제 재촬영, 저장 메시/재질·의존성·실제 Pawn 검증이 포함됩니다.
+Forest 해변 작업이나 별도 길 디자인 변경은 추가하지 않았습니다. 최초 시간·토큰·커밋을
+보존하고 두 번째 시간·토큰 증분은 별도 기록합니다. 모든 Git은 계속 감독자가 관리합니다.
+
+### 기차역 최초 결과 같은 시점 비교
+
+#### 조감
+
+| medium | high |
+|---|---|
+| ![Station medium overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/overview.png) | ![Station high overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/overview.png) |
+| xhigh | ultra |
+| ![Station xhigh overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/overview.png) | ![Station ultra overview](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/overview.png) |
+
+#### 수직 조감
+
+| medium | high |
+|---|---|
+| ![Station medium top_down](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/top_down.png) | ![Station high top_down](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/top_down.png) |
+| xhigh | ultra |
+| ![Station xhigh top_down](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/top_down.png) | ![Station ultra top_down](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/top_down.png) |
+
+#### 승강장
+
+| medium | high |
+|---|---|
+| ![Station medium platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/platform.png) | ![Station high platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/platform.png) |
+| xhigh | ultra |
+| ![Station xhigh platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/platform.png) | ![Station ultra platform](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/platform.png) |
+
+#### 철길
+
+| medium | high |
+|---|---|
+| ![Station medium tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/FirstDelivery/Screenshots/tracks.png) | ![Station high tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/high/FirstDelivery/Screenshots/tracks.png) |
+| xhigh | ultra |
+| ![Station xhigh tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/FirstDelivery/Screenshots/tracks.png) | ![Station ultra tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/FirstDelivery/Screenshots/tracks.png) |
+
+근접 구도는 작업마다 다른 지점을 선택했습니다. 같은 해상도·시점 범주로 비교하되
+서로 다른 카메라 위치·기준 지면 높이·조명의 영향이 있습니다. 두 테마의 두 번째 패스와
+최종8맵 통합 재로드·의존성 확인을 모두 마치기 전에는 감독 완료로 처리하지 않습니다.
+
 <!-- TOKEN_USAGE_START -->
 ## 대화별 토큰 사용량
 
-집계 시각: 2026-10-21 22:48:56 KST. 로컬 마지막 누적 기록 기준 잠정치입니다.
+집계 시각: 2026-10-21 23:53:06 KST. 로컬 마지막 누적 기록 기준 잠정치입니다.
 부모와 식별된 하위 대화를 별도로 표시하고 thread ID마다 한 번만 합산합니다. 자동 guardian 승인 검토(automatic_approval_review)는 위임 제작 에이전트(delegated_subagent)와 구분합니다. 캐시 입력은 입력에, 추론은 출력에 이미 포함됩니다. 누적 스냅샷끼리는 더하지 않습니다.
 반복 문맥도 포함되는 로컬 계수이며 구독 한도나 청구 금액으로 환산하지 않습니다. 누락·범위 미확인 토큰은 unknown이며 알려진 부분합만 별도 제공합니다.
 외부 CLI의 별도 모델 호출 및 이미지 생성 사용량은 이 로컬 토큰 계수에 포함되지 않습니다.
 
 | 테마 | 강도 | 부모 총합 | 후손 수 | 후손 총합 | 부모+후손 총합 | 알려진 부분합 |
 |---|---|---:|---:|---:|---:|---:|
-| Forest | medium | 25,665,067 | 1 | 1,915,266 | 27,580,333 | 27,580,333 |
-| Forest | high | 18,004,791 | 1 | 821,946 | 18,826,737 | 18,826,737 |
-| Forest | xhigh | 18,874,075 | 1 | 1,305,756 | 20,179,831 | 20,179,831 |
-| Forest | ultra | 13,894,865 | 1 | 894,173 | 14,789,038 | 14,789,038 |
-| MountainStation | medium | 16,833,198 | 1 | 445,175 | 17,278,373 | 17,278,373 |
-| MountainStation | high | 10,731,379 | 1 | 293,866 | 11,025,245 | 11,025,245 |
-| MountainStation | xhigh | 13,884,858 | 1 | 1,003,211 | 14,888,069 | 14,888,069 |
-| MountainStation | ultra | 13,480,467 | 2 | 590,562 | 14,071,029 | 14,071,029 |
-| Supervisor | separate | 24,355,419 | 10 | 22,198,334 | 46,553,753 | 46,553,753 |
+| Forest | medium | 32,194,492 | 2 | 2,289,393 | 34,483,885 | 34,483,885 |
+| Forest | high | 27,367,465 | 2 | 1,356,957 | 28,724,422 | 28,724,422 |
+| Forest | xhigh | 26,897,361 | 2 | 1,530,477 | 28,427,838 | 28,427,838 |
+| Forest | ultra | 23,634,637 | 2 | 1,438,572 | 25,073,209 | 25,073,209 |
+| MountainStation | medium | 18,414,187 | 1 | 445,175 | 18,859,362 | 18,859,362 |
+| MountainStation | high | 12,735,987 | 1 | 293,866 | 13,029,853 | 13,029,853 |
+| MountainStation | xhigh | 14,421,256 | 1 | 1,003,211 | 15,424,467 | 15,424,467 |
+| MountainStation | ultra | 23,627,782 | 2 | 937,191 | 24,564,973 | 24,564,973 |
+| Supervisor | separate | 42,139,316 | 14 | unknown | unknown | 77,936,157 |
 
 부모+후손 토큰 구성입니다. 캐시 입력과 추론은 각각 입력·출력의 부분집합입니다.
 
 | 테마 | 강도 | 입력 | 캐시 입력(입력 내) | 비캐시 입력 | 출력 | 추론(출력 내) | 총합 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Forest | medium | 27,508,824 | 26,565,760 | 943,064 | 71,509 | 22,432 | 27,580,333 |
-| Forest | high | 18,754,962 | 18,275,840 | 479,122 | 71,775 | 27,824 | 18,826,737 |
-| Forest | xhigh | 20,075,522 | 19,310,080 | 765,442 | 104,309 | 42,717 | 20,179,831 |
-| Forest | ultra | 14,700,031 | 14,139,520 | 560,511 | 89,007 | 37,412 | 14,789,038 |
-| MountainStation | medium | 17,217,210 | 16,424,832 | 792,378 | 61,163 | 17,591 | 17,278,373 |
-| MountainStation | high | 10,963,485 | 10,681,472 | 282,013 | 61,760 | 19,196 | 11,025,245 |
-| MountainStation | xhigh | 14,797,455 | 14,423,936 | 373,519 | 90,614 | 35,365 | 14,888,069 |
-| MountainStation | ultra | 13,960,589 | 13,552,384 | 408,205 | 110,440 | 50,109 | 14,071,029 |
-| Supervisor | separate | 46,360,711 | 43,925,760 | 2,434,951 | 193,042 | 38,764 | 46,553,753 |
+| Forest | medium | 34,374,575 | 33,243,648 | 1,130,927 | 109,310 | 36,761 | 34,483,885 |
+| Forest | high | 28,597,666 | 27,591,296 | 1,006,370 | 126,756 | 48,041 | 28,724,422 |
+| Forest | xhigh | 28,268,287 | 27,277,952 | 990,335 | 159,551 | 62,064 | 28,427,838 |
+| Forest | ultra | 24,928,612 | 24,103,552 | 825,060 | 144,597 | 58,389 | 25,073,209 |
+| MountainStation | medium | 18,792,682 | 17,979,648 | 813,034 | 66,680 | 21,256 | 18,859,362 |
+| MountainStation | high | 12,960,795 | 12,647,296 | 313,499 | 69,058 | 22,334 | 13,029,853 |
+| MountainStation | xhigh | 15,328,962 | 14,919,808 | 409,154 | 95,505 | 37,565 | 15,424,467 |
+| MountainStation | ultra | 24,400,095 | 23,842,304 | 557,791 | 164,878 | 80,622 | 24,564,973 |
+| Supervisor | separate | unknown | unknown | unknown | unknown | unknown | unknown |
 
 후손 종류별 개수이며, 손자 이하도 해당 제작 대화에 한 번만 귀속됩니다.
 
 | 테마 | 강도 | 자동 승인 검토 | 위임 보조 에이전트 | 전체 후손 |
 |---|---|---:|---:|---:|
-| Forest | medium | 1 | 0 | 1 |
-| Forest | high | 1 | 0 | 1 |
-| Forest | xhigh | 1 | 0 | 1 |
-| Forest | ultra | 1 | 0 | 1 |
+| Forest | medium | 2 | 0 | 2 |
+| Forest | high | 2 | 0 | 2 |
+| Forest | xhigh | 2 | 0 | 2 |
+| Forest | ultra | 2 | 0 | 2 |
 | MountainStation | medium | 1 | 0 | 1 |
 | MountainStation | high | 1 | 0 | 1 |
 | MountainStation | xhigh | 1 | 0 | 1 |
 | MountainStation | ultra | 2 | 0 | 2 |
-| Supervisor | separate | 7 | 3 | 10 |
+| Supervisor | separate | 10 | 4 | 14 |
 
-제작 작업 합계(감독 제외): 138,638,655. 감독 포함 전체: 185,192,408.
+제작 작업 합계(감독 제외): 188,588,009. 감독 포함 전체: unknown.
 Supervisor에는 초기 프로젝트 생성 및 그 감독 대화의 후손이 포함됩니다. 독립 제작 대화 8개는 감독의 후손으로 다시 더하지 않습니다.
 최초 납품 부모 고정값은 frozen_parent_usage에 보존합니다. 최초 커밋 시각 이전 마지막 부모·후손 스냅샷 재구성은 as_of_first_commit에 따로 저장하며 정확한 커밋 순간의 사용량이라고 주장하지 않습니다.
 보존 부모 값의 기록 시각과 커밋 시각은 다를 수 있습니다. 따라서 보존 부모에 커밋 기준 후손을 섞어 합산하지 않고, 동일 커밋 기준으로 재구성한 합계를 별도로 제시합니다.
@@ -690,8 +1121,17 @@ Supervisor에는 초기 프로젝트 생성 및 그 감독 대화의 후손이 �
 | MountainStation | medium | 2026-10-21 22:38:35 | 16,619,320 | 16,619,320 | 445,175 | 17,064,495 |
 | MountainStation | high | 2026-10-21 22:17:47 | 10,731,379 | 10,731,379 | 293,866 | 11,025,245 |
 | MountainStation | xhigh | 2026-10-21 22:46:25 | 13,884,858 | 13,884,858 | 1,003,211 | 14,888,069 |
-| MountainStation | ultra | 미커밋/기준시각 이후 | unknown | unknown | unknown | unknown |
+| MountainStation | ultra | 2026-10-21 23:43:03 | 23,087,845 | 23,087,845 | 937,191 | 24,025,036 |
 
 발견 범위: 선택한 대화 시작 이전의 역사적 헤더 34개는 대상 계보 밖으로 분리했습니다. 현재 범위 또는 시점 불명 헤더 0개는 발견 범위 미확인으로 남깁니다.
 모델·effort, ancestry, child-local 카운터 증거, 입력/캐시/출력/추론 및 unknown 부분합은 token_usage.json을 참고하세요. 접근할 수 없는 후손 기록의 부재까지 보장하지 않습니다.
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: No usage recorded at or before cutoff; unknown, not zero.
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Child-local cumulative scope is unverified; reported counters are excluded from additive accounting.
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: No model metadata observed.
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: No reasoning-effort metadata observed.
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: input_tokens
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: cached_input_tokens
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: output_tokens
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: reasoning_output_tokens
+- Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: total_tokens
 <!-- TOKEN_USAGE_END -->

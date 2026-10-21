@@ -1,0 +1,1530 @@
+﻿Log file open, 10/21/26 21:40:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=11248)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: ForestDemo
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogCore: No trace connection. Tracing to in-memory cache.
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9711] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 9 7900 12-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/ForestDemo.uproject -unattended -nop4 -nosplash -abslog=D:\github\AstraEffort\ForestDemo\Saved\Workers\MountainStation\xhigh\Logs\build.log -run=pythonscript -script=D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py -NullRHI -nosound""
+LogCsvProfiler: Display: Metadata set : loginid="e08dd5be4f47afd92bfc899949da696d"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.442718
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-9FF1DBD74F12D418CBB6FCA9DD9A6185
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Found matching target receipt: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Binaries/Win64/ForestDemoEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogConfig: Display: Loading Mac ini files took 0.05 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+LogPluginManager: Found matching target receipt: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Binaries/Win64/ForestDemoEditor.target
+LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.19.0.3-49960398
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - CVarHttpCurlReuseConnectionEnabled = true  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: ExecutableName: UnrealEditor-Cmd.exe
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=e08dd5be4f47afd92bfc899949da696d
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: Windows 11 (25H2) [10.0.26200.9711] (), CPU: AMD Ryzen 9 7900 12-Core Processor             , GPU: NVIDIA GeForce RTX 4060
+LogInit: CPU Model ID: 19612, microcode revision: a601206
+LogInit: Compiled (64-bit): Mar  6 2026 12:43:05
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.44.35223.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/ForestDemo.uproject -unattended -nop4 -nosplash -abslog=D:\github\AstraEffort\ForestDemo\Saved\Workers\MountainStation\xhigh\Logs\build.log -run=pythonscript -script=D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py -NullRHI -nosound
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2026.10.21-12.40.53:202][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.10.21-12.40.53:202][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.10.21-12.40.53:202][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.ReflectionMethod:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.10.21-12.40.53:203][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.10.21-12.40.53:204][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.10.21-12.40.53:205][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.10.21-12.40.53:205][  0]LogHAL: Display: Platform has ~ 64 GB [67770941440 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.21-12.40.53:205][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.10.21-12.40.53:206][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.21-12.40.53:206][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.10.21-12.40.53:206][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.10.21-12.40.53:206][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.21-12.40.53:206][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.10.21-12.40.53:206][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.10.21-12.40.53:206][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.10.21-12.40.53:206][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.21-12.40.53:206][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.10.21-12.40.53:206][  0]LogConfig: Set CVar [[WindowsApplication.UseWorkerThreadForRawInput:0]]
+[2026.10.21-12.40.53:206][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/Config/WindowsEditor/Editor.ini]
+[2026.10.21-12.40.53:206][  0]LogInit: Computer: DESKTOP-TME360D
+[2026.10.21-12.40.53:206][  0]LogInit: User: blendue
+[2026.10.21-12.40.53:206][  0]LogInit: CPU Page size=4096, Cores=12
+[2026.10.21-12.40.53:206][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.10.21-12.40.53:206][  0]LogInit: Handheld Device: 0
+[2026.10.21-12.40.53:206][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2026.10.21-12.40.53:206][  0]LogMemory: Memory total: Physical=63.1GB (64GB approx) Virtual=67.1GB
+[2026.10.21-12.40.53:206][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.10.21-12.40.53:206][  0]LogMemory: Process Physical Memory: 562.99 MB used, 562.99 MB peak
+[2026.10.21-12.40.53:206][  0]LogMemory: Process Virtual Memory: 565.62 MB used, 565.62 MB peak
+[2026.10.21-12.40.53:206][  0]LogMemory: Physical Memory: 28436.02 MB used,  36195.39 MB free, 64631.41 MB total
+[2026.10.21-12.40.53:206][  0]LogMemory: Virtual Memory: 42763.28 MB used,  25964.13 MB free, 68727.41 MB total
+[2026.10.21-12.40.53:206][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.21-12.40.53:210][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.10.21-12.40.53:213][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.10.21-12.40.53:213][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.10.21-12.40.53:213][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.10.21-12.40.53:218][  0]LogInit: Overriding language with editor language configuration option (en).
+[2026.10.21-12.40.53:218][  0]LogInit: Using OS detected locale (ko-KR).
+[2026.10.21-12.40.53:588][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.21-12.40.53:680][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.10.21-12.40.53:681][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.21-12.40.53:681][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.21-12.40.53:681][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.21-12.40.53:681][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.21-12.40.53:681][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.10.21-12.40.53:686][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.21-12.40.53:686][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.21-12.40.53:686][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.21-12.40.53:686][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.21-12.40.53:686][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.21-12.40.53:686][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.21-12.40.53:686][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.14
+[2026.10.21-12.40.53:686][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.14.dll
+[2026.10.21-12.40.53:686][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.10.21-12.40.53:686][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.10.21-12.40.53:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.10.21-12.40.53:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.10.21-12.40.53:718][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.10.21-12.40.53:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.10.21-12.40.53:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2026.10.21-12.40.53:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.10.21-12.40.53:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.10.21-12.40.53:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.10.21-12.40.53:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.10.21-12.40.53:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.10.21-12.40.53:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.10.21-12.40.53:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.10.21-12.40.53:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.10.21-12.40.53:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.21-12.40.53:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.21-12.40.53:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.21-12.40.53:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.21-12.40.53:755][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.21-12.40.53:758][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.21-12.40.53:785][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.10.21-12.40.53:791][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2026.10.21-12.40.53:791][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2026.10.21-12.40.53:793][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2026.10.21-12.40.53:793][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.10.21-12.40.53:793][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.10.21-12.40.53:793][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.21-12.40.53:793][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.10.21-12.40.54:022][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1729 MiB)
+[2026.10.21-12.40.54:022][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.21-12.40.54:022][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.10.21-12.40.54:023][  0]LogZenServiceInstance: Found Zen config default=C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Data
+[2026.10.21-12.40.54:023][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.21-12.40.54:229][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.21-12.40.54:433][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/blendue/AppData/Local/UnrealEngine/5.7/Saved/Zen/zen.version', version: '5.7.6-202510061608-windows-x64-release-9a1ebb9'
+[2026.10.21-12.40.54:433][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zenserver.exe' is '5.7.6-202510061608-windows-x64-release-9a1ebb9'
+[2026.10.21-12.40.54:433][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.21-12.40.54:433][  0]LogZenServiceInstance: Installed version at 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.21-12.40.54:433][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.21-12.40.54:434][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2026.10.21-12.40.54:434][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir C:\Users\blendue\AppData\Local\UnrealEngine\Common\Zen\Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --http-forceloopback --owner-pid 58276  --child-id Zen_58276_Startup'
+[2026.10.21-12.40.55:408][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.21-12.40.55:408][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.976 seconds
+[2026.10.21-12.40.55:409][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc status: OK!.
+[2026.10.21-12.40.55:419][  0]LogDerivedDataCache: C:/Users/blendue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2026.10.21-12.40.55:419][  0]LogDerivedDataCache: Display: C:/Users/blendue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=930.34MBs, RandomWriteSpeed=122.77MBs. Assigned SpeedClass 'Local'
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/blendue/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2026.10.21-12.40.55:421][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2026.10.21-12.40.55:421][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/Shaders/WorkingDirectory/58276/).
+[2026.10.21-12.40.55:422][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/blendue/AppData/Local/Temp/UnrealShaderWorkingDir/9FDBD9B2496BCFD49956B09B6CDF97CF/'.
+[2026.10.21-12.40.55:422][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.10.21-12.40.55:422][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.21-12.40.55:422][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.21-12.40.55:422][  0]LogShaderCompilers: Display: Using 21 local workers for shader compilation
+[2026.10.21-12.40.55:423][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.21-12.40.55:424][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.21-12.40.55:424][  0]LogShaderCompilers: Display: Shader autogen file written: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.21-12.40.55:970][  0]LogAssetRegistry: FAssetRegistry took 0.0008 seconds to start up
+[2026.10.21-12.40.55:970][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.21-12.40.56:160][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.21-12.40.56:160][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.21-12.40.56:205][  0]LogDeviceProfileManager: Active device profile: [000002B839FA9880][000002B83524C800 82] WindowsEditor
+[2026.10.21-12.40.56:205][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.21-12.40.56:209][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.21-12.40.56:220][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:220][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.10.21-12.40.56:220][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:220][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:220][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.10.21-12.40.56:220][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:221][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:223][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:223][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:223][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:225][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.10.21-12.40.56:225][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:225][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.10.21-12.40.56:225][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:226][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.10.21-12.40.56:226][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:227][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.10.21-12.40.56:227][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.40.56:227][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.21-12.40.56:227][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.21-12.40.56:227][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.21-12.40.56:241][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.21-12.40.56:241][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.21-12.40.56:241][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.21-12.40.56:241][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.21-12.40.56:241][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.10.21-12.40.56:340][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.10.21-12.40.56:358][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.21-12.40.56:358][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.21-12.40.56:358][  0]LogShaderCompilers: Display: Shader autogen file written: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.21-12.40.56:358][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.21-12.40.56:358][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.21-12.40.56:375][  0]LogSlate: Border
+[2026.10.21-12.40.56:375][  0]LogSlate: BreadcrumbButton
+[2026.10.21-12.40.56:375][  0]LogSlate: Brushes.Title
+[2026.10.21-12.40.56:375][  0]LogSlate: ColorPicker.ColorThemes
+[2026.10.21-12.40.56:375][  0]LogSlate: Default
+[2026.10.21-12.40.56:375][  0]LogSlate: Icons.Save
+[2026.10.21-12.40.56:375][  0]LogSlate: Icons.Toolbar.Settings
+[2026.10.21-12.40.56:375][  0]LogSlate: ListView
+[2026.10.21-12.40.56:375][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.10.21-12.40.56:375][  0]LogSlate: SoftwareCursor_Grab
+[2026.10.21-12.40.56:375][  0]LogSlate: TableView.DarkRow
+[2026.10.21-12.40.56:375][  0]LogSlate: TableView.Row
+[2026.10.21-12.40.56:375][  0]LogSlate: TreeView
+[2026.10.21-12.40.56:423][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.21-12.40.56:426][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.388 ms
+[2026.10.21-12.40.56:445][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.10.21-12.40.56:469][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 64CBEA0A2D244EC0800000000000CE00 | Instance: D51D739B4BE3B7D08FB1758ED58BC8AF (DESKTOP-TME360D-58276).
+[2026.10.21-12.40.56:494][  0]LogCollectionManager: Loaded 0 collections in 0.001692 seconds
+[2026.10.21-12.40.56:495][  0]LogFileCache: Scanning file cache for directory 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/Collections/' took 0.00s
+[2026.10.21-12.40.56:497][  0]LogFileCache: Scanning file cache for directory 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/Developers/blendue/Collections/' took 0.00s
+[2026.10.21-12.40.56:498][  0]LogFileCache: Scanning file cache for directory 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/Collections/' took 0.00s
+[2026.10.21-12.40.56:498][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.10.21-12.40.56:712][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.21-12.40.56:713][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.21-12.40.56:715][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: 0: AMD Radeon(TM) Graphics (Compute, Graphics)
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: 1: NVIDIA GeForce RTX 4060 (Compute, Graphics)
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   NPU:       no
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT: Interface availability:
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   GPU: yes
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   RDG: no
+[2026.10.21-12.40.56:977][  0]LogNNERuntimeORT:   NPU: no
+[2026.10.21-12.40.57:128][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.21-12.40.57:128][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.21-12.40.57:128][  0]LogNNERuntimeORT: 0: AMD Radeon(TM) Graphics (Compute, Graphics)
+[2026.10.21-12.40.57:128][  0]LogNNERuntimeORT: 1: NVIDIA GeForce RTX 4060 (Compute, Graphics)
+[2026.10.21-12.40.57:128][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.21-12.40.57:128][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.21-12.40.57:151][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.21-12.40.57:151][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.21-12.40.57:156][  0]LogTimingProfiler: Initialize
+[2026.10.21-12.40.57:156][  0]LogTimingProfiler: OnSessionChanged
+[2026.10.21-12.40.57:156][  0]LoadingProfiler: Initialize
+[2026.10.21-12.40.57:156][  0]LoadingProfiler: OnSessionChanged
+[2026.10.21-12.40.57:156][  0]LogNetworkingProfiler: Initialize
+[2026.10.21-12.40.57:156][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.10.21-12.40.57:156][  0]LogMemoryProfiler: Initialize
+[2026.10.21-12.40.57:156][  0]LogMemoryProfiler: OnSessionChanged
+[2026.10.21-12.40.57:173][  0]SourceControl: Revision control is disabled
+[2026.10.21-12.40.57:184][  0]SourceControl: Revision control is disabled
+[2026.10.21-12.40.57:240][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.10.21-12.40.57:244][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.21-12.40.57:244][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.21-12.40.57:450][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.10.21-12.40.57:518][  0]LogUObjectArray: 42512 objects as part of root set at end of initial load.
+[2026.10.21-12.40.57:518][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.10.21-12.40.57:533][  0]LogInit: Executing Class /Script/PythonScriptPlugin.PythonScriptCommandlet
+[2026.10.21-12.40.57:534][  0]LogInit: Initializing Editor Engine...
+[2026.10.21-12.40.57:534][  0]LogEngine: Initializing Engine...
+[2026.10.21-12.40.57:552][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.10.21-12.40.57:566][  0]LogAssetRegistry: Display: No AssetDiscovery cache present at D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+[2026.10.21-12.40.57:576][  0]LogNiagara: UAV Float16 is not supported, compressed GPU emitters will be disabled.
+[2026.10.21-12.40.57:582][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.10.21-12.40.57:582][  0]LogInit: Texture streaming: Disabled
+[2026.10.21-12.40.57:587][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.21-12.40.57:591][  0]LogInit: Initializing Editor Engine Completed
+[2026.10.21-12.40.57:591][  0]LogContentValidation: Adding native validator /Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.21-12.40.57:591][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Localization
+[2026.10.21-12.40.57:591][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Material
+[2026.10.21-12.40.57:591][  0]LogContentValidation: Adding native validator /Script/DataValidation.PackageFileValidator
+[2026.10.21-12.40.57:591][  0]LogContentValidation: Adding native validator /Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.21-12.40.57:591][  0]LogContentValidation: Adding native validator /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.21-12.40.57:591][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.10.21-12.40.57:595][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.10.21-12.40.57:595][  0]LogPython: Using Python 3.11.8
+[2026.10.21-12.40.57:613][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.21-12.40.57:989][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.10.21-12.40.58:007][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.21-12.40.58:025][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 17.646 ms
+[2026.10.21-12.40.58:025][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.21-12.40.58:034][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.10.21-12.40.58:048][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 22.929 ms (total: 40.575 ms)
+[2026.10.21-12.40.58:048][  0]LogPython: Python enabled via IPythonScriptPlugin::ForceEnablePythonAtRuntime: D:\build\++UE5\Sync\Engine\Plugins\Experimental\PythonScriptPlugin\Source\PythonScriptPlugin\Private\PythonScriptCommandlet.cpp(40:30) int __cdecl UPythonScriptCommandlet::Main(const class FString &)
+[2026.10.21-12.40.58:048][  0]LogPythonScriptCommandlet: Display: Running Python script: D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py
+[2026.10.21-12.40.58:058][  0]Interchange.FeatureFlags.Import.FBX = "false"
+[2026.10.21-12.40.58:059][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Grass (0xA6ADE6CE80891307) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:059][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Grass'
+[2026.10.21-12.40.58:091][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.21-12.40.58:117][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.10.21-12.40.58:118][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:118][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Grass
+[2026.10.21-12.40.58:119][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Grass
+[2026.10.21-12.40.58:119][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_GrassAF61A7B143A7087433557F92EF740909.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Grass.uasset'
+[2026.10.21-12.40.58:120][  0]LogSourceControl: Uncontrolled asset discovery started...
+[2026.10.21-12.40.58:121][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.287 ms
+[2026.10.21-12.40.58:121][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_GrassLight (0xCEB21747608AA470) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:121][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_GrassLight'
+[2026.10.21-12.40.58:134][  0]LogSourceControl: Uncontrolled asset discovery finished in 0.013489 seconds (Found 197 uncontrolled assets)
+[2026.10.21-12.40.58:140][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.40.58:156][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:157][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:157][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_GrassLight
+[2026.10.21-12.40.58:158][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_GrassLight
+[2026.10.21-12.40.58:158][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_GrassLight2FFA142F4EB2ED3AD97081A0D7C92D28.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_GrassLight.uasset'
+[2026.10.21-12.40.58:158][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.931 ms (total: 5.218 ms)
+[2026.10.21-12.40.58:158][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Earth (0x1B7396E442496CE6) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:158][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Earth'
+[2026.10.21-12.40.58:177][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.21-12.40.58:193][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:193][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:193][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Earth
+[2026.10.21-12.40.58:194][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Earth
+[2026.10.21-12.40.58:194][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_EarthD89E6A2C4268973FD1672DA75D4385A3.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Earth.uasset'
+[2026.10.21-12.40.58:195][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.818 ms (total: 7.037 ms)
+[2026.10.21-12.40.58:195][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Rock (0x6D8521C719476A6F) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:195][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Rock'
+[2026.10.21-12.40.58:213][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.21-12.40.58:236][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.58:236][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:237][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Rock
+[2026.10.21-12.40.58:245][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Rock
+[2026.10.21-12.40.58:245][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_RockB725896C421190115BDF0C88851D5825.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Rock.uasset'
+[2026.10.21-12.40.58:246][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.086 ms (total: 16.124 ms)
+[2026.10.21-12.40.58:246][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_RockLight (0x8149AA4E89F9148D) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:246][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_RockLight'
+[2026.10.21-12.40.58:265][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.21-12.40.58:290][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:291][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:291][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_RockLight
+[2026.10.21-12.40.58:292][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_RockLight
+[2026.10.21-12.40.58:292][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_RockLight35042D79435CD01FA0A9ABB6D877528A.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_RockLight.uasset'
+[2026.10.21-12.40.58:293][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.824 ms (total: 17.948 ms)
+[2026.10.21-12.40.58:293][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Ballast (0xCFC11D64542EF0BF) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:293][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Ballast'
+[2026.10.21-12.40.58:310][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.40.58:325][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.10.21-12.40.58:325][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:325][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Ballast
+[2026.10.21-12.40.58:327][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Ballast
+[2026.10.21-12.40.58:327][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Ballast18EE902E447394CD70CA86BDDEB6AC86.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Ballast.uasset'
+[2026.10.21-12.40.58:327][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.303 ms (total: 20.251 ms)
+[2026.10.21-12.40.58:327][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Trail (0xE404A099704DACF7) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:328][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Trail'
+[2026.10.21-12.40.58:356][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.10.21-12.40.58:380][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.21-12.40.58:380][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:380][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Trail
+[2026.10.21-12.40.58:382][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Trail
+[2026.10.21-12.40.58:382][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Trail56985EBB484EA7FAD55A40AC060DCC90.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Trail.uasset'
+[2026.10.21-12.40.58:382][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.058 ms (total: 22.310 ms)
+[2026.10.21-12.40.58:382][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Paving (0x70717E24C4955761) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:383][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Paving'
+[2026.10.21-12.40.58:405][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.21-12.40.58:426][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.10.21-12.40.58:426][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:426][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Paving
+[2026.10.21-12.40.58:428][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Paving
+[2026.10.21-12.40.58:428][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_PavingC690A222444EA3A7D631629636E8FC28.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Paving.uasset'
+[2026.10.21-12.40.58:428][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.197 ms (total: 24.508 ms)
+[2026.10.21-12.40.58:428][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_EdgeStone (0x2D66F9AFA049725) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:429][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_EdgeStone'
+[2026.10.21-12.40.58:445][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.10.21-12.40.58:462][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:462][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:462][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_EdgeStone
+[2026.10.21-12.40.58:464][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_EdgeStone
+[2026.10.21-12.40.58:464][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_EdgeStoneFD51F4884CAA80015403D58DD3F11B7F.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_EdgeStone.uasset'
+[2026.10.21-12.40.58:464][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.898 ms (total: 26.406 ms)
+[2026.10.21-12.40.58:464][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Plaster (0x762C1DF808CBA3CF) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:465][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Plaster'
+[2026.10.21-12.40.58:485][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.10.21-12.40.58:500][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:501][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:501][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Plaster
+[2026.10.21-12.40.58:502][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Plaster
+[2026.10.21-12.40.58:502][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Plaster77AD0926410D101C25CC00BB2D3A64C0.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Plaster.uasset'
+[2026.10.21-12.40.58:503][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.100 ms (total: 28.507 ms)
+[2026.10.21-12.40.58:503][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Timber (0x34C9FA68CB997C1F) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:503][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Timber'
+[2026.10.21-12.40.58:521][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.21-12.40.58:537][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.10.21-12.40.58:537][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:537][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Timber
+[2026.10.21-12.40.58:541][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Timber
+[2026.10.21-12.40.58:541][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Timber27EEB3584FE5DDBA6FEFA3AC2DF56493.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Timber.uasset'
+[2026.10.21-12.40.58:541][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.246 ms (total: 32.753 ms)
+[2026.10.21-12.40.58:541][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Wood (0xB3750508429C8387) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:542][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Wood'
+[2026.10.21-12.40.58:560][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.10.21-12.40.58:577][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.58:578][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:578][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Wood
+[2026.10.21-12.40.58:579][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Wood
+[2026.10.21-12.40.58:579][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Wood18A0A1E2414B3D693FCE9EADC63A9CEE.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Wood.uasset'
+[2026.10.21-12.40.58:579][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.762 ms (total: 34.515 ms)
+[2026.10.21-12.40.58:580][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Roof (0xBC86AB4E9DF0B218) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:580][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Roof'
+[2026.10.21-12.40.58:602][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.10.21-12.40.58:620][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.10.21-12.40.58:621][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:621][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Roof
+[2026.10.21-12.40.58:623][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Roof
+[2026.10.21-12.40.58:623][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_RoofE44D010F4B93208A6C9B35892F38AC22.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Roof.uasset'
+[2026.10.21-12.40.58:623][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.286 ms (total: 36.801 ms)
+[2026.10.21-12.40.58:623][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_RoofSeam (0x5F0513CD155956D4) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:624][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_RoofSeam'
+[2026.10.21-12.40.58:641][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.10.21-12.40.58:658][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.10.21-12.40.58:659][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:659][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_RoofSeam
+[2026.10.21-12.40.58:660][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_RoofSeam
+[2026.10.21-12.40.58:660][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_RoofSeam4BAE67DE47D53D0BE25D089668006283.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_RoofSeam.uasset'
+[2026.10.21-12.40.58:661][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.942 ms (total: 38.744 ms)
+[2026.10.21-12.40.58:661][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Metal (0xAFB2A447AC0636FE) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:661][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Metal'
+[2026.10.21-12.40.58:679][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.21-12.40.58:694][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.40.58:694][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:695][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Metal
+[2026.10.21-12.40.58:696][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Metal
+[2026.10.21-12.40.58:696][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_MetalF5171B4D458929C7E1ADE3ABD3951E9E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Metal.uasset'
+[2026.10.21-12.40.58:697][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.007 ms (total: 40.751 ms)
+[2026.10.21-12.40.58:697][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Rail (0xC56EE1303991D786) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:697][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Rail'
+[2026.10.21-12.40.58:714][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.21-12.40.58:729][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.10.21-12.40.58:729][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:729][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Rail
+[2026.10.21-12.40.58:731][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Rail
+[2026.10.21-12.40.58:731][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_RailA890440D4D2FD4A24A3561840337ED13.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Rail.uasset'
+[2026.10.21-12.40.58:731][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.935 ms (total: 42.686 ms)
+[2026.10.21-12.40.58:731][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Glass (0xF711E8F880A35310) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:731][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Glass'
+[2026.10.21-12.40.58:748][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.10.21-12.40.58:763][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.58:763][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:764][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Glass
+[2026.10.21-12.40.58:765][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Glass
+[2026.10.21-12.40.58:765][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Glass688E4A9342D754695CCE208B94C51362.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Glass.uasset'
+[2026.10.21-12.40.58:766][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.171 ms (total: 44.857 ms)
+[2026.10.21-12.40.58:766][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Cream (0x755BC00AD0F1D321) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:766][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Cream'
+[2026.10.21-12.40.58:782][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.10.21-12.40.58:798][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:798][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:798][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Cream
+[2026.10.21-12.40.58:799][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Cream
+[2026.10.21-12.40.58:799][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Cream444148454DB36B7DA07658B59669F0BE.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Cream.uasset'
+[2026.10.21-12.40.58:800][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.758 ms (total: 46.616 ms)
+[2026.10.21-12.40.58:800][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Amber (0x34BB6F88CA661020) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:800][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Amber'
+[2026.10.21-12.40.58:816][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.10.21-12.40.58:830][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.58:831][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:831][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Amber
+[2026.10.21-12.40.58:832][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Amber
+[2026.10.21-12.40.58:832][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_AmberBAA21B4C4D1F3F596F06DFB260D64AC8.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Amber.uasset'
+[2026.10.21-12.40.58:833][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.216 ms (total: 48.832 ms)
+[2026.10.21-12.40.58:833][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Pine (0x1A739A5B951B59B0) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:833][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Pine'
+[2026.10.21-12.40.58:849][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.40.58:864][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.58:865][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:865][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Pine
+[2026.10.21-12.40.58:866][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Pine
+[2026.10.21-12.40.58:866][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Pine426CAD7247780A2A9FE0D39622EEC97A.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Pine.uasset'
+[2026.10.21-12.40.58:866][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.790 ms (total: 50.623 ms)
+[2026.10.21-12.40.58:866][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_PineLight (0xE178124422E7CD6A) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:867][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_PineLight'
+[2026.10.21-12.40.58:885][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.21-12.40.58:900][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.10.21-12.40.58:901][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:901][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_PineLight
+[2026.10.21-12.40.58:902][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_PineLight
+[2026.10.21-12.40.58:902][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_PineLight2C32223841D8F7883EED6ABC0FB5705D.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_PineLight.uasset'
+[2026.10.21-12.40.58:903][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.138 ms (total: 52.761 ms)
+[2026.10.21-12.40.58:903][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Bush (0x606EF939ED8DE17B) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:903][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Bush'
+[2026.10.21-12.40.58:920][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.40.58:935][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.40.58:935][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:935][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Bush
+[2026.10.21-12.40.58:937][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Bush
+[2026.10.21-12.40.58:937][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Bush6F72E5354F283FF1E1390FAF8984A057.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Bush.uasset'
+[2026.10.21-12.40.58:937][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.959 ms (total: 54.721 ms)
+[2026.10.21-12.40.58:937][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Red (0x5B8B9EDD6BB25E3D) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:937][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Red'
+[2026.10.21-12.40.58:953][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.10.21-12.40.58:969][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.58:969][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.58:969][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Red
+[2026.10.21-12.40.58:971][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Red
+[2026.10.21-12.40.58:971][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_RedB3FA1DBC494C0680F9F89B974A683478.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Red.uasset'
+[2026.10.21-12.40.58:971][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.836 ms (total: 56.557 ms)
+[2026.10.21-12.40.58:971][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Cargo (0x2DF341C66E27BE27) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.58:971][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Cargo'
+[2026.10.21-12.40.58:987][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.21-12.40.59:002][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.59:002][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.59:002][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Cargo
+[2026.10.21-12.40.59:004][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Cargo
+[2026.10.21-12.40.59:004][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Cargo0476F60B4142BD5FB89A1B824A0059BC.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Cargo.uasset'
+[2026.10.21-12.40.59:004][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.877 ms (total: 58.435 ms)
+[2026.10.21-12.40.59:004][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Dark (0x3EE7DFC235C7E501) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.59:005][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Dark'
+[2026.10.21-12.40.59:021][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.21-12.40.59:037][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.40.59:037][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.59:037][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Dark
+[2026.10.21-12.40.59:039][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Dark
+[2026.10.21-12.40.59:039][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Dark90E26D20453754A8D9E3EC83D71C1A4E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Dark.uasset'
+[2026.10.21-12.40.59:039][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.061 ms (total: 60.496 ms)
+[2026.10.21-12.40.59:039][  0]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Flowers (0x1F22B4FBB81451F0) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.40.59:039][  0]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Flowers'
+[2026.10.21-12.40.59:056][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.10.21-12.40.59:070][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.40.59:070][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.59:070][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Flowers
+[2026.10.21-12.40.59:072][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Flowers
+[2026.10.21-12.40.59:072][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_FlowersB868B8D24A2B1EEAB02C018412750556.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Flowers.uasset'
+[2026.10.21-12.40.59:072][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.910 ms (total: 62.407 ms)
+[2026.10.21-12.40.59:148][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Cargo.fbx)
+[2026.10.21-12.40.59:153][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Cargo.fbx
+[2026.10.21-12.40.59:161][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.40.59:163][  0]LogFbx: Display: Triangulating static mesh Cargo
+[2026.10.21-12.40.59:517][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.40.59:682][  0]LogStaticMesh: Built static mesh [0.17s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.40.59:765][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.40.59:765][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Cargo
+[2026.10.21-12.40.59:787][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.40.59:802][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Cargo
+[2026.10.21-12.40.59:802][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Cargo56A3897247FA692C07E9C4A1351B6F3B.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Cargo.uasset'
+[2026.10.21-12.40.59:803][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.055 ms (total: 100.462 ms)
+[2026.10.21-12.40.59:834][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.40.59:866][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.41.00:349][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.41.00:581][  0]LogStaticMesh: Built static mesh [0.74s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.41.00:610][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.41.00:629][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.41.00:782][  0]LogStaticMesh: Built static mesh [0.17s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.41.00:809][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.41.00:829][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.41.00:982][  0]LogStaticMesh: Built static mesh [0.17s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.41.01:012][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.41.01:033][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.41.01:206][  0]LogStaticMesh: Built static mesh [0.20s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.41.01:238][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.41.01:265][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.41.01:466][  0]LogStaticMesh: Built static mesh [0.23s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.41.01:495][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 38.245815 MB)...
+[2026.10.21-12.41.01:514][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Cargo) ...
+[2026.10.21-12.41.01:699][  0]LogStaticMesh: Built static mesh [0.20s] /Game/MountainStation/xhigh/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.41.01:735][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.01:735][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Cargo
+[2026.10.21-12.41.01:753][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Cargo
+[2026.10.21-12.41.01:753][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Cargo50C830D4437C0E6BE08ECF831CB75760.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Cargo.uasset'
+[2026.10.21-12.41.01:754][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 19.143 ms (total: 119.605 ms)
+[2026.10.21-12.41.01:763][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/LandscapeDetails.fbx)
+[2026.10.21-12.41.01:773][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/LandscapeDetails.fbx
+[2026.10.21-12.41.01:817][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.01:820][  0]LogFbx: Display: Triangulating static mesh LandscapeDetails
+[2026.10.21-12.41.05:212][  0]LogStaticMesh: Display: Building static mesh SM_LandscapeDetails (Required Memory Estimate: 258.108184 MB)...
+[2026.10.21-12.41.05:778][  0]LogStaticMesh: Built static mesh [0.57s] /Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails.SM_LandscapeDetails
+[2026.10.21-12.41.06:001][  0]LogStaticMesh: Display: SM_LandscapeDetails has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.41.06:002][  0]LogStaticMesh: Display: SM_LandscapeDetails has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.41.06:004][  0]FBXImport: Warning: SM_LandscapeDetails has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.41.06:004][  0]FBXImport: Warning: SM_LandscapeDetails has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.41.06:009][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.06:009][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails
+[2026.10.21-12.41.06:030][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.06:245][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails
+[2026.10.21-12.41.06:245][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_LandscapeDetails89259FE14873EF5F1A75D4930AD5381F.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_LandscapeDetails.uasset'
+[2026.10.21-12.41.06:245][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 237.352 ms (total: 356.958 ms)
+[2026.10.21-12.41.06:280][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.06:483][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.06:701][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.06:919][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.07:169][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.07:403][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.07:650][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails) ...
+[2026.10.21-12.41.07:847][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.07:847][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails
+[2026.10.21-12.41.07:888][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails
+[2026.10.21-12.41.07:888][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_LandscapeDetails3C3A739B4CE974490CEFD8A0D020C3AD.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_LandscapeDetails.uasset'
+[2026.10.21-12.41.07:889][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.973 ms (total: 398.931 ms)
+[2026.10.21-12.41.07:891][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Paths.fbx)
+[2026.10.21-12.41.07:894][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Paths.fbx
+[2026.10.21-12.41.07:897][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.07:898][  0]LogFbx: Display: Triangulating static mesh Paths
+[2026.10.21-12.41.07:929][  0]LogStaticMesh: Display: Building static mesh SM_Paths (Required Memory Estimate: 2.058619 MB)...
+[2026.10.21-12.41.07:935][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/xhigh/Meshes/SM_Paths.SM_Paths
+[2026.10.21-12.41.07:940][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.07:940][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Paths
+[2026.10.21-12.41.07:944][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Paths
+[2026.10.21-12.41.07:944][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_PathsC52464114AB0B4C0E61B1CBBEBA3F674.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Paths.uasset'
+[2026.10.21-12.41.07:945][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.503 ms (total: 403.434 ms)
+[2026.10.21-12.41.07:950][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.07:950][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Paths
+[2026.10.21-12.41.07:953][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Paths
+[2026.10.21-12.41.07:953][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Paths3EDFEAEE4946E6B6169A678D43A7BC5C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Paths.uasset'
+[2026.10.21-12.41.07:953][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.780 ms (total: 406.215 ms)
+[2026.10.21-12.41.07:956][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Platform.fbx)
+[2026.10.21-12.41.07:959][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Platform.fbx
+[2026.10.21-12.41.07:965][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.07:967][  0]LogFbx: Display: Triangulating static mesh Platform
+[2026.10.21-12.41.08:196][  0]LogStaticMesh: Display: Building static mesh SM_Platform (Required Memory Estimate: 20.128238 MB)...
+[2026.10.21-12.41.08:337][  0]LogStaticMesh: Built static mesh [0.14s] /Game/MountainStation/xhigh/Meshes/SM_Platform.SM_Platform
+[2026.10.21-12.41.08:358][  0]LogStaticMesh: Display: SM_Platform has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2026.10.21-12.41.08:358][  0]LogStaticMesh: Display: SM_Platform has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.41.08:361][  0]FBXImport: Warning: SM_Platform has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2026.10.21-12.41.08:361][  0]FBXImport: Warning: SM_Platform has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.41.08:364][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.08:364][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Platform
+[2026.10.21-12.41.08:388][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Platform
+[2026.10.21-12.41.08:388][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_PlatformECD0C12641603EC15EAC728AB2CA171B.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Platform.uasset'
+[2026.10.21-12.41.08:388][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 24.211 ms (total: 430.426 ms)
+[2026.10.21-12.41.08:467][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Platform) ...
+[2026.10.21-12.41.08:486][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.08:486][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Platform
+[2026.10.21-12.41.08:501][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Platform
+[2026.10.21-12.41.08:501][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_PlatformFFCD48F540BC21C2A7B929BCB2BB0A8C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Platform.uasset'
+[2026.10.21-12.41.08:502][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 14.888 ms (total: 445.315 ms)
+[2026.10.21-12.41.08:508][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Props.fbx)
+[2026.10.21-12.41.08:517][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Props.fbx
+[2026.10.21-12.41.08:546][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.08:549][  0]LogFbx: Display: Triangulating static mesh Props
+[2026.10.21-12.41.10:396][  0]LogStaticMesh: Display: Building static mesh SM_Props (Required Memory Estimate: 201.317118 MB)...
+[2026.10.21-12.41.10:749][  0]LogStaticMesh: Built static mesh [0.35s] /Game/MountainStation/xhigh/Meshes/SM_Props.SM_Props
+[2026.10.21-12.41.10:889][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.10:889][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Props
+[2026.10.21-12.41.10:913][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:046][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Props
+[2026.10.21-12.41.11:046][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Props363A655042F3E7276716A8942251081A.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Props.uasset'
+[2026.10.21-12.41.11:046][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.291 ms (total: 603.606 ms)
+[2026.10.21-12.41.11:070][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:243][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:385][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:527][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:669][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:810][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.11:936][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Props) ...
+[2026.10.21-12.41.12:056][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.12:056][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Props
+[2026.10.21-12.41.12:086][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Props
+[2026.10.21-12.41.12:087][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Props52FEAE0C43106296D9D9C88C98307C24.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Props.uasset'
+[2026.10.21-12.41.12:087][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 31.241 ms (total: 634.847 ms)
+[2026.10.21-12.41.12:093][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Railway.fbx)
+[2026.10.21-12.41.12:099][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Railway.fbx
+[2026.10.21-12.41.12:122][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.12:125][  0]LogFbx: Display: Triangulating static mesh Railway
+[2026.10.21-12.41.13:492][  0]LogStaticMesh: Display: Building static mesh SM_Railway (Required Memory Estimate: 148.958783 MB)...
+[2026.10.21-12.41.17:758][  0]LogZenServiceInstance: Warning: Unable to reach Unreal Zen Storage Server HTTP service at http://[::1]:8558. Status: 0. Response: 
+[2026.10.21-12.41.17:758][  0]LogZenServiceInstance: Display: Local ZenServer recovery being attempted...
+[2026.10.21-12.41.17:758][  0]LogZenServiceInstance: Display: Successfully shut down zenserver process with pid 51024
+[2026.10.21-12.41.17:758][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2026.10.21-12.41.17:758][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir C:\Users\blendue\AppData\Local\UnrealEngine\Common\Zen\Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --http-forceloopback --owner-pid 58276  --child-id Zen_58276_Startup'
+[2026.10.21-12.41.18:687][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.21-12.41.18:687][  0]LogZenServiceInstance: Display: Local ZenServer recovery finished.
+[2026.10.21-12.41.18:687][  0]LogZenServiceInstance: Display: Local ZenServer post recovery status: Healthy
+[2026.10.21-12.41.18:690][  0]LogStaticMesh: Built static mesh [5.20s] /Game/MountainStation/xhigh/Meshes/SM_Railway.SM_Railway
+[2026.10.21-12.41.18:844][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.18:844][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Railway
+[2026.10.21-12.41.18:864][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Railway) ...
+[2026.10.21-12.41.19:009][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Railway
+[2026.10.21-12.41.19:009][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Railway091583964483398C8AB701BBA33D3A4C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Railway.uasset'
+[2026.10.21-12.41.19:010][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.875 ms (total: 800.723 ms)
+[2026.10.21-12.41.19:037][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Railway) ...
+[2026.10.21-12.41.19:195][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Railway) ...
+[2026.10.21-12.41.19:320][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Railway) ...
+[2026.10.21-12.41.19:445][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Railway) ...
+[2026.10.21-12.41.19:585][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Railway) ...
+[2026.10.21-12.41.19:692][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.19:692][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Railway
+[2026.10.21-12.41.19:717][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Railway
+[2026.10.21-12.41.19:718][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Railway0F8DAA47431A0B5CA272EC9C0516B9FA.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Railway.uasset'
+[2026.10.21-12.41.19:718][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 25.686 ms (total: 826.409 ms)
+[2026.10.21-12.41.19:722][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Station.fbx)
+[2026.10.21-12.41.19:727][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Station.fbx
+[2026.10.21-12.41.19:741][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.19:744][  0]LogFbx: Display: Triangulating static mesh Station
+[2026.10.21-12.41.20:808][  0]LogStaticMesh: Display: Building static mesh SM_Station (Required Memory Estimate: 88.113058 MB)...
+[2026.10.21-12.41.21:359][  0]LogStaticMesh: Built static mesh [0.55s] /Game/MountainStation/xhigh/Meshes/SM_Station.SM_Station
+[2026.10.21-12.41.21:440][  0]LogStaticMesh: Display: SM_Station has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2026.10.21-12.41.21:440][  0]LogStaticMesh: Display: SM_Station has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.41.21:443][  0]FBXImport: Warning: SM_Station has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2026.10.21-12.41.21:443][  0]FBXImport: Warning: SM_Station has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.41.21:463][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.21:463][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Station
+[2026.10.21-12.41.21:493][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:554][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Station
+[2026.10.21-12.41.21:554][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Station4CD02E2045071B78512E72BE94E18392.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Station.uasset'
+[2026.10.21-12.41.21:555][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.112 ms (total: 918.522 ms)
+[2026.10.21-12.41.21:588][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:651][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:714][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:792][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:855][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:934][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.21:997][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.22:073][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.22:152][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.22:231][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.22:308][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.22:386][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/xhigh/Meshes/SM_Station) ...
+[2026.10.21-12.41.22:425][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.22:425][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Station
+[2026.10.21-12.41.22:442][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Station
+[2026.10.21-12.41.22:442][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_StationDA24644E4693AE5FC99B1DA525E27539.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Station.uasset'
+[2026.10.21-12.41.22:443][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 17.313 ms (total: 935.836 ms)
+[2026.10.21-12.41.22:445][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Terrain.fbx)
+[2026.10.21-12.41.22:448][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Terrain.fbx
+[2026.10.21-12.41.22:455][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.22:457][  0]LogFbx: Display: Triangulating static mesh Terrain
+[2026.10.21-12.41.22:792][  0]LogStaticMesh: Display: Building static mesh SM_Terrain (Required Memory Estimate: 32.08759 MB)...
+[2026.10.21-12.41.22:855][  0]LogStaticMesh: Built static mesh [0.06s] /Game/MountainStation/xhigh/Meshes/SM_Terrain.SM_Terrain
+[2026.10.21-12.41.22:878][  0]LogStaticMesh: Display: SM_Terrain has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2026.10.21-12.41.22:878][  0]LogStaticMesh: Display: SM_Terrain has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.41.22:880][  0]FBXImport: Warning: SM_Terrain has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2026.10.21-12.41.22:881][  0]FBXImport: Warning: SM_Terrain has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.41.22:924][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.22:924][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Terrain
+[2026.10.21-12.41.22:952][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Terrain
+[2026.10.21-12.41.22:952][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_TerrainDBB50F0B4A60F8A03D853CA8C600F4CF.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Terrain.uasset'
+[2026.10.21-12.41.22:952][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 27.966 ms (total: 963.802 ms)
+[2026.10.21-12.41.22:997][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.22:997][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Terrain
+[2026.10.21-12.41.23:005][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Terrain
+[2026.10.21-12.41.23:005][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_TerrainAB0587B44D4B0AF52CC64B97FCD25ABA.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Terrain.uasset'
+[2026.10.21-12.41.23:006][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.694 ms (total: 972.497 ms)
+[2026.10.21-12.41.23:009][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Tunnel.fbx)
+[2026.10.21-12.41.23:012][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/SourceArt/Tunnel.fbx
+[2026.10.21-12.41.23:017][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.41.23:019][  0]LogFbx: Display: Triangulating static mesh Tunnel
+[2026.10.21-12.41.23:180][  0]LogStaticMesh: Display: Building static mesh SM_Tunnel (Required Memory Estimate: 16.55134 MB)...
+[2026.10.21-12.41.23:259][  0]LogStaticMesh: Built static mesh [0.08s] /Game/MountainStation/xhigh/Meshes/SM_Tunnel.SM_Tunnel
+[2026.10.21-12.41.23:439][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.23:439][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Tunnel
+[2026.10.21-12.41.23:459][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Tunnel
+[2026.10.21-12.41.23:459][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_TunnelC12726D546885C86FC37DF89B5EE4276.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Tunnel.uasset'
+[2026.10.21-12.41.23:460][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 20.406 ms (total: 992.904 ms)
+[2026.10.21-12.41.23:542][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.23:542][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Meshes/SM_Tunnel
+[2026.10.21-12.41.23:546][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Meshes/SM_Tunnel
+[2026.10.21-12.41.23:547][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SM_Tunnel7FD0D0734DCECFD79DA8568667CB58F6.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Meshes/SM_Tunnel.uasset'
+[2026.10.21-12.41.23:547][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.498 ms (total: 998.402 ms)
+[2026.10.21-12.41.23:548][  0]LogPython: Warning: D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py:55: DeprecationWarning: EditorLevelLibrary: Function 'new_level' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Level Editor Subsystem
+  if not u.EditorLevelLibrary.new_level(MAP):raise RuntimeError('Could not create conventional level')
+
+[2026.10.21-12.41.23:573][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.21-12.41.23:578][  0]LogSavePackage: Moving output files for package: /Game/Maps/MountainStation_xhigh
+[2026.10.21-12.41.23:578][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/MountainStation_xhighAACB3437423B7A8D02B3C5B9172EB0BE.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/Maps/MountainStation_xhigh.umap'
+[2026.10.21-12.41.23:579][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Intermediate/CachedAssetRegistry_*.bin.
+[2026.10.21-12.41.23:580][  0]LogFileHelpers: Saving map 'MountainStation_xhigh' took 0.005
+[2026.10.21-12.41.23:581][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:582][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:582][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:582][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:582][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:582][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:583][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:583][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:583][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:583][  0]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.10.21-12.41.23:583][  0]LogEditor: Attempting to add actor of class 'ScreenDebugLogger' to level at -3800.00,-300.00,120.00
+[2026.10.21-12.41.23:583][  0]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.10.21-12.41.23:583][  0]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.PlayerStart_0
+[2026.10.21-12.41.23:583][  0]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.10.21-12.41.23:584][  0]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.10.21-12.41.23:585][  0]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.DirectionalLight_0
+[2026.10.21-12.41.23:586][  0]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.10.21-12.41.23:586][  0]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.SkyLight_0
+[2026.10.21-12.41.23:608][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.21-12.41.23:623][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.10.21-12.41.23:624][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.41.23:624][  0]LogFileHelpers: Saving Package: /Game/MountainStation/xhigh/Materials/M_Backdrop
+[2026.10.21-12.41.23:625][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/xhigh/Materials/M_Backdrop
+[2026.10.21-12.41.23:625][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/M_Backdrop9694038C43749E8EF586A6BDC1C880E6.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/MountainStation/xhigh/Materials/M_Backdrop.uasset'
+[2026.10.21-12.41.23:625][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.744 ms (total: 1.00 sec)
+[2026.10.21-12.41.23:625][  0]LogEditor: Attempting to add actor of class 'StaticMeshActor' to level at 0.00,0.00,0.00
+[2026.10.21-12.41.23:626][  0]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2026.10.21-12.41.23:626][  0]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/Maps/MountainStation_xhigh.MountainStation_xhigh:PersistentLevel.PostProcessVolume_0
+[2026.10.21-12.41.23:627][  0]LogPython: Warning: D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py:87: DeprecationWarning: EditorLevelLibrary: Function 'get_editor_world' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  world=u.EditorLevelLibrary.get_editor_world();ws=world.get_world_settings();ws.set_editor_property('force_no_precomputed_lighting',True)
+
+[2026.10.21-12.41.23:628][  0]Message dialog closed, result: Ok, title: Message, text: bForceNoPrecomputedLighting is now enabled, build lighting once to propagate the change (will remove existing precomputed lighting data).
+[2026.10.21-12.41.23:628][  0]LogPython: Warning: D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py:88: DeprecationWarning: EditorLevelLibrary: Function 'set_level_viewport_camera_info' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  u.EditorLevelLibrary.set_level_viewport_camera_info(u.Vector(12000,-12000,16000),u.MathLibrary.find_look_at_rotation(u.Vector(12000,-12000,16000),u.Vector(0,0,0)))
+
+[2026.10.21-12.41.23:628][  0]LogPython: Warning: D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/build_scene.py:89: DeprecationWarning: EditorLevelLibrary: Function 'save_current_level' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Level Editor Subsystem
+  if not u.EditorLevelLibrary.save_current_level():raise RuntimeError('Map save failed')
+
+[2026.10.21-12.41.23:629][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Maps/MountainStation_xhigh
+[2026.10.21-12.41.23:632][  0]LogSavePackage: Moving output files for package: /Game/Maps/MountainStation_xhigh
+[2026.10.21-12.41.23:632][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/MountainStation_xhighA9C31E804B0B5CEABE74AB9866E488C2.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Content/Maps/MountainStation_xhigh.umap'
+[2026.10.21-12.41.23:637][  0]LogFileHelpers: All files are already saved.
+[2026.10.21-12.41.23:638][  0]LogPython: ALDER_BUILD_SUCCESS
+
+[2026.10.21-12.41.23:642][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.21-12.41.23:642][  0]LogCore: Engine exit requested (reason: Commandlet PythonScriptCommandlet_0 finished execution (result 0))
+[2026.10.21-12.41.23:642][  0]LogInit: Display: 
+[2026.10.21-12.41.23:642][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.21-12.41.23:642][  0]LogInit: Display: -----------------------------------
+[2026.10.21-12.41.23:642][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Grass (0xA6ADE6CE80891307) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:643][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Grass'
+[2026.10.21-12.41.23:643][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_GrassLight (0xCEB21747608AA470) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:643][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_GrassLight'
+[2026.10.21-12.41.23:643][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Earth (0x1B7396E442496CE6) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:643][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Earth'
+[2026.10.21-12.41.23:644][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Rock (0x6D8521C719476A6F) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:644][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Rock'
+[2026.10.21-12.41.23:644][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_RockLight (0x8149AA4E89F9148D) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:644][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_RockLight'
+[2026.10.21-12.41.23:644][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Ballast (0xCFC11D64542EF0BF) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:645][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Ballast'
+[2026.10.21-12.41.23:645][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Trail (0xE404A099704DACF7) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:645][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Trail'
+[2026.10.21-12.41.23:645][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Paving (0x70717E24C4955761) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:645][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Paving'
+[2026.10.21-12.41.23:646][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_EdgeStone (0x2D66F9AFA049725) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:646][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_EdgeStone'
+[2026.10.21-12.41.23:646][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Plaster (0x762C1DF808CBA3CF) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:646][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Plaster'
+[2026.10.21-12.41.23:646][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Timber (0x34C9FA68CB997C1F) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:647][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Timber'
+[2026.10.21-12.41.23:647][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Wood (0xB3750508429C8387) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:647][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Wood'
+[2026.10.21-12.41.23:647][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Roof (0xBC86AB4E9DF0B218) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:647][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Roof'
+[2026.10.21-12.41.23:648][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_RoofSeam (0x5F0513CD155956D4) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:648][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_RoofSeam'
+[2026.10.21-12.41.23:648][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Metal (0xAFB2A447AC0636FE) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:648][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Metal'
+[2026.10.21-12.41.23:648][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Rail (0xC56EE1303991D786) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:649][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Rail'
+[2026.10.21-12.41.23:649][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Glass (0xF711E8F880A35310) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:649][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Glass'
+[2026.10.21-12.41.23:649][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Cream (0x755BC00AD0F1D321) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:650][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Cream'
+[2026.10.21-12.41.23:650][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Amber (0x34BB6F88CA661020) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:650][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Amber'
+[2026.10.21-12.41.23:650][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Pine (0x1A739A5B951B59B0) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:652][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Pine'
+[2026.10.21-12.41.23:655][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_PineLight (0xE178124422E7CD6A) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:669][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_PineLight'
+[2026.10.21-12.41.23:669][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Bush (0x606EF939ED8DE17B) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:673][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Bush'
+[2026.10.21-12.41.23:674][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Red (0x5B8B9EDD6BB25E3D) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:674][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Red'
+[2026.10.21-12.41.23:674][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Cargo (0x2DF341C66E27BE27) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:674][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Cargo'
+[2026.10.21-12.41.23:674][  0]LogInit: Display: LogStreaming: Warning: LoadPackage: SkipPackage: /Game/MountainStation/xhigh/Materials/M_Dark (0x3EE7DFC235C7E501) - The package to load does not exist on disk or in the loader
+[2026.10.21-12.41.23:675][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/MountainStation/xhigh/Materials/M_Dark'
+[2026.10.21-12.41.23:675][  0]LogInit: Display: NOTE: Only first 50 warnings displayed.
+[2026.10.21-12.41.23:675][  0]LogInit: Display: 
+[2026.10.21-12.41.23:675][  0]LogInit: Display: Success - 0 error(s), 65 warning(s)
+[2026.10.21-12.41.23:675][  0]LogInit: Display: 
+Execution of commandlet took:  25.64 seconds
+[2026.10.21-12.41.23:675][  0]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.21-12.41.23:675][  0]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.21-12.41.23:675][  0]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.21-12.41.23:675][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.21-12.41.23:675][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.21-12.41.23:675][  0]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.21-12.41.23:675][  0]LogExit: Preparing to exit.
+[2026.10.21-12.41.23:675][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.10.21-12.41.23:765][  0]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.21-12.41.23:770][  0]LogExit: Editor shut down
+[2026.10.21-12.41.23:829][  0]LogExit: Object subsystem successfully closed.
+[2026.10.21-12.41.23:956][  0]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.21-12.41.24:002][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/xhigh/Project/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.21-12.41.24:005][  0]LogMemoryProfiler: Shutdown
+[2026.10.21-12.41.24:005][  0]LogNetworkingProfiler: Shutdown
+[2026.10.21-12.41.24:005][  0]LoadingProfiler: Shutdown
+[2026.10.21-12.41.24:005][  0]LogTimingProfiler: Shutdown
+[2026.10.21-12.41.24:005][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.21-12.41.24:005][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.21-12.41.24:024][  0]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.21-12.41.24:024][  0]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.21-12.41.24:037][  0]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.21-12.41.24:037][  0]LogXGEController: Cleaning working directory: C:/Users/blendue/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.10.21-12.41.24:038][  0]LogPakFile: Destroying PakPlatformFile
+[2026.10.21-12.41.24:061][  0]LogExit: Exiting.
+[2026.10.21-12.41.24:068][  0]Log file closed, 10/21/26 21:41:24
