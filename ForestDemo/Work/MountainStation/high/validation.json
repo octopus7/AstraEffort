@@ -1,0 +1,292 @@
+{
+  "validated_at_utc": "2026-10-21T13:03:10.079673+00:00",
+  "validation_seconds": 0.05999922752380371,
+  "map": "/Game/Maps/MountainStation_high",
+  "checks": {
+    "map_reload": true,
+    "owned_game_dependencies": true,
+    "terrain_100m_x": true,
+    "terrain_100m_y": true,
+    "player_start": true,
+    "screen_debug_logger": true,
+    "complex_collision": true,
+    "assemblies_present": true,
+    "dynamic_lighting": true
+  },
+  "passed": true,
+  "terrain_origin_cm": "<Struct 'Vector' (0x0000017D0E8F0CE0) {x: 0.000000, y: 0.000000, z: 482.588081}>",
+  "terrain_extent_cm": "<Struct 'Vector' (0x0000017D0E8F0F10) {x: 5000.000488, y: 5000.000488, z: 717.588066}>",
+  "checked_package_count": 36,
+  "forbidden_dependencies": [],
+  "dependency_graph": {
+    "/Game/MountainStation/high/Materials/M_Flower": [],
+    "/Game/MountainStation/high/Materials/M_Brick": [],
+    "/Game/MountainStation/high/Materials/M_SkyBackdrop": [],
+    "/Game/MountainStation/high/Materials/M_StoneLight": [],
+    "/Game/MountainStation/high/Materials/M_Cream": [],
+    "/Game/MountainStation/high/Materials/M_Roof": [],
+    "/Game/MountainStation/high/Materials/M_Trim": [],
+    "/Game/MountainStation/high/Meshes/SM_Canopy": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim"
+    ],
+    "/Game/MountainStation/high/Materials/M_Gravel": [],
+    "/Game/MountainStation/high/Materials/M_Metal": [],
+    "/Game/MountainStation/high/Meshes/SM_Signs": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Metal"
+    ],
+    "/Game/MountainStation/high/Materials/M_Ochre": [],
+    "/Game/MountainStation/high/Materials/M_RoofEdge": [],
+    "/Game/MountainStation/high/Materials/M_Wood": [],
+    "/Game/MountainStation/high/Meshes/SM_Cargo": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim",
+      "/Game/MountainStation/high/Materials/M_Gravel",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Ochre",
+      "/Game/MountainStation/high/Materials/M_RoofEdge",
+      "/Game/MountainStation/high/Materials/M_Wood"
+    ],
+    "/Game/MountainStation/high/Materials/M_Lamp": [],
+    "/Game/MountainStation/high/Materials/M_LeafLight": [],
+    "/Game/MountainStation/high/Materials/M_Stone": [],
+    "/Game/MountainStation/high/Meshes/SM_Furniture": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Ochre",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_Lamp",
+      "/Game/MountainStation/high/Materials/M_LeafLight",
+      "/Game/MountainStation/high/Materials/M_Stone"
+    ],
+    "/Game/MountainStation/high/Materials/M_Path": [],
+    "/Game/MountainStation/high/Meshes/SM_GroundPaths": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_Path"
+    ],
+    "/Game/MountainStation/high/Meshes/SM_Platform": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Ochre",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Path"
+    ],
+    "/Game/MountainStation/high/Materials/M_Rail": [],
+    "/Game/MountainStation/high/Meshes/SM_Railway": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Gravel",
+      "/Game/MountainStation/high/Materials/M_Metal",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_Rail"
+    ],
+    "/Game/MountainStation/high/Materials/M_Glass": [],
+    "/Game/MountainStation/high/Materials/M_Plaster": [],
+    "/Game/MountainStation/high/Meshes/SM_Station": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_Roof",
+      "/Game/MountainStation/high/Materials/M_Trim",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Materials/M_RoofEdge",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Glass",
+      "/Game/MountainStation/high/Materials/M_Plaster"
+    ],
+    "/Game/MountainStation/high/Materials/M_Earth": [],
+    "/Game/MountainStation/high/Materials/M_Grass": [],
+    "/Game/MountainStation/high/Meshes/SM_Terrain": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Earth",
+      "/Game/MountainStation/high/Materials/M_Grass"
+    ],
+    "/Game/MountainStation/high/Materials/M_Dark": [],
+    "/Game/MountainStation/high/Materials/M_Hill": [],
+    "/Game/MountainStation/high/Meshes/SM_Tunnel": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Cream",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Game/MountainStation/high/Materials/M_Dark",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Hill"
+    ],
+    "/Game/MountainStation/high/Materials/M_Leaf": [],
+    "/Game/MountainStation/high/Meshes/SM_Vegetation": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/high/Materials/M_Wood",
+      "/Game/MountainStation/high/Materials/M_LeafLight",
+      "/Game/MountainStation/high/Materials/M_Stone",
+      "/Game/MountainStation/high/Materials/M_Leaf"
+    ],
+    "/Game/Maps/MountainStation_high": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/BasicShapes/Plane",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/EngineResources/DefaultTextureCube",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/MountainStation/high/Meshes/SM_Canopy",
+      "/Game/MountainStation/high/Meshes/SM_Terrain",
+      "/Game/MountainStation/high/Materials/M_StoneLight",
+      "/Script/ForestDemo",
+      "/Game/MountainStation/high/Materials/M_SkyBackdrop",
+      "/Game/MountainStation/high/Meshes/SM_Cargo",
+      "/Game/MountainStation/high/Meshes/SM_Furniture",
+      "/Game/MountainStation/high/Meshes/SM_GroundPaths",
+      "/Game/MountainStation/high/Meshes/SM_Platform",
+      "/Game/MountainStation/high/Meshes/SM_Railway",
+      "/Game/MountainStation/high/Meshes/SM_Signs",
+      "/Game/MountainStation/high/Meshes/SM_Station",
+      "/Game/MountainStation/high/Meshes/SM_Tunnel",
+      "/Game/MountainStation/high/Meshes/SM_Vegetation"
+    ]
+  },
+  "actors": [
+    {
+      "label": "Terrain",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Terrain.SM_Terrain",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Railway",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Railway.SM_Railway",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Platform",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Platform.SM_Platform",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Station",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Station.SM_Station",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Canopy",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Canopy.SM_Canopy",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Signs",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Signs.SM_Signs",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Tunnel",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Tunnel.SM_Tunnel",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "GroundPaths",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_GroundPaths.SM_GroundPaths",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Cargo",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Cargo.SM_Cargo",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Furniture",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Furniture.SM_Furniture",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Vegetation",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Game/MountainStation/high/Meshes/SM_Vegetation.SM_Vegetation",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "label": "Quiet blue backdrop",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2860) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere"
+    },
+    {
+      "label": "PresentationGround",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F2950) {x: 0.000000, y: 0.000000, z: -160.000000}>",
+      "mesh": "/Engine/BasicShapes/Plane.Plane"
+    },
+    {
+      "label": "Warm afternoon sun",
+      "class": "DirectionalLight",
+      "location": "<Struct 'Vector' (0x0000017D0E8F3120) {x: 0.000000, y: 0.000000, z: 5000.000000}>"
+    },
+    {
+      "label": "Soft mountain skylight",
+      "class": "SkyLight",
+      "location": "<Struct 'Vector' (0x0000017D0E8F3210) {x: 0.000000, y: 0.000000, z: 2000.000000}>"
+    },
+    {
+      "label": "PostProcessVolume",
+      "class": "PostProcessVolume",
+      "location": "<Struct 'Vector' (0x0000017D0E8F0600) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+    },
+    {
+      "label": "Arrival PlayerStart",
+      "class": "PlayerStart",
+      "location": "<Struct 'Vector' (0x0000017D0E8F04C0) {x: -600.000000, y: -3300.000000, z: 120.000000}>"
+    },
+    {
+      "label": "ScreenDebugLogger Hello",
+      "class": "ScreenDebugLogger",
+      "location": "<Struct 'Vector' (0x0000017D0E8F0CE0) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+    },
+    {
+      "label": "Camera_overview",
+      "class": "CameraActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F0CE0) {x: 12000.000000, y: -12000.000000, z: 16000.000000}>"
+    },
+    {
+      "label": "Camera_top_down",
+      "class": "CameraActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F0CE0) {x: 0.000000, y: 0.000000, z: 20000.000000}>"
+    },
+    {
+      "label": "Camera_platform",
+      "class": "CameraActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F0CE0) {x: 1550.000000, y: 220.000000, z: 275.000000}>"
+    },
+    {
+      "label": "Camera_tracks",
+      "class": "CameraActor",
+      "location": "<Struct 'Vector' (0x0000017D0E8F0CE0) {x: 1970.000000, y: 470.000000, z: 170.000000}>"
+    }
+  ]
+}

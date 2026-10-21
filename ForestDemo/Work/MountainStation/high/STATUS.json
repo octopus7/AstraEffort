@@ -1,0 +1,63 @@
+{
+  "theme": "MountainStation",
+  "effort": "high",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-21T12:27:18+00:00",
+  "finished_at_utc": "2026-10-21T13:08:46.116387+00:00",
+  "elapsed_seconds": 2488.116387,
+  "map": "/Game/Maps/MountainStation_high",
+  "validation": {
+    "asset_registry": {
+      "map_reload": true,
+      "owned_game_dependencies": true,
+      "terrain_100m_x": true,
+      "terrain_100m_y": true,
+      "player_start": true,
+      "screen_debug_logger": true,
+      "complex_collision": true,
+      "assemblies_present": true,
+      "dynamic_lighting": true
+    },
+    "runtime": {
+      "pie_world": true,
+      "player_controller_created": true,
+      "pawn_created": true,
+      "pawn_possessed": true,
+      "spawn_at_arrival": true,
+      "native_logger_in_pie": true,
+      "arrival_ground_runtime_blocking_sweep": true,
+      "access_ramp_runtime_blocking_sweep": true,
+      "platform_runtime_blocking_sweep": true,
+      "short_platform_movement": true,
+      "pie_ended_normally": true
+    },
+    "visual": {
+      "map_sha256": "D7A532D0B5BC6DAA6885F50C6A8041053D2440AB9D70C78CABB1E014B4B3975F",
+      "passed": true,
+      "observations": [
+        "Actual UE scene is visible in all four distinct renders; no UI, grid, selection or Hello overlay.",
+        "Overview shows the complete 100m square, station, freight yard, curved track and tunnel.",
+        "Top-down shows site extents and the connected arrival/ramp/platform routes.",
+        "Platform view shows edge coping, rail clearance, canopy, benches, windows and luggage.",
+        "Track view shows continuous rails and sleepers entering the open arch and continuing through the short tunnel."
+      ],
+      "reviewer": "author, direct image inspection",
+      "reviewed_at_utc": "2026-10-21T13:05:33.8373747+00:00",
+      "limitations": [
+        "Stylized freestanding rock-covered short tunnel; open far exit and faceted interior shoulders remain visible.",
+        "Station is exterior-only. The small station occupies a restrained portion of the 100m terrain.",
+        "No performance benchmark or exhaustive human walk-through was performed."
+      ],
+      "images": [
+        "overview.png",
+        "top_down.png",
+        "platform.png",
+        "tracks.png"
+      ]
+    },
+    "published_files": 36,
+    "sha256_verified": true
+  },
+  "blockers": [],
+  "first_delivery_at_utc": "2026-10-21T13:08:46.116387+00:00"
+}

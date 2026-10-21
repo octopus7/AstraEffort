@@ -1,0 +1,143 @@
+{
+  "created_at_utc": "2026-10-21T12:49:43.413192+00:00",
+  "map": "/Game/Maps/MountainStation_high",
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "origin": "<Struct 'Vector' (0x00000200270FCE40) {x: 0.000000, y: 0.000000, z: 482.588081}>",
+      "extent": "<Struct 'Vector' (0x00000200270FCE58) {x: 5000.000488, y: 5000.000488, z: 717.588066}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Railway",
+      "origin": "<Struct 'Vector' (0x00000200270F6400) {x: 0.000000, y: -992.557373, z: 37.249997}>",
+      "extent": "<Struct 'Vector' (0x00000200270F6418) {x: 5077.655762, y: 702.557373, z: 16.749999}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Platform",
+      "origin": "<Struct 'Vector' (0x00000200270F6580) {x: -200.237488, y: 396.117325, z: 97.242241}>",
+      "extent": "<Struct 'Vector' (0x00000200270F6598) {x: 2102.363586, y: 903.882553, z: 107.242241}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Station",
+      "origin": "<Struct 'Vector' (0x00000200270F5200) {x: -799.999874, y: 879.791061, z: 351.500031}>",
+      "extent": "<Struct 'Vector' (0x00000200270F5218) {x: 902.000126, y: 585.208939, z: 351.500031}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Canopy",
+      "origin": "<Struct 'Vector' (0x00000200270F2500) {x: -799.999985, y: 128.000080, z: 259.249992}>",
+      "extent": "<Struct 'Vector' (0x00000200270F2518) {x: 900.000015, y: 227.000072, z: 154.249977}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Signs",
+      "origin": "<Struct 'Vector' (0x00000200270F1280) {x: -50.000122, y: 566.499931, z: 291.250015}>",
+      "extent": "<Struct 'Vector' (0x00000200270F1298) {x: 2199.999634, y: 680.300117, z: 201.250015}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Tunnel",
+      "origin": "<Struct 'Vector' (0x00000200270FDA40) {x: 3486.193359, y: -976.686661, z: 420.000038}>",
+      "extent": "<Struct 'Vector' (0x00000200270FDA58) {x: 736.605469, y: 806.757797, z: 540.000023}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_GroundPaths",
+      "origin": "<Struct 'Vector' (0x00000200270F1980) {x: -1218.407043, y: 580.081665, z: 415.481537}>",
+      "extent": "<Struct 'Vector' (0x00000200270F1998) {x: 2695.330261, y: 4419.918335, z: 411.981537}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Cargo",
+      "origin": "<Struct 'Vector' (0x00000200270F39C0) {x: 1260.000198, y: 2299.999939, z: 195.000000}>",
+      "extent": "<Struct 'Vector' (0x00000200270F39D8) {x: 810.000046, y: 500.000061, z: 195.000000}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Furniture",
+      "origin": "<Struct 'Vector' (0x00000200270FA440) {x: -666.250122, y: 431.500366, z: 430.698822}>",
+      "extent": "<Struct 'Vector' (0x00000200270FA458) {x: 2846.250122, y: 3594.499878, z: 430.698822}>",
+      "collision": "complex_as_simple"
+    },
+    {
+      "name": "SM_Vegetation",
+      "origin": "<Struct 'Vector' (0x00000200270F2DC0) {x: -13.637939, y: -60.378174, z: 990.481686}>",
+      "extent": "<Struct 'Vector' (0x00000200270F2DD8) {x: 4737.052002, y: 4697.732666, z: 1035.614872}>",
+      "collision": "complex_as_simple"
+    }
+  ],
+  "fbx_y_normalized": true,
+  "cameras": {
+    "overview": {
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho": 20000,
+      "rotation": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ]
+    },
+    "top_down": {
+      "location": [
+        0,
+        0,
+        20000
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "ortho": 20000
+    },
+    "platform": {
+      "location": [
+        1550,
+        220,
+        275
+      ],
+      "target": [
+        -850,
+        -180,
+        260
+      ],
+      "fov": 70,
+      "rotation": [
+        -0.3532218299374457,
+        -170.53767779197437,
+        -8.14405241888459e-09
+      ]
+    },
+    "tracks": {
+      "location": [
+        1970,
+        470,
+        170
+      ],
+      "target": [
+        3050,
+        875,
+        280
+      ],
+      "fov": 70,
+      "rotation": [
+        5.447643341832169,
+        20.556045219583467,
+        -1.5117121735212506e-08
+      ]
+    }
+  },
+  "build_script_seconds": 78.63995933532715
+}

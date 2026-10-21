@@ -1,0 +1,96 @@
+{
+  "requested_at_utc": "2026-10-21T12:46:15Z",
+  "first_runtime_started_at_utc": "2026-10-21T12:49:43.532380+00:00",
+  "completed_at_utc": "2026-10-21T13:07:57.466598+00:00",
+  "inclusive_wall_since_request_seconds": 1302.466598,
+  "measured_pie_test_seconds_all_attempts": 8.304017305374146,
+  "dedicated_runtime_mutex_wait_seconds": 149.389284,
+  "dedicated_runtime_ue_execution_seconds": 30.8861371,
+  "combined_original_build_or_capture_sessions": [
+    {
+      "wait_started_at_utc": "2026-10-21T12:45:30.7311618+00:00",
+      "run_started_at_utc": "2026-10-21T12:48:13.4737728+00:00",
+      "finished_at_utc": "2026-10-21T12:50:02.9004070+00:00",
+      "wait_seconds": 162.742611,
+      "execution_seconds": 109.4266342,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/pipeline.log"
+    },
+    {
+      "wait_started_at_utc": "2026-10-21T12:51:51.2792250+00:00",
+      "run_started_at_utc": "2026-10-21T12:56:03.3838623+00:00",
+      "finished_at_utc": "2026-10-21T12:56:30.6550570+00:00",
+      "wait_seconds": 252.1046373,
+      "execution_seconds": 27.2711947,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/resume.log"
+    },
+    {
+      "wait_started_at_utc": "2026-10-21T12:58:24.4217276+00:00",
+      "run_started_at_utc": "2026-10-21T13:03:00.7045786+00:00",
+      "finished_at_utc": "2026-10-21T13:03:25.8234987+00:00",
+      "wait_seconds": 276.282851,
+      "execution_seconds": 25.1189201,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/final_fix.log"
+    }
+  ],
+  "dedicated_runtime_sessions": [
+    {
+      "wait_started_at_utc": "2026-10-21T13:04:29.4358877+00:00",
+      "run_started_at_utc": "2026-10-21T13:06:34.7480633+00:00",
+      "finished_at_utc": "2026-10-21T13:06:50.4577098+00:00",
+      "wait_seconds": 125.3121756,
+      "execution_seconds": 15.7096465,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/runtime_only.log"
+    },
+    {
+      "wait_started_at_utc": "2026-10-21T13:07:22.7645939+00:00",
+      "run_started_at_utc": "2026-10-21T13:07:46.8417023+00:00",
+      "finished_at_utc": "2026-10-21T13:08:02.0181929+00:00",
+      "wait_seconds": 24.0771084,
+      "execution_seconds": 15.1764906,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/runtime_clear.log"
+    }
+  ],
+  "additional_capture_containing_sessions": [
+    {
+      "wait_started_at_utc": "2026-10-21T12:51:51.2792250+00:00",
+      "run_started_at_utc": "2026-10-21T12:56:03.3838623+00:00",
+      "finished_at_utc": "2026-10-21T12:56:30.6550570+00:00",
+      "wait_seconds": 252.1046373,
+      "execution_seconds": 27.2711947,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/resume.log"
+    },
+    {
+      "wait_started_at_utc": "2026-10-21T12:58:24.4217276+00:00",
+      "run_started_at_utc": "2026-10-21T13:03:00.7045786+00:00",
+      "finished_at_utc": "2026-10-21T13:03:25.8234987+00:00",
+      "wait_seconds": 276.282851,
+      "execution_seconds": 25.1189201,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/Project/ForestDemo.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/high/final_fix.log"
+    }
+  ],
+  "additional_capture_containing_execution_seconds": 52.3901148,
+  "final_capture_first_frame_at_utc": "2026-10-21T13:03:16.085525+00:00",
+  "final_capture_last_frame_at_utc": "2026-10-21T13:03:21.315352+00:00",
+  "notes": [
+    "Inclusive wall overlaps original production/captures and must not be added to total task wall time.",
+    "Combined sessions contain original work and supplemental runtime checks; no invented exclusive allocation is made.",
+    "Additional capture-containing process times include startup, fixes and runtime checks, not only GPU render time.",
+    "The final runtime-only sessions did not modify the saved map or recapture the already inspected images."
+  ],
+  "original_started_at_utc": "2026-10-21T12:27:18+00:00",
+  "first_delivery_at_utc": "2026-10-21T13:08:46.116387+00:00"
+}

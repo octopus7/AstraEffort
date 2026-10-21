@@ -1,0 +1,17 @@
+import pathlib,json,datetime
+root=pathlib.Path('D:/github/AstraEffort/ForestDemo');work=root/'Work/MountainStation/high';scratch=root/'Saved/Workers/MountainStation/high'
+load=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+dt=lambda s:datetime.datetime.fromisoformat(s.replace('Z','+00:00'))
+runtime=load(work/'runtime_validation.json');attempts=[load(p) for p in sorted(scratch.glob('runtime_attempt*.json'))]+[runtime]
+dedicated=[load(scratch/f'{n}_timing.json') for n in ['runtime_only','runtime_clear']]
+combined=[load(scratch/f'{n}_timing.json') for n in ['pipeline','resume','final_fix']]
+capture_runs=[load(scratch/f'{n}_timing.json') for n in ['resume','final_fix']]
+manifest=load(work/'Screenshots/capture_manifest.json');status=load(work/'STATUS.json')
+record={'requested_at_utc':'2026-10-21T12:46:15Z','first_runtime_started_at_utc':attempts[0]['started_at_utc'],'completed_at_utc':runtime['finished_at_utc'],'inclusive_wall_since_request_seconds':(dt(runtime['finished_at_utc'])-dt('2026-10-21T12:46:15Z')).total_seconds(),'measured_pie_test_seconds_all_attempts':sum(a['elapsed_seconds'] for a in attempts),'dedicated_runtime_mutex_wait_seconds':sum(x['wait_seconds'] for x in dedicated),'dedicated_runtime_ue_execution_seconds':sum(x['execution_seconds'] for x in dedicated),'combined_original_build_or_capture_sessions':combined,'dedicated_runtime_sessions':dedicated,'additional_capture_containing_sessions':capture_runs,'additional_capture_containing_execution_seconds':sum(x['execution_seconds'] for x in capture_runs),'final_capture_first_frame_at_utc':manifest['captures'][0]['captured_at_utc'],'final_capture_last_frame_at_utc':manifest['captures'][-1]['captured_at_utc'],'notes':['Inclusive wall overlaps original production/captures and must not be added to total task wall time.','Combined sessions contain original work and supplemental runtime checks; no invented exclusive allocation is made.','Additional capture-containing process times include startup, fixes and runtime checks, not only GPU render time.','The final runtime-only sessions did not modify the saved map or recapture the already inspected images.'],'original_started_at_utc':status['started_at_utc'],'first_delivery_at_utc':status['finished_at_utc']}
+(work/'supplement_timing.json').write_text(json.dumps(record,indent=2),encoding='utf-8')
+status['first_delivery_at_utc']=status['finished_at_utc'];(work/'STATUS.json').write_text(json.dumps(status,indent=2),encoding='utf-8')
+report=(work/'RESULT.md').read_text(encoding='utf-8')
+report+=f"\nSupervisor supplement timing: see supplement_timing.json. Dedicated runtime-only slots waited {record['dedicated_runtime_mutex_wait_seconds']:.3f}s and executed UE for {record['dedicated_runtime_ue_execution_seconds']:.3f}s. All measured PIE test intervals total {record['measured_pie_test_seconds_all_attempts']:.3f}s. The two additional capture-containing runs executed for {record['additional_capture_containing_execution_seconds']:.3f}s, including startup, fixes and checks. Combined work intervals overlap the task totals and are not added again.\n"
+(work/'RESULT.md').write_text(report,encoding='utf-8')
+p=work/'PLAN.md';s=p.read_text(encoding='utf-8').replace('- [ ] Close private editor, publish only owned assets/map, write RESULT.md and final STATUS.json.','- [x] Private editor closed; 35 assets and one named map published with matching SHA-256. RESULT.md and ready_for_review STATUS.json written.');p.write_text(s,encoding='utf-8')
+print(json.dumps(record,indent=2))
