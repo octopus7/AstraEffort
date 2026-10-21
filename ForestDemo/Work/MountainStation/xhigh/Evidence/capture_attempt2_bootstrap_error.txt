@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/capture_bootstrap.py", line 5, in <module>
+    exec(compile((work/'capture_scene.py').read_text(),str(work/'capture_scene.py'),'exec'),globals())
+  File "D:\github\AstraEffort\ForestDemo\Work\MountainStation\xhigh\capture_scene.py", line 14, in <module>
+    if not report['success']:raise RuntimeError('Validation failed: '+str(report['errors']))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Validation failed: ['floor_samples_heights']

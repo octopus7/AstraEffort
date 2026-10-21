@@ -1,0 +1,455 @@
+{
+  "started_at_utc": "2026-10-21T12:47:32.444833+00:00",
+  "map": "/Game/Maps/MountainStation_xhigh",
+  "checks": {
+    "player_start": true,
+    "native_hello_actor": true,
+    "dynamic_lighting": true,
+    "site_100m": true,
+    "recursive_dependencies_owned_only": true,
+    "no_external_or_builtdata": true,
+    "floor_samples_blocking": true,
+    "floor_samples_heights": false,
+    "required_assemblies": true
+  },
+  "errors": [
+    "floor_samples_heights"
+  ],
+  "actors": [
+    {
+      "label": "Alder_Cargo",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3300) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3300) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_LandscapeDetails",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3440) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3440) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Paths",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3760) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3760) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Platform",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3A30) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3A30) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Props",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA39E0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA39E0) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Railway",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3990) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3990) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Station",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3940) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3940) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Terrain",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA38F0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA38F0) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Alder_Tunnel",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA38A0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA38A0) {x: 1.000000, y: -1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "ScreenDebugLogger_Hello",
+      "class": "/Script/ForestDemo.ScreenDebugLogger",
+      "location": "<Struct 'Vector' (0x0000022609FA3850) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3850) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "PlayerStart_StationApproach",
+      "class": "/Script/Engine.PlayerStart",
+      "location": "<Struct 'Vector' (0x0000022609FA37B0) {x: -3800.000000, y: -300.000000, z: 135.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA37B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Sun_Afternoon",
+      "class": "/Script/Engine.DirectionalLight",
+      "location": "<Struct 'Vector' (0x0000022609FA3A80) {x: 0.000000, y: 0.000000, z: 8000.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3A80) {x: 2.500000, y: 2.500000, z: 2.500000}>"
+    },
+    {
+      "label": "Sky_SoftFill",
+      "class": "/Script/Engine.SkyLight",
+      "location": "<Struct 'Vector' (0x0000022609FA3AD0) {x: 0.000000, y: 0.000000, z: 5000.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3AD0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "label": "Sky_Backdrop",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": "<Struct 'Vector' (0x0000022609FA3B20) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3B20) {x: 2000.000000, y: 2000.000000, z: 2000.000000}>"
+    },
+    {
+      "label": "Look_StableExposure",
+      "class": "/Script/Engine.PostProcessVolume",
+      "location": "<Struct 'Vector' (0x0000022609FA3B70) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "scale": "<Struct 'Vector' (0x0000022609FA3B70) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    }
+  ],
+  "terrain_bounds_cm": {
+    "origin": [
+      0.0,
+      0.0,
+      905.401985168457
+    ],
+    "extent": [
+      5000.00048828125,
+      5000.00048828125,
+      1152.901969909668
+    ]
+  },
+  "dependency_graph": {
+    "/Game/MountainStation/xhigh/Materials/M_Backdrop": [],
+    "/Game/MountainStation/xhigh/Materials/M_Cargo": [],
+    "/Game/MountainStation/xhigh/Materials/M_Cream": [],
+    "/Game/MountainStation/xhigh/Materials/M_Metal": [],
+    "/Game/MountainStation/xhigh/Materials/M_RockLight": [],
+    "/Game/MountainStation/xhigh/Materials/M_Roof": [],
+    "/Game/MountainStation/xhigh/Materials/M_Timber": [],
+    "/Game/MountainStation/xhigh/Materials/M_Wood": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Cargo": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Cargo",
+      "/Game/MountainStation/xhigh/Materials/M_Cream",
+      "/Game/MountainStation/xhigh/Materials/M_Metal",
+      "/Game/MountainStation/xhigh/Materials/M_RockLight",
+      "/Game/MountainStation/xhigh/Materials/M_Roof",
+      "/Game/MountainStation/xhigh/Materials/M_Timber",
+      "/Game/MountainStation/xhigh/Materials/M_Wood"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Bush": [],
+    "/Game/MountainStation/xhigh/Materials/M_GrassLight": [],
+    "/Game/MountainStation/xhigh/Materials/M_Pine": [],
+    "/Game/MountainStation/xhigh/Materials/M_PineLight": [],
+    "/Game/MountainStation/xhigh/Materials/M_Rock": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Bush",
+      "/Game/MountainStation/xhigh/Materials/M_GrassLight",
+      "/Game/MountainStation/xhigh/Materials/M_Pine",
+      "/Game/MountainStation/xhigh/Materials/M_PineLight",
+      "/Game/MountainStation/xhigh/Materials/M_Rock",
+      "/Game/MountainStation/xhigh/Materials/M_RockLight",
+      "/Game/MountainStation/xhigh/Materials/M_Timber"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Paving": [],
+    "/Game/MountainStation/xhigh/Materials/M_Trail": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Paths": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Paving",
+      "/Game/MountainStation/xhigh/Materials/M_Trail"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_EdgeStone": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Platform": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Cream",
+      "/Game/MountainStation/xhigh/Materials/M_EdgeStone",
+      "/Game/MountainStation/xhigh/Materials/M_Metal",
+      "/Game/MountainStation/xhigh/Materials/M_Paving",
+      "/Game/MountainStation/xhigh/Materials/M_Rock"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Red": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Props": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Cargo",
+      "/Game/MountainStation/xhigh/Materials/M_Cream",
+      "/Game/MountainStation/xhigh/Materials/M_Metal",
+      "/Game/MountainStation/xhigh/Materials/M_Red",
+      "/Game/MountainStation/xhigh/Materials/M_Roof",
+      "/Game/MountainStation/xhigh/Materials/M_Timber",
+      "/Game/MountainStation/xhigh/Materials/M_Wood"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Ballast": [],
+    "/Game/MountainStation/xhigh/Materials/M_Rail": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Railway": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Ballast",
+      "/Game/MountainStation/xhigh/Materials/M_Metal",
+      "/Game/MountainStation/xhigh/Materials/M_Rail",
+      "/Game/MountainStation/xhigh/Materials/M_Rock",
+      "/Game/MountainStation/xhigh/Materials/M_Timber"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Amber": [],
+    "/Game/MountainStation/xhigh/Materials/M_Flowers": [],
+    "/Game/MountainStation/xhigh/Materials/M_Glass": [],
+    "/Game/MountainStation/xhigh/Materials/M_Plaster": [],
+    "/Game/MountainStation/xhigh/Materials/M_RoofSeam": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Station": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Amber",
+      "/Game/MountainStation/xhigh/Materials/M_Bush",
+      "/Game/MountainStation/xhigh/Materials/M_Cream",
+      "/Game/MountainStation/xhigh/Materials/M_EdgeStone",
+      "/Game/MountainStation/xhigh/Materials/M_Flowers",
+      "/Game/MountainStation/xhigh/Materials/M_Glass",
+      "/Game/MountainStation/xhigh/Materials/M_Plaster",
+      "/Game/MountainStation/xhigh/Materials/M_RockLight",
+      "/Game/MountainStation/xhigh/Materials/M_Roof",
+      "/Game/MountainStation/xhigh/Materials/M_RoofSeam",
+      "/Game/MountainStation/xhigh/Materials/M_Timber",
+      "/Game/MountainStation/xhigh/Materials/M_Wood"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Earth": [],
+    "/Game/MountainStation/xhigh/Materials/M_Grass": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Terrain": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Earth",
+      "/Game/MountainStation/xhigh/Materials/M_Grass"
+    ],
+    "/Game/MountainStation/xhigh/Materials/M_Dark": [],
+    "/Game/MountainStation/xhigh/Meshes/SM_Tunnel": [
+      "/Script/NavigationSystem",
+      "/Game/MountainStation/xhigh/Materials/M_Cream",
+      "/Game/MountainStation/xhigh/Materials/M_Dark",
+      "/Game/MountainStation/xhigh/Materials/M_EdgeStone",
+      "/Game/MountainStation/xhigh/Materials/M_Rock",
+      "/Game/MountainStation/xhigh/Materials/M_RockLight"
+    ],
+    "/Game/Maps/MountainStation_xhigh": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Script/ForestDemo",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Game/MountainStation/xhigh/Materials/M_Backdrop",
+      "/Game/MountainStation/xhigh/Meshes/SM_Cargo",
+      "/Game/MountainStation/xhigh/Meshes/SM_LandscapeDetails",
+      "/Game/MountainStation/xhigh/Meshes/SM_Paths",
+      "/Game/MountainStation/xhigh/Meshes/SM_Platform",
+      "/Game/MountainStation/xhigh/Meshes/SM_Props",
+      "/Game/MountainStation/xhigh/Meshes/SM_Railway",
+      "/Game/MountainStation/xhigh/Meshes/SM_Station",
+      "/Game/MountainStation/xhigh/Meshes/SM_Terrain",
+      "/Game/MountainStation/xhigh/Meshes/SM_Tunnel"
+    ]
+  },
+  "foreign_game_dependencies": [],
+  "external_packages": [],
+  "collision_samples": [
+    {
+      "name": "player_floor",
+      "start": [
+        -3800,
+        -300,
+        500
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -3800.0,
+        -300.0,
+        500.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        20,
+        45
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "ramp_bottom",
+      "start": [
+        -3550,
+        -600,
+        500
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -3550.0,
+        -600.0,
+        500.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        29,
+        34
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "ramp_middle",
+      "start": [
+        -3200,
+        -600,
+        500
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -3200.0,
+        -600.0,
+        500.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        71,
+        76
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "ramp_top",
+      "start": [
+        -2820,
+        -600,
+        500
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -2820.0,
+        -600.0,
+        500.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        117,
+        123
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "platform_west",
+      "start": [
+        -2400,
+        -1150,
+        400
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -2400.0,
+        -1150.0,
+        400.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        120,
+        128
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "platform_center",
+      "start": [
+        -1000,
+        -1280,
+        400
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -1000.0,
+        -1280.0,
+        400.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        120,
+        128
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "platform_east",
+      "start": [
+        500,
+        -1130,
+        400
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        500.0,
+        -1130.0,
+        400.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        120,
+        128
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "track_bed",
+      "start": [
+        2000,
+        -1240,
+        300
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        2000.0,
+        -1240.0,
+        300.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        35,
+        65
+      ],
+      "height_correct": false
+    },
+    {
+      "name": "hill_trail",
+      "start": [
+        -1800,
+        2200,
+        5000
+      ],
+      "hit": true,
+      "blocking": true,
+      "location_cm": [
+        -1800.0,
+        2200.0,
+        5000.0
+      ],
+      "actor": "Sky_Backdrop",
+      "expected_z_range_cm": [
+        100,
+        2000
+      ],
+      "height_correct": false
+    }
+  ],
+  "mesh_collision": {
+    "Alder_Cargo": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_LandscapeDetails": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Paths": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Platform": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Props": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Railway": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Station": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Terrain": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "Alder_Tunnel": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+  },
+  "success": false,
+  "finished_at_utc": "2026-10-21T12:47:32.606834+00:00",
+  "elapsed_seconds": 0.1620011329650879
+}
