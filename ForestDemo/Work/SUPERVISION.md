@@ -1,13 +1,14 @@
 # ForestDemo 작업 결과 비교 · 수행 시간 · 스크린샷
 
-최종 결과를 모으는 단일 보고서입니다. 현재 네 작업은 제작 중이며, 아래 비교와
+최종 결과를 모으는 단일 보고서입니다. Forest 4개와 MountainStation 4개를
+테마별로 비교합니다. 현재 제작 중이며, 아래 비교와
 실제 UE 스크린샷은 결과 검증 후 채웁니다. 제작 중에는 순위나 우열을 판정하지 않습니다.
 
 Supervisor setup started: 2026-10-21 21:09:14 KST (12:09:14 UTC).
-Baseline: `7558c8f`. Four user-owned local chats, same configured default model,
-with reasoning efforts medium, high, xhigh, ultra.
+Baseline: `7558c8f`. Each theme uses four user-owned local chats and the configured
+default model, with reasoning efforts medium, high, xhigh, ultra.
 
-## Shared assignment
+## Forest — Shared assignment
 
 Independently build a 100 x 100 metre playable forest scene for UE 5.7, containing
 a small lake, a distinct beach and suitable original props. Use softly rounded
@@ -26,9 +27,9 @@ Preserve the baseline ScreenDebugLogger behavior in each map where practical.
 - Scripts, source artwork, evidence, result: `ForestDemo/Work/<effort>/**`.
 - Private authoring project: `ForestDemo/Saved/Workers/<effort>/**` (ignored).
 - Workers do not commit. Supervisor validates and commits each delivery separately.
-- Keep baseline main during work. Once all four maps pass integration checks,
+- Keep baseline main during work. Once all eight maps pass integration checks,
   supervisor retires main and selects medium as startup/default map in a separate
-  integration commit, leaving exactly four scene maps.
+  integration commit, preserving four Forest and four MountainStation scene maps.
 - Do not change the selected effort or use subagents to create the scene; the
   comparison concerns each chat's own reasoning effort. No arbitrary time cap.
 
@@ -40,7 +41,7 @@ tool waiting but excludes later supervisor review and commit time. Supervisor
 also records dispatch-to-ready duration and commit time separately where available.
 Missing timestamps remain unknown rather than estimated from a polling interval.
 
-## Progress
+## Forest — Progress
 
 | Effort | Chat | Dispatch (KST) | Worker start | Ready | Wall time | Status | Commit |
 |---|---|---|---|---|---|---|---|
@@ -60,6 +61,9 @@ Missing timestamps remain unknown rather than estimated from a polling interval.
   `Content/Forest/<effort>/` (`/Game/Forest/<effort>/`)로 변경했습니다.
   레벨은 `Content/Maps/<effort>.umap`에 유지합니다. 제작 대화가 자기 scratch에서
   패키지 경로와 참조를 갱신하고 재검증하며, 이 변경에 든 시간은 별도 기록합니다.
+- 2026-10-21 21:22:15 KST: MountainStation 테마 네 작업을 추가 준비합니다.
+  기존 Forest 작업의 경로와 결과를 보존하며 최종 레벨 수는 총 8개입니다.
+  새 UE 실행에는 공통 mutex 실행기를 사용하고 대기 시간을 별도 기록합니다.
 
 ## 공통 캡처 기준
 
@@ -112,3 +116,66 @@ screen percentage 100이며, 실제 사용 설정과 차이는 capture_manifest.
 각 작업의 강점, 미흡한 점, 구체적인 화면 근거, 적합한 활용과 개선 우선순위를
 감독자가 원본 이미지를 직접 확인한 뒤 작성합니다. 마지막에 시간 대비 완성도와
 공통 개선점을 정리합니다. 현재 결과 분석 대기 중입니다.
+
+## MountainStation — 작은 산악 기차역 제작 조건
+
+100×100m (UE 10,000×10,000cm) 사이트에 작은 역 건물, 접근 가능한 승강장,
+산악 지형을 따라 굽는 철길, 짧은 터널 입구, 화물 보관 공간과 언덕 산책길을
+구성합니다. 벤치·역명 표지·시계·등·짐·화물·울타리 같은 프랍을 직접 제작합니다.
+부드러운 모서리와 차분한 게임 색감을 유지합니다. 얼굴·하트·장식 구름은 넣지 않습니다.
+정적인 환경 레벨이며 열차 운행 시뮬레이션이나 사실적 철도 시스템은 요구하지 않습니다.
+선로·침목·승강장·터널은 서로 자연스럽게 연결하고, 지면 충돌·PlayerStart·동적 조명과
+기본 Hello 동작을 갖춥니다. Forest 및 다른 강도 결과를 참고하거나 복제하지 않습니다.
+
+| 구분 | MountainStation 소유 경로 |
+|---|---|
+| 에셋 | `Content/MountainStation/<effort>/**`, `/Game/MountainStation/<effort>/` |
+| 레벨 | `Content/Maps/MountainStation_<effort>.umap` |
+| 원본·제작 코드·검증·보고 | `Work/MountainStation/<effort>/**` |
+| 임시 프로젝트 | `Saved/Workers/MountainStation/<effort>/**` |
+
+## MountainStation — 수행 시간과 진행
+
+| Effort | Chat | Dispatch (KST) | Worker start | Ready | Wall time | Status | Commit |
+|---|---|---|---|---|---|---|---|
+| medium | pending | pending | pending | pending | pending | preparing | pending |
+| high | pending | pending | pending | pending | pending | preparing | pending |
+| xhigh | pending | pending | pending | pending | pending | preparing | pending |
+| ultra | pending | pending | pending | pending | pending | preparing | pending |
+
+각 작업은 실제 시작/종료 UTC·KST, 전체 wall time, UE 실행 대기, 실행/검증 시간을
+기록합니다. 추가 감독 수정과 캡처 시간을 구분하고 작업 시작 시각을 재설정하지 않습니다.
+Forest와 시작 시각·머신 부하가 다르므로 테마 간 총 소요 시간의 단순 우열을 주장하지 않습니다.
+
+## MountainStation — 공통 스크린샷
+
+Forest와 같은 1920×1080 해상도, 공통 High 품질(가능 시), screen percentage 100,
+UI 없는 실제 UE 렌더를 사용합니다. 각 Work 경로의 Screenshots에 저장합니다.
+
+| 파일 | 구도 | 비교 대상 |
+|---|---|---|
+| overview.png | 사이트 중심 기준 (+12000,-12000,+16000), 중심 지면 주시, 직교 폭 20000cm | 지형·역·철길의 전체 구성 |
+| top_down.png | 중심 위 +20000cm, pitch -90/yaw 0/roll 0, 직교 폭 20000cm | 사이트 범위·선로 배치·진입 동선 |
+| platform.png | 승강장 또는 접근로의 눈높이 약 170cm, 수평 FOV 70° | 역 건물과 승강장, 소품과 이용 공간 |
+| tracks.png | 선로 옆 안전한 보행 지점의 눈높이 약 170cm, 수평 FOV 70° | 레일·침목·곡선·터널·산악 지형 연결 |
+
+capture_manifest.json에 실제 카메라/렌더 설정과 촬영 시각을 기록합니다.
+감독자는 네 작업의 같은 구도끼리 비교 배치하고 직접 이미지를 확인합니다.
+현재 캡처 대기 중입니다.
+
+## MountainStation — 결과 비교와 분석
+
+| 비교 항목 | medium | high | xhigh | ultra |
+|---|---|---|---|---|
+| 100×100m 및 테마 요구 충족 | 제작 중 | 제작 중 | 제작 중 | 제작 중 |
+| 산악 지형과 역 건물의 배치·비례 | 미평가 | 미평가 | 미평가 | 미평가 |
+| 선로·침목·승강장·터널의 연결 | 미평가 | 미평가 | 미평가 | 미평가 |
+| 접근 동선·플레이·충돌 | 미검증 | 미검증 | 미검증 | 미검증 |
+| 프랍의 제작 완성도·다양성·생활감 | 미평가 | 미평가 | 미평가 | 미평가 |
+| 둥근 형태·차분한 색감의 일관성 | 미평가 | 미평가 | 미평가 | 미평가 |
+| 경로·패키지 의존성 격리 | 미검증 | 미검증 | 미검증 | 미검증 |
+| 재현성·수정 용이성·검증 근거 | 미평가 | 미평가 | 미평가 | 미평가 |
+| 시간 대비 완성도·한계·개선 우선순위 | 집계 중 | 집계 중 | 집계 중 | 집계 중 |
+
+작업별 강점과 미흡한 점을 실제 화면·검증 결과로 분석합니다. 임의 점수나 성능 추정은
+사용하지 않고, 단일 제작 사례를 추론 강도의 인과 효과로 단정하지 않습니다.
