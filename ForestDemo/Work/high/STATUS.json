@@ -80,20 +80,20 @@
   "shared_ue_wait_seconds": 271.650345,
   "capture_started_at_utc": "2026-10-21T21:38:34.878953+09:00",
   "capture_finished_at_utc": "2026-10-21T21:39:36.823356+09:00",
-  "first_ready_at_utc": "2026-10-21T12:40:14.899003+00:00",
+  "first_ready_at_utc": "2026-10-21T21:40:14.899003+09:00",
   "runtime_supplement": {
-    "started_at_utc": "2026-10-21T12:41:24+00:00",
-    "finished_at_utc": "2026-10-21T13:02:06.461440+00:00",
+    "started_at_utc": "2026-10-21T21:41:24+09:00",
+    "finished_at_utc": "2026-10-21T22:02:06.46144+09:00",
     "started_at_kst": "2026-10-21T21:41:24+09:00",
-    "finished_at_kst": "2026-10-21T22:02:06.461440+09:00",
+    "finished_at_kst": "2026-10-21T22:02:06.46144+09:00",
     "elapsed_seconds": 1242.46144,
     "shared_ue_wait_seconds": 904.3132861,
     "ue_execution_seconds": 58.085884300000004,
     "attempts": [
       {
-        "wait_started_at_utc": "2026-10-21T12:43:14.5579771+00:00",
-        "run_started_at_utc": "2026-10-21T12:47:38.5648254+00:00",
-        "finished_at_utc": "2026-10-21T12:47:58.2733540+00:00",
+        "wait_started_at_utc": "2026-10-21T21:43:14.5579771+09:00",
+        "run_started_at_utc": "2026-10-21T21:47:38.5648254+09:00",
+        "finished_at_utc": "2026-10-21T21:47:58.273354+09:00",
         "wait_seconds": 264.0068483,
         "execution_seconds": 19.7085286,
         "exit_code": 0,
@@ -101,9 +101,9 @@
         "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\runtime.log"
       },
       {
-        "wait_started_at_utc": "2026-10-21T12:49:10.3422656+00:00",
-        "run_started_at_utc": "2026-10-21T12:59:50.6487034+00:00",
-        "finished_at_utc": "2026-10-21T13:00:29.0260591+00:00",
+        "wait_started_at_utc": "2026-10-21T21:49:10.3422656+09:00",
+        "run_started_at_utc": "2026-10-21T21:59:50.6487034+09:00",
+        "finished_at_utc": "2026-10-21T22:00:29.0260591+09:00",
         "wait_seconds": 640.3064378,
         "execution_seconds": 38.3773557,
         "exit_code": 0,
@@ -114,5 +114,61 @@
     "status": "passed",
     "evidence": "ForestDemo/Work/high/runtime_validation.json",
     "map_modified": false
-  }
+  },
+  "phase": "texture_pass",
+  "texture_pass_started_at_utc": "2026-10-21T13:43:00Z",
+  "texture_pass": {
+    "theme": "Forest",
+    "effort": "high",
+    "phase": "texture_pass",
+    "status": "ready_for_review",
+    "started_at_utc": "2026-10-21T13:43:00+00:00",
+    "started_at_kst": "2026-10-21T22:43:00+09:00",
+    "finished_at_utc": "2026-10-21T14:30:04.339546+00:00",
+    "finished_at_kst": "2026-10-21T23:30:04.339546+09:00",
+    "elapsed_seconds": 2824.339546,
+    "imagegen_seconds": 28,
+    "ue_queue_wait_seconds": 966.8752548,
+    "ue_execution_seconds": 536.6444209,
+    "ue_attempts": 8,
+    "map": "/Game/Maps/high",
+    "validation": {
+      "fresh_process_map_reload": true,
+      "recursive_packages": 301,
+      "forbidden_dependencies": 0,
+      "world_partition": false,
+      "redirectors": 0,
+      "old_root_dependencies": 0,
+      "built_data_files": 0,
+      "uv_prop_actors": 742,
+      "uv_variants": 228,
+      "actual_texture_resolution": [
+        1254,
+        1254
+      ],
+      "saved_ue_uv_roundtrip_mesh_samples": 3,
+      "saved_ue_uv_roundtrip_actor_samples": 7,
+      "source_uv_overlap_pairs": 0,
+      "saved_ue_sample_uv_overlap_pairs": 0,
+      "source_density_native_px_per_m_range": [
+        15.692373363378415,
+        16.316761123537795
+      ],
+      "saved_ue_sample_density_native_px_per_m_range": [
+        15.748737589828059,
+        16.3027856096857
+      ],
+      "source_minimum_chart_spacing_native_pixels": 4,
+      "source_minimum_outer_margin_native_pixels": 2,
+      "common_camera_pngs": 4,
+      "fixed_camera_water_time_pngs": 2,
+      "actual_pie_spawn_possession_movement_collision": true,
+      "native_hello_beginplay": "Success",
+      "normal_editor_exit": true,
+      "published_hash_verified_files": 301,
+      "first_delivery_preserved_files": 26
+    },
+    "blockers": []
+  },
+  "texture_pass_finished_at_utc": "2026-10-21T14:30:04.339546+00:00"
 }

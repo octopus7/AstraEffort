@@ -1,0 +1,157 @@
+{
+  "map": "/Game/Maps/high",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 300,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High (all sg categories = 2); screen percentage 100",
+  "method": "UE SceneCapture2D final-color LDR to RGBA8 render target; no UI/debug/selection overlays",
+  "capture_started_at_utc": "2026-10-21T14:26:01.177976+00:00",
+  "shots": [
+    {
+      "name": "overview",
+      "position": [
+        12000,
+        -12000,
+        16300
+      ],
+      "target": [
+        0,
+        0,
+        300
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "captured_at_utc": "2026-10-21T14:26:26.401008+00:00",
+      "elapsed_capture_seconds": 25.23499999998603,
+      "editor_world_seconds": 25.73392131179571
+    },
+    {
+      "name": "top_down",
+      "position": [
+        0,
+        0,
+        20300
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "captured_at_utc": "2026-10-21T14:26:38.629877+00:00",
+      "elapsed_capture_seconds": 37.45299999997951,
+      "editor_world_seconds": 37.97089371830225
+    },
+    {
+      "name": "lake",
+      "position": [
+        600,
+        450,
+        595.101375579834
+      ],
+      "target": [
+        -2100,
+        1050,
+        260
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        -6.9080670722605415,
+        167.47119229084848,
+        1.5603404652091236e-07
+      ],
+      "captured_at_utc": "2026-10-21T14:26:50.867474+00:00",
+      "elapsed_capture_seconds": 49.68800000002375,
+      "editor_world_seconds": 50.18985361978412
+    },
+    {
+      "name": "beach",
+      "position": [
+        1800,
+        -2580,
+        290.8287000656128
+      ],
+      "target": [
+        -1300,
+        -3600,
+        180
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.945024336988833,
+        -161.78712672977144,
+        -4.2536427708849976e-08
+      ],
+      "captured_at_utc": "2026-10-21T14:27:03.085365+00:00",
+      "elapsed_capture_seconds": 61.90700000000652,
+      "editor_world_seconds": 62.42786272242665
+    },
+    {
+      "name": "water_t0",
+      "position": [
+        1800,
+        -2580,
+        290.8287000656128
+      ],
+      "target": [
+        -1300,
+        -3600,
+        180
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.945024336988833,
+        -161.78712672977144,
+        -4.2536427708849976e-08
+      ],
+      "captured_at_utc": "2026-10-21T14:27:15.297487+00:00",
+      "elapsed_capture_seconds": 74.125,
+      "editor_world_seconds": 74.64550102502108
+    },
+    {
+      "name": "water_t1",
+      "position": [
+        1800,
+        -2580,
+        290.8287000656128
+      ],
+      "target": [
+        -1300,
+        -3600,
+        180
+      ],
+      "projection": "perspective",
+      "horizontal_fov_degrees": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.945024336988833,
+        -161.78712672977144,
+        -4.2536427708849976e-08
+      ],
+      "captured_at_utc": "2026-10-21T14:27:27.518153+00:00",
+      "elapsed_capture_seconds": 86.34399999998277,
+      "editor_world_seconds": 86.86276552081108
+    }
+  ],
+  "comparison_limit": "lake/beach use distinct local positions, so their framing is not directly equivalent across scenes",
+  "capture_finished_at_utc": "2026-10-21T14:27:27.518153+00:00"
+}

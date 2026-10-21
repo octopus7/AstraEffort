@@ -81,3 +81,8 @@ handled ensure가 발생했습니다 (`Logs/runtime_validation.log`). 이는 검
 비치명적 오류이며 이후 PIE·충돌·이동·HelloOnBeginPlay 테스트와 정상 종료가
 확인됐습니다. 오류 없는 실행으로 해석하지 않습니다. 실제 시작부터 보완 완료까지는
 두 단계 사이 간격을 포함하여 3012.461초입니다.
+
+
+## Texture pass completed
+
+Separate second-pass record: [TexturePass/RESULT.md](TexturePass/RESULT.md). Finished 2026-10-21T14:30:04.339546+00:00. Original first-delivery timestamps above are retained.

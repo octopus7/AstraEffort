@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-21T14:29:26.618461+00:00",
+  "review_method": "All six final PNGs were opened with view_image and visually inspected in this chat. This file records that inspection; it is not an automated aesthetic test.",
+  "capture_manifest_finished_at_utc": "2026-10-21T14:27:27.518153+00:00",
+  "observations": [
+    "Overview and top-down retain the 100m forest diorama, separate pond and beach, paths, trees and rock grouping.",
+    "Lake close-up shows textured props, bridge and shoreline with no editor UI or selection overlays. Generated texture modulation is deliberately subtle within the original palette.",
+    "Beach and both water time samples show a pale shoreline foam band, moving crest stripes and bright caustic-like patterns. Caustics remain below the lowest theoretical wave surface after the depth fix.",
+    "The two fixed-camera water images visibly change foam/crest positions and caustic pattern shapes while static shore props remain aligned."
+  ],
+  "limitations": [
+    "The coast remains visibly polygonal, consistent with the original stylized geometry.",
+    "Fine distant crest/caustic lines show some aliasing at the grazing view.",
+    "These are shader-based artistic water effects, not a physical fluid or refracted-light solver."
+  ],
+  "images": {
+    "overview": {
+      "captured_at_utc": "2026-10-21T14:26:26.401008+00:00",
+      "sha256": "de12459caacc71a6b239622d2017fa18fec8a9406de92fddcbd5688cfa3f1839"
+    },
+    "top_down": {
+      "captured_at_utc": "2026-10-21T14:26:38.629877+00:00",
+      "sha256": "2bb19fd74b12d9d4adb4429f29cd2aea5e8648c9902fd4e5c3954373a41f03ed"
+    },
+    "lake": {
+      "captured_at_utc": "2026-10-21T14:26:50.867474+00:00",
+      "sha256": "6dfe91ab156f4ee39af621f425f5e309a1cceed6f70c9d07a5621d1626e4b7b8"
+    },
+    "beach": {
+      "captured_at_utc": "2026-10-21T14:27:03.085365+00:00",
+      "sha256": "ca33715a0aad8c3871a0b9885453a4a0b0edf1deab978dca5c1beaa6ae8c71f7"
+    },
+    "water_t0": {
+      "captured_at_utc": "2026-10-21T14:27:15.297487+00:00",
+      "sha256": "153b821eedb5940283907c94940bec5ff4b00b48828d159bc1f5f2caac54ae45"
+    },
+    "water_t1": {
+      "captured_at_utc": "2026-10-21T14:27:27.518153+00:00",
+      "sha256": "7b74ca2ba0d78c849090ea485a07402fef5ab2853ccf1f5861b2d7e8b026af8e"
+    }
+  }
+}

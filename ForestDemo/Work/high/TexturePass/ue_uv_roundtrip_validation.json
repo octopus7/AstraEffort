@@ -1,0 +1,227 @@
+{
+  "checked_at_utc": "2026-10-21T14:29:24.632250+00:00",
+  "scope": "Three saved UE mesh variants only; this is not a quantitative roundtrip audit of all 228 variants. All 228 have separate binding/channel/full-precision checks.",
+  "method": "Read FBX UnitScaleFactor (assert centimetre units); import into explicit one-metre Blender units at scale 1. Measure exported UE triangle geometry in world metres, UV areas and overlaps. Density denominators use this independently measured UE area multiplied by actual saved-map actor scales, not source audit areas. Source geometry/dimensions provide independent unit-ratio checks.",
+  "meshes": {
+    "SM_Broadleaf_0_UV10000": {
+      "source": {
+        "mesh_objects": 1,
+        "triangle_count": 3628,
+        "fbx_unit_scale_factor_cm": 1.0,
+        "blender_metres_per_unit": 1.0,
+        "import_global_scale": 1.0,
+        "actual_surface_area_m2": 374.69351814097786,
+        "uv_area": 0.24399508674059006,
+        "positive_uv_overlap_pairs": 0,
+        "dimensions_m": [
+          7.822584390640259,
+          6.903518438339233,
+          9.004105617292225
+        ]
+      },
+      "saved_ue_export": {
+        "mesh_objects": 1,
+        "triangle_count": 3628,
+        "fbx_unit_scale_factor_cm": 1.0,
+        "blender_metres_per_unit": 1.0,
+        "import_global_scale": 1.0,
+        "actual_surface_area_m2": 374.6935205838965,
+        "uv_area": 0.2439950869114963,
+        "positive_uv_overlap_pairs": 0,
+        "dimensions_m": [
+          7.822584390640259,
+          6.903518438339233,
+          9.004106570966542
+        ]
+      },
+      "ue_to_source_linear_unit_ratio": 1.000000003259889,
+      "ue_to_source_dimension_ratios": [
+        1.0,
+        1.0,
+        1.0000001059154964
+      ],
+      "unit_geometry_relative_tolerance": 0.001,
+      "uv_area_relative_error": 7.00449476198628e-10,
+      "uv_area_relative_tolerance": 0.0001,
+      "saved_uv_density_at_bucket_px_per_m": 16.00000027130107,
+      "scale_bucket": 1.0,
+      "actual_saved_actor_density_checks": [
+        {
+          "actor": "Forest tree",
+          "mesh_name": "SM_Broadleaf_0_UV10000",
+          "world_scale": [
+            1.0159544649239252,
+            -1.0159544649239252,
+            1.0159544649239252
+          ],
+          "actual_world_surface_area_m2": 386.7449661904924,
+          "measured_native_px_per_m": 15.748737589828059,
+          "expected_px_per_m": 15.748737322787477
+        }
+      ]
+    },
+    "SM_Grass_0_UV10000": {
+      "source": {
+        "mesh_objects": 1,
+        "triangle_count": 27,
+        "fbx_unit_scale_factor_cm": 1.0,
+        "blender_metres_per_unit": 1.0,
+        "import_global_scale": 1.0,
+        "actual_surface_area_m2": 0.9124353470144364,
+        "uv_area": 0.0005941649717883513,
+        "positive_uv_overlap_pairs": 0,
+        "dimensions_m": [
+          1.345813512802124,
+          1.179410845041275,
+          1.1303002834320068
+        ]
+      },
+      "saved_ue_export": {
+        "mesh_objects": 1,
+        "triangle_count": 27,
+        "fbx_unit_scale_factor_cm": 1.0,
+        "blender_metres_per_unit": 1.0,
+        "import_global_scale": 1.0,
+        "actual_surface_area_m2": 0.9124353616718338,
+        "uv_area": 0.0005941637456389967,
+        "positive_uv_overlap_pairs": 0,
+        "dimensions_m": [
+          1.345813512802124,
+          1.1794108748435974,
+          1.1303002834320068
+        ]
+      },
+      "ue_to_source_linear_unit_ratio": 1.0000000080320197,
+      "ue_to_source_dimension_ratios": [
+        1.0,
+        1.0000000252688217,
+        1.0
+      ],
+      "unit_geometry_relative_tolerance": 0.001,
+      "uv_area_relative_error": 2.0636513641258958e-06,
+      "uv_area_relative_tolerance": 0.0001,
+      "saved_uv_density_at_bucket_px_per_m": 15.999984470513084,
+      "scale_bucket": 1.0,
+      "actual_saved_actor_density_checks": [
+        {
+          "actor": "Understory",
+          "mesh_name": "SM_Grass_0_UV10000",
+          "world_scale": [
+            0.9851083749634081,
+            -0.9851083749634081,
+            0.9851083749634081
+          ],
+          "actual_world_surface_area_m2": 0.8854624132381282,
+          "measured_native_px_per_m": 16.241852041007572,
+          "expected_px_per_m": 16.241867805249672
+        },
+        {
+          "actor": "Understory",
+          "mesh_name": "SM_Grass_0_UV10000",
+          "world_scale": [
+            1.01291621697067,
+            -1.01291621697067,
+            1.01291621697067
+          ],
+          "actual_world_surface_area_m2": 0.9361580082474489,
+          "measured_native_px_per_m": 15.79596041848778,
+          "expected_px_per_m": 15.795975749950202
+        },
+        {
+          "actor": "Understory",
+          "mesh_name": "SM_Grass_0_UV10000",
+          "world_scale": [
+            0.9814264171521265,
+            -0.9814264171521265,
+            0.9814264171521265
+          ],
+          "actual_world_surface_area_m2": 0.8788557442129252,
+          "measured_native_px_per_m": 16.3027856096857,
+          "expected_px_per_m": 16.302801433069547
+        },
+        {
+          "actor": "Understory",
+          "mesh_name": "SM_Grass_0_UV10000",
+          "world_scale": [
+            1.0131955211620332,
+            -1.0131955211620332,
+            1.0131955211620332
+          ],
+          "actual_world_surface_area_m2": 0.9366743567878474,
+          "measured_native_px_per_m": 15.79160599936596,
+          "expected_px_per_m": 15.791621326602009
+        },
+        {
+          "actor": "Understory",
+          "mesh_name": "SM_Grass_0_UV10000",
+          "world_scale": [
+            0.9849229956866615,
+            -0.9849229956866615,
+            0.9849229956866615
+          ],
+          "actual_world_surface_area_m2": 0.8851291891152625,
+          "measured_native_px_per_m": 16.244909034089847,
+          "expected_px_per_m": 16.244924801299046
+        }
+      ]
+    },
+    "SM_Rock_2_UV10000": {
+      "source": {
+        "mesh_objects": 1,
+        "triangle_count": 336,
+        "fbx_unit_scale_factor_cm": 1.0,
+        "blender_metres_per_unit": 1.0,
+        "import_global_scale": 1.0,
+        "actual_surface_area_m2": 38.247937639303586,
+        "uv_area": 0.02490651459129065,
+        "positive_uv_overlap_pairs": 0,
+        "dimensions_m": [
+          3.712753653526306,
+          2.5350825786590576,
+          2.8456966876983643
+        ]
+      },
+      "saved_ue_export": {
+        "mesh_objects": 1,
+        "triangle_count": 336,
+        "fbx_unit_scale_factor_cm": 1.0,
+        "blender_metres_per_unit": 1.0,
+        "import_global_scale": 1.0,
+        "actual_surface_area_m2": 38.24793762385012,
+        "uv_area": 0.024906512424546494,
+        "positive_uv_overlap_pairs": 0,
+        "dimensions_m": [
+          3.712753653526306,
+          2.5350825786590576,
+          2.8456966876983643
+        ]
+      },
+      "ue_to_source_linear_unit_ratio": 0.999999999797983,
+      "ue_to_source_dimension_ratios": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unit_geometry_relative_tolerance": 0.001,
+      "uv_area_relative_error": 8.699507703102682e-08,
+      "uv_area_relative_tolerance": 0.0001,
+      "saved_uv_density_at_bucket_px_per_m": 16.0000002379572,
+      "scale_bucket": 1.0,
+      "actual_saved_actor_density_checks": [
+        {
+          "actor": "Moss boulder",
+          "mesh_name": "SM_Rock_2_UV10000",
+          "world_scale": [
+            1.010254136702219,
+            -1.010254136702219,
+            1.010254136702219
+          ],
+          "actual_world_surface_area_m2": 39.036358453913785,
+          "measured_native_px_per_m": 15.837599329398573,
+          "expected_px_per_m": 15.837599093856653
+        }
+      ]
+    }
+  },
+  "status": "passed"
+}
