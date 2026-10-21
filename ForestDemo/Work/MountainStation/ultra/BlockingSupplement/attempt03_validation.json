@@ -1,0 +1,283 @@
+{
+  "started_at_utc": "2026-10-21T14:29:20.736676+00:00",
+  "passed": false,
+  "map": "/Game/Maps/MountainStation_ultra",
+  "geometry_saved": false,
+  "hit_tuple_fields": [
+    "blocking_hit",
+    "initial_overlap",
+    "time",
+    "distance",
+    "location",
+    "impact_point",
+    "normal",
+    "impact_normal",
+    "physical_material",
+    "hit_actor",
+    "hit_component",
+    "hit_bone_name",
+    "bone_name",
+    "hit_item",
+    "element_index",
+    "face_index",
+    "trace_start",
+    "trace_end"
+  ],
+  "mapping_basis": "Installed UE 5.7 GameplayStatics.h BreakHitResult declaration, Actor.cpp K2_SetActorLocation implementation, and live Python HitResult.to_tuple documentation",
+  "live_api_docs": {
+    "hit_tuple": "to_tuple(self) -> Tuple[object, ...] -- break this Unreal struct into a tuple of its properties",
+    "set_actor_location": "x.set_actor_location(new_location, sweep, teleport) -> HitResult or None\r\nMove the Actor to the specified location.\r\n\r\nArgs:\r\n    new_location (Vector): The new location to move the Actor to.\r\n    sweep (bool): Whether we sweep to the destination location, triggering overlaps along the way and stopping short of the target if blocked by something. Only the root component is swept and checked for blocking collision, child components move without sweeping. If collision is off, this has no effect.\r\n    teleport (bool): Whether we teleport the physics state (if physics collision is enabled for this object). If true, physics velocity for this object is unchanged (so ragdoll parts are not affected by change in location). If false, physics velocity is updated based on the change in position (affecting ragdoll parts). If CCD is on and not teleporting, this will affect objects along the entire swept volume. Note that when teleporting, any child/attached components will be teleported too, maintaining their current offset even if they are being simulated. Setting the location without teleporting will not update the location of simulated child/attached components.\r\n\r\nReturns:\r\n    HitResult or None: Whether the location was successfully set (if not swept), or whether movement occurred at all (if swept).\r\n\r\n    sweep_hit_result (HitResult): The hit result from the move if swept."
+  },
+  "tests": [
+    {
+      "name": "platform_front_side",
+      "requested_start_cm": [
+        500.0,
+        -680.0,
+        115.0
+      ],
+      "actual_start_cm": [
+        500.0,
+        -680.0,
+        115.0
+      ],
+      "requested_target_cm": [
+        500.0,
+        -400.0,
+        115.0
+      ],
+      "root_component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.DefaultPawn_0.CollisionComponent0",
+      "root_class": "/Script/Engine.SphereComponent",
+      "sphere_radius_cm": 35.0,
+      "collision_object_channel": "<CollisionChannel.ECC_PAWN: 2>",
+      "profile": "Pawn",
+      "source_triangle": null,
+      "start_probe": null,
+      "same_shape_same_channel_trace": {
+        "blocking_hit": true,
+        "initial_overlap": true,
+        "time": 0.0,
+        "distance_cm": 0.0,
+        "location_cm": [
+          500.0,
+          -680.0,
+          115.0
+        ],
+        "impact_point_cm": [
+          500.0,
+          -680.0,
+          90.0
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "impact_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 1242,
+        "trace_start_cm": [
+          500.0,
+          -680.0,
+          115.0
+        ],
+        "trace_end_cm": [
+          500.0,
+          -400.0,
+          115.0
+        ]
+      }
+    }
+  ],
+  "terrain_lod0": {
+    "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+    "lod": 0,
+    "num_sections": 1,
+    "material_slots": [
+      "Meadow",
+      "MeadowLight"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "material_slot": 0,
+        "material": "/Game/MountainStation/ultra/Materials/M_Meadow.M_Meadow",
+        "collision_enabled": true,
+        "vertices": 10201,
+        "triangles": 20000,
+        "test_triangle": {
+          "section": 0,
+          "material_slot": 0,
+          "section_triangle_index": 10386,
+          "vertex_indices": [
+            5533,
+            5537,
+            5532
+          ],
+          "vertices_world_cm": [
+            [
+              400.0,
+              -3000.0,
+              19.99370765686035
+            ],
+            [
+              300.0,
+              -3000.0,
+              22.235090255737305
+            ],
+            [
+              300.0,
+              -3100.0,
+              23.251117706298828
+            ]
+          ],
+          "barycentric": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "centroid_world_cm": [
+            333.3333333333333,
+            -3033.3333333333335,
+            21.82663853963216
+          ],
+          "basis": "Actual UE LOD0 index and position buffers via ProceduralMeshLibrary; transformed by the placed Terrain actor"
+        }
+      }
+    ],
+    "slot1_triangle_count": 0,
+    "slot1_note": "No slot-1 faces exist in final imported LOD0; final presentation refinement assigned every terrain face to Meadow slot 0."
+  },
+  "world": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra",
+  "player_controller": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.PlayerController_0",
+  "player_pawn": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.DefaultPawn_0",
+  "possessed": true,
+  "platform_start_candidates": [
+    {
+      "position_cm": [
+        500.0,
+        -660.0,
+        115.0
+      ],
+      "blocking_overlap_probe": {
+        "blocking_hit": true,
+        "initial_overlap": true,
+        "time": 0.0,
+        "distance_cm": 0.0,
+        "location_cm": [
+          500.0,
+          -660.0,
+          115.0
+        ],
+        "impact_point_cm": [
+          497.0732421875,
+          -645.43896484375,
+          90.0
+        ],
+        "normal": [
+          0.10064859737950692,
+          -0.5007398749266784,
+          0.8597263736235806
+        ],
+        "impact_normal": [
+          0.10064859737950692,
+          -0.5007398749266784,
+          0.8597263736235806
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 2488,
+        "trace_start_cm": [
+          500.0,
+          -660.0,
+          115.0
+        ],
+        "trace_end_cm": [
+          500.0,
+          -660.0,
+          115.1
+        ]
+      }
+    },
+    {
+      "position_cm": [
+        500.0,
+        -650.0,
+        115.0
+      ],
+      "blocking_overlap_probe": {
+        "blocking_hit": true,
+        "initial_overlap": true,
+        "time": 0.0,
+        "distance_cm": 0.0,
+        "location_cm": [
+          500.0,
+          -650.0,
+          115.0
+        ],
+        "impact_point_cm": [
+          499.00518798828125,
+          -645.0506591796875,
+          90.0
+        ],
+        "normal": [
+          0.03900537693432557,
+          -0.19405673710819626,
+          0.9802145496538662
+        ],
+        "impact_normal": [
+          0.03900537693432557,
+          -0.19405673710819626,
+          0.9802145496538662
+        ],
+        "physical_material": "/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial",
+        "actor": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2",
+        "component": "/Game/Maps/UEDPIE_0_MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+        "static_mesh": "/Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast",
+        "hit_bone_name": "None",
+        "bone_name": "None",
+        "hit_item": -1,
+        "element_index": 0,
+        "face_index": 2488,
+        "trace_start_cm": [
+          500.0,
+          -650.0,
+          115.0
+        ],
+        "trace_end_cm": [
+          500.0,
+          -650.0,
+          115.1
+        ]
+      }
+    },
+    {
+      "position_cm": [
+        500.0,
+        -680.0,
+        115.0
+      ],
+      "blocking_overlap_probe": null
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/BlockingSupplement/check_blocking.py\", line 108, in tick\n    try:play_checks()\n        ^^^^^^^^^^^^^\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/BlockingSupplement/check_blocking.py\", line 94, in play_checks\n    test_move(pw,pawn,'platform_front_side',side_start,u.Vector(500,-400,side_start.z),'/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform')\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/BlockingSupplement/check_blocking.py\", line 58, in test_move\n    assert h is not None and rec['same_shape_same_channel_trace']['blocking_hit'] and not rec['same_shape_same_channel_trace']['initial_overlap']\n           ^^^^^^^^^^^^^\nAssertionError\n",
+  "normal_shutdown": true,
+  "finished_at_utc": "2026-10-21T14:29:38.786702+00:00"
+}

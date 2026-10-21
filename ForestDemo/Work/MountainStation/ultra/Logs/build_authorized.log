@@ -1,0 +1,1734 @@
+﻿Log file open, 10/21/26 21:44:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=21600)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: ForestDemo
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogCore: No trace connection. Tracing to in-memory cache.
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9711] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 9 7900 12-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\github\AstraEffort\ForestDemo\Saved\Workers\MountainStation\ultra\Project\ForestDemo.uproject -unattended -nop4 -nosplash -abslog=D:\github\AstraEffort\ForestDemo\Saved\Workers\MountainStation\ultra\build_authorized.log -run=pythonscript -script=D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py -NullRHI""
+LogCsvProfiler: Display: Metadata set : loginid="e08dd5be4f47afd92bfc899949da696d"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.320088
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-0887A6974A05DE55E0A7F3AB70909D6A
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Found matching target receipt: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Binaries/Win64/ForestDemoEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Found matching target receipt: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Binaries/Win64/ForestDemoEditor.target
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.19.0.3-49960398
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - CVarHttpCurlReuseConnectionEnabled = true  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: UnrealEditor-Cmd.exe
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=e08dd5be4f47afd92bfc899949da696d
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: Windows 11 (25H2) [10.0.26200.9711] (), CPU: AMD Ryzen 9 7900 12-Core Processor             , GPU: NVIDIA GeForce RTX 4060
+LogInit: CPU Model ID: 19612, microcode revision: a601206
+LogInit: Compiled (64-bit): Mar  6 2026 12:43:05
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.44.35223.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  D:\github\AstraEffort\ForestDemo\Saved\Workers\MountainStation\ultra\Project\ForestDemo.uproject -unattended -nop4 -nosplash -abslog=D:\github\AstraEffort\ForestDemo\Saved\Workers\MountainStation\ultra\build_authorized.log -run=pythonscript -script=D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py -NullRHI
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.ReflectionMethod:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.10.21-12.44.55:331][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.10.21-12.44.55:332][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.10.21-12.44.55:332][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.10.21-12.44.55:332][  0]LogHAL: Display: Platform has ~ 64 GB [67770941440 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.21-12.44.55:333][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.10.21-12.44.55:333][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.21-12.44.55:333][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.10.21-12.44.55:333][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.10.21-12.44.55:333][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.21-12.44.55:333][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.10.21-12.44.55:333][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.10.21-12.44.55:333][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.10.21-12.44.55:333][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.21-12.44.55:333][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.10.21-12.44.55:333][  0]LogConfig: Set CVar [[WindowsApplication.UseWorkerThreadForRawInput:0]]
+[2026.10.21-12.44.55:333][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/Config/WindowsEditor/Editor.ini]
+[2026.10.21-12.44.55:333][  0]LogInit: Computer: DESKTOP-TME360D
+[2026.10.21-12.44.55:333][  0]LogInit: User: blendue
+[2026.10.21-12.44.55:333][  0]LogInit: CPU Page size=4096, Cores=12
+[2026.10.21-12.44.55:333][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.10.21-12.44.55:333][  0]LogInit: Handheld Device: 0
+[2026.10.21-12.44.55:333][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2026.10.21-12.44.55:333][  0]LogMemory: Memory total: Physical=63.1GB (64GB approx) Virtual=67.1GB
+[2026.10.21-12.44.55:333][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.10.21-12.44.55:333][  0]LogMemory: Process Physical Memory: 562.96 MB used, 562.96 MB peak
+[2026.10.21-12.44.55:333][  0]LogMemory: Process Virtual Memory: 557.17 MB used, 557.17 MB peak
+[2026.10.21-12.44.55:333][  0]LogMemory: Physical Memory: 26237.20 MB used,  38394.20 MB free, 64631.41 MB total
+[2026.10.21-12.44.55:333][  0]LogMemory: Virtual Memory: 36184.68 MB used,  32542.73 MB free, 68727.41 MB total
+[2026.10.21-12.44.55:333][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.21-12.44.55:336][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.10.21-12.44.55:338][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.10.21-12.44.55:338][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.10.21-12.44.55:338][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.10.21-12.44.55:338][  0]LogInit: Overriding language with editor language configuration option (en).
+[2026.10.21-12.44.55:338][  0]LogInit: Using OS detected locale (ko-KR).
+[2026.10.21-12.44.55:620][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.21-12.44.55:713][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.10.21-12.44.55:713][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.21-12.44.55:713][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.21-12.44.55:713][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.21-12.44.55:713][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.21-12.44.55:713][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.10.21-12.44.55:718][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.21-12.44.55:718][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.21-12.44.55:718][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.21-12.44.55:718][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.21-12.44.55:718][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.21-12.44.55:718][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.21-12.44.55:718][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.14
+[2026.10.21-12.44.55:718][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.14.dll
+[2026.10.21-12.44.55:719][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.10.21-12.44.55:719][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.10.21-12.44.55:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.10.21-12.44.55:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.10.21-12.44.55:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.10.21-12.44.55:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.10.21-12.44.55:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2026.10.21-12.44.55:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.10.21-12.44.55:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.10.21-12.44.55:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.10.21-12.44.55:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.10.21-12.44.55:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.10.21-12.44.55:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.10.21-12.44.55:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.10.21-12.44.55:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.10.21-12.44.55:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.21-12.44.55:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.21-12.44.55:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.21-12.44.55:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.21-12.44.55:791][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.21-12.44.55:793][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.21-12.44.55:820][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.10.21-12.44.55:824][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2026.10.21-12.44.55:824][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2026.10.21-12.44.55:826][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2026.10.21-12.44.55:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.10.21-12.44.55:826][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.10.21-12.44.55:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.21-12.44.55:826][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.10.21-12.44.56:058][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1729 MiB)
+[2026.10.21-12.44.56:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.21-12.44.56:058][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.10.21-12.44.56:059][  0]LogZenServiceInstance: Found Zen config default=C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Data
+[2026.10.21-12.44.56:059][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.21-12.44.56:265][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.21-12.44.56:469][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/blendue/AppData/Local/UnrealEngine/5.7/Saved/Zen/zen.version', version: '5.7.6-202510061608-windows-x64-release-9a1ebb9'
+[2026.10.21-12.44.56:469][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zenserver.exe' is '5.7.6-202510061608-windows-x64-release-9a1ebb9'
+[2026.10.21-12.44.56:469][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.21-12.44.56:469][  0]LogZenServiceInstance: Installed version at 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.21-12.44.56:469][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.21-12.44.56:470][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2026.10.21-12.44.56:470][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/blendue/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir C:\Users\blendue\AppData\Local\UnrealEngine\Common\Zen\Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --http-forceloopback --owner-pid 61532  --child-id Zen_61532_Startup'
+[2026.10.21-12.44.57:398][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.21-12.44.57:398][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.930 seconds
+[2026.10.21-12.44.57:400][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc status: OK!.
+[2026.10.21-12.44.57:407][  0]LogDerivedDataCache: C:/Users/blendue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2026.10.21-12.44.57:407][  0]LogDerivedDataCache: Display: C:/Users/blendue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=813.80MBs, RandomWriteSpeed=160.76MBs. Assigned SpeedClass 'Local'
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/blendue/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2026.10.21-12.44.57:411][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2026.10.21-12.44.57:412][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/Shaders/WorkingDirectory/61532/).
+[2026.10.21-12.44.57:412][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/blendue/AppData/Local/Temp/UnrealShaderWorkingDir/09078ECB45C934BF4AD80FB4C677FA8C/'.
+[2026.10.21-12.44.57:412][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.10.21-12.44.57:413][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.21-12.44.57:413][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.21-12.44.57:413][  0]LogShaderCompilers: Display: Using 21 local workers for shader compilation
+[2026.10.21-12.44.57:414][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.21-12.44.57:414][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.21-12.44.57:414][  0]LogShaderCompilers: Display: Shader autogen file written: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.21-12.44.57:905][  0]LogAssetRegistry: FAssetRegistry took 0.0004 seconds to start up
+[2026.10.21-12.44.57:905][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.21-12.44.58:155][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.21-12.44.58:155][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.21-12.44.58:198][  0]LogDeviceProfileManager: Active device profile: [000001CD017D8980][000001CCFAD9C800 82] WindowsEditor
+[2026.10.21-12.44.58:198][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.21-12.44.58:200][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.21-12.44.58:209][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:211][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.10.21-12.44.58:211][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:211][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:211][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.10.21-12.44.58:211][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:212][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:213][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:214][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:214][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:215][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.10.21-12.44.58:215][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:215][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.10.21-12.44.58:215][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:215][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.10.21-12.44.58:215][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:216][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.10.21-12.44.58:216][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.21-12.44.58:216][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.21-12.44.58:216][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.21-12.44.58:216][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.21-12.44.58:229][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.21-12.44.58:229][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.21-12.44.58:229][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.21-12.44.58:229][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.21-12.44.58:229][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.10.21-12.44.58:336][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.10.21-12.44.58:355][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.21-12.44.58:355][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.21-12.44.58:356][  0]LogShaderCompilers: Display: Shader autogen file written: D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.21-12.44.58:356][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.21-12.44.58:356][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.21-12.44.58:370][  0]LogSlate: Border
+[2026.10.21-12.44.58:370][  0]LogSlate: BreadcrumbButton
+[2026.10.21-12.44.58:370][  0]LogSlate: Brushes.Title
+[2026.10.21-12.44.58:370][  0]LogSlate: ColorPicker.ColorThemes
+[2026.10.21-12.44.58:370][  0]LogSlate: Default
+[2026.10.21-12.44.58:370][  0]LogSlate: Icons.Save
+[2026.10.21-12.44.58:370][  0]LogSlate: Icons.Toolbar.Settings
+[2026.10.21-12.44.58:370][  0]LogSlate: ListView
+[2026.10.21-12.44.58:370][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.10.21-12.44.58:370][  0]LogSlate: SoftwareCursor_Grab
+[2026.10.21-12.44.58:370][  0]LogSlate: TableView.DarkRow
+[2026.10.21-12.44.58:370][  0]LogSlate: TableView.Row
+[2026.10.21-12.44.58:370][  0]LogSlate: TreeView
+[2026.10.21-12.44.58:412][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.21-12.44.58:414][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.173 ms
+[2026.10.21-12.44.58:433][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.10.21-12.44.58:440][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 56CCEA0AE95B4922800000000000A900 | Instance: 0C7FB4E44A674CD6A8B95881534F3179 (DESKTOP-TME360D-61532).
+[2026.10.21-12.44.58:465][  0]LogCollectionManager: Loaded 0 collections in 0.001639 seconds
+[2026.10.21-12.44.58:474][  0]LogFileCache: Scanning file cache for directory 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/Collections/' took 0.00s
+[2026.10.21-12.44.58:475][  0]LogFileCache: Scanning file cache for directory 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/Developers/blendue/Collections/' took 0.00s
+[2026.10.21-12.44.58:476][  0]LogFileCache: Scanning file cache for directory 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/Collections/' took 0.00s
+[2026.10.21-12.44.58:476][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: 0: AMD Radeon(TM) Graphics (Compute, Graphics)
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: 1: NVIDIA GeForce RTX 4060 (Compute, Graphics)
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   NPU:       no
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT: Interface availability:
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   GPU: yes
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   RDG: no
+[2026.10.21-12.44.58:663][  0]LogNNERuntimeORT:   NPU: no
+[2026.10.21-12.44.58:790][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.21-12.44.58:790][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.21-12.44.58:790][  0]LogNNERuntimeORT: 0: AMD Radeon(TM) Graphics (Compute, Graphics)
+[2026.10.21-12.44.58:790][  0]LogNNERuntimeORT: 1: NVIDIA GeForce RTX 4060 (Compute, Graphics)
+[2026.10.21-12.44.58:790][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.21-12.44.58:790][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.21-12.44.58:894][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.21-12.44.58:894][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.21-12.44.58:896][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.10.21-12.44.59:080][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.21-12.44.59:080][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.21-12.44.59:085][  0]LogTimingProfiler: Initialize
+[2026.10.21-12.44.59:085][  0]LogTimingProfiler: OnSessionChanged
+[2026.10.21-12.44.59:085][  0]LoadingProfiler: Initialize
+[2026.10.21-12.44.59:085][  0]LoadingProfiler: OnSessionChanged
+[2026.10.21-12.44.59:085][  0]LogNetworkingProfiler: Initialize
+[2026.10.21-12.44.59:085][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.10.21-12.44.59:085][  0]LogMemoryProfiler: Initialize
+[2026.10.21-12.44.59:085][  0]LogMemoryProfiler: OnSessionChanged
+[2026.10.21-12.44.59:104][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.10.21-12.44.59:171][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.10.21-12.44.59:175][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.21-12.44.59:175][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.21-12.44.59:226][  0]SourceControl: Revision control is disabled
+[2026.10.21-12.44.59:258][  0]SourceControl: Revision control is disabled
+[2026.10.21-12.44.59:380][  0]LogUObjectArray: 42512 objects as part of root set at end of initial load.
+[2026.10.21-12.44.59:380][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.10.21-12.44.59:392][  0]LogInit: Executing Class /Script/PythonScriptPlugin.PythonScriptCommandlet
+[2026.10.21-12.44.59:392][  0]LogInit: Initializing Editor Engine...
+[2026.10.21-12.44.59:392][  0]LogEngine: Initializing Engine...
+[2026.10.21-12.44.59:407][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.10.21-12.44.59:420][  0]LogAssetRegistry: Display: No AssetDiscovery cache present at D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+[2026.10.21-12.44.59:429][  0]LogNiagara: UAV Float16 is not supported, compressed GPU emitters will be disabled.
+[2026.10.21-12.44.59:433][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.10.21-12.44.59:433][  0]LogInit: Texture streaming: Disabled
+[2026.10.21-12.44.59:437][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.21-12.44.59:439][  0]LogInit: Initializing Editor Engine Completed
+[2026.10.21-12.44.59:440][  0]LogContentValidation: Adding native validator /Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.21-12.44.59:440][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Localization
+[2026.10.21-12.44.59:440][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Material
+[2026.10.21-12.44.59:440][  0]LogContentValidation: Adding native validator /Script/DataValidation.PackageFileValidator
+[2026.10.21-12.44.59:440][  0]LogContentValidation: Adding native validator /Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.21-12.44.59:440][  0]LogContentValidation: Adding native validator /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.21-12.44.59:444][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.10.21-12.44.59:444][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.10.21-12.44.59:444][  0]LogPython: Using Python 3.11.8
+[2026.10.21-12.44.59:464][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.21-12.44.59:716][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.10.21-12.44.59:780][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.21-12.44.59:795][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 14.617 ms
+[2026.10.21-12.44.59:795][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.21-12.44.59:805][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.10.21-12.44.59:813][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 17.918 ms (total: 32.535 ms)
+[2026.10.21-12.44.59:814][  0]LogPython: Python enabled via IPythonScriptPlugin::ForceEnablePythonAtRuntime: D:\build\++UE5\Sync\Engine\Plugins\Experimental\PythonScriptPlugin\Source\PythonScriptPlugin\Private\PythonScriptCommandlet.cpp(40:30) int __cdecl UPythonScriptCommandlet::Main(const class FString &)
+[2026.10.21-12.44.59:814][  0]LogPythonScriptCommandlet: Display: Running Python script: D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py
+[2026.10.21-12.44.59:838][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.21-12.44.59:860][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.44.59:861][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.44.59:861][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Meadow
+[2026.10.21-12.44.59:862][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Meadow
+[2026.10.21-12.44.59:862][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Meadow1E55E7084FA69D4EB2562FB3DAB2CF8A.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Meadow.uasset'
+[2026.10.21-12.44.59:863][  0]LogSourceControl: Uncontrolled asset discovery started...
+[2026.10.21-12.44.59:863][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.793 ms
+[2026.10.21-12.44.59:880][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.10.21-12.44.59:881][  0]LogSourceControl: Uncontrolled asset discovery finished in 0.017613 seconds (Found 197 uncontrolled assets)
+[2026.10.21-12.44.59:897][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.44.59:898][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.44.59:898][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_MeadowLight
+[2026.10.21-12.44.59:899][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_MeadowLight
+[2026.10.21-12.44.59:899][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_MeadowLightFEE265304223BC6D691DF1AAFB178A26.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_MeadowLight.uasset'
+[2026.10.21-12.44.59:899][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.923 ms (total: 4.717 ms)
+[2026.10.21-12.44.59:919][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.44.59:934][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.44.59:935][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.44.59:935][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Earth
+[2026.10.21-12.44.59:936][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Earth
+[2026.10.21-12.44.59:936][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Earth924AECED480B1FD207FADC8E5F6C88EA.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Earth.uasset'
+[2026.10.21-12.44.59:937][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.849 ms (total: 6.566 ms)
+[2026.10.21-12.44.59:952][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.10.21-12.44.59:967][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.44.59:967][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.44.59:967][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Stone
+[2026.10.21-12.44.59:969][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Stone
+[2026.10.21-12.44.59:969][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Stone6CC5B22747D0FB4AAC4E44845E36DA14.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Stone.uasset'
+[2026.10.21-12.44.59:969][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.076 ms (total: 8.642 ms)
+[2026.10.21-12.44.59:985][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.21-12.45.00:003][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.10.21-12.45.00:004][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:004][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_StoneLight
+[2026.10.21-12.45.00:005][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_StoneLight
+[2026.10.21-12.45.00:005][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_StoneLightE25EC8484301356B480AF58A1BEDB7B7.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_StoneLight.uasset'
+[2026.10.21-12.45.00:006][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.626 ms (total: 10.269 ms)
+[2026.10.21-12.45.00:027][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.21-12.45.00:045][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.45.00:046][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:046][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_StoneDark
+[2026.10.21-12.45.00:048][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_StoneDark
+[2026.10.21-12.45.00:048][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_StoneDark3F27FDEE4C54CE0CAA1F259246E09285.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_StoneDark.uasset'
+[2026.10.21-12.45.00:048][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.428 ms (total: 12.697 ms)
+[2026.10.21-12.45.00:065][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.10.21-12.45.00:080][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:081][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:081][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Gravel
+[2026.10.21-12.45.00:082][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Gravel
+[2026.10.21-12.45.00:082][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Gravel40FC2D1F4B7CE1B27933519F384E82CA.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Gravel.uasset'
+[2026.10.21-12.45.00:082][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.626 ms (total: 14.323 ms)
+[2026.10.21-12.45.00:098][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.45.00:113][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.10.21-12.45.00:113][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:113][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Ballast
+[2026.10.21-12.45.00:114][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Ballast
+[2026.10.21-12.45.00:114][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Ballast772CF13D4DD37687FC0E88BCAC13E0D9.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Ballast.uasset'
+[2026.10.21-12.45.00:115][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.936 ms (total: 16.260 ms)
+[2026.10.21-12.45.00:131][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.10.21-12.45.00:146][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:147][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:147][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Timber
+[2026.10.21-12.45.00:148][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Timber
+[2026.10.21-12.45.00:148][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_TimberE91282A14D4881BF923190912FB43045.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Timber.uasset'
+[2026.10.21-12.45.00:148][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.775 ms (total: 18.035 ms)
+[2026.10.21-12.45.00:166][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.45.00:182][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.45.00:182][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:183][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_WoodLight
+[2026.10.21-12.45.00:191][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_WoodLight
+[2026.10.21-12.45.00:191][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_WoodLightECA12951414BCA5A3E7291B911C90786.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_WoodLight.uasset'
+[2026.10.21-12.45.00:191][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.359 ms (total: 27.394 ms)
+[2026.10.21-12.45.00:209][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.21-12.45.00:227][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.45.00:227][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:227][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Sage
+[2026.10.21-12.45.00:228][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Sage
+[2026.10.21-12.45.00:228][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Sage33F48DA447C1B1FD55A4E5BD5FE39209.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Sage.uasset'
+[2026.10.21-12.45.00:229][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.722 ms (total: 29.117 ms)
+[2026.10.21-12.45.00:245][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.10.21-12.45.00:261][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:261][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:261][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_SageDark
+[2026.10.21-12.45.00:263][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_SageDark
+[2026.10.21-12.45.00:263][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_SageDarkF034E26144DE67C1A609EDBDFA365045.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_SageDark.uasset'
+[2026.10.21-12.45.00:263][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.764 ms (total: 30.881 ms)
+[2026.10.21-12.45.00:279][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.10.21-12.45.00:295][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:295][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:295][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Cream
+[2026.10.21-12.45.00:296][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Cream
+[2026.10.21-12.45.00:296][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_CreamCBAA246C4DFD49BC863FAEA117D5B30C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Cream.uasset'
+[2026.10.21-12.45.00:297][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.771 ms (total: 32.653 ms)
+[2026.10.21-12.45.00:313][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.10.21-12.45.00:326][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:326][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:326][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Roof
+[2026.10.21-12.45.00:328][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Roof
+[2026.10.21-12.45.00:328][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Roof5EECF29542CF74263FAB8DA14A91BEFE.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Roof.uasset'
+[2026.10.21-12.45.00:328][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.216 ms (total: 34.870 ms)
+[2026.10.21-12.45.00:343][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.10.21-12.45.00:356][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:356][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:356][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_RoofLight
+[2026.10.21-12.45.00:358][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_RoofLight
+[2026.10.21-12.45.00:358][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_RoofLight53A11D3049634384731CE3A64FBE7A4A.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_RoofLight.uasset'
+[2026.10.21-12.45.00:358][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.847 ms (total: 36.718 ms)
+[2026.10.21-12.45.00:373][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.10.21-12.45.00:387][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:387][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:387][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Metal
+[2026.10.21-12.45.00:388][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Metal
+[2026.10.21-12.45.00:389][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_MetalBA01D3664E36D763A994838319FEC7D7.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Metal.uasset'
+[2026.10.21-12.45.00:389][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.734 ms (total: 38.452 ms)
+[2026.10.21-12.45.00:403][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.10.21-12.45.00:417][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.45.00:417][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:417][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Rail
+[2026.10.21-12.45.00:419][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Rail
+[2026.10.21-12.45.00:419][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Rail3425D2AF4C35DE52E9132C80A706104C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Rail.uasset'
+[2026.10.21-12.45.00:419][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.967 ms (total: 40.420 ms)
+[2026.10.21-12.45.00:433][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.10.21-12.45.00:447][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2026.10.21-12.45.00:448][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:448][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Glass
+[2026.10.21-12.45.00:457][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Glass
+[2026.10.21-12.45.00:457][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_GlassF1EE0A2D47D02C7B7BAB39B048B2299D.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Glass.uasset'
+[2026.10.21-12.45.00:457][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.359 ms (total: 49.779 ms)
+[2026.10.21-12.45.00:472][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.10.21-12.45.00:485][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.10.21-12.45.00:485][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:486][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Pine
+[2026.10.21-12.45.00:487][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Pine
+[2026.10.21-12.45.00:487][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_PineF4023807479D016AC3152C8BCFE0F35B.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Pine.uasset'
+[2026.10.21-12.45.00:487][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.970 ms (total: 51.750 ms)
+[2026.10.21-12.45.00:502][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.21-12.45.00:516][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:516][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:517][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_PineLight
+[2026.10.21-12.45.00:518][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_PineLight
+[2026.10.21-12.45.00:518][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_PineLightE40E64444443764617838BA6FB7758DD.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_PineLight.uasset'
+[2026.10.21-12.45.00:518][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.851 ms (total: 53.601 ms)
+[2026.10.21-12.45.00:533][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.21-12.45.00:546][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2026.10.21-12.45.00:547][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:547][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_PineDark
+[2026.10.21-12.45.00:548][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_PineDark
+[2026.10.21-12.45.00:548][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_PineDark976364D34BC7CE67B0D6D18C11720089.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_PineDark.uasset'
+[2026.10.21-12.45.00:548][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.878 ms (total: 55.480 ms)
+[2026.10.21-12.45.00:563][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.21-12.45.00:578][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.10.21-12.45.00:578][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:578][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Mustard
+[2026.10.21-12.45.00:586][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Mustard
+[2026.10.21-12.45.00:586][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Mustard4F2CB6FA4D535F4B24A83196679FE22E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Mustard.uasset'
+[2026.10.21-12.45.00:588][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.007 ms (total: 64.487 ms)
+[2026.10.21-12.45.00:604][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.21-12.45.00:621][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.10.21-12.45.00:621][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:621][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Luggage
+[2026.10.21-12.45.00:623][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Luggage
+[2026.10.21-12.45.00:623][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Luggage47D18A904CFF40291D8C0BA7C42BE845.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Luggage.uasset'
+[2026.10.21-12.45.00:623][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.931 ms (total: 66.419 ms)
+[2026.10.21-12.45.00:639][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.10.21-12.45.00:653][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.10.21-12.45.00:653][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:653][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Ink
+[2026.10.21-12.45.00:654][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Ink
+[2026.10.21-12.45.00:654][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Ink78CC41CE443422325D71F3A8F919E539.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Ink.uasset'
+[2026.10.21-12.45.00:655][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.927 ms (total: 68.347 ms)
+[2026.10.21-12.45.00:674][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.10.21-12.45.00:688][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.45.00:688][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:688][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Lamp
+[2026.10.21-12.45.00:689][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Lamp
+[2026.10.21-12.45.00:689][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Lamp910202D14797B5951C4330A6CF037EE2.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Lamp.uasset'
+[2026.10.21-12.45.00:689][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.844 ms (total: 70.191 ms)
+[2026.10.21-12.45.00:707][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.10.21-12.45.00:721][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.45.00:721][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:722][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Interior
+[2026.10.21-12.45.00:723][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Interior
+[2026.10.21-12.45.00:723][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_Interior732E96CC4B6C45D431FFB29B9B5F9AB9.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Interior.uasset'
+[2026.10.21-12.45.00:724][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.024 ms (total: 72.215 ms)
+[2026.10.21-12.45.00:741][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.21-12.45.00:755][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.10.21-12.45.00:755][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.00:755][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Materials/M_Flower
+[2026.10.21-12.45.00:757][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Materials/M_Flower
+[2026.10.21-12.45.00:757][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/M_FlowerD9F49FB34D065937A56F3DA5824C0313.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Materials/M_Flower.uasset'
+[2026.10.21-12.45.00:757][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.906 ms (total: 74.122 ms)
+[2026.10.21-12.45.00:775][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Terrain.fbx)
+[2026.10.21-12.45.00:780][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Terrain.fbx
+[2026.10.21-12.45.00:785][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.00:787][  0]LogFbx: Display: Triangulating static mesh SM_Terrain
+[2026.10.21-12.45.01:070][  0]LogStaticMesh: Display: Building static mesh SM_Terrain (Required Memory Estimate: 29.99353 MB)...
+[2026.10.21-12.45.01:124][  0]LogStaticMesh: Built static mesh [0.06s] /Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain
+[2026.10.21-12.45.01:160][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.01:160][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Terrain
+[2026.10.21-12.45.01:176][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_Terrain) ...
+[2026.10.21-12.45.01:184][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Terrain
+[2026.10.21-12.45.01:184][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Terrain753A53504D163ADB108BE88650B11839.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Terrain.uasset'
+[2026.10.21-12.45.01:184][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 24.513 ms (total: 98.635 ms)
+[2026.10.21-12.45.01:184][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TerrainSkirt.fbx)
+[2026.10.21-12.45.01:188][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TerrainSkirt.fbx
+[2026.10.21-12.45.01:190][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.01:191][  0]LogFbx: Display: Triangulating static mesh SM_TerrainSkirt
+[2026.10.21-12.45.01:221][  0]LogStaticMesh: Display: Building static mesh SM_TerrainSkirt (Required Memory Estimate: 2.461011 MB)...
+[2026.10.21-12.45.01:237][  0]LogStaticMesh: Built static mesh [0.02s] /Game/MountainStation/ultra/Meshes/SM_TerrainSkirt.SM_TerrainSkirt
+[2026.10.21-12.45.01:243][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.01:243][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TerrainSkirt
+[2026.10.21-12.45.01:261][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TerrainSkirt
+[2026.10.21-12.45.01:261][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TerrainSkirtE152E7EC40585E9AD0B4AB8A816B8EFC.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TerrainSkirt.uasset'
+[2026.10.21-12.45.01:261][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.324 ms (total: 116.959 ms)
+[2026.10.21-12.45.01:262][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Ballast.fbx)
+[2026.10.21-12.45.01:267][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Ballast.fbx
+[2026.10.21-12.45.01:273][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.01:274][  0]LogFbx: Display: Triangulating static mesh SM_Ballast
+[2026.10.21-12.45.01:350][  0]LogStaticMesh: Display: Building static mesh SM_Ballast (Required Memory Estimate: 4.807099 MB)...
+[2026.10.21-12.45.01:362][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast
+[2026.10.21-12.45.01:370][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.01:370][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Ballast
+[2026.10.21-12.45.01:378][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Ballast
+[2026.10.21-12.45.01:378][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_BallastDB1E974548C6AC23855949992CE32FDF.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Ballast.uasset'
+[2026.10.21-12.45.01:378][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.965 ms (total: 124.925 ms)
+[2026.10.21-12.45.01:379][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Sleepers.fbx)
+[2026.10.21-12.45.01:383][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Sleepers.fbx
+[2026.10.21-12.45.01:388][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.01:389][  0]LogFbx: Display: Triangulating static mesh SM_Sleepers
+[2026.10.21-12.45.01:711][  0]LogStaticMesh: Display: Building static mesh SM_Sleepers (Required Memory Estimate: 24.385752 MB)...
+[2026.10.21-12.45.01:949][  0]LogStaticMesh: Built static mesh [0.24s] /Game/MountainStation/ultra/Meshes/SM_Sleepers.SM_Sleepers
+[2026.10.21-12.45.01:976][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.01:976][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Sleepers
+[2026.10.21-12.45.01:998][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_Sleepers) ...
+[2026.10.21-12.45.02:028][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Sleepers
+[2026.10.21-12.45.02:028][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_SleepersAE4AC9C4453B435A4FB407B5C83C3D9F.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Sleepers.uasset'
+[2026.10.21-12.45.02:029][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.627 ms (total: 177.552 ms)
+[2026.10.21-12.45.02:030][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_RailFasteners.fbx)
+[2026.10.21-12.45.02:033][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_RailFasteners.fbx
+[2026.10.21-12.45.02:042][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.02:043][  0]LogFbx: Display: Triangulating static mesh SM_RailFasteners
+[2026.10.21-12.45.02:463][  0]LogStaticMesh: Display: Building static mesh SM_RailFasteners (Required Memory Estimate: 38.813485 MB)...
+[2026.10.21-12.45.02:933][  0]LogStaticMesh: Built static mesh [0.47s] /Game/MountainStation/ultra/Meshes/SM_RailFasteners.SM_RailFasteners
+[2026.10.21-12.45.02:983][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.02:983][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_RailFasteners
+[2026.10.21-12.45.03:009][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_RailFasteners) ...
+[2026.10.21-12.45.03:032][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_RailFasteners
+[2026.10.21-12.45.03:032][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_RailFasteners0E0BEA8D4794841329712996EA4E185F.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_RailFasteners.uasset'
+[2026.10.21-12.45.03:032][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 49.684 ms (total: 227.236 ms)
+[2026.10.21-12.45.03:033][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Rails.fbx)
+[2026.10.21-12.45.03:037][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Rails.fbx
+[2026.10.21-12.45.03:041][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:043][  0]LogFbx: Display: Triangulating static mesh SM_Rails
+[2026.10.21-12.45.03:224][  0]LogStaticMesh: Display: Building static mesh SM_Rails (Required Memory Estimate: 19.205059 MB)...
+[2026.10.21-12.45.03:279][  0]LogStaticMesh: Built static mesh [0.06s] /Game/MountainStation/ultra/Meshes/SM_Rails.SM_Rails
+[2026.10.21-12.45.03:307][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:308][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Rails
+[2026.10.21-12.45.03:326][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_Rails) ...
+[2026.10.21-12.45.03:335][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Rails
+[2026.10.21-12.45.03:335][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_RailsE5428BB8440D89B26CBBF286BB57B255.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Rails.uasset'
+[2026.10.21-12.45.03:344][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.895 ms (total: 263.132 ms)
+[2026.10.21-12.45.03:344][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Platform.fbx)
+[2026.10.21-12.45.03:347][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Platform.fbx
+[2026.10.21-12.45.03:350][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:351][  0]LogFbx: Display: Triangulating static mesh SM_Platform
+[2026.10.21-12.45.03:360][  0]LogStaticMesh: Display: Building static mesh SM_Platform (Required Memory Estimate: 0.634687 MB)...
+[2026.10.21-12.45.03:362][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform
+[2026.10.21-12.45.03:369][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:370][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Platform
+[2026.10.21-12.45.03:373][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Platform
+[2026.10.21-12.45.03:373][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_PlatformC277708E410C576985D2B7922C730A7E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Platform.uasset'
+[2026.10.21-12.45.03:374][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.210 ms (total: 267.343 ms)
+[2026.10.21-12.45.03:374][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_PlatformCoping.fbx)
+[2026.10.21-12.45.03:378][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_PlatformCoping.fbx
+[2026.10.21-12.45.03:381][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:382][  0]LogFbx: Display: Triangulating static mesh SM_PlatformCoping
+[2026.10.21-12.45.03:401][  0]LogStaticMesh: Display: Building static mesh SM_PlatformCoping (Required Memory Estimate: 1.649804 MB)...
+[2026.10.21-12.45.03:406][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping
+[2026.10.21-12.45.03:411][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:411][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_PlatformCoping
+[2026.10.21-12.45.03:416][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_PlatformCoping
+[2026.10.21-12.45.03:416][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_PlatformCoping9D5DD25845FF047FD965B19BD5EDCE13.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_PlatformCoping.uasset'
+[2026.10.21-12.45.03:416][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.146 ms (total: 272.490 ms)
+[2026.10.21-12.45.03:417][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Paving.fbx)
+[2026.10.21-12.45.03:420][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Paving.fbx
+[2026.10.21-12.45.03:424][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:425][  0]LogFbx: Display: Triangulating static mesh SM_Paving
+[2026.10.21-12.45.03:575][  0]LogStaticMesh: Display: Building static mesh SM_Paving (Required Memory Estimate: 13.938103 MB)...
+[2026.10.21-12.45.03:624][  0]LogStaticMesh: Built static mesh [0.05s] /Game/MountainStation/ultra/Meshes/SM_Paving.SM_Paving
+[2026.10.21-12.45.03:640][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:641][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Paving
+[2026.10.21-12.45.03:661][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Paving
+[2026.10.21-12.45.03:661][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_PavingED33DA6B48AADAB6D2B04EB8BEDB497D.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Paving.uasset'
+[2026.10.21-12.45.03:661][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 20.657 ms (total: 293.148 ms)
+[2026.10.21-12.45.03:661][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_AccessRamp.fbx)
+[2026.10.21-12.45.03:665][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_AccessRamp.fbx
+[2026.10.21-12.45.03:667][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:668][  0]LogFbx: Display: Triangulating static mesh SM_AccessRamp
+[2026.10.21-12.45.03:669][  0]LogStaticMesh: Display: Building static mesh SM_AccessRamp (Required Memory Estimate: 0.023105 MB)...
+[2026.10.21-12.45.03:670][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_AccessRamp.SM_AccessRamp
+[2026.10.21-12.45.03:676][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:676][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_AccessRamp
+[2026.10.21-12.45.03:678][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_AccessRamp
+[2026.10.21-12.45.03:678][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_AccessRamp0CB118944B0DE7207DB446A4457AD5E3.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_AccessRamp.uasset'
+[2026.10.21-12.45.03:678][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.303 ms (total: 295.451 ms)
+[2026.10.21-12.45.03:679][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Railings.fbx)
+[2026.10.21-12.45.03:682][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Railings.fbx
+[2026.10.21-12.45.03:684][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:685][  0]LogFbx: Display: Triangulating static mesh SM_Railings
+[2026.10.21-12.45.03:706][  0]LogStaticMesh: Display: Building static mesh SM_Railings (Required Memory Estimate: 1.997743 MB)...
+[2026.10.21-12.45.03:711][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Railings.SM_Railings
+[2026.10.21-12.45.03:716][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:716][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Railings
+[2026.10.21-12.45.03:721][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Railings
+[2026.10.21-12.45.03:721][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Railings7F96219A4B63826CA78FCEA26298CC5B.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Railings.uasset'
+[2026.10.21-12.45.03:721][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.504 ms (total: 300.956 ms)
+[2026.10.21-12.45.03:722][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Footpath.fbx)
+[2026.10.21-12.45.03:725][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Footpath.fbx
+[2026.10.21-12.45.03:727][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:728][  0]LogFbx: Display: Triangulating static mesh SM_Footpath
+[2026.10.21-12.45.03:753][  0]LogStaticMesh: Display: Building static mesh SM_Footpath (Required Memory Estimate: 2.530272 MB)...
+[2026.10.21-12.45.03:758][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Footpath.SM_Footpath
+[2026.10.21-12.45.03:765][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:765][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Footpath
+[2026.10.21-12.45.03:770][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Footpath
+[2026.10.21-12.45.03:770][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_FootpathC49495694D6D79616EEE3C93F8ED6D11.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Footpath.uasset'
+[2026.10.21-12.45.03:770][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.441 ms (total: 306.397 ms)
+[2026.10.21-12.45.03:771][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationStone.fbx)
+[2026.10.21-12.45.03:774][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationStone.fbx
+[2026.10.21-12.45.03:776][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:777][  0]LogFbx: Display: Triangulating static mesh SM_StationStone
+[2026.10.21-12.45.03:781][  0]LogStaticMesh: Display: Building static mesh SM_StationStone (Required Memory Estimate: 0.339447 MB)...
+[2026.10.21-12.45.03:782][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationStone.SM_StationStone
+[2026.10.21-12.45.03:798][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:798][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationStone
+[2026.10.21-12.45.03:802][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationStone
+[2026.10.21-12.45.03:802][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationStoneA1B27A9D4A52FB0B9EA967B498915512.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationStone.uasset'
+[2026.10.21-12.45.03:802][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.103 ms (total: 310.501 ms)
+[2026.10.21-12.45.03:803][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationWalls.fbx)
+[2026.10.21-12.45.03:806][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationWalls.fbx
+[2026.10.21-12.45.03:808][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:808][  0]LogFbx: Display: Triangulating static mesh SM_StationWalls
+[2026.10.21-12.45.03:811][  0]LogStaticMesh: Display: Building static mesh SM_StationWalls (Required Memory Estimate: 0.177481 MB)...
+[2026.10.21-12.45.03:812][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationWalls.SM_StationWalls
+[2026.10.21-12.45.03:825][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.03:825][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationWalls
+[2026.10.21-12.45.03:827][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationWalls
+[2026.10.21-12.45.03:827][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationWalls7DB71D98441EC70DBDBA51BC724F3C9B.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationWalls.uasset'
+[2026.10.21-12.45.03:828][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.740 ms (total: 313.241 ms)
+[2026.10.21-12.45.03:828][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationCladding.fbx)
+[2026.10.21-12.45.03:831][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationCladding.fbx
+[2026.10.21-12.45.03:835][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.03:835][  0]LogFbx: Display: Triangulating static mesh SM_StationCladding
+[2026.10.21-12.45.04:441][  0]LogStaticMesh: Display: Building static mesh SM_StationCladding (Required Memory Estimate: 6.972883 MB)...
+[2026.10.21-12.45.04:463][  0]LogStaticMesh: Built static mesh [0.54s] /Game/MountainStation/ultra/Meshes/SM_StationCladding.SM_StationCladding
+[2026.10.21-12.45.04:473][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:473][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationCladding
+[2026.10.21-12.45.04:473][  0]LogStaticMesh: Display: Building static mesh SM_StationCladding (Required Memory Estimate: 6.972883 MB)...
+[2026.10.21-12.45.04:489][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_StationCladding) ...
+[2026.10.21-12.45.04:496][  0]LogStaticMesh: Built static mesh [0.02s] /Game/MountainStation/ultra/Meshes/SM_StationCladding.SM_StationCladding
+[2026.10.21-12.45.04:506][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationCladding
+[2026.10.21-12.45.04:506][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationCladdingAE00B82F4CE947E336B8979FB27267CA.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationCladding.uasset'
+[2026.10.21-12.45.04:506][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 33.598 ms (total: 346.840 ms)
+[2026.10.21-12.45.04:506][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationTrim.fbx)
+[2026.10.21-12.45.04:510][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationTrim.fbx
+[2026.10.21-12.45.04:512][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:513][  0]LogFbx: Display: Triangulating static mesh SM_StationTrim
+[2026.10.21-12.45.04:555][  0]LogStaticMesh: Display: Building static mesh SM_StationTrim (Required Memory Estimate: 4.319571 MB)...
+[2026.10.21-12.45.04:567][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_StationTrim.SM_StationTrim
+[2026.10.21-12.45.04:575][  0]LogStaticMesh: Display: Building static mesh SM_StationTrim (Required Memory Estimate: 4.319571 MB)...
+[2026.10.21-12.45.04:575][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:575][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationTrim
+[2026.10.21-12.45.04:587][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_StationTrim.SM_StationTrim
+[2026.10.21-12.45.04:594][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationTrim
+[2026.10.21-12.45.04:594][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationTrim7A54C38C445AB9110A4CEFA1D53A06E2.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationTrim.uasset'
+[2026.10.21-12.45.04:595][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 19.872 ms (total: 366.712 ms)
+[2026.10.21-12.45.04:595][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationRoof.fbx)
+[2026.10.21-12.45.04:598][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationRoof.fbx
+[2026.10.21-12.45.04:600][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:600][  0]LogFbx: Display: Triangulating static mesh SM_StationRoof
+[2026.10.21-12.45.04:605][  0]LogStaticMesh: Display: Building static mesh SM_StationRoof (Required Memory Estimate: 0.339407 MB)...
+[2026.10.21-12.45.04:606][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationRoof.SM_StationRoof
+[2026.10.21-12.45.04:630][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:630][  0]LogStaticMesh: Display: Building static mesh SM_StationRoof (Required Memory Estimate: 0.339407 MB)...
+[2026.10.21-12.45.04:630][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationRoof
+[2026.10.21-12.45.04:631][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationRoof.SM_StationRoof
+[2026.10.21-12.45.04:640][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationRoof
+[2026.10.21-12.45.04:640][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationRoofA335C27047C48E06CFA3A58CB035DC02.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationRoof.uasset'
+[2026.10.21-12.45.04:641][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.145 ms (total: 376.858 ms)
+[2026.10.21-12.45.04:641][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_RoofSeams.fbx)
+[2026.10.21-12.45.04:644][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_RoofSeams.fbx
+[2026.10.21-12.45.04:647][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:648][  0]LogFbx: Display: Triangulating static mesh SM_RoofSeams
+[2026.10.21-12.45.04:729][  0]LogStaticMesh: Display: Building static mesh SM_RoofSeams (Required Memory Estimate: 8.465461 MB)...
+[2026.10.21-12.45.04:759][  0]LogStaticMesh: Built static mesh [0.03s] /Game/MountainStation/ultra/Meshes/SM_RoofSeams.SM_RoofSeams
+[2026.10.21-12.45.04:778][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:778][  0]LogStaticMesh: Display: Building static mesh SM_RoofSeams (Required Memory Estimate: 8.465461 MB)...
+[2026.10.21-12.45.04:778][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_RoofSeams
+[2026.10.21-12.45.04:808][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_RoofSeams) ...
+[2026.10.21-12.45.04:811][  0]LogStaticMesh: Built static mesh [0.03s] /Game/MountainStation/ultra/Meshes/SM_RoofSeams.SM_RoofSeams
+[2026.10.21-12.45.04:823][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_RoofSeams
+[2026.10.21-12.45.04:823][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_RoofSeamsC186A92C4E556E7AC4698AB2BD8B3C02.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_RoofSeams.uasset'
+[2026.10.21-12.45.04:823][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.438 ms (total: 421.296 ms)
+[2026.10.21-12.45.04:823][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationDoors.fbx)
+[2026.10.21-12.45.04:826][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationDoors.fbx
+[2026.10.21-12.45.04:829][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:829][  0]LogFbx: Display: Triangulating static mesh SM_StationDoors
+[2026.10.21-12.45.04:835][  0]LogStaticMesh: Display: Building static mesh SM_StationDoors (Required Memory Estimate: 0.554873 MB)...
+[2026.10.21-12.45.04:837][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationDoors.SM_StationDoors
+[2026.10.21-12.45.04:841][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:841][  0]LogStaticMesh: Display: Building static mesh SM_StationDoors (Required Memory Estimate: 0.554873 MB)...
+[2026.10.21-12.45.04:842][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationDoors
+[2026.10.21-12.45.04:843][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationDoors.SM_StationDoors
+[2026.10.21-12.45.04:846][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationDoors
+[2026.10.21-12.45.04:846][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationDoors275F17174140819829D159AB0A59332C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationDoors.uasset'
+[2026.10.21-12.45.04:846][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.654 ms (total: 425.950 ms)
+[2026.10.21-12.45.04:846][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationGlass.fbx)
+[2026.10.21-12.45.04:849][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_StationGlass.fbx
+[2026.10.21-12.45.04:852][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:853][  0]LogFbx: Display: Triangulating static mesh SM_StationGlass
+[2026.10.21-12.45.04:862][  0]LogStaticMesh: Display: Building static mesh SM_StationGlass (Required Memory Estimate: 0.665709 MB)...
+[2026.10.21-12.45.04:864][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationGlass.SM_StationGlass
+[2026.10.21-12.45.04:868][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:868][  0]LogStaticMesh: Display: Building static mesh SM_StationGlass (Required Memory Estimate: 0.665709 MB)...
+[2026.10.21-12.45.04:868][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_StationGlass
+[2026.10.21-12.45.04:870][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_StationGlass.SM_StationGlass
+[2026.10.21-12.45.04:873][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_StationGlass
+[2026.10.21-12.45.04:873][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_StationGlass3F2EB19B439FAEA2AB4BB1A936A2CA84.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_StationGlass.uasset'
+[2026.10.21-12.45.04:874][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.261 ms (total: 431.212 ms)
+[2026.10.21-12.45.04:874][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Canopy.fbx)
+[2026.10.21-12.45.04:877][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Canopy.fbx
+[2026.10.21-12.45.04:879][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:880][  0]LogFbx: Display: Triangulating static mesh SM_Canopy
+[2026.10.21-12.45.04:905][  0]LogStaticMesh: Display: Building static mesh SM_Canopy (Required Memory Estimate: 2.329593 MB)...
+[2026.10.21-12.45.04:910][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Canopy.SM_Canopy
+[2026.10.21-12.45.04:920][  0]LogStaticMesh: Display: Building static mesh SM_Canopy (Required Memory Estimate: 2.329593 MB)...
+[2026.10.21-12.45.04:920][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:920][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Canopy
+[2026.10.21-12.45.04:925][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Canopy.SM_Canopy
+[2026.10.21-12.45.04:930][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Canopy
+[2026.10.21-12.45.04:930][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Canopy6B39310847B74B9068D0E4B10761D520.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Canopy.uasset'
+[2026.10.21-12.45.04:930][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.573 ms (total: 441.786 ms)
+[2026.10.21-12.45.04:930][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Signage.fbx)
+[2026.10.21-12.45.04:934][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Signage.fbx
+[2026.10.21-12.45.04:937][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:938][  0]LogFbx: Display: Triangulating static mesh SM_Signage
+[2026.10.21-12.45.04:953][  0]LogStaticMesh: Display: Building static mesh SM_Signage (Required Memory Estimate: 1.469159 MB)...
+[2026.10.21-12.45.04:956][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Signage.SM_Signage
+[2026.10.21-12.45.04:958][  0]LogStaticMesh: Display: SM_Signage has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.45.04:959][  0]LogStaticMesh: Display: SM_Signage has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.45.04:960][  0]FBXImport: Warning: SM_Signage has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.04:960][  0]FBXImport: Warning: SM_Signage has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.04:961][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.04:961][  0]LogStaticMesh: Display: Building static mesh SM_Signage (Required Memory Estimate: 1.469159 MB)...
+[2026.10.21-12.45.04:961][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Signage
+[2026.10.21-12.45.04:964][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Signage.SM_Signage
+[2026.10.21-12.45.04:968][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Signage
+[2026.10.21-12.45.04:968][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_SignageD58A590C44A6BF8A418E949B1315122E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Signage.uasset'
+[2026.10.21-12.45.04:968][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.816 ms (total: 449.603 ms)
+[2026.10.21-12.45.04:971][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Lettering.fbx)
+[2026.10.21-12.45.04:976][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Lettering.fbx
+[2026.10.21-12.45.04:993][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.04:995][  0]LogFbx: Display: Triangulating static mesh SM_Lettering
+[2026.10.21-12.45.05:938][  0]LogStaticMesh: Display: Building static mesh SM_Lettering (Required Memory Estimate: 110.368981 MB)...
+[2026.10.21-12.45.06:459][  0]LogStaticMesh: Built static mesh [0.52s] /Game/MountainStation/ultra/Meshes/SM_Lettering.SM_Lettering
+[2026.10.21-12.45.06:543][  0]LogStaticMesh: Display: SM_Lettering has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.45.06:544][  0]LogStaticMesh: Display: SM_Lettering has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.21-12.45.06:546][  0]FBXImport: Warning: SM_Lettering has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.06:546][  0]FBXImport: Warning: SM_Lettering has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.06:548][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.06:548][  0]LogStaticMesh: Display: Building static mesh SM_Lettering (Required Memory Estimate: 110.368981 MB)...
+[2026.10.21-12.45.06:548][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Lettering
+[2026.10.21-12.45.06:564][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_Lettering) ...
+[2026.10.21-12.45.07:429][  0]LogStaticMesh: Built static mesh [0.88s] /Game/MountainStation/ultra/Meshes/SM_Lettering.SM_Lettering
+[2026.10.21-12.45.07:522][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Lettering
+[2026.10.21-12.45.07:522][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_LetteringF691D7504FDD7D5004F0859FA928AE7E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Lettering.uasset'
+[2026.10.21-12.45.07:522][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 974.387 ms (total: 1.42 sec)
+[2026.10.21-12.45.07:522][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Clock.fbx)
+[2026.10.21-12.45.07:525][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Clock.fbx
+[2026.10.21-12.45.07:528][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.07:529][  0]LogFbx: Display: Triangulating static mesh SM_Clock
+[2026.10.21-12.45.07:570][  0]LogStaticMesh: Display: Building static mesh SM_Clock (Required Memory Estimate: 3.948508 MB)...
+[2026.10.21-12.45.07:578][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Clock.SM_Clock
+[2026.10.21-12.45.07:586][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.07:586][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Clock
+[2026.10.21-12.45.07:592][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Clock
+[2026.10.21-12.45.07:592][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_ClockA02F034247B33E80E2562386C7D1D7A9.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Clock.uasset'
+[2026.10.21-12.45.07:592][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.381 ms (total: 1.43 sec)
+[2026.10.21-12.45.07:592][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Benches.fbx)
+[2026.10.21-12.45.07:596][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Benches.fbx
+[2026.10.21-12.45.07:599][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.07:599][  0]LogFbx: Display: Triangulating static mesh SM_Benches
+[2026.10.21-12.45.07:703][  0]LogStaticMesh: Display: Building static mesh SM_Benches (Required Memory Estimate: 7.967906 MB)...
+[2026.10.21-12.45.07:734][  0]LogStaticMesh: Built static mesh [0.03s] /Game/MountainStation/ultra/Meshes/SM_Benches.SM_Benches
+[2026.10.21-12.45.07:745][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.07:745][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Benches
+[2026.10.21-12.45.07:760][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Benches
+[2026.10.21-12.45.07:760][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_BenchesD6949DDD4ACFF60E5B3FFCA3EC73F574.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Benches.uasset'
+[2026.10.21-12.45.07:760][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 15.172 ms (total: 1.44 sec)
+[2026.10.21-12.45.07:761][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Lamps.fbx)
+[2026.10.21-12.45.07:764][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Lamps.fbx
+[2026.10.21-12.45.07:767][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.07:768][  0]LogFbx: Display: Triangulating static mesh SM_Lamps
+[2026.10.21-12.45.07:838][  0]LogStaticMesh: Display: Building static mesh SM_Lamps (Required Memory Estimate: 6.899811 MB)...
+[2026.10.21-12.45.07:865][  0]LogStaticMesh: Built static mesh [0.03s] /Game/MountainStation/ultra/Meshes/SM_Lamps.SM_Lamps
+[2026.10.21-12.45.07:876][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.07:876][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Lamps
+[2026.10.21-12.45.07:889][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Lamps
+[2026.10.21-12.45.07:889][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Lamps55DE56524DADE9BFFB7B4985794A81F9.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Lamps.uasset'
+[2026.10.21-12.45.07:889][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.328 ms (total: 1.45 sec)
+[2026.10.21-12.45.07:889][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Luggage.fbx)
+[2026.10.21-12.45.07:893][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Luggage.fbx
+[2026.10.21-12.45.07:896][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.07:897][  0]LogFbx: Display: Triangulating static mesh SM_Luggage
+[2026.10.21-12.45.07:924][  0]LogStaticMesh: Display: Building static mesh SM_Luggage (Required Memory Estimate: 1.998063 MB)...
+[2026.10.21-12.45.07:930][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Luggage.SM_Luggage
+[2026.10.21-12.45.07:935][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.07:935][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Luggage
+[2026.10.21-12.45.07:940][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Luggage
+[2026.10.21-12.45.07:940][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Luggage270BCEE44DAEC3162072118FE0676ABC.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Luggage.uasset'
+[2026.10.21-12.45.07:941][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.936 ms (total: 1.46 sec)
+[2026.10.21-12.45.07:941][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Timetable.fbx)
+[2026.10.21-12.45.07:945][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Timetable.fbx
+[2026.10.21-12.45.07:947][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.07:947][  0]LogFbx: Display: Triangulating static mesh SM_Timetable
+[2026.10.21-12.45.07:952][  0]LogStaticMesh: Display: Building static mesh SM_Timetable (Required Memory Estimate: 0.33948 MB)...
+[2026.10.21-12.45.07:954][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Timetable.SM_Timetable
+[2026.10.21-12.45.07:957][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.07:957][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Timetable
+[2026.10.21-12.45.07:960][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Timetable
+[2026.10.21-12.45.07:960][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TimetableDA87278D4EC9B0634ADD7882AFB885BD.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Timetable.uasset'
+[2026.10.21-12.45.07:960][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.174 ms (total: 1.46 sec)
+[2026.10.21-12.45.07:961][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_FreightShed.fbx)
+[2026.10.21-12.45.07:965][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_FreightShed.fbx
+[2026.10.21-12.45.07:968][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.07:969][  0]LogFbx: Display: Triangulating static mesh SM_FreightShed
+[2026.10.21-12.45.07:986][  0]LogStaticMesh: Display: Building static mesh SM_FreightShed (Required Memory Estimate: 1.168792 MB)...
+[2026.10.21-12.45.07:989][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_FreightShed.SM_FreightShed
+[2026.10.21-12.45.08:044][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.08:044][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_FreightShed
+[2026.10.21-12.45.08:049][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_FreightShed
+[2026.10.21-12.45.08:049][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_FreightShedB5D16C594ED769791ABF3B926909E779.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_FreightShed.uasset'
+[2026.10.21-12.45.08:049][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.087 ms (total: 1.47 sec)
+[2026.10.21-12.45.08:050][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Cargo.fbx)
+[2026.10.21-12.45.08:054][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Cargo.fbx
+[2026.10.21-12.45.08:058][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.08:059][  0]LogFbx: Display: Triangulating static mesh SM_Cargo
+[2026.10.21-12.45.08:189][  0]LogStaticMesh: Display: Building static mesh SM_Cargo (Required Memory Estimate: 10.584942 MB)...
+[2026.10.21-12.45.08:236][  0]LogStaticMesh: Built static mesh [0.05s] /Game/MountainStation/ultra/Meshes/SM_Cargo.SM_Cargo
+[2026.10.21-12.45.08:250][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.08:250][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Cargo
+[2026.10.21-12.45.08:269][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Cargo
+[2026.10.21-12.45.08:269][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Cargo209B87A6448E22427F9F65A8E5687525.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Cargo.uasset'
+[2026.10.21-12.45.08:269][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.815 ms (total: 1.49 sec)
+[2026.10.21-12.45.08:269][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Handcart.fbx)
+[2026.10.21-12.45.08:273][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Handcart.fbx
+[2026.10.21-12.45.08:276][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.08:277][  0]LogFbx: Display: Triangulating static mesh SM_Handcart
+[2026.10.21-12.45.08:297][  0]LogStaticMesh: Display: Building static mesh SM_Handcart (Required Memory Estimate: 1.955626 MB)...
+[2026.10.21-12.45.08:301][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Handcart.SM_Handcart
+[2026.10.21-12.45.08:306][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.08:306][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Handcart
+[2026.10.21-12.45.08:311][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Handcart
+[2026.10.21-12.45.08:311][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Handcart17587B624B31DC9D3010E99187EBE71B.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Handcart.uasset'
+[2026.10.21-12.45.08:311][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.304 ms (total: 1.49 sec)
+[2026.10.21-12.45.08:311][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelInterior.fbx)
+[2026.10.21-12.45.08:315][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelInterior.fbx
+[2026.10.21-12.45.08:317][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.08:317][  0]LogFbx: Display: Triangulating static mesh SM_TunnelInterior
+[2026.10.21-12.45.08:319][  0]LogStaticMesh: Display: Building static mesh SM_TunnelInterior (Required Memory Estimate: 0.089975 MB)...
+[2026.10.21-12.45.08:320][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_TunnelInterior.SM_TunnelInterior
+[2026.10.21-12.45.08:352][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.08:352][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TunnelInterior
+[2026.10.21-12.45.08:355][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TunnelInterior
+[2026.10.21-12.45.08:355][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TunnelInterior0973B5AC409ABFC15671B698E92321E7.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TunnelInterior.uasset'
+[2026.10.21-12.45.08:355][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.713 ms (total: 1.49 sec)
+[2026.10.21-12.45.08:355][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelMasonry.fbx)
+[2026.10.21-12.45.08:359][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelMasonry.fbx
+[2026.10.21-12.45.08:363][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.08:364][  0]LogFbx: Display: Triangulating static mesh SM_TunnelMasonry
+[2026.10.21-12.45.08:411][  0]LogStaticMesh: Display: Building static mesh SM_TunnelMasonry (Required Memory Estimate: 3.843172 MB)...
+[2026.10.21-12.45.08:422][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_TunnelMasonry.SM_TunnelMasonry
+[2026.10.21-12.45.08:473][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.08:473][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TunnelMasonry
+[2026.10.21-12.45.08:479][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TunnelMasonry
+[2026.10.21-12.45.08:479][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TunnelMasonry632A78374180545D858C70B05D4DA2D3.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TunnelMasonry.uasset'
+[2026.10.21-12.45.08:480][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.043 ms (total: 1.50 sec)
+[2026.10.21-12.45.08:481][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelRibs.fbx)
+[2026.10.21-12.45.08:485][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelRibs.fbx
+[2026.10.21-12.45.08:490][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.08:491][  0]LogFbx: Display: Triangulating static mesh SM_TunnelRibs
+[2026.10.21-12.45.08:787][  0]LogStaticMesh: Display: Building static mesh SM_TunnelRibs (Required Memory Estimate: 23.888124 MB)...
+[2026.10.21-12.45.09:025][  0]LogStaticMesh: Built static mesh [0.24s] /Game/MountainStation/ultra/Meshes/SM_TunnelRibs.SM_TunnelRibs
+[2026.10.21-12.45.09:050][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.09:050][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TunnelRibs
+[2026.10.21-12.45.09:078][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TunnelRibs
+[2026.10.21-12.45.09:078][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TunnelRibs8C03B462476793DD20DBC9880A1B008F.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TunnelRibs.uasset'
+[2026.10.21-12.45.09:078][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 28.537 ms (total: 1.53 sec)
+[2026.10.21-12.45.09:079][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelDarkness.fbx)
+[2026.10.21-12.45.09:083][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelDarkness.fbx
+[2026.10.21-12.45.09:085][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.09:086][  0]LogFbx: Display: Triangulating static mesh SM_TunnelDarkness
+[2026.10.21-12.45.09:086][  0]LogStaticMesh: Display: Building static mesh SM_TunnelDarkness (Required Memory Estimate: 0.011155 MB)...
+[2026.10.21-12.45.09:087][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_TunnelDarkness.SM_TunnelDarkness
+[2026.10.21-12.45.09:105][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.09:105][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TunnelDarkness
+[2026.10.21-12.45.09:107][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TunnelDarkness
+[2026.10.21-12.45.09:107][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TunnelDarkness7CB8E0F14177F3F2BB9C9FB5B30049B2.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TunnelDarkness.uasset'
+[2026.10.21-12.45.09:107][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.805 ms (total: 1.53 sec)
+[2026.10.21-12.45.09:108][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelHill.fbx)
+[2026.10.21-12.45.09:111][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TunnelHill.fbx
+[2026.10.21-12.45.09:116][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.09:117][  0]LogFbx: Display: Triangulating static mesh SM_TunnelHill
+[2026.10.21-12.45.09:160][  0]LogStaticMesh: Display: Building static mesh SM_TunnelHill (Required Memory Estimate: 3.098856 MB)...
+[2026.10.21-12.45.09:166][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_TunnelHill.SM_TunnelHill
+[2026.10.21-12.45.09:371][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.09:372][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TunnelHill
+[2026.10.21-12.45.09:380][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TunnelHill
+[2026.10.21-12.45.09:380][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TunnelHill29948EEC4DE7576418C2DCAC8ECB8A4D.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TunnelHill.uasset'
+[2026.10.21-12.45.09:380][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.825 ms (total: 1.54 sec)
+[2026.10.21-12.45.09:381][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Outcrops.fbx)
+[2026.10.21-12.45.09:386][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Outcrops.fbx
+[2026.10.21-12.45.09:390][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.09:391][  0]LogFbx: Display: Triangulating static mesh SM_Outcrops
+[2026.10.21-12.45.09:440][  0]LogStaticMesh: Display: Building static mesh SM_Outcrops (Required Memory Estimate: 4.62831 MB)...
+[2026.10.21-12.45.09:453][  0]LogStaticMesh: Built static mesh [0.01s] /Game/MountainStation/ultra/Meshes/SM_Outcrops.SM_Outcrops
+[2026.10.21-12.45.09:461][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.09:461][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Outcrops
+[2026.10.21-12.45.09:469][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Outcrops
+[2026.10.21-12.45.09:469][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_OutcropsAD068E8A45A216AF64D122BFBF200D9E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Outcrops.uasset'
+[2026.10.21-12.45.09:469][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.230 ms (total: 1.55 sec)
+[2026.10.21-12.45.09:470][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_OutcropMoss.fbx)
+[2026.10.21-12.45.09:474][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_OutcropMoss.fbx
+[2026.10.21-12.45.09:476][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.09:477][  0]LogFbx: Display: Triangulating static mesh SM_OutcropMoss
+[2026.10.21-12.45.09:500][  0]LogStaticMesh: Display: Building static mesh SM_OutcropMoss (Required Memory Estimate: 1.855109 MB)...
+[2026.10.21-12.45.09:504][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_OutcropMoss.SM_OutcropMoss
+[2026.10.21-12.45.09:510][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.09:510][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_OutcropMoss
+[2026.10.21-12.45.09:514][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_OutcropMoss
+[2026.10.21-12.45.09:514][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_OutcropMossAF876D474D0CD8D2755C7B94DC627FF3.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_OutcropMoss.uasset'
+[2026.10.21-12.45.09:515][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.984 ms (total: 1.56 sec)
+[2026.10.21-12.45.09:515][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Trunks.fbx)
+[2026.10.21-12.45.09:519][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Trunks.fbx
+[2026.10.21-12.45.09:525][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.09:526][  0]LogFbx: Display: Triangulating static mesh SM_Trunks
+[2026.10.21-12.45.09:691][  0]LogStaticMesh: Display: Building static mesh SM_Trunks (Required Memory Estimate: 12.982567 MB)...
+[2026.10.21-12.45.09:721][  0]LogStaticMesh: Built static mesh [0.03s] /Game/MountainStation/ultra/Meshes/SM_Trunks.SM_Trunks
+[2026.10.21-12.45.09:733][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.09:733][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Trunks
+[2026.10.21-12.45.09:746][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Trunks
+[2026.10.21-12.45.09:746][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Trunks1B1715F241C24A7C22FE0C870D64DC24.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Trunks.uasset'
+[2026.10.21-12.45.09:747][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.635 ms (total: 1.57 sec)
+[2026.10.21-12.45.09:749][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Conifers.fbx)
+[2026.10.21-12.45.09:753][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Conifers.fbx
+[2026.10.21-12.45.09:765][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.09:767][  0]LogFbx: Display: Triangulating static mesh SM_Conifers
+[2026.10.21-12.45.10:462][  0]LogStaticMesh: Display: Building static mesh SM_Conifers (Required Memory Estimate: 53.965795 MB)...
+[2026.10.21-12.45.10:581][  0]LogStaticMesh: Built static mesh [0.12s] /Game/MountainStation/ultra/Meshes/SM_Conifers.SM_Conifers
+[2026.10.21-12.45.10:623][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.10:623][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Conifers
+[2026.10.21-12.45.10:641][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MountainStation/ultra/Meshes/SM_Conifers) ...
+[2026.10.21-12.45.10:678][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Conifers
+[2026.10.21-12.45.10:678][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Conifers69DFE3F841836BF452AC9AB173C69D95.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Conifers.uasset'
+[2026.10.21-12.45.10:678][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.665 ms (total: 1.62 sec)
+[2026.10.21-12.45.10:679][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Shrubs.fbx)
+[2026.10.21-12.45.10:683][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Shrubs.fbx
+[2026.10.21-12.45.10:689][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.10:690][  0]LogFbx: Display: Triangulating static mesh SM_Shrubs
+[2026.10.21-12.45.10:848][  0]LogStaticMesh: Display: Building static mesh SM_Shrubs (Required Memory Estimate: 15.717443 MB)...
+[2026.10.21-12.45.10:877][  0]LogStaticMesh: Built static mesh [0.03s] /Game/MountainStation/ultra/Meshes/SM_Shrubs.SM_Shrubs
+[2026.10.21-12.45.10:892][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.10:892][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Shrubs
+[2026.10.21-12.45.10:910][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Shrubs
+[2026.10.21-12.45.10:910][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_ShrubsA7007A3943EA484AE1A75293DE9FAC6E.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Shrubs.uasset'
+[2026.10.21-12.45.10:910][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.583 ms (total: 1.64 sec)
+[2026.10.21-12.45.10:911][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_MeadowDetails.fbx)
+[2026.10.21-12.45.10:915][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_MeadowDetails.fbx
+[2026.10.21-12.45.10:920][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.10:920][  0]LogFbx: Display: Triangulating static mesh SM_MeadowDetails
+[2026.10.21-12.45.10:985][  0]LogStaticMesh: Display: Building static mesh SM_MeadowDetails (Required Memory Estimate: 8.042 MB)...
+[2026.10.21-12.45.11:000][  0]LogStaticMesh: Built static mesh [0.02s] /Game/MountainStation/ultra/Meshes/SM_MeadowDetails.SM_MeadowDetails
+[2026.10.21-12.45.11:009][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.11:009][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_MeadowDetails
+[2026.10.21-12.45.11:019][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_MeadowDetails
+[2026.10.21-12.45.11:019][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_MeadowDetailsA52290634A8CBEDE46DDD1911777B3B3.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_MeadowDetails.uasset'
+[2026.10.21-12.45.11:020][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.090 ms (total: 1.65 sec)
+[2026.10.21-12.45.11:020][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Fences.fbx)
+[2026.10.21-12.45.11:026][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Fences.fbx
+[2026.10.21-12.45.11:031][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.11:032][  0]LogFbx: Display: Triangulating static mesh SM_Fences
+[2026.10.21-12.45.11:142][  0]LogStaticMesh: Display: Building static mesh SM_Fences (Required Memory Estimate: 8.962949 MB)...
+[2026.10.21-12.45.11:193][  0]LogStaticMesh: Built static mesh [0.05s] /Game/MountainStation/ultra/Meshes/SM_Fences.SM_Fences
+[2026.10.21-12.45.11:207][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.11:207][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Fences
+[2026.10.21-12.45.11:225][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Fences
+[2026.10.21-12.45.11:225][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Fences375255F541CF1017FF98E592F60C1A34.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Fences.uasset'
+[2026.10.21-12.45.11:226][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.479 ms (total: 1.67 sec)
+[2026.10.21-12.45.11:226][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TrailSigns.fbx)
+[2026.10.21-12.45.11:230][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_TrailSigns.fbx
+[2026.10.21-12.45.11:233][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.11:234][  0]LogFbx: Display: Triangulating static mesh SM_TrailSigns
+[2026.10.21-12.45.11:243][  0]LogStaticMesh: Display: Building static mesh SM_TrailSigns (Required Memory Estimate: 0.671137 MB)...
+[2026.10.21-12.45.11:245][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_TrailSigns.SM_TrailSigns
+[2026.10.21-12.45.11:249][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.11:249][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_TrailSigns
+[2026.10.21-12.45.11:259][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_TrailSigns
+[2026.10.21-12.45.11:260][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_TrailSignsCE57121746D94F4B1BC935902C018134.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_TrailSigns.uasset'
+[2026.10.21-12.45.11:260][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.416 ms (total: 1.68 sec)
+[2026.10.21-12.45.11:260][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Planters.fbx)
+[2026.10.21-12.45.11:263][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Planters.fbx
+[2026.10.21-12.45.11:266][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.11:266][  0]LogFbx: Display: Triangulating static mesh SM_Planters
+[2026.10.21-12.45.11:286][  0]LogStaticMesh: Display: Building static mesh SM_Planters (Required Memory Estimate: 1.887794 MB)...
+[2026.10.21-12.45.11:291][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Planters.SM_Planters
+[2026.10.21-12.45.11:296][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.11:296][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Planters
+[2026.10.21-12.45.11:301][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Planters
+[2026.10.21-12.45.11:301][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_PlantersD4BB41FE45E149CA34B7C09B42C358D8.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Planters.uasset'
+[2026.10.21-12.45.11:302][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.064 ms (total: 1.69 sec)
+[2026.10.21-12.45.11:302][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Bins.fbx)
+[2026.10.21-12.45.11:306][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_Bins.fbx
+[2026.10.21-12.45.11:308][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.11:309][  0]LogFbx: Display: Triangulating static mesh SM_Bins
+[2026.10.21-12.45.11:321][  0]LogStaticMesh: Display: Building static mesh SM_Bins (Required Memory Estimate: 1.072174 MB)...
+[2026.10.21-12.45.11:324][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_Bins.SM_Bins
+[2026.10.21-12.45.11:328][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.11:328][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_Bins
+[2026.10.21-12.45.11:332][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_Bins
+[2026.10.21-12.45.11:332][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_Bins03FC70FC4B1D01A1471ACC8182D9C37D.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_Bins.uasset'
+[2026.10.21-12.45.11:332][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.026 ms (total: 1.69 sec)
+[2026.10.21-12.45.11:332][  0]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_WaterTap.fbx)
+[2026.10.21-12.45.11:335][  0]LogFbx: Loading FBX Scene from D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SourceArt/SM_WaterTap.fbx
+[2026.10.21-12.45.11:337][  0]LogFbx: FBX Scene Loaded Succesfully
+[2026.10.21-12.45.11:338][  0]LogFbx: Display: Triangulating static mesh SM_WaterTap
+[2026.10.21-12.45.11:342][  0]LogStaticMesh: Display: Building static mesh SM_WaterTap (Required Memory Estimate: 0.339414 MB)...
+[2026.10.21-12.45.11:343][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MountainStation/ultra/Meshes/SM_WaterTap.SM_WaterTap
+[2026.10.21-12.45.11:346][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.21-12.45.11:346][  0]LogFileHelpers: Saving Package: /Game/MountainStation/ultra/Meshes/SM_WaterTap
+[2026.10.21-12.45.11:349][  0]LogSavePackage: Moving output files for package: /Game/MountainStation/ultra/Meshes/SM_WaterTap
+[2026.10.21-12.45.11:349][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SM_WaterTap657D94B84B6C7525AD230F8066AE03C6.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/MountainStation/ultra/Meshes/SM_WaterTap.uasset'
+[2026.10.21-12.45.11:349][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.167 ms (total: 1.70 sec)
+[2026.10.21-12.45.11:379][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.21-12.45.11:385][  0]LogSavePackage: Moving output files for package: /Game/Maps/MountainStation_ultra
+[2026.10.21-12.45.11:385][  0]LogSavePackage: Moving 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/MountainStation_ultra79C11ACC48F691F8D0D6E6A725651A8C.tmp' to 'D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Content/Maps/MountainStation_ultra.umap'
+[2026.10.21-12.45.11:385][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Intermediate/CachedAssetRegistry_*.bin.
+[2026.10.21-12.45.11:387][  0]LogFileHelpers: Saving map 'MountainStation_ultra' took 0.005
+[2026.10.21-12.45.11:387][  0]Message dialog closed, result: Ok, title: Message, text: bForceNoPrecomputedLighting is now enabled, build lighting once to propagate the change (will remove existing precomputed lighting data).
+[2026.10.21-12.45.11:388][  0]LogPython: Error: Traceback (most recent call last):
+[2026.10.21-12.45.11:388][  0]LogPython: Error:   File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py", line 95, in <module>
+[2026.10.21-12.45.11:388][  0]LogPython: Error:     try:main()
+[2026.10.21-12.45.11:388][  0]LogPython: Error:         ^^^^^^
+[2026.10.21-12.45.11:388][  0]LogPython: Error:   File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py", line 46, in main
+[2026.10.21-12.45.11:389][  0]LogPython: Error:     name=str(s.imported_material_slot_name);name=name.split('.')[0];slot_names.append(name)
+[2026.10.21-12.45.11:389][  0]LogPython: Error:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026.10.21-12.45.11:389][  0]LogPython: Error: AttributeError: 'StaticMaterial' object has no attribute 'imported_material_slot_name'
+[2026.10.21-12.45.11:389][  0]LogPythonScriptCommandlet: Error: Python script executed with errors
+[2026.10.21-12.45.11:389][  0]LogCore: Engine exit requested (reason: Commandlet PythonScriptCommandlet_0 finished execution (result -1))
+[2026.10.21-12.45.11:389][  0]LogInit: Display: 
+[2026.10.21-12.45.11:389][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.21-12.45.11:389][  0]LogInit: Display: -----------------------------------
+[2026.10.21-12.45.11:389][  0]LogInit: Display: LogPython: Error: Traceback (most recent call last):
+[2026.10.21-12.45.11:389][  0]LogInit: Display: LogPython: Error:   File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py", line 95, in <module>
+[2026.10.21-12.45.11:390][  0]LogInit: Display: LogPython: Error:     try:main()
+[2026.10.21-12.45.11:390][  0]LogInit: Display: LogPython: Error:         ^^^^^^
+[2026.10.21-12.45.11:390][  0]LogInit: Display: LogPython: Error:   File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py", line 46, in main
+[2026.10.21-12.45.11:390][  0]LogInit: Display: LogPython: Error:     name=str(s.imported_material_slot_name);name=name.split('.')[0];slot_names.append(name)
+[2026.10.21-12.45.11:390][  0]LogInit: Display: LogPython: Error:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026.10.21-12.45.11:390][  0]LogInit: Display: LogPython: Error: AttributeError: 'StaticMaterial' object has no attribute 'imported_material_slot_name'
+[2026.10.21-12.45.11:391][  0]LogInit: Display: LogPythonScriptCommandlet: Error: Python script executed with errors
+[2026.10.21-12.45.11:391][  0]LogInit: Display: FBXImport: Warning: SM_Signage has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.11:391][  0]LogInit: Display: FBXImport: Warning: SM_Signage has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.11:391][  0]LogInit: Display: FBXImport: Warning: SM_Lettering has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.11:391][  0]LogInit: Display: FBXImport: Warning: SM_Lettering has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.10.21-12.45.11:391][  0]LogInit: Display: 
+[2026.10.21-12.45.11:391][  0]LogInit: Display: Commandlet->Main return this error code: -1
+[2026.10.21-12.45.11:391][  0]LogInit: Display: With 9 error(s), 4 warning(s)
+[2026.10.21-12.45.11:391][  0]LogInit: Display: 
+Execution of commandlet took:  11.61 seconds
+[2026.10.21-12.45.11:392][  0]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.21-12.45.11:392][  0]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.21-12.45.11:392][  0]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.21-12.45.11:392][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.21-12.45.11:392][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.21-12.45.11:392][  0]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.21-12.45.11:392][  0]LogExit: Preparing to exit.
+[2026.10.21-12.45.11:406][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.21-12.45.11:491][  0]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.21-12.45.11:497][  0]LogExit: Editor shut down
+[2026.10.21-12.45.11:550][  0]LogExit: Object subsystem successfully closed.
+[2026.10.21-12.45.11:566][  0]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.21-12.45.11:611][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/ultra/Project/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.21-12.45.11:614][  0]LogMemoryProfiler: Shutdown
+[2026.10.21-12.45.11:614][  0]LogNetworkingProfiler: Shutdown
+[2026.10.21-12.45.11:614][  0]LoadingProfiler: Shutdown
+[2026.10.21-12.45.11:614][  0]LogTimingProfiler: Shutdown
+[2026.10.21-12.45.11:614][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.21-12.45.11:614][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.21-12.45.11:635][  0]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.21-12.45.11:648][  0]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.21-12.45.11:652][  0]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.21-12.45.11:653][  0]LogXGEController: Cleaning working directory: C:/Users/blendue/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.10.21-12.45.11:653][  0]LogPakFile: Destroying PakPlatformFile
+[2026.10.21-12.45.11:678][  0]LogExit: Exiting.
+[2026.10.21-12.45.11:694][  0]Log file closed, 10/21/26 21:45:11

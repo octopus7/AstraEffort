@@ -1,0 +1,3 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_and_review.py\", line 4, in <module>\n    exec(compile(open(root+'/build_unreal.py').read(),root+'/build_unreal.py','exec'),globals())\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py\", line 94, in <module>\n    write('build_error.json',{'utc':stamp(),'traceback':traceback.format_exc()});raise\n    ^^^^^^\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/build_unreal.py\", line 35, in main\n    world=u.get_editor_subsystem(u.UnrealEditorSubsystem).get_editor_world()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: new_level failed\n"
+}
