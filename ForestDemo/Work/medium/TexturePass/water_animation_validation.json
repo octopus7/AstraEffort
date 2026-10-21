@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "world_time_delta_seconds": 2.216453392058611,
+  "static_sky_control": {
+    "mean_absolute_rgb_byte_difference": 0.47054999999999847,
+    "fraction_pixels_above_8": 0,
+    "region_xywh": [
+      800,
+      160,
+      500,
+      160
+    ],
+    "sampling_stride": 2,
+    "maximum_rgb_byte_difference": 2
+  },
+  "second_world_time_seconds": 36.43256180733442,
+  "water_region": {
+    "mean_absolute_rgb_byte_difference": 10.92611666666671,
+    "fraction_pixels_above_8": 0.518,
+    "region_xywh": [
+      1320,
+      600,
+      500,
+      160
+    ],
+    "sampling_stride": 2,
+    "maximum_rgb_byte_difference": 43
+  },
+  "first_world_time_seconds": 34.21610841527581,
+  "interpretation": "Fixed camera, continuous shader Time drives analytic water; measured water region change complements two actual renders. This is artistic animation, not a fluid simulation."
+}

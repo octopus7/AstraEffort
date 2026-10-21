@@ -1,0 +1,5 @@
+{
+  "started_at_utc": "2026-10-21T14:13:48.877488+00:00",
+  "status": "needs_attention",
+  "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/build_texture_pass.py\", line 35, in <module>\n    for i,s in enumerate(mesh.static_materials):mesh.set_material(i,water if name=='SeaWaves' else mats[str(s.material_slot_name).split('.')[0]])\n                                                                                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'Bark_001'\n"
+}

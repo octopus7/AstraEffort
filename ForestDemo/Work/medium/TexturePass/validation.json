@@ -1,0 +1,708 @@
+{
+  "reloaded": true,
+  "actor_count": 672,
+  "ground_bounds_origin": "<Struct 'Vector' (0x000001AB5C315730) {x: 0.000000, y: 0.000000, z: 24.152039}>",
+  "ground_bounds_extent": "<Struct 'Vector' (0x000001AB5C315780) {x: 5000.000488, y: 5000.000488, z: 284.151825}>",
+  "ground_collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+  "player_start": 1,
+  "logger": 1,
+  "dependency_packages": 128,
+  "bad_dependencies": [],
+  "dependencies": {
+    "/Game/Forest/medium/Meshes/Tuft1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Flower",
+      "/Game/Forest/medium/Materials/M_Moss"
+    ],
+    "/Game/Forest/medium/Materials/M_Moss": [],
+    "/Game/Forest/medium/Materials/M_Flower": [],
+    "/Game/Forest/medium/Meshes/Tuft0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/Tree2": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_LeafBlue"
+    ],
+    "/Game/Forest/medium/Materials/M_LeafBlue": [],
+    "/Game/Forest/medium/Materials/M_Bark": [],
+    "/Game/Forest/medium/Meshes/Tree1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_LeafLight"
+    ],
+    "/Game/Forest/medium/Materials/M_LeafLight": [],
+    "/Game/Forest/medium/Meshes/Tree0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_Leaf"
+    ],
+    "/Game/Forest/medium/Materials/M_Leaf": [],
+    "/Game/Forest/medium/Meshes/Shrub1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/Shrub0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/Sea": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Water"
+    ],
+    "/Game/Forest/medium/Materials/M_Water": [],
+    "/Game/Forest/medium/Meshes/Rock2": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_RockLight"
+    ],
+    "/Game/Forest/medium/Materials/M_RockLight": [],
+    "/Game/Forest/medium/Meshes/Rock1": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Rock"
+    ],
+    "/Game/Forest/medium/Materials/M_Rock": [],
+    "/Game/Forest/medium/Meshes/Rock0": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/Reeds": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/Log": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_Wood"
+    ],
+    "/Game/Forest/medium/Materials/M_Wood": [],
+    "/Game/Forest/medium/Materials/M_Foam": [],
+    "/Game/Forest/medium/Materials/M_Earth": [],
+    "/Game/Forest/medium/Materials/MT_SeaAnimated": [],
+    "/Game/Forest/medium/Meshes/TexturePass/SeaWaves": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_SeaAnimated"
+    ],
+    "/Game/Forest/medium/Textures/T_SurfaceAtlas": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/Forest/medium/Materials/MT_Bark": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_Flower": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_Leaf": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_LeafBlue": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_LeafLight": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_Moss": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_Rock": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_RockLight": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Materials/MT_Wood": [
+      "/Game/Forest/medium/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Log_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Wood"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Reeds_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S140": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S150": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S170": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S50": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S60": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock0_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S140": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S150": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S160": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S40": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S50": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock1_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Rock"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S140": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S150": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S170": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S180": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S50": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S60": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Rock2_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_RockLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree0_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Leaf"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree0_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Leaf"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree0_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Leaf"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree0_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Leaf"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree0_S140": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Leaf"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree0_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Leaf"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree1_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree1_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree1_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree1_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree1_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree1_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafLight"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S140": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tree2_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_LeafBlue"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S100": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S110": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S120": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S130": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S70": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S80": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S90": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Moss"
+    ],
+    "/Game/Forest/medium/Materials/M_Grass": [],
+    "/Game/Forest/medium/Materials/M_Path": [],
+    "/Game/Forest/medium/Materials/M_Sand": [],
+    "/Game/Forest/medium/Meshes/GroundSmooth": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Grass",
+      "/Game/Forest/medium/Materials/M_Moss",
+      "/Game/Forest/medium/Materials/M_Path",
+      "/Game/Forest/medium/Materials/M_Sand"
+    ],
+    "/Game/Forest/medium/Meshes/Lake": [
+      "/Script/NavigationSystem",
+      "/Game/Forest/medium/Materials/M_Water"
+    ],
+    "/Game/Maps/medium": [
+      "/Script/NavigationSystem",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/Forest/medium/Meshes/Lake",
+      "/Script/ForestDemo",
+      "/Game/Forest/medium/Meshes/GroundSmooth",
+      "/Game/Forest/medium/Meshes/TexturePass/Log_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Reeds_S70",
+      "/Game/Forest/medium/Materials/MT_Bark",
+      "/Game/Forest/medium/Materials/MT_Flower",
+      "/Game/Forest/medium/Materials/MT_Leaf",
+      "/Game/Forest/medium/Materials/MT_LeafBlue",
+      "/Game/Forest/medium/Materials/MT_LeafLight",
+      "/Game/Forest/medium/Materials/MT_Moss",
+      "/Game/Forest/medium/Materials/MT_Rock",
+      "/Game/Forest/medium/Materials/MT_RockLight",
+      "/Game/Forest/medium/Materials/MT_SeaAnimated",
+      "/Game/Forest/medium/Materials/MT_Wood",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S140",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S150",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S170",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S50",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S60",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock0_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S140",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S150",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S160",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S40",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S50",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock1_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S140",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S150",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S170",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S180",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S50",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S60",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Rock2_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/SeaWaves",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub0_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Shrub1_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree0_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree0_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree0_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree0_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree0_S140",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree0_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree1_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree1_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree1_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree1_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree1_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree1_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S140",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Tree2_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft0_S90",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S100",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S110",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S120",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S130",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S70",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S80",
+      "/Game/Forest/medium/Meshes/TexturePass/Tuft1_S90"
+    ]
+  },
+  "world_partition": "new_level non-World-Partition; no external package dirs",
+  "solid_prop_simple_collision_counts": {
+    "Tree0": 3,
+    "Tree1": 3,
+    "Tree2": 3,
+    "Rock0": 3,
+    "Rock1": 3,
+    "Rock2": 3,
+    "Shrub0": 3,
+    "Shrub1": 3,
+    "Log": 3
+  },
+  "mesh_instance_counts": {
+    "GroundSmooth": 1,
+    "Lake": 1,
+    "SeaWaves": 1,
+    "Tree1_S130": 10,
+    "Tree0_S120": 9,
+    "Tree2_S80": 3,
+    "Tree2_S90": 5,
+    "Tree2_S110": 7,
+    "Tree1_S110": 9,
+    "Tree1_S120": 10,
+    "Tree0_S110": 4,
+    "Tree0_S140": 3,
+    "Tree1_S100": 6,
+    "Tree2_S120": 6,
+    "Tree2_S100": 5,
+    "Tree2_S140": 4,
+    "Tree0_S100": 2,
+    "Tree1_S90": 7,
+    "Tree0_S130": 10,
+    "Tree2_S130": 8,
+    "Tree0_S90": 5,
+    "Tree1_S80": 3,
+    "Shrub0_S100": 5,
+    "Shrub1_S100": 3,
+    "Shrub0_S130": 3,
+    "Shrub1_S90": 9,
+    "Shrub1_S120": 9,
+    "Shrub0_S80": 8,
+    "Shrub1_S110": 5,
+    "Shrub0_S120": 7,
+    "Shrub1_S80": 7,
+    "Shrub0_S90": 6,
+    "Shrub1_S130": 4,
+    "Shrub0_S110": 5,
+    "Shrub1_S70": 2,
+    "Shrub0_S70": 4,
+    "Rock0_S170": 3,
+    "Rock1_S150": 2,
+    "Rock2_S100": 2,
+    "Rock0_S110": 2,
+    "Rock1_S120": 1,
+    "Rock2_S180": 1,
+    "Rock0_S150": 2,
+    "Rock1_S110": 1,
+    "Rock2_S70": 1,
+    "Rock0_S100": 3,
+    "Rock1_S100": 1,
+    "Rock1_S70": 2,
+    "Rock2_S110": 1,
+    "Rock1_S80": 1,
+    "Rock2_S50": 4,
+    "Rock0_S120": 2,
+    "Rock1_S130": 1,
+    "Rock2_S80": 1,
+    "Rock1_S90": 2,
+    "Rock2_S90": 1,
+    "Rock0_S50": 1,
+    "Rock2_S130": 4,
+    "Rock1_S160": 1,
+    "Rock0_S130": 1,
+    "Rock1_S50": 5,
+    "Rock2_S60": 1,
+    "Rock1_S40": 2,
+    "Rock2_S150": 2,
+    "Rock0_S80": 1,
+    "Rock1_S140": 1,
+    "Rock0_S140": 1,
+    "Rock0_S70": 1,
+    "Rock0_S60": 2,
+    "Rock2_S140": 1,
+    "Rock2_S170": 1,
+    "Rock0_S90": 1,
+    "Tuft0_S110": 35,
+    "Tuft1_S80": 39,
+    "Tuft0_S70": 9,
+    "Tuft1_S100": 31,
+    "Tuft0_S120": 31,
+    "Tuft1_S110": 38,
+    "Tuft1_S130": 12,
+    "Tuft1_S120": 30,
+    "Tuft0_S90": 38,
+    "Tuft1_S90": 28,
+    "Tuft0_S80": 34,
+    "Tuft0_S100": 30,
+    "Tuft1_S70": 16,
+    "Tuft0_S130": 11,
+    "Reeds_S70": 22,
+    "Log_S120": 3
+  },
+  "validated_at_utc": "2026-10-21T14:29:53.639154+00:00"
+}

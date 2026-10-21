@@ -1,0 +1,3158 @@
+{
+  "target_pixels_per_world_meter": 16.0,
+  "atlas_size": [
+    1254,
+    1254
+  ],
+  "island_gap_pixels": 4,
+  "quadrant_edge_padding_pixels": 4,
+  "method": "Every triangle is an independent rigid planar island with exact metric area; disjoint shelf rectangles conservatively prove no within-quadrant overlap. Scale variants bake nearest 0.1 world scale. Actor scales become 1. Shared atlases intentionally reused between mesh assets and instances.",
+  "meshes": [
+    {
+      "name": "Log_S120",
+      "source": "Log",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 11.400858010107186,
+      "uv_area": 0.001856019035136159,
+      "measured_density_min": 15.999993641733258,
+      "measured_density_max": 16.000004892934033,
+      "islands": 108,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 108,
+          "used_height_pixels": 90.59232859738452,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Reeds_S70",
+      "source": "Reeds",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.6337026002438506,
+      "uv_area": 0.00010316452499983353,
+      "measured_density_min": 15.999996118410422,
+      "measured_density_max": 16.000002857336447,
+      "islands": 240,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 140,
+          "used_height_pixels": 15.785162563903945,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 100,
+          "used_height_pixels": 27.106459325668382,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S50",
+      "source": "Rock0",
+      "baked_world_scale": 0.5,
+      "actor_scale": 1,
+      "world_surface_area_m2": 3.254231559112668,
+      "uv_area": 0.0005297772992373296,
+      "measured_density_min": 15.999998774430654,
+      "measured_density_max": 16.000001229620924,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 33.25797985388988,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S60",
+      "source": "Rock0",
+      "baked_world_scale": 0.6,
+      "actor_scale": 1,
+      "world_surface_area_m2": 4.686093834461644,
+      "uv_area": 0.0007628793728193787,
+      "measured_density_min": 15.999998412383151,
+      "measured_density_max": 16.000002143935834,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 40.545766379375436,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S70",
+      "source": "Rock0",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 6.3782936641946435,
+      "uv_area": 0.0010383634719946305,
+      "measured_density_min": 15.999998825425424,
+      "measured_density_max": 16.000002256082748,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 43.01714682989705,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S80",
+      "source": "Rock0",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 8.330833081156015,
+      "uv_area": 0.00135622993092369,
+      "measured_density_min": 15.99999852456949,
+      "measured_density_max": 16.00000153019575,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 45.55667002574283,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S90",
+      "source": "Rock0",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 10.543709733523428,
+      "uv_area": 0.0017164783580037814,
+      "measured_density_min": 15.99999862874536,
+      "measured_density_max": 16.00000161912039,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 53.95544861966581,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S100",
+      "source": "Rock0",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 13.016926236450672,
+      "uv_area": 0.0021191091969493185,
+      "measured_density_min": 15.999998774430654,
+      "measured_density_max": 16.000001229620924,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 56.915496611999956,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S110",
+      "source": "Rock0",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 15.750481521710753,
+      "uv_area": 0.0025641222595958663,
+      "measured_density_min": 15.999998641874768,
+      "measured_density_max": 16.000001466903125,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 59.88749296693258,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S120",
+      "source": "Rock0",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 18.744375337846577,
+      "uv_area": 0.003051517491277515,
+      "measured_density_min": 15.999998412383151,
+      "measured_density_max": 16.000002143935834,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 69.3683122383748,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S130",
+      "source": "Rock0",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 21.998603731393814,
+      "uv_area": 0.003581294284398409,
+      "measured_density_min": 15.999998377796732,
+      "measured_density_max": 16.000001648375044,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 72.75932218801881,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S140",
+      "source": "Rock0",
+      "baked_world_scale": 1.4,
+      "actor_scale": 1,
+      "world_surface_area_m2": 25.513174656778574,
+      "uv_area": 0.004153453887978522,
+      "measured_density_min": 15.999998825425424,
+      "measured_density_max": 16.000002256082748,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 76.24047335562064,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S150",
+      "source": "Rock0",
+      "baked_world_scale": 1.5,
+      "actor_scale": 1,
+      "world_surface_area_m2": 29.288084169849753,
+      "uv_area": 0.004767995730553942,
+      "measured_density_min": 15.99999808444129,
+      "measured_density_max": 16.000001485266193,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 86.65433999116556,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock0_S170",
+      "source": "Rock0",
+      "baked_world_scale": 1.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 37.61891904845834,
+      "uv_area": 0.006124225908354398,
+      "measured_density_min": 15.999998407927947,
+      "measured_density_max": 16.000001322805968,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 101.88147755957482,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S40",
+      "source": "Rock1",
+      "baked_world_scale": 0.4,
+      "actor_scale": 1,
+      "world_surface_area_m2": 2.056469092029147,
+      "uv_area": 0.00033478583766446003,
+      "measured_density_min": 15.999998735450966,
+      "measured_density_max": 16.000001493322465,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 31.158549263519426,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S50",
+      "source": "Rock1",
+      "baked_world_scale": 0.5,
+      "actor_scale": 1,
+      "world_surface_area_m2": 3.2132328383158892,
+      "uv_area": 0.0005231028529330845,
+      "measured_density_min": 15.999998451156033,
+      "measured_density_max": 16.00000138191011,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 33.160210390900836,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S70",
+      "source": "Rock1",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 6.297936205286533,
+      "uv_area": 0.0010252815662939545,
+      "measured_density_min": 15.999998683565181,
+      "measured_density_max": 16.000001316600212,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 42.807149604193015,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S80",
+      "source": "Rock1",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 8.225876368116587,
+      "uv_area": 0.0013391433506578401,
+      "measured_density_min": 15.999998735450966,
+      "measured_density_max": 16.000001493322465,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 45.38525503212985,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S90",
+      "source": "Rock1",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 10.41087379027158,
+      "uv_area": 0.0016948531492612152,
+      "measured_density_min": 15.999998718182173,
+      "measured_density_max": 16.000001459117637,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 53.631260923019404,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S100",
+      "source": "Rock1",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 12.852931353263557,
+      "uv_area": 0.002092411411732338,
+      "measured_density_min": 15.999998451156033,
+      "measured_density_max": 16.00000138191011,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 56.51526586098123,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S110",
+      "source": "Rock1",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 15.552047663368285,
+      "uv_area": 0.002531817924604313,
+      "measured_density_min": 15.999998590410053,
+      "measured_density_max": 16.000001386307748,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 59.5327943033672,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S120",
+      "source": "Rock1",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 18.508222630247474,
+      "uv_area": 0.0030130726783623913,
+      "measured_density_min": 15.999998486892904,
+      "measured_density_max": 16.00000126316689,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 68.91681916796539,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S130",
+      "source": "Rock1",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 21.72145246900618,
+      "uv_area": 0.0035361750311076303,
+      "measured_density_min": 15.999998306148754,
+      "measured_density_max": 16.000001481137947,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 72.23518918555291,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S140",
+      "source": "Rock1",
+      "baked_world_scale": 1.4,
+      "actor_scale": 1,
+      "world_surface_area_m2": 25.19174482114613,
+      "uv_area": 0.004101126265175818,
+      "measured_density_min": 15.999998683565181,
+      "measured_density_max": 16.000001316600212,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 75.76236302131791,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S150",
+      "source": "Rock1",
+      "baked_world_scale": 1.5,
+      "actor_scale": 1,
+      "world_surface_area_m2": 28.919095462188125,
+      "uv_area": 0.004707925657769233,
+      "measured_density_min": 15.999998638473079,
+      "measured_density_max": 16.00000173749498,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 86.22716489417263,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock1_S160",
+      "source": "Rock1",
+      "baked_world_scale": 1.6,
+      "actor_scale": 1,
+      "world_surface_area_m2": 32.90350547246635,
+      "uv_area": 0.0053565734026313604,
+      "measured_density_min": 15.999998735450966,
+      "measured_density_max": 16.000001493322465,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 90.060658724902,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S50",
+      "source": "Rock2",
+      "baked_world_scale": 0.5,
+      "actor_scale": 1,
+      "world_surface_area_m2": 3.245610456680879,
+      "uv_area": 0.0005283738135033666,
+      "measured_density_min": 15.999998617726556,
+      "measured_density_max": 16.00000155573654,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 33.27339714681082,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S60",
+      "source": "Rock2",
+      "baked_world_scale": 0.6,
+      "actor_scale": 1,
+      "world_surface_area_m2": 4.673679419793189,
+      "uv_area": 0.0007608583536693567,
+      "measured_density_min": 15.999998414062397,
+      "measured_density_max": 16.00000162410389,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 40.57254161279502,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S70",
+      "source": "Rock2",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 6.361396329477429,
+      "uv_area": 0.0010356126469474817,
+      "measured_density_min": 15.999998688321734,
+      "measured_density_max": 16.00000137202453,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 43.005473329553105,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S80",
+      "source": "Rock2",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 8.308762988075614,
+      "uv_area": 0.0013526370049478976,
+      "measured_density_min": 15.999998200922438,
+      "measured_density_max": 16.00000167642954,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 45.54205855964657,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S90",
+      "source": "Rock2",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 10.515777301974595,
+      "uv_area": 0.001711931057667838,
+      "measured_density_min": 15.999998295925254,
+      "measured_density_max": 16.00000137600847,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 53.89758579922323,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S100",
+      "source": "Rock2",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 12.982441826723516,
+      "uv_area": 0.0021134952540134665,
+      "measured_density_min": 15.999998617726556,
+      "measured_density_max": 16.00000155573654,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 56.87643549317403,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S110",
+      "source": "Rock2",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 15.708755214698613,
+      "uv_area": 0.0025573293619031803,
+      "measured_density_min": 15.99999787772377,
+      "measured_density_max": 16.00000149737703,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 59.91618535816093,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S130",
+      "source": "Rock2",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 21.940325055271387,
+      "uv_area": 0.0035718067203587963,
+      "measured_density_min": 15.999998576749062,
+      "measured_density_max": 16.00000232475544,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 72.73349099463975,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S140",
+      "source": "Rock2",
+      "baked_world_scale": 1.4,
+      "actor_scale": 1,
+      "world_surface_area_m2": 25.445585317909718,
+      "uv_area": 0.004142450587789927,
+      "measured_density_min": 15.999998688321734,
+      "measured_density_max": 16.00000137202453,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 76.15730671635094,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S150",
+      "source": "Rock2",
+      "baked_world_scale": 1.5,
+      "actor_scale": 1,
+      "world_surface_area_m2": 29.21049408055842,
+      "uv_area": 0.004755364339599023,
+      "measured_density_min": 15.999998560981021,
+      "measured_density_max": 16.00000134883392,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 86.76889603576362,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S170",
+      "source": "Rock2",
+      "baked_world_scale": 1.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 37.519259164109826,
+      "uv_area": 0.006108001658450063,
+      "measured_density_min": 15.999998487126282,
+      "measured_density_max": 16.000001557322392,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 101.50789425050388,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Rock2_S180",
+      "source": "Rock2",
+      "baked_world_scale": 1.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 42.06310920789838,
+      "uv_area": 0.006847724230671352,
+      "measured_density_min": 15.999998295925254,
+      "measured_density_max": 16.00000137600847,
+      "islands": 480,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 480,
+          "used_height_pixels": 106.2961976922928,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S70",
+      "source": "Shrub0",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 11.29782995954156,
+      "uv_area": 0.001839246442272923,
+      "measured_density_min": 15.999998611776109,
+      "measured_density_max": 16.000001347934724,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 52.92871220847873,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S80",
+      "source": "Shrub0",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 14.756350075826049,
+      "uv_area": 0.0024022812023108075,
+      "measured_density_min": 15.999998742846412,
+      "measured_density_max": 16.00000130268206,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 62.293640117025696,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S90",
+      "source": "Shrub0",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 18.67600417882204,
+      "uv_area": 0.0030403869141097744,
+      "measured_density_min": 15.999998924995937,
+      "measured_density_max": 16.00000130638762,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 66.64235457291505,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S100",
+      "source": "Shrub0",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 23.056796196848154,
+      "uv_area": 0.003753564263225259,
+      "measured_density_min": 15.999998670364922,
+      "measured_density_max": 16.000001349511685,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 76.97758571274795,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S110",
+      "source": "Shrub0",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 27.89872506633401,
+      "uv_area": 0.0045418130070546125,
+      "measured_density_min": 15.999997977784068,
+      "measured_density_max": 16.00000188757163,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 81.10468532914356,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S120",
+      "source": "Shrub0",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 33.201789140701294,
+      "uv_area": 0.005405132930094218,
+      "measured_density_min": 15.999998665009706,
+      "measured_density_max": 16.000001591311953,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 92.71354836910254,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub0_S130",
+      "source": "Shrub0",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 38.96598294749856,
+      "uv_area": 0.006343523149631441,
+      "measured_density_min": 15.999998730497772,
+      "measured_density_max": 16.000001516447966,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 98.51810670971514,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S70",
+      "source": "Shrub1",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 11.297829781658947,
+      "uv_area": 0.0018392464185697905,
+      "measured_density_min": 15.999998687705679,
+      "measured_density_max": 16.000001304181364,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 52.95032117969038,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S80",
+      "source": "Shrub1",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 14.75634991377592,
+      "uv_area": 0.002402281170007793,
+      "measured_density_min": 15.999998701739768,
+      "measured_density_max": 16.00000156789666,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 62.29364088995566,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S90",
+      "source": "Shrub1",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 18.676003769040108,
+      "uv_area": 0.0030403868436470593,
+      "measured_density_min": 15.999998300868736,
+      "measured_density_max": 16.00000130638762,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 66.64235506436798,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S100",
+      "source": "Shrub1",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 23.056795928627253,
+      "uv_area": 0.003753564217065251,
+      "measured_density_min": 15.999998670364922,
+      "measured_density_max": 16.000001360202972,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 76.97758664747396,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S110",
+      "source": "Shrub1",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 27.898724608123302,
+      "uv_area": 0.004541812930976201,
+      "measured_density_min": 15.99999844046676,
+      "measured_density_max": 16.00000185179968,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 81.2393205453968,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S120",
+      "source": "Shrub1",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 33.201788913458586,
+      "uv_area": 0.005405132903255652,
+      "measured_density_min": 15.999998665009706,
+      "measured_density_max": 16.000001591311953,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 92.71354839723266,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Shrub1_S130",
+      "source": "Shrub1",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 38.965982653200626,
+      "uv_area": 0.006343523087581389,
+      "measured_density_min": 15.999998560050132,
+      "measured_density_max": 16.000001052782256,
+      "islands": 500,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 500,
+          "used_height_pixels": 98.51810624846468,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree0_S90",
+      "source": "Tree0",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 162.277285721706,
+      "uv_area": 0.026418163615116452,
+      "measured_density_min": 15.999990543269243,
+      "measured_density_max": 16.000008429146806,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 91.80122543936086,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 301.16505859881255,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree0_S100",
+      "source": "Tree0",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 200.34234084852505,
+      "uv_area": 0.032615018886834074,
+      "measured_density_min": 15.999989209875274,
+      "measured_density_max": 16.000007308400956,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 99.49301095286806,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 345.2787446238806,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree0_S110",
+      "source": "Tree0",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 242.41424597846344,
+      "uv_area": 0.03946417525340125,
+      "measured_density_min": 15.999981012009028,
+      "measured_density_max": 16.000012579091614,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 111.05729776353543,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 393.4441738749287,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree0_S120",
+      "source": "Tree0",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 288.4929923379095,
+      "uv_area": 0.04696563091105836,
+      "measured_density_min": 15.99999349742146,
+      "measured_density_max": 16.000014896931496,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 123.39975210891808,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 442.01799911516895,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree0_S130",
+      "source": "Tree0",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 338.5785303489538,
+      "uv_area": 0.05511937808423851,
+      "measured_density_min": 15.999994576496022,
+      "measured_density_max": 16.00000916405583,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 131.84658558290513,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 496.4208537660012,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree0_S140",
+      "source": "Tree0",
+      "baked_world_scale": 1.4,
+      "actor_scale": 1,
+      "world_surface_area_m2": 392.67096623033285,
+      "uv_area": 0.06392543398970373,
+      "measured_density_min": 15.99998028001385,
+      "measured_density_max": 16.000009286898173,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 145.5119396018107,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 560.4847907594801,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree1_S80",
+      "source": "Tree1",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 128.21910401742207,
+      "uv_area": 0.020873613145975207,
+      "measured_density_min": 15.999990175342635,
+      "measured_density_max": 16.00000713300472,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 80.41257860341602,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 254.2865507337106,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree1_S90",
+      "source": "Tree1",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 162.2772834445932,
+      "uv_area": 0.026418163398285226,
+      "measured_density_min": 15.999992443757415,
+      "measured_density_max": 16.000006691436315,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 91.80122748528476,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 301.1650672392992,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree1_S100",
+      "source": "Tree1",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 200.34233912528725,
+      "uv_area": 0.03261501860632426,
+      "measured_density_min": 15.999990131196085,
+      "measured_density_max": 16.00000696996667,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 103.89993487848477,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 345.321523821636,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree1_S110",
+      "source": "Tree1",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 242.4142436053953,
+      "uv_area": 0.039464174911334256,
+      "measured_density_min": 15.999990454475208,
+      "measured_density_max": 16.000007583731556,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 111.2653471245699,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 393.6157225121409,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree1_S120",
+      "source": "Tree1",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 288.49299109744607,
+      "uv_area": 0.04696563070767201,
+      "measured_density_min": 15.999989944110958,
+      "measured_density_max": 16.000012661898708,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 123.39974817933145,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 441.81760987710487,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree1_S130",
+      "source": "Tree1",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 338.5785282224533,
+      "uv_area": 0.05511937762639849,
+      "measured_density_min": 15.999986398412899,
+      "measured_density_max": 16.000007504665906,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 131.84658793948086,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 496.42087289245916,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S80",
+      "source": "Tree2",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 128.21910496006603,
+      "uv_area": 0.020873613317284233,
+      "measured_density_min": 15.999985675255067,
+      "measured_density_max": 16.0000208932406,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 80.41257834216657,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 254.2865457778767,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S90",
+      "source": "Tree2",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 162.27728460091748,
+      "uv_area": 0.026418163587969886,
+      "measured_density_min": 15.999991274505573,
+      "measured_density_max": 16.000007886099358,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 91.8012263047507,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 301.1650735832498,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S100",
+      "source": "Tree2",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 200.3423391810502,
+      "uv_area": 0.03261501877116144,
+      "measured_density_min": 15.999994173105337,
+      "measured_density_max": 16.000007658156637,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 99.4930684128282,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 345.321523151902,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S110",
+      "source": "Tree2",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 242.41424542374443,
+      "uv_area": 0.0394641751853247,
+      "measured_density_min": 15.999989914195632,
+      "measured_density_max": 16.000009855325505,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 111.05730065291718,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 393.6813708699847,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S120",
+      "source": "Tree2",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 288.4929914266686,
+      "uv_area": 0.046965630729484335,
+      "measured_density_min": 15.999990417112551,
+      "measured_density_max": 16.000008217225847,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 118.91151089068836,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 441.8176234536359,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S130",
+      "source": "Tree2",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 338.5785272142966,
+      "uv_area": 0.05511937759369562,
+      "measured_density_min": 15.99999026974717,
+      "measured_density_max": 16.000011967339127,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 131.84658274768395,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 496.34044764334783,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree2_S140",
+      "source": "Tree2",
+      "baked_world_scale": 1.4,
+      "actor_scale": 1,
+      "world_surface_area_m2": 392.6709649009863,
+      "uv_area": 0.06392543350807232,
+      "measured_density_min": 15.999983170219732,
+      "measured_density_max": 16.00001009409933,
+      "islands": 1392,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 216,
+          "used_height_pixels": 145.64813419338697,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 1176,
+          "used_height_pixels": 561.3998049957954,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S70",
+      "source": "Tuft0",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.2708217629169667,
+      "uv_area": 4.408881758155751e-05,
+      "measured_density_min": 15.999993610586696,
+      "measured_density_max": 16.000009482411187,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 18.677099898230622,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S80",
+      "source": "Tuft0",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.3537263837752107,
+      "uv_area": 5.758539350086296e-05,
+      "measured_density_min": 15.99999412899923,
+      "measured_density_max": 16.000007619630182,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 19.631005085841437,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S90",
+      "source": "Tuft0",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.4476849173515802,
+      "uv_area": 7.288150793575168e-05,
+      "measured_density_min": 15.999997571388306,
+      "measured_density_max": 16.000005439125523,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 20.584882312278857,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S100",
+      "source": "Tuft0",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.5526974626736774,
+      "uv_area": 8.997717607600752e-05,
+      "measured_density_min": 15.99999470725769,
+      "measured_density_max": 16.000009664458908,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 22.19337143563053,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S110",
+      "source": "Tuft0",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.6687639831434353,
+      "uv_area": 0.00010887239519630522,
+      "measured_density_min": 15.999997931137862,
+      "measured_density_max": 16.000006597003768,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 23.21270934897821,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S120",
+      "source": "Tuft0",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.7958844285531086,
+      "uv_area": 0.00012956715081349825,
+      "measured_density_min": 15.999995099534368,
+      "measured_density_max": 16.000007509393182,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 24.232047026516195,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft0_S130",
+      "source": "Tuft0",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.9340586663456634,
+      "uv_area": 0.00015206141934225853,
+      "measured_density_min": 15.999995927976759,
+      "measured_density_max": 16.000011262756345,
+      "islands": 112,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 112,
+          "used_height_pixels": 25.30104923302455,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S70",
+      "source": "Tuft1",
+      "baked_world_scale": 0.7,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.4972712749677157,
+      "uv_area": 8.095399126536021e-05,
+      "measured_density_min": 15.99999714541616,
+      "measured_density_max": 16.000006464115692,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 28.300597696507424,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S80",
+      "source": "Tuft1",
+      "baked_world_scale": 0.8,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.6494972294149193,
+      "uv_area": 0.00010573583246596067,
+      "measured_density_min": 15.999995737828092,
+      "measured_density_max": 16.000004979860616,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 29.625938232984577,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S90",
+      "source": "Tuft1",
+      "baked_world_scale": 0.9,
+      "actor_scale": 1,
+      "world_surface_area_m2": 0.8220198639101,
+      "uv_area": 0.0001338219036649058,
+      "measured_density_min": 15.99999521726197,
+      "measured_density_max": 16.000006917220205,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 34.95798102636489,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S100",
+      "source": "Tuft1",
+      "baked_world_scale": 1.0,
+      "actor_scale": 1,
+      "world_surface_area_m2": 1.0148393701965688,
+      "uv_area": 0.0001652122317238451,
+      "measured_density_min": 15.999992720362792,
+      "measured_density_max": 16.000005321525133,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 36.18267828079046,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S110",
+      "source": "Tuft1",
+      "baked_world_scale": 1.1,
+      "actor_scale": 1,
+      "world_surface_area_m2": 1.227955664980982,
+      "uv_area": 0.00019990680638456288,
+      "measured_density_min": 15.999993673624825,
+      "measured_density_max": 16.000011273455506,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 37.401306870910986,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S120",
+      "source": "Tuft1",
+      "baked_world_scale": 1.2,
+      "actor_scale": 1,
+      "world_surface_area_m2": 1.4613687601449783,
+      "uv_area": 0.00023790562638453607,
+      "measured_density_min": 15.999994380235774,
+      "measured_density_max": 16.000008995653634,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 38.717097557942886,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    },
+    {
+      "name": "Tuft1_S130",
+      "source": "Tuft1",
+      "baked_world_scale": 1.3,
+      "actor_scale": 1,
+      "world_surface_area_m2": 1.7150784478944843,
+      "uv_area": 0.00027920865676702095,
+      "measured_density_min": 15.999997799631734,
+      "measured_density_max": 16.000004520062696,
+      "islands": 448,
+      "regions": [
+        {
+          "region": 0,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 1,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 2,
+          "islands": 0,
+          "used_height_pixels": 4.0,
+          "conservative_rectangle_overlap_pairs": 0
+        },
+        {
+          "region": 3,
+          "islands": 448,
+          "used_height_pixels": 40.27468053220541,
+          "conservative_rectangle_overlap_pairs": 0
+        }
+      ]
+    }
+  ],
+  "scale_max_absolute_change": 0.04986583045627446
+}

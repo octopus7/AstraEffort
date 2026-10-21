@@ -1,0 +1,5 @@
+{
+  "started_at_utc": "2026-10-21T14:09:10.698531+00:00",
+  "status": "needs_attention",
+  "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/medium/TexturePass/build_texture_pass.py\", line 25, in <module>\n    c=node(water,u.MaterialExpressionCustom,code=colorcode,output_type=u.CustomMaterialOutputType.CMOT_FLOAT3,inputs=[u.CustomInput(input_name='P'),u.CustomInput(input_name='T')]);link(pos,c,'P');link(tm,c,'T');M.connect_material_property(c,'',u.MaterialProperty.MP_BASE_COLOR)\n                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: call() takes at most 0 arguments (1 given)\n"
+}

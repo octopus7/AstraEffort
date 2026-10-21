@@ -67,3 +67,5 @@ Actual follow-up start recorded: 2026-10-21 12:46:14 UTC / 21:46:14 KST. First s
 - Supplement mutex wait total: 365.5745525 seconds; execution total: 52.7185559 seconds across three attempts. See supplement_execution_timings.json.
 - All 31 delivered package SHA-256 values match the original manifest before and after validation, and match their private scratch copies. The four original scene PNG hashes also match.
 - Evidence: supplement_validation.json, supplement_validation.log, updated validation.json and runtime_validation.json. The original registry evidence is retained as validation_first_delivery.json.
+
+Texture pass completed: see TexturePass/RESULT.md and TexturePass/STATUS.json. First-delivery times above are preserved.

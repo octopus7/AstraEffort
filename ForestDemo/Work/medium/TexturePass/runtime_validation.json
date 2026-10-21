@@ -1,0 +1,34 @@
+{
+  "texture_pass_started_at_utc": "2026-10-21T13:42:41Z",
+  "started_at_utc": "2026-10-21T14:30:31.689830+00:00",
+  "mode": "actual PIE game world",
+  "status": "passed",
+  "checks": {
+    "controller_and_pawn_possession": true,
+    "native_logger_in_play_world": true,
+    "short_swept_movement": true,
+    "terrain_blocks_runtime_pawn_sweep": true,
+    "player_start_region_reached": true,
+    "normal_pie_shutdown": true
+  },
+  "world": "/Game/Maps/UEDPIE_0_medium.medium",
+  "controller": "PlayerController",
+  "pawn": "DefaultPawn",
+  "spawn_location": "<Struct 'Vector' (0x000001AB5C317760) {x: 1100.000000, y: -1400.000000, z: 210.000000}>",
+  "logger_evidence": "Native class retained without modification; actual onscreen Hello screenshot requested within first 10 seconds of PIE.",
+  "short_move": {
+    "before": "<Struct 'Vector' (0x000001AB5C317760) {x: 1100.000000, y: -1400.000000, z: 210.000000}>",
+    "after": "<Struct 'Vector' (0x000001AB5C317940) {x: 1200.000000, y: -1400.000000, z: 210.000000}>",
+    "sweep_result": "<Struct 'HitResult' (0x000001AC4CFC7300) {}>"
+  },
+  "ground_sweep": {
+    "target_z_cm": -500,
+    "actual_location": "<Struct 'Vector' (0x000001AB5C3168B0) {x: 1200.000000, y: -1400.000000, z: 67.650589}>",
+    "sweep_result": "<Struct 'HitResult' (0x000001AC4CFC7580) {}>",
+    "hit_mesh": "/Game/Forest/medium/Meshes/GroundSmooth.GroundSmooth",
+    "blocking_hit": true
+  },
+  "finished_at_utc": "2026-10-21T14:30:33.940198+00:00",
+  "elapsed_seconds": 2.250368356704712,
+  "hello_screenshot_exists": true
+}
