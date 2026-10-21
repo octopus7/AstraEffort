@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "captured_at_utc": "2026-10-21T15:03:23.2329120+00:00",
-  "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+  "captured_at_utc": "2026-10-21T15:07:57.2385765+00:00",
+  "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
   "provisional": true,
   "method": "Latest cumulative token_count per unique thread, with identified descendants assigned to one nearest configured root. No cumulative snapshot summing. Parent fields retain their original parent-only meaning.",
   "scope": "Configured creation chats and supervisor, plus locally identified delegated subagents and automatic guardian approval-review descendants. Metadata discovery cannot prove absence of unavailable rollouts. External CLI/model calls and image-generation usage are not included in these local counters. No conversation or reasoning text is exported.",
@@ -9,8 +9,8 @@
   "discovery_header_summary": {
     "earliest_configured_root_utc": "2026-10-21T11:57:12.5160000+00:00",
     "historical_outside_family_window": 34,
-    "historical_rule": "Legacy header timestamps before all configured roots, or unknown filename dates at least two calendar days earlier; known root filenames are never skipped as historical.",
-    "unresolved_in_scope_or_unknown": 0
+    "unresolved_in_scope_or_unknown": 0,
+    "historical_rule": "Legacy header timestamps before all configured roots, or unknown filename dates at least two calendar days earlier; known root filenames are never skipped as historical."
   },
   "rows": [
     {
@@ -28,7 +28,7 @@
         "medium"
       ],
       "usage_recorded_at_utc": "2026-10-21T14:33:10.578Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
       "input_tokens": 32089043,
       "cached_input_tokens": 31519616,
       "uncached_input_tokens": 569427,
@@ -38,12 +38,12 @@
       "total_tokens": 32194492,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
         "changed_events": 248,
-        "predating_events": 0
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
       "token_events_observed": 250,
       "duplicate_snapshots_removed": 0,
@@ -70,7 +70,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:28:49.480Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 1912252,
           "cached_input_tokens": 1419648,
           "uncached_input_tokens": 492604,
@@ -80,12 +80,12 @@
           "total_tokens": 1915266,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 27,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 28,
           "duplicate_snapshots_removed": 0,
@@ -110,7 +110,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:31:39.995Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 373280,
           "cached_input_tokens": 304384,
           "uncached_input_tokens": 68896,
@@ -120,12 +120,12 @@
           "total_tokens": 374127,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 7,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 8,
           "duplicate_snapshots_removed": 0,
@@ -137,8 +137,8 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
@@ -209,89 +209,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9901485+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:41.253Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "medium"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
-          "as_of_utc": "2026-10-21T13:38:32.0000000+00:00",
-          "input_tokens": 25077917,
-          "cached_input_tokens": 24647552,
-          "uncached_input_tokens": 430365,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 67011,
-          "reasoning_output_tokens": 20530,
-          "total_tokens": 25144928,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 174,
-            "predating_events": 0
-          },
-          "token_events_observed": 175,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 26990169,
-            "cached_input_tokens": 26067200,
-            "uncached_input_tokens": 922969,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 70025,
-            "reasoning_output_tokens": 21764,
-            "total_tokens": 27060194
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 26990169,
-          "cached_input_tokens": 26067200,
-          "uncached_input_tokens": 922969,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 70025,
-          "reasoning_output_tokens": 21764,
-          "total_tokens": 27060194,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 1912252,
-            "cached_input_tokens": 1419648,
-            "uncached_input_tokens": 492604,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 3014,
-            "reasoning_output_tokens": 1234,
-            "total_tokens": 1915266
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 1912252,
-          "cached_input_tokens": 1419648,
-          "uncached_input_tokens": 492604,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 3014,
-          "reasoning_output_tokens": 1234,
-          "total_tokens": 1915266,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:38:32.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e62-7a6b-7222-9e90-9059fbf232ca",
@@ -318,12 +236,12 @@
             "total_tokens": 1915266,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 27,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 28,
             "duplicate_snapshots_removed": 0,
@@ -334,7 +252,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:38:32.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1912252,
+            "cached_input_tokens": 1419648,
+            "uncached_input_tokens": 492604,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3014,
+            "reasoning_output_tokens": 1234,
+            "total_tokens": 1915266
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1912252,
+          "cached_input_tokens": 1419648,
+          "uncached_input_tokens": 492604,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3014,
+          "reasoning_output_tokens": 1234,
+          "total_tokens": 1915266,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:41.253Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
+          "as_of_utc": "2026-10-21T13:38:32.0000000+00:00",
+          "input_tokens": 25077917,
+          "cached_input_tokens": 24647552,
+          "uncached_input_tokens": 430365,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 67011,
+          "reasoning_output_tokens": 20530,
+          "total_tokens": 25144928,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 174,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 175,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 26990169,
+            "cached_input_tokens": 26067200,
+            "uncached_input_tokens": 922969,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 70025,
+            "reasoning_output_tokens": 21764,
+            "total_tokens": 27060194
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 26990169,
+          "cached_input_tokens": 26067200,
+          "uncached_input_tokens": 922969,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 70025,
+          "reasoning_output_tokens": 21764,
+          "total_tokens": 27060194,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -352,7 +352,7 @@
         "high"
       ],
       "usage_recorded_at_utc": "2026-10-21T14:30:53.818Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
       "input_tokens": 27243313,
       "cached_input_tokens": 26708736,
       "uncached_input_tokens": 534577,
@@ -362,12 +362,12 @@
       "total_tokens": 27367465,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
         "changed_events": 218,
-        "predating_events": 0
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
       "token_events_observed": 220,
       "duplicate_snapshots_removed": 0,
@@ -394,7 +394,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:01:56.473Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 1160605,
           "cached_input_tokens": 747392,
           "uncached_input_tokens": 413213,
@@ -404,12 +404,12 @@
           "total_tokens": 1162594,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 18,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 19,
           "duplicate_snapshots_removed": 0,
@@ -434,7 +434,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:22:47.531Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 193748,
           "cached_input_tokens": 135168,
           "uncached_input_tokens": 58580,
@@ -444,12 +444,12 @@
           "total_tokens": 194363,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 4,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 5,
           "duplicate_snapshots_removed": 0,
@@ -461,8 +461,8 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
@@ -533,89 +533,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:10:33.5549951+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:45.339Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "high"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
-          "as_of_utc": "2026-10-21T13:09:52.0000000+00:00",
-          "input_tokens": 17097083,
-          "cached_input_tokens": 16901632,
-          "uncached_input_tokens": 195451,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 64746,
-          "reasoning_output_tokens": 23486,
-          "total_tokens": 17161829,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 130,
-            "predating_events": 0
-          },
-          "token_events_observed": 131,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 17917333,
-            "cached_input_tokens": 17630592,
-            "uncached_input_tokens": 286741,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 66442,
-            "reasoning_output_tokens": 24172,
-            "total_tokens": 17983775
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 17917333,
-          "cached_input_tokens": 17630592,
-          "uncached_input_tokens": 286741,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 66442,
-          "reasoning_output_tokens": 24172,
-          "total_tokens": 17983775,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 820250,
-            "cached_input_tokens": 728960,
-            "uncached_input_tokens": 91290,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1696,
-            "reasoning_output_tokens": 686,
-            "total_tokens": 821946
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 820250,
-          "cached_input_tokens": 728960,
-          "uncached_input_tokens": 91290,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1696,
-          "reasoning_output_tokens": 686,
-          "total_tokens": 821946,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:09:52.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e64-833c-74d0-b7ef-a7c4da544f47",
@@ -642,12 +560,12 @@
             "total_tokens": 821946,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 15,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 16,
             "duplicate_snapshots_removed": 0,
@@ -658,7 +576,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:09:52.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 820250,
+            "cached_input_tokens": 728960,
+            "uncached_input_tokens": 91290,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1696,
+            "reasoning_output_tokens": 686,
+            "total_tokens": 821946
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 820250,
+          "cached_input_tokens": 728960,
+          "uncached_input_tokens": 91290,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1696,
+          "reasoning_output_tokens": 686,
+          "total_tokens": 821946,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:45.339Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
+          "as_of_utc": "2026-10-21T13:09:52.0000000+00:00",
+          "input_tokens": 17097083,
+          "cached_input_tokens": 16901632,
+          "uncached_input_tokens": 195451,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 64746,
+          "reasoning_output_tokens": 23486,
+          "total_tokens": 17161829,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 130,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 131,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 17917333,
+            "cached_input_tokens": 17630592,
+            "uncached_input_tokens": 286741,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 66442,
+            "reasoning_output_tokens": 24172,
+            "total_tokens": 17983775
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 17917333,
+          "cached_input_tokens": 17630592,
+          "uncached_input_tokens": 286741,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 66442,
+          "reasoning_output_tokens": 24172,
+          "total_tokens": 17983775,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -676,7 +676,7 @@
         "xhigh"
       ],
       "usage_recorded_at_utc": "2026-10-21T14:29:34.138Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
       "input_tokens": 26740465,
       "cached_input_tokens": 26294912,
       "uncached_input_tokens": 445553,
@@ -686,12 +686,12 @@
       "total_tokens": 26897361,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
         "changed_events": 189,
-        "predating_events": 0
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
       "token_events_observed": 192,
       "duplicate_snapshots_removed": 0,
@@ -718,7 +718,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:18:38.868Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 1303626,
           "cached_input_tokens": 823040,
           "uncached_input_tokens": 480586,
@@ -728,12 +728,12 @@
           "total_tokens": 1305756,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 19,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 20,
           "duplicate_snapshots_removed": 0,
@@ -758,7 +758,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:26:59.456Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 224196,
           "cached_input_tokens": 160000,
           "uncached_input_tokens": 64196,
@@ -768,12 +768,12 @@
           "total_tokens": 224721,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 4,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 5,
           "duplicate_snapshots_removed": 0,
@@ -785,8 +785,8 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
@@ -857,89 +857,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9947859+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:48.558Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "xhigh"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
-          "as_of_utc": "2026-10-21T13:38:13.0000000+00:00",
-          "input_tokens": 18206555,
-          "cached_input_tokens": 17965056,
-          "uncached_input_tokens": 241499,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 98848,
-          "reasoning_output_tokens": 40525,
-          "total_tokens": 18305403,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 128,
-            "predating_events": 0
-          },
-          "token_events_observed": 130,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 19510181,
-            "cached_input_tokens": 18788096,
-            "uncached_input_tokens": 722085,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 100978,
-            "reasoning_output_tokens": 41322,
-            "total_tokens": 19611159
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 19510181,
-          "cached_input_tokens": 18788096,
-          "uncached_input_tokens": 722085,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 100978,
-          "reasoning_output_tokens": 41322,
-          "total_tokens": 19611159,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 1303626,
-            "cached_input_tokens": 823040,
-            "uncached_input_tokens": 480586,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 2130,
-            "reasoning_output_tokens": 797,
-            "total_tokens": 1305756
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 1303626,
-          "cached_input_tokens": 823040,
-          "uncached_input_tokens": 480586,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 2130,
-          "reasoning_output_tokens": 797,
-          "total_tokens": 1305756,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:38:13.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e64-2d4c-7e23-9466-529457503bcb",
@@ -966,12 +884,12 @@
             "total_tokens": 1305756,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 19,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 20,
             "duplicate_snapshots_removed": 0,
@@ -982,7 +900,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:38:13.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1303626,
+            "cached_input_tokens": 823040,
+            "uncached_input_tokens": 480586,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2130,
+            "reasoning_output_tokens": 797,
+            "total_tokens": 1305756
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1303626,
+          "cached_input_tokens": 823040,
+          "uncached_input_tokens": 480586,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2130,
+          "reasoning_output_tokens": 797,
+          "total_tokens": 1305756,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:48.558Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
+          "as_of_utc": "2026-10-21T13:38:13.0000000+00:00",
+          "input_tokens": 18206555,
+          "cached_input_tokens": 17965056,
+          "uncached_input_tokens": 241499,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 98848,
+          "reasoning_output_tokens": 40525,
+          "total_tokens": 18305403,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 128,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 130,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 19510181,
+            "cached_input_tokens": 18788096,
+            "uncached_input_tokens": 722085,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 100978,
+            "reasoning_output_tokens": 41322,
+            "total_tokens": 19611159
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 19510181,
+          "cached_input_tokens": 18788096,
+          "uncached_input_tokens": 722085,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100978,
+          "reasoning_output_tokens": 41322,
+          "total_tokens": 19611159,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1000,7 +1000,7 @@
         "ultra"
       ],
       "usage_recorded_at_utc": "2026-10-21T14:37:21.513Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
       "input_tokens": 23492859,
       "cached_input_tokens": 22868992,
       "uncached_input_tokens": 623867,
@@ -1010,12 +1010,12 @@
       "total_tokens": 23634637,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
         "changed_events": 176,
-        "predating_events": 0
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
       "token_events_observed": 178,
       "duplicate_snapshots_removed": 0,
@@ -1042,7 +1042,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:01:36.132Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 892388,
           "cached_input_tokens": 781568,
           "uncached_input_tokens": 110820,
@@ -1052,12 +1052,12 @@
           "total_tokens": 894173,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 14,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 15,
           "duplicate_snapshots_removed": 0,
@@ -1082,7 +1082,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:34:56.060Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 543365,
           "cached_input_tokens": 452992,
           "uncached_input_tokens": 90373,
@@ -1092,12 +1092,12 @@
           "total_tokens": 544399,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 8,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 9,
           "duplicate_snapshots_removed": 0,
@@ -1109,8 +1109,8 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
@@ -1181,89 +1181,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:12:54.7320007+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:52.020Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "ultra"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
-          "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
-          "input_tokens": 13293778,
-          "cached_input_tokens": 13070080,
-          "uncached_input_tokens": 223698,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 83318,
-          "reasoning_output_tokens": 34128,
-          "total_tokens": 13377096,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 94,
-            "predating_events": 0
-          },
-          "token_events_observed": 95,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 14186166,
-            "cached_input_tokens": 13851648,
-            "uncached_input_tokens": 334518,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 85103,
-            "reasoning_output_tokens": 34937,
-            "total_tokens": 14271269
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 14186166,
-          "cached_input_tokens": 13851648,
-          "uncached_input_tokens": 334518,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 85103,
-          "reasoning_output_tokens": 34937,
-          "total_tokens": 14271269,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 892388,
-            "cached_input_tokens": 781568,
-            "uncached_input_tokens": 110820,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1785,
-            "reasoning_output_tokens": 809,
-            "total_tokens": 894173
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 892388,
-          "cached_input_tokens": 781568,
-          "uncached_input_tokens": 110820,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1785,
-          "reasoning_output_tokens": 809,
-          "total_tokens": 894173,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:10:53.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
@@ -1290,12 +1208,12 @@
             "total_tokens": 894173,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 14,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 15,
             "duplicate_snapshots_removed": 0,
@@ -1306,7 +1224,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:10:53.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 892388,
+            "cached_input_tokens": 781568,
+            "uncached_input_tokens": 110820,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1785,
+            "reasoning_output_tokens": 809,
+            "total_tokens": 894173
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 892388,
+          "cached_input_tokens": 781568,
+          "uncached_input_tokens": 110820,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1785,
+          "reasoning_output_tokens": 809,
+          "total_tokens": 894173,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:52.020Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+          "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
+          "input_tokens": 13293778,
+          "cached_input_tokens": 13070080,
+          "uncached_input_tokens": 223698,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 83318,
+          "reasoning_output_tokens": 34128,
+          "total_tokens": 13377096,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 94,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 95,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 14186166,
+            "cached_input_tokens": 13851648,
+            "uncached_input_tokens": 334518,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 85103,
+            "reasoning_output_tokens": 34937,
+            "total_tokens": 14271269
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 14186166,
+          "cached_input_tokens": 13851648,
+          "uncached_input_tokens": 334518,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 85103,
+          "reasoning_output_tokens": 34937,
+          "total_tokens": 14271269,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1323,25 +1323,25 @@
       "observed_efforts": [
         "medium"
       ],
-      "usage_recorded_at_utc": "2026-10-21T15:03:21.814Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-      "input_tokens": 20194021,
-      "cached_input_tokens": 19733760,
-      "uncached_input_tokens": 460261,
+      "usage_recorded_at_utc": "2026-10-21T15:07:17.838Z",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+      "input_tokens": 20927744,
+      "cached_input_tokens": 20454144,
+      "uncached_input_tokens": 473600,
       "cache_write_input_tokens": 0,
-      "output_tokens": 79722,
-      "reasoning_output_tokens": 24022,
-      "total_tokens": 20273743,
+      "output_tokens": 85200,
+      "reasoning_output_tokens": 24910,
+      "total_tokens": 21012944,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
-        "changed_events": 159,
-        "predating_events": 0
+        "changed_events": 170,
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
-      "token_events_observed": 162,
+      "token_events_observed": 173,
       "duplicate_snapshots_removed": 0,
       "incomplete_metadata_lines": 0,
       "issues": [],
@@ -1366,7 +1366,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:56:15.179Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 546812,
           "cached_input_tokens": 55296,
           "uncached_input_tokens": 491516,
@@ -1376,12 +1376,12 @@
           "total_tokens": 548054,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 8,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 9,
           "duplicate_snapshots_removed": 0,
@@ -1405,25 +1405,25 @@
           "observed_efforts": [
             "low"
           ],
-          "usage_recorded_at_utc": "2026-10-21T15:01:32.089Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 43352,
-          "cached_input_tokens": 16896,
-          "uncached_input_tokens": 26456,
+          "usage_recorded_at_utc": "2026-10-21T15:07:53.568Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 242479,
+          "cached_input_tokens": 195328,
+          "uncached_input_tokens": 47151,
           "cache_write_input_tokens": 0,
-          "output_tokens": 207,
-          "reasoning_output_tokens": 82,
-          "total_tokens": 43559,
+          "output_tokens": 700,
+          "reasoning_output_tokens": 255,
+          "total_tokens": 243179,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 1,
-            "predating_events": 0
+            "changed_events": 6,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 2,
+          "token_events_observed": 7,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -1433,49 +1433,49 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
         "known_subtotal": {
-          "input_tokens": 590164,
-          "cached_input_tokens": 72192,
-          "uncached_input_tokens": 517972,
+          "input_tokens": 789291,
+          "cached_input_tokens": 250624,
+          "uncached_input_tokens": 538667,
           "cache_write_input_tokens": 0,
-          "output_tokens": 1449,
-          "reasoning_output_tokens": 717,
-          "total_tokens": 591613
+          "output_tokens": 1942,
+          "reasoning_output_tokens": 890,
+          "total_tokens": 791233
         },
         "unknown_thread_ids": [],
-        "input_tokens": 590164,
-        "cached_input_tokens": 72192,
-        "uncached_input_tokens": 517972,
+        "input_tokens": 789291,
+        "cached_input_tokens": 250624,
+        "uncached_input_tokens": 538667,
         "cache_write_input_tokens": 0,
-        "output_tokens": 1449,
-        "reasoning_output_tokens": 717,
-        "total_tokens": 591613,
+        "output_tokens": 1942,
+        "reasoning_output_tokens": 890,
+        "total_tokens": 791233,
         "total_tokens_complete": true
       },
       "combined_usage": {
         "member_count": 3,
         "known_subtotal": {
-          "input_tokens": 20784185,
-          "cached_input_tokens": 19805952,
-          "uncached_input_tokens": 978233,
+          "input_tokens": 21717035,
+          "cached_input_tokens": 20704768,
+          "uncached_input_tokens": 1012267,
           "cache_write_input_tokens": 0,
-          "output_tokens": 81171,
-          "reasoning_output_tokens": 24739,
-          "total_tokens": 20865356
+          "output_tokens": 87142,
+          "reasoning_output_tokens": 25800,
+          "total_tokens": 21804177
         },
         "unknown_thread_ids": [],
-        "input_tokens": 20784185,
-        "cached_input_tokens": 19805952,
-        "uncached_input_tokens": 978233,
+        "input_tokens": 21717035,
+        "cached_input_tokens": 20704768,
+        "uncached_input_tokens": 1012267,
         "cache_write_input_tokens": 0,
-        "output_tokens": 81171,
-        "reasoning_output_tokens": 24739,
-        "total_tokens": 20865356,
+        "output_tokens": 87142,
+        "reasoning_output_tokens": 25800,
+        "total_tokens": 21804177,
         "total_tokens_complete": true
       },
       "frozen_parent_usage": {
@@ -1505,89 +1505,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9953251+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "medium"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
-          "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
-          "input_tokens": 16559272,
-          "cached_input_tokens": 16162304,
-          "uncached_input_tokens": 396968,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 60048,
-          "reasoning_output_tokens": 17080,
-          "total_tokens": 16619320,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 130,
-            "predating_events": 0
-          },
-          "token_events_observed": 132,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 17003400,
-            "cached_input_tokens": 16211456,
-            "uncached_input_tokens": 791944,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 61095,
-            "reasoning_output_tokens": 17591,
-            "total_tokens": 17064495
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 17003400,
-          "cached_input_tokens": 16211456,
-          "uncached_input_tokens": 791944,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 61095,
-          "reasoning_output_tokens": 17591,
-          "total_tokens": 17064495,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 444128,
-            "cached_input_tokens": 49152,
-            "uncached_input_tokens": 394976,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1047,
-            "reasoning_output_tokens": 511,
-            "total_tokens": 445175
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 444128,
-          "cached_input_tokens": 49152,
-          "uncached_input_tokens": 394976,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1047,
-          "reasoning_output_tokens": 511,
-          "total_tokens": 445175,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
@@ -1614,12 +1532,12 @@
             "total_tokens": 445175,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 7,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 8,
             "duplicate_snapshots_removed": 0,
@@ -1630,7 +1548,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 444128,
+            "cached_input_tokens": 49152,
+            "uncached_input_tokens": 394976,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1047,
+            "reasoning_output_tokens": 511,
+            "total_tokens": 445175
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 444128,
+          "cached_input_tokens": 49152,
+          "uncached_input_tokens": 394976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1047,
+          "reasoning_output_tokens": 511,
+          "total_tokens": 445175,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+          "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+          "input_tokens": 16559272,
+          "cached_input_tokens": 16162304,
+          "uncached_input_tokens": 396968,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 60048,
+          "reasoning_output_tokens": 17080,
+          "total_tokens": 16619320,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 130,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 132,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 17003400,
+            "cached_input_tokens": 16211456,
+            "uncached_input_tokens": 791944,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61095,
+            "reasoning_output_tokens": 17591,
+            "total_tokens": 17064495
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 17003400,
+          "cached_input_tokens": 16211456,
+          "uncached_input_tokens": 791944,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61095,
+          "reasoning_output_tokens": 17591,
+          "total_tokens": 17064495,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1647,25 +1647,25 @@
       "observed_efforts": [
         "high"
       ],
-      "usage_recorded_at_utc": "2026-10-21T15:03:11.576Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-      "input_tokens": 14915891,
-      "cached_input_tokens": 14686464,
-      "uncached_input_tokens": 229427,
+      "usage_recorded_at_utc": "2026-10-21T15:07:46.846Z",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+      "input_tokens": 16351491,
+      "cached_input_tokens": 16109952,
+      "uncached_input_tokens": 241539,
       "cache_write_input_tokens": 0,
-      "output_tokens": 82903,
-      "reasoning_output_tokens": 26274,
-      "total_tokens": 14998794,
+      "output_tokens": 88313,
+      "reasoning_output_tokens": 28628,
+      "total_tokens": 16439804,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
-        "changed_events": 115,
-        "predating_events": 0
+        "changed_events": 121,
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
-      "token_events_observed": 116,
+      "token_events_observed": 122,
       "duplicate_snapshots_removed": 0,
       "incomplete_metadata_lines": 0,
       "issues": [],
@@ -1689,25 +1689,25 @@
           "observed_efforts": [
             "low"
           ],
-          "usage_recorded_at_utc": "2026-10-21T15:01:33.453Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 562216,
-          "cached_input_tokens": 367104,
-          "uncached_input_tokens": 195112,
+          "usage_recorded_at_utc": "2026-10-21T15:05:18.999Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 663513,
+          "cached_input_tokens": 373248,
+          "uncached_input_tokens": 290265,
           "cache_write_input_tokens": 0,
-          "output_tokens": 1273,
-          "reasoning_output_tokens": 682,
-          "total_tokens": 563489,
+          "output_tokens": 1372,
+          "reasoning_output_tokens": 719,
+          "total_tokens": 664885,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 8,
-            "predating_events": 0
+            "changed_events": 9,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 9,
+          "token_events_observed": 10,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -1717,49 +1717,49 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 1,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 1
       },
       "descendant_usage": {
         "member_count": 1,
         "known_subtotal": {
-          "input_tokens": 562216,
-          "cached_input_tokens": 367104,
-          "uncached_input_tokens": 195112,
+          "input_tokens": 663513,
+          "cached_input_tokens": 373248,
+          "uncached_input_tokens": 290265,
           "cache_write_input_tokens": 0,
-          "output_tokens": 1273,
-          "reasoning_output_tokens": 682,
-          "total_tokens": 563489
+          "output_tokens": 1372,
+          "reasoning_output_tokens": 719,
+          "total_tokens": 664885
         },
         "unknown_thread_ids": [],
-        "input_tokens": 562216,
-        "cached_input_tokens": 367104,
-        "uncached_input_tokens": 195112,
+        "input_tokens": 663513,
+        "cached_input_tokens": 373248,
+        "uncached_input_tokens": 290265,
         "cache_write_input_tokens": 0,
-        "output_tokens": 1273,
-        "reasoning_output_tokens": 682,
-        "total_tokens": 563489,
+        "output_tokens": 1372,
+        "reasoning_output_tokens": 719,
+        "total_tokens": 664885,
         "total_tokens_complete": true
       },
       "combined_usage": {
         "member_count": 2,
         "known_subtotal": {
-          "input_tokens": 15478107,
-          "cached_input_tokens": 15053568,
-          "uncached_input_tokens": 424539,
+          "input_tokens": 17015004,
+          "cached_input_tokens": 16483200,
+          "uncached_input_tokens": 531804,
           "cache_write_input_tokens": 0,
-          "output_tokens": 84176,
-          "reasoning_output_tokens": 26956,
-          "total_tokens": 15562283
+          "output_tokens": 89685,
+          "reasoning_output_tokens": 29347,
+          "total_tokens": 17104689
         },
         "unknown_thread_ids": [],
-        "input_tokens": 15478107,
-        "cached_input_tokens": 15053568,
-        "uncached_input_tokens": 424539,
+        "input_tokens": 17015004,
+        "cached_input_tokens": 16483200,
+        "uncached_input_tokens": 531804,
         "cache_write_input_tokens": 0,
-        "output_tokens": 84176,
-        "reasoning_output_tokens": 26956,
-        "total_tokens": 15562283,
+        "output_tokens": 89685,
+        "reasoning_output_tokens": 29347,
+        "total_tokens": 17104689,
         "total_tokens_complete": true
       },
       "frozen_parent_usage": {
@@ -1789,89 +1789,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:17:48.4853579+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "high"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
-          "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
-          "input_tokens": 10670356,
-          "cached_input_tokens": 10494336,
-          "uncached_input_tokens": 176020,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 61023,
-          "reasoning_output_tokens": 18831,
-          "total_tokens": 10731379,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 95,
-            "predating_events": 0
-          },
-          "token_events_observed": 96,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 10963485,
-            "cached_input_tokens": 10681472,
-            "uncached_input_tokens": 282013,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 61760,
-            "reasoning_output_tokens": 19196,
-            "total_tokens": 11025245
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 10963485,
-          "cached_input_tokens": 10681472,
-          "uncached_input_tokens": 282013,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 61760,
-          "reasoning_output_tokens": 19196,
-          "total_tokens": 11025245,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 293129,
-            "cached_input_tokens": 187136,
-            "uncached_input_tokens": 105993,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 737,
-            "reasoning_output_tokens": 365,
-            "total_tokens": 293866
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 293129,
-          "cached_input_tokens": 187136,
-          "uncached_input_tokens": 105993,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 737,
-          "reasoning_output_tokens": 365,
-          "total_tokens": 293866,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
@@ -1898,12 +1816,12 @@
             "total_tokens": 293866,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 5,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 6,
             "duplicate_snapshots_removed": 0,
@@ -1914,7 +1832,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 293129,
+            "cached_input_tokens": 187136,
+            "uncached_input_tokens": 105993,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 737,
+            "reasoning_output_tokens": 365,
+            "total_tokens": 293866
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 293129,
+          "cached_input_tokens": 187136,
+          "uncached_input_tokens": 105993,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 737,
+          "reasoning_output_tokens": 365,
+          "total_tokens": 293866,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+          "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+          "input_tokens": 10670356,
+          "cached_input_tokens": 10494336,
+          "uncached_input_tokens": 176020,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61023,
+          "reasoning_output_tokens": 18831,
+          "total_tokens": 10731379,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 95,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 96,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 10963485,
+            "cached_input_tokens": 10681472,
+            "uncached_input_tokens": 282013,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61760,
+            "reasoning_output_tokens": 19196,
+            "total_tokens": 11025245
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 10963485,
+          "cached_input_tokens": 10681472,
+          "uncached_input_tokens": 282013,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61760,
+          "reasoning_output_tokens": 19196,
+          "total_tokens": 11025245,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1931,25 +1931,25 @@
       "observed_efforts": [
         "xhigh"
       ],
-      "usage_recorded_at_utc": "2026-10-21T15:02:37.374Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-      "input_tokens": 15870274,
-      "cached_input_tokens": 15512960,
-      "uncached_input_tokens": 357314,
+      "usage_recorded_at_utc": "2026-10-21T15:07:56.560Z",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+      "input_tokens": 16499187,
+      "cached_input_tokens": 16124544,
+      "uncached_input_tokens": 374643,
       "cache_write_input_tokens": 0,
-      "output_tokens": 111628,
-      "reasoning_output_tokens": 41358,
-      "total_tokens": 15981902,
+      "output_tokens": 120741,
+      "reasoning_output_tokens": 43868,
+      "total_tokens": 16619928,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
-        "changed_events": 123,
-        "predating_events": 0
+        "changed_events": 127,
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
-      "token_events_observed": 125,
+      "token_events_observed": 129,
       "duplicate_snapshots_removed": 0,
       "incomplete_metadata_lines": 0,
       "issues": [],
@@ -1974,7 +1974,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:23:26.149Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 1001257,
           "cached_input_tokens": 906880,
           "uncached_input_tokens": 94377,
@@ -1984,12 +1984,12 @@
           "total_tokens": 1003211,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 16,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 17,
           "duplicate_snapshots_removed": 0,
@@ -2013,25 +2013,25 @@
           "observed_efforts": [
             "low"
           ],
-          "usage_recorded_at_utc": "2026-10-21T15:00:01.833Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 91207,
-          "cached_input_tokens": 52992,
-          "uncached_input_tokens": 38215,
+          "usage_recorded_at_utc": "2026-10-21T15:03:50.791Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 138006,
+          "cached_input_tokens": 90624,
+          "uncached_input_tokens": 47382,
           "cache_write_input_tokens": 0,
-          "output_tokens": 483,
-          "reasoning_output_tokens": 252,
-          "total_tokens": 91690,
+          "output_tokens": 630,
+          "reasoning_output_tokens": 329,
+          "total_tokens": 138636,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 2,
-            "predating_events": 0
+            "changed_events": 3,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 3,
+          "token_events_observed": 4,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -2041,49 +2041,49 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
         "known_subtotal": {
-          "input_tokens": 1092464,
-          "cached_input_tokens": 959872,
-          "uncached_input_tokens": 132592,
+          "input_tokens": 1139263,
+          "cached_input_tokens": 997504,
+          "uncached_input_tokens": 141759,
           "cache_write_input_tokens": 0,
-          "output_tokens": 2437,
-          "reasoning_output_tokens": 1210,
-          "total_tokens": 1094901
+          "output_tokens": 2584,
+          "reasoning_output_tokens": 1287,
+          "total_tokens": 1141847
         },
         "unknown_thread_ids": [],
-        "input_tokens": 1092464,
-        "cached_input_tokens": 959872,
-        "uncached_input_tokens": 132592,
+        "input_tokens": 1139263,
+        "cached_input_tokens": 997504,
+        "uncached_input_tokens": 141759,
         "cache_write_input_tokens": 0,
-        "output_tokens": 2437,
-        "reasoning_output_tokens": 1210,
-        "total_tokens": 1094901,
+        "output_tokens": 2584,
+        "reasoning_output_tokens": 1287,
+        "total_tokens": 1141847,
         "total_tokens_complete": true
       },
       "combined_usage": {
         "member_count": 3,
         "known_subtotal": {
-          "input_tokens": 16962738,
-          "cached_input_tokens": 16472832,
-          "uncached_input_tokens": 489906,
+          "input_tokens": 17638450,
+          "cached_input_tokens": 17122048,
+          "uncached_input_tokens": 516402,
           "cache_write_input_tokens": 0,
-          "output_tokens": 114065,
-          "reasoning_output_tokens": 42568,
-          "total_tokens": 17076803
+          "output_tokens": 123325,
+          "reasoning_output_tokens": 45155,
+          "total_tokens": 17761775
         },
         "unknown_thread_ids": [],
-        "input_tokens": 16962738,
-        "cached_input_tokens": 16472832,
-        "uncached_input_tokens": 489906,
+        "input_tokens": 17638450,
+        "cached_input_tokens": 17122048,
+        "uncached_input_tokens": 516402,
         "cache_write_input_tokens": 0,
-        "output_tokens": 114065,
-        "reasoning_output_tokens": 42568,
-        "total_tokens": 17076803,
+        "output_tokens": 123325,
+        "reasoning_output_tokens": 45155,
+        "total_tokens": 17761775,
         "total_tokens_complete": true
       },
       "frozen_parent_usage": {
@@ -2113,89 +2113,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:47:24.0296557+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:11.645Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "xhigh"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
-          "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
-          "input_tokens": 13796198,
-          "cached_input_tokens": 13517056,
-          "uncached_input_tokens": 279142,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 88660,
-          "reasoning_output_tokens": 34407,
-          "total_tokens": 13884858,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 105,
-            "predating_events": 0
-          },
-          "token_events_observed": 107,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 14797455,
-            "cached_input_tokens": 14423936,
-            "uncached_input_tokens": 373519,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 90614,
-            "reasoning_output_tokens": 35365,
-            "total_tokens": 14888069
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 14797455,
-          "cached_input_tokens": 14423936,
-          "uncached_input_tokens": 373519,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 90614,
-          "reasoning_output_tokens": 35365,
-          "total_tokens": 14888069,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 1001257,
-            "cached_input_tokens": 906880,
-            "uncached_input_tokens": 94377,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1954,
-            "reasoning_output_tokens": 958,
-            "total_tokens": 1003211
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 1001257,
-          "cached_input_tokens": 906880,
-          "uncached_input_tokens": 94377,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1954,
-          "reasoning_output_tokens": 958,
-          "total_tokens": 1003211,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T13:46:25.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2",
@@ -2222,12 +2140,12 @@
             "total_tokens": 1003211,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 16,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 17,
             "duplicate_snapshots_removed": 0,
@@ -2238,7 +2156,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T13:46:25.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1001257,
+            "cached_input_tokens": 906880,
+            "uncached_input_tokens": 94377,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1954,
+            "reasoning_output_tokens": 958,
+            "total_tokens": 1003211
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1001257,
+          "cached_input_tokens": 906880,
+          "uncached_input_tokens": 94377,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1954,
+          "reasoning_output_tokens": 958,
+          "total_tokens": 1003211,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:11.645Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
+          "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
+          "input_tokens": 13796198,
+          "cached_input_tokens": 13517056,
+          "uncached_input_tokens": 279142,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 88660,
+          "reasoning_output_tokens": 34407,
+          "total_tokens": 13884858,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 105,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 107,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 14797455,
+            "cached_input_tokens": 14423936,
+            "uncached_input_tokens": 373519,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 90614,
+            "reasoning_output_tokens": 35365,
+            "total_tokens": 14888069
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 14797455,
+          "cached_input_tokens": 14423936,
+          "uncached_input_tokens": 373519,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 90614,
+          "reasoning_output_tokens": 35365,
+          "total_tokens": 14888069,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -2255,25 +2255,25 @@
       "observed_efforts": [
         "ultra"
       ],
-      "usage_recorded_at_utc": "2026-10-21T15:03:09.996Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-      "input_tokens": 25085165,
-      "cached_input_tokens": 24653056,
-      "uncached_input_tokens": 432109,
+      "usage_recorded_at_utc": "2026-10-21T15:07:54.081Z",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+      "input_tokens": 26446242,
+      "cached_input_tokens": 26000128,
+      "uncached_input_tokens": 446114,
       "cache_write_input_tokens": 0,
-      "output_tokens": 175596,
-      "reasoning_output_tokens": 84367,
-      "total_tokens": 25260761,
+      "output_tokens": 182104,
+      "reasoning_output_tokens": 87059,
+      "total_tokens": 26628346,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
-        "changed_events": 187,
-        "predating_events": 0
+        "changed_events": 193,
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
-      "token_events_observed": 191,
+      "token_events_observed": 197,
       "duplicate_snapshots_removed": 0,
       "incomplete_metadata_lines": 0,
       "issues": [],
@@ -2298,7 +2298,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 531790,
           "cached_input_tokens": 444800,
           "uncached_input_tokens": 86990,
@@ -2308,12 +2308,12 @@
           "total_tokens": 532935,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 9,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 10,
           "duplicate_snapshots_removed": 0,
@@ -2337,25 +2337,25 @@
           "observed_efforts": [
             "low"
           ],
-          "usage_recorded_at_utc": "2026-10-21T15:02:59.792Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 487972,
-          "cached_input_tokens": 331264,
-          "uncached_input_tokens": 156708,
+          "usage_recorded_at_utc": "2026-10-21T15:07:43.718Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 580396,
+          "cached_input_tokens": 415872,
+          "uncached_input_tokens": 164524,
           "cache_write_input_tokens": 0,
-          "output_tokens": 1341,
-          "reasoning_output_tokens": 738,
-          "total_tokens": 489313,
+          "output_tokens": 1422,
+          "reasoning_output_tokens": 756,
+          "total_tokens": 581818,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 8,
-            "predating_events": 0
+            "changed_events": 9,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 9,
+          "token_events_observed": 10,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -2365,49 +2365,49 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 2,
-        "delegated_subagent": 0
+        "delegated_subagent": 0,
+        "automatic_approval_review": 2
       },
       "descendant_usage": {
         "member_count": 2,
         "known_subtotal": {
-          "input_tokens": 1019762,
-          "cached_input_tokens": 776064,
-          "uncached_input_tokens": 243698,
+          "input_tokens": 1112186,
+          "cached_input_tokens": 860672,
+          "uncached_input_tokens": 251514,
           "cache_write_input_tokens": 0,
-          "output_tokens": 2486,
-          "reasoning_output_tokens": 1206,
-          "total_tokens": 1022248
+          "output_tokens": 2567,
+          "reasoning_output_tokens": 1224,
+          "total_tokens": 1114753
         },
         "unknown_thread_ids": [],
-        "input_tokens": 1019762,
-        "cached_input_tokens": 776064,
-        "uncached_input_tokens": 243698,
+        "input_tokens": 1112186,
+        "cached_input_tokens": 860672,
+        "uncached_input_tokens": 251514,
         "cache_write_input_tokens": 0,
-        "output_tokens": 2486,
-        "reasoning_output_tokens": 1206,
-        "total_tokens": 1022248,
+        "output_tokens": 2567,
+        "reasoning_output_tokens": 1224,
+        "total_tokens": 1114753,
         "total_tokens_complete": true
       },
       "combined_usage": {
         "member_count": 3,
         "known_subtotal": {
-          "input_tokens": 26104927,
-          "cached_input_tokens": 25429120,
-          "uncached_input_tokens": 675807,
+          "input_tokens": 27558428,
+          "cached_input_tokens": 26860800,
+          "uncached_input_tokens": 697628,
           "cache_write_input_tokens": 0,
-          "output_tokens": 178082,
-          "reasoning_output_tokens": 85573,
-          "total_tokens": 26283009
+          "output_tokens": 184671,
+          "reasoning_output_tokens": 88283,
+          "total_tokens": 27743099
         },
         "unknown_thread_ids": [],
-        "input_tokens": 26104927,
-        "cached_input_tokens": 25429120,
-        "uncached_input_tokens": 675807,
+        "input_tokens": 27558428,
+        "cached_input_tokens": 26860800,
+        "uncached_input_tokens": 697628,
         "cache_write_input_tokens": 0,
-        "output_tokens": 178082,
-        "reasoning_output_tokens": 85573,
-        "total_tokens": 26283009,
+        "output_tokens": 184671,
+        "reasoning_output_tokens": 88283,
+        "total_tokens": 27743099,
         "total_tokens_complete": true
       },
       "frozen_parent_usage": {
@@ -2585,89 +2585,7 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T14:45:15.4825369+00:00",
       "as_of_first_commit": {
-        "parent_usage": {
-          "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:16.230Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "ultra"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
-          "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
-          "input_tokens": 22933853,
-          "cached_input_tokens": 22552704,
-          "uncached_input_tokens": 381149,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 153992,
-          "reasoning_output_tokens": 72143,
-          "total_tokens": 23087845,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "verified": true,
-            "delta_mismatches": 0,
-            "counter_decreases": 0,
-            "first_total_equals_first_last_usage": true,
-            "changed_events": 176,
-            "predating_events": 0
-          },
-          "token_events_observed": 180,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
-          ]
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "combined_usage": {
-          "member_count": 3,
-          "known_subtotal": {
-            "input_tokens": 23868813,
-            "cached_input_tokens": 23328768,
-            "uncached_input_tokens": 540045,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 156223,
-            "reasoning_output_tokens": 73162,
-            "total_tokens": 24025036
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 23868813,
-          "cached_input_tokens": 23328768,
-          "uncached_input_tokens": 540045,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 156223,
-          "reasoning_output_tokens": 73162,
-          "total_tokens": 24025036,
-          "total_tokens_complete": true
-        },
-        "descendant_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 934960,
-            "cached_input_tokens": 776064,
-            "uncached_input_tokens": 158896,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 2231,
-            "reasoning_output_tokens": 1019,
-            "total_tokens": 937191
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 934960,
-          "cached_input_tokens": 776064,
-          "uncached_input_tokens": 158896,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 2231,
-          "reasoning_output_tokens": 1019,
-          "total_tokens": 937191,
-          "total_tokens_complete": true
-        },
+        "cutoff_utc": "2026-10-21T14:43:03.0000000+00:00",
         "descendants": [
           {
             "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
@@ -2694,12 +2612,12 @@
             "total_tokens": 532935,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 9,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 10,
             "duplicate_snapshots_removed": 0,
@@ -2734,12 +2652,12 @@
             "total_tokens": 404256,
             "accounting_eligible": true,
             "child_local_evidence": {
-              "verified": true,
               "delta_mismatches": 0,
-              "counter_decreases": 0,
               "first_total_equals_first_last_usage": true,
               "changed_events": 7,
-              "predating_events": 0
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "verified": true
             },
             "token_events_observed": 8,
             "duplicate_snapshots_removed": 0,
@@ -2750,7 +2668,89 @@
             ]
           }
         ],
-        "cutoff_utc": "2026-10-21T14:43:03.0000000+00:00"
+        "descendant_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 934960,
+            "cached_input_tokens": 776064,
+            "uncached_input_tokens": 158896,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2231,
+            "reasoning_output_tokens": 1019,
+            "total_tokens": 937191
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 934960,
+          "cached_input_tokens": 776064,
+          "uncached_input_tokens": 158896,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2231,
+          "reasoning_output_tokens": 1019,
+          "total_tokens": 937191,
+          "total_tokens_complete": true
+        },
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "parent_usage": {
+          "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
+          "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+          "input_tokens": 22933853,
+          "cached_input_tokens": 22552704,
+          "uncached_input_tokens": 381149,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 153992,
+          "reasoning_output_tokens": 72143,
+          "total_tokens": 23087845,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 176,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
+          },
+          "token_events_observed": 180,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+          ]
+        },
+        "combined_usage": {
+          "member_count": 3,
+          "known_subtotal": {
+            "input_tokens": 23868813,
+            "cached_input_tokens": 23328768,
+            "uncached_input_tokens": 540045,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 156223,
+            "reasoning_output_tokens": 73162,
+            "total_tokens": 24025036
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 23868813,
+          "cached_input_tokens": 23328768,
+          "uncached_input_tokens": 540045,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 156223,
+          "reasoning_output_tokens": 73162,
+          "total_tokens": 24025036,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -2768,25 +2768,25 @@
         "low",
         "ultra"
       ],
-      "usage_recorded_at_utc": "2026-10-21T15:02:32.140Z",
-      "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-      "input_tokens": 43849478,
-      "cached_input_tokens": 42577920,
-      "uncached_input_tokens": 1271558,
+      "usage_recorded_at_utc": "2026-10-21T15:07:08.951Z",
+      "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+      "input_tokens": 45558121,
+      "cached_input_tokens": 44236032,
+      "uncached_input_tokens": 1322089,
       "cache_write_input_tokens": 0,
-      "output_tokens": 189828,
-      "reasoning_output_tokens": 37135,
-      "total_tokens": 44039306,
+      "output_tokens": 194919,
+      "reasoning_output_tokens": 38073,
+      "total_tokens": 45753040,
       "accounting_eligible": true,
       "child_local_evidence": {
-        "verified": true,
         "delta_mismatches": 0,
-        "counter_decreases": 0,
         "first_total_equals_first_last_usage": true,
-        "changed_events": 331,
-        "predating_events": 0
+        "changed_events": 344,
+        "predating_events": 0,
+        "counter_decreases": 0,
+        "verified": true
       },
-      "token_events_observed": 364,
+      "token_events_observed": 377,
       "duplicate_snapshots_removed": 0,
       "incomplete_metadata_lines": 0,
       "issues": [],
@@ -2811,7 +2811,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T12:29:12.629Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 3095867,
           "cached_input_tokens": 2282112,
           "uncached_input_tokens": 813755,
@@ -2821,12 +2821,12 @@
           "total_tokens": 3100356,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 41,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 42,
           "duplicate_snapshots_removed": 0,
@@ -2851,7 +2851,7 @@
             "high"
           ],
           "usage_recorded_at_utc": "2026-10-21T15:00:36.487Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 9821960,
           "cached_input_tokens": 9558272,
           "uncached_input_tokens": 263688,
@@ -2861,12 +2861,12 @@
           "total_tokens": 9874149,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 85,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 89,
           "duplicate_snapshots_removed": 0,
@@ -2891,25 +2891,25 @@
             "low",
             "ultra"
           ],
-          "usage_recorded_at_utc": "2026-10-21T14:42:18.264Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 11197379,
-          "cached_input_tokens": 10906240,
-          "uncached_input_tokens": 291139,
+          "usage_recorded_at_utc": "2026-10-21T15:06:04.534Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 12134699,
+          "cached_input_tokens": 11821952,
+          "uncached_input_tokens": 312747,
           "cache_write_input_tokens": 0,
-          "output_tokens": 31768,
-          "reasoning_output_tokens": 6337,
-          "total_tokens": 11229147,
+          "output_tokens": 34600,
+          "reasoning_output_tokens": 7412,
+          "total_tokens": 12169299,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 80,
-            "predating_events": 0
+            "changed_events": 85,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 85,
+          "token_events_observed": 92,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -2933,7 +2933,7 @@
             "ultra"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:51:53.117Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 4926827,
           "cached_input_tokens": 4740224,
           "uncached_input_tokens": 186603,
@@ -2943,12 +2943,12 @@
           "total_tokens": 4944347,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 43,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 46,
           "duplicate_snapshots_removed": 0,
@@ -2973,7 +2973,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T12:36:18.178Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 58450,
           "cached_input_tokens": 34944,
           "uncached_input_tokens": 23506,
@@ -2983,12 +2983,12 @@
           "total_tokens": 58759,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 1,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 2,
           "duplicate_snapshots_removed": 0,
@@ -3013,7 +3013,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:07:05.164Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 790818,
           "cached_input_tokens": 704640,
           "uncached_input_tokens": 86178,
@@ -3023,12 +3023,12 @@
           "total_tokens": 792298,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 15,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 16,
           "duplicate_snapshots_removed": 0,
@@ -3053,7 +3053,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:30:27.957Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 1086259,
           "cached_input_tokens": 985600,
           "uncached_input_tokens": 100659,
@@ -3063,12 +3063,12 @@
           "total_tokens": 1088142,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 16,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 17,
           "duplicate_snapshots_removed": 0,
@@ -3093,7 +3093,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:35:07.509Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 192429,
           "cached_input_tokens": 50944,
           "uncached_input_tokens": 141485,
@@ -3103,12 +3103,12 @@
           "total_tokens": 192901,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 3,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 4,
           "duplicate_snapshots_removed": 0,
@@ -3133,7 +3133,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:59:31.004Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 1171777,
           "cached_input_tokens": 1065088,
           "uncached_input_tokens": 106689,
@@ -3143,12 +3143,12 @@
           "total_tokens": 1173794,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 17,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 18,
           "duplicate_snapshots_removed": 0,
@@ -3173,7 +3173,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T13:37:36.780Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 31198,
           "cached_input_tokens": 6144,
           "uncached_input_tokens": 25054,
@@ -3183,12 +3183,12 @@
           "total_tokens": 31351,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 0,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 1,
           "duplicate_snapshots_removed": 0,
@@ -3213,7 +3213,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:25:32.989Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 469535,
           "cached_input_tokens": 363648,
           "uncached_input_tokens": 105887,
@@ -3223,12 +3223,12 @@
           "total_tokens": 470121,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 6,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 7,
           "duplicate_snapshots_removed": 0,
@@ -3252,25 +3252,25 @@
           "observed_efforts": [
             "ultra"
           ],
-          "usage_recorded_at_utc": "2026-10-21T14:42:02.896Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 2401235,
-          "cached_input_tokens": 2312064,
-          "uncached_input_tokens": 89171,
+          "usage_recorded_at_utc": "2026-10-21T15:05:23.752Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 3382425,
+          "cached_input_tokens": 3244160,
+          "uncached_input_tokens": 138265,
           "cache_write_input_tokens": 0,
-          "output_tokens": 9871,
-          "reasoning_output_tokens": 2127,
-          "total_tokens": 2411106,
+          "output_tokens": 12297,
+          "reasoning_output_tokens": 2410,
+          "total_tokens": 3394722,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 20,
-            "predating_events": 0
+            "changed_events": 26,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 21,
+          "token_events_observed": 28,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -3289,7 +3289,7 @@
           "observed_models": [],
           "observed_efforts": [],
           "usage_recorded_at_utc": null,
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": null,
           "cached_input_tokens": null,
           "uncached_input_tokens": null,
@@ -3299,12 +3299,12 @@
           "total_tokens": null,
           "accounting_eligible": false,
           "child_local_evidence": {
-            "verified": false,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": false,
             "changed_events": 0,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": false
           },
           "token_events_observed": 0,
           "duplicate_snapshots_removed": 0,
@@ -3339,7 +3339,7 @@
             "low"
           ],
           "usage_recorded_at_utc": "2026-10-21T14:54:52.458Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
           "input_tokens": 919043,
           "cached_input_tokens": 810624,
           "uncached_input_tokens": 108419,
@@ -3349,12 +3349,12 @@
           "total_tokens": 920332,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
             "changed_events": 10,
-            "predating_events": 0
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
           "token_events_observed": 11,
           "duplicate_snapshots_removed": 0,
@@ -3378,25 +3378,25 @@
           "observed_efforts": [
             "low"
           ],
-          "usage_recorded_at_utc": "2026-10-21T15:02:24.924Z",
-          "as_of_utc": "2026-10-21T15:03:23.2329120+00:00",
-          "input_tokens": 179103,
-          "cached_input_tokens": 114048,
-          "uncached_input_tokens": 65055,
+          "usage_recorded_at_utc": "2026-10-21T15:06:59.746Z",
+          "as_of_utc": "2026-10-21T15:07:57.2385765+00:00",
+          "input_tokens": 342112,
+          "cached_input_tokens": 259328,
+          "uncached_input_tokens": 82784,
           "cache_write_input_tokens": 0,
-          "output_tokens": 322,
-          "reasoning_output_tokens": 135,
-          "total_tokens": 179425,
+          "output_tokens": 535,
+          "reasoning_output_tokens": 216,
+          "total_tokens": 342647,
           "accounting_eligible": true,
           "child_local_evidence": {
-            "verified": true,
             "delta_mismatches": 0,
-            "counter_decreases": 0,
             "first_total_equals_first_last_usage": true,
-            "changed_events": 2,
-            "predating_events": 0
+            "changed_events": 4,
+            "predating_events": 0,
+            "counter_decreases": 0,
+            "verified": true
           },
-          "token_events_observed": 3,
+          "token_events_observed": 5,
           "duplicate_snapshots_removed": 0,
           "incomplete_metadata_lines": 0,
           "issues": [],
@@ -3406,19 +3406,19 @@
         }
       ],
       "descendant_category_counts": {
-        "automatic_approval_review": 11,
-        "delegated_subagent": 4
+        "delegated_subagent": 4,
+        "automatic_approval_review": 11
       },
       "descendant_usage": {
         "member_count": 15,
         "known_subtotal": {
-          "input_tokens": 36341880,
-          "cached_input_tokens": 33934592,
-          "uncached_input_tokens": 2407288,
+          "input_tokens": 38423399,
+          "cached_input_tokens": 35927680,
+          "uncached_input_tokens": 2495719,
           "cache_write_input_tokens": 0,
-          "output_tokens": 124348,
-          "reasoning_output_tokens": 27064,
-          "total_tokens": 36466228
+          "output_tokens": 129819,
+          "reasoning_output_tokens": 28503,
+          "total_tokens": 38553218
         },
         "unknown_thread_ids": [
           "01a15ecd-5001-70b0-b7bc-8b4645894e5d"
@@ -3435,13 +3435,13 @@
       "combined_usage": {
         "member_count": 16,
         "known_subtotal": {
-          "input_tokens": 80191358,
-          "cached_input_tokens": 76512512,
-          "uncached_input_tokens": 3678846,
+          "input_tokens": 83981520,
+          "cached_input_tokens": 80163712,
+          "uncached_input_tokens": 3817808,
           "cache_write_input_tokens": 0,
-          "output_tokens": 314176,
-          "reasoning_output_tokens": 64199,
-          "total_tokens": 80505534
+          "output_tokens": 324738,
+          "reasoning_output_tokens": 66576,
+          "total_tokens": 84306258
         },
         "unknown_thread_ids": [
           "01a15ecd-5001-70b0-b7bc-8b4645894e5d"
@@ -3463,34 +3463,34 @@
   "creation_jobs_usage": {
     "member_count": 23,
     "known_subtotal": {
-      "input_tokens": 195499097,
-      "cached_input_tokens": 188977920,
-      "uncached_input_tokens": 6521177,
+      "input_tokens": 200098057,
+      "cached_input_tokens": 193387264,
+      "uncached_input_tokens": 6710793,
       "cache_write_input_tokens": 0,
-      "output_tokens": 997708,
-      "reasoning_output_tokens": 385091,
-      "total_tokens": 196496805
+      "output_tokens": 1025037,
+      "reasoning_output_tokens": 393840,
+      "total_tokens": 201123094
     },
     "unknown_thread_ids": [],
-    "input_tokens": 195499097,
-    "cached_input_tokens": 188977920,
-    "uncached_input_tokens": 6521177,
+    "input_tokens": 200098057,
+    "cached_input_tokens": 193387264,
+    "uncached_input_tokens": 6710793,
     "cache_write_input_tokens": 0,
-    "output_tokens": 997708,
-    "reasoning_output_tokens": 385091,
-    "total_tokens": 196496805,
+    "output_tokens": 1025037,
+    "reasoning_output_tokens": 393840,
+    "total_tokens": 201123094,
     "total_tokens_complete": true
   },
   "all_roots_usage": {
     "member_count": 39,
     "known_subtotal": {
-      "input_tokens": 275690455,
-      "cached_input_tokens": 265490432,
-      "uncached_input_tokens": 10200023,
+      "input_tokens": 284079577,
+      "cached_input_tokens": 273550976,
+      "uncached_input_tokens": 10528601,
       "cache_write_input_tokens": 0,
-      "output_tokens": 1311884,
-      "reasoning_output_tokens": 449290,
-      "total_tokens": 277002339
+      "output_tokens": 1349775,
+      "reasoning_output_tokens": 460416,
+      "total_tokens": 285429352
     },
     "unknown_thread_ids": [
       "01a15ecd-5001-70b0-b7bc-8b4645894e5d"

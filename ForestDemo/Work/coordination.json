@@ -2,8 +2,8 @@
   "baseline_commit": "7558c8f",
   "rules_commit": "53a1fc3",
   "timezone": "Asia/Seoul",
-  "last_supervisor_check_utc": "2026-10-21T15:04:08.9398584+00:00",
-  "last_supervisor_summary": "Forest four second passes remain committed; Station four texture passes active. xhigh has fresh saved-map/runtime/capture evidence; preliminary review underway. No new ready delivery or self-improvement dispatch.",
+  "last_supervisor_check_utc": "2026-10-21T15:11:20.2062656+00:00",
+  "last_supervisor_summary": "Station four second passes remain active. xhigh actual terrain Pawn sweep verified; non-WP/publication pending. high four actual captures reviewed and own background/material visual regression check requested. No new delivery accepted.",
   "efforts": [
     {
       "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
@@ -2958,7 +2958,7 @@
       "map": "/Game/Maps/MountainStation_medium",
       "work_root": "ForestDemo/Work/MountainStation/medium/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/medium/",
-      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:11",
+      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:12",
       "initial_turn_started_at_utc": "2026-10-21T12:27:03.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:10Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -3440,7 +3440,7 @@
       "map": "/Game/Maps/MountainStation_high",
       "work_root": "ForestDemo/Work/MountainStation/high/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/high/",
-      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:9",
+      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:10",
       "initial_turn_started_at_utc": "2026-10-21T12:27:07.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:18Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -3905,7 +3905,37 @@
         "dispatch_prepared_at_utc": "2026-10-21T14:46:30Z",
         "dispatched_at_utc": "2026-10-21T14:46:30Z",
         "worker_started_at_utc": "2026-10-21T14:47:23Z",
-        "last_observed_worker_status": "working"
+        "last_observed_worker_status": "working",
+        "preliminary_supervisor_visual_review": {
+          "reviewed_at_utc": "2026-10-21T15:10:04.5499285+00:00",
+          "accepted": false,
+          "status": "worker_still_active_visual_followup_sent",
+          "camera_differences_from_first": [],
+          "images": [
+            {
+              "sha256": "316A50E500BF6035C593A5A018ABAC106C1D056A7FA12069E31A626B18EDACD5",
+              "path": "ForestDemo/Work/MountainStation/high/TexturePass/Screenshots/overview.png",
+              "name": "overview"
+            },
+            {
+              "sha256": "2E74A11E9B287D23752DFE95AC1FFC205D3525F314C004695FD7A91C101EF82A",
+              "path": "ForestDemo/Work/MountainStation/high/TexturePass/Screenshots/top_down.png",
+              "name": "top_down"
+            },
+            {
+              "sha256": "143DF90579392AA4A934789FCD4B07C499653DB4AD3D91F085D37EC2F7BB6B9B",
+              "path": "ForestDemo/Work/MountainStation/high/TexturePass/Screenshots/platform.png",
+              "name": "platform"
+            },
+            {
+              "sha256": "9BD69305CC0ABBBD4B3DF78DD37D6AA1D5723C1016237928F447B57B9C6D3861",
+              "path": "ForestDemo/Work/MountainStation/high/TexturePass/Screenshots/tracks.png",
+              "name": "tracks"
+            }
+          ],
+          "observations": "Generated wood/stone/plaster detail visible and scene connections preserved; ground/foliage texture visibly busier, previously plain outside backdrop now has enlarged mottled/leaf pattern. Requested own material mapping check/background restoration if accidental and calm overview self-review. No layout redesign.",
+          "validation_summary": "Saved UE11assemblies333364triangles measured, aggregate127.99827-128.00011px/m; original35372chart AABBs disjoint, conservative savedUEgap31.7092px but intra-chart triangle intersections untested and wrap repeats imagery.150063subpixeltriangles and32degenerate exceptions.5imagegen originals hashed;22materialBaseColorlinks;42own recursive packages. ActualPawnpositive/nonoverlapblocking sweeps140.17/143.55/141.42cm plus300cmmove; normalexit0.33archivedfiles unchanged. nonWP indirect and finalpublication pending."
+        }
       }
     },
     {
@@ -3919,7 +3949,7 @@
       "map": "/Game/Maps/MountainStation_xhigh",
       "work_root": "ForestDemo/Work/MountainStation/xhigh/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/xhigh/",
-      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:10",
+      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:11",
       "initial_turn_started_at_utc": "2026-10-21T12:27:13.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:24Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -4423,7 +4453,9 @@
           "observations": "Four actual UE images directly inspected. Fine wood grain readable on station posts, barrel and sleepers; quiet mineral surface variation, original pale palette and rail/platform/tunnel connections preserved. Trail/grass remains sharply edged; tunnel interior dark and hillside sparse as before. Runtime ground-specific sweep and final publication still pending.",
           "followup_sent_at_utc": "2026-10-21T15:06:39.4264302+00:00",
           "validation_followup": "Complete already-running terrain Pawn sweep. Request direct supported API non-WP record; if unsupported, document limitation for final integration. Current external/BuiltData absence alone is indirect. No art redesign.",
-          "uv_review_summary": "9 saved SourceModel/RenderData assemblies; 21 texture material bindings; 41 recursive packages with no foreign refs; 24,760 density samples, regular >=16pixel faces within 2%, RMS 255.998832-256.735335px/m. Source unfolded-island padding versus intentional modulo texture reuse explicitly limited; saved UE not exhaustive overlap/padding audit."
+          "uv_review_summary": "9 saved SourceModel/RenderData assemblies; 21 texture material bindings; 41 recursive packages with no foreign refs; 24,760 density samples, regular >=16pixel faces within 2%, RMS 255.998832-256.735335px/m. Source unfolded-island padding versus intentional modulo texture reuse explicitly limited; saved UE not exhaustive overlap/padding audit.",
+          "terrain_sweep_verified_at_utc": "2026-10-21T15:10:04.5539402+00:00",
+          "terrain_sweep_evidence": "runtime_validation.json 15:05:46Z: blocking=true, initial_overlap=false, positive distance385.436010cm, exact SM_Terrain; direct nonWP and final publication pending."
         }
       }
     },
@@ -4438,7 +4470,7 @@
       "map": "/Game/Maps/MountainStation_ultra",
       "work_root": "ForestDemo/Work/MountainStation/ultra/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/ultra/",
-      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:14",
+      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:15",
       "initial_turn_started_at_utc": "2026-10-21T12:27:17.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:25.0000000+00:00",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -5410,19 +5442,19 @@
     "requested_scope": "Per owned chat + verified recursive child agents; supervisor helper tree separate from 8 production trees",
     "status": "active_validated",
     "schema_version": 2,
-    "last_snapshot_utc": "2026-10-21T15:03:23.2329120+00:00",
+    "last_snapshot_utc": "2026-10-21T15:07:57.2385765+00:00",
     "coverage": "Owned nine parent chats plus ancestry-verified unique descendants; production guardian reviews and supervisor delegated/review descendants separated; no external imagegen/CLI counters",
     "current_supervisor_unknown_descendants": [
       "01a15ecd-5001-70b0-b7bc-8b4645894e5d"
     ],
     "current_supervisor_known_subtotal": {
-      "input_tokens": 80191358,
-      "cached_input_tokens": 76512512,
-      "uncached_input_tokens": 3678846,
+      "input_tokens": 83981520,
+      "cached_input_tokens": 80163712,
+      "uncached_input_tokens": 3817808,
       "cache_write_input_tokens": 0,
-      "output_tokens": 314176,
-      "reasoning_output_tokens": 64199,
-      "total_tokens": 80505534
+      "output_tokens": 324738,
+      "reasoning_output_tokens": 66576,
+      "total_tokens": 84306258
     }
   },
   "texture_pass_timing_audit": {
