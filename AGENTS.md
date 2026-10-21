@@ -51,6 +51,14 @@ Use your own scratch project, abslog and timing output paths. CPU-side source-ar
 authoring may continue independently. Record mutex wait seconds separately from
 UE execution seconds and total wall time. Do not change this shared utility.
 
+User priority update: when both themes are waiting for Unreal, Forest gets the
+next slot before MountainStation. Never preempt or stop an already running UE.
+Use the supervisor's updated runner for new registrations; the runner may write
+only scheduling metadata to shared ignored Saved/Coordination. This metadata is
+not a creative resource and does not permit reading another worker's assets.
+Already loaded legacy waiters must finish safely; never kill a launcher while
+its UE child may still be active. Include priority-related delays in wait timing.
+
 ## Git and future work
 
 Worker chats must never run git add/commit/reset/stash/checkout/merge/rebase/push,
@@ -110,3 +118,19 @@ Forest worker's Work/<effort>/FirstDelivery before dispatch. Preserve original
 start, completion, commit and frozen token records; record second-pass timings
 and token deltas separately. Workers still never commit. Supervisor completion
 includes this pass, its separate per-effort commits and before/after comparisons.
+
+## Authorized MountainStation texture follow-up
+
+After all four MountainStation first deliveries are reviewed and individually
+committed, the supervisor dispatches a second UV/image-generated texture pass to
+the same four chats with original efforts. Do not start before explicit dispatch.
+Apply unique-surface UV islands and consistent measured texel density to station
+architecture, rails/sleepers, platform, tunnel, trees and props. Record area/scale,
+overlap/padding checks, density targets and measured exceptions, generation
+prompts/originals and surface mapping in the assigned Work directory.
+Use independently image-generated textures in actual UE materials, with no
+cross-effort/theme reading or reuse. No Forest beach requirement is added here.
+The supervisor archives first evidence under Work/MountainStation/EFFORT/FirstDelivery
+and preserves initial timings/commit/tokens. Record second-pass time/imagegen/UE
+wait/run separately and supply actual same-camera before/after renders.
+Workers still never commit. Both themes' second passes are required for completion.

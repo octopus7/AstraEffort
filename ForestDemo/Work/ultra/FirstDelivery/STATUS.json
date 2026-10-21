@@ -1,0 +1,51 @@
+{
+  "effort": "ultra",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-21T12:12:01Z",
+  "finished_at_utc": "2026-10-21T13:02:55.236892+00:00",
+  "elapsed_seconds": 3054.237,
+  "map": "/Game/Maps/ultra",
+  "validation": {
+    "success": true,
+    "checks": {
+      "fresh_map_reload": true,
+      "player_start": true,
+      "hello_logger": true,
+      "dynamic_lighting": true,
+      "non_world_partition": true,
+      "100m_footprint": true,
+      "lake_and_sea_are_distinct": true,
+      "solid_props_collision_enabled": true,
+      "mesh_collision_geometry": true,
+      "recursive_game_dependencies": true,
+      "no_external_or_baked_packages": true,
+      "runtime_ground_collision": true,
+      "player_possession_and_sweep": true,
+      "water_graph_and_final_render": true
+    },
+    "recursive_packages": 53,
+    "dependency_violations": 0,
+    "runtime_max_ground_error_cm": 0.08326072370317661,
+    "screenshots": 5,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "published_files": 53,
+    "hash_verified": true,
+    "resource_wait_seconds": 883.9417567999999,
+    "path_change_started_at_utc": "2026-10-21T12:20:57Z",
+    "path_regeneration_first_saved_at_utc": "2026-10-21T12:24:37Z",
+    "path_change_processing_interval_seconds": 220
+  },
+  "blockers": [],
+  "supervisor_supplement": {
+    "started_at_utc": "2026-10-21T12:46:59Z",
+    "finished_at_utc": "2026-10-21T12:51:55.386444+00:00",
+    "merged_into_existing_queued_session": true,
+    "timing_record": "Saved/Workers/ultra/timing-final-review.json"
+  },
+  "finished_at_kst": "2026-10-21T22:02:55.236892+09:00",
+  "first_submission_at_utc": "2026-10-21T13:02:55.236892+00:00",
+  "asset_root": "/Game/Forest/ultra"
+}

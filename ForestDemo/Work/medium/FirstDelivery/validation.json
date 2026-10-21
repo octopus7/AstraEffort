@@ -1,0 +1,286 @@
+{
+  "reloaded": true,
+  "actor_count": 672,
+  "ground_bounds_origin": "<Struct 'Vector' (0x0000025FC4E07440) {x: 0.000000, y: 0.000000, z: 24.152039}>",
+  "ground_bounds_extent": "<Struct 'Vector' (0x0000025FC4E074E0) {x: 5000.000488, y: 5000.000488, z: 284.151825}>",
+  "ground_collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+  "player_start": 1,
+  "logger": 1,
+  "dependency_packages": 31,
+  "bad_dependencies": [],
+  "dependencies": {
+    "/Game/Forest/medium/Materials/M_Foam": [],
+    "/Game/Forest/medium/Materials/M_Earth": [],
+    "/Game/Forest/medium/Materials/M_Grass": [],
+    "/Game/Forest/medium/Materials/M_Moss": [],
+    "/Game/Forest/medium/Meshes/Tuft0": [
+      "/Game/Forest/medium/Materials/M_Moss",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_Path": [],
+    "/Game/Forest/medium/Materials/M_Sand": [],
+    "/Game/Forest/medium/Meshes/GroundSmooth": [
+      "/Game/Forest/medium/Materials/M_Grass",
+      "/Game/Forest/medium/Materials/M_Moss",
+      "/Game/Forest/medium/Materials/M_Path",
+      "/Game/Forest/medium/Materials/M_Sand",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_Water": [],
+    "/Game/Forest/medium/Meshes/Lake": [
+      "/Game/Forest/medium/Materials/M_Water",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Meshes/Sea": [
+      "/Game/Forest/medium/Materials/M_Water",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_Bark": [],
+    "/Game/Forest/medium/Materials/M_Wood": [],
+    "/Game/Forest/medium/Meshes/Log": [
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_Wood",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_LeafLight": [],
+    "/Game/Forest/medium/Meshes/Shrub0": [
+      "/Game/Forest/medium/Materials/M_LeafLight",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Meshes/Reeds": [
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_LeafLight",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Meshes/Tree1": [
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_LeafLight",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_Rock": [],
+    "/Game/Forest/medium/Meshes/Rock0": [
+      "/Game/Forest/medium/Materials/M_Rock",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Meshes/Rock1": [
+      "/Game/Forest/medium/Materials/M_Rock",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_RockLight": [],
+    "/Game/Forest/medium/Meshes/Rock2": [
+      "/Game/Forest/medium/Materials/M_RockLight",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_LeafBlue": [],
+    "/Game/Forest/medium/Meshes/Shrub1": [
+      "/Game/Forest/medium/Materials/M_LeafBlue",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Meshes/Tree2": [
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_LeafBlue",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_Leaf": [],
+    "/Game/Forest/medium/Meshes/Tree0": [
+      "/Game/Forest/medium/Materials/M_Bark",
+      "/Game/Forest/medium/Materials/M_Leaf",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Forest/medium/Materials/M_Flower": [],
+    "/Game/Forest/medium/Meshes/Tuft1": [
+      "/Game/Forest/medium/Materials/M_Flower",
+      "/Game/Forest/medium/Materials/M_Moss",
+      "/Script/NavigationSystem"
+    ],
+    "/Game/Maps/medium": [
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Game/Forest/medium/Meshes/GroundSmooth",
+      "/Game/Forest/medium/Meshes/Lake",
+      "/Game/Forest/medium/Meshes/Log",
+      "/Game/Forest/medium/Meshes/Reeds",
+      "/Game/Forest/medium/Meshes/Rock0",
+      "/Game/Forest/medium/Meshes/Rock1",
+      "/Game/Forest/medium/Meshes/Rock2",
+      "/Game/Forest/medium/Meshes/Sea",
+      "/Game/Forest/medium/Meshes/Shrub0",
+      "/Game/Forest/medium/Meshes/Shrub1",
+      "/Game/Forest/medium/Meshes/Tree0",
+      "/Game/Forest/medium/Meshes/Tree1",
+      "/Game/Forest/medium/Meshes/Tree2",
+      "/Game/Forest/medium/Meshes/Tuft0",
+      "/Game/Forest/medium/Meshes/Tuft1",
+      "/Script/ForestDemo",
+      "/Script/NavigationSystem"
+    ]
+  },
+  "world_partition": "new_level non-World-Partition; no external package dirs",
+  "solid_prop_simple_collision_counts": {
+    "Tree0": 3,
+    "Tree1": 3,
+    "Tree2": 3,
+    "Rock0": 3,
+    "Rock1": 3,
+    "Rock2": 3,
+    "Shrub0": 3,
+    "Shrub1": 3,
+    "Log": 3
+  },
+  "mesh_instance_counts": {
+    "GroundSmooth": 1,
+    "Lake": 1,
+    "Sea": 1,
+    "Tree1": 45,
+    "Tree0": 33,
+    "Tree2": 38,
+    "Shrub0": 38,
+    "Shrub1": 39,
+    "Rock0": 20,
+    "Rock1": 20,
+    "Rock2": 20,
+    "Tuft0": 188,
+    "Tuft1": 194,
+    "Reeds": 22,
+    "Log": 3
+  },
+  "validated_at_utc": "2026-10-21T13:30:17.417679+00:00",
+  "first_delivery_validated_at_utc": "2026-10-21T13:07:08.139045+00:00",
+  "fresh_process_force_rescan": {
+    "force_rescan": true,
+    "hard_and_soft_packages": true,
+    "searchable_and_management_references": true,
+    "package_count": 31,
+    "dependencies": {
+      "/Game/Forest/medium/Materials/M_Foam": [],
+      "/Game/Forest/medium/Materials/M_Earth": [],
+      "/Game/Forest/medium/Materials/M_Grass": [],
+      "/Game/Forest/medium/Materials/M_Moss": [],
+      "/Game/Forest/medium/Meshes/Tuft0": [
+        "/Game/Forest/medium/Materials/M_Moss",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_Path": [],
+      "/Game/Forest/medium/Materials/M_Sand": [],
+      "/Game/Forest/medium/Meshes/GroundSmooth": [
+        "/Game/Forest/medium/Materials/M_Grass",
+        "/Game/Forest/medium/Materials/M_Moss",
+        "/Game/Forest/medium/Materials/M_Path",
+        "/Game/Forest/medium/Materials/M_Sand",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_Water": [],
+      "/Game/Forest/medium/Meshes/Lake": [
+        "/Game/Forest/medium/Materials/M_Water",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Meshes/Sea": [
+        "/Game/Forest/medium/Materials/M_Water",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_Bark": [],
+      "/Game/Forest/medium/Materials/M_Wood": [],
+      "/Game/Forest/medium/Meshes/Log": [
+        "/Game/Forest/medium/Materials/M_Bark",
+        "/Game/Forest/medium/Materials/M_Wood",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_LeafLight": [],
+      "/Game/Forest/medium/Meshes/Shrub0": [
+        "/Game/Forest/medium/Materials/M_LeafLight",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Meshes/Reeds": [
+        "/Game/Forest/medium/Materials/M_Bark",
+        "/Game/Forest/medium/Materials/M_LeafLight",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Meshes/Tree1": [
+        "/Game/Forest/medium/Materials/M_Bark",
+        "/Game/Forest/medium/Materials/M_LeafLight",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_Rock": [],
+      "/Game/Forest/medium/Meshes/Rock0": [
+        "/Game/Forest/medium/Materials/M_Rock",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Meshes/Rock1": [
+        "/Game/Forest/medium/Materials/M_Rock",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_RockLight": [],
+      "/Game/Forest/medium/Meshes/Rock2": [
+        "/Game/Forest/medium/Materials/M_RockLight",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_LeafBlue": [],
+      "/Game/Forest/medium/Meshes/Shrub1": [
+        "/Game/Forest/medium/Materials/M_LeafBlue",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Meshes/Tree2": [
+        "/Game/Forest/medium/Materials/M_Bark",
+        "/Game/Forest/medium/Materials/M_LeafBlue",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_Leaf": [],
+      "/Game/Forest/medium/Meshes/Tree0": [
+        "/Game/Forest/medium/Materials/M_Bark",
+        "/Game/Forest/medium/Materials/M_Leaf",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Forest/medium/Materials/M_Flower": [],
+      "/Game/Forest/medium/Meshes/Tuft1": [
+        "/Game/Forest/medium/Materials/M_Flower",
+        "/Game/Forest/medium/Materials/M_Moss",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/Maps/medium": [
+        "/Engine/EditorResources/LightIcons/S_LightError",
+        "/Engine/EngineMaterials/WorldGridMaterial",
+        "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+        "/Game/Forest/medium/Meshes/GroundSmooth",
+        "/Game/Forest/medium/Meshes/Lake",
+        "/Game/Forest/medium/Meshes/Log",
+        "/Game/Forest/medium/Meshes/Reeds",
+        "/Game/Forest/medium/Meshes/Rock0",
+        "/Game/Forest/medium/Meshes/Rock1",
+        "/Game/Forest/medium/Meshes/Rock2",
+        "/Game/Forest/medium/Meshes/Sea",
+        "/Game/Forest/medium/Meshes/Shrub0",
+        "/Game/Forest/medium/Meshes/Shrub1",
+        "/Game/Forest/medium/Meshes/Tree0",
+        "/Game/Forest/medium/Meshes/Tree1",
+        "/Game/Forest/medium/Meshes/Tree2",
+        "/Game/Forest/medium/Meshes/Tuft0",
+        "/Game/Forest/medium/Meshes/Tuft1",
+        "/Script/ForestDemo",
+        "/Script/NavigationSystem"
+      ]
+    },
+    "forbidden_dependencies": [],
+    "owned_redirectors": [],
+    "legacy_game_medium_references": [],
+    "ground_material_slots": [
+      {
+        "slot": "Grass",
+        "material": "/Game/Forest/medium/Materials/M_Grass.M_Grass"
+      },
+      {
+        "slot": "Moss",
+        "material": "/Game/Forest/medium/Materials/M_Moss.M_Moss"
+      },
+      {
+        "slot": "Sand",
+        "material": "/Game/Forest/medium/Materials/M_Sand.M_Sand"
+      },
+      {
+        "slot": "Path",
+        "material": "/Game/Forest/medium/Materials/M_Path.M_Path"
+      }
+    ],
+    "legacy_scratch_packages_not_referenced": 30
+  }
+}

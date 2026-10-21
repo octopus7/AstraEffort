@@ -1,0 +1,118 @@
+{
+  "effort": "high",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-21T21:11:54+09:00",
+  "finished_at_utc": "2026-10-21T21:40:14.899003+09:00",
+  "elapsed_seconds": 1700.899003,
+  "map": "/Game/Maps/high",
+  "asset_root": "/Game/Forest/high",
+  "validation": {
+    "map_reload": true,
+    "recursive_owned_packages": 46,
+    "forbidden_dependencies": 0,
+    "terrain_extent_cm": [
+      10000.0009765625,
+      10000.0009765625
+    ],
+    "blocking_mesh_actor_count": 245,
+    "ground_collision_traces": 4,
+    "native_hello_logger_count": 1,
+    "actual_ue_pngs": 4,
+    "capture_resolution": [
+      1920,
+      1080
+    ],
+    "published_hash_verified_files": 46,
+    "editor_closed_before_publish": true,
+    "runtime_pie_spawn_and_possession": true,
+    "runtime_ground_blocking_sweep": true,
+    "native_hello_beginplay_automation": "Success",
+    "deliverables_unchanged_after_runtime_check": 46
+  },
+  "blockers": [],
+  "path_change": {
+    "requested_path_change_recorded_at_utc": "2026-10-21T21:21:03+09:00",
+    "migration_started_at_utc": "2026-10-21T21:23:21.903174+09:00",
+    "method": "Unreal EditorAssetLibrary.rename_directory; save direct references; delete redirector-only old directory",
+    "regenerated_art": false,
+    "landmark_bounds": {
+      "Terrain": {
+        "origin": [
+          0.0,
+          0.0,
+          123.71293640136719
+        ],
+        "extent": [
+          5000.00048828125,
+          5000.00048828125,
+          408.5270538330078
+        ]
+      },
+      "Lake": {
+        "origin": [
+          -1677.4530944824219,
+          -650.1011047363281,
+          162.0
+        ],
+        "extent": [
+          1309.3374328613281,
+          973.0348815917969,
+          0.0
+        ]
+      },
+      "Sea": {
+        "origin": [
+          0.00048828125,
+          3847.476806640625,
+          78.0
+        ],
+        "extent": [
+          5000.0,
+          1152.523681640625,
+          0.0
+        ]
+      }
+    },
+    "migration_finished_at_utc": "2026-10-21T21:23:24.112996+09:00",
+    "new_asset_count": 45,
+    "old_root_dependencies": []
+  },
+  "shared_ue_wait_seconds": 271.650345,
+  "capture_started_at_utc": "2026-10-21T21:38:34.878953+09:00",
+  "capture_finished_at_utc": "2026-10-21T21:39:36.823356+09:00",
+  "first_ready_at_utc": "2026-10-21T12:40:14.899003+00:00",
+  "runtime_supplement": {
+    "started_at_utc": "2026-10-21T12:41:24+00:00",
+    "finished_at_utc": "2026-10-21T13:02:06.461440+00:00",
+    "started_at_kst": "2026-10-21T21:41:24+09:00",
+    "finished_at_kst": "2026-10-21T22:02:06.461440+09:00",
+    "elapsed_seconds": 1242.46144,
+    "shared_ue_wait_seconds": 904.3132861,
+    "ue_execution_seconds": 58.085884300000004,
+    "attempts": [
+      {
+        "wait_started_at_utc": "2026-10-21T12:43:14.5579771+00:00",
+        "run_started_at_utc": "2026-10-21T12:47:38.5648254+00:00",
+        "finished_at_utc": "2026-10-21T12:47:58.2733540+00:00",
+        "wait_seconds": 264.0068483,
+        "execution_seconds": 19.7085286,
+        "exit_code": 0,
+        "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\ForestDemo\\ForestDemo.uproject",
+        "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\runtime.log"
+      },
+      {
+        "wait_started_at_utc": "2026-10-21T12:49:10.3422656+00:00",
+        "run_started_at_utc": "2026-10-21T12:59:50.6487034+00:00",
+        "finished_at_utc": "2026-10-21T13:00:29.0260591+00:00",
+        "wait_seconds": 640.3064378,
+        "execution_seconds": 38.3773557,
+        "exit_code": 0,
+        "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\ForestDemo\\ForestDemo.uproject",
+        "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\runtime.log"
+      }
+    ],
+    "status": "passed",
+    "evidence": "ForestDemo/Work/high/runtime_validation.json",
+    "map_modified": false
+  }
+}

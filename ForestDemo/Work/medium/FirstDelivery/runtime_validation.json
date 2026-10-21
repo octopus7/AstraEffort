@@ -1,0 +1,55 @@
+{
+  "supervisor_followup_started_at_utc": "2026-10-21T12:46:14.0000000+00:00",
+  "started_at_utc": "2026-10-21T13:07:40.0525820+00:00",
+  "mode": "actual PIE game world",
+  "status": "passed",
+  "checks": {
+    "controller_and_pawn_possession": true,
+    "native_logger_in_play_world": true,
+    "short_swept_movement": true,
+    "terrain_blocks_runtime_pawn_sweep": true,
+    "player_start_region_reached": true,
+    "normal_pie_shutdown": true,
+    "native_hello_visible_in_runtime_screenshot": true
+  },
+  "world": "/Game/Maps/UEDPIE_0_medium.medium",
+  "controller": "PlayerController",
+  "pawn": "DefaultPawn",
+  "spawn_location": "<Struct 'Vector' (0x0000025E8BB38F10) {x: 1100.000000, y: -1400.000000, z: 210.000000}>",
+  "logger_evidence": "Native class retained without modification; actual onscreen Hello screenshot requested within first 10 seconds of PIE.",
+  "short_move": {
+    "before": "<Struct 'Vector' (0x0000025E8BB38F10) {x: 1100.000000, y: -1400.000000, z: 210.000000}>",
+    "after": "<Struct 'Vector' (0x0000025E8BB38FB0) {x: 1200.000000, y: -1400.000000, z: 210.000000}>",
+    "sweep_result": "<Struct 'HitResult' (0x0000025FA7A4F640) {}>"
+  },
+  "ground_sweep": {
+    "target_z_cm": -500,
+    "actual_location": "<Struct 'Vector' (0x0000025E8BB38A10) {x: 1200.000000, y: -1400.000000, z: 67.650589}>",
+    "sweep_result": "<Struct 'HitResult' (0x0000025FA7A4EC40) {}>"
+  },
+  "finished_at_utc": "2026-10-21T13:07:42.3028250+00:00",
+  "elapsed_seconds": 2.250243663787842,
+  "hello_screenshot_exists": true,
+  "visual_review_at_utc": "2026-10-21T13:08:33.3678224+00:00",
+  "approval_ground_hit_supplement": {
+    "evidence": "supplement_validation.json",
+    "process_finished_at_utc": "2026-10-21T13:30:21.6592328+00:00",
+    "runtime": {
+      "world": "/Game/Maps/UEDPIE_0_medium.medium",
+      "pawn": "/Game/Maps/UEDPIE_0_medium.medium:PersistentLevel.DefaultPawn_0",
+      "blocking_hit": true,
+      "initial_overlap": false,
+      "hit_time": 0.20049212872982025,
+      "hit_distance_cm": 144.0594024658203,
+      "location": "<Struct 'Vector' (0x0000018D0FC39690) {x: 1200.000000, y: -1400.000000, z: 65.940593}>",
+      "impact_point": "<Struct 'Vector' (0x0000018D0FC38F60) {x: 1198.942627, y: -1399.328369, z: 30.963020}>",
+      "hit_actor": "/Game/Maps/UEDPIE_0_medium.medium:PersistentLevel.StaticMeshActor_0",
+      "hit_component": "/Game/Maps/UEDPIE_0_medium.medium:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+      "hit_mesh": "/Game/Forest/medium/Meshes/GroundSmooth.GroundSmooth",
+      "actual_pawn_location": "<Struct 'Vector' (0x0000018D0FC39910) {x: 1200.000000, y: -1400.000000, z: 67.650589}>",
+      "requested_target_z_cm": -500,
+      "normal_pie_shutdown": true
+    },
+    "process_exit_code": 0
+  }
+}

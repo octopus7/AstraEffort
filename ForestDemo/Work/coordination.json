@@ -2,16 +2,16 @@
   "baseline_commit": "7558c8f",
   "rules_commit": "53a1fc3",
   "timezone": "Asia/Seoul",
-  "last_supervisor_check_utc": "2026-10-21T13:20:22.2719889+00:00",
-  "last_supervisor_summary": "Forest high/ultra and MountainStation high individually committed, first-delivery tokens frozen. Forest medium requires fresh final-ground registry verification; MountainStation medium requires failed Pawn movement correction. Forest xhigh and station xhigh/ultra still in progress. New Forest UV/image-generated texture/beach pass authorized and persisted; waiting for all four Forest initial commits.",
+  "last_supervisor_check_utc": "2026-10-21T13:49:05.9383914+00:00",
+  "last_supervisor_summary": "Seven first commits. Forest second UV/imagegen/beach pass active. Station ultra initial renders reviewed but actual platform blocking test is ambiguous (zero motion/no hit); targeted read-only runtime supplement requested before first commit and station follow-up gate. Token accounting now includes verified child agents; first snapshots preserved.",
   "efforts": [
     {
       "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
       "hostId": "local",
       "effort": "medium",
       "dispatched_at_utc": "2026-10-21T12:11:37Z",
-      "status": "supervisor_rework",
-      "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:8",
+      "status": "texture_pass_dispatched",
+      "cursor": "91a883fe-6d11-4b75-afa2-e89483d00a96:10",
       "initial_turn_started_at_utc": "2026-10-21T12:11:42.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:50Z",
       "asset_root": "ForestDemo/Content/Forest/medium/",
@@ -21,15 +21,300 @@
       "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z",
       "first_ready_at_utc": "2026-10-21T13:08:52.1361498Z",
       "first_ready_elapsed_seconds": 3422.1361498,
-      "first_dispatch_to_ready_seconds": 3435.1361498
+      "first_dispatch_to_ready_seconds": 3435.1361498,
+      "first_commit_hash": "e4d057ad9277960eb57fb362cc8b0e635fbc287b",
+      "first_commit_at_utc": "2026-10-21T13:38:32Z",
+      "first_commit_at_kst": "2026-10-21T22:38:32.0000000+09:00",
+      "accepted_ready_at_utc": "2026-10-21T13:32:36.4016158Z",
+      "total_wall_to_accepted_ready_seconds": 4846.4016158,
+      "dispatch_to_accepted_ready_seconds": 4859.4016158,
+      "recorded_mutex_wait_seconds": 1856.5484355,
+      "recorded_ue_execution_seconds": 413.8020319,
+      "token_usage_at_first_delivery": {
+        "theme": "Forest",
+        "effort": "medium",
+        "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "medium"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
+        "input_tokens": 25077917,
+        "cached_input_tokens": 24647552,
+        "uncached_input_tokens": 430365,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 67011,
+        "reasoning_output_tokens": 20530,
+        "total_tokens": 25144928,
+        "token_events_observed": 175,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:39:36.9901485+00:00",
+      "validation_summary": "31 complete owned recursive packages and four ground material slots; no old roots; 66 package/screenshot hashes unchanged. Actual PIE possession and 100cm swept move, native Hello screenshot, fresh-process blocking ground mesh hit without initial overlap and normal exit 0. Four actual renders inspected.",
+      "first_delivery_archive": "ForestDemo/Work/medium/FirstDelivery",
+      "texture_pass": {
+        "status": "dispatched",
+        "dispatched_at_utc": "2026-10-21T13:42:02Z",
+        "starting_parent_token_usage": {
+          "theme": "Forest",
+          "effort": "medium",
+          "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
+          "input_tokens": 25077917,
+          "cached_input_tokens": 24647552,
+          "uncached_input_tokens": 430365,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 67011,
+          "reasoning_output_tokens": 20530,
+          "total_tokens": 25144928,
+          "token_events_observed": 175,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
+          ]
+        },
+        "work_root": "ForestDemo/Work/medium/TexturePass",
+        "token_usage_at_dispatch": {
+          "parent_total_tokens": 25144928,
+          "parent_usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
+          "descendant_usage": {
+            "member_count": 1,
+            "known_subtotal": {
+              "input_tokens": 1912252,
+              "cached_input_tokens": 1419648,
+              "uncached_input_tokens": 492604,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3014,
+              "reasoning_output_tokens": 1234,
+              "total_tokens": 1915266
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1912252,
+            "cached_input_tokens": 1419648,
+            "uncached_input_tokens": 492604,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3014,
+            "reasoning_output_tokens": 1234,
+            "total_tokens": 1915266,
+            "total_tokens_complete": true
+          },
+          "descendants": [
+            {
+              "thread_id": "01a15e62-7a6b-7222-9e90-9059fbf232ca",
+              "parent_thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:14:34.816Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:28:49.480Z",
+              "as_of_utc": "2026-10-21T13:42:02.0000000+00:00",
+              "input_tokens": 1912252,
+              "cached_input_tokens": 1419648,
+              "uncached_input_tokens": 492604,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3014,
+              "reasoning_output_tokens": 1234,
+              "total_tokens": 1915266,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "first_total_equals_first_last_usage": true,
+                "changed_events": 27,
+                "verified": true,
+                "delta_mismatches": 0,
+                "counter_decreases": 0,
+                "predating_events": 0
+              },
+              "token_events_observed": 28,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-14-34-01a15e62-7a6b-7222-9e90-9059fbf232ca.jsonl"
+              ]
+            }
+          ],
+          "method": "Last recorded snapshots at or before dispatch; later second-pass delta uses this baseline.",
+          "as_of_utc": "2026-10-21T13:42:02Z",
+          "combined_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 26990169,
+              "cached_input_tokens": 26067200,
+              "uncached_input_tokens": 922969,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 70025,
+              "reasoning_output_tokens": 21764,
+              "total_tokens": 27060194
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 26990169,
+            "cached_input_tokens": 26067200,
+            "uncached_input_tokens": 922969,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 70025,
+            "reasoning_output_tokens": 21764,
+            "total_tokens": 27060194,
+            "total_tokens_complete": true
+          }
+        }
+      },
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e62-7a6b-7222-9e90-9059fbf232ca",
+            "parent_thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:14:34.816Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:28:49.480Z",
+            "as_of_utc": "2026-10-21T13:38:32.0000000+00:00",
+            "input_tokens": 1912252,
+            "cached_input_tokens": 1419648,
+            "uncached_input_tokens": 492604,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3014,
+            "reasoning_output_tokens": 1234,
+            "total_tokens": 1915266,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 27,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 28,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-14-34-01a15e62-7a6b-7222-9e90-9059fbf232ca.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1912252,
+            "cached_input_tokens": 1419648,
+            "uncached_input_tokens": 492604,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3014,
+            "reasoning_output_tokens": 1234,
+            "total_tokens": 1915266
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1912252,
+          "cached_input_tokens": 1419648,
+          "uncached_input_tokens": 492604,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3014,
+          "reasoning_output_tokens": 1234,
+          "total_tokens": 1915266,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:41.253Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
+          "as_of_utc": "2026-10-21T13:38:32.0000000+00:00",
+          "input_tokens": 25077917,
+          "cached_input_tokens": 24647552,
+          "uncached_input_tokens": 430365,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 67011,
+          "reasoning_output_tokens": 20530,
+          "total_tokens": 25144928,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 174,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 175,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:38:32.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 26990169,
+            "cached_input_tokens": 26067200,
+            "uncached_input_tokens": 922969,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 70025,
+            "reasoning_output_tokens": 21764,
+            "total_tokens": 27060194
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 26990169,
+          "cached_input_tokens": 26067200,
+          "uncached_input_tokens": 922969,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 70025,
+          "reasoning_output_tokens": 21764,
+          "total_tokens": 27060194,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     },
     {
       "threadId": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
       "hostId": "local",
       "effort": "high",
       "dispatched_at_utc": "2026-10-21T12:11:42Z",
-      "status": "committed",
-      "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:8",
+      "status": "texture_pass_dispatched",
+      "cursor": "42e9db13-fc26-4724-9d90-5f32c28e9a95:9",
       "initial_turn_started_at_utc": "2026-10-21T12:11:46.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:54Z",
       "asset_root": "ForestDemo/Content/Forest/high/",
@@ -73,29 +358,567 @@
         ]
       },
       "token_usage_frozen_at_utc": "2026-10-21T13:10:33.5549951+00:00",
-      "validation_summary": "46 delivered files hash-match scratch and manifest; own recursive packages only; non-WP; 100m footprint; four actual PNGs inspected; PIE possession, ground collision, movement input 2324.7596cm and native Hello automation passed. Nonfatal viewport realtime override ensure and DefaultPawn-only navigation documented."
+      "validation_summary": "46 delivered files hash-match scratch and manifest; own recursive packages only; non-WP; 100m footprint; four actual PNGs inspected; PIE possession, ground collision, movement input 2324.7596cm and native Hello automation passed. Nonfatal viewport realtime override ensure and DefaultPawn-only navigation documented.",
+      "first_delivery_archive": "ForestDemo/Work/high/FirstDelivery",
+      "texture_pass": {
+        "status": "dispatched",
+        "dispatched_at_utc": "2026-10-21T13:42:07Z",
+        "starting_parent_token_usage": {
+          "theme": "Forest",
+          "effort": "high",
+          "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
+          "input_tokens": 17097083,
+          "cached_input_tokens": 16901632,
+          "uncached_input_tokens": 195451,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 64746,
+          "reasoning_output_tokens": 23486,
+          "total_tokens": 17161829,
+          "token_events_observed": 131,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
+          ]
+        },
+        "work_root": "ForestDemo/Work/high/TexturePass",
+        "token_usage_at_dispatch": {
+          "parent_total_tokens": 17161829,
+          "parent_usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
+          "descendant_usage": {
+            "member_count": 1,
+            "known_subtotal": {
+              "input_tokens": 820250,
+              "cached_input_tokens": 728960,
+              "uncached_input_tokens": 91290,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1696,
+              "reasoning_output_tokens": 686,
+              "total_tokens": 821946
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 820250,
+            "cached_input_tokens": 728960,
+            "uncached_input_tokens": 91290,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1696,
+            "reasoning_output_tokens": 686,
+            "total_tokens": 821946,
+            "total_tokens_complete": true
+          },
+          "descendants": [
+            {
+              "thread_id": "01a15e64-833c-74d0-b7ef-a7c4da544f47",
+              "parent_thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:16:48.064Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T12:49:09.761Z",
+              "as_of_utc": "2026-10-21T13:42:07.0000000+00:00",
+              "input_tokens": 820250,
+              "cached_input_tokens": 728960,
+              "uncached_input_tokens": 91290,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1696,
+              "reasoning_output_tokens": 686,
+              "total_tokens": 821946,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "first_total_equals_first_last_usage": true,
+                "changed_events": 15,
+                "verified": true,
+                "delta_mismatches": 0,
+                "counter_decreases": 0,
+                "predating_events": 0
+              },
+              "token_events_observed": 16,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-16-48-01a15e64-833c-74d0-b7ef-a7c4da544f47.jsonl"
+              ]
+            }
+          ],
+          "method": "Last recorded snapshots at or before dispatch; later second-pass delta uses this baseline.",
+          "as_of_utc": "2026-10-21T13:42:07Z",
+          "combined_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 17917333,
+              "cached_input_tokens": 17630592,
+              "uncached_input_tokens": 286741,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 66442,
+              "reasoning_output_tokens": 24172,
+              "total_tokens": 17983775
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 17917333,
+            "cached_input_tokens": 17630592,
+            "uncached_input_tokens": 286741,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 66442,
+            "reasoning_output_tokens": 24172,
+            "total_tokens": 17983775,
+            "total_tokens_complete": true
+          }
+        }
+      },
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e64-833c-74d0-b7ef-a7c4da544f47",
+            "parent_thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:16:48.064Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T12:49:09.761Z",
+            "as_of_utc": "2026-10-21T13:09:52.0000000+00:00",
+            "input_tokens": 820250,
+            "cached_input_tokens": 728960,
+            "uncached_input_tokens": 91290,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1696,
+            "reasoning_output_tokens": 686,
+            "total_tokens": 821946,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 15,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 16,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-16-48-01a15e64-833c-74d0-b7ef-a7c4da544f47.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 820250,
+            "cached_input_tokens": 728960,
+            "uncached_input_tokens": 91290,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1696,
+            "reasoning_output_tokens": 686,
+            "total_tokens": 821946
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 820250,
+          "cached_input_tokens": 728960,
+          "uncached_input_tokens": 91290,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1696,
+          "reasoning_output_tokens": 686,
+          "total_tokens": 821946,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:45.339Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
+          "as_of_utc": "2026-10-21T13:09:52.0000000+00:00",
+          "input_tokens": 17097083,
+          "cached_input_tokens": 16901632,
+          "uncached_input_tokens": 195451,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 64746,
+          "reasoning_output_tokens": 23486,
+          "total_tokens": 17161829,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 130,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 131,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:09:52.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 17917333,
+            "cached_input_tokens": 17630592,
+            "uncached_input_tokens": 286741,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 66442,
+            "reasoning_output_tokens": 24172,
+            "total_tokens": 17983775
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 17917333,
+          "cached_input_tokens": 17630592,
+          "uncached_input_tokens": 286741,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 66442,
+          "reasoning_output_tokens": 24172,
+          "total_tokens": 17983775,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     },
     {
       "threadId": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
       "hostId": "local",
       "effort": "xhigh",
       "dispatched_at_utc": "2026-10-21T12:11:46Z",
-      "status": "working",
-      "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:7",
+      "status": "texture_pass_dispatched",
+      "cursor": "4d656a9e-4e43-4cc3-b8ab-edb7bd78ec9f:8",
       "initial_turn_started_at_utc": "2026-10-21T12:11:49.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:11:57.0000000+00:00",
       "asset_root": "ForestDemo/Content/Forest/xhigh/",
       "theme": "Forest",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
-      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings."
+      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings.",
+      "first_commit_hash": "5f672388374512b263f0871c05a2f6da33d9a15c",
+      "first_commit_at_utc": "2026-10-21T13:38:13Z",
+      "first_commit_at_kst": "2026-10-21T22:38:13.0000000+09:00",
+      "accepted_ready_at_utc": "2026-10-21T13:23:13.500449Z",
+      "total_wall_to_accepted_ready_seconds": 4276.500449,
+      "dispatch_to_accepted_ready_seconds": 4287.500449,
+      "first_ready_at_utc": "2026-10-21T13:23:13.500449Z",
+      "first_ready_elapsed_seconds": 4276.500449,
+      "first_dispatch_to_ready_seconds": 4287.500449,
+      "recorded_mutex_wait_seconds": 1861.5113022,
+      "recorded_ue_execution_seconds": 558.6915518,
+      "token_usage_at_first_delivery": {
+        "theme": "Forest",
+        "effort": "xhigh",
+        "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "xhigh"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
+        "input_tokens": 18206555,
+        "cached_input_tokens": 17965056,
+        "uncached_input_tokens": 241499,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 98848,
+        "reasoning_output_tokens": 40525,
+        "total_tokens": 18305403,
+        "token_events_observed": 130,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:39:36.9947859+00:00",
+      "validation_summary": "51 published/scratch package hashes and four PNGs match. Complete owned recursive deps; 100m, non-WP; rotation checks pass. PIE possession/100cm swept move/ground trace and downward block, native Hello automation and normal exit. Final water producing-process reload/render passed; fresh exact-final reload remains at integration. Nonfatal viewport ensure documented.",
+      "first_delivery_archive": "ForestDemo/Work/xhigh/FirstDelivery",
+      "texture_pass": {
+        "status": "dispatched",
+        "dispatched_at_utc": "2026-10-21T13:42:10Z",
+        "starting_parent_token_usage": {
+          "theme": "Forest",
+          "effort": "xhigh",
+          "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
+          "input_tokens": 18206555,
+          "cached_input_tokens": 17965056,
+          "uncached_input_tokens": 241499,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 98848,
+          "reasoning_output_tokens": 40525,
+          "total_tokens": 18305403,
+          "token_events_observed": 130,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
+          ]
+        },
+        "work_root": "ForestDemo/Work/xhigh/TexturePass",
+        "token_usage_at_dispatch": {
+          "parent_total_tokens": 18305403,
+          "parent_usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
+          "descendant_usage": {
+            "member_count": 1,
+            "known_subtotal": {
+              "input_tokens": 1303626,
+              "cached_input_tokens": 823040,
+              "uncached_input_tokens": 480586,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2130,
+              "reasoning_output_tokens": 797,
+              "total_tokens": 1305756
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1303626,
+            "cached_input_tokens": 823040,
+            "uncached_input_tokens": 480586,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2130,
+            "reasoning_output_tokens": 797,
+            "total_tokens": 1305756,
+            "total_tokens_complete": true
+          },
+          "descendants": [
+            {
+              "thread_id": "01a15e64-2d4c-7e23-9466-529457503bcb",
+              "parent_thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:16:26.007Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:18:38.868Z",
+              "as_of_utc": "2026-10-21T13:42:10.0000000+00:00",
+              "input_tokens": 1303626,
+              "cached_input_tokens": 823040,
+              "uncached_input_tokens": 480586,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2130,
+              "reasoning_output_tokens": 797,
+              "total_tokens": 1305756,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "first_total_equals_first_last_usage": true,
+                "changed_events": 19,
+                "verified": true,
+                "delta_mismatches": 0,
+                "counter_decreases": 0,
+                "predating_events": 0
+              },
+              "token_events_observed": 20,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-16-26-01a15e64-2d4c-7e23-9466-529457503bcb.jsonl"
+              ]
+            }
+          ],
+          "method": "Last recorded snapshots at or before dispatch; later second-pass delta uses this baseline.",
+          "as_of_utc": "2026-10-21T13:42:10Z",
+          "combined_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 19510181,
+              "cached_input_tokens": 18788096,
+              "uncached_input_tokens": 722085,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 100978,
+              "reasoning_output_tokens": 41322,
+              "total_tokens": 19611159
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 19510181,
+            "cached_input_tokens": 18788096,
+            "uncached_input_tokens": 722085,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 100978,
+            "reasoning_output_tokens": 41322,
+            "total_tokens": 19611159,
+            "total_tokens_complete": true
+          }
+        }
+      },
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e64-2d4c-7e23-9466-529457503bcb",
+            "parent_thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:16:26.007Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:18:38.868Z",
+            "as_of_utc": "2026-10-21T13:38:13.0000000+00:00",
+            "input_tokens": 1303626,
+            "cached_input_tokens": 823040,
+            "uncached_input_tokens": 480586,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2130,
+            "reasoning_output_tokens": 797,
+            "total_tokens": 1305756,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 19,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 20,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-16-26-01a15e64-2d4c-7e23-9466-529457503bcb.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1303626,
+            "cached_input_tokens": 823040,
+            "uncached_input_tokens": 480586,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2130,
+            "reasoning_output_tokens": 797,
+            "total_tokens": 1305756
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1303626,
+          "cached_input_tokens": 823040,
+          "uncached_input_tokens": 480586,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2130,
+          "reasoning_output_tokens": 797,
+          "total_tokens": 1305756,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:48.558Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
+          "as_of_utc": "2026-10-21T13:38:13.0000000+00:00",
+          "input_tokens": 18206555,
+          "cached_input_tokens": 17965056,
+          "uncached_input_tokens": 241499,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 98848,
+          "reasoning_output_tokens": 40525,
+          "total_tokens": 18305403,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 128,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 130,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:38:13.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 19510181,
+            "cached_input_tokens": 18788096,
+            "uncached_input_tokens": 722085,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 100978,
+            "reasoning_output_tokens": 41322,
+            "total_tokens": 19611159
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 19510181,
+          "cached_input_tokens": 18788096,
+          "uncached_input_tokens": 722085,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100978,
+          "reasoning_output_tokens": 41322,
+          "total_tokens": 19611159,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     },
     {
       "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
       "hostId": "local",
       "effort": "ultra",
       "dispatched_at_utc": "2026-10-21T12:11:49Z",
-      "status": "committed",
-      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:7",
+      "status": "texture_pass_dispatched",
+      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:9",
       "initial_turn_started_at_utc": "2026-10-21T12:11:52.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:12:01Z",
       "asset_root": "ForestDemo/Content/Forest/ultra/",
@@ -141,7 +964,257 @@
         ]
       },
       "token_usage_frozen_at_utc": "2026-10-21T13:12:54.7320007+00:00",
-      "validation_summary": "53 delivered files hash-match scratch/publication; own recursive dependencies only; 100m; non-WP; four actual PNGs inspected. PIE possession, 200cm direct pawn sweep, downward ground block and prop traces passed. Final water material was reloaded/rendered in production process; a new-process final-package reload remains required at integration. Bright overview water documented."
+      "validation_summary": "53 delivered files hash-match scratch/publication; own recursive dependencies only; 100m; non-WP; four actual PNGs inspected. PIE possession, 200cm direct pawn sweep, downward ground block and prop traces passed. Final water material was reloaded/rendered in production process; a new-process final-package reload remains required at integration. Bright overview water documented.",
+      "first_delivery_archive": "ForestDemo/Work/ultra/FirstDelivery",
+      "texture_pass": {
+        "status": "dispatched",
+        "dispatched_at_utc": "2026-10-21T13:42:13Z",
+        "starting_parent_token_usage": {
+          "theme": "Forest",
+          "effort": "ultra",
+          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+          "input_tokens": 13293778,
+          "cached_input_tokens": 13070080,
+          "uncached_input_tokens": 223698,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 83318,
+          "reasoning_output_tokens": 34128,
+          "total_tokens": 13377096,
+          "token_events_observed": 95,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+          ]
+        },
+        "work_root": "ForestDemo/Work/ultra/TexturePass",
+        "token_usage_at_dispatch": {
+          "parent_total_tokens": 13377096,
+          "parent_usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+          "descendant_usage": {
+            "member_count": 1,
+            "known_subtotal": {
+              "input_tokens": 892388,
+              "cached_input_tokens": 781568,
+              "uncached_input_tokens": 110820,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1785,
+              "reasoning_output_tokens": 809,
+              "total_tokens": 894173
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 892388,
+            "cached_input_tokens": 781568,
+            "uncached_input_tokens": 110820,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1785,
+            "reasoning_output_tokens": 809,
+            "total_tokens": 894173,
+            "total_tokens_complete": true
+          },
+          "descendants": [
+            {
+              "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
+              "parent_thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:17:32.497Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:01:36.132Z",
+              "as_of_utc": "2026-10-21T13:42:13.0000000+00:00",
+              "input_tokens": 892388,
+              "cached_input_tokens": 781568,
+              "uncached_input_tokens": 110820,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1785,
+              "reasoning_output_tokens": 809,
+              "total_tokens": 894173,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "first_total_equals_first_last_usage": true,
+                "changed_events": 14,
+                "verified": true,
+                "delta_mismatches": 0,
+                "counter_decreases": 0,
+                "predating_events": 0
+              },
+              "token_events_observed": 15,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-17-32-01a15e65-30e8-75b0-a740-783f8b4e90b0.jsonl"
+              ]
+            }
+          ],
+          "method": "Last recorded snapshots at or before dispatch; later second-pass delta uses this baseline.",
+          "as_of_utc": "2026-10-21T13:42:13Z",
+          "combined_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 14186166,
+              "cached_input_tokens": 13851648,
+              "uncached_input_tokens": 334518,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 85103,
+              "reasoning_output_tokens": 34937,
+              "total_tokens": 14271269
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 14186166,
+            "cached_input_tokens": 13851648,
+            "uncached_input_tokens": 334518,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 85103,
+            "reasoning_output_tokens": 34937,
+            "total_tokens": 14271269,
+            "total_tokens_complete": true
+          }
+        }
+      },
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
+            "parent_thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:17:32.497Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:01:36.132Z",
+            "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
+            "input_tokens": 892388,
+            "cached_input_tokens": 781568,
+            "uncached_input_tokens": 110820,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1785,
+            "reasoning_output_tokens": 809,
+            "total_tokens": 894173,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 14,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 15,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-17-32-01a15e65-30e8-75b0-a740-783f8b4e90b0.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 892388,
+            "cached_input_tokens": 781568,
+            "uncached_input_tokens": 110820,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1785,
+            "reasoning_output_tokens": 809,
+            "total_tokens": 894173
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 892388,
+          "cached_input_tokens": 781568,
+          "uncached_input_tokens": 110820,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1785,
+          "reasoning_output_tokens": 809,
+          "total_tokens": 894173,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:52.020Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+          "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
+          "input_tokens": 13293778,
+          "cached_input_tokens": 13070080,
+          "uncached_input_tokens": 223698,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 83318,
+          "reasoning_output_tokens": 34128,
+          "total_tokens": 13377096,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 94,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 95,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:10:53.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 14186166,
+            "cached_input_tokens": 13851648,
+            "uncached_input_tokens": 334518,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 85103,
+            "reasoning_output_tokens": 34937,
+            "total_tokens": 14271269
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 14186166,
+          "cached_input_tokens": 13851648,
+          "uncached_input_tokens": 334518,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 85103,
+          "reasoning_output_tokens": 34937,
+          "total_tokens": 14271269,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     }
   ],
   "completion_policy": "Supervisor validates and commits each (theme, effort) separately. Workers never stage or commit. Retire only baseline main after all eight approved; preserve four Forest plus four MountainStation maps.",
@@ -159,12 +1232,12 @@
       "theme": "MountainStation",
       "effort": "medium",
       "dispatched_at_utc": "2026-10-21T12:26:57Z",
-      "status": "supervisor_rework",
+      "status": "committed",
       "asset_root": "ForestDemo/Content/MountainStation/medium/",
       "map": "/Game/Maps/MountainStation_medium",
       "work_root": "ForestDemo/Work/MountainStation/medium/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/medium/",
-      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:7",
+      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:9",
       "initial_turn_started_at_utc": "2026-10-21T12:27:03.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:10Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -173,7 +1246,169 @@
       "first_ready_at_utc": "2026-10-21T13:05:26.4557133Z",
       "first_ready_elapsed_seconds": 2296.4557133,
       "first_dispatch_to_ready_seconds": 2309.4557133,
-      "movement_supplement_started_at_utc": "2026-10-21T13:15:03Z"
+      "movement_supplement_started_at_utc": "2026-10-21T13:15:03Z",
+      "first_commit_hash": "101cec4011d9e3ccdf2a1b686b1ad0bec7c3749b",
+      "first_commit_at_utc": "2026-10-21T13:38:35Z",
+      "first_commit_at_kst": "2026-10-21T22:38:35.0000000+09:00",
+      "accepted_ready_at_utc": "2026-10-21T13:27:54.3894996Z",
+      "total_wall_to_accepted_ready_seconds": 3644.3894996,
+      "dispatch_to_accepted_ready_seconds": 3657.3894996,
+      "token_usage_at_first_delivery": {
+        "theme": "MountainStation",
+        "effort": "medium",
+        "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "medium"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+        "input_tokens": 16559272,
+        "cached_input_tokens": 16162304,
+        "uncached_input_tokens": 396968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 60048,
+        "reasoning_output_tokens": 17080,
+        "total_tokens": 16619320,
+        "token_events_observed": 132,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:39:36.9953251+00:00",
+      "validation_summary": "22 published/scratch/manifest package hashes match; recursive owned only, 100m, non-WP. Fresh-process persisted backdrop NoCollision, actual possessed Pawn moves 200cm and terrain/ramp/platform sweeps block;17 runtime checks pass. Four original actual renders inspected, retained with explicit collision-only map correction provenance.",
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
+            "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:33:15.604Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:23:27.449Z",
+            "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+            "input_tokens": 444128,
+            "cached_input_tokens": 49152,
+            "uncached_input_tokens": 394976,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1047,
+            "reasoning_output_tokens": 511,
+            "total_tokens": 445175,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 7,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 8,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-33-15-01a15e73-94ef-7410-bbc4-33095be67fb7.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 444128,
+            "cached_input_tokens": 49152,
+            "uncached_input_tokens": 394976,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1047,
+            "reasoning_output_tokens": 511,
+            "total_tokens": 445175
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 444128,
+          "cached_input_tokens": 49152,
+          "uncached_input_tokens": 394976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1047,
+          "reasoning_output_tokens": 511,
+          "total_tokens": 445175,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+          "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+          "input_tokens": 16559272,
+          "cached_input_tokens": 16162304,
+          "uncached_input_tokens": 396968,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 60048,
+          "reasoning_output_tokens": 17080,
+          "total_tokens": 16619320,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 130,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 132,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 17003400,
+            "cached_input_tokens": 16211456,
+            "uncached_input_tokens": 791944,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61095,
+            "reasoning_output_tokens": 17591,
+            "total_tokens": 17064495
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 17003400,
+          "cached_input_tokens": 16211456,
+          "uncached_input_tokens": 791944,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61095,
+          "reasoning_output_tokens": 17591,
+          "total_tokens": 17064495,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     },
     {
       "threadId": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
@@ -225,7 +1460,136 @@
         ]
       },
       "token_usage_frozen_at_utc": "2026-10-21T13:17:48.4853579+00:00",
-      "validation_summary": "36 final packages SHA-256 match scratch/publication, recursive own package refs, 100m terrain/non-WP, persisted NoCollision backdrop on reload. Actual PIE possession, three ground/ramp/platform blocking pawn sweeps, 300cm platform movement and normal exit. Four actual common-view PNGs inspected. Exterior station, short standalone rock tunnel and indirect Hello evidence documented."
+      "validation_summary": "36 final packages SHA-256 match scratch/publication, recursive own package refs, 100m terrain/non-WP, persisted NoCollision backdrop on reload. Actual PIE possession, three ground/ramp/platform blocking pawn sweeps, 300cm platform movement and normal exit. Four actual common-view PNGs inspected. Exterior station, short standalone rock tunnel and indirect Hello evidence documented.",
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
+            "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:38:54.963Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:07:22.348Z",
+            "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+            "input_tokens": 293129,
+            "cached_input_tokens": 187136,
+            "uncached_input_tokens": 105993,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 737,
+            "reasoning_output_tokens": 365,
+            "total_tokens": 293866,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 5,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 6,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-38-54-01a15e78-c278-7033-b2e6-f6edc6718c84.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 293129,
+            "cached_input_tokens": 187136,
+            "uncached_input_tokens": 105993,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 737,
+            "reasoning_output_tokens": 365,
+            "total_tokens": 293866
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 293129,
+          "cached_input_tokens": 187136,
+          "uncached_input_tokens": 105993,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 737,
+          "reasoning_output_tokens": 365,
+          "total_tokens": 293866,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+          "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+          "input_tokens": 10670356,
+          "cached_input_tokens": 10494336,
+          "uncached_input_tokens": 176020,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61023,
+          "reasoning_output_tokens": 18831,
+          "total_tokens": 10731379,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 95,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 96,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 10963485,
+            "cached_input_tokens": 10681472,
+            "uncached_input_tokens": 282013,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61760,
+            "reasoning_output_tokens": 19196,
+            "total_tokens": 11025245
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 10963485,
+          "cached_input_tokens": 10681472,
+          "uncached_input_tokens": 282013,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61760,
+          "reasoning_output_tokens": 19196,
+          "total_tokens": 11025245,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     },
     {
       "threadId": "01a15e6e-0712-76f0-9586-f65cc202196c",
@@ -233,7 +1597,7 @@
       "theme": "MountainStation",
       "effort": "xhigh",
       "dispatched_at_utc": "2026-10-21T12:27:08Z",
-      "status": "working",
+      "status": "committed",
       "asset_root": "ForestDemo/Content/MountainStation/xhigh/",
       "map": "/Game/Maps/MountainStation_xhigh",
       "work_root": "ForestDemo/Work/MountainStation/xhigh/",
@@ -243,7 +1607,174 @@
       "worker_started_at_utc": "2026-10-21T12:27:24Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
       "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings.",
-      "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z"
+      "common_engine_api_correction_sent_at_utc": "2026-10-21T12:50:03Z",
+      "first_commit_hash": "0091a212fddbc3dca645817ca7f74545d2d0b6b6",
+      "first_commit_at_utc": "2026-10-21T13:46:25.0000000+00:00",
+      "first_commit_at_kst": "2026-10-21T22:46:25+09:00",
+      "first_ready_at_utc": "2026-10-21T13:31:46.334766Z",
+      "accepted_ready_at_utc": "2026-10-21T13:31:46.334766Z",
+      "first_ready_elapsed_seconds": 3862.334766,
+      "total_wall_to_accepted_ready_seconds": 3862.334766,
+      "first_dispatch_to_ready_seconds": 3878.334766,
+      "dispatch_to_accepted_ready_seconds": 3878.334766,
+      "recorded_mutex_wait_seconds": 1551.5888974,
+      "recorded_ue_execution_seconds": 457.1660978,
+      "token_usage_at_first_delivery": {
+        "theme": "MountainStation",
+        "effort": "xhigh",
+        "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+        "observed_models": [
+          "gpt-6-astra"
+        ],
+        "observed_efforts": [
+          "xhigh"
+        ],
+        "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
+        "input_tokens": 13796198,
+        "cached_input_tokens": 13517056,
+        "uncached_input_tokens": 279142,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 88660,
+        "reasoning_output_tokens": 34407,
+        "total_tokens": 13884858,
+        "token_events_observed": 107,
+        "incomplete_metadata_lines": 0,
+        "issues": [],
+        "source_files": [
+          "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+        ]
+      },
+      "token_usage_frozen_at_utc": "2026-10-21T13:47:24.0296557+00:00",
+      "validation_summary": "37 package hashes match scratch/publication/manifest; complete recursive ownership and52 material slots. 100m terrain, non-WP/noexternal. Actual PIE possession/100cm movement and three actual Pawn floor sweeps/normalexit; Hello image. Four1920x1080 common camera native UE renders inspected. Equal directional priority warning and rail ends extending terrain documented.",
+      "token_usage_with_agents_at_first_delivery": {
+        "descendants": [
+          {
+            "thread_id": "01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2",
+            "parent_thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+            "thread_source": "guardian_review",
+            "accounting_category": "automatic_approval_review",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:34:55.302Z",
+            "observed_models": [
+              "codex-auto-review"
+            ],
+            "observed_efforts": [
+              "low"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:23:26.149Z",
+            "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
+            "input_tokens": 1001257,
+            "cached_input_tokens": 906880,
+            "uncached_input_tokens": 94377,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1954,
+            "reasoning_output_tokens": 958,
+            "total_tokens": 1003211,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 16,
+              "verified": true,
+              "delta_mismatches": 0,
+              "counter_decreases": 0,
+              "predating_events": 0
+            },
+            "token_events_observed": 17,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-34-55-01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2.jsonl"
+            ]
+          }
+        ],
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1001257,
+            "cached_input_tokens": 906880,
+            "uncached_input_tokens": 94377,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1954,
+            "reasoning_output_tokens": 958,
+            "total_tokens": 1003211
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1001257,
+          "cached_input_tokens": 906880,
+          "uncached_input_tokens": 94377,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1954,
+          "reasoning_output_tokens": 958,
+          "total_tokens": 1003211,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:11.645Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
+          "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
+          "input_tokens": 13796198,
+          "cached_input_tokens": 13517056,
+          "uncached_input_tokens": 279142,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 88660,
+          "reasoning_output_tokens": 34407,
+          "total_tokens": 13884858,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "changed_events": 105,
+            "verified": true,
+            "delta_mismatches": 0,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 107,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+          ]
+        },
+        "cutoff_utc": "2026-10-21T13:46:25.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 14797455,
+            "cached_input_tokens": 14423936,
+            "uncached_input_tokens": 373519,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 90614,
+            "reasoning_output_tokens": 35365,
+            "total_tokens": 14888069
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 14797455,
+          "cached_input_tokens": 14423936,
+          "uncached_input_tokens": 373519,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 90614,
+          "reasoning_output_tokens": 35365,
+          "total_tokens": 14888069,
+          "total_tokens_complete": true
+        }
+      },
+      "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     },
     {
       "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
@@ -251,7 +1782,7 @@
       "theme": "MountainStation",
       "effort": "ultra",
       "dispatched_at_utc": "2026-10-21T12:27:13Z",
-      "status": "working",
+      "status": "supervisor_rework",
       "asset_root": "ForestDemo/Content/MountainStation/ultra/",
       "map": "/Game/Maps/MountainStation_ultra",
       "work_root": "ForestDemo/Work/MountainStation/ultra/",
@@ -260,15 +1791,21 @@
       "initial_turn_started_at_utc": "2026-10-21T12:27:17.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:25.0000000+00:00",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
-      "supervisor_required_followup": "Actual PIE/Game world start; controller and possessed pawn; runtime collision/movement or sweep; BeginPlay and orderly exit. Preserve original start and separate supplement timings."
+      "supervisor_required_followup": "Platform direct Pawn sweep reports no hit and zero movement; cannot distinguish overlap from valid platform block. Read-only fresh-process nonoverlap blocking actor/mesh + actual nonzero travel-to-block evidence required; preserve initial packages/screenshots and first ready. Also Terrain section_collision=[true,false] with MeadowLight slot1 faces: verify all sections and actual Pawn sweep over identified slot1 triangle; correct owned collision only if needed and record changed package hashes.",
+      "first_ready_at_utc": "2026-10-21T13:44:03.774679Z",
+      "first_ready_elapsed_seconds": 4598.774679,
+      "first_dispatch_to_ready_seconds": 4610.774679,
+      "platform_sweep_supplement_requested_at_utc": "2026-10-21T13:51:33.7972741+00:00"
     }
   ],
   "forest_texture_pass": {
     "completed_initial_efforts": [
+      "medium",
       "high",
+      "xhigh",
       "ultra"
     ],
-    "status": "waiting_for_four_first_delivery_commits",
+    "status": "dispatched",
     "requirements": [
       "UV islands on placed prop surfaces with consistent measured texel density, padding and overlap checks",
       "Image-generated unique-surface textures, prompts, original outputs and mapping recorded per effort",
@@ -278,8 +1815,48 @@
       "Separate second-pass start/finish/wall, generation and UE wait/run time; token delta; actual common-view before/after screenshots and timed water evidence"
     ],
     "dispatch_policy": "Resume the same four Forest chats with original model/effort, once; supervisor owns all Git.",
-    "dispatched_efforts": [],
+    "dispatched_efforts": [
+      "medium",
+      "high",
+      "xhigh",
+      "ultra"
+    ],
     "prerequisite": "All four Forest first deliveries verified and individually committed; MountainStation completion is independent.",
     "user_authorized_at_observed_utc": "2026-10-21T13:12:54.7361746+00:00"
+  },
+  "mountain_station_texture_pass": {
+    "status": "waiting_for_four_first_delivery_commits",
+    "dispatched_efforts": [],
+    "requirements": [
+      "UV islands on station architecture, rails, sleepers, platform, tunnel, trees and props with consistent measured texel density; area/scale/padding/overlap checks",
+      "Independent imagegen textures on unique surfaces, original outputs/prompts/mapping in own Work; no cross-theme/effort reuse",
+      "Preserve FirstDelivery evidence, first timings/commit/tokens before dispatch",
+      "Separate second-pass time/imagegen/UE waiting and execution/token delta; actual same-camera before/after renders"
+    ],
+    "dispatch_policy": "Resume same four chats with original efforts; supervisor alone Git. No beach requirement for this theme.",
+    "prerequisite": "All four MountainStation first deliveries verified and individually committed; Forest completion independent.",
+    "user_authorized_at_observed_utc": "2026-10-21T13:39:36.9963517+00:00",
+    "completed_initial_efforts": [
+      "medium",
+      "high",
+      "xhigh"
+    ]
+  },
+  "ue_priority": {
+    "legacy_waiter_limit": "Already loaded old runners cannot be reordered; do not kill active engine or launcher.",
+    "status": "active_validated",
+    "policy": "Forest before MountainStation among waiting new registrations, FIFO within each priority; no preemption",
+    "runner": "ForestDemo/Work/Tools/Run-UnrealIsolated.ps1",
+    "root_test_evidence": "ForestDemo/Saved/Coordination/Test-a360a051996742ff8ef7ab97fb3174a4",
+    "station_registration_hold_released": true
+  },
+  "token_accounting_extension": {
+    "preserve_existing_frozen_parent_snapshots": true,
+    "amount_policy": "Token counts only; no invented billing amount",
+    "requested_scope": "Per owned chat + verified recursive child agents; supervisor helper tree separate from 8 production trees",
+    "status": "active_validated",
+    "schema_version": 2,
+    "last_snapshot_utc": "2026-10-21T13:48:56.2328313+00:00",
+    "coverage": "Owned nine parent chats plus ancestry-verified unique descendants; production guardian reviews and supervisor delegated/review descendants separated; no external imagegen/CLI counters"
   }
 }

@@ -1,0 +1,109 @@
+{
+  "map": "/Game/Maps/xhigh",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z0_cm": 350.38687275608095,
+  "ground_reference_definition": "terrain height at site center (0,0)",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scalability": "High (sg.* = 2)",
+  "screen_percentage": 100,
+  "capture_method": "UE SceneCapture2D FinalColorLDR, RGBA8 render target, target gamma 2.2; no UI and no image manipulation",
+  "warmup_seconds": {
+    "first_view": 45,
+    "subsequent_views": 10,
+    "post_capture_export_delay": 3
+  },
+  "note": "Lake and beach have different scene-specific viewpoints; framing equivalence is limited.",
+  "started_at_utc": "2026-10-21T13:20:09.223396+00:00",
+  "views": [
+    {
+      "name": "overview",
+      "position_cm": [
+        12000,
+        -12000,
+        16350.38687275608
+      ],
+      "target_cm": [
+        0,
+        0,
+        350.38687275608095
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_deg": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "captured_at_utc": "2026-10-21T13:20:57.410197+00:00"
+    },
+    {
+      "name": "top_down",
+      "position_cm": [
+        0,
+        0,
+        20350.38687275608
+      ],
+      "rotation_deg": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "captured_at_utc": "2026-10-21T13:21:10.618559+00:00"
+    },
+    {
+      "name": "lake",
+      "position_cm": [
+        -170,
+        730,
+        521.9987540353704
+      ],
+      "target_cm": [
+        -2100,
+        1800,
+        260
+      ],
+      "projection": "perspective",
+      "horizontal_fov_deg": 70,
+      "ground_z_cm": 351.99875403537044,
+      "eye_height_cm": 170,
+      "rotation_deg": [
+        -6.770770423145075,
+        150.99583231352293,
+        1.3790093100953195e-07
+      ],
+      "captured_at_utc": "2026-10-21T13:21:23.823528+00:00"
+    },
+    {
+      "name": "beach",
+      "position_cm": [
+        900,
+        -1710,
+        305.9459928840306
+      ],
+      "target_cm": [
+        -2700,
+        -2520,
+        100
+      ],
+      "projection": "perspective",
+      "horizontal_fov_deg": 70,
+      "ground_z_cm": 135.94599288403057,
+      "eye_height_cm": 170,
+      "rotation_deg": [
+        -3.1944734417547895,
+        -167.3196165081802,
+        -7.222649516997333e-08
+      ],
+      "captured_at_utc": "2026-10-21T13:21:37.018395+00:00"
+    }
+  ],
+  "finished_at_utc": "2026-10-21T13:21:37.018395+00:00"
+}

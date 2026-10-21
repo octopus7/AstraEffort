@@ -1,0 +1,10 @@
+{
+  "supplement_started_at_utc": "2026-10-21T12:41:24+00:00",
+  "runtime_script_started_at_utc": "2026-10-21T12:47:52.193317+00:00",
+  "map": "/Game/Maps/high",
+  "map_modified": false,
+  "checks": {},
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/high/runtime_validate.py\", line 23, in tick\n    if not pc or not pc.get_pawn():return\n                     ^^^^^^^^^^^\nAttributeError: 'PlayerController' object has no attribute 'get_pawn'\n",
+  "runtime_script_finished_at_utc": "2026-10-21T12:47:52.349989+00:00"
+}
