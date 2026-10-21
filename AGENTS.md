@@ -134,3 +134,41 @@ The supervisor archives first evidence under Work/MountainStation/EFFORT/FirstDe
 and preserves initial timings/commit/tokens. Record second-pass time/imagegen/UE
 wait/run separately and supply actual same-camera before/after renders.
 Workers still never commit. Both themes' second passes are required for completion.
+
+## Authorized ultra self-improvement after the comparison experiment
+
+The user authorized a later self-improvement pass only for the existing Forest
+ultra and MountainStation ultra chats. Do not begin or dispatch it until ALL
+currently authorized eight-scene work, both themes' texture follow-ups, required
+fixes, individual commits, final eight-map integration/reload/dependency checks,
+and the comparison report with screenshots/timings/tokens are complete and committed.
+Keep the existing model and ultra effort. Medium, high and xhigh receive no
+self-improvement assignments. The supervisor dispatches this phase explicitly;
+this authorization is not a command for workers to start it on their own.
+
+At that boundary, freeze SUPERVISION.md, its referenced evidence/images and the
+comparison token snapshot. Record their commit and hashes in coordination.json.
+Do not add self-improvement plans, results, timings, tokens or progress to
+SUPERVISION.md, and never overwrite its FirstDelivery/TexturePass evidence.
+After the freeze, invoke Update-TokenUsage.ps1 only with -NoWrite and route any
+new snapshots to the separate self-improvement reporting area. Do not rewrite
+the original token_usage.json. The current comparison report is still completed
+normally before the freeze.
+
+The supervisor's separate report is ForestDemo/Work/ULTRA_IMPROVEMENT.md, with
+one section per theme. Each ultra worker puts all new logs, source scripts,
+images, STATUS.json and RESULT.md under its existing owned Work/SelfImprovement
+directory. Keep the same owned Content root, map and private scratch scope;
+do not inspect another theme/effort's creative resources. Preserve the completed
+comparison baseline before editing ultra assets. Use new before/after captures
+and record self-review findings, chosen priorities, changes, validation, known
+limits, actual UTC/KST times, UE wait/run, image-generation time and token deltas.
+Retain the required scene contents, 100x100m scope and calm rounded game style.
+
+The two ultra chats perform their own review, implement improvements, validate
+and report for supervisor review; this is a finite follow-up, not an endless
+improvement loop. Forest UE priority and non-preemption still apply. The
+supervisor alone validates, commits each theme separately and updates the new
+report. Keep all eight maps. The heartbeat continues through this phase and
+pauses only after both ultra results and the separate report are verified and
+committed; completion of the comparison alone is no longer the stopping point.

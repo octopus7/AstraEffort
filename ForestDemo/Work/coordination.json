@@ -2938,7 +2938,7 @@
       "token_usage_agents_reconstructed_at_utc": "2026-10-21T13:48:56.2328313+00:00"
     }
   ],
-  "completion_policy": "Supervisor validates and commits each (theme, effort) separately. Workers never stage or commit. Retire only baseline main after all eight approved; preserve four Forest plus four MountainStation maps.",
+  "completion_policy": "Supervisor validates and commits each (theme, effort) separately; workers never stage or commit. Complete all current initial/second-pass work and final eight-map integration, retiring only baseline main. Finalize and freeze SUPERVISION comparison/evidence/tokens, then dispatch only the existing two ultra chats for independent self-improvement documented separately. Pause supervision only after both improvements and their separate report are verified and committed.",
   "automation_id": "forestdemo",
   "comparison_report": "ForestDemo/Work/SUPERVISION.md",
   "screenshot_requirement": "overview.png, top_down.png, lake.png, beach.png plus capture_manifest.json under each Work/<effort>/Screenshots; actual UE renders, 1920x1080",
@@ -5399,5 +5399,57 @@
     },
     "medium_historical_field_removed": true,
     "xhigh_utc_notation_verified": true
+  },
+  "ultra_self_improvement": {
+    "status": "waiting_for_all_current_work",
+    "user_authorized_at_observed_utc": "2026-10-21T15:01:04.9688409+00:00",
+    "report": "ForestDemo/Work/ULTRA_IMPROVEMENT.md",
+    "accounting_root": "ForestDemo/Work/UltraImprovementAccounting",
+    "prerequisites": [
+      "All eight initial deliveries and eight second passes verified and individually committed",
+      "All current required corrective work complete",
+      "Final eight-map integration committed and reload/dependency validation complete",
+      "SUPERVISION comparison, actual screenshots, timings and token/descendant accounting finalized and committed",
+      "Comparison report, referenced evidence and token snapshot frozen before dispatch"
+    ],
+    "dispatch_policy": "Once, only to the two existing ultra chats after every prerequisite; keep current model and ultra effort; no new chats or assignments to medium/high/xhigh",
+    "comparison_freeze": {
+      "status": "pending_current_comparison_completion",
+      "report": "ForestDemo/Work/SUPERVISION.md",
+      "token_snapshot": "ForestDemo/Work/token_usage.json",
+      "protect_referenced_images": true,
+      "future_token_collection": "Update-TokenUsage.ps1 -NoWrite; save separate snapshots in UltraImprovementAccounting; never overwrite comparison outputs"
+    },
+    "jobs": [
+      {
+        "theme": "Forest",
+        "effort": "ultra",
+        "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+        "hostId": "local",
+        "status": "pending_dispatch",
+        "work_root": "ForestDemo/Work/ultra/SelfImprovement",
+        "asset_root": "ForestDemo/Content/Forest/ultra",
+        "map": "ForestDemo/Content/Maps/ultra.umap"
+      },
+      {
+        "theme": "MountainStation",
+        "effort": "ultra",
+        "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+        "hostId": "local",
+        "status": "pending_dispatch",
+        "work_root": "ForestDemo/Work/MountainStation/ultra/SelfImprovement",
+        "asset_root": "ForestDemo/Content/MountainStation/ultra",
+        "map": "ForestDemo/Content/Maps/MountainStation_ultra.umap"
+      }
+    ],
+    "requirements": [
+      "Independent self-review, prioritized improvements, actual UE validation and before/after screenshots",
+      "Preserve scene requirements, 100x100m, calm rounded art and strict resource ownership",
+      "Preserve FirstDelivery/TexturePass records and all eight maps",
+      "Separate actual timings, generation/UE wait/run, parent and verified-child token deltas",
+      "Supervisor alone commits per theme and final separate report; no autonomous worker Git",
+      "Finite follow-up; no endless loop"
+    ],
+    "completion_policy": "After both ultra improvements are reviewed and individually committed and ULTRA_IMPROVEMENT.md finalized/committed, report once and pause existing heartbeat"
   }
 }
