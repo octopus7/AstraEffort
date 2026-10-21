@@ -4,12 +4,12 @@ function Invoke-AuthoringQueue {
         [string[]]$EngineArguments,[string]$QueueRoot,[string]$MutexName,[string]$GuardToken,[string]$WorkersRoot,[string]$GuardCommandMarker='')
     $ErrorActionPreference='Stop'
     $projectPath=[IO.Path]::GetFullPath($Project).Replace('\','/')
-    $theme='Unknown';$priority=2
+    $theme='Unknown';$effort=$null;$priority=2
     $workersPrefix=[IO.Path]::GetFullPath($WorkersRoot).Replace('\','/').TrimEnd('/')+'/'
     if($projectPath.StartsWith($workersPrefix,[StringComparison]::OrdinalIgnoreCase)){
         $privatePath=$projectPath.Substring($workersPrefix.Length)
-        if($privatePath -match '^MountainStation/(medium|high|xhigh|ultra)/.+\.uproject$'){$theme='MountainStation';$priority=1}
-        elseif($privatePath -match '^(medium|high|xhigh|ultra)/.+\.uproject$'){$theme='Forest';$priority=0}
+        if($privatePath -match '^MountainStation/(medium|high|xhigh|ultra)/.+\.uproject$'){$theme='MountainStation';$effort=$Matches[1].ToLowerInvariant();$priority=if($effort -eq 'medium'){-1}else{1}}
+        elseif($privatePath -match '^(medium|high|xhigh|ultra)/.+\.uproject$'){$theme='Forest';$effort=$Matches[1].ToLowerInvariant();$priority=0}
     }
     [IO.Directory]::CreateDirectory($QueueRoot)|Out-Null
     foreach($path in @($TimingPath,$LogPath)){[IO.Directory]::CreateDirectory((Split-Path -Parent ([IO.Path]::GetFullPath($path))))|Out-Null}
@@ -36,9 +36,9 @@ function Invoke-AuthoringQueue {
         try {
             $sequence=if(Test-Path -LiteralPath $sequencePath){[long](Get-Content $sequencePath -Raw|ConvertFrom-Json)+1}else{1}
             Write-State $sequencePath $sequence
-            Write-State $ticketPath @{id=$id;owner=$owner;sequence=$sequence;priority=$priority;theme=$theme;project=$projectPath}
+            Write-State $ticketPath @{id=$id;owner=$owner;sequence=$sequence;priority=$priority;theme=$theme;effort=$effort;project=$projectPath}
         }finally{$queueMutex.ReleaseMutex()}
-        Write-Host "Waiting for Unreal slot ($theme; Forest first, FIFO within priority)."
+        Write-Host "Waiting for Unreal slot ($theme/$effort; Station medium first, then Forest, other Station, unknown; FIFO within priority)."
         while(!$process){
             Lock-Queue
             try {
@@ -99,7 +99,7 @@ function Invoke-AuthoringQueue {
             wait_started_at_utc=$waitStarted.ToString('o');run_started_at_utc=$(if($runStarted){$runStarted.ToString('o')}else{$null})
             finished_at_utc=$finished.ToString('o');wait_seconds=$(if($runStarted){($runStarted-$waitStarted).TotalSeconds}else{($finished-$waitStarted).TotalSeconds})
             execution_seconds=$(if($runStarted){($finished-$runStarted).TotalSeconds}else{0});exit_code=$exitCode;project=$Project;log=$LogPath
-            queue_theme=$theme;queue_priority=$priority
+            queue_theme=$theme;queue_effort=$effort;queue_priority=$priority
         }
         [IO.File]::WriteAllText([IO.Path]::GetFullPath($TimingPath),($timing|ConvertTo-Json)+"`n",$encoding)
         Write-Host ($timing|ConvertTo-Json -Compress)

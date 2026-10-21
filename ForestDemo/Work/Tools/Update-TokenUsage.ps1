@@ -3,14 +3,26 @@ param(
     [string]$SupervisorThreadId='01a15e52-9373-7cb3-884e-eda6747350f2',
     [string]$WorkRoot=(Split-Path -Parent $PSScriptRoot),
     [string]$AsOfUtc,
-    [switch]$NoWrite
+    [switch]$NoWrite,
+    [switch]$IgnoreComparisonCutoffs
 )
 $ErrorActionPreference='Stop'
+if($IgnoreComparisonCutoffs -and !$NoWrite){throw '-IgnoreComparisonCutoffs is permitted only with -NoWrite.'}
 $coord=Get-Content (Join-Path $WorkRoot 'coordination.json') -Raw|ConvertFrom-Json -DateKind String
+if(!$NoWrite -and $coord.ultra_self_improvement.comparison_freeze.status -eq 'frozen'){throw 'Comparison accounting is frozen; writing comparison outputs is prohibited.'}
 $jobs=@($coord.efforts)+@($coord.mountain_station_efforts)
 $jobs+=[pscustomobject]@{theme='Supervisor';effort='separate';threadId=$SupervisorThreadId}
 $captured=[DateTimeOffset]::UtcNow
 $cutoff=if($AsOfUtc){[DateTimeOffset]::Parse($AsOfUtc)}else{$captured}
+$comparisonCutoffs=@{}
+if(!$IgnoreComparisonCutoffs){
+    foreach($entry in $coord.comparison_token_cutoffs){
+        $job=@($jobs|Where-Object threadId -eq $entry.threadId)
+        if(!$entry.threadId -or !$entry.as_of_utc -or $job.Count -ne 1 -or $job[0].theme -ne $entry.theme -or $job[0].effort -ne $entry.effort){throw 'Invalid comparison_token_cutoffs identity or missing cutoff.'}
+        if($comparisonCutoffs.ContainsKey([string]$entry.threadId)){throw 'Duplicate comparison_token_cutoffs threadId.'}
+        $comparisonCutoffs[[string]$entry.threadId]=[DateTimeOffset]::Parse($entry.as_of_utc)
+    }
+}
 $fields=@('input_tokens','cached_input_tokens','uncached_input_tokens','cache_write_input_tokens','output_tokens','reasoning_output_tokens','total_tokens')
 $index=@{};$discoveryIssues=[Collections.Generic.List[string]]::new();$headerProblems=@()
 function Open-Reader($path){return [IO.StreamReader]::new([IO.File]::Open($path,[IO.FileMode]::Open,[IO.FileAccess]::Read,([IO.FileShare]::ReadWrite -bor [IO.FileShare]::Delete)))}
@@ -139,9 +151,13 @@ function Sum-Usage($members){
 }
 $rows=@();$allMembers=@();$creationMembers=@()
 foreach($job in $jobs){
-    $id=[string]$job.threadId;$parent=Usage-At $id $cutoff $job $true
+    $id=[string]$job.threadId;$effectiveCutoff=$cutoff;$comparisonCutoff=$comparisonCutoffs[$id]
+    if($null -ne $comparisonCutoff -and $comparisonCutoff -lt $effectiveCutoff){$effectiveCutoff=$comparisonCutoff}
+    $parent=Usage-At $id $effectiveCutoff $job $true
+    $parent|Add-Member -NotePropertyName effective_cutoff_utc -NotePropertyValue $effectiveCutoff.ToString('o')
+    $parent|Add-Member -NotePropertyName comparison_accounting_cutoff_utc -NotePropertyValue $(if($null -ne $comparisonCutoff){$comparisonCutoff.ToString('o')}else{$null})
     $childIds=@($owners.Keys|Where-Object {$owners[$_] -eq $id -and $_ -ne $id}|Sort-Object)
-    $children=@(foreach($childId in $childIds){if(!$index[$childId].created -or [DateTimeOffset]::Parse($index[$childId].created) -le $cutoff){Usage-At $childId $cutoff $job $false}})
+    $children=@(foreach($childId in $childIds){if(!$index[$childId].created -or [DateTimeOffset]::Parse($index[$childId].created) -le $effectiveCutoff){Usage-At $childId $effectiveCutoff $job $false}})
     $parent|Add-Member -NotePropertyName theme -NotePropertyValue $job.theme
     $parent|Add-Member -NotePropertyName effort -NotePropertyValue $job.effort
     $parent|Add-Member -NotePropertyName descendants -NotePropertyValue $children
@@ -156,7 +172,7 @@ foreach($job in $jobs){
     $parent|Add-Member -NotePropertyName frozen_parent_usage -NotePropertyValue $job.token_usage_at_first_delivery
     $parent|Add-Member -NotePropertyName frozen_parent_captured_at_utc -NotePropertyValue $job.token_usage_frozen_at_utc
     $firstCommit=$null
-    if($job.first_commit_at_utc -and [DateTimeOffset]::Parse($job.first_commit_at_utc) -le $cutoff){
+    if($job.first_commit_at_utc -and [DateTimeOffset]::Parse($job.first_commit_at_utc) -le $effectiveCutoff){
         $firstAt=[DateTimeOffset]::Parse($job.first_commit_at_utc)
         $firstParent=Usage-At $id $firstAt $job $true
         $firstChildren=@(foreach($childId in $childIds){if(!$index[$childId].created -or [DateTimeOffset]::Parse($index[$childId].created) -le $firstAt){Usage-At $childId $firstAt $job $false}})
@@ -167,6 +183,7 @@ foreach($job in $jobs){
 }
 $snapshot=[ordered]@{
     schema_version=2;captured_at_utc=$captured.ToString('o');as_of_utc=$cutoff.ToString('o');provisional=$true
+    comparison_cutoffs_ignored=[bool]$IgnoreComparisonCutoffs
     method='Latest cumulative token_count per unique thread, with identified descendants assigned to one nearest configured root. No cumulative snapshot summing. Parent fields retain their original parent-only meaning.'
     scope='Configured creation chats and supervisor, plus locally identified delegated subagents and automatic guardian approval-review descendants. Metadata discovery cannot prove absence of unavailable rollouts. External CLI/model calls and image-generation usage are not included in these local counters. No conversation or reasoning text is exported.'
     discovery_issues=@($discoveryIssues|Select-Object -Unique)
@@ -181,6 +198,14 @@ $report.Add('부모와 식별된 하위 대화를 별도로 표시하고 thread 
 $report.Add('반복 문맥도 포함되는 로컬 계수이며 구독 한도나 청구 금액으로 환산하지 않습니다. 누락·범위 미확인 토큰은 unknown이며 알려진 부분합만 별도 제공합니다.')
 $report.Add('외부 CLI의 별도 모델 호출 및 이미지 생성 사용량은 이 로컬 토큰 계수에 포함되지 않습니다.')
 $report.Add('')
+if($comparisonCutoffs.Count){
+    $report.Add('comparison accounting cutoff: 아래 대화와 식별된 후손은 지정 시각과 전체 조회 시각 중 이른 시각까지 집계합니다. 나머지 대화는 전체 조회 시각을 따릅니다.')
+    $report.Add('')
+    $report.Add('| 테마 | 강도 | 지정 cutoff (UTC) | 유효 cutoff (UTC) |')
+    $report.Add('|---|---|---|---|')
+    foreach($row in $rows|Where-Object comparison_accounting_cutoff_utc){$report.Add('| '+$row.theme+' | '+$row.effort+' | '+$row.comparison_accounting_cutoff_utc+' | '+$row.effective_cutoff_utc+' |')}
+    $report.Add('')
+}
 $report.Add('| 테마 | 강도 | 부모 총합 | 후손 수 | 후손 총합 | 부모+후손 총합 | 알려진 부분합 |')
 $report.Add('|---|---|---:|---:|---:|---:|---:|')
 foreach($row in $rows){$report.Add('| '+$row.theme+' | '+$row.effort+' | '+(Format-Count $row.total_tokens)+' | '+$row.descendants.Count+' | '+(Format-Count $row.descendant_usage.total_tokens)+' | '+(Format-Count $row.combined_usage.total_tokens)+' | '+(Format-Count $row.combined_usage.known_subtotal.total_tokens)+' |')}
@@ -215,6 +240,10 @@ foreach($issue in $snapshot.discovery_issues){$report.Add('- '+$issue)}
 foreach($row in $rows){foreach($member in @($row)+@($row.descendants)){foreach($issue in $member.issues){$report.Add('- '+$row.theme+'/'+$row.effort+' ['+$member.thread_id+']: '+$issue)}}}
 $report.Add('<!-- TOKEN_USAGE_END -->')
 if(!$NoWrite){
+    # Recheck after discovery so a concurrent freeze/cutoff update cannot knowingly publish stale accounting.
+    $latestCoord=Get-Content (Join-Path $WorkRoot 'coordination.json') -Raw|ConvertFrom-Json -DateKind String
+    if($latestCoord.ultra_self_improvement.comparison_freeze.status -eq 'frozen'){throw 'Comparison accounting is frozen; writing comparison outputs is prohibited.'}
+    if(($latestCoord.comparison_token_cutoffs|ConvertTo-Json -Depth 8 -Compress) -ne ($coord.comparison_token_cutoffs|ConvertTo-Json -Depth 8 -Compress)){throw 'Comparison accounting cutoffs changed during collection; rerun before writing.'}
     $encoding=[Text.UTF8Encoding]::new($false)
     [IO.File]::WriteAllText((Join-Path $WorkRoot 'token_usage.json'),($snapshot|ConvertTo-Json -Depth 20)+"`n",$encoding)
     $reportPath=Join-Path $WorkRoot 'SUPERVISION.md';$text=[IO.File]::ReadAllText($reportPath);$block=$report -join "`n"

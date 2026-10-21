@@ -21,9 +21,9 @@ $mutexName='Local\AstraEffort_UE_TEST_'+[guid]::NewGuid().ToString('N')
 $jobs=@{}
 function Assert($condition,$message) { if (!$condition) { throw $message } }
 function Until([scriptblock]$condition) { $deadline=[DateTime]::UtcNow.AddSeconds(25); while (!(& $condition)) { if([DateTime]::UtcNow -gt $deadline){throw 'Timed out waiting for test condition'}; Start-Sleep -Milliseconds 50 } }
-function Start-JobProcess($name,$theme,$failLaunch=$false) {
+function Start-JobProcess($name,$theme,$failLaunch=$false,$effort='high') {
     $dir=Join-Path $root $name; [IO.Directory]::CreateDirectory($dir) | Out-Null
-    $workerPath=if($theme -eq 'Forest'){'Saved/Workers/medium/ForestDemo'}else{'Saved/Workers/MountainStation/medium/ForestDemo'}
+    $workerPath=if($theme -eq 'Forest'){'Saved/Workers/medium/ForestDemo'}elseif($theme -eq 'MountainStation'){"Saved/Workers/MountainStation/$effort/ForestDemo"}else{'Saved/Workers/Unassigned/ForestDemo'}
     if($name -eq 'F1'){$workerPath='Saved/Workers/xhigh/Project/ForestDemo'}
     $filename=if($name -eq 'F2'){'ArbitraryScratch.uproject'}else{'ForestDemo.uproject'}
     $project=Join-Path $dir ($workerPath+'/'+$filename);[IO.Directory]::CreateDirectory((Split-Path $project))|Out-Null;[IO.File]::WriteAllText($project,'{}')
@@ -37,16 +37,20 @@ function Release-Child($name) {[IO.File]::WriteAllText($jobs[$name].config.relea
 function Wait-Ticket($name) { Until { @(Get-ChildItem "$root/queue" -Filter 'ticket-*.json' -ErrorAction SilentlyContinue | Where-Object { (Get-Content $_.FullName -Raw | ConvertFrom-Json).project -eq $jobs[$name].config.project.Replace('\','/') }).Count -eq 1 } }
 try {
     Start-JobProcess 'running' 'MountainStation';Until {Test-Path $jobs.running.config.started}
-    foreach($pair in @(@('M1','MountainStation'),@('F1','Forest'),@('M2','MountainStation'),@('F2','Forest'))){Start-JobProcess $pair[0] $pair[1];Wait-Ticket $pair[0]}
-    Assert (!(Test-Path $jobs.F1.config.started)) 'Forest preempted an active MountainStation child'
+    foreach($pair in @(@('U1','Unknown','high'),@('M1','MountainStation','high'),@('F1','Forest','high'),@('M2','MountainStation','ultra'),@('F2','Forest','high'),@('P1','MountainStation','medium'),@('P2','MountainStation','medium'))){Start-JobProcess $pair[0] $pair[1] $false $pair[2];Wait-Ticket $pair[0]}
+    Assert (!(Test-Path $jobs.F1.config.started) -and !(Test-Path $jobs.P1.config.started)) 'Waiting priority job preempted an active MountainStation child'
     Release-Child 'running';$previous='running'
-    foreach($name in @('F1','F2','M1','M2')) {
-        Until {Test-Path $jobs[$name].config.started}
+    $order=@('P1','P2','F1','F2','M1','M2','U1')
+    foreach($name in $order) {
+        Until { (Test-Path $jobs[$previous].config.ended) -and @($order|Where-Object {(Test-Path $jobs[$_].config.started) -and !(Test-Path $jobs[$_].config.ended)}).Count -gt 0 }
+        Assert (Test-Path $jobs[$name].config.started) "Priority/FIFO violation: expected $name next"
         Assert (Test-Path $jobs[$previous].config.ended) 'Child executions overlapped'
-        foreach($later in @('F1','F2','M1','M2') | Where-Object {$_ -ne $name -and !(Test-Path $jobs[$_].config.ended)}){Assert (!(Test-Path $jobs[$later].config.started)) "Priority/FIFO violation: $later started before $name finished"}
+        foreach($later in $order | Where-Object {$_ -ne $name -and !(Test-Path $jobs[$_].config.ended)}){Assert (!(Test-Path $jobs[$later].config.started)) "Priority/FIFO violation: $later started before $name finished"}
         Release-Child $name;$previous=$name
     }
     foreach($job in $jobs.Values){Until {$job.process.HasExited};Assert ($job.process.ExitCode -eq 0) ($job.stderr.GetAwaiter().GetResult())}
+    $priorityTiming=Get-Content $jobs.P1.config.timing -Raw|ConvertFrom-Json
+    Assert ($priorityTiming.queue_priority -eq -1 -and $priorityTiming.queue_effort -eq 'medium') 'Station medium timing metadata is wrong'
     Start-JobProcess 'holder' 'MountainStation';Until {Test-Path $jobs.holder.config.started}
     Start-JobProcess 'cancelled' 'Forest';Wait-Ticket 'cancelled';$jobs.cancelled.process.Kill();$jobs.cancelled.process.WaitForExit()
     Start-JobProcess 'after_cancel' 'MountainStation';Wait-Ticket 'after_cancel';Release-Child 'holder'
@@ -66,7 +70,7 @@ try {
     Assert (!(Test-Path $jobs.after_orphan.config.started)) 'Untracked live child was overlapped'
     Release-Child 'orphan';Until {Test-Path $jobs.after_orphan.config.started};Release-Child 'after_orphan';Until {$jobs.after_orphan.process.HasExited}
     Assert ($jobs.after_orphan.process.ExitCode -eq 0) 'Orphan recovery failed'
-    Write-Output "PASS: Forest priority, FIFO, no preemption/overlap, cancelled-ticket cleanup, failed-start recovery, tracked/untracked orphan guard. Evidence: $root"
+    Write-Output "PASS: Station medium > Forest > other Station > unknown, FIFO per priority, no preemption/overlap, cancelled-ticket cleanup, failed-start recovery, tracked/untracked orphan guard. Evidence: $root"
 } finally {
     foreach($job in $jobs.Values){[IO.File]::WriteAllText($job.config.release,'cleanup')}
 }

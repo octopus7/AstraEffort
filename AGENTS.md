@@ -53,6 +53,10 @@ UE execution seconds and total wall time. Do not change this shared utility.
 
 User priority update: when both themes are waiting for Unreal, Forest gets the
 next slot before MountainStation. Never preempt or stop an already running UE.
+Latest override: MountainStation/medium has the highest waiting priority, ahead
+of Forest. Then Forest precedes the other MountainStation efforts. FIFO applies
+within each priority. This applies to future queue slots only; active UE is never
+preempted. The named chat is MountainStation medium — 산악 기차역 제작.
 Use the supervisor's updated runner for new registrations; the runner may write
 only scheduling metadata to shared ignored Saved/Coordination. This metadata is
 not a creative resource and does not permit reading another worker's assets.
@@ -137,38 +141,43 @@ Workers still never commit. Both themes' second passes are required for completi
 
 ## Authorized ultra self-improvement after the comparison experiment
 
-The user authorized a later self-improvement pass only for the existing Forest
-ultra and MountainStation ultra chats. Do not begin or dispatch it until ALL
-currently authorized eight-scene work, both themes' texture follow-ups, required
-fixes, individual commits, final eight-map integration/reload/dependency checks,
-and the comparison report with screenshots/timings/tokens are complete and committed.
-Keep the existing model and ultra effort. Medium, high and xhigh receive no
-self-improvement assignments. The supervisor dispatches this phase explicitly;
-this authorization is not a command for workers to start it on their own.
+Latest user overrides (2026-10-22 KST) permit the existing Forest ultra and
+MountainStation ultra chats to start their self-improvement passes after each
+job's own comparison result is validated, committed and preserved. Neither waits
+for the other efforts or final eight-map integration. Keep their existing model
+and ultra effort. Medium, high and xhigh receive no self-improvement assignment.
+The supervisor dispatches each pass explicitly once and records it in
+coordination.json; workers must not start or restart a pass on their own.
 
-At that boundary, freeze SUPERVISION.md, its referenced evidence/images and the
-comparison token snapshot. Record their commit and hashes in coordination.json.
-Do not add self-improvement plans, results, timings, tokens or progress to
-SUPERVISION.md, and never overwrite its FirstDelivery/TexturePass evidence.
-After the freeze, invoke Update-TokenUsage.ps1 only with -NoWrite and route any
-new snapshots to the separate self-improvement reporting area. Do not rewrite
-the original token_usage.json. The current comparison report is still completed
-normally before the freeze.
+Preserve each committed comparison Content/map and FirstDelivery/TexturePass
+evidence before editing. Task-specific implementation instructions are managed
+by the coordinating conversation and coordination.json. Workers may prepare
+native support proposals in their owned SelfImprovement directory, but shared
+Source/Plugins/Config/Binaries integration remains the supervisor's responsibility.
 
-The supervisor's separate report is ForestDemo/Work/ULTRA_IMPROVEMENT.md, with
-one section per theme. Each ultra worker puts all new logs, source scripts,
-images, STATUS.json and RESULT.md under its existing owned Work/SelfImprovement
-directory. Keep the same owned Content root, map and private scratch scope;
-do not inspect another theme/effort's creative resources. Preserve the completed
-comparison baseline before editing ultra assets. Use new before/after captures
-and record self-review findings, chosen priorities, changes, validation, known
-limits, actual UTC/KST times, UE wait/run, image-generation time and token deltas.
-Retain the required scene contents, 100x100m scope and calm rounded game style.
+Keep comparison results separate from self-improvement. Do not add improvement
+plans, progress, results, timings or tokens to SUPERVISION.md, or overwrite its
+linked FirstDelivery/TexturePass evidence. Before the full comparison is frozen,
+the token collector honors coordination.comparison_token_cutoffs. Improvement
+accounting must use -NoWrite -IgnoreComparisonCutoffs and save only under
+Work/UltraImprovementAccounting. Once the full comparison is frozen, never write
+SUPERVISION.md or its token_usage.json again. Record its commit and evidence hashes
+in coordination.json. Final comparison integration uses preserved comparison
+commits in supervisor scratch, without overwriting either active ultra result.
 
-The two ultra chats perform their own review, implement improvements, validate
-and report for supervisor review; this is a finite follow-up, not an endless
-improvement loop. Forest UE priority and non-preemption still apply. The
-supervisor alone validates, commits each theme separately and updates the new
-report. Keep all eight maps. The heartbeat continues through this phase and
-pauses only after both ultra results and the separate report are verified and
-committed; completion of the comparison alone is no longer the stopping point.
+The separate supervisor report is ForestDemo/Work/ULTRA_IMPROVEMENT.md, with one
+section per theme. Each ultra worker writes new scripts, source, STATUS/RESULT,
+logs, validation and actual before/after renders under its own Work/SelfImprovement.
+Keep the same owned Content root, map and scratch scope. No cross-effort or
+cross-theme creative resource inspection or reuse is allowed. Preserve required
+scene contents, 100x100m scope and calm rounded game art. Record selected issues,
+changes, actual UTC/KST times, wall time, UE wait/run, image-generation time and
+parent/verified-child token increments. The finite improvement pass is not an
+unbounded loop. Scene evidence remains actual UE rendering.
+
+The supervisor alone validates and commits each improved result and the separate
+report. All eight maps remain. Apply the latest machine queue priority above
+without preempting a running UE process. Monitor only unfinished chats; submitted
+results awaiting supervisor review are not active worker jobs. The heartbeat
+continues until both improvement results and the separate report are verified and
+committed, even if comparison work finishes earlier.

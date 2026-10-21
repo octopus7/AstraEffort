@@ -2,8 +2,8 @@
   "baseline_commit": "7558c8f",
   "rules_commit": "53a1fc3",
   "timezone": "Asia/Seoul",
-  "last_supervisor_check_utc": "2026-10-21T15:11:20.2062656+00:00",
-  "last_supervisor_summary": "Station four second passes remain active. xhigh actual terrain Pawn sweep verified; non-WP/publication pending. high four actual captures reviewed and own background/material visual regression check requested. No new delivery accepted.",
+  "last_supervisor_check_utc": "2026-10-21T15:39:11.1330937+00:00",
+  "last_supervisor_summary": "All eight first and texture deliveries independently committed. Only the two ultra self-improvement chats remain active. Final baseline eight-map integration and comparison report/freeze remain supervisor work.",
   "efforts": [
     {
       "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
@@ -2154,7 +2154,7 @@
       "effort": "ultra",
       "dispatched_at_utc": "2026-10-21T12:11:49Z",
       "status": "texture_pass_committed",
-      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:16",
+      "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:17",
       "initial_turn_started_at_utc": "2026-10-21T12:11:52.0000000+00:00",
       "worker_started_at_utc": "2026-10-21T12:12:01Z",
       "asset_root": "ForestDemo/Content/Forest/ultra/",
@@ -2953,12 +2953,12 @@
       "theme": "MountainStation",
       "effort": "medium",
       "dispatched_at_utc": "2026-10-21T12:26:57Z",
-      "status": "texture_pass_working",
+      "status": "texture_pass_verified_committed",
       "asset_root": "ForestDemo/Content/MountainStation/medium/",
       "map": "/Game/Maps/MountainStation_medium",
       "work_root": "ForestDemo/Work/MountainStation/medium/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/medium/",
-      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:12",
+      "cursor": "d7793446-f9bb-4028-b354-1e4663a23edc:15",
       "initial_turn_started_at_utc": "2026-10-21T12:27:03.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:10Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -3423,10 +3423,809 @@
           }
         },
         "dispatch_prepared_at_utc": "2026-10-21T14:46:21Z",
-        "status": "working",
+        "status": "verified_committed",
         "dispatched_at_utc": "2026-10-21T14:46:21Z",
-        "worker_started_at_utc": "2026-10-21T14:46:41Z",
-        "last_observed_worker_status": "working"
+        "worker_started_at_utc": "2026-10-21T14:46:41.0000000+00:00",
+        "last_observed_worker_status": "working",
+        "non_wp_api_guidance_sent_at_utc": "2026-10-21T15:15:02.8329230+00:00",
+        "first_ready_at_utc": "2026-10-21T15:13:28.4507038+00:00",
+        "first_ready_elapsed_seconds": 1607.4507038,
+        "supervisor_revision": {
+          "recorded_at_utc": "2026-10-21T15:21:46.3907491+00:00",
+          "reason": "UVs overlap across charts/props, no island padding or unique packing; atlas panel guard is not island separation. Restore genuine connected-surface island allocation with measured density, nonoverlap in unfolded UV plane and explicit padding; declare texture-wrap reuse separately.",
+          "otherwise_verified": "44published/private hashes,41FirstDelivery evidence unchanged;120832Rendertriangles full density audit with5lettering exceptions,20materials,own deps,direct nonWP,actual200cmPawn+3blocking/nonoverlap sweeps,normalexit.4actualrenders directly viewed; final recapture after revision required.",
+          "initial_ready_preserved": true,
+          "first_commit_unchanged": true
+        },
+        "revision_finished_at_utc": "2026-10-21T15:43:57.8460483+00:00",
+        "commit_hash": "1514f1af789d75ddf94d210c8017a95dcececb8b",
+        "commit_at_utc": "2026-10-21T15:54:25Z",
+        "commit_at_kst": "2026-10-22T00:54:25+09:00",
+        "supervisor_validation": {
+          "private_published_sha256_match": true,
+          "shared_tree_actor_count": 64,
+          "prototype_islands": 8,
+          "non_world_partition_direct": true,
+          "actual_four_png_inspected": true,
+          "actual_pawn_movement_collision": true,
+          "all_triangle_overlap_pairs": 0,
+          "recursive_own_dependency_count": 67,
+          "reviewed_at_utc": "2026-10-21T15:55:05.3253959+00:00",
+          "connected_station_islands": 3776,
+          "limitations": [
+            "64 StaticMeshActors share prototype, not ISM/HISM batching.",
+            "Tiny triangle precision is excluded from ±2% density claim.",
+            "Repeated source atlas after unique UV packing; not unique painted artwork per face.",
+            "Road/grass hard edges and short dark tunnel remain."
+          ],
+          "private_editor_closed": true,
+          "package_count": 67
+        },
+        "token_usage_at_delivery": {
+          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:45:03.564Z",
+          "as_of_utc": "2026-10-21T15:54:25.0000000+00:00",
+          "input_tokens": 28691705,
+          "cached_input_tokens": 28102656,
+          "uncached_input_tokens": 589049,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 131323,
+          "reasoning_output_tokens": 41839,
+          "total_tokens": 28823028,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "changed_events": 233,
+            "counter_decreases": 0,
+            "verified": true,
+            "predating_events": 0,
+            "first_total_equals_first_last_usage": true
+          },
+          "token_events_observed": 238,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+          ],
+          "effective_cutoff_utc": "2026-10-21T15:54:25.0000000+00:00",
+          "comparison_accounting_cutoff_utc": "2026-10-21T15:54:25.0000000+00:00",
+          "theme": "MountainStation",
+          "effort": "medium",
+          "descendants": [
+            {
+              "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
+              "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:33:15.604Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T14:56:15.179Z",
+              "as_of_utc": "2026-10-21T15:54:25.0000000+00:00",
+              "input_tokens": 546812,
+              "cached_input_tokens": 55296,
+              "uncached_input_tokens": 491516,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1242,
+              "reasoning_output_tokens": 635,
+              "total_tokens": 548054,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 8,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 9,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-33-15-01a15e73-94ef-7410-bbc4-33095be67fb7.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15ef9-c26d-75b0-a39a-d04724ac12f8",
+              "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T14:59:49.064Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:39:56.772Z",
+              "as_of_utc": "2026-10-21T15:54:25.0000000+00:00",
+              "input_tokens": 994215,
+              "cached_input_tokens": 888576,
+              "uncached_input_tokens": 105639,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1627,
+              "reasoning_output_tokens": 623,
+              "total_tokens": 995842,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 15,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 16,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T23-59-49-01a15ef9-c26d-75b0-a39a-d04724ac12f8.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 2,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 1541027,
+              "cached_input_tokens": 943872,
+              "uncached_input_tokens": 597155,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2869,
+              "reasoning_output_tokens": 1258,
+              "total_tokens": 1543896
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1541027,
+            "cached_input_tokens": 943872,
+            "uncached_input_tokens": 597155,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2869,
+            "reasoning_output_tokens": 1258,
+            "total_tokens": 1543896,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 30232732,
+              "cached_input_tokens": 29046528,
+              "uncached_input_tokens": 1186204,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 134192,
+              "reasoning_output_tokens": 43097,
+              "total_tokens": 30366924
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 30232732,
+            "cached_input_tokens": 29046528,
+            "uncached_input_tokens": 1186204,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 134192,
+            "reasoning_output_tokens": 43097,
+            "total_tokens": 30366924,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "theme": "MountainStation",
+            "effort": "medium",
+            "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "medium"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+            "input_tokens": 16559272,
+            "cached_input_tokens": 16162304,
+            "uncached_input_tokens": 396968,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 60048,
+            "reasoning_output_tokens": 17080,
+            "total_tokens": 16619320,
+            "token_events_observed": 132,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+            ]
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9953251+00:00",
+          "as_of_first_commit": {
+            "descendant_usage": {
+              "member_count": 1,
+              "known_subtotal": {
+                "input_tokens": 444128,
+                "cached_input_tokens": 49152,
+                "uncached_input_tokens": 394976,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1047,
+                "reasoning_output_tokens": 511,
+                "total_tokens": 445175
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 444128,
+              "cached_input_tokens": 49152,
+              "uncached_input_tokens": 394976,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1047,
+              "reasoning_output_tokens": 511,
+              "total_tokens": 445175,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00",
+            "combined_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 17003400,
+                "cached_input_tokens": 16211456,
+                "uncached_input_tokens": 791944,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 61095,
+                "reasoning_output_tokens": 17591,
+                "total_tokens": 17064495
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 17003400,
+              "cached_input_tokens": 16211456,
+              "uncached_input_tokens": 791944,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 61095,
+              "reasoning_output_tokens": 17591,
+              "total_tokens": 17064495,
+              "total_tokens_complete": true
+            },
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "parent_usage": {
+              "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "medium"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+              "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+              "input_tokens": 16559272,
+              "cached_input_tokens": 16162304,
+              "uncached_input_tokens": 396968,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 60048,
+              "reasoning_output_tokens": 17080,
+              "total_tokens": 16619320,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 130,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 132,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+              ]
+            },
+            "descendants": [
+              {
+                "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
+                "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:33:15.604Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:23:27.449Z",
+                "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+                "input_tokens": 444128,
+                "cached_input_tokens": 49152,
+                "uncached_input_tokens": 394976,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1047,
+                "reasoning_output_tokens": 511,
+                "total_tokens": 445175,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "delta_mismatches": 0,
+                  "changed_events": 7,
+                  "counter_decreases": 0,
+                  "verified": true,
+                  "predating_events": 0,
+                  "first_total_equals_first_last_usage": true
+                },
+                "token_events_observed": 8,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-33-15-01a15e73-94ef-7410-bbc4-33095be67fb7.jsonl"
+                ]
+              }
+            ]
+          }
+        },
+        "token_usage_at_second_delivery": {
+          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:45:03.564Z",
+          "as_of_utc": "2026-10-21T15:54:25.0000000+00:00",
+          "input_tokens": 28691705,
+          "cached_input_tokens": 28102656,
+          "uncached_input_tokens": 589049,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 131323,
+          "reasoning_output_tokens": 41839,
+          "total_tokens": 28823028,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "changed_events": 233,
+            "counter_decreases": 0,
+            "verified": true,
+            "predating_events": 0,
+            "first_total_equals_first_last_usage": true
+          },
+          "token_events_observed": 238,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+          ],
+          "effective_cutoff_utc": "2026-10-21T15:54:25.0000000+00:00",
+          "comparison_accounting_cutoff_utc": "2026-10-21T15:54:25.0000000+00:00",
+          "theme": "MountainStation",
+          "effort": "medium",
+          "descendants": [
+            {
+              "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
+              "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:33:15.604Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T14:56:15.179Z",
+              "as_of_utc": "2026-10-21T15:54:25.0000000+00:00",
+              "input_tokens": 546812,
+              "cached_input_tokens": 55296,
+              "uncached_input_tokens": 491516,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1242,
+              "reasoning_output_tokens": 635,
+              "total_tokens": 548054,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 8,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 9,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-33-15-01a15e73-94ef-7410-bbc4-33095be67fb7.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15ef9-c26d-75b0-a39a-d04724ac12f8",
+              "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T14:59:49.064Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:39:56.772Z",
+              "as_of_utc": "2026-10-21T15:54:25.0000000+00:00",
+              "input_tokens": 994215,
+              "cached_input_tokens": 888576,
+              "uncached_input_tokens": 105639,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1627,
+              "reasoning_output_tokens": 623,
+              "total_tokens": 995842,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 15,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 16,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T23-59-49-01a15ef9-c26d-75b0-a39a-d04724ac12f8.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 2,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 1541027,
+              "cached_input_tokens": 943872,
+              "uncached_input_tokens": 597155,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2869,
+              "reasoning_output_tokens": 1258,
+              "total_tokens": 1543896
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1541027,
+            "cached_input_tokens": 943872,
+            "uncached_input_tokens": 597155,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2869,
+            "reasoning_output_tokens": 1258,
+            "total_tokens": 1543896,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 30232732,
+              "cached_input_tokens": 29046528,
+              "uncached_input_tokens": 1186204,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 134192,
+              "reasoning_output_tokens": 43097,
+              "total_tokens": 30366924
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 30232732,
+            "cached_input_tokens": 29046528,
+            "uncached_input_tokens": 1186204,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 134192,
+            "reasoning_output_tokens": 43097,
+            "total_tokens": 30366924,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "theme": "MountainStation",
+            "effort": "medium",
+            "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "medium"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+            "input_tokens": 16559272,
+            "cached_input_tokens": 16162304,
+            "uncached_input_tokens": 396968,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 60048,
+            "reasoning_output_tokens": 17080,
+            "total_tokens": 16619320,
+            "token_events_observed": 132,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+            ]
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9953251+00:00",
+          "as_of_first_commit": {
+            "descendant_usage": {
+              "member_count": 1,
+              "known_subtotal": {
+                "input_tokens": 444128,
+                "cached_input_tokens": 49152,
+                "uncached_input_tokens": 394976,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1047,
+                "reasoning_output_tokens": 511,
+                "total_tokens": 445175
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 444128,
+              "cached_input_tokens": 49152,
+              "uncached_input_tokens": 394976,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1047,
+              "reasoning_output_tokens": 511,
+              "total_tokens": 445175,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00",
+            "combined_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 17003400,
+                "cached_input_tokens": 16211456,
+                "uncached_input_tokens": 791944,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 61095,
+                "reasoning_output_tokens": 17591,
+                "total_tokens": 17064495
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 17003400,
+              "cached_input_tokens": 16211456,
+              "uncached_input_tokens": 791944,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 61095,
+              "reasoning_output_tokens": 17591,
+              "total_tokens": 17064495,
+              "total_tokens_complete": true
+            },
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "parent_usage": {
+              "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "medium"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+              "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+              "input_tokens": 16559272,
+              "cached_input_tokens": 16162304,
+              "uncached_input_tokens": 396968,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 60048,
+              "reasoning_output_tokens": 17080,
+              "total_tokens": 16619320,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 130,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 132,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+              ]
+            },
+            "descendants": [
+              {
+                "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
+                "parent_thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:33:15.604Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:23:27.449Z",
+                "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+                "input_tokens": 444128,
+                "cached_input_tokens": 49152,
+                "uncached_input_tokens": 394976,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1047,
+                "reasoning_output_tokens": 511,
+                "total_tokens": 445175,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "delta_mismatches": 0,
+                  "changed_events": 7,
+                  "counter_decreases": 0,
+                  "verified": true,
+                  "predating_events": 0,
+                  "first_total_equals_first_last_usage": true
+                },
+                "token_events_observed": 8,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-33-15-01a15e73-94ef-7410-bbc4-33095be67fb7.jsonl"
+                ]
+              }
+            ]
+          }
+        },
+        "token_delta": {
+          "cutoff_utc": "2026-10-21T15:54:25Z",
+          "parent_total_tokens": 11989830,
+          "method": "Latest snapshot at or before individual comparison delivery commit; cumulative parent and verified children counted once.",
+          "combined_total_tokens": 13088551
+        },
+        "finished_at_utc": "2026-10-21T15:43:57.8460483+00:00",
+        "elapsed_seconds": null,
+        "recorded_mutex_wait_seconds": 300.00897760000004,
+        "recorded_ue_execution_seconds": 363.91548620000003,
+        "revision_timing": {
+          "new_imagegen_calls": 0,
+          "original_ready_at_utc": "2026-10-21T15:13:28.4507038+00:00",
+          "revision_finished_at_kst": "2026-10-22T00:43:57.8460483+09:00",
+          "original_supplemental_at_utc": "2026-10-21T15:15:09.762128+00:00",
+          "additional_ue_execution_seconds": 396.24440519999996,
+          "additional_wall_seconds": 1527.8460483,
+          "revision_started_at_kst": "2026-10-22T00:18:30.0000000+09:00",
+          "additional_ue_wait_seconds": 204.3167608,
+          "revision_finished_at_utc": "2026-10-21T15:43:57.8460483+00:00",
+          "original_texture_started_at_utc": "2026-10-21T14:46:41Z",
+          "attempts": [
+            {
+              "wait_started_at_utc": "2026-10-21T15:22:45.4683266+00:00",
+              "run_started_at_utc": "2026-10-21T15:22:45.7347296+00:00",
+              "finished_at_utc": "2026-10-21T15:23:55.5154598+00:00",
+              "wait_seconds": 0.266403,
+              "execution_seconds": 69.7807302,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_apply1.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            },
+            {
+              "wait_started_at_utc": "2026-10-21T15:31:46.2307227+00:00",
+              "run_started_at_utc": "2026-10-21T15:31:46.4920183+00:00",
+              "finished_at_utc": "2026-10-21T15:33:01.8860445+00:00",
+              "wait_seconds": 0.2612956,
+              "execution_seconds": 75.3940262,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_apply2.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            },
+            {
+              "wait_started_at_utc": "2026-10-21T15:35:59.2037638+00:00",
+              "run_started_at_utc": "2026-10-21T15:35:59.4689864+00:00",
+              "finished_at_utc": "2026-10-21T15:36:24.8943300+00:00",
+              "wait_seconds": 0.2652226,
+              "execution_seconds": 25.4253436,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_apply3.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            },
+            {
+              "wait_started_at_utc": "2026-10-21T15:37:35.6828227+00:00",
+              "run_started_at_utc": "2026-10-21T15:39:04.7997670+00:00",
+              "finished_at_utc": "2026-10-21T15:39:33.5036292+00:00",
+              "wait_seconds": 89.1169443,
+              "execution_seconds": 28.7038622,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_apply4.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            },
+            {
+              "wait_started_at_utc": "2026-10-21T15:24:11.7409568+00:00",
+              "run_started_at_utc": "2026-10-21T15:26:05.6567192+00:00",
+              "finished_at_utc": "2026-10-21T15:26:32.8458826+00:00",
+              "wait_seconds": 113.9157624,
+              "execution_seconds": 27.1891634,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_audit1.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            },
+            {
+              "wait_started_at_utc": "2026-10-21T15:33:31.2913691+00:00",
+              "run_started_at_utc": "2026-10-21T15:33:31.4967383+00:00",
+              "finished_at_utc": "2026-10-21T15:33:55.2583750+00:00",
+              "wait_seconds": 0.2053692,
+              "execution_seconds": 23.7616367,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_audit2.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            },
+            {
+              "wait_started_at_utc": "2026-10-21T15:39:57.1988343+00:00",
+              "run_started_at_utc": "2026-10-21T15:39:57.4845980+00:00",
+              "finished_at_utc": "2026-10-21T15:42:23.4742409+00:00",
+              "wait_seconds": 0.2857637,
+              "execution_seconds": 145.9896429,
+              "exit_code": 0,
+              "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/Project/ForestDemo/ForestDemo.uproject",
+              "log": "D:/github/AstraEffort/ForestDemo/Saved/Workers/MountainStation/medium/uvrevision_audit3.log",
+              "queue_theme": "MountainStation",
+              "queue_priority": 1
+            }
+          ],
+          "revision_started_at_utc": "2026-10-21T15:18:30.0000000+00:00"
+        },
+        "final_start_to_ready_seconds": 3436.8460483,
+        "finished_at_kst": "2026-10-22T00:43:57.8460483+09:00",
+        "dispatch_to_ready_seconds": 3456.8460483,
+        "supervisor_ready_to_commit_seconds": 627.1539517
       }
     },
     {
@@ -3435,12 +4234,12 @@
       "theme": "MountainStation",
       "effort": "high",
       "dispatched_at_utc": "2026-10-21T12:27:03Z",
-      "status": "texture_pass_working",
+      "status": "texture_pass_verified_committed",
       "asset_root": "ForestDemo/Content/MountainStation/high/",
       "map": "/Game/Maps/MountainStation_high",
       "work_root": "ForestDemo/Work/MountainStation/high/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/high/",
-      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:10",
+      "cursor": "b9625242-a260-4b27-acbf-e9141bd93173:11",
       "initial_turn_started_at_utc": "2026-10-21T12:27:07.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:18Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -3901,10 +4700,10 @@
           }
         },
         "work_root": "ForestDemo/Work/MountainStation/high/TexturePass",
-        "status": "working",
+        "status": "verified_committed",
         "dispatch_prepared_at_utc": "2026-10-21T14:46:30Z",
         "dispatched_at_utc": "2026-10-21T14:46:30Z",
-        "worker_started_at_utc": "2026-10-21T14:47:23Z",
+        "worker_started_at_utc": "2026-10-21T14:47:23+00:00",
         "last_observed_worker_status": "working",
         "preliminary_supervisor_visual_review": {
           "reviewed_at_utc": "2026-10-21T15:10:04.5499285+00:00",
@@ -3935,7 +4734,691 @@
           ],
           "observations": "Generated wood/stone/plaster detail visible and scene connections preserved; ground/foliage texture visibly busier, previously plain outside backdrop now has enlarged mottled/leaf pattern. Requested own material mapping check/background restoration if accidental and calm overview self-review. No layout redesign.",
           "validation_summary": "Saved UE11assemblies333364triangles measured, aggregate127.99827-128.00011px/m; original35372chart AABBs disjoint, conservative savedUEgap31.7092px but intra-chart triangle intersections untested and wrap repeats imagery.150063subpixeltriangles and32degenerate exceptions.5imagegen originals hashed;22materialBaseColorlinks;42own recursive packages. ActualPawnpositive/nonoverlapblocking sweeps140.17/143.55/141.42cm plus300cmmove; normalexit0.33archivedfiles unchanged. nonWP indirect and finalpublication pending."
-        }
+        },
+        "non_wp_api_guidance_sent_at_utc": "2026-10-21T15:15:02.8329230+00:00",
+        "finished_at_utc": "2026-10-21T15:17:52.012490+00:00",
+        "commit_hash": "c5d338be8ef9ed56310bbc5c75b2fa97d5cfcf11",
+        "commit_at_utc": "2026-10-21T15:48:22Z",
+        "commit_at_kst": "2026-10-22T00:48:22+09:00",
+        "supervisor_validation": {
+          "current_private_published_hash_match": true,
+          "reviewed_at_utc": "2026-10-21T15:52:17.7057850+00:00",
+          "private_ue_closed": true,
+          "actual_pawn_movement_and_collision_passed": true,
+          "actual_four_png_inspected": true,
+          "limitations": [
+            "Within-chart triangle intersections were not exhaustively checked.",
+            "No direct bare-terrain Pawn sweep was performed in this pass.",
+            "Hello evidence is actor presence, not a new visible overlay capture."
+          ],
+          "package_count": 43,
+          "recursive_dependency_scope_passed": true,
+          "saved_uv_all_triangle_containment": true
+        },
+        "token_usage_at_delivery": {
+          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:43:54.861Z",
+          "as_of_utc": "2026-10-21T15:48:22.0000000+00:00",
+          "input_tokens": 17751184,
+          "cached_input_tokens": 17441920,
+          "uncached_input_tokens": 309264,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100644,
+          "reasoning_output_tokens": 30167,
+          "total_tokens": 17851828,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "changed_events": 142,
+            "counter_decreases": 0,
+            "verified": true,
+            "predating_events": 0,
+            "first_total_equals_first_last_usage": true
+          },
+          "token_events_observed": 144,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+          ],
+          "effective_cutoff_utc": "2026-10-21T15:48:22.0000000+00:00",
+          "comparison_accounting_cutoff_utc": "2026-10-21T15:48:22.0000000+00:00",
+          "theme": "MountainStation",
+          "effort": "high",
+          "descendants": [
+            {
+              "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
+              "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:38:54.963Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:05:18.999Z",
+              "as_of_utc": "2026-10-21T15:48:22.0000000+00:00",
+              "input_tokens": 663513,
+              "cached_input_tokens": 373248,
+              "uncached_input_tokens": 290265,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1372,
+              "reasoning_output_tokens": 719,
+              "total_tokens": 664885,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 9,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 10,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-38-54-01a15e78-c278-7033-b2e6-f6edc6718c84.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15f04-828a-73b3-a095-ace22cbbec68",
+              "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T15:11:33.628Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:16:22.055Z",
+              "as_of_utc": "2026-10-21T15:48:22.0000000+00:00",
+              "input_tokens": 83530,
+              "cached_input_tokens": 49792,
+              "uncached_input_tokens": 33738,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 442,
+              "reasoning_output_tokens": 252,
+              "total_tokens": 83972,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 2,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 3,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-22T00-11-33-01a15f04-828a-73b3-a095-ace22cbbec68.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 2,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 747043,
+              "cached_input_tokens": 423040,
+              "uncached_input_tokens": 324003,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1814,
+              "reasoning_output_tokens": 971,
+              "total_tokens": 748857
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 747043,
+            "cached_input_tokens": 423040,
+            "uncached_input_tokens": 324003,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1814,
+            "reasoning_output_tokens": 971,
+            "total_tokens": 748857,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 18498227,
+              "cached_input_tokens": 17864960,
+              "uncached_input_tokens": 633267,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 102458,
+              "reasoning_output_tokens": 31138,
+              "total_tokens": 18600685
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 18498227,
+            "cached_input_tokens": 17864960,
+            "uncached_input_tokens": 633267,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 102458,
+            "reasoning_output_tokens": 31138,
+            "total_tokens": 18600685,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "theme": "MountainStation",
+            "effort": "high",
+            "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "high"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+            "input_tokens": 10670356,
+            "cached_input_tokens": 10494336,
+            "uncached_input_tokens": 176020,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61023,
+            "reasoning_output_tokens": 18831,
+            "total_tokens": 10731379,
+            "token_events_observed": 96,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+            ]
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T13:17:48.4853579+00:00",
+          "as_of_first_commit": {
+            "descendant_usage": {
+              "member_count": 1,
+              "known_subtotal": {
+                "input_tokens": 293129,
+                "cached_input_tokens": 187136,
+                "uncached_input_tokens": 105993,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 737,
+                "reasoning_output_tokens": 365,
+                "total_tokens": 293866
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 293129,
+              "cached_input_tokens": 187136,
+              "uncached_input_tokens": 105993,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 737,
+              "reasoning_output_tokens": 365,
+              "total_tokens": 293866,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00",
+            "combined_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 10963485,
+                "cached_input_tokens": 10681472,
+                "uncached_input_tokens": 282013,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 61760,
+                "reasoning_output_tokens": 19196,
+                "total_tokens": 11025245
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 10963485,
+              "cached_input_tokens": 10681472,
+              "uncached_input_tokens": 282013,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 61760,
+              "reasoning_output_tokens": 19196,
+              "total_tokens": 11025245,
+              "total_tokens_complete": true
+            },
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "parent_usage": {
+              "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "high"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+              "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+              "input_tokens": 10670356,
+              "cached_input_tokens": 10494336,
+              "uncached_input_tokens": 176020,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 61023,
+              "reasoning_output_tokens": 18831,
+              "total_tokens": 10731379,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 95,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 96,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+              ]
+            },
+            "descendants": [
+              {
+                "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
+                "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:38:54.963Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:07:22.348Z",
+                "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+                "input_tokens": 293129,
+                "cached_input_tokens": 187136,
+                "uncached_input_tokens": 105993,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 737,
+                "reasoning_output_tokens": 365,
+                "total_tokens": 293866,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "delta_mismatches": 0,
+                  "changed_events": 5,
+                  "counter_decreases": 0,
+                  "verified": true,
+                  "predating_events": 0,
+                  "first_total_equals_first_last_usage": true
+                },
+                "token_events_observed": 6,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-38-54-01a15e78-c278-7033-b2e6-f6edc6718c84.jsonl"
+                ]
+              }
+            ]
+          }
+        },
+        "token_usage_at_second_delivery": {
+          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:43:54.861Z",
+          "as_of_utc": "2026-10-21T15:48:22.0000000+00:00",
+          "input_tokens": 17751184,
+          "cached_input_tokens": 17441920,
+          "uncached_input_tokens": 309264,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100644,
+          "reasoning_output_tokens": 30167,
+          "total_tokens": 17851828,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "changed_events": 142,
+            "counter_decreases": 0,
+            "verified": true,
+            "predating_events": 0,
+            "first_total_equals_first_last_usage": true
+          },
+          "token_events_observed": 144,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+          ],
+          "effective_cutoff_utc": "2026-10-21T15:48:22.0000000+00:00",
+          "comparison_accounting_cutoff_utc": "2026-10-21T15:48:22.0000000+00:00",
+          "theme": "MountainStation",
+          "effort": "high",
+          "descendants": [
+            {
+              "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
+              "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:38:54.963Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:05:18.999Z",
+              "as_of_utc": "2026-10-21T15:48:22.0000000+00:00",
+              "input_tokens": 663513,
+              "cached_input_tokens": 373248,
+              "uncached_input_tokens": 290265,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1372,
+              "reasoning_output_tokens": 719,
+              "total_tokens": 664885,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 9,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 10,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-38-54-01a15e78-c278-7033-b2e6-f6edc6718c84.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15f04-828a-73b3-a095-ace22cbbec68",
+              "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T15:11:33.628Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:16:22.055Z",
+              "as_of_utc": "2026-10-21T15:48:22.0000000+00:00",
+              "input_tokens": 83530,
+              "cached_input_tokens": 49792,
+              "uncached_input_tokens": 33738,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 442,
+              "reasoning_output_tokens": 252,
+              "total_tokens": 83972,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 2,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 3,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-22T00-11-33-01a15f04-828a-73b3-a095-ace22cbbec68.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 2,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 747043,
+              "cached_input_tokens": 423040,
+              "uncached_input_tokens": 324003,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1814,
+              "reasoning_output_tokens": 971,
+              "total_tokens": 748857
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 747043,
+            "cached_input_tokens": 423040,
+            "uncached_input_tokens": 324003,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1814,
+            "reasoning_output_tokens": 971,
+            "total_tokens": 748857,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 18498227,
+              "cached_input_tokens": 17864960,
+              "uncached_input_tokens": 633267,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 102458,
+              "reasoning_output_tokens": 31138,
+              "total_tokens": 18600685
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 18498227,
+            "cached_input_tokens": 17864960,
+            "uncached_input_tokens": 633267,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 102458,
+            "reasoning_output_tokens": 31138,
+            "total_tokens": 18600685,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "theme": "MountainStation",
+            "effort": "high",
+            "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "high"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+            "input_tokens": 10670356,
+            "cached_input_tokens": 10494336,
+            "uncached_input_tokens": 176020,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61023,
+            "reasoning_output_tokens": 18831,
+            "total_tokens": 10731379,
+            "token_events_observed": 96,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+            ]
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T13:17:48.4853579+00:00",
+          "as_of_first_commit": {
+            "descendant_usage": {
+              "member_count": 1,
+              "known_subtotal": {
+                "input_tokens": 293129,
+                "cached_input_tokens": 187136,
+                "uncached_input_tokens": 105993,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 737,
+                "reasoning_output_tokens": 365,
+                "total_tokens": 293866
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 293129,
+              "cached_input_tokens": 187136,
+              "uncached_input_tokens": 105993,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 737,
+              "reasoning_output_tokens": 365,
+              "total_tokens": 293866,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00",
+            "combined_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 10963485,
+                "cached_input_tokens": 10681472,
+                "uncached_input_tokens": 282013,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 61760,
+                "reasoning_output_tokens": 19196,
+                "total_tokens": 11025245
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 10963485,
+              "cached_input_tokens": 10681472,
+              "uncached_input_tokens": 282013,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 61760,
+              "reasoning_output_tokens": 19196,
+              "total_tokens": 11025245,
+              "total_tokens_complete": true
+            },
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "parent_usage": {
+              "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "high"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+              "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+              "input_tokens": 10670356,
+              "cached_input_tokens": 10494336,
+              "uncached_input_tokens": 176020,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 61023,
+              "reasoning_output_tokens": 18831,
+              "total_tokens": 10731379,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "changed_events": 95,
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 96,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+              ]
+            },
+            "descendants": [
+              {
+                "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
+                "parent_thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:38:54.963Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:07:22.348Z",
+                "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+                "input_tokens": 293129,
+                "cached_input_tokens": 187136,
+                "uncached_input_tokens": 105993,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 737,
+                "reasoning_output_tokens": 365,
+                "total_tokens": 293866,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "delta_mismatches": 0,
+                  "changed_events": 5,
+                  "counter_decreases": 0,
+                  "verified": true,
+                  "predating_events": 0,
+                  "first_total_equals_first_last_usage": true
+                },
+                "token_events_observed": 6,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-38-54-01a15e78-c278-7033-b2e6-f6edc6718c84.jsonl"
+                ]
+              }
+            ]
+          }
+        },
+        "token_delta": {
+          "cutoff_utc": "2026-10-21T15:48:22Z",
+          "parent_total_tokens": 7120449,
+          "method": "Latest snapshot at or before individual comparison delivery commit; cumulative parent and verified children counted once.",
+          "combined_total_tokens": 7575440
+        },
+        "elapsed_seconds": 1829.01249,
+        "recorded_mutex_wait_seconds": 300.22374709999997,
+        "recorded_ue_execution_seconds": 239.5257958,
+        "finished_at_kst": "2026-10-22T00:17:52.0124900+09:00",
+        "dispatch_to_ready_seconds": 1882.01249,
+        "supervisor_ready_to_commit_seconds": 1829.98751
       }
     },
     {
@@ -3944,12 +5427,12 @@
       "theme": "MountainStation",
       "effort": "xhigh",
       "dispatched_at_utc": "2026-10-21T12:27:08Z",
-      "status": "texture_pass_working",
+      "status": "texture_pass_committed",
       "asset_root": "ForestDemo/Content/MountainStation/xhigh/",
       "map": "/Game/Maps/MountainStation_xhigh",
       "work_root": "ForestDemo/Work/MountainStation/xhigh/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/xhigh/",
-      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:11",
+      "cursor": "81ed4dca-5b09-4816-acb8-d68c335e26e0:12",
       "initial_turn_started_at_utc": "2026-10-21T12:27:13.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:24Z",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -4129,7 +5612,7 @@
         "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\MountainStation\\xhigh\\FirstDelivery"
       },
       "texture_pass": {
-        "status": "working",
+        "status": "committed",
         "token_usage_at_dispatch": {
           "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
           "parent_thread_id": null,
@@ -4421,8 +5904,8 @@
         "last_observed_worker_status": "working",
         "preliminary_supervisor_visual_review": {
           "reviewed_at_utc": "2026-10-21T15:05:01.8032111+00:00",
-          "accepted": false,
-          "status": "worker_still_active",
+          "accepted": true,
+          "status": "final_hashes_matched_and_committed",
           "images": [
             {
               "name": "overview",
@@ -4456,7 +5939,356 @@
           "uv_review_summary": "9 saved SourceModel/RenderData assemblies; 21 texture material bindings; 41 recursive packages with no foreign refs; 24,760 density samples, regular >=16pixel faces within 2%, RMS 255.998832-256.735335px/m. Source unfolded-island padding versus intentional modulo texture reuse explicitly limited; saved UE not exhaustive overlap/padding audit.",
           "terrain_sweep_verified_at_utc": "2026-10-21T15:10:04.5539402+00:00",
           "terrain_sweep_evidence": "runtime_validation.json 15:05:46Z: blocking=true, initial_overlap=false, positive distance385.436010cm, exact SM_Terrain; direct nonWP and final publication pending."
-        }
+        },
+        "non_wp_api_guidance_sent_at_utc": "2026-10-21T15:15:02.8329230+00:00",
+        "finished_at_utc": "2026-10-21T15:13:56.606004+00:00",
+        "finished_at_kst": "2026-10-22T00:13:56.606004+09:00",
+        "elapsed_seconds": 1613.606004,
+        "dispatch_to_ready_seconds": 1638.606004,
+        "commit_hash": "65f16249f1aacb3dee28b3c3f12b1c70b6207d63",
+        "commit_at_utc": "2026-10-21T15:20:33.0000000+00:00",
+        "commit_at_kst": "2026-10-22T00:20:33.0000000+09:00",
+        "commit_owned_file_count": 131,
+        "token_usage_at_second_delivery": {
+          "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:11.645Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:14:56.331Z",
+          "as_of_utc": "2026-10-21T15:20:33.0000000+00:00",
+          "input_tokens": 18605105,
+          "cached_input_tokens": 18208256,
+          "uncached_input_tokens": 396849,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 128884,
+          "reasoning_output_tokens": 46706,
+          "total_tokens": 18733989,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "counter_decreases": 0,
+            "verified": true,
+            "predating_events": 0,
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 139
+          },
+          "token_events_observed": 141,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+          ],
+          "theme": "MountainStation",
+          "effort": "xhigh",
+          "descendants": [
+            {
+              "thread_id": "01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2",
+              "parent_thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:34:55.302Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:23:26.149Z",
+              "as_of_utc": "2026-10-21T15:20:33.0000000+00:00",
+              "input_tokens": 1001257,
+              "cached_input_tokens": 906880,
+              "uncached_input_tokens": 94377,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1954,
+              "reasoning_output_tokens": 958,
+              "total_tokens": 1003211,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true,
+                "delta_mismatches": 0,
+                "changed_events": 16
+              },
+              "token_events_observed": 17,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-34-55-01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15ef3-cf4f-79c2-b6d3-96437a59a50b",
+              "parent_thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T14:53:19.136Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:10:46.491Z",
+              "as_of_utc": "2026-10-21T15:20:33.0000000+00:00",
+              "input_tokens": 195231,
+              "cached_input_tokens": 137216,
+              "uncached_input_tokens": 58015,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 752,
+              "reasoning_output_tokens": 376,
+              "total_tokens": 195983,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true,
+                "delta_mismatches": 0,
+                "changed_events": 4
+              },
+              "token_events_observed": 5,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T23-53-19-01a15ef3-cf4f-79c2-b6d3-96437a59a50b.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 2,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 1196488,
+              "cached_input_tokens": 1044096,
+              "uncached_input_tokens": 152392,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2706,
+              "reasoning_output_tokens": 1334,
+              "total_tokens": 1199194
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1196488,
+            "cached_input_tokens": 1044096,
+            "uncached_input_tokens": 152392,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2706,
+            "reasoning_output_tokens": 1334,
+            "total_tokens": 1199194,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 19801593,
+              "cached_input_tokens": 19252352,
+              "uncached_input_tokens": 549241,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 131590,
+              "reasoning_output_tokens": 48040,
+              "total_tokens": 19933183
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 19801593,
+            "cached_input_tokens": 19252352,
+            "uncached_input_tokens": 549241,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 131590,
+            "reasoning_output_tokens": 48040,
+            "total_tokens": 19933183,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "theme": "MountainStation",
+            "effort": "xhigh",
+            "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "xhigh"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
+            "input_tokens": 13796198,
+            "cached_input_tokens": 13517056,
+            "uncached_input_tokens": 279142,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 88660,
+            "reasoning_output_tokens": 34407,
+            "total_tokens": 13884858,
+            "token_events_observed": 107,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+            ]
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T13:47:24.0296557+00:00",
+          "as_of_first_commit": {
+            "descendants": [
+              {
+                "thread_id": "01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2",
+                "parent_thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:34:55.302Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:23:26.149Z",
+                "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
+                "input_tokens": 1001257,
+                "cached_input_tokens": 906880,
+                "uncached_input_tokens": 94377,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1954,
+                "reasoning_output_tokens": 958,
+                "total_tokens": 1003211,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "counter_decreases": 0,
+                  "verified": true,
+                  "predating_events": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "delta_mismatches": 0,
+                  "changed_events": 16
+                },
+                "token_events_observed": 17,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-34-55-01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2.jsonl"
+                ]
+              }
+            ],
+            "parent_usage": {
+              "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:11.645Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "xhigh"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
+              "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
+              "input_tokens": 13796198,
+              "cached_input_tokens": 13517056,
+              "uncached_input_tokens": 279142,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 88660,
+              "reasoning_output_tokens": 34407,
+              "total_tokens": 13884858,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "verified": true,
+                "predating_events": 0,
+                "first_total_equals_first_last_usage": true,
+                "delta_mismatches": 0,
+                "changed_events": 105
+              },
+              "token_events_observed": 107,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+              ]
+            },
+            "combined_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 14797455,
+                "cached_input_tokens": 14423936,
+                "uncached_input_tokens": 373519,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 90614,
+                "reasoning_output_tokens": 35365,
+                "total_tokens": 14888069
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 14797455,
+              "cached_input_tokens": 14423936,
+              "uncached_input_tokens": 373519,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 90614,
+              "reasoning_output_tokens": 35365,
+              "total_tokens": 14888069,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T13:46:25.0000000+00:00",
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "descendant_usage": {
+              "member_count": 1,
+              "known_subtotal": {
+                "input_tokens": 1001257,
+                "cached_input_tokens": 906880,
+                "uncached_input_tokens": 94377,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1954,
+                "reasoning_output_tokens": 958,
+                "total_tokens": 1003211
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 1001257,
+              "cached_input_tokens": 906880,
+              "uncached_input_tokens": 94377,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1954,
+              "reasoning_output_tokens": 958,
+              "total_tokens": 1003211,
+              "total_tokens_complete": true
+            }
+          }
+        },
+        "token_usage_frozen_at_utc": "2026-10-21T15:21:46.3791895+00:00",
+        "token_delta_since_dispatch": {
+          "parent_total_tokens": 4849131,
+          "combined_total_tokens": 5045114,
+          "method": "Same session IDs cumulative counters at/before second commit minus frozen dispatch cutoff; cache and reasoning are subsets, not added again"
+        },
+        "supervisor_ready_to_commit_seconds": 396.393996,
+        "recorded_mutex_wait_seconds": 254.6452246,
+        "recorded_ue_execution_seconds": 221.83689789999997,
+        "imagegen": {
+          "calls": 4,
+          "batch_wall_seconds": 96.743,
+          "sum_request_seconds": 250.796,
+          "overlap_seconds": 154.053
+        },
+        "validation_summary": "41 exact saved/private/published packages, own recursive references only, direct WorldSettings WorldPartition null; final 4PNG unchanged from direct supervisor view and exact initial cameras.9meshes21texture material bindings;552142source triangles exhaustive,523027saved render aggregates and24760density samples; original unbounded island padding>=8px and intentional texture reuse distinguished. Actual Pawn100cm,4positive nonoverlap blocking sweeps including terrain385.436cm, normalPIE and subsequent process exits0, direct HelloPNG.38FirstDelivery plus manifest preserved. Initial build abnormal exit disclosed; no final acceptance blocker."
       }
     },
     {
@@ -4465,12 +6297,12 @@
       "theme": "MountainStation",
       "effort": "ultra",
       "dispatched_at_utc": "2026-10-21T12:27:13Z",
-      "status": "texture_pass_working",
+      "status": "texture_pass_committed",
       "asset_root": "ForestDemo/Content/MountainStation/ultra/",
       "map": "/Game/Maps/MountainStation_ultra",
       "work_root": "ForestDemo/Work/MountainStation/ultra/",
       "scratch_root": "ForestDemo/Saved/Workers/MountainStation/ultra/",
-      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:15",
+      "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:16",
       "initial_turn_started_at_utc": "2026-10-21T12:27:17.000Z",
       "worker_started_at_utc": "2026-10-21T12:27:25.0000000+00:00",
       "runtime_followup_batch_completed_at_utc": "2026-10-21T12:45:58Z",
@@ -4853,7 +6685,7 @@
       "texture_pass": {
         "work_root": "ForestDemo/Work/MountainStation/ultra/TexturePass",
         "dispatch_prepared_at_utc": "2026-10-21T14:46:52Z",
-        "status": "working",
+        "status": "committed",
         "token_usage_at_dispatch": {
           "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
           "parent_thread_id": null,
@@ -5368,7 +7200,611 @@
         },
         "dispatched_at_utc": "2026-10-21T14:46:52Z",
         "worker_started_at_utc": "2026-10-21T14:47:11.7193941Z",
-        "last_observed_worker_status": "working"
+        "last_observed_worker_status": "working",
+        "non_wp_api_guidance_sent_at_utc": "2026-10-21T15:15:02.8329230+00:00",
+        "finished_at_utc": "2026-10-21T15:30:03.551119+00:00",
+        "finished_at_kst": "2026-10-22T00:30:03.551119+09:00",
+        "elapsed_seconds": 2571.831725,
+        "dispatch_to_ready_seconds": 2591.551119,
+        "commit_hash": "3e13e569b0e8725f4a9faaeee8e3d13ddf7b5737",
+        "commit_at_utc": "2026-10-21T15:36:44.0000000+00:00",
+        "commit_at_kst": "2026-10-22T00:36:44.0000000+09:00",
+        "ready_to_commit_seconds": 400.448881,
+        "validation_summary": {
+          "lod0_meshes": 47,
+          "source_triangles": 295218,
+          "ue_triangles_checked": 292072,
+          "source_charts": 154689,
+          "ue_charts_used": 154459,
+          "subtexel_triangles": 104520,
+          "world_area_m2": 24808.234198907012,
+          "world_area_fraction_outside_density_5_percent": 0.0008373106126202081,
+          "all_source_geometry_hashes_unchanged": true,
+          "actor_transforms_unchanged": true,
+          "foreign_game_dependencies": [],
+          "world_partition": null,
+          "pawn_blocking_tests": 3,
+          "ramp_sweeps": 8,
+          "material_instances": 48,
+          "texture_images": 5,
+          "published_files": 130,
+          "first_delivery_immutable_files": 82
+        },
+        "validation_limitations": [
+          "Terrain nonplanar quad density outliers: 0.191% of terrain area outside +/-5%.",
+          "Generated images are repeating 1254px NPOT detail sources, no mipmaps.",
+          "Solid lettering/clock/glass/lamp/tunnel backing exceptions; tiny faces can be below one texel.",
+          "Source/import triangle counts differ; source geometry hashes and all actor transforms preserved, no exact imported-triangle identity claim.",
+          "No package SHA collected at validation instant; publication private/published hashes match and file mtimes precede fresh validation.",
+          "Current pass verifies native Hello BeginPlay, not screen pixels."
+        ],
+        "recorded_mutex_wait_seconds": 186.28841029999998,
+        "recorded_ue_execution_seconds": 318.99238510000004,
+        "imagegen_timing": {
+          "summed_call_seconds": 949.0,
+          "wall_union_seconds": 208.0,
+          "overlap_seconds": 741.0
+        },
+        "token_usage_at_second_delivery": {
+          "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:31:09.502Z",
+          "as_of_utc": "2026-10-21T15:36:44.0000000+00:00",
+          "input_tokens": 30989248,
+          "cached_input_tokens": 30411264,
+          "uncached_input_tokens": 577984,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 212614,
+          "reasoning_output_tokens": 98205,
+          "total_tokens": 31201862,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "counter_decreases": 0,
+            "first_total_equals_first_last_usage": true,
+            "predating_events": 0,
+            "changed_events": 235,
+            "delta_mismatches": 0,
+            "verified": true
+          },
+          "token_events_observed": 240,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+          ],
+          "effective_cutoff_utc": "2026-10-21T15:36:44.0000000+00:00",
+          "comparison_accounting_cutoff_utc": "2026-10-21T15:37:23.4631689+00:00",
+          "theme": "MountainStation",
+          "effort": "ultra",
+          "descendants": [
+            {
+              "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+              "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:37:22.404Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
+              "as_of_utc": "2026-10-21T15:36:44.0000000+00:00",
+              "input_tokens": 531790,
+              "cached_input_tokens": 444800,
+              "uncached_input_tokens": 86990,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1145,
+              "reasoning_output_tokens": 468,
+              "total_tokens": 532935,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0,
+                "changed_events": 9,
+                "delta_mismatches": 0,
+                "verified": true
+              },
+              "token_events_observed": 10,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-37-22-01a15e77-5901-7450-9773-116405f2d33c.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+              "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T13:42:46.008Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:14:35.195Z",
+              "as_of_utc": "2026-10-21T15:36:44.0000000+00:00",
+              "input_tokens": 780622,
+              "cached_input_tokens": 508160,
+              "uncached_input_tokens": 272462,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1631,
+              "reasoning_output_tokens": 830,
+              "total_tokens": 782253,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0,
+                "changed_events": 11,
+                "delta_mismatches": 0,
+                "verified": true
+              },
+              "token_events_observed": 12,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15f0c-c702-7c11-b202-9433a4aa9255",
+              "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T15:20:35.419Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:27:20.518Z",
+              "as_of_utc": "2026-10-21T15:36:44.0000000+00:00",
+              "input_tokens": 151994,
+              "cached_input_tokens": 98944,
+              "uncached_input_tokens": 53050,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 424,
+              "reasoning_output_tokens": 163,
+              "total_tokens": 152418,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0,
+                "changed_events": 3,
+                "delta_mismatches": 0,
+                "verified": true
+              },
+              "token_events_observed": 4,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-22T00-20-35-01a15f0c-c702-7c11-b202-9433a4aa9255.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 3,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 1464406,
+              "cached_input_tokens": 1051904,
+              "uncached_input_tokens": 412502,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3200,
+              "reasoning_output_tokens": 1461,
+              "total_tokens": 1467606
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1464406,
+            "cached_input_tokens": 1051904,
+            "uncached_input_tokens": 412502,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3200,
+            "reasoning_output_tokens": 1461,
+            "total_tokens": 1467606,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 4,
+            "known_subtotal": {
+              "input_tokens": 32453654,
+              "cached_input_tokens": 31463168,
+              "uncached_input_tokens": 990486,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 215814,
+              "reasoning_output_tokens": 99666,
+              "total_tokens": 32669468
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 32453654,
+            "cached_input_tokens": 31463168,
+            "uncached_input_tokens": 990486,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 215814,
+            "reasoning_output_tokens": 99666,
+            "total_tokens": 32669468,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+            "parent_thread_id": null,
+            "thread_source": "agent_created_thread",
+            "accounting_category": "configured_parent",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "ultra"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
+            "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+            "input_tokens": 22933853,
+            "cached_input_tokens": 22552704,
+            "uncached_input_tokens": 381149,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 153992,
+            "reasoning_output_tokens": 72143,
+            "total_tokens": 23087845,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "verified": true,
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 176,
+              "delta_mismatches": 0
+            },
+            "token_events_observed": 180,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+            ],
+            "theme": "MountainStation",
+            "effort": "ultra",
+            "descendants": [
+              {
+                "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:37:22.404Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 531790,
+                "cached_input_tokens": 444800,
+                "uncached_input_tokens": 86990,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1145,
+                "reasoning_output_tokens": 468,
+                "total_tokens": 532935,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "verified": true,
+                  "predating_events": 0,
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "changed_events": 9,
+                  "delta_mismatches": 0
+                },
+                "token_events_observed": 10,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-37-22-01a15e77-5901-7450-9773-116405f2d33c.jsonl"
+                ]
+              },
+              {
+                "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T13:42:46.008Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T14:37:37.102Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 403170,
+                "cached_input_tokens": 331264,
+                "uncached_input_tokens": 71906,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1086,
+                "reasoning_output_tokens": 551,
+                "total_tokens": 404256,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "verified": true,
+                  "predating_events": 0,
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "changed_events": 7,
+                  "delta_mismatches": 0
+                },
+                "token_events_observed": 8,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
+                ]
+              }
+            ],
+            "descendant_category_counts": {
+              "delegated_subagent": 0,
+              "automatic_approval_review": 2
+            },
+            "descendant_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 934960,
+                "cached_input_tokens": 776064,
+                "uncached_input_tokens": 158896,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 2231,
+                "reasoning_output_tokens": 1019,
+                "total_tokens": 937191
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 934960,
+              "cached_input_tokens": 776064,
+              "uncached_input_tokens": 158896,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2231,
+              "reasoning_output_tokens": 1019,
+              "total_tokens": 937191,
+              "total_tokens_complete": true
+            },
+            "combined_usage": {
+              "member_count": 3,
+              "known_subtotal": {
+                "input_tokens": 23868813,
+                "cached_input_tokens": 23328768,
+                "uncached_input_tokens": 540045,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 156223,
+                "reasoning_output_tokens": 73162,
+                "total_tokens": 24025036
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 23868813,
+              "cached_input_tokens": 23328768,
+              "uncached_input_tokens": 540045,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 156223,
+              "reasoning_output_tokens": 73162,
+              "total_tokens": 24025036,
+              "total_tokens_complete": true
+            },
+            "frozen_parent_usage": null,
+            "frozen_parent_captured_at_utc": null,
+            "as_of_first_commit": null
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T14:45:15.4825369+00:00",
+          "as_of_first_commit": {
+            "descendants": [
+              {
+                "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:37:22.404Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 531790,
+                "cached_input_tokens": 444800,
+                "uncached_input_tokens": 86990,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1145,
+                "reasoning_output_tokens": 468,
+                "total_tokens": 532935,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "predating_events": 0,
+                  "changed_events": 9,
+                  "delta_mismatches": 0,
+                  "verified": true
+                },
+                "token_events_observed": 10,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-37-22-01a15e77-5901-7450-9773-116405f2d33c.jsonl"
+                ]
+              },
+              {
+                "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T13:42:46.008Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T14:37:37.102Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 403170,
+                "cached_input_tokens": 331264,
+                "uncached_input_tokens": 71906,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1086,
+                "reasoning_output_tokens": 551,
+                "total_tokens": 404256,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "predating_events": 0,
+                  "changed_events": 7,
+                  "delta_mismatches": 0,
+                  "verified": true
+                },
+                "token_events_observed": 8,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
+                ]
+              }
+            ],
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "descendant_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 934960,
+                "cached_input_tokens": 776064,
+                "uncached_input_tokens": 158896,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 2231,
+                "reasoning_output_tokens": 1019,
+                "total_tokens": 937191
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 934960,
+              "cached_input_tokens": 776064,
+              "uncached_input_tokens": 158896,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2231,
+              "reasoning_output_tokens": 1019,
+              "total_tokens": 937191,
+              "total_tokens_complete": true
+            },
+            "parent_usage": {
+              "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "ultra"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
+              "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+              "input_tokens": 22933853,
+              "cached_input_tokens": 22552704,
+              "uncached_input_tokens": 381149,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 153992,
+              "reasoning_output_tokens": 72143,
+              "total_tokens": 23087845,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0,
+                "changed_events": 176,
+                "delta_mismatches": 0,
+                "verified": true
+              },
+              "token_events_observed": 180,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+              ]
+            },
+            "cutoff_utc": "2026-10-21T14:43:03.0000000+00:00",
+            "combined_usage": {
+              "member_count": 3,
+              "known_subtotal": {
+                "input_tokens": 23868813,
+                "cached_input_tokens": 23328768,
+                "uncached_input_tokens": 540045,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 156223,
+                "reasoning_output_tokens": 73162,
+                "total_tokens": 24025036
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 23868813,
+              "cached_input_tokens": 23328768,
+              "uncached_input_tokens": 540045,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 156223,
+              "reasoning_output_tokens": 73162,
+              "total_tokens": 24025036,
+              "total_tokens_complete": true
+            }
+          }
+        },
+        "token_usage_snapshot_utc": "2026-10-21T15:39:05.5036774+00:00",
+        "token_usage_delta_since_dispatch": {
+          "combined_total_tokens": 8644432,
+          "parent_total_tokens": 8114017
+        },
+        "token_usage_as_of_utc": "2026-10-21T15:36:44Z"
       }
     }
   ],
@@ -5405,7 +7841,7 @@
     ]
   },
   "mountain_station_texture_pass": {
-    "status": "dispatched",
+    "status": "two_second_deliveries_committed_others_pending",
     "dispatched_efforts": [
       "medium",
       "high",
@@ -5424,6 +7860,10 @@
     "completed_initial_efforts": [
       "medium",
       "high",
+      "xhigh",
+      "ultra"
+    ],
+    "committed_efforts": [
       "xhigh",
       "ultra"
     ]
@@ -5473,24 +7913,29 @@
     "xhigh_utc_notation_verified": true
   },
   "ultra_self_improvement": {
-    "status": "waiting_for_all_current_work",
+    "status": "both_ultra_dispatched_remaining_comparison_independent",
     "user_authorized_at_observed_utc": "2026-10-21T15:01:04.9688409+00:00",
     "report": "ForestDemo/Work/ULTRA_IMPROVEMENT.md",
     "accounting_root": "ForestDemo/Work/UltraImprovementAccounting",
     "prerequisites": [
-      "All eight initial deliveries and eight second passes verified and individually committed",
-      "All current required corrective work complete",
-      "Final eight-map integration committed and reload/dependency validation complete",
-      "SUPERVISION comparison, actual screenshots, timings and token/descendant accounting finalized and committed",
-      "Comparison report, referenced evidence and token snapshot frozen before dispatch"
+      "Each ultra: own first and texture deliveries verified and committed",
+      "Each ultra: own comparison content/evidence and token boundary preserved before edits",
+      "Other efforts and final comparison integration may continue independently per latest user overrides"
     ],
-    "dispatch_policy": "Once, only to the two existing ultra chats after every prerequisite; keep current model and ultra effort; no new chats or assignments to medium/high/xhigh",
+    "dispatch_policy": "Each existing ultra chat may begin after its own comparison delivery baseline is preserved and committed. Neither waits for other efforts or final integration; latest human instructions override earlier all-work gate.",
     "comparison_freeze": {
-      "status": "pending_current_comparison_completion",
+      "status": "both_ultra_evidence_and_accounting_frozen_remaining_station_comparison_pending",
       "report": "ForestDemo/Work/SUPERVISION.md",
       "token_snapshot": "ForestDemo/Work/token_usage.json",
       "protect_referenced_images": true,
-      "future_token_collection": "Update-TokenUsage.ps1 -NoWrite; save separate snapshots in UltraImprovementAccounting; never overwrite comparison outputs"
+      "future_token_collection": "Default comparison collection honors per-job cutoffs. Improvement snapshots must use -NoWrite -IgnoreComparisonCutoffs into UltraImprovementAccounting. After full report frozen, all comparison writes forbidden.",
+      "forest_boundary_utc": "2026-10-21T15:28:19.9150287+00:00",
+      "forest_evidence_manifest": "ForestDemo/Work/UltraImprovementAccounting/forest_comparison_evidence_freeze.json",
+      "forest_content_baseline_commit": "65f16249f1aacb3dee28b3c3f12b1c70b6207d63",
+      "evidence_byte_preservation_commit": "9eb27078afedfc1e236d81d7b3d0760d958ace42",
+      "station_ultra_boundary_utc": "2026-10-21T15:37:23.4631689+00:00",
+      "station_ultra_evidence_manifest": "ForestDemo/Work/UltraImprovementAccounting/station_comparison_evidence_freeze.json",
+      "station_ultra_content_baseline_commit": "3e13e569b0e8725f4a9faaeee8e3d13ddf7b5737"
     },
     "jobs": [
       {
@@ -5498,20 +7943,918 @@
         "effort": "ultra",
         "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
         "hostId": "local",
-        "status": "pending_dispatch",
+        "status": "working",
         "work_root": "ForestDemo/Work/ultra/SelfImprovement",
         "asset_root": "ForestDemo/Content/Forest/ultra",
-        "map": "ForestDemo/Content/Maps/ultra.umap"
+        "map": "ForestDemo/Content/Maps/ultra.umap",
+        "token_baseline_path": "ForestDemo/Work/UltraImprovementAccounting/forest_baseline.json",
+        "baseline_at_utc": "2026-10-21T15:28:19.9150287+00:00",
+        "content_baseline_commit": "65f16249f1aacb3dee28b3c3f12b1c70b6207d63",
+        "required_improvement": "Replace existing broadleaf trees with migrated BP_AnimeFoliageTree and its required owned dependencies; preserve faithful tree rendering/runtime behavior.",
+        "comparison_token_baseline": {
+          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:52.020Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T14:37:21.513Z",
+          "as_of_utc": "2026-10-21T15:28:19.9150287+00:00",
+          "input_tokens": 23492859,
+          "cached_input_tokens": 22868992,
+          "uncached_input_tokens": 623867,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 141778,
+          "reasoning_output_tokens": 57167,
+          "total_tokens": 23634637,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "delta_mismatches": 0,
+            "verified": true,
+            "predating_events": 0,
+            "changed_events": 176,
+            "counter_decreases": 0,
+            "first_total_equals_first_last_usage": true
+          },
+          "token_events_observed": 178,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+          ],
+          "theme": "Forest",
+          "effort": "ultra",
+          "descendants": [
+            {
+              "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
+              "parent_thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:17:32.497Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:01:36.132Z",
+              "as_of_utc": "2026-10-21T15:28:19.9150287+00:00",
+              "input_tokens": 892388,
+              "cached_input_tokens": 781568,
+              "uncached_input_tokens": 110820,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1785,
+              "reasoning_output_tokens": 809,
+              "total_tokens": 894173,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "verified": true,
+                "predating_events": 0,
+                "changed_events": 14,
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 15,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-17-32-01a15e65-30e8-75b0-a740-783f8b4e90b0.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15ebf-e499-7163-a7bf-4f30c8714975",
+              "parent_thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T13:56:36.745Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T14:34:56.060Z",
+              "as_of_utc": "2026-10-21T15:28:19.9150287+00:00",
+              "input_tokens": 543365,
+              "cached_input_tokens": 452992,
+              "uncached_input_tokens": 90373,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1034,
+              "reasoning_output_tokens": 413,
+              "total_tokens": 544399,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "verified": true,
+                "predating_events": 0,
+                "changed_events": 8,
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 9,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T22-56-36-01a15ebf-e499-7163-a7bf-4f30c8714975.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 2,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 2,
+            "known_subtotal": {
+              "input_tokens": 1435753,
+              "cached_input_tokens": 1234560,
+              "uncached_input_tokens": 201193,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2819,
+              "reasoning_output_tokens": 1222,
+              "total_tokens": 1438572
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1435753,
+            "cached_input_tokens": 1234560,
+            "uncached_input_tokens": 201193,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2819,
+            "reasoning_output_tokens": 1222,
+            "total_tokens": 1438572,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 24928612,
+              "cached_input_tokens": 24103552,
+              "uncached_input_tokens": 825060,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 144597,
+              "reasoning_output_tokens": 58389,
+              "total_tokens": 25073209
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 24928612,
+            "cached_input_tokens": 24103552,
+            "uncached_input_tokens": 825060,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 144597,
+            "reasoning_output_tokens": 58389,
+            "total_tokens": 25073209,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "theme": "Forest",
+            "effort": "ultra",
+            "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "ultra"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+            "input_tokens": 13293778,
+            "cached_input_tokens": 13070080,
+            "uncached_input_tokens": 223698,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 83318,
+            "reasoning_output_tokens": 34128,
+            "total_tokens": 13377096,
+            "token_events_observed": 95,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+            ]
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T13:12:54.7320007+00:00",
+          "as_of_first_commit": {
+            "combined_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 14186166,
+                "cached_input_tokens": 13851648,
+                "uncached_input_tokens": 334518,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 85103,
+                "reasoning_output_tokens": 34937,
+                "total_tokens": 14271269
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 14186166,
+              "cached_input_tokens": 13851648,
+              "uncached_input_tokens": 334518,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 85103,
+              "reasoning_output_tokens": 34937,
+              "total_tokens": 14271269,
+              "total_tokens_complete": true
+            },
+            "parent_usage": {
+              "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:11:52.020Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "ultra"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+              "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
+              "input_tokens": 13293778,
+              "cached_input_tokens": 13070080,
+              "uncached_input_tokens": 223698,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 83318,
+              "reasoning_output_tokens": 34128,
+              "total_tokens": 13377096,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "delta_mismatches": 0,
+                "verified": true,
+                "predating_events": 0,
+                "changed_events": 94,
+                "counter_decreases": 0,
+                "first_total_equals_first_last_usage": true
+              },
+              "token_events_observed": 95,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+              ]
+            },
+            "descendants": [
+              {
+                "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
+                "parent_thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:17:32.497Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:01:36.132Z",
+                "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
+                "input_tokens": 892388,
+                "cached_input_tokens": 781568,
+                "uncached_input_tokens": 110820,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1785,
+                "reasoning_output_tokens": 809,
+                "total_tokens": 894173,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "delta_mismatches": 0,
+                  "verified": true,
+                  "predating_events": 0,
+                  "changed_events": 14,
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true
+                },
+                "token_events_observed": 15,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-17-32-01a15e65-30e8-75b0-a740-783f8b4e90b0.jsonl"
+                ]
+              }
+            ],
+            "descendant_usage": {
+              "member_count": 1,
+              "known_subtotal": {
+                "input_tokens": 892388,
+                "cached_input_tokens": 781568,
+                "uncached_input_tokens": 110820,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1785,
+                "reasoning_output_tokens": 809,
+                "total_tokens": 894173
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 892388,
+              "cached_input_tokens": 781568,
+              "uncached_input_tokens": 110820,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1785,
+              "reasoning_output_tokens": 809,
+              "total_tokens": 894173,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T13:10:53.0000000+00:00",
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement."
+          }
+        },
+        "dispatch_acknowledged_at_utc": "2026-10-21T15:31:17.5624854+00:00",
+        "dispatch_acknowledged_at_kst": "2026-10-22T00:31:17.5656318+09:00",
+        "dispatch_count": 1,
+        "dispatch_details": "Explicit existing-chat continuation with original model/ultra; import specified TunaSweeper BP and preserve required native/rendering behavior; no worker shared changes or Git.",
+        "worker_turn_started_at_utc": "2026-10-21T15:30:23.0000000+00:00",
+        "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:19",
+        "worker_started_at_utc": "2026-10-21T15:30:53Z",
+        "requires_native_integration": true
       },
       {
         "theme": "MountainStation",
         "effort": "ultra",
         "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
         "hostId": "local",
-        "status": "pending_dispatch",
+        "status": "working",
         "work_root": "ForestDemo/Work/MountainStation/ultra/SelfImprovement",
         "asset_root": "ForestDemo/Content/MountainStation/ultra",
-        "map": "ForestDemo/Content/Maps/MountainStation_ultra.umap"
+        "map": "ForestDemo/Content/Maps/MountainStation_ultra.umap",
+        "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:18",
+        "content_baseline_commit": "3e13e569b0e8725f4a9faaeee8e3d13ddf7b5737",
+        "token_baseline_path": "ForestDemo/Work/UltraImprovementAccounting/station_baseline.json",
+        "baseline_at_utc": "2026-10-21T15:37:23.4631689+00:00",
+        "comparison_token_baseline": {
+          "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T15:31:09.502Z",
+          "as_of_utc": "2026-10-21T15:37:23.4631689+00:00",
+          "input_tokens": 30989248,
+          "cached_input_tokens": 30411264,
+          "uncached_input_tokens": 577984,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 212614,
+          "reasoning_output_tokens": 98205,
+          "total_tokens": 31201862,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "verified": true,
+            "counter_decreases": 0,
+            "delta_mismatches": 0,
+            "changed_events": 235,
+            "first_total_equals_first_last_usage": true,
+            "predating_events": 0
+          },
+          "token_events_observed": 240,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+          ],
+          "effective_cutoff_utc": "2026-10-21T15:37:23.4631689+00:00",
+          "comparison_accounting_cutoff_utc": null,
+          "theme": "MountainStation",
+          "effort": "ultra",
+          "descendants": [
+            {
+              "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+              "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:37:22.404Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
+              "as_of_utc": "2026-10-21T15:37:23.4631689+00:00",
+              "input_tokens": 531790,
+              "cached_input_tokens": 444800,
+              "uncached_input_tokens": 86990,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1145,
+              "reasoning_output_tokens": 468,
+              "total_tokens": 532935,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "verified": true,
+                "counter_decreases": 0,
+                "delta_mismatches": 0,
+                "changed_events": 9,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0
+              },
+              "token_events_observed": 10,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-37-22-01a15e77-5901-7450-9773-116405f2d33c.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+              "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T13:42:46.008Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:14:35.195Z",
+              "as_of_utc": "2026-10-21T15:37:23.4631689+00:00",
+              "input_tokens": 780622,
+              "cached_input_tokens": 508160,
+              "uncached_input_tokens": 272462,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 1631,
+              "reasoning_output_tokens": 830,
+              "total_tokens": 782253,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "verified": true,
+                "counter_decreases": 0,
+                "delta_mismatches": 0,
+                "changed_events": 11,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0
+              },
+              "token_events_observed": 12,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
+              ]
+            },
+            {
+              "thread_id": "01a15f0c-c702-7c11-b202-9433a4aa9255",
+              "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "thread_source": "guardian_review",
+              "accounting_category": "automatic_approval_review",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T15:20:35.419Z",
+              "observed_models": [
+                "codex-auto-review"
+              ],
+              "observed_efforts": [
+                "low"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T15:27:20.518Z",
+              "as_of_utc": "2026-10-21T15:37:23.4631689+00:00",
+              "input_tokens": 151994,
+              "cached_input_tokens": 98944,
+              "uncached_input_tokens": 53050,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 424,
+              "reasoning_output_tokens": 163,
+              "total_tokens": 152418,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "verified": true,
+                "counter_decreases": 0,
+                "delta_mismatches": 0,
+                "changed_events": 3,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0
+              },
+              "token_events_observed": 4,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-22T00-20-35-01a15f0c-c702-7c11-b202-9433a4aa9255.jsonl"
+              ]
+            }
+          ],
+          "descendant_category_counts": {
+            "automatic_approval_review": 3,
+            "delegated_subagent": 0
+          },
+          "descendant_usage": {
+            "member_count": 3,
+            "known_subtotal": {
+              "input_tokens": 1464406,
+              "cached_input_tokens": 1051904,
+              "uncached_input_tokens": 412502,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3200,
+              "reasoning_output_tokens": 1461,
+              "total_tokens": 1467606
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 1464406,
+            "cached_input_tokens": 1051904,
+            "uncached_input_tokens": 412502,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3200,
+            "reasoning_output_tokens": 1461,
+            "total_tokens": 1467606,
+            "total_tokens_complete": true
+          },
+          "combined_usage": {
+            "member_count": 4,
+            "known_subtotal": {
+              "input_tokens": 32453654,
+              "cached_input_tokens": 31463168,
+              "uncached_input_tokens": 990486,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 215814,
+              "reasoning_output_tokens": 99666,
+              "total_tokens": 32669468
+            },
+            "unknown_thread_ids": [],
+            "input_tokens": 32453654,
+            "cached_input_tokens": 31463168,
+            "uncached_input_tokens": 990486,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 215814,
+            "reasoning_output_tokens": 99666,
+            "total_tokens": 32669468,
+            "total_tokens_complete": true
+          },
+          "frozen_parent_usage": {
+            "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+            "parent_thread_id": null,
+            "thread_source": "agent_created_thread",
+            "accounting_category": "configured_parent",
+            "agent_path": null,
+            "forked_from_id": null,
+            "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+            "observed_models": [
+              "gpt-6-astra"
+            ],
+            "observed_efforts": [
+              "ultra"
+            ],
+            "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
+            "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+            "input_tokens": 22933853,
+            "cached_input_tokens": 22552704,
+            "uncached_input_tokens": 381149,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 153992,
+            "reasoning_output_tokens": 72143,
+            "total_tokens": 23087845,
+            "accounting_eligible": true,
+            "child_local_evidence": {
+              "verified": true,
+              "predating_events": 0,
+              "counter_decreases": 0,
+              "first_total_equals_first_last_usage": true,
+              "changed_events": 176,
+              "delta_mismatches": 0
+            },
+            "token_events_observed": 180,
+            "duplicate_snapshots_removed": 0,
+            "incomplete_metadata_lines": 0,
+            "issues": [],
+            "source_files": [
+              "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+            ],
+            "theme": "MountainStation",
+            "effort": "ultra",
+            "descendants": [
+              {
+                "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:37:22.404Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 531790,
+                "cached_input_tokens": 444800,
+                "uncached_input_tokens": 86990,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1145,
+                "reasoning_output_tokens": 468,
+                "total_tokens": 532935,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "verified": true,
+                  "predating_events": 0,
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "changed_events": 9,
+                  "delta_mismatches": 0
+                },
+                "token_events_observed": 10,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-37-22-01a15e77-5901-7450-9773-116405f2d33c.jsonl"
+                ]
+              },
+              {
+                "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T13:42:46.008Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T14:37:37.102Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 403170,
+                "cached_input_tokens": 331264,
+                "uncached_input_tokens": 71906,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1086,
+                "reasoning_output_tokens": 551,
+                "total_tokens": 404256,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "verified": true,
+                  "predating_events": 0,
+                  "counter_decreases": 0,
+                  "first_total_equals_first_last_usage": true,
+                  "changed_events": 7,
+                  "delta_mismatches": 0
+                },
+                "token_events_observed": 8,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
+                ]
+              }
+            ],
+            "descendant_category_counts": {
+              "delegated_subagent": 0,
+              "automatic_approval_review": 2
+            },
+            "descendant_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 934960,
+                "cached_input_tokens": 776064,
+                "uncached_input_tokens": 158896,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 2231,
+                "reasoning_output_tokens": 1019,
+                "total_tokens": 937191
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 934960,
+              "cached_input_tokens": 776064,
+              "uncached_input_tokens": 158896,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2231,
+              "reasoning_output_tokens": 1019,
+              "total_tokens": 937191,
+              "total_tokens_complete": true
+            },
+            "combined_usage": {
+              "member_count": 3,
+              "known_subtotal": {
+                "input_tokens": 23868813,
+                "cached_input_tokens": 23328768,
+                "uncached_input_tokens": 540045,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 156223,
+                "reasoning_output_tokens": 73162,
+                "total_tokens": 24025036
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 23868813,
+              "cached_input_tokens": 23328768,
+              "uncached_input_tokens": 540045,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 156223,
+              "reasoning_output_tokens": 73162,
+              "total_tokens": 24025036,
+              "total_tokens_complete": true
+            },
+            "frozen_parent_usage": null,
+            "frozen_parent_captured_at_utc": null,
+            "as_of_first_commit": null
+          },
+          "frozen_parent_captured_at_utc": "2026-10-21T14:45:15.4825369+00:00",
+          "as_of_first_commit": {
+            "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+            "parent_usage": {
+              "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+              "parent_thread_id": null,
+              "thread_source": "agent_created_thread",
+              "accounting_category": "configured_parent",
+              "agent_path": null,
+              "forked_from_id": null,
+              "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+              "observed_models": [
+                "gpt-6-astra"
+              ],
+              "observed_efforts": [
+                "ultra"
+              ],
+              "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
+              "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+              "input_tokens": 22933853,
+              "cached_input_tokens": 22552704,
+              "uncached_input_tokens": 381149,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 153992,
+              "reasoning_output_tokens": 72143,
+              "total_tokens": 23087845,
+              "accounting_eligible": true,
+              "child_local_evidence": {
+                "verified": true,
+                "counter_decreases": 0,
+                "delta_mismatches": 0,
+                "changed_events": 176,
+                "first_total_equals_first_last_usage": true,
+                "predating_events": 0
+              },
+              "token_events_observed": 180,
+              "duplicate_snapshots_removed": 0,
+              "incomplete_metadata_lines": 0,
+              "issues": [],
+              "source_files": [
+                "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+              ]
+            },
+            "descendant_usage": {
+              "member_count": 2,
+              "known_subtotal": {
+                "input_tokens": 934960,
+                "cached_input_tokens": 776064,
+                "uncached_input_tokens": 158896,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 2231,
+                "reasoning_output_tokens": 1019,
+                "total_tokens": 937191
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 934960,
+              "cached_input_tokens": 776064,
+              "uncached_input_tokens": 158896,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 2231,
+              "reasoning_output_tokens": 1019,
+              "total_tokens": 937191,
+              "total_tokens_complete": true
+            },
+            "descendants": [
+              {
+                "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T12:37:22.404Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T13:28:01.125Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 531790,
+                "cached_input_tokens": 444800,
+                "uncached_input_tokens": 86990,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1145,
+                "reasoning_output_tokens": 468,
+                "total_tokens": 532935,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "verified": true,
+                  "counter_decreases": 0,
+                  "delta_mismatches": 0,
+                  "changed_events": 9,
+                  "first_total_equals_first_last_usage": true,
+                  "predating_events": 0
+                },
+                "token_events_observed": 10,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T21-37-22-01a15e77-5901-7450-9773-116405f2d33c.jsonl"
+                ]
+              },
+              {
+                "thread_id": "01a15eb3-3743-7693-b560-c3c3534b0290",
+                "parent_thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+                "thread_source": "guardian_review",
+                "accounting_category": "automatic_approval_review",
+                "agent_path": null,
+                "forked_from_id": null,
+                "session_created_at_utc": "2026-10-21T13:42:46.008Z",
+                "observed_models": [
+                  "codex-auto-review"
+                ],
+                "observed_efforts": [
+                  "low"
+                ],
+                "usage_recorded_at_utc": "2026-10-21T14:37:37.102Z",
+                "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+                "input_tokens": 403170,
+                "cached_input_tokens": 331264,
+                "uncached_input_tokens": 71906,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 1086,
+                "reasoning_output_tokens": 551,
+                "total_tokens": 404256,
+                "accounting_eligible": true,
+                "child_local_evidence": {
+                  "verified": true,
+                  "counter_decreases": 0,
+                  "delta_mismatches": 0,
+                  "changed_events": 7,
+                  "first_total_equals_first_last_usage": true,
+                  "predating_events": 0
+                },
+                "token_events_observed": 8,
+                "duplicate_snapshots_removed": 0,
+                "incomplete_metadata_lines": 0,
+                "issues": [],
+                "source_files": [
+                  "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
+                ]
+              }
+            ],
+            "combined_usage": {
+              "member_count": 3,
+              "known_subtotal": {
+                "input_tokens": 23868813,
+                "cached_input_tokens": 23328768,
+                "uncached_input_tokens": 540045,
+                "cache_write_input_tokens": 0,
+                "output_tokens": 156223,
+                "reasoning_output_tokens": 73162,
+                "total_tokens": 24025036
+              },
+              "unknown_thread_ids": [],
+              "input_tokens": 23868813,
+              "cached_input_tokens": 23328768,
+              "uncached_input_tokens": 540045,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 156223,
+              "reasoning_output_tokens": 73162,
+              "total_tokens": 24025036,
+              "total_tokens_complete": true
+            },
+            "cutoff_utc": "2026-10-21T14:43:03.0000000+00:00"
+          }
+        },
+        "dispatch_count": 1,
+        "dispatch_acknowledged_at_utc": "2026-10-21T15:39:11.1305779+00:00",
+        "dispatch_details": "Existing ultra chat explicit finite SelfImprovement; own texture baseline committed; no wait for others; no external tree reuse.",
+        "worker_started_at_utc": "2026-10-21T15:38:54+00:00"
       }
     ],
     "requirements": [
@@ -5522,6 +8865,127 @@
       "Supervisor alone commits per theme and final separate report; no autonomous worker Git",
       "Finite follow-up; no endless loop"
     ],
-    "completion_policy": "After both ultra improvements are reviewed and individually committed and ULTRA_IMPROVEMENT.md finalized/committed, report once and pause existing heartbeat"
-  }
+    "completion_policy": "After both ultra improvements are reviewed and individually committed and ULTRA_IMPROVEMENT.md finalized/committed, report once and pause existing heartbeat",
+    "latest_user_override": {
+      "observed_at_utc": "2026-10-21T15:29:18.8762018+00:00",
+      "request": "Start Forest ultra now; import BP_AnimeFoliageTree from ../extraction_shooter/TunaSweeper to replace broadleaf trees. Forest no longer waits for Station or final comparison integration.",
+      "external_asset_source": "D:/github/extraction_shooter/TunaSweeper/Content/Environment/AnimeTree/BP_AnimeFoliageTree.uasset",
+      "source_read_only": true,
+      "scope": "Forest ultra only; required asset/native dependencies may be inspected and copied into owned scratch. Shared support changes remain supervisor-owned."
+    },
+    "latest_station_override": {
+      "observed_at_utc": "2026-10-21T15:34:30.9217812+00:00",
+      "request": "MountainStation ultra may also proceed now",
+      "scope": "Station ultra finite self-improvement after preserving own just-submitted texture comparison result; no external tree transfer authorization"
+    },
+    "policy_location": {
+      "updated_at_utc": "2026-10-21T16:01:36.4658404+00:00",
+      "migration_authorization_unchanged": true,
+      "migration_instruction_scope": "This coordinating conversation, coordination.json and task heartbeat only",
+      "reason": "User clarified only the specific BP_AnimeFoliageTree migration instruction must be excluded from repository/global AGENTS.md. General self-improvement coordination rules remain."
+    }
+  },
+  "final_integration_world_partition_check": {
+    "source_verified_at_utc": "2026-10-21T15:15:02.8329230+00:00",
+    "method": "world.get_world_settings().get_editor_property('world_partition')",
+    "source": "UE5.7 WorldSettings.h515-516 reflected TObjectPtr; World.h2831-2832 ScriptName GetWorldSettings",
+    "runtime_verified": true,
+    "requirements": "Record exact loaded world map; assert pointer is None; do not convert property exception to None",
+    "sent_to": "All four currently active MountainStation texture workers; include in existing final reload",
+    "verified_jobs": [
+      "MountainStation/medium",
+      "MountainStation/xhigh"
+    ]
+  },
+  "comparison_token_cutoffs": [
+    {
+      "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+      "theme": "Forest",
+      "effort": "medium",
+      "as_of_utc": "2026-10-21T15:28:19.9150287+00:00"
+    },
+    {
+      "threadId": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+      "theme": "Forest",
+      "effort": "high",
+      "as_of_utc": "2026-10-21T15:28:19.9150287+00:00"
+    },
+    {
+      "threadId": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+      "theme": "Forest",
+      "effort": "xhigh",
+      "as_of_utc": "2026-10-21T15:28:19.9150287+00:00"
+    },
+    {
+      "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+      "theme": "Forest",
+      "effort": "ultra",
+      "as_of_utc": "2026-10-21T15:28:19.9150287+00:00"
+    },
+    {
+      "threadId": "01a15e52-9373-7cb3-884e-eda6747350f2",
+      "theme": "Supervisor",
+      "effort": "separate",
+      "as_of_utc": "2026-10-21T15:28:19.9150287+00:00"
+    },
+    {
+      "theme": "MountainStation",
+      "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+      "as_of_utc": "2026-10-21T15:37:23.4631689+00:00",
+      "effort": "ultra"
+    },
+    {
+      "theme": "MountainStation",
+      "effort": "medium",
+      "as_of_utc": "2026-10-21T15:54:25Z",
+      "threadId": "01a15e6d-dfb3-7341-acd9-f1785bab245e"
+    },
+    {
+      "theme": "MountainStation",
+      "effort": "high",
+      "as_of_utc": "2026-10-21T15:48:22Z",
+      "threadId": "01a15e6d-f1ff-76c1-941c-93b1378d7351"
+    },
+    {
+      "theme": "MountainStation",
+      "effort": "xhigh",
+      "as_of_utc": "2026-10-21T15:20:33.0000000+00:00",
+      "threadId": "01a15e6e-0712-76f0-9586-f65cc202196c"
+    }
+  ],
+  "active_monitor_targets": [
+    {
+      "effort": "ultra",
+      "phase": "self_improvement",
+      "theme": "Forest",
+      "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e"
+    },
+    {
+      "effort": "ultra",
+      "phase": "self_improvement",
+      "theme": "MountainStation",
+      "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490"
+    }
+  ],
+  "monitor_policy": "Only active remaining assignments; remove completed targets after approval/commit. Do not wake completed chats. Supervisor integration/report work continues separately.",
+  "ue_priority_policy": {
+    "implementation_status": "applied_and_root_test_passed",
+    "highest": {
+      "effort": "medium",
+      "title": "MountainStation medium — 산악 기차역 제작",
+      "theme": "MountainStation",
+      "threadId": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+      "priority": -1
+    },
+    "remaining_order": [
+      "Forest (0)",
+      "Other MountainStation (1)",
+      "Unknown (2)"
+    ],
+    "fifo_within_priority": true,
+    "preempt_running": false,
+    "updated_at_utc": "2026-10-21T15:42:57.4379921+00:00",
+    "validation": "Saved/Coordination/Test-f1a92ead3c3e41df8dda047339d2912d; fake child priority/FIFO/nonpreemption/orphan recovery all passed; no existing medium wait tickets required rewrite; active lease untouched"
+  },
+  "supervisor_pending_reviews": []
 }
