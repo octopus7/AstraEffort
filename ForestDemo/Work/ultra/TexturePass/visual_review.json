@@ -1,0 +1,26 @@
+{
+  "reviewed_at_utc": "2026-10-21T14:34:52.9923405+00:00",
+  "approved": true,
+  "method": "Directly viewed all seven final, unmodified UE PNG images through view_image after final foam save.",
+  "image_sha256": {
+    "overview": "1982C660F1452ABF0E5EA2668B277C920151E1492CDE9CAA1680632C2314F000",
+    "top_down": "729DE26D9673D9C44798A29728B6AB66C4294C1CAB687837927C51E0054C5103",
+    "lake": "D82DD213486601AC3B582BA5CB901D307E116EA524C7937D3773C613FD13C493",
+    "beach": "0A48FD6B83B22265C7148BFE454282BBD60B9D35D83AB1496596B3851EFF5506",
+    "hero": "9B44479DDD4716DC782C8BA4A4F918C33EEAA7C85DB60EC397EC63E7230C4753",
+    "water_t0": "0FB7E5296BB908B179721375CC38EB4AFECF0CA4C41B72EC8248D34B48CF0153",
+    "water_t1": "BCA8BA0BDF82FC8E4C0CE3E3C9F21505E7392BB1E3FC4B40B4963879B547D9CD"
+  },
+  "notes": [
+    "100m layout, distinct inland lake and beach retained in overview and top_down.",
+    "Round crowns and stones restored by restrained generated-texture contrast; faint triangle texture boundaries remain at close range. Representative FBX normals are continuous.",
+    "Lake and sea read as teal water; weaker ground caustics remain visible.",
+    "Legacy thin surf ribbons are hidden; white soft crest patches are integrated into the water surface with no floating ribbon shadows.",
+    "Fixed-camera water_t0/water_t1 visibly differ in crest patch position and caustic pattern; world shader time also advances."
+  ],
+  "limitations": [
+    "Foam retains an analytic band structure and some periodicity; it is a stylized shader approximation, not particle or fluid simulation.",
+    "Triangle UV seams are subdued, not removed; no claim of painted seam continuity.",
+    "Hello is indirect native-class/PIE evidence, not on-screen text proof from these clean captures."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "theme": "Forest",
+  "effort": "ultra",
+  "phase": "texture_pass",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-21T13:43:06Z",
+  "started_at_kst": "2026-10-21T22:43:06+09:00",
+  "finished_at_utc": "2026-10-21T14:35:48.601183+00:00",
+  "elapsed_seconds": 3162.601183,
+  "map": "/Game/Maps/ultra",
+  "validation": {
+    "checks_passed": 19,
+    "dependency_packages": 979,
+    "dependency_violations": 0,
+    "uv_meshes": 922,
+    "uv_area_weighted_density_range_px_m": [
+      31.99998490956723,
+      32.000015417602484
+    ],
+    "uv_overlap_count": 0,
+    "minimum_island_gap_pixels": 2.999934196472168,
+    "generated_images": 4,
+    "saved_texture_size": [
+      1254,
+      1254
+    ],
+    "actual_ue_images": 7,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "water_motion": true,
+    "pie_possession_and_sweep": true,
+    "normal_play_exit": true,
+    "published_files": 979,
+    "sha256_copy_match": true
+  },
+  "blockers": [],
+  "finished_at_kst": "2026-10-21T23:35:48.601183+09:00",
+  "ue_queue_wait_seconds": 1015.9119344999999,
+  "ue_execution_seconds": 653.2520353,
+  "imagegen_call_latency_seconds": {
+    "Bark": 23.0,
+    "Canopy": 79.0,
+    "Stone": 79.0,
+    "Wood": 79.0
+  },
+  "token_delta": null,
+  "token_note": "Worker tools do not expose reliable per-pass token usage; supervisor retains original frozen record and computes the delta."
+}

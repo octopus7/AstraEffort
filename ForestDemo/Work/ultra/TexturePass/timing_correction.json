@@ -1,0 +1,11 @@
+{
+  "corrected_at_utc": "2026-10-21T14:08:40.4371724+00:00",
+  "original_start_utc": "2026-10-21T13:43:06Z",
+  "previous_incorrect_elapsed_seconds": 33547.1859352,
+  "corrected_elapsed_seconds": 1534.4371724,
+  "cause": "ConvertFrom-Json automatically converted ISO timestamps to DateTime; reparsing its locale string as DateTimeOffset discarded UTC and assumed KST, adding nine hours. Corrected with -DateKind String and explicit ToUniversalTime.",
+  "status": "working",
+  "finished_at_utc": null,
+  "first_delivery_timestamps": "Root first-delivery timing strings restored verbatim from own frozen FirstDelivery/STATUS.json; instant had been preserved but ConvertFrom-Json serialization changed finished_at_utc to +09:00 spelling. Frozen file was read only.",
+  "first_delivery_timestamp_restore_at_utc": "2026-10-21T14:17:45.3649241Z"
+}

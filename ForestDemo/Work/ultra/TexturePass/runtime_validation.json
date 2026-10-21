@@ -1,0 +1,189 @@
+{
+  "started_at_utc": "2026-10-21T14:32:38.920467+00:00",
+  "test": "Actual Play In Editor: possession, swept pawn movement, terrain/prop collision and native logger",
+  "execution_note": "Fresh texture-pass saved-map process; actual PIE after render evidence.",
+  "traces": [
+    {
+      "xy_m": [
+        0,
+        -20
+      ],
+      "expected_ground_z_cm": 165.29673342344097,
+      "blocked": true,
+      "impact_cm": [
+        0.0,
+        2000.0,
+        165.2988018323913
+      ],
+      "height_error_cm": 0.0020684089503220093,
+      "actor": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926' (0x000001A7C9E2CD00) Class 'StaticMeshActor'>"
+    },
+    {
+      "xy_m": [
+        15,
+        0
+      ],
+      "expected_ground_z_cm": 259.9246630891601,
+      "blocked": true,
+      "impact_cm": [
+        1500.0,
+        0.0,
+        259.8967424945524
+      ],
+      "height_error_cm": 0.027920594607678595,
+      "actor": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926' (0x000001A7C9E2CD00) Class 'StaticMeshActor'>"
+    },
+    {
+      "xy_m": [
+        0,
+        30
+      ],
+      "expected_ground_z_cm": 259.91703914099924,
+      "blocked": true,
+      "impact_cm": [
+        0.0,
+        -3000.0,
+        259.9081878260795
+      ],
+      "height_error_cm": 0.00885131491975244,
+      "actor": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926' (0x000001A7C9E2CD00) Class 'StaticMeshActor'>"
+    },
+    {
+      "xy_m": [
+        -35,
+        15
+      ],
+      "expected_ground_z_cm": 227.57751264933054,
+      "blocked": true,
+      "impact_cm": [
+        -3500.0,
+        -1500.0,
+        227.59804049252944
+      ],
+      "height_error_cm": 0.02052784319889156,
+      "actor": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926' (0x000001A7C9E2CD00) Class 'StaticMeshActor'>"
+    },
+    {
+      "xy_m": [
+        35,
+        35
+      ],
+      "expected_ground_z_cm": 426.2810876590665,
+      "blocked": true,
+      "impact_cm": [
+        3500.0,
+        -3500.0,
+        426.1978269353633
+      ],
+      "height_error_cm": 0.08326072370317661,
+      "actor": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926' (0x000001A7C9E2CD00) Class 'StaticMeshActor'>"
+    },
+    {
+      "xy_m": [
+        -15,
+        8
+      ],
+      "expected_ground_z_cm": 24.0,
+      "blocked": true,
+      "impact_cm": [
+        -1500.0,
+        -800.0,
+        24.0
+      ],
+      "height_error_cm": 0.0,
+      "actor": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926' (0x000001A7C9E2CD00) Class 'StaticMeshActor'>"
+    }
+  ],
+  "game_world": "<Object '/Game/Maps/UEDPIE_0_ultra.ultra' (0x000001A859127000) Class 'World'>",
+  "collision_profile": "BlockAll",
+  "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+  "player_start_grounded": true,
+  "player_test": {
+    "controller": "PlayerController",
+    "pawn": "DefaultPawn",
+    "possessed": true,
+    "start_cm": [
+      100.0,
+      2300.0,
+      272.18272251295764
+    ],
+    "player_start_cm": [
+      100.0,
+      2300.0,
+      272.18272251295764
+    ],
+    "spawn_distance_from_player_start_cm": 0.0,
+    "after_horizontal_sweep_cm": [
+      100.0,
+      2100.0,
+      272.18272251295764
+    ],
+    "horizontal_move_cm": 200.0,
+    "requested_downward_location_cm": [
+      100.0,
+      2100.0,
+      -227.81727748704236
+    ],
+    "after_downward_sweep_cm": [
+      100.0,
+      2100.0,
+      200.3708453218909
+    ],
+    "downward_sweep_result": "<Struct 'HitResult' (0x000001A85E04B040) {}>",
+    "downward_sweep_hit": {
+      "blocking_hit": true,
+      "initial_overlap": false,
+      "time": 0.14362375438213348,
+      "distance_cm": 73.31188201904297,
+      "location_cm": [
+        100.0,
+        2100.0,
+        198.870842282054
+      ],
+      "impact_point_cm": [
+        99.71204376220703,
+        2099.729736328125,
+        163.873046875
+      ],
+      "normal": [
+        0.008227357539459182,
+        0.007723127862244878,
+        0.9999363299150308
+      ],
+      "impact_normal": [
+        0.00822735670953989,
+        0.0077231270261108875,
+        0.9999362826347351
+      ],
+      "actor": "/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926",
+      "component": "/Game/Maps/UEDPIE_0_ultra.ultra:PersistentLevel.StaticMeshActor_926.StaticMeshComponent0",
+      "static_mesh": "/Game/Forest/ultra/Meshes/SM_Ground.SM_Ground",
+      "actual_move_distance_cm": 71.81187719106674,
+      "hit_own_ground_actor": true,
+      "hit_own_ground_component": true,
+      "hit_own_ground_mesh": true
+    },
+    "terrain_blocked_downward_sweep": true,
+    "passed": true
+  },
+  "solid_prop_traces": [
+    {
+      "mesh_family": "SM_Broadleaf",
+      "blocked": true
+    },
+    {
+      "mesh_family": "SM_Pine",
+      "blocked": true
+    },
+    {
+      "mesh_family": "SM_Rock",
+      "blocked": true
+    }
+  ],
+  "native_logger_count": 1,
+  "native_logger_beginplay_evidence": "Existing native ScreenDebugLogger actor present in running PIE world after engine StartPlay. Baseline BeginPlay implementation calls AddOnScreenDebugMessage Hello; no replacement or manual BeginPlay invocation. Clean captures deliberately exclude debug text.",
+  "success": true,
+  "play_end_requested_at_utc": "2026-10-21T14:32:46.930017+00:00",
+  "normal_play_exit": true,
+  "finished_at_utc": "2026-10-21T14:32:46.996815+00:00"
+}

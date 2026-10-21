@@ -1,0 +1,186 @@
+{
+  "map": "/Game/Maps/ultra",
+  "asset_root": "/Game/Forest/ultra",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High scalability (all sg groups 2), screen percentage 100",
+  "renderer": "UE5.7 SceneCapture2D final color LDR, D3D12 SM5",
+  "post_processing": "map exposure/color, no image processing",
+  "close_views_comparison_limitation": "Lake and beach viewpoints are individually framed; they are not position-equivalent between scenes.",
+  "capture_started_at_utc": "2026-10-21T14:09:33.368767+00:00",
+  "views": [
+    {
+      "name": "overview",
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "shader_world_time_seconds": 45.383346516638994,
+      "captured_at_utc": "2026-10-21T14:10:18.554999+00:00",
+      "warmup_seconds": 45
+    },
+    {
+      "name": "top_down",
+      "location": [
+        0,
+        0,
+        20000
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "shader_world_time_seconds": 57.570651311427355,
+      "captured_at_utc": "2026-10-21T14:10:30.735168+00:00",
+      "warmup_seconds": 12
+    },
+    {
+      "name": "lake",
+      "location": [
+        -200,
+        400,
+        343.771
+      ],
+      "target": [
+        -1800,
+        -900,
+        180
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_z_cm": 173.771,
+      "eye_height_cm": 170,
+      "rotation_pitch_yaw_roll": [
+        -4.542072621889952,
+        -140.9061411137705,
+        -8.643794690278341e-08
+      ],
+      "shader_world_time_seconds": 69.75517390295863,
+      "captured_at_utc": "2026-10-21T14:10:42.931742+00:00",
+      "warmup_seconds": 12
+    },
+    {
+      "name": "beach",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_z_cm": 35.613,
+      "eye_height_cm": 170,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 81.96031130477786,
+      "captured_at_utc": "2026-10-21T14:10:55.123786+00:00",
+      "warmup_seconds": 12
+    },
+    {
+      "name": "water_t0",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 94.14752811565995,
+      "captured_at_utc": "2026-10-21T14:11:07.312804+00:00",
+      "warmup_seconds": 12
+    },
+    {
+      "name": "water_t1",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 97.33158180862665,
+      "captured_at_utc": "2026-10-21T14:11:10.498291+00:00",
+      "warmup_seconds": 3
+    },
+    {
+      "name": "hero",
+      "location": [
+        10500,
+        12500,
+        10700
+      ],
+      "target": [
+        0,
+        0,
+        250
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 53,
+      "rotation_pitch_yaw_roll": [
+        -32.62449705585999,
+        -130.0302592718897,
+        -5.43046147466342e-07
+      ],
+      "shader_world_time_seconds": 109.52200850844383,
+      "captured_at_utc": "2026-10-21T14:11:22.684935+00:00",
+      "warmup_seconds": 12
+    }
+  ],
+  "capture_finished_at_utc": "2026-10-21T14:11:22.685936+00:00"
+}

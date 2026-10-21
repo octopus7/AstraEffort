@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-10-21T14:15:16.955825+00:00",
+  "scope": "Representative broadleaf, pine and rock independently reimported FBX files; UE import uses normals and tangents with full precision UVs. No tangent-space normal texture is assigned.",
+  "samples": [
+    {
+      "mesh": "SM_Broadleaf_04_UV_0006",
+      "smooth_polygon_count": 2690,
+      "polygon_count": 2690,
+      "shared_vertex_corner_comparisons": 6625,
+      "max_corner_normal_difference_at_same_vertex": 0,
+      "has_custom_normals": true,
+      "conclusion": "Normals continuous at shared mesh vertices; visible triangle mosaic in first texture renders was chiefly UV-sampled color discontinuity."
+    },
+    {
+      "mesh": "SM_Pine_02_UV_0004",
+      "smooth_polygon_count": 850,
+      "polygon_count": 850,
+      "shared_vertex_corner_comparisons": 2073,
+      "max_corner_normal_difference_at_same_vertex": 0,
+      "has_custom_normals": true,
+      "conclusion": "Normals continuous at shared mesh vertices; visible triangle mosaic in first texture renders was chiefly UV-sampled color discontinuity."
+    },
+    {
+      "mesh": "SM_Rock_01_UV_0108",
+      "smooth_polygon_count": 516,
+      "polygon_count": 516,
+      "shared_vertex_corner_comparisons": 1260,
+      "max_corner_normal_difference_at_same_vertex": 0,
+      "has_custom_normals": true,
+      "conclusion": "Normals continuous at shared mesh vertices; visible triangle mosaic in first texture renders was chiefly UV-sampled color discontinuity."
+    }
+  ]
+}
