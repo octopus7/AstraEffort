@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/TexturePass/apply_entry.py", line 4, in <module>
+    exec(compile(open(p,encoding='utf-8').read(),p,'exec'),globals())
+  File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/TexturePass/apply_textures.py", line 30, in <module>
+    sample=node(u.MaterialExpressionTextureSample,-400,-300);sample.set_editor_property('texture',tex);link(add,'',sample,'Coordinates')
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/TexturePass/apply_textures.py", line 17, in link
+    def link(a,out,b,inp):assert u.MaterialEditingLibrary.connect_material_expressions(a,out,b,inp)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

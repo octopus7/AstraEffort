@@ -1,0 +1,218 @@
+{
+  "started_at_utc": "2026-10-21T15:40:16.709620+00:00",
+  "map": "/Game/Maps/MountainStation_medium",
+  "fresh_process_reload": true,
+  "checks": {
+    "saved_backdrop_actor_collision_off": true,
+    "saved_backdrop_profile_no_collision": true,
+    "saved_backdrop_component_collision_off": true,
+    "scoped_dependencies": true,
+    "pie_active": true,
+    "pawn_created": true,
+    "controller_created": true,
+    "possessed": true,
+    "expected_spawn": true,
+    "pie_backdrop_collision_off": true,
+    "pawn_start_no_blocking_overlap": true,
+    "actual_possessed_pawn_moves_200cm": true,
+    "terrain_pawn_collision_blocks": true,
+    "ramp_pawn_collision_blocks": true,
+    "platform_pawn_collision_blocks": true,
+    "baseline_logger_in_pie": true,
+    "normal_pie_shutdown": true
+  },
+  "limitations": [],
+  "saved_backdrop": {
+    "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2",
+    "actor_collision": false,
+    "profile": "NoCollision",
+    "enabled": "<CollisionEnabled.NO_COLLISION: 0>",
+    "object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+    "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+  },
+  "game_world": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium",
+  "pawn": {
+    "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.DefaultPawn_0",
+    "actor_collision": true,
+    "profile": "Pawn",
+    "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "object_type": "<CollisionChannel.ECC_PAWN: 2>",
+    "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+  },
+  "spawn_location_cm": [
+    -1900.0,
+    -1150.0,
+    120.0
+  ],
+  "pie_backdrop": {
+    "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_2",
+    "actor_collision": false,
+    "profile": "NoCollision",
+    "enabled": "<CollisionEnabled.NO_COLLISION: 0>",
+    "object_type": "<CollisionChannel.ECC_WORLD_STATIC: 0>",
+    "pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>"
+  },
+  "pawn_start_overlap_probe": null,
+  "spawn_move": {
+    "hit_data": {
+      "blocking": false,
+      "initial_overlap": false,
+      "actor": null,
+      "component": null,
+      "mesh": null,
+      "impact_point_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "from": [
+      -1900.0,
+      -1150.0,
+      120.0
+    ],
+    "target": [
+      -1900,
+      -950,
+      120
+    ],
+    "to": [
+      -1900.0,
+      -950.0,
+      120.0
+    ],
+    "distance_cm": 200.0,
+    "hit": "(False, False, 1.0, 0.0, <Struct 'Vector' (0x000001E4EEEBB350) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBB440) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBA7C0) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBB120) {x: 0.000000, y: 0.000000, z: 0.000000}>, None, None, None, Name(\"None\"), Name(\"None\"), 0, 0, 0, <Struct 'Vector' (0x000001E4EEEBB080) {x: -1900.000000, y: -1150.000000, z: 120.000000}>, <Struct 'Vector' (0x000001E4EEEBAF40) {x: -1900.000000, y: -950.000000, z: 120.000000}>)"
+  },
+  "direct_actor_move_succeeded": true,
+  "short_move": {
+    "hit_data": {
+      "blocking": false,
+      "initial_overlap": false,
+      "actor": null,
+      "component": null,
+      "mesh": null,
+      "impact_point_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "from": [
+      -1900.0,
+      -1150.0,
+      120.0
+    ],
+    "target": [
+      -1900,
+      -950,
+      120
+    ],
+    "to": [
+      -1900.0,
+      -950.0,
+      120.0
+    ],
+    "distance_cm": 200.0,
+    "hit": "(False, False, 1.0, 0.0, <Struct 'Vector' (0x000001E4EEEBB350) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBB440) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBA7C0) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBB120) {x: 0.000000, y: 0.000000, z: 0.000000}>, None, None, None, Name(\"None\"), Name(\"None\"), 0, 0, 0, <Struct 'Vector' (0x000001E4EEEBB080) {x: -1900.000000, y: -1150.000000, z: 120.000000}>, <Struct 'Vector' (0x000001E4EEEBAF40) {x: -1900.000000, y: -950.000000, z: 120.000000}>)"
+  },
+  "terrain_pawn_downward_sweep": {
+    "hit_data": {
+      "blocking": true,
+      "initial_overlap": false,
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV.SM_AlderPass_UV",
+      "impact_point_cm": [
+        2000.0,
+        -3000.0,
+        0.0
+      ]
+    },
+    "from": [
+      2000.0,
+      -3000.0,
+      250.0
+    ],
+    "target": [
+      2000,
+      -3000,
+      -100
+    ],
+    "to": [
+      2000.0,
+      -3000.0,
+      36.34999990463257
+    ],
+    "distance_cm": 213.65000009536743,
+    "hit": "(True, False, 0.6104285717010498, 215.0, <Struct 'Vector' (0x000001E4EEEBB440) {x: 2000.000000, y: -3000.000000, z: 35.000002}>, <Struct 'Vector' (0x000001E4EEEBB350) {x: 2000.000000, y: -3000.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBA7C0) {x: 0.000001, y: 0.000001, z: 1.000000}>, <Struct 'Vector' (0x000001E4EEEBB120) {x: 0.000000, y: -0.000000, z: 1.000000}>, None, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1' (0x000001E52DFED200) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0' (0x000001E52E064000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, -1, <Struct 'Vector' (0x000001E4EEEBB080) {x: 2000.000000, y: -3000.000000, z: 250.000000}>, <Struct 'Vector' (0x000001E4EEEBAF40) {x: 2000.000000, y: -3000.000000, z: -100.000000}>)"
+  },
+  "terrain_pawn_profile_trace": "(True, False, 0.3333333432674408, 250.0, <Struct 'Vector' (0x000001E4EEEBB260) {x: 2000.000000, y: -3000.000000, z: -0.000007}>, <Struct 'Vector' (0x000001E4EEEBA720) {x: 2000.000000, y: -3000.000000, z: 0.000000}>, <Struct 'Vector' (0x000001E4EEEBAF90) {x: 0.000000, y: -0.000000, z: 1.000000}>, <Struct 'Vector' (0x000001E4EEEBB2B0) {x: 0.000000, y: -0.000000, z: 1.000000}>, <Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x000001E4A75D9F00) Class 'PhysicalMaterial'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1' (0x000001E52DFED200) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0' (0x000001E52E064000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 1525, <Struct 'Vector' (0x000001E4EEEBAA40) {x: 2000.000000, y: -3000.000000, z: 250.000000}>, <Struct 'Vector' (0x000001E4EEEBB440) {x: 2000.000000, y: -3000.000000, z: -500.000000}>)",
+  "ramp_pawn_downward_sweep": {
+    "hit_data": {
+      "blocking": true,
+      "initial_overlap": false,
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV.SM_AlderPass_UV",
+      "impact_point_cm": [
+        -1900.0,
+        -598.177490234375,
+        36.595027923583984
+      ]
+    },
+    "from": [
+      -1900.0,
+      -600.0,
+      250.0
+    ],
+    "target": [
+      -1900,
+      -600,
+      -100
+    ],
+    "to": [
+      -1900.0,
+      -600.0,
+      72.89754450321198
+    ],
+    "distance_cm": 177.10245549678802,
+    "hit": "(True, False, 0.5060070157051086, 178.45245361328125, <Struct 'Vector' (0x000001E4F4E5CA60) {x: -1900.000000, y: -600.000000, z: 71.547547}>, <Struct 'Vector' (0x000001E4F4E5CA10) {x: -1900.000000, y: -598.177490, z: 36.595028}>, <Struct 'Vector' (0x000001E4F4E5CB00) {x: 0.000000, y: -0.052072, z: 0.998643}>, <Struct 'Vector' (0x000001E4F4E5CAB0) {x: -0.000000, y: -0.052072, z: 0.998643}>, None, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1' (0x000001E52DFED200) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0' (0x000001E52E064000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, -1, <Struct 'Vector' (0x000001E4F4E5CB50) {x: -1900.000000, y: -600.000000, z: 250.000000}>, <Struct 'Vector' (0x000001E4F4E5CBA0) {x: -1900.000000, y: -600.000000, z: -100.000000}>)"
+  },
+  "ramp_pawn_profile_trace": "(True, False, 0.28466668725013733, 213.50001525878906, <Struct 'Vector' (0x000001E4EEEBAF40) {x: -1900.000000, y: -600.000000, z: 36.499985}>, <Struct 'Vector' (0x000001E4EEEBB080) {x: -1900.000000, y: -600.000000, z: 36.499991}>, <Struct 'Vector' (0x000001E4EEEBAEF0) {x: -0.000000, y: -0.052072, z: 0.998643}>, <Struct 'Vector' (0x000001E4EEEBAAE0) {x: -0.000000, y: -0.052072, z: 0.998643}>, <Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x000001E4A75D9F00) Class 'PhysicalMaterial'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1' (0x000001E52DFED200) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0' (0x000001E52E064000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 79338, <Struct 'Vector' (0x000001E4EEEBAB30) {x: -1900.000000, y: -600.000000, z: 250.000000}>, <Struct 'Vector' (0x000001E4F4E5CA60) {x: -1900.000000, y: -600.000000, z: -500.000000}>)",
+  "platform_pawn_downward_sweep": {
+    "hit_data": {
+      "blocking": true,
+      "initial_overlap": false,
+      "actor": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1",
+      "component": "/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV.SM_AlderPass_UV",
+      "impact_point_cm": [
+        -2200.0,
+        400.0,
+        72.0
+      ]
+    },
+    "from": [
+      -2200.0,
+      400.0,
+      250.0
+    ],
+    "target": [
+      -2200,
+      400,
+      -100
+    ],
+    "to": [
+      -2200.0,
+      400.0,
+      108.34999978542328
+    ],
+    "distance_cm": 141.65000021457672,
+    "hit": "(True, False, 0.40471428632736206, 143.0, <Struct 'Vector' (0x000001E4F4E5CB50) {x: -2200.000000, y: 400.000000, z: 107.000002}>, <Struct 'Vector' (0x000001E4F4E5CAB0) {x: -2200.000000, y: 400.000000, z: 72.000000}>, <Struct 'Vector' (0x000001E4F4E5CBA0) {x: 0.000000, y: 0.000000, z: 1.000000}>, <Struct 'Vector' (0x000001E4F4E5CBF0) {x: 0.000000, y: 0.000000, z: -1.000000}>, None, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1' (0x000001E52DFED200) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0' (0x000001E52E064000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, -1, <Struct 'Vector' (0x000001E4F4E5CD30) {x: -2200.000000, y: 400.000000, z: 250.000000}>, <Struct 'Vector' (0x000001E4F4E5CEC0) {x: -2200.000000, y: 400.000000, z: -100.000000}>)"
+  },
+  "platform_pawn_profile_trace": "(True, False, 0.23733332753181458, 178.0, <Struct 'Vector' (0x000001E4EEEBAA40) {x: -2200.000000, y: 400.000000, z: 72.000004}>, <Struct 'Vector' (0x000001E4EEEBB2B0) {x: -2200.000000, y: 400.000000, z: 72.000000}>, <Struct 'Vector' (0x000001E4EEEBB440) {x: 0.000000, y: 0.000000, z: 1.000000}>, <Struct 'Vector' (0x000001E4F4E5CA10) {x: 0.000000, y: 0.000000, z: 1.000000}>, <Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x000001E4A75D9F00) Class 'PhysicalMaterial'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1' (0x000001E52DFED200) Class 'StaticMeshActor'>, <Object '/Game/Maps/UEDPIE_0_MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0' (0x000001E52E064000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 58902, <Struct 'Vector' (0x000001E4F4E5CB00) {x: -2200.000000, y: 400.000000, z: 250.000000}>, <Struct 'Vector' (0x000001E4F4E5CB50) {x: -2200.000000, y: 400.000000, z: -500.000000}>)",
+  "finished_at_utc": "2026-10-21T15:40:24.726024+00:00",
+  "runtime_execution_seconds": 8.009761571884155,
+  "passed": true
+}

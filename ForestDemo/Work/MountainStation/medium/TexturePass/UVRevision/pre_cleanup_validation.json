@@ -1,0 +1,1518 @@
+{
+  "started_at_utc": "2026-10-21T15:33:40.431502+00:00",
+  "fresh_process": true,
+  "checks": {
+    "direct_non_world_partition": true,
+    "saved_actor_mesh": true,
+    "unit_world_scale": true,
+    "material_texture_links": true,
+    "mesh_material_slots": true,
+    "all_owned_asset_dependencies_scoped": true,
+    "all_saved_uv_valid": true,
+    "density_with_recorded_lettering_exceptions": true,
+    "saved_uv_no_overlap": true,
+    "saved_island_gap": false,
+    "full_precision_uv": true,
+    "shared_tree_mesh_instances": true,
+    "tree_world_density": true,
+    "tree_uv_packing": true
+  },
+  "world_path": "/Game/Maps/MountainStation_medium.MountainStation_medium",
+  "partition_is_none": true,
+  "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1",
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "materials": [
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_grass.M_grass",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_edge.M_edge",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_stone.M_stone",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rock.M_rock",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_cream.M_cream",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_roof.M_roof",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_wood.M_wood",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_woodlight.M_woodlight",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_metal.M_metal",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rail.M_rail",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_glass.M_glass",
+      "textures": [],
+      "base_color_input": "MaterialExpressionConstant3Vector",
+      "passed": true
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gold.M_gold",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gravel.M_gravel",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_path.M_path",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf.M_leaf",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf2.M_leaf2",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_white.M_white",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_dark.M_dark",
+      "textures": [],
+      "base_color_input": "MaterialExpressionConstant3Vector",
+      "passed": true
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_brick.M_brick",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_bark.M_bark",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 1.0,
+      "custom_primitive_scaling": true,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    }
+  ],
+  "dependencies": {
+    "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Meshes/SM_AlderPass_UV": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_bark",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_brick",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_cream",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_dark",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_edge",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_glass",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_gold",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_grass",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_gravel",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_leaf",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_leaf2",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_metal",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_path",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_rail",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_rock",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_roof",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_stone",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_white",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_wood",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_woodlight"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_woodlight": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_wood": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_white": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_stone": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_roof": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_rock": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_rail": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_path": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_metal": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_leaf2": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_leaf": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_gravel": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_grass": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_gold": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_glass": [],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_edge": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_dark": [],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_cream": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_brick": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_bark": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/Meshes/SM_AlderPass": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/Materials/M_brick",
+      "/Game/MountainStation/medium/Materials/M_cream",
+      "/Game/MountainStation/medium/Materials/M_dark",
+      "/Game/MountainStation/medium/Materials/M_edge",
+      "/Game/MountainStation/medium/Materials/M_glass",
+      "/Game/MountainStation/medium/Materials/M_gold",
+      "/Game/MountainStation/medium/Materials/M_grass",
+      "/Game/MountainStation/medium/Materials/M_gravel",
+      "/Game/MountainStation/medium/Materials/M_leaf",
+      "/Game/MountainStation/medium/Materials/M_leaf2",
+      "/Game/MountainStation/medium/Materials/M_metal",
+      "/Game/MountainStation/medium/Materials/M_path",
+      "/Game/MountainStation/medium/Materials/M_rail",
+      "/Game/MountainStation/medium/Materials/M_rock",
+      "/Game/MountainStation/medium/Materials/M_roof",
+      "/Game/MountainStation/medium/Materials/M_stone",
+      "/Game/MountainStation/medium/Materials/M_white",
+      "/Game/MountainStation/medium/Materials/M_wood",
+      "/Game/MountainStation/medium/Materials/M_woodlight"
+    ],
+    "/Game/MountainStation/medium/Materials/M_woodlight": [],
+    "/Game/MountainStation/medium/Materials/M_wood": [],
+    "/Game/MountainStation/medium/Materials/M_white": [],
+    "/Game/MountainStation/medium/Materials/M_stone": [],
+    "/Game/MountainStation/medium/Materials/M_roof": [],
+    "/Game/MountainStation/medium/Materials/M_rock": [],
+    "/Game/MountainStation/medium/Materials/M_rail": [],
+    "/Game/MountainStation/medium/Materials/M_path": [],
+    "/Game/MountainStation/medium/Materials/M_metal": [],
+    "/Game/MountainStation/medium/Materials/M_leaf2": [],
+    "/Game/MountainStation/medium/Materials/M_leaf": [],
+    "/Game/MountainStation/medium/Materials/M_gravel": [],
+    "/Game/MountainStation/medium/Materials/M_grass": [],
+    "/Game/MountainStation/medium/Materials/M_gold": [],
+    "/Game/MountainStation/medium/Materials/M_glass": [],
+    "/Game/MountainStation/medium/Materials/M_edge": [],
+    "/Game/MountainStation/medium/Materials/M_dark": [],
+    "/Game/MountainStation/medium/Materials/M_cream": [],
+    "/Game/MountainStation/medium/Materials/M_brick": [],
+    "/Game/MountainStation/medium/Materials/M_Backdrop": [],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_dark": [],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_glass": [],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_brick": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_cream": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_edge": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gold": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_grass": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gravel": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_metal": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_path": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rail": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rock": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_roof": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_stone": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_white": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_wood": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_woodlight": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_brick",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_cream",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_dark",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_edge",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_glass",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gold",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_grass",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gravel",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_metal",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_path",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rail",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rock",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_roof",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_stone",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_white",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_wood",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_woodlight"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_bark": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf2": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_bark",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf2"
+    ],
+    "/Game/Maps/MountainStation_medium": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Game/MountainStation/medium/Materials/M_Backdrop",
+      "/Script/ForestDemo",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype"
+    ]
+  },
+  "foreign_dependencies": [],
+  "copy_result": "(<Object '/Engine/Transient.DynamicMesh_0' (0x0000028A2ED09700) Class 'DynamicMesh'>, <GeometryScriptOutcomePins.SUCCESS: 1>)",
+  "uv_sets": 1,
+  "uv_islands_result": "(94536, True)",
+  "saved_render_lod0": {
+    "triangle_id_count": 111104,
+    "audited_triangles": 111104,
+    "invalid": 0,
+    "world_surface_area_m2": 41917.88413787029,
+    "all_triangle_density_px_m": {
+      "count": 111104,
+      "min": 0.0,
+      "median": 127.9997921378135,
+      "max": 143.2805098389385,
+      "outside_2_percent": 100
+    },
+    "at_least_four_target_texels_density_px_m": {
+      "count": 74518,
+      "min": 127.2246277945543,
+      "median": 127.99979661920187,
+      "max": 128.69205364022363,
+      "outside_2_percent": 0
+    },
+    "tiny_triangle_count": 36586,
+    "subquarterpixel_width_large_triangles": 0,
+    "resolved_surface_density_px_m": {
+      "count": 74518,
+      "min": 127.2246277945543,
+      "median": 127.99979661920187,
+      "max": 128.69205364022363,
+      "outside_2_percent": 0
+    },
+    "non_tiny_outliers": [],
+    "scope": "Every valid RenderData LOD0 triangle, unit actor scale; material atlas usable 448px, including intentionally untextured glass/dark UVs",
+    "overlap": "Unique packed UV0; shader custom primitive scale followed by Frac reuses source pixels only after geometric UV allocation. 8 effective pixels per island side, 16 target inter-island gap."
+  },
+  "saved_uv_packing": {
+    "triangles": 111104,
+    "actual_edge_connected_uv_islands": 3851,
+    "degenerate_uv_triangles": 6,
+    "positive_area_overlap_pairs": 0,
+    "overlap_examples": [],
+    "island_bbox_overlap_pairs": 470,
+    "minimum_island_bbox_gap_pixels_within_32px_search": 0.0,
+    "algorithm": "Components share an exact geometric edge and matching UV endpoints, independent of normal splits. Global triangle AABB sweep + strict SAT tests interior overlap; shared boundaries allowed. Conservative island AABB gap search covers every pair within 32 effective pixels.",
+    "epsilon_pixels": 1e-05
+  },
+  "full_precision_uv": true,
+  "tree_uv_packing": {
+    "triangles": 152,
+    "actual_edge_connected_uv_islands": 8,
+    "degenerate_uv_triangles": 0,
+    "positive_area_overlap_pairs": 0,
+    "overlap_examples": [],
+    "island_bbox_overlap_pairs": 0,
+    "minimum_island_bbox_gap_pixels_within_32px_search": 186.1357421875,
+    "algorithm": "Components share an exact geometric edge and matching UV endpoints, independent of normal splits. Global triangle AABB sweep + strict SAT tests interior overlap; shared boundaries allowed. Conservative island AABB gap search covers every pair within 32 effective pixels.",
+    "epsilon_pixels": 1e-05
+  },
+  "tree_prototype_density": {
+    "count": 152,
+    "min": 127.96009641043699,
+    "median": 127.99993899415458,
+    "max": 128.057947476256,
+    "outside_2_percent": 0
+  },
+  "tree_instances": [
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_0",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shader_scale": 1.0,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_3",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7981906414529312,
+        0.7981906414529312,
+        0.7981906414529312
+      ],
+      "shader_scale": 0.7981906533241272,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_4",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7371261119177943,
+        0.7371261119177943,
+        0.7371261119177943
+      ],
+      "shader_scale": 0.7371261119842529,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_5",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8315379158562823,
+        0.8315379158562823,
+        0.8315379158562823
+      ],
+      "shader_scale": 0.8315379023551941,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_6",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0597195356236184,
+        1.0597195356236184,
+        1.0597195356236184
+      ],
+      "shader_scale": 1.0597195625305176,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_7",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.3476078437936507,
+        1.3476078437936507,
+        1.3476078437936507
+      ],
+      "shader_scale": 1.3476078510284424,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_8",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.3598657076326368,
+        1.3598657076326368,
+        1.3598657076326368
+      ],
+      "shader_scale": 1.359865665435791,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_9",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8644072736413276,
+        0.8644072736413276,
+        0.8644072736413276
+      ],
+      "shader_scale": 0.8644073009490967,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_10",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2156110912774492,
+        1.2156110912774492,
+        1.2156110912774492
+      ],
+      "shader_scale": 1.2156111001968384,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_11",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9184665439646951,
+        0.9184665439646951,
+        0.9184665439646951
+      ],
+      "shader_scale": 0.9184665679931641,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_12",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1764943869023536,
+        1.1764943869023536,
+        1.1764943869023536
+      ],
+      "shader_scale": 1.1764943599700928,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_13",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.250937131353584,
+        1.250937131353584,
+        1.250937131353584
+      ],
+      "shader_scale": 1.2509371042251587,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_14",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1715907862080754,
+        1.1715907862080754,
+        1.1715907862080754
+      ],
+      "shader_scale": 1.171590805053711,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_15",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9172263833759018,
+        0.9172263833759018,
+        0.9172263833759018
+      ],
+      "shader_scale": 0.9172263741493225,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_16",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.4126823213357176,
+        1.4126823213357176,
+        1.4126823213357176
+      ],
+      "shader_scale": 1.412682294845581,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_17",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0333041077410527,
+        1.0333041077410527,
+        1.0333041077410527
+      ],
+      "shader_scale": 1.0333040952682495,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_18",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.956417528219655,
+        0.956417528219655,
+        0.956417528219655
+      ],
+      "shader_scale": 0.9564175009727478,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_19",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2876913419201221,
+        1.2876913419201221,
+        1.2876913419201221
+      ],
+      "shader_scale": 1.287691354751587,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_20",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1183433868343002,
+        1.1183433868343002,
+        1.1183433868343002
+      ],
+      "shader_scale": 1.1183433532714844,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_21",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9780361708733241,
+        0.9780361708733241,
+        0.9780361708733241
+      ],
+      "shader_scale": 0.9780361652374268,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_22",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9489305349296482,
+        0.9489305349296482,
+        0.9489305349296482
+      ],
+      "shader_scale": 0.948930561542511,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_23",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8874836720998666,
+        0.8874836720998666,
+        0.8874836720998666
+      ],
+      "shader_scale": 0.8874836564064026,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_24",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2430104694572741,
+        1.2430104694572741,
+        1.2430104694572741
+      ],
+      "shader_scale": 1.2430105209350586,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_25",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.195431631017831,
+        1.195431631017831,
+        1.195431631017831
+      ],
+      "shader_scale": 1.1954315900802612,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_26",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1534538872497058,
+        1.1534538872497058,
+        1.1534538872497058
+      ],
+      "shader_scale": 1.1534539461135864,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_27",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0384413076180423,
+        1.0384413076180423,
+        1.0384413076180423
+      ],
+      "shader_scale": 1.0384413003921509,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_28",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0043306880538392,
+        1.0043306880538392,
+        1.0043306880538392
+      ],
+      "shader_scale": 1.0043306350708008,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_29",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.861076099375236,
+        0.861076099375236,
+        0.861076099375236
+      ],
+      "shader_scale": 0.8610761165618896,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_30",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.398275227555483,
+        1.398275227555483,
+        1.398275227555483
+      ],
+      "shader_scale": 1.3982752561569214,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_31",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2540257500886642,
+        1.2540257500886642,
+        1.2540257500886642
+      ],
+      "shader_scale": 1.2540256977081299,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_32",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0975325040195285,
+        1.0975325040195285,
+        1.0975325040195285
+      ],
+      "shader_scale": 1.0975325107574463,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_33",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1123289787127424,
+        1.1123289787127424,
+        1.1123289787127424
+      ],
+      "shader_scale": 1.1123290061950684,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_34",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0567169565623715,
+        1.0567169565623715,
+        1.0567169565623715
+      ],
+      "shader_scale": 1.0567169189453125,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_35",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.0808739164195045,
+        1.0808739164195045,
+        1.0808739164195045
+      ],
+      "shader_scale": 1.080873966217041,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_36",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1178669384698139,
+        1.1178669384698139,
+        1.1178669384698139
+      ],
+      "shader_scale": 1.1178669929504395,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_37",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9019504503978711,
+        0.9019504503978711,
+        0.9019504503978711
+      ],
+      "shader_scale": 0.901950478553772,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_38",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1210303647370068,
+        1.1210303647370068,
+        1.1210303647370068
+      ],
+      "shader_scale": 1.121030330657959,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_39",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.3706425438437109,
+        1.3706425438437109,
+        1.3706425438437109
+      ],
+      "shader_scale": 1.3706425428390503,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_40",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.401791401802854,
+        1.401791401802854,
+        1.401791401802854
+      ],
+      "shader_scale": 1.4017914533615112,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_41",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8505227313955173,
+        0.8505227313955173,
+        0.8505227313955173
+      ],
+      "shader_scale": 0.8505227565765381,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_42",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.3516417243378414,
+        1.3516417243378414,
+        1.3516417243378414
+      ],
+      "shader_scale": 1.3516417741775513,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_43",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2944268094925253,
+        1.2944268094925253,
+        1.2944268094925253
+      ],
+      "shader_scale": 1.2944267988204956,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_44",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2727514188287254,
+        1.2727514188287254,
+        1.2727514188287254
+      ],
+      "shader_scale": 1.2727514505386353,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_45",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2526655597501122,
+        1.2526655597501122,
+        1.2526655597501122
+      ],
+      "shader_scale": 1.2526655197143555,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_46",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9795515556406164,
+        0.9795515556406164,
+        0.9795515556406164
+      ],
+      "shader_scale": 0.9795515537261963,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_47",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8373931652637868,
+        0.8373931652637868,
+        0.8373931652637868
+      ],
+      "shader_scale": 0.8373931646347046,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_48",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7798561155304329,
+        0.7798561155304329,
+        0.7798561155304329
+      ],
+      "shader_scale": 0.7798560857772827,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_49",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1775068213237145,
+        1.1775068213237145,
+        1.1775068213237145
+      ],
+      "shader_scale": 1.1775068044662476,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_50",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.782544855337723,
+        0.782544855337723,
+        0.782544855337723
+      ],
+      "shader_scale": 0.7825448513031006,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_51",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1054001421122872,
+        1.1054001421122872,
+        1.1054001421122872
+      ],
+      "shader_scale": 1.1054000854492188,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_52",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.9485484952857673,
+        0.9485484952857673,
+        0.9485484952857673
+      ],
+      "shader_scale": 0.9485484957695007,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_53",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7896910669161817,
+        0.7896910669161817,
+        0.7896910669161817
+      ],
+      "shader_scale": 0.7896910905838013,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_54",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7243194148010116,
+        0.7243194148010116,
+        0.7243194148010116
+      ],
+      "shader_scale": 0.7243193984031677,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_55",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.036501964560317,
+        1.036501964560317,
+        1.036501964560317
+      ],
+      "shader_scale": 1.0365020036697388,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_56",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7366639790280498,
+        0.7366639790280498,
+        0.7366639790280498
+      ],
+      "shader_scale": 0.7366639971733093,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_57",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8460309758976592,
+        0.8460309758976592,
+        0.8460309758976592
+      ],
+      "shader_scale": 0.8460309505462646,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_58",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8228169286435251,
+        0.8228169286435251,
+        0.8228169286435251
+      ],
+      "shader_scale": 0.8228169083595276,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_59",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.8487092176901387,
+        0.8487092176901387,
+        0.8487092176901387
+      ],
+      "shader_scale": 0.848709225654602,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_60",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        0.7330566262184763,
+        0.7330566262184763,
+        0.7330566262184763
+      ],
+      "shader_scale": 0.7330566048622131,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_61",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1772315237325244,
+        1.1772315237325244,
+        1.1772315237325244
+      ],
+      "shader_scale": 1.1772315502166748,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_62",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.2422478584233319,
+        1.2422478584233319,
+        1.2422478584233319
+      ],
+      "shader_scale": 1.2422478199005127,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_63",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.1731288554968817,
+        1.1731288554968817,
+        1.1731288554968817
+      ],
+      "shader_scale": 1.1731288433074951,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_64",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.143651677924136,
+        1.143651677924136,
+        1.143651677924136
+      ],
+      "shader_scale": 1.1436517238616943,
+      "passed": true
+    },
+    {
+      "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_65",
+      "mesh": "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_PinePrototype.SM_PinePrototype",
+      "scale": [
+        1.3939498986280856,
+        1.3939498986280856,
+        1.3939498986280856
+      ],
+      "shader_scale": 1.3939498662948608,
+      "passed": true
+    }
+  ],
+  "tree_instance_world_density": {
+    "count": 9728,
+    "min": 127.96008965995651,
+    "median": 127.99993878988525,
+    "max": 128.05795401140043,
+    "outside_2_percent": 0
+  },
+  "tree_instanced_world_area_m2": 4037.607511937072,
+  "passed": false,
+  "finished_at_utc": "2026-10-21T15:33:48.972010+00:00"
+}

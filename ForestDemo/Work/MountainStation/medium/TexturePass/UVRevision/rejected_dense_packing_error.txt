@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/TexturePass/UVRevision/audit_entry.py", line 3, in <module>
+    exec(compile(open('D:/github/AstraEffort/ForestDemo/Work/MountainStation/medium/TexturePass/UVRevision/audit_ue.py',encoding='utf-8-sig').read(),'audit_ue.py','exec'),globals())
+  File "audit_ue.py", line 82, in <module>
+    assert report['passed'],report['checks']
+AssertionError: {'direct_non_world_partition': True, 'saved_actor_mesh': True, 'unit_world_scale': True, 'material_texture_links': True, 'mesh_material_slots': True, 'all_owned_asset_dependencies_scoped': True, 'all_saved_uv_valid': True, 'density_with_recorded_lettering_exceptions': False, 'saved_uv_no_overlap': False, 'saved_island_gap': False, 'full_precision_uv': True}

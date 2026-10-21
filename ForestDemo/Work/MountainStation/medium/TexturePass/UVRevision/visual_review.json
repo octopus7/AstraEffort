@@ -1,0 +1,46 @@
+{
+  "limitations": [
+    "Texture orientation and phase vary between unfolded islands; some timber grain is diagonal.",
+    "Faceted silhouettes and dark canopy/tunnel shadows remain.",
+    "Trunk thickness and top-cap radius now scale with the shared prototype, unlike prior fixed-width procedural parts.",
+    "Shared StaticMeshActor assets are verified; no ISM/HISM batching or frame-rate improvement is claimed."
+  ],
+  "passed": true,
+  "reviewed_at_utc": "2026-10-21T15:43:57.6300150+00:00",
+  "observations": [
+    "All four actual UE renders directly inspected. Original layout and camera framing retained.",
+    "Shared tree prototype keeps placement and height variation; all trees share the same shape scaled uniformly.",
+    "Timber, plaster, aggregate and foliage textures are visible; no missing-material checkerboards.",
+    "Green Hello visible in runtime_hello.png; that motion-blurred editor UI image is debug evidence only."
+  ],
+  "images": [
+    {
+      "camera_matches_exactly": true,
+      "file": "overview.png",
+      "directly_inspected": true,
+      "height": 1080,
+      "width": 1920
+    },
+    {
+      "camera_matches_exactly": true,
+      "file": "top_down.png",
+      "directly_inspected": true,
+      "height": 1080,
+      "width": 1920
+    },
+    {
+      "camera_matches_exactly": true,
+      "file": "platform.png",
+      "directly_inspected": true,
+      "height": 1080,
+      "width": 1920
+    },
+    {
+      "camera_matches_exactly": true,
+      "file": "tracks.png",
+      "directly_inspected": true,
+      "height": 1080,
+      "width": 1920
+    }
+  ]
+}

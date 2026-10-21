@@ -1,0 +1,90 @@
+{
+  "map": "/Game/Maps/MountainStation_medium",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High (sg.* 2)",
+  "screen_percentage": 100,
+  "method": "UE SceneCapture2D FinalColorLDR, manual exposure, RGBA8 export",
+  "site_center_cm": [
+    0,
+    0,
+    0
+  ],
+  "shots": [
+    {
+      "file": "overview.png",
+      "location_cm": [
+        12000,
+        -12000,
+        16000
+      ],
+      "rotation_deg": {
+        "pitch": -43.31385665828305,
+        "yaw": 135.0,
+        "roll": 7.173851131232941E-07
+      },
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "horizontal_fov": null,
+      "captured_at_utc": "2026-10-21T15:40:53.673997+00:00"
+    },
+    {
+      "file": "top_down.png",
+      "location_cm": [
+        0,
+        0,
+        20000
+      ],
+      "rotation_deg": {
+        "pitch": -90.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "horizontal_fov": null,
+      "captured_at_utc": "2026-10-21T15:41:21.868284+00:00"
+    },
+    {
+      "file": "platform.png",
+      "location_cm": [
+        -2100,
+        520,
+        242
+      ],
+      "rotation_deg": {
+        "pitch": 1.3308145034115444,
+        "yaw": -11.996899307923579,
+        "roll": 2.158355218464619E-09
+      },
+      "projection": "perspective",
+      "ortho_width_cm": null,
+      "horizontal_fov": 70,
+      "captured_at_utc": "2026-10-21T15:41:50.105380+00:00"
+    },
+    {
+      "file": "tracks.png",
+      "location_cm": [
+        1800,
+        1100,
+        170
+      ],
+      "rotation_deg": {
+        "pitch": 3.2621946046934926,
+        "yaw": 4.085616779974877,
+        "roll": -1.800977260690995E-09
+      },
+      "projection": "perspective",
+      "ortho_width_cm": null,
+      "horizontal_fov": 70,
+      "captured_at_utc": "2026-10-21T15:42:18.311968+00:00"
+    }
+  ],
+  "capture_wall_seconds": 112.82944345474243,
+  "manual_exposure_bias": 2.0,
+  "physical_camera_exposure": false,
+  "comparison_reference": "../../../FirstDelivery/capture_manifest.json",
+  "camera_validation": "All six camera fields for each of four views exactly match FirstDelivery; deterministic original look-at calculations reused."
+}

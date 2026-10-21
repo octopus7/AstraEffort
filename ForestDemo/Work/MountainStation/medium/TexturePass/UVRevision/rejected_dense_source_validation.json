@@ -1,0 +1,41 @@
+{
+  "triangles": 124742,
+  "actual_edge_connected_uv_islands": 88574,
+  "degenerate_uv_triangles": 3916,
+  "positive_area_overlap_pairs": 0,
+  "overlap_examples": [],
+  "island_bbox_overlap_pairs": 0,
+  "minimum_island_bbox_gap_pixels_within_32px_search": 15.997802734375,
+  "algorithm": "Components share an exact geometric edge and matching UV endpoints, independent of normal splits. Global triangle AABB sweep + strict SAT tests interior overlap; shared boundaries allowed. Conservative island AABB gap search covers every pair within 32 effective pixels.",
+  "epsilon_pixels": 1e-05,
+  "source_objects": 1247,
+  "planned_connected_charts": 88574,
+  "packed_domain": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "shader_uv_repeat_scale": 128,
+  "effective_pixels_per_uv_unit": 57344,
+  "padding_each_side_pixels": 8,
+  "target_minimum_island_gap_pixels": 16,
+  "world_area_m2": 45905.112954867276,
+  "density_target_px_m": 128,
+  "density_all": {
+    "min": 0.0,
+    "median": 127.99901991157176,
+    "max": 151.01254854949016
+  },
+  "density_at_least_four_texels": {
+    "count": 84246,
+    "min": 127.75363996792444,
+    "median": 127.9998185429728,
+    "max": 128.3333826983782,
+    "outside_2_percent": 0
+  },
+  "started_at_utc": "2026-10-21T15:21:19.461978+00:00",
+  "finished_at_utc": "2026-10-21T15:21:34.726491+00:00",
+  "shader_reuse": "UV0 is unique packed geometry. Shader multiplies UV0 by uniform extent then Frac reuses the same generated 448px swatch. Only the post-wrap sampling is intentionally shared.",
+  "scope": "Every authored source mesh face; actual edge connectivity and global geometric overlap test, not face-plane group counts."
+}

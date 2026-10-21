@@ -1,0 +1,51 @@
+{
+  "observations": [
+    "Overview and top_down retain layout, faceted mountain silhouette and teal roof palette; fine repeating surface texture is visible.",
+    "Platform shows timber grain on bench, trim and ties; cream plaster and aggregate platform texture are visible, with no missing-material checkerboard.",
+    "Tracks shows stone tunnel portal, timber ties and faceted rocks; comparison framing retained.",
+    "runtime_hello.png directly inspected: green Hello visible in possessed PIE viewport. It has motion blur and editor UI and is only debug-overlay evidence, not a comparison render."
+  ],
+  "images": [
+    {
+      "file": "overview.png",
+      "camera_matches_first_delivery_within_float_precision": true,
+      "inspected": true,
+      "height": 1080,
+      "width": 1920,
+      "max_rotation_rounding_degrees": 0
+    },
+    {
+      "file": "top_down.png",
+      "camera_matches_first_delivery_within_float_precision": true,
+      "inspected": true,
+      "height": 1080,
+      "width": 1920,
+      "max_rotation_rounding_degrees": 0
+    },
+    {
+      "file": "platform.png",
+      "camera_matches_first_delivery_within_float_precision": true,
+      "inspected": true,
+      "height": 1080,
+      "width": 1920,
+      "max_rotation_rounding_degrees": 0
+    },
+    {
+      "file": "tracks.png",
+      "camera_matches_first_delivery_within_float_precision": true,
+      "inspected": true,
+      "height": 1080,
+      "width": 1920,
+      "max_rotation_rounding_degrees": 0
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "Repeating atlas can produce visible repetition and phase changes across faceted rocks, leaves and curved sections.",
+    "Wide-view texture can read as fine grain; canopy shadows remain dark under unchanged baseline lighting.",
+    "No normal or displacement maps; foliage retains faceted solid geometry.",
+    "Five recorded small lettering side faces exceed 2% density tolerance; 36586 tiny render triangles are separately reported.",
+    "UE Rotator constructor rounds supplied baseline angles by at most 0.000001374 degrees; recorded transparently in capture manifest."
+  ],
+  "reviewed_at_utc": "2026-10-21T15:13:28.2365432+00:00"
+}

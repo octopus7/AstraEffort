@@ -1,0 +1,6787 @@
+{
+  "started_at_utc": "2026-10-21T15:26:14.728627+00:00",
+  "fresh_process": true,
+  "checks": {
+    "direct_non_world_partition": true,
+    "saved_actor_mesh": true,
+    "unit_world_scale": true,
+    "material_texture_links": true,
+    "mesh_material_slots": true,
+    "all_owned_asset_dependencies_scoped": true,
+    "all_saved_uv_valid": true,
+    "density_with_recorded_lettering_exceptions": false,
+    "saved_uv_no_overlap": false,
+    "saved_island_gap": false,
+    "full_precision_uv": true
+  },
+  "world_path": "/Game/Maps/MountainStation_medium.MountainStation_medium",
+  "partition_is_none": true,
+  "actor": "/Game/Maps/MountainStation_medium.MountainStation_medium:PersistentLevel.StaticMeshActor_1",
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "materials": [
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_grass.M_grass",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_edge.M_edge",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_stone.M_stone",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rock.M_rock",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_cream.M_cream",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_roof.M_roof",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_wood.M_wood",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_woodlight.M_woodlight",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_metal.M_metal",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rail.M_rail",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_glass.M_glass",
+      "textures": [],
+      "base_color_input": "MaterialExpressionConstant3Vector",
+      "passed": true
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gold.M_gold",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gravel.M_gravel",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_path.M_path",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf.M_leaf",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf2.M_leaf2",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_white.M_white",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_dark.M_dark",
+      "textures": [],
+      "base_color_input": "MaterialExpressionConstant3Vector",
+      "passed": true
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_brick.M_brick",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    },
+    {
+      "material": "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_bark.M_bark",
+      "textures": [
+        "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas.T_SurfaceAtlas"
+      ],
+      "base_color_input": "MaterialExpressionLinearInterpolate",
+      "passed": true,
+      "packed_uv_scale": 128.0,
+      "base_color_upstream_classes": [
+        "MaterialExpressionLinearInterpolate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionConstant2Vector",
+        "MaterialExpressionFrac",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionScalarParameter",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionConstant3Vector"
+      ],
+      "upstream_parameters": [
+        "PackedUVScale"
+      ]
+    }
+  ],
+  "dependencies": {
+    "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Meshes/SM_AlderPass_UV": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_bark",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_brick",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_cream",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_dark",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_edge",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_glass",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_gold",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_grass",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_gravel",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_leaf",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_leaf2",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_metal",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_path",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_rail",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_rock",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_roof",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_stone",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_white",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_wood",
+      "/Game/MountainStation/medium/TexturePass/Materials/M_woodlight"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_woodlight": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_wood": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_white": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_stone": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_roof": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_rock": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_rail": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_path": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_metal": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_leaf2": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_leaf": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_gravel": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_grass": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_gold": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_glass": [],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_edge": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_dark": [],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_cream": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_brick": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/Materials/M_bark": [
+      "/Game/MountainStation/medium/TexturePass/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/Meshes/SM_AlderPass": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/Materials/M_brick",
+      "/Game/MountainStation/medium/Materials/M_cream",
+      "/Game/MountainStation/medium/Materials/M_dark",
+      "/Game/MountainStation/medium/Materials/M_edge",
+      "/Game/MountainStation/medium/Materials/M_glass",
+      "/Game/MountainStation/medium/Materials/M_gold",
+      "/Game/MountainStation/medium/Materials/M_grass",
+      "/Game/MountainStation/medium/Materials/M_gravel",
+      "/Game/MountainStation/medium/Materials/M_leaf",
+      "/Game/MountainStation/medium/Materials/M_leaf2",
+      "/Game/MountainStation/medium/Materials/M_metal",
+      "/Game/MountainStation/medium/Materials/M_path",
+      "/Game/MountainStation/medium/Materials/M_rail",
+      "/Game/MountainStation/medium/Materials/M_rock",
+      "/Game/MountainStation/medium/Materials/M_roof",
+      "/Game/MountainStation/medium/Materials/M_stone",
+      "/Game/MountainStation/medium/Materials/M_white",
+      "/Game/MountainStation/medium/Materials/M_wood",
+      "/Game/MountainStation/medium/Materials/M_woodlight"
+    ],
+    "/Game/MountainStation/medium/Materials/M_woodlight": [],
+    "/Game/MountainStation/medium/Materials/M_wood": [],
+    "/Game/MountainStation/medium/Materials/M_white": [],
+    "/Game/MountainStation/medium/Materials/M_stone": [],
+    "/Game/MountainStation/medium/Materials/M_roof": [],
+    "/Game/MountainStation/medium/Materials/M_rock": [],
+    "/Game/MountainStation/medium/Materials/M_rail": [],
+    "/Game/MountainStation/medium/Materials/M_path": [],
+    "/Game/MountainStation/medium/Materials/M_metal": [],
+    "/Game/MountainStation/medium/Materials/M_leaf2": [],
+    "/Game/MountainStation/medium/Materials/M_leaf": [],
+    "/Game/MountainStation/medium/Materials/M_gravel": [],
+    "/Game/MountainStation/medium/Materials/M_grass": [],
+    "/Game/MountainStation/medium/Materials/M_gold": [],
+    "/Game/MountainStation/medium/Materials/M_glass": [],
+    "/Game/MountainStation/medium/Materials/M_edge": [],
+    "/Game/MountainStation/medium/Materials/M_dark": [],
+    "/Game/MountainStation/medium/Materials/M_cream": [],
+    "/Game/MountainStation/medium/Materials/M_brick": [],
+    "/Game/MountainStation/medium/Materials/M_Backdrop": [],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_dark": [],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_glass": [],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_bark": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_brick": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_cream": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_edge": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gold": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_grass": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gravel": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf2": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_metal": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_path": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rail": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rock": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_roof": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_stone": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_white": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_wood": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_woodlight": [
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Textures/T_SurfaceAtlas"
+    ],
+    "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV": [
+      "/Script/NavigationSystem",
+      "/Script/InterchangeEngine",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_bark",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_brick",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_cream",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_dark",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_edge",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_glass",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gold",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_grass",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_gravel",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_leaf2",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_metal",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_path",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rail",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_rock",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_roof",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_stone",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_white",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_wood",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Materials/M_woodlight"
+    ],
+    "/Game/Maps/MountainStation_medium": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Engine/MapTemplates/Sky/DaylightAmbientCubemap",
+      "/Game/MountainStation/medium/Materials/M_Backdrop",
+      "/Script/ForestDemo",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Game/MountainStation/medium/TexturePass/UVRevision/Meshes/SM_AlderPass_UV"
+    ]
+  },
+  "foreign_dependencies": [],
+  "copy_result": "(<Object '/Engine/Transient.DynamicMesh_0' (0x0000023637408F00) Class 'DynamicMesh'>, <GeometryScriptOutcomePins.SUCCESS: 1>)",
+  "uv_sets": 1,
+  "uv_islands_result": "(99153, True)",
+  "saved_render_lod0": {
+    "triangle_id_count": 120832,
+    "audited_triangles": 120832,
+    "invalid": 0,
+    "world_surface_area_m2": 45905.11324102665,
+    "all_triangle_density_px_m": {
+      "count": 120832,
+      "min": 0.0,
+      "median": 127.99895356963665,
+      "max": 964.3873687831815,
+      "outside_2_percent": 319
+    },
+    "at_least_four_target_texels_density_px_m": {
+      "count": 84246,
+      "min": 23.928434645799765,
+      "median": 127.9997387516088,
+      "max": 964.3873687831815,
+      "outside_2_percent": 217
+    },
+    "tiny_triangle_count": 36586,
+    "subquarterpixel_width_large_triangles": 0,
+    "resolved_surface_density_px_m": {
+      "count": 84246,
+      "min": 23.928434645799765,
+      "median": 127.9997387516088,
+      "max": 964.3873687831815,
+      "outside_2_percent": 217
+    },
+    "non_tiny_outliers": [
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 0,
+        "triangle": 174,
+        "area_m2": 1.3888836336420416,
+        "density_px_m": 132.7130931009424,
+        "min_altitude_px": 150.84916127868746,
+        "vertices_cm": [
+          [
+            -500.00042724609375,
+            -4833.3330078125,
+            0.008176520466804504
+          ],
+          [
+            -333.333740234375,
+            -4666.6669921875,
+            0.005020141135901213
+          ],
+          [
+            -333.333740234375,
+            -4833.3330078125,
+            0.003650774946436286
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 0,
+        "triangle": 177,
+        "area_m2": 1.388883506178896,
+        "density_px_m": 132.71416233715613,
+        "min_altitude_px": 150.84915435053298,
+        "vertices_cm": [
+          [
+            -333.333740234375,
+            -4833.3330078125,
+            0.003650774946436286
+          ],
+          [
+            -333.333740234375,
+            -4666.6669921875,
+            0.005020141135901213
+          ],
+          [
+            -166.6670684814453,
+            -4666.6669921875,
+            0.0021566383074969053
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 0,
+        "triangle": 656,
+        "area_m2": 1.3888915178570747,
+        "density_px_m": 132.71296366217769,
+        "min_altitude_px": 150.84958253651655,
+        "vertices_cm": [
+          [
+            -333.33367919921875,
+            -4166.6669921875,
+            0.0112555967643857
+          ],
+          [
+            -166.66700744628906,
+            -4000.0,
+            0.00602375715970993
+          ],
+          [
+            -166.66702270507812,
+            -4166.6669921875,
+            0.004835371859371662
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 0,
+        "triangle": 1976,
+        "area_m2": 1.3888915253762817,
+        "density_px_m": 132.71296330293575,
+        "min_altitude_px": 150.84969337428439,
+        "vertices_cm": [
+          [
+            -333.3335266113281,
+            -2333.333251953125,
+            0.03246377035975456
+          ],
+          [
+            -166.66685485839844,
+            -2166.66650390625,
+            0.013241627253592014
+          ],
+          [
+            -166.6668701171875,
+            -2333.33349609375,
+            0.013946343213319778
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 0,
+        "triangle": 4969,
+        "area_m2": 1.401307504470826,
+        "density_px_m": 123.3801635542321,
+        "min_altitude_px": 151.5193488942345,
+        "vertices_cm": [
+          [
+            -999.9998168945312,
+            1833.33349609375,
+            2.662370443344116
+          ],
+          [
+            -999.9998168945312,
+            2000.0001220703125,
+            25.00005340576172
+          ],
+          [
+            -833.3331298828125,
+            2000.0001220703125,
+            25.00002670288086
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 0,
+        "triangle": 4971,
+        "area_m2": 1.4013070211203955,
+        "density_px_m": 132.71306267320608,
+        "min_altitude_px": 151.51937680440312,
+        "vertices_cm": [
+          [
+            -833.3331298828125,
+            1833.33349609375,
+            2.6623167991638184
+          ],
+          [
+            -833.3331298828125,
+            2000.0001220703125,
+            25.00002670288086
+          ],
+          [
+            -666.66650390625,
+            2000.0,
+            25.000011444091797
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 16318,
+        "area_m2": 0.0009949519759565764,
+        "density_px_m": 601.2441380933155,
+        "min_altitude_px": 0.9792161795720601,
+        "vertices_cm": [
+          [
+            -2574.341796875,
+            874.4336547851562,
+            31.75
+          ],
+          [
+            -2548.639892578125,
+            870.44384765625,
+            32.04289245605469
+          ],
+          [
+            -2548.550537109375,
+            871.145263671875,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 18148,
+        "area_m2": 0.0009566672001236384,
+        "density_px_m": 244.02197347761398,
+        "min_altitude_px": 0.9791689010639656,
+        "vertices_cm": [
+          [
+            -1928.2791748046875,
+            983.8740234375,
+            31.75
+          ],
+          [
+            -1930.0013427734375,
+            958.9234008789062,
+            32.04289245605469
+          ],
+          [
+            -1927.575439453125,
+            983.805419921875,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 18580,
+        "area_m2": 0.0009566542061136092,
+        "density_px_m": 343.7193562833034,
+        "min_altitude_px": 0.9791543951918038,
+        "vertices_cm": [
+          [
+            -1781.180908203125,
+            945.0711669921875,
+            31.75
+          ],
+          [
+            -1778.2357177734375,
+            969.9071655273438,
+            32.04289245605469
+          ],
+          [
+            -1778.93994140625,
+            969.970458984375,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 18803,
+        "area_m2": 0.00099500112163074,
+        "density_px_m": 960.1646432527539,
+        "min_altitude_px": 0.9792737495039505,
+        "vertices_cm": [
+          [
+            -1732.384033203125,
+            940.06103515625,
+            32.04289245605469
+          ],
+          [
+            -1706.5054931640625,
+            937.5350341796875,
+            32.75
+          ],
+          [
+            -1706.4803466796875,
+            937.826904296875,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 18891,
+        "area_m2": 0.0009566928686132442,
+        "density_px_m": 379.7773831960958,
+        "min_altitude_px": 0.9791962667775516,
+        "vertices_cm": [
+          [
+            -1671.1016845703125,
+            778.99609375,
+            32.04289245605469
+          ],
+          [
+            -1669.3380126953125,
+            803.9354858398438,
+            32.75
+          ],
+          [
+            -1671.3935546875,
+            779.0201416015625,
+            32.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 19986,
+        "area_m2": 0.000956585080308734,
+        "density_px_m": 175.0773804104572,
+        "min_altitude_px": 0.9790848225691317,
+        "vertices_cm": [
+          [
+            -1266.193359375,
+            774.4463500976562,
+            35.250003814697266
+          ],
+          [
+            -1267.078369140625,
+            749.4520263671875,
+            34.95710754394531
+          ],
+          [
+            -1267.783935546875,
+            749.4970092773438,
+            35.250003814697266
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 20078,
+        "area_m2": 0.0009567304592154319,
+        "density_px_m": 251.84120234437293,
+        "min_altitude_px": 0.9792337380092055,
+        "vertices_cm": [
+          [
+            -1282.2159423828125,
+            931.7844848632812,
+            31.75
+          ],
+          [
+            -1284.5120849609375,
+            906.880126953125,
+            32.04289245605469
+          ],
+          [
+            -1283.806396484375,
+            906.8350830078125,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 20304,
+        "area_m2": 0.0009950946532071277,
+        "density_px_m": 802.3359218888944,
+        "min_altitude_px": 0.9793598702010472,
+        "vertices_cm": [
+          [
+            -1181.60302734375,
+            925.5589599609375,
+            35.250003814697266
+          ],
+          [
+            -1207.5140380859375,
+            927.822021484375,
+            34.95710754394531
+          ],
+          [
+            -1181.5606689453125,
+            926.264892578125,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 20635,
+        "area_m2": 0.0009567047423921556,
+        "density_px_m": 290.3023371571753,
+        "min_altitude_px": 0.9792073599513854,
+        "vertices_cm": [
+          [
+            -1039.74560546875,
+            761.43408203125,
+            34.95710754394531
+          ],
+          [
+            -1040.763916015625,
+            736.453125,
+            34.25
+          ],
+          [
+            -1041.056396484375,
+            736.4684448242188,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 20731,
+        "area_m2": 0.0009567024098999776,
+        "density_px_m": 341.4383298992517,
+        "min_altitude_px": 0.9792045024710281,
+        "vertices_cm": [
+          [
+            -1058.9434814453125,
+            918.65673828125,
+            34.95710754394531
+          ],
+          [
+            -1060.5467529296875,
+            893.7064819335938,
+            34.25
+          ],
+          [
+            -1059.2359619140625,
+            918.6720581054688,
+            34.25
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 20736,
+        "area_m2": 0.0009949627618200338,
+        "density_px_m": 542.8382371110754,
+        "min_altitude_px": 0.9792258130473228,
+        "vertices_cm": [
+          [
+            -1058.2374267578125,
+            918.61962890625,
+            35.250003814697266
+          ],
+          [
+            -1032.2359619140625,
+            917.962646484375,
+            34.95710754394531
+          ],
+          [
+            -1032.2730712890625,
+            917.2565307617188,
+            35.250003814697266
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 21384,
+        "area_m2": 0.0009950974737081744,
+        "density_px_m": 964.3873687831815,
+        "min_altitude_px": 0.9793652083915879,
+        "vertices_cm": [
+          [
+            -808.2810668945312,
+            906.9029541015625,
+            35.250003814697266
+          ],
+          [
+            -834.2297973632812,
+            908.6810913085938,
+            34.95710754394531
+          ],
+          [
+            -808.2518920898438,
+            907.6095581054688,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 21497,
+        "area_m2": 0.0009567290005132117,
+        "density_px_m": 344.3229127612709,
+        "min_altitude_px": 0.9792304103806023,
+        "vertices_cm": [
+          [
+            -739.69384765625,
+            723.1124267578125,
+            32.04289245605469
+          ],
+          [
+            -738.4642944335938,
+            748.0839233398438,
+            32.75
+          ],
+          [
+            -738.7570190429688,
+            748.0949096679688,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 21502,
+        "area_m2": 0.0009949692770302215,
+        "density_px_m": 535.7161327048067,
+        "min_altitude_px": 0.9792377279334182,
+        "vertices_cm": [
+          [
+            -740.4004516601562,
+            723.1389770507812,
+            31.75
+          ],
+          [
+            -766.40869140625,
+            723.4066772460938,
+            32.04289245605469
+          ],
+          [
+            -740.4269409179688,
+            722.432373046875,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 21605,
+        "area_m2": 0.0009567255721970836,
+        "density_px_m": 344.3235296815101,
+        "min_altitude_px": 0.9792269014335471,
+        "vertices_cm": [
+          [
+            -733.847900390625,
+            879.0029296875,
+            32.04289245605469
+          ],
+          [
+            -732.6183471679688,
+            903.9744262695312,
+            32.75
+          ],
+          [
+            -732.9110717773438,
+            903.9853515625,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 21610,
+        "area_m2": 0.0009948959356423574,
+        "density_px_m": 535.735905605358,
+        "min_altitude_px": 0.9791655461528612,
+        "vertices_cm": [
+          [
+            -734.5545043945312,
+            879.0294189453125,
+            31.75
+          ],
+          [
+            -760.562744140625,
+            879.297119140625,
+            32.04289245605469
+          ],
+          [
+            -734.5809936523438,
+            878.3228759765625,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 21811,
+        "area_m2": 0.0009567078597438243,
+        "density_px_m": 214.68643675353897,
+        "min_altitude_px": 0.979211948971244,
+        "vertices_cm": [
+          [
+            -686.4898681640625,
+            877.3157958984375,
+            34.95710754394531
+          ],
+          [
+            -685.9393310546875,
+            902.3114013671875,
+            34.25
+          ],
+          [
+            -685.6466064453125,
+            902.3015747070312,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 22131,
+        "area_m2": 0.00095667798317896,
+        "density_px_m": 174.57919270252418,
+        "min_altitude_px": 0.9791767792206737,
+        "vertices_cm": [
+          [
+            -541.0771484375,
+            716.781494140625,
+            32.04289245605469
+          ],
+          [
+            -540.7138671875,
+            741.7806396484375,
+            32.75
+          ],
+          [
+            -541.369873046875,
+            716.7892456054688,
+            32.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 22135,
+        "area_m2": 0.0009567087966056388,
+        "density_px_m": 174.57327734061002,
+        "min_altitude_px": 0.9792083173060302,
+        "vertices_cm": [
+          [
+            -541.0771484375,
+            716.781494140625,
+            34.95710754394531
+          ],
+          [
+            -540.7138671875,
+            741.7806396484375,
+            34.25
+          ],
+          [
+            -540.4210815429688,
+            741.77294921875,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 22579,
+        "area_m2": 0.0009567117912871152,
+        "density_px_m": 121.51638862869831,
+        "min_altitude_px": 0.9792140486646829,
+        "vertices_cm": [
+          [
+            -362.5231628417969,
+            737.7702026367188,
+            34.95710754394531
+          ],
+          [
+            -362.698974609375,
+            712.7691040039062,
+            34.25
+          ],
+          [
+            -362.9918212890625,
+            712.7745971679688,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 22582,
+        "area_m2": 0.0009949618863148157,
+        "density_px_m": 749.2960339325484,
+        "min_altitude_px": 0.9792302026760404,
+        "vertices_cm": [
+          [
+            -363.69879150390625,
+            712.787841796875,
+            31.75
+          ],
+          [
+            -389.7074890136719,
+            712.5682983398438,
+            32.04289245605469
+          ],
+          [
+            -363.7120666503906,
+            712.0808715820312,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 22900,
+        "area_m2": 0.0009566793097238373,
+        "density_px_m": 145.656730085065,
+        "min_altitude_px": 0.9791765021775953,
+        "vertices_cm": [
+          [
+            -286.01898193359375,
+            867.547607421875,
+            31.75
+          ],
+          [
+            -284.93701171875,
+            892.5343017578125,
+            32.04289245605469
+          ],
+          [
+            -285.6440124511719,
+            892.5448608398438,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 23230,
+        "area_m2": 0.0009949830210778446,
+        "density_px_m": 747.7758840309847,
+        "min_altitude_px": 0.9792517590487609,
+        "vertices_cm": [
+          [
+            -163.6782989501953,
+            710.1625366210938,
+            31.75
+          ],
+          [
+            -137.68434143066406,
+            709.260498046875,
+            32.04289245605469
+          ],
+          [
+            -137.6790313720703,
+            709.9675903320312,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 24520,
+        "area_m2": 0.0009567132531982367,
+        "density_px_m": 232.13967502240848,
+        "min_altitude_px": 0.9792160181302658,
+        "vertices_cm": [
+          [
+            313.9809875488281,
+            736.9522705078125,
+            31.75
+          ],
+          [
+            315.0629577636719,
+            711.9656982421875,
+            32.04289245605469
+          ],
+          [
+            314.6880187988281,
+            736.962890625,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 24744,
+        "area_m2": 0.0009949637841157703,
+        "density_px_m": 929.4644989788936,
+        "min_altitude_px": 0.979233507022391,
+        "vertices_cm": [
+          [
+            389.6943359375,
+            713.2752075195312,
+            35.250003814697266
+          ],
+          [
+            363.7121887207031,
+            712.080810546875,
+            34.95710754394531
+          ],
+          [
+            363.69891357421875,
+            712.7877807617188,
+            35.250003814697266
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 25169,
+        "area_m2": 0.0009567064617014215,
+        "density_px_m": 174.3312125760086,
+        "min_altitude_px": 0.9792083158022918,
+        "vertices_cm": [
+          [
+            541.0772705078125,
+            716.7814331054688,
+            32.04289245605469
+          ],
+          [
+            540.7139892578125,
+            741.780517578125,
+            32.75
+          ],
+          [
+            540.4212036132812,
+            741.7728271484375,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 25171,
+        "area_m2": 0.0009566772172076883,
+        "density_px_m": 174.33387710538216,
+        "min_altitude_px": 0.9791783834744553,
+        "vertices_cm": [
+          [
+            541.0772705078125,
+            716.7814331054688,
+            34.95710754394531
+          ],
+          [
+            540.7139892578125,
+            741.780517578125,
+            34.25
+          ],
+          [
+            541.3699951171875,
+            716.7891235351562,
+            34.25
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 25262,
+        "area_m2": 0.0009567265596603846,
+        "density_px_m": 23.928434645799765,
+        "min_altitude_px": 0.9792291153041088,
+        "vertices_cm": [
+          [
+            509.6297607421875,
+            897.018310546875,
+            31.75
+          ],
+          [
+            509.57891845703125,
+            872.0083618164062,
+            32.04289245605469
+          ],
+          [
+            510.2857971191406,
+            872.02685546875,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 25603,
+        "area_m2": 0.0009567088445444215,
+        "density_px_m": 214.30036097765554,
+        "min_altitude_px": 0.979210568935163,
+        "vertices_cm": [
+          [
+            691.7520141601562,
+            721.4044189453125,
+            34.95710754394531
+          ],
+          [
+            691.2014770507812,
+            746.4000854492188,
+            34.25
+          ],
+          [
+            692.0447387695312,
+            721.414306640625,
+            34.25
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 25819,
+        "area_m2": 0.0009567256596674184,
+        "density_px_m": 344.32098715489803,
+        "min_altitude_px": 0.9792268734893539,
+        "vertices_cm": [
+          [
+            766.1520385742188,
+            749.1220703125,
+            34.95710754394531
+          ],
+          [
+            767.3816528320312,
+            724.1505737304688,
+            34.25
+          ],
+          [
+            767.0889282226562,
+            724.1396484375,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 26027,
+        "area_m2": 0.000995016575567776,
+        "density_px_m": 555.8210750133674,
+        "min_altitude_px": 0.9792826788740437,
+        "vertices_cm": [
+          [
+            814.6815185546875,
+            751.7418823242188,
+            32.04289245605469
+          ],
+          [
+            840.6473999023438,
+            753.1061401367188,
+            32.75
+          ],
+          [
+            814.6694946289062,
+            752.0346069335938,
+            32.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 27214,
+        "area_m2": 0.0009950150569178235,
+        "density_px_m": 781.7760553728825,
+        "min_altitude_px": 0.9792861121764078,
+        "vertices_cm": [
+          [
+            1181.603271484375,
+            925.5587768554688,
+            31.75
+          ],
+          [
+            1207.51416015625,
+            927.8218383789062,
+            32.04289245605469
+          ],
+          [
+            1181.5609130859375,
+            926.2646484375,
+            32.04289245605469
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 27328,
+        "area_m2": 0.0009565829581103751,
+        "density_px_m": 175.07757461667853,
+        "min_altitude_px": 0.979082821271303,
+        "vertices_cm": [
+          [
+            1293.7314453125,
+            751.1509399414062,
+            31.75
+          ],
+          [
+            1292.8465576171875,
+            776.145263671875,
+            32.04289245605469
+          ],
+          [
+            1292.1409912109375,
+            776.1002807617188,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 27659,
+        "area_m2": 0.000994981583668779,
+        "density_px_m": 782.5486593252909,
+        "min_altitude_px": 0.9792537348818069,
+        "vertices_cm": [
+          [
+            1358.60693359375,
+            911.0836791992188,
+            32.04289245605469
+          ],
+          [
+            1332.685791015625,
+            909.0404052734375,
+            32.75
+          ],
+          [
+            1358.626708984375,
+            910.7914428710938,
+            32.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 28182,
+        "area_m2": 0.0009567495882871148,
+        "density_px_m": 329.7041676036239,
+        "min_altitude_px": 0.9792534131668159,
+        "vertices_cm": [
+          [
+            1569.14501953125,
+            770.7742309570312,
+            35.250003814697266
+          ],
+          [
+            1566.4774169921875,
+            795.6415405273438,
+            34.95710754394531
+          ],
+          [
+            1567.182373046875,
+            795.6970825195312,
+            35.250003814697266
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 29042,
+        "area_m2": 0.0009566595085736271,
+        "density_px_m": 237.48951990468967,
+        "min_altitude_px": 0.9791612107323158,
+        "vertices_cm": [
+          [
+            1868.170654296875,
+            821.4629516601562,
+            31.75
+          ],
+          [
+            1869.800048828125,
+            796.506103515625,
+            32.04289245605469
+          ],
+          [
+            1870.5040283203125,
+            796.5720825195312,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 29258,
+        "area_m2": 0.0009568124769561941,
+        "density_px_m": 244.52605116399636,
+        "min_altitude_px": 0.9793175949425319,
+        "vertices_cm": [
+          [
+            1943.4176025390625,
+            828.60986328125,
+            31.75
+          ],
+          [
+            1945.1397705078125,
+            803.6592407226562,
+            32.04289245605469
+          ],
+          [
+            1945.8436279296875,
+            803.7279052734375,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 29274,
+        "area_m2": 0.0009566645099182052,
+        "density_px_m": 244.02231658053594,
+        "min_altitude_px": 0.979166145833599,
+        "vertices_cm": [
+          [
+            1971.7208251953125,
+            806.2509765625,
+            35.250003814697266
+          ],
+          [
+            1969.9986572265625,
+            831.2015991210938,
+            34.95710754394531
+          ],
+          [
+            1972.424560546875,
+            806.3195190429688,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 31216,
+        "area_m2": 0.0009567922575086259,
+        "density_px_m": 296.6124056603719,
+        "min_altitude_px": 0.9792978361947248,
+        "vertices_cm": [
+          [
+            2649.666748046875,
+            884.2267456054688,
+            31.75
+          ],
+          [
+            2647.114501953125,
+            909.1061401367188,
+            32.04289245605469
+          ],
+          [
+            2646.413330078125,
+            909.01416015625,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 32512,
+        "area_m2": 0.0009567855506578066,
+        "density_px_m": 326.40707681310187,
+        "min_altitude_px": 0.9792911942328618,
+        "vertices_cm": [
+          [
+            3101.601806640625,
+            948.9169311523438,
+            31.75
+          ],
+          [
+            3098.501708984375,
+            973.7340087890625,
+            32.04289245605469
+          ],
+          [
+            3097.802734375,
+            973.6266479492188,
+            31.75
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 4,
+        "triangle": 32514,
+        "area_m2": 0.0009568041806033889,
+        "density_px_m": 326.4038990595956,
+        "min_altitude_px": 0.9793102606455655,
+        "vertices_cm": [
+          [
+            3101.601806640625,
+            948.9169311523438,
+            35.250003814697266
+          ],
+          [
+            3098.501708984375,
+            973.7340087890625,
+            34.95710754394531
+          ],
+          [
+            3102.30078125,
+            949.0244140625,
+            34.95710754394531
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 40393,
+        "area_m2": 0.0014735529154687565,
+        "density_px_m": 136.42740105555797,
+        "min_altitude_px": 3.3319531175855106,
+        "vertices_cm": [
+          [
+            -4928.46533203125,
+            1545.25048828125,
+            17.5
+          ],
+          [
+            -4930.0556640625,
+            1543.0943603515625,
+            28.5
+          ],
+          [
+            -4930.0556640625,
+            1543.0943603515625,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 40399,
+        "area_m2": 0.0014733678755284127,
+        "density_px_m": 226.6622601319077,
+        "min_altitude_px": 3.3315581377375545,
+        "vertices_cm": [
+          [
+            -4907.15869140625,
+            1539.97705078125,
+            17.5
+          ],
+          [
+            -4909.31494140625,
+            1541.566650390625,
+            28.5
+          ],
+          [
+            -4909.31494140625,
+            1541.566650390625,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 41159,
+        "area_m2": 0.03522631316469992,
+        "density_px_m": 460.10559580347893,
+        "min_altitude_px": 3.4286940824040864,
+        "vertices_cm": [
+          [
+            -4385.876953125,
+            1415.5401611328125,
+            30.974876403808594
+          ],
+          [
+            -4441.69091796875,
+            1158.5286865234375,
+            28.5
+          ],
+          [
+            -4442.69189453125,
+            1158.7501220703125,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 41812,
+        "area_m2": 0.0022769049141237035,
+        "density_px_m": 223.06887112853937,
+        "min_altitude_px": 3.387007435779064,
+        "vertices_cm": [
+          [
+            -4008.970947265625,
+            1067.6956787109375,
+            32.0
+          ],
+          [
+            -3992.77978515625,
+            1061.954345703125,
+            30.974876403808594
+          ],
+          [
+            -4009.453369140625,
+            1065.268310546875,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42116,
+        "area_m2": 0.0014734547920835991,
+        "density_px_m": 226.65557482555033,
+        "min_altitude_px": 3.3317437001916357,
+        "vertices_cm": [
+          [
+            -3783.233154296875,
+            1020.4415893554688,
+            28.5
+          ],
+          [
+            -3785.47705078125,
+            1021.9051513671875,
+            17.5
+          ],
+          [
+            -3785.47705078125,
+            1021.9051513671875,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42353,
+        "area_m2": 0.0022769169776621512,
+        "density_px_m": 219.70944647220122,
+        "min_altitude_px": 3.3870485364987704,
+        "vertices_cm": [
+          [
+            -3615.36865234375,
+            990.638671875,
+            30.974876403808594
+          ],
+          [
+            -3632.281005859375,
+            992.641357421875,
+            28.5
+          ],
+          [
+            -3632.099365234375,
+            993.6502685546875,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42552,
+        "area_m2": 0.0014732718183631261,
+        "density_px_m": 136.43677214526804,
+        "min_altitude_px": 3.3313525811862377,
+        "vertices_cm": [
+          [
+            -3435.427734375,
+            1232.0428466796875,
+            17.5
+          ],
+          [
+            -3438.040771484375,
+            1231.4534912109375,
+            28.500001907348633
+          ],
+          [
+            -3438.040771484375,
+            1231.4534912109375,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42564,
+        "area_m2": 0.001473286336042348,
+        "density_px_m": 226.66853239142523,
+        "min_altitude_px": 3.3313840837298963,
+        "vertices_cm": [
+          [
+            -3464.572021484375,
+            963.0827026367188,
+            28.5
+          ],
+          [
+            -3461.958984375,
+            963.6721801757812,
+            17.5
+          ],
+          [
+            -3464.572021484375,
+            963.0827026367188,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42568,
+        "area_m2": 0.0022768833068237304,
+        "density_px_m": 72.65944787771112,
+        "min_altitude_px": 3.3869640194968063,
+        "vertices_cm": [
+          [
+            -3463.977294921875,
+            966.5317993164062,
+            32.0
+          ],
+          [
+            -3481.150390625,
+            966.9827880859375,
+            30.974876403808594
+          ],
+          [
+            -3480.72998046875,
+            969.4215698242188,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42779,
+        "area_m2": 0.03522735322499347,
+        "density_px_m": 421.1468676640241,
+        "min_altitude_px": 3.4287962209547707,
+        "vertices_cm": [
+          [
+            -3310.57958984375,
+            940.7178955078125,
+            30.974876403808594
+          ],
+          [
+            -3266.751708984375,
+            1200.0423583984375,
+            28.5
+          ],
+          [
+            -3309.56787109375,
+            940.551025390625,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42883,
+        "area_m2": 0.0014733153525806372,
+        "density_px_m": 226.66630029341522,
+        "min_altitude_px": 3.33144602255415,
+        "vertices_cm": [
+          [
+            -3192.837158203125,
+            1190.5350341796875,
+            17.5
+          ],
+          [
+            -3195.1171875,
+            1191.941162109375,
+            28.5
+          ],
+          [
+            -3195.1171875,
+            1191.941162109375,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42980,
+        "area_m2": 0.0014732939696041278,
+        "density_px_m": 226.65917302403696,
+        "min_altitude_px": 3.331400410720675,
+        "vertices_cm": [
+          [
+            -3179.39990234375,
+            916.0291748046875,
+            28.5
+          ],
+          [
+            -3181.68505859375,
+            917.4268798828125,
+            17.5
+          ],
+          [
+            -3181.68505859375,
+            917.4268798828125,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42986,
+        "area_m2": 0.002277026486030989,
+        "density_px_m": 47.71527036717222,
+        "min_altitude_px": 3.387152003566918,
+        "vertices_cm": [
+          [
+            -3137.937255859375,
+            1179.283935546875,
+            14.0
+          ],
+          [
+            -3120.75927734375,
+            1179.0838623046875,
+            15.025125503540039
+          ],
+          [
+            -3137.55224609375,
+            1181.728759765625,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 42988,
+        "area_m2": 0.0022770258656257367,
+        "density_px_m": 47.71527686749415,
+        "min_altitude_px": 3.387151103054814,
+        "vertices_cm": [
+          [
+            -3137.937255859375,
+            1179.283935546875,
+            32.0
+          ],
+          [
+            -3120.75927734375,
+            1179.0838623046875,
+            30.974876403808594
+          ],
+          [
+            -3121.144287109375,
+            1176.6390380859375,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 43092,
+        "area_m2": 0.00147339939301458,
+        "density_px_m": 136.43086531154606,
+        "min_altitude_px": 3.33162490146148,
+        "vertices_cm": [
+          [
+            -3062.885986328125,
+            1171.1146240234375,
+            17.5
+          ],
+          [
+            -3065.488037109375,
+            1170.4775390625,
+            28.500001907348633
+          ],
+          [
+            -3065.488037109375,
+            1170.4775390625,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 43958,
+        "area_m2": 0.0022770951534667474,
+        "density_px_m": 259.9994805330576,
+        "min_altitude_px": 3.3872327253173298,
+        "vertices_cm": [
+          [
+            -2450.414306640625,
+            1082.6014404296875,
+            14.0
+          ],
+          [
+            -2466.981689453125,
+            1087.1455078125,
+            15.025125503540039
+          ],
+          [
+            -2467.28564453125,
+            1084.689208984375,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 44076,
+        "area_m2": 0.001473432317028861,
+        "density_px_m": 226.65730346858552,
+        "min_altitude_px": 3.331695693278137,
+        "vertices_cm": [
+          [
+            -2407.645263671875,
+            808.9490966796875,
+            28.5
+          ],
+          [
+            -2405.065673828125,
+            809.6719970703125,
+            17.5
+          ],
+          [
+            -2407.645263671875,
+            808.9490966796875,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 44382,
+        "area_m2": 0.03522995633437595,
+        "density_px_m": 485.9372790896711,
+        "min_altitude_px": 3.4290501879000588,
+        "vertices_cm": [
+          [
+            -2197.666748046875,
+            788.4555053710938,
+            14.0
+          ],
+          [
+            -2171.693603515625,
+            1050.1815185546875,
+            15.025125503540039
+          ],
+          [
+            -2200.12744140625,
+            788.7230834960938,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 44386,
+        "area_m2": 0.035226994482197176,
+        "density_px_m": 486.2595233193142,
+        "min_altitude_px": 3.4287619009586985,
+        "vertices_cm": [
+          [
+            -2197.666748046875,
+            788.4555053710938,
+            32.0
+          ],
+          [
+            -2171.693603515625,
+            1050.1815185546875,
+            30.974876403808594
+          ],
+          [
+            -2169.233154296875,
+            1049.9139404296875,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45035,
+        "area_m2": 0.035226206164666575,
+        "density_px_m": 402.6563272396579,
+        "min_altitude_px": 3.428684898478224,
+        "vertices_cm": [
+          [
+            -1724.63427734375,
+            1006.347412109375,
+            30.974876403808594
+          ],
+          [
+            -1748.2554931640625,
+            744.4083251953125,
+            28.5
+          ],
+          [
+            -1725.6556396484375,
+            1006.435546875,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45151,
+        "area_m2": 0.0014733483167429838,
+        "density_px_m": 226.66376460432184,
+        "min_altitude_px": 3.3315163877446796,
+        "vertices_cm": [
+          [
+            -1628.0467529296875,
+            1000.6815185546875,
+            17.5
+          ],
+          [
+            -1630.428955078125,
+            1001.90673828125,
+            28.5
+          ],
+          [
+            -1630.428955078125,
+            1001.90673828125,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45472,
+        "area_m2": 0.002277025144560079,
+        "density_px_m": 241.27220659903088,
+        "min_altitude_px": 3.3871395809869664,
+        "vertices_cm": [
+          [
+            -1407.17578125,
+            981.3291015625,
+            32.0
+          ],
+          [
+            -1423.9569091796875,
+            985.005859375,
+            30.974876403808594
+          ],
+          [
+            -1406.9998779296875,
+            983.7977905273438,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45592,
+        "area_m2": 0.0022769687262054117,
+        "density_px_m": 154.91669282152253,
+        "min_altitude_px": 3.3870352077151265,
+        "vertices_cm": [
+          [
+            -1350.375244140625,
+            713.7886962890625,
+            32.0
+          ],
+          [
+            -1367.50341796875,
+            712.4642944335938,
+            30.974876403808594
+          ],
+          [
+            -1367.3367919921875,
+            714.9335327148438,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45692,
+        "area_m2": 0.035225885110776387,
+        "density_px_m": 413.3804256103144,
+        "min_altitude_px": 3.428652989432752,
+        "vertices_cm": [
+          [
+            -1258.1510009765625,
+            971.3336181640625,
+            14.0
+          ],
+          [
+            -1272.4134521484375,
+            708.7089233398438,
+            15.025125503540039
+          ],
+          [
+            -1255.68115234375,
+            971.1761474609375,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45804,
+        "area_m2": 0.001473284676615018,
+        "density_px_m": 226.66866004491186,
+        "min_altitude_px": 3.3313805415031688,
+        "vertices_cm": [
+          [
+            -1199.6005859375,
+            700.7333374023438,
+            28.5
+          ],
+          [
+            -1197.06884765625,
+            701.6083984375,
+            17.5
+          ],
+          [
+            -1199.6005859375,
+            700.7333374023438,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45897,
+        "area_m2": 0.0014733450814040326,
+        "density_px_m": 226.66401347124145,
+        "min_altitude_px": 3.33150951395382,
+        "vertices_cm": [
+          [
+            -1143.481689453125,
+            698.49365234375,
+            17.5
+          ],
+          [
+            -1144.3662109375,
+            701.022216796875,
+            28.5
+          ],
+          [
+            -1143.481689453125,
+            698.49365234375,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45902,
+        "area_m2": 0.0022769487036590425,
+        "density_px_m": 165.79595174987708,
+        "min_altitude_px": 3.3870203559173677,
+        "vertices_cm": [
+          [
+            -1126.101318359375,
+            963.4105834960938,
+            14.0
+          ],
+          [
+            -1108.9891357421875,
+            964.9268188476562,
+            15.025125503540039
+          ],
+          [
+            -1125.9622802734375,
+            965.8815307617188,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 45912,
+        "area_m2": 0.0014732817084438575,
+        "density_px_m": 226.6688883756639,
+        "min_altitude_px": 3.331373692649542,
+        "vertices_cm": [
+          [
+            -1124.0950927734375,
+            696.3764038085938,
+            17.5
+          ],
+          [
+            -1121.566650390625,
+            697.2609252929688,
+            28.500001907348633
+          ],
+          [
+            -1121.566650390625,
+            697.2609252929688,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46132,
+        "area_m2": 0.002276956896961419,
+        "density_px_m": 172.66251838399023,
+        "min_altitude_px": 3.3870382612095047,
+        "vertices_cm": [
+          [
+            -972.9130249023438,
+            692.0078125,
+            32.0
+          ],
+          [
+            -990.0133666992188,
+            690.3637084960938,
+            30.974876403808594
+          ],
+          [
+            -989.8928833007812,
+            692.8356323242188,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46236,
+        "area_m2": 0.001473309420589924,
+        "density_px_m": 226.66675660660246,
+        "min_altitude_px": 3.33143336011857,
+        "vertices_cm": [
+          [
+            -897.577392578125,
+            685.0045166015625,
+            28.5
+          ],
+          [
+            -895.0589599609375,
+            685.9172973632812,
+            17.5
+          ],
+          [
+            -897.577392578125,
+            685.0045166015625,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46346,
+        "area_m2": 0.0022769211844088843,
+        "density_px_m": 93.30016853856253,
+        "min_altitude_px": 3.386991825579475,
+        "vertices_cm": [
+          [
+            -821.9269409179688,
+            685.277099609375,
+            14.0
+          ],
+          [
+            -839.0144653320312,
+            683.5050659179688,
+            15.025125503540039
+          ],
+          [
+            -822.0289306640625,
+            682.8043823242188,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46436,
+        "area_m2": 0.0014733264447406916,
+        "density_px_m": 226.66544704611795,
+        "min_altitude_px": 3.3314697322113336,
+        "vertices_cm": [
+          [
+            -763.5529174804688,
+            679.4758911132812,
+            28.5
+          ],
+          [
+            -765.9876098632812,
+            680.5930786132812,
+            17.5
+          ],
+          [
+            -765.9876098632812,
+            680.5930786132812,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46447,
+        "area_m2": 0.0014733427003896119,
+        "density_px_m": 226.66419662281461,
+        "min_altitude_px": 3.3315043991142717,
+        "vertices_cm": [
+          [
+            -734.01220703125,
+            947.5320434570312,
+            17.5
+          ],
+          [
+            -736.4469604492188,
+            948.649169921875,
+            28.5
+          ],
+          [
+            -736.4469604492188,
+            948.649169921875,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46454,
+        "area_m2": 0.0022769792661053055,
+        "density_px_m": 94.93269839131665,
+        "min_altitude_px": 3.387055815845433,
+        "vertices_cm": [
+          [
+            -746.4336547851562,
+            682.33642578125,
+            14.0
+          ],
+          [
+            -763.5145263671875,
+            680.5003051757812,
+            15.025125503540039
+          ],
+          [
+            -746.5264282226562,
+            679.86328125,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46543,
+        "area_m2": 0.03522597972366565,
+        "density_px_m": 311.817211000355,
+        "min_altitude_px": 3.4286631689570752,
+        "vertices_cm": [
+          [
+            -690.4041748046875,
+            680.335693359375,
+            15.025125503540039
+          ],
+          [
+            -682.5574951171875,
+            943.2205810546875,
+            17.5
+          ],
+          [
+            -691.4287109375,
+            680.3702392578125,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46550,
+        "area_m2": 0.0022769498898950603,
+        "density_px_m": 136.79275711947724,
+        "min_altitude_px": 3.3870382742752363,
+        "vertices_cm": [
+          [
+            -662.0691528320312,
+            942.5291748046875,
+            14.0
+          ],
+          [
+            -678.9759521484375,
+            945.5759887695312,
+            15.025125503540039
+          ],
+          [
+            -679.0594482421875,
+            943.1025390625,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46555,
+        "area_m2": 0.0014733251463746831,
+        "density_px_m": 226.66554692042186,
+        "min_altitude_px": 3.3314669283817246,
+        "vertices_cm": [
+          [
+            -659.51220703125,
+            944.9190673828125,
+            17.5
+          ],
+          [
+            -661.9510498046875,
+            946.0271606445312,
+            28.5
+          ],
+          [
+            -661.9510498046875,
+            946.0271606445312,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46559,
+        "area_m2": 0.035226002896102976,
+        "density_px_m": 440.9740136861674,
+        "min_altitude_px": 3.428665424174427,
+        "vertices_cm": [
+          [
+            -659.595703125,
+            942.4456176757812,
+            30.974876403808594
+          ],
+          [
+            -667.4423828125,
+            679.5607299804688,
+            28.5
+          ],
+          [
+            -668.4669189453125,
+            679.5952758789062,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46652,
+        "area_m2": 0.0014733173336012254,
+        "density_px_m": 226.66614790575636,
+        "min_altitude_px": 3.331450283580931,
+        "vertices_cm": [
+          [
+            -612.5443115234375,
+            674.315673828125,
+            28.5
+          ],
+          [
+            -614.9873046875,
+            675.41455078125,
+            17.5
+          ],
+          [
+            -614.9873046875,
+            675.41455078125,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46673,
+        "area_m2": 0.00227696848120093,
+        "density_px_m": 241.73056877698863,
+        "min_altitude_px": 3.3870554942887097,
+        "vertices_cm": [
+          [
+            -612.5135498046875,
+            675.34033203125,
+            30.974876403808594
+          ],
+          [
+            -595.5519409179688,
+            673.805908203125,
+            28.5
+          ],
+          [
+            -612.5443115234375,
+            674.315673828125,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46760,
+        "area_m2": 0.0014733438974023916,
+        "density_px_m": 226.66410454655338,
+        "min_altitude_px": 3.331506986591455,
+        "vertices_cm": [
+          [
+            -537.03955078125,
+            672.16015625,
+            28.5
+          ],
+          [
+            -539.4866943359375,
+            673.2498779296875,
+            17.5
+          ],
+          [
+            -539.4866943359375,
+            673.2498779296875,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46888,
+        "area_m2": 0.002276965314013381,
+        "density_px_m": 101.18095402038621,
+        "min_altitude_px": 3.3870506858259444,
+        "vertices_cm": [
+          [
+            -444.4600830078125,
+            673.4046020507812,
+            32.0
+          ],
+          [
+            -461.5114440917969,
+            671.312744140625,
+            30.974876403808594
+          ],
+          [
+            -461.455810546875,
+            673.7869873046875,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 46991,
+        "area_m2": 0.03522597846268246,
+        "density_px_m": 532.3139092959835,
+        "min_altitude_px": 3.428662337904224,
+        "vertices_cm": [
+          [
+            -361.5617980957031,
+            934.7868041992188,
+            30.974876403808594
+          ],
+          [
+            -365.4672546386719,
+            671.8137817382812,
+            28.5
+          ],
+          [
+            -366.4921875,
+            671.8330078125,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47087,
+        "area_m2": 0.03522596717292017,
+        "density_px_m": 344.16230786653875,
+        "min_altitude_px": 3.4286618698582503,
+        "vertices_cm": [
+          [
+            -309.00128173828125,
+            933.8998413085938,
+            30.974876403808594
+          ],
+          [
+            -313.9708557128906,
+            670.94482421875,
+            28.5
+          ],
+          [
+            -310.0262756347656,
+            933.915283203125,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47419,
+        "area_m2": 0.0014733252864472359,
+        "density_px_m": 226.66553614560425,
+        "min_altitude_px": 3.3314672273803523,
+        "vertices_cm": [
+          [
+            -63.52272033691406,
+            934.0734252929688,
+            17.5
+          ],
+          [
+            -65.99373626708984,
+            935.1077880859375,
+            28.5
+          ],
+          [
+            -65.99373626708984,
+            935.1077880859375,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47526,
+        "area_m2": 0.0014732897665144995,
+        "density_px_m": 226.66826849882298,
+        "min_altitude_px": 3.3313914064408086,
+        "vertices_cm": [
+          [
+            12.000081062316895,
+            931.5000610351562,
+            28.5
+          ],
+          [
+            10.974955558776855,
+            933.974853515625,
+            17.5
+          ],
+          [
+            12.000081062316895,
+            931.5000610351562,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47531,
+        "area_m2": 0.03522605152092041,
+        "density_px_m": 330.4969931132941,
+        "min_altitude_px": 3.428668955677167,
+        "vertices_cm": [
+          [
+            10.974931716918945,
+            668.5,
+            30.974876403808594
+          ],
+          [
+            12.000081062316895,
+            931.5000610351562,
+            28.5
+          ],
+          [
+            12.0000581741333,
+            668.5,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47735,
+        "area_m2": 0.035226062735166395,
+        "density_px_m": 323.43331267243946,
+        "min_altitude_px": 3.4286698732459535,
+        "vertices_cm": [
+          [
+            138.03929138183594,
+            931.9765014648438,
+            30.974876403808594
+          ],
+          [
+            138.9866180419922,
+            668.9761352539062,
+            28.5
+          ],
+          [
+            137.01419067382812,
+            931.96875,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47742,
+        "area_m2": 0.0014733544579796567,
+        "density_px_m": 226.66329221383,
+        "min_altitude_px": 3.3315294967786917,
+        "vertices_cm": [
+          [
+            161.01351928710938,
+            932.1487426757812,
+            28.5
+          ],
+          [
+            159.96986389160156,
+            934.6159057617188,
+            17.5
+          ],
+          [
+            161.01351928710938,
+            932.1487426757812,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47745,
+        "area_m2": 0.03522603495572845,
+        "density_px_m": 444.3456076085004,
+        "min_altitude_px": 3.428668760852819,
+        "vertices_cm": [
+          [
+            161.96084594726562,
+            669.1484985351562,
+            15.025125503540039
+          ],
+          [
+            161.01351928710938,
+            932.1487426757812,
+            17.5
+          ],
+          [
+            159.98841857910156,
+            932.14111328125,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47747,
+        "area_m2": 0.0352260581281312,
+        "density_px_m": 444.3454608990064,
+        "min_altitude_px": 3.428671016066947,
+        "vertices_cm": [
+          [
+            161.96084594726562,
+            669.1484985351562,
+            30.974876403808594
+          ],
+          [
+            161.01351928710938,
+            932.1487426757812,
+            28.5
+          ],
+          [
+            162.98594665527344,
+            669.1561279296875,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47753,
+        "area_m2": 0.0022769454601367493,
+        "density_px_m": 102.90089672120516,
+        "min_altitude_px": 3.387019207828607,
+        "vertices_cm": [
+          [
+            142.5050811767578,
+            666.527587890625,
+            30.974876403808594
+          ],
+          [
+            159.51229858398438,
+            665.6300659179688,
+            28.5
+          ],
+          [
+            142.5127716064453,
+            665.5025634765625,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47858,
+        "area_m2": 0.0022769741044007977,
+        "density_px_m": 119.53410034440236,
+        "min_altitude_px": 3.3870623564411306,
+        "vertices_cm": [
+          [
+            234.9788055419922,
+            669.8695678710938,
+            14.0
+          ],
+          [
+            218.00772094726562,
+            667.20361328125,
+            15.025125503540039
+          ],
+          [
+            235.00662231445312,
+            667.3948364257812,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47957,
+        "area_m2": 0.002276951471245051,
+        "density_px_m": 227.454597603206,
+        "min_altitude_px": 3.3870270576117245,
+        "vertices_cm": [
+          [
+            289.49163818359375,
+            936.0823364257812,
+            30.974876403808594
+          ],
+          [
+            306.474365234375,
+            937.3622436523438,
+            28.5
+          ],
+          [
+            306.4897155761719,
+            936.3372802734375,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47959,
+        "area_m2": 0.001473330357894082,
+        "density_px_m": 226.66514603513056,
+        "min_altitude_px": 3.3314780528787544,
+        "vertices_cm": [
+          [
+            308.9643249511719,
+            936.3743286132812,
+            17.5
+          ],
+          [
+            306.474365234375,
+            937.3622436523438,
+            28.5
+          ],
+          [
+            306.474365234375,
+            937.3622436523438,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 47964,
+        "area_m2": 0.0014733362671414322,
+        "density_px_m": 226.66469148114092,
+        "min_altitude_px": 3.3314906667362303,
+        "vertices_cm": [
+          [
+            310.52386474609375,
+            667.3926391601562,
+            28.5
+          ],
+          [
+            312.98309326171875,
+            668.4547729492188,
+            17.5
+          ],
+          [
+            310.52386474609375,
+            667.3926391601562,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48059,
+        "area_m2": 0.035226132009053515,
+        "density_px_m": 296.6226060979313,
+        "min_altitude_px": 3.4286772889935486,
+        "vertices_cm": [
+          [
+            361.56195068359375,
+            934.7867431640625,
+            30.974876403808594
+          ],
+          [
+            365.4673767089844,
+            671.813720703125,
+            28.5
+          ],
+          [
+            360.5369873046875,
+            934.7675170898438,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48386,
+        "area_m2": 0.002276963723290475,
+        "density_px_m": 188.71429905950632,
+        "min_altitude_px": 3.387042912616953,
+        "vertices_cm": [
+          [
+            604.5530395507812,
+            940.6957397460938,
+            14.0
+          ],
+          [
+            587.4864501953125,
+            942.6597290039062,
+            15.025125503540039
+          ],
+          [
+            587.5606689453125,
+            940.1859741210938,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48396,
+        "area_m2": 0.0014733170781349241,
+        "density_px_m": 226.6661675571813,
+        "min_altitude_px": 3.331449705923109,
+        "vertices_cm": [
+          [
+            612.54443359375,
+            674.3155517578125,
+            28.5
+          ],
+          [
+            614.9874267578125,
+            675.4144287109375,
+            17.5
+          ],
+          [
+            612.54443359375,
+            674.3155517578125,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48399,
+        "area_m2": 0.0022769669833617506,
+        "density_px_m": 241.73064828482956,
+        "min_altitude_px": 3.3870533201931408,
+        "vertices_cm": [
+          [
+            612.513671875,
+            675.3402099609375,
+            15.025125503540039
+          ],
+          [
+            595.5520629882812,
+            673.8057861328125,
+            17.5
+          ],
+          [
+            612.54443359375,
+            674.3155517578125,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48487,
+        "area_m2": 0.03522567221048339,
+        "density_px_m": 440.97739609106344,
+        "min_altitude_px": 3.4286332614011945,
+        "vertices_cm": [
+          [
+            659.5958862304688,
+            942.4454956054688,
+            15.025125503540039
+          ],
+          [
+            667.4425048828125,
+            679.5606079101562,
+            17.5
+          ],
+          [
+            668.4669799804688,
+            679.5951538085938,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48492,
+        "area_m2": 0.0014733251463746831,
+        "density_px_m": 136.43430291177268,
+        "min_altitude_px": 3.3314669283817246,
+        "vertices_cm": [
+          [
+            661.9512329101562,
+            946.0270385742188,
+            28.5
+          ],
+          [
+            659.5123901367188,
+            944.9189453125,
+            17.5
+          ],
+          [
+            661.9512329101562,
+            946.0270385742188,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48496,
+        "area_m2": 0.0022769492694697906,
+        "density_px_m": 226.41759848521352,
+        "min_altitude_px": 3.38703737373255,
+        "vertices_cm": [
+          [
+            662.0693359375,
+            942.529052734375,
+            32.0
+          ],
+          [
+            678.9761352539062,
+            945.5758666992188,
+            30.974876403808594
+          ],
+          [
+            679.0596313476562,
+            943.1024169921875,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48503,
+        "area_m2": 0.0352260026203917,
+        "density_px_m": 311.81710966052236,
+        "min_altitude_px": 3.42866542107591,
+        "vertices_cm": [
+          [
+            690.404296875,
+            680.3355712890625,
+            30.974876403808594
+          ],
+          [
+            682.5576782226562,
+            943.220458984375,
+            28.5
+          ],
+          [
+            691.4288330078125,
+            680.3701171875,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48612,
+        "area_m2": 0.0014733261892728106,
+        "density_px_m": 226.66546669748212,
+        "min_altitude_px": 3.3314691545501396,
+        "vertices_cm": [
+          [
+            763.5530395507812,
+            679.4757690429688,
+            28.5
+          ],
+          [
+            765.9877319335938,
+            680.5929565429688,
+            17.5
+          ],
+          [
+            763.5530395507812,
+            679.4757690429688,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48812,
+        "area_m2": 0.0014733211151286764,
+        "density_px_m": 226.66585701709616,
+        "min_altitude_px": 3.3314583556286004,
+        "vertices_cm": [
+          [
+            897.5775146484375,
+            685.0043334960938,
+            28.5
+          ],
+          [
+            895.05908203125,
+            685.9171752929688,
+            17.5
+          ],
+          [
+            895.05908203125,
+            685.9171752929688,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48918,
+        "area_m2": 0.03522582018272417,
+        "density_px_m": 425.7892437517021,
+        "min_altitude_px": 3.4286468008982864,
+        "vertices_cm": [
+          [
+            972.9131469726562,
+            692.0076293945312,
+            14.0
+          ],
+          [
+            957.6351928710938,
+            954.5751953125,
+            15.025125503540039
+          ],
+          [
+            970.4412231445312,
+            691.8871459960938,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48936,
+        "area_m2": 0.0014733470214576116,
+        "density_px_m": 226.66386423943493,
+        "min_altitude_px": 3.3315136228378535,
+        "vertices_cm": [
+          [
+            990.0634155273438,
+            689.339599609375,
+            28.5
+          ],
+          [
+            992.4854736328125,
+            690.4840087890625,
+            17.5
+          ],
+          [
+            990.0634155273438,
+            689.339599609375,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 48940,
+        "area_m2": 0.0022769510657028634,
+        "density_px_m": 89.93592717568465,
+        "min_altitude_px": 3.3870295870462543,
+        "vertices_cm": [
+          [
+            972.9131469726562,
+            692.0076293945312,
+            32.0
+          ],
+          [
+            990.0134887695312,
+            690.363525390625,
+            30.974876403808594
+          ],
+          [
+            973.03369140625,
+            689.5357055664062,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49039,
+        "area_m2": 0.0014733621257833622,
+        "density_px_m": 226.66270240231563,
+        "min_altitude_px": 3.331545864397432,
+        "vertices_cm": [
+          [
+            1053.9359130859375,
+            961.928466796875,
+            17.5
+          ],
+          [
+            1051.41064453125,
+            962.8224487304688,
+            28.5
+          ],
+          [
+            1051.41064453125,
+            962.8224487304688,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49142,
+        "area_m2": 0.0022769916340975188,
+        "density_px_m": 165.79438878268184,
+        "min_altitude_px": 3.3871081048247063,
+        "vertices_cm": [
+          [
+            1126.1014404296875,
+            963.410400390625,
+            14.0
+          ],
+          [
+            1108.9893798828125,
+            964.9266357421875,
+            15.025125503540039
+          ],
+          [
+            1109.1282958984375,
+            962.4556274414062,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49154,
+        "area_m2": 0.002276949162907326,
+        "density_px_m": 152.10650626683284,
+        "min_altitude_px": 3.387038563225826,
+        "vertices_cm": [
+          [
+            1140.871826171875,
+            700.825439453125,
+            14.0
+          ],
+          [
+            1124.0377197265625,
+            697.3997192382812,
+            15.025125503540039
+          ],
+          [
+            1141.0108642578125,
+            698.3544921875,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49244,
+        "area_m2": 0.0014732739661914066,
+        "density_px_m": 226.66948396259858,
+        "min_altitude_px": 3.331357711268649,
+        "vertices_cm": [
+          [
+            1199.6007080078125,
+            700.733154296875,
+            28.5
+          ],
+          [
+            1197.0689697265625,
+            701.608154296875,
+            17.5
+          ],
+          [
+            1197.0689697265625,
+            701.608154296875,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49364,
+        "area_m2": 0.035225837934812466,
+        "density_px_m": 413.076073342586,
+        "min_altitude_px": 3.4286480651113527,
+        "vertices_cm": [
+          [
+            1275.11669921875,
+            972.4149780273438,
+            14.0
+          ],
+          [
+            1294.31884765625,
+            710.1051635742188,
+            15.025125503540039
+          ],
+          [
+            1277.5865478515625,
+            972.5723876953125,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49368,
+        "area_m2": 0.0014733520110069588,
+        "density_px_m": 226.66348043723255,
+        "min_altitude_px": 3.331523760504151,
+        "vertices_cm": [
+          [
+            1292.0716552734375,
+            706.4547729492188,
+            17.5
+          ],
+          [
+            1294.476318359375,
+            707.6353149414062,
+            28.500001907348633
+          ],
+          [
+            1294.476318359375,
+            707.6353149414062,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49579,
+        "area_m2": 0.0014733330669513976,
+        "density_px_m": 226.66493764737083,
+        "min_altitude_px": 3.3314838356235073,
+        "vertices_cm": [
+          [
+            1426.4256591796875,
+            985.1815795898438,
+            17.5
+          ],
+          [
+            1423.8841552734375,
+            986.0281372070312,
+            28.5
+          ],
+          [
+            1423.8841552734375,
+            986.0281372070312,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49580,
+        "area_m2": 0.035224740056407654,
+        "density_px_m": 426.36232145482956,
+        "min_altitude_px": 3.4285411263567114,
+        "vertices_cm": [
+          [
+            1442.82421875,
+            720.2020874023438,
+            14.0
+          ],
+          [
+            1426.6014404296875,
+            982.7130126953125,
+            15.025125503540039
+          ],
+          [
+            1424.1329345703125,
+            982.5370483398438,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 49896,
+        "area_m2": 0.001473392668967526,
+        "density_px_m": 136.43481979047996,
+        "min_altitude_px": 3.331611061437405,
+        "vertices_cm": [
+          [
+            1630.42919921875,
+            1001.9064331054688,
+            28.5
+          ],
+          [
+            1628.046875,
+            1000.6812744140625,
+            17.5
+          ],
+          [
+            1630.42919921875,
+            1001.9064331054688,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 50332,
+        "area_m2": 0.0022769197916376496,
+        "density_px_m": 63.56033893534025,
+        "min_altitude_px": 3.386985580852708,
+        "vertices_cm": [
+          [
+            1945.69921875,
+            1026.7666015625,
+            32.0
+          ],
+          [
+            1928.539306640625,
+            1027.580078125,
+            30.974876403808594
+          ],
+          [
+            1945.4591064453125,
+            1029.229736328125,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 50336,
+        "area_m2": 0.03522523984051303,
+        "density_px_m": 469.2475378970067,
+        "min_altitude_px": 3.4285910762676792,
+        "vertices_cm": [
+          [
+            1971.220703125,
+            765.0078125,
+            14.0
+          ],
+          [
+            1948.162353515625,
+            1027.0067138671875,
+            15.025125503540039
+          ],
+          [
+            1945.69921875,
+            1026.7666015625,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 50651,
+        "area_m2": 0.03522689976470345,
+        "density_px_m": 378.49463471293086,
+        "min_altitude_px": 3.4287520465453976,
+        "vertices_cm": [
+          [
+            2149.872802734375,
+            1047.8082275390625,
+            30.974876403808594
+          ],
+          [
+            2177.287109375,
+            786.2388916015625,
+            28.5
+          ],
+          [
+            2148.853515625,
+            1047.6973876953125,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 50872,
+        "area_m2": 0.0022769267524252734,
+        "density_px_m": 94.59198662715863,
+        "min_altitude_px": 3.38698101172643,
+        "vertices_cm": [
+          [
+            2318.258544921875,
+            1066.7423095703125,
+            32.0
+          ],
+          [
+            2301.08642578125,
+            1067.237548828125,
+            30.974876403808594
+          ],
+          [
+            2317.972900390625,
+            1069.2005615234375,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 50972,
+        "area_m2": 0.00147330327669746,
+        "density_px_m": 226.66722922305146,
+        "min_altitude_px": 3.331420277686721,
+        "vertices_cm": [
+          [
+            2407.645263671875,
+            808.9486694335938,
+            28.5
+          ],
+          [
+            2405.06591796875,
+            809.6715698242188,
+            17.5
+          ],
+          [
+            2405.06591796875,
+            809.6715698242188,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 51516,
+        "area_m2": 0.001473369143643423,
+        "density_px_m": 136.43590901532093,
+        "min_altitude_px": 3.3315608446402907,
+        "vertices_cm": [
+          [
+            2748.02734375,
+            1125.0662841796875,
+            28.5
+          ],
+          [
+            2745.716796875,
+            1123.710693359375,
+            17.5
+          ],
+          [
+            2748.02734375,
+            1125.0662841796875,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 51626,
+        "area_m2": 0.0022770341075931577,
+        "density_px_m": 30.632124070428436,
+        "min_altitude_px": 3.3871370252698227,
+        "vertices_cm": [
+          [
+            2839.86376953125,
+            1134.4462890625,
+            14.0
+          ],
+          [
+            2822.6845703125,
+            1134.4981689453125,
+            15.025125503540039
+          ],
+          [
+            2823.03369140625,
+            1132.0479736328125,
+            14.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 51629,
+        "area_m2": 0.002276942442365492,
+        "density_px_m": 193.11290281744328,
+        "min_altitude_px": 3.3870133888715763,
+        "vertices_cm": [
+          [
+            2839.5146484375,
+            1136.896484375,
+            30.974876403808594
+          ],
+          [
+            2822.5400390625,
+            1135.5130615234375,
+            28.5
+          ],
+          [
+            2839.3701171875,
+            1137.9112548828125,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 51636,
+        "area_m2": 0.0014732912236740962,
+        "density_px_m": 226.66815640559963,
+        "min_altitude_px": 3.3313945169034604,
+        "vertices_cm": [
+          [
+            2877.460205078125,
+            870.6115112304688,
+            28.5
+          ],
+          [
+            2879.765625,
+            871.9755249023438,
+            17.5
+          ],
+          [
+            2877.460205078125,
+            870.6115112304688,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 51739,
+        "area_m2": 0.0014733375444619956,
+        "density_px_m": 226.6645932268287,
+        "min_altitude_px": 3.33149339329885,
+        "vertices_cm": [
+          [
+            2916.471923828125,
+            1148.043212890625,
+            17.5
+          ],
+          [
+            2913.874755859375,
+            1148.699462890625,
+            28.5
+          ],
+          [
+            2913.874755859375,
+            1148.699462890625,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 51955,
+        "area_m2": 0.0014732687128974666,
+        "density_px_m": 226.66988808451964,
+        "min_altitude_px": 3.3313464651909643,
+        "vertices_cm": [
+          [
+            3065.488037109375,
+            1170.47705078125,
+            17.5
+          ],
+          [
+            3062.88623046875,
+            1171.1141357421875,
+            28.5
+          ],
+          [
+            3062.88623046875,
+            1171.1141357421875,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52060,
+        "area_m2": 0.002276931171384423,
+        "density_px_m": 47.716269061509884,
+        "min_altitude_px": 3.3870099628626935,
+        "vertices_cm": [
+          [
+            3137.9375,
+            1179.283447265625,
+            32.0
+          ],
+          [
+            3120.759521484375,
+            1179.083251953125,
+            30.974876403808594
+          ],
+          [
+            3137.552490234375,
+            1181.7281494140625,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52068,
+        "area_m2": 0.0014732939696041278,
+        "density_px_m": 226.66794517308233,
+        "min_altitude_px": 3.331399865409435,
+        "vertices_cm": [
+          [
+            3179.400146484375,
+            916.0286254882812,
+            17.5
+          ],
+          [
+            3181.685302734375,
+            917.4263305664062,
+            28.500001907348633
+          ],
+          [
+            3181.685302734375,
+            917.4263305664062,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52164,
+        "area_m2": 0.0014732803668234958,
+        "density_px_m": 136.43637631903638,
+        "min_altitude_px": 3.331370828814958,
+        "vertices_cm": [
+          [
+            3195.1171875,
+            1191.9405517578125,
+            17.5
+          ],
+          [
+            3192.837158203125,
+            1190.5345458984375,
+            28.500001907348633
+          ],
+          [
+            3192.837158203125,
+            1190.5345458984375,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52178,
+        "area_m2": 0.002277009631595575,
+        "density_px_m": 271.94734296986815,
+        "min_altitude_px": 3.387123643822847,
+        "vertices_cm": [
+          [
+            3254.32568359375,
+            931.5454711914062,
+            14.0
+          ],
+          [
+            3237.9365234375,
+            926.3958129882812,
+            15.025125503540039
+          ],
+          [
+            3254.7197265625,
+            929.1021118164062,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52484,
+        "area_m2": 0.0014732865915033186,
+        "density_px_m": 226.66851273979526,
+        "min_altitude_px": 3.3313846613763394,
+        "vertices_cm": [
+          [
+            3464.572265625,
+            963.0820922851562,
+            28.5
+          ],
+          [
+            3461.959228515625,
+            963.6715698242188,
+            17.5
+          ],
+          [
+            3461.959228515625,
+            963.6715698242188,
+            28.500001907348633
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52492,
+        "area_m2": 0.0022769985010977793,
+        "density_px_m": 212.328228295149,
+        "min_altitude_px": 3.387112024521211,
+        "vertices_cm": [
+          [
+            3419.27001953125,
+            1225.703369140625,
+            32.0
+          ],
+          [
+            3435.601806640625,
+            1231.0321044921875,
+            30.974876403808594
+          ],
+          [
+            3436.022705078125,
+            1228.59326171875,
+            32.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52495,
+        "area_m2": 0.001473286336042348,
+        "density_px_m": 226.66853239142523,
+        "min_altitude_px": 3.3313840837298963,
+        "vertices_cm": [
+          [
+            3438.041015625,
+            1231.452880859375,
+            17.5
+          ],
+          [
+            3435.427978515625,
+            1232.0423583984375,
+            28.5
+          ],
+          [
+            3435.427978515625,
+            1232.0423583984375,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52504,
+        "area_m2": 0.0022769322959073205,
+        "density_px_m": 72.66027270505221,
+        "min_altitude_px": 3.387036892912396,
+        "vertices_cm": [
+          [
+            3463.9775390625,
+            966.5311889648438,
+            32.0
+          ],
+          [
+            3481.150634765625,
+            966.982177734375,
+            30.974876403808594
+          ],
+          [
+            3464.398193359375,
+            964.0923461914062,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52828,
+        "area_m2": 0.002276998597298755,
+        "density_px_m": 85.03393643817768,
+        "min_altitude_px": 3.387072739518223,
+        "vertices_cm": [
+          [
+            3690.4052734375,
+            1006.76953125,
+            32.0
+          ],
+          [
+            3707.57275390625,
+            1007.4076538085938,
+            30.974876403808594
+          ],
+          [
+            3690.8525390625,
+            1004.3353881835938,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 52920,
+        "area_m2": 0.00147347287603813,
+        "density_px_m": 136.42928486897125,
+        "min_altitude_px": 3.3317822692115784,
+        "vertices_cm": [
+          [
+            3716.766845703125,
+            1282.6834716796875,
+            28.5
+          ],
+          [
+            3714.52294921875,
+            1281.2198486328125,
+            17.5
+          ],
+          [
+            3716.766845703125,
+            1282.6834716796875,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 53152,
+        "area_m2": 0.0022769646449926437,
+        "density_px_m": 98.3594673771788,
+        "min_altitude_px": 3.386996166962265,
+        "vertices_cm": [
+          [
+            3916.82568359375,
+            1049.5538330078125,
+            32.0
+          ],
+          [
+            3933.9853515625,
+            1050.37841796875,
+            30.974876403808594
+          ],
+          [
+            3917.29931640625,
+            1047.124755859375,
+            30.974876403808594
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 53367,
+        "area_m2": 0.0022769349613358317,
+        "density_px_m": 235.15123547965396,
+        "min_altitude_px": 3.3870119548809785,
+        "vertices_cm": [
+          [
+            4068.259521484375,
+            1077.0655517578125,
+            15.025125503540039
+          ],
+          [
+            4085.124755859375,
+            1079.434814453125,
+            17.5
+          ],
+          [
+            4084.92138671875,
+            1080.439453125,
+            15.025125503540039
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 53801,
+        "area_m2": 0.0022769492710824836,
+        "density_px_m": 255.7029295656893,
+        "min_altitude_px": 3.387003281440217,
+        "vertices_cm": [
+          [
+            4370.16796875,
+            1140.3414306640625,
+            30.974876403808594
+          ],
+          [
+            4386.99755859375,
+            1142.952880859375,
+            28.5
+          ],
+          [
+            4370.3857421875,
+            1139.33984375,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 54119,
+        "area_m2": 0.03522452637002741,
+        "density_px_m": 464.7235749955571,
+        "min_altitude_px": 3.428521700998864,
+        "vertices_cm": [
+          [
+            4615.02197265625,
+            1197.523681640625,
+            30.974876403808594
+          ],
+          [
+            4557.37451171875,
+            1454.1300048828125,
+            28.5
+          ],
+          [
+            4616.02099609375,
+            1197.752197265625,
+            28.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 54432,
+        "area_m2": 0.0014734360370750083,
+        "density_px_m": 136.43099036614024,
+        "min_altitude_px": 3.3317036339835377,
+        "vertices_cm": [
+          [
+            4760.2294921875,
+            1505.288330078125,
+            28.5
+          ],
+          [
+            4758.06201171875,
+            1503.7138671875,
+            17.5
+          ],
+          [
+            4760.2294921875,
+            1505.288330078125,
+            17.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 54757,
+        "area_m2": 0.06306674249931025,
+        "density_px_m": 427.71693942144685,
+        "min_altitude_px": 3.918602173651028,
+        "vertices_cm": [
+          [
+            -1350.828369140625,
+            60.828548431396484,
+            84.00001525878906
+          ],
+          [
+            -1352.0,
+            58.000118255615234,
+            496.0
+          ],
+          [
+            -1352.0,
+            58.000118255615234,
+            84.00001525878906
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 54763,
+        "area_m2": 0.06306748309503706,
+        "density_px_m": 315.69520474318296,
+        "min_altitude_px": 3.918648187440086,
+        "vertices_cm": [
+          [
+            -1329.1715087890625,
+            60.82854080200195,
+            84.00001525878906
+          ],
+          [
+            -1332.0,
+            62.000118255615234,
+            496.0
+          ],
+          [
+            -1332.0,
+            62.000118255615234,
+            84.00001525878906
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 54864,
+        "area_m2": 0.06306626133299517,
+        "density_px_m": 315.6982626583169,
+        "min_altitude_px": 3.918572277915104,
+        "vertices_cm": [
+          [
+            -68.00005340576172,
+            -638.0,
+            84.00001525878906
+          ],
+          [
+            -70.8284912109375,
+            -639.1715698242188,
+            496.0
+          ],
+          [
+            -70.82848358154297,
+            -639.1715698242188,
+            84.00001525878906
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 54865,
+        "area_m2": 0.06306632147761448,
+        "density_px_m": 387.52413851012363,
+        "min_altitude_px": 3.9185760152452667,
+        "vertices_cm": [
+          [
+            -70.82848358154297,
+            -639.1715698242188,
+            84.00001525878906
+          ],
+          [
+            -72.00006103515625,
+            -642.0,
+            496.0
+          ],
+          [
+            -72.00006103515625,
+            -642.0,
+            84.00001525878906
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 55850,
+        "area_m2": 0.0003489867234031483,
+        "density_px_m": 244.38809578007698,
+        "min_altitude_px": 1.1670433888931397,
+        "vertices_cm": [
+          [
+            1536.294677734375,
+            -374.20013427734375,
+            86.9710464477539
+          ],
+          [
+            1537.087158203125,
+            -381.8001403808594,
+            86.50692749023438
+          ],
+          [
+            1537.087158203125,
+            -374.20013427734375,
+            86.50692749023438
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 55854,
+        "area_m2": 0.00288800825015469,
+        "density_px_m": 244.36217309161114,
+        "min_altitude_px": 6.878741840532218,
+        "vertices_cm": [
+          [
+            1531.705322265625,
+            -374.20013427734375,
+            93.02893829345703
+          ],
+          [
+            1536.294677734375,
+            -381.8001403808594,
+            86.97103881835938
+          ],
+          [
+            1536.294677734375,
+            -374.20013427734375,
+            86.9710464477539
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 56174,
+        "area_m2": 0.00034898812474802235,
+        "density_px_m": 244.38760511531675,
+        "min_altitude_px": 1.16704345633767,
+        "vertices_cm": [
+          [
+            1736.294677734375,
+            -374.20013427734375,
+            86.9710464477539
+          ],
+          [
+            1737.087158203125,
+            -381.8001708984375,
+            86.50692749023438
+          ],
+          [
+            1737.087158203125,
+            -374.20013427734375,
+            86.50692749023438
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 5,
+        "triangle": 56178,
+        "area_m2": 0.0028880478583844186,
+        "density_px_m": 244.36049742923493,
+        "min_altitude_px": 6.8788028209833705,
+        "vertices_cm": [
+          [
+            1731.7052001953125,
+            -374.2001647949219,
+            93.02893829345703
+          ],
+          [
+            1736.294677734375,
+            -381.8001708984375,
+            86.97103881835938
+          ],
+          [
+            1736.294677734375,
+            -374.20013427734375,
+            86.9710464477539
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 6,
+        "triangle": 59357,
+        "area_m2": 0.7864149942717816,
+        "density_px_m": 224.96106035448,
+        "min_altitude_px": 14.694537462319389,
+        "vertices_cm": [
+          [
+            -14.999953269958496,
+            95.6065902709961,
+            83.60659790039062
+          ],
+          [
+            -1385.0,
+            100.0001220703125,
+            73.0
+          ],
+          [
+            -15.000000953674316,
+            100.0,
+            72.99999237060547
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 63406,
+        "area_m2": 0.005357586310229672,
+        "density_px_m": 403.619561805692,
+        "min_altitude_px": 2.447756297603837,
+        "vertices_cm": [
+          [
+            -2544.458740234375,
+            699.19677734375,
+            71.0
+          ],
+          [
+            -2600.227294921875,
+            704.5807495117188,
+            71.73223114013672
+          ],
+          [
+            -2544.68408203125,
+            697.4434204101562,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 63733,
+        "area_m2": 0.0053575249911888435,
+        "density_px_m": 359.0990484733614,
+        "min_altitude_px": 2.4477192408718347,
+        "vertices_cm": [
+          [
+            -2356.9755859375,
+            674.4633178710938,
+            80.26776885986328
+          ],
+          [
+            -2412.669189453125,
+            680.3604125976562,
+            78.5
+          ],
+          [
+            -2412.58251953125,
+            681.0874633789062,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 64042,
+        "area_m2": 0.00535753731916144,
+        "density_px_m": 557.1375549697941,
+        "min_altitude_px": 2.447730024557336,
+        "vertices_cm": [
+          [
+            -2220.923828125,
+            695.9010009765625,
+            71.0
+          ],
+          [
+            -2165.065185546875,
+            691.5488891601562,
+            71.73223114013672
+          ],
+          [
+            -2220.73095703125,
+            697.658203125,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 64043,
+        "area_m2": 0.005357643469250716,
+        "density_px_m": 356.7176692134556,
+        "min_altitude_px": 2.447770732943131,
+        "vertices_cm": [
+          [
+            -2220.73095703125,
+            697.658203125,
+            71.73223114013672
+          ],
+          [
+            -2164.985107421875,
+            692.2767333984375,
+            73.5
+          ],
+          [
+            -2220.65087890625,
+            698.3861083984375,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 64055,
+        "area_m2": 0.005357642831983324,
+        "density_px_m": 617.8074535642135,
+        "min_altitude_px": 2.447770697864544,
+        "vertices_cm": [
+          [
+            -2169.26904296875,
+            653.243408203125,
+            71.73223114013672
+          ],
+          [
+            -2225.014892578125,
+            658.6248168945312,
+            73.5
+          ],
+          [
+            -2169.34912109375,
+            652.5155029296875,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 64272,
+        "area_m2": 0.005357509945174684,
+        "density_px_m": 389.20414303736027,
+        "min_altitude_px": 2.4477164161237797,
+        "vertices_cm": [
+          [
+            -2099.65283203125,
+            647.5982666015625,
+            81.0
+          ],
+          [
+            -2044.13232421875,
+            640.0746459960938,
+            80.26776885986328
+          ],
+          [
+            -2099.834716796875,
+            645.8399047851562,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 64705,
+        "area_m2": 0.005357520126504284,
+        "density_px_m": 395.23217707863256,
+        "min_altitude_px": 2.4477270183615176,
+        "vertices_cm": [
+          [
+            -1849.630859375,
+            621.1591796875,
+            80.26776123046875
+          ],
+          [
+            -1793.927734375,
+            615.3549194335938,
+            78.5
+          ],
+          [
+            -1849.697265625,
+            620.4299926757812,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 64813,
+        "area_m2": 0.0053575628527056645,
+        "density_px_m": 350.63033115724414,
+        "min_altitude_px": 2.4477421658899194,
+        "vertices_cm": [
+          [
+            -1787.0792236328125,
+            615.4776000976562,
+            80.26776123046875
+          ],
+          [
+            -1731.3582763671875,
+            609.8460083007812,
+            78.5
+          ],
+          [
+            -1787.143310546875,
+            614.7481689453125,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65014,
+        "area_m2": 0.005357545088820576,
+        "density_px_m": 534.8592677235742,
+        "min_altitude_px": 2.4477374944347323,
+        "vertices_cm": [
+          [
+            -1658.9835205078125,
+            641.3464965820312,
+            71.0
+          ],
+          [
+            -1603.025390625,
+            638.552490234375,
+            71.73223114013672
+          ],
+          [
+            -1658.8397216796875,
+            643.1083984375,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65026,
+        "area_m2": 0.005357545088820576,
+        "density_px_m": 534.93288956042,
+        "min_altitude_px": 2.4477374944347323,
+        "vertices_cm": [
+          [
+            -1606.0164794921875,
+            601.9066162109375,
+            71.0
+          ],
+          [
+            -1661.974609375,
+            604.7006225585938,
+            71.73223114013672
+          ],
+          [
+            -1606.1602783203125,
+            600.1447143554688,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65134,
+        "area_m2": 0.0053575160963024275,
+        "density_px_m": 575.1256609834946,
+        "min_altitude_px": 2.447720421663533,
+        "vertices_cm": [
+          [
+            -1599.2835693359375,
+            601.3675537109375,
+            71.0
+          ],
+          [
+            -1543.5936279296875,
+            595.2227172851562,
+            71.73223114013672
+          ],
+          [
+            -1543.455322265625,
+            596.9850463867188,
+            71.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65136,
+        "area_m2": 0.005357524271401061,
+        "density_px_m": 546.1326227242383,
+        "min_altitude_px": 2.44772415666974,
+        "vertices_cm": [
+          [
+            -1599.2835693359375,
+            601.3675537109375,
+            81.0
+          ],
+          [
+            -1543.5936279296875,
+            595.2227172851562,
+            80.26776885986328
+          ],
+          [
+            -1599.421875,
+            599.605224609375,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65231,
+        "area_m2": 0.0053575068739499555,
+        "density_px_m": 494.40750839166003,
+        "min_altitude_px": 2.447718581575929,
+        "vertices_cm": [
+          [
+            -1533.9725341796875,
+            633.1318969726562,
+            71.73223114013672
+          ],
+          [
+            -1478.075927734375,
+            629.6529541015625,
+            73.5
+          ],
+          [
+            -1533.91748046875,
+            633.8619995117188,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65233,
+        "area_m2": 0.005357572086768044,
+        "density_px_m": 391.6791705477821,
+        "min_altitude_px": 2.4477500897452917,
+        "vertices_cm": [
+          [
+            -1478.1309814453125,
+            628.9227905273438,
+            80.26776885986328
+          ],
+          [
+            -1533.91748046875,
+            633.8619995117188,
+            78.5
+          ],
+          [
+            -1478.075927734375,
+            629.6529541015625,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65245,
+        "area_m2": 0.005357552789509196,
+        "density_px_m": 355.0144307179191,
+        "min_altitude_px": 2.4477395593124354,
+        "vertices_cm": [
+          [
+            -1481.02734375,
+            590.4962158203125,
+            80.26776885986328
+          ],
+          [
+            -1536.9239501953125,
+            593.9751586914062,
+            78.5
+          ],
+          [
+            -1536.868896484375,
+            594.705322265625,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65340,
+        "area_m2": 0.005357616121800467,
+        "density_px_m": 413.3933356701222,
+        "min_altitude_px": 2.4477661660095853,
+        "vertices_cm": [
+          [
+            -1415.8116455078125,
+            622.6375122070312,
+            81.0
+          ],
+          [
+            -1471.5386962890625,
+            628.4361572265625,
+            80.26776885986328
+          ],
+          [
+            -1415.6842041015625,
+            624.4006958007812,
+            80.26776885986328
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65353,
+        "area_m2": 0.005357510177876106,
+        "density_px_m": 346.6055822847586,
+        "min_altitude_px": 2.447724701555157,
+        "vertices_cm": [
+          [
+            -1474.3155517578125,
+            590.0007934570312,
+            80.26776123046875
+          ],
+          [
+            -1418.5140380859375,
+            585.2349853515625,
+            78.5
+          ],
+          [
+            -1474.368408203125,
+            589.2705078125,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65662,
+        "area_m2": 0.005357582274448479,
+        "density_px_m": 367.2225406309113,
+        "min_altitude_px": 2.44774469184179,
+        "vertices_cm": [
+          [
+            -1284.3466796875,
+            613.7553100585938,
+            71.0
+          ],
+          [
+            -1228.345947265625,
+            612.0054931640625,
+            71.73223114013672
+          ],
+          [
+            -1284.2357177734375,
+            615.5195922851562,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 65784,
+        "area_m2": 0.005357649448198933,
+        "density_px_m": 406.95514653037606,
+        "min_altitude_px": 2.447785710332338,
+        "vertices_cm": [
+          [
+            -1223.9937744140625,
+            574.9019165039062,
+            81.0
+          ],
+          [
+            -1168.198974609375,
+            569.7972412109375,
+            80.26776885986328
+          ],
+          [
+            -1224.0992431640625,
+            573.1372680664062,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66430,
+        "area_m2": 0.0053575926616981455,
+        "density_px_m": 546.7079025282181,
+        "min_altitude_px": 2.447757623305029,
+        "vertices_cm": [
+          [
+            -848.6932983398438,
+            555.4718017578125,
+            71.0
+          ],
+          [
+            -792.812744140625,
+            551.4114379882812,
+            71.73223114013672
+          ],
+          [
+            -792.7403564453125,
+            553.177734375,
+            71.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66432,
+        "area_m2": 0.005357600836665746,
+        "density_px_m": 546.7074854272403,
+        "min_altitude_px": 2.447761358254759,
+        "vertices_cm": [
+          [
+            -848.6932983398438,
+            555.4718017578125,
+            81.0
+          ],
+          [
+            -792.812744140625,
+            551.4114379882812,
+            80.26776885986328
+          ],
+          [
+            -848.7656860351562,
+            553.7055053710938,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66527,
+        "area_m2": 0.00535761437540166,
+        "density_px_m": 364.54410452194287,
+        "min_altitude_px": 2.4477685400680396,
+        "vertices_cm": [
+          [
+            -784.7506103515625,
+            589.6588745117188,
+            71.73223114013672
+          ],
+          [
+            -728.7630615234375,
+            588.2711181640625,
+            73.5
+          ],
+          [
+            -784.722900390625,
+            590.390625,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66539,
+        "area_m2": 0.00535754902149378,
+        "density_px_m": 337.68733187264144,
+        "min_altitude_px": 2.4477386153612732,
+        "vertices_cm": [
+          [
+            -730.249267578125,
+            549.031494140625,
+            71.73223114013672
+          ],
+          [
+            -786.23681640625,
+            550.4193115234375,
+            73.5
+          ],
+          [
+            -730.2769775390625,
+            548.2998046875,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66756,
+        "area_m2": 0.005357634333221697,
+        "density_px_m": 391.8808708551972,
+        "min_altitude_px": 2.447773114775835,
+        "vertices_cm": [
+          [
+            -661.0391235351562,
+            548.395263671875,
+            81.0
+          ],
+          [
+            -605.1229248046875,
+            544.8582153320312,
+            80.26776885986328
+          ],
+          [
+            -661.094970703125,
+            546.6283569335938,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66970,
+        "area_m2": 0.005357602311818341,
+        "density_px_m": 344.01747237549654,
+        "min_altitude_px": 2.447761093016134,
+        "vertices_cm": [
+          [
+            -479.9528503417969,
+            543.2343139648438,
+            71.0
+          ],
+          [
+            -535.9796752929688,
+            542.8876342773438,
+            71.73223114013672
+          ],
+          [
+            -479.9976806640625,
+            541.4671020507812,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66971,
+        "area_m2": 0.005357568764507513,
+        "density_px_m": 334.23097184321415,
+        "min_altitude_px": 2.4477460969394262,
+        "vertices_cm": [
+          [
+            -479.9976806640625,
+            541.4671020507812,
+            71.73223114013672
+          ],
+          [
+            -535.9982299804688,
+            542.1556396484375,
+            73.5
+          ],
+          [
+            -480.0162658691406,
+            540.735107421875,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66972,
+        "area_m2": 0.005357609570623762,
+        "density_px_m": 344.0172393278373,
+        "min_altitude_px": 2.4477644050363243,
+        "vertices_cm": [
+          [
+            -479.9528503417969,
+            543.2343139648438,
+            81.0
+          ],
+          [
+            -535.9796752929688,
+            542.8876342773438,
+            80.26776123046875
+          ],
+          [
+            -535.934814453125,
+            544.6548461914062,
+            81.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 66973,
+        "area_m2": 0.005357548198821387,
+        "density_px_m": 379.9815941492654,
+        "min_altitude_px": 2.4477363378713752,
+        "vertices_cm": [
+          [
+            -535.9796752929688,
+            542.8876342773438,
+            80.26776123046875
+          ],
+          [
+            -480.0162658691406,
+            540.735107421875,
+            78.5
+          ],
+          [
+            -535.9982299804688,
+            542.1556396484375,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 67297,
+        "area_m2": 0.005357528575347831,
+        "density_px_m": 331.63923680931515,
+        "min_altitude_px": 2.447727537942778,
+        "vertices_cm": [
+          [
+            -292.3117980957031,
+            537.8468017578125,
+            80.26776885986328
+          ],
+          [
+            -348.31634521484375,
+            538.0105590820312,
+            78.5
+          ],
+          [
+            -348.30462646484375,
+            538.74267578125,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 67402,
+        "area_m2": 0.005357615399898589,
+        "density_px_m": 366.25731285895614,
+        "min_altitude_px": 2.447767451647284,
+        "vertices_cm": [
+          [
+            -229.7275848388672,
+            538.7986450195312,
+            71.0
+          ],
+          [
+            -285.7456970214844,
+            537.7520141601562,
+            71.73223114013672
+          ],
+          [
+            -229.7503204345703,
+            537.031005859375,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 67512,
+        "area_m2": 0.005357619634273211,
+        "density_px_m": 333.63277462147744,
+        "min_altitude_px": 2.4477691629926164,
+        "vertices_cm": [
+          [
+            -223.16925048828125,
+            538.7244873046875,
+            81.0
+          ],
+          [
+            -167.18914794921875,
+            536.4108276367188,
+            80.26776885986328
+          ],
+          [
+            -223.18649291992188,
+            536.956787109375,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 67607,
+        "area_m2": 0.005357530296973673,
+        "density_px_m": 597.905871359423,
+        "min_altitude_px": 2.4477286710069506,
+        "vertices_cm": [
+          [
+            -104.3729248046875,
+            574.520751953125,
+            71.73223114013672
+          ],
+          [
+            -160.36683654785156,
+            575.6239624023438,
+            73.5
+          ],
+          [
+            -160.37168884277344,
+            574.8917846679688,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 67620,
+        "area_m2": 0.005357660409355013,
+        "density_px_m": 331.6351483021466,
+        "min_altitude_px": 2.4477877365981273,
+        "vertices_cm": [
+          [
+            -104.61650085449219,
+            537.7537841796875,
+            81.0
+          ],
+          [
+            -160.62698364257812,
+            536.3570556640625,
+            80.26776123046875
+          ],
+          [
+            -160.6152801513672,
+            538.1248168945312,
+            81.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68160,
+        "area_m2": 0.005357586261606638,
+        "density_px_m": 333.1275526425454,
+        "min_altitude_px": 2.447754381866244,
+        "vertices_cm": [
+          [
+            208.15638732910156,
+            538.5626831054688,
+            81.0
+          ],
+          [
+            152.17457580566406,
+            536.291015625,
+            80.26776123046875
+          ],
+          [
+            152.15866088867188,
+            538.0587158203125,
+            81.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68362,
+        "area_m2": 0.005357609828314755,
+        "density_px_m": 506.5295259176512,
+        "min_altitude_px": 2.4477645282445892,
+        "vertices_cm": [
+          [
+            332.7299499511719,
+            575.25048828125,
+            71.0
+          ],
+          [
+            276.7095031738281,
+            576.1641845703125,
+            71.73223114013672
+          ],
+          [
+            276.7364501953125,
+            574.3966064453125,
+            71.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68473,
+        "area_m2": 0.00535764546802031,
+        "density_px_m": 332.3243338187092,
+        "min_altitude_px": 2.447781067589289,
+        "vertices_cm": [
+          [
+            395.1413269042969,
+            578.1552734375,
+            80.26776885986328
+          ],
+          [
+            339.1373291015625,
+            577.8585815429688,
+            78.5
+          ],
+          [
+            395.12786865234375,
+            578.887451171875,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68484,
+        "area_m2": 0.005357543479794866,
+        "density_px_m": 339.4518511084768,
+        "min_altitude_px": 2.4477336697194705,
+        "vertices_cm": [
+          [
+            339.8262634277344,
+            540.3649291992188,
+            81.0
+          ],
+          [
+            395.84930419921875,
+            539.6262817382812,
+            80.26776885986328
+          ],
+          [
+            339.8587341308594,
+            538.5974731445312,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68592,
+        "area_m2": 0.0053575075373796825,
+        "density_px_m": 341.476624994279,
+        "min_altitude_px": 2.447719467787898,
+        "vertices_cm": [
+          [
+            402.3827209472656,
+            541.5245971679688,
+            81.0
+          ],
+          [
+            458.4077453613281,
+            540.9609985351562,
+            80.26776885986328
+          ],
+          [
+            402.42071533203125,
+            539.7572631835938,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68689,
+        "area_m2": 0.005357619210053791,
+        "density_px_m": 334.05834521968956,
+        "min_altitude_px": 2.4477683478246552,
+        "vertices_cm": [
+          [
+            520.0172729492188,
+            581.0150756835938,
+            80.26776885986328
+          ],
+          [
+            464.0162048339844,
+            580.3685302734375,
+            78.5
+          ],
+          [
+            519.9992065429688,
+            581.7471313476562,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68698,
+        "area_m2": 0.005357671242031532,
+        "density_px_m": 502.00019076957824,
+        "min_altitude_px": 2.447793884216033,
+        "vertices_cm": [
+          [
+            520.92236328125,
+            544.2584838867188,
+            71.0
+          ],
+          [
+            464.9828796386719,
+            541.1126708984375,
+            71.73223114013672
+          ],
+          [
+            520.9658813476562,
+            542.4912109375,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68700,
+        "area_m2": 0.0053575217190213135,
+        "density_px_m": 533.6133602908708,
+        "min_altitude_px": 2.4477255663167368,
+        "vertices_cm": [
+          [
+            520.92236328125,
+            544.2584838867188,
+            81.0
+          ],
+          [
+            464.9828796386719,
+            541.1126708984375,
+            80.26776123046875
+          ],
+          [
+            464.9393615722656,
+            542.8798828125,
+            81.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68916,
+        "area_m2": 0.005357685683518538,
+        "density_px_m": 355.23524927025505,
+        "min_altitude_px": 2.447798790855679,
+        "vertices_cm": [
+          [
+            590.053466796875,
+            546.1768798828125,
+            81.0
+          ],
+          [
+            646.0813598632812,
+            546.1380615234375,
+            80.26776885986328
+          ],
+          [
+            590.1080322265625,
+            544.409912109375,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 68917,
+        "area_m2": 0.005357540325990707,
+        "density_px_m": 335.77706592866593,
+        "min_altitude_px": 2.4477334691636163,
+        "vertices_cm": [
+          [
+            590.1080322265625,
+            544.409912109375,
+            80.26776123046875
+          ],
+          [
+            646.1039428710938,
+            545.40625,
+            78.5
+          ],
+          [
+            590.130615234375,
+            543.6780395507812,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 69456,
+        "area_m2": 0.005357600264759145,
+        "density_px_m": 357.32904140547595,
+        "min_altitude_px": 2.4477602755562557,
+        "vertices_cm": [
+          [
+            902.8431396484375,
+            557.8406982421875,
+            81.0
+          ],
+          [
+            958.8648071289062,
+            558.676025390625,
+            80.26776885986328
+          ],
+          [
+            902.9252319335938,
+            556.0748291015625,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 69780,
+        "area_m2": 0.005357583210654102,
+        "density_px_m": 363.1033712861917,
+        "min_altitude_px": 2.4477495502739655,
+        "vertices_cm": [
+          [
+            1090.5198974609375,
+            567.1852416992188,
+            81.0
+          ],
+          [
+            1146.5313720703125,
+            568.5443725585938,
+            80.26776885986328
+          ],
+          [
+            1090.6185302734375,
+            565.4202270507812,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 69874,
+        "area_m2": 0.005357601054795947,
+        "density_px_m": 530.7483211335748,
+        "min_altitude_px": 2.4477589022389123,
+        "vertices_cm": [
+          [
+            1151.0179443359375,
+            605.63037109375,
+            71.0
+          ],
+          [
+            1206.816650390625,
+            610.693359375,
+            71.73223114013672
+          ],
+          [
+            1150.913818359375,
+            607.3950805664062,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 69996,
+        "area_m2": 0.005357672871947698,
+        "density_px_m": 366.84408023357037,
+        "min_altitude_px": 2.447794553216138,
+        "vertices_cm": [
+          [
+            1215.6390380859375,
+            574.392578125,
+            81.0
+          ],
+          [
+            1271.640869140625,
+            576.1005249023438,
+            80.26776885986328
+          ],
+          [
+            1215.7486572265625,
+            572.628173828125,
+            80.26776123046875
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 70091,
+        "area_m2": 0.005357597970173915,
+        "density_px_m": 389.3566257632779,
+        "min_altitude_px": 2.447758895768292,
+        "vertices_cm": [
+          [
+            1275.804931640625,
+            614.979248046875,
+            71.73223114013672
+          ],
+          [
+            1331.638427734375,
+            619.356201171875,
+            73.5
+          ],
+          [
+            1275.75732421875,
+            615.7099609375,
+            73.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 70093,
+        "area_m2": 0.005357532709193602,
+        "density_px_m": 345.0815487424112,
+        "min_altitude_px": 2.4477351769698825,
+        "vertices_cm": [
+          [
+            1331.68603515625,
+            618.6255493164062,
+            80.26776885986328
+          ],
+          [
+            1275.75732421875,
+            615.7099609375,
+            78.5
+          ],
+          [
+            1331.638427734375,
+            619.356201171875,
+            78.5
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 70102,
+        "area_m2": 0.005357619657965131,
+        "density_px_m": 409.7971008827016,
+        "min_altitude_px": 2.4477720403846437,
+        "vertices_cm": [
+          [
+            1334.080078125,
+            581.935791015625,
+            71.0
+          ],
+          [
+            1278.3140869140625,
+            576.5254516601562,
+            71.73223114013672
+          ],
+          [
+            1334.1951904296875,
+            580.1717529296875,
+            71.73223114013672
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 70198,
+        "area_m2": 0.005357623075078439,
+        "density_px_m": 370.47171517902,
+        "min_altitude_px": 2.447772083364998,
+        "vertices_cm": [
+          [
+            1394.2410888671875,
+            621.1205444335938,
+            71.0
+          ],
+          [
+            1338.2509765625,
+            619.0641479492188,
+            71.73223114013672
+          ],
+          [
+            1338.37158203125,
+            617.3004760742188,
+            71.0
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 7,
+        "triangle": 70200,
+        "area_m2": 0.0053577809958714594,
+        "density_px_m": 370.4662553050334,
+        "min_altitude_px": 2.4478442336643234,
+        "vertices_cm": [
+          [
+            1394.2410888671875,
+            621.1205444335938,
+            81.0
+          ],
+          [
+            1338.2509765625,
+            619.0641479492188,
+            80.26776885986328
+          ],
+          [
+            1394.1204833984375,
+            622.88427734375,
+            80.26776885986328
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 11,
+        "triangle": 94646,
+        "area_m2": 0.0718980085293254,
+        "density_px_m": 231.291828448689,
+        "min_altitude_px": 12.617522208384358,
+        "vertices_cm": [
+          [
+            -1395.0599365234375,
+            304.4734191894531,
+            413.7602233886719
+          ],
+          [
+            -1404.9400634765625,
+            196.7820587158203,
+            315.8589782714844
+          ],
+          [
+            -1404.9400634765625,
+            304.4734191894531,
+            413.7602233886719
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 12,
+        "triangle": 104896,
+        "area_m2": 0.15100870066521482,
+        "density_px_m": 501.87840726920257,
+        "min_altitude_px": 2.5863164311837123,
+        "vertices_cm": [
+          [
+            -1447.360107421875,
+            -288.9999084472656,
+            713.3600463867188
+          ],
+          [
+            47.36001205444336,
+            -289.773193359375,
+            715.2267456054688
+          ],
+          [
+            -1447.360107421875,
+            -289.77313232421875,
+            715.226806640625
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 12,
+        "triangle": 108250,
+        "area_m2": 0.6142076820253118,
+        "density_px_m": 133.56040003783167,
+        "min_altitude_px": 14.69421652353528,
+        "vertices_cm": [
+          [
+            1365.0,
+            384.9998779296875,
+            404.0
+          ],
+          [
+            2435.0,
+            395.6064453125,
+            408.39337158203125
+          ],
+          [
+            1365.0,
+            395.60650634765625,
+            408.39337158203125
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 12,
+        "triangle": 108251,
+        "area_m2": 0.614206173614462,
+        "density_px_m": 224.96137685828808,
+        "min_altitude_px": 14.694180437538195,
+        "vertices_cm": [
+          [
+            1365.0,
+            395.60650634765625,
+            408.39337158203125
+          ],
+          [
+            2435.0,
+            399.9997863769531,
+            418.9999694824219
+          ],
+          [
+            1365.0,
+            399.9998779296875,
+            418.9999694824219
+          ]
+        ]
+      },
+      {
+        "documented_lettering_exception": false,
+        "material_slot": 12,
+        "triangle": 108260,
+        "area_m2": 0.0011480523434415255,
+        "density_px_m": 470.2762245161615,
+        "min_altitude_px": 2.5220575764244235,
+        "vertices_cm": [
+          [
+            2435.0,
+            -600.0001831054688,
+            418.9999694824219
+          ],
+          [
+            2445.6064453125,
+            -595.6068725585938,
+            421.0
+          ],
+          [
+            2445.6064453125,
+            -595.6068115234375,
+            418.9999694824219
+          ]
+        ]
+      }
+    ],
+    "scope": "Every valid RenderData LOD0 triangle, unit actor scale; material atlas usable 448px, including intentionally untextured glass/dark UVs",
+    "overlap": "Unique packed UV0; shader uniform scale 128 followed by Frac reuses source pixels only after geometric UV allocation. 8 effective pixels per island side, 16 target inter-island gap."
+  },
+  "saved_uv_packing": {
+    "triangles": 120832,
+    "actual_edge_connected_uv_islands": 87497,
+    "degenerate_uv_triangles": 6,
+    "positive_area_overlap_pairs": 301,
+    "overlap_examples": [
+      [
+        46454,
+        46400,
+        32773,
+        32773
+      ],
+      [
+        46346,
+        46292,
+        32678,
+        32678
+      ],
+      [
+        74962,
+        74720,
+        53482,
+        53482
+      ],
+      [
+        74963,
+        74721,
+        53482,
+        53482
+      ],
+      [
+        54432,
+        54378,
+        39497,
+        39497
+      ],
+      [
+        27226,
+        20304,
+        17208,
+        11655
+      ],
+      [
+        52920,
+        52866,
+        38215,
+        38215
+      ],
+      [
+        20262,
+        27214,
+        11667,
+        17151
+      ],
+      [
+        27160,
+        27214,
+        17151,
+        17151
+      ],
+      [
+        48940,
+        48886,
+        34839,
+        34839
+      ],
+      [
+        52438,
+        52492,
+        37853,
+        37853
+      ],
+      [
+        40393,
+        40339,
+        27603,
+        27603
+      ],
+      [
+        53313,
+        53367,
+        38594,
+        38594
+      ],
+      [
+        41812,
+        41758,
+        28825,
+        28825
+      ],
+      [
+        28988,
+        29042,
+        18656,
+        18656
+      ],
+      [
+        49896,
+        49842,
+        35646,
+        35646
+      ],
+      [
+        51516,
+        51462,
+        37024,
+        37024
+      ],
+      [
+        54708,
+        54865,
+        39768,
+        39847
+      ],
+      [
+        54811,
+        54865,
+        39847,
+        39847
+      ],
+      [
+        43092,
+        43038,
+        29888,
+        29888
+      ],
+      [
+        54715,
+        54757,
+        39775,
+        39763
+      ],
+      [
+        54769,
+        54757,
+        39775,
+        39763
+      ],
+      [
+        49526,
+        49580,
+        35382,
+        35382
+      ],
+      [
+        20078,
+        20024,
+        11473,
+        11473
+      ],
+      [
+        31216,
+        31162,
+        20467,
+        20467
+      ],
+      [
+        49364,
+        49310,
+        35202,
+        35202
+      ],
+      [
+        71517,
+        73453,
+        52657,
+        53152
+      ],
+      [
+        71517,
+        73940,
+        52657,
+        53152
+      ],
+      [
+        72004,
+        73453,
+        52657,
+        53152
+      ],
+      [
+        72004,
+        73940,
+        52657,
+        53152
+      ],
+      [
+        72005,
+        73453,
+        52657,
+        53152
+      ],
+      [
+        72005,
+        73940,
+        52657,
+        53152
+      ],
+      [
+        71516,
+        73453,
+        52657,
+        53152
+      ],
+      [
+        71516,
+        73940,
+        52657,
+        53152
+      ],
+      [
+        44715,
+        44661,
+        31272,
+        31272
+      ],
+      [
+        71780,
+        71658,
+        52913,
+        52794
+      ],
+      [
+        71780,
+        72145,
+        52913,
+        52794
+      ],
+      [
+        72267,
+        72145,
+        52913,
+        52794
+      ],
+      [
+        72268,
+        71658,
+        52913,
+        52794
+      ],
+      [
+        72268,
+        72145,
+        52913,
+        52794
+      ],
+      [
+        71657,
+        71780,
+        52794,
+        52913
+      ],
+      [
+        71657,
+        72267,
+        52794,
+        52913
+      ],
+      [
+        42725,
+        42779,
+        29641,
+        29641
+      ],
+      [
+        72012,
+        71524,
+        52663,
+        52663
+      ],
+      [
+        73460,
+        71524,
+        53158,
+        52663
+      ],
+      [
+        73460,
+        72011,
+        53158,
+        52663
+      ],
+      [
+        73948,
+        71524,
+        53158,
+        52663
+      ],
+      [
+        73948,
+        72011,
+        53158,
+        52663
+      ],
+      [
+        73948,
+        73460,
+        53158,
+        53158
+      ],
+      [
+        73947,
+        71524,
+        53158,
+        52663
+      ],
+      [
+        73947,
+        72011,
+        53158,
+        52663
+      ],
+      [
+        73459,
+        71524,
+        53158,
+        52663
+      ],
+      [
+        73459,
+        72011,
+        53158,
+        52663
+      ],
+      [
+        73459,
+        73947,
+        53158,
+        53158
+      ],
+      [
+        71523,
+        72011,
+        52663,
+        52663
+      ],
+      [
+        74929,
+        74687,
+        53451,
+        53451
+      ],
+      [
+        71363,
+        74929,
+        52506,
+        53451
+      ],
+      [
+        71363,
+        74688,
+        52506,
+        53451
+      ],
+      [
+        71851,
+        74929,
+        52506,
+        53451
+      ],
+      [
+        71851,
+        74688,
+        52506,
+        53451
+      ],
+      [
+        73299,
+        74929,
+        53001,
+        53451
+      ],
+      [
+        73299,
+        74688,
+        53001,
+        53451
+      ],
+      [
+        73787,
+        74929,
+        53001,
+        53451
+      ],
+      [
+        73787,
+        74688,
+        53001,
+        53451
+      ],
+      [
+        74930,
+        74688,
+        53451,
+        53451
+      ],
+      [
+        108196,
+        108250,
+        79961,
+        79961
+      ],
+      [
+        21502,
+        21448,
+        12624,
+        12624
+      ],
+      [
+        21610,
+        21556,
+        12709,
+        12709
+      ],
+      [
+        20731,
+        20677,
+        12013,
+        12013
+      ],
+      [
+        48492,
+        48438,
+        34442,
+        34442
+      ],
+      [
+        19986,
+        19932,
+        11401,
+        11401
+      ],
+      [
+        25603,
+        25549,
+        15865,
+        15865
+      ],
+      [
+        27328,
+        27274,
+        17250,
+        17250
+      ],
+      [
+        106385,
+        73271,
+        78980,
+        52973
+      ],
+      [
+        106385,
+        73758,
+        78980,
+        52973
+      ],
+      [
+        106873,
+        73271,
+        78980,
+        52973
+      ],
+      [
+        106873,
+        73758,
+        78980,
+        52973
+      ],
+      [
+        25171,
+        25117,
+        15511,
+        15511
+      ],
+      [
+        25169,
+        25115,
+        15509,
+        15509
+      ],
+      [
+        48118,
+        48172,
+        34180,
+        34180
+      ],
+      [
+        72187,
+        71699,
+        52835,
+        52835
+      ],
+      [
+        72188,
+        71700,
+        52835,
+        52835
+      ],
+      [
+        74123,
+        73635,
+        53331,
+        53331
+      ],
+      [
+        74124,
+        73636,
+        53331,
+        53331
+      ],
+      [
+        75110,
+        74868,
+        53628,
+        53628
+      ],
+      [
+        75111,
+        74869,
+        53628,
+        53628
+      ],
+      [
+        22582,
+        22528,
+        13483,
+        13483
+      ],
+      [
+        24678,
+        22582,
+        15164,
+        13483
+      ],
+      [
+        50278,
+        50332,
+        36029,
+        36029
+      ],
+      [
+        32514,
+        32460,
+        21527,
+        21527
+      ],
+      [
+        20635,
+        20581,
+        11943,
+        11943
+      ],
+      [
+        107175,
+        106687,
+        79278,
+        79278
+      ],
+      [
+        106565,
+        107175,
+        79158,
+        79278
+      ],
+      [
+        106565,
+        106688,
+        79158,
+        79278
+      ],
+      [
+        107053,
+        107175,
+        79158,
+        79278
+      ],
+      [
+        107053,
+        106688,
+        79158,
+        79278
+      ],
+      [
+        107053,
+        106565,
+        79158,
+        79158
+      ],
+      [
+        106566,
+        107175,
+        79158,
+        79278
+      ],
+      [
+        106566,
+        106688,
+        79158,
+        79278
+      ],
+      [
+        32512,
+        32458,
+        21525,
+        21525
+      ]
+    ],
+    "island_bbox_overlap_pairs": 58,
+    "minimum_island_bbox_gap_pixels_within_32px_search": 0.0,
+    "algorithm": "Components share an exact geometric edge and matching UV endpoints, independent of normal splits. Global triangle AABB sweep + strict SAT tests interior overlap; shared boundaries allowed. Conservative island AABB gap search covers every pair within 32 effective pixels.",
+    "epsilon_pixels": 1e-05
+  },
+  "full_precision_uv": true,
+  "passed": false,
+  "finished_at_utc": "2026-10-21T15:26:27.334668+00:00"
+}
