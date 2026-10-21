@@ -3,7 +3,7 @@
   "rules_commit": "53a1fc3",
   "timezone": "Asia/Seoul",
   "last_supervisor_check_utc": "2026-10-21T15:39:11.1330937+00:00",
-  "last_supervisor_summary": "All eight first and texture deliveries independently committed. Only the two ultra self-improvement chats remain active. Final baseline eight-map integration and comparison report/freeze remain supervisor work.",
+  "last_supervisor_summary": "Only Forest ultra improvement is active. Station ultra explicitly stopped and checkpoint-committed by human instruction in its own chat, not a validated improvement delivery. Comparison8 integration queued; no medium/high worker jobs remain.",
   "efforts": [
     {
       "threadId": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
@@ -7913,7 +7913,7 @@
     "xhigh_utc_notation_verified": true
   },
   "ultra_self_improvement": {
-    "status": "both_ultra_dispatched_remaining_comparison_independent",
+    "status": "forest_active_station_stopped_by_user",
     "user_authorized_at_observed_utc": "2026-10-21T15:01:04.9688409+00:00",
     "report": "ForestDemo/Work/ULTRA_IMPROVEMENT.md",
     "accounting_root": "ForestDemo/Work/UltraImprovementAccounting",
@@ -7924,7 +7924,7 @@
     ],
     "dispatch_policy": "Each existing ultra chat may begin after its own comparison delivery baseline is preserved and committed. Neither waits for other efforts or final integration; latest human instructions override earlier all-work gate.",
     "comparison_freeze": {
-      "status": "both_ultra_evidence_and_accounting_frozen_remaining_station_comparison_pending",
+      "status": "report_complete_pending_hash_freeze",
       "report": "ForestDemo/Work/SUPERVISION.md",
       "token_snapshot": "ForestDemo/Work/token_usage.json",
       "protect_referenced_images": true,
@@ -8280,20 +8280,29 @@
         "dispatch_count": 1,
         "dispatch_details": "Explicit existing-chat continuation with original model/ultra; import specified TunaSweeper BP and preserve required native/rendering behavior; no worker shared changes or Git.",
         "worker_turn_started_at_utc": "2026-10-21T15:30:23.0000000+00:00",
-        "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:19",
+        "cursor": "aacd3c09-d1b5-4f4b-a6c6-38b881631a20:22",
         "worker_started_at_utc": "2026-10-21T15:30:53Z",
-        "requires_native_integration": true
+        "requires_native_integration": true,
+        "native_integration": {
+          "build_evidence": "ForestDemo/Work/UltraImprovementIntegration/build_timing.json",
+          "status": "shared_build_passed_runtime_smoke_pending",
+          "temporary_redirects": false,
+          "shared_renderer_setting": "r.CustomDepth=3",
+          "installed_files": 10,
+          "build_exit_code": 0,
+          "commit": "3d1f790641615153688c976aad660113325c6038"
+        }
       },
       {
         "theme": "MountainStation",
         "effort": "ultra",
         "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
         "hostId": "local",
-        "status": "working",
+        "status": "stopped_by_user_checkpoint",
         "work_root": "ForestDemo/Work/MountainStation/ultra/SelfImprovement",
         "asset_root": "ForestDemo/Content/MountainStation/ultra",
         "map": "ForestDemo/Content/Maps/MountainStation_ultra.umap",
-        "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:18",
+        "cursor": "127995ab-68c9-4459-a86a-3da1232bd9c7:19",
         "content_baseline_commit": "3e13e569b0e8725f4a9faaeee8e3d13ddf7b5737",
         "token_baseline_path": "ForestDemo/Work/UltraImprovementAccounting/station_baseline.json",
         "baseline_at_utc": "2026-10-21T15:37:23.4631689+00:00",
@@ -8854,7 +8863,28 @@
         "dispatch_count": 1,
         "dispatch_acknowledged_at_utc": "2026-10-21T15:39:11.1305779+00:00",
         "dispatch_details": "Existing ultra chat explicit finite SelfImprovement; own texture baseline committed; no wait for others; no external tree reuse.",
-        "worker_started_at_utc": "2026-10-21T15:38:54+00:00"
+        "worker_started_at_utc": "2026-10-21T15:38:54+00:00",
+        "user_stop": {
+          "evidence": "Verified latest human role=user messages in this exact worker local rollout; worker idle and STATUS stopped_by_user=true.",
+          "requested_at_utc": "2026-10-21T16:03:56.789Z",
+          "commit_authorized_at_utc": "2026-10-21T16:03:56.807Z",
+          "instruction": "중단해 / 그냥 이상태로 커밋하고 끝내자 나중에 새로 지시활게"
+        },
+        "checkpoint_commit_hash": "f7f46b7a30504275b3b84f4e06f2f8449f4cd9b0",
+        "checkpoint_commit_at_utc": "2026-10-21T16:05:50Z",
+        "stopped_at_utc": "2026-10-21T16:05:23.649339+00:00",
+        "elapsed_seconds": 1589.649339,
+        "published_improvement": false,
+        "must_not_resume_without_new_user_instruction": true,
+        "stop_accounting": {
+          "parent_tokens": 4567048,
+          "captured_at_utc": "2026-10-21T16:10:20.9850899+00:00",
+          "issues": [],
+          "child_tokens": 2255354.0,
+          "snapshot": "ForestDemo/Work/UltraImprovementAccounting/station_stopped_snapshot.json",
+          "combined_tokens": 6822402.0,
+          "delta": "ForestDemo/Work/UltraImprovementAccounting/station_stopped_delta.json"
+        }
       }
     ],
     "requirements": [
@@ -8883,7 +8913,8 @@
       "migration_authorization_unchanged": true,
       "migration_instruction_scope": "This coordinating conversation, coordination.json and task heartbeat only",
       "reason": "User clarified only the specific BP_AnimeFoliageTree migration instruction must be excluded from repository/global AGENTS.md. General self-improvement coordination rules remain."
-    }
+    },
+    "latest_accounting_snapshot": "ForestDemo/Work/UltraImprovementAccounting/snapshot_20261021T160001Z.json"
   },
   "final_integration_world_partition_check": {
     "source_verified_at_utc": "2026-10-21T15:15:02.8329230+00:00",
@@ -8959,12 +8990,6 @@
       "phase": "self_improvement",
       "theme": "Forest",
       "threadId": "01a15e5f-fef9-7323-8733-3c0553c29d7e"
-    },
-    {
-      "effort": "ultra",
-      "phase": "self_improvement",
-      "theme": "MountainStation",
-      "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490"
     }
   ],
   "monitor_policy": "Only active remaining assignments; remove completed targets after approval/commit. Do not wake completed chats. Supervisor integration/report work continues separately.",
@@ -8987,5 +9012,35 @@
     "updated_at_utc": "2026-10-21T15:42:57.4379921+00:00",
     "validation": "Saved/Coordination/Test-f1a92ead3c3e41df8dda047339d2912d; fake child priority/FIFO/nonpreemption/orphan recovery all passed; no existing medium wait tickets required rewrite; active lease untouched"
   },
-  "supervisor_pending_reviews": []
+  "supervisor_pending_reviews": [],
+  "comparison_integration": {
+    "expected_maps": 8,
+    "exec_session_id": null,
+    "baseline_commit": "1514f1af789d75ddf94d210c8017a95dcececb8b",
+    "status": "validated_and_committed",
+    "main_retirement_in_shared_project": true,
+    "request_path": "D:/github/AstraEffort/ForestDemo/Saved/Workers/Supervisor/Integration-1514f1af789d75ddf94d210c8017a95dcececb8b-comparison/request.json",
+    "invocation_file_written_at_utc": "2026-10-21T16:04:46.5518230Z",
+    "exact_queue_timing_pending": false,
+    "first_attempt": {
+      "failed_check": "SystemLibrary.break_soft_object_path unavailable in Python",
+      "process_exit_code": -1073741819,
+      "execution_seconds": 18.819445,
+      "wait_seconds": 124.0820742,
+      "maps_checked": 0
+    },
+    "second_attempt": {
+      "hello_run": false,
+      "hashes_unchanged": 1756,
+      "process_exit_code": -1073741819,
+      "saved_maps_passed": true,
+      "wait_seconds": 0.1598907,
+      "execution_seconds": 18.3085133,
+      "maps_checked": 8
+    },
+    "commit": "0257e81cef52a2c2ff8fef318eef957ac29b76d6",
+    "completed_at_utc": "2026-10-21T16:22:38.5870126+00:00",
+    "commit_at_utc": "2026-10-21T16:24:03+00:00",
+    "result": "ForestDemo/Work/Integration/Evidence/integration_result.json"
+  }
 }

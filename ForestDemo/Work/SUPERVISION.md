@@ -3,7 +3,7 @@
 최종 결과를 모으는 단일 보고서입니다. Forest 4개와 MountainStation 4개를
 테마별로 비교합니다. 여덟 최초 결과와 Forest 네 UV·텍스처·해변 보강 결과를 검증 후
 각각 개별 커밋했습니다. MountainStation 최초 기록을 보존하고 14:46 UTC에 기존 네 대화에
-UV·이미지 생성 텍스처 보강을 지시했습니다. 기차역 네 보강 결과까지 검증·개별 커밋했습니다. 비교용 최종 8맵 통합 재로드가 남아 있습니다.
+UV·이미지 생성 텍스처 보강을 지시했습니다. 기차역 네 보강 결과까지 검증·개별 커밋했습니다. 비교용 최종 8맵 통합 재로드와 Hello 자동화 검증까지 통과했습니다. 기본 시작 맵은 medium이며 baseline main만 제거했습니다.
 초기 결과와 보강 결과를 구분하여 비교합니다. 날짜가 붙은 중간 감독 기록은 당시 상태이며, 최종 납품 검토와 구분합니다.
 
 Supervisor setup started: 2026-10-21 21:09:14 KST (12:09:14 UTC).
@@ -103,7 +103,7 @@ screen percentage 100이며, 실제 사용 설정과 차이는 capture_manifest.
 원본 위치: `Work/<effort>/Screenshots/`. 완료 후 이 문서에 실제 이미지들을 직접
 삽입하여 같은 시점의 네 작업을 나란히 볼 수 있도록 구성합니다.
 
-## 결과 비교
+## Forest — 최초 결과 비교
 
 관찰 가능한 차이를 근거로 작성하며, 아직 측정하지 않은 FPS·메모리·폴리곤 수나
 검증하지 않은 기능은 추정하지 않습니다. 작업당 한 번의 제작 결과이므로 결과 차이를
@@ -160,7 +160,7 @@ screen percentage 100이며, 실제 사용 설정과 차이는 capture_manifest.
 
 ## 작업별 분석과 최종 판단
 
-아래 비교와 최초 검토는 실제 UE 원본과 검증 기록을 직접 확인한 결과입니다. 두 번째 패스 후 동일 카메라 전후와 별도 시간·토큰 증분을 추가합니다.
+아래 비교와 최초 검토는 실제 UE 원본과 검증 기록을 직접 확인한 결과입니다. 두 번째 패스의 동일 카메라 전후와 별도 시간·토큰 증분은 뒤의 보강 결과 절에 기록했습니다.
 
 ## Forest — medium 최초 납품 검토
 
@@ -395,7 +395,7 @@ capture_manifest.json에 실제 카메라/렌더 설정과 촬영 시각을 기�
 네 작업의 실제 캡처와 검증을 마쳤습니다. 최초 결과는 FirstDelivery의 고정 사본이며,
 아래의 작업별 검토와 같은 시점별 비교 표에 삽입했습니다.
 
-## MountainStation — 결과 비교와 분석
+## MountainStation — 최초 결과 비교와 분석
 
 | 비교 항목 | medium | high | xhigh | ultra |
 |---|---|---|---|---|
@@ -455,7 +455,7 @@ Hello는 PIE의 native logger와 baseline 코드의 간접 근거이며 별도 �
 최초 커밋 `30571a354ab11068f170a63fe28211ed86131a01`, 2026-10-21 13:17:47 UTC /
 22:17:47+09:00 KST. 정확히 해당 작업 자산·맵·Work 101개 파일을 포함합니다.
 
-## 최신 감독 조치
+## 2026-10-21 13:52 UTC 당시 감독 조치
 
 2026-10-21 13:52 UTC 기준 최초 개별 커밋은 7개입니다. Forest 네 초기 결과는
 증거·이미지를 FirstDelivery에 보존하고 기존 네 대화에 13:42 UTC 후속 제작을 지시했습니다.
@@ -1387,10 +1387,12 @@ UE 대기와 시작 시각이 달랐다. Forest와 MountainStation의 시작 시
 | ![xhigh tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/xhigh/TexturePass/Screenshots/tracks.png) | ![ultra tracks](D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/TexturePass/Screenshots/tracks.png) |
 
 
+감독 토큰은 2026-10-21 15:28:19.9150287 UTC까지만 집계하여, 이후 기차역 비교 검토·최종 통합에 사용한 토큰은 포함하지 않습니다. 감독 포함 전체 작업량의 완전한 집계가 아닙니다.
+
 <!-- TOKEN_USAGE_START -->
 ## 대화별 토큰 사용량
 
-집계 시각: 2026-10-22 00:55:29 KST. 로컬 마지막 누적 기록 기준 잠정치입니다.
+집계 시각: 2026-10-22 01:22:02 KST. 지정한 비교 경계 이전의 로컬 마지막 누적 기록을 최종 보존한 값입니다.
 부모와 식별된 하위 대화를 별도로 표시하고 thread ID마다 한 번만 합산합니다. 자동 guardian 승인 검토(automatic_approval_review)는 위임 제작 에이전트(delegated_subagent)와 구분합니다. 캐시 입력은 입력에, 추론은 출력에 이미 포함됩니다. 누적 스냅샷끼리는 더하지 않습니다.
 반복 문맥도 포함되는 로컬 계수이며 구독 한도나 청구 금액으로 환산하지 않습니다. 누락·범위 미확인 토큰은 unknown이며 알려진 부분합만 별도 제공합니다.
 외부 CLI의 별도 모델 호출 및 이미지 생성 사용량은 이 로컬 토큰 계수에 포함되지 않습니다.
@@ -1477,3 +1479,49 @@ Supervisor에는 초기 프로젝트 생성 및 그 감독 대화의 후손이 �
 - Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: reasoning_output_tokens
 - Supervisor/separate [01a15ecd-5001-70b0-b7bc-8b4645894e5d]: Missing token field: total_tokens
 <!-- TOKEN_USAGE_END -->
+## 비교 실험 최종 통합 및 기록 확정
+
+이 문서는 동일 과제를 독립 수행한 8개 결과의 최종 비교 기록입니다. 최초 납품과 UV·이미지 텍스처 보강을 모두 검증·개별 커밋했고, 비교 시점의 자산과 증거를 고정했습니다. 이 기록에는 이후의 별도 제작 변경을 반영하지 않습니다.
+
+최종 통합 검증은 `1514f1af789d75ddf94d210c8017a95dcececb8b`의 프로젝트·Config·Source·Content를 별도 감독 scratch에 추출해 수행했습니다. 후보에서 변경한 것은 두 기본 맵 설정과 baseline `main.umap` 제거뿐입니다. 실제 시작 맵 설정은 `/Game/Maps/medium.medium`으로 읽혔으며, 1,756개 후보 파일의 검증 전후 SHA256이 일치했습니다. 네 Forest와 네 MountainStation 맵을 모두 새로 로드했고, 비WorldPartition·외부 패키지/BuiltData 없음·redirector 없음·자기 테마/강도 외 프로젝트 참조 없음·원래 Forest 루트 참조 없음 검사를 통과했습니다. 이 검사는 모든 저장 자산의 재귀 의존성까지 포함합니다.
+
+| 비교 맵 | 저장 액터 수 | 재귀 검사 패키지 수 | 결과 |
+|---|---:|---:|---|
+| Forest medium | 672 | 128 | 통과 |
+| Forest high | 762 | 301 | 통과 |
+| Forest xhigh | 904 | 56 | 통과 |
+| Forest ultra | 934 | 979 | 통과 |
+| MountainStation medium | 72 | 67 | 통과 |
+| MountainStation high | 22 | 43 | 통과 |
+| MountainStation xhigh | 16 | 41 | 통과 |
+| MountainStation ultra | 56 | 130 | 통과 |
+
+모든 맵에 PlayerStart와 네이티브 ScreenDebugLogger가 있습니다. 별도 새 UE 프로세스의 `ForestDemo.ScreenDebugLogger.HelloOnBeginPlay` 자동화 검사도 단일 테스트 Success로 통과했습니다. 저장 맵 검사는 2026-10-21 16:22:10.750793 UTC / 2026-10-22 01:22:10.750793 KST에 끝났고, 전체 검증은 16:22:38.587013 UTC / 01:22:38.587013 KST에 완료했습니다. 최종 두 프로세스의 종료 코드는 각각 0입니다. 기존 작업별 PIE·이동·충돌과 실제 렌더 증거는 각 절의 검증 범위를 그대로 적용하며, 이번 통합 검사가 모든 동선의 완전한 보행 검사를 대신하지 않습니다. 기본 DLL은 baseline 소스 일치와 provenance를 확인해 사용했으나 재현 가능한 전체 엔진 빌드를 주장하지 않습니다.
+
+| 감독 통합 실행 | UE 대기(초) | UE 실행(초) | 결과 |
+|---|---:|---:|---|
+| 첫 시도 | 124.0820742 | 18.8194450 | Python 미노출 API, 종료 오류; 0맵 검사 |
+| 두 번째 | 0.1598907 | 18.3085133 | 8맵 내용 통과, 종료 접근 위반 |
+| 세 번째 저장 맵 검사 | 25.3434678 | 17.7272714 | 8맵·해시 통과, exit 0 |
+| Hello 자동화 | 0.1517586 | 21.2345581 | Success, exit 0 |
+| 합계 | 149.7371913 | 76.0897878 | 실패 시도 포함 |
+
+검증기에서 설치된 Python 바인딩의 SoftObjectPath 변환을 사용하도록 수정했고, Python 실행과 같은 프레임에 직접 종료하던 코드를 제거해 엔진의 다음 프레임 종료에 맡겼습니다. 이 최소 변경 뒤 정상 종료를 확인했으며, 앞선 접근 위반의 네이티브 스택은 얻지 못했습니다. 실패한 시도의 로그와 스크립트도 보존했습니다. 첫 UE 대기 시작 16:04:46.984412 UTC부터 전체 성공 16:22:38.587013 UTC까지 1,071.602600초는 디버깅·감독 검토를 포함한 경과 시간이며 작업자의 제작 시간에 더하지 않습니다.
+
+공유 프로젝트 적용 커밋은 **`0257e81cef52a2c2ff8fef318eef957ac29b76d6`**, 2026-10-21 16:24:03 UTC / 2026-10-22 01:24:03 KST입니다. 제거한 레벨은 `main.umap` 하나이고 최종 8개 레벨은 보존했습니다.
+
+- [실제 통합 결과](D:/github/AstraEffort/ForestDemo/Work/Integration/Evidence/integration_result.json)
+- [맵별 재로드·의존성 검증](D:/github/AstraEffort/ForestDemo/Work/Integration/Evidence/saved_maps_validation.json)
+- [Hello 자동화 결과](D:/github/AstraEffort/ForestDemo/Work/Integration/Evidence/Automation/index.json)
+- [비교 자산 SHA256 목록](D:/github/AstraEffort/ForestDemo/Work/Integration/Evidence/candidate_snapshot.json)
+- [공유 프로젝트 적용](D:/github/AstraEffort/ForestDemo/Work/Integration/shared_application.json)
+
+### 토큰·시간 비교의 최종 해석
+
+8개 제작 대화의 부모 및 검증된 후손 합계는 **218,279,614 토큰**입니다. Forest 116,709,354, MountainStation 101,570,260이며 감독 사용량은 이 합계에서 제외했습니다. 8개 부모의 관측 모델은 모두 `gpt-6-astra`, 추론 강도는 각 지정 medium/high/xhigh/ultra와 일치합니다. 이 범위의 후손은 자동 승인 검토 대화이며 위임 제작 에이전트는 관측되지 않았습니다. 최초 커밋 이전 부모+후손 스냅샷과 비교 경계 누적값을 위 표에 각각 보존했습니다. 출력 안의 추론 토큰과 입력 안의 캐시 토큰을 다시 더하지 않았습니다.
+
+Forest에서는 ultra의 관측 누적이 25,073,209로 네 작업 중 가장 적고 medium이 34,483,885로 가장 많습니다. MountainStation은 high 18,600,685, xhigh 19,933,183, medium 30,366,924, ultra 32,669,468 순입니다. 토큰 수는 메시지·도구 결과의 반복 문맥, 재검증, 감독 보완 요청도 포함하므로 추론 강도 자체의 가격이나 효율 순위가 아닙니다. 최초 결과와 후속 보강의 총량을 나누어 봐야 하며, 서로 다른 토큰 경계 시각과 실제 관측 기록 시각도 함께 확인해야 합니다.
+
+Forest와 MountainStation은 시작 시각이 다르고 같은 머신의 UE 대기열·우선권·부하를 공유했습니다. 기차역 medium의 추가 UVRevision과 각 작업의 서로 다른 수정 범위도 wall time에 영향을 줍니다. 렌더에서 확인한 구성·비례·재질·동선의 강점과 한계는 각 테마 비교표의 근거에 한정합니다. 단 한 번의 사례로 추론 강도만의 인과 효과, 임의 성능 수치·점수 또는 청구 금액을 만들지 않습니다.
+
+보고서 내용 확정: 2026-10-21 16:25:25.6907983 UTC / 2026-10-22 01:25:25.6907983 KST(+09:00). 이후 SHA256과 Git 기준을 별도 동결 기록에 저장합니다.

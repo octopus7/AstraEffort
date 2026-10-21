@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "captured_at_utc": "2026-10-21T15:55:29.5537347+00:00",
-  "as_of_utc": "2026-10-21T15:55:29.5537347+00:00",
+  "captured_at_utc": "2026-10-21T16:22:02.0205888+00:00",
+  "as_of_utc": "2026-10-21T16:22:02.0205888+00:00",
   "provisional": true,
   "comparison_cutoffs_ignored": false,
   "method": "Latest cumulative token_count per unique thread, with identified descendants assigned to one nearest configured root. No cumulative snapshot summing. Parent fields retain their original parent-only meaning.",
   "scope": "Configured creation chats and supervisor, plus locally identified delegated subagents and automatic guardian approval-review descendants. Metadata discovery cannot prove absence of unavailable rollouts. External CLI/model calls and image-generation usage are not included in these local counters. No conversation or reasoning text is exported.",
   "discovery_issues": [],
   "discovery_header_summary": {
-    "unresolved_in_scope_or_unknown": 0,
-    "earliest_configured_root_utc": "2026-10-21T11:57:12.5160000+00:00",
+    "historical_rule": "Legacy header timestamps before all configured roots, or unknown filename dates at least two calendar days earlier; known root filenames are never skipped as historical.",
     "historical_outside_family_window": 34,
-    "historical_rule": "Legacy header timestamps before all configured roots, or unknown filename dates at least two calendar days earlier; known root filenames are never skipped as historical."
+    "earliest_configured_root_utc": "2026-10-21T11:57:12.5160000+00:00",
+    "unresolved_in_scope_or_unknown": 0
   },
   "rows": [
     {
@@ -39,12 +39,12 @@
       "total_tokens": 32194492,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 248,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 250,
       "duplicate_snapshots_removed": 0,
@@ -83,12 +83,12 @@
           "total_tokens": 1915266,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 27,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 28,
           "duplicate_snapshots_removed": 0,
@@ -123,12 +123,12 @@
           "total_tokens": 374127,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 7,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 8,
           "duplicate_snapshots_removed": 0,
@@ -212,90 +212,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9901485+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 1912252,
-            "cached_input_tokens": 1419648,
-            "uncached_input_tokens": 492604,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 3014,
-            "reasoning_output_tokens": 1234,
-            "total_tokens": 1915266
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 1912252,
-          "cached_input_tokens": 1419648,
-          "uncached_input_tokens": 492604,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 3014,
-          "reasoning_output_tokens": 1234,
-          "total_tokens": 1915266,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:38:32.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 26990169,
-            "cached_input_tokens": 26067200,
-            "uncached_input_tokens": 922969,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 70025,
-            "reasoning_output_tokens": 21764,
-            "total_tokens": 27060194
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 26990169,
-          "cached_input_tokens": 26067200,
-          "uncached_input_tokens": 922969,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 70025,
-          "reasoning_output_tokens": 21764,
-          "total_tokens": 27060194,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:41.253Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "medium"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
-          "as_of_utc": "2026-10-21T13:38:32.0000000+00:00",
-          "input_tokens": 25077917,
-          "cached_input_tokens": 24647552,
-          "uncached_input_tokens": 430365,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 67011,
-          "reasoning_output_tokens": 20530,
-          "total_tokens": 25144928,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 174,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 175,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e62-7a6b-7222-9e90-9059fbf232ca",
@@ -322,12 +238,12 @@
             "total_tokens": 1915266,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 27,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 28,
             "duplicate_snapshots_removed": 0,
@@ -337,7 +253,91 @@
               "rollout-2026-10-21T21-14-34-01a15e62-7a6b-7222-9e90-9059fbf232ca.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:38:32.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 26990169,
+            "cached_input_tokens": 26067200,
+            "uncached_input_tokens": 922969,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 70025,
+            "reasoning_output_tokens": 21764,
+            "total_tokens": 27060194
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 26990169,
+          "cached_input_tokens": 26067200,
+          "uncached_input_tokens": 922969,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 70025,
+          "reasoning_output_tokens": 21764,
+          "total_tokens": 27060194,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-d4b8-7e53-b162-d84c019c5478",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:41.253Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:33:01.309Z",
+          "as_of_utc": "2026-10-21T13:38:32.0000000+00:00",
+          "input_tokens": 25077917,
+          "cached_input_tokens": 24647552,
+          "uncached_input_tokens": 430365,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 67011,
+          "reasoning_output_tokens": 20530,
+          "total_tokens": 25144928,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 174,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 175,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-41-01a15e5f-d4b8-7e53-b162-d84c019c5478.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1912252,
+            "cached_input_tokens": 1419648,
+            "uncached_input_tokens": 492604,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3014,
+            "reasoning_output_tokens": 1234,
+            "total_tokens": 1915266
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1912252,
+          "cached_input_tokens": 1419648,
+          "uncached_input_tokens": 492604,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3014,
+          "reasoning_output_tokens": 1234,
+          "total_tokens": 1915266,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -365,12 +365,12 @@
       "total_tokens": 27367465,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 218,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 220,
       "duplicate_snapshots_removed": 0,
@@ -409,12 +409,12 @@
           "total_tokens": 1162594,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 18,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 19,
           "duplicate_snapshots_removed": 0,
@@ -449,12 +449,12 @@
           "total_tokens": 194363,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 4,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 5,
           "duplicate_snapshots_removed": 0,
@@ -538,90 +538,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:10:33.5549951+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 820250,
-            "cached_input_tokens": 728960,
-            "uncached_input_tokens": 91290,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1696,
-            "reasoning_output_tokens": 686,
-            "total_tokens": 821946
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 820250,
-          "cached_input_tokens": 728960,
-          "uncached_input_tokens": 91290,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1696,
-          "reasoning_output_tokens": 686,
-          "total_tokens": 821946,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:09:52.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 17917333,
-            "cached_input_tokens": 17630592,
-            "uncached_input_tokens": 286741,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 66442,
-            "reasoning_output_tokens": 24172,
-            "total_tokens": 17983775
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 17917333,
-          "cached_input_tokens": 17630592,
-          "uncached_input_tokens": 286741,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 66442,
-          "reasoning_output_tokens": 24172,
-          "total_tokens": 17983775,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:45.339Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "high"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
-          "as_of_utc": "2026-10-21T13:09:52.0000000+00:00",
-          "input_tokens": 17097083,
-          "cached_input_tokens": 16901632,
-          "uncached_input_tokens": 195451,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 64746,
-          "reasoning_output_tokens": 23486,
-          "total_tokens": 17161829,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 130,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 131,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e64-833c-74d0-b7ef-a7c4da544f47",
@@ -648,12 +564,12 @@
             "total_tokens": 821946,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 15,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 16,
             "duplicate_snapshots_removed": 0,
@@ -663,7 +579,91 @@
               "rollout-2026-10-21T21-16-48-01a15e64-833c-74d0-b7ef-a7c4da544f47.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:09:52.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 17917333,
+            "cached_input_tokens": 17630592,
+            "uncached_input_tokens": 286741,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 66442,
+            "reasoning_output_tokens": 24172,
+            "total_tokens": 17983775
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 17917333,
+          "cached_input_tokens": 17630592,
+          "uncached_input_tokens": 286741,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 66442,
+          "reasoning_output_tokens": 24172,
+          "total_tokens": 17983775,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:45.339Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:02:34.511Z",
+          "as_of_utc": "2026-10-21T13:09:52.0000000+00:00",
+          "input_tokens": 17097083,
+          "cached_input_tokens": 16901632,
+          "uncached_input_tokens": 195451,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 64746,
+          "reasoning_output_tokens": 23486,
+          "total_tokens": 17161829,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 130,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 131,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-45-01a15e5f-e4c8-7bc1-b8da-c01f6d6d175c.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 820250,
+            "cached_input_tokens": 728960,
+            "uncached_input_tokens": 91290,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1696,
+            "reasoning_output_tokens": 686,
+            "total_tokens": 821946
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 820250,
+          "cached_input_tokens": 728960,
+          "uncached_input_tokens": 91290,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1696,
+          "reasoning_output_tokens": 686,
+          "total_tokens": 821946,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -691,12 +691,12 @@
       "total_tokens": 26897361,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 189,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 192,
       "duplicate_snapshots_removed": 0,
@@ -735,12 +735,12 @@
           "total_tokens": 1305756,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 19,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 20,
           "duplicate_snapshots_removed": 0,
@@ -775,12 +775,12 @@
           "total_tokens": 224721,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 4,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 5,
           "duplicate_snapshots_removed": 0,
@@ -864,90 +864,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9947859+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 1303626,
-            "cached_input_tokens": 823040,
-            "uncached_input_tokens": 480586,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 2130,
-            "reasoning_output_tokens": 797,
-            "total_tokens": 1305756
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 1303626,
-          "cached_input_tokens": 823040,
-          "uncached_input_tokens": 480586,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 2130,
-          "reasoning_output_tokens": 797,
-          "total_tokens": 1305756,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:38:13.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 19510181,
-            "cached_input_tokens": 18788096,
-            "uncached_input_tokens": 722085,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 100978,
-            "reasoning_output_tokens": 41322,
-            "total_tokens": 19611159
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 19510181,
-          "cached_input_tokens": 18788096,
-          "uncached_input_tokens": 722085,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 100978,
-          "reasoning_output_tokens": 41322,
-          "total_tokens": 19611159,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:48.558Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "xhigh"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
-          "as_of_utc": "2026-10-21T13:38:13.0000000+00:00",
-          "input_tokens": 18206555,
-          "cached_input_tokens": 17965056,
-          "uncached_input_tokens": 241499,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 98848,
-          "reasoning_output_tokens": 40525,
-          "total_tokens": 18305403,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 128,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 130,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e64-2d4c-7e23-9466-529457503bcb",
@@ -974,12 +890,12 @@
             "total_tokens": 1305756,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 19,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 20,
             "duplicate_snapshots_removed": 0,
@@ -989,7 +905,91 @@
               "rollout-2026-10-21T21-16-26-01a15e64-2d4c-7e23-9466-529457503bcb.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:38:13.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 19510181,
+            "cached_input_tokens": 18788096,
+            "uncached_input_tokens": 722085,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 100978,
+            "reasoning_output_tokens": 41322,
+            "total_tokens": 19611159
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 19510181,
+          "cached_input_tokens": 18788096,
+          "uncached_input_tokens": 722085,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100978,
+          "reasoning_output_tokens": 41322,
+          "total_tokens": 19611159,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-f174-72d3-bc4b-f9f812ebf7db",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:48.558Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:24:11.048Z",
+          "as_of_utc": "2026-10-21T13:38:13.0000000+00:00",
+          "input_tokens": 18206555,
+          "cached_input_tokens": 17965056,
+          "uncached_input_tokens": 241499,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 98848,
+          "reasoning_output_tokens": 40525,
+          "total_tokens": 18305403,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 128,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 130,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-48-01a15e5f-f174-72d3-bc4b-f9f812ebf7db.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1303626,
+            "cached_input_tokens": 823040,
+            "uncached_input_tokens": 480586,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2130,
+            "reasoning_output_tokens": 797,
+            "total_tokens": 1305756
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1303626,
+          "cached_input_tokens": 823040,
+          "uncached_input_tokens": 480586,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2130,
+          "reasoning_output_tokens": 797,
+          "total_tokens": 1305756,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1017,12 +1017,12 @@
       "total_tokens": 23634637,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 176,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 178,
       "duplicate_snapshots_removed": 0,
@@ -1061,12 +1061,12 @@
           "total_tokens": 894173,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 14,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 15,
           "duplicate_snapshots_removed": 0,
@@ -1101,12 +1101,12 @@
           "total_tokens": 544399,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 8,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 9,
           "duplicate_snapshots_removed": 0,
@@ -1190,90 +1190,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:12:54.7320007+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 892388,
-            "cached_input_tokens": 781568,
-            "uncached_input_tokens": 110820,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1785,
-            "reasoning_output_tokens": 809,
-            "total_tokens": 894173
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 892388,
-          "cached_input_tokens": 781568,
-          "uncached_input_tokens": 110820,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1785,
-          "reasoning_output_tokens": 809,
-          "total_tokens": 894173,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:10:53.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 14186166,
-            "cached_input_tokens": 13851648,
-            "uncached_input_tokens": 334518,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 85103,
-            "reasoning_output_tokens": 34937,
-            "total_tokens": 14271269
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 14186166,
-          "cached_input_tokens": 13851648,
-          "uncached_input_tokens": 334518,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 85103,
-          "reasoning_output_tokens": 34937,
-          "total_tokens": 14271269,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:11:52.020Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "ultra"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
-          "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
-          "input_tokens": 13293778,
-          "cached_input_tokens": 13070080,
-          "uncached_input_tokens": 223698,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 83318,
-          "reasoning_output_tokens": 34128,
-          "total_tokens": 13377096,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 94,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 95,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e65-30e8-75b0-a740-783f8b4e90b0",
@@ -1300,12 +1216,12 @@
             "total_tokens": 894173,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 14,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 15,
             "duplicate_snapshots_removed": 0,
@@ -1315,7 +1231,91 @@
               "rollout-2026-10-21T21-17-32-01a15e65-30e8-75b0-a740-783f8b4e90b0.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:10:53.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 14186166,
+            "cached_input_tokens": 13851648,
+            "uncached_input_tokens": 334518,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 85103,
+            "reasoning_output_tokens": 34937,
+            "total_tokens": 14271269
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 14186166,
+          "cached_input_tokens": 13851648,
+          "uncached_input_tokens": 334518,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 85103,
+          "reasoning_output_tokens": 34937,
+          "total_tokens": 14271269,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e5f-fef9-7323-8733-3c0553c29d7e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:11:52.020Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:03:20.227Z",
+          "as_of_utc": "2026-10-21T13:10:53.0000000+00:00",
+          "input_tokens": 13293778,
+          "cached_input_tokens": 13070080,
+          "uncached_input_tokens": 223698,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 83318,
+          "reasoning_output_tokens": 34128,
+          "total_tokens": 13377096,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 94,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 95,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-11-52-01a15e5f-fef9-7323-8733-3c0553c29d7e.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 892388,
+            "cached_input_tokens": 781568,
+            "uncached_input_tokens": 110820,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1785,
+            "reasoning_output_tokens": 809,
+            "total_tokens": 894173
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 892388,
+          "cached_input_tokens": 781568,
+          "uncached_input_tokens": 110820,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1785,
+          "reasoning_output_tokens": 809,
+          "total_tokens": 894173,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1343,12 +1343,12 @@
       "total_tokens": 28823028,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 233,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 238,
       "duplicate_snapshots_removed": 0,
@@ -1387,12 +1387,12 @@
           "total_tokens": 548054,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 8,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 9,
           "duplicate_snapshots_removed": 0,
@@ -1427,12 +1427,12 @@
           "total_tokens": 995842,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 15,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 16,
           "duplicate_snapshots_removed": 0,
@@ -1516,90 +1516,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:39:36.9953251+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 444128,
-            "cached_input_tokens": 49152,
-            "uncached_input_tokens": 394976,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1047,
-            "reasoning_output_tokens": 511,
-            "total_tokens": 445175
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 444128,
-          "cached_input_tokens": 49152,
-          "uncached_input_tokens": 394976,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1047,
-          "reasoning_output_tokens": 511,
-          "total_tokens": 445175,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 17003400,
-            "cached_input_tokens": 16211456,
-            "uncached_input_tokens": 791944,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 61095,
-            "reasoning_output_tokens": 17591,
-            "total_tokens": 17064495
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 17003400,
-          "cached_input_tokens": 16211456,
-          "uncached_input_tokens": 791944,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 61095,
-          "reasoning_output_tokens": 17591,
-          "total_tokens": 17064495,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "medium"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
-          "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
-          "input_tokens": 16559272,
-          "cached_input_tokens": 16162304,
-          "uncached_input_tokens": 396968,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 60048,
-          "reasoning_output_tokens": 17080,
-          "total_tokens": 16619320,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 130,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 132,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e73-94ef-7410-bbc4-33095be67fb7",
@@ -1626,12 +1542,12 @@
             "total_tokens": 445175,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 7,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 8,
             "duplicate_snapshots_removed": 0,
@@ -1641,7 +1557,91 @@
               "rollout-2026-10-21T21-33-15-01a15e73-94ef-7410-bbc4-33095be67fb7.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:38:35.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 17003400,
+            "cached_input_tokens": 16211456,
+            "uncached_input_tokens": 791944,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61095,
+            "reasoning_output_tokens": 17591,
+            "total_tokens": 17064495
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 17003400,
+          "cached_input_tokens": 16211456,
+          "uncached_input_tokens": 791944,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61095,
+          "reasoning_output_tokens": 17591,
+          "total_tokens": 17064495,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6d-dfb3-7341-acd9-f1785bab245e",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:01.545Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "medium"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:29:27.363Z",
+          "as_of_utc": "2026-10-21T13:38:35.0000000+00:00",
+          "input_tokens": 16559272,
+          "cached_input_tokens": 16162304,
+          "uncached_input_tokens": 396968,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 60048,
+          "reasoning_output_tokens": 17080,
+          "total_tokens": 16619320,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 130,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 132,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-01-01a15e6d-dfb3-7341-acd9-f1785bab245e.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 444128,
+            "cached_input_tokens": 49152,
+            "uncached_input_tokens": 394976,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1047,
+            "reasoning_output_tokens": 511,
+            "total_tokens": 445175
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 444128,
+          "cached_input_tokens": 49152,
+          "uncached_input_tokens": 394976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1047,
+          "reasoning_output_tokens": 511,
+          "total_tokens": 445175,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1669,12 +1669,12 @@
       "total_tokens": 17851828,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 142,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 144,
       "duplicate_snapshots_removed": 0,
@@ -1713,12 +1713,12 @@
           "total_tokens": 664885,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 9,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 10,
           "duplicate_snapshots_removed": 0,
@@ -1753,12 +1753,12 @@
           "total_tokens": 83972,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 2,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 3,
           "duplicate_snapshots_removed": 0,
@@ -1842,90 +1842,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:17:48.4853579+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 293129,
-            "cached_input_tokens": 187136,
-            "uncached_input_tokens": 105993,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 737,
-            "reasoning_output_tokens": 365,
-            "total_tokens": 293866
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 293129,
-          "cached_input_tokens": 187136,
-          "uncached_input_tokens": 105993,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 737,
-          "reasoning_output_tokens": 365,
-          "total_tokens": 293866,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 10963485,
-            "cached_input_tokens": 10681472,
-            "uncached_input_tokens": 282013,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 61760,
-            "reasoning_output_tokens": 19196,
-            "total_tokens": 11025245
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 10963485,
-          "cached_input_tokens": 10681472,
-          "uncached_input_tokens": 282013,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 61760,
-          "reasoning_output_tokens": 19196,
-          "total_tokens": 11025245,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "high"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
-          "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
-          "input_tokens": 10670356,
-          "cached_input_tokens": 10494336,
-          "uncached_input_tokens": 176020,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 61023,
-          "reasoning_output_tokens": 18831,
-          "total_tokens": 10731379,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 95,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 96,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e78-c278-7033-b2e6-f6edc6718c84",
@@ -1952,12 +1868,12 @@
             "total_tokens": 293866,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 5,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 6,
             "duplicate_snapshots_removed": 0,
@@ -1967,7 +1883,91 @@
               "rollout-2026-10-21T21-38-54-01a15e78-c278-7033-b2e6-f6edc6718c84.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:17:47.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 10963485,
+            "cached_input_tokens": 10681472,
+            "uncached_input_tokens": 282013,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 61760,
+            "reasoning_output_tokens": 19196,
+            "total_tokens": 11025245
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 10963485,
+          "cached_input_tokens": 10681472,
+          "uncached_input_tokens": 282013,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61760,
+          "reasoning_output_tokens": 19196,
+          "total_tokens": 11025245,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6d-f1ff-76c1-941c-93b1378d7351",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:06.254Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "high"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:10:08.098Z",
+          "as_of_utc": "2026-10-21T13:17:47.0000000+00:00",
+          "input_tokens": 10670356,
+          "cached_input_tokens": 10494336,
+          "uncached_input_tokens": 176020,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61023,
+          "reasoning_output_tokens": 18831,
+          "total_tokens": 10731379,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 95,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 96,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-06-01a15e6d-f1ff-76c1-941c-93b1378d7351.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 293129,
+            "cached_input_tokens": 187136,
+            "uncached_input_tokens": 105993,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 737,
+            "reasoning_output_tokens": 365,
+            "total_tokens": 293866
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 293129,
+          "cached_input_tokens": 187136,
+          "uncached_input_tokens": 105993,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 737,
+          "reasoning_output_tokens": 365,
+          "total_tokens": 293866,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -1995,12 +1995,12 @@
       "total_tokens": 18733989,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 139,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 141,
       "duplicate_snapshots_removed": 0,
@@ -2039,12 +2039,12 @@
           "total_tokens": 1003211,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 16,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 17,
           "duplicate_snapshots_removed": 0,
@@ -2079,12 +2079,12 @@
           "total_tokens": 195983,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 4,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 5,
           "duplicate_snapshots_removed": 0,
@@ -2168,90 +2168,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T13:47:24.0296557+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 1,
-          "known_subtotal": {
-            "input_tokens": 1001257,
-            "cached_input_tokens": 906880,
-            "uncached_input_tokens": 94377,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 1954,
-            "reasoning_output_tokens": 958,
-            "total_tokens": 1003211
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 1001257,
-          "cached_input_tokens": 906880,
-          "uncached_input_tokens": 94377,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 1954,
-          "reasoning_output_tokens": 958,
-          "total_tokens": 1003211,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T13:46:25.0000000+00:00",
-        "combined_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 14797455,
-            "cached_input_tokens": 14423936,
-            "uncached_input_tokens": 373519,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 90614,
-            "reasoning_output_tokens": 35365,
-            "total_tokens": 14888069
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 14797455,
-          "cached_input_tokens": 14423936,
-          "uncached_input_tokens": 373519,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 90614,
-          "reasoning_output_tokens": 35365,
-          "total_tokens": 14888069,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:11.645Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "xhigh"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
-          "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
-          "input_tokens": 13796198,
-          "cached_input_tokens": 13517056,
-          "uncached_input_tokens": 279142,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 88660,
-          "reasoning_output_tokens": 34407,
-          "total_tokens": 13884858,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 105,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 107,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2",
@@ -2278,12 +2194,12 @@
             "total_tokens": 1003211,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 16,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 17,
             "duplicate_snapshots_removed": 0,
@@ -2293,7 +2209,91 @@
               "rollout-2026-10-21T21-34-55-01a15e75-1a5a-7a81-8ed9-1b61a9b8a7f2.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T13:46:25.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 14797455,
+            "cached_input_tokens": 14423936,
+            "uncached_input_tokens": 373519,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 90614,
+            "reasoning_output_tokens": 35365,
+            "total_tokens": 14888069
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 14797455,
+          "cached_input_tokens": 14423936,
+          "uncached_input_tokens": 373519,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 90614,
+          "reasoning_output_tokens": 35365,
+          "total_tokens": 14888069,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6e-0712-76f0-9586-f65cc202196c",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:11.645Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "xhigh"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T13:42:29.568Z",
+          "as_of_utc": "2026-10-21T13:46:25.0000000+00:00",
+          "input_tokens": 13796198,
+          "cached_input_tokens": 13517056,
+          "uncached_input_tokens": 279142,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 88660,
+          "reasoning_output_tokens": 34407,
+          "total_tokens": 13884858,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 105,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 107,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-11-01a15e6e-0712-76f0-9586-f65cc202196c.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 1,
+          "known_subtotal": {
+            "input_tokens": 1001257,
+            "cached_input_tokens": 906880,
+            "uncached_input_tokens": 94377,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1954,
+            "reasoning_output_tokens": 958,
+            "total_tokens": 1003211
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 1001257,
+          "cached_input_tokens": 906880,
+          "uncached_input_tokens": 94377,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1954,
+          "reasoning_output_tokens": 958,
+          "total_tokens": 1003211,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -2321,12 +2321,12 @@
       "total_tokens": 31201862,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 235,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 240,
       "duplicate_snapshots_removed": 0,
@@ -2365,12 +2365,12 @@
           "total_tokens": 532935,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 9,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 10,
           "duplicate_snapshots_removed": 0,
@@ -2405,12 +2405,12 @@
           "total_tokens": 782253,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 11,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 12,
           "duplicate_snapshots_removed": 0,
@@ -2445,12 +2445,12 @@
           "total_tokens": 152418,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 3,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 4,
           "duplicate_snapshots_removed": 0,
@@ -2682,90 +2682,6 @@
       },
       "frozen_parent_captured_at_utc": "2026-10-21T14:45:15.4825369+00:00",
       "as_of_first_commit": {
-        "descendant_usage": {
-          "member_count": 2,
-          "known_subtotal": {
-            "input_tokens": 934960,
-            "cached_input_tokens": 776064,
-            "uncached_input_tokens": 158896,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 2231,
-            "reasoning_output_tokens": 1019,
-            "total_tokens": 937191
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 934960,
-          "cached_input_tokens": 776064,
-          "uncached_input_tokens": 158896,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 2231,
-          "reasoning_output_tokens": 1019,
-          "total_tokens": 937191,
-          "total_tokens_complete": true
-        },
-        "cutoff_utc": "2026-10-21T14:43:03.0000000+00:00",
-        "combined_usage": {
-          "member_count": 3,
-          "known_subtotal": {
-            "input_tokens": 23868813,
-            "cached_input_tokens": 23328768,
-            "uncached_input_tokens": 540045,
-            "cache_write_input_tokens": 0,
-            "output_tokens": 156223,
-            "reasoning_output_tokens": 73162,
-            "total_tokens": 24025036
-          },
-          "unknown_thread_ids": [],
-          "input_tokens": 23868813,
-          "cached_input_tokens": 23328768,
-          "uncached_input_tokens": 540045,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 156223,
-          "reasoning_output_tokens": 73162,
-          "total_tokens": 24025036,
-          "total_tokens_complete": true
-        },
-        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
-        "parent_usage": {
-          "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
-          "parent_thread_id": null,
-          "thread_source": "agent_created_thread",
-          "accounting_category": "configured_parent",
-          "agent_path": null,
-          "forked_from_id": null,
-          "session_created_at_utc": "2026-10-21T12:27:16.230Z",
-          "observed_models": [
-            "gpt-6-astra"
-          ],
-          "observed_efforts": [
-            "ultra"
-          ],
-          "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
-          "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
-          "input_tokens": 22933853,
-          "cached_input_tokens": 22552704,
-          "uncached_input_tokens": 381149,
-          "cache_write_input_tokens": 0,
-          "output_tokens": 153992,
-          "reasoning_output_tokens": 72143,
-          "total_tokens": 23087845,
-          "accounting_eligible": true,
-          "child_local_evidence": {
-            "delta_mismatches": 0,
-            "changed_events": 176,
-            "counter_decreases": 0,
-            "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
-          },
-          "token_events_observed": 180,
-          "duplicate_snapshots_removed": 0,
-          "incomplete_metadata_lines": 0,
-          "issues": [],
-          "source_files": [
-            "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
-          ]
-        },
         "descendants": [
           {
             "thread_id": "01a15e77-5901-7450-9773-116405f2d33c",
@@ -2792,12 +2708,12 @@
             "total_tokens": 532935,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 9,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 10,
             "duplicate_snapshots_removed": 0,
@@ -2832,12 +2748,12 @@
             "total_tokens": 404256,
             "accounting_eligible": true,
             "child_local_evidence": {
+              "first_total_equals_first_last_usage": true,
               "delta_mismatches": 0,
               "changed_events": 7,
-              "counter_decreases": 0,
               "verified": true,
-              "predating_events": 0,
-              "first_total_equals_first_last_usage": true
+              "counter_decreases": 0,
+              "predating_events": 0
             },
             "token_events_observed": 8,
             "duplicate_snapshots_removed": 0,
@@ -2847,7 +2763,91 @@
               "rollout-2026-10-21T22-42-46-01a15eb3-3743-7693-b560-c3c3534b0290.jsonl"
             ]
           }
-        ]
+        ],
+        "cutoff_utc": "2026-10-21T14:43:03.0000000+00:00",
+        "method": "Latest recorded snapshot at or before first commit; not an exact transaction-time measurement.",
+        "combined_usage": {
+          "member_count": 3,
+          "known_subtotal": {
+            "input_tokens": 23868813,
+            "cached_input_tokens": 23328768,
+            "uncached_input_tokens": 540045,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 156223,
+            "reasoning_output_tokens": 73162,
+            "total_tokens": 24025036
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 23868813,
+          "cached_input_tokens": 23328768,
+          "uncached_input_tokens": 540045,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 156223,
+          "reasoning_output_tokens": 73162,
+          "total_tokens": 24025036,
+          "total_tokens_complete": true
+        },
+        "parent_usage": {
+          "thread_id": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+          "parent_thread_id": null,
+          "thread_source": "agent_created_thread",
+          "accounting_category": "configured_parent",
+          "agent_path": null,
+          "forked_from_id": null,
+          "session_created_at_utc": "2026-10-21T12:27:16.230Z",
+          "observed_models": [
+            "gpt-6-astra"
+          ],
+          "observed_efforts": [
+            "ultra"
+          ],
+          "usage_recorded_at_utc": "2026-10-21T14:38:26.619Z",
+          "as_of_utc": "2026-10-21T14:43:03.0000000+00:00",
+          "input_tokens": 22933853,
+          "cached_input_tokens": 22552704,
+          "uncached_input_tokens": 381149,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 153992,
+          "reasoning_output_tokens": 72143,
+          "total_tokens": 23087845,
+          "accounting_eligible": true,
+          "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
+            "delta_mismatches": 0,
+            "changed_events": 176,
+            "verified": true,
+            "counter_decreases": 0,
+            "predating_events": 0
+          },
+          "token_events_observed": 180,
+          "duplicate_snapshots_removed": 0,
+          "incomplete_metadata_lines": 0,
+          "issues": [],
+          "source_files": [
+            "rollout-2026-10-21T21-27-16-01a15e6e-1907-7ff1-b13c-5a4a31875490.jsonl"
+          ]
+        },
+        "descendant_usage": {
+          "member_count": 2,
+          "known_subtotal": {
+            "input_tokens": 934960,
+            "cached_input_tokens": 776064,
+            "uncached_input_tokens": 158896,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2231,
+            "reasoning_output_tokens": 1019,
+            "total_tokens": 937191
+          },
+          "unknown_thread_ids": [],
+          "input_tokens": 934960,
+          "cached_input_tokens": 776064,
+          "uncached_input_tokens": 158896,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2231,
+          "reasoning_output_tokens": 1019,
+          "total_tokens": 937191,
+          "total_tokens_complete": true
+        }
       }
     },
     {
@@ -2876,12 +2876,12 @@
       "total_tokens": 51794424,
       "accounting_eligible": true,
       "child_local_evidence": {
+        "first_total_equals_first_last_usage": true,
         "delta_mismatches": 0,
         "changed_events": 379,
-        "counter_decreases": 0,
         "verified": true,
-        "predating_events": 0,
-        "first_total_equals_first_last_usage": true
+        "counter_decreases": 0,
+        "predating_events": 0
       },
       "token_events_observed": 418,
       "duplicate_snapshots_removed": 0,
@@ -2920,12 +2920,12 @@
           "total_tokens": 3100356,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 41,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 42,
           "duplicate_snapshots_removed": 0,
@@ -2960,12 +2960,12 @@
           "total_tokens": 12230727,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 106,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 110,
           "duplicate_snapshots_removed": 0,
@@ -3001,12 +3001,12 @@
           "total_tokens": 14560635,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 110,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 118,
           "duplicate_snapshots_removed": 0,
@@ -3042,12 +3042,12 @@
           "total_tokens": 4944347,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 43,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 46,
           "duplicate_snapshots_removed": 0,
@@ -3082,12 +3082,12 @@
           "total_tokens": 58759,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 1,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 2,
           "duplicate_snapshots_removed": 0,
@@ -3122,12 +3122,12 @@
           "total_tokens": 792298,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 15,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 16,
           "duplicate_snapshots_removed": 0,
@@ -3162,12 +3162,12 @@
           "total_tokens": 1088142,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 16,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 17,
           "duplicate_snapshots_removed": 0,
@@ -3202,12 +3202,12 @@
           "total_tokens": 192901,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 3,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 4,
           "duplicate_snapshots_removed": 0,
@@ -3242,12 +3242,12 @@
           "total_tokens": 1173794,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 17,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 18,
           "duplicate_snapshots_removed": 0,
@@ -3282,12 +3282,12 @@
           "total_tokens": 31351,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 0,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 1,
           "duplicate_snapshots_removed": 0,
@@ -3322,12 +3322,12 @@
           "total_tokens": 470121,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 6,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 7,
           "duplicate_snapshots_removed": 0,
@@ -3362,12 +3362,12 @@
           "total_tokens": 5236346,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 36,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 38,
           "duplicate_snapshots_removed": 0,
@@ -3398,12 +3398,12 @@
           "total_tokens": null,
           "accounting_eligible": false,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": false,
             "delta_mismatches": 0,
             "changed_events": 0,
-            "counter_decreases": 0,
             "verified": false,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": false
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 0,
           "duplicate_snapshots_removed": 0,
@@ -3448,12 +3448,12 @@
           "total_tokens": 920332,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 10,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 11,
           "duplicate_snapshots_removed": 0,
@@ -3488,12 +3488,12 @@
           "total_tokens": 1182933,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 12,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 13,
           "duplicate_snapshots_removed": 0,
@@ -3528,12 +3528,12 @@
           "total_tokens": 40329,
           "accounting_eligible": true,
           "child_local_evidence": {
+            "first_total_equals_first_last_usage": true,
             "delta_mismatches": 0,
             "changed_events": 0,
-            "counter_decreases": 0,
             "verified": true,
-            "predating_events": 0,
-            "first_total_equals_first_last_usage": true
+            "counter_decreases": 0,
+            "predating_events": 0
           },
           "token_events_observed": 1,
           "duplicate_snapshots_removed": 0,
