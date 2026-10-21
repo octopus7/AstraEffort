@@ -1,0 +1,92 @@
+{
+  "reviewed_at_utc": "2026-10-21T16:03:23.645764+00:00",
+  "review_type": "Inline source review and exact normalized source comparison; no independent reviewer used.",
+  "source_comparisons": [
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\TunaSweeper\\Public\\Environment\\TunaSweeperAnimeTreeActor.h",
+      "port": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Public\\ForestUltraAnimeTreeActor.h",
+      "only_declared_mechanical_changes": true
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\TunaSweeper\\Private\\Environment\\TunaSweeperAnimeTreeActor.cpp",
+      "port": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraAnimeTreeActor.cpp",
+      "only_declared_mechanical_changes": true
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Public\\CanopyRimSubsystem.h",
+      "port": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Public\\ForestUltraCanopyRimSubsystem.h",
+      "only_declared_mechanical_changes": true
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Private\\CanopyRimSubsystem.cpp",
+      "port": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraCanopyRimSubsystem.cpp",
+      "only_declared_mechanical_changes": true
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Private\\CanopyRimViewExtension.h",
+      "port": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraCanopyRimViewExtension.h",
+      "only_declared_mechanical_changes": true
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Private\\CanopyRimViewExtension.cpp",
+      "port": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraCanopyRimViewExtension.cpp",
+      "only_declared_mechanical_changes": true
+    }
+  ],
+  "proposal_files": [
+    {
+      "path": "Plugins/ForestUltraTrees/ForestUltraTrees.uplugin",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Shaders/CanopyRim.usf",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/ForestUltraTrees.Build.cs",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Private/ForestUltraAnimeTreeActor.cpp",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Private/ForestUltraCanopyRimSubsystem.cpp",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Private/ForestUltraCanopyRimViewExtension.cpp",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Private/ForestUltraCanopyRimViewExtension.h",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Private/ForestUltraTreesModule.cpp",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Public/ForestUltraAnimeTreeActor.h",
+      "manifest_matches": true
+    },
+    {
+      "path": "Plugins/ForestUltraTrees/Source/ForestUltraTrees/Public/ForestUltraCanopyRimSubsystem.h",
+      "manifest_matches": true
+    }
+  ],
+  "review_notes": [
+    "Plugin loads at PostConfigInit, before global shader type initialization; native build and fresh editor load passed.",
+    "Shader path resolves through IPluginManager, independent of the source project directory.",
+    "Renderer styles are copied to render-thread-owned values; no UObject pointers are stored in render data.",
+    "FWorldSceneViewExtension restricts the renderer to its world; stencil ownership is weak and capped at IDs 16-255. The scene uses 63 unique IDs.",
+    "Leaf and hidden-shadow MIDs are per actor; refresh destroys old proxy components before rebuilding, verified by inspection.",
+    "Trunk collision uses complex-as-simple geometry; leaf/proxy collision disabled. Actual PIE collision validation remains separate.",
+    "Native gradient CPD getter is not reflected into Python. Rendered guide movement will supply behavioral evidence; no direct CPD read pass is claimed."
+  ],
+  "limitations": [
+    "Packaged-game build and non-D3D12 render backends are not tested.",
+    "The shared r.CustomDepth setting is supervisor-owned and requires integration before publication."
+  ],
+  "success": true
+}

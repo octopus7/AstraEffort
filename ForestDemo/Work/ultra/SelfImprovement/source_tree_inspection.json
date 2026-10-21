@@ -1,0 +1,2507 @@
+{
+  "started_at_utc": "2026-10-21T15:50:07.131562+00:00",
+  "checks": {
+    "native_parent_loaded": {
+      "passed": true,
+      "detail": null
+    },
+    "clumps_and_shadow_proxies": {
+      "passed": true,
+      "detail": {
+        "clumps": 10,
+        "shadows": 10
+      }
+    },
+    "rim_stencil_registration": {
+      "passed": true,
+      "detail": null
+    },
+    "stable_hidden_shadow_flags": {
+      "passed": true,
+      "detail": null
+    },
+    "parameter_clamping": {
+      "passed": true,
+      "detail": null
+    },
+    "mid_parameter_refresh": {
+      "passed": true,
+      "detail": null
+    },
+    "refresh_no_shadow_accumulation": {
+      "passed": true,
+      "detail": null
+    },
+    "source_asset_closure_complete": {
+      "passed": true,
+      "detail": []
+    }
+  },
+  "errors": [],
+  "source_bp_snapshot": {
+    "class": "/Game/Environment/AnimeTree/BP_AnimeFoliageTree.BP_AnimeFoliageTree_C",
+    "properties": {
+      "wind_strength": 0.75,
+      "leaf_card_scale": 0.800000011920929,
+      "leaf_density": 0.44999998807907104,
+      "gradient_width": 400.0,
+      "gradient_strength": 0.6499999761581421,
+      "gradient_exponent": 1.0,
+      "clump_shading_strength": 0.699999988079071,
+      "rim_strength": 0.699999988079071,
+      "rim_width_pixels": 28.0,
+      "rim_brightness": 1.5,
+      "gradient_dark_color": "<Struct 'LinearColor' (0x0000020225C946A4) {r: 0.320000, g: 0.530000, b: 0.480000, a: 1.000000}>",
+      "gradient_light_color": "<Struct 'LinearColor' (0x0000020225C946B4) {r: 1.000000, g: 1.000000, b: 0.830000, a: 1.000000}>",
+      "rim_color": "<Struct 'LinearColor' (0x0000020225C946CC) {r: 0.450000, g: 1.000000, b: 0.025000, a: 1.000000}>",
+      "leaf_material": "<Object '/Game/Environment/AnimeTree/M_AnimeTree_Leaves.M_AnimeTree_Leaves' (0x00000201BCF10E00) Class 'Material'>"
+    },
+    "components": [
+      {
+        "name": "Trunk",
+        "tags": [],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_Trunk.SM_AnimeTree_Trunk",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5000.0
+        ],
+        "materials": [
+          "<Object '/Game/Environment/AnimeTree/M_AnimeTree_Trunk.M_AnimeTree_Trunk' (0x00000201BCF1C400) Class 'Material'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 1.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "LeafClump_01",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -65.0,
+          -115.0,
+          270.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -65.0,
+          -115.0,
+          5270.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_02",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          80.0,
+          -25.0,
+          280.0
+        ],
+        "scale": [
+          1.05,
+          1.05,
+          1.05
+        ],
+        "world_location": [
+          80.0,
+          -25.0,
+          5280.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_03",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -40.0,
+          115.0,
+          278.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -40.0,
+          115.0,
+          5278.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_04",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -75.0,
+          -55.0,
+          350.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -75.0,
+          -55.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_05",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          30.0,
+          75.0,
+          350.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          30.0,
+          75.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_06",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide.SM_AnimeTree_ClumpWide",
+        "location": [
+          0.0,
+          0.0,
+          403.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5403.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_07",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          60.0,
+          -135.0,
+          340.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          60.0,
+          -135.0,
+          5340.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_08",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          -60.0,
+          135.0,
+          330.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -60.0,
+          135.0,
+          5330.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_09",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          115.0,
+          30.0,
+          345.0
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ],
+        "world_location": [
+          115.0,
+          30.0,
+          5345.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_10",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          -95.0,
+          10.0,
+          260.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -95.0,
+          10.0,
+          5260.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "StaticMeshComponent_10",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -65.0,
+          -115.0,
+          5270.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_11",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          80.0,
+          -25.0,
+          5280.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_12",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -40.0,
+          115.0,
+          5278.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_13",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -75.0,
+          -55.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_14",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          30.0,
+          75.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_15",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide.SM_AnimeTree_ClumpWide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5403.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_16",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          60.0,
+          -135.0,
+          5340.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_17",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -60.0,
+          135.0,
+          5330.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_18",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          115.0,
+          30.0,
+          5345.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_19",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -95.0,
+          10.0,
+          5260.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      }
+    ],
+    "actor_bounds": {
+      "center": [
+        23.913510654386528,
+        6.818220282272648,
+        5255.538503646851
+      ],
+      "extent": [
+        308.0047098381011,
+        354.3106582358903,
+        292.40940284729004
+      ]
+    }
+  },
+  "clamp_snapshot": {
+    "class": "/Game/Environment/AnimeTree/BP_AnimeFoliageTree.BP_AnimeFoliageTree_C",
+    "properties": {
+      "wind_strength": 1.5,
+      "leaf_card_scale": 0.20000000298023224,
+      "leaf_density": 1.0,
+      "gradient_width": 400.0,
+      "gradient_strength": 0.6499999761581421,
+      "gradient_exponent": 1.0,
+      "clump_shading_strength": 0.699999988079071,
+      "rim_strength": 0.699999988079071,
+      "rim_width_pixels": 28.0,
+      "rim_brightness": 1.5,
+      "gradient_dark_color": "<Struct 'LinearColor' (0x0000020225C946A4) {r: 0.320000, g: 0.530000, b: 0.480000, a: 1.000000}>",
+      "gradient_light_color": "<Struct 'LinearColor' (0x0000020225C946B4) {r: 1.000000, g: 1.000000, b: 0.830000, a: 1.000000}>",
+      "rim_color": "<Struct 'LinearColor' (0x0000020225C946CC) {r: 0.450000, g: 1.000000, b: 0.025000, a: 1.000000}>",
+      "leaf_material": "<Object '/Game/Environment/AnimeTree/M_AnimeTree_Leaves.M_AnimeTree_Leaves' (0x00000201BCF10E00) Class 'Material'>"
+    },
+    "components": [
+      {
+        "name": "Trunk",
+        "tags": [],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_Trunk.SM_AnimeTree_Trunk",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5000.0
+        ],
+        "materials": [
+          "<Object '/Game/Environment/AnimeTree/M_AnimeTree_Trunk.M_AnimeTree_Trunk' (0x00000201BCF1C400) Class 'Material'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 1.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "LeafClump_01",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -65.0,
+          -115.0,
+          270.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -65.0,
+          -115.0,
+          5270.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_02",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          80.0,
+          -25.0,
+          280.0
+        ],
+        "scale": [
+          1.05,
+          1.05,
+          1.05
+        ],
+        "world_location": [
+          80.0,
+          -25.0,
+          5280.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_03",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -40.0,
+          115.0,
+          278.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -40.0,
+          115.0,
+          5278.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_04",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -75.0,
+          -55.0,
+          350.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -75.0,
+          -55.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_05",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          30.0,
+          75.0,
+          350.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          30.0,
+          75.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_06",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide.SM_AnimeTree_ClumpWide",
+        "location": [
+          0.0,
+          0.0,
+          403.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5403.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_07",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          60.0,
+          -135.0,
+          340.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          60.0,
+          -135.0,
+          5340.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_08",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          -60.0,
+          135.0,
+          330.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -60.0,
+          135.0,
+          5330.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_09",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          115.0,
+          30.0,
+          345.0
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ],
+        "world_location": [
+          115.0,
+          30.0,
+          5345.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_10",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          -95.0,
+          10.0,
+          260.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -95.0,
+          10.0,
+          5260.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 1.5,
+          "LeafCardScale": 0.20000000298023224,
+          "LeafDensity": 1.0,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "StaticMeshComponent_29",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -95.0,
+          10.0,
+          5260.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_28",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          115.0,
+          30.0,
+          5345.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_27",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -60.0,
+          135.0,
+          5330.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_26",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          60.0,
+          -135.0,
+          5340.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_25",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide.SM_AnimeTree_ClumpWide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5403.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_24",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          30.0,
+          75.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_23",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -75.0,
+          -55.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_22",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -40.0,
+          115.0,
+          5278.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_21",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          80.0,
+          -25.0,
+          5280.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_20",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -65.0,
+          -115.0,
+          5270.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      }
+    ],
+    "actor_bounds": {
+      "center": [
+        23.913510654386528,
+        6.818220282272648,
+        5255.538503646851
+      ],
+      "extent": [
+        308.0047098381011,
+        354.3106582358903,
+        292.40940284729004
+      ]
+    }
+  },
+  "gradient_moved_snapshot": {
+    "class": "/Game/Environment/AnimeTree/BP_AnimeFoliageTree.BP_AnimeFoliageTree_C",
+    "properties": {
+      "wind_strength": 0.75,
+      "leaf_card_scale": 0.800000011920929,
+      "leaf_density": 0.44999998807907104,
+      "gradient_width": 400.0,
+      "gradient_strength": 0.6499999761581421,
+      "gradient_exponent": 1.0,
+      "clump_shading_strength": 0.699999988079071,
+      "rim_strength": 0.699999988079071,
+      "rim_width_pixels": 28.0,
+      "rim_brightness": 1.5,
+      "gradient_dark_color": "<Struct 'LinearColor' (0x0000020225C946A4) {r: 0.320000, g: 0.530000, b: 0.480000, a: 1.000000}>",
+      "gradient_light_color": "<Struct 'LinearColor' (0x0000020225C946B4) {r: 1.000000, g: 1.000000, b: 0.830000, a: 1.000000}>",
+      "rim_color": "<Struct 'LinearColor' (0x0000020225C946CC) {r: 0.450000, g: 1.000000, b: 0.025000, a: 1.000000}>",
+      "leaf_material": "<Object '/Game/Environment/AnimeTree/M_AnimeTree_Leaves.M_AnimeTree_Leaves' (0x00000201BCF10E00) Class 'Material'>"
+    },
+    "components": [
+      {
+        "name": "Trunk",
+        "tags": [],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_Trunk.SM_AnimeTree_Trunk",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5000.0
+        ],
+        "materials": [
+          "<Object '/Game/Environment/AnimeTree/M_AnimeTree_Trunk.M_AnimeTree_Trunk' (0x00000201BCF1C400) Class 'Material'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 1.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "LeafClump_01",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -65.0,
+          -115.0,
+          270.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -65.0,
+          -115.0,
+          5270.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_02",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          80.0,
+          -25.0,
+          280.0
+        ],
+        "scale": [
+          1.05,
+          1.05,
+          1.05
+        ],
+        "world_location": [
+          80.0,
+          -25.0,
+          5280.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_03",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -40.0,
+          115.0,
+          278.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -40.0,
+          115.0,
+          5278.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_04",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          -75.0,
+          -55.0,
+          350.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -75.0,
+          -55.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_05",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          30.0,
+          75.0,
+          350.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          30.0,
+          75.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_06",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide.SM_AnimeTree_ClumpWide",
+        "location": [
+          0.0,
+          0.0,
+          403.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5403.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_07",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          60.0,
+          -135.0,
+          340.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          60.0,
+          -135.0,
+          5340.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_08",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          -60.0,
+          135.0,
+          330.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -60.0,
+          135.0,
+          5330.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_09",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          115.0,
+          30.0,
+          345.0
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ],
+        "world_location": [
+          115.0,
+          30.0,
+          5345.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "LeafClump_10",
+        "tags": [
+          "AnimeTreeClump"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          -95.0,
+          10.0,
+          260.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -95.0,
+          10.0,
+          5260.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_0' (0x0000020225EB3800) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": false,
+        "cast_hidden_shadow": false,
+        "render_in_main_pass": true,
+        "render_in_depth_pass": true,
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 16,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'",
+        "mid_scalars": {
+          "WindStrength": 0.75,
+          "LeafCardScale": 0.800000011920929,
+          "LeafDensity": 0.44999998807907104,
+          "GradientStrength": 0.6499999761581421,
+          "ClumpShadingStrength": 0.699999988079071,
+          "StableShadowProxy": 0.0
+        }
+      },
+      {
+        "name": "StaticMeshComponent_49",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -95.0,
+          10.0,
+          5260.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_48",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          115.0,
+          30.0,
+          5345.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_47",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -60.0,
+          135.0,
+          5330.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_46",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall.SM_AnimeTree_ClumpSmall",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          60.0,
+          -135.0,
+          5340.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_45",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide.SM_AnimeTree_ClumpWide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          0.0,
+          0.0,
+          5403.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_44",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          30.0,
+          75.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_43",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -75.0,
+          -55.0,
+          5350.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_42",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -40.0,
+          115.0,
+          5278.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_41",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          80.0,
+          -25.0,
+          5280.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      },
+      {
+        "name": "StaticMeshComponent_40",
+        "tags": [
+          "AnimeTreeShadow"
+        ],
+        "mesh": "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound.SM_AnimeTree_ClumpRound",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "world_location": [
+          -65.0,
+          -115.0,
+          5270.0
+        ],
+        "materials": [
+          "<Object '/Temp/Untitled_0.Untitled:PersistentLevel.BP_AnimeFoliageTree_C_0.MID_M_AnimeTree_Leaves_1' (0x0000020225EB4000) Class 'MaterialInstanceDynamic'>"
+        ],
+        "cast_shadow": true,
+        "cast_hidden_shadow": true,
+        "render_in_main_pass": false,
+        "render_in_depth_pass": false,
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "bounds_scale": 2.0,
+        "custom_primitive_data_access": "StaticMeshComponent: Failed to find property 'custom_primitive_data_internal' for attribute 'custom_primitive_data_internal' on 'StaticMeshComponent'"
+      }
+    ],
+    "actor_bounds": {
+      "center": [
+        23.913510654386528,
+        6.818220282272648,
+        5255.538503646851
+      ],
+      "extent": [
+        308.0047098381011,
+        354.3106582358903,
+        292.40940284729004
+      ]
+    }
+  },
+  "gradient_cpd_readable": false,
+  "source_ue_dependency_graph": {
+    "/Game/Environment/AnimeTree/BP_AnimeFoliageTree": [
+      "/Script/TunaSweeper",
+      "/Game/Environment/AnimeTree/M_AnimeTree_Leaves",
+      "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound",
+      "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall",
+      "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide",
+      "/Game/Environment/AnimeTree/SM_AnimeTree_Trunk"
+    ],
+    "/Game/Environment/AnimeTree/SM_AnimeTree_Trunk": [
+      "/Script/StaticMeshDescription",
+      "/Script/NavigationSystem",
+      "/Game/Environment/AnimeTree/M_AnimeTree_Trunk"
+    ],
+    "/Game/Environment/AnimeTree/M_AnimeTree_Trunk": [
+      "/Game/Environment/AnimeTree/T_AnimeTree_TrunkRoughness",
+      "/Game/Environment/AnimeTree/T_AnimeTree_TrunkStylizedBaseColor"
+    ],
+    "/Game/Environment/AnimeTree/T_AnimeTree_TrunkStylizedBaseColor": [],
+    "/Game/Environment/AnimeTree/T_AnimeTree_TrunkRoughness": [],
+    "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpWide": [
+      "/Script/StaticMeshDescription",
+      "/Script/NavigationSystem",
+      "/Game/Environment/AnimeTree/M_AnimeTree_Leaves"
+    ],
+    "/Game/Environment/AnimeTree/M_AnimeTree_Leaves": [
+      "/Game/Environment/AnimeTree/T_AnimeTree_Leaves"
+    ],
+    "/Game/Environment/AnimeTree/T_AnimeTree_Leaves": [],
+    "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpSmall": [
+      "/Script/StaticMeshDescription",
+      "/Script/NavigationSystem",
+      "/Game/Environment/AnimeTree/M_AnimeTree_Leaves"
+    ],
+    "/Game/Environment/AnimeTree/SM_AnimeTree_ClumpRound": [
+      "/Script/StaticMeshDescription",
+      "/Script/NavigationSystem",
+      "/Game/Environment/AnimeTree/M_AnimeTree_Leaves"
+    ]
+  },
+  "trunk_collision": {
+    "complexity": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "simple": 0,
+    "convex": 0
+  },
+  "asset_tools_redirect_methods": [
+    "rename",
+    "rename_assets",
+    "rename_assets_with_dialog",
+    "rename_referencing_soft_object_paths"
+  ],
+  "success": true,
+  "finished_at_utc": "2026-10-21T15:50:07.243332+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "incident": "An asynchronous render launch did not execute its Python command because explicit embedded ExecCmds quotes were doubled by the updated shared runner's ProcessStartInfo.ArgumentList.",
+  "affected_process_id": 7464,
+  "affected_project": "ForestDemo/Saved/Workers/ultra/SelfImprovement/ForestDemo/ForestDemo.uproject",
+  "attempt_timing": "Execution/ue-render-runtime.json",
+  "capture_files_from_failed_attempt": 0,
+  "recovery_attempts": [
+    "Computer Use listed no targetable offscreen UE window; no app input was sent.",
+    "Existing local Python remote channel discovery returned zero nodes; no remote command was sent."
+  ],
+  "authorization": "Human explicitly answered: 내 ultra 대기 프로세스만 종료 후 재실행 허용",
+  "termination": "PID, executable name, scratch project path and exact attempt log path were rechecked before stopping only PID 7464. The shared launcher then completed and released its slot. No other UE or launcher was stopped.",
+  "correction": "Use ExecutePythonScript without spaces/embedded command quoting and call Unreal EditorPythonScripting.set_keep_python_script_alive(True) after the asynchronous capture callback is registered.",
+  "api_alias_retry": "The first keep-alive retry used the native C++ class name rather than its Python ScriptName alias and exited normally before capture. EditorPythonScriptingLibrary.h then confirmed ScriptName=EditorPythonScripting; corrected before the next launch.",
+  "api_alias_retry_timing": "Execution/ue-render-runtime2.json",
+  "rerun_timing": "Execution/ue-render-runtime3.json"
+}

@@ -1,0 +1,361 @@
+{
+  "map": "/Game/Maps/ultra",
+  "asset_root": "/Game/Forest/ultra",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High scalability (all sg groups 2), screen percentage 100",
+  "renderer": "UE5.7 SceneCapture2D final color LDR, D3D12 SM5",
+  "post_processing": "map exposure/color, no image processing",
+  "close_views_comparison_limitation": "Lake and beach viewpoints are individually framed; they are not position-equivalent between scenes.",
+  "capture_started_at_utc": "2026-10-21T16:04:15.172195+00:00",
+  "views": [
+    {
+      "name": "overview",
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "shader_world_time_seconds": 45.2270563095808,
+      "captured_at_utc": "2026-10-21T16:05:00.358136+00:00",
+      "warmup_seconds": 45
+    },
+    {
+      "name": "top_down",
+      "location": [
+        0,
+        0,
+        20000
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "shader_world_time_seconds": 53.481083892285824,
+      "captured_at_utc": "2026-10-21T16:05:08.612039+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "lake",
+      "location": [
+        -200,
+        400,
+        343.771
+      ],
+      "target": [
+        -1800,
+        -900,
+        180
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_z_cm": 173.771,
+      "eye_height_cm": 170,
+      "rotation_pitch_yaw_roll": [
+        -4.542072621889952,
+        -140.9061411137705,
+        -8.643794690278341e-08
+      ],
+      "shader_world_time_seconds": 61.72926318645477,
+      "captured_at_utc": "2026-10-21T16:05:16.855459+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "beach",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_z_cm": 35.613,
+      "eye_height_cm": 170,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 69.96230948716402,
+      "captured_at_utc": "2026-10-21T16:05:25.087340+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "water_t0",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 78.19639169052243,
+      "captured_at_utc": "2026-10-21T16:05:33.319315+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "water_t1",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 81.43572009727359,
+      "captured_at_utc": "2026-10-21T16:05:36.563967+00:00",
+      "warmup_seconds": 3
+    },
+    {
+      "name": "hero",
+      "location": [
+        10500,
+        12500,
+        10700
+      ],
+      "target": [
+        0,
+        0,
+        250
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 53,
+      "rotation_pitch_yaw_roll": [
+        -32.62449705585999,
+        -130.0302592718897,
+        -5.43046147466342e-07
+      ],
+      "shader_world_time_seconds": 89.68372089415789,
+      "captured_at_utc": "2026-10-21T16:05:44.811614+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_detail",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 97.93069628626108,
+      "captured_at_utc": "2026-10-21T16:05:53.072002+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_rim_off",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 106.18568627536297,
+      "captured_at_utc": "2026-10-21T16:06:01.319306+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_rim_on",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 114.43100978434086,
+      "captured_at_utc": "2026-10-21T16:06:09.567756+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_rim_debug",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 122.68549779057503,
+      "captured_at_utc": "2026-10-21T16:06:17.798809+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_gradient_shifted",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 130.92307698726654,
+      "captured_at_utc": "2026-10-21T16:06:26.062309+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_wind_t0",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 139.17979318648577,
+      "captured_at_utc": "2026-10-21T16:06:34.325453+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_wind_t1",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 142.4487912878394,
+      "captured_at_utc": "2026-10-21T16:06:37.592566+00:00",
+      "warmup_seconds": 3
+    }
+  ],
+  "capture_finished_at_utc": "2026-10-21T16:06:37.593566+00:00"
+}

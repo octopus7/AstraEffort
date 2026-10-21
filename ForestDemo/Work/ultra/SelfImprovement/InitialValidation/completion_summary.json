@@ -1,0 +1,210 @@
+{
+  "status": "working",
+  "started_at_utc": "2026-10-21T15:30:53+00:00",
+  "started_at_kst": "2026-10-22T00:30:53+09:00",
+  "finished_at_utc": null,
+  "finished_at_kst": null,
+  "elapsed_seconds": 2442.29935,
+  "queue_wait_seconds": 125.6975932,
+  "ue_execution_seconds": 744.2895348,
+  "native_build": {
+    "started_at_utc": "2026-10-21T15:38:31.0121114+00:00",
+    "finished_at_utc": "2026-10-21T15:39:29.1645662+00:00",
+    "elapsed_seconds": 58.1539055,
+    "exit_code": 0,
+    "scope": "owned SelfImprovement scratch project only"
+  },
+  "image_generation_seconds": 0,
+  "map": "/Game/Maps/ultra",
+  "publication_complete": false,
+  "validation_checks": 23,
+  "before_renders": 8,
+  "after_renders": 14,
+  "runtime_trunk_hits": 63,
+  "prior_evidence_files_unchanged": 1091,
+  "delivered_files": [],
+  "prepared_files": [
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/BP_AnimeFoliageTree.uasset",
+      "bytes": 47509,
+      "sha256": "839881c01a76e3908a6648d76dcddb72c220d1f1c572c51ea54bc6960f2d50ad"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/M_AnimeTree_Leaves.uasset",
+      "bytes": 27694,
+      "sha256": "ab3d42b71c3988b1d2ec793c2fc671e6074f1f8d9f53dda1c67dd809b9601e74"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/M_AnimeTree_Trunk.uasset",
+      "bytes": 12159,
+      "sha256": "3cf5a7f5c4e3074250855b7a803872309769e817216f8216027ceef6d08e54d5"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/SM_AnimeTree_ClumpRound.uasset",
+      "bytes": 46800,
+      "sha256": "45f91fc5fc4e1726db1e8f9770bb3c40b11bd533e7774843838fb20d74e28247"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/SM_AnimeTree_ClumpSmall.uasset",
+      "bytes": 47239,
+      "sha256": "cd8501ead23e391136df0112d6c3f1f1c130da0ffee744dc84987247e8f4a194"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/SM_AnimeTree_ClumpWide.uasset",
+      "bytes": 47023,
+      "sha256": "f6e46e2217d91b344645e209a80961d295f0a8433bf4aea8093fa12b186ed79f"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/SM_AnimeTree_Trunk.uasset",
+      "bytes": 1133951,
+      "sha256": "a7f90c87acf58e40cad39bbaae0d0d4da60175ead21e19fdaa77b6c4780eb1d1"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/T_AnimeTree_Leaves.uasset",
+      "bytes": 298974,
+      "sha256": "30d3ad54a2724d6f022c0f1fa8b6d3057ad017e171f71c6b054b37231fa8ba68"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/T_AnimeTree_TrunkRoughness.uasset",
+      "bytes": 639939,
+      "sha256": "561ab78058e61071cc8344fa42ec83fd0a9adc96adfc22649c1e3a77e9ee7c41"
+    },
+    {
+      "relative_path": "Content/Forest/ultra/AnimeTree/T_AnimeTree_TrunkStylizedBaseColor.uasset",
+      "bytes": 580337,
+      "sha256": "b50ad77bbfcda1b5e86da21448d6e7d42ce1251f5e2d891bbd1e7421a80a1985"
+    },
+    {
+      "relative_path": "Content/Maps/ultra.umap",
+      "bytes": 2234332,
+      "sha256": "61a4a0e4bc08505da508bc51b940158a56242a13685d7c193864c429bfc4fa01"
+    }
+  ],
+  "timings": [
+    {
+      "file": "ue-before.json",
+      "wait_started_at_utc": "2026-10-21T15:36:48.6410176+00:00",
+      "run_started_at_utc": "2026-10-21T15:36:49.0447749+00:00",
+      "finished_at_utc": "2026-10-21T15:39:04.3295175+00:00",
+      "wait_seconds": 0.4037573,
+      "execution_seconds": 135.2847426,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-before.log",
+      "queue_theme": "Forest",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-inspect.json",
+      "wait_started_at_utc": "2026-10-21T15:43:00.1472642+00:00",
+      "run_started_at_utc": "2026-10-21T15:43:00.3490749+00:00",
+      "finished_at_utc": "2026-10-21T15:43:23.9387558+00:00",
+      "wait_seconds": 0.2018107,
+      "execution_seconds": 23.5896809,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-inspect.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-inspect2.json",
+      "wait_started_at_utc": "2026-10-21T15:47:21.4129333+00:00",
+      "run_started_at_utc": "2026-10-21T15:48:19.7427005+00:00",
+      "finished_at_utc": "2026-10-21T15:48:35.3423265+00:00",
+      "wait_seconds": 58.3297672,
+      "execution_seconds": 15.599626,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-inspect2.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-migrate.json",
+      "wait_started_at_utc": "2026-10-21T15:49:58.2733814+00:00",
+      "run_started_at_utc": "2026-10-21T15:49:58.6143608+00:00",
+      "finished_at_utc": "2026-10-21T15:50:15.3888475+00:00",
+      "wait_seconds": 0.3409794,
+      "execution_seconds": 16.7744867,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-migrate.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-migrate2.json",
+      "wait_started_at_utc": "2026-10-21T15:51:31.8608099+00:00",
+      "run_started_at_utc": "2026-10-21T15:51:32.0276277+00:00",
+      "finished_at_utc": "2026-10-21T15:51:52.6149010+00:00",
+      "wait_seconds": 0.1668178,
+      "execution_seconds": 20.5872733,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-migrate2.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-render-runtime.json",
+      "wait_started_at_utc": "2026-10-21T15:55:35.7623739+00:00",
+      "run_started_at_utc": "2026-10-21T15:56:40.3290448+00:00",
+      "finished_at_utc": "2026-10-21T16:02:14.0452537+00:00",
+      "wait_seconds": 64.5666709,
+      "execution_seconds": 333.7162089,
+      "exit_code": -1,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-render-runtime.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-render-runtime2.json",
+      "wait_started_at_utc": "2026-10-21T16:02:33.5746108+00:00",
+      "run_started_at_utc": "2026-10-21T16:02:34.8943828+00:00",
+      "finished_at_utc": "2026-10-21T16:02:51.9012375+00:00",
+      "wait_seconds": 1.319772,
+      "execution_seconds": 17.0068547,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-render-runtime2.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-render-runtime3.json",
+      "wait_started_at_utc": "2026-10-21T16:04:05.0838814+00:00",
+      "run_started_at_utc": "2026-10-21T16:04:05.2793449+00:00",
+      "finished_at_utc": "2026-10-21T16:06:50.8683408+00:00",
+      "wait_seconds": 0.1954635,
+      "execution_seconds": 165.5889959,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-render-runtime3.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    },
+    {
+      "file": "ue-validate.json",
+      "wait_started_at_utc": "2026-10-21T15:53:31.2525331+00:00",
+      "run_started_at_utc": "2026-10-21T15:53:31.4250875+00:00",
+      "finished_at_utc": "2026-10-21T15:53:47.5667533+00:00",
+      "wait_seconds": 0.1725544,
+      "execution_seconds": 16.1416658,
+      "exit_code": 0,
+      "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\ForestDemo.uproject",
+      "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\self-validate.log",
+      "queue_theme": "Forest",
+      "queue_effort": "ultra",
+      "queue_priority": 0
+    }
+  ]
+}

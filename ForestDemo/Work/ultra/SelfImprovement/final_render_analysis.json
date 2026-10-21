@@ -1,0 +1,85 @@
+{
+  "checked_at_utc": "2026-10-21T16:22:28.258173+00:00",
+  "files": [
+    {
+      "name": "beach.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "b4a9e4d69be303f3cfde8863ade9ae96ffe9a850161ce15a2002f0182081d1a1"
+    },
+    {
+      "name": "lake.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "6917084f6d7feaf2534e3fd79d9d43573fbef8c449be7c80c72eadf4f2289e6f"
+    },
+    {
+      "name": "overview.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "ea3dc10cc24ebe6d369868d7ec418e7ac26c183f4407ca625472521e9332efaa"
+    },
+    {
+      "name": "top_down.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "4b6906b1a94aa2b7a8b16adea0174918e53ccd342faa25322627de4021c3112a"
+    },
+    {
+      "name": "tree_detail.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "bd25d267f6a97a2d032c4e3d81fe93aee5ba2a2449b749dd5919b6313fac9ef8"
+    }
+  ],
+  "same_camera_checks": [
+    {
+      "name": "overview",
+      "passed": true
+    },
+    {
+      "name": "top_down",
+      "passed": true
+    },
+    {
+      "name": "lake",
+      "passed": true
+    },
+    {
+      "name": "beach",
+      "passed": true
+    },
+    {
+      "name": "tree_detail",
+      "passed": true
+    }
+  ],
+  "initial_after_evidence_unchanged": true,
+  "canopy_mask_pixels": 662204,
+  "source_default_palette": {
+    "mean_saturation": 0.8402042388916016,
+    "mean_value": 0.45383530855178833,
+    "luma_p10": 0.0945215738843195,
+    "luma_p90": 0.6544729585438966,
+    "luma_p90_minus_p10": 0.5599513846595772
+  },
+  "final_palette": {
+    "mean_saturation": 0.7322590947151184,
+    "mean_value": 0.41232243180274963,
+    "luma_p10": 0.18227137340307234,
+    "luma_p90": 0.5037694317787886,
+    "luma_p90_minus_p10": 0.3214980583757163
+  },
+  "method_note": "Same camera, canopy mask taken from actual initial rim debug image. Wind time differs; these are supporting image statistics, not perceptual guarantees.",
+  "success": true
+}

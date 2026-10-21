@@ -1,0 +1,265 @@
+{
+  "map": "/Game/Maps/ultra",
+  "asset_root": "/Game/Forest/ultra",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High scalability (all sg groups 2), screen percentage 100",
+  "renderer": "UE5.7 SceneCapture2D final color LDR, D3D12 SM5",
+  "post_processing": "map exposure/color, no image processing",
+  "close_views_comparison_limitation": "Lake and beach viewpoints are individually framed; they are not position-equivalent between scenes.",
+  "capture_started_at_utc": "2026-10-21T16:15:41.975340+00:00",
+  "views": [
+    {
+      "name": "sage_tree_detail",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 24.54657741636038,
+      "captured_at_utc": "2026-10-21T16:16:07.158753+00:00",
+      "warmup_seconds": 25,
+      "palette": "sage",
+      "applied_palette": {
+        "gradient_dark_color": [
+          0.5,
+          0.64,
+          0.8,
+          1
+        ],
+        "gradient_light_color": [
+          0.62,
+          0.74,
+          0.9,
+          1
+        ],
+        "gradient_strength": 1.0,
+        "clump_shading_strength": 0.42,
+        "rim_strength": 0.25,
+        "rim_color": [
+          0.45,
+          0.65,
+          0.5,
+          1
+        ],
+        "rim_width_pixels": 20.0,
+        "rim_brightness": 0.9
+      },
+      "verified_mid_scalars": {
+        "GradientStrength": 1.0,
+        "ClumpShadingStrength": 0.41999998688697815,
+        "WindStrength": 0.75,
+        "LeafCardScale": 0.800000011920929,
+        "LeafDensity": 0.44999998807907104
+      },
+      "verified_mid_colors": {
+        "GradientDarkColor": "<Struct 'LinearColor' (0x0000029CF67015A0) {r: 0.500000, g: 0.640000, b: 0.800000, a: 1.000000}>",
+        "GradientLightColor": "<Struct 'LinearColor' (0x0000029CF67015A0) {r: 0.620000, g: 0.740000, b: 0.900000, a: 1.000000}>"
+      }
+    },
+    {
+      "name": "sage_overview",
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "shader_world_time_seconds": 32.78809092193842,
+      "captured_at_utc": "2026-10-21T16:16:15.392895+00:00",
+      "warmup_seconds": 8,
+      "palette": "sage",
+      "applied_palette": {
+        "gradient_dark_color": [
+          0.5,
+          0.64,
+          0.8,
+          1
+        ],
+        "gradient_light_color": [
+          0.62,
+          0.74,
+          0.9,
+          1
+        ],
+        "gradient_strength": 1.0,
+        "clump_shading_strength": 0.42,
+        "rim_strength": 0.25,
+        "rim_color": [
+          0.45,
+          0.65,
+          0.5,
+          1
+        ],
+        "rim_width_pixels": 20.0,
+        "rim_brightness": 0.9
+      },
+      "verified_mid_scalars": {
+        "GradientStrength": 1.0,
+        "ClumpShadingStrength": 0.41999998688697815,
+        "WindStrength": 0.75,
+        "LeafCardScale": 0.800000011920929,
+        "LeafDensity": 0.44999998807907104
+      },
+      "verified_mid_colors": {
+        "GradientDarkColor": "<Struct 'LinearColor' (0x0000029CF67010A0) {r: 0.500000, g: 0.640000, b: 0.800000, a: 1.000000}>",
+        "GradientLightColor": "<Struct 'LinearColor' (0x0000029CF67010A0) {r: 0.620000, g: 0.740000, b: 0.900000, a: 1.000000}>"
+      }
+    },
+    {
+      "name": "moss_tree_detail",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 41.17592292651534,
+      "captured_at_utc": "2026-10-21T16:16:25.538309+00:00",
+      "warmup_seconds": 8,
+      "palette": "moss",
+      "applied_palette": {
+        "gradient_dark_color": [
+          0.42,
+          0.61,
+          0.82,
+          1
+        ],
+        "gradient_light_color": [
+          0.55,
+          0.7,
+          0.9,
+          1
+        ],
+        "gradient_strength": 1.0,
+        "clump_shading_strength": 0.38,
+        "rim_strength": 0.22,
+        "rim_color": [
+          0.38,
+          0.61,
+          0.51,
+          1
+        ],
+        "rim_width_pixels": 18.0,
+        "rim_brightness": 1.0
+      },
+      "verified_mid_scalars": {
+        "GradientStrength": 1.0,
+        "ClumpShadingStrength": 0.3799999952316284,
+        "WindStrength": 0.75,
+        "LeafCardScale": 0.800000011920929,
+        "LeafDensity": 0.44999998807907104
+      },
+      "verified_mid_colors": {
+        "GradientDarkColor": "<Struct 'LinearColor' (0x0000029CF66EB020) {r: 0.420000, g: 0.610000, b: 0.820000, a: 1.000000}>",
+        "GradientLightColor": "<Struct 'LinearColor' (0x0000029CF66EB020) {r: 0.550000, g: 0.700000, b: 0.900000, a: 1.000000}>"
+      }
+    },
+    {
+      "name": "moss_overview",
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "shader_world_time_seconds": 49.40505903214216,
+      "captured_at_utc": "2026-10-21T16:16:33.760183+00:00",
+      "warmup_seconds": 8,
+      "palette": "moss",
+      "applied_palette": {
+        "gradient_dark_color": [
+          0.42,
+          0.61,
+          0.82,
+          1
+        ],
+        "gradient_light_color": [
+          0.55,
+          0.7,
+          0.9,
+          1
+        ],
+        "gradient_strength": 1.0,
+        "clump_shading_strength": 0.38,
+        "rim_strength": 0.22,
+        "rim_color": [
+          0.38,
+          0.61,
+          0.51,
+          1
+        ],
+        "rim_width_pixels": 18.0,
+        "rim_brightness": 1.0
+      },
+      "verified_mid_scalars": {
+        "GradientStrength": 1.0,
+        "ClumpShadingStrength": 0.3799999952316284,
+        "WindStrength": 0.75,
+        "LeafCardScale": 0.800000011920929,
+        "LeafDensity": 0.44999998807907104
+      },
+      "verified_mid_colors": {
+        "GradientDarkColor": "<Struct 'LinearColor' (0x0000029CF66BAB60) {r: 0.420000, g: 0.610000, b: 0.820000, a: 1.000000}>",
+        "GradientLightColor": "<Struct 'LinearColor' (0x0000029CF66BAB60) {r: 0.550000, g: 0.700000, b: 0.900000, a: 1.000000}>"
+      }
+    }
+  ],
+  "capture_finished_at_utc": "2026-10-21T16:16:33.761185+00:00"
+}

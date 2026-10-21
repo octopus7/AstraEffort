@@ -1,0 +1,142 @@
+{
+  "map": "/Game/Maps/ultra",
+  "asset_root": "/Game/Forest/ultra",
+  "site_center_cm": [
+    0,
+    0
+  ],
+  "ground_reference_z_cm": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "quality": "High scalability (all sg groups 2), screen percentage 100",
+  "renderer": "UE5.7 SceneCapture2D final color LDR, D3D12 SM5",
+  "post_processing": "map exposure/color, no image processing",
+  "close_views_comparison_limitation": "Lake and beach viewpoints are individually framed; they are not position-equivalent between scenes.",
+  "capture_started_at_utc": "2026-10-21T16:20:46.444554+00:00",
+  "views": [
+    {
+      "name": "overview",
+      "location": [
+        12000,
+        -12000,
+        16000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -43.31385665828305,
+        135.0,
+        7.173851131232941e-07
+      ],
+      "shader_world_time_seconds": 25.234512202441692,
+      "captured_at_utc": "2026-10-21T16:21:11.632819+00:00",
+      "warmup_seconds": 25
+    },
+    {
+      "name": "top_down",
+      "location": [
+        0,
+        0,
+        20000
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "projection": "orthographic",
+      "ortho_width_cm": 20000,
+      "rotation_pitch_yaw_roll": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "shader_world_time_seconds": 33.42378940060735,
+      "captured_at_utc": "2026-10-21T16:21:19.814432+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "lake",
+      "location": [
+        -200,
+        400,
+        343.771
+      ],
+      "target": [
+        -1800,
+        -900,
+        180
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_z_cm": 173.771,
+      "eye_height_cm": 170,
+      "rotation_pitch_yaw_roll": [
+        -4.542072621889952,
+        -140.9061411137705,
+        -8.643794690278341e-08
+      ],
+      "shader_world_time_seconds": 41.60706099122763,
+      "captured_at_utc": "2026-10-21T16:21:27.994263+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "beach",
+      "location": [
+        400,
+        3100,
+        205.613
+      ],
+      "target": [
+        -2200,
+        3300,
+        120
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 70,
+      "ground_z_cm": 35.613,
+      "eye_height_cm": 170,
+      "rotation_pitch_yaw_roll": [
+        -1.8804072863081507,
+        175.6012946450045,
+        4.463515950381338e-08
+      ],
+      "shader_world_time_seconds": 49.79988158494234,
+      "captured_at_utc": "2026-10-21T16:21:36.185792+00:00",
+      "warmup_seconds": 8
+    },
+    {
+      "name": "tree_detail",
+      "location": [
+        1244.1675265341644,
+        1937.2638574717816,
+        1300.439168992123
+      ],
+      "target": [
+        244.1675265341643,
+        937.2638574717815,
+        800.4391689921231
+      ],
+      "projection": "perspective",
+      "horizontal_fov": 65,
+      "baseline_actor": "Forest canopy 103 0106",
+      "baseline_mesh": "/Game/Forest/ultra/Meshes/UV/SM_Broadleaf_04_UV_0106.SM_Broadleaf_04_UV_0106",
+      "rotation_pitch_yaw_roll": [
+        -19.471220634490688,
+        -135.0,
+        -3.4858650467930824e-07
+      ],
+      "shader_world_time_seconds": 57.98234908282757,
+      "captured_at_utc": "2026-10-21T16:21:44.380148+00:00",
+      "warmup_seconds": 8
+    }
+  ],
+  "capture_finished_at_utc": "2026-10-21T16:21:44.381149+00:00"
+}

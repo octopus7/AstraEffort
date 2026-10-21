@@ -1,0 +1,57 @@
+{
+  "created_at_utc": "2026-10-21T15:38:27.484311+00:00",
+  "plugin": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees",
+  "source_files": [
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\TunaSweeper\\Public\\Environment\\TunaSweeperAnimeTreeActor.h",
+      "source_sha256": "aa4f0a03bc80cf790333f363cf1d76b3df5d5b2c41062808ba4147177294fdd9",
+      "destination": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Public\\ForestUltraAnimeTreeActor.h",
+      "port_sha256": "57f8e4432277a59e782a3b316b1073efc66982c94645c4a3b3bcdfc3d2db7ce0",
+      "changes": "Mechanical class/module/include/shader/CVar namespacing only. Algorithms and defaults retained."
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\TunaSweeper\\Private\\Environment\\TunaSweeperAnimeTreeActor.cpp",
+      "source_sha256": "2e28d210d357ebcfe93ac5c3a66db2270db4249b1e585d007e1f8868897a7e30",
+      "destination": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraAnimeTreeActor.cpp",
+      "port_sha256": "2cb7680a10cbabf5fba91fece42bfe992a632ca558f710386be1f7c7ae63c14e",
+      "changes": "Mechanical class/module/include/shader/CVar namespacing only. Algorithms and defaults retained."
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Public\\CanopyRimSubsystem.h",
+      "source_sha256": "0a0c051626ea8db17d8f63c318abf29b527f03514bdf08674df8a038947c022c",
+      "destination": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Public\\ForestUltraCanopyRimSubsystem.h",
+      "port_sha256": "67c2b7356da6ff334548f6d24ddb6d0c424606699b3035266721b9ea57e43d17",
+      "changes": "Mechanical class/module/include/shader/CVar namespacing only. Algorithms and defaults retained."
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Private\\CanopyRimSubsystem.cpp",
+      "source_sha256": "3389ea8c6cb1278f7cfe28d9adfa81e13708f79877519f320d5edefa9c3bcb1a",
+      "destination": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraCanopyRimSubsystem.cpp",
+      "port_sha256": "34375a4f62f6d6f6be215a671a97e87df9b36ed22e9e901eb194dc11f7d19210",
+      "changes": "Mechanical class/module/include/shader/CVar namespacing only. Algorithms and defaults retained."
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Private\\CanopyRimViewExtension.h",
+      "source_sha256": "e74385df8cdd736ff4814a69cb9f11cab0e4f503f23999dc1c65b7d119836694",
+      "destination": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraCanopyRimViewExtension.h",
+      "port_sha256": "78b03c359b2b39ecb99957034855c408601ac945fed18fbb5893a8e69817fc4f",
+      "changes": "Mechanical class/module/include/shader/CVar namespacing only. Algorithms and defaults retained."
+    },
+    {
+      "source": "D:\\github\\extraction_shooter\\TunaSweeper\\Source\\CanopyRim\\Private\\CanopyRimViewExtension.cpp",
+      "source_sha256": "ab3f1a87746a65ef7799044375d277ca46899b0f0371ff78c9a11f42f9e162a3",
+      "destination": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\ultra\\SelfImprovement\\ForestDemo\\Plugins\\ForestUltraTrees\\Source\\ForestUltraTrees\\Private\\ForestUltraCanopyRimViewExtension.cpp",
+      "port_sha256": "9640a8674b351f6155be4f96e86e8d55c66c04ee409480881479e42232da45d1",
+      "changes": "Mechanical class/module/include/shader/CVar namespacing only. Algorithms and defaults retained."
+    }
+  ],
+  "shader_sha256": "0543dadb7637f4ffce8383ea3a2cc9f68b82d1616ae75645987ca27b22cab36d",
+  "necessary_adaptations": [
+    "Runtime plugin combines tree actor and renderer modules; native API macro renamed.",
+    "Shader mapping uses plugin-relative Shaders instead of source ProjectDir.",
+    "Console variable prefix r.ForestUltra.CanopyRim avoids name collisions.",
+    "Temporary private ClassRedirect loads source native parent; removed after asset re-save.",
+    "r.CustomDepth=3 enables required custom depth/stencil buffer."
+  ],
+  "behavior_changes": []
+}
