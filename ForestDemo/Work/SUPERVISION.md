@@ -138,10 +138,10 @@ screen percentage 100이며, 실제 사용 설정과 차이는 capture_manifest.
 
 | Effort | Chat | Dispatch (KST) | Worker start | Ready | Wall time | Status | Commit |
 |---|---|---|---|---|---|---|---|
-| medium | pending | pending | pending | pending | pending | preparing | pending |
-| high | pending | pending | pending | pending | pending | preparing | pending |
-| xhigh | pending | pending | pending | pending | pending | preparing | pending |
-| ultra | pending | pending | pending | pending | pending | preparing | pending |
+| medium | 01a15e6d-dfb3-7341-acd9-f1785bab245e | 2026-10-21 21:26:57 | 2026-10-21 21:27:10 | pending | pending | working | pending |
+| high | 01a15e6d-f1ff-76c1-941c-93b1378d7351 | 2026-10-21 21:27:03 | 2026-10-21 21:27:18 | pending | pending | working | pending |
+| xhigh | 01a15e6e-0712-76f0-9586-f65cc202196c | 2026-10-21 21:27:08 | 2026-10-21 21:27:24 | pending | pending | working | pending |
+| ultra | 01a15e6e-1907-7ff1-b13c-5a4a31875490 | 2026-10-21 21:27:13 | 2026-10-21 21:27:25 | pending | pending | working | pending |
 
 각 작업은 실제 시작/종료 UTC·KST, 전체 wall time, UE 실행 대기, 실행/검증 시간을
 기록합니다. 추가 감독 수정과 캡처 시간을 구분하고 작업 시작 시각을 재설정하지 않습니다.
