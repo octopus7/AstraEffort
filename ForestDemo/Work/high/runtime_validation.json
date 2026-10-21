@@ -1,0 +1,106 @@
+{
+  "supplement_started_at_utc": "2026-10-21T12:41:24+00:00",
+  "runtime_script_started_at_utc": "2026-10-21T13:00:03.766717+00:00",
+  "map": "/Game/Maps/high",
+  "map_modified": false,
+  "checks": {
+    "actual_pie_world": "/Game/Maps/UEDPIE_0_high.high",
+    "pie_active": true,
+    "player_controller_class": "PlayerController",
+    "pawn_class": "DefaultPawn",
+    "pawn_spawn_location": [
+      650.0,
+      -1900.0,
+      407.7394232826486
+    ],
+    "player_start_location": [
+      650.0,
+      -1900.0,
+      407.7394232826486
+    ],
+    "spawn_distance_cm": 0.0,
+    "pawn_possessed_by_player_0": true,
+    "runtime_logger_count": 1,
+    "runtime_logger_path": "/Game/Maps/UEDPIE_0_high.high:PersistentLevel.ScreenDebugLogger_0",
+    "logger_seconds_since_creation": 0.0,
+    "runtime_ground_collision": {
+      "ground": [
+        650.0,
+        -1900.0,
+        297.80292269912
+      ],
+      "sweep_blocking_hit": true,
+      "pawn_after_downward_sweep": [
+        650.0,
+        -1900.0,
+        335.25565470936147
+      ],
+      "pawn_ground_clearance_cm": 37.45273201024145
+    },
+    "movement": {
+      "mode": "default pawn movement input, +Y for 2 wall seconds",
+      "from": [
+        650.0,
+        -1900.0,
+        407.7394232826486
+      ],
+      "to": [
+        646.0590058718216,
+        424.11796770413935,
+        462.2135686671885
+      ],
+      "distance_cm": 2324.759620209219,
+      "note": "DefaultPawn uses floating movement; no custom walking character was added."
+    },
+    "pie_ended": true,
+    "native_hello_automation_test_requested": "ForestDemo.ScreenDebugLogger.HelloOnBeginPlay",
+    "native_hello_beginplay_test": {
+      "status": "Success",
+      "name": "ForestDemo.ScreenDebugLogger.HelloOnBeginPlay",
+      "evidence_line": "[2026.10.21-13.00.16:094][364]LogAutomationController: Display: Test Completed. Result={Success} Name={HelloOnBeginPlay} Path={ForestDemo.ScreenDebugLogger.HelloOnBeginPlay}",
+      "scope": "Existing baseline native test creates a Game world, spawns ScreenDebugLogger, dispatches BeginPlay, and asserts OnScreenDebugMessageExists. In the separate actual PIE map, the native logger instance is present."
+    },
+    "unchanged_deliverables_sha256_count": 46
+  },
+  "status": "passed",
+  "runtime_script_finished_at_utc": "2026-10-21T13:00:23.950258+00:00",
+  "supplement_finished_at_utc": "2026-10-21T13:02:06.461440+00:00",
+  "timing": {
+    "started_at_utc": "2026-10-21T12:41:24+00:00",
+    "finished_at_utc": "2026-10-21T13:02:06.461440+00:00",
+    "started_at_kst": "2026-10-21T21:41:24+09:00",
+    "finished_at_kst": "2026-10-21T22:02:06.461440+09:00",
+    "elapsed_seconds": 1242.46144,
+    "shared_ue_wait_seconds": 904.3132861,
+    "ue_execution_seconds": 58.085884300000004,
+    "attempts": [
+      {
+        "wait_started_at_utc": "2026-10-21T12:43:14.5579771+00:00",
+        "run_started_at_utc": "2026-10-21T12:47:38.5648254+00:00",
+        "finished_at_utc": "2026-10-21T12:47:58.2733540+00:00",
+        "wait_seconds": 264.0068483,
+        "execution_seconds": 19.7085286,
+        "exit_code": 0,
+        "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\ForestDemo\\ForestDemo.uproject",
+        "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\runtime.log"
+      },
+      {
+        "wait_started_at_utc": "2026-10-21T12:49:10.3422656+00:00",
+        "run_started_at_utc": "2026-10-21T12:59:50.6487034+00:00",
+        "finished_at_utc": "2026-10-21T13:00:29.0260591+00:00",
+        "wait_seconds": 640.3064378,
+        "execution_seconds": 38.3773557,
+        "exit_code": 0,
+        "project": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\ForestDemo\\ForestDemo.uproject",
+        "log": "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\high\\runtime.log"
+      }
+    ]
+  },
+  "visual_hello_confirmation": false,
+  "capture_note": "runtime_viewport.png captured the editor viewport, not the possessed PIE camera. It is not evidence of visible Hello text; native automation log is the BeginPlay message-registration evidence.",
+  "warnings": [
+    "Engine displays a multiple directional-light forward-shading priority warning; the brightest main sun is selected as fallback. No map changes were made in this supplement.",
+    "Movement verification used the existing floating DefaultPawn, not a new walking Character; full walking/jumping traversal remains untested.",
+    "Supervisor review: editor_set_viewport_realtime(True) triggered a handled ensure: No realtime override was found with Level Editor Subsystem Realtime Override. Subsequent PIE, collision/movement, native automation and normal exit succeeded; this was not an error-free verification run."
+  ]
+}
