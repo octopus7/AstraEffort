@@ -62,7 +62,7 @@ def make_surface(meta,textures):
         tex=sample(mat,textures['T_Steam_Opacity'],uv)
         tm=node(mat,u.MaterialExpressionTime);s=node(mat,u.MaterialExpressionSine,period=18.0);con(tm,s,'Input')
         fade=node(mat,u.MaterialExpressionDepthFade,fade_distance_default=60.0)
-        opacity=mul(mat,tex,val(mat,.12));# use mask alpha explicitly below
+        opacity=mul(mat,tex,val(mat,.45));# mask peak 116/255; preserve soft edges while making wisps readable
         con(tex,opacity,'A','A')
         pulse=plus(mat,val(mat,.72),mul(mat,s,val(mat,.20)))
         con(mul(mat,opacity,pulse),fade,'Opacity')
@@ -158,7 +158,10 @@ def main():
     skymat.set_editor_property('is_sky',True)
     prop(skymat,vec(skymat,(.36,.49,.57)),u.MaterialProperty.MP_EMISSIVE_COLOR);ML.recompile_material(skymat);u.EditorAssetLibrary.save_loaded_asset(skymat)
     dome=spawn(u.StaticMeshActor,'Muted sky backdrop',(0,0,0));dome.static_mesh_component.set_static_mesh(u.load_asset('/Engine/BasicShapes/Sphere.Sphere'))
-    dome.set_actor_scale3d(u.Vector(600,600,600));dome.static_mesh_component.set_material(0,skymat);dome.static_mesh_component.set_cast_shadow(False);dome.static_mesh_component.set_collision_enabled(u.CollisionEnabled.NO_COLLISION)
+    dome.set_actor_scale3d(u.Vector(600,600,600));dome.static_mesh_component.set_material(0,skymat);dome.static_mesh_component.set_cast_shadow(False)
+    dome.static_mesh_component.set_collision_profile_name('NoCollision')
+    dome.static_mesh_component.set_collision_enabled(u.CollisionEnabled.NO_COLLISION)
+    dome.set_actor_enable_collision(False)
     sky.light_component.recapture_sky()
     for obj in M['semantic_objects']:
         if obj['type']=='lamp':

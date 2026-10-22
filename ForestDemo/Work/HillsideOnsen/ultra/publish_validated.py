@@ -16,15 +16,23 @@ after=read(W/'Validation/after_capture_packages.json')
 assert validation['passed'],validation.get('failures')
 assert runtime['status']=='passed',runtime.get('blockers')
 assert read(W/'Validation/effect_graphs.json')['passed']
+final_checks=read(W/'Validation/final_map_checks.json')
+assert final_checks['passed'] and final_checks['package_hashes_unchanged']
+assert final_checks['validated_packages_digest']==packages['digest']
 assert capture['packages_unchanged'] and after['unchanged']
 assert capture['packages_sha256']==packages['digest']
+assert capture['scene_manifest_sha256']==sha(W/'scene_manifest.json')
 assert after['files']==packages['files']
 assert visual['passed'] and visual['capture_manifest_sha256']==sha(W/'Screenshots/capture_manifest.json')
+quality=read(W/'Validation/image_quality.json')
+assert quality['all_six_integrity_and_nonblank_checks_pass'] and not quality['errors']
+assert quality['capture_manifest_sha256']==sha(W/'Screenshots/capture_manifest.json')
 for required in ['overview','top_down','hot_spring','village_path','hot_spring_timed_04s','hot_spring_timed_08s']:
     entry=next(x for x in capture['views'] if x['name']==required)
+    assert entry['fresh_export']
     assert sha(W/'Screenshots'/entry['file'])==entry['sha256']
 # Read process metadata only; never terminate another worker or any process.
-query="Get-CimInstance Win32_Process | Where-Object { $_.Name -like 'UnrealEditor*' -and $_.CommandLine -like '*Saved*Workers*HillsideOnsen*ultra*Project*ForestDemo.uproject*' } | Select-Object ProcessId,Name | ConvertTo-Json -Compress"
+query="$ErrorActionPreference='Stop'; Get-CimInstance Win32_Process | Where-Object { $_.Name -like 'UnrealEditor*' -and $_.CommandLine -like '*Saved*Workers*HillsideOnsen*ultra*Project*ForestDemo.uproject*' } | Select-Object ProcessId,Name | ConvertTo-Json -Compress"
 active=subprocess.run(['powershell','-NoProfile','-Command',query],capture_output=True,text=True,check=True).stdout.strip()
 assert not active,'Private UE still active: '+active
 allowed='Content/HillsideOnsen/ultra/'

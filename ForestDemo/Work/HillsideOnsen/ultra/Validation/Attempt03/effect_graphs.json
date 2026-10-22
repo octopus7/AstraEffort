@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-22T16:15:25.281411+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "material": "M_Water",
+      "property": "<MaterialProperty.MP_WORLD_POSITION_OFFSET: 12>",
+      "classes": [
+        "MaterialExpressionConstant3Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionSine",
+        "MaterialExpressionTime"
+      ],
+      "expected": [
+        "MaterialExpressionTime",
+        "MaterialExpressionSine"
+      ],
+      "passed": true
+    },
+    {
+      "material": "M_Water",
+      "property": "<MaterialProperty.MP_NORMAL: 10>",
+      "classes": [
+        "MaterialExpressionAdd",
+        "MaterialExpressionAppendVector",
+        "MaterialExpressionComponentMask",
+        "MaterialExpressionConstant",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionPanner",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionTextureSample"
+      ],
+      "expected": [
+        "MaterialExpressionPanner",
+        "MaterialExpressionTextureSample"
+      ],
+      "passed": true
+    },
+    {
+      "material": "M_Stream",
+      "property": "<MaterialProperty.MP_BASE_COLOR: 5>",
+      "classes": [
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant",
+        "MaterialExpressionConstant3Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionPanner",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionTextureSample"
+      ],
+      "expected": [
+        "MaterialExpressionPanner",
+        "MaterialExpressionTextureSample"
+      ],
+      "passed": true
+    },
+    {
+      "material": "M_Steam",
+      "property": "<MaterialProperty.MP_OPACITY: 1>",
+      "classes": [
+        "MaterialExpressionAdd",
+        "MaterialExpressionConstant",
+        "MaterialExpressionDepthFade",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionSine",
+        "MaterialExpressionTextureCoordinate",
+        "MaterialExpressionTextureSample",
+        "MaterialExpressionTime"
+      ],
+      "expected": [
+        "MaterialExpressionTime",
+        "MaterialExpressionSine",
+        "MaterialExpressionDepthFade",
+        "MaterialExpressionTextureSample"
+      ],
+      "passed": true
+    },
+    {
+      "material": "M_Steam",
+      "property": "<MaterialProperty.MP_WORLD_POSITION_OFFSET: 12>",
+      "classes": [
+        "MaterialExpressionConstant3Vector",
+        "MaterialExpressionMultiply",
+        "MaterialExpressionSine",
+        "MaterialExpressionTime"
+      ],
+      "expected": [
+        "MaterialExpressionTime",
+        "MaterialExpressionSine"
+      ],
+      "passed": true
+    }
+  ],
+  "technique": "Artistic animated opaque water and translucent steam cards; no fluid, refraction or thermodynamics simulation"
+}

@@ -1,9 +1,9 @@
 {
-  "started_at_utc": "2026-10-22T15:47:10.151869+00:00",
+  "started_at_utc": "2026-10-22T16:12:18.007581+00:00",
   "source_hashes": {
-    "SourceArt\\SansolSprings.blend": "19af951e7319c1910b8f861e0af7b6d3c00dde8e98da727d7be847bce2e47e31",
-    "scene_manifest.json": "1745433b763e118453c011f5df48106f396ec66f152e43e9703bcfd5d3fe790e",
-    "author_scene.py": "0226bb4c7a6a4dc2ad3b2640b5ddd4480b70823303882d449d3546b4f5dff9f3"
+    "SourceArt\\SansolSprings.blend": "086d6cfabc9489bccd37efe90d6a75d11495bdd0071253ccdf4cfc91dd62bedf",
+    "scene_manifest.json": "061f561020f9b8d69336e08af2dc86f4b2f31d974fb7b35e24b1e6af0f5b512e",
+    "author_scene.py": "7426516f0f5ced9e2896c52a147262faf436955db5d62b5f9cbacd577421a7c7"
   },
   "blender_version": "4.5.12 LTS",
   "policy": "Read-only saved Blender mesh inspection; geometry and world coordinates in meters. No author code executed.",
@@ -1091,7 +1091,7 @@
         ]
       ],
       "nonfinite_vertices": 0,
-      "area_m2": 10460.871294270699,
+      "area_m2": 10461.500273455491,
       "degenerate_triangle_count": 0,
       "degenerate_triangle_ids": [],
       "uv_layer": "SurfaceUV",
@@ -1102,11 +1102,11 @@
       "uv_bounds": [
         [
           0.00103759765625,
-          0.9988113641738892
+          0.9987977147102356
         ],
         [
           0.00103759765625,
-          0.3447761535644531
+          0.3447818458080292
         ]
       ],
       "atlas_pixels": 16384,
@@ -1115,12 +1115,12 @@
         "count": 20000,
         "min": 31.999343984555285,
         "p01": 31.999689249675622,
-        "p05": 31.999810122210693,
-        "median": 32.00002889577452,
-        "p95": 32.00016835453901,
-        "p99": 32.00027157417403,
-        "max": 32.00050155767359,
-        "mean": 32.000002323866894
+        "p05": 31.999815061480195,
+        "median": 32.00003436959135,
+        "p95": 32.000176539645665,
+        "p99": 32.000274508784706,
+        "max": 32.00043424725815,
+        "mean": 32.000005256065
       },
       "density_outliers_over_5_percent_count": 0,
       "density_worst_outliers": [],
@@ -1130,11 +1130,11 @@
         "min": 0.4434138238430023,
         "p01": 0.6948502159118652,
         "p05": 0.8055802583694458,
-        "median": 0.998630166053772,
+        "median": 0.9986370801925659,
         "p95": 1.0,
         "p99": 1.0,
         "max": 1.0,
-        "mean": 0.962587484550476
+        "mean": 0.9625416396200657
       },
       "uv_islands": {
         "recovered_islands": 20000,
@@ -12771,9 +12771,9 @@
             4.105000019073486,
             5.159999847412109
           ],
-          "terrain_z_m": 6.657081604003906,
-          "bottom_clearance_m": -1.4970817565917969,
-          "terrain_above_foundation_top_m": 0.37708187103271484
+          "terrain_z_m": 6.273536682128906,
+          "bottom_clearance_m": -1.1135368347167969,
+          "terrain_above_foundation_top_m": -0.006463050842285156
         }
       ],
       "actual_bounds_m": [
@@ -12791,7 +12791,7 @@
         ]
       ],
       "unsupported_corner_count": 0,
-      "terrain_above_foundation_top_corner_count": 1
+      "terrain_above_foundation_top_corner_count": 0
     },
     {
       "name": "upper_lodge",
@@ -22766,8 +22766,8 @@
     }
   ],
   "source_unchanged_during_inspection": true,
-  "finished_at_utc": "2026-10-22T15:47:12.845856+00:00",
-  "elapsed_seconds": 2.687000000034459,
+  "finished_at_utc": "2026-10-22T16:12:20.876134+00:00",
+  "elapsed_seconds": 2.875,
   "summary": {
     "mesh_count": 18,
     "total_triangles": 67010,
@@ -22780,6 +22780,7 @@
     "path_min_exposed_clearance_m": -0.007161378860473633,
     "path_exposed_terrain_above_5mm_count": 3,
     "unsupported_foundation_corners": 0,
+    "terrain_above_foundation_top_corners_over_5mm": 0,
     "unsupported_stair_bottom_samples_over_5mm": 0,
     "stream_outside_route_buried_centroids_over_5mm": 4,
     "buried_stair_tread_samples_over_5mm": 0

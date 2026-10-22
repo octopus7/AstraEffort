@@ -38,7 +38,7 @@ API_EVIDENCE = {
     "import_coordinate_flags": "Engine/Source/Editor/UnrealEd/Classes/Factories/FbxAssetImportData.h:42",
     "full_precision_uv": "Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h:2739",
     "line_trace_profile": "Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h:1524",
-    "break_hit_result": "Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStatics.h:1079",
+    "hit_result_decode": "Python HitResult.to_tuple(); NativeBreakFunc GameplayStatics helper is not exposed",
     "material_textures": "Engine/Source/Editor/MaterialEditor/Public/MaterialEditingLibrary.h:237",
     "external_packages": "Engine/Plugins/Experimental/PythonScriptPlugin/Source/PythonScriptPlugin/Private/PyWrapperObject.cpp:1123",
     "dirty_packages": "Engine/Source/Editor/UnrealEd/Public/FileHelpers.h:136",
@@ -318,7 +318,9 @@ def _trace(world, x, y, high, low, ignored):
         ignored, unreal.DrawDebugTrace.NONE, True)
     if hit is None:
         return None
-    b = unreal.GameplayStatics.break_hit_result(hit)
+    b = hit.to_tuple()
+    if len(b) != 18:
+        raise RuntimeError('Unexpected HitResult tuple layout: %d fields' % len(b))
     return {"blocking": bool(b[0]), "initial_overlap": bool(b[1]), "distance_cm": float(b[3]),
             "impact_cm": _vec(b[5]), "normal": _vec(b[7]), "actor": _path(b[9]),
             "actor_label": b[9].get_actor_label() if b[9] else None, "component": _path(b[10])}
@@ -459,6 +461,16 @@ def run_static_validation(world, manifest, output_path):
         report["dirty_owned_packages_before"] = dirty_before
         _check(report, "saved_map", "fresh_clean_saved_packages", not dirty_before, dirty_before)
         actors = list(unreal.GameplayStatics.get_all_actors_of_class(world, unreal.Actor))
+        sky_actors = [a for a in actors if a.get_actor_label() == 'Muted sky backdrop']
+        _check(report, 'sky', 'one_backdrop', len(sky_actors) == 1, len(sky_actors))
+        for sky_actor in sky_actors:
+            sky_component = sky_actor.get_component_by_class(unreal.StaticMeshComponent)
+            sky_state = {'actor_collision': sky_actor.get_actor_enable_collision(),
+                         'component_collision': str(sky_component.get_collision_enabled()),
+                         'profile': str(sky_component.get_collision_profile_name())}
+            _check(report, 'sky', 'nonblocking_saved_backdrop',
+                   not sky_state['actor_collision'] and sky_component.get_collision_enabled() == unreal.CollisionEnabled.NO_COLLISION
+                   and sky_state['profile'] == 'NoCollision', sky_state)
         _check(report, "saved_map", "map_name", world_package == MAP, world_package, MAP)
         wp = world.get_world_settings().get_editor_property("world_partition")
         _check(report, "saved_map", "non_world_partition", wp is None, _path(wp))

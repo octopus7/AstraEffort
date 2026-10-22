@@ -272,6 +272,7 @@ result['summary']={'mesh_count':len(meshes),'total_triangles':sum(len(o.data.pol
     'path_min_exposed_clearance_m':result['path_clearance']['exposed_walking_surfaces']['clearance_m']['min'],
     'path_exposed_terrain_above_5mm_count':result['path_clearance']['exposed_walking_surfaces']['terrain_above_by_more_than_0_005m_count'],
     'unsupported_foundation_corners':sum(r.get('unsupported_corner_count',4) for r in foundations),
+    'terrain_above_foundation_top_corners_over_5mm':sum(r.get('terrain_above_foundation_top_corner_count',4) for r in foundations),
     'unsupported_stair_bottom_samples_over_5mm':sum(r['unsupported_bottom_samples_over_5mm'] for r in stair_results),
     'stream_outside_route_buried_centroids_over_5mm':len(result['stream_visibility']['unintended_buried_centroids_over_5mm']),
     'buried_stair_tread_samples_over_5mm':sum(r['summary']['terrain_above_by_more_than_0_005m_count'] for r in stair_results)}

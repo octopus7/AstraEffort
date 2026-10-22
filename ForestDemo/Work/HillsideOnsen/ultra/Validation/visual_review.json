@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-22T16:25:24.476026+00:00",
+  "reviewer": "root visual inspection through view_image",
+  "passed": true,
+  "capture_manifest_sha256": "ed82390359746d677d2f38f93bb2e57a495637a5b0c382985b77e30d5547fcad",
+  "reviewed_views": [
+    {
+      "name": "overview",
+      "sha256": "06a75c7a1bd84dd748b2c0e3719f342cf7659dc6fa20e6b68b7d5f497b2fa570",
+      "observation": "Four buildings, two baths, terraced hillside and connecting routes visible. Muted sky covers frame without diagnostic text. Upper edge of terrain preserved; near front-left terrain clips slightly at image border."
+    },
+    {
+      "name": "top_down",
+      "sha256": "e0593ba2a6d78d34ea3326e2da8e36ecebb08341dd1c1f3152eea0afcb0b39b2",
+      "observation": "100m footprint, zigzag access route, two stair connections, bridge and two baths read clearly. Perspective top-down view, not orthographic."
+    },
+    {
+      "name": "village_path",
+      "sha256": "b09bf71fb799d69f90e7ac64354566f45765fa50fd35da41bd2c38993e7bdcff",
+      "observation": "Actual close view shows building facade, rail, steps, bath rim and subtle steam. Thin path sheet edges and a localized angular apron/terrain transition remain visible."
+    },
+    {
+      "name": "hot_spring",
+      "sha256": "679e67a1e130e2e4fabc9acccc8b70f4039f76a07d042e41df4d722426c2806f",
+      "observation": "Stone rim and opaque turquoise water are visible with soft vertical vapor above both water and grass; bathhouse and upper watercourse provide context."
+    },
+    {
+      "name": "hot_spring_timed_04s",
+      "sha256": "fb426592ed88765992600a37cadde6b5ab7acb8dfd42fc18a2c89f11dae96fac",
+      "observation": "Same camera. Vapor strength/position and water detail differ locally from base capture."
+    },
+    {
+      "name": "hot_spring_timed_08s",
+      "sha256": "3cdc93ae75d8e7fbab52d62a04d2034f9266f03950512751edd3ead05fc07ff9",
+      "observation": "Same camera. Vapor is less pronounced above grass than base capture; water pattern differs. No fluid simulation claim."
+    }
+  ],
+  "temporal_interpretation": "Visible localized vapor/water changes and verified Time/Panner/Sine graphs jointly support artistic animation. Pixel differences alone are not considered proof because temporal rendering also varies.",
+  "limitations": [
+    "Small path-edge/terrain slivers remain; geometry audit documents residual7.16mm intrusion.",
+    "Stream intentionally disappears below bridge and bank transition.",
+    "Opaque water and crossed steam cards are artistic approximations."
+  ]
+}

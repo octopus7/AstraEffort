@@ -7,9 +7,10 @@ last route point must be beyond it.  Optional obstacle_actor_label strengthens
 identification.  The callback receives the final JSON-compatible report.  This
 module leaves PIE running so the caller controls captures and editor shutdown.
 
-No location/transform setters are used to produce walking evidence.  A fresh
-native Character is spawned at each route's first point, then all motion is
-CharacterMovement gravity/collision plus continuous AddMovementInput.
+No location/transform setters are used to produce walking evidence. One native
+Character is placed temporarily in the editor at each route's first point before
+PIE. Its PIE duplicate remains disabled until that route starts, then all motion
+is CharacterMovement gravity/collision plus continuous AddMovementInput.
 """
 
 import datetime
@@ -18,6 +19,7 @@ import math
 from pathlib import Path
 import time
 import traceback
+import uuid
 
 try:
     import unreal
@@ -124,8 +126,12 @@ class RuntimeProbe:
         self.editor_world = editor_world
         self.editor = unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem)
         self.level_editor = unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
+        self.actor_editor = unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
         self.world = self.character = self.movement = self.capsule = None
         self.controller = self.original_pawn = None
+        self.editor_characters = []
+        self.pie_characters = {}
+        self.route_tags = ["OnsenRuntimeProbe_%s_%d" % (uuid.uuid4().hex, i) for i in range(len(self.routes))]
         self.handle = None
         self.tick_callback = self._tick
         self.started = self.last_game_advance_wall = time.monotonic()
@@ -140,17 +146,75 @@ class RuntimeProbe:
                        "movement_driver": "native /Script/Engine.Character + CharacterMovement + AddMovementInput",
                        "capsule_radius_cm": self.CAPSULE_RADIUS, "capsule_half_height_cm": self.CAPSULE_HALF_HEIGHT,
                        "max_walk_speed_cm_per_second": self.MAX_WALK_SPEED,
-                       "reset_policy": "fresh runtime spawn at each route start; no movement teleports",
+                       "reset_policy": "distinct unsaved nontransient editor-preplaced Character duplicated into PIE for each route; no movement teleports",
+                       "preplaced_characters": [],
                        "routes": [], "blockers": [], "warnings": [], "pie_left_running": False}
         if self.level_editor.is_in_play_in_editor():
             raise RuntimeError("End existing PIE/SIE first: probe requires its own explicit PlayInEditor request")
         self._write()
-        self.handle = unreal.register_slate_pre_tick_callback(self.tick_callback)
         _ACTIVE_PROBES.append(self)
         try:
+            self._prepare_editor_characters()
+            self.handle = unreal.register_slate_pre_tick_callback(self.tick_callback)
             self.level_editor.editor_request_begin_play()
         except Exception:
-            self._finish("failed", "PIE request failed", traceback.format_exc())
+            self._finish("failed", "Temporary Character preparation or PIE request failed", traceback.format_exc())
+
+    def _prepare_editor_characters(self):
+        """Editor-only unsaved preparation; nontransient permits PIE copying."""
+        for index, route in enumerate(self.routes):
+            point = route["points"][0]
+            center = [point[0], point[1], point[2] + self.CAPSULE_HALF_HEIGHT + 3.0]
+            actor = self.actor_editor.spawn_actor_from_class(
+                unreal.Character, unreal.Vector(*center), unreal.Rotator(0.0, 0.0, 0.0), False)
+            if actor is None:
+                raise RuntimeError("Temporary editor Character spawn failed for " + route["name"])
+            self.editor_characters.append(actor)
+            actor.set_editor_property("tags", [self.route_tags[index]])
+            actor.set_editor_property("auto_possess_player", unreal.AutoReceiveInput.DISABLED)
+            actor.set_editor_property("auto_possess_ai", unreal.AutoPossessAI.DISABLED)
+            capsule = actor.get_editor_property("capsule_component")
+            movement = actor.get_editor_property("character_movement")
+            capsule.set_capsule_size(self.CAPSULE_RADIUS, self.CAPSULE_HALF_HEIGHT, True)
+            capsule.set_collision_profile_name("NoCollision", True)
+            capsule.set_collision_enabled(unreal.CollisionEnabled.NO_COLLISION)
+            movement.set_editor_property("run_physics_with_no_controller", False)
+            movement.set_editor_property("default_land_movement_mode", unreal.MovementMode.MOVE_NONE)
+            movement.set_editor_property("default_water_movement_mode", unreal.MovementMode.MOVE_NONE)
+            movement.set_editor_property("max_walk_speed", self.MAX_WALK_SPEED)
+            movement.set_editor_property("max_step_height", 35.0)
+            movement.set_editor_property("air_control", 0.0)
+            movement.set_editor_property("auto_activate", False)
+            movement.set_walkable_floor_angle(45.0)
+            movement.set_movement_mode(unreal.MovementMode.MOVE_NONE)
+            movement.deactivate()
+            movement.set_component_tick_enabled(False)
+            actual = _xyz(actor.get_actor_location())
+            if _distance(actual, center) > 1.0:
+                raise RuntimeError("Editor spawn did not preserve requested center for " + route["name"])
+            self.report["preplaced_characters"].append({
+                "route": route["name"], "tag": self.route_tags[index],
+                "editor_actor": actor.get_path_name(), "center_cm": actual,
+                "transient": False, "saved": False,
+                "inactive_movement_mode": "MOVE_NONE", "inactive_collision": "NoCollision"})
+        self._write()
+
+    def _find_pie_characters(self):
+        characters = unreal.GameplayStatics.get_all_actors_of_class(self.world, unreal.Character)
+        matches = {tag: [] for tag in self.route_tags}
+        self.report["pie_character_inventory"] = []
+        for actor in characters:
+            tags = [str(t) for t in actor.get_editor_property("tags")]
+            self.report["pie_character_inventory"].append({"actor": actor.get_path_name(), "tags": tags})
+            for tag in tags:
+                if tag in matches:
+                    matches[tag].append(actor)
+        self.report["pie_character_tag_matches"] = {tag: [_path.get_path_name() for _path in actors]
+                                                      for tag, actors in matches.items()}
+        for index, tag in enumerate(self.route_tags):
+            if len(matches[tag]) != 1:
+                raise RuntimeError("Expected one PIE Character for tag %s; found %d" % (tag, len(matches[tag])))
+            self.pie_characters[index] = matches[tag][0]
 
     def _write(self):
         self.output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -179,6 +243,7 @@ class RuntimeProbe:
                 self.world = candidate
                 self.report["pie_world"] = world_path
                 self.report["pie_left_running"] = True
+                self._find_pie_characters()
                 self.controller = unreal.GameplayStatics.get_player_controller(self.world, 0)
                 if self.controller:
                     self.original_pawn = self.controller.get_controlled_pawn()
@@ -221,24 +286,22 @@ class RuntimeProbe:
                         "input_ticks": 0, "input_game_seconds": 0.0, "blockers": []}
         self.report["routes"].append(self.current)
         start = self.route["points"][0]
-        transform = unreal.Transform(location=unreal.Vector(start[0], start[1], start[2] + self.CAPSULE_HALF_HEIGHT + 3.0))
-        self.character = unreal.GameplayStatics.begin_deferred_actor_spawn_from_class(
-            self.world, unreal.Character, transform, unreal.SpawnActorCollisionHandlingMethod.ALWAYS_SPAWN)
-        if self.character is None:
-            raise RuntimeError("Deferred native Character spawn returned None")
+        expected_center = [start[0], start[1], start[2] + self.CAPSULE_HALF_HEIGHT + 3.0]
+        self.character = self.pie_characters.pop(self.index)
+        actual_center = _xyz(self.character.get_actor_location())
+        self.current["preplaced_tag"] = self.route_tags[self.index]
+        self.current["preactivation_center_cm"] = actual_center
+        self.current["preactivation_position_error_cm"] = _distance(actual_center, expected_center)
+        if self.current["preactivation_position_error_cm"] > 1.0:
+            raise RuntimeError("Inactive PIE Character moved before route activation: " + self.route["name"])
         self.capsule = self.character.get_editor_property("capsule_component")
         self.movement = self.character.get_editor_property("character_movement")
-        self.capsule.set_capsule_size(self.CAPSULE_RADIUS, self.CAPSULE_HALF_HEIGHT, True)
+        self.current["preactivation_collision_diagnostics"] = self._preactivation_collision_diagnostics(actual_center)
+        self._write()
         self.capsule.set_collision_profile_name("Pawn", True)
+        self.capsule.set_collision_enabled(unreal.CollisionEnabled.QUERY_AND_PHYSICS)
         self.movement.set_editor_property("run_physics_with_no_controller", True)
-        self.movement.set_editor_property("max_walk_speed", self.MAX_WALK_SPEED)
-        self.movement.set_editor_property("max_step_height", 35.0)
-        self.movement.set_editor_property("air_control", 0.0)
         self.movement.set_editor_property("default_land_movement_mode", unreal.MovementMode.MOVE_WALKING)
-        self.movement.set_walkable_floor_angle(45.0)
-        self.character = unreal.GameplayStatics.finish_spawning_actor(self.character, transform)
-        if self.character.get_world() != self.world:
-            raise RuntimeError("Probe Character was not spawned in the PIE world")
         if self.controller:
             self.controller.possess(self.character)
             if self.controller.get_controlled_pawn() != self.character:
@@ -260,6 +323,57 @@ class RuntimeProbe:
         self.last_sample_game = None
         self.last_trace_game = -1.0
         self._write()
+
+    def _preactivation_collision_diagnostics(self, center):
+        """Read-only queries before enabling this Character's collision/physics."""
+        result = {"game_seconds": self._game_time(), "sky_actors": [], "errors": []}
+        try:
+            actors = unreal.GameplayStatics.get_all_actors_of_class(self.world, unreal.StaticMeshActor)
+            for actor in actors:
+                label = actor.get_actor_label()
+                if "sky" not in label.lower():
+                    continue
+                component = actor.get_editor_property("static_mesh_component")
+                result["sky_actors"].append({
+                    "actor": actor.get_path_name(), "actor_label": label,
+                    "actor_collision_enabled": bool(actor.get_actor_enable_collision()),
+                    "component": component.get_path_name(),
+                    "component_collision_enabled": str(component.get_collision_enabled()),
+                    "component_collision_profile": str(component.get_collision_profile_name())})
+        except Exception:
+            result["errors"].append({"query": "PIE sky collision settings", "exception": traceback.format_exc()})
+        end = [center[0], center[1], center[2] - 20.0]
+        trace = {"evidence_type": "preactivation_read_only_capsule_trace_by_Pawn_profile",
+                 "trace_start_cm": center[:], "trace_end_cm": end,
+                 "capsule_radius_cm": self.CAPSULE_RADIUS, "capsule_half_height_cm": self.CAPSULE_HALF_HEIGHT,
+                 "trace_complex": False, "blocking_hit": False, "start_penetrating": False}
+        result["downward_capsule_trace"] = trace
+        try:
+            ignored = [self.character]
+            if self.original_pawn:
+                ignored.append(self.original_pawn)
+            hit = unreal.SystemLibrary.capsule_trace_single_by_profile(
+                self.world, unreal.Vector(*center), unreal.Vector(*end),
+                self.CAPSULE_RADIUS, self.CAPSULE_HALF_HEIGHT, "Pawn", False,
+                ignored, unreal.DrawDebugTrace.NONE, True)
+            if hit is not None:
+                broken = hit.to_tuple()
+                if len(broken) < 18:
+                    raise RuntimeError("Unexpected HitResult.to_tuple layout: %d fields" % len(broken))
+                actor, component = broken[9], broken[10]
+                trace.update({"blocking_hit": bool(broken[0]), "start_penetrating": bool(broken[1]),
+                              "trace_time": float(broken[2]), "trace_distance_cm": float(broken[3]),
+                              "location_cm": _xyz(broken[4]), "impact_point_cm": _xyz(broken[5]),
+                              "hit_normal": _xyz(broken[6]), "impact_normal": _xyz(broken[7]),
+                              "actor": actor.get_path_name() if actor else None,
+                              "actor_label": actor.get_actor_label() if actor else None,
+                              "component": component.get_path_name() if component else None})
+        except Exception:
+            result["errors"].append({"query": "preactivation downward Pawn capsule trace", "exception": traceback.format_exc()})
+            trace["blocking_hit"] = trace["start_penetrating"] = None
+        if result["errors"]:
+            self.report["warnings"].append("Preactivation collision diagnostics incomplete for " + self.route["name"])
+        return result
 
     def _sample(self, game_seconds):
         location = _xyz(self.character.get_actor_location())
@@ -352,8 +466,12 @@ class RuntimeProbe:
         if hit is None:
             return
         # PackReturnValues returns HitResult or None, not (bool, HitResult).
-        # BreakHitResult has 18 out parameters; exact order is in GameplayStatics.h.
-        broken = unreal.GameplayStatics.break_hit_result(hit)
+        # NativeBreakFunc methods are omitted from the Python library class.
+        # Struct.to_tuple() invokes the registered native break and exposes its
+        # 18 outputs in the known order (blocking, overlap, time, distance, ...).
+        broken = hit.to_tuple()
+        if len(broken) < 18:
+            raise RuntimeError("Unexpected HitResult.to_tuple layout: %d fields" % len(broken))
         other_actor, other_component = broken[9], broken[10]
         record = {"game_seconds": sample["game_seconds"],
                   "evidence_type": "capsule_trace_by_Pawn_profile_at_observed_character_position",
@@ -439,12 +557,27 @@ class RuntimeProbe:
             self.handle = None
         try:
             self._destroy_character()
+            for actor in self.pie_characters.values():
+                if unreal.SystemLibrary.is_valid(actor):
+                    actor.destroy_actor()
+            self.pie_characters.clear()
             if self.original_pawn and unreal.SystemLibrary.is_valid(self.original_pawn):
                 self.original_pawn.set_actor_enable_collision(self.original_collision)
                 if self.controller and unreal.SystemLibrary.is_valid(self.controller):
                     self.controller.possess(self.original_pawn)
         except Exception as exc:
             self.report["warnings"].append("Cleanup: " + str(exc))
+        # Editor preparation is deliberately never saved. While
+        # PIE is active the editor actor subsystem refuses editing operations;
+        # the private editor's shutdown disposes of these unsaved source actors.
+        if self.world is None:
+            for actor in self.editor_characters:
+                try:
+                    if unreal.SystemLibrary.is_valid(actor):
+                        self.actor_editor.destroy_actor(actor)
+                except Exception as exc:
+                    self.report["warnings"].append("Editor preparation cleanup: " + str(exc))
+        self.report["editor_preparation_saved"] = False
         self._write()
         if self in _ACTIVE_PROBES:
             _ACTIVE_PROBES.remove(self)

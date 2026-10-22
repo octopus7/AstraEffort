@@ -131,6 +131,11 @@ def height(x,y):
     if channel_d<2 and main_d>2.2 and not protected_apron:
         f=1-smooth(.9,2,channel_d)
         z=min(z,z*(1-f)+(channel_z-.20)*f)
+    # Route-bank blending must not rise through a building's foundation.
+    # Cover adjacent 1m grid vertices too, so interpolated footprint corners stay clear.
+    for bx,by,bz,bw,bd,bh,name in BUILDINGS:
+        if abs(x-bx)<=bw/2+.55 and abs(y-by)<=bd/2+.55:
+            z=min(z,bz)
     return z
 
 def ribbon(cat,pts,width,thickness=0,segments=1,conform=False):

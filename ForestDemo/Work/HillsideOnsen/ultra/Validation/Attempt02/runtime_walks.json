@@ -1,0 +1,125 @@
+{
+  "schema": "hillside_onsen_native_character_probe_v1",
+  "status": "failed",
+  "started_at_utc": "2026-10-22T16:07:15.306361+00:00",
+  "editor_world": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra",
+  "piemode": "requested PlayInEditor via editor_request_begin_play",
+  "movement_driver": "native /Script/Engine.Character + CharacterMovement + AddMovementInput",
+  "capsule_radius_cm": 28.0,
+  "capsule_half_height_cm": 88.0,
+  "max_walk_speed_cm_per_second": 250.0,
+  "reset_policy": "distinct transient editor-preplaced Character duplicated into PIE for each route; no movement teleports",
+  "preplaced_characters": [
+    {
+      "route": "arrival_flat",
+      "tag": "OnsenRuntimeProbe_1e8b30819a2b4f9eb2217ce82d8b6fa7_0",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_0",
+      "center_cm": [
+        0.0,
+        -4500.0,
+        351.0
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    },
+    {
+      "route": "lower_switchback",
+      "tag": "OnsenRuntimeProbe_97ff9d175a5649eea994b18714592ade_1",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_1",
+      "center_cm": [
+        -2400.0,
+        -2320.0,
+        377.18
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    },
+    {
+      "route": "upper_switchback",
+      "tag": "OnsenRuntimeProbe_9345639e84d94815a45c274e6e3234cc_2",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_2",
+      "center_cm": [
+        2400.0,
+        533.93,
+        745.8199999999999
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    },
+    {
+      "route": "stream_bridge",
+      "tag": "OnsenRuntimeProbe_43ecb0b68f0e440192a7925109b8bc3f_3",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_3",
+      "center_cm": [
+        800.0,
+        962.5,
+        857.25
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    },
+    {
+      "route": "lower_stairs",
+      "tag": "OnsenRuntimeProbe_5f02958361d0459bbf8437d056ac2681_4",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_4",
+      "center_cm": [
+        -2400.0,
+        -1970.0,
+        468.3333
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    },
+    {
+      "route": "upper_stairs",
+      "tag": "OnsenRuntimeProbe_61b1b3847e7d4aab887a7d27a952dd50_5",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_5",
+      "center_cm": [
+        2500.0,
+        1125.0,
+        728.7273
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    },
+    {
+      "route": "bathhouse_wall_blocks",
+      "tag": "OnsenRuntimeProbe_6e243edb275b4bfe995f490ec768a1e7_6",
+      "editor_actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.Character_6",
+      "center_cm": [
+        1300.0,
+        -800.0,
+        711.0
+      ],
+      "transient": true,
+      "inactive_movement_mode": "MOVE_NONE",
+      "inactive_collision": "NoCollision"
+    }
+  ],
+  "routes": [],
+  "blockers": [
+    "Unreal API/runtime exception"
+  ],
+  "warnings": [],
+  "pie_left_running": true,
+  "pie_world": "/Game/Maps/UEDPIE_0_HillsideOnsen_ultra.HillsideOnsen_ultra",
+  "pie_character_tag_matches": {
+    "OnsenRuntimeProbe_1e8b30819a2b4f9eb2217ce82d8b6fa7_0": [],
+    "OnsenRuntimeProbe_97ff9d175a5649eea994b18714592ade_1": [],
+    "OnsenRuntimeProbe_9345639e84d94815a45c274e6e3234cc_2": [],
+    "OnsenRuntimeProbe_43ecb0b68f0e440192a7925109b8bc3f_3": [],
+    "OnsenRuntimeProbe_5f02958361d0459bbf8437d056ac2681_4": [],
+    "OnsenRuntimeProbe_61b1b3847e7d4aab887a7d27a952dd50_5": [],
+    "OnsenRuntimeProbe_6e243edb275b4bfe995f490ec768a1e7_6": []
+  },
+  "finished_at_utc": "2026-10-22T16:07:15.459562+00:00",
+  "elapsed_wall_seconds": 0.15700000000651926,
+  "exception": "Traceback (most recent call last):\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\runtime_probe.py\", line 242, in _tick\n    self._find_pie_characters()\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\runtime_probe.py\", line 212, in _find_pie_characters\n    raise RuntimeError(\"Expected one PIE Character for tag %s; found %d\" % (tag, len(matches[tag])))\nRuntimeError: Expected one PIE Character for tag OnsenRuntimeProbe_1e8b30819a2b4f9eb2217ce82d8b6fa7_0; found 0\n",
+  "editor_preparation_saved": false
+}
