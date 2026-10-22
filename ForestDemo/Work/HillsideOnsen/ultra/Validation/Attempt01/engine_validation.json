@@ -1,0 +1,6217 @@
+{
+  "schema": "hillside_onsen_saved_map_static_validation_v1",
+  "status": "failed",
+  "passed": false,
+  "started_at_utc": "2026-10-22T15:48:23.294754+00:00",
+  "map": "/Game/Maps/HillsideOnsen_ultra",
+  "owned_root": "/Game/HillsideOnsen/ultra",
+  "checks": [
+    {
+      "scope": "saved_map",
+      "name": "fresh_clean_saved_packages",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "saved_map",
+      "name": "map_name",
+      "passed": true,
+      "observed": "/Game/Maps/HillsideOnsen_ultra",
+      "expected": "/Game/Maps/HillsideOnsen_ultra"
+    },
+    {
+      "scope": "saved_map",
+      "name": "non_world_partition",
+      "passed": true
+    },
+    {
+      "scope": "saved_map",
+      "name": "no_external_actor_or_component_packages",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "saved_map",
+      "name": "one_player_start",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "saved_map",
+      "name": "player_start_position",
+      "passed": true,
+      "observed": [
+        0.0,
+        -4400.0,
+        360.0
+      ],
+      "expected": [
+        0,
+        -4400,
+        360
+      ]
+    },
+    {
+      "scope": "manifest",
+      "name": "eighteen_authored_meshes",
+      "passed": true,
+      "observed": 18,
+      "expected": 18
+    },
+    {
+      "scope": "manifest",
+      "name": "unique_mesh_names",
+      "passed": true
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Terrain"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 1.5967635135893943e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 1.5967635135893943e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Terrain.M_Terrain",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Terrain"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Terrain.M_Terrain",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Terrain"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor.T_Grass_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor"
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 60000,
+      "expected": 60000
+    },
+    {
+      "scope": "SM_Terrain",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 20000,
+      "expected": 20000
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Earth"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Earth"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 1.5967635135893943e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 1.5967635135893943e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Earth.M_Earth",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Earth"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Earth.M_Earth",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Earth"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor.T_Limestone_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor"
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 1600,
+      "expected": 1600
+    },
+    {
+      "scope": "SM_Earth",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 800,
+      "expected": 800
+    },
+    {
+      "scope": "SM_Path",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Path"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Path",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Path",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Path",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Path",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Path"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Path",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Path",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Path.M_Path",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Path"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Path.M_Path",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Path"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor.T_Gravel_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor"
+    },
+    {
+      "scope": "SM_Path",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 7482,
+      "expected": 7482
+    },
+    {
+      "scope": "SM_Path",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 3220,
+      "expected": 3220
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_DarkWood"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_DarkWood.M_DarkWood",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_DarkWood"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_DarkWood.M_DarkWood",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_DarkWood"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor.T_Cedar_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor"
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 13015,
+      "expected": 13015
+    },
+    {
+      "scope": "SM_DarkWood",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 6204,
+      "expected": 6204
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Cedar"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 0.000244140625,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 0.000244140625,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Cedar.M_Cedar",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Cedar"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Cedar.M_Cedar",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Cedar"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor.T_Cedar_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor"
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 12562,
+      "expected": 12562
+    },
+    {
+      "scope": "SM_Cedar",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 6036,
+      "expected": 6036
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Stone"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Stone"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 9.885798590403283e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 9.885798590403283e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Stone.M_Stone",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Stone"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Stone.M_Stone",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Stone"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor.T_Limestone_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor"
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 24528,
+      "expected": 24528
+    },
+    {
+      "scope": "SM_Stone",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 11280,
+      "expected": 11280
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_BathStone"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 0.0001572389460307022,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 0.0001572389460307022,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_BathStone.M_BathStone",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_BathStone"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_BathStone.M_BathStone",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_BathStone"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor.T_Limestone_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor"
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 17424,
+      "expected": 17424
+    },
+    {
+      "scope": "SM_BathStone",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 5808,
+      "expected": 5808
+    },
+    {
+      "scope": "SM_Water",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Water"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Water",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Water",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Water",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Water",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Water"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 4.882812527284841e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Water",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Water",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 4.882812527284841e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Water.M_Water",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Water"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Water.M_Water",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Water"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples.T_Water_Ripples"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples"
+    },
+    {
+      "scope": "SM_Water",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 2944,
+      "expected": 2944
+    },
+    {
+      "scope": "SM_Water",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 1408,
+      "expected": 1408
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Steam"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Steam"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 0.00016583125898250728,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 0.00016583125898250728,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Steam.M_Steam",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Steam"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Steam.M_Steam",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Steam"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity.T_Steam_Opacity"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity"
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 104,
+      "expected": 104
+    },
+    {
+      "scope": "SM_Steam",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 52,
+      "expected": 52
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Stream"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Stream"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 8.392333984375e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 8.392333984375e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Stream.M_Stream",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Stream"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Stream.M_Stream",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Stream"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples.T_Water_Ripples"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples"
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 196,
+      "expected": 196
+    },
+    {
+      "scope": "SM_Stream",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 98,
+      "expected": 98
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Plaster"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Plaster.M_Plaster",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Plaster"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Plaster.M_Plaster",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Plaster"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor.T_Plaster_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor"
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 490,
+      "expected": 490
+    },
+    {
+      "scope": "SM_Plaster",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 240,
+      "expected": 240
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Glass"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Glass"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 6.103515625e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 6.103515625e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Glass.M_Glass",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Glass"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Glass.M_Glass",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Glass"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor.T_Plaster_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor"
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 2730,
+      "expected": 2730
+    },
+    {
+      "scope": "SM_Glass",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 1320,
+      "expected": 1320
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Roof"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Roof"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 9.1552734375e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Roof.M_Roof",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Roof"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Roof.M_Roof",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Roof"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor.T_Slate_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor"
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 1819,
+      "expected": 1819
+    },
+    {
+      "scope": "SM_Roof",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 944,
+      "expected": 944
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Fabric"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 7.62939453125e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 7.62939453125e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Fabric.M_Fabric",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Fabric"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Fabric.M_Fabric",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Fabric"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor.T_Plaster_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor"
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 960,
+      "expected": 960
+    },
+    {
+      "scope": "SM_Fabric",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 480,
+      "expected": 480
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Metal"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Metal"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 4.57763671875e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 4.57763671875e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Metal.M_Metal",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Metal"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Metal.M_Metal",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Metal"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor.T_Slate_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor"
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 328,
+      "expected": 328
+    },
+    {
+      "scope": "SM_Metal",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 168,
+      "expected": 168
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Trunks"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 0.0001220703125,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "expected": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "BlockAll"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 0.0001220703125,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Trunks.M_Trunks",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Trunks"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Trunks.M_Trunks",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Trunks"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor.T_Cedar_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor"
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 864,
+      "expected": 864
+    },
+    {
+      "scope": "SM_Trunks",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 512,
+      "expected": 512
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_LeavesLight"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 0.0002184051354561234,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 0.0002184051354561234,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight.M_LeavesLight",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight.M_LeavesLight",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor.T_Grass_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor"
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 14880,
+      "expected": 14880
+    },
+    {
+      "scope": "SM_LeavesLight",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 4960,
+      "expected": 4960
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "asset_exists",
+      "passed": true,
+      "expected": "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "exact_static_mesh_class",
+      "passed": true,
+      "observed": "/Script/Engine.StaticMesh"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "import_convert_scene_false",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "import_convert_scene_unit_true",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "one_authored_lod",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "complex_as_simple_collision",
+      "passed": true,
+      "observed": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "expected": "CTF_USE_COMPLEX_AS_SIMPLE"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "one_placed_actor",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "actor_label",
+      "passed": true,
+      "observed": "Onsen_Leaves"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "world_bounds_match_source_cm",
+      "passed": true,
+      "observed": 3.7111864003236406e-05,
+      "expected": "<= 1 cm on all six bounds"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "actor_handedness_scale",
+      "passed": true,
+      "observed": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "actor_origin_and_rotation",
+      "passed": true,
+      "observed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "placed_collision_mode",
+      "passed": true,
+      "observed": "<CollisionEnabled.NO_COLLISION: 0>",
+      "expected": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "placed_collision_profile",
+      "passed": true,
+      "observed": "NoCollision"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_full_precision_uv",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_no_generated_lightmap_uv",
+      "passed": true
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_uv0_available",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_single_authored_section",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_section_0_finite_valid_buffers_and_density",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_section_0_local_bounds_import_policy",
+      "passed": true,
+      "observed": 3.7111864003236406e-05,
+      "expected": "<= 1 cm"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_section_0_collision",
+      "passed": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Leaves.M_Leaves",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Leaves"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "placed_section_0_material",
+      "passed": true,
+      "observed": "/Game/HillsideOnsen/ultra/Materials/M_Leaves.M_Leaves",
+      "expected": "/Game/HillsideOnsen/ultra/Materials/M_Leaves"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "generated_texture_used",
+      "passed": true,
+      "observed": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor.T_Grass_BaseColor"
+      ],
+      "expected": "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor"
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "lod_0_all_render_vertices_examined",
+      "passed": true,
+      "observed": 6480,
+      "expected": 6480
+    },
+    {
+      "scope": "SM_Leaves",
+      "name": "exact_source_triangle_count",
+      "passed": true,
+      "observed": 3480,
+      "expected": 3480
+    },
+    {
+      "scope": "dependencies",
+      "name": "owned_root_on_disk_assets",
+      "passed": true,
+      "observed": 47
+    },
+    {
+      "scope": "dependencies",
+      "name": "owned_map_registered_on_disk",
+      "passed": true
+    },
+    {
+      "scope": "dependencies",
+      "name": "all_queries_complete",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "dependencies",
+      "name": "all_references_within_owned_scope_or_builtins",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "scope": "dependencies",
+      "name": "map_has_authored_mesh_references",
+      "passed": true,
+      "observed": [
+        "/Engine/BasicShapes/Sphere",
+        "/Engine/EditorResources/LightIcons/S_LightError",
+        "/Game/HillsideOnsen/ultra/Materials/M_Sky",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Earth",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Glass",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Metal",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Path",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Roof",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Steam",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Stone",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Stream",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Water",
+        "/Script/NavigationSystem"
+      ]
+    },
+    {
+      "scope": "read_only",
+      "name": "no_new_dirty_owned_packages",
+      "passed": true,
+      "observed": []
+    }
+  ],
+  "failures": [],
+  "errors": [
+    {
+      "scope": "ground_support",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\validate_engine.py\", line 490, in run_static_validation\n    operation()\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\validate_engine.py\", line 488, in <lambda>\n    (\"ground_support\", lambda: _validate_ground(report, world, manifest, actors))):\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\validate_engine.py\", line 339, in _validate_ground\n    hit = _trace(world, point[0], point[1], point[2] + 80.0, point[2] - 400.0, ignored)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\validate_engine.py\", line 321, in _trace\n    b = unreal.GameplayStatics.break_hit_result(hit)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'GameplayStatics' has no attribute 'break_hit_result'\n"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "category": "Terrain",
+      "sections": [
+        {
+          "vertices": 60000,
+          "indices": 60000,
+          "triangles": 20000,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              191.75030517578125,
+              1824.24755859375
+            ]
+          ],
+          "surface_area_m2": 10460.871300373494,
+          "uv_area_sum": 0.03990510076471134,
+          "measured_density_px_per_m": {
+            "min": 31.99893401477067,
+            "median": 32.00003350153186,
+            "max": 32.00088716966871
+          },
+          "density_target_px_per_m": 32,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 1.5967635135893943e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Terrain.M_Terrain",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor.T_Grass_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_0",
+          "label": "Onsen_Terrain",
+          "bounds_world_cm": [
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              191.75030517578125,
+              1824.24755859375
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 1.5967635135893943e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain.SM_Terrain",
+      "expected_world_bounds_cm": [
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          191.75030575555192,
+          1824.2475426261149
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          191.75030575555192,
+          1824.2475426261149
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 10201,
+      "source_triangle_count": 20000,
+      "imported_lod0_triangle_count": 20000
+    },
+    {
+      "name": "SM_Earth",
+      "category": "Earth",
+      "sections": [
+        {
+          "vertices": 1600,
+          "indices": 2400,
+          "triangles": 800,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              -100.0,
+              1824.24755859375
+            ]
+          ],
+          "surface_area_m2": 3800.1000012207096,
+          "uv_area_sum": 0.23193968884152127,
+          "measured_density_px_per_m": {
+            "min": 63.99993955927451,
+            "median": 63.999997391375395,
+            "max": 64.00006117139755
+          },
+          "density_target_px_per_m": 64,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 1.5967635135893943e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Earth.M_Earth",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor.T_Limestone_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_1",
+          "label": "Onsen_Earth",
+          "bounds_world_cm": [
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              -5000.0,
+              5000.0
+            ],
+            [
+              -100.0,
+              1824.24755859375
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 1.5967635135893943e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Earth.SM_Earth",
+      "expected_world_bounds_cm": [
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          -100.0,
+          1824.2475426261149
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          -5000.0,
+          5000.0
+        ],
+        [
+          -100.0,
+          1824.2475426261149
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 808,
+      "source_triangle_count": 800,
+      "imported_lod0_triangle_count": 800
+    },
+    {
+      "name": "SM_Path",
+      "category": "Path",
+      "sections": [
+        {
+          "vertices": 7482,
+          "indices": 9660,
+          "triangles": 3220,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -2960.0,
+              3060.0
+            ],
+            [
+              -3556.892822265625,
+              4647.35498046875
+            ],
+            [
+              252.50001525878906,
+              1015.5
+            ]
+          ],
+          "surface_area_m2": 1195.715561596372,
+          "uv_area_sum": 0.16420652371770045,
+          "measured_density_px_per_m": {
+            "min": 95.99555303122969,
+            "median": 96.00013496533101,
+            "max": 96.00943367875915
+          },
+          "density_target_px_per_m": 96,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 9.1552734375e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Path.M_Path",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor.T_Gravel_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_2",
+          "label": "Onsen_Path",
+          "bounds_world_cm": [
+            [
+              -2960.0,
+              3060.0
+            ],
+            [
+              -4647.35498046875,
+              3556.892822265625
+            ],
+            [
+              252.50001525878906,
+              1015.5
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 9.1552734375e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Path.SM_Path",
+      "expected_world_bounds_cm": [
+        [
+          -2960.0,
+          3060.0
+        ],
+        [
+          -4647.354888916016,
+          3556.892776489258
+        ],
+        [
+          252.50000953674316,
+          1015.4999732971191
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -2960.0,
+          3060.0
+        ],
+        [
+          -3556.892776489258,
+          4647.354888916016
+        ],
+        [
+          252.50000953674316,
+          1015.4999732971191
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 2542,
+      "source_triangle_count": 3220,
+      "imported_lod0_triangle_count": 3220
+    },
+    {
+      "name": "SM_DarkWood",
+      "category": "DarkWood",
+      "sections": [
+        {
+          "vertices": 13015,
+          "indices": 18612,
+          "triangles": 6204,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -2837.878662109375,
+              3018.01220703125
+            ],
+            [
+              -3225.999755859375,
+              4027.500244140625
+            ],
+            [
+              252.50001525878906,
+              1629.4498291015625
+            ]
+          ],
+          "surface_area_m2": 252.2438588679065,
+          "uv_area_sum": 0.06158300233140879,
+          "measured_density_px_per_m": {
+            "min": 127.98631166863645,
+            "median": 127.99929639628076,
+            "max": 128.01745911235554
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 9.1552734375e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_DarkWood.M_DarkWood",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor.T_Cedar_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_3",
+          "label": "Onsen_DarkWood",
+          "bounds_world_cm": [
+            [
+              -2837.878662109375,
+              3018.01220703125
+            ],
+            [
+              -4027.500244140625,
+              3225.999755859375
+            ],
+            [
+              252.50001525878906,
+              1629.4498291015625
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 9.1552734375e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood.SM_DarkWood",
+      "expected_world_bounds_cm": [
+        [
+          -2837.8786087036133,
+          3018.012237548828
+        ],
+        [
+          -4027.5001525878906,
+          3225.9998321533203
+        ],
+        [
+          252.50000953674316,
+          1629.4498443603516
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -2837.8786087036133,
+          3018.012237548828
+        ],
+        [
+          -3225.9998321533203,
+          4027.5001525878906
+        ],
+        [
+          252.50000953674316,
+          1629.4498443603516
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 3440,
+      "source_triangle_count": 6204,
+      "imported_lod0_triangle_count": 6204
+    },
+    {
+      "name": "SM_Cedar",
+      "category": "Cedar",
+      "sections": [
+        {
+          "vertices": 12562,
+          "indices": 18108,
+          "triangles": 6036,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -2832.4677734375,
+              2985.0
+            ],
+            [
+              -3209.999755859375,
+              3917.5
+            ],
+            [
+              260.0,
+              1636.0
+            ]
+          ],
+          "surface_area_m2": 570.0339393335221,
+          "uv_area_sum": 0.13916810759728448,
+          "measured_density_px_per_m": {
+            "min": 127.96223544290038,
+            "median": 128.00035511314377,
+            "max": 128.04580433704234
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 0.000244140625,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Cedar.M_Cedar",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor.T_Cedar_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_4",
+          "label": "Onsen_Cedar",
+          "bounds_world_cm": [
+            [
+              -2832.4677734375,
+              2985.0
+            ],
+            [
+              -3917.5,
+              3209.999755859375
+            ],
+            [
+              260.0,
+              1636.0
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 0.000244140625
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar.SM_Cedar",
+      "expected_world_bounds_cm": [
+        [
+          -2832.4676513671875,
+          2985.0000381469727
+        ],
+        [
+          -3917.4999237060547,
+          3210.0
+        ],
+        [
+          259.99999046325684,
+          1636.0
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -2832.4676513671875,
+          2985.0000381469727
+        ],
+        [
+          -3210.0,
+          3917.4999237060547
+        ],
+        [
+          259.99999046325684,
+          1636.0
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 3256,
+      "source_triangle_count": 6036,
+      "imported_lod0_triangle_count": 6036
+    },
+    {
+      "name": "SM_Stone",
+      "category": "Stone",
+      "sections": [
+        {
+          "vertices": 24528,
+          "indices": 33840,
+          "triangles": 11280,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -4351.6337890625,
+              4041.532470703125
+            ],
+            [
+              -4237.5048828125,
+              4070.06494140625
+            ],
+            [
+              156.0,
+              1413.323486328125
+            ]
+          ],
+          "surface_area_m2": 2376.029477937236,
+          "uv_area_sum": 0.32629788919130015,
+          "measured_density_px_per_m": {
+            "min": 95.99332148555895,
+            "median": 96.0000558034579,
+            "max": 96.01023049866538
+          },
+          "density_target_px_per_m": 96,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 9.885798590403283e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Stone.M_Stone",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor.T_Limestone_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_5",
+          "label": "Onsen_Stone",
+          "bounds_world_cm": [
+            [
+              -4351.6337890625,
+              4041.532470703125
+            ],
+            [
+              -4070.06494140625,
+              4237.5048828125
+            ],
+            [
+              156.0,
+              1413.323486328125
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 9.885798590403283e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Stone.SM_Stone",
+      "expected_world_bounds_cm": [
+        [
+          -4351.633887920486,
+          4041.532373591216
+        ],
+        [
+          -4070.0648952281654,
+          4237.504960387392
+        ],
+        [
+          155.9999942779541,
+          1413.3234521829183
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -4351.633887920486,
+          4041.532373591216
+        ],
+        [
+          -4237.504960387392,
+          4070.0648952281654
+        ],
+        [
+          155.9999942779541,
+          1413.3234521829183
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 6000,
+      "source_triangle_count": 11280,
+      "imported_lod0_triangle_count": 11280
+    },
+    {
+      "name": "SM_BathStone",
+      "category": "BathStone",
+      "sections": [
+        {
+          "vertices": 17424,
+          "indices": 17424,
+          "triangles": 5808,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -1937.30810546875,
+              1586.9251708984375
+            ],
+            [
+              -2955.706298828125,
+              550.129150390625
+            ],
+            [
+              508.0,
+              1079.0460205078125
+            ]
+          ],
+          "surface_area_m2": 560.9046030891395,
+          "uv_area_sum": 0.07702855154036176,
+          "measured_density_px_per_m": {
+            "min": 95.99708558838898,
+            "median": 96.00001359724382,
+            "max": 96.00177275411312
+          },
+          "density_target_px_per_m": 96,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 0.0001572389460307022,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_BathStone.M_BathStone",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor.T_Limestone_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_6",
+          "label": "Onsen_BathStone",
+          "bounds_world_cm": [
+            [
+              -1937.30810546875,
+              1586.9251708984375
+            ],
+            [
+              -550.129150390625,
+              2955.706298828125
+            ],
+            [
+              508.0,
+              1079.0460205078125
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 0.0001572389460307022
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone.SM_BathStone",
+      "expected_world_bounds_cm": [
+        [
+          -1937.3081818223,
+          1586.9251218262868
+        ],
+        [
+          -550.1291127179388,
+          2955.706141589179
+        ],
+        [
+          508.0,
+          1079.0460300559982
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -1937.3081818223,
+          1586.9251218262868
+        ],
+        [
+          -2955.706141589179,
+          550.1291127179388
+        ],
+        [
+          508.0,
+          1079.0460300559982
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 3208,
+      "source_triangle_count": 5808,
+      "imported_lod0_triangle_count": 5808
+    },
+    {
+      "name": "SM_Water",
+      "category": "Water",
+      "sections": [
+        {
+          "vertices": 2944,
+          "indices": 4224,
+          "triangles": 1408,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -1572.0,
+              1492.1500244140625
+            ],
+            [
+              -2866.699951171875,
+              459.70001220703125
+            ],
+            [
+              602.0,
+              992.0
+            ]
+          ],
+          "surface_area_m2": 192.13234674729497,
+          "uv_area_sum": 0.18762934237556317,
+          "measured_density_px_per_m": {
+            "min": 127.99611726134005,
+            "median": 128.00002704681947,
+            "max": 128.00360214205506
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 4.882812527284841e-05,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Water.M_Water",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples.T_Water_Ripples"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_7",
+          "label": "Onsen_Water",
+          "bounds_world_cm": [
+            [
+              -1572.0,
+              1492.1500244140625
+            ],
+            [
+              -459.70001220703125,
+              2866.699951171875
+            ],
+            [
+              602.0,
+              992.0
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 4.882812527284841e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Water.SM_Water",
+      "expected_world_bounds_cm": [
+        [
+          -1572.0,
+          1492.1499999999999
+        ],
+        [
+          -459.69999999999993,
+          2866.7000000000003
+        ],
+        [
+          602.0,
+          992.0
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -1572.0,
+          1492.1499999999999
+        ],
+        [
+          -2866.7000000000003,
+          459.69999999999993
+        ],
+        [
+          602.0,
+          992.0
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 770,
+      "source_triangle_count": 1408,
+      "imported_lod0_triangle_count": 1408
+    },
+    {
+      "name": "SM_Steam",
+      "category": "Steam",
+      "sections": [
+        {
+          "vertices": 104,
+          "indices": 156,
+          "triangles": 52,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -1120.0433349609375,
+              1408.479736328125
+            ],
+            [
+              -2637.935546875,
+              212.4610595703125
+            ],
+            [
+              615.0,
+              1249.7080078125
+            ]
+          ],
+          "surface_area_m2": 100.20900926895507,
+          "uv_area_sum": 26.0,
+          "measured_density_px_per_m": {
+            "min": 215.08546360930453,
+            "median": 267.3804150073464,
+            "max": 318.0422483080735
+          },
+          "density_target_px_per_m": null,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "density_exception": "Steam intentionally repeats full-card alpha UVs; uniform source density was not specified",
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 0.00016583125898250728,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Steam.M_Steam",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity.T_Steam_Opacity"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_8",
+          "label": "Onsen_Steam",
+          "bounds_world_cm": [
+            [
+              -1120.0433349609375,
+              1408.479736328125
+            ],
+            [
+              -212.4610595703125,
+              2637.935546875
+            ],
+            [
+              615.0,
+              1249.7080078125
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 0.00016583125898250728
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Steam.SM_Steam",
+      "expected_world_bounds_cm": [
+        [
+          -1120.043243109623,
+          1408.4797089964072
+        ],
+        [
+          -212.46106619309737,
+          2637.935381043741
+        ],
+        [
+          615.0,
+          1249.7079428158672
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -1120.043243109623,
+          1408.4797089964072
+        ],
+        [
+          -2637.935381043741,
+          212.46106619309737
+        ],
+        [
+          615.0,
+          1249.7079428158672
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 104,
+      "source_triangle_count": 52,
+      "imported_lod0_triangle_count": 52
+    },
+    {
+      "name": "SM_Stream",
+      "category": "Stream",
+      "sections": [
+        {
+          "vertices": 196,
+          "indices": 294,
+          "triangles": 98,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -731.4696655273438,
+              511.9495849609375
+            ],
+            [
+              -2528.534423828125,
+              -622.5169067382812
+            ],
+            [
+              602.0,
+              988.0
+            ]
+          ],
+          "surface_area_m2": 16.600687824350565,
+          "uv_area_sum": 0.2593857356193101,
+          "measured_density_px_per_m": {
+            "min": 127.99975187161611,
+            "median": 127.99999927009688,
+            "max": 128.0002415468838
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 8.392333984375e-05,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Stream.M_Stream",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples.T_Water_Ripples"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_9",
+          "label": "Onsen_Stream",
+          "bounds_world_cm": [
+            [
+              -731.4696655273438,
+              511.9495849609375
+            ],
+            [
+              622.5169067382812,
+              2528.534423828125
+            ],
+            [
+              602.0,
+              988.0
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 8.392333984375e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Stream.SM_Stream",
+      "expected_world_bounds_cm": [
+        [
+          -731.4696788787842,
+          511.94958686828613
+        ],
+        [
+          622.516918182373,
+          2528.534507751465
+        ],
+        [
+          601.9999980926514,
+          988.0000114440918
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -731.4696788787842,
+          511.94958686828613
+        ],
+        [
+          -2528.534507751465,
+          -622.516918182373
+        ],
+        [
+          601.9999980926514,
+          988.0000114440918
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 108,
+      "source_triangle_count": 98,
+      "imported_lod0_triangle_count": 98
+    },
+    {
+      "name": "SM_Plaster",
+      "category": "Plaster",
+      "sections": [
+        {
+          "vertices": 490,
+          "indices": 720,
+          "triangles": 240,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -2100.0,
+              2935.0
+            ],
+            [
+              -3209.999755859375,
+              3309.999755859375
+            ],
+            [
+              272.0,
+              1462.0
+            ]
+          ],
+          "surface_area_m2": 925.0575214602659,
+          "uv_area_sum": 0.22584411660032355,
+          "measured_density_px_per_m": {
+            "min": 127.99736770489253,
+            "median": 128.000006737424,
+            "max": 128.00179791201376
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 9.1552734375e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Plaster.M_Plaster",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor.T_Plaster_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_10",
+          "label": "Onsen_Plaster",
+          "bounds_world_cm": [
+            [
+              -2100.0,
+              2935.0
+            ],
+            [
+              -3309.999755859375,
+              3209.999755859375
+            ],
+            [
+              272.0,
+              1462.0
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 9.1552734375e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster.SM_Plaster",
+      "expected_world_bounds_cm": [
+        [
+          -2100.0,
+          2935.0000381469727
+        ],
+        [
+          -3309.9998474121094,
+          3209.9998474121094
+        ],
+        [
+          272.00000286102295,
+          1461.9999885559082
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -2100.0,
+          2935.0000381469727
+        ],
+        [
+          -3209.9998474121094,
+          3309.9998474121094
+        ],
+        [
+          272.00000286102295,
+          1461.9999885559082
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 128,
+      "source_triangle_count": 240,
+      "imported_lod0_triangle_count": 240
+    },
+    {
+      "name": "SM_Glass",
+      "category": "Glass",
+      "sections": [
+        {
+          "vertices": 2730,
+          "indices": 3960,
+          "triangles": 1320,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -2419.0,
+              2878.5
+            ],
+            [
+              -2719.0,
+              4029.75
+            ],
+            [
+              395.0,
+              1285.0
+            ]
+          ],
+          "surface_area_m2": 41.02620982702848,
+          "uv_area_sum": 0.16025892826320975,
+          "measured_density_px_per_m": {
+            "min": 127.9813427720694,
+            "median": 128.00351581050282,
+            "max": 128.02017790737003
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 6.103515625e-05,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Glass.M_Glass",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor.T_Plaster_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_11",
+          "label": "Onsen_Glass",
+          "bounds_world_cm": [
+            [
+              -2419.0,
+              2878.5
+            ],
+            [
+              -4029.75,
+              2719.0
+            ],
+            [
+              395.0,
+              1285.0
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 6.103515625e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Glass.SM_Glass",
+      "expected_world_bounds_cm": [
+        [
+          -2419.0000534057617,
+          2878.499984741211
+        ],
+        [
+          -4029.7500610351562,
+          2719.0000534057617
+        ],
+        [
+          395.0000047683716,
+          1284.999942779541
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -2419.0000534057617,
+          2878.499984741211
+        ],
+        [
+          -2719.0000534057617,
+          4029.7500610351562
+        ],
+        [
+          395.0000047683716,
+          1284.999942779541
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 704,
+      "source_triangle_count": 1320,
+      "imported_lod0_triangle_count": 1320
+    },
+    {
+      "name": "SM_Roof",
+      "category": "Roof",
+      "sections": [
+        {
+          "vertices": 1819,
+          "indices": 2832,
+          "triangles": 944,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -2440.0,
+              3031.0
+            ],
+            [
+              -3307.0,
+              4040.000244140625
+            ],
+            [
+              543.0,
+              1658.0699462890625
+            ]
+          ],
+          "surface_area_m2": 849.6637743035194,
+          "uv_area_sum": 0.20743753235988427,
+          "measured_density_px_per_m": {
+            "min": 127.99450202378833,
+            "median": 128.00035934459373,
+            "max": 128.0047199883719
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 9.1552734375e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Roof.M_Roof",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor.T_Slate_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_12",
+          "label": "Onsen_Roof",
+          "bounds_world_cm": [
+            [
+              -2440.0,
+              3031.0
+            ],
+            [
+              -4040.000244140625,
+              3307.0
+            ],
+            [
+              543.0,
+              1658.0699462890625
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 9.1552734375e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Roof.SM_Roof",
+      "expected_world_bounds_cm": [
+        [
+          -2439.9999618530273,
+          3030.9999465942383
+        ],
+        [
+          -4040.0001525878906,
+          3306.999969482422
+        ],
+        [
+          543.0000305175781,
+          1658.0699920654297
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -2439.9999618530273,
+          3030.9999465942383
+        ],
+        [
+          -3306.999969482422,
+          4040.0001525878906
+        ],
+        [
+          543.0000305175781,
+          1658.0699920654297
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 528,
+      "source_triangle_count": 944,
+      "imported_lod0_triangle_count": 944
+    },
+    {
+      "name": "SM_Fabric",
+      "category": "Fabric",
+      "sections": [
+        {
+          "vertices": 960,
+          "indices": 1440,
+          "triangles": 480,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -1771.9998779296875,
+              2672.0
+            ],
+            [
+              -2559.0,
+              3345.0
+            ],
+            [
+              472.5000305175781,
+              1287.5
+            ]
+          ],
+          "surface_area_m2": 7.90832871828078,
+          "uv_area_sum": 0.12356787915359746,
+          "measured_density_px_per_m": {
+            "min": 127.99439306092596,
+            "median": 127.99994102881227,
+            "max": 128.01226984941653
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 7.62939453125e-05,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Fabric.M_Fabric",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor.T_Plaster_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_13",
+          "label": "Onsen_Fabric",
+          "bounds_world_cm": [
+            [
+              -1771.9998779296875,
+              2672.0
+            ],
+            [
+              -3345.0,
+              2559.0
+            ],
+            [
+              472.5000305175781,
+              1287.5
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 7.62939453125e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric.SM_Fabric",
+      "expected_world_bounds_cm": [
+        [
+          -1771.9999313354492,
+          2671.999931335449
+        ],
+        [
+          -3345.0000762939453,
+          2559.000015258789
+        ],
+        [
+          472.50003814697266,
+          1287.5
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -1771.9999313354492,
+          2671.999931335449
+        ],
+        [
+          -2559.000015258789,
+          3345.0000762939453
+        ],
+        [
+          472.50003814697266,
+          1287.5
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 256,
+      "source_triangle_count": 480,
+      "imported_lod0_triangle_count": 480
+    },
+    {
+      "name": "SM_Metal",
+      "category": "Metal",
+      "sections": [
+        {
+          "vertices": 328,
+          "indices": 504,
+          "triangles": 168,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -1890.0,
+              -1850.9998779296875
+            ],
+            [
+              -174.0,
+              154.0
+            ],
+            [
+              690.0,
+              739.0
+            ]
+          ],
+          "surface_area_m2": 0.6421092843676928,
+          "uv_area_sum": 0.04013190468743133,
+          "measured_density_px_per_m": {
+            "min": 127.99350910663688,
+            "median": 127.9998084469366,
+            "max": 128.00983571229978
+          },
+          "density_target_px_per_m": 128,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 4.57763671875e-05,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Metal.M_Metal",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor.T_Slate_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_14",
+          "label": "Onsen_Metal",
+          "bounds_world_cm": [
+            [
+              -1890.0,
+              -1850.9998779296875
+            ],
+            [
+              -154.0,
+              174.0
+            ],
+            [
+              690.0,
+              739.0
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 4.57763671875e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Metal.SM_Metal",
+      "expected_world_bounds_cm": [
+        [
+          -1889.9999618530273,
+          -1850.9998321533203
+        ],
+        [
+          -153.99999618530273,
+          174.00000095367432
+        ],
+        [
+          690.0000095367432,
+          738.9999866485596
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -1889.9999618530273,
+          -1850.9998321533203
+        ],
+        [
+          -174.00000095367432,
+          153.99999618530273
+        ],
+        [
+          690.0000095367432,
+          738.9999866485596
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 96,
+      "source_triangle_count": 168,
+      "imported_lod0_triangle_count": 168
+    },
+    {
+      "name": "SM_Trunks",
+      "category": "Trunks",
+      "sections": [
+        {
+          "vertices": 864,
+          "indices": 1536,
+          "triangles": 512,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -4020.67333984375,
+              4022.0
+            ],
+            [
+              -4421.666015625,
+              3821.666015625
+            ],
+            [
+              239.72557067871094,
+              2031.6904296875
+            ]
+          ],
+          "surface_area_m2": 81.97798020347233,
+          "uv_area_sum": 0.1801273233605433,
+          "measured_density_px_per_m": {
+            "min": 95.9957032209869,
+            "median": 96.00005551787515,
+            "max": 96.00810650101334
+          },
+          "density_target_px_per_m": 96,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 0.0001220703125,
+          "section_collision_enabled": true,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Trunks.M_Trunks",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor.T_Cedar_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_15",
+          "label": "Onsen_Trunks",
+          "bounds_world_cm": [
+            [
+              -4020.67333984375,
+              4022.0
+            ],
+            [
+              -3821.666015625,
+              4421.666015625
+            ],
+            [
+              239.72557067871094,
+              2031.6904296875
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 0.0001220703125
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks.SM_Trunks",
+      "expected_world_bounds_cm": [
+        [
+          -4020.673370361328,
+          4022.0001220703125
+        ],
+        [
+          -3821.6659545898438,
+          4421.665954589844
+        ],
+        [
+          239.72556591033936,
+          2031.6904067993164
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -4020.673370361328,
+          4022.0001220703125
+        ],
+        [
+          -4421.665954589844,
+          3821.6659545898438
+        ],
+        [
+          239.72556591033936,
+          2031.6904067993164
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 288,
+      "source_triangle_count": 512,
+      "imported_lod0_triangle_count": 512
+    },
+    {
+      "name": "SM_LeavesLight",
+      "category": "LeavesLight",
+      "sections": [
+        {
+          "vertices": 14880,
+          "indices": 14880,
+          "triangles": 4960,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -4307.564453125,
+              4457.09130859375
+            ],
+            [
+              -4435.78662109375,
+              4226.53759765625
+            ],
+            [
+              204.16421508789062,
+              2196.3759765625
+            ]
+          ],
+          "surface_area_m2": 934.0335819425275,
+          "uv_area_sum": 0.057008842645421984,
+          "measured_density_px_per_m": {
+            "min": 63.997212457092886,
+            "median": 63.99994435725036,
+            "max": 64.00260173606188
+          },
+          "density_target_px_per_m": 64,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 0.0002184051354561234,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight.M_LeavesLight",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor.T_Grass_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_16",
+          "label": "Onsen_LeavesLight",
+          "bounds_world_cm": [
+            [
+              -4307.564453125,
+              4457.09130859375
+            ],
+            [
+              -4226.53759765625,
+              4435.78662109375
+            ],
+            [
+              204.16421508789062,
+              2196.3759765625
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 0.0002184051354561234
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight.SM_LeavesLight",
+      "expected_world_bounds_cm": [
+        [
+          -4307.5646025555725,
+          4457.0915269988855
+        ],
+        [
+          -4226.537708439737,
+          4435.786835410101
+        ],
+        [
+          204.16422575164052,
+          2196.375986412272
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -4307.5646025555725,
+          4457.0915269988855
+        ],
+        [
+          -4435.786835410101,
+          4226.537708439737
+        ],
+        [
+          204.16422575164052,
+          2196.375986412272
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 2604,
+      "source_triangle_count": 4960,
+      "imported_lod0_triangle_count": 4960
+    },
+    {
+      "name": "SM_Leaves",
+      "category": "Leaves",
+      "sections": [
+        {
+          "vertices": 6480,
+          "indices": 10440,
+          "triangles": 3480,
+          "invalid_counts": {
+            "nonfinite_vertices": 0,
+            "nonfinite_normals": 0,
+            "nonfinite_uvs": 0,
+            "nonfinite_tangents": 0,
+            "invalid_indices": 0,
+            "uv_out_of_unit_square": 0
+          },
+          "invalid_examples": {},
+          "errors": [],
+          "bounds_local_cm": [
+            [
+              -4173.0,
+              4234.0
+            ],
+            [
+              -4634.0,
+              3995.0
+            ],
+            [
+              384.7255859375,
+              2145.6904296875
+            ]
+          ],
+          "surface_area_m2": 904.8715584106506,
+          "uv_area_sum": 0.22091593450533054,
+          "measured_density_px_per_m": {
+            "min": 63.98987765955939,
+            "median": 63.99999973708052,
+            "max": 64.00921534275508
+          },
+          "density_target_px_per_m": 64,
+          "density_relative_tolerance": 0.05,
+          "density_outside_tolerance_count": 0,
+          "density_outside_examples": [],
+          "degenerate_triangle_count": 0,
+          "degenerate_examples": [],
+          "lod": 0,
+          "section": 0,
+          "uv_channels": 1,
+          "full_precision_uv": true,
+          "maximum_local_bounds_error_cm": 3.7111864003236406e-05,
+          "section_collision_enabled": false,
+          "material_slot": 0,
+          "material": "/Game/HillsideOnsen/ultra/Materials/M_Leaves.M_Leaves",
+          "used_textures": [
+            "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor.T_Grass_BaseColor"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.StaticMeshActor_17",
+          "label": "Onsen_Leaves",
+          "bounds_world_cm": [
+            [
+              -4173.0,
+              4234.0
+            ],
+            [
+              -3995.0,
+              4634.0
+            ],
+            [
+              384.7255859375,
+              2145.6904296875
+            ]
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            1.0
+          ],
+          "location_cm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maximum_world_bounds_error_cm": 3.7111864003236406e-05
+        }
+      ],
+      "asset": "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves.SM_Leaves",
+      "expected_world_bounds_cm": [
+        [
+          -4173.0,
+          4234.0
+        ],
+        [
+          -3995.0000000000005,
+          4634.0
+        ],
+        [
+          384.7255718054809,
+          2145.690392575636
+        ]
+      ],
+      "expected_local_bounds_cm": [
+        [
+          -4173.0,
+          4234.0
+        ],
+        [
+          -4634.0,
+          3995.0000000000005
+        ],
+        [
+          384.7255718054809,
+          2145.690392575636
+        ]
+      ],
+      "source_vertex_count_before_seam_splitting": 1800,
+      "source_triangle_count": 3480,
+      "imported_lod0_triangle_count": 3480
+    }
+  ],
+  "api_source_root": "C:/Program Files/Epic Games/UE_5.7/",
+  "api_evidence": {
+    "section_buffers": "Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/KismetProceduralMeshLibrary.h:87",
+    "section_implementation": "Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Private/KismetProceduralMeshLibrary.cpp:454",
+    "build_settings": "Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorSubsystem.h:81",
+    "section_collision": "Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorSubsystem.h:387",
+    "section_material_slot": "Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorSubsystem.h:466",
+    "mesh_sections_materials_bounds": "Engine/Source/Runtime/Engine/Classes/Engine/StaticMesh.h:2177",
+    "actor_bounds": "Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h:1613",
+    "dependency_options": "Engine/Source/Runtime/AssetRegistry/Public/AssetRegistry/IAssetRegistry.h:143",
+    "dependencies": "Engine/Source/Runtime/AssetRegistry/Public/AssetRegistry/IAssetRegistry.h:557",
+    "world_partition": "Engine/Source/Runtime/Engine/Classes/GameFramework/WorldSettings.h:515",
+    "import_coordinate_flags": "Engine/Source/Editor/UnrealEd/Classes/Factories/FbxAssetImportData.h:42",
+    "full_precision_uv": "Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h:2739",
+    "line_trace_profile": "Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h:1524",
+    "break_hit_result": "Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStatics.h:1079",
+    "material_textures": "Engine/Source/Editor/MaterialEditor/Public/MaterialEditingLibrary.h:237",
+    "external_packages": "Engine/Plugins/Experimental/PythonScriptPlugin/Source/PythonScriptPlugin/Private/PyWrapperObject.cpp:1123",
+    "dirty_packages": "Engine/Source/Editor/UnrealEd/Public/FileHelpers.h:136"
+  },
+  "read_only_package_policy": true,
+  "limitations": [
+    "Only LOD render buffers/UV0 are extracted; all authored meshes are expected to have exactly one LOD and one section.",
+    "Source vertices can split at UV/normal seams; exact source triangle counts and complete render-vertex coverage are checked instead of source vertex equality.",
+    "Imported UV density is measured per triangle. Source polygon island padding/overlap is not independently recomputed after triangulation.",
+    "Steam has intentional overlapping full-card UVs and no uniform density target.",
+    "UV density uses source atlas-equivalent pixels; actual materials tile generated 512px imagery across unique charts rather than unique baked artwork per island.",
+    "Ground rays sample route centers every <=2 m and five foundation locations; they do not substitute for runtime Character walking or exhaustive contact testing.",
+    "Foundation terrain queries intentionally ignore nonterrain actors to avoid self-support hits; source foundation bottom/top are compared to actual terrain.",
+    "AssetRegistry dependency queries use on-disk packages. Engine and native Script packages are permitted terminal references and are not recursively inspected.",
+    "The caller must independently compare saved-package hashes before/after this read-only validation."
+  ],
+  "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/HillsideOnsen/ultra/Project/ForestDemo.uproject",
+  "loaded_world": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra",
+  "dirty_owned_packages_before": [],
+  "player_starts": [
+    {
+      "actor": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.PlayerStart_0",
+      "location_cm": [
+        0.0,
+        -4400.0,
+        360.0
+      ]
+    }
+  ],
+  "dependencies": {
+    "options": {
+      "include_soft_package_references": true,
+      "include_hard_package_references": true,
+      "include_game_package_references": true,
+      "include_editor_only_package_references": true,
+      "include_searchable_names": true,
+      "include_soft_management_references": true,
+      "include_hard_management_references": true
+    },
+    "seeds": [
+      "/Game/HillsideOnsen/ultra/Materials/M_BathStone",
+      "/Game/HillsideOnsen/ultra/Materials/M_Cedar",
+      "/Game/HillsideOnsen/ultra/Materials/M_DarkWood",
+      "/Game/HillsideOnsen/ultra/Materials/M_Earth",
+      "/Game/HillsideOnsen/ultra/Materials/M_Fabric",
+      "/Game/HillsideOnsen/ultra/Materials/M_Glass",
+      "/Game/HillsideOnsen/ultra/Materials/M_Leaves",
+      "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight",
+      "/Game/HillsideOnsen/ultra/Materials/M_Metal",
+      "/Game/HillsideOnsen/ultra/Materials/M_Path",
+      "/Game/HillsideOnsen/ultra/Materials/M_Plaster",
+      "/Game/HillsideOnsen/ultra/Materials/M_Roof",
+      "/Game/HillsideOnsen/ultra/Materials/M_Sky",
+      "/Game/HillsideOnsen/ultra/Materials/M_Steam",
+      "/Game/HillsideOnsen/ultra/Materials/M_Stone",
+      "/Game/HillsideOnsen/ultra/Materials/M_Stream",
+      "/Game/HillsideOnsen/ultra/Materials/M_Terrain",
+      "/Game/HillsideOnsen/ultra/Materials/M_Trunks",
+      "/Game/HillsideOnsen/ultra/Materials/M_Water",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Earth",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Glass",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Metal",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Path",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Roof",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Steam",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Stone",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Stream",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Water",
+      "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Cedar_Roughness",
+      "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Limestone_Roughness",
+      "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity",
+      "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples",
+      "/Game/Maps/HillsideOnsen_ultra"
+    ],
+    "visited_owned_packages": [
+      "/Game/HillsideOnsen/ultra/Materials/M_BathStone",
+      "/Game/HillsideOnsen/ultra/Materials/M_Cedar",
+      "/Game/HillsideOnsen/ultra/Materials/M_DarkWood",
+      "/Game/HillsideOnsen/ultra/Materials/M_Earth",
+      "/Game/HillsideOnsen/ultra/Materials/M_Fabric",
+      "/Game/HillsideOnsen/ultra/Materials/M_Glass",
+      "/Game/HillsideOnsen/ultra/Materials/M_Leaves",
+      "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight",
+      "/Game/HillsideOnsen/ultra/Materials/M_Metal",
+      "/Game/HillsideOnsen/ultra/Materials/M_Path",
+      "/Game/HillsideOnsen/ultra/Materials/M_Plaster",
+      "/Game/HillsideOnsen/ultra/Materials/M_Roof",
+      "/Game/HillsideOnsen/ultra/Materials/M_Sky",
+      "/Game/HillsideOnsen/ultra/Materials/M_Steam",
+      "/Game/HillsideOnsen/ultra/Materials/M_Stone",
+      "/Game/HillsideOnsen/ultra/Materials/M_Stream",
+      "/Game/HillsideOnsen/ultra/Materials/M_Terrain",
+      "/Game/HillsideOnsen/ultra/Materials/M_Trunks",
+      "/Game/HillsideOnsen/ultra/Materials/M_Water",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Earth",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Glass",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Metal",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Path",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Roof",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Steam",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Stone",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Stream",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks",
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Water",
+      "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Cedar_Roughness",
+      "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Limestone_Roughness",
+      "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor",
+      "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity",
+      "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples",
+      "/Game/Maps/HillsideOnsen_ultra"
+    ],
+    "edges": {
+      "/Game/Maps/HillsideOnsen_ultra": [
+        "/Engine/BasicShapes/Sphere",
+        "/Engine/EditorResources/LightIcons/S_LightError",
+        "/Game/HillsideOnsen/ultra/Materials/M_Sky",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Earth",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Glass",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Metal",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Path",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Roof",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Steam",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Stone",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Stream",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks",
+        "/Game/HillsideOnsen/ultra/Meshes/SM_Water",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Water": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Water",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Water": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Trunks": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Trunks",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Trunks": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Terrain": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Terrain",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Terrain": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Stream": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Stream",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Stream": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Water_Ripples"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Stone": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Stone",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Stone": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Steam": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Steam",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Steam": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Steam_Opacity": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Roof": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Roof",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Roof": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Plaster": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Plaster",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Plaster": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Path": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Path",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Path": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Gravel_BaseColor": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Metal": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Metal",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Metal": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Slate_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_LeavesLight": [
+        "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_LeavesLight": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Leaves": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Leaves",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Leaves": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Grass_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Glass": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Glass",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Glass": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Fabric": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Fabric",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Fabric": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Plaster_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Earth": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Earth",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Earth": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_DarkWood": [
+        "/Game/HillsideOnsen/ultra/Materials/M_DarkWood",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_DarkWood": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_Cedar": [
+        "/Game/HillsideOnsen/ultra/Materials/M_Cedar",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Cedar": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Cedar_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Meshes/SM_BathStone": [
+        "/Game/HillsideOnsen/ultra/Materials/M_BathStone",
+        "/Script/NavigationSystem"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_BathStone": [
+        "/Game/HillsideOnsen/ultra/Textures/T_Limestone_BaseColor"
+      ],
+      "/Game/HillsideOnsen/ultra/Materials/M_Sky": [],
+      "/Game/HillsideOnsen/ultra/Textures/T_Limestone_Roughness": [
+        "/Script/InterchangeEngine"
+      ],
+      "/Game/HillsideOnsen/ultra/Textures/T_Cedar_Roughness": [
+        "/Script/InterchangeEngine"
+      ]
+    },
+    "allowed_builtin_terminals": [
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/EditorResources/LightIcons/S_LightError",
+      "/Script/InterchangeEngine",
+      "/Script/NavigationSystem"
+    ],
+    "violations": [],
+    "unknown_queries": [],
+    "foreign_packages_inspected": false
+  },
+  "ground_support": {
+    "trace_profile": "Pawn",
+    "trace_complex": false,
+    "route_samples": [],
+    "foundations": []
+  },
+  "dirty_owned_packages_after": [],
+  "finished_at_utc": "2026-10-22T15:48:24.516986+00:00",
+  "elapsed_wall_seconds": 1.2189999999827705
+}

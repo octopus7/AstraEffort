@@ -1,0 +1,459 @@
+{
+  "theme": "HillsideOnsen",
+  "effort": "ultra",
+  "provenance": "Original deterministic procedural surface art authored in this task. No external images or other scene assets read; no image-generation service used.",
+  "generator": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\generate_textures.py",
+  "python_dependencies": "Python standard library only; no PIL/numpy required",
+  "generated_at_start_utc": "2026-10-22T15:20:12.680609+00:00",
+  "generated_at_finish_utc": "2026-10-22T15:20:24.503697+00:00",
+  "elapsed_seconds": 11.823,
+  "sample_layout": "Periodic functions sampled inclusive endpoints. Opposite PNG borders byte-identical; one endpoint texel is duplicated.",
+  "uv_guidance": "Parent owns 128 px/m chart density and measured atlas layout. Material shader must convert chart UVs back to surface metres then divide by repeat_tile_size_m. Tile sizes describe spatial pattern frequency, not UV chart packing. Cedar grain follows V; rotate charts to align with timber length. Slate rows follow U; V advances roof courses.",
+  "water_guidance": "Linear grayscale height_detail only, not a normal map. Pan two scaled samples slowly in opposite directions to perturb water normal using derivatives or small value modulation; keep amplitude restrained. This texture contains no refraction or caustic simulation.",
+  "steam_guidance": "Linear opacity mask with warm-white tint. Clamp UVs. Use low opacity, depth fade and slow vertical translation/stretch in UE; not physical vapor simulation. Card should face or partly face intended view.",
+  "assets": {
+    "T_Cedar_BaseColor": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Cedar_BaseColor.png",
+      "relative_path": "Textures/T_Cedar_BaseColor.png",
+      "role": "basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "sRGB",
+      "unreal_srgb": true,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43101,
+      "method": "Warm muted cedar; grain follows V. Periodic warped sine growth lines plus three anisotropic noise bands.",
+      "intended_use": "basecolor",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 71,
+        "maximum": 152,
+        "channel_mean": [
+          142.9178,
+          110.9311,
+          77.947
+        ],
+        "channel_stdev": [
+          3.2981,
+          2.8055,
+          2.057
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "68209483d93e4f8d270bb15d2b6249555c70209d559971b01614b8e7488a14c6"
+      }
+    },
+    "T_Limestone_BaseColor": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Limestone_BaseColor.png",
+      "relative_path": "Textures/T_Limestone_BaseColor.png",
+      "role": "basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "sRGB",
+      "unreal_srgb": true,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43201,
+      "method": "Warm grey limestone; subtle three-scale mineral mottling with restrained flecks; no fake hard cracks.",
+      "intended_use": "basecolor",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 154,
+        "maximum": 191,
+        "channel_mean": [
+          184.4573,
+          179.3987,
+          163.2541
+        ],
+        "channel_stdev": [
+          2.8292,
+          2.7157,
+          2.4392
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "131a08bdc57ec9a7c12b8888803a84bd127516436f4d9a4ec0176da7057cc99d"
+      }
+    },
+    "T_Plaster_BaseColor": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Plaster_BaseColor.png",
+      "relative_path": "Textures/T_Plaster_BaseColor.png",
+      "role": "basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "sRGB",
+      "unreal_srgb": true,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43301,
+      "method": "Ivory plaster with quiet low-frequency variation and fine grain.",
+      "intended_use": "basecolor",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 198,
+        "maximum": 227,
+        "channel_mean": [
+          224.2331,
+          219.2257,
+          201.2006
+        ],
+        "channel_stdev": [
+          1.0573,
+          1.0276,
+          0.9258
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "0feaf969f0a54a20fa8fb2ace02acf7172f49302c4b4798790f5dd49616ec4cf"
+      }
+    },
+    "T_Slate_BaseColor": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Slate_BaseColor.png",
+      "relative_path": "Textures/T_Slate_BaseColor.png",
+      "role": "basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "sRGB",
+      "unreal_srgb": true,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43401,
+      "method": "Blue-grey slate tiles, 8 columns x 12 staggered rows, subtle grout and upper lip shading.",
+      "intended_use": "basecolor",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 78,
+        "maximum": 124,
+        "channel_mean": [
+          90.2439,
+          107.1877,
+          117.1625
+        ],
+        "channel_stdev": [
+          2.743,
+          2.9591,
+          3.0486
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "482ca2b56d4869cf45cc58e311a508fafd5dcfc23a5f88750df339be110b0131"
+      }
+    },
+    "T_Gravel_BaseColor": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Gravel_BaseColor.png",
+      "relative_path": "Textures/T_Gravel_BaseColor.png",
+      "role": "basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "sRGB",
+      "unreal_srgb": true,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        2,
+        2
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43501,
+      "method": "Beige aggregate; 30 x 30 jittered periodic Voronoi cells, muted particle shades and soft narrow gaps.",
+      "intended_use": "basecolor",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 133,
+        "maximum": 186,
+        "channel_mean": [
+          177.7528,
+          167.7615,
+          143.7879
+        ],
+        "channel_stdev": [
+          3.318,
+          3.2203,
+          2.8585
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "4c94fedfe5cfd0172ec22c42af153e341c6e8daee172316039f103393ab66b8f"
+      }
+    },
+    "T_Grass_BaseColor": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Grass_BaseColor.png",
+      "relative_path": "Textures/T_Grass_BaseColor.png",
+      "role": "basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "sRGB",
+      "unreal_srgb": true,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43601,
+      "method": "Muted sage ground cover; three periodic noise scales and fine crossing organic fiber modulation.",
+      "intended_use": "basecolor",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 91,
+        "maximum": 146,
+        "channel_mean": [
+          111.3035,
+          135.3371,
+          99.2584
+        ],
+        "channel_stdev": [
+          2.7021,
+          2.9989,
+          2.3167
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "a6d84d00d7a16b74783977bdd149b3b187301f373a9885756a2e931dd58bb330"
+      }
+    },
+    "T_Water_Ripples": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Water_Ripples.png",
+      "relative_path": "Textures/T_Water_Ripples.png",
+      "role": "height_detail",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 3,
+      "color_space": "linear",
+      "unreal_srgb": false,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43701,
+      "method": "Linear grayscale periodic height/detail field; not a tangent-space normal. Three crossing sine-wave families.",
+      "intended_use": "height_detail",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 3,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 90,
+        "maximum": 165,
+        "channel_mean": [
+          128.0037,
+          128.0037,
+          128.0037
+        ],
+        "channel_stdev": [
+          15.8381,
+          15.8381,
+          15.8381
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "fbd21ed76e3f029c9d08e3a99fc171f6bfd1ea615346986f38e106f588a6789a"
+      }
+    },
+    "T_Steam_Opacity": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Steam_Opacity.png",
+      "relative_path": "Textures/T_Steam_Opacity.png",
+      "role": "opacity",
+      "size": [
+        256,
+        256
+      ],
+      "channels": 4,
+      "color_space": "linear",
+      "unreal_srgb": false,
+      "alpha": "straight opacity in A; all outer edges zero",
+      "repeat_tile_size_m": null,
+      "address_mode": "clamp",
+      "principal_seed": 43801,
+      "method": "Soft vertically elongated wisps. Constant warm-white RGB, alpha mask with exactly zero outer edges; non-tiling card.",
+      "intended_use": "translucent steam card; A to opacity, RGB or constant tint to color",
+      "validation": {
+        "width": 256,
+        "height": 256,
+        "channels": 4,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 0,
+        "maximum": 239,
+        "channel_mean": [
+          235.0,
+          239.0,
+          231.0,
+          14.2742
+        ],
+        "channel_stdev": [
+          0.0,
+          0.0,
+          0.0,
+          23.6178
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "48fb8f01fc7b9bb9c3a878df7b9dcbe09bc05ffadd8690bc72e3df4ee5a59322",
+        "alpha_border_max": 0
+      }
+    },
+    "T_Cedar_Roughness": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Cedar_Roughness.png",
+      "relative_path": "Textures/T_Cedar_Roughness.png",
+      "role": "roughness",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "color_space": "linear",
+      "unreal_srgb": false,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43101,
+      "method": "Linear roughness aligned to the cedar basecolor. Mean near 0.75.",
+      "intended_use": "roughness",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 1,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 183,
+        "maximum": 195,
+        "channel_mean": [
+          189.9482
+        ],
+        "channel_stdev": [
+          1.9896
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "274e39f8d62972f43fb0d21635b43198fcd9f59f808a7016aef0207642c8a1d9"
+      }
+    },
+    "T_Limestone_Roughness": {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\T_Limestone_Roughness.png",
+      "relative_path": "Textures/T_Limestone_Roughness.png",
+      "role": "roughness",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 1,
+      "color_space": "linear",
+      "unreal_srgb": false,
+      "alpha": "none",
+      "repeat_tile_size_m": [
+        4,
+        4
+      ],
+      "address_mode": "wrap",
+      "principal_seed": 43201,
+      "method": "Linear roughness aligned to limestone basecolor. Mean near 0.82.",
+      "intended_use": "roughness",
+      "validation": {
+        "width": 512,
+        "height": 512,
+        "channels": 1,
+        "crc_valid": true,
+        "decoded_bytes_valid": true,
+        "finite": true,
+        "minimum": 203,
+        "maximum": 214,
+        "channel_mean": [
+          209.8855
+        ],
+        "channel_stdev": [
+          1.7313
+        ],
+        "opposite_border_max_delta": 0,
+        "sha256": "f31828a1eafcb0b1d859407fedf1698b0f05deb2a99de51e21b06b4d7b3bd1c5"
+      }
+    }
+  },
+  "contact_sheet": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\contact_sheet.png",
+  "validation_summary": "10 PNGs independently re-decoded with CRC, manifest hash, dimensions/channel counts, finite 8-bit range and exact opposite-border checks; steam alpha border exactly zero. Actual contact sheet visually inspected and accepted. UE material/render validation remains parent responsibility.",
+  "limitations": [
+    "Procedural maps are subtle stylized surface details, not photogrammetric scans.",
+    "No tangent-space normal maps are supplied. Roughness detail is available for cedar and limestone.",
+    "Texture generation does not validate UE import, material assignment, final UVs or rendered appearance."
+  ],
+  "visual_review": {
+    "reviewed_at_utc": "2026-10-22T15:21:13.152673+00:00",
+    "image": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\Textures\\contact_sheet.png",
+    "method": "Actual generated contact sheet viewed through view_image",
+    "observations": [
+      "Cedar grain follows V with restrained light/dark growth bands.",
+      "Limestone and plaster have quiet mottling; plaster is visibly less variable.",
+      "Blue-grey slate tile courses and beige fine aggregate are readable with restrained seams.",
+      "Sage ground texture is softly varied rather than high-contrast grass photography.",
+      "Water is a grayscale detail field, not a tangent-space normal map.",
+      "Steam is translucent, elongated and softly fading; outer-edge alpha is mathematically zero."
+    ],
+    "accepted": true
+  }
+}

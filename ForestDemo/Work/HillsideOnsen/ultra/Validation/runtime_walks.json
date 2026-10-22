@@ -1,0 +1,59 @@
+{
+  "schema": "hillside_onsen_native_character_probe_v1",
+  "status": "failed",
+  "started_at_utc": "2026-10-22T15:48:24.521986+00:00",
+  "editor_world": "/Game/Maps/HillsideOnsen_ultra.HillsideOnsen_ultra",
+  "piemode": "requested PlayInEditor via editor_request_begin_play",
+  "movement_driver": "native /Script/Engine.Character + CharacterMovement + AddMovementInput",
+  "capsule_radius_cm": 28.0,
+  "capsule_half_height_cm": 88.0,
+  "max_walk_speed_cm_per_second": 250.0,
+  "reset_policy": "fresh runtime spawn at each route start; no movement teleports",
+  "routes": [
+    {
+      "name": "arrival_flat",
+      "status": "failed",
+      "specification": {
+        "name": "arrival_flat",
+        "points": [
+          [
+            0.0,
+            -4500.0,
+            260.0
+          ],
+          [
+            -1300.0,
+            -3950.0,
+            260.0
+          ]
+        ],
+        "planned_horizontal_distance_cm": 1411.5594213493105,
+        "waypoint_tolerance_cm": 30.0,
+        "surface_z_tolerance_cm": 35.0,
+        "minimum_grounded_ratio": 0.9,
+        "timeout_game_seconds": 30.58495074158897,
+        "minimum_motion_cm": 80.0,
+        "obstacle_tolerance_cm": 100.0
+      },
+      "started_at_utc": "2026-10-22T15:48:24.647218+00:00",
+      "samples": [],
+      "hits": [],
+      "waypoints_reached": [],
+      "input_ticks": 0,
+      "input_game_seconds": 0.0,
+      "blockers": [
+        "Unreal API/runtime exception"
+      ]
+    }
+  ],
+  "blockers": [
+    "Unreal API/runtime exception"
+  ],
+  "warnings": [],
+  "pie_left_running": true,
+  "pie_world": "/Game/Maps/UEDPIE_0_HillsideOnsen_ultra.HillsideOnsen_ultra",
+  "controller": "/Game/Maps/UEDPIE_0_HillsideOnsen_ultra.HillsideOnsen_ultra:PersistentLevel.PlayerController_0",
+  "finished_at_utc": "2026-10-22T15:48:24.647218+00:00",
+  "elapsed_wall_seconds": 0.125,
+  "exception": "Traceback (most recent call last):\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\runtime_probe.py\", line 192, in _tick\n    self._next_route()\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\runtime_probe.py\", line 225, in _next_route\n    self.character = unreal.GameplayStatics.begin_deferred_actor_spawn_from_class(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'GameplayStatics' has no attribute 'begin_deferred_actor_spawn_from_class'\n"
+}

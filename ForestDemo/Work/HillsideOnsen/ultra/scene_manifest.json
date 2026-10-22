@@ -1,0 +1,1142 @@
+{
+  "authored_at_utc": "2026-10-22T15:45:55.846606+00:00",
+  "started_at_utc": "2026-10-22T15:45:55.417934+00:00",
+  "theme": "HillsideOnsen",
+  "effort": "ultra",
+  "bounds_m": [
+    -50,
+    50,
+    -50,
+    50
+  ],
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "category": "Terrain",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Terrain.fbx",
+      "vertices": 10201,
+      "triangles": 20000,
+      "bounds_m": [
+        [
+          -50,
+          50
+        ],
+        [
+          -50,
+          50
+        ],
+        [
+          1.9175030575555192,
+          18.242475426261148
+        ]
+      ],
+      "texture": "grass",
+      "color": [
+        0.31,
+        0.39,
+        0.25
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 16384,
+        "target_px_per_m": 32,
+        "measured_min": 31.99990504337356,
+        "measured_max": 32.00008648163886,
+        "charts": 20000,
+        "padding_each_side_px": 17.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 32.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Earth",
+      "category": "Earth",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Earth.fbx",
+      "vertices": 808,
+      "triangles": 800,
+      "bounds_m": [
+        [
+          -50,
+          50
+        ],
+        [
+          -50,
+          50
+        ],
+        [
+          -1,
+          18.242475426261148
+        ]
+      ],
+      "texture": "limestone",
+      "color": [
+        0.3,
+        0.29,
+        0.22
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 64,
+        "measured_min": 63.99988254294347,
+        "measured_max": 64.00011061796152,
+        "charts": 400,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Path",
+      "category": "Path",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Path.fbx",
+      "vertices": 2542,
+      "triangles": 3220,
+      "bounds_m": [
+        [
+          -29.6,
+          30.6
+        ],
+        [
+          -46.473548889160156,
+          35.56892776489258
+        ],
+        [
+          2.5250000953674316,
+          10.154999732971191
+        ]
+      ],
+      "texture": "gravel",
+      "color": [
+        0.62,
+        0.58,
+        0.46
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 96,
+        "measured_min": 95.99881304701633,
+        "measured_max": 96.00120574427527,
+        "charts": 2112,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_DarkWood",
+      "category": "DarkWood",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_DarkWood.fbx",
+      "vertices": 3440,
+      "triangles": 6204,
+      "bounds_m": [
+        [
+          -28.378786087036133,
+          30.18012237548828
+        ],
+        [
+          -40.275001525878906,
+          32.2599983215332
+        ],
+        [
+          2.5250000953674316,
+          16.294498443603516
+        ]
+      ],
+      "texture": "cedar",
+      "color": [
+        0.19,
+        0.13,
+        0.09
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 128,
+        "measured_min": 127.9951295259436,
+        "measured_max": 128.00581870128204,
+        "charts": 2610,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Cedar",
+      "category": "Cedar",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Cedar.fbx",
+      "vertices": 3256,
+      "triangles": 6036,
+      "bounds_m": [
+        [
+          -28.324676513671875,
+          29.850000381469727
+        ],
+        [
+          -39.17499923706055,
+          32.1
+        ],
+        [
+          2.5999999046325684,
+          16.36
+        ]
+      ],
+      "texture": "cedar",
+      "color": [
+        0.35,
+        0.22,
+        0.13
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 128,
+        "measured_min": 127.98835625648758,
+        "measured_max": 128.02113596153433,
+        "charts": 2958,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Stone",
+      "category": "Stone",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Stone.fbx",
+      "vertices": 6000,
+      "triangles": 11280,
+      "bounds_m": [
+        [
+          -43.51633887920486,
+          40.41532373591216
+        ],
+        [
+          -40.700648952281654,
+          42.375049603873926
+        ],
+        [
+          1.559999942779541,
+          14.133234521829184
+        ]
+      ],
+      "texture": "limestone",
+      "color": [
+        0.56,
+        0.54,
+        0.44
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 96,
+        "measured_min": 95.99699611712428,
+        "measured_max": 96.00376522815037,
+        "charts": 6600,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_BathStone",
+      "category": "BathStone",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_BathStone.fbx",
+      "vertices": 3208,
+      "triangles": 5808,
+      "bounds_m": [
+        [
+          -19.373081818223,
+          15.86925121826287
+        ],
+        [
+          -5.501291127179388,
+          29.557061415891788
+        ],
+        [
+          5.08,
+          10.790460300559984
+        ]
+      ],
+      "texture": "limestone",
+      "color": [
+        0.63,
+        0.62,
+        0.53
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 96,
+        "measured_min": 95.99964154048698,
+        "measured_max": 96.00041362184412,
+        "charts": 5808,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Water",
+      "category": "Water",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Water.fbx",
+      "vertices": 770,
+      "triangles": 1408,
+      "bounds_m": [
+        [
+          -15.719999999999999,
+          14.921499999999998
+        ],
+        [
+          -4.5969999999999995,
+          28.667
+        ],
+        [
+          6.0200000000000005,
+          9.92
+        ]
+      ],
+      "texture": "water",
+      "color": [
+        0.18,
+        0.48,
+        0.46
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 4096,
+        "target_px_per_m": 128,
+        "measured_min": 127.99753435285906,
+        "measured_max": 128.0022070465534,
+        "charts": 768,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 8.0
+      },
+      "collision": false
+    },
+    {
+      "name": "SM_Steam",
+      "category": "Steam",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Steam.fbx",
+      "vertices": 104,
+      "triangles": 52,
+      "bounds_m": [
+        [
+          -11.20043243109623,
+          14.084797089964072
+        ],
+        [
+          -2.1246106619309737,
+          26.37935381043741
+        ],
+        [
+          6.15,
+          12.497079428158672
+        ]
+      ],
+      "texture": "steam",
+      "color": [
+        0.82,
+        0.86,
+        0.82
+      ],
+      "uv": {
+        "kind": "intentional repeated full-card alpha UV",
+        "atlas_pixels": 512,
+        "target_px_per_m": null,
+        "charts": 26,
+        "overlap": "intentional steam sprites"
+      },
+      "collision": false
+    },
+    {
+      "name": "SM_Stream",
+      "category": "Stream",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Stream.fbx",
+      "vertices": 108,
+      "triangles": 98,
+      "bounds_m": [
+        [
+          -7.314696788787842,
+          5.119495868682861
+        ],
+        [
+          6.2251691818237305,
+          25.28534507751465
+        ],
+        [
+          6.019999980926514,
+          9.880000114440918
+        ]
+      ],
+      "texture": "water",
+      "color": [
+        0.3,
+        0.56,
+        0.52
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 1024,
+        "target_px_per_m": 128,
+        "measured_min": 127.99961946356623,
+        "measured_max": 128.00031197347516,
+        "charts": 49,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 2.0
+      },
+      "collision": false
+    },
+    {
+      "name": "SM_Plaster",
+      "category": "Plaster",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Plaster.fbx",
+      "vertices": 128,
+      "triangles": 240,
+      "bounds_m": [
+        [
+          -21.0,
+          29.350000381469727
+        ],
+        [
+          -33.099998474121094,
+          32.099998474121094
+        ],
+        [
+          2.7200000286102295,
+          14.619999885559082
+        ]
+      ],
+      "texture": "plaster",
+      "color": [
+        0.77,
+        0.74,
+        0.61
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 128,
+        "measured_min": 127.99930784771287,
+        "measured_max": 128.00061801794084,
+        "charts": 120,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Glass",
+      "category": "Glass",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Glass.fbx",
+      "vertices": 704,
+      "triangles": 1320,
+      "bounds_m": [
+        [
+          -24.190000534057617,
+          28.78499984741211
+        ],
+        [
+          -40.29750061035156,
+          27.190000534057617
+        ],
+        [
+          3.950000047683716,
+          12.84999942779541
+        ]
+      ],
+      "texture": "plaster",
+      "color": [
+        0.7,
+        0.55,
+        0.29
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 2048,
+        "target_px_per_m": 128,
+        "measured_min": 127.97582316312165,
+        "measured_max": 128.02107398758133,
+        "charts": 660,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 4.0
+      },
+      "collision": false
+    },
+    {
+      "name": "SM_Roof",
+      "category": "Roof",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Roof.fbx",
+      "vertices": 528,
+      "triangles": 944,
+      "bounds_m": [
+        [
+          -24.399999618530273,
+          30.309999465942383
+        ],
+        [
+          -40.400001525878906,
+          33.06999969482422
+        ],
+        [
+          5.430000305175781,
+          16.580699920654297
+        ]
+      ],
+      "texture": "slate",
+      "color": [
+        0.2,
+        0.29,
+        0.32
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 128,
+        "measured_min": 127.9975244126043,
+        "measured_max": 128.00235294178464,
+        "charts": 416,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Fabric",
+      "category": "Fabric",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Fabric.fbx",
+      "vertices": 256,
+      "triangles": 480,
+      "bounds_m": [
+        [
+          -17.719999313354492,
+          26.719999313354492
+        ],
+        [
+          -33.45000076293945,
+          25.59000015258789
+        ],
+        [
+          4.725000381469727,
+          12.875
+        ]
+      ],
+      "texture": "plaster",
+      "color": [
+        0.32,
+        0.44,
+        0.45
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 1024,
+        "target_px_per_m": 128,
+        "measured_min": 127.99356105269966,
+        "measured_max": 128.00649896070905,
+        "charts": 240,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 2.0
+      },
+      "collision": false
+    },
+    {
+      "name": "SM_Metal",
+      "category": "Metal",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Metal.fbx",
+      "vertices": 96,
+      "triangles": 168,
+      "bounds_m": [
+        [
+          -18.899999618530273,
+          -18.509998321533203
+        ],
+        [
+          -1.5399999618530273,
+          1.7400000095367432
+        ],
+        [
+          6.900000095367432,
+          7.389999866485596
+        ]
+      ],
+      "texture": "slate",
+      "color": [
+        0.12,
+        0.16,
+        0.16
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 512,
+        "target_px_per_m": 128,
+        "measured_min": 127.9990250769766,
+        "measured_max": 128.00356300973533,
+        "charts": 60,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 1.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_Trunks",
+      "category": "Trunks",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Trunks.fbx",
+      "vertices": 288,
+      "triangles": 512,
+      "bounds_m": [
+        [
+          -40.20673370361328,
+          40.220001220703125
+        ],
+        [
+          -38.21665954589844,
+          44.21665954589844
+        ],
+        [
+          2.3972556591033936,
+          20.316904067993164
+        ]
+      ],
+      "texture": "cedar",
+      "color": [
+        0.3,
+        0.22,
+        0.14
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 2048,
+        "target_px_per_m": 96,
+        "measured_min": 95.99826123879754,
+        "measured_max": 96.00216796586466,
+        "charts": 176,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 4.0
+      },
+      "collision": true
+    },
+    {
+      "name": "SM_LeavesLight",
+      "category": "LeavesLight",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_LeavesLight.fbx",
+      "vertices": 2604,
+      "triangles": 4960,
+      "bounds_m": [
+        [
+          -43.07564602555573,
+          44.57091526998886
+        ],
+        [
+          -42.265377084397365,
+          44.357868354101015
+        ],
+        [
+          2.041642257516405,
+          21.96375986412272
+        ]
+      ],
+      "texture": "grass",
+      "color": [
+        0.34,
+        0.43,
+        0.24
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 8192,
+        "target_px_per_m": 64,
+        "measured_min": 63.99926585757679,
+        "measured_max": 64.00079937154077,
+        "charts": 4960,
+        "padding_each_side_px": 9.0,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 16.0
+      },
+      "collision": false
+    },
+    {
+      "name": "SM_Leaves",
+      "category": "Leaves",
+      "fbx": "D:\\github\\AstraEffort\\ForestDemo\\Work\\HillsideOnsen\\ultra\\SourceArt\\SM_Leaves.fbx",
+      "vertices": 1800,
+      "triangles": 3480,
+      "bounds_m": [
+        [
+          -41.73,
+          42.34
+        ],
+        [
+          -39.95,
+          46.34
+        ],
+        [
+          3.847255718054809,
+          21.45690392575636
+        ]
+      ],
+      "texture": "grass",
+      "color": [
+        0.22,
+        0.33,
+        0.22
+      ],
+      "uv": {
+        "kind": "unique planar face charts, shelf packed",
+        "atlas_pixels": 4096,
+        "target_px_per_m": 64,
+        "measured_min": 63.99954907575029,
+        "measured_max": 64.00124633699954,
+        "charts": 1500,
+        "padding_each_side_px": 8,
+        "overlap": "nonoverlapping bounding rectangles",
+        "uv_bounds": [
+          0,
+          1
+        ],
+        "material_tile_pixels": 512,
+        "uv_to_texture_scale": 8.0
+      },
+      "collision": false
+    }
+  ],
+  "semantic_objects": [
+    {
+      "type": "bath",
+      "name": "central",
+      "center": [
+        -8,
+        1,
+        6.2
+      ],
+      "water_z": 6.0200000000000005,
+      "bottom_z": 5.08,
+      "radii": [
+        8.0,
+        5.8
+      ]
+    },
+    {
+      "type": "bath",
+      "name": "upper",
+      "center": [
+        10,
+        25,
+        10.1
+      ],
+      "water_z": 9.92,
+      "bottom_z": 8.98,
+      "radii": [
+        5.1,
+        3.8
+      ]
+    },
+    {
+      "type": "building",
+      "name": "arrival_lodge",
+      "center": [
+        -14,
+        -30,
+        2.6
+      ],
+      "footprint": [
+        8.0,
+        6.2
+      ],
+      "ground_z": 2.6,
+      "foundation_bottom": 1.56,
+      "foundation_top": 2.68
+    },
+    {
+      "type": "building",
+      "name": "bathhouse",
+      "center": [
+        13,
+        0,
+        6.2
+      ],
+      "footprint": [
+        9.0,
+        8.0
+      ],
+      "ground_z": 6.2,
+      "foundation_bottom": 5.16,
+      "foundation_top": 6.28
+    },
+    {
+      "type": "building",
+      "name": "upper_lodge",
+      "center": [
+        -17,
+        29,
+        10.1
+      ],
+      "footprint": [
+        8.0,
+        6.2
+      ],
+      "ground_z": 10.1,
+      "foundation_bottom": 9.059999999999999,
+      "foundation_top": 10.18
+    },
+    {
+      "type": "building",
+      "name": "tea_house",
+      "center": [
+        26,
+        28,
+        10.1
+      ],
+      "footprint": [
+        6.7,
+        5.8
+      ],
+      "ground_z": 10.1,
+      "foundation_bottom": 9.059999999999999,
+      "foundation_top": 10.18
+    },
+    {
+      "type": "lamp",
+      "position": [
+        -17,
+        -7,
+        8.7
+      ]
+    },
+    {
+      "type": "lamp",
+      "position": [
+        4,
+        -7,
+        8.7
+      ]
+    },
+    {
+      "type": "lamp",
+      "position": [
+        18,
+        -7,
+        8.7
+      ]
+    },
+    {
+      "type": "lamp",
+      "position": [
+        -24,
+        27,
+        12.6
+      ]
+    },
+    {
+      "type": "lamp",
+      "position": [
+        19,
+        20,
+        12.6
+      ]
+    },
+    {
+      "type": "lamp",
+      "position": [
+        -22,
+        -33,
+        5.1
+      ]
+    },
+    {
+      "type": "lamp",
+      "position": [
+        5,
+        -40,
+        5.1
+      ]
+    }
+  ],
+  "route": [
+    [
+      0,
+      -45,
+      2.6
+    ],
+    [
+      -26,
+      -34,
+      2.6
+    ],
+    [
+      -28,
+      -24,
+      2.6
+    ],
+    [
+      27,
+      -13,
+      6.2
+    ],
+    [
+      29,
+      4,
+      6.2
+    ],
+    [
+      -27,
+      19,
+      10.1
+    ],
+    [
+      -26,
+      30,
+      10.1
+    ],
+    [
+      -6,
+      34,
+      10.1
+    ]
+  ],
+  "stairs": [
+    {
+      "start": [
+        -24,
+        -20,
+        3.6
+      ],
+      "end": [
+        -24,
+        -12,
+        6.2
+      ],
+      "riser_m": 0.17333333333333334,
+      "tread_m": 0.5333333333333333
+    },
+    {
+      "start": [
+        25,
+        11,
+        6.2
+      ],
+      "end": [
+        25,
+        21,
+        10.1
+      ],
+      "riser_m": 0.17727272727272725,
+      "tread_m": 0.45454545454545453
+    }
+  ],
+  "pools": [
+    {
+      "name": "central",
+      "x": -8,
+      "y": 1,
+      "z": 6.2,
+      "rx": 8.0,
+      "ry": 5.8
+    },
+    {
+      "name": "upper",
+      "x": 10,
+      "y": 25,
+      "z": 10.1,
+      "rx": 5.1,
+      "ry": 3.8
+    }
+  ],
+  "coordinate_policy": "Blender meters; FBX global_scale=1, axis_forward=Y, up=Z; importer convert_scene=False, convert_scene_unit=True converts meters to cm; actor scale(1,-1,1) corrects handedness",
+  "runtime_routes": [
+    {
+      "name": "arrival_flat",
+      "points": [
+        [
+          0,
+          -45,
+          2.6
+        ],
+        [
+          -13,
+          -39.5,
+          2.6
+        ]
+      ]
+    },
+    {
+      "name": "lower_switchback",
+      "points": [
+        [
+          -24,
+          -23.2,
+          2.8618
+        ],
+        [
+          -5,
+          -19.4,
+          4.10545
+        ]
+      ]
+    },
+    {
+      "name": "upper_switchback",
+      "points": [
+        [
+          24,
+          5.3393,
+          6.5482
+        ],
+        [
+          9,
+          9.3571,
+          7.59286
+        ]
+      ]
+    }
+  ],
+  "camera_views": {
+    "overview": {
+      "location": [
+        -89,
+        -110,
+        83
+      ],
+      "target": [
+        0,
+        0,
+        8
+      ],
+      "fov": 48
+    },
+    "top_down": {
+      "location": [
+        0,
+        -2,
+        195
+      ],
+      "target": [
+        0,
+        0,
+        7
+      ],
+      "fov": 60
+    },
+    "hot_spring": {
+      "location": [
+        -28,
+        -25,
+        18
+      ],
+      "target": [
+        -4,
+        2,
+        7
+      ],
+      "fov": 53
+    },
+    "village_path": {
+      "location": [
+        25,
+        -22,
+        9.0
+      ],
+      "target": [
+        -5,
+        -2,
+        9
+      ],
+      "fov": 63
+    }
+  },
+  "finished_at_utc": "2026-10-22T15:45:56.856338+00:00"
+}
