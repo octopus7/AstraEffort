@@ -1,9 +1,9 @@
 {
-  "started_at_utc": "2026-10-21T15:56:14.969604+00:00",
-  "finished_at_utc": "2026-10-21T15:56:31.108172+00:00",
-  "elapsed_seconds": 16.14100000000326,
+  "started_at_utc": "2026-10-22T12:54:58.188049+00:00",
+  "finished_at_utc": "2026-10-22T12:55:10.133997+00:00",
+  "elapsed_seconds": 11.936999999976251,
   "target_texels_per_meter": 128.0,
-  "scope": "All triangles of all 47 owned source meshes; unique planar polygon charts. Metric is base-level effective texel density, not screen resolution or streamed mip residency.",
+  "scope": "All triangles of all 48 owned source meshes; unique planar polygon charts. Metric is base-level effective texel density, not screen resolution or streamed mip residency.",
   "island_strategy": "One chart per authored polygon; no shared charts. Per-polygon area normalization preserves target mean density; curved/non-planar triangle deviation measured.",
   "padding_note": "At least 8 effective base texels per side, increased to virtual atlas side/1024 to avoid UE static-mesh UV vertex welding. Surface image is intentionally repeating; virtual atlas is not a unique baked color image.",
   "meshes": [
@@ -438,9 +438,9 @@
     },
     {
       "mesh": "SM_Footpath",
-      "geometry_sha256_before": "41acef8c2c7ca765c7739cf14d340b25fd063abce38c093057c986338dfdb933",
-      "geometry_sha256_after": "41acef8c2c7ca765c7739cf14d340b25fd063abce38c093057c986338dfdb933",
-      "world_surface_area_m2": 461.3982271589691,
+      "geometry_sha256_before": "0c4791a34c710ab0199da099b3d3f347a600422e33e575a91ea1a2314febfe4f",
+      "geometry_sha256_after": "0c4791a34c710ab0199da099b3d3f347a600422e33e575a91ea1a2314febfe4f",
+      "world_surface_area_m2": 461.7264557122939,
       "source_vertices": 11775,
       "source_triangles": 21592,
       "islands": 21592,
@@ -457,12 +457,12 @@
       },
       "edge_stretch_ratio_percentiles": {
         "0": 1.0000000000368952,
-        "1": 1.0000000048173925,
-        "5": 1.0000000105422695,
-        "50": 1.0000000398400934,
-        "95": 1.0000000843520096,
-        "99": 1.0000001034786103,
-        "100": 1.000000183328212
+        "1": 1.0000000047651085,
+        "5": 1.000000010482689,
+        "50": 1.0000000397225857,
+        "95": 1.000000084427091,
+        "99": 1.0000001026461025,
+        "100": 1.0000002077373789
       },
       "tiny_triangles_under_one_base_texel_area": 0,
       "degenerate_triangles": 0,

@@ -1,0 +1,23 @@
+{
+  "reviewed_at_utc": "2026-10-22T13:14:26.205078+00:00",
+  "passed": true,
+  "method": "Primary agent inspected all six actual before_fixed PNGs and all six actual after_final PNGs using view_image; no generated scene evidence.",
+  "views": {
+    "overview": "Station, platform, freight shed and terrain composition remain; path no longer has the large missing patches; sleepers and the timber crossing read clearly.",
+    "top_down": "Original layout retained, locally realigned path crosses the rail at the new timber deck; loop path and rounded end remain visible.",
+    "platform": "Architecture, windows, benches, lamps and platform retain their previous composition. New track sleepers and crossing visible in the distance.",
+    "tracks": "Sleeper height and rail profile are visible. Final 35/25 lm tunnel fills reveal a little rib structure; the first 900/650 lm capture was too bright and is superseded. A small ceiling light pool and dark tunnel depth remain.",
+    "path_junction": "Large terrain holes visible in baseline are removed. Edge color blends into the meadow; steep triangulated facets, some floating-looking edge shadows, grid silhouette and existing rocks remain limitations.",
+    "crossing": "Timber boards visibly bridge the railway with rail grooves and approaching path. Exposed sleeper sides are visible. Close path borders retain a stepped grid outline."
+  },
+  "after_png_sha256": {
+    "overview": "9c0b37b29d5848bbd10b0607a98b2932d777f72f41a6d5a79222c54e9be567b6",
+    "top_down": "3daa82d6bbc23b9f5359b6981d419b937ee9584b13caef7552bc649ad7211eaf",
+    "platform": "d2e920a325d65d6bebbf37c7d721d1f0584fd1a08aed579247859866d54cc84f",
+    "tracks": "0282fa562f1301f4118cc5c2ca0b5ee15017a9c3bef3eddb8b914014dfe2b90a",
+    "path_junction": "e3a7a3598580cad993869365dcc35fe6335907134fdf35fdd9458e5b18dd2e61",
+    "crossing": "ce7aeeccd8e04b9f52783f1308081c1e88e6be7b3590c0ee55260e1576f4f270"
+  },
+  "capture_process_exit_code": -1073741819,
+  "exit_limitation": "All six PNGs, successful manifest, and post-capture package hash confirmation were written before engine shutdown. The process later returned Windows access violation after LogExit/closed-log messages. Clean process exit is not claimed. Prior final scene validation review09 exited 0."
+}

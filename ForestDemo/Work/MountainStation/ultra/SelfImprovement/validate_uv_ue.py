@@ -34,6 +34,7 @@ def validate_uv():
             section={'index':si,'slot':slot,'material':material.get_path_name(),'collision_enabled':ss.is_section_collision_enabled(sm,0,si)};record['sections'].append(section)
             if material.get_path_name() in materials:
                 expected=materials[material.get_path_name()];tex=ml.get_material_instance_texture_parameter_value(material,'DetailTexture');scale=ml.get_material_instance_vector_parameter_value(material,'UVScale')
+                assert material.get_editor_property('parent').get_path_name()==expected['parent']
                 dims=[tex.blueprint_get_size_x(),tex.blueprint_get_size_y()]
                 assert dims==expected['source_dimensions'] and tex.get_path_name()==expected['texture']
                 assert abs(scale.r*dims[0]-side)<.02 and abs(scale.g*dims[1]-side)<.02
@@ -94,5 +95,13 @@ def validate_uv():
     assert {a['label'] for a in current}- {a['label'] for a in before}==allowed_new
     master=u.load_asset(A+'/Materials/TexturePass/M_SurfaceDetail')
     result['material_graph']={'base_color_node':ml.get_material_property_input_node(master,u.MaterialProperty.MP_BASE_COLOR).get_class().get_path_name(),'roughness_node':ml.get_material_property_input_node(master,u.MaterialProperty.MP_ROUGHNESS).get_class().get_path_name(),'parent':master.get_path_name(),'texture_parameters':list(map(str,ml.get_texture_parameter_names(master)))}
+    soft=u.load_asset(A+'/Materials/SelfImprovement/M_SoftPath')
+    def pins(node):return dict(zip(map(str,ml.get_material_expression_input_names(node)),ml.get_inputs_for_material_expression(soft,node)))
+    color=ml.get_material_property_input_node(soft,u.MaterialProperty.MP_BASE_COLOR);assert isinstance(color,u.MaterialExpressionMultiply)
+    blend=pins(color)['A'];assert isinstance(blend,u.MaterialExpressionLinearInterpolate)
+    inputs=pins(blend);vc=inputs['Alpha'];assert isinstance(vc,u.MaterialExpressionVertexColor)
+    assert ml.get_input_node_output_name_for_material_expression(blend,vc)=='R'
+    assert str(inputs['A'].get_editor_property('parameter_name'))=='EdgeTint' and str(inputs['B'].get_editor_property('parameter_name'))=='Tint'
+    result['soft_path_graph']={'parent':soft.get_path_name(),'base_color':'Multiply','tint_blend':'LinearInterpolate(EdgeTint,Tint,VertexColor.R)','verified_saved_connections':True}
     result.update(original_actor_transforms_unchanged=True,finished_at_utc=stamp(),passed=True)
     (R/'uv_validation.json').write_text(json.dumps(result,indent=2));return result

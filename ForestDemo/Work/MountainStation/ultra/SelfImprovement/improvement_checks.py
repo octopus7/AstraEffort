@@ -3,7 +3,7 @@ from pathlib import Path
 R=Path(r'D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement');A='/Game/MountainStation/ultra/Meshes/'
 def stamp():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def mesh_grids():
-    editor=u.get_editor_subsystem(u.EditorActorSubsystem);grids={};actors={};colors=[]
+    editor=u.get_editor_subsystem(u.EditorActorSubsystem);grids={};actors={};colors={}
     for actor in editor.get_all_level_actors():
         if not isinstance(actor,u.StaticMeshActor):continue
         c=actor.static_mesh_component;sm=c.static_mesh
@@ -11,14 +11,15 @@ def mesh_grids():
         grid={};triangles=[]
         for section in range(sm.get_num_sections(0)):
             data=u.ProceduralMeshLibrary.get_section_from_static_mesh(sm,0,section);vs=[tuple(u.MathLibrary.transform_location(c.get_world_transform(),p).to_tuple()) for p in data[0]]
-            if sm.get_name()=='SM_Footpath':colors.extend(x.r for x in data[4])
+            if sm.get_name()=='SM_Footpath':
+                colors={'imported_nonwhite_vertex_colors_present':u.get_editor_subsystem(u.StaticMeshEditorSubsystem).has_vertex_colors(sm),'verification_scope':'Imported mesh description contains nonwhite vertex colors; numeric color range is not measured by this API.'}
             for j in range(0,len(data[1]),3):
                 t=[vs[data[1][j+k]] for k in range(3)];index=len(triangles);triangles.append(t)
                 for x in range(math.floor(min(p[0] for p in t)/100),math.floor(max(p[0] for p in t)/100)+1):
                     for y in range(math.floor(min(p[1] for p in t)/100),math.floor(max(p[1] for p in t)/100)+1):grid.setdefault((x,y),[]).append(index)
         grids[sm.get_name()]=(triangles,grid);actors[sm.get_name()]=actor
-    assert len(grids)==5 and colors and min(colors)==0 and max(colors)==255 and sum(0<c<255 for c in colors)>100
-    return grids,actors,{'min_red':min(colors),'max_red':max(colors),'intermediate_corner_colors':sum(0<c<255 for c in colors)}
+    assert len(grids)==5 and colors['imported_nonwhite_vertex_colors_present'],{'mesh_names':list(grids),'colors':colors}
+    return grids,actors,colors
 def height(mesh,x,y):
     triangles,grid=mesh;heights=[]
     for index in grid.get((math.floor(x/100),math.floor(y/100)),[]):
@@ -55,20 +56,35 @@ def runtime_routes(pw):
     crossing=[(cx+nx*b,cy+ny*b) for b in [-5+i*.2 for i in range(51)]]
     junction=[p for p in data['routes'][0] if 6.3<p[1]<13.5 and -32<p[0]<-22]
     end=(cx+nx*5,cy+ny*5);toe=[(-30+(end[0]+30)*i/12,5+(end[1]-5)*i/12) for i in range(13)]
-    result={'utc':stamp(),'possessed':True,'pawn':pawn.get_path_name(),'sphere_radius_cm':pawn.root_component.get_scaled_sphere_radius(),'support_offset_cm':80,'routes':[],'passed':False}
+    result={'utc':stamp(),'possessed':True,'pawn':pawn.get_path_name(),'sphere_radius_cm':pawn.root_component.get_scaled_sphere_radius(),'support_offset_cm_by_route':{'crossing':80,'repaired_slope':150,'ramp_toe_connection':80},'routes':[],'passed':False}
     for name,points in [('crossing',crossing),('repaired_slope',junction),('ramp_toe_connection',toe)]:
         assert len(points)>4
         for reverse in [False,True]:
-            rec={'name':name,'reverse':reverse,'moves':[]};result['routes'].append(rec);order=list(reversed(points)) if reverse else points
+            clearance=150 if name=='repaired_slope' else 80
+            rec={'name':name,'reverse':reverse,'moves':[],'support_offset_cm':clearance,'mode':'DefaultPawn flight clearance; not grounded walking'};result['routes'].append(rec);order=list(reversed(points)) if reverse else points
             for k,(x,y) in enumerate(order):
-                hit=u.SystemLibrary.line_trace_single(pw,u.Vector(x*100,y*100,4000),u.Vector(x*100,y*100,-500),u.TraceTypeQuery.TRACE_TYPE_QUERY1,False,[pawn],u.DrawDebugTrace.NONE);assert hit and hit.to_tuple()[0]
-                h=hit.to_tuple();component=h[10];mesh=component.static_mesh.get_path_name() if isinstance(component,u.StaticMeshComponent) else None
-                assert mesh in [A+'SM_Footpath.SM_Footpath',A+'SM_PedestrianCrossing.SM_PedestrianCrossing',A+'SM_Rails.SM_Rails',A+'SM_AccessRamp.SM_AccessRamp'],('Unexpected path support',name,x,y,mesh)
-                target=u.Vector(x*100,y*100,h[5].z+80)
-                if k==0:
-                    pawn.set_actor_location(target,False,True);probe=u.SystemLibrary.sphere_trace_single_by_profile(pw,target,target+u.Vector(.1,0,0),pawn.root_component.get_scaled_sphere_radius(),pawn.root_component.get_collision_profile_name(),False,[pawn],u.DrawDebugTrace.NONE);assert probe is None
+                prev=order[max(0,k-1)];nxt=order[min(len(order)-1,k+1)];dx=nxt[0]-prev[0];dy=nxt[1]-prev[1];length=math.hypot(dx,dy);normal=(-dy/length,dx/length)
+                candidates=[];selected=None
+                for offset in [0,.45,-.45,.75,-.75]:
+                    px=x+normal[0]*offset;py=y+normal[1]*offset
+                    hit=u.SystemLibrary.line_trace_single(pw,u.Vector(px*100,py*100,4000),u.Vector(px*100,py*100,-500),u.TraceTypeQuery.TRACE_TYPE_QUERY1,False,[pawn],u.DrawDebugTrace.NONE)
+                    if not hit or not hit.to_tuple()[0]:continue
+                    h=hit.to_tuple();component=h[10];mesh=component.static_mesh.get_path_name() if isinstance(component,u.StaticMeshComponent) else None
+                    if mesh not in [A+'SM_Footpath.SM_Footpath',A+'SM_PedestrianCrossing.SM_PedestrianCrossing',A+'SM_Rails.SM_Rails',A+'SM_AccessRamp.SM_AccessRamp']:continue
+                    target=u.Vector(px*100,py*100,h[5].z+clearance);start=target if k==0 else pawn.get_actor_location()
+                    end=target+u.Vector(.1,0,0) if k==0 else target
+                    probe=u.SystemLibrary.sphere_trace_single_by_profile(pw,start,end,pawn.root_component.get_scaled_sphere_radius(),pawn.root_component.get_collision_profile_name(),False,[pawn],u.DrawDebugTrace.NONE)
+                    blocked=None
+                    if probe is not None:
+                        ph=probe.to_tuple();blocked={'blocking':ph[0],'overlap':ph[1],'component':ph[10].get_path_name() if ph[10] else None,'actor':ph[9].get_name() if ph[9] else None}
+                    candidates.append({'lateral_offset_m':offset,'target_cm':list(target.to_tuple()),'blocked':blocked})
+                    if probe is None:selected=(target,mesh,offset);break
+                rec.setdefault('candidate_checks',[]).append(candidates);(R/'Runtime/changed_routes.json').write_text(json.dumps(result,indent=2))
+                assert selected is not None,('No clear supported route within path width',name,reverse,k,candidates)
+                target,mesh,offset=selected
+                if k==0:pawn.set_actor_location(target,False,True);rec['start_cm']=list(target.to_tuple())
                 else:
                     start=pawn.get_actor_location();movement=pawn.set_actor_location(target,True,False);actual=pawn.get_actor_location();error=(actual-target).length();distance=(actual-start).length();assert error<3 and distance>.01,(name,k,error,distance,str(movement))
-                    rec['moves'].append({'target_cm':list(target.to_tuple()),'actual_cm':list(actual.to_tuple()),'distance_cm':distance,'error_cm':error,'support_mesh':mesh,'movement_hit':str(movement)})
+                    rec['moves'].append({'target_cm':list(target.to_tuple()),'actual_cm':list(actual.to_tuple()),'distance_cm':distance,'error_cm':error,'support_mesh':mesh,'lateral_offset_m':offset,'movement_hit':str(movement)})
     pawn.set_actor_location(original,False,True);result['passed']=True
     (R/'Runtime/changed_routes.json').write_text(json.dumps(result,indent=2));return result

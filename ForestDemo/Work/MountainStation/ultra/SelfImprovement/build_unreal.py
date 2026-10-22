@@ -34,10 +34,20 @@ try:
     ml.recompile_material(master);u.EditorAssetLibrary.save_loaded_asset(master)
     changed=['SM_Ballast','SM_Rails','SM_Footpath','SM_PedestrianCrossing']
     for name in changed:
+        restore_components=[]
+        if name=='SM_Footpath' and u.EditorAssetLibrary.does_asset_exist(A+'/Meshes/'+name):
+            old_mesh=u.load_asset(A+'/Meshes/'+name)
+            restore_components=[a.static_mesh_component for a in editor.get_all_level_actors() if isinstance(a,u.StaticMeshActor) and a.static_mesh_component.static_mesh==old_mesh]
+            for c in restore_components:c.set_static_mesh(None)
+            assert u.EditorAssetLibrary.delete_asset(A+'/Meshes/'+name)
+        world=u.get_editor_subsystem(u.UnrealEditorSubsystem).get_editor_world()
+        u.SystemLibrary.execute_console_command(world,'Interchange.FeatureFlags.Import.FBX '+('0' if name=='SM_Footpath' else '1'))
         entry=next(x for x in art['meshes'] if x['name']==name);task=u.AssetImportTask();task.filename=entry['file'];task.destination_path=A+'/Meshes';task.destination_name=name;task.automated=True;task.replace_existing=True;task.save=True
         options=u.FbxImportUI();options.import_materials=False;options.import_textures=False;options.import_as_skeletal=False;options.automated_import_should_detect_type=False;options.mesh_type_to_import=u.FBXImportType.FBXIT_STATIC_MESH
         imp=options.static_mesh_import_data;imp.combine_meshes=True;imp.auto_generate_collision=False;imp.generate_lightmap_u_vs=False;imp.convert_scene=False;imp.convert_scene_unit=True;imp.normal_import_method=u.FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS_AND_TANGENTS;imp.vertex_color_import_option=u.VertexColorImportOption.REPLACE
         task.options=options;task.factory=u.FbxFactory();tools.import_asset_tasks([task]);sm=u.load_asset(A+'/Meshes/'+name);assert sm
+        for c in restore_components:c.set_static_mesh(sm)
+        if name=='SM_Footpath':assert ss.has_vertex_colors(sm),'Footpath imported corner colors absent'
         build=ss.get_lod_build_settings(sm,0);build.use_full_precision_u_vs=True;build.generate_lightmap_u_vs=False;ss.set_lod_build_settings(sm,0,build)
         sm.get_editor_property('body_setup').set_editor_property('collision_trace_flag',u.CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE)
         for si in range(sm.get_num_sections(0)):ss.enable_section_collision(sm,True,0,si)
@@ -60,7 +70,7 @@ try:
     import math
     tx=31;ty=-9+.012*34**2;tz=.82+.0015*13**2-.25;angle=math.atan(.024*34)
     lightrecords=[]
-    for label,depth,intensity in [('Tunnel entrance fill',1.5,900.),('Tunnel inner fill',5.,650.)]:
+    for label,depth,intensity in [('Tunnel entrance fill',1.5,35.),('Tunnel inner fill',5.,25.)]:
         existing=[a for a in editor.get_all_level_actors() if a.get_actor_label()==label]
         a=existing[0] if existing else editor.spawn_actor_from_class(u.PointLight,u.Vector((tx+math.cos(angle)*depth)*100,(ty+math.sin(angle)*depth)*100,(tz+4.5)*100));a.set_actor_label(label)
         c=a.light_component;c.set_mobility(u.ComponentMobility.MOVABLE);c.set_editor_property('intensity_units',u.LightUnits.LUMENS);c.set_intensity(intensity);c.set_attenuation_radius(650.);c.set_light_color(u.LinearColor(1,.86,.70,1));c.set_editor_property('source_radius',18.);c.set_editor_property('cast_shadows',True)

@@ -1,0 +1,4 @@
+{
+  "utc": "2026-10-22T12:59:16.339337+00:00",
+  "error": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement/review_unreal.py\", line 23, in tick\n    runtime['play_checks']();runtime['save']();assert runtime['result']['checks_passed'];improvement['runtime_routes'](pw)\n                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\MountainStation\\ultra\\SelfImprovement\\improvement_checks.py\", line 72, in runtime_routes\n    assert probe is None,(name,reverse,str(target),str(probe))\n           ^^^^^^^^^^^^^\nAssertionError: ('repaired_slope', False, \"<Struct 'Vector' (0x0000021A301C28B0) {x: -3007.880402, y: 639.051962, z: 137.349003}>\", \"<Struct 'HitResult' (0x00000219CAF2D5C0) {}>\")\n"
+}

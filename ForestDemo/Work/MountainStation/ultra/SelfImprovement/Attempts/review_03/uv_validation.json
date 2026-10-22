@@ -1,0 +1,4188 @@
+{
+  "started_at_utc": "2026-10-22T12:49:01.866870+00:00",
+  "scope": "Every LOD0 triangle of all owned placed static meshes, actual component transforms in centimetres, actual imported UV0 and material texture dimensions/scales",
+  "uv_import_basis": "UE FbxStaticMeshImport.cpp line 758 flips V for DirectX; convert back with (u,1-v) only for layout correspondence. Density is flip-invariant.",
+  "meshes": [
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Terrain.SM_Terrain",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 32768,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_32768.MI_stone_Meadow_32768",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            26.130781173706055,
+            26.130781173706055
+          ],
+          "effective_pixel_axes": [
+            32767.999591827393,
+            32767.999591827393
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 20000
+        }
+      ],
+      "triangles_checked": 20000,
+      "world_surface_area_m2": 10881.147531120068,
+      "source_world_area_m2": 10881.75499518702,
+      "source_triangles": 20000,
+      "triangle_density_percentiles": {
+        "0": 96.27939602697263,
+        "1": 127.85748249325069,
+        "5": 127.99922758049759,
+        "50": 127.99997226608659,
+        "95": 128.00076939092057,
+        "99": 128.20802028902358,
+        "100": 137.05838897720184
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 96.27939602697263,
+        "1": 127.85748249325069,
+        "5": 127.99922758049759,
+        "50": 127.99997226608659,
+        "95": 128.00076939092057,
+        "99": 128.20802028902358,
+        "100": 137.05838897720184
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 32,
+      "area_fraction_outside_5_percent": 0.0019090075839127334,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 32.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 10000,
+      "source_charts": 10000,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.002,
+      "density_exception": "Nonplanar terrain quads: up to 0.2% area outside +/-5%; source and imported triangle extremes reported."
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TerrainSkirt.SM_TerrainSkirt",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_1",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Earth_8192.MI_stone_Earth_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1600
+        }
+      ],
+      "triangles_checked": 1600,
+      "world_surface_area_m2": 1816.8143923419766,
+      "source_world_area_m2": 1816.814822730826,
+      "source_triangles": 1600,
+      "triangle_density_percentiles": {
+        "0": 127.99978583253379,
+        "1": 127.99989412103083,
+        "5": 127.99989412103129,
+        "50": 127.99999339433731,
+        "95": 128.00027805364257,
+        "99": 128.00041430335517,
+        "100": 128.0006407252974
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99978583253379,
+        "1": 127.99989412103083,
+        "5": 127.99989412103129,
+        "50": 127.99999339433731,
+        "95": 128.00027805364257,
+        "99": 128.00041430335517,
+        "100": 128.0006407252974
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 800,
+      "source_charts": 800,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Ballast.SM_Ballast",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_stone_Ballast_8192.MI_stone_Ballast_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 3204
+        }
+      ],
+      "triangles_checked": 3204,
+      "world_surface_area_m2": 960.5046398626871,
+      "source_world_area_m2": 960.5046326039504,
+      "source_triangles": 3204,
+      "triangle_density_percentiles": {
+        "0": 127.9988304431422,
+        "1": 127.99924804980716,
+        "5": 127.9994442239515,
+        "50": 128.00000223938176,
+        "95": 128.00058346413917,
+        "99": 128.00080237790118,
+        "100": 128.00122269286055
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9988304431422,
+        "1": 127.99924804980716,
+        "5": 127.9994442239515,
+        "50": 128.00000223938176,
+        "95": 128.00058346413917,
+        "99": 128.00080237790118,
+        "100": 128.00122269286055
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1602,
+      "source_charts": 1602,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Sleepers.SM_Sleepers",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_3",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_8192.MI_wood_Timber_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 15876
+        }
+      ],
+      "triangles_checked": 15876,
+      "world_surface_area_m2": 274.5061773158612,
+      "source_world_area_m2": 274.5059008383941,
+      "source_triangles": 15876,
+      "triangle_density_percentiles": {
+        "0": 127.84325301943251,
+        "1": 127.85795939835383,
+        "5": 127.87058464354742,
+        "50": 127.99901910379566,
+        "95": 128.02363798882277,
+        "99": 128.03268572826204,
+        "100": 128.0414669321809
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.84325301943251,
+        "1": 127.85795939835383,
+        "5": 127.87058464354742,
+        "50": 127.99901910379566,
+        "95": 128.02363798882277,
+        "99": 128.03268572826204,
+        "100": 128.0414669321809
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 7938,
+      "source_charts": 7938,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_RailFasteners.SM_RailFasteners",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_4",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_4096.MI_metal_Metal_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 25272
+        }
+      ],
+      "triangles_checked": 25272,
+      "world_surface_area_m2": 37.93869928934523,
+      "source_world_area_m2": 37.93865986066488,
+      "source_triangles": 25272,
+      "triangle_density_percentiles": {
+        "0": 127.81790874466311,
+        "1": 127.85602197913647,
+        "5": 127.97528607135665,
+        "50": 127.99944459321028,
+        "95": 128.01830672280954,
+        "99": 128.03497637959023,
+        "100": 128.0651162206858
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.97263407093946,
+        "1": 127.98808044619386,
+        "5": 127.99305643208574,
+        "50": 127.99952845419675,
+        "95": 128.00882758823957,
+        "99": 128.01261788947699,
+        "100": 128.0244601750786
+      },
+      "triangles_under_one_base_texel_area": 14976,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 12636,
+      "source_charts": 12636,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Rails.SM_Rails",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_5",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_metal_Rail_8192.MI_metal_Rail_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 8000
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_metal_Metal_8192.MI_metal_Metal_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 11240
+        }
+      ],
+      "triangles_checked": 19240,
+      "world_surface_area_m2": 220.9567371965092,
+      "source_world_area_m2": 220.95678530123595,
+      "source_triangles": 19240,
+      "triangle_density_percentiles": {
+        "0": 127.9876291374747,
+        "1": 127.9959437050882,
+        "5": 127.99774068151683,
+        "50": 128.00005596815964,
+        "95": 128.00239527517672,
+        "99": 128.00445774812715,
+        "100": 128.0109681899571
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9876291374747,
+        "1": 127.9959437050882,
+        "5": 127.99774068151683,
+        "50": 128.00005596815964,
+        "95": 128.00239527517672,
+        "99": 128.00445774812715,
+        "100": 128.0109681899571
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 9604,
+      "source_charts": 9604,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Platform.SM_Platform",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 412
+        }
+      ],
+      "triangles_checked": 412,
+      "world_surface_area_m2": 416.39293408207527,
+      "source_world_area_m2": 416.3929360595653,
+      "source_triangles": 412,
+      "triangle_density_percentiles": {
+        "0": 127.99982232214698,
+        "1": 127.9998249651045,
+        "5": 127.99989890553069,
+        "50": 128.00000417334397,
+        "95": 128.00005666164435,
+        "99": 128.00011555056795,
+        "100": 128.00013169057044
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99982232214698,
+        "1": 127.9998249651045,
+        "5": 127.99989890553069,
+        "50": 128.00000417334397,
+        "95": 128.00005666164435,
+        "99": 128.00011555056795,
+        "100": 128.00013169057044
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 206,
+      "source_charts": 206,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_PlatformCoping.SM_PlatformCoping",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Cream_2048.MI_stone_Cream_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 548
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Mustard_2048.MI_stone_Mustard_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 548
+        }
+      ],
+      "triangles_checked": 1096,
+      "world_surface_area_m2": 48.4210747926779,
+      "source_world_area_m2": 48.42107738925676,
+      "source_triangles": 1096,
+      "triangle_density_percentiles": {
+        "0": 127.99951848747367,
+        "1": 127.9997173993712,
+        "5": 127.99981842046921,
+        "50": 128.00007788889087,
+        "95": 128.0015035351459,
+        "99": 128.0015876140597,
+        "100": 128.00163182053393
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99951848747367,
+        "1": 127.9997173993712,
+        "5": 127.99981842046921,
+        "50": 128.00007788889087,
+        "95": 128.0015035351459,
+        "99": 128.0015876140597,
+        "100": 128.00163182053393
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 548,
+      "source_charts": 548,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Paving.SM_Paving",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_8",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 3564
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_4096.MI_wood_Mustard_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 5508
+        }
+      ],
+      "triangles_checked": 9072,
+      "world_surface_area_m2": 256.71743493586695,
+      "source_world_area_m2": 256.71752082325287,
+      "source_triangles": 9072,
+      "triangle_density_percentiles": {
+        "0": 127.95705234782781,
+        "1": 127.97595250103508,
+        "5": 127.98678266142403,
+        "50": 128.0015143710074,
+        "95": 128.01688549419484,
+        "99": 128.02926721420533,
+        "100": 128.04589172640794
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.97510173204404,
+        "1": 127.98643447321064,
+        "5": 127.99444557568201,
+        "50": 128.0013098232792,
+        "95": 128.0137885789121,
+        "99": 128.01488946271462,
+        "100": 128.0167066041667
+      },
+      "triangles_under_one_base_texel_area": 4848,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 4536,
+      "source_charts": 4536,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_AccessRamp.SM_AccessRamp",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_9",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_9.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_2048.MI_stone_StoneLight_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 10
+        }
+      ],
+      "triangles_checked": 10,
+      "world_surface_area_m2": 62.349633844989995,
+      "source_world_area_m2": 62.34963424500469,
+      "source_triangles": 10,
+      "triangle_density_percentiles": {
+        "0": 127.99983723947985,
+        "1": 127.99983723947985,
+        "5": 127.99983723947985,
+        "50": 128.00000314852065,
+        "95": 128.00002306840344,
+        "99": 128.00002306840344,
+        "100": 128.00002306840344
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99983723947985,
+        "1": 127.99983723947985,
+        "5": 127.99983723947985,
+        "50": 128.00000314852065,
+        "95": 128.00002306840344,
+        "99": 128.00002306840344,
+        "100": 128.00002306840344
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 5,
+      "source_charts": 5,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Railings.SM_Railings",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_10",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_10.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1296
+        }
+      ],
+      "triangles_checked": 1296,
+      "world_surface_area_m2": 10.06247675108594,
+      "source_world_area_m2": 10.062486899749404,
+      "source_triangles": 1296,
+      "triangle_density_percentiles": {
+        "0": 127.92447383210067,
+        "1": 127.93362721813557,
+        "5": 127.99161373112763,
+        "50": 128.00018134147305,
+        "95": 128.00749349222593,
+        "99": 128.08026665361444,
+        "100": 128.0843375208657
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99141152365642,
+        "1": 127.9925598554068,
+        "5": 127.99441968215919,
+        "50": 128.00009911239601,
+        "95": 128.00469477432392,
+        "99": 128.00540145610213,
+        "100": 128.00875916888236
+      },
+      "triangles_under_one_base_texel_area": 576,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 648,
+      "source_charts": 648,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Footpath.SM_Footpath",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_11",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_11.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_SoftPath_8192.MI_SoftPath_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 21592
+        }
+      ],
+      "triangles_checked": 21592,
+      "world_surface_area_m2": 461.7094159102126,
+      "source_world_area_m2": 461.7094120168371,
+      "source_triangles": 21592,
+      "triangle_density_percentiles": {
+        "0": 127.9974819593614,
+        "1": 127.99842005676399,
+        "5": 127.99886281173582,
+        "50": 128.0000005321126,
+        "95": 128.00115739818733,
+        "99": 128.00156180465794,
+        "100": 128.00212387347932
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9974819593614,
+        "1": 127.99842005676399,
+        "5": 127.99886281173582,
+        "50": 128.0000005321126,
+        "95": 128.00115739818733,
+        "99": 128.00156180465794,
+        "100": 128.00212387347932
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 21592,
+      "source_charts": 21592,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationStone.SM_StationStone",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_12",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_12.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        }
+      ],
+      "triangles_checked": 216,
+      "world_surface_area_m2": 187.9534580632712,
+      "source_world_area_m2": 187.95347617069672,
+      "source_triangles": 216,
+      "triangle_density_percentiles": {
+        "0": 127.99772451650234,
+        "1": 127.99782450309633,
+        "5": 127.99853267464586,
+        "50": 128.00065597542502,
+        "95": 128.0023155189014,
+        "99": 128.00294197925666,
+        "100": 128.00360642817492
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99772451650234,
+        "1": 127.99782450309633,
+        "5": 127.99853267464586,
+        "50": 128.00065597542502,
+        "95": 128.0023155189014,
+        "99": 128.00294197925666,
+        "100": 128.00360642817492
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 108,
+      "source_charts": 108,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationWalls.SM_StationWalls",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_13",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_13.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Sage_4096.MI_wood_Sage_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 110
+        }
+      ],
+      "triangles_checked": 110,
+      "world_surface_area_m2": 265.947541931506,
+      "source_world_area_m2": 265.9475513092318,
+      "source_triangles": 110,
+      "triangle_density_percentiles": {
+        "0": 127.9988548744764,
+        "1": 127.99892952230783,
+        "5": 127.99897891051364,
+        "50": 127.999999549529,
+        "95": 128.00202133737847,
+        "99": 128.00222200303776,
+        "100": 128.0022535851218
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9988548744764,
+        "1": 127.99892952230783,
+        "5": 127.99897891051364,
+        "50": 127.999999549529,
+        "95": 128.00202133737847,
+        "99": 128.00222200303776,
+        "100": 128.0022535851218
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 56,
+      "source_charts": 56,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationCladding.SM_StationCladding",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_14",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 4536
+        }
+      ],
+      "triangles_checked": 4536,
+      "world_surface_area_m2": 75.3526722773844,
+      "source_world_area_m2": 75.35267373100459,
+      "source_triangles": 4536,
+      "triangle_density_percentiles": {
+        "0": 127.98495521552613,
+        "1": 127.9883076729305,
+        "5": 127.99048667047684,
+        "50": 127.9997393830881,
+        "95": 128.0082080354223,
+        "99": 128.0127314053221,
+        "100": 128.01755685458502
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.98965829357496,
+        "1": 127.99023757274014,
+        "5": 127.99064262726483,
+        "50": 127.99985965463132,
+        "95": 128.00804182761743,
+        "99": 128.0088581734346,
+        "100": 128.01082302150488
+      },
+      "triangles_under_one_base_texel_area": 2016,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 2268,
+      "source_charts": 2268,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationTrim.SM_StationTrim",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_15",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_15.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 2700
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096.MI_stone_StoneDark_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        }
+      ],
+      "triangles_checked": 2808,
+      "world_surface_area_m2": 67.74523703849435,
+      "source_world_area_m2": 67.74524040583741,
+      "source_triangles": 2808,
+      "triangle_density_percentiles": {
+        "0": 127.86299724995264,
+        "1": 127.86847831191177,
+        "5": 127.98848349679719,
+        "50": 128.0004635750781,
+        "95": 128.00792504370858,
+        "99": 128.02721798204718,
+        "100": 128.03188191232414
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.86299724995264,
+        "1": 127.86745824427778,
+        "5": 127.99504970017473,
+        "50": 128.00072526489888,
+        "95": 128.00613915993512,
+        "99": 128.02739801175238,
+        "100": 128.03188191232414
+      },
+      "triangles_under_one_base_texel_area": 528,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1404,
+      "source_charts": 1404,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationRoof.SM_StationRoof",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_16",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_16.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Roof_4096.MI_metal_Roof_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        }
+      ],
+      "triangles_checked": 216,
+      "world_surface_area_m2": 227.79979135514716,
+      "source_world_area_m2": 227.7997730987381,
+      "source_triangles": 216,
+      "triangle_density_percentiles": {
+        "0": 127.86341808144665,
+        "1": 127.865594190238,
+        "5": 127.86708562594369,
+        "50": 128.00006240007602,
+        "95": 128.02828333794415,
+        "99": 128.02915211969312,
+        "100": 128.03058864874401
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.86341808144665,
+        "1": 127.865594190238,
+        "5": 127.86708562594369,
+        "50": 128.00006240007602,
+        "95": 128.02828333794415,
+        "99": 128.02915211969312,
+        "100": 128.03058864874401
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 108,
+      "source_charts": 108,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_RoofSeams.SM_RoofSeams",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_17",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_17.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_RoofLight_4096.MI_metal_RoofLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 5508
+        }
+      ],
+      "triangles_checked": 5508,
+      "world_surface_area_m2": 42.286987707300845,
+      "source_world_area_m2": 42.28705840151237,
+      "source_triangles": 5508,
+      "triangle_density_percentiles": {
+        "0": 127.83100135229431,
+        "1": 127.86499061933671,
+        "5": 127.87954717868347,
+        "50": 128.00075498789386,
+        "95": 128.02823543048675,
+        "99": 128.0392514782982,
+        "100": 128.05115429428594
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9762576635848,
+        "1": 127.97983021881593,
+        "5": 127.98330206300761,
+        "50": 127.99883905355652,
+        "95": 128.00918418306642,
+        "99": 128.0144119717319,
+        "100": 128.0151075966518
+      },
+      "triangles_under_one_base_texel_area": 2400,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 2754,
+      "source_charts": 2754,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationDoors.SM_StationDoors",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_18",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_18.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 3,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024.MI_wood_Cream_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024.MI_wood_Mustard_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 140
+        }
+      ],
+      "triangles_checked": 356,
+      "world_surface_area_m2": 14.896024523195436,
+      "source_world_area_m2": 14.896025634386355,
+      "source_triangles": 356,
+      "triangle_density_percentiles": {
+        "0": 127.99642032797638,
+        "1": 127.99722776336243,
+        "5": 127.99803425639507,
+        "50": 127.99992493147819,
+        "95": 128.00089597126694,
+        "99": 128.0016818679814,
+        "100": 128.00229733715437
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99642032797638,
+        "1": 127.99722776336243,
+        "5": 127.99803425639507,
+        "50": 127.99992493147819,
+        "95": 128.00089597126694,
+        "99": 128.0016818679814,
+        "100": 128.00229733715437
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 170,
+      "source_charts": 170,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_StationGlass.SM_StationGlass",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_19",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_19.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/M_Glass.M_Glass",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 420
+        }
+      ],
+      "triangles_checked": 420,
+      "world_surface_area_m2": 24.167716428667624,
+      "source_world_area_m2": 24.167713747005333,
+      "source_triangles": 540,
+      "triangle_density_percentiles": {
+        "0": 127.99491269766456,
+        "1": 127.99662127518042,
+        "5": 127.99755046673938,
+        "50": 128.00000845553853,
+        "95": 128.00175014824856,
+        "99": 128.00217370036208,
+        "100": 128.00263732430295
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99491269766456,
+        "1": 127.99662127518042,
+        "5": 127.99755046673938,
+        "50": 128.00000845553853,
+        "95": 128.00175014824856,
+        "99": 128.00217370036208,
+        "100": 128.00263732430295
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 210,
+      "source_charts": 270,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Canopy.SM_Canopy",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_20",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_20.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 3,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096.MI_wood_Roof_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 540
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 864
+        }
+      ],
+      "triangles_checked": 1512,
+      "world_surface_area_m2": 128.80322194253176,
+      "source_world_area_m2": 128.8032026404844,
+      "source_triangles": 1512,
+      "triangle_density_percentiles": {
+        "0": 127.8536329960984,
+        "1": 127.86202906977016,
+        "5": 127.86559012893181,
+        "50": 128.00095083958524,
+        "95": 128.03126312378708,
+        "99": 128.03375979298735,
+        "100": 128.03684955175828
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.8536329960984,
+        "1": 127.86202906977016,
+        "5": 127.86559012893181,
+        "50": 128.00095083958524,
+        "95": 128.03126312378708,
+        "99": 128.03375979298735,
+        "100": 128.03684955175828
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 756,
+      "source_charts": 756,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Signage.SM_Signage",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_21",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_21.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 4,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_2048.MI_wood_SageDark_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 194
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_2048.MI_wood_Mustard_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 324
+        },
+        {
+          "index": 3,
+          "slot": 3,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_2048.MI_wood_Cream_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 324
+        }
+      ],
+      "triangles_checked": 950,
+      "world_surface_area_m2": 28.71926147089576,
+      "source_world_area_m2": 28.719261970026583,
+      "source_triangles": 972,
+      "triangle_density_percentiles": {
+        "0": 0.0,
+        "1": 127.8712934361345,
+        "5": 127.99837228853151,
+        "50": 128.0002447041403,
+        "95": 128.0031505092475,
+        "99": 128.00722073669795,
+        "100": 128.03118083336642
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.86138980107114,
+        "1": 127.99532174327649,
+        "5": 127.99839031049143,
+        "50": 128.00026981934158,
+        "95": 128.0031505092475,
+        "99": 128.00722073669795,
+        "100": 128.03118083336642
+      },
+      "triangles_under_one_base_texel_area": 2,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 2,
+      "area_fraction_outside_5_percent": 6.375702556726102e-10,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 476,
+      "source_charts": 486,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Lettering.SM_Lettering",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_22",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_22.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/M_Cream.M_Cream",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 23628
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/M_Ink.M_Ink",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 47168
+        }
+      ],
+      "triangles_checked": 70796,
+      "world_surface_area_m2": 2.2376816745671486,
+      "source_world_area_m2": 2.237681584716777,
+      "source_triangles": 70828,
+      "triangle_density_percentiles": {
+        "0": 122.74996295654401,
+        "1": 127.8830385770077,
+        "5": 127.93616552955753,
+        "50": 127.99140045603033,
+        "95": 128.0608925246507,
+        "99": 128.11949112422207,
+        "100": 134.3235430495339
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.91018720408626,
+        "1": 127.95165228550279,
+        "5": 127.96661969357609,
+        "50": 128.00135895379023,
+        "95": 128.02283143461818,
+        "99": 128.03957160100947,
+        "100": 128.08384229116783
+      },
+      "triangles_under_one_base_texel_area": 64336,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 54,
+      "maximum_intersection_px2": 0.007602001540362835,
+      "charts_used": 41171,
+      "source_charts": 41203,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Clock.SM_Clock",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_23",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_23.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 3,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/M_Metal.M_Metal",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 572
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/M_Cream.M_Cream",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 476
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/M_Ink.M_Ink",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 1512
+        }
+      ],
+      "triangles_checked": 2560,
+      "world_surface_area_m2": 5.243199926178551,
+      "source_world_area_m2": 5.243199235400745,
+      "source_triangles": 2656,
+      "triangle_density_percentiles": {
+        "0": 127.85130763837918,
+        "1": 127.86145962479208,
+        "5": 127.99261563506532,
+        "50": 127.99979375872736,
+        "95": 128.007436760932,
+        "99": 128.03062659252393,
+        "100": 128.03452573223078
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99060543916048,
+        "1": 127.99498952305312,
+        "5": 127.99698158462287,
+        "50": 127.99978569626532,
+        "95": 128.00214852779808,
+        "99": 128.00610467321576,
+        "100": 128.0077808721593
+      },
+      "triangles_under_one_base_texel_area": 1056,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1192,
+      "source_charts": 1240,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Benches.SM_Benches",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_24",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_24.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 2592
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 2592
+        }
+      ],
+      "triangles_checked": 5184,
+      "world_surface_area_m2": 27.767815281279407,
+      "source_world_area_m2": 27.767808644486955,
+      "source_triangles": 5184,
+      "triangle_density_percentiles": {
+        "0": 127.98829256196014,
+        "1": 127.99537348732125,
+        "5": 127.99741821687837,
+        "50": 128.00012442377582,
+        "95": 128.00374251260044,
+        "99": 128.007156574494,
+        "100": 128.0109800913459
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99487757197195,
+        "1": 127.99658691057749,
+        "5": 127.99765645740798,
+        "50": 128.00017802259407,
+        "95": 128.00354001435926,
+        "99": 128.006579581284,
+        "100": 128.0102651900692
+      },
+      "triangles_under_one_base_texel_area": 384,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 2592,
+      "source_charts": 2592,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Lamps.SM_Lamps",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_25",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_25.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_2048.MI_metal_Metal_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 4048
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/M_Lamp.M_Lamp",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 432
+        }
+      ],
+      "triangles_checked": 4480,
+      "world_surface_area_m2": 20.022370320648932,
+      "source_world_area_m2": 20.02236722050336,
+      "source_triangles": 4576,
+      "triangle_density_percentiles": {
+        "0": 127.9641155558069,
+        "1": 127.97629395835996,
+        "5": 127.98754033522283,
+        "50": 128.0,
+        "95": 128.00702022219204,
+        "99": 128.01653243658467,
+        "100": 128.0469452678242
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9762288528254,
+        "1": 127.99052126841579,
+        "5": 127.99545483817066,
+        "50": 128.00002003616373,
+        "95": 128.0048472825857,
+        "99": 128.0071484133056,
+        "100": 128.00976158765963
+      },
+      "triangles_under_one_base_texel_area": 1472,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 2176,
+      "source_charts": 2224,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Luggage.SM_Luggage",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_26",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_26.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 5,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Luggage_1024.MI_wood_Luggage_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 648
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 324
+        },
+        {
+          "index": 3,
+          "slot": 3,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Mustard_1024.MI_wood_Mustard_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 4,
+          "slot": 4,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        }
+      ],
+      "triangles_checked": 1296,
+      "world_surface_area_m2": 4.469256753470357,
+      "source_world_area_m2": 4.469256284313382,
+      "source_triangles": 1296,
+      "triangle_density_percentiles": {
+        "0": 127.98982334126167,
+        "1": 127.9915235728805,
+        "5": 127.99653949795044,
+        "50": 128.00000985827933,
+        "95": 128.0032777517506,
+        "99": 128.00530669473974,
+        "100": 128.00772702273593
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99328452356333,
+        "1": 127.99678358602877,
+        "5": 127.99806082280449,
+        "50": 127.9999892467983,
+        "95": 128.00148995636042,
+        "99": 128.001814646232,
+        "100": 128.00264002718063
+      },
+      "triangles_under_one_base_texel_area": 528,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 648,
+      "source_charts": 648,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Timetable.SM_Timetable",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_27",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_27.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 512,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512.MI_metal_Metal_512",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.4082934558391571,
+            0.4082934558391571
+          ],
+          "effective_pixel_axes": [
+            511.999993622303,
+            511.999993622303
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_512.MI_wood_Cream_512",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.4082934558391571,
+            0.4082934558391571
+          ],
+          "effective_pixel_axes": [
+            511.999993622303,
+            511.999993622303
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        }
+      ],
+      "triangles_checked": 216,
+      "world_surface_area_m2": 4.379793043646958,
+      "source_world_area_m2": 4.379792704538196,
+      "source_triangles": 216,
+      "triangle_density_percentiles": {
+        "0": 127.99367783097769,
+        "1": 127.99556794684317,
+        "5": 127.99655705509149,
+        "50": 127.99989837243677,
+        "95": 128.00168402366296,
+        "99": 128.00308812046507,
+        "100": 128.00363950796293
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9969688355746,
+        "1": 127.9969688355746,
+        "5": 127.99880150067607,
+        "50": 127.99995090473429,
+        "95": 128.00067956797943,
+        "99": 128.00168402366296,
+        "100": 128.00168402366674
+      },
+      "triangles_under_one_base_texel_area": 64,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 108,
+      "source_charts": 108,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_FreightShed.SM_FreightShed",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_28",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_28.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 4,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_4096.MI_wood_SageDark_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 324
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Roof_4096.MI_wood_Roof_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 3,
+          "slot": 3,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        }
+      ],
+      "triangles_checked": 756,
+      "world_surface_area_m2": 283.33476964170427,
+      "source_world_area_m2": 283.33477112685216,
+      "source_triangles": 756,
+      "triangle_density_percentiles": {
+        "0": 127.9950917691027,
+        "1": 127.99541791196606,
+        "5": 127.99706951693905,
+        "50": 128.00022031795726,
+        "95": 128.00308502747095,
+        "99": 128.00414487556174,
+        "100": 128.00642302824315
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9950917691027,
+        "1": 127.99541791196606,
+        "5": 127.99706951693905,
+        "50": 128.00022031795726,
+        "95": 128.00308502747095,
+        "99": 128.00414487556174,
+        "100": 128.00642302824315
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 378,
+      "source_charts": 378,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Cargo.SM_Cargo",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_29",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_29.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 3,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_4096.MI_wood_WoodLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 756
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_4096.MI_wood_Timber_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 5292
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_4096.MI_wood_Cream_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 840
+        }
+      ],
+      "triangles_checked": 6888,
+      "world_surface_area_m2": 53.748842735715414,
+      "source_world_area_m2": 53.74883638800907,
+      "source_triangles": 6888,
+      "triangle_density_percentiles": {
+        "0": 127.82619075025842,
+        "1": 127.97561875001952,
+        "5": 127.99037283250637,
+        "50": 127.99950801801263,
+        "95": 128.00828917464784,
+        "99": 128.01739290270143,
+        "100": 128.03578660328444
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.98021268918059,
+        "1": 127.99213224753858,
+        "5": 127.99442628315256,
+        "50": 127.99957858619774,
+        "95": 128.00677589532137,
+        "99": 128.01162516032176,
+        "100": 128.01869625975291
+      },
+      "triangles_under_one_base_texel_area": 2352,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 3504,
+      "source_charts": 3504,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Handcart.SM_Handcart",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_30",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_30.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 3,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_1024.MI_wood_WoodLight_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 108
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 944
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        }
+      ],
+      "triangles_checked": 1268,
+      "world_surface_area_m2": 8.968362867171294,
+      "source_world_area_m2": 8.968363072177537,
+      "source_triangles": 1268,
+      "triangle_density_percentiles": {
+        "0": 127.99230177187668,
+        "1": 127.99631476376555,
+        "5": 127.99823585011589,
+        "50": 127.99992825711706,
+        "95": 128.0021669177434,
+        "99": 128.0041246219026,
+        "100": 128.007233923323
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99679715255004,
+        "1": 127.99755316099537,
+        "5": 127.99849899141142,
+        "50": 127.99991598603685,
+        "95": 128.00146985044603,
+        "99": 128.0027921844052,
+        "100": 128.00391410603075
+      },
+      "triangles_under_one_base_texel_area": 96,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 570,
+      "source_charts": 570,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelInterior.SM_TunnelInterior",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_31",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_31.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_4096.MI_stone_StoneDark_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 52
+        }
+      ],
+      "triangles_checked": 52,
+      "world_surface_area_m2": 125.91161019340409,
+      "source_world_area_m2": 125.9116078432075,
+      "source_triangles": 52,
+      "triangle_density_percentiles": {
+        "0": 127.99971619279303,
+        "1": 127.99972695685163,
+        "5": 127.99978247957098,
+        "50": 127.99999899670486,
+        "95": 128.00023512305057,
+        "99": 128.000254125755,
+        "100": 128.000321351106
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99971619279303,
+        "1": 127.99972695685163,
+        "5": 127.99978247957098,
+        "50": 127.99999899670486,
+        "95": 128.00023512305057,
+        "99": 128.000254125755,
+        "100": 128.000321351106
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 26,
+      "source_charts": 26,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelMasonry.SM_TunnelMasonry",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_32",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_32.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 816
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneLight_4096.MI_stone_StoneLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1680
+        }
+      ],
+      "triangles_checked": 2496,
+      "world_surface_area_m2": 137.1812143494845,
+      "source_world_area_m2": 137.181127746375,
+      "source_triangles": 2496,
+      "triangle_density_percentiles": {
+        "0": 127.85720637384281,
+        "1": 127.86233521456015,
+        "5": 127.86763074972994,
+        "50": 128.00000942895687,
+        "95": 128.0278656114288,
+        "99": 128.03144486479863,
+        "100": 128.0353918313087
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.85720637384281,
+        "1": 127.86233521456015,
+        "5": 127.86763074972994,
+        "50": 128.00000942895687,
+        "95": 128.0278656114288,
+        "99": 128.03144486479863,
+        "100": 128.0353918313087
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1248,
+      "source_charts": 1248,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelRibs.SM_TunnelRibs",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_33",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_33.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_4096.MI_stone_Stone_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 15552
+        }
+      ],
+      "triangles_checked": 15552,
+      "world_surface_area_m2": 42.385224924683236,
+      "source_world_area_m2": 42.38515453948995,
+      "source_triangles": 15552,
+      "triangle_density_percentiles": {
+        "0": 127.82428316767928,
+        "1": 127.854433823196,
+        "5": 127.87023208157282,
+        "50": 128.0001968539528,
+        "95": 128.02784291100548,
+        "99": 128.03682369694297,
+        "100": 128.05291184185492
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.98524648688408,
+        "1": 127.99020952246794,
+        "5": 127.99334977037475,
+        "50": 128.00054634675402,
+        "95": 128.03139354281652,
+        "99": 128.03858183224062,
+        "100": 128.05291184185492
+      },
+      "triangles_under_one_base_texel_area": 5696,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 7776,
+      "source_charts": 7776,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelDarkness.SM_TunnelDarkness",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_34",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_34.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/M_Interior.M_Interior",
+          "collision_enabled": true,
+          "actual_image_sampler": false,
+          "exception": "Explicit original solid/special-material exception",
+          "triangle_count": 2
+        }
+      ],
+      "triangles_checked": 2,
+      "world_surface_area_m2": 30.80000665498528,
+      "source_world_area_m2": 30.800001228629743,
+      "source_triangles": 2,
+      "triangle_density_percentiles": {
+        "0": 127.99999053111488,
+        "1": 127.99999053111488,
+        "5": 127.99999053111488,
+        "50": 127.99999053111488,
+        "95": 127.99999053111488,
+        "99": 127.99999053111488,
+        "100": 127.99999053111488
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99999053111488,
+        "1": 127.99999053111488,
+        "5": 127.99999053111488,
+        "50": 127.99999053111488,
+        "95": 127.99999053111488,
+        "99": 127.99999053111488,
+        "100": 127.99999053111488
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1,
+      "source_charts": 1,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TunnelHill.SM_TunnelHill",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_35",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_35.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_8192.MI_stone_StoneDark_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1152
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Meadow_8192.MI_stone_Meadow_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 864
+        }
+      ],
+      "triangles_checked": 2016,
+      "world_surface_area_m2": 1130.057588870994,
+      "source_world_area_m2": 1130.0576123457074,
+      "source_triangles": 2016,
+      "triangle_density_percentiles": {
+        "0": 127.9993808233198,
+        "1": 127.99956008347344,
+        "5": 127.99971355462533,
+        "50": 128.00001315966398,
+        "95": 128.00028276658165,
+        "99": 128.00045492256774,
+        "100": 128.00081451545248
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9993808233198,
+        "1": 127.99956008347344,
+        "5": 127.99971355462533,
+        "50": 128.00001315966398,
+        "95": 128.00028276658165,
+        "99": 128.00045492256774,
+        "100": 128.00081451545248
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1120,
+      "source_charts": 1120,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Outcrops.SM_Outcrops",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_36",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_36.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 16384,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_StoneDark_16384.MI_stone_StoneDark_16384",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            13.065390586853027,
+            13.065390586853027
+          ],
+          "effective_pixel_axes": [
+            16383.999795913696,
+            16383.999795913696
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 2000
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_stone_Stone_16384.MI_stone_Stone_16384",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_stone.T_stone",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            13.065390586853027,
+            13.065390586853027
+          ],
+          "effective_pixel_axes": [
+            16383.999795913696,
+            16383.999795913696
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1000
+        }
+      ],
+      "triangles_checked": 3000,
+      "world_surface_area_m2": 2379.3179387236473,
+      "source_world_area_m2": 2379.317981935878,
+      "source_triangles": 3000,
+      "triangle_density_percentiles": {
+        "0": 127.99892048989771,
+        "1": 127.9991884508387,
+        "5": 127.99946032497945,
+        "50": 128.00001005192428,
+        "95": 128.00048862019142,
+        "99": 128.0007994955797,
+        "100": 128.0013810316814
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99892048989771,
+        "1": 127.9991884508387,
+        "5": 127.99946032497945,
+        "50": 128.00001005192428,
+        "95": 128.00048862019142,
+        "99": 128.0007994955797,
+        "100": 128.0013810316814
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 16.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1800,
+      "source_charts": 1800,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_OutcropMoss.SM_OutcropMoss",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_37",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_37.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_MeadowLight_4096.MI_foliage_MeadowLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1200
+        }
+      ],
+      "triangles_checked": 1200,
+      "world_surface_area_m2": 303.70769815624965,
+      "source_world_area_m2": 303.70774991572756,
+      "source_triangles": 1200,
+      "triangle_density_percentiles": {
+        "0": 127.99899530176577,
+        "1": 127.99948399138721,
+        "5": 127.99968457938529,
+        "50": 127.99999923186896,
+        "95": 128.00031457217594,
+        "99": 128.0004436059135,
+        "100": 128.00063060238696
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99899530176577,
+        "1": 127.99948399138721,
+        "5": 127.99968457938529,
+        "50": 127.99999923186896,
+        "95": 128.00031457217594,
+        "99": 128.0004436059135,
+        "100": 128.00063060238696
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 720,
+      "source_charts": 720,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Trunks.SM_Trunks",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_38",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_38.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 8192,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_bark_Timber_8192.MI_bark_Timber_8192",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_bark.T_bark",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            6.532695293426514,
+            6.532695293426514
+          ],
+          "effective_pixel_axes": [
+            8191.999897956848,
+            8191.999897956848
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 8432
+        }
+      ],
+      "triangles_checked": 8432,
+      "world_surface_area_m2": 253.81960219049841,
+      "source_world_area_m2": 253.81981750669536,
+      "source_triangles": 8432,
+      "triangle_density_percentiles": {
+        "0": 127.86101043165324,
+        "1": 127.87099185406113,
+        "5": 127.8797124346837,
+        "50": 127.99969669738812,
+        "95": 128.09873840852157,
+        "99": 128.10301007260443,
+        "100": 128.11071598852192
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.86101043165324,
+        "1": 127.87099185406113,
+        "5": 127.8797124346837,
+        "50": 127.99969669738812,
+        "95": 128.09873840852157,
+        "99": 128.10301007260443,
+        "100": 128.11071598852192
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 4046,
+      "source_charts": 4046,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Conifers.SM_Conifers",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_39",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_39.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 3,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 16384,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineDark_16384.MI_foliage_PineDark_16384",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            13.065390586853027,
+            13.065390586853027
+          ],
+          "effective_pixel_axes": [
+            16383.999795913696,
+            16383.999795913696
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 11520
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Pine_16384.MI_foliage_Pine_16384",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            13.065390586853027,
+            13.065390586853027
+          ],
+          "effective_pixel_axes": [
+            16383.999795913696,
+            16383.999795913696
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 11780
+        },
+        {
+          "index": 2,
+          "slot": 2,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_16384.MI_foliage_PineLight_16384",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            13.065390586853027,
+            13.065390586853027
+          ],
+          "effective_pixel_axes": [
+            16383.999795913696,
+            16383.999795913696
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 11520
+        }
+      ],
+      "triangles_checked": 34820,
+      "world_surface_area_m2": 3024.101967101948,
+      "source_world_area_m2": 3024.104015077141,
+      "source_triangles": 37536,
+      "triangle_density_percentiles": {
+        "0": 0.0,
+        "1": 127.87476213168308,
+        "5": 127.90903175028006,
+        "50": 127.99995208589739,
+        "95": 128.15771359231297,
+        "99": 128.17552712078734,
+        "100": 128.19474910665656
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.83662133528262,
+        "1": 127.89354466548312,
+        "5": 127.91850049877102,
+        "50": 128.0000268629301,
+        "95": 128.15857736028843,
+        "99": 128.17538541803933,
+        "100": 128.19110433839916
+      },
+      "triangles_under_one_base_texel_area": 3190,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 4,
+      "area_fraction_outside_5_percent": 1.5205242430853672e-09,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 16.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 2,
+      "maximum_intersection_px2": 0.00016832351684570312,
+      "charts_used": 17952,
+      "source_charts": 17952,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Shrubs.SM_Shrubs",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_40",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_40.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 4096,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_4096.MI_foliage_PineLight_4096",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            3.266347646713257,
+            3.266347646713257
+          ],
+          "effective_pixel_axes": [
+            4095.999948978424,
+            4095.999948978424
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 10200
+        }
+      ],
+      "triangles_checked": 10200,
+      "world_surface_area_m2": 234.379575457089,
+      "source_world_area_m2": 234.37960901463302,
+      "source_triangles": 10200,
+      "triangle_density_percentiles": {
+        "0": 127.95291393845851,
+        "1": 127.99845048923036,
+        "5": 127.9990901460329,
+        "50": 128.00000419406678,
+        "95": 128.00087365479283,
+        "99": 128.00146775046494,
+        "100": 128.08103220902427
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.95291393845851,
+        "1": 127.99845048923036,
+        "5": 127.9990901460329,
+        "50": 128.00000419406678,
+        "95": 128.00087365479283,
+        "99": 128.00146775046494,
+        "100": 128.08103220902427
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 6120,
+      "source_charts": 6120,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_MeadowDetails.SM_MeadowDetails",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_41",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_41.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_Flower_2048.MI_foliage_Flower_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 5184
+        }
+      ],
+      "triangles_checked": 5184,
+      "world_surface_area_m2": 21.069770007727968,
+      "source_world_area_m2": 21.069766365277598,
+      "source_triangles": 5184,
+      "triangle_density_percentiles": {
+        "0": 127.99544525614962,
+        "1": 127.99671762408882,
+        "5": 127.99811974467349,
+        "50": 128.00000508167844,
+        "95": 128.00173472988328,
+        "99": 128.00261651267067,
+        "100": 128.00395881835146
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99544525614962,
+        "1": 127.99671762408882,
+        "5": 127.99811974467349,
+        "50": 128.00000508167844,
+        "95": 128.00173472988328,
+        "99": 128.00261651267067,
+        "100": 128.00395881835146
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 3456,
+      "source_charts": 3456,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Fences.SM_Fences",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_42",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_42.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 3780
+        }
+      ],
+      "triangles_checked": 3780,
+      "world_surface_area_m2": 20.268170077551414,
+      "source_world_area_m2": 20.26817076583134,
+      "source_triangles": 3780,
+      "triangle_density_percentiles": {
+        "0": 127.98428546531252,
+        "1": 127.99178969946531,
+        "5": 127.99440779661744,
+        "50": 128.00050127668072,
+        "95": 128.00644611711283,
+        "99": 128.0100937728882,
+        "100": 128.01375304960527
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.98428546531252,
+        "1": 127.99178969946531,
+        "5": 127.99440779661744,
+        "50": 128.00050127668072,
+        "95": 128.00644611711283,
+        "99": 128.0100937728882,
+        "100": 128.01375304960527
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1890,
+      "source_charts": 1890,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_TrailSigns.SM_TrailSigns",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_43",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_43.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Timber_1024.MI_wood_Timber_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_Cream_1024.MI_wood_Cream_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        }
+      ],
+      "triangles_checked": 432,
+      "world_surface_area_m2": 4.863119450309208,
+      "source_world_area_m2": 4.863113362831996,
+      "source_triangles": 432,
+      "triangle_density_percentiles": {
+        "0": 127.9933096203654,
+        "1": 127.99375440321123,
+        "5": 127.99577622752808,
+        "50": 128.0000820102392,
+        "95": 128.0019527392773,
+        "99": 128.00290201254379,
+        "100": 128.0040263307032
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9933096203654,
+        "1": 127.99375440321123,
+        "5": 127.99577622752808,
+        "50": 128.0000820102392,
+        "95": 128.0019527392773,
+        "99": 128.00290201254379,
+        "100": 128.0040263307032
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 216,
+      "source_charts": 216,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Planters.SM_Planters",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_44",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_44.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_foliage_PineLight_2048.MI_foliage_PineLight_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_foliage.T_foliage",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 1008
+        }
+      ],
+      "triangles_checked": 1224,
+      "world_surface_area_m2": 13.610774669610281,
+      "source_world_area_m2": 13.610771392517659,
+      "source_triangles": 1224,
+      "triangle_density_percentiles": {
+        "0": 127.9974054503292,
+        "1": 127.99792512730762,
+        "5": 127.99903186175352,
+        "50": 127.99999630519955,
+        "95": 128.00053807662243,
+        "99": 128.00097234357023,
+        "100": 128.00127787072464
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.9974054503292,
+        "1": 127.99792512730762,
+        "5": 127.99903186175352,
+        "50": 127.99999630519955,
+        "95": 128.00053807662243,
+        "99": 128.00097234357023,
+        "100": 128.00127787072464
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 684,
+      "source_charts": 684,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_Bins.SM_Bins",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_45",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 2,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 1024,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_wood_SageDark_1024.MI_wood_SageDark_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 376
+        },
+        {
+          "index": 1,
+          "slot": 1,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_1024.MI_metal_Metal_1024",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.8165869116783142,
+            0.8165869116783142
+          ],
+          "effective_pixel_axes": [
+            1023.999987244606,
+            1023.999987244606
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 312
+        }
+      ],
+      "triangles_checked": 688,
+      "world_surface_area_m2": 6.099887695829697,
+      "source_world_area_m2": 6.0998875173077725,
+      "source_triangles": 752,
+      "triangle_density_percentiles": {
+        "0": 127.99815913157711,
+        "1": 127.99832227690813,
+        "5": 127.99896224679227,
+        "50": 127.99985630239797,
+        "95": 128.00089913876636,
+        "99": 128.0012079301149,
+        "100": 128.00134614717516
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99815913157711,
+        "1": 127.99832227690813,
+        "5": 127.99896224679227,
+        "50": 127.99985630239797,
+        "95": 128.00089913876636,
+        "99": 128.0012079301149,
+        "100": 128.00134614717516
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 296,
+      "source_charts": 328,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_WaterTap.SM_WaterTap",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_46",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_46.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 512,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/TexturePass/MI_metal_Metal_512.MI_metal_Metal_512",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_metal.T_metal",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            0.4082934558391571,
+            0.4082934558391571
+          ],
+          "effective_pixel_axes": [
+            511.999993622303,
+            511.999993622303
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 216
+        }
+      ],
+      "triangles_checked": 216,
+      "world_surface_area_m2": 0.6022674954159655,
+      "source_world_area_m2": 0.602268596154737,
+      "source_triangles": 216,
+      "triangle_density_percentiles": {
+        "0": 127.99653396050319,
+        "1": 127.99653396050319,
+        "5": 127.99698670176024,
+        "50": 127.99995231841261,
+        "95": 128.00500192629124,
+        "99": 128.00571655383422,
+        "100": 128.00572201040083
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.99653396050319,
+        "1": 127.99653396050319,
+        "5": 127.99698670176024,
+        "50": 127.99995231841261,
+        "95": 128.00500192629124,
+        "99": 128.00571655383422,
+        "100": 128.00572201040083
+      },
+      "triangles_under_one_base_texel_area": 0,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 108,
+      "source_charts": 108,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    },
+    {
+      "mesh": "/Game/MountainStation/ultra/Meshes/SM_PedestrianCrossing.SM_PedestrianCrossing",
+      "actor": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_48",
+      "component": "/Game/Maps/MountainStation_ultra.MountainStation_ultra:PersistentLevel.StaticMeshActor_48.StaticMeshComponent0",
+      "actor_scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "lod0_sections": 1,
+      "full_precision_uvs": true,
+      "virtual_atlas_side_px": 2048,
+      "sections": [
+        {
+          "index": 0,
+          "slot": 0,
+          "material": "/Game/MountainStation/ultra/Materials/SelfImprovement/MI_wood_WoodLight_2048.MI_wood_WoodLight_2048",
+          "collision_enabled": true,
+          "texture": "/Game/MountainStation/ultra/Textures/TexturePass/T_wood.T_wood",
+          "texture_dimensions": [
+            1254,
+            1254
+          ],
+          "uv_scale": [
+            1.6331738233566284,
+            1.6331738233566284
+          ],
+          "effective_pixel_axes": [
+            2047.999974489212,
+            2047.999974489212
+          ],
+          "actual_image_sampler": true,
+          "triangle_count": 2484
+        }
+      ],
+      "triangles_checked": 2484,
+      "world_surface_area_m2": 33.2411980425669,
+      "source_world_area_m2": 33.24117705309819,
+      "source_triangles": 2484,
+      "triangle_density_percentiles": {
+        "0": 127.85146923760024,
+        "1": 127.85975544072934,
+        "5": 127.86847521940552,
+        "50": 127.9997968536626,
+        "95": 128.02791154324348,
+        "99": 128.03331676157708,
+        "100": 128.03637107594278
+      },
+      "resolved_triangle_density_percentiles": {
+        "0": 127.98866998533498,
+        "1": 127.9904876090225,
+        "5": 127.99228870588124,
+        "50": 127.99995642893222,
+        "95": 128.02851821703211,
+        "99": 128.03335485635498,
+        "100": 128.03637107594278
+      },
+      "triangles_under_one_base_texel_area": 184,
+      "degenerate_triangles": 0,
+      "triangles_outside_5_percent": 0,
+      "area_fraction_outside_5_percent": 0.0,
+      "uv_chart_containment_failures": 0,
+      "minimum_measured_padding_px": 8.0,
+      "inter_chart_overlap_pairs": 0,
+      "intra_chart_overlaps_above_0_05px2": 0,
+      "subpixel_intersection_pairs": 0,
+      "maximum_intersection_px2": 0.0,
+      "charts_used": 1242,
+      "source_charts": 1242,
+      "invalid_examples": [],
+      "density_outlier_area_limit": 0.001,
+      "density_exception": null
+    }
+  ],
+  "passed": true,
+  "material_graph": {
+    "base_color_node": "/Script/Engine.MaterialExpressionMultiply",
+    "roughness_node": "/Script/Engine.MaterialExpressionClamp",
+    "parent": "/Game/MountainStation/ultra/Materials/TexturePass/M_SurfaceDetail.M_SurfaceDetail",
+    "texture_parameters": [
+      "DetailTexture"
+    ]
+  },
+  "soft_path_graph": {
+    "parent": "/Game/MountainStation/ultra/Materials/SelfImprovement/M_SoftPath.M_SoftPath",
+    "base_color": "Multiply",
+    "tint_blend": "LinearInterpolate(EdgeTint,Tint,VertexColor.R)",
+    "verified_saved_connections": true
+  },
+  "original_actor_transforms_unchanged": true,
+  "finished_at_utc": "2026-10-22T12:49:11.875522+00:00"
+}

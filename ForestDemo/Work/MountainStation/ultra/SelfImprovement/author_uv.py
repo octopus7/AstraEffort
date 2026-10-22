@@ -102,16 +102,18 @@ for entry in manifest['meshes']:
         records.append([c['id'],c['x'],c['y'],c['rw'],c['rh'],c['width'],c['height'],c['area_m2'],c['triangles']])
     assert geom_hash(o)==before,'UV authoring changed geometry'
     bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o
-    path=OUT/(o.name+'.fbx')
+    export_dir=OUT/'FinalFBX2';export_dir.mkdir(exist_ok=True)
+    path=export_dir/(o.name+'.fbx')
     bpy.ops.export_scene.fbx(filepath=str(path),use_selection=True,object_types={'MESH'},global_scale=1,apply_unit_scale=True,axis_forward='Y',axis_up='Z',mesh_smooth_type='FACE',use_mesh_modifiers=True,add_leaf_bones=False,bake_anim=False)
     entry['file']=str(path).replace('\\','/')
     layouts[o.name]={'side_px':side,'padding_each_side_px':pad,'target_texels_per_meter':TARGET,'charts':records,'rows':rows,'record_fields':['polygon_id','allocation_x','allocation_y','allocation_width','allocation_height','surface_width','surface_height','world_area_m2','triangle_count']}
     report={'mesh':o.name,'geometry_sha256_before':before,'geometry_sha256_after':geom_hash(o),'world_surface_area_m2':world_sum,'source_vertices':len(me.vertices),'source_triangles':len(me.loop_triangles),'islands':len(charts),'virtual_atlas_side_px':side,'target_texels_per_meter':TARGET,'triangle_density_percentiles':quantiles(density),'edge_stretch_ratio_percentiles':quantiles(distortion),'tiny_triangles_under_one_base_texel_area':subpixel,'degenerate_triangles':degenerate,'intra_chart_overlap_pairs_above_0_05px2':overlaps,'subpixel_intersection_pairs_0_0001_to_0_05px2':tiny_overlaps,'maximum_intersection_px2':max_overlap,'inter_chart_overlap_pairs':0,'minimum_chart_padding_each_side_px':pad,'inter_chart_minimum_gap_px':2*pad,'uv_bounds_01':all(0<=v<=1 for d in layer.data for v in d.uv),'placement_note':'Source world geometry used; final UE actor transforms are remeasured independently.'}
     reports.append(report);print('UV_AUTHORED',o.name,side,len(charts),flush=True)
     (R/'source_uv_validation.json').write_text(json.dumps({'started_at_utc':started,'meshes':reports,'pending':True},indent=2))
-bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'AlderPass_Textured.blend'))
+bpy.context.preferences.filepaths.save_version=0
+bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'AlderPass_FinalTextured.blend'))
 (R/'uv_layouts.json').write_text(json.dumps(layouts,separators=(',',':')))
 (R/'art_manifest.json').write_text(json.dumps(manifest,indent=2))
-record={'started_at_utc':started,'finished_at_utc':utc(),'elapsed_seconds':time.monotonic()-clock,'target_texels_per_meter':TARGET,'scope':'All triangles of all 47 owned source meshes; unique planar polygon charts. Metric is base-level effective texel density, not screen resolution or streamed mip residency.','island_strategy':'One chart per authored polygon; no shared charts. Per-polygon area normalization preserves target mean density; curved/non-planar triangle deviation measured.','padding_note':'At least 8 effective base texels per side, increased to virtual atlas side/1024 to avoid UE static-mesh UV vertex welding. Surface image is intentionally repeating; virtual atlas is not a unique baked color image.','meshes':reports,'passed':True}
+record={'started_at_utc':started,'finished_at_utc':utc(),'elapsed_seconds':time.monotonic()-clock,'target_texels_per_meter':TARGET,'scope':'All triangles of all 48 owned source meshes; unique planar polygon charts. Metric is base-level effective texel density, not screen resolution or streamed mip residency.','island_strategy':'One chart per authored polygon; no shared charts. Per-polygon area normalization preserves target mean density; curved/non-planar triangle deviation measured.','padding_note':'At least 8 effective base texels per side, increased to virtual atlas side/1024 to avoid UE static-mesh UV vertex welding. Surface image is intentionally repeating; virtual atlas is not a unique baked color image.','meshes':reports,'passed':True}
 (R/'source_uv_validation.json').write_text(json.dumps(record,indent=2))
 print('UV_AUTHORING_COMPLETE',time.monotonic()-clock,flush=True)

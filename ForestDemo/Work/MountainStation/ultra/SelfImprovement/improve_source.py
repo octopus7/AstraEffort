@@ -14,9 +14,14 @@ def geomhash(o):
 before={o.name:geomhash(o) for o in bpy.data.objects if o.type=='MESH'}
 mats={n:bpy.data.materials[n] for n in manifest['palette']}
 terrain=bpy.data.objects['SM_Terrain'];tree=BVHTree.FromObject(terrain,bpy.context.evaluated_depsgraph_get())
+ramp_tree=BVHTree.FromObject(bpy.data.objects['SM_AccessRamp'],bpy.context.evaluated_depsgraph_get())
+imported=json.loads((R/'terrain_imported_triangles.json').read_text())
+imported_verts=[tuple(v/100 for v in p) for t in imported for p in t]
+imported_tree=BVHTree.FromPolygons(imported_verts,[(i,i+1,i+2) for i in range(0,len(imported_verts),3)],all_triangles=True)
 def ground(x,y):
     hit=tree.ray_cast(Vector((x,y,80)),Vector((0,0,-1)))[0];assert hit is not None
-    return hit.z
+    imported_hit=imported_tree.ray_cast(Vector((x,y,80)),Vector((0,0,-1)))[0];assert imported_hit is not None
+    return max(hit.z,imported_hit.z)
 def ty(x):return -9+.012*(x+3)**2
 def tz(x):return .82+.0015*max(0,abs(x)-18)**2
 def newmesh(name,verts,faces,materials,slots=None):
@@ -81,7 +86,10 @@ def pathheight(x,y):
     z=max(base,base+(top-base)*w)
     # Flush connection to the original 1:12 platform-ramp toe.
     d=math.hypot(x+30,y-5);pin=1-smooth(min(1,d/1.1))
-    return max(base,z*(1-pin)+.425*pin)
+    z=max(base,z*(1-pin)+.425*pin)
+    ramp_hit=ramp_tree.ray_cast(Vector((x,y,80)),Vector((0,0,-1)))[0]
+    if ramp_hit is not None:z=max(base,min(z,ramp_hit.z-.015))
+    return z
 step=.20;cache={};lookup={};verts=[];factors=[];faces=[]
 def sample(i,j):
     if (i,j) not in cache:cache[i,j]=distance(i*step,j*step)

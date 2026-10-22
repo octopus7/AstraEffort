@@ -3,7 +3,7 @@ from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 from pathlib import Path
 R=Path(r'D:/github/AstraEffort/ForestDemo/Work/MountainStation/ultra/SelfImprovement')
-bpy.ops.wm.open_mainfile(filepath=str(R/'SourceArt/AlderPass_Textured.blend'))
+bpy.ops.wm.open_mainfile(filepath=str(R/'SourceArt/AlderPass_FinalTextured.blend'))
 dg=bpy.context.evaluated_depsgraph_get()
 trees={n:BVHTree.FromObject(bpy.data.objects[n],dg) for n in ['SM_Terrain','SM_Footpath','SM_Ballast','SM_Sleepers','SM_Rails','SM_RailFasteners']}
 def height(name,x,y):
