@@ -1,0 +1,4 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/SkyObservatory/max/Source/build_unreal.py\", line 103, in <module>\n    begin=time.time();tex=import_textures();mats=make_materials(tex);meshes=import_meshes(mats);make_scene(meshes)\n                                                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:/github/AstraEffort/ForestDemo/Work/SkyObservatory/max/Source/build_unreal.py\", line 30, in make_materials\n    mult=u.MaterialEditingLibrary.create_material_expression(mat,u.MaterialExpressionMultiply,-100,-180);mult.const_b=2.2 if name=='Window' else 1.2\n                                                                                                         ^^^^^^^^^^^^\nAttributeError: 'MaterialExpressionMultiply' object has no attribute 'const_b'\n",
+  "utc": "2026-10-23T12:20:14Z"
+}
