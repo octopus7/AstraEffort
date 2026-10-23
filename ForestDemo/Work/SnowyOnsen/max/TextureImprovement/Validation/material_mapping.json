@@ -1,0 +1,91 @@
+{
+  "at_utc": "2026-10-23T14:25:18.435931+00:00",
+  "materials": [
+    {
+      "source": "T_IMG_Timber",
+      "mapping": "component long-axis/centerline arc UV",
+      "source_tile_m": 2.5,
+      "source_density_px_per_m": 501.6,
+      "built_sampling_px_per_m": 819.2,
+      "normal_height_cm": 0.065,
+      "material": "/Game/SnowyOnsen/max/Materials/M_Wood.M_Wood",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "T_IMG_Timber",
+      "mapping": "component long-axis/centerline arc UV",
+      "source_tile_m": 2.5,
+      "source_density_px_per_m": 501.6,
+      "built_sampling_px_per_m": 819.2,
+      "normal_height_cm": 0.065,
+      "material": "/Game/SnowyOnsen/max/Materials/M_DarkWood.M_DarkWood",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "T_IMG_Stone",
+      "mapping": "world triplanar, weight exponent4",
+      "source_tile_m": 2.5,
+      "source_density_px_per_m": 501.6,
+      "built_sampling_px_per_m": 819.2,
+      "normal_height_cm": 0.14,
+      "material": "/Game/SnowyOnsen/max/Materials/M_Stone.M_Stone",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "T_IMG_Snow",
+      "mapping": "world triplanar, weight exponent4",
+      "source_tile_m": 5.0,
+      "source_density_px_per_m": 250.8,
+      "built_sampling_px_per_m": 409.6,
+      "normal_height_cm": 0.16,
+      "material": "/Game/SnowyOnsen/max/Materials/M_Snow.M_Snow",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "T_IMG_Stone",
+      "mapping": "world triplanar, weight exponent4",
+      "source_tile_m": 2.5,
+      "source_density_px_per_m": 501.6,
+      "built_sampling_px_per_m": 819.2,
+      "normal_height_cm": 0.14,
+      "material": "/Game/SnowyOnsen/max/Materials/M_Path.M_Path",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "baseline T_Plaster",
+      "detail": "6cm spatial mottling,0.35mm surface gradient; albedo variation5%",
+      "material": "/Game/SnowyOnsen/max/Materials/M_Plaster.M_Plaster",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "baseline T_Towel",
+      "detail": "2mm weave with fwidth antialias attenuation;0.18mm height",
+      "material": "/Game/SnowyOnsen/max/Materials/M_Towel.M_Towel",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "baseline T_Red",
+      "detail": "2mm weave with fwidth antialias attenuation;0.18mm height",
+      "material": "/Game/SnowyOnsen/max/Materials/M_Red.M_Red",
+      "two_sided": false,
+      "tangent_space_normal": false
+    },
+    {
+      "source": "original shader-authored advected value noise; no bitmap",
+      "detail": "65cm organic domain-warped FBM;0.85cm normal height; low color amplitude",
+      "motion": "existing5.7s/1.3cm vertical sine retained plus new advected ripples",
+      "material": "/Game/SnowyOnsen/max/Materials/M_Water.M_Water",
+      "two_sided": false,
+      "tangent_space_normal": false
+    }
+  ],
+  "original_image_pixels_edited": false,
+  "mirror_repeat_note": "Mirror addressing changes motifs to a2x tile repeat; no original edge-continuity claim."
+}

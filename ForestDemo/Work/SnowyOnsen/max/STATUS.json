@@ -1,43 +1,87 @@
-﻿{
-    "theme":  "SnowyOnsen",
-    "effort":  "max",
-    "status":  "ready_for_review",
-    "thread_id":  "01a168a5-6776-76e3-a8cc-7ad1f5d0452e",
-    "started_at_utc":  "2026-10-23T12:03:54.226000+00:00",
-    "started_at_kst":  "2026-10-23T21:03:54.226000+09:00",
-    "initial_manual_clock_at_utc":  "2026-10-23T12:04:08Z",
-    "finished_at_utc":  "2026-10-23T12:39:20.213749+00:00",
-    "finished_at_kst":  "2026-10-23T21:39:20.213749+09:00",
-    "elapsed_seconds":  2125.987749,
-    "map":  "/Game/Maps/SnowyOnsen_max",
-    "validation_summary":  {
-                               "final_clean_ue_exit":  0,
-                               "world_partition_is_none":  true,
-                               "dynamic_lighting":  true,
-                               "owned_recursive_game_packages":  43,
-                               "mesh_count":  16,
-                               "final_triangles":  165742,
-                               "materials":  14,
-                               "textures":  12,
-                               "captures":  6,
-                               "published_files":  43,
-                               "sha256_match":  true,
-                               "parent_visual_review":  true
-                           },
-    "blockers":  [
-
-                 ],
-    "known_limitations":  [
-                              "Artistic opaque water and crossed-card steam; not physical fluid or gas simulation.",
-                              "Intentional repeating tiled UVs, not unique nonoverlapping texture-atlas islands.",
-                              "Presentation environment; collision/gameplay/FPS not promised."
-                          ],
-    "supervisor_review":  {
-                              "status":  "accepted",
-                              "reviewed_at_utc":  "2026-10-23T12:46:18.7650295+00:00",
-                              "reviewer":  "/root/snowy_onsen_final_review",
-                              "supervisor":  "/root",
-                              "evidence":  "Evidence/supervisor_acceptance.json",
-                              "blocking_findings":  0
-                          }
+{
+  "theme": "SnowyOnsen",
+  "effort": "max",
+  "status": "ready_for_review",
+  "thread_id": "01a168a5-6776-76e3-a8cc-7ad1f5d0452e",
+  "started_at_utc": "2026-10-23T12:03:54.226000+00:00",
+  "started_at_kst": "2026-10-23T21:03:54.226000+09:00",
+  "initial_manual_clock_at_utc": "2026-10-23T12:04:08Z",
+  "finished_at_utc": "2026-10-23T12:39:20.213749+00:00",
+  "finished_at_kst": "2026-10-23T21:39:20.213749+09:00",
+  "elapsed_seconds": 2125.987749,
+  "map": "/Game/Maps/SnowyOnsen_max",
+  "validation_summary": {
+    "final_clean_ue_exit": 0,
+    "world_partition_is_none": true,
+    "dynamic_lighting": true,
+    "owned_recursive_game_packages": 43,
+    "mesh_count": 16,
+    "final_triangles": 165742,
+    "materials": 14,
+    "textures": 12,
+    "captures": 6,
+    "published_files": 43,
+    "sha256_match": true,
+    "parent_visual_review": true
+  },
+  "blockers": [],
+  "known_limitations": [
+    "Artistic opaque water and crossed-card steam; not physical fluid or gas simulation.",
+    "Intentional repeating tiled UVs, not unique nonoverlapping texture-atlas islands.",
+    "Presentation environment; collision/gameplay/FPS not promised."
+  ],
+  "supervisor_review": {
+    "status": "accepted",
+    "reviewed_at_utc": "2026-10-23T12:46:18.7650295+00:00",
+    "reviewer": "/root/snowy_onsen_final_review",
+    "supervisor": "/root",
+    "evidence": "Evidence/supervisor_acceptance.json",
+    "blocking_findings": 0
+  },
+  "texture_improvement": {
+    "theme": "SnowyOnsen",
+    "effort": "max",
+    "status": "ready_for_review",
+    "pass": "TextureImprovement",
+    "baseline_commit": "f8d97a81562ff9a1ea25cbb55b58bcaf542181ab",
+    "started_at_utc": "2026-10-23T14:00:03.073000+00:00",
+    "started_at_kst": "2026-10-23T23:00:03.073000+09:00",
+    "initial_manual_clock_at_utc": "2026-10-23T14:01:02Z",
+    "finished_at_utc": "2026-10-23T14:43:09.061116+00:00",
+    "finished_at_kst": "2026-10-23T23:43:09.061116+09:00",
+    "elapsed_seconds": 2585.988116,
+    "map": "/Game/Maps/SnowyOnsen_max",
+    "validation_summary": {
+      "meshes": 16,
+      "triangles": 165742,
+      "materials": 14,
+      "owned_textures": 15,
+      "actually_used_textures": 9,
+      "recursive_game_packages": 45,
+      "captures": 8,
+      "baseline_detail_captures": 2,
+      "published_files": 46,
+      "sha256_match": true,
+      "map_binary_unchanged": true,
+      "clean_render_attempt": 2,
+      "clean_exact_asset_validator_attempt": 4,
+      "parent_visual_review": true,
+      "first_delivery_hashes_preserved": true
+    },
+    "blockers": [],
+    "known_limitations": [
+      "Wood planar exceptions cover4.31% of Wood area, with localized anisotropy and phase seams.",
+      "Mirror repeat is2x each tile length and reverses slopes/motifs.",
+      "Opaque artistic water, no refraction/fluid simulation; crossed-card steam can reveal its planes.",
+      "Strong baseline warm window lighting and dark cliff fronts retained for same-light comparisons."
+    ],
+    "supervisor_review": {
+      "status": "accepted",
+      "reviewed_at_utc": "2026-10-23T14:52:35.393026+00:00",
+      "reviewer": "/root/snowy_onsen_final_review",
+      "supervisor": "/root",
+      "blocking_findings": 0,
+      "evidence": "TextureImprovement/Evidence/supervisor_acceptance.json"
+    }
+  }
 }

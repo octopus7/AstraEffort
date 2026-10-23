@@ -1,0 +1,127 @@
+{
+  "reviewer": "/root/snowy_onsen_final_review",
+  "recorded_by": "parent from final independent reviewer messages",
+  "decision": "accepted",
+  "blocking_findings": [],
+  "author_frozen_at_utc": "2026-10-23T14:43:09.061116+00:00",
+  "published": {
+    "files": 46,
+    "bytes": 24941050,
+    "private_published_captured_hashes_exact": true,
+    "new": 3,
+    "changed": 19,
+    "unchanged": 24,
+    "map_binary_identical_to_baseline": true
+  },
+  "runtime": {
+    "owned_game_graph_packages": 45,
+    "graph_same_in_ue03_and_ue04": true,
+    "meshes": 16,
+    "materials": 14,
+    "active_textures": 9,
+    "active_texture_coverage_evidence": "TextureImprovement/Validation/Preview03/unreal_validation.json",
+    "nullrhi_active_texture_enumeration_empty": true,
+    "texture_source_resolution": [
+      1254,
+      1254
+    ],
+    "native_build_resolution": [
+      2048,
+      2048
+    ],
+    "mip_levels": 12,
+    "source_images": 3,
+    "srgb": true,
+    "address_mode": "mirror",
+    "resident_capture_stage_records": 9,
+    "movable_lights": 21
+  },
+  "source": {
+    "all_16_final_fbx_hashes_unchanged_from_provisional_audit": true,
+    "triangles": 165742,
+    "independent_source_review": "independent_uv_review.json"
+  },
+  "preservation": {
+    "archived_work_files": 125,
+    "original_active_work_files": 123,
+    "archived_content_files": 43,
+    "all_hashes_unchanged": true
+  },
+  "captures": {
+    "final": 8,
+    "before_detail": 2,
+    "clean_ue02": 8,
+    "all_hashes_dimensions_verified": true,
+    "width": 1920,
+    "height": 1080,
+    "baseline_camera_matches": 8,
+    "reviewer_personally_viewed_final": 8,
+    "reviewer_personally_viewed_before": 2,
+    "visual_judgment": "Clear timber/stone improvement, restrained snow/water; no new visible blocker."
+  },
+  "motion": {
+    "same_camera_monotonic_seconds": 14,
+    "utc_seconds": 14.000829,
+    "independent_mean_absolute_rgb_byte_difference": {
+      "clear_water": 1.516214286,
+      "steam": 23.733050109,
+      "static_house": 0.539107143
+    },
+    "water_static_ratio": 2.81245,
+    "alternative_rois": {
+      "water": {
+        "xyxy": [
+          50,
+          850,
+          500,
+          1020
+        ],
+        "mean": 1.466305011
+      },
+      "house": {
+        "xyxy": [
+          1010,
+          90,
+          1370,
+          240
+        ],
+        "mean": 0.277074074
+      },
+      "steam": {
+        "xyxy": [
+          230,
+          20,
+          500,
+          230
+        ],
+        "mean": 17.666584362
+      }
+    },
+    "independent_integer_fraction_pixels_max_channel_delta_gt_1": {
+      "water": 0.636952381,
+      "steam": 0.96745098,
+      "static": 0.182785714
+    },
+    "threshold_advisory": "Worker JSON thresholds normalized floats and can include exact one-byte changes due to float rounding. Integer fractions above are precise. Report and acceptance use mean absolute differences, which match within 1.4e-6. Worker JSON is preserved."
+  },
+  "timing": {
+    "wall_seconds": 2585.988116,
+    "ue_wait_seconds": 315.3628029,
+    "ue_execution_seconds": 408.2902362,
+    "uv_script_seconds": 40.6491961479,
+    "imagegen_sum_seconds": 152.734,
+    "imagegen_parallel_wall_seconds": 80.596
+  },
+  "report": {
+    "links_after_coverage_citation_correction": 56,
+    "all_resolve": true,
+    "reviewed_corrected_result_sha256": "7361c578a054f5e7dcdc7644676f1c4687402c69743433872a347fc38f0d6cc6"
+  },
+  "attempt_record": "UE01 and UE03 abnormal post-log-close native exits preserved. UE02 clean actual render retains transient assembly warnings. UE03 final render has zero material/Python errors. UE04 is a clean exact-asset saved-map NullRHI validator with zero screenshots, not visual evidence.",
+  "advisories": [
+    "Use archived UE03 D3D proof for active9texture coverage; report corrected",
+    "Preserve worker freeze inventory and record parent report/status amendments separately",
+    "Wood planar UV exceptions and mirror-repeat slope changes remain documented",
+    "Artistic water/steam, unresolved shutdown exit cause"
+  ]
+}

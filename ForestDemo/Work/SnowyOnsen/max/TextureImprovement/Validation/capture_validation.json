@@ -1,0 +1,124 @@
+{
+  "at_utc": "2026-10-23T14:34:37.673865+00:00",
+  "captures": [
+    {
+      "name": "overview",
+      "sha256": "9b75242bcb7f908529db3acbc08f0af1b2417f5e43b23933a84a1e2e11734a1b",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "b99cedeeedbac8ea08eac4769a4162308e17750d08846641bf3e20d5e54fa369"
+    },
+    {
+      "name": "top_down",
+      "sha256": "ede9a60e18724a38962a5922436fd3d645f7333635eddb9cca777c8fed46cf9e",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "5f018897be9ef906b009cb57d11fb79d2fdf82ff7230065da290cc3a8575b82c"
+    },
+    {
+      "name": "onsen",
+      "sha256": "c43dbc84866d4cc065b6fae62693e7cfba3eba08968852a58778f74d5ca90196",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "969fe5e855e678a10d06a95398a5734de083bfd534f8b825a5131f0bc3cfa8dd"
+    },
+    {
+      "name": "village",
+      "sha256": "06ab7f28133911f5864711e084a9dd8de236b9eba6ab098f6365af34293a6b18",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "8b6e20807c9fb96074b4761d06efb3042a704dc5d9809d3ee19761e7bb071707"
+    },
+    {
+      "name": "water_t0",
+      "sha256": "0e1491cce28755e9bbe2d4be13aacfff0976e6244535e8985140f23abd3a369f",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "f42438a64565cd37ed2434bffceaac9809a479287c914417ddf8fe370e7e7e04"
+    },
+    {
+      "name": "water_t1",
+      "sha256": "9495f3996e20a6201b5fc1ecf6eea6a3a72806c887884de017d1d3874e0a66e5",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "10a08a5a6d167e6ab6202d02b6c0d3d61af97c477a3e14f7356546a13d631828"
+    },
+    {
+      "name": "detail_timber",
+      "sha256": "9dd33150b6497ab6a9026dccbdc1bc1fe1d6c8224a80484689c653e0a20ebec0",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "41c656a1fedc72fc20c064bc1597c8464be44ca7723f9845e095c14c94004560"
+    },
+    {
+      "name": "detail_stone_snow",
+      "sha256": "7041555d54cd3ab9ba28ac3bfb5b5f48e12ced97b5ef07fe4ddce4ac6b0be898",
+      "size": [
+        1920,
+        1080
+      ],
+      "camera_matches_baseline": true,
+      "baseline_sha256": "b2582c6bdab62e51c379764189974c12cdc7bd0a9968aa8d6c8a98b5d59e01ff"
+    }
+  ],
+  "same_camera_timed_pair": true,
+  "time_separation_seconds": 14.0,
+  "motion": {
+    "clear_water": {
+      "roi_xyxy": [
+        180,
+        830,
+        600,
+        1030
+      ],
+      "mean_abs_png_rgb_0_255": 1.516215659212321,
+      "max_abs_png_rgb_0_255": 16.000002846121788,
+      "fraction_pixels_delta_gt_1_rgb_value": 0.6915833333333333
+    },
+    "steam_against_ridge": {
+      "roi_xyxy": [
+        260,
+        30,
+        430,
+        210
+      ],
+      "mean_abs_png_rgb_0_255": 23.733051493763924,
+      "max_abs_png_rgb_0_255": 100.00000923871994,
+      "fraction_pixels_delta_gt_1_rgb_value": 0.9705882352941176
+    },
+    "static_house_control": {
+      "roi_xyxy": [
+        1060,
+        70,
+        1260,
+        210
+      ],
+      "mean_abs_png_rgb_0_255": 0.5391071748454124,
+      "max_abs_png_rgb_0_255": 33.99999797344208,
+      "fraction_pixels_delta_gt_1_rgb_value": 0.19303571428571428
+    }
+  },
+  "interpretation": "Normalized PNG RGB differences, not verified linear-light values. Separate clear-water and steam ROIs exceed a static house control; material Time nodes provide artistic motion. Minor temporal antialiasing/lighting variance can contribute. No fluid simulation claim.",
+  "image_pixels_modified": false
+}

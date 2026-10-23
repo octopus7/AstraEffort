@@ -1,0 +1,759 @@
+{
+  "started_at_utc": "2026-10-23T12:11:13.494476+00:00",
+  "textures": {
+    "Wood": {
+      "file": "T_Wood.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "DarkWood": {
+      "file": "T_DarkWood.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Snow": {
+      "file": "T_Snow.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 16,
+      "target_px_per_m": 64.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Stone": {
+      "file": "T_Stone.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Path": {
+      "file": "T_Path.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Plaster": {
+      "file": "T_Plaster.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Roof": {
+      "file": "T_Roof.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Pine": {
+      "file": "T_Pine.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Red": {
+      "file": "T_Red.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Towel": {
+      "file": "T_Towel.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Steam": {
+      "file": "T_Steam.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    },
+    "Water": {
+      "file": "T_Water.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "tile_m": 8,
+      "target_px_per_m": 128.0,
+      "source": "original analytic periodic grain/cloud + seeded noise",
+      "alpha": 1
+    }
+  },
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "vertices": 144,
+      "faces": 76,
+      "triangles": 280,
+      "components": 2,
+      "closed_components": 2,
+      "closed_min_volume_m3": 8864.09683052698,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 56.26941985913541,
+        "median": 88.26942580557991,
+        "max": 128.00001879386403
+      },
+      "bounds_m": {
+        "min": [
+          -50.0,
+          -50.0,
+          -3.5
+        ],
+        "max": [
+          50.0,
+          50.0,
+          0.45
+        ]
+      }
+    },
+    {
+      "name": "SM_Ridges",
+      "vertices": 3300,
+      "faces": 3680,
+      "triangles": 6480,
+      "components": 30,
+      "closed_components": 30,
+      "closed_min_volume_m3": 47.198852698008224,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 50.64101157285247,
+        "median": 112.8331982512035,
+        "max": 127.62118525587005
+      },
+      "bounds_m": {
+        "min": [
+          -46.16,
+          8.0,
+          -21
+        ],
+        "max": [
+          48.0,
+          49.0,
+          23.22
+        ]
+      }
+    },
+    {
+      "name": "SM_InnMain",
+      "vertices": 1884,
+      "faces": 1652,
+      "triangles": 3096,
+      "components": 168,
+      "closed_components": 168,
+      "closed_min_volume_m3": 0.0030530119935671344,
+      "corrected_inward_components": 4,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 53.18241278532435,
+        "median": 126.90022953311433,
+        "max": 128.00003587337974
+      },
+      "bounds_m": {
+        "min": [
+          -27.149999618530273,
+          4.800000000000001,
+          0.33499999999999996
+        ],
+        "max": [
+          -6.849999904632568,
+          19.625,
+          13.09
+        ]
+      }
+    },
+    {
+      "name": "SM_Bathhouse",
+      "vertices": 1248,
+      "faces": 1056,
+      "triangles": 2040,
+      "components": 114,
+      "closed_components": 114,
+      "closed_min_volume_m3": 0.0029469976822534914,
+      "corrected_inward_components": 4,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 53.182401156808005,
+        "median": 127.99999787159133,
+        "max": 128.00000829641735
+      },
+      "bounds_m": {
+        "min": [
+          13.850000381469727,
+          6.300000000000001,
+          2.835
+        ],
+        "max": [
+          26.149999618530273,
+          18.125,
+          12.08
+        ]
+      }
+    },
+    {
+      "name": "SM_GuestEast",
+      "vertices": 1248,
+      "faces": 1056,
+      "triangles": 2040,
+      "components": 114,
+      "closed_components": 114,
+      "closed_min_volume_m3": 0.003005959093570657,
+      "corrected_inward_components": 4,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 53.18226735190464,
+        "median": 127.99999712700567,
+        "max": 128.00001597741155
+      },
+      "bounds_m": {
+        "min": [
+          22.850000381469727,
+          -21.700000000000003,
+          0.03500000000000003
+        ],
+        "max": [
+          35.150001525878906,
+          -9.875,
+          9.68
+        ]
+      }
+    },
+    {
+      "name": "SM_GuestWest",
+      "vertices": 1248,
+      "faces": 1056,
+      "triangles": 2040,
+      "components": 114,
+      "closed_components": 114,
+      "closed_min_volume_m3": 0.0031559815009434625,
+      "corrected_inward_components": 4,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 53.18226558803043,
+        "median": 127.99999712700567,
+        "max": 128.00003288459672
+      },
+      "bounds_m": {
+        "min": [
+          -37.150001525878906,
+          -21.700000000000003,
+          0.03500000000000003
+        ],
+        "max": [
+          -24.850000381469727,
+          -9.875,
+          9.48
+        ]
+      }
+    },
+    {
+      "name": "SM_Pools",
+      "vertices": 10816,
+      "faces": 12384,
+      "triangles": 20364,
+      "components": 317,
+      "closed_components": 317,
+      "closed_min_volume_m3": 0.00010177493095397689,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 50.44442446026398,
+        "median": 106.15832758870442,
+        "max": 128.00000494703343
+      },
+      "bounds_m": {
+        "min": [
+          -15.522250710242833,
+          -20.583019698194,
+          -0.82
+        ],
+        "max": [
+          22.10580806867569,
+          13.121000315663482,
+          6.48
+        ]
+      }
+    },
+    {
+      "name": "SM_Water",
+      "vertices": 267,
+      "faces": 248,
+      "triangles": 296,
+      "components": 7,
+      "closed_components": 4,
+      "closed_min_volume_m3": 0.010692847271760321,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [
+        {
+          "material": "Water",
+          "normal_sample": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "front_up_positive": true,
+          "two_sided": false
+        },
+        {
+          "material": "Water",
+          "normal_sample": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "front_up_positive": true,
+          "two_sided": false
+        },
+        {
+          "material": "Water",
+          "normal_sample": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "front_up_positive": true,
+          "two_sided": false
+        }
+      ],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 123.03167672000993,
+        "median": 127.99999902696888,
+        "max": 128.00004018163654
+      },
+      "bounds_m": {
+        "min": [
+          -14.0,
+          -19.2,
+          1.0499999999999998
+        ],
+        "max": [
+          20.5,
+          11.7,
+          3.73
+        ]
+      }
+    },
+    {
+      "name": "SM_Bridges",
+      "vertices": 4576,
+      "faces": 2744,
+      "triangles": 8240,
+      "components": 228,
+      "closed_components": 228,
+      "closed_min_volume_m3": 0.0037334747612476384,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 107.6338312588844,
+        "median": 125.80006357432312,
+        "max": 128.00000831844488
+      },
+      "bounds_m": {
+        "min": [
+          -7.324999809265137,
+          -23.08300018310547,
+          0.550000011920929
+        ],
+        "max": [
+          22.5,
+          6.2250000000000005,
+          3.47
+        ]
+      }
+    },
+    {
+      "name": "SM_Paths",
+      "vertices": 1312,
+      "faces": 984,
+      "triangles": 1968,
+      "components": 164,
+      "closed_components": 164,
+      "closed_min_volume_m3": 0.14513166745503767,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 110.3701756918396,
+        "median": 127.71705557982068,
+        "max": 128.000027485082
+      },
+      "bounds_m": {
+        "min": [
+          -31.34179324524493,
+          -47.54521479649027,
+          0.43999997138977054
+        ],
+        "max": [
+          28.242572389674034,
+          5.115144572365903,
+          3.442499933242798
+        ]
+      }
+    },
+    {
+      "name": "SM_Pines",
+      "vertices": 14212,
+      "faces": 15164,
+      "triangles": 26180,
+      "components": 561,
+      "closed_components": 561,
+      "closed_min_volume_m3": 0.17301011085510232,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 48.72436820603545,
+        "median": 55.28381834077169,
+        "max": 128.0000094918053
+      },
+      "bounds_m": {
+        "min": [
+          -46.76750183105469,
+          -44.74250030517578,
+          0.6000000238418579
+        ],
+        "max": [
+          46.459999084472656,
+          32.255001068115234,
+          12.795000076293945
+        ]
+      }
+    },
+    {
+      "name": "SM_Rocks",
+      "vertices": 3360,
+      "faces": 3960,
+      "triangles": 6480,
+      "components": 60,
+      "closed_components": 60,
+      "closed_min_volume_m3": 0.2239895661671958,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 56.68289635255796,
+        "median": 108.74889386264567,
+        "max": 126.60173746183007
+      },
+      "bounds_m": {
+        "min": [
+          -38.05026048694719,
+          -38.86020439522714,
+          -0.2758824327917002
+        ],
+        "max": [
+          35.703159300803335,
+          31.036759266110234,
+          2.5913531767355162
+        ]
+      }
+    },
+    {
+      "name": "SM_Lanterns",
+      "vertices": 1904,
+      "faces": 1342,
+      "triangles": 3028,
+      "components": 195,
+      "closed_components": 195,
+      "closed_min_volume_m3": 0.0027521451314289624,
+      "corrected_inward_components": 38,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 60.76707778863404,
+        "median": 127.99999966770977,
+        "max": 128.00000894443033
+      },
+      "bounds_m": {
+        "min": [
+          -35.525,
+          -42.5,
+          0.58
+        ],
+        "max": [
+          33.525,
+          8.8,
+          6.859999999999999
+        ]
+      }
+    },
+    {
+      "name": "SM_Furnishings",
+      "vertices": 2998,
+      "faces": 2386,
+      "triangles": 5140,
+      "components": 214,
+      "closed_components": 214,
+      "closed_min_volume_m3": 0.0001413226127624529,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 55.82430735896092,
+        "median": 119.11781392988742,
+        "max": 128.00001457220802
+      },
+      "bounds_m": {
+        "min": [
+          -39.18,
+          -33.18,
+          0.5
+        ],
+        "max": [
+          37.18,
+          19.18,
+          4.460000038146973
+        ]
+      }
+    },
+    {
+      "name": "SM_Steam",
+      "vertices": 40,
+      "faces": 10,
+      "triangles": 20,
+      "components": 10,
+      "closed_components": 0,
+      "closed_min_volume_m3": null,
+      "corrected_inward_components": 0,
+      "open_surface_checks": [
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.09983348846435547,
+            -0.9950041174888611,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.9950041770935059,
+            0.0998334139585495,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.5226872563362122,
+            -0.8525245189666748,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.8525245785713196,
+            0.5226870775222778,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.24740396440029144,
+            -0.9689124226570129,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.9689124226570129,
+            0.24740394949913025,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.7833268642425537,
+            -0.6216099858283997,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.6216099262237549,
+            0.7833269238471985,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.1494380235671997,
+            -0.9887710213661194,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        },
+        {
+          "material": "Steam",
+          "normal_sample": [
+            0.9887712001800537,
+            0.14943774044513702,
+            0.0
+          ],
+          "front_up_positive": null,
+          "two_sided": true
+        }
+      ],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 113.28736631030694,
+        "median": 125.99468767877605,
+        "max": 127.6798652305069
+      },
+      "bounds_m": {
+        "min": [
+          -8.990008330556051,
+          -15.340594810938573,
+          1.18
+        ],
+        "max": [
+          16.285402401316855,
+          9.092592041119326,
+          6.6
+        ]
+      }
+    },
+    {
+      "name": "SM_Entrance",
+      "vertices": 340,
+      "faces": 218,
+      "triangles": 584,
+      "components": 24,
+      "closed_components": 24,
+      "closed_min_volume_m3": 0.0001651017519179801,
+      "corrected_inward_components": 2,
+      "open_surface_checks": [],
+      "uv_all_finite": true,
+      "degenerate_triangles": 0,
+      "density_px_per_m": {
+        "min": 60.204863542738536,
+        "median": 121.4950968044307,
+        "max": 128.0000079064975
+      },
+      "bounds_m": {
+        "min": [
+          -3.35,
+          -42.95,
+          0.5
+        ],
+        "max": [
+          3.35,
+          -41.05,
+          5.3500000000000005
+        ]
+      }
+    }
+  ],
+  "uv_policy": {
+    "mapping": "dominant-axis planar metres / tile_metres",
+    "overlap": "intentional repeating tile coordinates shared across disconnected primitive surfaces; no packed lightmap UV",
+    "padding": "not applicable to wrap/repeating texture coordinates",
+    "density_tolerance": "dominant-axis projection has cosine contraction on curved faces; measured per triangle"
+  },
+  "finished_at_utc": "2026-10-23T12:11:16.499286+00:00",
+  "elapsed_seconds": 3.004809856414795
+}

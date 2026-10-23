@@ -1,0 +1,71 @@
+{
+  "started_at_utc": "2026-10-23T14:00:03.073000+00:00",
+  "finished_at_utc": "2026-10-23T14:43:09.061116+00:00",
+  "elapsed_wall_seconds": 2585.988116,
+  "ue_wait_seconds_all_attempts": 315.3628029,
+  "ue_execution_seconds_all_attempts": 408.2902362,
+  "uv_source_script_seconds_all_attempts": 40.6491961479187,
+  "image_generation_parallel_wall_seconds": 80.596,
+  "image_generation_sum_request_seconds": 152.734,
+  "attempts": [
+    {
+      "wait_started_at_utc": "2026-10-23T14:11:23.0083712+00:00",
+      "run_started_at_utc": "2026-10-23T14:11:23.2069612+00:00",
+      "finished_at_utc": "2026-10-23T14:12:41.4627781+00:00",
+      "wait_seconds": 0.19859,
+      "execution_seconds": 78.2558169,
+      "exit_code": -1073741819,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/SnowyOnsen/max/PrivateOnsen/PrivateOnsen.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Work/SnowyOnsen/max/TextureImprovement/Logs/ue_01.log",
+      "queue_theme": "Unknown",
+      "queue_effort": null,
+      "queue_priority": 2
+    },
+    {
+      "wait_started_at_utc": "2026-10-23T14:21:45.4541861+00:00",
+      "run_started_at_utc": "2026-10-23T14:24:52.4155412+00:00",
+      "finished_at_utc": "2026-10-23T14:27:49.2299490+00:00",
+      "wait_seconds": 186.9613551,
+      "execution_seconds": 176.8144078,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/SnowyOnsen/max/PrivateOnsen/PrivateOnsen.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Work/SnowyOnsen/max/TextureImprovement/Logs/ue_02.log",
+      "queue_theme": "Unknown",
+      "queue_effort": null,
+      "queue_priority": 2
+    },
+    {
+      "wait_started_at_utc": "2026-10-23T14:29:18.7953711+00:00",
+      "run_started_at_utc": "2026-10-23T14:31:26.7896503+00:00",
+      "finished_at_utc": "2026-10-23T14:33:47.9645004+00:00",
+      "wait_seconds": 127.9942792,
+      "execution_seconds": 141.1748501,
+      "exit_code": -1073741819,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/SnowyOnsen/max/PrivateOnsen/PrivateOnsen.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Work/SnowyOnsen/max/TextureImprovement/Logs/ue_03.log",
+      "queue_theme": "Unknown",
+      "queue_effort": null,
+      "queue_priority": 2
+    },
+    {
+      "wait_started_at_utc": "2026-10-23T14:35:30.8169322+00:00",
+      "run_started_at_utc": "2026-10-23T14:35:31.0255108+00:00",
+      "finished_at_utc": "2026-10-23T14:35:43.0706722+00:00",
+      "wait_seconds": 0.2085786,
+      "execution_seconds": 12.0451614,
+      "exit_code": 0,
+      "project": "D:/github/AstraEffort/ForestDemo/Saved/Workers/SnowyOnsen/max/PrivateOnsen/PrivateOnsen.uproject",
+      "log": "D:/github/AstraEffort/ForestDemo/Work/SnowyOnsen/max/TextureImprovement/Logs/ue_04.log",
+      "queue_theme": "Unknown",
+      "queue_effort": null,
+      "queue_priority": 2
+    }
+  ],
+  "notes": [
+    "Canonical pass start supplied by parent actual turn metadata; first-delivery timestamps remain untouched.",
+    "UV source seconds measure script execution only, excluding Blender startup and code authoring; those are included in total wall.",
+    "Image requests ran concurrently; their sum must not be added to wall.",
+    "Attempts01/03 have native nonzero exits after normal shutdown logs;02 render and04 exact-asset validation exited0. No crash root-cause fix claimed.",
+    "Analysis initially ran before03 finished replacing captures; the incomplete-frame hash failure was preserved and final complete8-frame analysis passed."
+  ]
+}
