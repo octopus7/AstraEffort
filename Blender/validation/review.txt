@@ -1,0 +1,8 @@
+Independent read-only review under requesting-code-review.
+Reviewed reference image, rendered hero, construction/validation scripts and GLB structure.
+No new critical or important issue beyond the root UV defects already being fixed by the author.
+Minor limitations retained and documented in README:
+- Pixel overlap checks cannot exclude subpixel intersections; requested padding is not a measured minimum gutter.
+- Nose and landing fairings are interpreted/simplified relative to the reference sheet.
+- GLB preserves assemblies; detailed component vertex groups are available in the Blender original.
+Final rebuilt asset was subsequently checked by the author using validation.json and actual GLB re-import renders.

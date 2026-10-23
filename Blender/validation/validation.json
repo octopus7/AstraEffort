@@ -1,0 +1,168 @@
+{
+  "timestamp_utc": "2026-10-23T08:47:25.604716+00:00",
+  "source_mesh_count": 11,
+  "uv_out_of_bounds_corners": 0,
+  "zero_area_uv_triangles": 0,
+  "uv_overlap_pixels_at_4096": 0,
+  "uv_covered_pixels": 6356073,
+  "uv_coverage_percent": 37.88514733314514,
+  "uv_overlap_method": "4096 x 4096 interior pixel rasterization, barycentric epsilon 1e-6. Subpixel intersections are not ruled out by this test.",
+  "density_world_area_weighted_px_per_m": {
+    "0.01": 47.606846382434554,
+    "0.05": 52.29063799408137,
+    "0.5": 57.667713485546805,
+    "0.95": 59.89627739679739,
+    "0.99": 62.340577134779394
+  },
+  "mesh_density": [
+    {
+      "mesh": "SSTO_Cockpit",
+      "surface_m2": 53.54386477442813,
+      "uv_area": 0.010480938039555347,
+      "effective_texels_per_meter": 57.30666922573404,
+      "triangles": 10560
+    },
+    {
+      "mesh": "SSTO_Control_Fins",
+      "surface_m2": 52.2837977866875,
+      "uv_area": 0.010234365367182724,
+      "effective_texels_per_meter": 57.306890416864896,
+      "triangles": 744
+    },
+    {
+      "mesh": "SSTO_Details",
+      "surface_m2": 125.26459847754722,
+      "uv_area": 0.024519987062637433,
+      "effective_texels_per_meter": 57.3067647380353,
+      "triangles": 47000
+    },
+    {
+      "mesh": "SSTO_Engine_01",
+      "surface_m2": 40.511299602498184,
+      "uv_area": 0.007929967644949638,
+      "effective_texels_per_meter": 57.30698600756202,
+      "triangles": 7368
+    },
+    {
+      "mesh": "SSTO_Engine_02",
+      "surface_m2": 40.51129915734782,
+      "uv_area": 0.007929966707914689,
+      "effective_texels_per_meter": 57.30698293661008,
+      "triangles": 7368
+    },
+    {
+      "mesh": "SSTO_Engine_03",
+      "surface_m2": 40.511299255078484,
+      "uv_area": 0.007929970328004826,
+      "effective_texels_per_meter": 57.306995948020905,
+      "triangles": 7368
+    },
+    {
+      "mesh": "SSTO_Engine_Deck",
+      "surface_m2": 81.08061096140591,
+      "uv_area": 0.01587128977418778,
+      "effective_texels_per_meter": 57.306983938141585,
+      "triangles": 5964
+    },
+    {
+      "mesh": "SSTO_Hull",
+      "surface_m2": 1281.8948013679806,
+      "uv_area": 0.2509273248455418,
+      "effective_texels_per_meter": 57.30700781381441,
+      "triangles": 51952
+    },
+    {
+      "mesh": "SSTO_Landing_Aft",
+      "surface_m2": 73.24848009380548,
+      "uv_area": 0.014338063356757684,
+      "effective_texels_per_meter": 57.30676418080878,
+      "triangles": 7280
+    },
+    {
+      "mesh": "SSTO_Landing_Port",
+      "surface_m2": 73.24859145537721,
+      "uv_area": 0.014338082011562555,
+      "effective_texels_per_meter": 57.306757898352465,
+      "triangles": 7280
+    },
+    {
+      "mesh": "SSTO_Landing_Starboard",
+      "surface_m2": 73.24859087579034,
+      "uv_area": 0.014338087887787218,
+      "effective_texels_per_meter": 57.3067698681853,
+      "triangles": 7280
+    }
+  ],
+  "topology": {
+    "SSTO_Cockpit": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Control_Fins": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Details": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Engine_01": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Engine_02": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Engine_03": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Engine_Deck": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Hull": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Landing_Aft": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Landing_Port": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "SSTO_Landing_Starboard": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "declared_bytes": 16993200,
+    "actual_bytes": 16993200,
+    "mesh_count": 11,
+    "primitive_count": 59,
+    "material_count": 9,
+    "all_primitives_have_uv": true,
+    "image_count": 1,
+    "all_images_embedded": true,
+    "has_exported_cameras": false,
+    "has_exported_lights": false,
+    "sha256": "8e6561665b2aa1253de487797af1305e2f5bda85f7c33b7a67693b3cbcb8bbd4"
+  },
+  "reimport": {
+    "mesh_count": 11,
+    "dimensions_m": [
+      10.996021270751953,
+      10.246758222579956,
+      24.000000005985402
+    ],
+    "material_slots": 59,
+    "all_have_uv": true
+  },
+  "required_checks_passed": true
+}

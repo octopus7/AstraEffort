@@ -1,0 +1,10 @@
+SSTO asset production plan
+Goal: reference-led rounded vertical-landing SSTO, 24 m tall, editable Blender and self-contained GLB in Blender/.
+Design: ivory ceramic hull, slate protective panels, orange safety accents, dark blue glazing, three detailed bell engines and deployed landing gear. Exterior is the default while the optional interior question is pending.
+Scope: new Blender/ deliverables only; REF stays read-only and git-ignored. No shared scene mutation, UE launch, Git staging or commits.
+1. Build continuous revolved hull, conformal segmented plates and glazing, swept fairings, pistons, footpads, recessed service details, and hollow bell engines in isolated Blender 4.5.
+2. Apply geometry modifiers; unwrap unique surfaces; average island scales and pack a global 0-1 UV atlas without mirrors or stacked islands. Keep density proportional to surface area, and record actual statistics and padding.
+3. Use built-in image-generated ivory and blue surface images in actual materials. Bake an explicit albedo atlas into final UVs, preserve original images and prompts, use export-supported PBR materials.
+4. Save SSTO.blend and export SSTO.glb with embedded textures, no studio lights or cameras in the GLB. Render front three-quarter, rear three-quarter, front and engine/underside views.
+5. Independently re-import GLB and verify bounds, nonempty meshes, UV bounds/overlap, embedded images, material bindings and export render. Save validation evidence and concise usage notes.
+Review focus: cockpit silhouette, smooth taper, no viewport-only shaders, separate UVs for symmetric components, deployed feet at ground, no unexpected GLB nodes or external texture dependencies.
