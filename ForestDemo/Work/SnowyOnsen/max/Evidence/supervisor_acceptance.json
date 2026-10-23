@@ -1,0 +1,106 @@
+﻿{
+    "accepted_at_utc":  "2026-10-23T12:46:18.7650295+00:00",
+    "decision":  "accepted",
+    "blocking_findings":  0,
+    "theme":  "SnowyOnsen",
+    "effort":  "max",
+    "author_agent":  "/root/snowy_onsen_max_fast",
+    "independent_reviewer":  "/root/snowy_onsen_final_review",
+    "supervisor":  "/root",
+    "worker_started_at_utc":  "2026-10-23T12:03:54.226000+00:00",
+    "worker_finished_at_utc":  "2026-10-23T12:39:20.213749+00:00",
+    "worker_elapsed_seconds":  2125.987749,
+    "independent_final_fbx_audit":  {
+                                        "all_closed_components_positive_volume":  true,
+                                        "meshes":  16,
+                                        "triangles":  165742,
+                                        "degenerate_triangles":  0,
+                                        "zero_area_or_nonfinite_uv":  0,
+                                        "closed_components":  2156,
+                                        "intended_open_components":  13,
+                                        "nonmanifold_or_winding_errors":  0
+                                    },
+    "saved_map_dependency_audit":  {
+                                       "world_partition_enabled":  false,
+                                       "used_textures":  12,
+                                       "reachable_own_game_packages":  43,
+                                       "missing_or_foreign_packages":  0,
+                                       "external_or_baked_packages":  0,
+                                       "placed_meshes":  16,
+                                       "dynamic_lighting":  true,
+                                       "used_materials":  14
+                                   },
+    "publication":  {
+                        "all_sha256_match":  true,
+                        "files":  43,
+                        "proof":  "Evidence/parent_publication_check.json",
+                        "exact_private_and_published_inventory":  true,
+                        "bytes":  16118308
+                    },
+    "captures":  {
+                     "lit_game_view":  true,
+                     "files":  [
+                                   {
+                                       "file":  "onsen.png",
+                                       "bytes":  2150109,
+                                       "sha256":  "969FE5E855E678A10D06A95398A5734DE083BFD534F8B825A5131F0BC3CFA8DD"
+                                   },
+                                   {
+                                       "file":  "overview.png",
+                                       "bytes":  1370654,
+                                       "sha256":  "B99CEDEEEDBAC8EA08EAC4769A4162308E17750D08846641BF3E20D5E54FA369"
+                                   },
+                                   {
+                                       "file":  "top_down.png",
+                                       "bytes":  1386010,
+                                       "sha256":  "5F018897BE9EF906B009CB57D11FB79D2FDF82FF7230065DA290CC3A8575B82C"
+                                   },
+                                   {
+                                       "file":  "village.png",
+                                       "bytes":  1893394,
+                                       "sha256":  "8B6E20807C9FB96074B4761D06EFB3042A704DC5D9809D3EE19761E7BB071707"
+                                   },
+                                   {
+                                       "file":  "water_t0.png",
+                                       "bytes":  2175302,
+                                       "sha256":  "F42438A64565CD37ED2434BFFCEAAC9809A479287C914417DDF8FE370E7E7E04"
+                                   },
+                                   {
+                                       "file":  "water_t1.png",
+                                       "bytes":  2177666,
+                                       "sha256":  "10A08A5A6D167E6AB6202D02B6C0D3D61AF97C477A3E14F7356546A13D631828"
+                                   }
+                               ],
+                     "timed_motion_claim":  true,
+                     "resolution":  [
+                                        1920,
+                                        1080
+                                    ],
+                     "all_reviewed_by_parent":  true,
+                     "manifest_hashes_and_camera_settings_verified":  true,
+                     "actual_ue_pngs":  6
+                 },
+    "final_clean_ue_exit":  {
+                                "code":  0,
+                                "timing_file":  "Validation/ue_timing_09.json",
+                                "finished_at_utc":  "2026-10-23T12:36:08.8751417+00:00"
+                            },
+    "parent_process_observation":  {
+                                       "checked_at_utc":  "2026-10-23T12:44:54.8922525+00:00",
+                                       "unreal_editor_process_count":  0
+                                   },
+    "protected_reports_unchanged":  true,
+    "protected_reports_proof":  "Evidence/parent_comparison_preservation_final.json",
+    "model_effort_and_speed_scope":  "gpt-6-astra/max verified in author turn metadata; local fast setting and tool priority support recorded; actual per-request serving tier not exposed",
+    "report_sha256":  "310293CE50E652AEC3E661F6D6CE99654EA68431B6E9819232A48ADFB14414AA",
+    "status_sha256":  "B5F32A5DC6458D6D36C0C005B9D07CE0CFF994FF3EEA3751F552F25AC5E1CA2D",
+    "validation_sha256":  "562AD994B706AE5D1022FEECA3DDB6ADF37889C69CDFC93EDF244B00F4431BA3",
+    "capture_manifest_sha256":  "AC75EE4E25AD06C103F9EE94A80DFFF5D918C0F8CFE7CC498205CC913A1D0371",
+    "known_limitations":  [
+                              "Opaque animated water and card steam are artistic approximations",
+                              "Dark mountain fronts and view-dependent card density",
+                              "No gameplay, collision, PIE or FPS validation"
+                          ],
+    "git_mutations_performed":  false,
+    "documentation_correction":  "Renamed RGB metric keys in analysis source and capture_validation.json from linear_rgb to normalized_png_rgb after independent review. Numeric values, screenshot bytes and timestamps unchanged; historical log preserved. No asset or render changes."
+}

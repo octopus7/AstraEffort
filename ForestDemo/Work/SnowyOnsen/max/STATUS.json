@@ -1,0 +1,43 @@
+﻿{
+    "theme":  "SnowyOnsen",
+    "effort":  "max",
+    "status":  "ready_for_review",
+    "thread_id":  "01a168a5-6776-76e3-a8cc-7ad1f5d0452e",
+    "started_at_utc":  "2026-10-23T12:03:54.226000+00:00",
+    "started_at_kst":  "2026-10-23T21:03:54.226000+09:00",
+    "initial_manual_clock_at_utc":  "2026-10-23T12:04:08Z",
+    "finished_at_utc":  "2026-10-23T12:39:20.213749+00:00",
+    "finished_at_kst":  "2026-10-23T21:39:20.213749+09:00",
+    "elapsed_seconds":  2125.987749,
+    "map":  "/Game/Maps/SnowyOnsen_max",
+    "validation_summary":  {
+                               "final_clean_ue_exit":  0,
+                               "world_partition_is_none":  true,
+                               "dynamic_lighting":  true,
+                               "owned_recursive_game_packages":  43,
+                               "mesh_count":  16,
+                               "final_triangles":  165742,
+                               "materials":  14,
+                               "textures":  12,
+                               "captures":  6,
+                               "published_files":  43,
+                               "sha256_match":  true,
+                               "parent_visual_review":  true
+                           },
+    "blockers":  [
+
+                 ],
+    "known_limitations":  [
+                              "Artistic opaque water and crossed-card steam; not physical fluid or gas simulation.",
+                              "Intentional repeating tiled UVs, not unique nonoverlapping texture-atlas islands.",
+                              "Presentation environment; collision/gameplay/FPS not promised."
+                          ],
+    "supervisor_review":  {
+                              "status":  "accepted",
+                              "reviewed_at_utc":  "2026-10-23T12:46:18.7650295+00:00",
+                              "reviewer":  "/root/snowy_onsen_final_review",
+                              "supervisor":  "/root",
+                              "evidence":  "Evidence/supervisor_acceptance.json",
+                              "blocking_findings":  0
+                          }
+}

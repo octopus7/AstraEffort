@@ -1,0 +1,41 @@
+{
+  "at_utc": "2026-10-23T12:38:28.766363+00:00",
+  "png_manifest_hash_checks": "6/6 passed",
+  "resolution": "1920x1080 all6",
+  "same_camera_timed_pair": true,
+  "time_separation_seconds": 14.0,
+  "water_and_steam_roi": {
+    "roi_xyxy": [
+      700,
+      550,
+      1300,
+      1000
+    ],
+    "mean_abs_normalized_png_rgb": 0.04973766952753067,
+    "max_abs_normalized_png_rgb": 0.5215686559677124,
+    "fraction_pixels_delta_gt_0_002": 0.9923962962962963
+  },
+  "architecture_control_roi": {
+    "roi_xyxy": [
+      1060,
+      70,
+      1260,
+      210
+    ],
+    "mean_abs_normalized_png_rgb": 0.001479505212046206,
+    "max_abs_normalized_png_rgb": 0.125490203499794,
+    "fraction_pixels_delta_gt_0_002": 0.43792857142857144
+  },
+  "whole_image": {
+    "roi_xyxy": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "mean_abs_normalized_png_rgb": 0.021775875240564346,
+    "max_abs_normalized_png_rgb": 0.5333333611488342,
+    "fraction_pixels_delta_gt_0_002": 0.8242226080246914
+  },
+  "interpretation": "Difference in water/steam ROI is evidence of rendered time variation; material graph supplies panner/Time source. Minor antialiasing/lighting variance can contribute, so this is not a fluid simulation measurement."
+}

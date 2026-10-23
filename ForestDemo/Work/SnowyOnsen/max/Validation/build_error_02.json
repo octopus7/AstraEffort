@@ -1,0 +1,4 @@
+{
+  "at_utc": "2026-10-23T12:15:31.810441+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/SnowyOnsen/max/Source/build_unreal.py\", line 197, in <module>\n    materials,meshes=import_all();make_world(meshes);validate();capture()\n                     ^^^^^^^^^^^^\n  File \"D:/github/AstraEffort/ForestDemo/Work/SnowyOnsen/max/Source/build_unreal.py\", line 57, in import_all\n    pan=node(m,u.MaterialExpressionPanner);pan.speed_x=.015;pan.speed_y=-.009;link(pan,tx,'Coordinates')\n                                           ^^^^^^^^^^^\nAttributeError: 'MaterialExpressionPanner' object has no attribute 'speed_x'\n"
+}
