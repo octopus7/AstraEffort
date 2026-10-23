@@ -1,0 +1,26 @@
+{
+  "reviewed_at_utc": "2026-10-23T12:06:24.028920+00:00",
+  "review_method": "Direct view_image inspection of actual native and GLB-reimport Blender Cycles renders.",
+  "reviewed_images": [
+    "renders/hero.png",
+    "renders/front.png",
+    "renders/rear.png",
+    "renders/side.png",
+    "renders/cargo_open.png",
+    "renders/glb_reimport_hero.png"
+  ],
+  "checks": {
+    "rounded_cube_and_two_large_side_wheels": true,
+    "ivory_slate_amber_reference_palette": true,
+    "two_vertical_capsule_eyes": true,
+    "rabbit_marks_on_wheels_and_rear_door": true,
+    "roof_handle_and_paired_antennae": true,
+    "visible_open_cargo_cavity_and_separate_parcel": true,
+    "no_visible_missing_texture_or_export_shading_loss": true
+  },
+  "notes": [
+    "Reference proportions and construction details are interpreted; this is a stylized asset, not an engineering CAD reconstruction.",
+    "The light enamel has subtle low-contrast generated wear. Tire grooves, trim, markings and hardware are modeled geometry.",
+    "Final geometry cleanup preserved the silhouette and removed collapsed bevel junctions before unwrap."
+  ]
+}

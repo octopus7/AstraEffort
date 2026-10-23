@@ -1,0 +1,35 @@
+{
+  "asset": "CubeDeliveryRobot",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T09:08:12+00:00",
+  "started_at_kst": "2026-10-23T18:08:12+09:00",
+  "finished_at_utc": "2026-10-23T12:06:24.028920+00:00",
+  "finished_at_kst": "2026-10-23T21:06:24.028920+09:00",
+  "elapsed_seconds": 10692,
+  "elapsed_includes_reference_location_wait": true,
+  "reference": "REF/rabbit_suttle.png",
+  "main_files": [
+    "CubeDeliveryRobot.blend",
+    "CubeDeliveryRobot.glb",
+    "CubeDeliveryRobot.fbx",
+    "README.md"
+  ],
+  "validation_summary": {
+    "passed": true,
+    "geometry_and_uv_zero_area_triangles": 0,
+    "nonmanifold_edges": 0,
+    "uv_overlap_pixels_4096": 0,
+    "export_roundtrips": "FBX and GLB passed",
+    "embedded_atlas_bytes_equal": true,
+    "triangles": 74212,
+    "mesh_count": 20
+  },
+  "limitations": [
+    "Static assembly only: no rig, collision, LODs, physics, gameplay or UE import.",
+    "Rear cargo hinge and removable parcel are separate meshes; open view is an explicit preview pose.",
+    "UV raster audit has subpixel limitations, noted in uv_validation.json."
+  ],
+  "blockers": []
+}

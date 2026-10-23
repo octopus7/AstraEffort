@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "intent": "new independent texture generation",
+  "transparent_background": false,
+  "prompt": "Use case: stylized-concept. Asset type: tileable albedo texture for a rounded cream-white two-wheeled delivery robot modeled in Blender. Generate only one flat square seamless material swatch of warm ivory painted enamel, viewed straight-on, filling the entire canvas. Very subtle gentle ivory tone variation, a few sparse tiny soft ochre scuff traces and minute worn paint freckles, mostly smooth clean broad areas. Stylized premium game prop material, matte/satin ceramic-coated metal, restrained hand-painted finish. Uniform unlit base color, no directional light, no shadows, no reflections, no AO, no bevel, no border, no vignette, no 3D object, no panel seams, no logo, no text. All four edges match seamlessly. Very low texture contrast; avoid dirt clouds, grunge, grain and sparkly noise. Ivory median around RGB 224 216 200. Opaque background.",
+  "unchanged_generated_output": "textures/IvoryEnamel_Generated.png",
+  "generated_dimensions": [
+    1254,
+    1254
+  ],
+  "generated_sha256": "5277aeadd02e77e4cfc93b489320779bbac0e62543ba2760d063f17bf92964ef",
+  "mapping": "World-position box projection at 3.5 repeats/m on ivory parts, then unlit emission base-color bake into globally unique UV atlas. Other surfaces use authored constant PBR base colors.",
+  "atlas": "textures/CubeDeliveryRobot_BaseColor_4096.png",
+  "reference": "REF/rabbit_suttle.png",
+  "reference_sha256": "4540e968c2228631bdfdc1ab3ade7386106aa163b645ba8f6cc3d748286c747c",
+  "reference_handling": "Read-only modeling reference; not copied into deliverable or used as the albedo."
+}

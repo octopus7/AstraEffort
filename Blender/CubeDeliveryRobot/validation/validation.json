@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "errors": [],
+  "blender": "4.5.12 LTS",
+  "elapsed_seconds": 62.73525023460388,
+  "native_mesh_count": 20,
+  "native_triangles": 74212,
+  "bounds_m": {
+    "min": [
+      -0.5054999589920044,
+      -0.3499999940395355,
+      2.5063753128051758e-05
+    ],
+    "max": [
+      0.5054999589920044,
+      0.40299999713897705,
+      0.9875685572624207
+    ],
+    "dimensions": [
+      1.0109999179840088,
+      0.7529999911785126,
+      0.9875434935092926
+    ]
+  },
+  "atlas_packed_hash_matches_external": true,
+  "missing_resources": [],
+  "uv": {
+    "resolution": 4096,
+    "strict_interior_overlap_pixels": 0,
+    "occupied_pixels": 8209560,
+    "occupancy_percent": 48.932790756225586,
+    "triangles_covering_no_pixel_center": 16628,
+    "surface_area_m2": 17.374672456440816,
+    "texel_density_px_m_area_weighted_percentiles": {
+      "5": 637.3042953260167,
+      "50": 690.891864952205,
+      "95": 716.7933707333877
+    },
+    "area_weighted_mean_px_m": 686.875428359844,
+    "requested_packer_margin_fraction": 0.0025,
+    "requested_margin_pixels": 10.24,
+    "bake_dilation_pixels": 8,
+    "limits": "Pixel-center strict interior test; no mathematical exclusion of subpixel overlap; no exact continuous minimum gap or mip-chain bleed certificate."
+  },
+  "glb_render_mae": 7.707725671934895e-06,
+  "read_only_model_hashes_unchanged": {
+    "CubeDeliveryRobot.blend": true,
+    "CubeDeliveryRobot.glb": true,
+    "CubeDeliveryRobot.fbx": true,
+    "textures/CubeDeliveryRobot_BaseColor_4096.png": true
+  },
+  "sha256": {
+    "CubeDeliveryRobot.blend": "cf00d531a6917cf15c0a2eb9e91efbfc78db3c4b5838a5a4d38be2d6fb3b5e36",
+    "CubeDeliveryRobot.glb": "9c8a04012ff9d1a45e563fa764ccaec0e2c97760cef39457c4d5cc7cd287ac4b",
+    "CubeDeliveryRobot.fbx": "b2c52f2a0003ac1f12f7d3ded8e7489f15f017716a4be8da779e1a6945936072",
+    "textures/CubeDeliveryRobot_BaseColor_4096.png": "e38909ff7c64a4a940905697465072462f1f68eb07e2b9baadb75900fcae26dd"
+  },
+  "limitations": [
+    "Static assembly only: no rig, collision, LODs, physics, gameplay or UE import.",
+    "Rear cargo hinge and removable parcel are separate meshes; open view is an explicit preview pose.",
+    "UV raster audit has subpixel limitations, noted in uv_validation.json."
+  ]
+}
