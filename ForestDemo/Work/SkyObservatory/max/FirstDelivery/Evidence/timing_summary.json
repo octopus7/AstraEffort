@@ -1,0 +1,38 @@
+{
+  "started_at_utc": "2026-10-23T12:04:38.840000+00:00",
+  "finished_at_utc": "2026-10-23T12:36:48.647992+00:00",
+  "elapsed_wall_seconds": 1929.807992,
+  "ue_wait_seconds_all_attempts": 143.1399217,
+  "ue_execution_seconds_all_attempts": 323.2739198,
+  "source_commands": [
+    {
+      "command": "Blender initial build (normal-validation failure)",
+      "observed_command_wall_seconds": 4.4740841
+    },
+    {
+      "command": "Blender winding correction build",
+      "observed_command_wall_seconds": 7.3439584
+    },
+    {
+      "command": "Blender UV shelf-packing build",
+      "observed_command_wall_seconds": 8.6950788
+    },
+    {
+      "command": "Persisted source audit before correction",
+      "observed_command_wall_seconds": 8.418116
+    },
+    {
+      "command": "Targeted cloud geometry and export-axis correction",
+      "observed_command_wall_seconds": 4.1104765
+    },
+    {
+      "command": "Persisted source audit final",
+      "observed_command_wall_seconds": 8.2939954
+    }
+  ],
+  "source_observed_command_wall_seconds": 41.3357092,
+  "source_last_full_build_internal_seconds": 7.480427265167236,
+  "imagegen_seconds": 0,
+  "imagegen_used": false,
+  "timing_note": "Source command durations are actual tool-observed wall time, including process/shell overhead; source authoring and review are included in total wall time, not inferred as CPU work. UE timing includes all five attempts including guard failure and Python failures."
+}

@@ -1,0 +1,916 @@
+{
+  "generated_at_utc": "2026-10-23T12:15:20Z",
+  "units": "metres in Blender; FBX metadata converts to centimetres",
+  "uv_texture_resolution": 1024,
+  "texel_density_target_px_per_m": 64,
+  "uv_method": "Each geometric triangle is a separate planar UV island at exact area scale. Islands are shelf-packed into disjoint rectangles with 4px padding on every side. Periodic textures deliberately repeat outside 0..1. No atlas baking/lightmaps. Shared tiling patterns are intentional, never mirrored UVs.",
+  "groups": [
+    {
+      "name": "SM_Island_Central",
+      "vertices": 1100,
+      "triangles": 2136,
+      "closed_components": 16,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -28.05208424086643,
+          20.250792517408694
+        ],
+        [
+          -12.83866023450383,
+          29.428265958042015
+        ],
+        [
+          -14.980603712722694,
+          5.35
+        ]
+      ],
+      "materials": [
+        "RockBlue",
+        "Limestone",
+        "Grass",
+        "RockPale",
+        "Brass"
+      ],
+      "uv_finite": true,
+      "density_min": 63.988600081255505,
+      "density_max": 64.00457799434858,
+      "density_average": 63.99997384490145,
+      "uv_island_count": 2136,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Island_Arrival",
+      "vertices": 1100,
+      "triangles": 2136,
+      "closed_components": 16,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -1.5810141864699077,
+          32.725596790408986
+        ],
+        [
+          -44.44074683637553,
+          -17.494766004931765
+        ],
+        [
+          -11.692956493210104,
+          3.65
+        ]
+      ],
+      "materials": [
+        "RockBlue",
+        "Limestone",
+        "Grass",
+        "RockPale",
+        "Brass"
+      ],
+      "uv_finite": true,
+      "density_min": 63.997246552754646,
+      "density_max": 64.00487831582882,
+      "density_average": 64.0000472307609,
+      "uv_island_count": 2136,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Island_Cottages",
+      "vertices": 1100,
+      "triangles": 2136,
+      "closed_components": 16,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -46.79853819035531,
+          -16.85278376754357
+        ],
+        [
+          -30.14353479330004,
+          -3.26
+        ],
+        [
+          -9.69583932488518,
+          4.65
+        ]
+      ],
+      "materials": [
+        "RockBlue",
+        "Limestone",
+        "Grass",
+        "RockPale",
+        "Brass"
+      ],
+      "uv_finite": true,
+      "density_min": 63.995625717749085,
+      "density_max": 64.0039465461113,
+      "density_average": 64.00000033348375,
+      "uv_island_count": 2136,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Island_Garden",
+      "vertices": 1100,
+      "triangles": 2136,
+      "closed_components": 16,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          19.630900881733766,
+          45.02876111829974
+        ],
+        [
+          1.6860042645705278,
+          26.595243879546587
+        ],
+        [
+          -9.497484069268582,
+          6.85
+        ]
+      ],
+      "materials": [
+        "RockBlue",
+        "Limestone",
+        "Grass",
+        "RockPale",
+        "Brass"
+      ],
+      "uv_finite": true,
+      "density_min": 63.99348206800409,
+      "density_max": 64.00420158536987,
+      "density_average": 63.999984270901145,
+      "uv_island_count": 2136,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Island_Beacon",
+      "vertices": 1100,
+      "triangles": 2136,
+      "closed_components": 16,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -36.93219614658733,
+          -17.005781802066977
+        ],
+        [
+          25.55335453953571,
+          44.53721358650603
+        ],
+        [
+          -6.492004838493188,
+          7.85
+        ]
+      ],
+      "materials": [
+        "RockBlue",
+        "Limestone",
+        "Grass",
+        "RockPale",
+        "Brass"
+      ],
+      "uv_finite": true,
+      "density_min": 63.9973813528041,
+      "density_max": 64.00606755361292,
+      "density_average": 64.0000342314565,
+      "uv_island_count": 2136,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Observatory",
+      "vertices": 9594,
+      "triangles": 18092,
+      "closed_components": 278,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -17.0,
+          13.0
+        ],
+        [
+          -12.0,
+          20.0
+        ],
+        [
+          5.099999904632568,
+          25.350000381469727
+        ]
+      ],
+      "materials": [
+        "StoneDark",
+        "Limestone",
+        "Path",
+        "Brass",
+        "Window",
+        "RoofTeal",
+        "Timber",
+        "BrassLight",
+        "Star"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98037304710131,
+      "density_max": 64.02524965697663,
+      "density_average": 63.99976161474022,
+      "uv_island_count": 18092,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_GrandTelescope",
+      "vertices": 6940,
+      "triangles": 13588,
+      "closed_components": 86,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          1.45,
+          13.138535499572754
+        ],
+        [
+          -10.756525993347168,
+          -2.7121291160583496
+        ],
+        [
+          6.05,
+          15.658034324645996
+        ]
+      ],
+      "materials": [
+        "StoneDark",
+        "Brass",
+        "BrassLight",
+        "Iron",
+        "Lens",
+        "RoofTeal",
+        "Timber",
+        "WoodLight"
+      ],
+      "uv_finite": true,
+      "density_min": 63.993325550035834,
+      "density_max": 64.01245526723481,
+      "density_average": 63.99996583031101,
+      "uv_island_count": 13588,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_ConstellationGarden",
+      "vertices": 5452,
+      "triangles": 10576,
+      "closed_components": 88,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          22.110000610351562,
+          43.88999938964844
+        ],
+        [
+          4.516733169555664,
+          23.483266830444336
+        ],
+        [
+          6.550000190734863,
+          14.0
+        ]
+      ],
+      "materials": [
+        "StoneDark",
+        "Brass",
+        "Limestone",
+        "BrassLight",
+        "Lens",
+        "Star",
+        "Iron",
+        "Window",
+        "RoofTeal"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98752539211992,
+      "density_max": 64.01061842261082,
+      "density_average": 64.0000225115462,
+      "uv_island_count": 10576,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_ScholarsVillage",
+      "vertices": 2062,
+      "triangles": 3748,
+      "closed_components": 94,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -38.67147696890615,
+          -24.610000610351562
+        ],
+        [
+          -26.483578838334115,
+          -4.754520410572112
+        ],
+        [
+          4.599999904632568,
+          12.47
+        ]
+      ],
+      "materials": [
+        "StoneDark",
+        "Limestone",
+        "RoofTeal",
+        "Brass",
+        "Window",
+        "Timber",
+        "Path",
+        "Iron",
+        "WoodLight",
+        "RoofLight"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98882126305532,
+      "density_max": 64.00800833498967,
+      "density_average": 64.00001091811932,
+      "uv_island_count": 3748,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_ArrivalCourt",
+      "vertices": 2668,
+      "triangles": 5084,
+      "closed_components": 65,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          4.610000133514404,
+          25.389999389648438
+        ],
+        [
+          -40.0,
+          -22.0
+        ],
+        [
+          3.0999999046325684,
+          8.18
+        ]
+      ],
+      "materials": [
+        "Limestone",
+        "Path",
+        "Brass",
+        "BrassLight",
+        "RoofTeal",
+        "Timber",
+        "Star",
+        "WoodLight",
+        "StoneDark",
+        "Iron",
+        "Window"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98897773617395,
+      "density_max": 64.01356926903193,
+      "density_average": 64.0001331084407,
+      "uv_island_count": 5084,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Beacon",
+      "vertices": 482,
+      "triangles": 912,
+      "closed_components": 13,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -31.700000762939453,
+          -22.299999237060547
+        ],
+        [
+          30.299999237060547,
+          39.70000076293945
+        ],
+        [
+          7.699999809265137,
+          18.599999999999998
+        ]
+      ],
+      "materials": [
+        "Limestone",
+        "Window",
+        "Brass",
+        "RoofTeal",
+        "BrassLight"
+      ],
+      "uv_finite": true,
+      "density_min": 63.99404036791106,
+      "density_max": 64.00321804849854,
+      "density_average": 63.999971522724486,
+      "uv_island_count": 912,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Vegetation",
+      "vertices": 15592,
+      "triangles": 29448,
+      "closed_components": 434,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -42.703291180787936,
+          44.08395716921465
+        ],
+        [
+          -43.09860047659529,
+          43.33296259758596
+        ],
+        [
+          3.12,
+          12.155
+        ]
+      ],
+      "materials": [
+        "Timber",
+        "Leaf",
+        "LeafLight",
+        "Moss",
+        "Lavender"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98619666287933,
+      "density_max": 64.0151944251773,
+      "density_average": 64.00001728066326,
+      "uv_island_count": 29448,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Bridge_Arrival",
+      "vertices": 6824,
+      "triangles": 12376,
+      "closed_components": 318,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          4.340000152587891,
+          15.65999984741211
+        ],
+        [
+          -20.65999984741211,
+          -8.34000015258789
+        ],
+        [
+          2.0,
+          8.760000228881836
+        ]
+      ],
+      "materials": [
+        "WoodLight",
+        "Iron",
+        "BrassLight",
+        "Brass",
+        "Limestone",
+        "Window",
+        "RoofTeal"
+      ],
+      "uv_finite": true,
+      "density_min": 63.989477189513266,
+      "density_max": 64.01385316317766,
+      "density_average": 64.00007826340115,
+      "uv_island_count": 12376,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Bridge_Village",
+      "vertices": 6824,
+      "triangles": 12376,
+      "closed_components": 318,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -29.100000381469727,
+          -19.899999618530273
+        ],
+        [
+          -8.100000381469727,
+          1.0999999046325684
+        ],
+        [
+          2.8999998569488525,
+          8.550000114440918
+        ]
+      ],
+      "materials": [
+        "WoodLight",
+        "Iron",
+        "BrassLight",
+        "Brass",
+        "Limestone",
+        "Window",
+        "RoofTeal"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98897773617395,
+      "density_max": 64.01032975303163,
+      "density_average": 63.9999452882277,
+      "uv_island_count": 12376,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Bridge_Garden",
+      "vertices": 6824,
+      "triangles": 12376,
+      "closed_components": 318,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          12.829999923706055,
+          25.170000076293945
+        ],
+        [
+          9.724671363830566,
+          15.275328636169434
+        ],
+        [
+          3.3999998569488525,
+          9.859999656677246
+        ]
+      ],
+      "materials": [
+        "WoodLight",
+        "Iron",
+        "BrassLight",
+        "Brass",
+        "Limestone",
+        "Window",
+        "RoofTeal"
+      ],
+      "uv_finite": true,
+      "density_min": 63.98899772586584,
+      "density_max": 64.01602600538655,
+      "density_average": 64.00000723010805,
+      "uv_island_count": 12376,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_Bridge_Beacon",
+      "vertices": 6824,
+      "triangles": 12376,
+      "closed_components": 318,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -23.81999969482422,
+          -15.180000305175781
+        ],
+        [
+          20.18000030517578,
+          30.81999969482422
+        ],
+        [
+          3.299999952316284,
+          10.859999656677246
+        ]
+      ],
+      "materials": [
+        "WoodLight",
+        "Iron",
+        "BrassLight",
+        "Brass",
+        "Limestone",
+        "Window",
+        "RoofTeal"
+      ],
+      "uv_finite": true,
+      "density_min": 63.985512034493375,
+      "density_max": 64.00944050851128,
+      "density_average": 63.99999193443157,
+      "uv_island_count": 12376,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    },
+    {
+      "name": "SM_CloudLayer",
+      "vertices": 8664,
+      "triangles": 17184,
+      "closed_components": 36,
+      "all_component_signed_volumes_positive": true,
+      "nonmanifold_or_inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "bounds_m": [
+        [
+          -46.0,
+          47.0
+        ],
+        [
+          -45.0,
+          46.0
+        ],
+        [
+          -28.600000381469727,
+          -14.50400161743164
+        ]
+      ],
+      "materials": [
+        "Cloud"
+      ],
+      "uv_finite": true,
+      "density_min": 63.99768043345558,
+      "density_max": 64.00277580548806,
+      "density_average": 63.99999838261539,
+      "uv_island_count": 17184,
+      "padding_px": 4,
+      "uv_overlap_check": "monotonic shelves and nonoverlapping per-face rectangles with 4px padding; periodic wrap is intentional",
+      "open_faces": 0
+    }
+  ],
+  "material_parameters": {
+    "Limestone": {
+      "rgb": [
+        0.6,
+        0.66,
+        0.68
+      ],
+      "roughness": 0.9,
+      "metallic": 0.0,
+      "kind": "stone"
+    },
+    "StoneDark": {
+      "rgb": [
+        0.22,
+        0.29,
+        0.38
+      ],
+      "roughness": 0.94,
+      "metallic": 0.0,
+      "kind": "stone"
+    },
+    "RockBlue": {
+      "rgb": [
+        0.2,
+        0.28,
+        0.37
+      ],
+      "roughness": 0.96,
+      "metallic": 0.0,
+      "kind": "rock"
+    },
+    "RockPale": {
+      "rgb": [
+        0.3,
+        0.39,
+        0.46
+      ],
+      "roughness": 0.96,
+      "metallic": 0.0,
+      "kind": "rock"
+    },
+    "Grass": {
+      "rgb": [
+        0.25,
+        0.43,
+        0.38
+      ],
+      "roughness": 0.96,
+      "metallic": 0.0,
+      "kind": "grass"
+    },
+    "Moss": {
+      "rgb": [
+        0.41,
+        0.55,
+        0.43
+      ],
+      "roughness": 0.96,
+      "metallic": 0.0,
+      "kind": "grass"
+    },
+    "Path": {
+      "rgb": [
+        0.67,
+        0.63,
+        0.5
+      ],
+      "roughness": 0.94,
+      "metallic": 0.0,
+      "kind": "stone"
+    },
+    "RoofTeal": {
+      "rgb": [
+        0.1,
+        0.33,
+        0.38
+      ],
+      "roughness": 0.44,
+      "metallic": 0.35,
+      "kind": "metal"
+    },
+    "RoofLight": {
+      "rgb": [
+        0.17,
+        0.44,
+        0.46
+      ],
+      "roughness": 0.48,
+      "metallic": 0.3,
+      "kind": "metal"
+    },
+    "Brass": {
+      "rgb": [
+        0.64,
+        0.4,
+        0.14
+      ],
+      "roughness": 0.3,
+      "metallic": 0.72,
+      "kind": "metal"
+    },
+    "BrassLight": {
+      "rgb": [
+        0.86,
+        0.64,
+        0.28
+      ],
+      "roughness": 0.27,
+      "metallic": 0.68,
+      "kind": "metal"
+    },
+    "Iron": {
+      "rgb": [
+        0.1,
+        0.17,
+        0.22
+      ],
+      "roughness": 0.48,
+      "metallic": 0.65,
+      "kind": "metal"
+    },
+    "Timber": {
+      "rgb": [
+        0.35,
+        0.22,
+        0.15
+      ],
+      "roughness": 0.82,
+      "metallic": 0.0,
+      "kind": "wood"
+    },
+    "WoodLight": {
+      "rgb": [
+        0.55,
+        0.37,
+        0.21
+      ],
+      "roughness": 0.82,
+      "metallic": 0.0,
+      "kind": "wood"
+    },
+    "Leaf": {
+      "rgb": [
+        0.13,
+        0.35,
+        0.35
+      ],
+      "roughness": 0.96,
+      "metallic": 0.0,
+      "kind": "grass"
+    },
+    "LeafLight": {
+      "rgb": [
+        0.3,
+        0.48,
+        0.4
+      ],
+      "roughness": 0.96,
+      "metallic": 0.0,
+      "kind": "grass"
+    },
+    "Lavender": {
+      "rgb": [
+        0.47,
+        0.44,
+        0.62
+      ],
+      "roughness": 0.88,
+      "metallic": 0.0,
+      "kind": "grass"
+    },
+    "Cloud": {
+      "rgb": [
+        0.48,
+        0.59,
+        0.73
+      ],
+      "roughness": 1.0,
+      "metallic": 0.0,
+      "kind": "cloud"
+    },
+    "Window": {
+      "rgb": [
+        1.0,
+        0.5,
+        0.15
+      ],
+      "roughness": 0.42,
+      "metallic": 0.0,
+      "kind": "glow"
+    },
+    "Lens": {
+      "rgb": [
+        0.04,
+        0.35,
+        0.48
+      ],
+      "roughness": 0.18,
+      "metallic": 0.55,
+      "kind": "lens"
+    },
+    "Star": {
+      "rgb": [
+        0.85,
+        0.68,
+        0.31
+      ],
+      "roughness": 0.38,
+      "metallic": 0.15,
+      "kind": "glow"
+    }
+  },
+  "bounds_m": [
+    [
+      -46.79853820800781,
+      -45.0,
+      -28.600000381469727
+    ],
+    [
+      47.0,
+      46.0,
+      25.350000381469727
+    ]
+  ],
+  "xy_footprint_m": [
+    93.79853819035532,
+    91.0
+  ],
+  "source_generation_seconds": 7.480427265167236,
+  "cloud_correction": {
+    "z_radius_multiplier": 1.6,
+    "closed_puffs": 36,
+    "density_min": 63.99768043345558,
+    "density_max": 64.00277580548806
+  }
+}

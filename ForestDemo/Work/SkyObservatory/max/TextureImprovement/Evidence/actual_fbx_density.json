@@ -1,0 +1,226 @@
+{
+  "validated_at_utc": "2026-10-23T14:42:22Z",
+  "execution_seconds": 0.6898167133331299,
+  "data_source": "Final actual binary FBX vertex and loop-UV arrays, chart material memberships independently reviewed, final runtime texture dimensions and shader UV scales",
+  "materials": [
+    {
+      "material": "Brass",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 28424,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 4.0,
+      "nominal_target_px_per_m": 256,
+      "measured_area_density_min": 211.2914937549656,
+      "measured_area_density_max": 256.12105449401724,
+      "area_weighted_mean_px_per_m": 243.02298446194655,
+      "directional_density_min": 174.38307204271766,
+      "directional_density_max": 256.2159666761334,
+      "max_anisotropy": 1.4681384769443921,
+      "area_m2": 851.6604831011493,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "BrassLight",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 26692,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 4.0,
+      "nominal_target_px_per_m": 256,
+      "measured_area_density_min": 208.6280631142671,
+      "measured_area_density_max": 256.0456580671124,
+      "area_weighted_mean_px_per_m": 239.27405005146318,
+      "directional_density_min": 170.02001464563037,
+      "directional_density_max": 256.1151877442945,
+      "max_anisotropy": 1.5057300788894543,
+      "area_m2": 194.48528713664467,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "Cloud",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Grass",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Iron",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 16372,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 2.0,
+      "nominal_target_px_per_m": 128,
+      "measured_area_density_min": 107.63471629589172,
+      "measured_area_density_max": 128.04793110072504,
+      "area_weighted_mean_px_per_m": 123.03879847223914,
+      "directional_density_min": 90.50968612884492,
+      "directional_density_max": 128.09604638273532,
+      "max_anisotropy": 1.4142137143192226,
+      "area_m2": 470.9551084833225,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "Lavender",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Leaf",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "LeafLight",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Lens",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 684,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 1.0,
+      "nominal_target_px_per_m": 64,
+      "measured_area_density_min": 50.853857291355276,
+      "measured_area_density_max": 64.00404621746122,
+      "area_weighted_mean_px_per_m": 62.62126580829078,
+      "directional_density_min": 40.40880018687946,
+      "directional_density_max": 64.00933381475677,
+      "max_anisotropy": 1.5837945862393403,
+      "area_m2": 12.47391844311862,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "Limestone",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 128,
+      "world_projection_tile_cm": 800.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Moss",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Path",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 128,
+      "world_projection_tile_cm": 800.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "RockBlue",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "RockPale",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "RoofLight",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 56,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 2.0,
+      "nominal_target_px_per_m": 128,
+      "measured_area_density_min": 107.63455166787287,
+      "measured_area_density_max": 128.0152522804506,
+      "area_weighted_mean_px_per_m": 127.813338706726,
+      "directional_density_min": 90.5089177377496,
+      "directional_density_max": 128.03483412322527,
+      "max_anisotropy": 1.4142320287491172,
+      "area_m2": 2.467425385043585,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "RoofTeal",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 4664,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 2.0,
+      "nominal_target_px_per_m": 128,
+      "measured_area_density_min": 103.81661913608524,
+      "measured_area_density_max": 129.96673377433646,
+      "area_weighted_mean_px_per_m": 126.27268404798092,
+      "directional_density_min": 84.19959069641459,
+      "directional_density_max": 181.0896785947584,
+      "max_anisotropy": 1.9414533242959877,
+      "area_m2": 1382.85233652842,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "Star",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "StoneDark",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 128,
+      "world_projection_tile_cm": 800.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "Timber",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 2404,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 2.0,
+      "nominal_target_px_per_m": 128,
+      "measured_area_density_min": 107.62148354606903,
+      "measured_area_density_max": 128.04384456974884,
+      "area_weighted_mean_px_per_m": 123.52273660715244,
+      "directional_density_min": 90.48733359242519,
+      "directional_density_max": 128.0877022136852,
+      "max_anisotropy": 1.414563236696208,
+      "area_m2": 190.07254200634696,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    },
+    {
+      "material": "Window",
+      "sampling_path": "smooth_world_triplanar",
+      "actual_world_projection_axis_texels_per_m": 64,
+      "world_projection_tile_cm": 1600.0,
+      "density_exception": "Coordinates use three fixed metric world projections blended by normal weights. A single per-face UV area density does not describe this shader; fallback UVs are not sampled."
+    },
+    {
+      "material": "WoodLight",
+      "sampling_path": "connected_surface_uv",
+      "triangles_measured": 2800,
+      "actual_runtime_texture_size": 1024,
+      "actual_uv_scale": 2.0,
+      "nominal_target_px_per_m": 128,
+      "measured_area_density_min": 107.63257588815253,
+      "measured_area_density_max": 128.00386800812646,
+      "area_weighted_mean_px_per_m": 127.34079315175735,
+      "directional_density_min": 90.5079416635485,
+      "directional_density_max": 128.01130632867157,
+      "max_anisotropy": 1.4142882117519018,
+      "area_m2": 481.29074527499154,
+      "exception": "Connected axis-projected bevels and curved surfaces preserve texture continuity; their directional stretch is measured rather than re-normalizing individual triangles."
+    }
+  ]
+}

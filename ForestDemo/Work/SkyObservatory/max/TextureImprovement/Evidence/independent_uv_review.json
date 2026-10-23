@@ -1,0 +1,151 @@
+{
+  "recorded_at_utc": "2026-10-23 14:26:53 UTC",
+  "reviewer": "/root/sky_observatory_final_review",
+  "recorded_by": "/root",
+  "theme": "SkyObservatory",
+  "effort": "max",
+  "phase": "TextureImprovement",
+  "decision": "provisional_source_accepted",
+  "scope": "Independent final exported FBX and mapping/source audit; runtime shaders, runtime image size, rendered quality and publication require separate final acceptance.",
+  "geometry": {
+    "meshes": 17,
+    "triangles": 158816,
+    "closed_components": 2446,
+    "vertices_and_polygon_indices_exactly_equal_first_delivery": true,
+    "all_closed_signed_volumes_positive": true
+  },
+  "charts": {
+    "memberships_complete_and_connected": 15917,
+    "exactly_continuous_shared_edges": 168465,
+    "declared_boundary_edges": 69759,
+    "baseline_discontinuous_shared_edges": 238224,
+    "collapsed_or_nonfinite_uv_triangles": 0,
+    "per_chart_foldovers": 0,
+    "nonadjacent_triangle_pairs_tested_by_strict_2d_sat": 123857,
+    "overlaps_on_uv_driven_materials": 0,
+    "unused_rockblue_fallback_overlap_pairs": 13,
+    "chart_padding_pixels_per_side": 8,
+    "padding_comparison_tolerance_px": 0.01024,
+    "expanded_chart_bounds_disjoint": true
+  },
+  "fallback_overlap_exceptions": {
+    "reason": "RockBlue is sampled using continuous world triplanar coordinates, not these fallback UVs; no rendered UV sampling claim based on fallback density.",
+    "Island_Beacon": {
+      "chart15": [
+        [
+          300,
+          386
+        ],
+        [
+          301,
+          386
+        ],
+        [
+          296,
+          300
+        ],
+        [
+          296,
+          301
+        ],
+        [
+          299,
+          300
+        ],
+        [
+          299,
+          301
+        ]
+      ],
+      "chart37": [
+        [
+          312,
+          317
+        ],
+        [
+          312,
+          314
+        ]
+      ]
+    },
+    "Island_Cottages": {
+      "chart64": [
+        [
+          296,
+          294
+        ]
+      ],
+      "chart77": [
+        [
+          323,
+          318
+        ],
+        [
+          320,
+          318
+        ]
+      ]
+    },
+    "Island_Garden": {
+      "chart65": [
+        [
+          294,
+          292
+        ]
+      ],
+      "chart79": [
+        [
+          318,
+          320
+        ]
+      ]
+    }
+  },
+  "wood": {
+    "longitudinal_faces_checked": 2998,
+    "grain_axis": "V follows recorded component PCA long axis",
+    "max_uv_error": 5.446619e-7
+  },
+  "dome": {
+    "mapping": "Lambert equal-area outer and inner hemisphere charts with separate thickness caps",
+    "nominal_area_density_px_per_m": [
+      63.040323,
+      64.983367
+    ],
+    "nominal_directional_density_px_per_m": [
+      46.633667,
+      90.544839
+    ],
+    "max_anisotropy": 1.941454,
+    "planned_material_uv_scale": 2,
+    "planned_runtime_area_density_at_1024": [
+      126.080646,
+      129.966734
+    ],
+    "crown_thickness_density": [
+      63.647016,
+      64.38932
+    ],
+    "crown_thickness_nondegenerate": true
+  },
+  "implementation_observed": {
+    "world_projection_distinguished_from_uv_sampling": true,
+    "source_image_resolution": [
+      1254,
+      1254
+    ],
+    "planned_native_runtime_resize": [
+      1024,
+      1024
+    ],
+    "recomputes_mikk_tangents": true
+  },
+  "source_hashes_as_reviewed": {
+    "Evidence/uv_rebuild.json": "fe43f0530dd242d93cb6a008a2ecd9d4be8e6c988dc55c07f6b5b3db59e989e3",
+    "Evidence/uv_chart_layout.json": "75841892541d39258c67a8d810bc559fdde47ba7b1b88c8d049cb9015b2971b4",
+    "Source/rebuild_surface_uv.py": "3e7bfcb60cacade43420c30139ff93afca43677219b445a54746793c8ab8b442",
+    "Source/build_texture_pass.py": "2be6567d657afb1ff2c8fe1d73c7cf367de8bdfeec93f1e9fb81c1884b8c877d"
+  },
+  "note": "Parent transcribed reviewer results without editing creative assets. Material source may receive a bounded auxiliary texture correction after this provisional review; final runtime evidence must be checked separately."
+}
+

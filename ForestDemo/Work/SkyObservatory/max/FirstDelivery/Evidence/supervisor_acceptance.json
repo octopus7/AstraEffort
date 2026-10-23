@@ -1,0 +1,95 @@
+﻿{
+    "accepted_at_utc":  "2026-10-23T12:46:18.7650295+00:00",
+    "decision":  "accepted",
+    "blocking_findings":  0,
+    "theme":  "SkyObservatory",
+    "effort":  "max",
+    "author_agent":  "/root/sky_observatory_max_fast",
+    "independent_reviewer":  "/root/sky_observatory_final_review",
+    "supervisor":  "/root",
+    "worker_started_at_utc":  "2026-10-23T12:04:38.840Z",
+    "worker_finished_at_utc":  "2026-10-23T12:36:48.647992+00:00",
+    "worker_elapsed_seconds":  1929.807992,
+    "independent_final_fbx_audit":  {
+                                        "all_closed_components_positive_volume":  true,
+                                        "meshes":  17,
+                                        "triangles":  158816,
+                                        "degenerate_triangles":  0,
+                                        "zero_area_or_nonfinite_uv":  0,
+                                        "closed_components":  2446,
+                                        "intended_open_components":  0,
+                                        "nonmanifold_or_winding_errors":  0
+                                    },
+    "saved_map_dependency_audit":  {
+                                       "world_partition_enabled":  false,
+                                       "used_textures":  21,
+                                       "reachable_own_game_packages":  60,
+                                       "missing_or_foreign_packages":  0,
+                                       "external_or_baked_packages":  0,
+                                       "placed_meshes":  17,
+                                       "dynamic_lighting":  true,
+                                       "used_materials":  21
+                                   },
+    "publication":  {
+                        "all_sha256_match":  true,
+                        "files":  60,
+                        "proof":  "Evidence/parent_publication_check.json",
+                        "exact_private_and_published_inventory":  true,
+                        "bytes":  19761493
+                    },
+    "captures":  {
+                     "lit_game_view":  true,
+                     "files":  [
+                                   {
+                                       "file":  "bridge.png",
+                                       "bytes":  2581699,
+                                       "sha256":  "502DC3E93917A576C4B5A103632045BF65141320BB2954D8F6C55473485A1D23"
+                                   },
+                                   {
+                                       "file":  "observatory.png",
+                                       "bytes":  2172869,
+                                       "sha256":  "10713328E15B2F59AE3511C236B37C48663894BB28021A5EA13B570421D99A73"
+                                   },
+                                   {
+                                       "file":  "overview.png",
+                                       "bytes":  1306492,
+                                       "sha256":  "9A4FF30853E230955A804891322B88D18ED866A82B75BC82C06693E7DDC11811"
+                                   },
+                                   {
+                                       "file":  "top_down.png",
+                                       "bytes":  1416584,
+                                       "sha256":  "BA37539C037D54BA63AD6D24B47DE21AD247C1F4E33549A7C95F1348DEE89D2A"
+                                   }
+                               ],
+                     "timed_motion_claim":  false,
+                     "resolution":  [
+                                        1920,
+                                        1080
+                                    ],
+                     "all_reviewed_by_parent":  true,
+                     "manifest_hashes_and_camera_settings_verified":  true,
+                     "actual_ue_pngs":  4
+                 },
+    "final_clean_ue_exit":  {
+                                "code":  0,
+                                "timing_file":  "Evidence/ue_timing_05.json",
+                                "finished_at_utc":  "2026-10-23T12:31:43.4620669+00:00"
+                            },
+    "parent_process_observation":  {
+                                       "checked_at_utc":  "2026-10-23T12:44:54.8922525+00:00",
+                                       "unreal_editor_process_count":  0
+                                   },
+    "protected_reports_unchanged":  true,
+    "protected_reports_proof":  "Evidence/parent_comparison_preservation_final.json",
+    "model_effort_and_speed_scope":  "gpt-6-astra/max verified in author turn metadata; local fast setting and tool priority support recorded; actual per-request serving tier not exposed",
+    "report_sha256":  "504185BF99866BF312CB1772C638CF1DC3287244F3936B30A42F092FA309C3CB",
+    "status_sha256":  "F227E99D3C4E0C929144DBE3104A75C7320807F9756FE133484463CF0AB5BF49",
+    "validation_sha256":  "E36578E46A0BD5BE2AA78F3AFC4728ECDFEF3B6300F327D10056F0E7DE258347",
+    "capture_manifest_sha256":  "316277BB12D93150A10AE099681215E88559315034F70EA52286554FA5C69310",
+    "known_limitations":  [
+                              "Per-triangle UV texture seams at close distance",
+                              "Static artistic clouds",
+                              "No gameplay, collision, PIE or FPS validation"
+                          ],
+    "git_mutations_performed":  false
+}

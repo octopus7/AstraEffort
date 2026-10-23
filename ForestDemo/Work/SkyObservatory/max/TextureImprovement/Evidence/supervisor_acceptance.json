@@ -1,0 +1,102 @@
+{
+  "theme": "SkyObservatory",
+  "effort": "max",
+  "pass": "TextureImprovement",
+  "decision": "accepted",
+  "blocking_findings": 0,
+  "reviewed_at_utc": "2026-10-23T14:51:12.086242+00:00",
+  "reviewed_at_kst": "2026-10-23T23:51:12.086242+09:00",
+  "supervisor": "/root",
+  "independent_reviewer": "/root/sky_observatory_final_review",
+  "baseline_commit": "a96406a9f71b49328e0d70d576bb9ae0660466f7",
+  "authored_started_at_utc": "2026-10-23T14:00:36.464000+00:00",
+  "authored_finished_at_utc": "2026-10-23T14:46:19.075955+00:00",
+  "authored_elapsed_seconds": 2742.611955,
+  "private_published_captured_files": 60,
+  "parent_viewed_all_final_actual_ue_images": true,
+  "final_images": [
+    {
+      "name": "overview",
+      "sha256": "004e646b192a738721e71471b624d836ffde153d7b4b0c70a6ef5fd0db804e64",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "baseline_camera_match": true
+    },
+    {
+      "name": "top_down",
+      "sha256": "300ee016c5a6419734056e723d4bd7106ed9efb217ebdc4a153ac590ca722f17",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "baseline_camera_match": true
+    },
+    {
+      "name": "observatory",
+      "sha256": "6e28d6540dbc2cd723ac13b6a9fc877986e7cac8ec80fcc727b029ad3cf3c298",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "baseline_camera_match": true
+    },
+    {
+      "name": "bridge",
+      "sha256": "6ac83037d045a27259f9a4d8ccd1b1d02fe68fe2751861f494909fd63d1f2c67",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "baseline_camera_match": true
+    },
+    {
+      "name": "material_dome",
+      "sha256": "4784df1cfbf5202cf917bb17b46a7de63670878473a774d778ca3f761a309131",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "baseline_camera_match": null
+    },
+    {
+      "name": "material_bridge",
+      "sha256": "55b7e055651d91e17136e9cdeebe9ce405eeb7779a96194a6273c976450040ea",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "baseline_camera_match": null
+    }
+  ],
+  "parent_final_verification": "parent_final_verification.json",
+  "independent_review": "independent_final_review.json",
+  "independent_review_sha256": "e3c048c62478659ad15a928a6ffbb3f4199cf339ca4b83033335aedde654c8ba",
+  "baseline_assets_and_original_evidence_preserved": true,
+  "existing_comparison_reports_unchanged": [
+    {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\SUPERVISION.md",
+      "sha256": "a6a9065fcf39944484b911ab4ddb561226df8c5bb6db1d6eed899a1bc4b9199a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\token_usage.json",
+      "sha256": "250193ca9c464b5f8dd58cf74d3304df5fac5c8e002963b3c42ac0bb758047ec",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\github\\AstraEffort\\ForestDemo\\Work\\ULTRA_IMPROVEMENT.md",
+      "sha256": "b40ed9ccf652411bfe900bbf9f4b560d03ae1458bdbd7e7179258d7a62b512cd",
+      "unchanged": true
+    }
+  ],
+  "known_limitations": [
+    "Two UE sessions returned access-violation exit code after Log file closed; cause unresolved. Final capture session exited0 and fresh saved-asset validation completed with unchanged hashes.",
+    "13 unused RockBlue fallback UV overlap pairs; actual material samples continuous world projection.",
+    "Static artistic clouds/environment; no gameplay/PIE/FPS claims."
+  ],
+  "shutdown_caveat": "Documented post-shutdown native failures remain unresolved. Actual rendered capture evidence and exact saved-asset validation are distinguished; no claim that every execution exited cleanly.",
+  "parent_document_amendment": "parent_amendment.json",
+  "git_owner": "parent coordinator; separate theme commit follows this review"
+}

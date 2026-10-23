@@ -1,0 +1,91 @@
+{
+  "reviewer": "/root/sky_observatory_final_review",
+  "recorded_by": "parent from final independent reviewer message",
+  "decision": "accepted",
+  "blocking_findings": [],
+  "author_frozen_at_utc": "2026-10-23T14:46:19.075955+00:00",
+  "published": {
+    "files": 60,
+    "bytes": 48457254,
+    "private_published_fresh_validator_hashes_exact": true,
+    "changed": 52,
+    "unchanged": 8
+  },
+  "runtime": {
+    "graph_packages": 60,
+    "game_dependency_edges": 149,
+    "meshes": 17,
+    "materials": 21,
+    "textures": 21,
+    "forbidden_or_missing_references": 0,
+    "world_partition": false,
+    "external_or_builtdata_packages": 0,
+    "movable_lights": 9,
+    "actor_scale": [
+      1,
+      1,
+      1
+    ],
+    "compiled_material_resources": 21,
+    "pixel_instruction_range": [
+      151,
+      170
+    ],
+    "samplers_each": 2,
+    "texture_resolution": [
+      1024,
+      1024
+    ],
+    "mip_levels": 11
+  },
+  "source_provenance": {
+    "unaltered_raw_images": 5,
+    "raw_resolution": [
+      1254,
+      1254
+    ],
+    "mapped_source_files": 13,
+    "all_hashes_verified": true,
+    "accepted_fbx_uv_proofs_unchanged": true
+  },
+  "captures": {
+    "count": 6,
+    "all_hashes_verified": true,
+    "baseline_cameras_exact": 4,
+    "lighting_exposure_camera_records_equal": 14,
+    "asset_mtimes_precede_final_captures": true,
+    "phase04_phase05_save_events": 0
+  },
+  "preservation": {
+    "archived_work_files": 102,
+    "archived_content_files": 60,
+    "original_active_files": 100,
+    "all_hashes_unchanged": true
+  },
+  "report_links_checked": 54,
+  "timing": {
+    "start_utc": "2026-10-23T14:00:36.464Z",
+    "finish_utc": "2026-10-23T14:46:19.075955Z",
+    "wall_seconds": 2742.611955,
+    "ue_wait_seconds": 1.1844821,
+    "ue_execution_seconds": 377.2898486,
+    "imagegen_wall_seconds": 134.055,
+    "imagegen_sum_seconds": 303.577,
+    "measured_source_script_seconds": 32.3086898
+  },
+  "attempt_record": "Phase01 CustomInput Python failure; phase02 post-log-close native exit -1073741819; phase03 final save/capture exit0 with transient missing-N warnings before final saves; phase04 erroneous estimated sample-count assertion; phase05 final compiled-resource/hash proof passed with zero material warnings but post-log-close native exit -1073741819. No new own crash dump. Cause unresolved; no claim fixed.",
+  "advisories": [
+    "13 overlap pairs only in RockBlue fallback UV unused by world-projected material",
+    "Post-shutdown nonzero exit cause unresolved",
+    "Static world projection; no PIE/gameplay/FPS validation claimed"
+  ],
+  "reviewed_hashes": {
+    "RESULT.md": "31c3549a374fd8b8c98ff665d4ca1e5871a322408539c3159ebdfd9461a97aac",
+    "STATUS.json": "3362a221f9f640f09b8657ba9e73061c6185579766bcd15fdc0c7a44a7cb6dfb",
+    "TextureImprovement/STATUS.json": "2f5a898fffa74bcee2f9b3cba16162fe7cd27fc004fea7aa341e89d8fff4ae54",
+    "TextureImprovement/Evidence/publication_manifest.json": "1519f3640dda704e3be0da4fa1f5557a487a70163ccc703e32da48c018c466c7",
+    "TextureImprovement/Evidence/timing_summary.json": "7c81bf6152bef2bf6c2f377eaea455c261ffcac9758695a9eb828e4a852a9944",
+    "TextureImprovement/Evidence/saved_material_validation.json": "60e93f0f7f75cc0fd091bdb247509f285cbb78fe254a888a16a5828d763dedb8",
+    "TextureImprovement/Screenshots/capture_manifest.json": "1cac5d0f1ecee9a5997e950ff53acb6258187b1f43392bf4e5d8edb8a4f49d48"
+  }
+}
