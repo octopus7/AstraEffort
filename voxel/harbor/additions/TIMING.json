@@ -1,0 +1,40 @@
+{
+    "opening_check_seconds":  0.17385889997240156,
+    "build_invocations":  1,
+    "image_generation_seconds":  0,
+    "measurement":  "Each full process is measured from immediately before Blender invocation through process exit with a .NET Stopwatch; process startup and script geometry execution included.",
+    "export_verifier_seconds":  2.70208369998727,
+    "visual_revision_invocations":  0,
+    "finished_at_utc":  "2026-10-23T15:57:55.918Z",
+    "build_pipeline_seconds":  19.333457899978384,
+    "export_validation_invocations":  1,
+    "native_opening_validation_invocations":  1,
+    "full_blender_processes":  [
+                                   {
+                                       "process":  "build",
+                                       "started_at_utc":  "2026-10-23T15:54:12.5116639+00:00",
+                                       "finished_at_utc":  "2026-10-23T15:54:32.4978250+00:00",
+                                       "elapsed_seconds":  19.9848909,
+                                       "exit_code":  0,
+                                       "threads":  4
+                                   },
+                                   {
+                                       "process":  "validation_export",
+                                       "started_at_utc":  "2026-10-23T15:55:52.2562238+00:00",
+                                       "finished_at_utc":  "2026-10-23T15:55:55.4205999+00:00",
+                                       "elapsed_seconds":  3.1639188999999996,
+                                       "exit_code":  0,
+                                       "threads":  4
+                                   },
+                                   {
+                                       "process":  "validation_opening",
+                                       "started_at_utc":  "2026-10-23T15:55:55.4495990+00:00",
+                                       "finished_at_utc":  "2026-10-23T15:55:56.0475835+00:00",
+                                       "elapsed_seconds":  0.5990367,
+                                       "exit_code":  0,
+                                       "threads":  4
+                                   }
+                               ],
+    "started_at_utc":  "2026-10-23T15:44:38Z",
+    "worker_wall_seconds":  797.918
+}

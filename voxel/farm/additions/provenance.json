@@ -1,0 +1,24 @@
+{
+    "external_references":  [
+
+                            ],
+    "geometry_source":  "build.py",
+    "style_palette":  "voxel/farm/palette.json, read only for approved style continuity",
+    "half_method":  "Exact 2x axis reduction via nonempty 2x2x2 majority and doubled meters per voxel; no manual half-grid edits",
+    "shared_generic_tools":  [
+                                 "voxel/_tools/voxelkit.py",
+                                 "voxel/_tools/blender_pipeline.py",
+                                 "voxel/_tools/verify_theme.py"
+                             ],
+    "creative_geometry":  "Original occupied-cell geometry; no accepted original model asset or source copied",
+    "scope":  "additions",
+    "theme":  "farm",
+    "asset":  "combine_harvester",
+    "source_sha256":  "8b9648487fff561f6e946dfc9d163e1a2b93af52ccee51d24de741c6789d6191",
+    "worker_image_generation_seconds":  0,
+    "reference":  {
+                      "path":  "REF/voxel/farm/additions/reference.png",
+                      "sha256":  "001169091b0945e9e0b6401334992d48aa7a1133b76f2b26d94598b9414d20f0",
+                      "role":  "Design input only; not a model texture or render evidence"
+                  }
+}

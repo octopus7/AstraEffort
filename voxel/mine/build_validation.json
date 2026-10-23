@@ -1,0 +1,1606 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T14:40:02.680822+00:00",
+  "finished_at_utc": "2026-10-23T14:41:25.818257+00:00",
+  "elapsed_seconds": 83.13799459999427,
+  "assets": [
+    {
+      "asset": "excavator",
+      "large": {
+        "asset": "excavator",
+        "label": "Compact tracked mine excavator",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "two separate track belts",
+            "framed cab",
+            "articulated boom",
+            "two hydraulic actuators",
+            "true hollow bucket"
+          ],
+          "half": "Independent conservative 2x occupancy reduction; minor pins/cleats simplify; no manual half-grid correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          104,
+          128,
+          112
+        ],
+        "occupied_voxels": 271568,
+        "voxel_size_m": 0.035,
+        "grid_extents_m": [
+          3.6400000000000006,
+          4.48,
+          3.9200000000000004
+        ],
+        "occupied_bounds_voxels": [
+          [
+            9,
+            0,
+            1
+          ],
+          [
+            102,
+            125,
+            105
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.5050000000000001,
+            -2.24,
+            0.035
+          ],
+          [
+            1.7500000000000002,
+            2.1350000000000002,
+            3.6750000000000003
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17
+        ],
+        "occupancy_sha256": "19ea71443ac18d13bf9dcf48be4ffa947800bdbf339e560251814a5fffb22d85",
+        "surface": {
+          "quads": 5798,
+          "triangles": 11596,
+          "exposed_unit_faces": 83260,
+          "surface_area_m2": 101.99350000000003,
+          "materials": 14
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "excavator.vox": "9caaa6ce4a8667e1c905b419f92c0781fd34d5415456ea6db09dc38f1e015213",
+          "excavator.blend": "a6d560126028601546635e89d52c6d8ffe82f4b86df8d0d917b6d42677c00dc7",
+          "excavator.glb": "319fca80532bc0349b9e961272d5984760158b6a72fcaca60fe9d5b3b22876c9",
+          "excavator.fbx": "e507593a80ef9192f2a447e0f94ab772423920f46389e0a3fd20abcdae2c7412",
+          "preview.png": "1eb32a455cd45fc429db5fe59b6ec4acb8bb00c941321540ffa90e879bd84981"
+        }
+      },
+      "half": {
+        "asset": "excavator",
+        "label": "Compact tracked mine excavator",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "two separate track belts",
+            "framed cab",
+            "articulated boom",
+            "two hydraulic actuators",
+            "true hollow bucket"
+          ],
+          "half": "Independent conservative 2x occupancy reduction; minor pins/cleats simplify; no manual half-grid correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          52,
+          64,
+          56
+        ],
+        "occupied_voxels": 38502,
+        "voxel_size_m": 0.07,
+        "grid_extents_m": [
+          3.6400000000000006,
+          4.48,
+          3.9200000000000004
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            51,
+            63,
+            53
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.54,
+            -2.24,
+            0.0
+          ],
+          [
+            1.7500000000000002,
+            2.1700000000000004,
+            3.7100000000000004
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17
+        ],
+        "occupancy_sha256": "3a27a248375d01d94ba600743bad9a169e923ee0aaac4a2f2b9d6e94c9015d76",
+        "surface": {
+          "quads": 2346,
+          "triangles": 4692,
+          "exposed_unit_faces": 20142,
+          "surface_area_m2": 98.69580000000002,
+          "materials": 14
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "excavator.vox": "a5276eeda3fc4b3873d2e9385521b0326cf39d6a35eb58f739acae2fe8e403f5",
+          "excavator.blend": "35927bb2442a1f166952f32bb60ea191b6729aaa4cff8a1ea4a2bd8c10a7131d",
+          "excavator.glb": "6087b47a039609f764c39ffed5c51375fe22d0fdf0a9e6ee312758ebaf1357e4",
+          "excavator.fbx": "51663f58f2adc10de1547e843714a2fc5202f2fdd227c67d7cf2c619177f0527",
+          "preview.png": "af58ec4c1f5726750628b8c0b64de3b149dd0cc639cbdb4f7a333a6e67cbe191"
+        }
+      }
+    },
+    {
+      "asset": "mine_cart",
+      "large": {
+        "asset": "mine_cart",
+        "label": "Tapered mine ore cart",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "open thick-walled bed",
+            "deep empty interior",
+            "four flanged wheels",
+            "end couplers",
+            "hand brake"
+          ],
+          "half": "Independent conservative 2x grid reduction preserves rim, cavity and wheel flanges."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          80,
+          96
+        ],
+        "occupied_voxels": 182526,
+        "voxel_size_m": 0.035,
+        "grid_extents_m": [
+          4.48,
+          2.8000000000000003,
+          3.3600000000000003
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            127,
+            77,
+            88
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.205,
+            -1.2950000000000002,
+            0.035
+          ],
+          [
+            2.205,
+            1.2950000000000002,
+            3.08
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "occupancy_sha256": "6bbe6a08be0271adc1022776816a7af49d37a9ff0485cf93e105fa77cb0aa75f",
+        "surface": {
+          "quads": 5213,
+          "triangles": 10426,
+          "exposed_unit_faces": 69430,
+          "surface_area_m2": 85.05175000000001,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "mine_cart.vox": "c846639e0e094c7a6c833cc0b9e23314b386989efd5c3fbe9900927da1d61d25",
+          "mine_cart.blend": "bf321bbcbaf2ad26184e8ce1a36c2750ecc931308a04a8f38efc89a6ec0eb8e8",
+          "mine_cart.glb": "3f46f88099ba5c0e83d2789168a78c04c34e0107d7546908222776d12d97896f",
+          "mine_cart.fbx": "f5d786652bb884f56b0ce4a21d4cc1bf069fddd8f914d0a29887bcee85624723",
+          "preview.png": "f464f03cd0f7ec370abc6658e5402904321d85cbf5c64e9c12b2011ba03d5d84"
+        }
+      },
+      "half": {
+        "asset": "mine_cart",
+        "label": "Tapered mine ore cart",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "open thick-walled bed",
+            "deep empty interior",
+            "four flanged wheels",
+            "end couplers",
+            "hand brake"
+          ],
+          "half": "Independent conservative 2x grid reduction preserves rim, cavity and wheel flanges."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          40,
+          48
+        ],
+        "occupied_voxels": 27430,
+        "voxel_size_m": 0.07,
+        "grid_extents_m": [
+          4.48,
+          2.8000000000000003,
+          3.3600000000000003
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            64,
+            39,
+            44
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.24,
+            -1.33,
+            0.0
+          ],
+          [
+            2.24,
+            1.33,
+            3.08
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "occupancy_sha256": "3fa55417db3717c0dc4f07fedbe1aeffa03589ad4eb53467c08a332933b7a0ed",
+        "surface": {
+          "quads": 1829,
+          "triangles": 3658,
+          "exposed_unit_faces": 17384,
+          "surface_area_m2": 85.18160000000002,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "mine_cart.vox": "1106c0c75e9b1747b4f483dd08efc5a740dbbc3c72126e889576518cd1718303",
+          "mine_cart.blend": "9e8329729140ee03e59c9660fb7ebc20aad192a7c4641b8ebc2f0bee214c8a91",
+          "mine_cart.glb": "81796b7b5c2b6819363f7a4248ba2f708cd875213dcbcaf00ec523b4cfacee30",
+          "mine_cart.fbx": "87504def1bc99d50d77c05af78ef82b96b4e92e9db348eb152062a09ac8ea149",
+          "preview.png": "d6dc0addd9a95a115b8213afd1e1960b0900d735b5929a1f24f8c603f66d4db2"
+        }
+      }
+    },
+    {
+      "asset": "mine_elevator",
+      "large": {
+        "asset": "mine_elevator",
+        "label": "Cable mine service elevator",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "four structural posts",
+            "open spoked sheave",
+            "continuous cage and winch cables",
+            "clear cage portal",
+            "nine stairs",
+            "exposed winch"
+          ],
+          "half": "Conservative 2x reduction; twin close cable strands may merge locally, but the continuous route remains occupied. Static cage and drum."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          116,
+          92,
+          128
+        ],
+        "occupied_voxels": 159073,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          5.22,
+          4.14,
+          5.76
+        ],
+        "occupied_bounds_voxels": [
+          [
+            8,
+            6,
+            1
+          ],
+          [
+            114,
+            85,
+            127
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.25,
+            -1.7999999999999998,
+            0.045
+          ],
+          [
+            2.52,
+            1.755,
+            5.715
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13
+        ],
+        "occupancy_sha256": "6f2ea2a5285d95f9793fa368b663da1e48e50d2aef57ab752c5b12b295a1f4f7",
+        "surface": {
+          "quads": 10046,
+          "triangles": 20092,
+          "exposed_unit_faces": 68418,
+          "surface_area_m2": 138.54645,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "mine_elevator.vox": "b8e788b42aae592f9784868508713c83963c4fb30fa51ba4bbc0a52601d741f5",
+          "mine_elevator.blend": "d15ce684b6f11968cfd61590b47f681e24e335a5cdc3e55839de6f7d71d1a41c",
+          "mine_elevator.glb": "ac7444e548e8f220fd017bf2f1e069523a6d22631172b77e32b6f593e4f62532",
+          "mine_elevator.fbx": "cb6d7a9c20f4faa90451b9d7c2933c4c19d7ab2caba2da103577c84c7831ff67",
+          "preview.png": "ea2258773407321078c336aa1a87278d9725afbdd0060e53ad37fa7888794aa7"
+        }
+      },
+      "half": {
+        "asset": "mine_elevator",
+        "label": "Cable mine service elevator",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "four structural posts",
+            "open spoked sheave",
+            "continuous cage and winch cables",
+            "clear cage portal",
+            "nine stairs",
+            "exposed winch"
+          ],
+          "half": "Conservative 2x reduction; twin close cable strands may merge locally, but the continuous route remains occupied. Static cage and drum."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          58,
+          46,
+          64
+        ],
+        "occupied_voxels": 24698,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          5.22,
+          4.14,
+          5.76
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            57,
+            43,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.25,
+            -1.7999999999999998,
+            0.0
+          ],
+          [
+            2.52,
+            1.7999999999999998,
+            5.76
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13
+        ],
+        "occupancy_sha256": "dbfa732f6b4ae21e08faa6e2af0bf69c35a283566847045b77399a185419e49d",
+        "surface": {
+          "quads": 3227,
+          "triangles": 6454,
+          "exposed_unit_faces": 18262,
+          "surface_area_m2": 147.92219999999998,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "mine_elevator.vox": "b986e844d46f3374845d3917850d12e8ffdc16d87484231133543c8fcfe430e2",
+          "mine_elevator.blend": "6a7275e07ecda335244ea053709bcebbab44d3be8feca3dcbbfa970523de6a8b",
+          "mine_elevator.glb": "bca2c2be04bc26e3c4b886eef66190d740ed771f86544c51237690c459cb9bdd",
+          "mine_elevator.fbx": "620e6493734fe0813d8fe54c7844e4decb5b48c52afd964824c2514c45fc98fa",
+          "preview.png": "a7d784b65b0e2e601444986d86e4bab12a8771c4860119e0098356caf116b322"
+        }
+      }
+    },
+    {
+      "asset": "ore_sorter",
+      "large": {
+        "asset": "ore_sorter",
+        "label": "Hopper and inclined mine ore sorter",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "open tapered hopper",
+            "perforated inclined screening bed",
+            "short loop discharge belt",
+            "three open ore bins",
+            "service platform"
+          ],
+          "half": "Conservative 2x reduction; screen apertures remain patterned openings, while tiny screen cells and ore clumps simplify. Static material-handling depiction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          100,
+          112
+        ],
+        "occupied_voxels": 118434,
+        "voxel_size_m": 0.04,
+        "grid_extents_m": [
+          5.12,
+          4.0,
+          4.48
+        ],
+        "occupied_bounds_voxels": [
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            127,
+            97,
+            111
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.32,
+            -1.96,
+            0.04
+          ],
+          [
+            2.52,
+            1.8800000000000001,
+            4.44
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16
+        ],
+        "occupancy_sha256": "26b9483240a0f97b251b8afd27ed2201303a9273175cb4d1aa9587bf37278f4a",
+        "surface": {
+          "quads": 9251,
+          "triangles": 18502,
+          "exposed_unit_faces": 76658,
+          "surface_area_m2": 122.65280000000001,
+          "materials": 12
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "ore_sorter.vox": "29ec267950ee7ba6c5b6f43eda2b5b9a442282b7a533fe8746e54974f7788436",
+          "ore_sorter.blend": "916e6469167dad56201087cf4c1b2771d86faad5c7ba30efae9d74d08d58f69c",
+          "ore_sorter.glb": "07dfcd28949b7d9e79542d2c54a01f7324cf1197f2c8708037fc65b6512d8a75",
+          "ore_sorter.fbx": "368cdde7d7e51521c7f8e8f639f758bb2a9b97d3dd7f963f8f229edd28b59d3e",
+          "preview.png": "a426087757388d8a5130b3e2f5a5be7bb525ae0fd28c46a53eba0e523aa2f235"
+        }
+      },
+      "half": {
+        "asset": "ore_sorter",
+        "label": "Hopper and inclined mine ore sorter",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            106,
+            115,
+            75,
+            255
+          ],
+          [
+            138,
+            146,
+            102,
+            255
+          ],
+          [
+            62,
+            74,
+            49,
+            255
+          ],
+          [
+            209,
+            201,
+            172,
+            255
+          ],
+          [
+            235,
+            225,
+            196,
+            255
+          ],
+          [
+            73,
+            82,
+            80,
+            255
+          ],
+          [
+            116,
+            126,
+            122,
+            255
+          ],
+          [
+            33,
+            40,
+            38,
+            255
+          ],
+          [
+            55,
+            65,
+            60,
+            255
+          ],
+          [
+            194,
+            100,
+            43,
+            255
+          ],
+          [
+            230,
+            137,
+            63,
+            255
+          ],
+          [
+            168,
+            177,
+            170,
+            255
+          ],
+          [
+            65,
+            98,
+            102,
+            255
+          ],
+          [
+            20,
+            28,
+            27,
+            255
+          ],
+          [
+            142,
+            108,
+            66,
+            255
+          ],
+          [
+            135,
+            145,
+            137,
+            255
+          ],
+          [
+            236,
+            177,
+            61,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "open tapered hopper",
+            "perforated inclined screening bed",
+            "short loop discharge belt",
+            "three open ore bins",
+            "service platform"
+          ],
+          "half": "Conservative 2x reduction; screen apertures remain patterned openings, while tiny screen cells and ore clumps simplify. Static material-handling depiction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          50,
+          56
+        ],
+        "occupied_voxels": 20622,
+        "voxel_size_m": 0.08,
+        "grid_extents_m": [
+          5.12,
+          4.0,
+          4.48
+        ],
+        "occupied_bounds_voxels": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            64,
+            49,
+            56
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.32,
+            -2.0,
+            0.0
+          ],
+          [
+            2.56,
+            1.92,
+            4.48
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16
+        ],
+        "occupancy_sha256": "b10240a0a9335d8b785a199bbc88abd03f8f7be1eceac3a522bffc18eb99136a",
+        "surface": {
+          "quads": 3082,
+          "triangles": 6164,
+          "exposed_unit_faces": 20070,
+          "surface_area_m2": 128.448,
+          "materials": 12
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "ore_sorter.vox": "eb7366f0ded78569c3a277ac5489b0f085461080d30eb7dfe7a54b66e719e95a",
+          "ore_sorter.blend": "a8c5ac9e69758455926d8d9a3664f28c249c77e702f0ea52e9ebb7b362f9f649",
+          "ore_sorter.glb": "77723c4a590deef7f8e6e16ed8c7d415f03d3cd4e4d865bc29c3624bd9c3d825",
+          "ore_sorter.fbx": "5d4165cf3166bef4dc4be2d1530c5312d69c58b9afbb6bc5267a57332930cda8",
+          "preview.png": "da862ba59a024668d9cf74f72b9636a99ecbfc8f345c6d060d93bece0db2e0e8"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}

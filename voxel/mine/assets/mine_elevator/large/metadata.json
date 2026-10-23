@@ -1,0 +1,197 @@
+{
+  "asset": "mine_elevator",
+  "label": "Cable mine service elevator",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      106,
+      115,
+      75,
+      255
+    ],
+    [
+      138,
+      146,
+      102,
+      255
+    ],
+    [
+      62,
+      74,
+      49,
+      255
+    ],
+    [
+      209,
+      201,
+      172,
+      255
+    ],
+    [
+      235,
+      225,
+      196,
+      255
+    ],
+    [
+      73,
+      82,
+      80,
+      255
+    ],
+    [
+      116,
+      126,
+      122,
+      255
+    ],
+    [
+      33,
+      40,
+      38,
+      255
+    ],
+    [
+      55,
+      65,
+      60,
+      255
+    ],
+    [
+      194,
+      100,
+      43,
+      255
+    ],
+    [
+      230,
+      137,
+      63,
+      255
+    ],
+    [
+      168,
+      177,
+      170,
+      255
+    ],
+    [
+      65,
+      98,
+      102,
+      255
+    ],
+    [
+      20,
+      28,
+      27,
+      255
+    ],
+    [
+      142,
+      108,
+      66,
+      255
+    ],
+    [
+      135,
+      145,
+      137,
+      255
+    ],
+    [
+      236,
+      177,
+      61,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "four structural posts",
+      "open spoked sheave",
+      "continuous cage and winch cables",
+      "clear cage portal",
+      "nine stairs",
+      "exposed winch"
+    ],
+    "half": "Conservative 2x reduction; twin close cable strands may merge locally, but the continuous route remains occupied. Static cage and drum."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    116,
+    92,
+    128
+  ],
+  "occupied_voxels": 159073,
+  "voxel_size_m": 0.045,
+  "grid_extents_m": [
+    5.22,
+    4.14,
+    5.76
+  ],
+  "occupied_bounds_voxels": [
+    [
+      8,
+      6,
+      1
+    ],
+    [
+      114,
+      85,
+      127
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.25,
+      -1.7999999999999998,
+      0.045
+    ],
+    [
+      2.52,
+      1.755,
+      5.715
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    13
+  ],
+  "occupancy_sha256": "6f2ea2a5285d95f9793fa368b663da1e48e50d2aef57ab752c5b12b295a1f4f7",
+  "surface": {
+    "quads": 10046,
+    "triangles": 20092,
+    "exposed_unit_faces": 68418,
+    "surface_area_m2": 138.54645,
+    "materials": 10
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "mine_elevator.vox": "b8e788b42aae592f9784868508713c83963c4fb30fa51ba4bbc0a52601d741f5",
+    "mine_elevator.blend": "d15ce684b6f11968cfd61590b47f681e24e335a5cdc3e55839de6f7d71d1a41c",
+    "mine_elevator.glb": "ac7444e548e8f220fd017bf2f1e069523a6d22631172b77e32b6f593e4f62532",
+    "mine_elevator.fbx": "cb6d7a9c20f4faa90451b9d7c2933c4c19d7ab2caba2da103577c84c7831ff67",
+    "preview.png": "ea2258773407321078c336aa1a87278d9725afbdd0060e53ad37fa7888794aa7"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "passed": false,
+  "source": "Reparsed delivered native VOX",
+  "records": [
+    {
+      "variant": "large",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "All grid dimensions are even",
+          "passed": true,
+          "grids": {
+            "exploration_rover": [
+              100,
+              128,
+              94
+            ],
+            "water_tower": [
+              100,
+              100,
+              128
+            ],
+            "solar_array": [
+              128,
+              88,
+              98
+            ],
+            "repair_garage": [
+              128,
+              120,
+              112
+            ]
+          }
+        },
+        {
+          "feature": "Six outboard wheel hubs",
+          "passed": true,
+          "colors": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "feature": "Four separate support legs",
+          "passed": true,
+          "colors": [
+            8,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "feature": "Three solar sections retain consistent bus lines",
+          "passed": true,
+          "alloy_voxels_per_section": [
+            1602,
+            1602,
+            1602
+          ]
+        },
+        {
+          "feature": "Garage front opens into a clear central bay",
+          "passed": true,
+          "sample_colors": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "half",
+      "passed": false,
+      "checks": [
+        {
+          "feature": "All grid dimensions are even",
+          "passed": false,
+          "grids": {
+            "exploration_rover": [
+              50,
+              64,
+              47
+            ],
+            "water_tower": [
+              50,
+              50,
+              64
+            ],
+            "solar_array": [
+              64,
+              44,
+              49
+            ],
+            "repair_garage": [
+              64,
+              60,
+              56
+            ]
+          }
+        },
+        {
+          "feature": "Six outboard wheel hubs",
+          "passed": true,
+          "colors": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "feature": "Four separate support legs",
+          "passed": true,
+          "colors": [
+            8,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "feature": "Three solar sections retain consistent bus lines",
+          "passed": true,
+          "alloy_voxels_per_section": [
+            243,
+            243,
+            243
+          ]
+        },
+        {
+          "feature": "Garage front opens into a clear central bay",
+          "passed": true,
+          "sample_colors": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

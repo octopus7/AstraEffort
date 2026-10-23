@@ -1,0 +1,179 @@
+{
+  "asset": "solar_array",
+  "label": "Three-section desert solar array",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      210,
+      182,
+      136,
+      255
+    ],
+    [
+      239,
+      217,
+      178,
+      255
+    ],
+    [
+      156,
+      132,
+      101,
+      255
+    ],
+    [
+      205,
+      99,
+      36,
+      255
+    ],
+    [
+      149,
+      66,
+      30,
+      255
+    ],
+    [
+      64,
+      114,
+      116,
+      255
+    ],
+    [
+      37,
+      77,
+      82,
+      255
+    ],
+    [
+      53,
+      56,
+      56,
+      255
+    ],
+    [
+      35,
+      39,
+      41,
+      255
+    ],
+    [
+      88,
+      92,
+      89,
+      255
+    ],
+    [
+      148,
+      155,
+      146,
+      255
+    ],
+    [
+      43,
+      72,
+      84,
+      255
+    ],
+    [
+      100,
+      139,
+      146,
+      255
+    ],
+    [
+      39,
+      88,
+      109,
+      255
+    ],
+    [
+      255,
+      225,
+      150,
+      255
+    ]
+  ],
+  "notes": {
+    "features": "Three physically separate tilted modules with 4x6 cell groups, clamp corners, torsion tube, three braced stands, battery cabinet and control door.",
+    "reduction": "Panel thickness 6.4 voxels; broad silver bus lines and >=3.6-voxel cables survive reduction. No manual half corrections.",
+    "front": "-Y"
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    64,
+    44,
+    50
+  ],
+  "occupied_voxels": 16279,
+  "voxel_size_m": 0.09,
+  "grid_extents_m": [
+    5.76,
+    3.96,
+    4.5
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      10,
+      0
+    ],
+    [
+      63,
+      33,
+      46
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.6999999999999997,
+      -1.08,
+      0.0
+    ],
+    [
+      2.79,
+      0.99,
+      4.14
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    13,
+    14
+  ],
+  "occupancy_sha256": "90c4c691237a2d816cd329633d13f09b44d567f433120f0eea3188e8d754dada",
+  "surface": {
+    "quads": 2066,
+    "triangles": 4132,
+    "exposed_unit_faces": 11764,
+    "surface_area_m2": 95.2884,
+    "materials": 10
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "solar_array.vox": "a584f0b09a4b5c201be9442870fe5d4d7e881bd26535a8e2e4120564af2ee51e",
+    "solar_array.blend": "e7b403498e194b5feece7c8387344ad2ef3bca936f1a6d33c5a233f5ebc68c59",
+    "solar_array.glb": "20edb2f7e2c8205c89aba59b03bec1bd0835135bb48c1c8bb9edb1c0e51b292a",
+    "solar_array.fbx": "dedb8720bedcdc1063de86cad73fe11c61bd8310cf5da5c5b66c373f77c48d5c",
+    "preview.png": "8903d6799db366107c76d51e664015f76155941cd201807e331ad14a2ba7c68a"
+  }
+}

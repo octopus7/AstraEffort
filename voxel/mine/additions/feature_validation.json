@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks_per_variant": 5,
+  "records": [
+    {
+      "variant": "large",
+      "passed": true,
+      "empty_bed_probe_voxels": 59800,
+      "checks": {
+        "deep_empty_dump_bed": true,
+        "six_wheel_centers": true,
+        "bed_floor_and_rim": true,
+        "offset_cab_window": true,
+        "hinge_and_hoist": true
+      }
+    },
+    {
+      "variant": "half",
+      "passed": true,
+      "empty_bed_probe_voxels": 6336,
+      "checks": {
+        "deep_empty_dump_bed": true,
+        "six_wheel_centers": true,
+        "bed_floor_and_rim": true,
+        "offset_cab_window": true,
+        "hinge_and_hoist": true
+      }
+    }
+  ]
+}

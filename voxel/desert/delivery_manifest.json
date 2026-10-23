@@ -1,0 +1,305 @@
+{
+  "theme": "desert",
+  "status": "ready_for_review",
+  "timing": {
+    "started_at_utc": "2026-10-23T14:21:34Z",
+    "started_at_kst": "2026-10-23T23:21:34+09:00",
+    "finished_at_utc": "2026-10-23T14:42:19Z",
+    "finished_at_kst": "2026-10-23T23:42:19+09:00",
+    "elapsed_seconds": 1245.602893,
+    "build_export_render_internal_seconds": 163.14114290010184,
+    "dimension_wording_clarification_build_seconds": 41.04942240007222,
+    "final_validation_internal_seconds": 19.26461820001714,
+    "all_validation_internal_seconds": 36.536040899925865,
+    "worker_image_generation_seconds": 0,
+    "tool_wait_seconds": 0,
+    "build_runs": [
+      {
+        "file": "build_validation_initial.json",
+        "started_at_utc": "2026-10-23T14:28:50.078094+00:00",
+        "finished_at_utc": "2026-10-23T14:30:11.854057+00:00",
+        "elapsed_seconds": 81.77665000001434
+      },
+      {
+        "file": "build_validation_solar.json",
+        "started_at_utc": "2026-10-23T14:34:32.281127+00:00",
+        "finished_at_utc": "2026-10-23T14:34:51.934182+00:00",
+        "elapsed_seconds": 19.65294930001255
+      },
+      {
+        "file": "build_validation_garage.json",
+        "started_at_utc": "2026-10-23T14:35:42.313668+00:00",
+        "finished_at_utc": "2026-10-23T14:36:02.975018+00:00",
+        "elapsed_seconds": 20.66212120000273
+      },
+      {
+        "file": "build_validation_rover_padding.json",
+        "started_at_utc": "2026-10-23T14:37:54.740367+00:00",
+        "finished_at_utc": "2026-10-23T14:38:15.111912+00:00",
+        "elapsed_seconds": 20.371381300035864
+      },
+      {
+        "file": "build_validation_solar_padding.json",
+        "started_at_utc": "2026-10-23T14:38:55.216657+00:00",
+        "finished_at_utc": "2026-10-23T14:39:15.894317+00:00",
+        "elapsed_seconds": 20.678041100036353
+      }
+    ]
+  },
+  "asset_count": 4,
+  "variant_count": 8,
+  "all_final_previews_visually_inspected": true,
+  "paired_camera_settings_identical": true,
+  "final_hash_audit_passed": true,
+  "source_sha256": "0127d9a4ced476d785bf3c742dda16662680bfaf8077563dec4ea94af6bfbf6a",
+  "variants": [
+    {
+      "asset": "exploration_rover",
+      "variant": "large",
+      "path": "assets/exploration_rover/large",
+      "grid_size": [
+        100,
+        128,
+        96
+      ],
+      "grid_extents_m": [
+        4.5,
+        5.76,
+        4.32
+      ],
+      "occupied_voxels": 375045,
+      "voxel_size_m": 0.045,
+      "surface": {
+        "quads": 12607,
+        "triangles": 25214,
+        "exposed_unit_faces": 100212,
+        "surface_area_m2": 202.92929999999998,
+        "materials": 13
+      },
+      "sha256": {
+        "exploration_rover.vox": "52864e0acdac58a4c228faf7f286a7741ce99c73dd6e5411e09bc3307e04f933",
+        "exploration_rover.blend": "71316afba12f28155aadcde51c76dc578e58f863f8b3cae63b1845c43816917d",
+        "exploration_rover.glb": "2643699a004a19f7e658a808bc3b5e56659c200b8de8ea86f2fecd3995c44d11",
+        "exploration_rover.fbx": "35418b00fbcd4064e3281a4c33a6963100438d67a3b1a28f1c3db6925f21f16f",
+        "preview.png": "e77e160b22af0015bed584b7c475ed26bb2712fc32e5d0445f74d7a4f9d44681"
+      }
+    },
+    {
+      "asset": "exploration_rover",
+      "variant": "half",
+      "path": "assets/exploration_rover/half",
+      "grid_size": [
+        50,
+        64,
+        48
+      ],
+      "grid_extents_m": [
+        4.5,
+        5.76,
+        4.32
+      ],
+      "occupied_voxels": 53223,
+      "voxel_size_m": 0.09,
+      "surface": {
+        "quads": 4192,
+        "triangles": 8384,
+        "exposed_unit_faces": 23938,
+        "surface_area_m2": 193.8978,
+        "materials": 13
+      },
+      "sha256": {
+        "exploration_rover.vox": "4d19fe68c298c38553473f8e153bbe3ad4ac4c14c214ecd358ab5f06786fbba7",
+        "exploration_rover.blend": "352b31ed70526481c6c89e7582437de09728f7b83ac24ae33d14679e092b1bf6",
+        "exploration_rover.glb": "677124aafdc81065bf373f382bd737959c85935de188c79944adf64f16bf0102",
+        "exploration_rover.fbx": "c8d80d954f9bc2ec42a5ac4da821dc015f7f37a6ab3ad39b5a2929f40f37d381",
+        "preview.png": "c123b8568c7629f1fff2213e318d95c5369dff5b7f3217c620d05a5d958ee78a"
+      }
+    },
+    {
+      "asset": "water_tower",
+      "variant": "large",
+      "path": "assets/water_tower/large",
+      "grid_size": [
+        100,
+        100,
+        128
+      ],
+      "grid_extents_m": [
+        4.0,
+        4.0,
+        5.12
+      ],
+      "occupied_voxels": 253741,
+      "voxel_size_m": 0.04,
+      "surface": {
+        "quads": 10060,
+        "triangles": 20120,
+        "exposed_unit_faces": 52446,
+        "surface_area_m2": 83.9136,
+        "materials": 8
+      },
+      "sha256": {
+        "water_tower.vox": "5b13e2dd3783a6a8690b16ad6df2294068d60cc533f029315a5a7ee52e9abcf2",
+        "water_tower.blend": "f915c3a0e20f61a703404ed065f0efbc4f9378653f4ed28b7730ddd5ebcc793a",
+        "water_tower.glb": "25b8c668039c3fec5495f5ba5897ccaa3a03cc8f810ac3ac0a5da8ba7a5757fb",
+        "water_tower.fbx": "7f7d9588a28ed00a659764f55ca05bfd594aa0c824fc5544caa5f6c216cef46e",
+        "preview.png": "2f716525785f7882bbb1b8fccabcba465881a9669fbf0dbf1910210a15d58c3f"
+      }
+    },
+    {
+      "asset": "water_tower",
+      "variant": "half",
+      "path": "assets/water_tower/half",
+      "grid_size": [
+        50,
+        50,
+        64
+      ],
+      "grid_extents_m": [
+        4.0,
+        4.0,
+        5.12
+      ],
+      "occupied_voxels": 35532,
+      "voxel_size_m": 0.08,
+      "surface": {
+        "quads": 3152,
+        "triangles": 6304,
+        "exposed_unit_faces": 14124,
+        "surface_area_m2": 90.3936,
+        "materials": 8
+      },
+      "sha256": {
+        "water_tower.vox": "ede0f7018e54ab45363f06ec5b8313367b7c8d15a66da6b7decafae7b478c72e",
+        "water_tower.blend": "4b37d8209996135215e84fb1e5af96f60adcaed6467a2d8ff8db71550467bc18",
+        "water_tower.glb": "4cc68ea931017b1ccefa7dce31b8f4db487399ad6a2849520aa1cf13728d0de9",
+        "water_tower.fbx": "ed01395159fd3955dd23cc87aa9199442d2224f3bb94e94ec0fa1e6eadc8d463",
+        "preview.png": "a53cfbf7db1c2fa0bd7a8a97a7f2aeab18bb61d9501b6a1e75085c090698439c"
+      }
+    },
+    {
+      "asset": "solar_array",
+      "variant": "large",
+      "path": "assets/solar_array/large",
+      "grid_size": [
+        128,
+        88,
+        100
+      ],
+      "grid_extents_m": [
+        5.76,
+        3.96,
+        4.5
+      ],
+      "occupied_voxels": 104733,
+      "voxel_size_m": 0.045,
+      "surface": {
+        "quads": 4359,
+        "triangles": 8718,
+        "exposed_unit_faces": 45470,
+        "surface_area_m2": 92.07674999999999,
+        "materials": 10
+      },
+      "sha256": {
+        "solar_array.vox": "873c040da0181ce540b30c1004368e172fedac53fa0f4440ed72613065e41549",
+        "solar_array.blend": "57c480aa8fa5b9d115576be8f1e97cdbbab941c0326e8f8a08a1e353bd43ef7a",
+        "solar_array.glb": "39d9614a56c66ad1dc566e6dfdda9ab8ffffc3437c7c3a9958b14b1e4481f7a6",
+        "solar_array.fbx": "aa99600b11fd07b9d5ec9c390fc0708aa2c7465e2c15f630ec9459a28c99c457",
+        "preview.png": "04f7ad57861d63b60477007f4e03726965a32163d0f6222b8dfe73028024cb71"
+      }
+    },
+    {
+      "asset": "solar_array",
+      "variant": "half",
+      "path": "assets/solar_array/half",
+      "grid_size": [
+        64,
+        44,
+        50
+      ],
+      "grid_extents_m": [
+        5.76,
+        3.96,
+        4.5
+      ],
+      "occupied_voxels": 16279,
+      "voxel_size_m": 0.09,
+      "surface": {
+        "quads": 2066,
+        "triangles": 4132,
+        "exposed_unit_faces": 11764,
+        "surface_area_m2": 95.2884,
+        "materials": 10
+      },
+      "sha256": {
+        "solar_array.vox": "a584f0b09a4b5c201be9442870fe5d4d7e881bd26535a8e2e4120564af2ee51e",
+        "solar_array.blend": "e7b403498e194b5feece7c8387344ad2ef3bca936f1a6d33c5a233f5ebc68c59",
+        "solar_array.glb": "20edb2f7e2c8205c89aba59b03bec1bd0835135bb48c1c8bb9edb1c0e51b292a",
+        "solar_array.fbx": "dedb8720bedcdc1063de86cad73fe11c61bd8310cf5da5c5b66c373f77c48d5c",
+        "preview.png": "8903d6799db366107c76d51e664015f76155941cd201807e331ad14a2ba7c68a"
+      }
+    },
+    {
+      "asset": "repair_garage",
+      "variant": "large",
+      "path": "assets/repair_garage/large",
+      "grid_size": [
+        128,
+        120,
+        112
+      ],
+      "grid_extents_m": [
+        8.32,
+        7.800000000000001,
+        7.28
+      ],
+      "occupied_voxels": 311514,
+      "voxel_size_m": 0.065,
+      "surface": {
+        "quads": 3830,
+        "triangles": 7660,
+        "exposed_unit_faces": 117024,
+        "surface_area_m2": 494.42640000000006,
+        "materials": 11
+      },
+      "sha256": {
+        "repair_garage.vox": "8b67a19fc063beea78846d640647e97b5f2f8b6e2c72fde0d590dc721a162860",
+        "repair_garage.blend": "02bf14f8d564497b75cf7b45cf2044113b9882c395c205301146ee654c138f5b",
+        "repair_garage.glb": "b962ef47ca9e1fc792972f684e7f56180632b97975a12d6d19a6cb076123200d",
+        "repair_garage.fbx": "626487b935fe0d86f8af7b83fb54aa017d7f41a9e3b303d145d719bc68c0ae94",
+        "preview.png": "2d3446e53af8b84441c22116f32d76a85ab093814a8b581f2efab410ea234c40"
+      }
+    },
+    {
+      "asset": "repair_garage",
+      "variant": "half",
+      "path": "assets/repair_garage/half",
+      "grid_size": [
+        64,
+        60,
+        56
+      ],
+      "grid_extents_m": [
+        8.32,
+        7.800000000000001,
+        7.28
+      ],
+      "occupied_voxels": 45626,
+      "voxel_size_m": 0.13,
+      "surface": {
+        "quads": 1938,
+        "triangles": 3876,
+        "exposed_unit_faces": 28700,
+        "surface_area_m2": 485.03000000000003,
+        "materials": 11
+      },
+      "sha256": {
+        "repair_garage.vox": "0d59451536aa8710539d7bdeb36befc7bb3acc696d8bdf8cb620bf06aa7ced17",
+        "repair_garage.blend": "9a3c46a89835aa147243fb3f8ae634c047d12f038c5da7fa2a8889926202a358",
+        "repair_garage.glb": "61fad28edb6a500ccf4eb84e7b5251b372f7424da93088ade6e0ae453c68ee2d",
+        "repair_garage.fbx": "1940e39f87b71750b70008f03caa74aee287fdfb4360d45aeec4b7ccd95fcb4a",
+        "preview.png": "37568008477a2a762f84f08e0ff3b49e7a1581d2760ab5c872da7d1762b49ace"
+      }
+    }
+  ]
+}

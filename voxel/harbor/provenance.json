@@ -1,0 +1,21 @@
+{
+    "reduction":  "2x2x2 nonempty majority, exact halving of each grid axis, doubled meters per voxel; no manual half-grid edits",
+    "geometry_source":  "build.py",
+    "external_references":  [
+
+                            ],
+    "theme":  "harbor",
+    "authored_geometry":  "Four new uint8 XYZ occupied grids, independent source; colors start at palette index 1",
+    "shared_generic_tools":  [
+                                 "voxel/_tools/voxelkit.py",
+                                 "voxel/_tools/blender_pipeline.py",
+                                 "voxel/_tools/verify_theme.py"
+                             ],
+    "source_sha256":  "adb326c03fd6b4144fe27ef10a05f99a8152fbac2b4971a18267f87869da7807",
+    "worker_image_generation_seconds":  0,
+    "reference":  {
+                      "path":  "REF/voxel/harbor/reference.png",
+                      "sha256":  "3030c1d89132279bcb76d493411606ebcaf618d0cc51ae07e124b7d79753e613",
+                      "usage":  "Viewed as design guidance; not used for texture or output evidence"
+                  }
+}

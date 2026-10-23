@@ -1,0 +1,1823 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T14:53:23.554570+00:00",
+  "finished_at_utc": "2026-10-23T14:55:07.602283+00:00",
+  "elapsed_seconds": 104.04690920002759,
+  "assets": [
+    {
+      "asset": "submersible",
+      "large": {
+        "asset": "submersible",
+        "label": "Ducted-thruster research submersible",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Rounded opaque viewport, two through-bored thruster ducts with recessed spokes, paired manipulators, landing runners and maintenance fittings.",
+          "glazing": "Opaque solid-color voxels, no simulated transparency.",
+          "half_detail": "Duct wall >=5 voxels; gripper fingers and rotor spokes >=3.2 voxels diameter; no manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          112,
+          100
+        ],
+        "occupied_voxels": 245790,
+        "voxel_size_m": 0.035,
+        "grid_extents_m": [
+          4.48,
+          3.9200000000000004,
+          3.5000000000000004
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            127,
+            106,
+            99
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.205,
+            -1.9600000000000002,
+            0.07
+          ],
+          [
+            2.205,
+            1.7500000000000002,
+            3.4650000000000003
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "occupancy_sha256": "9d96e6c05e03e40a5f4c091d11dafa5cd485cc0606cfcb0522e740af303256a2",
+        "surface": {
+          "quads": 13886,
+          "triangles": 27772,
+          "exposed_unit_faces": 54408,
+          "surface_area_m2": 66.64980000000001,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "submersible.vox": "6efcd802704d4e5d69409fb0e9a03080b95c3cd396efb3d339c9868bb35f2680",
+          "submersible.blend": "5a8eb11f06b943c23dd763d2864ea6a59661c77d476ca27d602e223bbf2e2f66",
+          "submersible.glb": "50c9a92dde9a4838f15bb5328f62d985970827824700451b089102209082e82b",
+          "submersible.fbx": "808b47eaaeeaf2580006fe1c7ae80432be75c717f32a171ec04d2e8404bd1b07",
+          "preview.png": "387c3245df7099dc3a185a3e79db8a56c830bc21473ceead4926c5f225c26400"
+        }
+      },
+      "half": {
+        "asset": "submersible",
+        "label": "Ducted-thruster research submersible",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Rounded opaque viewport, two through-bored thruster ducts with recessed spokes, paired manipulators, landing runners and maintenance fittings.",
+          "glazing": "Opaque solid-color voxels, no simulated transparency.",
+          "half_detail": "Duct wall >=5 voxels; gripper fingers and rotor spokes >=3.2 voxels diameter; no manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          56,
+          50
+        ],
+        "occupied_voxels": 34273,
+        "voxel_size_m": 0.07,
+        "grid_extents_m": [
+          4.48,
+          3.9200000000000004,
+          3.5000000000000004
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            64,
+            53,
+            50
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.24,
+            -1.9600000000000002,
+            0.07
+          ],
+          [
+            2.24,
+            1.7500000000000002,
+            3.5000000000000004
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "occupancy_sha256": "d3a9d0ebb0ab3f3f67fc939983a8d10c1205e53de618fa2c3e6e2e9133273aab",
+        "surface": {
+          "quads": 3996,
+          "triangles": 7992,
+          "exposed_unit_faces": 14120,
+          "surface_area_m2": 69.18800000000002,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "submersible.vox": "cfc26d8ce21d8b6ebe3469e4aa7f3bcca7a7a621b169fec908a636839bb4f75f",
+          "submersible.blend": "d05e15661349c868571e4e435096c997d0a95e52831894265180a5bc9b707b6e",
+          "submersible.glb": "3909c23801094fbaa0d8a56900012d8376a8c28bddcd297015a09a4836f7e861",
+          "submersible.fbx": "bc7670e8dd6481043fdd28a83dda5a73c96baa66ee605193df83dcca31e4d187",
+          "preview.png": "771e0d178f6953f05b6c64fdafaa4f82a1cdbb25b16f0449a27562ee19b00e21"
+        }
+      }
+    },
+    {
+      "asset": "dome_laboratory",
+      "large": {
+        "asset": "dome_laboratory",
+        "label": "Ribbed undersea dome laboratory",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Eight meridian ribs and framed wall segments, circular foundation ring, crown hatch, front airlock recess and aft utility panel.",
+          "glazing": "Opaque blue voxels intentionally represent window segments; no transparency claim or furnished interior.",
+          "half_detail": "Ribs, wall posts and airlock throat are sized for the half grid; no manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          128,
+          108
+        ],
+        "occupied_voxels": 496105,
+        "voxel_size_m": 0.06,
+        "grid_extents_m": [
+          7.68,
+          7.68,
+          6.4799999999999995
+        ],
+        "occupied_bounds_voxels": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            120,
+            120,
+            108
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.36,
+            -3.84,
+            0.0
+          ],
+          [
+            3.36,
+            3.36,
+            6.4799999999999995
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "occupancy_sha256": "539359039586a4ac82b45deb95c90db4e95e768f9090a5591db4134471b91c64",
+        "surface": {
+          "quads": 11859,
+          "triangles": 23718,
+          "exposed_unit_faces": 60066,
+          "surface_area_m2": 216.2376,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "dome_laboratory.vox": "916a50fd11dffdc2ecfcf41e3be21c6b11411b83105b1a54e7f45e8eec76ea0d",
+          "dome_laboratory.blend": "29cdfcd35f770dfef8ea2100c8e52b55e70c972df6194cafad72e1d7e5a6fed4",
+          "dome_laboratory.glb": "e62f188eb4f10445be5105eda4667496833ad6a890e5312102bd7ea9b05f478f",
+          "dome_laboratory.fbx": "f40aecb3de14501e53585598f907adb9fa6bfe678b3f73f5776b968f73592b44",
+          "preview.png": "069bc0507dc80e060701b4a3ea7ea9bedc2f4e8d883295345ef9d57d45c6a081"
+        }
+      },
+      "half": {
+        "asset": "dome_laboratory",
+        "label": "Ribbed undersea dome laboratory",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Eight meridian ribs and framed wall segments, circular foundation ring, crown hatch, front airlock recess and aft utility panel.",
+          "glazing": "Opaque blue voxels intentionally represent window segments; no transparency claim or furnished interior.",
+          "half_detail": "Ribs, wall posts and airlock throat are sized for the half grid; no manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          64,
+          54
+        ],
+        "occupied_voxels": 65221,
+        "voxel_size_m": 0.12,
+        "grid_extents_m": [
+          7.68,
+          7.68,
+          6.4799999999999995
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            60,
+            60,
+            54
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.36,
+            -3.84,
+            0.0
+          ],
+          [
+            3.36,
+            3.36,
+            6.4799999999999995
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "occupancy_sha256": "2e1c610f0f15ad13be6d3c33a5cbaef66f7b5d3e953b6585d3d81c2fac2fe60a",
+        "surface": {
+          "quads": 3854,
+          "triangles": 7708,
+          "exposed_unit_faces": 15068,
+          "surface_area_m2": 216.97919999999996,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "dome_laboratory.vox": "a904415f9cd34a5c6e16027d1eb70cd62070d4f26a17ed2dfa0f05cabc011f74",
+          "dome_laboratory.blend": "66bb8a154ecb39cbcc40e6b1f80dd05498d8bdce1d5893002201526482d0f3ee",
+          "dome_laboratory.glb": "7d296b3bf9b4fa89293989c7002f73679024a792f2e46cf95a5e2b249d6e8ab0",
+          "dome_laboratory.fbx": "52eb2e52e7396bc153cf600a0875bd831c2aa390f791c3403fd0466ac67a39d2",
+          "preview.png": "8368305ec20b930592d92757ce179a75ec00fe7c86a8fd6eb6374d5ce077bafb"
+        }
+      }
+    },
+    {
+      "asset": "connecting_tunnel",
+      "large": {
+        "asset": "connecting_tunnel",
+        "label": "Open-ended pressure connecting tunnel",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Continuous rounded pressure shell with two genuinely open end apertures, reinforced collars, walkway, framed side and ceiling windows and exterior supports.",
+          "glazing": "Opaque colored voxel panels; end apertures are empty volume, not painted dark discs.",
+          "half_detail": "Seven-voxel side walls and broad window frames; no manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          84,
+          128,
+          84
+        ],
+        "occupied_voxels": 238456,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          4.2,
+          6.4,
+          4.2
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            4,
+            1
+          ],
+          [
+            80,
+            124,
+            84
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.9000000000000001,
+            -3.0,
+            0.05
+          ],
+          [
+            1.9000000000000001,
+            3.0,
+            4.2
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          14
+        ],
+        "occupancy_sha256": "fccb4bcab370673805323a48d314e58ac22abb1e5fd2b7e85eb33fb7d8776623",
+        "surface": {
+          "quads": 1477,
+          "triangles": 2954,
+          "exposed_unit_faces": 72220,
+          "surface_area_m2": 180.55,
+          "materials": 9
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "connecting_tunnel.vox": "417459f5c972fc09e4d72b28144b1cb12f4be4c993b0e82a052dcd1af308ec69",
+          "connecting_tunnel.blend": "7c5666e23c6ce90908759c5eb4485059f18c5df4f369845bb1c3f13ae12e7fbc",
+          "connecting_tunnel.glb": "3424f5fbdcceb3b56669a2fe1d99fa2813f906564f968d7c80ed1618ba29a872",
+          "connecting_tunnel.fbx": "f750afe3fd1fa6bcbe11eaf967a3f3c0605a3d16525ec9fe1d3b5d8c7766ce3d",
+          "preview.png": "0624e88e2de51760228095f89a098e6eceafc2348137c0fb2c06ca016d08c86d"
+        }
+      },
+      "half": {
+        "asset": "connecting_tunnel",
+        "label": "Open-ended pressure connecting tunnel",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Continuous rounded pressure shell with two genuinely open end apertures, reinforced collars, walkway, framed side and ceiling windows and exterior supports.",
+          "glazing": "Opaque colored voxel panels; end apertures are empty volume, not painted dark discs.",
+          "half_detail": "Seven-voxel side walls and broad window frames; no manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          42,
+          64,
+          42
+        ],
+        "occupied_voxels": 34204,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          4.2,
+          6.4,
+          4.2
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            40,
+            62,
+            42
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.9000000000000001,
+            -3.0,
+            0.0
+          ],
+          [
+            1.9000000000000001,
+            3.0,
+            4.2
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          14
+        ],
+        "occupancy_sha256": "5cb32a41f2ea33e32cbb2f810fcfaf5fa26762697385685b6a4fbef93826958d",
+        "surface": {
+          "quads": 825,
+          "triangles": 1650,
+          "exposed_unit_faces": 18044,
+          "surface_area_m2": 180.44000000000003,
+          "materials": 9
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "connecting_tunnel.vox": "0fc2a174a802abf2e9409328e2f7b8a1ed7e44d3ddb911eaf9c1cfa3c7189ff2",
+          "connecting_tunnel.blend": "8364cc44863d326470ffc8b2cd73a52404418cf3be7105e21313c7af5228cb0f",
+          "connecting_tunnel.glb": "b8e3214e8b4623832fed90678bc21b5123916ad79c789248c6988ba4ac3bac53",
+          "connecting_tunnel.fbx": "97be1ea8480fd6cfb448ecd9911484275581d92c69f1dffa6ce33378b264d111",
+          "preview.png": "6cb8f2ace6a83f8611d6109a51d213c43f25de526149f983f916b32675791fe0"
+        }
+      }
+    },
+    {
+      "asset": "seabed_miner",
+      "large": {
+        "asset": "seabed_miner",
+        "label": "Six-leg seabed drilling crawler",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Six stout planted legs with rotary joints, rounded observation pod, protected lights, tapered helical drill, roof rack and rear cooling equipment.",
+          "glazing": "Opaque stylized viewport with solid reflected-color bands.",
+          "half_detail": "Lower-leg armor diameter 10.6 voxels; hip bearings 14 voxels; drill ridge is actual occupied geometry. No manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          128,
+          108
+        ],
+        "occupied_voxels": 218210,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          5.76,
+          5.76,
+          4.859999999999999
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            126,
+            125,
+            107
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.79,
+            -2.835,
+            0.045
+          ],
+          [
+            2.79,
+            2.745,
+            4.8149999999999995
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "occupancy_sha256": "39d34c1668d03abefb3b657a76e5ac38f04c4b48052716b897e017cebd61e619",
+        "surface": {
+          "quads": 12841,
+          "triangles": 25682,
+          "exposed_unit_faces": 54016,
+          "surface_area_m2": 109.38239999999999,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "seabed_miner.vox": "d0ea1e1fdec2ad76d0b21bd585ef36978afd08c9ed4b8654d22e37360833c83d",
+          "seabed_miner.blend": "fb2ff17bf9094638c38024497e106867b44a929fae990641d2f40911f658af60",
+          "seabed_miner.glb": "8c1285b13753b208632d4612ebf9cb767f4cee1fa13e65fad3cef00c7eee2854",
+          "seabed_miner.fbx": "d1785241aa29e9af1aba2d5fc11425965e274802341ed18e6828b32b96b0d912",
+          "preview.png": "0f774a16be5bdc9b0d42fe2996baa48d28bccdb9ac353ab0da6f558448c49898"
+        }
+      },
+      "half": {
+        "asset": "seabed_miner",
+        "label": "Six-leg seabed drilling crawler",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Six stout planted legs with rotary joints, rounded observation pod, protected lights, tapered helical drill, roof rack and rear cooling equipment.",
+          "glazing": "Opaque stylized viewport with solid reflected-color bands.",
+          "half_detail": "Lower-leg armor diameter 10.6 voxels; hip bearings 14 voxels; drill ridge is actual occupied geometry. No manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          64,
+          54
+        ],
+        "occupied_voxels": 30892,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          5.76,
+          5.76,
+          4.859999999999999
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            63,
+            63,
+            54
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.79,
+            -2.88,
+            0.0
+          ],
+          [
+            2.79,
+            2.79,
+            4.859999999999999
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "occupancy_sha256": "c7be70208be466ed93634d507b8cd1012e77166d2c5315962eed30b89f601b1b",
+        "surface": {
+          "quads": 3943,
+          "triangles": 7886,
+          "exposed_unit_faces": 14106,
+          "surface_area_m2": 114.25859999999999,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "seabed_miner.vox": "0d5ab1982be47504c903dc8f35f68b94f44926148ff8751a4d9db03c3c3df0fb",
+          "seabed_miner.blend": "5ab3438cfbf84eefdcfa15071e7a2df9060c5cfae8af436d8fed8a91cd57c5fa",
+          "seabed_miner.glb": "bf1616b302dea2a5716943b3b62abff6a4f77ceadebc1631c02b67c4dd11f889",
+          "seabed_miner.fbx": "8bf7cd2fefd7fcbefbca3d5e63e8242a1e2bd79b4f3cf3e90de62b0d44e7f936",
+          "preview.png": "5a56b0178a30d98992a5ddf951651e373685e029357ed729ba7cb682466d97bd"
+        }
+      }
+    },
+    {
+      "asset": "docking_station",
+      "large": {
+        "asset": "docking_station",
+        "label": "Dual-guide undersea docking platform",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Two genuinely open rounded guide arches, reinforced platform, recessed deck grates, guide strips, connector pads/posts, service cabinet and distinct attached cable runs.",
+          "half_detail": "Arch wall eight voxels, clear throat forty-eight voxels, cable diameter 3.6 voxels. No manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          112,
+          128,
+          94
+        ],
+        "occupied_voxels": 220960,
+        "voxel_size_m": 0.055,
+        "grid_extents_m": [
+          6.16,
+          7.04,
+          5.17
+        ],
+        "occupied_bounds_voxels": [
+          [
+            6,
+            3,
+            0
+          ],
+          [
+            112,
+            125,
+            84
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.75,
+            -3.355,
+            0.0
+          ],
+          [
+            3.08,
+            3.355,
+            4.62
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "occupancy_sha256": "bbc13858ab129ab9a1a8bc2e6c74f3204f324b97ff2bdd79ffe2533fd941af20",
+        "surface": {
+          "quads": 2241,
+          "triangles": 4482,
+          "exposed_unit_faces": 56480,
+          "surface_area_m2": 170.852,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "docking_station.vox": "829cb35e2ec78b172005032a84526a4e1bf0995c5b83f9a97af325a75152dd3c",
+          "docking_station.blend": "3e74f59f3bbaf79a06f9d997d3407089fdbe6439569725c810879a90183e609f",
+          "docking_station.glb": "402fcf737f6ed2e00f8291b432d4bd035471fc9bbadea9139f2a588b2e0db370",
+          "docking_station.fbx": "35998a470cda0679621bb5cacaa63cb22526251d6ddb723bf2c4629ce3c95666",
+          "preview.png": "6bf4adb00afab098f21e738ac919f02bb83260be1d1367efcc494dafce758fe1"
+        }
+      },
+      "half": {
+        "asset": "docking_station",
+        "label": "Dual-guide undersea docking platform",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            220,
+            203,
+            255
+          ],
+          [
+            247,
+            239,
+            214,
+            255
+          ],
+          [
+            174,
+            176,
+            164,
+            255
+          ],
+          [
+            30,
+            68,
+            84,
+            255
+          ],
+          [
+            44,
+            99,
+            119,
+            255
+          ],
+          [
+            44,
+            118,
+            148,
+            255
+          ],
+          [
+            97,
+            164,
+            183,
+            255
+          ],
+          [
+            222,
+            163,
+            36,
+            255
+          ],
+          [
+            246,
+            193,
+            60,
+            255
+          ],
+          [
+            38,
+            47,
+            54,
+            255
+          ],
+          [
+            85,
+            102,
+            111,
+            255
+          ],
+          [
+            144,
+            158,
+            163,
+            255
+          ],
+          [
+            23,
+            66,
+            87,
+            255
+          ],
+          [
+            255,
+            235,
+            172,
+            255
+          ],
+          [
+            48,
+            125,
+            132,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Two genuinely open rounded guide arches, reinforced platform, recessed deck grates, guide strips, connector pads/posts, service cabinet and distinct attached cable runs.",
+          "half_detail": "Arch wall eight voxels, clear throat forty-eight voxels, cable diameter 3.6 voxels. No manual half correction."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          56,
+          64,
+          47
+        ],
+        "occupied_voxels": 31114,
+        "voxel_size_m": 0.11,
+        "grid_extents_m": [
+          6.16,
+          7.04,
+          5.17
+        ],
+        "occupied_bounds_voxels": [
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            56,
+            63,
+            42
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.75,
+            -3.41,
+            0.0
+          ],
+          [
+            3.08,
+            3.41,
+            4.62
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "occupancy_sha256": "9daccf801a50f908096d0c69d7a7cf0cafdb53aad018f90d5a4a51fc7b766fc1",
+        "surface": {
+          "quads": 1214,
+          "triangles": 2428,
+          "exposed_unit_faces": 14452,
+          "surface_area_m2": 174.8692,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "docking_station.vox": "af244da970c6be3f4207c417e0b6dd39a0b9ec91498ae148588a6f40c0639c39",
+          "docking_station.blend": "5042b45f47e06561090bb94c231ce381ebed7d7de2979d8f7bbfb33d67ce28c3",
+          "docking_station.glb": "cffc25cd59760a54c390c2dddefffcbf11fd6db6237177b6d0478cba22511425",
+          "docking_station.fbx": "72fe7e9a1c45039a1d4e102732be7c135dc0ac86e05cfd313360e3561be73a56",
+          "preview.png": "e5644ebac4c5427bd037850dafc755cafd8789f7551c833deb5f10a80e1bad58"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}

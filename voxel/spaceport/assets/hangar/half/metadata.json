@@ -1,0 +1,194 @@
+{
+  "asset": "hangar",
+  "label": "Low barrel-vault spacecraft hangar",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      218,
+      221,
+      211,
+      255
+    ],
+    [
+      242,
+      242,
+      230,
+      255
+    ],
+    [
+      172,
+      182,
+      179,
+      255
+    ],
+    [
+      91,
+      122,
+      142,
+      255
+    ],
+    [
+      124,
+      155,
+      170,
+      255
+    ],
+    [
+      54,
+      78,
+      97,
+      255
+    ],
+    [
+      48,
+      57,
+      62,
+      255
+    ],
+    [
+      29,
+      37,
+      42,
+      255
+    ],
+    [
+      139,
+      151,
+      156,
+      255
+    ],
+    [
+      209,
+      104,
+      77,
+      255
+    ],
+    [
+      238,
+      138,
+      102,
+      255
+    ],
+    [
+      55,
+      104,
+      127,
+      255
+    ],
+    [
+      90,
+      146,
+      164,
+      255
+    ],
+    [
+      246,
+      197,
+      107,
+      255
+    ],
+    [
+      41,
+      48,
+      51,
+      255
+    ],
+    [
+      73,
+      83,
+      87,
+      255
+    ],
+    [
+      116,
+      118,
+      111,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "broad rounded arch",
+      "true open spacecraft doorway",
+      "clear interior vehicle path",
+      "approach lights",
+      "service annex"
+    ],
+    "half": "Independent conservative half grid retains the full doorway and interior; roof ribs/lights simplify."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    64,
+    56,
+    44
+  ],
+  "occupied_voxels": 46651,
+  "voxel_size_m": 0.13,
+  "grid_extents_m": [
+    8.32,
+    7.28,
+    5.720000000000001
+  ],
+  "occupied_bounds_voxels": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      61,
+      55,
+      43
+    ]
+  ],
+  "bounds_m": [
+    [
+      -4.16,
+      -3.38,
+      0.13
+    ],
+    [
+      3.77,
+      3.5100000000000002,
+      5.59
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    9,
+    10,
+    14
+  ],
+  "occupancy_sha256": "29bd92de8138a9d5be80632572bbc2fc8b8d2841eeed5eb3113defcca0bc24d0",
+  "surface": {
+    "quads": 1170,
+    "triangles": 2340,
+    "exposed_unit_faces": 22208,
+    "surface_area_m2": 375.3152,
+    "materials": 8
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "hangar.vox": "98d019ca449541d0c968888255ef49a67453c94586c1369464ca2fb45c7cfedc",
+    "hangar.blend": "2598df813b61bb42b972ee05e3ed1db4f7dd53fac7f0406a24d2bc3ac8077a54",
+    "hangar.glb": "5c9463a9692a5a8d1568767eb4b0aaf3c5277db3718b46bc51fc2fe2c2ce38dd",
+    "hangar.fbx": "9aeb2c69e96b967c0551ad61410d230e1733af3341fa9bd0b1f7f3b9c95f136e",
+    "preview.png": "ac37ac2782aee26fb8b969bcec9b0c5fe8d60d68c27e04c1a02da8bdf08952a7"
+  }
+}

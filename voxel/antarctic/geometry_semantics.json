@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Six separated station pads",
+      "passed": true,
+      "evidence": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "check": "Snowcat windshield exposed to front",
+      "passed": true,
+      "evidence": [
+        {
+          "x": 32,
+          "z": 60,
+          "first_y": 33,
+          "color": 11
+        },
+        {
+          "x": 44,
+          "z": 60,
+          "first_y": 33,
+          "color": 11
+        },
+        {
+          "x": 60,
+          "z": 60,
+          "first_y": 33,
+          "color": 11
+        },
+        {
+          "x": 74,
+          "z": 60,
+          "first_y": 33,
+          "color": 11
+        }
+      ]
+    },
+    {
+      "check": "Both track belts preserve interior air",
+      "passed": true,
+      "evidence": [
+        0,
+        0
+      ]
+    },
+    {
+      "check": "Radar bowl has open air above its inner face",
+      "passed": true,
+      "evidence": {
+        "sample_xyz": [
+          76,
+          52,
+          86
+        ],
+        "color": 0
+      }
+    },
+    {
+      "check": "Weather rotor cup contains an open cavity",
+      "passed": true,
+      "evidence": {
+        "sample_xyz": [
+          41,
+          21,
+          119
+        ],
+        "color": 0
+      }
+    }
+  ]
+}

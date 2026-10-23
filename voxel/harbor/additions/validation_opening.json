@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T15:55:55.759848+00:00",
+  "finished_at_utc": "2026-10-23T15:55:55.933848+00:00",
+  "elapsed_seconds": 0.17385889997240156,
+  "source": "fresh saved VOX reparse; no authoring module imported",
+  "records": [
+    {
+      "variant": "large",
+      "grid": [
+        128,
+        128,
+        72
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "check": "front entry is empty above floor",
+          "large_coordinate_box": [
+            [
+              32,
+              0,
+              10
+            ],
+            [
+              96,
+              16,
+              34
+            ]
+          ],
+          "occupied_cells": 0,
+          "tested_cells": 24576,
+          "passed": true
+        },
+        {
+          "check": "central upper work volume stays empty",
+          "large_coordinate_box": [
+            [
+              34,
+              16,
+              32
+            ],
+            [
+              94,
+              94,
+              44
+            ]
+          ],
+          "occupied_cells": 0,
+          "tested_cells": 56160,
+          "passed": true
+        },
+        {
+          "check": "three disconnected centerline keel blocks above floor",
+          "components": 3,
+          "component_voxels": [
+            1588,
+            1588,
+            1588
+          ],
+          "passed": true
+        },
+        {
+          "check": "left pair of discrete hull stands",
+          "components": 2,
+          "component_voxels": [
+            1272,
+            1272
+          ],
+          "passed": true
+        },
+        {
+          "check": "right pair of discrete hull stands",
+          "components": 2,
+          "component_voxels": [
+            1272,
+            1272
+          ],
+          "passed": true
+        },
+        {
+          "check": "continuous lowered bay floor",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "variant": "half",
+      "grid": [
+        64,
+        64,
+        36
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "check": "front entry is empty above floor",
+          "large_coordinate_box": [
+            [
+              32,
+              0,
+              10
+            ],
+            [
+              96,
+              16,
+              34
+            ]
+          ],
+          "occupied_cells": 0,
+          "tested_cells": 3072,
+          "passed": true
+        },
+        {
+          "check": "central upper work volume stays empty",
+          "large_coordinate_box": [
+            [
+              34,
+              16,
+              32
+            ],
+            [
+              94,
+              94,
+              44
+            ]
+          ],
+          "occupied_cells": 0,
+          "tested_cells": 7020,
+          "passed": true
+        },
+        {
+          "check": "three disconnected centerline keel blocks above floor",
+          "components": 3,
+          "component_voxels": [
+            292,
+            292,
+            292
+          ],
+          "passed": true
+        },
+        {
+          "check": "left pair of discrete hull stands",
+          "components": 2,
+          "component_voxels": [
+            232,
+            232
+          ],
+          "passed": true
+        },
+        {
+          "check": "right pair of discrete hull stands",
+          "components": 2,
+          "component_voxels": [
+            232,
+            232
+          ],
+          "passed": true
+        },
+        {
+          "check": "continuous lowered bay floor",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

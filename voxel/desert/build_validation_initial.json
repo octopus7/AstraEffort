@@ -1,0 +1,1464 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T14:28:50.078094+00:00",
+  "finished_at_utc": "2026-10-23T14:30:11.854057+00:00",
+  "elapsed_seconds": 81.77665000001434,
+  "assets": [
+    {
+      "asset": "exploration_rover",
+      "large": {
+        "asset": "exploration_rover",
+        "label": "Six-wheel desert exploration rover",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Six rounded treaded wheels and axle/damper geometry; raked cab; protected radiator; roof cases; recessed cargo tray; rear cooling cassette.",
+          "reduction": "Designed with broad frame sections and >=3-voxel rail diameters. No manual half-resolution corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          100,
+          128,
+          94
+        ],
+        "occupied_voxels": 375045,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          4.5,
+          5.76,
+          4.2299999999999995
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            4,
+            3
+          ],
+          [
+            99,
+            127,
+            94
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.205,
+            -2.6999999999999997,
+            0.135
+          ],
+          [
+            2.205,
+            2.835,
+            4.2299999999999995
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "occupancy_sha256": "3323eca080edf8a48e7a560276769c330815164792be10ef0b6e4e53eb129c76",
+        "surface": {
+          "quads": 12607,
+          "triangles": 25214,
+          "exposed_unit_faces": 100212,
+          "surface_area_m2": 202.92929999999998,
+          "materials": 13
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "exploration_rover.vox": "fb4261831bd2c019dccc70d08be97758e0ba6283b25ad33b5b2e07cf42040b6e",
+          "exploration_rover.blend": "0ef3d3f41ee2da92909189306b555795efaa7f94c5ee777165e0b86b4558de22",
+          "exploration_rover.glb": "2643699a004a19f7e658a808bc3b5e56659c200b8de8ea86f2fecd3995c44d11",
+          "exploration_rover.fbx": "979580682def7618bf63c219e743d15b91d5f723cce3870beb283c5923f70c6a",
+          "preview.png": "50bd772dd1137d4249cb5307871611d54f68d8d77900ead7edc2e67223f0a0f1"
+        }
+      },
+      "half": {
+        "asset": "exploration_rover",
+        "label": "Six-wheel desert exploration rover",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Six rounded treaded wheels and axle/damper geometry; raked cab; protected radiator; roof cases; recessed cargo tray; rear cooling cassette.",
+          "reduction": "Designed with broad frame sections and >=3-voxel rail diameters. No manual half-resolution corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          50,
+          64,
+          47
+        ],
+        "occupied_voxels": 53223,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          4.5,
+          5.76,
+          4.2299999999999995
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            50,
+            64,
+            47
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.25,
+            -2.6999999999999997,
+            0.09
+          ],
+          [
+            2.25,
+            2.88,
+            4.2299999999999995
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "occupancy_sha256": "ceb86296808dd29b5dc0815bc14ce8af1855a545033e99889b7a6370b9bd5901",
+        "surface": {
+          "quads": 4192,
+          "triangles": 8384,
+          "exposed_unit_faces": 23938,
+          "surface_area_m2": 193.8978,
+          "materials": 13
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "exploration_rover.vox": "7e340cd76427016a5a8e00189718c9ccc5ee9a68c1e1741deb286b0e160a657f",
+          "exploration_rover.blend": "f290a0db6fe0f7fda37272565dadb60d89c00ecacf80d561395d815d57c1c144",
+          "exploration_rover.glb": "677124aafdc81065bf373f382bd737959c85935de188c79944adf64f16bf0102",
+          "exploration_rover.fbx": "f1c47222bc09550c05e3a36c1e1e297e94a70a88d5dadda4a4fdcc86d48e1f30",
+          "preview.png": "46d383a1d5fc885b416e66a6488aae2078d2d070bc468e01579502e8ba40e223"
+        }
+      }
+    },
+    {
+      "asset": "water_tower",
+      "large": {
+        "asset": "water_tower",
+        "label": "Four-leg desert reservoir",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Rounded tank with colored level bands; four braced columns; roof hatch; complete ladder; actual bent outlet with open-ring hand valve.",
+          "reduction": "Columns 8 voxels wide, pipes 8 voxels diameter, rungs 3.2 voxels diameter. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          100,
+          100,
+          128
+        ],
+        "occupied_voxels": 253741,
+        "voxel_size_m": 0.04,
+        "grid_extents_m": [
+          4.0,
+          4.0,
+          5.12
+        ],
+        "occupied_bounds_voxels": [
+          [
+            14,
+            8,
+            1
+          ],
+          [
+            93,
+            83,
+            128
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.44,
+            -1.68,
+            0.04
+          ],
+          [
+            1.72,
+            1.32,
+            5.12
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11
+        ],
+        "occupancy_sha256": "21e7e844a47c212597c24e735485ab167aaf048f0a1081aee436501f68b13994",
+        "surface": {
+          "quads": 10060,
+          "triangles": 20120,
+          "exposed_unit_faces": 52446,
+          "surface_area_m2": 83.9136,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "water_tower.vox": "5b13e2dd3783a6a8690b16ad6df2294068d60cc533f029315a5a7ee52e9abcf2",
+          "water_tower.blend": "f915c3a0e20f61a703404ed065f0efbc4f9378653f4ed28b7730ddd5ebcc793a",
+          "water_tower.glb": "25b8c668039c3fec5495f5ba5897ccaa3a03cc8f810ac3ac0a5da8ba7a5757fb",
+          "water_tower.fbx": "7f7d9588a28ed00a659764f55ca05bfd594aa0c824fc5544caa5f6c216cef46e",
+          "preview.png": "2f716525785f7882bbb1b8fccabcba465881a9669fbf0dbf1910210a15d58c3f"
+        }
+      },
+      "half": {
+        "asset": "water_tower",
+        "label": "Four-leg desert reservoir",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Rounded tank with colored level bands; four braced columns; roof hatch; complete ladder; actual bent outlet with open-ring hand valve.",
+          "reduction": "Columns 8 voxels wide, pipes 8 voxels diameter, rungs 3.2 voxels diameter. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          50,
+          50,
+          64
+        ],
+        "occupied_voxels": 35532,
+        "voxel_size_m": 0.08,
+        "grid_extents_m": [
+          4.0,
+          4.0,
+          5.12
+        ],
+        "occupied_bounds_voxels": [
+          [
+            7,
+            4,
+            0
+          ],
+          [
+            47,
+            42,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.44,
+            -1.68,
+            0.0
+          ],
+          [
+            1.76,
+            1.36,
+            5.12
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11
+        ],
+        "occupancy_sha256": "a96d09bda50b65628be4e262b55665923b82512bf89c36abe1663140b08dc2ea",
+        "surface": {
+          "quads": 3152,
+          "triangles": 6304,
+          "exposed_unit_faces": 14124,
+          "surface_area_m2": 90.3936,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "water_tower.vox": "ede0f7018e54ab45363f06ec5b8313367b7c8d15a66da6b7decafae7b478c72e",
+          "water_tower.blend": "4b37d8209996135215e84fb1e5af96f60adcaed6467a2d8ff8db71550467bc18",
+          "water_tower.glb": "4cc68ea931017b1ccefa7dce31b8f4db487399ad6a2849520aa1cf13728d0de9",
+          "water_tower.fbx": "ed01395159fd3955dd23cc87aa9199442d2224f3bb94e94ec0fa1e6eadc8d463",
+          "preview.png": "a53cfbf7db1c2fa0bd7a8a97a7f2aeab18bb61d9501b6a1e75085c090698439c"
+        }
+      }
+    },
+    {
+      "asset": "solar_array",
+      "large": {
+        "asset": "solar_array",
+        "label": "Three-section desert solar array",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Three physically separate tilted modules with 4x6 cell groups, clamp corners, torsion tube, three braced stands, battery cabinet and control door.",
+          "reduction": "Panel thickness 6.4 voxels; broad silver bus lines and >=3.6-voxel cables survive reduction. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          88,
+          98
+        ],
+        "occupied_voxels": 104733,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          5.76,
+          3.96,
+          4.41
+        ],
+        "occupied_bounds_voxels": [
+          [
+            5,
+            21,
+            0
+          ],
+          [
+            123,
+            65,
+            92
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.655,
+            -1.035,
+            0.0
+          ],
+          [
+            2.655,
+            0.945,
+            4.14
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11,
+          13,
+          14
+        ],
+        "occupancy_sha256": "f0ad3ef8e3860c362402d3e1b4f111bce0311300be3c6eeff9f529bc732ff2b7",
+        "surface": {
+          "quads": 4359,
+          "triangles": 8718,
+          "exposed_unit_faces": 45466,
+          "surface_area_m2": 92.06864999999999,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "solar_array.vox": "a1a35e59106ce31808110efbedec2b3fcdfccd1b1892b8098978c892386e4b54",
+          "solar_array.blend": "1a7013b1a89f036edf55ca9cb7cf92d13a5d912a34bc57aaa91c876a5552f237",
+          "solar_array.glb": "9cbdeb576922ce431d4bcd0364bad0fcef31af4db69dbedbe6c0c0d93cd6ac2a",
+          "solar_array.fbx": "f9d8d6e4c231389d19b979048b8e2e21538e53f13df26da797e63e56d2cafdea",
+          "preview.png": "9186ceac6f979c6a406374a4d3746c6709338d2869497197f413952bb950e6f4"
+        }
+      },
+      "half": {
+        "asset": "solar_array",
+        "label": "Three-section desert solar array",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "Three physically separate tilted modules with 4x6 cell groups, clamp corners, torsion tube, three braced stands, battery cabinet and control door.",
+          "reduction": "Panel thickness 6.4 voxels; broad silver bus lines and >=3.6-voxel cables survive reduction. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          44,
+          49
+        ],
+        "occupied_voxels": 16078,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          5.76,
+          3.96,
+          4.41
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            10,
+            0
+          ],
+          [
+            62,
+            33,
+            46
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.6999999999999997,
+            -1.08,
+            0.0
+          ],
+          [
+            2.6999999999999997,
+            0.99,
+            4.14
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11,
+          13,
+          14
+        ],
+        "occupancy_sha256": "dcaffe56784e24e52a11a184154c4d1f832272ebdbda5a508f6cdb78c73db200",
+        "surface": {
+          "quads": 1904,
+          "triangles": 3808,
+          "exposed_unit_faces": 11642,
+          "surface_area_m2": 94.30019999999999,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "solar_array.vox": "6566c986ddf087160289e69ca7a0f16c1c0e1b183b754326ea16f304c1bccccc",
+          "solar_array.blend": "60331dd5334ddfd4229457d31107321da592c8cfe706a61bafc8c81f14ead007",
+          "solar_array.glb": "337cd5c39e9d9a29c141d8ed7e8ac7444b858e46e7f6b27b04c9a47c6d993af3",
+          "solar_array.fbx": "36f90d0a3fb65c491ba579207ff4f3910d32020c09ec1f391b029392b8ec3f28",
+          "preview.png": "0766f26f9a8253f7e2c43b32bc1f131379801f147037f2c5780cd01a880a4152"
+        }
+      }
+    },
+    {
+      "asset": "repair_garage",
+      "large": {
+        "asset": "repair_garage",
+        "label": "Open-front desert repair garage",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "True hollow barrel-vault shell and open front portal, workshop shelves/bench/drawers, roof vent, side personnel door, attached compressor and aft vents.",
+          "reduction": "Seven-voxel shell walls and broad portal frames preserve the opening; workshop parts remain discrete at half resolution. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          120,
+          112
+        ],
+        "occupied_voxels": 314352,
+        "voxel_size_m": 0.065,
+        "grid_extents_m": [
+          8.32,
+          7.800000000000001,
+          7.28
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            11,
+            0
+          ],
+          [
+            128,
+            114,
+            105
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.9000000000000004,
+            -3.185,
+            0.0
+          ],
+          [
+            4.16,
+            3.5100000000000002,
+            6.825
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          15
+        ],
+        "occupancy_sha256": "6556685a303cbc8c72d224a99ee05c24d8778bd5b511118805b35d9b66b33bcb",
+        "surface": {
+          "quads": 3861,
+          "triangles": 7722,
+          "exposed_unit_faces": 117540,
+          "surface_area_m2": 496.60650000000004,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "repair_garage.vox": "0cf712b290cd2c4390ed6ba80e01f04835e005c1be51d427a23f10a7652485fb",
+          "repair_garage.blend": "a16661b888445982335050598f89c221b5a02ebfd919052ade485962b782ca8c",
+          "repair_garage.glb": "3057eb46ee1cb285fb47321259f88e9616f0d99f38a7f4ef93c20aa7ce4fc398",
+          "repair_garage.fbx": "f5050bdf121917911766b7d036c24d882e3993528d72d6ca62fb9a1cc1a5cee7",
+          "preview.png": "6937babb882d1f2dd79e5311d990420e5aa4c8817c6f2f125bf418ff29f461dd"
+        }
+      },
+      "half": {
+        "asset": "repair_garage",
+        "label": "Open-front desert repair garage",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            210,
+            182,
+            136,
+            255
+          ],
+          [
+            239,
+            217,
+            178,
+            255
+          ],
+          [
+            156,
+            132,
+            101,
+            255
+          ],
+          [
+            205,
+            99,
+            36,
+            255
+          ],
+          [
+            149,
+            66,
+            30,
+            255
+          ],
+          [
+            64,
+            114,
+            116,
+            255
+          ],
+          [
+            37,
+            77,
+            82,
+            255
+          ],
+          [
+            53,
+            56,
+            56,
+            255
+          ],
+          [
+            35,
+            39,
+            41,
+            255
+          ],
+          [
+            88,
+            92,
+            89,
+            255
+          ],
+          [
+            148,
+            155,
+            146,
+            255
+          ],
+          [
+            43,
+            72,
+            84,
+            255
+          ],
+          [
+            100,
+            139,
+            146,
+            255
+          ],
+          [
+            39,
+            88,
+            109,
+            255
+          ],
+          [
+            255,
+            225,
+            150,
+            255
+          ]
+        ],
+        "notes": {
+          "features": "True hollow barrel-vault shell and open front portal, workshop shelves/bench/drawers, roof vent, side personnel door, attached compressor and aft vents.",
+          "reduction": "Seven-voxel shell walls and broad portal frames preserve the opening; workshop parts remain discrete at half resolution. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          60,
+          56
+        ],
+        "occupied_voxels": 46306,
+        "voxel_size_m": 0.13,
+        "grid_extents_m": [
+          8.32,
+          7.800000000000001,
+          7.28
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            5,
+            0
+          ],
+          [
+            64,
+            57,
+            53
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.9000000000000004,
+            -3.25,
+            0.0
+          ],
+          [
+            4.16,
+            3.5100000000000002,
+            6.890000000000001
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          15
+        ],
+        "occupancy_sha256": "bcce68da085dbdfe561ddaca664b0f8377011ae421f89815db3be4dc211fe4f5",
+        "surface": {
+          "quads": 1965,
+          "triangles": 3930,
+          "exposed_unit_faces": 28702,
+          "surface_area_m2": 485.06380000000007,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "repair_garage.vox": "b89ae5859925729072ebc68c75ada5bff20fba0f6d2207d2b18c046f258eec56",
+          "repair_garage.blend": "a02be2893275060f1d794815df5f4ec449b05d0aace4110fedd33f43aac33201",
+          "repair_garage.glb": "c066cce7a04b24f05b2d27537cdb1297740e5d8186fefced71ae0445905716b4",
+          "repair_garage.fbx": "a21f79c01d3fd6c86efbd08cf12e0dba0bd4439b93feaa4569ba328787c5c187",
+          "preview.png": "668a7e0d59d528491301ae1473a75eb045669816d91e16ae0240f2a74253dc4d"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}

@@ -1,0 +1,87 @@
+{
+  "theme": "antarctic",
+  "scope": "additions",
+  "status": "ready_for_review",
+  "timing": {
+    "started_at_utc": "2026-10-23T15:33:44Z",
+    "started_at_kst": "2026-10-24T00:33:44+09:00",
+    "finished_at_utc": "2026-10-23T15:44:02Z",
+    "finished_at_kst": "2026-10-24T00:44:02+09:00",
+    "elapsed_seconds": 618.709215,
+    "build_export_render_internal_seconds": 18.844572599977255,
+    "validation_internal_seconds": 2.655087699997239,
+    "validation_command_wall_seconds": 3.2473007,
+    "worker_image_generation_seconds": 0,
+    "blocking_tool_wait_seconds": 0,
+    "build_runs": 1,
+    "timing_note": "Pipeline intervals exclude Blender startup. Validation command wall time is the execution tool's measured duration. Full build command wall time was not separately timed."
+  },
+  "asset_count": 1,
+  "variant_count": 2,
+  "both_final_previews_inspected": true,
+  "paired_camera_settings_identical": true,
+  "final_hash_audit_passed": true,
+  "source_sha256": "167627c97d847fa29593d687e56fb2598638d35bdd4eff53d5fce83affa25310",
+  "variants": [
+    {
+      "asset": "ice_core_drill",
+      "variant": "large",
+      "grid_size": [
+        112,
+        98,
+        128
+      ],
+      "grid_extents_m": [
+        5.04,
+        4.41,
+        5.76
+      ],
+      "voxel_size_m": 0.045,
+      "occupied_voxels": 190054,
+      "surface": {
+        "quads": 5347,
+        "triangles": 10694,
+        "exposed_unit_faces": 68282,
+        "surface_area_m2": 138.27105,
+        "materials": 11
+      },
+      "sha256": {
+        "ice_core_drill.vox": "4127064f3bfb2f9e4a6f165a3b5380ce380a25e2e0781f2c5f3eee6859723751",
+        "ice_core_drill.blend": "37805f275f265e0f2468d459670ed1e04081c19aa6cd0267d8e16c6c6b73728c",
+        "ice_core_drill.glb": "209feffb4bfc4d6db4abd3b177bac4fc23d2a10cb59879eb2ff376a0f1b8997f",
+        "ice_core_drill.fbx": "1ebd0d4c845dc5b3a5aa376a9dc010e2158bd69cd77642d0b9e1eb658f2045b9",
+        "preview.png": "8ed885d19ab5f52ced1c6dd1cecefa1172da2675faac0744c5cea0e0bc72ad86"
+      }
+    },
+    {
+      "asset": "ice_core_drill",
+      "variant": "half",
+      "grid_size": [
+        56,
+        49,
+        64
+      ],
+      "grid_extents_m": [
+        5.04,
+        4.41,
+        5.76
+      ],
+      "voxel_size_m": 0.09,
+      "occupied_voxels": 29048,
+      "surface": {
+        "quads": 2287,
+        "triangles": 4574,
+        "exposed_unit_faces": 17850,
+        "surface_area_m2": 144.585,
+        "materials": 11
+      },
+      "sha256": {
+        "ice_core_drill.vox": "37488fe84349e8328354f6ac1dd8893791904a6669f7e9c8a521a88a8fcc0496",
+        "ice_core_drill.blend": "19f8d158204257d042214642b2d8974fb5defbec520f7372cfc31aff6397113e",
+        "ice_core_drill.glb": "7aed70c358c919eb519aa0ff52087f7e6cfeedfefd41dd2841cadf1ab79bc7ab",
+        "ice_core_drill.fbx": "cd2f8fcfc62c7f66b89d9ee202214c5e9acbfaad164c87f3f0fe12b9dc486260",
+        "preview.png": "8ddf9cbd065831c3b86dbefb24b1d0660b4a4abaed936f82e342f45fece6e481"
+      }
+    }
+  ]
+}

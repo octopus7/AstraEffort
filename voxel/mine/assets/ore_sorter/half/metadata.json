@@ -1,0 +1,198 @@
+{
+  "asset": "ore_sorter",
+  "label": "Hopper and inclined mine ore sorter",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      106,
+      115,
+      75,
+      255
+    ],
+    [
+      138,
+      146,
+      102,
+      255
+    ],
+    [
+      62,
+      74,
+      49,
+      255
+    ],
+    [
+      209,
+      201,
+      172,
+      255
+    ],
+    [
+      235,
+      225,
+      196,
+      255
+    ],
+    [
+      73,
+      82,
+      80,
+      255
+    ],
+    [
+      116,
+      126,
+      122,
+      255
+    ],
+    [
+      33,
+      40,
+      38,
+      255
+    ],
+    [
+      55,
+      65,
+      60,
+      255
+    ],
+    [
+      194,
+      100,
+      43,
+      255
+    ],
+    [
+      230,
+      137,
+      63,
+      255
+    ],
+    [
+      168,
+      177,
+      170,
+      255
+    ],
+    [
+      65,
+      98,
+      102,
+      255
+    ],
+    [
+      20,
+      28,
+      27,
+      255
+    ],
+    [
+      142,
+      108,
+      66,
+      255
+    ],
+    [
+      135,
+      145,
+      137,
+      255
+    ],
+    [
+      236,
+      177,
+      61,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "open tapered hopper",
+      "perforated inclined screening bed",
+      "short loop discharge belt",
+      "three open ore bins",
+      "service platform"
+    ],
+    "half": "Conservative 2x reduction; screen apertures remain patterned openings, while tiny screen cells and ore clumps simplify. Static material-handling depiction."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    64,
+    50,
+    56
+  ],
+  "occupied_voxels": 20622,
+  "voxel_size_m": 0.08,
+  "grid_extents_m": [
+    5.12,
+    4.0,
+    4.48
+  ],
+  "occupied_bounds_voxels": [
+    [
+      3,
+      0,
+      0
+    ],
+    [
+      64,
+      49,
+      56
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.32,
+      -2.0,
+      0.0
+    ],
+    [
+      2.56,
+      1.92,
+      4.48
+    ]
+  ],
+  "palette_indices": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16
+  ],
+  "occupancy_sha256": "b10240a0a9335d8b785a199bbc88abd03f8f7be1eceac3a522bffc18eb99136a",
+  "surface": {
+    "quads": 3082,
+    "triangles": 6164,
+    "exposed_unit_faces": 20070,
+    "surface_area_m2": 128.448,
+    "materials": 12
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "ore_sorter.vox": "eb7366f0ded78569c3a277ac5489b0f085461080d30eb7dfe7a54b66e719e95a",
+    "ore_sorter.blend": "a8c5ac9e69758455926d8d9a3664f28c249c77e702f0ea52e9ebb7b362f9f649",
+    "ore_sorter.glb": "77723c4a590deef7f8e6e16ed8c7d415f03d3cd4e4d865bc29c3624bd9c3d825",
+    "ore_sorter.fbx": "5d4165cf3166bef4dc4be2d1530c5312d69c58b9afbb6bc5267a57332930cda8",
+    "preview.png": "da862ba59a024668d9cf74f72b9636a99ecbfc8f345c6d060d93bece0db2e0e8"
+  }
+}

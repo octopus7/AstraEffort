@@ -1,0 +1,203 @@
+{
+  "asset": "production_machine",
+  "label": "Hydraulic production press",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      226,
+      169,
+      45,
+      255
+    ],
+    [
+      248,
+      198,
+      70,
+      255
+    ],
+    [
+      170,
+      115,
+      30,
+      255
+    ],
+    [
+      69,
+      106,
+      132,
+      255
+    ],
+    [
+      93,
+      135,
+      159,
+      255
+    ],
+    [
+      45,
+      72,
+      90,
+      255
+    ],
+    [
+      217,
+      209,
+      184,
+      255
+    ],
+    [
+      241,
+      231,
+      206,
+      255
+    ],
+    [
+      154,
+      150,
+      135,
+      255
+    ],
+    [
+      43,
+      47,
+      48,
+      255
+    ],
+    [
+      60,
+      65,
+      66,
+      255
+    ],
+    [
+      94,
+      100,
+      102,
+      255
+    ],
+    [
+      141,
+      151,
+      153,
+      255
+    ],
+    [
+      28,
+      39,
+      43,
+      255
+    ],
+    [
+      63,
+      118,
+      134,
+      255
+    ],
+    [
+      179,
+      76,
+      43,
+      255
+    ],
+    [
+      220,
+      181,
+      99,
+      255
+    ]
+  ],
+  "notes": {
+    "design": "Rounded two-column hydraulic press, open ram throat, die slots, side mesh guards, operator console, fluted motor and rear hydraulic service assembly.",
+    "functional_features": [
+      "ram",
+      "open work throat",
+      "die table",
+      "guards",
+      "control pedestal",
+      "rear hydraulic pipe"
+    ],
+    "half_resolution": "Conservative 2x voxel reduction. Motor grille bars use even-cell phase after preview-driven correction; guard bars and bolts simplify. No manual half-grid edits or replacement mesh."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    56,
+    44,
+    64
+  ],
+  "occupied_voxels": 60765,
+  "voxel_size_m": 0.08,
+  "grid_extents_m": [
+    4.48,
+    3.52,
+    5.12
+  ],
+  "occupied_bounds_voxels": [
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      56,
+      43,
+      63
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.0,
+      -1.68,
+      0.08
+    ],
+    [
+      2.24,
+      1.68,
+      5.04
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "occupancy_sha256": "4a9e2d34743fdcb3a56976e7731a1f074ca8e20459565fb769c608bcac4816b7",
+  "surface": {
+    "quads": 1257,
+    "triangles": 2514,
+    "exposed_unit_faces": 21308,
+    "surface_area_m2": 136.37120000000002,
+    "materials": 15
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "production_machine.vox": "1fbe56526ea39c4c85da32c4e7a35cde401abbfa9bf0ebd28c7b6dbc08f474b4",
+    "production_machine.blend": "5d62e6173139c8eb9806ae870b8527551c6f1e8ff73df187e11549181fa69c04",
+    "production_machine.glb": "2c905ac2d740d9cf2df9e5ae750a851ed3df627431863e064586c75fa22f485d",
+    "production_machine.fbx": "d4dd7a697814fccdc533ce2d56f2486c6b77e0a5b569ddb27e6dd47d57d4899c",
+    "preview.png": "6b7f0b9efd2cdbb5f67a7f9dd0f7c591949ac89ec35e098cd057fc326ab5d81e"
+  }
+}

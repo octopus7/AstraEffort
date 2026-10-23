@@ -1,0 +1,195 @@
+{
+  "asset": "fuel_tank",
+  "label": "Twin capsule fuel-storage skid",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      218,
+      221,
+      211,
+      255
+    ],
+    [
+      242,
+      242,
+      230,
+      255
+    ],
+    [
+      172,
+      182,
+      179,
+      255
+    ],
+    [
+      91,
+      122,
+      142,
+      255
+    ],
+    [
+      124,
+      155,
+      170,
+      255
+    ],
+    [
+      54,
+      78,
+      97,
+      255
+    ],
+    [
+      48,
+      57,
+      62,
+      255
+    ],
+    [
+      29,
+      37,
+      42,
+      255
+    ],
+    [
+      139,
+      151,
+      156,
+      255
+    ],
+    [
+      209,
+      104,
+      77,
+      255
+    ],
+    [
+      238,
+      138,
+      102,
+      255
+    ],
+    [
+      55,
+      104,
+      127,
+      255
+    ],
+    [
+      90,
+      146,
+      164,
+      255
+    ],
+    [
+      246,
+      197,
+      107,
+      255
+    ],
+    [
+      41,
+      48,
+      51,
+      255
+    ],
+    [
+      73,
+      83,
+      87,
+      255
+    ],
+    [
+      116,
+      118,
+      111,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "two capsule-ended vessels",
+      "common skid",
+      "joined overhead manifold",
+      "front transfer pipe",
+      "two valves",
+      "control panel"
+    ],
+    "half": "Conservative 2x reduction keeps twin vessels and continuous pipe routes; valve loops and small collars simplify."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    64,
+    40,
+    56
+  ],
+  "occupied_voxels": 36884,
+  "voxel_size_m": 0.08,
+  "grid_extents_m": [
+    5.12,
+    3.2,
+    4.48
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      62,
+      36,
+      54
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.4,
+      -1.6,
+      0.0
+    ],
+    [
+      2.4,
+      1.28,
+      4.32
+    ]
+  ],
+  "palette_indices": [
+    1,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13
+  ],
+  "occupancy_sha256": "1d0264b4e730b842694617ce77a8f20939c54a11144746d5e27f31dc741cb0a7",
+  "surface": {
+    "quads": 2788,
+    "triangles": 5576,
+    "exposed_unit_faces": 15352,
+    "surface_area_m2": 98.25280000000001,
+    "materials": 8
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "fuel_tank.vox": "eceef8cd6c65f99e1fe83ff4fb8a136d39805c2bcea3b28b554ec02f1a436665",
+    "fuel_tank.blend": "c9705dc1432aa97cc44e57047e3557ab86a0e5c30211e6b5a154c714a0db10cf",
+    "fuel_tank.glb": "7571c8b82c0b9090b5cf9838db321b155a95b5b7e31cf128cffa2daf181010da",
+    "fuel_tank.fbx": "7e039c26289fab96dec3e8b782c2560b36395943cf9a92eee8b65a377649d9a6",
+    "preview.png": "63a48f77ed2bedbe721ffc23c4794f83332586d38281ac0082a2252613ea8092"
+  }
+}

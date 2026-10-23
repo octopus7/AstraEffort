@@ -1,0 +1,178 @@
+{
+  "asset": "weather_instrument",
+  "label": "Autonomous polar weather mast",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      231,
+      222,
+      202,
+      255
+    ],
+    [
+      249,
+      242,
+      224,
+      255
+    ],
+    [
+      184,
+      182,
+      169,
+      255
+    ],
+    [
+      31,
+      67,
+      91,
+      255
+    ],
+    [
+      42,
+      87,
+      117,
+      255
+    ],
+    [
+      41,
+      47,
+      53,
+      255
+    ],
+    [
+      98,
+      112,
+      121,
+      255
+    ],
+    [
+      152,
+      162,
+      163,
+      255
+    ],
+    [
+      233,
+      111,
+      24,
+      255
+    ],
+    [
+      255,
+      159,
+      45,
+      255
+    ],
+    [
+      35,
+      108,
+      147,
+      255
+    ],
+    [
+      91,
+      169,
+      193,
+      255
+    ],
+    [
+      25,
+      33,
+      40,
+      255
+    ],
+    [
+      255,
+      239,
+      184,
+      255
+    ],
+    [
+      67,
+      78,
+      85,
+      255
+    ]
+  ],
+  "notes": {
+    "design": "Open outrigger base, sealed logger, tilted solar panel, stacked radiation shield, true hollow rotor cups, directional wind vane and service cables.",
+    "half_resolution_strategy": "Cabinet, panel, mast and cups remain volumetric; small gaps and grid lines may simplify naturally. Cup wall >= 2.5 voxels. No manual half corrections.",
+    "front": "-Y"
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    80,
+    80,
+    128
+  ],
+  "occupied_voxels": 49559,
+  "voxel_size_m": 0.025,
+  "grid_extents_m": [
+    2.0,
+    2.0,
+    3.2
+  ],
+  "occupied_bounds_voxels": [
+    [
+      5,
+      6,
+      0
+    ],
+    [
+      77,
+      74,
+      125
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.875,
+      -0.8500000000000001,
+      0.0
+    ],
+    [
+      0.925,
+      0.8500000000000001,
+      3.125
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "occupancy_sha256": "beea5c54c66f187d27753b46b50f6e6eeb780d30eedb1da42c5ccedcc82cc3d1",
+  "surface": {
+    "quads": 6153,
+    "triangles": 12306,
+    "exposed_unit_faces": 31696,
+    "surface_area_m2": 19.810000000000002,
+    "materials": 9
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "weather_instrument.vox": "f448068844e86026945bacdac2c1fdd7959d9c2fff8dd7a88c88e3ba81a73c35",
+    "weather_instrument.blend": "39c150d5ee28579fdf0bb699350755620e0916161a3c9913d0dc5b1879684ca0",
+    "weather_instrument.glb": "f1b864c6eecf04da2eef19ef77e6b109e8027e02663c8aa1d166a3f7088dbb60",
+    "weather_instrument.fbx": "904d1ac65933a529988ad9162982e070a686920bd76f0f6ee30cceff537f440e",
+    "preview.png": "198152de8a762c6d3ba5db581fbf5824611786f42e29dabcc09c8f735ddb7fcf"
+  }
+}

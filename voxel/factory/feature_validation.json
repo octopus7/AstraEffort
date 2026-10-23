@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "source": "Saved large/half native VOX occupancy",
+  "checks": [
+    {
+      "feature": "press_motor_grille",
+      "visible_palette_trace": [
+        14,
+        5,
+        14,
+        5,
+        14,
+        5,
+        14,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "feature": "conveyor_motor_grille",
+      "visible_palette_trace": [
+        14,
+        5,
+        14,
+        5,
+        14,
+        5,
+        14
+      ],
+      "passed": true
+    },
+    {
+      "feature": "production_machine_exact_physical_occupied_bounds",
+      "large_bounds_voxels": [
+        [
+          6,
+          2,
+          2
+        ],
+        [
+          112,
+          86,
+          126
+        ]
+      ],
+      "half_bounds_voxels": [
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          56,
+          43,
+          63
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "feature": "conveyor_exact_physical_occupied_bounds",
+      "large_bounds_voxels": [
+        [
+          8,
+          0,
+          2
+        ],
+        [
+          120,
+          62,
+          74
+        ]
+      ],
+      "half_bounds_voxels": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          60,
+          31,
+          37
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "feature": "forklift_exact_physical_occupied_bounds",
+      "large_bounds_voxels": [
+        [
+          4,
+          2,
+          2
+        ],
+        [
+          84,
+          126,
+          112
+        ]
+      ],
+      "half_bounds_voxels": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          42,
+          63,
+          56
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "feature": "generator_exact_physical_occupied_bounds",
+      "large_bounds_voxels": [
+        [
+          4,
+          4,
+          2
+        ],
+        [
+          124,
+          70,
+          96
+        ]
+      ],
+      "half_bounds_voxels": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          62,
+          35,
+          48
+        ]
+      ],
+      "passed": true
+    }
+  ]
+}

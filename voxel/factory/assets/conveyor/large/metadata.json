@@ -1,0 +1,200 @@
+{
+  "asset": "conveyor",
+  "label": "Roller-end factory conveyor",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      226,
+      169,
+      45,
+      255
+    ],
+    [
+      248,
+      198,
+      70,
+      255
+    ],
+    [
+      170,
+      115,
+      30,
+      255
+    ],
+    [
+      69,
+      106,
+      132,
+      255
+    ],
+    [
+      93,
+      135,
+      159,
+      255
+    ],
+    [
+      45,
+      72,
+      90,
+      255
+    ],
+    [
+      217,
+      209,
+      184,
+      255
+    ],
+    [
+      241,
+      231,
+      206,
+      255
+    ],
+    [
+      154,
+      150,
+      135,
+      255
+    ],
+    [
+      43,
+      47,
+      48,
+      255
+    ],
+    [
+      60,
+      65,
+      66,
+      255
+    ],
+    [
+      94,
+      100,
+      102,
+      255
+    ],
+    [
+      141,
+      151,
+      153,
+      255
+    ],
+    [
+      28,
+      39,
+      43,
+      255
+    ],
+    [
+      63,
+      118,
+      134,
+      255
+    ],
+    [
+      179,
+      76,
+      43,
+      255
+    ],
+    [
+      220,
+      181,
+      99,
+      255
+    ]
+  ],
+  "notes": {
+    "design": "Independent continuous loop belt with two exposed end roller assemblies, four support feet, diagonal bracing, near-side drive and two framed cargo bins.",
+    "functional_features": [
+      "two end rollers",
+      "continuous loop belt",
+      "four feet",
+      "drive motor",
+      "cargo bins"
+    ],
+    "half_resolution": "Conservative 2x grid reduction. Motor grille bar phase and slot depth were corrected in the large grid to preserve half-resolution slots. Belt ribs and crate trim merge locally; no manual half-grid edits."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    128,
+    64,
+    76
+  ],
+  "occupied_voxels": 91777,
+  "voxel_size_m": 0.045,
+  "grid_extents_m": [
+    5.76,
+    2.88,
+    3.42
+  ],
+  "occupied_bounds_voxels": [
+    [
+      8,
+      0,
+      2
+    ],
+    [
+      120,
+      62,
+      74
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.52,
+      -1.44,
+      0.09
+    ],
+    [
+      2.52,
+      1.3499999999999999,
+      3.33
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "occupancy_sha256": "8ff739445b429e8241e4703cc0b77f4a479ddde4548726a62f4cd3bea6ebd9f0",
+  "surface": {
+    "quads": 3211,
+    "triangles": 6422,
+    "exposed_unit_faces": 45030,
+    "surface_area_m2": 91.18575,
+    "materials": 13
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "conveyor.vox": "f8f5b4412f70fab823a20bfd0ca7c0d979a72b6f030662a799e65f650b0ae735",
+    "conveyor.blend": "f857f9675dbb3a85a08706d78bc3ad1f25c6d9d66c79d4606d96e4a8483e9203",
+    "conveyor.glb": "c014808965785adde5155f9e5e99541c63e07b0cfe26e5e6ec22d945f5bc7909",
+    "conveyor.fbx": "bf0925a172e90bfb2cc57147771f7bb0711a580b7fe77136755e557fe5726744",
+    "preview.png": "0adbdca5c04e2ea69eda62e9f059e226ebb88889e6253312059dc2e0be09c31b"
+  }
+}

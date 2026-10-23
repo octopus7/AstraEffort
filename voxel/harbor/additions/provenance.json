@@ -1,0 +1,24 @@
+{
+    "geometry":  "Original native uint8 occupied grid; no accepted original model or source copied",
+    "geometry_source":  "build.py",
+    "external_references":  [
+
+                            ],
+    "half_method":  "Exact axis halving via conservative nonempty 2x2x2 majority; doubled meters per voxel; no manual half-grid edits",
+    "worker_image_generation_seconds":  0,
+    "scope":  "additions",
+    "theme":  "harbor",
+    "generic_tools":  [
+                          "voxel/_tools/voxelkit.py",
+                          "voxel/_tools/blender_pipeline.py",
+                          "voxel/_tools/verify_theme.py"
+                      ],
+    "asset":  "repair_dock",
+    "source_sha256":  "5a5094c9ef29aff7a32f65c4eb46fdc347b94ab455b9895191dec40ccabdeae3",
+    "approved_style_source":  "voxel/harbor/palette.json",
+    "reference":  {
+                      "path":  "REF/voxel/harbor/additions/reference.png",
+                      "sha256":  "4316acedb727f2e48ba3cb6adb6da11762c626ccc3c2dc7f93f01f9df385657d",
+                      "role":  "Design input only, not a texture or render evidence"
+                  }
+}

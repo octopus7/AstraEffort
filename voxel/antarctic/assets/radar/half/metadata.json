@@ -1,0 +1,179 @@
+{
+  "asset": "radar",
+  "label": "Open polar radar antenna",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      231,
+      222,
+      202,
+      255
+    ],
+    [
+      249,
+      242,
+      224,
+      255
+    ],
+    [
+      184,
+      182,
+      169,
+      255
+    ],
+    [
+      31,
+      67,
+      91,
+      255
+    ],
+    [
+      42,
+      87,
+      117,
+      255
+    ],
+    [
+      41,
+      47,
+      53,
+      255
+    ],
+    [
+      98,
+      112,
+      121,
+      255
+    ],
+    [
+      152,
+      162,
+      163,
+      255
+    ],
+    [
+      233,
+      111,
+      24,
+      255
+    ],
+    [
+      255,
+      159,
+      45,
+      255
+    ],
+    [
+      35,
+      108,
+      147,
+      255
+    ],
+    [
+      91,
+      169,
+      193,
+      255
+    ],
+    [
+      25,
+      33,
+      40,
+      255
+    ],
+    [
+      255,
+      239,
+      184,
+      255
+    ],
+    [
+      67,
+      78,
+      85,
+      255
+    ]
+  ],
+  "notes": {
+    "design": "Tilted concave paraboloid with real five-voxel open shell, three feed supports, rear ribs, bearing yoke and four-foot electronics pedestal.",
+    "half_resolution_strategy": "Dish wall and yoke thickness preserve cavity and concavity at 64-cell longest axis; support capsules have diameter >= 3.3 voxels. No manual half corrections.",
+    "front": "-Y; dish normal tilts upward approximately 39 degrees"
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    56,
+    56,
+    64
+  ],
+  "occupied_voxels": 26982,
+  "voxel_size_m": 0.08,
+  "grid_extents_m": [
+    4.48,
+    4.48,
+    5.12
+  ],
+  "occupied_bounds_voxels": [
+    [
+      3,
+      7,
+      0
+    ],
+    [
+      53,
+      50,
+      63
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.0,
+      -1.68,
+      0.0
+    ],
+    [
+      2.0,
+      1.76,
+      5.04
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    14
+  ],
+  "occupancy_sha256": "0a83337e2523280e855b55999f8af8db6040c5084f310aeb1e7cb1019f539c54",
+  "surface": {
+    "quads": 4553,
+    "triangles": 9106,
+    "exposed_unit_faces": 15322,
+    "surface_area_m2": 98.0608,
+    "materials": 10
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "radar.vox": "0ea02f1112ced6ccfbc40c85908f8e6b1f6e81eec58575ab2df6dff5a7028d2e",
+    "radar.blend": "9139e799af89984141e422e68060439ae3cf5ebec66cb6ac888729f0fa8cfb3d",
+    "radar.glb": "dcacfaf9c05ac9d9fbf29dd328369a0405b7d5beca9a0bc3f0ddc2f2f481040c",
+    "radar.fbx": "db4a3a02390933c89da59cbd6cb2cacb20ca3201df5a7ddc778b8fb508fb2b0f",
+    "preview.png": "15fdbf20562a4af04399bfe26714e7cceb3f3c2254ac553516142cfc76d9ef39"
+  }
+}

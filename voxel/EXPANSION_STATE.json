@@ -1,0 +1,187 @@
+{
+  "started_at_utc": "2026-10-23T15:28:58Z",
+  "status": "paused",
+  "original_models": 39,
+  "planned_additions": 6,
+  "planned_new_theme_models": 36,
+  "planned_total_models": 81,
+  "planned_total_variants": 162,
+  "accepted": [
+    "desert",
+    "factory",
+    "farm",
+    "antarctic",
+    "mine",
+    "harbor"
+  ],
+  "units": {
+    "farm": {
+      "label": "농장",
+      "phase": "additions",
+      "root": "farm/additions",
+      "assets": [
+        "combine_harvester"
+      ],
+      "worker": "voxel_worker_1"
+    },
+    "factory": {
+      "label": "공장",
+      "phase": "additions",
+      "root": "factory/additions",
+      "assets": [
+        "robot_workcell"
+      ],
+      "worker": "voxel_worker_2"
+    },
+    "antarctic": {
+      "label": "남극 연구기지",
+      "phase": "additions",
+      "root": "antarctic/additions",
+      "assets": [
+        "ice_core_drill"
+      ],
+      "worker": "voxel_worker_3"
+    },
+    "harbor": {
+      "label": "항구",
+      "phase": "additions",
+      "root": "harbor/additions",
+      "assets": [
+        "repair_dock"
+      ],
+      "worker": "voxel_worker_1"
+    },
+    "mine": {
+      "label": "광산",
+      "phase": "additions",
+      "root": "mine/additions",
+      "assets": [
+        "haul_truck"
+      ],
+      "worker": "voxel_worker_2"
+    },
+    "desert": {
+      "label": "사막 전초기지",
+      "phase": "additions",
+      "root": "desert/additions",
+      "assets": [
+        "water_purifier"
+      ],
+      "worker": "main"
+    },
+    "forestry": {
+      "label": "산림·제재소",
+      "phase": "new",
+      "root": "forestry",
+      "assets": [
+        "logging_harvester",
+        "timber_forwarder",
+        "sawmill",
+        "log_rack"
+      ],
+      "worker": "voxel_worker_1"
+    },
+    "construction": {
+      "label": "건설 현장",
+      "phase": "new",
+      "root": "construction",
+      "assets": [
+        "concrete_mixer",
+        "wheel_loader",
+        "tower_crane",
+        "site_office"
+      ],
+      "worker": "voxel_worker_2"
+    },
+    "fire_rescue": {
+      "label": "소방·구조 기지",
+      "phase": "new",
+      "root": "fire_rescue",
+      "assets": [
+        "fire_engine",
+        "rescue_robot",
+        "fire_station",
+        "rescue_helicopter"
+      ],
+      "worker": "voxel_worker_3"
+    },
+    "airfield": {
+      "label": "소형 비행장",
+      "phase": "new",
+      "root": "airfield",
+      "assets": [
+        "propeller_plane",
+        "airport_tug",
+        "maintenance_hangar",
+        "control_tower"
+      ],
+      "worker": "voxel_worker_1"
+    },
+    "recycling": {
+      "label": "재활용 센터",
+      "phase": "new",
+      "root": "recycling",
+      "assets": [
+        "collection_truck",
+        "sorting_machine",
+        "compactor",
+        "recycling_center"
+      ],
+      "worker": "voxel_worker_2"
+    },
+    "geothermal": {
+      "label": "화산·지열 기지",
+      "phase": "new",
+      "root": "geothermal",
+      "assets": [
+        "thermal_rover",
+        "geothermal_drill",
+        "cooling_tower",
+        "volcano_observatory"
+      ],
+      "worker": "voxel_worker_3"
+    },
+    "canal": {
+      "label": "운하·수문 마을",
+      "phase": "new",
+      "root": "canal",
+      "assets": [
+        "canal_boat",
+        "lock_gate",
+        "drawbridge",
+        "lockkeepers_house"
+      ],
+      "worker": "voxel_worker_1"
+    },
+    "camping": {
+      "label": "캠핑·휴양지",
+      "phase": "new",
+      "root": "camping",
+      "assets": [
+        "camper_van",
+        "log_cabin",
+        "generator_trailer",
+        "shower_block"
+      ],
+      "worker": "voxel_worker_2"
+    },
+    "bakery": {
+      "label": "제과·제빵 마을",
+      "phase": "new",
+      "root": "bakery",
+      "assets": [
+        "bakery_shop",
+        "dough_mixer",
+        "bread_oven",
+        "delivery_van"
+      ],
+      "worker": "main"
+    }
+  },
+  "phase_a_complete": true,
+  "paused_at_utc": "2026-10-23T16:03:52.742472+00:00",
+  "pause_reason": "User explicitly requested commit validated outputs and stop; resume later.",
+  "new_themes_started": false,
+  "completed_models": 45,
+  "completed_variants": 90
+}

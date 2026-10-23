@@ -1,0 +1,182 @@
+{
+  "asset": "snowcat",
+  "label": "Tracked Antarctic utility snowcat",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      231,
+      222,
+      202,
+      255
+    ],
+    [
+      249,
+      242,
+      224,
+      255
+    ],
+    [
+      184,
+      182,
+      169,
+      255
+    ],
+    [
+      31,
+      67,
+      91,
+      255
+    ],
+    [
+      42,
+      87,
+      117,
+      255
+    ],
+    [
+      41,
+      47,
+      53,
+      255
+    ],
+    [
+      98,
+      112,
+      121,
+      255
+    ],
+    [
+      152,
+      162,
+      163,
+      255
+    ],
+    [
+      233,
+      111,
+      24,
+      255
+    ],
+    [
+      255,
+      159,
+      45,
+      255
+    ],
+    [
+      35,
+      108,
+      147,
+      255
+    ],
+    [
+      91,
+      169,
+      193,
+      255
+    ],
+    [
+      25,
+      33,
+      40,
+      255
+    ],
+    [
+      255,
+      239,
+      184,
+      255
+    ],
+    [
+      67,
+      78,
+      85,
+      255
+    ]
+  ],
+  "notes": {
+    "design": "Two separated capsule track belts with road wheels and treads, blunt curved snow blade, glazed cab, cargo generator and rear protective hoop.",
+    "half_resolution_strategy": "Track shell is six voxels thick, blade five voxels, road-wheel hubs and load-bearing bars retained by conservative reduction. No manual half corrections.",
+    "front": "-Y"
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    52,
+    64,
+    42
+  ],
+  "occupied_voxels": 49767,
+  "voxel_size_m": 0.09,
+  "grid_extents_m": [
+    4.68,
+    5.76,
+    3.78
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      50,
+      62,
+      42
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.16,
+      -2.61,
+      0.18
+    ],
+    [
+      2.16,
+      2.6999999999999997,
+      3.78
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15
+  ],
+  "occupancy_sha256": "b34b6b372043d8c01dd8513e206005c565a77f95f276d1355923498c0ed020d3",
+  "surface": {
+    "quads": 2627,
+    "triangles": 5254,
+    "exposed_unit_faces": 18804,
+    "surface_area_m2": 152.3124,
+    "materials": 13
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "snowcat.vox": "cdc0904b5ce7f0d77ea1baa7ac18ef31adab70c86b6afe6778bda68dfcaac69f",
+    "snowcat.blend": "3411f058f6f805cb25292b75368d6451a335e816a7b138a0805a7adc31600896",
+    "snowcat.glb": "8930dc794389796f6c55502d627ba738a6a5f9f9b439e10508e359f3c94f93c5",
+    "snowcat.fbx": "725dd8b096524b54786834b578e3fcfc1bfba8a3b8a6ad59758cec9f2bfc83f2",
+    "preview.png": "92ccfc4186a9e7a41a5186e34055efb72d38fa86a311792b80f9f982cd14f4a4"
+  }
+}

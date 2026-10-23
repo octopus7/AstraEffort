@@ -1,0 +1,182 @@
+{
+  "asset": "ice_core_drill",
+  "label": "Sled-mounted Antarctic ice core drill",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      231,
+      222,
+      202,
+      255
+    ],
+    [
+      249,
+      242,
+      224,
+      255
+    ],
+    [
+      184,
+      182,
+      169,
+      255
+    ],
+    [
+      31,
+      67,
+      91,
+      255
+    ],
+    [
+      42,
+      87,
+      117,
+      255
+    ],
+    [
+      41,
+      47,
+      53,
+      255
+    ],
+    [
+      98,
+      112,
+      121,
+      255
+    ],
+    [
+      152,
+      162,
+      163,
+      255
+    ],
+    [
+      233,
+      111,
+      24,
+      255
+    ],
+    [
+      255,
+      159,
+      45,
+      255
+    ],
+    [
+      35,
+      108,
+      147,
+      255
+    ],
+    [
+      91,
+      169,
+      193,
+      255
+    ],
+    [
+      25,
+      33,
+      40,
+      255
+    ],
+    [
+      255,
+      239,
+      184,
+      255
+    ],
+    [
+      67,
+      78,
+      85,
+      255
+    ]
+  ],
+  "notes": {
+    "features": "Two sled runners, four planted stabilizers, open through-deck coring slot, blunt vertical barrel, two-column mast with top winch and sliding drive, side power cabinet and three sample cylinders.",
+    "half_strategy": "Slot 20 by 26 large voxels, barrel 8-9 voxels diameter, guide rails 4 voxels diameter, stabilizers 6.4 voxels diameter. No manual half postprocess.",
+    "palette": "Accepted Antarctic palette, reused only as authorized theme colors; geometry independently authored.",
+    "front": "-Y",
+    "static_pose": "Stabilizers deployed; no animation or articulated rig supplied."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    112,
+    98,
+    128
+  ],
+  "occupied_voxels": 190054,
+  "voxel_size_m": 0.045,
+  "grid_extents_m": [
+    5.04,
+    4.41,
+    5.76
+  ],
+  "occupied_bounds_voxels": [
+    [
+      1,
+      6,
+      0
+    ],
+    [
+      111,
+      94,
+      128
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.475,
+      -1.9349999999999998,
+      0.0
+    ],
+    [
+      2.475,
+      2.025,
+      5.76
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    15
+  ],
+  "occupancy_sha256": "fcc6c26783bdc439a0e6a6a6f7af1c324aeed4e27d1aa7246e77655b2d53128a",
+  "surface": {
+    "quads": 5347,
+    "triangles": 10694,
+    "exposed_unit_faces": 68282,
+    "surface_area_m2": 138.27105,
+    "materials": 11
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "ice_core_drill.vox": "4127064f3bfb2f9e4a6f165a3b5380ce380a25e2e0781f2c5f3eee6859723751",
+    "ice_core_drill.blend": "37805f275f265e0f2468d459670ed1e04081c19aa6cd0267d8e16c6c6b73728c",
+    "ice_core_drill.glb": "209feffb4bfc4d6db4abd3b177bac4fc23d2a10cb59879eb2ff376a0f1b8997f",
+    "ice_core_drill.fbx": "1ebd0d4c845dc5b3a5aa376a9dc010e2158bd69cd77642d0b9e1eb658f2045b9",
+    "preview.png": "8ed885d19ab5f52ced1c6dd1cecefa1172da2675faac0744c5cea0e0bc72ad86"
+  }
+}

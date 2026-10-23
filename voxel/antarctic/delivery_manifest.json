@@ -1,0 +1,264 @@
+{
+  "theme": "antarctic",
+  "status": "ready_for_review",
+  "timing": {
+    "started_at_utc": "2026-10-23T14:06:05Z",
+    "started_at_kst": "2026-10-23T23:06:05+09:00",
+    "finished_at_utc": "2026-10-23T14:20:49Z",
+    "finished_at_kst": "2026-10-23T23:20:49+09:00",
+    "elapsed_seconds": 884.321488,
+    "build_export_render_internal_seconds": 126.77143180009443,
+    "independent_validation_internal_seconds": 20.94314350001514,
+    "worker_image_generation_seconds": 0,
+    "tools_wait_seconds": null,
+    "tools_wait_note": "Tools became ready during source authoring; no separate blocking interval was measured.",
+    "build_runs": [
+      {
+        "started_at_utc": "2026-10-23T14:12:17.497681+00:00",
+        "finished_at_utc": "2026-10-23T14:13:42.086869+00:00",
+        "elapsed_seconds": 84.58887790003791,
+        "assets": [
+          "research_station",
+          "snowcat",
+          "radar",
+          "weather_instrument"
+        ],
+        "evidence": "build.log; initial build_validation.json was read before later selective builds replaced it"
+      },
+      {
+        "started_at_utc": "2026-10-23T14:15:29.683270+00:00",
+        "finished_at_utc": "2026-10-23T14:15:49.050778+00:00",
+        "elapsed_seconds": 19.367346100043505
+      },
+      {
+        "started_at_utc": "2026-10-23T14:16:59.234246+00:00",
+        "finished_at_utc": "2026-10-23T14:17:22.050010+00:00",
+        "elapsed_seconds": 22.815207800013013
+      }
+    ]
+  },
+  "asset_count": 4,
+  "variant_count": 8,
+  "native_authority": "VOX 150 occupied uint8 grids",
+  "formats_per_variant": [
+    "vox",
+    "blend",
+    "glb",
+    "fbx"
+  ],
+  "actual_previews_reviewed": [
+    "assets/research_station/large/preview.png",
+    "assets/research_station/half/preview.png",
+    "assets/snowcat/large/preview.png",
+    "assets/snowcat/half/preview.png",
+    "assets/radar/large/preview.png",
+    "assets/radar/half/preview.png",
+    "assets/weather_instrument/large/preview.png",
+    "assets/weather_instrument/half/preview.png"
+  ],
+  "same_camera_verified": true,
+  "final_hash_audit_passed": true,
+  "source_sha256": "852af696221a9f0cb8a4bbec04c619ab3e050c1d81c0d4e6ba05119327de28a0",
+  "variants": [
+    {
+      "asset": "research_station",
+      "variant": "large",
+      "directory": "assets/research_station/large",
+      "grid": [
+        128,
+        100,
+        100
+      ],
+      "occupied_voxels": 416647,
+      "triangles": 8866,
+      "voxel_size_m": 0.065,
+      "grid_extents_m": [
+        8.32,
+        6.5,
+        6.5
+      ],
+      "sha256": {
+        "research_station.vox": "bab3229a420d5547e80ec13cc11c340b2d01040eb32746330e9a793005d1f3ff",
+        "research_station.blend": "44b0ac700b2e216d78b2ef9ab2d4b205ac1d73e6a70046439d00bba821c3535a",
+        "research_station.glb": "1e8d7d33e0404a075428f88e5f90294ec0afc3635917e1a927cccca917449fe0",
+        "research_station.fbx": "642084460de3dfd2aa0ca395db980b7df1882a8bd4aacb2e8f63462b7f5d8286",
+        "preview.png": "a63b295e7112dcf109146414937513ed76cbaa82635e51c271c94e94f4aa117b"
+      }
+    },
+    {
+      "asset": "research_station",
+      "variant": "half",
+      "directory": "assets/research_station/half",
+      "grid": [
+        64,
+        50,
+        50
+      ],
+      "occupied_voxels": 55929,
+      "triangles": 3758,
+      "voxel_size_m": 0.13,
+      "grid_extents_m": [
+        8.32,
+        6.5,
+        6.5
+      ],
+      "sha256": {
+        "research_station.vox": "f8084b993edaf81be834e630b5650454653c7914ae165e871d17ec5d265a5313",
+        "research_station.blend": "54fbfb7078d2c236bce20b090b710a10f3b6333a682fa01c9762b3ad280ca7bb",
+        "research_station.glb": "d1e3c8c43000bd4eed319d285c33a5de465367039f4790727c907f74b3b3eba8",
+        "research_station.fbx": "cc61a7b8b43be62ca0b72b56848eb462e8833a7a9b981559c40f3ce2c014f3e0",
+        "preview.png": "0474cea7b1a26fe5e714a3120155b75e642d0d889117cadc98a92894b1a22e9b"
+      }
+    },
+    {
+      "asset": "snowcat",
+      "variant": "large",
+      "directory": "assets/snowcat/large",
+      "grid": [
+        104,
+        128,
+        84
+      ],
+      "occupied_voxels": 356716,
+      "triangles": 12540,
+      "voxel_size_m": 0.045,
+      "grid_extents_m": [
+        4.68,
+        5.76,
+        3.78
+      ],
+      "sha256": {
+        "snowcat.vox": "b62c8ecf23eca2d602666906f530ab7586aee0a2d9d1425f604886a4d2540a99",
+        "snowcat.blend": "df2848f1a5a2958f4c74cfd79a8305267f4639658ebb129b626a4dd2e3f1c2a9",
+        "snowcat.glb": "f00f04e52004341980a6a4b2b0601e1a9e9664621b20bc12e4e88e4e32a753c8",
+        "snowcat.fbx": "bdcd33a8375bb1861942e866bda3d9a04f0f052b63965cd193fd0abf7123bd3d",
+        "preview.png": "4ef59064cfbb9a2796fdda12c764ee90ab5a5091f18a2276b7fe94712b6bbc05"
+      }
+    },
+    {
+      "asset": "snowcat",
+      "variant": "half",
+      "directory": "assets/snowcat/half",
+      "grid": [
+        52,
+        64,
+        42
+      ],
+      "occupied_voxels": 49767,
+      "triangles": 5254,
+      "voxel_size_m": 0.09,
+      "grid_extents_m": [
+        4.68,
+        5.76,
+        3.78
+      ],
+      "sha256": {
+        "snowcat.vox": "cdc0904b5ce7f0d77ea1baa7ac18ef31adab70c86b6afe6778bda68dfcaac69f",
+        "snowcat.blend": "3411f058f6f805cb25292b75368d6451a335e816a7b138a0805a7adc31600896",
+        "snowcat.glb": "8930dc794389796f6c55502d627ba738a6a5f9f9b439e10508e359f3c94f93c5",
+        "snowcat.fbx": "725dd8b096524b54786834b578e3fcfc1bfba8a3b8a6ad59758cec9f2bfc83f2",
+        "preview.png": "92ccfc4186a9e7a41a5186e34055efb72d38fa86a311792b80f9f982cd14f4a4"
+      }
+    },
+    {
+      "asset": "radar",
+      "variant": "large",
+      "directory": "assets/radar/large",
+      "grid": [
+        112,
+        112,
+        128
+      ],
+      "occupied_voxels": 182693,
+      "triangles": 31172,
+      "voxel_size_m": 0.04,
+      "grid_extents_m": [
+        4.48,
+        4.48,
+        5.12
+      ],
+      "sha256": {
+        "radar.vox": "aa491a91a967e0bcd477eb5de2b1877f026a169f3e128c24f6330fbc74fe5ea8",
+        "radar.blend": "3ad47b2aef5ccd7c3390ef4d6fa424541ef250524acee1b9695cabb4d421b909",
+        "radar.glb": "58dce360dc9c58da3d97ece03e42a94d8fb20bfb06aa696a9355c78013bde0ef",
+        "radar.fbx": "3b45f6e68149e4c2a8bb5a9fb6468596517b6841aa57b3b9372597b9c5e7dbdc",
+        "preview.png": "542cf5721157f3f6c227a140e4d8ad6c664a8d17510e3ccc98abec629f58668e"
+      }
+    },
+    {
+      "asset": "radar",
+      "variant": "half",
+      "directory": "assets/radar/half",
+      "grid": [
+        56,
+        56,
+        64
+      ],
+      "occupied_voxels": 26982,
+      "triangles": 9106,
+      "voxel_size_m": 0.08,
+      "grid_extents_m": [
+        4.48,
+        4.48,
+        5.12
+      ],
+      "sha256": {
+        "radar.vox": "0ea02f1112ced6ccfbc40c85908f8e6b1f6e81eec58575ab2df6dff5a7028d2e",
+        "radar.blend": "9139e799af89984141e422e68060439ae3cf5ebec66cb6ac888729f0fa8cfb3d",
+        "radar.glb": "dcacfaf9c05ac9d9fbf29dd328369a0405b7d5beca9a0bc3f0ddc2f2f481040c",
+        "radar.fbx": "db4a3a02390933c89da59cbd6cb2cacb20ca3201df5a7ddc778b8fb508fb2b0f",
+        "preview.png": "15fdbf20562a4af04399bfe26714e7cceb3f3c2254ac553516142cfc76d9ef39"
+      }
+    },
+    {
+      "asset": "weather_instrument",
+      "variant": "large",
+      "directory": "assets/weather_instrument/large",
+      "grid": [
+        80,
+        80,
+        128
+      ],
+      "occupied_voxels": 49559,
+      "triangles": 12306,
+      "voxel_size_m": 0.025,
+      "grid_extents_m": [
+        2.0,
+        2.0,
+        3.2
+      ],
+      "sha256": {
+        "weather_instrument.vox": "f448068844e86026945bacdac2c1fdd7959d9c2fff8dd7a88c88e3ba81a73c35",
+        "weather_instrument.blend": "39c150d5ee28579fdf0bb699350755620e0916161a3c9913d0dc5b1879684ca0",
+        "weather_instrument.glb": "f1b864c6eecf04da2eef19ef77e6b109e8027e02663c8aa1d166a3f7088dbb60",
+        "weather_instrument.fbx": "904d1ac65933a529988ad9162982e070a686920bd76f0f6ee30cceff537f440e",
+        "preview.png": "198152de8a762c6d3ba5db581fbf5824611786f42e29dabcc09c8f735ddb7fcf"
+      }
+    },
+    {
+      "asset": "weather_instrument",
+      "variant": "half",
+      "directory": "assets/weather_instrument/half",
+      "grid": [
+        40,
+        40,
+        64
+      ],
+      "occupied_voxels": 8621,
+      "triangles": 4588,
+      "voxel_size_m": 0.05,
+      "grid_extents_m": [
+        2.0,
+        2.0,
+        3.2
+      ],
+      "sha256": {
+        "weather_instrument.vox": "52011e1e81893e4f37648b367d2931f3d68e2d6cf0740d496a6d091e3004fa89",
+        "weather_instrument.blend": "d36703d9b9a0e2de8f086d3404bfc59cf4d06372b1b930172a7dac966e8a0c8c",
+        "weather_instrument.glb": "b9bd1ec2b3e0e366e198b4ae3d6a9175addffcc0a9c574d39729e047ba34948c",
+        "weather_instrument.fbx": "f48dad3524c2200061f4b8b14dd71986aa0fd60f41ca8bc386a6a97b6ac54e4a",
+        "preview.png": "f27eb7bb99f982a7e37d47dc0717146c3834f3a739b5a9540e25efadabe38ed9"
+      }
+    }
+  ]
+}

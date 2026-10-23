@@ -1,0 +1,200 @@
+{
+  "asset": "excavator",
+  "label": "Compact tracked mine excavator",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      106,
+      115,
+      75,
+      255
+    ],
+    [
+      138,
+      146,
+      102,
+      255
+    ],
+    [
+      62,
+      74,
+      49,
+      255
+    ],
+    [
+      209,
+      201,
+      172,
+      255
+    ],
+    [
+      235,
+      225,
+      196,
+      255
+    ],
+    [
+      73,
+      82,
+      80,
+      255
+    ],
+    [
+      116,
+      126,
+      122,
+      255
+    ],
+    [
+      33,
+      40,
+      38,
+      255
+    ],
+    [
+      55,
+      65,
+      60,
+      255
+    ],
+    [
+      194,
+      100,
+      43,
+      255
+    ],
+    [
+      230,
+      137,
+      63,
+      255
+    ],
+    [
+      168,
+      177,
+      170,
+      255
+    ],
+    [
+      65,
+      98,
+      102,
+      255
+    ],
+    [
+      20,
+      28,
+      27,
+      255
+    ],
+    [
+      142,
+      108,
+      66,
+      255
+    ],
+    [
+      135,
+      145,
+      137,
+      255
+    ],
+    [
+      236,
+      177,
+      61,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "two separate track belts",
+      "framed cab",
+      "articulated boom",
+      "two hydraulic actuators",
+      "true hollow bucket"
+    ],
+    "half": "Independent conservative 2x occupancy reduction; minor pins/cleats simplify; no manual half-grid correction."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    104,
+    128,
+    112
+  ],
+  "occupied_voxels": 271568,
+  "voxel_size_m": 0.035,
+  "grid_extents_m": [
+    3.6400000000000006,
+    4.48,
+    3.9200000000000004
+  ],
+  "occupied_bounds_voxels": [
+    [
+      9,
+      0,
+      1
+    ],
+    [
+      102,
+      125,
+      105
+    ]
+  ],
+  "bounds_m": [
+    [
+      -1.5050000000000001,
+      -2.24,
+      0.035
+    ],
+    [
+      1.7500000000000002,
+      2.1350000000000002,
+      3.6750000000000003
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    17
+  ],
+  "occupancy_sha256": "19ea71443ac18d13bf9dcf48be4ffa947800bdbf339e560251814a5fffb22d85",
+  "surface": {
+    "quads": 5798,
+    "triangles": 11596,
+    "exposed_unit_faces": 83260,
+    "surface_area_m2": 101.99350000000003,
+    "materials": 14
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "excavator.vox": "9caaa6ce4a8667e1c905b419f92c0781fd34d5415456ea6db09dc38f1e015213",
+    "excavator.blend": "a6d560126028601546635e89d52c6d8ffe82f4b86df8d0d917b6d42677c00dc7",
+    "excavator.glb": "319fca80532bc0349b9e961272d5984760158b6a72fcaca60fe9d5b3b22876c9",
+    "excavator.fbx": "e507593a80ef9192f2a447e0f94ab772423920f46389e0a3fd20abcdae2c7412",
+    "preview.png": "1eb32a455cd45fc429db5fe59b6ec4acb8bb00c941321540ffa90e879bd84981"
+  }
+}

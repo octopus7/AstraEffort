@@ -1,0 +1,196 @@
+{
+  "asset": "transport_rocket",
+  "label": "Four-leg capsule transport rocket",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      218,
+      221,
+      211,
+      255
+    ],
+    [
+      242,
+      242,
+      230,
+      255
+    ],
+    [
+      172,
+      182,
+      179,
+      255
+    ],
+    [
+      91,
+      122,
+      142,
+      255
+    ],
+    [
+      124,
+      155,
+      170,
+      255
+    ],
+    [
+      54,
+      78,
+      97,
+      255
+    ],
+    [
+      48,
+      57,
+      62,
+      255
+    ],
+    [
+      29,
+      37,
+      42,
+      255
+    ],
+    [
+      139,
+      151,
+      156,
+      255
+    ],
+    [
+      209,
+      104,
+      77,
+      255
+    ],
+    [
+      238,
+      138,
+      102,
+      255
+    ],
+    [
+      55,
+      104,
+      127,
+      255
+    ],
+    [
+      90,
+      146,
+      164,
+      255
+    ],
+    [
+      246,
+      197,
+      107,
+      255
+    ],
+    [
+      41,
+      48,
+      51,
+      255
+    ],
+    [
+      73,
+      83,
+      87,
+      255
+    ],
+    [
+      116,
+      118,
+      111,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "capsule nose",
+      "framed access hatch",
+      "four landing legs",
+      "three hollow engine bells",
+      "service pods"
+    ],
+    "half": "Conservative 2x voxel reduction. Landing legs, feet and engine mouth voids are structural; fine hinges and pod collars simplify."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    96,
+    96,
+    128
+  ],
+  "occupied_voxels": 158211,
+  "voxel_size_m": 0.055,
+  "grid_extents_m": [
+    5.28,
+    5.28,
+    7.04
+  ],
+  "occupied_bounds_voxels": [
+    [
+      8,
+      8,
+      2
+    ],
+    [
+      88,
+      88,
+      128
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.2,
+      -2.2,
+      0.11
+    ],
+    [
+      2.2,
+      2.2,
+      7.04
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12
+  ],
+  "occupancy_sha256": "4da740c88552824cd976d7e576d58101dd71c4587e4ef30a7ce01c0aeeb280c8",
+  "surface": {
+    "quads": 9377,
+    "triangles": 18754,
+    "exposed_unit_faces": 36926,
+    "surface_area_m2": 111.70115,
+    "materials": 10
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "transport_rocket.vox": "61b6e2d7ee7fe7c5e49ddd465e0c445309b3890f3f799f1e2fbacf329d589974",
+    "transport_rocket.blend": "3fed3c7b0a00972d2c1d78379fb1f7262d93c06fe80f7a7b6f4a208cdb527d8f",
+    "transport_rocket.glb": "537bd839dfca7e29da51591509bba64686d460fbd35ca12754a9b08a59055cd9",
+    "transport_rocket.fbx": "753e26f6f3bb6f06bff457ee760f0636fcf1b5b0b909bfd0963bb1fe1ebf4490",
+    "preview.png": "631c383a7aaa41227a8a71d556551f4269d4c153bba53909a98e1100e898b64a"
+  }
+}

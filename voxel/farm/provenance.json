@@ -1,0 +1,21 @@
+{
+    "shared_generic_utilities":  [
+                                     "voxel/_tools/voxelkit.py",
+                                     "voxel/_tools/blender_pipeline.py",
+                                     "voxel/_tools/verify_theme.py"
+                                 ],
+    "authored_source":  "build.py",
+    "external_references":  [
+
+                            ],
+    "reduction":  "Exact 2x reduction of every grid axis; nonempty 2x2x2 majority with doubled meters per voxel; no manual half-grid edits",
+    "authored_geometry":  "Four independent uint8 occupied voxel grids with original deterministic structural detailing",
+    "theme":  "farm",
+    "design_input":  {
+                         "path":  "D:/github/AstraEffort/REF/voxel/farm/reference.png",
+                         "sha256":  "3f5561703a5554a9ab8515a021b230206bc7dfcc56460dbf167ddff4e8a686f7",
+                         "role":  "Parent-provided farm reference; viewed as design guidance only, not used as render evidence or a texture"
+                     },
+    "source_sha256":  "39375b0876b3c8bc02aede78bf35f804e82238780269dfbf579847add32fde3d",
+    "worker_image_generation_seconds":  0
+}

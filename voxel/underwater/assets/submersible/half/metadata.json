@@ -1,0 +1,180 @@
+{
+  "asset": "submersible",
+  "label": "Ducted-thruster research submersible",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      225,
+      220,
+      203,
+      255
+    ],
+    [
+      247,
+      239,
+      214,
+      255
+    ],
+    [
+      174,
+      176,
+      164,
+      255
+    ],
+    [
+      30,
+      68,
+      84,
+      255
+    ],
+    [
+      44,
+      99,
+      119,
+      255
+    ],
+    [
+      44,
+      118,
+      148,
+      255
+    ],
+    [
+      97,
+      164,
+      183,
+      255
+    ],
+    [
+      222,
+      163,
+      36,
+      255
+    ],
+    [
+      246,
+      193,
+      60,
+      255
+    ],
+    [
+      38,
+      47,
+      54,
+      255
+    ],
+    [
+      85,
+      102,
+      111,
+      255
+    ],
+    [
+      144,
+      158,
+      163,
+      255
+    ],
+    [
+      23,
+      66,
+      87,
+      255
+    ],
+    [
+      255,
+      235,
+      172,
+      255
+    ],
+    [
+      48,
+      125,
+      132,
+      255
+    ]
+  ],
+  "notes": {
+    "features": "Rounded opaque viewport, two through-bored thruster ducts with recessed spokes, paired manipulators, landing runners and maintenance fittings.",
+    "glazing": "Opaque solid-color voxels, no simulated transparency.",
+    "half_detail": "Duct wall >=5 voxels; gripper fingers and rotor spokes >=3.2 voxels diameter; no manual half correction."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    64,
+    56,
+    50
+  ],
+  "occupied_voxels": 34273,
+  "voxel_size_m": 0.07,
+  "grid_extents_m": [
+    4.48,
+    3.9200000000000004,
+    3.5000000000000004
+  ],
+  "occupied_bounds_voxels": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      64,
+      53,
+      50
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.24,
+      -1.9600000000000002,
+      0.07
+    ],
+    [
+      2.24,
+      1.7500000000000002,
+      3.5000000000000004
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "occupancy_sha256": "d3a9d0ebb0ab3f3f67fc939983a8d10c1205e53de618fa2c3e6e2e9133273aab",
+  "surface": {
+    "quads": 3996,
+    "triangles": 7992,
+    "exposed_unit_faces": 14120,
+    "surface_area_m2": 69.18800000000002,
+    "materials": 11
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "submersible.vox": "cfc26d8ce21d8b6ebe3469e4aa7f3bcca7a7a621b169fec908a636839bb4f75f",
+    "submersible.blend": "d05e15661349c868571e4e435096c997d0a95e52831894265180a5bc9b707b6e",
+    "submersible.glb": "3909c23801094fbaa0d8a56900012d8376a8c28bddcd297015a09a4836f7e861",
+    "submersible.fbx": "bc7670e8dd6481043fdd28a83dda5a73c96baa66ee605193df83dcca31e4d187",
+    "preview.png": "771e0d178f6953f05b6c64fdafaa4f82a1cdbb25b16f0449a27562ee19b00e21"
+  }
+}

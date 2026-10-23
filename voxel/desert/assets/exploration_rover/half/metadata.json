@@ -1,0 +1,182 @@
+{
+  "asset": "exploration_rover",
+  "label": "Six-wheel desert exploration rover",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      210,
+      182,
+      136,
+      255
+    ],
+    [
+      239,
+      217,
+      178,
+      255
+    ],
+    [
+      156,
+      132,
+      101,
+      255
+    ],
+    [
+      205,
+      99,
+      36,
+      255
+    ],
+    [
+      149,
+      66,
+      30,
+      255
+    ],
+    [
+      64,
+      114,
+      116,
+      255
+    ],
+    [
+      37,
+      77,
+      82,
+      255
+    ],
+    [
+      53,
+      56,
+      56,
+      255
+    ],
+    [
+      35,
+      39,
+      41,
+      255
+    ],
+    [
+      88,
+      92,
+      89,
+      255
+    ],
+    [
+      148,
+      155,
+      146,
+      255
+    ],
+    [
+      43,
+      72,
+      84,
+      255
+    ],
+    [
+      100,
+      139,
+      146,
+      255
+    ],
+    [
+      39,
+      88,
+      109,
+      255
+    ],
+    [
+      255,
+      225,
+      150,
+      255
+    ]
+  ],
+  "notes": {
+    "features": "Six rounded treaded wheels and axle/damper geometry; raked cab; protected radiator; roof cases; recessed cargo tray; rear cooling cassette.",
+    "reduction": "Designed with broad frame sections and >=3-voxel rail diameters. No manual half-resolution corrections.",
+    "front": "-Y"
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    50,
+    64,
+    48
+  ],
+  "occupied_voxels": 53223,
+  "voxel_size_m": 0.09,
+  "grid_extents_m": [
+    4.5,
+    5.76,
+    4.32
+  ],
+  "occupied_bounds_voxels": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      50,
+      64,
+      47
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.25,
+      -2.6999999999999997,
+      0.09
+    ],
+    [
+      2.25,
+      2.88,
+      4.2299999999999995
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "occupancy_sha256": "e8c0b006e0388ee50eb52e7b03f34ecb3b9e0e2c1e6d03a608cd7eb2faecbf73",
+  "surface": {
+    "quads": 4192,
+    "triangles": 8384,
+    "exposed_unit_faces": 23938,
+    "surface_area_m2": 193.8978,
+    "materials": 13
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "exploration_rover.vox": "4d19fe68c298c38553473f8e153bbe3ad4ac4c14c214ecd358ab5f06786fbba7",
+    "exploration_rover.blend": "352b31ed70526481c6c89e7582437de09728f7b83ac24ae33d14679e092b1bf6",
+    "exploration_rover.glb": "677124aafdc81065bf373f382bd737959c85935de188c79944adf64f16bf0102",
+    "exploration_rover.fbx": "c8d80d954f9bc2ec42a5ac4da821dc015f7f37a6ab3ad39b5a2929f40f37d381",
+    "preview.png": "c123b8568c7629f1fff2213e318d95c5369dff5b7f3217c620d05a5d958ee78a"
+  }
+}

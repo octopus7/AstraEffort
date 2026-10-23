@@ -1,0 +1,1993 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T14:54:21.140973+00:00",
+  "finished_at_utc": "2026-10-23T14:56:02.580833+00:00",
+  "elapsed_seconds": 101.43966439994983,
+  "assets": [
+    {
+      "asset": "transport_rocket",
+      "large": {
+        "asset": "transport_rocket",
+        "label": "Four-leg capsule transport rocket",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "capsule nose",
+            "framed access hatch",
+            "four landing legs",
+            "three hollow engine bells",
+            "service pods"
+          ],
+          "half": "Conservative 2x voxel reduction. Landing legs, feet and engine mouth voids are structural; fine hinges and pod collars simplify."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          96,
+          96,
+          128
+        ],
+        "occupied_voxels": 158211,
+        "voxel_size_m": 0.055,
+        "grid_extents_m": [
+          5.28,
+          5.28,
+          7.04
+        ],
+        "occupied_bounds_voxels": [
+          [
+            8,
+            8,
+            2
+          ],
+          [
+            88,
+            88,
+            128
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.2,
+            -2.2,
+            0.11
+          ],
+          [
+            2.2,
+            2.2,
+            7.04
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12
+        ],
+        "occupancy_sha256": "4da740c88552824cd976d7e576d58101dd71c4587e4ef30a7ce01c0aeeb280c8",
+        "surface": {
+          "quads": 9377,
+          "triangles": 18754,
+          "exposed_unit_faces": 36926,
+          "surface_area_m2": 111.70115,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "transport_rocket.vox": "61b6e2d7ee7fe7c5e49ddd465e0c445309b3890f3f799f1e2fbacf329d589974",
+          "transport_rocket.blend": "3fed3c7b0a00972d2c1d78379fb1f7262d93c06fe80f7a7b6f4a208cdb527d8f",
+          "transport_rocket.glb": "537bd839dfca7e29da51591509bba64686d460fbd35ca12754a9b08a59055cd9",
+          "transport_rocket.fbx": "753e26f6f3bb6f06bff457ee760f0636fcf1b5b0b909bfd0963bb1fe1ebf4490",
+          "preview.png": "631c383a7aaa41227a8a71d556551f4269d4c153bba53909a98e1100e898b64a"
+        }
+      },
+      "half": {
+        "asset": "transport_rocket",
+        "label": "Four-leg capsule transport rocket",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "capsule nose",
+            "framed access hatch",
+            "four landing legs",
+            "three hollow engine bells",
+            "service pods"
+          ],
+          "half": "Conservative 2x voxel reduction. Landing legs, feet and engine mouth voids are structural; fine hinges and pod collars simplify."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          48,
+          48,
+          64
+        ],
+        "occupied_voxels": 22132,
+        "voxel_size_m": 0.11,
+        "grid_extents_m": [
+          5.28,
+          5.28,
+          7.04
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            4,
+            1
+          ],
+          [
+            44,
+            44,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.2,
+            -2.2,
+            0.11
+          ],
+          [
+            2.2,
+            2.2,
+            7.04
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12
+        ],
+        "occupancy_sha256": "f6d5ff1fb84a248eb7fed2ccca31431d2c00a5f496d0420ac7fae3d6e414e812",
+        "surface": {
+          "quads": 2929,
+          "triangles": 5858,
+          "exposed_unit_faces": 9704,
+          "surface_area_m2": 117.4184,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "transport_rocket.vox": "c6e84e8d34c1e41f72d0f041bb50e3e7bf06d869bb82ab9dadfd0b6693f931d8",
+          "transport_rocket.blend": "33b94e220a3d5d48173d2853841bb5d476aca310e2e9cf1001f76c6d260ab7ac",
+          "transport_rocket.glb": "95ea24f5169577d0a551003843ec5b9dede91969b1522916038322fd197158d3",
+          "transport_rocket.fbx": "03cff019adc185d3d8ab6a18a2425acaa97107e74fb155830d875ffe43a5e1cf",
+          "preview.png": "0c600367313c7641f0cc6dfad1034e7460927d9822eafaf237820350e1865671"
+        }
+      }
+    },
+    {
+      "asset": "hangar",
+      "large": {
+        "asset": "hangar",
+        "label": "Low barrel-vault spacecraft hangar",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "broad rounded arch",
+            "true open spacecraft doorway",
+            "clear interior vehicle path",
+            "approach lights",
+            "service annex"
+          ],
+          "half": "Independent conservative half grid retains the full doorway and interior; roof ribs/lights simplify."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          112,
+          88
+        ],
+        "occupied_voxels": 327848,
+        "voxel_size_m": 0.065,
+        "grid_extents_m": [
+          8.32,
+          7.28,
+          5.720000000000001
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            4,
+            3
+          ],
+          [
+            121,
+            109,
+            85
+          ]
+        ],
+        "bounds_m": [
+          [
+            -4.16,
+            -3.38,
+            0.195
+          ],
+          [
+            3.705,
+            3.4450000000000003,
+            5.525
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          9,
+          10,
+          14
+        ],
+        "occupancy_sha256": "3451d59d8657cbee1d814a7af414607912c193d5e38580ff3ea5124a62547755",
+        "surface": {
+          "quads": 2307,
+          "triangles": 4614,
+          "exposed_unit_faces": 89274,
+          "surface_area_m2": 377.18265,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "hangar.vox": "bdba9a89633d63de14ec1849f9d0bc329e78f635c9edc5a8c0b29d612fe22520",
+          "hangar.blend": "825e1a8d8ed9e2d7127fd547925f2880802cf46a8c2093db2706cadd3f3a1159",
+          "hangar.glb": "5b58bb34eaa400a24759d076065f571b431e1ab0f801210c68569b614b674448",
+          "hangar.fbx": "2fb36e85b877bfdac5b8140a6843855b066e60c7e1af01501e0296a96aab5618",
+          "preview.png": "8ed88606b3c88db8f9e011429a4a0e3d4cb4e6eb4e3fbde49c3d0bd8c0d86bd1"
+        }
+      },
+      "half": {
+        "asset": "hangar",
+        "label": "Low barrel-vault spacecraft hangar",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "broad rounded arch",
+            "true open spacecraft doorway",
+            "clear interior vehicle path",
+            "approach lights",
+            "service annex"
+          ],
+          "half": "Independent conservative half grid retains the full doorway and interior; roof ribs/lights simplify."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          56,
+          44
+        ],
+        "occupied_voxels": 46651,
+        "voxel_size_m": 0.13,
+        "grid_extents_m": [
+          8.32,
+          7.28,
+          5.720000000000001
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            61,
+            55,
+            43
+          ]
+        ],
+        "bounds_m": [
+          [
+            -4.16,
+            -3.38,
+            0.13
+          ],
+          [
+            3.77,
+            3.5100000000000002,
+            5.59
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          9,
+          10,
+          14
+        ],
+        "occupancy_sha256": "29bd92de8138a9d5be80632572bbc2fc8b8d2841eeed5eb3113defcca0bc24d0",
+        "surface": {
+          "quads": 1170,
+          "triangles": 2340,
+          "exposed_unit_faces": 22208,
+          "surface_area_m2": 375.3152,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "hangar.vox": "98d019ca449541d0c968888255ef49a67453c94586c1369464ca2fb45c7cfedc",
+          "hangar.blend": "2598df813b61bb42b972ee05e3ed1db4f7dd53fac7f0406a24d2bc3ac8077a54",
+          "hangar.glb": "5c9463a9692a5a8d1568767eb4b0aaf3c5277db3718b46bc51fc2fe2c2ce38dd",
+          "hangar.fbx": "9aeb2c69e96b967c0551ad61410d230e1733af3341fa9bd0b1f7f3b9c95f136e",
+          "preview.png": "ac37ac2782aee26fb8b969bcec9b0c5fe8d60d68c27e04c1a02da8bdf08952a7"
+        }
+      }
+    },
+    {
+      "asset": "exploration_rover",
+      "large": {
+        "asset": "exploration_rover",
+        "label": "Six-wheel pressurized exploration rover",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "six separate wheels",
+            "pressurized cabin",
+            "sensor mast",
+            "communications antenna",
+            "open sample tray"
+          ],
+          "half": "Conservative 2x reduction retains six wheels and tray cavity; tire cleats, antennae and sample stones become chunkier."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          92,
+          128,
+          100
+        ],
+        "occupied_voxels": 300696,
+        "voxel_size_m": 0.035,
+        "grid_extents_m": [
+          3.22,
+          4.48,
+          3.5000000000000004
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            7,
+            1
+          ],
+          [
+            88,
+            124,
+            99
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.4700000000000002,
+            -1.995,
+            0.035
+          ],
+          [
+            1.4700000000000002,
+            2.1,
+            3.4650000000000003
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "occupancy_sha256": "876eded289194b055530487586eec760df5b17697fd88fe7f186e894b0ff5de7",
+        "surface": {
+          "quads": 4469,
+          "triangles": 8938,
+          "exposed_unit_faces": 60980,
+          "surface_area_m2": 74.70050000000002,
+          "materials": 14
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "exploration_rover.vox": "08cb88be37aa93c7ad6f7b600ddf387bfb61bb488fd443219777efb1ff3af808",
+          "exploration_rover.blend": "1889f04ecb09473e2707b6f4112ce957ed92a1d26fd35582d28e6c6face52daf",
+          "exploration_rover.glb": "11823faca28fd7e36497ab095401ec80a9b1d63d341fad9385d0c606f5f3b0cd",
+          "exploration_rover.fbx": "c543001751846ad03bf85a3b444eb8d1c9d903ae9287fb40fbfc96c177454662",
+          "preview.png": "5d70dbc998e2a3c7c4b348ebbc14cc888f3f5248fd08c73ab5f2036a1419fa7a"
+        }
+      },
+      "half": {
+        "asset": "exploration_rover",
+        "label": "Six-wheel pressurized exploration rover",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "six separate wheels",
+            "pressurized cabin",
+            "sensor mast",
+            "communications antenna",
+            "open sample tray"
+          ],
+          "half": "Conservative 2x reduction retains six wheels and tray cavity; tire cleats, antennae and sample stones become chunkier."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          46,
+          64,
+          50
+        ],
+        "occupied_voxels": 42406,
+        "voxel_size_m": 0.07,
+        "grid_extents_m": [
+          3.22,
+          4.48,
+          3.5000000000000004
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            44,
+            62,
+            50
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.4700000000000002,
+            -2.0300000000000002,
+            0.0
+          ],
+          [
+            1.4700000000000002,
+            2.1,
+            3.5000000000000004
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "occupancy_sha256": "3c4f4176bd0ada6a3d534850bcd61cb3a5b43a57f07a8d38289c47e5209e34ec",
+        "surface": {
+          "quads": 1855,
+          "triangles": 3710,
+          "exposed_unit_faces": 15106,
+          "surface_area_m2": 74.01940000000002,
+          "materials": 14
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "exploration_rover.vox": "ebc95b70f9b458e3c956944d3f52232251a5acdd517d19292f7b953b467df89b",
+          "exploration_rover.blend": "ba7b67d71dd4c8892be4d9b050a2596160618a06db2c12ca0bdc952db6e14873",
+          "exploration_rover.glb": "754bdaa0dec9cbb03fa66d241bb0d1c4f8bf8c4028f48f0a37f8ced497528605",
+          "exploration_rover.fbx": "4b6ac81e26f2b3cb50668c9b2a349bbb31ebc08176400e4e5db7bc98c25f58b4",
+          "preview.png": "09846afc3f7392498a86495632fd3b10d2bf532a198a4f5b06919c7fb5b407bb"
+        }
+      }
+    },
+    {
+      "asset": "fuel_tank",
+      "large": {
+        "asset": "fuel_tank",
+        "label": "Twin capsule fuel-storage skid",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "two capsule-ended vessels",
+            "common skid",
+            "joined overhead manifold",
+            "front transfer pipe",
+            "two valves",
+            "control panel"
+          ],
+          "half": "Conservative 2x reduction keeps twin vessels and continuous pipe routes; valve loops and small collars simplify."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          80,
+          112
+        ],
+        "occupied_voxels": 264504,
+        "voxel_size_m": 0.04,
+        "grid_extents_m": [
+          5.12,
+          3.2,
+          4.48
+        ],
+        "occupied_bounds_voxels": [
+          [
+            5,
+            0,
+            1
+          ],
+          [
+            123,
+            72,
+            108
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.36,
+            -1.6,
+            0.04
+          ],
+          [
+            2.36,
+            1.28,
+            4.32
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        "occupancy_sha256": "d5bdab6626a360570f2c7b4a7fa217b3a5c5aedba43d33d579e4ba2380f535a4",
+        "surface": {
+          "quads": 9084,
+          "triangles": 18168,
+          "exposed_unit_faces": 57078,
+          "surface_area_m2": 91.3248,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "fuel_tank.vox": "f27c10618ca7e140ed5a355ad6f151a9735cf1ca82046f44397345d8e72904a5",
+          "fuel_tank.blend": "77846ca2394125be93fd3b16b810705c3651b99433fa2333afcbee99d39b4737",
+          "fuel_tank.glb": "8a4ab6b0bba50445e22b924b39662c1903f16cb0a5b7ff25900fbabb263dbd25",
+          "fuel_tank.fbx": "9783a9091063ba021822348cd64aa937938123efcb4073f7b5e41d84dc792503",
+          "preview.png": "501a2467a3761fce13744d66a5a5e5ff8c4cb16fbaa6e31b31cf3964d2922f91"
+        }
+      },
+      "half": {
+        "asset": "fuel_tank",
+        "label": "Twin capsule fuel-storage skid",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "two capsule-ended vessels",
+            "common skid",
+            "joined overhead manifold",
+            "front transfer pipe",
+            "two valves",
+            "control panel"
+          ],
+          "half": "Conservative 2x reduction keeps twin vessels and continuous pipe routes; valve loops and small collars simplify."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          40,
+          56
+        ],
+        "occupied_voxels": 36884,
+        "voxel_size_m": 0.08,
+        "grid_extents_m": [
+          5.12,
+          3.2,
+          4.48
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            62,
+            36,
+            54
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.4,
+            -1.6,
+            0.0
+          ],
+          [
+            2.4,
+            1.28,
+            4.32
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        "occupancy_sha256": "1d0264b4e730b842694617ce77a8f20939c54a11144746d5e27f31dc741cb0a7",
+        "surface": {
+          "quads": 2788,
+          "triangles": 5576,
+          "exposed_unit_faces": 15352,
+          "surface_area_m2": 98.25280000000001,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "fuel_tank.vox": "eceef8cd6c65f99e1fe83ff4fb8a136d39805c2bcea3b28b554ec02f1a436665",
+          "fuel_tank.blend": "c9705dc1432aa97cc44e57047e3557ab86a0e5c30211e6b5a154c714a0db10cf",
+          "fuel_tank.glb": "7571c8b82c0b9090b5cf9838db321b155a95b5b7e31cf128cffa2daf181010da",
+          "fuel_tank.fbx": "7e039c26289fab96dec3e8b782c2560b36395943cf9a92eee8b65a377649d9a6",
+          "preview.png": "63a48f77ed2bedbe721ffc23c4794f83332586d38281ac0082a2252613ea8092"
+        }
+      }
+    },
+    {
+      "asset": "control_tower",
+      "large": {
+        "asset": "control_tower",
+        "label": "Rounded spaceport control tower",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "stout shaft",
+            "broad flared window cabin",
+            "rounded roof",
+            "antennae",
+            "rear access ladder",
+            "service pod"
+          ],
+          "half": "Conservative 2x reduction preserves shaft/cabin hierarchy, window mullions and roof equipment; glass uses opaque palette color."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          108,
+          100,
+          128
+        ],
+        "occupied_voxels": 312139,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          5.4,
+          5.0,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            9,
+            5,
+            2
+          ],
+          [
+            99,
+            95,
+            128
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.25,
+            -2.25,
+            0.1
+          ],
+          [
+            2.25,
+            2.25,
+            6.4
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12
+        ],
+        "occupancy_sha256": "ed7a693bbafdd29fd38f91a6d9a359516b22f242ec1bc352ada5396ce1b61869",
+        "surface": {
+          "quads": 6479,
+          "triangles": 12958,
+          "exposed_unit_faces": 69678,
+          "surface_area_m2": 174.19500000000002,
+          "materials": 9
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "control_tower.vox": "86f7cefe89e6d2e1b78a0089ed61ac9ea1ef3dc04e4cd55941a6e7cc9d24c09d",
+          "control_tower.blend": "2dae0170d6b5e56c9d7a88b32ded7fc809a068120f66f2332f221e1b0900bd17",
+          "control_tower.glb": "0fe82c0d7b0013216f69f6b1c9d7a0ac3028fc5aa40da4cea87dc692a8bfea24",
+          "control_tower.fbx": "d7fae70f0592aee599e0221d9ff9dbe67da8ac801c58e0df2556a294dce6651f",
+          "preview.png": "d6eade0483a67d72bd8d720d5515b5517f2f5cbfbc66acb326d4b50b4e93945a"
+        }
+      },
+      "half": {
+        "asset": "control_tower",
+        "label": "Rounded spaceport control tower",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            218,
+            221,
+            211,
+            255
+          ],
+          [
+            242,
+            242,
+            230,
+            255
+          ],
+          [
+            172,
+            182,
+            179,
+            255
+          ],
+          [
+            91,
+            122,
+            142,
+            255
+          ],
+          [
+            124,
+            155,
+            170,
+            255
+          ],
+          [
+            54,
+            78,
+            97,
+            255
+          ],
+          [
+            48,
+            57,
+            62,
+            255
+          ],
+          [
+            29,
+            37,
+            42,
+            255
+          ],
+          [
+            139,
+            151,
+            156,
+            255
+          ],
+          [
+            209,
+            104,
+            77,
+            255
+          ],
+          [
+            238,
+            138,
+            102,
+            255
+          ],
+          [
+            55,
+            104,
+            127,
+            255
+          ],
+          [
+            90,
+            146,
+            164,
+            255
+          ],
+          [
+            246,
+            197,
+            107,
+            255
+          ],
+          [
+            41,
+            48,
+            51,
+            255
+          ],
+          [
+            73,
+            83,
+            87,
+            255
+          ],
+          [
+            116,
+            118,
+            111,
+            255
+          ]
+        ],
+        "notes": {
+          "features": [
+            "stout shaft",
+            "broad flared window cabin",
+            "rounded roof",
+            "antennae",
+            "rear access ladder",
+            "service pod"
+          ],
+          "half": "Conservative 2x reduction preserves shaft/cabin hierarchy, window mullions and roof equipment; glass uses opaque palette color."
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          54,
+          50,
+          64
+        ],
+        "occupied_voxels": 43665,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          5.4,
+          5.0,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            50,
+            48,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.3000000000000003,
+            -2.3000000000000003,
+            0.1
+          ],
+          [
+            2.3000000000000003,
+            2.3000000000000003,
+            6.4
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12
+        ],
+        "occupancy_sha256": "96729107e8aa3d69e13236b64373b1c511fdcb32614ef62cfafc71e5f10c84d2",
+        "surface": {
+          "quads": 1850,
+          "triangles": 3700,
+          "exposed_unit_faces": 17550,
+          "surface_area_m2": 175.5,
+          "materials": 9
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "control_tower.vox": "a04abc8449718e4b66d6595f8be46a21000a5384e05e6a487ef2e6313bdadd30",
+          "control_tower.blend": "01184aba77597b1a6efc95321d9c61d968bf47520484dc580e43e27c15341977",
+          "control_tower.glb": "6abb360189f8257212dea776d39323e3eb7336d1465093206cf71caf17d3b227",
+          "control_tower.fbx": "10647c32f12218fc96d9155da24ee73491e4fa7ff0129c889392e4c572d67c0b",
+          "preview.png": "2683a983ddd4794edc78c389f21ca8ea16fc5e1dfb0d08b6485c8246c139967c"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}

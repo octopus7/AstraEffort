@@ -1,0 +1,21 @@
+{
+    "source":  "build.py",
+    "external_references":  [
+
+                            ],
+    "half_method":  "Exact 2x axis reduction via nonempty 2x2x2 majority with doubled meters per voxel; no manual half-grid corrections",
+    "geometry":  "Five new uint8 occupied XYZ voxel grids; palette index 0 empty, actual colors start at 1",
+    "worker_image_generation_seconds":  0,
+    "theme":  "mountain_railway",
+    "generic_tools":  [
+                          "voxel/_tools/voxelkit.py",
+                          "voxel/_tools/blender_pipeline.py",
+                          "voxel/_tools/verify_theme.py"
+                      ],
+    "source_sha256":  "400bfb3b938e1e90f5dd450cb5d16131835d80d92f9fe3700cf5921a108dc5d3",
+    "design_reference":  {
+                             "path":  "REF/voxel/mountain_railway/reference.png",
+                             "sha256":  "b2ed9cecb9ddcdb39aaf20bf793624f77ca9c1da18c9128c1b5caa4b2c9e9a8a",
+                             "usage":  "Viewed as design guidance only; not scene evidence or a texture"
+                         }
+}

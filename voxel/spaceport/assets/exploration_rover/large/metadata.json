@@ -1,0 +1,200 @@
+{
+  "asset": "exploration_rover",
+  "label": "Six-wheel pressurized exploration rover",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      218,
+      221,
+      211,
+      255
+    ],
+    [
+      242,
+      242,
+      230,
+      255
+    ],
+    [
+      172,
+      182,
+      179,
+      255
+    ],
+    [
+      91,
+      122,
+      142,
+      255
+    ],
+    [
+      124,
+      155,
+      170,
+      255
+    ],
+    [
+      54,
+      78,
+      97,
+      255
+    ],
+    [
+      48,
+      57,
+      62,
+      255
+    ],
+    [
+      29,
+      37,
+      42,
+      255
+    ],
+    [
+      139,
+      151,
+      156,
+      255
+    ],
+    [
+      209,
+      104,
+      77,
+      255
+    ],
+    [
+      238,
+      138,
+      102,
+      255
+    ],
+    [
+      55,
+      104,
+      127,
+      255
+    ],
+    [
+      90,
+      146,
+      164,
+      255
+    ],
+    [
+      246,
+      197,
+      107,
+      255
+    ],
+    [
+      41,
+      48,
+      51,
+      255
+    ],
+    [
+      73,
+      83,
+      87,
+      255
+    ],
+    [
+      116,
+      118,
+      111,
+      255
+    ]
+  ],
+  "notes": {
+    "features": [
+      "six separate wheels",
+      "pressurized cabin",
+      "sensor mast",
+      "communications antenna",
+      "open sample tray"
+    ],
+    "half": "Conservative 2x reduction retains six wheels and tray cavity; tire cleats, antennae and sample stones become chunkier."
+  },
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    92,
+    128,
+    100
+  ],
+  "occupied_voxels": 300696,
+  "voxel_size_m": 0.035,
+  "grid_extents_m": [
+    3.22,
+    4.48,
+    3.5000000000000004
+  ],
+  "occupied_bounds_voxels": [
+    [
+      4,
+      7,
+      1
+    ],
+    [
+      88,
+      124,
+      99
+    ]
+  ],
+  "bounds_m": [
+    [
+      -1.4700000000000002,
+      -1.995,
+      0.035
+    ],
+    [
+      1.4700000000000002,
+      2.1,
+      3.4650000000000003
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "occupancy_sha256": "876eded289194b055530487586eec760df5b17697fd88fe7f186e894b0ff5de7",
+  "surface": {
+    "quads": 4469,
+    "triangles": 8938,
+    "exposed_unit_faces": 60980,
+    "surface_area_m2": 74.70050000000002,
+    "materials": 14
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "exploration_rover.vox": "08cb88be37aa93c7ad6f7b600ddf387bfb61bb488fd443219777efb1ff3af808",
+    "exploration_rover.blend": "1889f04ecb09473e2707b6f4112ce957ed92a1d26fd35582d28e6c6face52daf",
+    "exploration_rover.glb": "11823faca28fd7e36497ab095401ec80a9b1d63d341fad9385d0c606f5f3b0cd",
+    "exploration_rover.fbx": "c543001751846ad03bf85a3b444eb8d1c9d903ae9287fb40fbfc96c177454662",
+    "preview.png": "5d70dbc998e2a3c7c4b348ebbc14cc888f3f5248fd08c73ab5f2036a1419fa7a"
+  }
+}

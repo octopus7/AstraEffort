@@ -1,0 +1,385 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T14:15:29.683270+00:00",
+  "finished_at_utc": "2026-10-23T14:15:49.050778+00:00",
+  "elapsed_seconds": 19.367346100043505,
+  "assets": [
+    {
+      "asset": "research_station",
+      "large": {
+        "asset": "research_station",
+        "label": "Six-leg polar research station",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            231,
+            222,
+            202,
+            255
+          ],
+          [
+            249,
+            242,
+            224,
+            255
+          ],
+          [
+            184,
+            182,
+            169,
+            255
+          ],
+          [
+            31,
+            67,
+            91,
+            255
+          ],
+          [
+            42,
+            87,
+            117,
+            255
+          ],
+          [
+            41,
+            47,
+            53,
+            255
+          ],
+          [
+            98,
+            112,
+            121,
+            255
+          ],
+          [
+            152,
+            162,
+            163,
+            255
+          ],
+          [
+            233,
+            111,
+            24,
+            255
+          ],
+          [
+            255,
+            159,
+            45,
+            255
+          ],
+          [
+            35,
+            108,
+            147,
+            255
+          ],
+          [
+            91,
+            169,
+            193,
+            255
+          ],
+          [
+            25,
+            33,
+            40,
+            255
+          ],
+          [
+            255,
+            239,
+            184,
+            255
+          ],
+          [
+            67,
+            78,
+            85,
+            255
+          ]
+        ],
+        "notes": {
+          "design": "Rounded insulated habitat, six telescopic legs, five-bay window band, airlock and eight-tread stair, side heat exchanger, aft service bay and roof HVAC.",
+          "half_resolution_strategy": "Structural diameter >= 3.2 large voxels; stair risers and window mullions intentionally coarse. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          100,
+          100
+        ],
+        "occupied_voxels": 416647,
+        "voxel_size_m": 0.065,
+        "grid_extents_m": [
+          8.32,
+          6.5,
+          6.5
+        ],
+        "occupied_bounds_voxels": [
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            128,
+            99,
+            99
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.9650000000000003,
+            -3.185,
+            0.065
+          ],
+          [
+            4.16,
+            3.185,
+            6.4350000000000005
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "occupancy_sha256": "ff61c6e2478f85ffe6fb8600aca312fe5fd8366307a727aa1add76268885908e",
+        "surface": {
+          "quads": 4433,
+          "triangles": 8866,
+          "exposed_unit_faces": 57420,
+          "surface_area_m2": 242.5995,
+          "materials": 14
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "research_station.vox": "bab3229a420d5547e80ec13cc11c340b2d01040eb32746330e9a793005d1f3ff",
+          "research_station.blend": "44b0ac700b2e216d78b2ef9ab2d4b205ac1d73e6a70046439d00bba821c3535a",
+          "research_station.glb": "1e8d7d33e0404a075428f88e5f90294ec0afc3635917e1a927cccca917449fe0",
+          "research_station.fbx": "642084460de3dfd2aa0ca395db980b7df1882a8bd4aacb2e8f63462b7f5d8286",
+          "preview.png": "a63b295e7112dcf109146414937513ed76cbaa82635e51c271c94e94f4aa117b"
+        }
+      },
+      "half": {
+        "asset": "research_station",
+        "label": "Six-leg polar research station",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            231,
+            222,
+            202,
+            255
+          ],
+          [
+            249,
+            242,
+            224,
+            255
+          ],
+          [
+            184,
+            182,
+            169,
+            255
+          ],
+          [
+            31,
+            67,
+            91,
+            255
+          ],
+          [
+            42,
+            87,
+            117,
+            255
+          ],
+          [
+            41,
+            47,
+            53,
+            255
+          ],
+          [
+            98,
+            112,
+            121,
+            255
+          ],
+          [
+            152,
+            162,
+            163,
+            255
+          ],
+          [
+            233,
+            111,
+            24,
+            255
+          ],
+          [
+            255,
+            159,
+            45,
+            255
+          ],
+          [
+            35,
+            108,
+            147,
+            255
+          ],
+          [
+            91,
+            169,
+            193,
+            255
+          ],
+          [
+            25,
+            33,
+            40,
+            255
+          ],
+          [
+            255,
+            239,
+            184,
+            255
+          ],
+          [
+            67,
+            78,
+            85,
+            255
+          ]
+        ],
+        "notes": {
+          "design": "Rounded insulated habitat, six telescopic legs, five-bay window band, airlock and eight-tread stair, side heat exchanger, aft service bay and roof HVAC.",
+          "half_resolution_strategy": "Structural diameter >= 3.2 large voxels; stair risers and window mullions intentionally coarse. No manual half corrections.",
+          "front": "-Y"
+        },
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          50,
+          50
+        ],
+        "occupied_voxels": 55929,
+        "voxel_size_m": 0.13,
+        "grid_extents_m": [
+          8.32,
+          6.5,
+          6.5
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            64,
+            50,
+            50
+          ]
+        ],
+        "bounds_m": [
+          [
+            -4.03,
+            -3.25,
+            0.0
+          ],
+          [
+            4.16,
+            3.25,
+            6.5
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "occupancy_sha256": "50e55576d9eed5191970c046e1e7a2afbc17be0ee5eee920a509b99bd25dfcec",
+        "surface": {
+          "quads": 1879,
+          "triangles": 3758,
+          "exposed_unit_faces": 14976,
+          "surface_area_m2": 253.09440000000004,
+          "materials": 14
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "research_station.vox": "f8084b993edaf81be834e630b5650454653c7914ae165e871d17ec5d265a5313",
+          "research_station.blend": "54fbfb7078d2c236bce20b090b710a10f3b6333a682fa01c9762b3ad280ca7bb",
+          "research_station.glb": "d1e3c8c43000bd4eed319d285c33a5de465367039f4790727c907f74b3b3eba8",
+          "research_station.fbx": "cc61a7b8b43be62ca0b72b56848eb462e8833a7a9b981559c40f3ce2c014f3e0",
+          "preview.png": "0474cea7b1a26fe5e714a3120155b75e642d0d889117cadc98a92894b1a22e9b"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}
