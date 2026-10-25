@@ -1,39 +1,120 @@
-# 현재 복셀 제작 체크포인트
+# 복셀 모델 18테마 · 81종 · 162버전
 
-이 문서는 초기 일반 메시 모델 2세트·8종과 별도로 제작한 복셀 모델의 기록입니다.
+기존 39종에 유용한 모델 6종을 보강한 뒤 신규 9테마 36종을 제작했습니다. 기존 모델 파일과 9테마 ZIP은 보존했습니다. 큰 버전은 긴 축 128복셀, 절반 버전은 64복셀입니다. 각 축 해상도를 절반으로 줄이고 복셀 크기를 두 배로 하여 물리적 격자 크기를 유지합니다.
 
-[작은 버전 73종 한 장으로 둘러보기](overview_half_all.png) · [모음 이미지 출처 및 원본 보존 확인](overview_half_all.json)
+이 목록은 복셀 모델만 포함합니다. 앞서 제작한 일반 메시 모델 2세트·8종은 별도입니다. 작은 버전 모음은 전체 81종으로 갱신했으며 개별 프리뷰 파일은 모두 유지했습니다.
 
-사용자 요청으로 현재 작업을 고정해 커밋합니다. **최종 승인 13테마·61모델·122버전**, 메인 검수 대기 8모델(비행장·재활용), 출력 후 검증 전인 지열 4모델입니다. 운하·캠핑 8모델은 아직 시작하지 않았습니다. 전체 목표는 18테마·81모델·162버전입니다.
+[작은 버전 81종 모음](overview_half_all.png) · [큰·절반 비교 갤러리](index.html) · [전체 ZIP](voxel-eighteen-themes.zip) · [전체 제작·검증 목록](delivery_manifest.json) · [확장 계획](EXPANSION_PLAN.md)
 
-[진행 및 이어서 할 작업](RESUME.md) · [체크포인트 검사 기록](CHECKPOINT.json) · [진행 상태](EXPANSION_STATE.json)
+| 테마 | 모델 수 | 제작·검증 기록 |
+|---|---:|---|
+| 농장 | 5 | [제작 1](farm/RESULT.md) · [제작 2](farm/additions/RESULT.md) |
+| 공장 | 5 | [제작 1](factory/RESULT.md) · [제작 2](factory/additions/RESULT.md) |
+| 남극 연구기지 | 5 | [제작 1](antarctic/RESULT.md) · [제작 2](antarctic/additions/RESULT.md) |
+| 항구 | 5 | [제작 1](harbor/RESULT.md) · [제작 2](harbor/additions/RESULT.md) |
+| 광산 | 5 | [제작 1](mine/RESULT.md) · [제작 2](mine/additions/RESULT.md) |
+| 사막 전초기지 | 5 | [제작 1](desert/RESULT.md) · [제작 2](desert/additions/RESULT.md) |
+| 산악 철도 | 5 | [제작 1](mountain_railway/RESULT.md) |
+| 우주항 | 5 | [제작 1](spaceport/RESULT.md) |
+| 해저 탐사기지 | 5 | [제작 1](underwater/RESULT.md) |
+| 산림·제재소 | 4 | [제작 1](forestry/RESULT.md) |
+| 건설 현장 | 4 | [제작 1](construction/RESULT.md) |
+| 소방·구조 기지 | 4 | [제작 1](fire_rescue/RESULT.md) |
+| 소형 비행장 | 4 | [제작 1](airfield/RESULT.md) |
+| 재활용 센터 | 4 | [제작 1](recycling/RESULT.md) |
+| 화산·지열 기지 | 4 | [제작 1](geothermal/RESULT.md) |
+| 운하·수문 마을 | 4 | [제작 1](canal/RESULT.md) |
+| 캠핑·휴양지 | 4 | [제작 1](camping/RESULT.md) |
+| 제과·제빵 마을 | 4 | [제작 1](bakery/RESULT.md) |
 
-이번에 승인한 테마: [산림·제재소](forestry/RESULT.md), [건설 현장](construction/RESULT.md), [소방·구조](fire_rescue/RESULT.md), [제과·제빵](bakery/RESULT.md). 검수 대기: [비행장](airfield/RESULT.md), [재활용](recycling/RESULT.md). 작업 중: [지열](geothermal/RESULT.md). 신규 9테마 레퍼런스는 모두 REF/voxel에 저장되어 있습니다.
+각 모델은 `assets/모델명/{large,half}`에 VOX 원본, BLEND·GLB·FBX, 실제 렌더 PNG와 metadata.json이 있습니다. 기존 테마 보강분은 해당 테마의 `additions/` 아래에 있습니다. 각 제작 폴더의 build.py로 복셀 원본과 출력을 재생성할 수 있습니다.
 
-# 복셀 모델 9테마 · 45종 · 90버전
+전체 원본을 다시 읽고 BLEND·GLB·FBX를 새 장면으로 가져와 복셀 표면, 방향, 색상, 크기와 파일 해시를 검사했습니다. 모든 최종 기본 렌더를 메인에서 직접 확인했습니다. 원본 39종은 이전 검증 기록과 현재 해시를 대조해 그대로 보존된 것을 확인했습니다.
 
-**아래 목록과 비교 갤러리는 이전 커밋 63e475d의 45종 카탈로그입니다. 현재 제작 진행은 위 체크포인트와 RESUME.md를 기준으로 합니다.**
+정적 모델이며 리깅·애니메이션·충돌·자동 LOD·엔진 통합은 포함하지 않습니다. 유리는 불투명 팔레트 색상입니다. 얇은 부품을 보존하는 축소 방식으로 외곽이 큰 격자 한 칸까지 넓어질 수 있습니다. MagicaVoxel GUI 검사는 수행하지 않았으며 native VOX 파일은 독립 파서로 검사했습니다.
 
-[큰·절반 비교 갤러리](index.html) · [전체 파일 목록](delivery_manifest.json) · [다음 작업 인계](RESUME.md)
+레퍼런스 이미지와 프롬프트는 [REF/voxel](../REF/voxel)에 저장했습니다. 모든 이미지 생성은 메인이 기본 image_gen으로 순차 진행했으며 실제 모델 증거는 Blender 렌더입니다.
 
-큰 버전은 긴 축 128복셀, 절반 버전은 64복셀입니다. 각 축 복셀 수를 절반으로 줄이고 복셀 크기를 두 배로 하여 같은 물리적 격자 크기를 유지합니다. 기존 39종에 유용한 모델 6종을 추가했습니다.
-
-| 테마 | 모델 수 | 기존 제작 기록 | 보강 모델 |
-|---|---:|---|---|
-| 농장 | 5 | [farm](farm/RESULT.md) | [Farm combine harvester](farm/additions/RESULT.md) |
-| 공장 | 5 | [factory](factory/RESULT.md) | [Articulated robot assembly workcell](factory/additions/RESULT.md) |
-| 남극 연구기지 | 5 | [antarctic](antarctic/RESULT.md) | [Sled-mounted Antarctic ice core drill](antarctic/additions/RESULT.md) |
-| 항구 | 5 | [harbor](harbor/RESULT.md) | [Empty harbor repair dock](harbor/additions/RESULT.md) |
-| 광산 | 5 | [mine](mine/RESULT.md) | [Six-wheel open-bed mine haul truck](mine/additions/RESULT.md) |
-| 사막 전초기지 | 5 | [desert](desert/RESULT.md) | [사막 정수 장치](desert/additions/RESULT.md) |
-| 산악 철도 | 5 | [mountain_railway](mountain_railway/RESULT.md) | — |
-| 우주항 | 5 | [spaceport](spaceport/RESULT.md) | — |
-| 해저 탐사기지 | 5 | [underwater](underwater/RESULT.md) | — |
-
-모델마다 `.vox`, `.blend`, `.glb`, `.fbx`, `preview.png`, `metadata.json`이 있습니다. 기존 모델은 `테마/assets/모델명/{large,half}`, 보강분은 `테마/additions/assets/모델명/{large,half}`에 있습니다. VOX가 편집 기준 원본이며 BLEND에는 별도 STUDIO 컬렉션, GLB/FBX에는 모델 형상만 포함합니다.
-
-원본 복셀 파싱, 색상·크기·표면 검사, BLEND·GLB·FBX 재가져오기를 통과했고 모든 최종 미리보기를 메인이 직접 확인했습니다. 기존 39종의 모델 파일 해시는 그대로입니다. 생성 레퍼런스와 프롬프트는 [REF/voxel](../REF/voxel)에 있습니다.
-
-정적 팔레트 모델입니다. 리깅·애니메이션·충돌·엔진 통합은 포함하지 않으며 유리는 불투명 색상입니다. 얇은 구조를 보존하는 축소 방식으로 외곽이 큰 격자 한 칸까지 넓어질 수 있습니다. MagicaVoxel GUI에서는 검사하지 않았습니다.
-
-이전 `voxel-nine-themes.zip`은 최초 39종 묶음으로 로컬에 보존하며 Git에는 중복 압축파일을 넣지 않습니다. 현재 45종의 기준은 이 목록과 실제 모델 폴더입니다.
+| 테마 / 모델 | 큰 VOX | 절반 VOX | 큰 GLB | 절반 GLB |
+|---|---|---|---|---|
+| 농장 / Orchard tractor | [VOX](farm/assets/tractor/large/tractor.vox) | [VOX](farm/assets/tractor/half/tractor.vox) | [GLB](farm/assets/tractor/large/tractor.glb) | [GLB](farm/assets/tractor/half/tractor.glb) |
+| 농장 / Timber harvest barn | [VOX](farm/assets/barn/large/barn.vox) | [VOX](farm/assets/barn/half/barn.vox) | [GLB](farm/assets/barn/large/barn.glb) | [GLB](farm/assets/barn/half/barn.glb) |
+| 농장 / Raised grain silo | [VOX](farm/assets/silo/large/silo.vox) | [VOX](farm/assets/silo/half/silo.vox) | [GLB](farm/assets/silo/large/silo.glb) | [GLB](farm/assets/silo/half/silo.glb) |
+| 농장 / Four-sail grain windmill | [VOX](farm/assets/windmill/large/windmill.vox) | [VOX](farm/assets/windmill/half/windmill.vox) | [GLB](farm/assets/windmill/large/windmill.glb) | [GLB](farm/assets/windmill/half/windmill.glb) |
+| 공장 / Hydraulic production press | [VOX](factory/assets/production_machine/large/production_machine.vox) | [VOX](factory/assets/production_machine/half/production_machine.vox) | [GLB](factory/assets/production_machine/large/production_machine.glb) | [GLB](factory/assets/production_machine/half/production_machine.glb) |
+| 공장 / Roller-end factory conveyor | [VOX](factory/assets/conveyor/large/conveyor.vox) | [VOX](factory/assets/conveyor/half/conveyor.vox) | [GLB](factory/assets/conveyor/large/conveyor.glb) | [GLB](factory/assets/conveyor/half/conveyor.glb) |
+| 공장 / Counterbalance factory forklift | [VOX](factory/assets/forklift/large/forklift.vox) | [VOX](factory/assets/forklift/half/forklift.vox) | [GLB](factory/assets/forklift/large/forklift.glb) | [GLB](factory/assets/forklift/half/forklift.glb) |
+| 공장 / Skid-mounted factory generator | [VOX](factory/assets/generator/large/generator.vox) | [VOX](factory/assets/generator/half/generator.vox) | [GLB](factory/assets/generator/large/generator.glb) | [GLB](factory/assets/generator/half/generator.glb) |
+| 남극 연구기지 / Six-leg polar research station | [VOX](antarctic/assets/research_station/large/research_station.vox) | [VOX](antarctic/assets/research_station/half/research_station.vox) | [GLB](antarctic/assets/research_station/large/research_station.glb) | [GLB](antarctic/assets/research_station/half/research_station.glb) |
+| 남극 연구기지 / Tracked Antarctic utility snowcat | [VOX](antarctic/assets/snowcat/large/snowcat.vox) | [VOX](antarctic/assets/snowcat/half/snowcat.vox) | [GLB](antarctic/assets/snowcat/large/snowcat.glb) | [GLB](antarctic/assets/snowcat/half/snowcat.glb) |
+| 남극 연구기지 / Open polar radar antenna | [VOX](antarctic/assets/radar/large/radar.vox) | [VOX](antarctic/assets/radar/half/radar.vox) | [GLB](antarctic/assets/radar/large/radar.glb) | [GLB](antarctic/assets/radar/half/radar.glb) |
+| 남극 연구기지 / Autonomous polar weather mast | [VOX](antarctic/assets/weather_instrument/large/weather_instrument.vox) | [VOX](antarctic/assets/weather_instrument/half/weather_instrument.vox) | [GLB](antarctic/assets/weather_instrument/large/weather_instrument.glb) | [GLB](antarctic/assets/weather_instrument/half/weather_instrument.glb) |
+| 항구 / Harbor working fishing boat | [VOX](harbor/assets/fishing_boat/large/fishing_boat.vox) | [VOX](harbor/assets/fishing_boat/half/fishing_boat.vox) | [GLB](harbor/assets/fishing_boat/large/fishing_boat.glb) | [GLB](harbor/assets/fishing_boat/half/fishing_boat.glb) |
+| 항구 / Lantern harbor lighthouse | [VOX](harbor/assets/lighthouse/large/lighthouse.vox) | [VOX](harbor/assets/lighthouse/half/lighthouse.vox) | [GLB](harbor/assets/lighthouse/large/lighthouse.glb) | [GLB](harbor/assets/lighthouse/half/lighthouse.glb) |
+| 항구 / Barrel-roof harbor warehouse | [VOX](harbor/assets/warehouse/large/warehouse.vox) | [VOX](harbor/assets/warehouse/half/warehouse.vox) | [GLB](harbor/assets/warehouse/large/warehouse.glb) | [GLB](harbor/assets/warehouse/half/warehouse.glb) |
+| 항구 / Four-leg harbor cargo crane | [VOX](harbor/assets/cargo_crane/large/cargo_crane.vox) | [VOX](harbor/assets/cargo_crane/half/cargo_crane.vox) | [GLB](harbor/assets/cargo_crane/large/cargo_crane.glb) | [GLB](harbor/assets/cargo_crane/half/cargo_crane.glb) |
+| 광산 / Compact tracked mine excavator | [VOX](mine/assets/excavator/large/excavator.vox) | [VOX](mine/assets/excavator/half/excavator.vox) | [GLB](mine/assets/excavator/large/excavator.glb) | [GLB](mine/assets/excavator/half/excavator.glb) |
+| 광산 / Tapered mine ore cart | [VOX](mine/assets/mine_cart/large/mine_cart.vox) | [VOX](mine/assets/mine_cart/half/mine_cart.vox) | [GLB](mine/assets/mine_cart/large/mine_cart.glb) | [GLB](mine/assets/mine_cart/half/mine_cart.glb) |
+| 광산 / Cable mine service elevator | [VOX](mine/assets/mine_elevator/large/mine_elevator.vox) | [VOX](mine/assets/mine_elevator/half/mine_elevator.vox) | [GLB](mine/assets/mine_elevator/large/mine_elevator.glb) | [GLB](mine/assets/mine_elevator/half/mine_elevator.glb) |
+| 광산 / Hopper and inclined mine ore sorter | [VOX](mine/assets/ore_sorter/large/ore_sorter.vox) | [VOX](mine/assets/ore_sorter/half/ore_sorter.vox) | [GLB](mine/assets/ore_sorter/large/ore_sorter.glb) | [GLB](mine/assets/ore_sorter/half/ore_sorter.glb) |
+| 사막 전초기지 / Six-wheel desert exploration rover | [VOX](desert/assets/exploration_rover/large/exploration_rover.vox) | [VOX](desert/assets/exploration_rover/half/exploration_rover.vox) | [GLB](desert/assets/exploration_rover/large/exploration_rover.glb) | [GLB](desert/assets/exploration_rover/half/exploration_rover.glb) |
+| 사막 전초기지 / Four-leg desert reservoir | [VOX](desert/assets/water_tower/large/water_tower.vox) | [VOX](desert/assets/water_tower/half/water_tower.vox) | [GLB](desert/assets/water_tower/large/water_tower.glb) | [GLB](desert/assets/water_tower/half/water_tower.glb) |
+| 사막 전초기지 / Three-section desert solar array | [VOX](desert/assets/solar_array/large/solar_array.vox) | [VOX](desert/assets/solar_array/half/solar_array.vox) | [GLB](desert/assets/solar_array/large/solar_array.glb) | [GLB](desert/assets/solar_array/half/solar_array.glb) |
+| 사막 전초기지 / Open-front desert repair garage | [VOX](desert/assets/repair_garage/large/repair_garage.vox) | [VOX](desert/assets/repair_garage/half/repair_garage.vox) | [GLB](desert/assets/repair_garage/large/repair_garage.glb) | [GLB](desert/assets/repair_garage/half/repair_garage.glb) |
+| 산악 철도 / Mountain diesel locomotive | [VOX](mountain_railway/assets/locomotive/large/locomotive.vox) | [VOX](mountain_railway/assets/locomotive/half/locomotive.vox) | [GLB](mountain_railway/assets/locomotive/large/locomotive.glb) | [GLB](mountain_railway/assets/locomotive/half/locomotive.glb) |
+| 산악 철도 / Mountain passenger coach | [VOX](mountain_railway/assets/passenger_car/large/passenger_car.vox) | [VOX](mountain_railway/assets/passenger_car/half/passenger_car.vox) | [GLB](mountain_railway/assets/passenger_car/large/passenger_car.glb) | [GLB](mountain_railway/assets/passenger_car/half/passenger_car.glb) |
+| 산악 철도 / Sheltered mountain station | [VOX](mountain_railway/assets/station/large/station.vox) | [VOX](mountain_railway/assets/station/half/station.vox) | [GLB](mountain_railway/assets/station/large/station.glb) | [GLB](mountain_railway/assets/station/half/station.glb) |
+| 산악 철도 / Open-arch masonry railway bridge | [VOX](mountain_railway/assets/railway_bridge/large/railway_bridge.vox) | [VOX](mountain_railway/assets/railway_bridge/half/railway_bridge.vox) | [GLB](mountain_railway/assets/railway_bridge/large/railway_bridge.glb) | [GLB](mountain_railway/assets/railway_bridge/half/railway_bridge.glb) |
+| 산악 철도 / Alpine capsule cable car | [VOX](mountain_railway/assets/cable_car/large/cable_car.vox) | [VOX](mountain_railway/assets/cable_car/half/cable_car.vox) | [GLB](mountain_railway/assets/cable_car/large/cable_car.glb) | [GLB](mountain_railway/assets/cable_car/half/cable_car.glb) |
+| 우주항 / Four-leg capsule transport rocket | [VOX](spaceport/assets/transport_rocket/large/transport_rocket.vox) | [VOX](spaceport/assets/transport_rocket/half/transport_rocket.vox) | [GLB](spaceport/assets/transport_rocket/large/transport_rocket.glb) | [GLB](spaceport/assets/transport_rocket/half/transport_rocket.glb) |
+| 우주항 / Low barrel-vault spacecraft hangar | [VOX](spaceport/assets/hangar/large/hangar.vox) | [VOX](spaceport/assets/hangar/half/hangar.vox) | [GLB](spaceport/assets/hangar/large/hangar.glb) | [GLB](spaceport/assets/hangar/half/hangar.glb) |
+| 우주항 / Six-wheel pressurized exploration rover | [VOX](spaceport/assets/exploration_rover/large/exploration_rover.vox) | [VOX](spaceport/assets/exploration_rover/half/exploration_rover.vox) | [GLB](spaceport/assets/exploration_rover/large/exploration_rover.glb) | [GLB](spaceport/assets/exploration_rover/half/exploration_rover.glb) |
+| 우주항 / Twin capsule fuel-storage skid | [VOX](spaceport/assets/fuel_tank/large/fuel_tank.vox) | [VOX](spaceport/assets/fuel_tank/half/fuel_tank.vox) | [GLB](spaceport/assets/fuel_tank/large/fuel_tank.glb) | [GLB](spaceport/assets/fuel_tank/half/fuel_tank.glb) |
+| 우주항 / Rounded spaceport control tower | [VOX](spaceport/assets/control_tower/large/control_tower.vox) | [VOX](spaceport/assets/control_tower/half/control_tower.vox) | [GLB](spaceport/assets/control_tower/large/control_tower.glb) | [GLB](spaceport/assets/control_tower/half/control_tower.glb) |
+| 해저 탐사기지 / Ducted-thruster research submersible | [VOX](underwater/assets/submersible/large/submersible.vox) | [VOX](underwater/assets/submersible/half/submersible.vox) | [GLB](underwater/assets/submersible/large/submersible.glb) | [GLB](underwater/assets/submersible/half/submersible.glb) |
+| 해저 탐사기지 / Ribbed undersea dome laboratory | [VOX](underwater/assets/dome_laboratory/large/dome_laboratory.vox) | [VOX](underwater/assets/dome_laboratory/half/dome_laboratory.vox) | [GLB](underwater/assets/dome_laboratory/large/dome_laboratory.glb) | [GLB](underwater/assets/dome_laboratory/half/dome_laboratory.glb) |
+| 해저 탐사기지 / Open-ended pressure connecting tunnel | [VOX](underwater/assets/connecting_tunnel/large/connecting_tunnel.vox) | [VOX](underwater/assets/connecting_tunnel/half/connecting_tunnel.vox) | [GLB](underwater/assets/connecting_tunnel/large/connecting_tunnel.glb) | [GLB](underwater/assets/connecting_tunnel/half/connecting_tunnel.glb) |
+| 해저 탐사기지 / Six-leg seabed drilling crawler | [VOX](underwater/assets/seabed_miner/large/seabed_miner.vox) | [VOX](underwater/assets/seabed_miner/half/seabed_miner.vox) | [GLB](underwater/assets/seabed_miner/large/seabed_miner.glb) | [GLB](underwater/assets/seabed_miner/half/seabed_miner.glb) |
+| 해저 탐사기지 / Dual-guide undersea docking platform | [VOX](underwater/assets/docking_station/large/docking_station.vox) | [VOX](underwater/assets/docking_station/half/docking_station.vox) | [GLB](underwater/assets/docking_station/large/docking_station.glb) | [GLB](underwater/assets/docking_station/half/docking_station.glb) |
+| 농장 / Farm combine harvester | [VOX](farm/additions/assets/combine_harvester/large/combine_harvester.vox) | [VOX](farm/additions/assets/combine_harvester/half/combine_harvester.vox) | [GLB](farm/additions/assets/combine_harvester/large/combine_harvester.glb) | [GLB](farm/additions/assets/combine_harvester/half/combine_harvester.glb) |
+| 공장 / Articulated robot assembly workcell | [VOX](factory/additions/assets/robot_workcell/large/robot_workcell.vox) | [VOX](factory/additions/assets/robot_workcell/half/robot_workcell.vox) | [GLB](factory/additions/assets/robot_workcell/large/robot_workcell.glb) | [GLB](factory/additions/assets/robot_workcell/half/robot_workcell.glb) |
+| 남극 연구기지 / Sled-mounted Antarctic ice core drill | [VOX](antarctic/additions/assets/ice_core_drill/large/ice_core_drill.vox) | [VOX](antarctic/additions/assets/ice_core_drill/half/ice_core_drill.vox) | [GLB](antarctic/additions/assets/ice_core_drill/large/ice_core_drill.glb) | [GLB](antarctic/additions/assets/ice_core_drill/half/ice_core_drill.glb) |
+| 항구 / Empty harbor repair dock | [VOX](harbor/additions/assets/repair_dock/large/repair_dock.vox) | [VOX](harbor/additions/assets/repair_dock/half/repair_dock.vox) | [GLB](harbor/additions/assets/repair_dock/large/repair_dock.glb) | [GLB](harbor/additions/assets/repair_dock/half/repair_dock.glb) |
+| 광산 / Six-wheel open-bed mine haul truck | [VOX](mine/additions/assets/haul_truck/large/haul_truck.vox) | [VOX](mine/additions/assets/haul_truck/half/haul_truck.vox) | [GLB](mine/additions/assets/haul_truck/large/haul_truck.glb) | [GLB](mine/additions/assets/haul_truck/half/haul_truck.glb) |
+| 사막 전초기지 / 사막 정수 장치 | [VOX](desert/additions/assets/water_purifier/large/water_purifier.vox) | [VOX](desert/additions/assets/water_purifier/half/water_purifier.vox) | [GLB](desert/additions/assets/water_purifier/large/water_purifier.glb) | [GLB](desert/additions/assets/water_purifier/half/water_purifier.glb) |
+| 산림·제재소 / Logging harvester | [VOX](forestry/assets/logging_harvester/large/logging_harvester.vox) | [VOX](forestry/assets/logging_harvester/half/logging_harvester.vox) | [GLB](forestry/assets/logging_harvester/large/logging_harvester.glb) | [GLB](forestry/assets/logging_harvester/half/logging_harvester.glb) |
+| 산림·제재소 / Timber forwarder | [VOX](forestry/assets/timber_forwarder/large/timber_forwarder.vox) | [VOX](forestry/assets/timber_forwarder/half/timber_forwarder.vox) | [GLB](forestry/assets/timber_forwarder/large/timber_forwarder.glb) | [GLB](forestry/assets/timber_forwarder/half/timber_forwarder.glb) |
+| 산림·제재소 / Open timber sawmill | [VOX](forestry/assets/sawmill/large/sawmill.vox) | [VOX](forestry/assets/sawmill/half/sawmill.vox) | [GLB](forestry/assets/sawmill/large/sawmill.glb) | [GLB](forestry/assets/sawmill/half/sawmill.glb) |
+| 산림·제재소 / Three-tier log rack | [VOX](forestry/assets/log_rack/large/log_rack.vox) | [VOX](forestry/assets/log_rack/half/log_rack.vox) | [GLB](forestry/assets/log_rack/large/log_rack.glb) | [GLB](forestry/assets/log_rack/half/log_rack.glb) |
+| 건설 현장 / Concrete mixer truck | [VOX](construction/assets/concrete_mixer/large/concrete_mixer.vox) | [VOX](construction/assets/concrete_mixer/half/concrete_mixer.vox) | [GLB](construction/assets/concrete_mixer/large/concrete_mixer.glb) | [GLB](construction/assets/concrete_mixer/half/concrete_mixer.glb) |
+| 건설 현장 / Wheel loader | [VOX](construction/assets/wheel_loader/large/wheel_loader.vox) | [VOX](construction/assets/wheel_loader/half/wheel_loader.vox) | [GLB](construction/assets/wheel_loader/large/wheel_loader.glb) | [GLB](construction/assets/wheel_loader/half/wheel_loader.glb) |
+| 건설 현장 / Tower crane | [VOX](construction/assets/tower_crane/large/tower_crane.vox) | [VOX](construction/assets/tower_crane/half/tower_crane.vox) | [GLB](construction/assets/tower_crane/large/tower_crane.glb) | [GLB](construction/assets/tower_crane/half/tower_crane.glb) |
+| 건설 현장 / Portable site office | [VOX](construction/assets/site_office/large/site_office.vox) | [VOX](construction/assets/site_office/half/site_office.vox) | [GLB](construction/assets/site_office/large/site_office.glb) | [GLB](construction/assets/site_office/half/site_office.glb) |
+| 소방·구조 기지 / Ladder fire engine | [VOX](fire_rescue/assets/fire_engine/large/fire_engine.vox) | [VOX](fire_rescue/assets/fire_engine/half/fire_engine.vox) | [GLB](fire_rescue/assets/fire_engine/large/fire_engine.glb) | [GLB](fire_rescue/assets/fire_engine/half/fire_engine.glb) |
+| 소방·구조 기지 / Tracked rescue manipulator | [VOX](fire_rescue/assets/rescue_robot/large/rescue_robot.vox) | [VOX](fire_rescue/assets/rescue_robot/half/rescue_robot.vox) | [GLB](fire_rescue/assets/rescue_robot/large/rescue_robot.glb) | [GLB](fire_rescue/assets/rescue_robot/half/rescue_robot.glb) |
+| 소방·구조 기지 / Two-bay rescue station | [VOX](fire_rescue/assets/fire_station/large/fire_station.vox) | [VOX](fire_rescue/assets/fire_station/half/fire_station.vox) | [GLB](fire_rescue/assets/fire_station/large/fire_station.glb) | [GLB](fire_rescue/assets/fire_station/half/fire_station.glb) |
+| 소방·구조 기지 / Winch rescue helicopter | [VOX](fire_rescue/assets/rescue_helicopter/large/rescue_helicopter.vox) | [VOX](fire_rescue/assets/rescue_helicopter/half/rescue_helicopter.vox) | [GLB](fire_rescue/assets/rescue_helicopter/large/rescue_helicopter.glb) | [GLB](fire_rescue/assets/rescue_helicopter/half/rescue_helicopter.glb) |
+| 소형 비행장 / Propeller plane | [VOX](airfield/assets/propeller_plane/large/propeller_plane.vox) | [VOX](airfield/assets/propeller_plane/half/propeller_plane.vox) | [GLB](airfield/assets/propeller_plane/large/propeller_plane.glb) | [GLB](airfield/assets/propeller_plane/half/propeller_plane.glb) |
+| 소형 비행장 / Airport tug | [VOX](airfield/assets/airport_tug/large/airport_tug.vox) | [VOX](airfield/assets/airport_tug/half/airport_tug.vox) | [GLB](airfield/assets/airport_tug/large/airport_tug.glb) | [GLB](airfield/assets/airport_tug/half/airport_tug.glb) |
+| 소형 비행장 / Open maintenance hangar | [VOX](airfield/assets/maintenance_hangar/large/maintenance_hangar.vox) | [VOX](airfield/assets/maintenance_hangar/half/maintenance_hangar.vox) | [GLB](airfield/assets/maintenance_hangar/large/maintenance_hangar.glb) | [GLB](airfield/assets/maintenance_hangar/half/maintenance_hangar.glb) |
+| 소형 비행장 / Airfield control tower | [VOX](airfield/assets/control_tower/large/control_tower.vox) | [VOX](airfield/assets/control_tower/half/control_tower.vox) | [GLB](airfield/assets/control_tower/large/control_tower.glb) | [GLB](airfield/assets/control_tower/half/control_tower.glb) |
+| 재활용 센터 / Rear-loading collection truck | [VOX](recycling/assets/collection_truck/large/collection_truck.vox) | [VOX](recycling/assets/collection_truck/half/collection_truck.vox) | [GLB](recycling/assets/collection_truck/large/collection_truck.glb) | [GLB](recycling/assets/collection_truck/half/collection_truck.glb) |
+| 재활용 센터 / Optical sorting conveyor | [VOX](recycling/assets/sorting_machine/large/sorting_machine.vox) | [VOX](recycling/assets/sorting_machine/half/sorting_machine.vox) | [GLB](recycling/assets/sorting_machine/large/sorting_machine.glb) | [GLB](recycling/assets/sorting_machine/half/sorting_machine.glb) |
+| 재활용 센터 / Vertical hydraulic baler | [VOX](recycling/assets/compactor/large/compactor.vox) | [VOX](recycling/assets/compactor/half/compactor.vox) | [GLB](recycling/assets/compactor/large/compactor.glb) | [GLB](recycling/assets/compactor/half/compactor.glb) |
+| 재활용 센터 / Recycling receiving center | [VOX](recycling/assets/recycling_center/large/recycling_center.vox) | [VOX](recycling/assets/recycling_center/half/recycling_center.vox) | [GLB](recycling/assets/recycling_center/large/recycling_center.glb) | [GLB](recycling/assets/recycling_center/half/recycling_center.glb) |
+| 화산·지열 기지 / Protected thermal sampling rover | [VOX](geothermal/assets/thermal_rover/large/thermal_rover.vox) | [VOX](geothermal/assets/thermal_rover/half/thermal_rover.vox) | [GLB](geothermal/assets/thermal_rover/large/thermal_rover.glb) | [GLB](geothermal/assets/thermal_rover/half/thermal_rover.glb) |
+| 화산·지열 기지 / Stabilized geothermal drilling plant | [VOX](geothermal/assets/geothermal_drill/large/geothermal_drill.vox) | [VOX](geothermal/assets/geothermal_drill/half/geothermal_drill.vox) | [GLB](geothermal/assets/geothermal_drill/large/geothermal_drill.glb) | [GLB](geothermal/assets/geothermal_drill/half/geothermal_drill.glb) |
+| 화산·지열 기지 / Open-throat geothermal cooling tower | [VOX](geothermal/assets/cooling_tower/large/cooling_tower.vox) | [VOX](geothermal/assets/cooling_tower/half/cooling_tower.vox) | [GLB](geothermal/assets/cooling_tower/large/cooling_tower.glb) | [GLB](geothermal/assets/cooling_tower/half/cooling_tower.glb) |
+| 화산·지열 기지 / Glazed volcano monitoring observatory | [VOX](geothermal/assets/volcano_observatory/large/volcano_observatory.vox) | [VOX](geothermal/assets/volcano_observatory/half/volcano_observatory.vox) | [GLB](geothermal/assets/volcano_observatory/large/volcano_observatory.glb) | [GLB](geothermal/assets/volcano_observatory/half/volcano_observatory.glb) |
+| 운하·수문 마을 / Canal cargo boat | [VOX](canal/assets/canal_boat/large/canal_boat.vox) | [VOX](canal/assets/canal_boat/half/canal_boat.vox) | [GLB](canal/assets/canal_boat/large/canal_boat.glb) | [GLB](canal/assets/canal_boat/half/canal_boat.glb) |
+| 운하·수문 마을 / Partly open double lock gates | [VOX](canal/assets/lock_gate/large/lock_gate.vox) | [VOX](canal/assets/lock_gate/half/lock_gate.vox) | [GLB](canal/assets/lock_gate/large/lock_gate.glb) | [GLB](canal/assets/lock_gate/half/lock_gate.glb) |
+| 운하·수문 마을 / Raised counterweighted drawbridge | [VOX](canal/assets/drawbridge/large/drawbridge.vox) | [VOX](canal/assets/drawbridge/half/drawbridge.vox) | [GLB](canal/assets/drawbridge/large/drawbridge.glb) | [GLB](canal/assets/drawbridge/half/drawbridge.glb) |
+| 운하·수문 마을 / Lock keeper's house and control cabinet | [VOX](canal/assets/lockkeepers_house/large/lockkeepers_house.vox) | [VOX](canal/assets/lockkeepers_house/half/lockkeepers_house.vox) | [GLB](canal/assets/lockkeepers_house/large/lockkeepers_house.glb) | [GLB](canal/assets/lockkeepers_house/half/lockkeepers_house.glb) |
+| 캠핑·휴양지 / Rounded touring camper van | [VOX](camping/assets/camper_van/large/camper_van.vox) | [VOX](camping/assets/camper_van/half/camper_van.vox) | [GLB](camping/assets/camper_van/large/camper_van.glb) | [GLB](camping/assets/camper_van/half/camper_van.glb) |
+| 캠핑·휴양지 / Log cabin with sheltered front porch | [VOX](camping/assets/log_cabin/large/log_cabin.vox) | [VOX](camping/assets/log_cabin/half/log_cabin.vox) | [GLB](camping/assets/log_cabin/large/log_cabin.glb) | [GLB](camping/assets/log_cabin/half/log_cabin.glb) |
+| 캠핑·휴양지 / Portable generator trailer | [VOX](camping/assets/generator_trailer/large/generator_trailer.vox) | [VOX](camping/assets/generator_trailer/half/generator_trailer.vox) | [GLB](camping/assets/generator_trailer/large/generator_trailer.glb) | [GLB](camping/assets/generator_trailer/half/generator_trailer.glb) |
+| 캠핑·휴양지 / Three-stall campsite shower block | [VOX](camping/assets/shower_block/large/shower_block.vox) | [VOX](camping/assets/shower_block/half/shower_block.vox) | [GLB](camping/assets/shower_block/large/shower_block.glb) | [GLB](camping/assets/shower_block/half/shower_block.glb) |
+| 제과·제빵 마을 / 동네 빵집 | [VOX](bakery/assets/bakery_shop/large/bakery_shop.vox) | [VOX](bakery/assets/bakery_shop/half/bakery_shop.vox) | [GLB](bakery/assets/bakery_shop/large/bakery_shop.glb) | [GLB](bakery/assets/bakery_shop/half/bakery_shop.glb) |
+| 제과·제빵 마을 / 반죽 혼합기 | [VOX](bakery/assets/dough_mixer/large/dough_mixer.vox) | [VOX](bakery/assets/dough_mixer/half/dough_mixer.vox) | [GLB](bakery/assets/dough_mixer/large/dough_mixer.glb) | [GLB](bakery/assets/dough_mixer/half/dough_mixer.glb) |
+| 제과·제빵 마을 / 벽돌 빵 화덕 | [VOX](bakery/assets/bread_oven/large/bread_oven.vox) | [VOX](bakery/assets/bread_oven/half/bread_oven.vox) | [GLB](bakery/assets/bread_oven/large/bread_oven.glb) | [GLB](bakery/assets/bread_oven/half/bread_oven.glb) |
+| 제과·제빵 마을 / 빵 배달 밴 | [VOX](bakery/assets/delivery_van/large/delivery_van.vox) | [VOX](bakery/assets/delivery_van/half/delivery_van.vox) | [GLB](bakery/assets/delivery_van/large/delivery_van.glb) | [GLB](bakery/assets/delivery_van/half/delivery_van.glb) |

@@ -1,6 +1,6 @@
 {
   "started_at_utc": "2026-10-23T15:28:58Z",
-  "status": "checkpoint_hold",
+  "status": "complete",
   "original_models": 39,
   "planned_additions": 6,
   "planned_new_theme_models": 36,
@@ -16,7 +16,12 @@
     "forestry",
     "construction",
     "bakery",
-    "fire_rescue"
+    "fire_rescue",
+    "airfield",
+    "recycling",
+    "geothermal",
+    "canal",
+    "camping"
   ],
   "units": {
     "farm": {
@@ -143,7 +148,7 @@
         "cooling_tower",
         "volcano_observatory"
       ],
-      "worker": "voxel_new_3"
+      "worker": "geothermal_finish"
     },
     "canal": {
       "label": "운하·수문 마을",
@@ -155,7 +160,7 @@
         "drawbridge",
         "lockkeepers_house"
       ],
-      "worker": "voxel_new_1"
+      "worker": "canal"
     },
     "camping": {
       "label": "캠핑·휴양지",
@@ -167,7 +172,7 @@
         "generator_trailer",
         "shower_block"
       ],
-      "worker": "voxel_new_2"
+      "worker": "camping"
     },
     "bakery": {
       "label": "제과·제빵 마을",
@@ -184,36 +189,45 @@
   },
   "phase_a_complete": true,
   "new_themes_started": true,
-  "completed_models": 61,
-  "completed_variants": 122,
+  "completed_models": 81,
+  "completed_variants": 162,
   "phase_b_started_at_utc": "2026-10-23T16:28:05.456465+00:00",
   "resume_history": [
     {
       "resumed_at_utc": "2026-10-23T16:28:05.456465+00:00",
-      "authorization": "User: ??? ???",
+      "authorization": "User: 이어서 진행해",
       "checkpoint_commit": "63e475d"
+    },
+    {
+      "resumed_at_utc": "2026-10-25T05:00:13.228047+00:00",
+      "authorization": "User: 대기 작업 진행하고 끝나면 커밋해",
+      "checkpoint_commit": "b3992e3",
+      "paused_modeling_since_utc": "2026-10-23T17:09:48.247610+00:00"
     }
   ],
   "checkpoint_at_utc": "2026-10-25T04:50:21.846945+00:00",
   "checkpoint_reason": "User requested: 일단 지금까지 내용 커밋",
-  "exported_models": 73,
-  "exported_variants": 146,
-  "awaiting_primary_review": [
-    "airfield",
-    "recycling"
-  ],
-  "work_in_progress": [
-    "geothermal"
-  ],
-  "not_started": [
-    "canal",
-    "camping"
-  ],
+  "exported_models": 81,
+  "exported_variants": 162,
+  "awaiting_primary_review": [],
+  "work_in_progress": [],
+  "not_started": [],
   "new_theme_references_complete": true,
   "pause_history": [
     {
       "paused_at_utc": "2026-10-23T16:03:52.742472+00:00",
       "reason": "User explicitly requested commit validated outputs and stop; resume later."
     }
-  ]
+  ],
+  "current_resume_started_at_utc": "2026-10-25T05:00:13.228047+00:00",
+  "finished_at_utc": "2026-10-25T05:24:08.898568+00:00",
+  "phase_b_completed_at_utc": "2026-10-25T05:24:08.898568+00:00",
+  "models": 81,
+  "variants": 162,
+  "original_hashes_preserved": true,
+  "checkpoint_45_models_preserved": true,
+  "checkpoint_73_commit": "b3992e3",
+  "phase_b_elapsed_seconds": 132963.442103,
+  "phase_b_recorded_pause_seconds": 129024.980437,
+  "phase_b_elapsed_excluding_recorded_pauses_seconds": 3938.461666000003
 }

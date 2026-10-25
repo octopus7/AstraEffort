@@ -1,0 +1,753 @@
+{
+  "passed": true,
+  "source": "Reopened final VOX files only; coordinates expressed in each saved grid.",
+  "started_at_utc": "2026-10-25T05:13:03.497035+00:00",
+  "finished_at_utc": "2026-10-25T05:13:03.999052+00:00",
+  "elapsed_seconds": 0.5017817000625655,
+  "records": [
+    {
+      "asset": "canal_boat",
+      "variant": "large",
+      "native_sha256": "a0885a63db5e2b28eba4673425629e22ee328fc1ab6e1297f418f81ce999799e",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "cargo_well_open_to_sky",
+          "passed": true,
+          "kind": "empty_volume",
+          "grid_box": [
+            [
+              14,
+              52,
+              24
+            ],
+            [
+              34,
+              78,
+              58
+            ]
+          ],
+          "occupied": 0,
+          "cells": 17680
+        },
+        {
+          "feature": "cargo_well_structural_floor",
+          "passed": true,
+          "kind": "solid_volume",
+          "grid_box": [
+            [
+              14,
+              52,
+              18
+            ],
+            [
+              34,
+              78,
+              20
+            ]
+          ],
+          "occupied": 1040,
+          "cells": 1040
+        },
+        {
+          "feature": "aft_cargo_and_hull_rims",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              17,
+              94,
+              26
+            ],
+            [
+              32,
+              100,
+              25
+            ],
+            [
+              5,
+              66,
+              26
+            ],
+            [
+              42,
+              66,
+              26
+            ]
+          ],
+          "palette_indices": [
+            11,
+            11,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "canal_boat",
+      "variant": "half",
+      "native_sha256": "8463f36b1d440b8586d53e4af344490a3bf85b8dfc7a63cf6a178bc55d7590ae",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "cargo_well_open_to_sky",
+          "passed": true,
+          "kind": "empty_volume",
+          "grid_box": [
+            [
+              7,
+              26,
+              12
+            ],
+            [
+              17,
+              39,
+              29
+            ]
+          ],
+          "occupied": 0,
+          "cells": 2210
+        },
+        {
+          "feature": "cargo_well_structural_floor",
+          "passed": true,
+          "kind": "solid_volume",
+          "grid_box": [
+            [
+              7,
+              26,
+              9
+            ],
+            [
+              17,
+              39,
+              10
+            ]
+          ],
+          "occupied": 130,
+          "cells": 130
+        },
+        {
+          "feature": "aft_cargo_and_hull_rims",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              8,
+              47,
+              13
+            ],
+            [
+              16,
+              50,
+              12
+            ],
+            [
+              2,
+              33,
+              13
+            ],
+            [
+              21,
+              33,
+              13
+            ]
+          ],
+          "palette_indices": [
+            11,
+            11,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "lock_gate",
+      "variant": "large",
+      "native_sha256": "885d5b94370ea13ac56e7c65f0015b8f207f92a3eab470dc6589bb60431cb327",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "continuous_central_gap_between_leaves",
+          "passed": true,
+          "kind": "empty_volume",
+          "grid_box": [
+            [
+              60,
+              0,
+              0
+            ],
+            [
+              68,
+              52,
+              68
+            ]
+          ],
+          "occupied": 0,
+          "cells": 28288
+        },
+        {
+          "feature": "two_timber_leaves_and_iron_straps",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              42,
+              20,
+              34
+            ],
+            [
+              86,
+              20,
+              34
+            ],
+            [
+              42,
+              20,
+              24
+            ],
+            [
+              86,
+              20,
+              24
+            ]
+          ],
+          "palette_indices": [
+            11,
+            11,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "hinges_and_both_operating_gears",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              24,
+              30,
+              51
+            ],
+            [
+              104,
+              30,
+              51
+            ],
+            [
+              21,
+              26,
+              78
+            ],
+            [
+              123,
+              26,
+              78
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "lock_gate",
+      "variant": "half",
+      "native_sha256": "4b9c00d934cc42852a984812192467c413a7017630dd4960c21e5160e45434fe",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "continuous_central_gap_between_leaves",
+          "passed": true,
+          "kind": "empty_volume",
+          "grid_box": [
+            [
+              30,
+              0,
+              0
+            ],
+            [
+              34,
+              26,
+              34
+            ]
+          ],
+          "occupied": 0,
+          "cells": 3536
+        },
+        {
+          "feature": "two_timber_leaves_and_iron_straps",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              21,
+              10,
+              17
+            ],
+            [
+              43,
+              10,
+              17
+            ],
+            [
+              21,
+              10,
+              12
+            ],
+            [
+              43,
+              10,
+              12
+            ]
+          ],
+          "palette_indices": [
+            11,
+            11,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "hinges_and_both_operating_gears",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              12,
+              15,
+              25
+            ],
+            [
+              52,
+              15,
+              25
+            ],
+            [
+              10,
+              13,
+              39
+            ],
+            [
+              61,
+              13,
+              39
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "drawbridge",
+      "variant": "large",
+      "native_sha256": "62cbba07c3dfea1e899b67e25e18fbb080e721a309d61e505d07e89e0f3899dd",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "navigation_corridor_under_raised_span",
+          "passed": true,
+          "kind": "empty_volume",
+          "grid_box": [
+            [
+              0,
+              48,
+              0
+            ],
+            [
+              84,
+              76,
+              30
+            ]
+          ],
+          "occupied": 0,
+          "cells": 70560
+        },
+        {
+          "feature": "raised_deck_and_heel_pivot",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              42,
+              65,
+              45
+            ],
+            [
+              42,
+              31,
+              65
+            ],
+            [
+              42,
+              100,
+              25
+            ]
+          ],
+          "palette_indices": [
+            13,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "counterweights_pivot_bearings_and_lift_links",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              13,
+              121,
+              53
+            ],
+            [
+              71,
+              121,
+              53
+            ],
+            [
+              8,
+              100,
+              76
+            ],
+            [
+              76,
+              100,
+              76
+            ],
+            [
+              13,
+              35,
+              80
+            ],
+            [
+              71,
+              35,
+              80
+            ]
+          ],
+          "palette_indices": [
+            20,
+            20,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "lift_link_to_deck_crossmember",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              15,
+              31,
+              64
+            ],
+            [
+              16,
+              31,
+              64
+            ],
+            [
+              67,
+              31,
+              64
+            ],
+            [
+              68,
+              31,
+              64
+            ]
+          ],
+          "palette_indices": [
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "drawbridge",
+      "variant": "half",
+      "native_sha256": "2d496d2dbb5bdf8a24da2b01db3ef12b59c93c470bedfe6080e5d0787fc6b7b6",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "navigation_corridor_under_raised_span",
+          "passed": true,
+          "kind": "empty_volume",
+          "grid_box": [
+            [
+              0,
+              24,
+              0
+            ],
+            [
+              42,
+              38,
+              15
+            ]
+          ],
+          "occupied": 0,
+          "cells": 8820
+        },
+        {
+          "feature": "raised_deck_and_heel_pivot",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              21,
+              32,
+              22
+            ],
+            [
+              21,
+              15,
+              32
+            ],
+            [
+              21,
+              50,
+              12
+            ]
+          ],
+          "palette_indices": [
+            13,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "counterweights_pivot_bearings_and_lift_links",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              6,
+              60,
+              26
+            ],
+            [
+              35,
+              60,
+              26
+            ],
+            [
+              4,
+              50,
+              38
+            ],
+            [
+              38,
+              50,
+              38
+            ],
+            [
+              6,
+              17,
+              40
+            ],
+            [
+              35,
+              17,
+              40
+            ]
+          ],
+          "palette_indices": [
+            20,
+            20,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "feature": "lift_link_to_deck_crossmember",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              7,
+              15,
+              32
+            ],
+            [
+              8,
+              15,
+              32
+            ],
+            [
+              33,
+              15,
+              32
+            ],
+            [
+              34,
+              15,
+              32
+            ]
+          ],
+          "palette_indices": [
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "lockkeepers_house",
+      "variant": "large",
+      "native_sha256": "f6b4d15dafa01c18c9558b5fc2984e7ea1c42656151d2712c1cf008d6ee7759c",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "entrance_roof_and_chimney",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              50,
+              20,
+              26
+            ],
+            [
+              48,
+              50,
+              111
+            ],
+            [
+              73,
+              77,
+              126
+            ]
+          ],
+          "palette_indices": [
+            1,
+            14,
+            4
+          ]
+        },
+        {
+          "feature": "control_cabinet_gauge_lever_and_conduit",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              110,
+              40,
+              28
+            ],
+            [
+              105,
+              26,
+              45
+            ],
+            [
+              116,
+              22,
+              38
+            ],
+            [
+              95,
+              63,
+              20
+            ]
+          ],
+          "palette_indices": [
+            2,
+            8,
+            12,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "lockkeepers_house",
+      "variant": "half",
+      "native_sha256": "6db4c864a1f44170b72193c328af5c5a1ea405ec18d0bc91216073c298174c8a",
+      "passed": true,
+      "checks": [
+        {
+          "feature": "entrance_roof_and_chimney",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              25,
+              10,
+              13
+            ],
+            [
+              24,
+              25,
+              55
+            ],
+            [
+              36,
+              38,
+              63
+            ]
+          ],
+          "palette_indices": [
+            1,
+            14,
+            4
+          ]
+        },
+        {
+          "feature": "control_cabinet_gauge_lever_and_conduit",
+          "passed": true,
+          "kind": "support_or_mechanism_samples",
+          "grid_points": [
+            [
+              55,
+              20,
+              14
+            ],
+            [
+              52,
+              13,
+              22
+            ],
+            [
+              58,
+              11,
+              19
+            ],
+            [
+              47,
+              31,
+              10
+            ]
+          ],
+          "palette_indices": [
+            2,
+            8,
+            12,
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

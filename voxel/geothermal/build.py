@@ -148,11 +148,12 @@ def geothermal_drill():
         g.beam(a, b, 3.7, CL)
     for z in (37, 51):
         g.cylinder((116, 39, z), 4.7, 3, 2, AL)
-    # Front-mounted handwheel and two instrument gauges retain real open sectors.
-    g.cylinder((88, 44, 27), 3, 15, 1, SE)
-    g.torus((88, 36, 27), 6.5, 1.7, 1, CU)
-    g.beam((82, 36, 27), (94, 36, 27), 1.3, AL)
-    g.beam((88, 36, 21), (88, 36, 33), 1.3, AL)
+    # The control wheel stands clear of the pump front and retains four open
+    # sectors after conservative reduction; the short stem meets the housing.
+    g.cylinder((104, 24, 24), 2.3, 12, 1, SE)
+    g.torus((104, 18, 24), 10, 1.7, 1, CU)
+    g.beam((94, 18, 24), (114, 18, 24), 1.3, AL)
+    g.beam((104, 18, 14), (104, 18, 34), 1.3, AL)
     for x in (92, 110):
         g.cylinder((x, 56, 51), 4.5, 4, 1, AL)
         g.cylinder((x, 53, 51), 3, 2, 1, BG)
@@ -161,7 +162,7 @@ def geothermal_drill():
     return Asset('geothermal_drill', 'Stabilized geothermal drilling plant', g, .045,
                  ['Open lattice mast, separate threaded drill string, clear deck annulus and four stabilizer feet.',
                   'Pipe-connected pump/manifold and insulated vessel share their own structural equipment skid.',
-                  'Static native geometry; no manual half correction.'])
+                  'Front-accessible handwheel with four open sectors; static geometry, no manual half correction.'])
 
 
 def cooling_tower():

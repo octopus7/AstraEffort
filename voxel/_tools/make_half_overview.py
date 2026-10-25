@@ -1,4 +1,4 @@
-"""Compose the frozen 73-model HALF contact sheet without changing any source.
+"""Compose the completed 81-model HALF contact sheet without changing any source.
 
 Run with Blender's bundled Python on Windows. Uses built-in System.Drawing;
 no Pillow, package installation, Blender session, or model source is needed.
@@ -28,8 +28,8 @@ ROWS = [
     ("mine", "airfield"),
     ("desert", "recycling"),
     ("mountain_railway", "geothermal"),
-    ("spaceport", None),
-    ("underwater", None),
+    ("spaceport", "canal"),
+    ("underwater", "camping"),
 ]
 
 
@@ -99,11 +99,10 @@ function Wrap($value, $width, $size) {
 }
 
 Text 'VOXEL LIBRARY / SMALL · HALF' 40 22 48 '#F4F7FA' $true
-Text '73 models · 16 themes · existing rendered previews' 42 88 26 '#AFC0D1'
+Text '81 models · 18 themes · actual rendered previews' 42 88 26 '#AFC0D1'
 Text $p.snapshot_label 40 126 17 '#AFC0D1'
-Text '61 ACCEPTED' 2480 38 23 '#9BE0BF' $true
-Text '8 PENDING REVIEW' 2745 38 23 '#FFD17D' $true
-Text '4 WIP / UNVERIFIED' 3110 38 23 '#CAB1F3' $true
+Text 'ALL 81 MODELS ACCEPTED' 2480 38 23 '#9BE0BF' $true
+Text 'HALF RESOLUTION · 64' 3110 38 23 '#AFC0D1' $true
 Text 'Full frames · uniform 384 × 384 thumbnails · individual files preserved' 2480 87 18 '#AFC0D1'
 
 $results = @()
@@ -142,23 +141,6 @@ foreach ($item in $p.items) {
     }
 }
 
-$noteX = 40 + 400 * 5
-$noteY = 160 + 504 * 7
-Rect $noteX $noteY 1584 992 '#1C2B3B'
-Text 'CURRENT SNAPSHOT' ($noteX + 48) ($noteY + 40) 34 '#F4F7FA' $true
-Text 'Every available real HALF preview is included once.' ($noteX + 48) ($noteY + 104) 25 '#D6E1EB'
-Text 'Original themes: 45 models · accepted additions/new themes: 16' ($noteX + 48) ($noteY + 150) 22 '#AFC0D1'
-Text 'ACCEPTED  ·  61' ($noteX + 48) ($noteY + 245) 28 '#9BE0BF' $true
-Text 'Nine original themes, forestry, construction, fire & rescue, bakery.' ($noteX + 48) ($noteY + 293) 22 '#D6E1EB'
-Text 'PENDING REVIEW  ·  8' ($noteX + 48) ($noteY + 367) 28 '#FFD17D' $true
-Text 'Airfield and recycling: rendered previews, awaiting main review.' ($noteX + 48) ($noteY + 415) 22 '#D6E1EB'
-Text 'WIP / UNVERIFIED  ·  4' ($noteX + 48) ($noteY + 489) 28 '#CAB1F3' $true
-Text 'Geothermal: work in progress, not accepted.' ($noteX + 48) ($noteY + 537) 22 '#D6E1EB'
-Text 'Canal and camping have no previews yet and are not represented.' ($noteX + 48) ($noteY + 637) 22 '#AFC0D1'
-Text 'Each thumbnail preserves the entire source frame.' ($noteX + 48) ($noteY + 708) 22 '#AFC0D1'
-Text 'No source preview was replaced, cropped, or rewritten.' ($noteX + 48) ($noteY + 748) 22 '#AFC0D1'
-Text 'Source paths, before/after SHA-256 hashes, and layout:' ($noteX + 48) ($noteY + 838) 22 '#AFC0D1'
-Text 'voxel/overview_half_all.json' ($noteX + 48) ($noteY + 878) 24 '#F4F7FA' $true
 try {
     $bitmap.Save($p.output,[System.Drawing.Imaging.ImageFormat]::Png)
 } finally {
@@ -175,9 +157,12 @@ try {
 def main() -> None:
     started = datetime.now(timezone.utc)
     state_path = ROOT / "EXPANSION_STATE.json"
-    manifest_path = ROOT / "delivery_manifest.json"
+    manifest_path = ROOT / "delivery_manifest_first39.json"
     state = read_json(state_path)
     manifest = read_json(manifest_path)
+    assert set(state["accepted"]) == set(state["units"]), "All expansion units must be accepted first"
+    review_paths = [ROOT / "validation" / f"expansion_{theme}_visual_review.json" for theme in state["accepted"]]
+    assert all(read_json(path)["accepted"] for path in review_paths)
     accepted_original = {(a["theme"], a["asset"]) for a in manifest["assets"]}
     paths = sorted(
         p
@@ -185,7 +170,7 @@ def main() -> None:
         for p in ROOT.glob(pattern)
         if not any(part.startswith(("_", ".")) for part in p.relative_to(ROOT).parts)
     )
-    assert len(paths) == len(set(paths)) == 73, "Expected exactly 73 real previews"
+    assert len(paths) == len(set(paths)) == 81, "Expected exactly 81 real previews"
     by_theme = {}
     for path in paths:
         theme = path.relative_to(ROOT).parts[0]
@@ -205,10 +190,6 @@ def main() -> None:
                 assert isinstance(label, str) and label.strip(), metadata
                 if (theme, asset) in accepted_original or theme in state["accepted"]:
                     status = "accepted"
-                elif theme in {"airfield", "recycling"}:
-                    status = "pending_review"
-                elif theme == "geothermal":
-                    status = "wip_unverified"
                 else:
                     raise AssertionError(f"Unclassified theme: {theme}")
                 items.append({
@@ -228,7 +209,7 @@ def main() -> None:
                     "metadata_sha256_before": digest(metadata),
                 })
     counts = dict(Counter(item["status"] for item in items))
-    assert counts == {"accepted": 61, "pending_review": 8, "wip_unverified": 4}, counts
+    assert counts == {"accepted": 81}, counts
     payload = {
         "output": str(PNG),
         "snapshot_label": "Snapshot " + started.strftime("%Y-%m-%d %H:%M:%S UTC"),
@@ -257,7 +238,7 @@ def main() -> None:
     finished = datetime.now(timezone.utc)
     provenance = {
         "schema_version": 1,
-        "description": "One contact sheet of all 73 existing real SMALL/HALF rendered previews.",
+        "description": "One contact sheet of all 81 accepted real SMALL/HALF rendered previews.",
         "started_at_utc": started.isoformat(),
         "finished_at_utc": finished.isoformat(),
         "elapsed_seconds": round((finished - started).total_seconds(), 3),
@@ -265,16 +246,16 @@ def main() -> None:
         "unique_source_count": len({item["source_path"] for item in items}),
         "theme_count": len(by_theme),
         "status_counts": counts,
-        "status_basis": "Original 45 delivery-manifest models plus accepted expansion units; airfield/recycling pending main review; geothermal WIP/unverified, as dispatched.",
+        "status_basis": "Original 39 preserved models plus all 15 parent-accepted expansion units (six additions and nine new themes).",
         "status_sources": [
             {"path": p.relative_to(REPO).as_posix(), "sha256": digest(p)}
-            for p in (state_path, manifest_path)
+            for p in [manifest_path, *review_paths]
         ],
         "compositor": "Windows System.Drawing, invoked from Python; full-frame high-quality bicubic scaling only",
         "columns": 9,
         "rows": 9,
         "thumbnail_size": [384, 384],
-        "exclusions": ["voxel/_tools/smoke/**", "underscore/cache/scratch roots", "all LARGE previews", "canal and camping (no existing previews)"],
+        "exclusions": ["voxel/_tools/smoke/**", "underscore/cache/scratch roots", "all LARGE previews"],
         "source_previews_unchanged": True,
         "source_metadata_unchanged": True,
         "all_labels_fit": all(item["label_bounds_checked"] for item in items),

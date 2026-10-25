@@ -16,9 +16,9 @@ Six additions add distinct gameplay functions and silhouettes: farm/combine_harv
 - [x] Worker1: farm addition, then harbor addition. Worker2: factory addition, then mine addition. Worker3: antarctic addition. Main: desert addition after all six reference images are ready.
 - [x] Main independently reparses/reimports all 12 added variants, inspects all primary previews, freezes hashes and accepts phase A. Existing 39 models remain unchanged.
 - [x] Only after phase A acceptance, main generates nine new theme reference sheets sequentially. Dispatch each ready first theme immediately; later assigned themes wait for their references and predecessor acceptance.
-- [ ] Worker1: forestry -> airfield -> canal. Worker2: construction -> recycling -> camping. Worker3: fire_rescue -> geothermal. Main: bakery after all nine references are ready.
-- [ ] Main independently validates and visually reviews every new large/half pair. Workers inspect actual previews before submission and fix demonstrated defects only.
-- [ ] Assemble the expanded 18-theme comparison gallery, README, manifest and a new verified ZIP; preserve original nine-theme ZIP and model hashes.
+- [x] Worker1: forestry -> airfield -> canal. Worker2: construction -> recycling -> camping. Worker3: fire_rescue -> geothermal. Main: bakery after all nine references are ready.
+- [x] Main independently validates and visually reviews every new large/half pair. Workers inspect actual previews before submission and fix demonstrated defects only.
+- [x] Assemble the expanded 18-theme comparison gallery, README, manifest and a new verified ZIP; preserve original nine-theme ZIP and model hashes.
 
 ## New themes and exact assets
 
@@ -38,6 +38,10 @@ Six additions add distinct gameplay functions and silhouettes: farm/combine_harv
 
 Workers may write only their currently assigned root; own-theme old palette/reference can be consulted for continuity, but existing accepted assets may not be modified. No cross-theme creative reads, ForestDemo access, Git operations, installations or shared live Blender scene. Isolated Blender background processes only, four CPU threads maximum each. Record actual UTC/KST and process timing; generated references are never render evidence. Final reviewer verifies native occupancy, real grid reduction, palette indices, outward exposed surfaces, all three fresh mesh imports, file hashes, visible functional openings/mechanisms and completeness. No repeated speculative polish cycles.
 
-## Progress checkpoint
+## Historical checkpoint (b3992e3)
 
 User requested a commit of current progress. 61 models are parent-accepted; airfield/recycling (8) await parent review; geothermal (4) is exported but unverified WIP; canal/camping (8) are unstarted. All nine reference sheets are ready. Workers are frozen. See RESUME.md and CHECKPOINT.json; final assembly remains pending.
+
+## Final completion
+
+All 18 themes / 81 models / 162 variants are parent-accepted. The 81-model half overview, comparison gallery, manifest and archive are prepared from frozen outputs. Completed at 2026-10-25T05:24:08.898568+00:00.

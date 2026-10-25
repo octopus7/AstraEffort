@@ -1,0 +1,11 @@
+{
+  "started_at_utc": "2026-10-25T05:10:54.0873296+00:00",
+  "finished_at_utc": "2026-10-25T05:12:22.3926348+00:00",
+  "elapsed_seconds": 88.3030332,
+  "exit_code": null,
+  "threads": 4,
+  "factory_startup": true,
+  "completion_evidence": "All four VOXEL_ASSET_COMPLETE markers, build_validation.json passed, eight renders, and subsequent independent verification passed.",
+  "exit_code_note": "The original Start-Process wrapper used WaitForExit and returned a null child ExitCode. The null is preserved. The launcher exited 0; future wrapper calls now use Start-Process -Wait. No second build was run.",
+  "launcher_exit_code": 0
+}

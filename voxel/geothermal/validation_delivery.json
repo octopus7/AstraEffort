@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T05:07:46.880420+00:00",
+  "finished_at_utc": "2026-10-25T05:07:47.198047+00:00",
+  "elapsed_seconds": 0.3170019999379292,
+  "asset_count": 4,
+  "variant_count": 8,
+  "counts": {
+    "vox": 8,
+    "blend": 8,
+    "glb": 8,
+    "fbx": 8,
+    "png": 8,
+    "metadata": 8
+  },
+  "unchanged_non_drill_variants": 6,
+  "pairs": [
+    {
+      "asset": "thermal_rover",
+      "large_grid": [
+        98,
+        128,
+        104
+      ],
+      "half_grid": [
+        49,
+        64,
+        52
+      ],
+      "grid_extents_m": [
+        3.43,
+        4.48,
+        3.6400000000000006
+      ],
+      "native_half_occupancy_is_exact_2x_block_union": true,
+      "matching_capture_settings": true
+    },
+    {
+      "asset": "geothermal_drill",
+      "large_grid": [
+        128,
+        104,
+        128
+      ],
+      "half_grid": [
+        64,
+        52,
+        64
+      ],
+      "grid_extents_m": [
+        5.76,
+        4.68,
+        5.76
+      ],
+      "native_half_occupancy_is_exact_2x_block_union": true,
+      "matching_capture_settings": true
+    },
+    {
+      "asset": "cooling_tower",
+      "large_grid": [
+        112,
+        112,
+        128
+      ],
+      "half_grid": [
+        56,
+        56,
+        64
+      ],
+      "grid_extents_m": [
+        5.6000000000000005,
+        5.6000000000000005,
+        6.4
+      ],
+      "native_half_occupancy_is_exact_2x_block_union": true,
+      "matching_capture_settings": true
+    },
+    {
+      "asset": "volcano_observatory",
+      "large_grid": [
+        128,
+        112,
+        128
+      ],
+      "half_grid": [
+        64,
+        56,
+        64
+      ],
+      "grid_extents_m": [
+        6.4,
+        5.6000000000000005,
+        6.4
+      ],
+      "native_half_occupancy_is_exact_2x_block_union": true,
+      "matching_capture_settings": true
+    }
+  ],
+  "checks": [
+    "Exact requested asset and per-variant file set",
+    "Final metadata SHA256 values",
+    "Capture PNG and BLEND hashes",
+    "Same-camera pair settings",
+    "Even longest128 large dimensions and exact half axes",
+    "Equal physical grid extents",
+    "Native half occupancy is conservative 2x block union",
+    "Six non-drill variants unchanged from first build"
+  ]
+}

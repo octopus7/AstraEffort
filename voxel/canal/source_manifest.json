@@ -1,0 +1,18 @@
+{
+  "authoring": "Original finite native-grid geometry from pure make_assets() in build.py.",
+  "reference": {
+    "path": "REF/voxel/canal/reference.png",
+    "sha256": "77b6a9cc0c39c33daedcbda9dc694ffffb1a7d9d584d830f9f241cd335655cd3",
+    "role": "Main-provided design input only; never scene evidence"
+  },
+  "worker_image_generation_seconds": 0,
+  "shared_read_only_tools": {
+    "voxel/_tools/voxelkit.py": "f49e05ad60c97b029d6423888120c4ff9b3a994f1f9153a4ecff23cb47b6e926",
+    "voxel/_tools/blender_pipeline.py": "e2f0a6492997d516d9c0706b4115717beb5c88a273415c88bdcf2c806c7c7a43",
+    "voxel/_tools/verify_theme.py": "9f2c3eb3ec9b44da918c40e8305130ed25475708f7b7ca48e3d2b101fc6021d4"
+  },
+  "half_resolution": "Independent conservative 2x2x2 native reduction; no manual half edits. Doubled meters per cell; identical physical grid extent.",
+  "correction": "Saved-native red probe found an empty two-voxel lift-link/deck-nose joint in the large bridge. Added one real transverse crossmember and rebuilt only drawbridge. Final probe passes in both variants. Before PNGs/logs preserved; old model backups removed.",
+  "launcher_note": "First build completed all eight outputs and Blender quit, but the initial wrapper discarded ExitCode during Refresh. Original timing preserves null instead of inventing a code. Start-Process -Wait fixed capture; correction and verification returned 0.",
+  "external_web_references": []
+}

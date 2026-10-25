@@ -1,0 +1,2755 @@
+{
+  "theme": "geothermal",
+  "passed": false,
+  "asset_count": 4,
+  "variant_count": 8,
+  "started_at_utc": "2026-10-25T05:04:33.410200+00:00",
+  "finished_at_utc": "2026-10-25T05:04:33.446839+00:00",
+  "elapsed_seconds": 0.0367734000319615,
+  "check_count": 68,
+  "failures": [
+    "geothermal_drill/large: front_accessible_handwheel_rim_and_hub",
+    "geothermal_drill/half: front_accessible_handwheel_rim_and_hub"
+  ],
+  "records": [
+    {
+      "asset": "thermal_rover",
+      "variant": "large",
+      "vox_sha256": "16c64977d314f0acdd1300e56d6d437ac84b9d5ec4737d56e5608b0c148de9ed",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            98,
+            128,
+            104
+          ]
+        },
+        {
+          "name": "sampler_core_bore",
+          "passed": true,
+          "large_cell_box": [
+            [
+              86,
+              14,
+              24
+            ],
+            [
+              90,
+              18,
+              34
+            ]
+          ],
+          "tested_voxels": 160,
+          "occupied": 0
+        },
+        {
+          "name": "sampler_crown_surrounds_bore",
+          "passed": true,
+          "large_cell_points": [
+            [
+              83,
+              16,
+              30
+            ],
+            [
+              93,
+              16,
+              30
+            ],
+            [
+              88,
+              11,
+              30
+            ],
+            [
+              88,
+              21,
+              30
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "sampler_ground_clearance",
+          "passed": true,
+          "large_cell_box": [
+            [
+              80,
+              8,
+              2
+            ],
+            [
+              96,
+              24,
+              22
+            ]
+          ],
+          "tested_voxels": 5120,
+          "occupied": 0
+        },
+        {
+          "name": "sampler_arm_and_joints_present",
+          "passed": true,
+          "large_cell_points": [
+            [
+              76,
+              66,
+              58
+            ],
+            [
+              82,
+              55,
+              66
+            ],
+            [
+              88,
+              44,
+              75
+            ],
+            [
+              88,
+              31,
+              67
+            ],
+            [
+              88,
+              17,
+              58
+            ],
+            [
+              88,
+              16,
+              44
+            ]
+          ],
+          "palette_indices": [
+            3,
+            3,
+            1,
+            1,
+            6,
+            3
+          ]
+        },
+        {
+          "name": "eight_track_wheel_hubs",
+          "passed": true,
+          "large_cell_points": [
+            [
+              5,
+              52,
+              18
+            ],
+            [
+              5,
+              70,
+              18
+            ],
+            [
+              5,
+              88,
+              18
+            ],
+            [
+              5,
+              107,
+              18
+            ],
+            [
+              93,
+              52,
+              18
+            ],
+            [
+              93,
+              70,
+              18
+            ],
+            [
+              93,
+              88,
+              18
+            ],
+            [
+              93,
+              107,
+              18
+            ]
+          ],
+          "palette_indices": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "thermal_rover",
+      "variant": "half",
+      "vox_sha256": "2010594cc1961851d204d0f08fadc49c68c05932bf5fcd19619901616ecc0aa3",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            49,
+            64,
+            52
+          ]
+        },
+        {
+          "name": "sampler_core_bore",
+          "passed": true,
+          "large_cell_box": [
+            [
+              86,
+              14,
+              24
+            ],
+            [
+              90,
+              18,
+              34
+            ]
+          ],
+          "tested_voxels": 20,
+          "occupied": 0
+        },
+        {
+          "name": "sampler_crown_surrounds_bore",
+          "passed": true,
+          "large_cell_points": [
+            [
+              83,
+              16,
+              30
+            ],
+            [
+              93,
+              16,
+              30
+            ],
+            [
+              88,
+              11,
+              30
+            ],
+            [
+              88,
+              21,
+              30
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "sampler_ground_clearance",
+          "passed": true,
+          "large_cell_box": [
+            [
+              80,
+              8,
+              2
+            ],
+            [
+              96,
+              24,
+              22
+            ]
+          ],
+          "tested_voxels": 640,
+          "occupied": 0
+        },
+        {
+          "name": "sampler_arm_and_joints_present",
+          "passed": true,
+          "large_cell_points": [
+            [
+              76,
+              66,
+              58
+            ],
+            [
+              82,
+              55,
+              66
+            ],
+            [
+              88,
+              44,
+              75
+            ],
+            [
+              88,
+              31,
+              67
+            ],
+            [
+              88,
+              17,
+              58
+            ],
+            [
+              88,
+              16,
+              44
+            ]
+          ],
+          "palette_indices": [
+            3,
+            3,
+            1,
+            1,
+            6,
+            3
+          ]
+        },
+        {
+          "name": "eight_track_wheel_hubs",
+          "passed": true,
+          "large_cell_points": [
+            [
+              5,
+              52,
+              18
+            ],
+            [
+              5,
+              70,
+              18
+            ],
+            [
+              5,
+              88,
+              18
+            ],
+            [
+              5,
+              107,
+              18
+            ],
+            [
+              93,
+              52,
+              18
+            ],
+            [
+              93,
+              70,
+              18
+            ],
+            [
+              93,
+              88,
+              18
+            ],
+            [
+              93,
+              107,
+              18
+            ]
+          ],
+          "palette_indices": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "geothermal_drill",
+      "variant": "large",
+      "vox_sha256": "448d3546f9e3685f3413fcd0d370086e75b7bdcb6d83d89f9689353047ebe87d",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            128,
+            104,
+            128
+          ]
+        },
+        {
+          "name": "continuous_drill_string",
+          "passed": true,
+          "large_cell_points": [
+            [
+              40,
+              45,
+              20
+            ],
+            [
+              40,
+              45,
+              21
+            ],
+            [
+              40,
+              45,
+              22
+            ],
+            [
+              40,
+              45,
+              23
+            ],
+            [
+              40,
+              45,
+              24
+            ],
+            [
+              40,
+              45,
+              25
+            ],
+            [
+              40,
+              45,
+              26
+            ],
+            [
+              40,
+              45,
+              27
+            ],
+            [
+              40,
+              45,
+              28
+            ],
+            [
+              40,
+              45,
+              29
+            ],
+            [
+              40,
+              45,
+              30
+            ],
+            [
+              40,
+              45,
+              31
+            ],
+            [
+              40,
+              45,
+              32
+            ],
+            [
+              40,
+              45,
+              33
+            ],
+            [
+              40,
+              45,
+              34
+            ],
+            [
+              40,
+              45,
+              35
+            ],
+            [
+              40,
+              45,
+              36
+            ],
+            [
+              40,
+              45,
+              37
+            ],
+            [
+              40,
+              45,
+              38
+            ],
+            [
+              40,
+              45,
+              39
+            ],
+            [
+              40,
+              45,
+              40
+            ],
+            [
+              40,
+              45,
+              41
+            ],
+            [
+              40,
+              45,
+              42
+            ],
+            [
+              40,
+              45,
+              43
+            ],
+            [
+              40,
+              45,
+              44
+            ],
+            [
+              40,
+              45,
+              45
+            ],
+            [
+              40,
+              45,
+              46
+            ],
+            [
+              40,
+              45,
+              47
+            ],
+            [
+              40,
+              45,
+              48
+            ],
+            [
+              40,
+              45,
+              49
+            ],
+            [
+              40,
+              45,
+              50
+            ],
+            [
+              40,
+              45,
+              51
+            ],
+            [
+              40,
+              45,
+              52
+            ],
+            [
+              40,
+              45,
+              53
+            ],
+            [
+              40,
+              45,
+              54
+            ],
+            [
+              40,
+              45,
+              55
+            ],
+            [
+              40,
+              45,
+              56
+            ],
+            [
+              40,
+              45,
+              57
+            ],
+            [
+              40,
+              45,
+              58
+            ],
+            [
+              40,
+              45,
+              59
+            ],
+            [
+              40,
+              45,
+              60
+            ],
+            [
+              40,
+              45,
+              61
+            ],
+            [
+              40,
+              45,
+              62
+            ],
+            [
+              40,
+              45,
+              63
+            ],
+            [
+              40,
+              45,
+              64
+            ],
+            [
+              40,
+              45,
+              65
+            ],
+            [
+              40,
+              45,
+              66
+            ],
+            [
+              40,
+              45,
+              67
+            ],
+            [
+              40,
+              45,
+              68
+            ],
+            [
+              40,
+              45,
+              69
+            ],
+            [
+              40,
+              45,
+              70
+            ],
+            [
+              40,
+              45,
+              71
+            ],
+            [
+              40,
+              45,
+              72
+            ],
+            [
+              40,
+              45,
+              73
+            ],
+            [
+              40,
+              45,
+              74
+            ],
+            [
+              40,
+              45,
+              75
+            ],
+            [
+              40,
+              45,
+              76
+            ],
+            [
+              40,
+              45,
+              77
+            ],
+            [
+              40,
+              45,
+              78
+            ],
+            [
+              40,
+              45,
+              79
+            ],
+            [
+              40,
+              45,
+              80
+            ],
+            [
+              40,
+              45,
+              81
+            ],
+            [
+              40,
+              45,
+              82
+            ],
+            [
+              40,
+              45,
+              83
+            ],
+            [
+              40,
+              45,
+              84
+            ],
+            [
+              40,
+              45,
+              85
+            ],
+            [
+              40,
+              45,
+              86
+            ],
+            [
+              40,
+              45,
+              87
+            ],
+            [
+              40,
+              45,
+              88
+            ],
+            [
+              40,
+              45,
+              89
+            ],
+            [
+              40,
+              45,
+              90
+            ],
+            [
+              40,
+              45,
+              91
+            ],
+            [
+              40,
+              45,
+              92
+            ],
+            [
+              40,
+              45,
+              93
+            ],
+            [
+              40,
+              45,
+              94
+            ],
+            [
+              40,
+              45,
+              95
+            ],
+            [
+              40,
+              45,
+              96
+            ],
+            [
+              40,
+              45,
+              97
+            ],
+            [
+              40,
+              45,
+              98
+            ],
+            [
+              40,
+              45,
+              99
+            ],
+            [
+              40,
+              45,
+              100
+            ],
+            [
+              40,
+              45,
+              101
+            ],
+            [
+              40,
+              45,
+              102
+            ],
+            [
+              40,
+              45,
+              103
+            ],
+            [
+              40,
+              45,
+              104
+            ],
+            [
+              40,
+              45,
+              105
+            ]
+          ],
+          "palette_indices": [
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "deck_annulus_clearance_east",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              44,
+              20
+            ],
+            [
+              48,
+              46,
+              36
+            ]
+          ],
+          "tested_voxels": 64,
+          "occupied": 0
+        },
+        {
+          "name": "deck_annulus_clearance_west",
+          "passed": true,
+          "large_cell_box": [
+            [
+              32,
+              44,
+              20
+            ],
+            [
+              34,
+              46,
+              36
+            ]
+          ],
+          "tested_voxels": 64,
+          "occupied": 0
+        },
+        {
+          "name": "deck_annulus_clearance_front",
+          "passed": true,
+          "large_cell_box": [
+            [
+              38,
+              36,
+              20
+            ],
+            [
+              42,
+              38,
+              36
+            ]
+          ],
+          "tested_voxels": 128,
+          "occupied": 0
+        },
+        {
+          "name": "deck_annulus_clearance_rear",
+          "passed": true,
+          "large_cell_box": [
+            [
+              38,
+              52,
+              20
+            ],
+            [
+              42,
+              54,
+              36
+            ]
+          ],
+          "tested_voxels": 128,
+          "occupied": 0
+        },
+        {
+          "name": "deck_ring_and_four_stabilizer_feet",
+          "passed": true,
+          "large_cell_points": [
+            [
+              55,
+              45,
+              28
+            ],
+            [
+              25,
+              45,
+              28
+            ],
+            [
+              10,
+              13,
+              4
+            ],
+            [
+              73,
+              13,
+              4
+            ],
+            [
+              10,
+              82,
+              4
+            ],
+            [
+              73,
+              82,
+              4
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "mast_left_open_bay",
+          "passed": true,
+          "large_cell_box": [
+            [
+              28,
+              48,
+              48
+            ],
+            [
+              34,
+              60,
+              102
+            ]
+          ],
+          "tested_voxels": 3888,
+          "occupied": 0
+        },
+        {
+          "name": "mast_right_open_bay",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              48,
+              48
+            ],
+            [
+              52,
+              60,
+              102
+            ]
+          ],
+          "tested_voxels": 3888,
+          "occupied": 0
+        },
+        {
+          "name": "front_accessible_handwheel_rim_and_hub",
+          "passed": false,
+          "large_cell_points": [
+            [
+              94,
+              18,
+              24
+            ],
+            [
+              114,
+              18,
+              24
+            ],
+            [
+              104,
+              18,
+              14
+            ],
+            [
+              104,
+              18,
+              34
+            ],
+            [
+              104,
+              18,
+              24
+            ]
+          ],
+          "palette_indices": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "handwheel_open_sector_98_18",
+          "passed": true,
+          "large_cell_box": [
+            [
+              98,
+              16,
+              18
+            ],
+            [
+              100,
+              20,
+              20
+            ]
+          ],
+          "tested_voxels": 16,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_open_sector_98_28",
+          "passed": true,
+          "large_cell_box": [
+            [
+              98,
+              16,
+              28
+            ],
+            [
+              100,
+              20,
+              30
+            ]
+          ],
+          "tested_voxels": 16,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_open_sector_108_18",
+          "passed": true,
+          "large_cell_box": [
+            [
+              108,
+              16,
+              18
+            ],
+            [
+              110,
+              20,
+              20
+            ]
+          ],
+          "tested_voxels": 16,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_open_sector_108_28",
+          "passed": true,
+          "large_cell_box": [
+            [
+              108,
+              16,
+              28
+            ],
+            [
+              110,
+              20,
+              30
+            ]
+          ],
+          "tested_voxels": 16,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_front_access_clearance",
+          "passed": true,
+          "large_cell_box": [
+            [
+              94,
+              10,
+              14
+            ],
+            [
+              114,
+              16,
+              34
+            ]
+          ],
+          "tested_voxels": 2400,
+          "occupied": 0
+        }
+      ],
+      "passed": false,
+      "old_handwheel_quadrant_diagnostic": {
+        "center_large_cells": [
+          88,
+          36,
+          27
+        ],
+        "points_large_cells": [
+          [
+            85,
+            36,
+            24
+          ],
+          [
+            91,
+            36,
+            24
+          ],
+          [
+            85,
+            36,
+            30
+          ],
+          [
+            91,
+            36,
+            30
+          ]
+        ],
+        "palette_indices": [
+          0,
+          3,
+          0,
+          3
+        ],
+        "expected_for_open_quadrants": 0,
+        "cause": "Wheel plane Y36 lies inside pump body Y27..48; positive-X quadrants intersect pump."
+      }
+    },
+    {
+      "asset": "geothermal_drill",
+      "variant": "half",
+      "vox_sha256": "c2c85c589653a66ac3dfeda7b8ecbdccff3e4ecb7ce725ec2335e8b4c280025d",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            64,
+            52,
+            64
+          ]
+        },
+        {
+          "name": "continuous_drill_string",
+          "passed": true,
+          "large_cell_points": [
+            [
+              40,
+              45,
+              20
+            ],
+            [
+              40,
+              45,
+              21
+            ],
+            [
+              40,
+              45,
+              22
+            ],
+            [
+              40,
+              45,
+              23
+            ],
+            [
+              40,
+              45,
+              24
+            ],
+            [
+              40,
+              45,
+              25
+            ],
+            [
+              40,
+              45,
+              26
+            ],
+            [
+              40,
+              45,
+              27
+            ],
+            [
+              40,
+              45,
+              28
+            ],
+            [
+              40,
+              45,
+              29
+            ],
+            [
+              40,
+              45,
+              30
+            ],
+            [
+              40,
+              45,
+              31
+            ],
+            [
+              40,
+              45,
+              32
+            ],
+            [
+              40,
+              45,
+              33
+            ],
+            [
+              40,
+              45,
+              34
+            ],
+            [
+              40,
+              45,
+              35
+            ],
+            [
+              40,
+              45,
+              36
+            ],
+            [
+              40,
+              45,
+              37
+            ],
+            [
+              40,
+              45,
+              38
+            ],
+            [
+              40,
+              45,
+              39
+            ],
+            [
+              40,
+              45,
+              40
+            ],
+            [
+              40,
+              45,
+              41
+            ],
+            [
+              40,
+              45,
+              42
+            ],
+            [
+              40,
+              45,
+              43
+            ],
+            [
+              40,
+              45,
+              44
+            ],
+            [
+              40,
+              45,
+              45
+            ],
+            [
+              40,
+              45,
+              46
+            ],
+            [
+              40,
+              45,
+              47
+            ],
+            [
+              40,
+              45,
+              48
+            ],
+            [
+              40,
+              45,
+              49
+            ],
+            [
+              40,
+              45,
+              50
+            ],
+            [
+              40,
+              45,
+              51
+            ],
+            [
+              40,
+              45,
+              52
+            ],
+            [
+              40,
+              45,
+              53
+            ],
+            [
+              40,
+              45,
+              54
+            ],
+            [
+              40,
+              45,
+              55
+            ],
+            [
+              40,
+              45,
+              56
+            ],
+            [
+              40,
+              45,
+              57
+            ],
+            [
+              40,
+              45,
+              58
+            ],
+            [
+              40,
+              45,
+              59
+            ],
+            [
+              40,
+              45,
+              60
+            ],
+            [
+              40,
+              45,
+              61
+            ],
+            [
+              40,
+              45,
+              62
+            ],
+            [
+              40,
+              45,
+              63
+            ],
+            [
+              40,
+              45,
+              64
+            ],
+            [
+              40,
+              45,
+              65
+            ],
+            [
+              40,
+              45,
+              66
+            ],
+            [
+              40,
+              45,
+              67
+            ],
+            [
+              40,
+              45,
+              68
+            ],
+            [
+              40,
+              45,
+              69
+            ],
+            [
+              40,
+              45,
+              70
+            ],
+            [
+              40,
+              45,
+              71
+            ],
+            [
+              40,
+              45,
+              72
+            ],
+            [
+              40,
+              45,
+              73
+            ],
+            [
+              40,
+              45,
+              74
+            ],
+            [
+              40,
+              45,
+              75
+            ],
+            [
+              40,
+              45,
+              76
+            ],
+            [
+              40,
+              45,
+              77
+            ],
+            [
+              40,
+              45,
+              78
+            ],
+            [
+              40,
+              45,
+              79
+            ],
+            [
+              40,
+              45,
+              80
+            ],
+            [
+              40,
+              45,
+              81
+            ],
+            [
+              40,
+              45,
+              82
+            ],
+            [
+              40,
+              45,
+              83
+            ],
+            [
+              40,
+              45,
+              84
+            ],
+            [
+              40,
+              45,
+              85
+            ],
+            [
+              40,
+              45,
+              86
+            ],
+            [
+              40,
+              45,
+              87
+            ],
+            [
+              40,
+              45,
+              88
+            ],
+            [
+              40,
+              45,
+              89
+            ],
+            [
+              40,
+              45,
+              90
+            ],
+            [
+              40,
+              45,
+              91
+            ],
+            [
+              40,
+              45,
+              92
+            ],
+            [
+              40,
+              45,
+              93
+            ],
+            [
+              40,
+              45,
+              94
+            ],
+            [
+              40,
+              45,
+              95
+            ],
+            [
+              40,
+              45,
+              96
+            ],
+            [
+              40,
+              45,
+              97
+            ],
+            [
+              40,
+              45,
+              98
+            ],
+            [
+              40,
+              45,
+              99
+            ],
+            [
+              40,
+              45,
+              100
+            ],
+            [
+              40,
+              45,
+              101
+            ],
+            [
+              40,
+              45,
+              102
+            ],
+            [
+              40,
+              45,
+              103
+            ],
+            [
+              40,
+              45,
+              104
+            ],
+            [
+              40,
+              45,
+              105
+            ]
+          ],
+          "palette_indices": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "deck_annulus_clearance_east",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              44,
+              20
+            ],
+            [
+              48,
+              46,
+              36
+            ]
+          ],
+          "tested_voxels": 8,
+          "occupied": 0
+        },
+        {
+          "name": "deck_annulus_clearance_west",
+          "passed": true,
+          "large_cell_box": [
+            [
+              32,
+              44,
+              20
+            ],
+            [
+              34,
+              46,
+              36
+            ]
+          ],
+          "tested_voxels": 8,
+          "occupied": 0
+        },
+        {
+          "name": "deck_annulus_clearance_front",
+          "passed": true,
+          "large_cell_box": [
+            [
+              38,
+              36,
+              20
+            ],
+            [
+              42,
+              38,
+              36
+            ]
+          ],
+          "tested_voxels": 16,
+          "occupied": 0
+        },
+        {
+          "name": "deck_annulus_clearance_rear",
+          "passed": true,
+          "large_cell_box": [
+            [
+              38,
+              52,
+              20
+            ],
+            [
+              42,
+              54,
+              36
+            ]
+          ],
+          "tested_voxels": 16,
+          "occupied": 0
+        },
+        {
+          "name": "deck_ring_and_four_stabilizer_feet",
+          "passed": true,
+          "large_cell_points": [
+            [
+              55,
+              45,
+              28
+            ],
+            [
+              25,
+              45,
+              28
+            ],
+            [
+              10,
+              13,
+              4
+            ],
+            [
+              73,
+              13,
+              4
+            ],
+            [
+              10,
+              82,
+              4
+            ],
+            [
+              73,
+              82,
+              4
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "mast_left_open_bay",
+          "passed": true,
+          "large_cell_box": [
+            [
+              28,
+              48,
+              48
+            ],
+            [
+              34,
+              60,
+              102
+            ]
+          ],
+          "tested_voxels": 486,
+          "occupied": 0
+        },
+        {
+          "name": "mast_right_open_bay",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              48,
+              48
+            ],
+            [
+              52,
+              60,
+              102
+            ]
+          ],
+          "tested_voxels": 486,
+          "occupied": 0
+        },
+        {
+          "name": "front_accessible_handwheel_rim_and_hub",
+          "passed": false,
+          "large_cell_points": [
+            [
+              94,
+              18,
+              24
+            ],
+            [
+              114,
+              18,
+              24
+            ],
+            [
+              104,
+              18,
+              14
+            ],
+            [
+              104,
+              18,
+              34
+            ],
+            [
+              104,
+              18,
+              24
+            ]
+          ],
+          "palette_indices": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "handwheel_open_sector_98_18",
+          "passed": true,
+          "large_cell_box": [
+            [
+              98,
+              16,
+              18
+            ],
+            [
+              100,
+              20,
+              20
+            ]
+          ],
+          "tested_voxels": 2,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_open_sector_98_28",
+          "passed": true,
+          "large_cell_box": [
+            [
+              98,
+              16,
+              28
+            ],
+            [
+              100,
+              20,
+              30
+            ]
+          ],
+          "tested_voxels": 2,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_open_sector_108_18",
+          "passed": true,
+          "large_cell_box": [
+            [
+              108,
+              16,
+              18
+            ],
+            [
+              110,
+              20,
+              20
+            ]
+          ],
+          "tested_voxels": 2,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_open_sector_108_28",
+          "passed": true,
+          "large_cell_box": [
+            [
+              108,
+              16,
+              28
+            ],
+            [
+              110,
+              20,
+              30
+            ]
+          ],
+          "tested_voxels": 2,
+          "occupied": 0
+        },
+        {
+          "name": "handwheel_front_access_clearance",
+          "passed": true,
+          "large_cell_box": [
+            [
+              94,
+              10,
+              14
+            ],
+            [
+              114,
+              16,
+              34
+            ]
+          ],
+          "tested_voxels": 300,
+          "occupied": 0
+        }
+      ],
+      "passed": false,
+      "old_handwheel_quadrant_diagnostic": {
+        "center_large_cells": [
+          88,
+          36,
+          27
+        ],
+        "points_large_cells": [
+          [
+            85,
+            36,
+            24
+          ],
+          [
+            91,
+            36,
+            24
+          ],
+          [
+            85,
+            36,
+            30
+          ],
+          [
+            91,
+            36,
+            30
+          ]
+        ],
+        "palette_indices": [
+          6,
+          3,
+          3,
+          3
+        ],
+        "expected_for_open_quadrants": 0,
+        "cause": "Wheel plane Y36 lies inside pump body Y27..48; positive-X quadrants intersect pump."
+      }
+    },
+    {
+      "asset": "cooling_tower",
+      "variant": "large",
+      "vox_sha256": "6232cdc5b6601c7e85329e7f0bbf90bb6d695b6ed4e02afaf34da8414b8b0bad",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            112,
+            112,
+            128
+          ]
+        },
+        {
+          "name": "continuous_uncapped_central_airflow",
+          "passed": true,
+          "large_cell_box": [
+            [
+              40,
+              40,
+              2
+            ],
+            [
+              72,
+              72,
+              128
+            ]
+          ],
+          "tested_voxels": 129024,
+          "occupied": 0
+        },
+        {
+          "name": "top_rim_and_waist_shell_present",
+          "passed": true,
+          "large_cell_points": [
+            [
+              17,
+              56,
+              124
+            ],
+            [
+              95,
+              56,
+              124
+            ],
+            [
+              56,
+              17,
+              124
+            ],
+            [
+              56,
+              95,
+              124
+            ],
+            [
+              26,
+              56,
+              82
+            ],
+            [
+              86,
+              56,
+              82
+            ]
+          ],
+          "palette_indices": [
+            1,
+            1,
+            1,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "open_intake_slot_front",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              12,
+              30
+            ],
+            [
+              66,
+              30,
+              32
+            ]
+          ],
+          "tested_voxels": 720,
+          "occupied": 0
+        },
+        {
+          "name": "open_intake_slot_right",
+          "passed": true,
+          "large_cell_box": [
+            [
+              82,
+              46,
+              30
+            ],
+            [
+              102,
+              50,
+              32
+            ]
+          ],
+          "tested_voxels": 160,
+          "occupied": 0
+        },
+        {
+          "name": "open_intake_slot_rear",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              82,
+              30
+            ],
+            [
+              66,
+              102,
+              32
+            ]
+          ],
+          "tested_voxels": 800,
+          "occupied": 0
+        },
+        {
+          "name": "open_intake_slot_left",
+          "passed": true,
+          "large_cell_box": [
+            [
+              10,
+              46,
+              30
+            ],
+            [
+              30,
+              50,
+              32
+            ]
+          ],
+          "tested_voxels": 160,
+          "occupied": 0
+        },
+        {
+          "name": "four_separate_feet_and_two_risers",
+          "passed": true,
+          "large_cell_points": [
+            [
+              18,
+              18,
+              4
+            ],
+            [
+              94,
+              18,
+              4
+            ],
+            [
+              18,
+              94,
+              4
+            ],
+            [
+              94,
+              94,
+              4
+            ],
+            [
+              9,
+              56,
+              40
+            ],
+            [
+              103,
+              56,
+              40
+            ]
+          ],
+          "palette_indices": [
+            5,
+            5,
+            5,
+            5,
+            3,
+            3
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "cooling_tower",
+      "variant": "half",
+      "vox_sha256": "6a852334738f02bcf662970569b326fcaa6090815d6ac4eb7ac00a2c9ece47fc",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            56,
+            56,
+            64
+          ]
+        },
+        {
+          "name": "continuous_uncapped_central_airflow",
+          "passed": true,
+          "large_cell_box": [
+            [
+              40,
+              40,
+              2
+            ],
+            [
+              72,
+              72,
+              128
+            ]
+          ],
+          "tested_voxels": 16128,
+          "occupied": 0
+        },
+        {
+          "name": "top_rim_and_waist_shell_present",
+          "passed": true,
+          "large_cell_points": [
+            [
+              17,
+              56,
+              124
+            ],
+            [
+              95,
+              56,
+              124
+            ],
+            [
+              56,
+              17,
+              124
+            ],
+            [
+              56,
+              95,
+              124
+            ],
+            [
+              26,
+              56,
+              82
+            ],
+            [
+              86,
+              56,
+              82
+            ]
+          ],
+          "palette_indices": [
+            1,
+            1,
+            1,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "open_intake_slot_front",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              12,
+              30
+            ],
+            [
+              66,
+              30,
+              32
+            ]
+          ],
+          "tested_voxels": 90,
+          "occupied": 0
+        },
+        {
+          "name": "open_intake_slot_right",
+          "passed": true,
+          "large_cell_box": [
+            [
+              82,
+              46,
+              30
+            ],
+            [
+              102,
+              50,
+              32
+            ]
+          ],
+          "tested_voxels": 20,
+          "occupied": 0
+        },
+        {
+          "name": "open_intake_slot_rear",
+          "passed": true,
+          "large_cell_box": [
+            [
+              46,
+              82,
+              30
+            ],
+            [
+              66,
+              102,
+              32
+            ]
+          ],
+          "tested_voxels": 100,
+          "occupied": 0
+        },
+        {
+          "name": "open_intake_slot_left",
+          "passed": true,
+          "large_cell_box": [
+            [
+              10,
+              46,
+              30
+            ],
+            [
+              30,
+              50,
+              32
+            ]
+          ],
+          "tested_voxels": 20,
+          "occupied": 0
+        },
+        {
+          "name": "four_separate_feet_and_two_risers",
+          "passed": true,
+          "large_cell_points": [
+            [
+              18,
+              18,
+              4
+            ],
+            [
+              94,
+              18,
+              4
+            ],
+            [
+              18,
+              94,
+              4
+            ],
+            [
+              94,
+              94,
+              4
+            ],
+            [
+              9,
+              56,
+              40
+            ],
+            [
+              103,
+              56,
+              40
+            ]
+          ],
+          "palette_indices": [
+            5,
+            5,
+            5,
+            5,
+            3,
+            3
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "volcano_observatory",
+      "variant": "large",
+      "vox_sha256": "7bbbb8adaaa1f0be72f7c84d3a9a3f7ee96ccab4b9121bb4d536a8e291341167",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            128,
+            112,
+            128
+          ]
+        },
+        {
+          "name": "open_airlock_walkway_to_inner_door",
+          "passed": true,
+          "large_cell_box": [
+            [
+              100,
+              26,
+              20
+            ],
+            [
+              112,
+              56,
+              40
+            ]
+          ],
+          "tested_voxels": 7200,
+          "occupied": 0
+        },
+        {
+          "name": "airlock_frame_floor_and_inner_door",
+          "passed": true,
+          "large_cell_points": [
+            [
+              92,
+              30,
+              28
+            ],
+            [
+              118,
+              30,
+              28
+            ],
+            [
+              105,
+              30,
+              47
+            ],
+            [
+              105,
+              35,
+              14
+            ],
+            [
+              105,
+              62,
+              30
+            ]
+          ],
+          "palette_indices": [
+            3,
+            3,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "name": "roof_instrument_mounts",
+          "passed": true,
+          "large_cell_points": [
+            [
+              35,
+              53,
+              82
+            ],
+            [
+              65,
+              65,
+              100
+            ],
+            [
+              52,
+              78,
+              85
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "four_wind_instrument_cups",
+          "passed": true,
+          "large_cell_points": [
+            [
+              43,
+              78,
+              94
+            ],
+            [
+              61,
+              78,
+              94
+            ],
+            [
+              52,
+              69,
+              94
+            ],
+            [
+              52,
+              87,
+              94
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "volcano_observatory",
+      "variant": "half",
+      "vox_sha256": "6f3f9cfda9d939fa0b01cd7568c1d111ac6b74ce4441c11699123affd7480158",
+      "checks": [
+        {
+          "name": "native_dimensions",
+          "passed": true,
+          "grid_size": [
+            64,
+            56,
+            64
+          ]
+        },
+        {
+          "name": "open_airlock_walkway_to_inner_door",
+          "passed": true,
+          "large_cell_box": [
+            [
+              100,
+              26,
+              20
+            ],
+            [
+              112,
+              56,
+              40
+            ]
+          ],
+          "tested_voxels": 900,
+          "occupied": 0
+        },
+        {
+          "name": "airlock_frame_floor_and_inner_door",
+          "passed": true,
+          "large_cell_points": [
+            [
+              92,
+              30,
+              28
+            ],
+            [
+              118,
+              30,
+              28
+            ],
+            [
+              105,
+              30,
+              47
+            ],
+            [
+              105,
+              35,
+              14
+            ],
+            [
+              105,
+              62,
+              30
+            ]
+          ],
+          "palette_indices": [
+            3,
+            3,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "name": "roof_instrument_mounts",
+          "passed": true,
+          "large_cell_points": [
+            [
+              35,
+              53,
+              82
+            ],
+            [
+              65,
+              65,
+              100
+            ],
+            [
+              52,
+              78,
+              85
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "four_wind_instrument_cups",
+          "passed": true,
+          "large_cell_points": [
+            [
+              43,
+              78,
+              94
+            ],
+            [
+              61,
+              78,
+              94
+            ],
+            [
+              52,
+              69,
+              94
+            ],
+            [
+              52,
+              87,
+              94
+            ]
+          ],
+          "palette_indices": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "scope": "Saved-native static openings and positive structural witnesses; no rig or fluid simulation."
+}

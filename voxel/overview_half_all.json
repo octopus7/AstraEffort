@@ -1,26 +1,80 @@
 {
   "schema_version": 1,
-  "description": "One contact sheet of all 73 existing real SMALL/HALF rendered previews.",
-  "started_at_utc": "2026-10-25T04:53:22.083736+00:00",
-  "finished_at_utc": "2026-10-25T04:53:24.826657+00:00",
-  "elapsed_seconds": 2.743,
-  "source_count": 73,
-  "unique_source_count": 73,
-  "theme_count": 16,
+  "description": "One contact sheet of all 81 accepted real SMALL/HALF rendered previews.",
+  "started_at_utc": "2026-10-25T05:23:00.513852+00:00",
+  "finished_at_utc": "2026-10-25T05:23:03.163950+00:00",
+  "elapsed_seconds": 2.65,
+  "source_count": 81,
+  "unique_source_count": 81,
+  "theme_count": 18,
   "status_counts": {
-    "accepted": 61,
-    "pending_review": 8,
-    "wip_unverified": 4
+    "accepted": 81
   },
-  "status_basis": "Original 45 delivery-manifest models plus accepted expansion units; airfield/recycling pending main review; geothermal WIP/unverified, as dispatched.",
+  "status_basis": "Original 39 preserved models plus all 15 parent-accepted expansion units (six additions and nine new themes).",
   "status_sources": [
     {
-      "path": "voxel/EXPANSION_STATE.json",
-      "sha256": "2ee4f026f0e08f3f0781f8d370e4cd9fbce25465c2c2b139c67c155d0e29252f"
+      "path": "voxel/delivery_manifest_first39.json",
+      "sha256": "c4ede1cdc56c27a6928201047225a2315c5351adc18be252499e7d6c8931d720"
     },
     {
-      "path": "voxel/delivery_manifest.json",
-      "sha256": "f91a1796ae0bd2f0c11ef19867c3825afa1c6286726fb890583cf62bec24504f"
+      "path": "voxel/validation/expansion_desert_visual_review.json",
+      "sha256": "75591a4d5fb9d662ca498343e3ffde612d1e11fcb18362c4a169ac7f64c18b48"
+    },
+    {
+      "path": "voxel/validation/expansion_factory_visual_review.json",
+      "sha256": "2c68a3fa49a8b32b8caa445011ea62162da5002057657671de77ab0ed1d5f525"
+    },
+    {
+      "path": "voxel/validation/expansion_farm_visual_review.json",
+      "sha256": "10db1d06b3cd0cf595a7d8e2520d985ddcf99e6152f6c39b545f569453b22f6a"
+    },
+    {
+      "path": "voxel/validation/expansion_antarctic_visual_review.json",
+      "sha256": "748b9ebd07cc4bd6b4b58df1859c391c7766aeeb7db0a7c7111ff8f8577249d7"
+    },
+    {
+      "path": "voxel/validation/expansion_mine_visual_review.json",
+      "sha256": "ac4b4b299aafa51212f17c629e119751495cb663880a9d540bc3eb48fa19f49a"
+    },
+    {
+      "path": "voxel/validation/expansion_harbor_visual_review.json",
+      "sha256": "cd102aa8181ca07ce0a0d3608716f14622fdd043c5a6330dacb7e6f0e0c93105"
+    },
+    {
+      "path": "voxel/validation/expansion_forestry_visual_review.json",
+      "sha256": "b8eb983518e0d7638cabf4c56909c62f5d191e38c5a86883cd6d08f2f2ccfb93"
+    },
+    {
+      "path": "voxel/validation/expansion_construction_visual_review.json",
+      "sha256": "a28d5fda8bc557f851e8b079edf456dce8865f85e51e5108cc625e093b37c484"
+    },
+    {
+      "path": "voxel/validation/expansion_bakery_visual_review.json",
+      "sha256": "3ba75317de9a8aa6810399489988d0c916cbec9c19aaa36df10f38188cd065c5"
+    },
+    {
+      "path": "voxel/validation/expansion_fire_rescue_visual_review.json",
+      "sha256": "5154faaf4c6a978e33a0fca9577b4e1cf83b9f4a6cc0d0632e062ba8ee6dff13"
+    },
+    {
+      "path": "voxel/validation/expansion_airfield_visual_review.json",
+      "sha256": "24ceb8c0e978afed3098ee4797f6bba3c95ece8f49186b77a4f842c77bad3311"
+    },
+    {
+      "path": "voxel/validation/expansion_recycling_visual_review.json",
+      "sha256": "d4c9b43c653b0303164ba319d36d69418c9df247222f4d13c0c62fdb23234527"
+    },
+    {
+      "path": "voxel/validation/expansion_geothermal_visual_review.json",
+      "sha256": "166785330e50b7e7872c25e7b992d672559bdceb8f31653fb484de8bede471eb"
+    },
+    {
+      "path": "voxel/validation/expansion_canal_visual_review.json",
+      "sha256": "922fe66bc13b15398e909af8db518b342dbdddb031331cb1afa505ee8048c66d"
+    },
+    {
+      "path": "voxel/validation/expansion_camping_visual_review.json",
+      "sha256": "2364f7aaf62bd81359f8c658108ea432ec9ddb601beb4a7baadb6dee78979721"
     }
   ],
   "compositor": "Windows System.Drawing, invoked from Python; full-frame high-quality bicubic scaling only",
@@ -33,8 +87,7 @@
   "exclusions": [
     "voxel/_tools/smoke/**",
     "underscore/cache/scratch roots",
-    "all LARGE previews",
-    "canal and camping (no existing previews)"
+    "all LARGE previews"
   ],
   "source_previews_unchanged": true,
   "source_metadata_unchanged": true,
@@ -45,8 +98,8 @@
       3664,
       4720
     ],
-    "sha256": "6836db2f017decdc224e33356f129af2dc3d49647d2d8884b97606325756a8e2",
-    "bytes": 11899453
+    "sha256": "003f209dc763b7842d1eb262471df9ba4feb0239cfd731f3ece23ee821023dd8",
+    "bytes": 13111534
   },
   "sources": [
     {
@@ -1287,7 +1340,7 @@
       "theme_display": "Airfield",
       "asset": "airport_tug",
       "label": "Airport tug",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 4,
       "column": 5,
       "source_path": "voxel/airfield/assets/airport_tug/half/preview.png",
@@ -1317,7 +1370,7 @@
       "theme_display": "Airfield",
       "asset": "control_tower",
       "label": "Airfield control tower",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 4,
       "column": 6,
       "source_path": "voxel/airfield/assets/control_tower/half/preview.png",
@@ -1347,7 +1400,7 @@
       "theme_display": "Airfield",
       "asset": "maintenance_hangar",
       "label": "Open maintenance hangar",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 4,
       "column": 7,
       "source_path": "voxel/airfield/assets/maintenance_hangar/half/preview.png",
@@ -1377,7 +1430,7 @@
       "theme_display": "Airfield",
       "asset": "propeller_plane",
       "label": "Propeller plane",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 4,
       "column": 8,
       "source_path": "voxel/airfield/assets/propeller_plane/half/preview.png",
@@ -1557,7 +1610,7 @@
       "theme_display": "Recycling",
       "asset": "collection_truck",
       "label": "Rear-loading collection truck",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 5,
       "column": 5,
       "source_path": "voxel/recycling/assets/collection_truck/half/preview.png",
@@ -1587,7 +1640,7 @@
       "theme_display": "Recycling",
       "asset": "compactor",
       "label": "Vertical hydraulic baler",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 5,
       "column": 6,
       "source_path": "voxel/recycling/assets/compactor/half/preview.png",
@@ -1617,7 +1670,7 @@
       "theme_display": "Recycling",
       "asset": "recycling_center",
       "label": "Recycling receiving center",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 5,
       "column": 7,
       "source_path": "voxel/recycling/assets/recycling_center/half/preview.png",
@@ -1647,7 +1700,7 @@
       "theme_display": "Recycling",
       "asset": "sorting_machine",
       "label": "Optical sorting conveyor",
-      "status": "pending_review",
+      "status": "accepted",
       "row": 5,
       "column": 8,
       "source_path": "voxel/recycling/assets/sorting_machine/half/preview.png",
@@ -1827,7 +1880,7 @@
       "theme_display": "Geothermal",
       "asset": "cooling_tower",
       "label": "Open-throat geothermal cooling tower",
-      "status": "wip_unverified",
+      "status": "accepted",
       "row": 6,
       "column": 5,
       "source_path": "voxel/geothermal/assets/cooling_tower/half/preview.png",
@@ -1858,7 +1911,7 @@
       "theme_display": "Geothermal",
       "asset": "geothermal_drill",
       "label": "Stabilized geothermal drilling plant",
-      "status": "wip_unverified",
+      "status": "accepted",
       "row": 6,
       "column": 6,
       "source_path": "voxel/geothermal/assets/geothermal_drill/half/preview.png",
@@ -1866,9 +1919,9 @@
         768,
         768
       ],
-      "sha256_before": "7cec3a59e454aa27fe6f1d8e6368a0bccd790fd5986cb19435503192efdcd8e2",
+      "sha256_before": "9bccb20da893cb7f1f7850ffbe61ac56c1e92ac58fb95106df4acdc0dce47f83",
       "metadata_path": "voxel/geothermal/assets/geothermal_drill/half/metadata.json",
-      "metadata_sha256_before": "b160a9e851c9fcc1eec22efac9dcae2ea5bd3f6d16eeefd6ee57eb1d86bba478",
+      "metadata_sha256_before": "a2098718e5ab7cbafbd86c1a5c38e4f7dfee977deb92120864dacd51b3479600",
       "thumbnail_rectangle": [
         2440,
         3220,
@@ -1879,8 +1932,8 @@
         "61 Stabilized geothermal drilling plant"
       ],
       "label_bounds_checked": true,
-      "sha256_after": "7cec3a59e454aa27fe6f1d8e6368a0bccd790fd5986cb19435503192efdcd8e2",
-      "metadata_sha256_after": "b160a9e851c9fcc1eec22efac9dcae2ea5bd3f6d16eeefd6ee57eb1d86bba478"
+      "sha256_after": "9bccb20da893cb7f1f7850ffbe61ac56c1e92ac58fb95106df4acdc0dce47f83",
+      "metadata_sha256_after": "a2098718e5ab7cbafbd86c1a5c38e4f7dfee977deb92120864dacd51b3479600"
     },
     {
       "index": 62,
@@ -1888,7 +1941,7 @@
       "theme_display": "Geothermal",
       "asset": "thermal_rover",
       "label": "Protected thermal sampling rover",
-      "status": "wip_unverified",
+      "status": "accepted",
       "row": 6,
       "column": 7,
       "source_path": "voxel/geothermal/assets/thermal_rover/half/preview.png",
@@ -1918,7 +1971,7 @@
       "theme_display": "Geothermal",
       "asset": "volcano_observatory",
       "label": "Glazed volcano monitoring observatory",
-      "status": "wip_unverified",
+      "status": "accepted",
       "row": 6,
       "column": 8,
       "source_path": "voxel/geothermal/assets/volcano_observatory/half/preview.png",
@@ -2096,6 +2149,127 @@
     },
     {
       "index": 69,
+      "theme": "canal",
+      "theme_display": "Canal",
+      "asset": "canal_boat",
+      "label": "Canal cargo boat",
+      "status": "accepted",
+      "row": 7,
+      "column": 5,
+      "source_path": "voxel/canal/assets/canal_boat/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f15a847f91d8c8c942a9d83f7067f70b1f6211c096ae9dc9d46b7eaba38e0770",
+      "metadata_path": "voxel/canal/assets/canal_boat/half/metadata.json",
+      "metadata_sha256_before": "83c251d1111d6637901f1f59a45fdade56b817f7110e2ee0bdf2fa5cf010b372",
+      "thumbnail_rectangle": [
+        2040,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "69 Canal cargo boat"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f15a847f91d8c8c942a9d83f7067f70b1f6211c096ae9dc9d46b7eaba38e0770",
+      "metadata_sha256_after": "83c251d1111d6637901f1f59a45fdade56b817f7110e2ee0bdf2fa5cf010b372"
+    },
+    {
+      "index": 70,
+      "theme": "canal",
+      "theme_display": "Canal",
+      "asset": "drawbridge",
+      "label": "Raised counterweighted drawbridge",
+      "status": "accepted",
+      "row": 7,
+      "column": 6,
+      "source_path": "voxel/canal/assets/drawbridge/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "0e20d0f3617855079125ef0ad8d631eb87ae1dc6d203e66eb36d53d87fed5065",
+      "metadata_path": "voxel/canal/assets/drawbridge/half/metadata.json",
+      "metadata_sha256_before": "f7cf0c614ddc9814170fbb411fa28d63dd942c8a1d4032063c65170b8b1f9c71",
+      "thumbnail_rectangle": [
+        2440,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "70 Raised counterweighted drawbridge"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "0e20d0f3617855079125ef0ad8d631eb87ae1dc6d203e66eb36d53d87fed5065",
+      "metadata_sha256_after": "f7cf0c614ddc9814170fbb411fa28d63dd942c8a1d4032063c65170b8b1f9c71"
+    },
+    {
+      "index": 71,
+      "theme": "canal",
+      "theme_display": "Canal",
+      "asset": "lock_gate",
+      "label": "Partly open double lock gates",
+      "status": "accepted",
+      "row": 7,
+      "column": 7,
+      "source_path": "voxel/canal/assets/lock_gate/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "16b04cbdf4623ef22f111162fcaed789871a2ce3888f219839c1c69a9118abbf",
+      "metadata_path": "voxel/canal/assets/lock_gate/half/metadata.json",
+      "metadata_sha256_before": "2d505f5d3a976b9977b61d1ea43c976ef180d9b8ed553ef4400f1125af88c7ba",
+      "thumbnail_rectangle": [
+        2840,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "71 Partly open double lock gates"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "16b04cbdf4623ef22f111162fcaed789871a2ce3888f219839c1c69a9118abbf",
+      "metadata_sha256_after": "2d505f5d3a976b9977b61d1ea43c976ef180d9b8ed553ef4400f1125af88c7ba"
+    },
+    {
+      "index": 72,
+      "theme": "canal",
+      "theme_display": "Canal",
+      "asset": "lockkeepers_house",
+      "label": "Lock keeper's house and control cabinet",
+      "status": "accepted",
+      "row": 7,
+      "column": 8,
+      "source_path": "voxel/canal/assets/lockkeepers_house/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "9aa2b89fa44027fbda3ff81b3e85813f8542c678a9643dfd6cbead0df28b5371",
+      "metadata_path": "voxel/canal/assets/lockkeepers_house/half/metadata.json",
+      "metadata_sha256_before": "4980db377fdb024711fbf253246e8461116912bf288ee15de536287430165e9d",
+      "thumbnail_rectangle": [
+        3240,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "72 Lock keeper's house and control",
+        "cabinet"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "9aa2b89fa44027fbda3ff81b3e85813f8542c678a9643dfd6cbead0df28b5371",
+      "metadata_sha256_after": "4980db377fdb024711fbf253246e8461116912bf288ee15de536287430165e9d"
+    },
+    {
+      "index": 73,
       "theme": "underwater",
       "theme_display": "Underwater",
       "asset": "connecting_tunnel",
@@ -2118,7 +2292,7 @@
         384
       ],
       "label_lines": [
-        "69 Open-ended pressure connecting",
+        "73 Open-ended pressure connecting",
         "tunnel"
       ],
       "label_bounds_checked": true,
@@ -2126,7 +2300,7 @@
       "metadata_sha256_after": "aa3a87fe5c8b2c329f13cc016b080c193430b8c43717ffb59dcd1510ce67e198"
     },
     {
-      "index": 70,
+      "index": 74,
       "theme": "underwater",
       "theme_display": "Underwater",
       "asset": "docking_station",
@@ -2149,7 +2323,7 @@
         384
       ],
       "label_lines": [
-        "70 Dual-guide undersea docking",
+        "74 Dual-guide undersea docking",
         "platform"
       ],
       "label_bounds_checked": true,
@@ -2157,7 +2331,7 @@
       "metadata_sha256_after": "92f40496c189a9e62dd945c46b53550050253202201dd5df409575f12808c65c"
     },
     {
-      "index": 71,
+      "index": 75,
       "theme": "underwater",
       "theme_display": "Underwater",
       "asset": "dome_laboratory",
@@ -2180,14 +2354,14 @@
         384
       ],
       "label_lines": [
-        "71 Ribbed undersea dome laboratory"
+        "75 Ribbed undersea dome laboratory"
       ],
       "label_bounds_checked": true,
       "sha256_after": "8368305ec20b930592d92757ce179a75ec00fe7c86a8fd6eb6374d5ce077bafb",
       "metadata_sha256_after": "395a3b4bc450af2a8edf2ad382c646ad848002d8971ba761c023a9a233869c86"
     },
     {
-      "index": 72,
+      "index": 76,
       "theme": "underwater",
       "theme_display": "Underwater",
       "asset": "seabed_miner",
@@ -2210,14 +2384,14 @@
         384
       ],
       "label_lines": [
-        "72 Six-leg seabed drilling crawler"
+        "76 Six-leg seabed drilling crawler"
       ],
       "label_bounds_checked": true,
       "sha256_after": "5a56b0178a30d98992a5ddf951651e373685e029357ed729ba7cb682466d97bd",
       "metadata_sha256_after": "af68c73c6532e2b4858f797f4ef92dea830ce5426e993354f96b2d65cd511387"
     },
     {
-      "index": 73,
+      "index": 77,
       "theme": "underwater",
       "theme_display": "Underwater",
       "asset": "submersible",
@@ -2240,18 +2414,149 @@
         384
       ],
       "label_lines": [
-        "73 Ducted-thruster research",
+        "77 Ducted-thruster research",
         "submersible"
       ],
       "label_bounds_checked": true,
       "sha256_after": "771e0d178f6953f05b6c64fdafaa4f82a1cdbb25b16f0449a27562ee19b00e21",
       "metadata_sha256_after": "42e11212910df9b0da89b2f3b094e73e025d888a9bb7be4433bb00d65c8e43dd"
+    },
+    {
+      "index": 78,
+      "theme": "camping",
+      "theme_display": "Camping",
+      "asset": "camper_van",
+      "label": "Rounded touring camper van",
+      "status": "accepted",
+      "row": 8,
+      "column": 5,
+      "source_path": "voxel/camping/assets/camper_van/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "bc82050926414665f5589da4cbf8f4fd0aeb88c4885fca6165d688c813cca6c9",
+      "metadata_path": "voxel/camping/assets/camper_van/half/metadata.json",
+      "metadata_sha256_before": "ef428b56b32660411d7e20fe0f04935d84d3427024e68dc13de12573a45d809d",
+      "thumbnail_rectangle": [
+        2040,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "78 Rounded touring camper van"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "bc82050926414665f5589da4cbf8f4fd0aeb88c4885fca6165d688c813cca6c9",
+      "metadata_sha256_after": "ef428b56b32660411d7e20fe0f04935d84d3427024e68dc13de12573a45d809d"
+    },
+    {
+      "index": 79,
+      "theme": "camping",
+      "theme_display": "Camping",
+      "asset": "generator_trailer",
+      "label": "Portable generator trailer",
+      "status": "accepted",
+      "row": 8,
+      "column": 6,
+      "source_path": "voxel/camping/assets/generator_trailer/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "110b556970abf7009f5ee8a44f94fa7e9e5a69926eeb513df363918c5afe6339",
+      "metadata_path": "voxel/camping/assets/generator_trailer/half/metadata.json",
+      "metadata_sha256_before": "fefd2bf2017e1d464a229bf8c9c3b85a821e890eaec7b01b30c8bddf96dca9c2",
+      "thumbnail_rectangle": [
+        2440,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "79 Portable generator trailer"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "110b556970abf7009f5ee8a44f94fa7e9e5a69926eeb513df363918c5afe6339",
+      "metadata_sha256_after": "fefd2bf2017e1d464a229bf8c9c3b85a821e890eaec7b01b30c8bddf96dca9c2"
+    },
+    {
+      "index": 80,
+      "theme": "camping",
+      "theme_display": "Camping",
+      "asset": "log_cabin",
+      "label": "Log cabin with sheltered front porch",
+      "status": "accepted",
+      "row": 8,
+      "column": 7,
+      "source_path": "voxel/camping/assets/log_cabin/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f3f7b32afb415eae8f5969dbad592246840e8ad48362bda2f013ac3a9ab5ba3f",
+      "metadata_path": "voxel/camping/assets/log_cabin/half/metadata.json",
+      "metadata_sha256_before": "1a9457eff7e51891ed7981ee60af06f61639f680ef114dde88cc32a1e5cf9824",
+      "thumbnail_rectangle": [
+        2840,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "80 Log cabin with sheltered front",
+        "porch"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f3f7b32afb415eae8f5969dbad592246840e8ad48362bda2f013ac3a9ab5ba3f",
+      "metadata_sha256_after": "1a9457eff7e51891ed7981ee60af06f61639f680ef114dde88cc32a1e5cf9824"
+    },
+    {
+      "index": 81,
+      "theme": "camping",
+      "theme_display": "Camping",
+      "asset": "shower_block",
+      "label": "Three-stall campsite shower block",
+      "status": "accepted",
+      "row": 8,
+      "column": 8,
+      "source_path": "voxel/camping/assets/shower_block/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f28298f0e59e881741f204628415c1399df904bc8c58278bcf4043473a2b8f08",
+      "metadata_path": "voxel/camping/assets/shower_block/half/metadata.json",
+      "metadata_sha256_before": "761bc591f842b096195f4272c77a025191971bc2c78017d9c027f780078d706a",
+      "thumbnail_rectangle": [
+        3240,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "81 Three-stall campsite shower block"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f28298f0e59e881741f204628415c1399df904bc8c58278bcf4043473a2b8f08",
+      "metadata_sha256_after": "761bc591f842b096195f4272c77a025191971bc2c78017d9c027f780078d706a"
     }
   ],
-  "visual_inspection": {
-    "inspected_at_utc": "2026-10-25T04:53:54.099351+00:00",
-    "method": "view_image of the finished PNG at original detail",
-    "output_sha256_inspected": "6836db2f017decdc224e33356f129af2dc3d49647d2d8884b97606325756a8e2",
-    "result": "All 73 numbered cards and full-frame thumbnails visible; theme/status badges and model labels fit; no omitted or clipped cards observed."
+  "visual_review": {
+    "reviewer": "camping worker, explicitly delegated half-overview compositor",
+    "reviewed_at_utc": "2026-10-25T05:23:28.277396+00:00",
+    "method": "Viewed the completed whole PNG with view_image(detail=original), then recorded this review.",
+    "full_frame_findings": "All 81 cards are present in the 9 by 9 sheet. The complete source preview frames, header, first and last rows, and card borders are visible; no blank or missing thumbnail was observed.",
+    "label_findings": "Theme strips, acceptance badges and asset-label bands are present without visible clipping or overlap. The compositor measured every label into at most two lines within its bounds, including the Korean labels.",
+    "verified_counts": {
+      "unique_sources": 81,
+      "themes": 18,
+      "accepted": 81,
+      "additions": 6,
+      "missing_sources": 0
+    },
+    "source_integrity": "All 81 source previews and all 81 adjacent metadata files were rehashed after composition and matched their before/after provenance hashes.",
+    "corrections_required": false
   }
 }

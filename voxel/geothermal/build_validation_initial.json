@@ -1,0 +1,1408 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T17:07:26.809745+00:00",
+  "finished_at_utc": "2026-10-23T17:08:50.756683+00:00",
+  "elapsed_seconds": 83.94675060000736,
+  "assets": [
+    {
+      "asset": "thermal_rover",
+      "large": {
+        "asset": "thermal_rover",
+        "label": "Protected thermal sampling rover",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Original tracked enclosed rover with ceramic armor, radiator and articulated sampling arm.",
+          "Sampler crown has a genuinely empty core bore. Window protection is structural.",
+          "No manual half correction; purposeful details use broad native cell features."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          98,
+          128,
+          104
+        ],
+        "occupied_voxels": 321961,
+        "voxel_size_m": 0.035,
+        "grid_extents_m": [
+          3.43,
+          4.48,
+          3.6400000000000006
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            8,
+            3
+          ],
+          [
+            96,
+            122,
+            103
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.5750000000000002,
+            -1.9600000000000002,
+            0.10500000000000001
+          ],
+          [
+            1.6450000000000002,
+            2.0300000000000002,
+            3.6050000000000004
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "occupancy_sha256": "65f788e8142605645841566dffa9a524beaa42d11ee7e3d67b587bc2bb10cf12",
+        "surface": {
+          "quads": 9712,
+          "triangles": 19424,
+          "exposed_unit_faces": 63750,
+          "surface_area_m2": 78.09375000000001,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "thermal_rover.vox": "16c64977d314f0acdd1300e56d6d437ac84b9d5ec4737d56e5608b0c148de9ed",
+          "thermal_rover.blend": "664de59f8d6998d6890bf9a36664edfcdc7f88fd40af443a4d98013b05f6b3e3",
+          "thermal_rover.glb": "96c013b35e3df80dfac90140fa1c104a4128ffd65c69f3cd2c81ed3c61f627b2",
+          "thermal_rover.fbx": "4e9300312dfd2981c1df353c5519737f317b9cc71a32beabe1bc3f98e9fe4007",
+          "preview.png": "34aaba6b9b6b80cbd72bcf8b20a6fbab08e3a77265d1d1e788c567f3b445cb33"
+        }
+      },
+      "half": {
+        "asset": "thermal_rover",
+        "label": "Protected thermal sampling rover",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Original tracked enclosed rover with ceramic armor, radiator and articulated sampling arm.",
+          "Sampler crown has a genuinely empty core bore. Window protection is structural.",
+          "No manual half correction; purposeful details use broad native cell features."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          49,
+          64,
+          52
+        ],
+        "occupied_voxels": 44072,
+        "voxel_size_m": 0.07,
+        "grid_extents_m": [
+          3.43,
+          4.48,
+          3.6400000000000006
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            4,
+            1
+          ],
+          [
+            48,
+            61,
+            52
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.5750000000000002,
+            -1.9600000000000002,
+            0.07
+          ],
+          [
+            1.6450000000000002,
+            2.0300000000000002,
+            3.6400000000000006
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "occupancy_sha256": "3c8c9dc3b5af677c7c44d9862fe29cea12fb0bbf8a12af3daa4bc4709c9fa1c9",
+        "surface": {
+          "quads": 3467,
+          "triangles": 6934,
+          "exposed_unit_faces": 15648,
+          "surface_area_m2": 76.67520000000002,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "thermal_rover.vox": "2010594cc1961851d204d0f08fadc49c68c05932bf5fcd19619901616ecc0aa3",
+          "thermal_rover.blend": "519e4ac34ec6c9489278da98b2f2e6b94890bdae41f16317e6e321f94ee17931",
+          "thermal_rover.glb": "82c0c79d8232b41c341abe4b955e1ce5c6cef41db3d59cf73e2d331d2207dfbb",
+          "thermal_rover.fbx": "3d814afa9d26d50de62abbe12e5624e90101bb459b64dba8d68609b3f615550f",
+          "preview.png": "9824b28703f991075b64cd5aa972aacc122801d1379572c5f22a5f9f21380fdb"
+        }
+      }
+    },
+    {
+      "asset": "geothermal_drill",
+      "large": {
+        "asset": "geothermal_drill",
+        "label": "Stabilized geothermal drilling plant",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Open lattice mast, separate threaded drill string, clear deck annulus and four stabilizer feet.",
+          "Pipe-connected pump/manifold and insulated vessel share their own structural equipment skid.",
+          "Static native geometry; no manual half correction."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          104,
+          128
+        ],
+        "occupied_voxels": 159941,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          5.76,
+          4.68,
+          5.76
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            5,
+            2
+          ],
+          [
+            124,
+            97,
+            128
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.79,
+            -2.1149999999999998,
+            0.09
+          ],
+          [
+            2.6999999999999997,
+            2.025,
+            5.76
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13
+        ],
+        "occupancy_sha256": "b55bec9744dabd59e66a1d100bf4e0d59a8766fc6854de3a7d0f89db80685d36",
+        "surface": {
+          "quads": 9053,
+          "triangles": 18106,
+          "exposed_unit_faces": 63376,
+          "surface_area_m2": 128.3364,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "geothermal_drill.vox": "448d3546f9e3685f3413fcd0d370086e75b7bdcb6d83d89f9689353047ebe87d",
+          "geothermal_drill.blend": "dc28b0eb53480b95b6190fc987e0adaf446fef2536ba5b3bb780d3cf47e21434",
+          "geothermal_drill.glb": "697fafded0ae6219aed0dea66b532739d35011fb792cf1830e07ea27549b825c",
+          "geothermal_drill.fbx": "0ab8bfa06db9059c1004d30eede28b12debb7ace045b39824789eaaf7ca080ee",
+          "preview.png": "2c305915b95ccbb380f76e33d726e00d66b468687b3bec4dcede2eb82b567d14"
+        }
+      },
+      "half": {
+        "asset": "geothermal_drill",
+        "label": "Stabilized geothermal drilling plant",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Open lattice mast, separate threaded drill string, clear deck annulus and four stabilizer feet.",
+          "Pipe-connected pump/manifold and insulated vessel share their own structural equipment skid.",
+          "Static native geometry; no manual half correction."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          52,
+          64
+        ],
+        "occupied_voxels": 24657,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          5.76,
+          4.68,
+          5.76
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            62,
+            49,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.79,
+            -2.16,
+            0.09
+          ],
+          [
+            2.6999999999999997,
+            2.07,
+            5.76
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13
+        ],
+        "occupancy_sha256": "a43e16a628c81061c4681c6506be217daadffd3b9c0911dbf903d7cc8790643f",
+        "surface": {
+          "quads": 2939,
+          "triangles": 5878,
+          "exposed_unit_faces": 16920,
+          "surface_area_m2": 137.052,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "geothermal_drill.vox": "c2c85c589653a66ac3dfeda7b8ecbdccff3e4ecb7ce725ec2335e8b4c280025d",
+          "geothermal_drill.blend": "122a4fd1b06de27151d67d834b5372af6b4a8307d342989a7039d8d52c94e7ad",
+          "geothermal_drill.glb": "0c889f5f201587213b1af4aa256af5dc7782e417c8b018d6fc12d87df1bfd807",
+          "geothermal_drill.fbx": "5c822fb7657657d8fbf14c5969acf178e1f5a945e956954457df6f478c6a05e7",
+          "preview.png": "7cec3a59e454aa27fe6f1d8e6368a0bccd790fd5986cb19435503192efdcd8e2"
+        }
+      }
+    },
+    {
+      "asset": "cooling_tower",
+      "large": {
+        "asset": "cooling_tower",
+        "label": "Open-throat geothermal cooling tower",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Hollow waisted ceramic shell with an uncapped 72-cell-diameter top throat.",
+          "Annular lower plenum, real intake slots, four structural feet and two connected copper risers.",
+          "No water, smoke, lava or environmental base. No manual half correction."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          112,
+          112,
+          128
+        ],
+        "occupied_voxels": 148224,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          5.6000000000000005,
+          5.6000000000000005,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            10,
+            2
+          ],
+          [
+            110,
+            102,
+            126
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.7,
+            -2.3000000000000003,
+            0.1
+          ],
+          [
+            2.7,
+            2.3000000000000003,
+            6.300000000000001
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "occupancy_sha256": "861e8a4e9370766be50e29ce3eaa2003354496c84a18262153d72ea0343fa1fd",
+        "surface": {
+          "quads": 23730,
+          "triangles": 47460,
+          "exposed_unit_faces": 87024,
+          "surface_area_m2": 217.56,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "cooling_tower.vox": "6232cdc5b6601c7e85329e7f0bbf90bb6d695b6ed4e02afaf34da8414b8b0bad",
+          "cooling_tower.blend": "46760d70d40a43789bc0965686d36d40e51fda67b880634a47b72a8be2bb91d4",
+          "cooling_tower.glb": "56218b6a54824cc6adf0034153de4120b52c40699902a1fa2d41f1c681ad56ad",
+          "cooling_tower.fbx": "894847f76ed9125c01872df2db13114aa0628074aebbf9f2b234e86215d373f6",
+          "preview.png": "e6bd08ac67ef42388d659975e554a4a245ff647e12ebba70b5132f01ee960fa2"
+        }
+      },
+      "half": {
+        "asset": "cooling_tower",
+        "label": "Open-throat geothermal cooling tower",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Hollow waisted ceramic shell with an uncapped 72-cell-diameter top throat.",
+          "Annular lower plenum, real intake slots, four structural feet and two connected copper risers.",
+          "No water, smoke, lava or environmental base. No manual half correction."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          56,
+          56,
+          64
+        ],
+        "occupied_voxels": 23550,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          5.6000000000000005,
+          5.6000000000000005,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            55,
+            51,
+            63
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.7,
+            -2.3000000000000003,
+            0.1
+          ],
+          [
+            2.7,
+            2.3000000000000003,
+            6.300000000000001
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "occupancy_sha256": "6cb6f10042f7731629d68c9eea489372623b228a6c8f661a88580f9d2d865bdb",
+        "surface": {
+          "quads": 7296,
+          "triangles": 14592,
+          "exposed_unit_faces": 21780,
+          "surface_area_m2": 217.8,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "cooling_tower.vox": "6a852334738f02bcf662970569b326fcaa6090815d6ac4eb7ac00a2c9ece47fc",
+          "cooling_tower.blend": "86d75eb3f93ba3b8b50297083b47345dd6858ca44f6ba891f4e53a8bd81560f8",
+          "cooling_tower.glb": "40e449f4bd58a3d36fb970f37e8df220194031a8364cec5cae52ea06f4f69815",
+          "cooling_tower.fbx": "a88c18d39937c8cba00606efe791bd356fdbed66bb03a4f6203ec37786240cbf",
+          "preview.png": "e5d7bb45c61b809a3b5f14e4c6879486ca8216be44fc6f5f0d428865b4bfc2dd"
+        }
+      }
+    },
+    {
+      "asset": "volcano_observatory",
+      "large": {
+        "asset": "volcano_observatory",
+        "label": "Glazed volcano monitoring observatory",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Original rounded protected observation chamber with ceramic dome and opaque panoramic glazing.",
+          "Open airlock vestibule, rear inner door, access steps, attached thermal plant and three roof instruments.",
+          "No landscape or smoke effects. No manual half correction."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          112,
+          128
+        ],
+        "occupied_voxels": 414591,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          6.4,
+          5.6000000000000005,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            7,
+            15,
+            2
+          ],
+          [
+            128,
+            105,
+            127
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.85,
+            -2.0500000000000003,
+            0.1
+          ],
+          [
+            3.2,
+            2.45,
+            6.3500000000000005
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "occupancy_sha256": "7f4bf03b9625f0bde6e5cd0311f65db950389db96b189dceffcc9e9a579b74b3",
+        "surface": {
+          "quads": 6695,
+          "triangles": 13390,
+          "exposed_unit_faces": 58444,
+          "surface_area_m2": 146.11,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "volcano_observatory.vox": "7bbbb8adaaa1f0be72f7c84d3a9a3f7ee96ccab4b9121bb4d536a8e291341167",
+          "volcano_observatory.blend": "dd41455e4a1552aa392492d66028c413e8e795e69d82d23bcfa801e204a0f1be",
+          "volcano_observatory.glb": "1ad6436342fa1ee41dad30b32c5216806980ec560282994512a21f4cc55b7191",
+          "volcano_observatory.fbx": "fecfe840db54a700315d56b41c53964ef179336013b8398e0bab438e7c351ab7",
+          "preview.png": "ee894064f17632f32d18035fc0ed7299c487c9d7d42556f1949a1f4bc93ad469"
+        }
+      },
+      "half": {
+        "asset": "volcano_observatory",
+        "label": "Glazed volcano monitoring observatory",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            206,
+            171,
+            255
+          ],
+          [
+            167,
+            158,
+            135,
+            255
+          ],
+          [
+            153,
+            62,
+            35,
+            255
+          ],
+          [
+            187,
+            86,
+            42,
+            255
+          ],
+          [
+            39,
+            43,
+            42,
+            255
+          ],
+          [
+            76,
+            84,
+            82,
+            255
+          ],
+          [
+            139,
+            149,
+            143,
+            255
+          ],
+          [
+            48,
+            76,
+            88,
+            255
+          ],
+          [
+            83,
+            123,
+            137,
+            255
+          ],
+          [
+            218,
+            146,
+            36,
+            255
+          ],
+          [
+            239,
+            213,
+            135,
+            255
+          ],
+          [
+            24,
+            30,
+            29,
+            255
+          ],
+          [
+            190,
+            163,
+            67,
+            255
+          ],
+          [
+            107,
+            117,
+            109,
+            255
+          ]
+        ],
+        "notes": [
+          "Original rounded protected observation chamber with ceramic dome and opaque panoramic glazing.",
+          "Open airlock vestibule, rear inner door, access steps, attached thermal plant and three roof instruments.",
+          "No landscape or smoke effects. No manual half correction."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          56,
+          64
+        ],
+        "occupied_voxels": 54793,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          6.4,
+          5.6000000000000005,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            3,
+            7,
+            1
+          ],
+          [
+            64,
+            53,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.9000000000000004,
+            -2.1,
+            0.1
+          ],
+          [
+            3.2,
+            2.5,
+            6.4
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "occupancy_sha256": "b69923509c549194c0c9b66416e14337e24fdd2b067be78ce5d632a17010149f",
+        "surface": {
+          "quads": 2236,
+          "triangles": 4472,
+          "exposed_unit_faces": 15082,
+          "surface_area_m2": 150.82000000000002,
+          "materials": 10
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "volcano_observatory.vox": "6f3f9cfda9d939fa0b01cd7568c1d111ac6b74ce4441c11699123affd7480158",
+          "volcano_observatory.blend": "c3fa5ac0a14ad751bbbaa948e767ba8712ece3ca901b0ea99ac331d807561d22",
+          "volcano_observatory.glb": "236eea4b5ddbe9972158d58fa4b8548dd6a0a5dbd5e4228c19c40c2a68e927bf",
+          "volcano_observatory.fbx": "4a9b59572df3c37730b04c6e6b1ea6280ea4cb41edcd5388930451697d559e45",
+          "preview.png": "7f0ff5e35f0c2f95c5cf461fa508bd39e03feaa4c1db02bb42a89e6b1aa99076"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}
