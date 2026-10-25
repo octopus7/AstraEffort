@@ -1,0 +1,75 @@
+{
+  "theme": "HillsideOnsen",
+  "title": "산비탈 온천 마을",
+  "effort": "ultra",
+  "threadId": "01a15e6e-1907-7ff1-b13c-5a4a31875490",
+  "hostId": "local",
+  "status": "committed",
+  "created_at_utc": "2026-10-22T14:52:28.2619471+00:00",
+  "created_at_kst": "2026-10-22T23:52:28.2619471+09:00",
+  "comparison_measurement_included": false,
+  "old_reports_frozen": true,
+  "assignment": "ForestDemo/Work/HillsideOnsen/ultra/ASSIGNMENT.md",
+  "assets": "ForestDemo/Content/HillsideOnsen/ultra",
+  "map": "ForestDemo/Content/Maps/HillsideOnsen_ultra.umap",
+  "work": "ForestDemo/Work/HillsideOnsen/ultra",
+  "scratch": "ForestDemo/Saved/Workers/HillsideOnsen/ultra",
+  "result_report": "ForestDemo/Work/HillsideOnsen/ultra/RESULT.md",
+  "preservation_baseline": "ForestDemo/Work/HillsideOnsen/preservation_baseline.json",
+  "commit_owner": "supervisor",
+  "worker_git_mutation_allowed": false,
+  "existing_automation_reactivated": false,
+  "prior_worker_state": "idle_completed_or_ready_for_review",
+  "prior_supervisor_acceptance_not_asserted": true,
+  "dispatch_acknowledged_at_utc": "2026-10-22T14:53:36.2019564+00:00",
+  "dispatch_acknowledged_at_kst": "2026-10-22T23:53:36.2019564+09:00",
+  "protected_file_mismatches_at_dispatch": 0,
+  "cursor": "113dcba5-d7f8-4b87-82e3-8d0835c67104:7",
+  "observed_thread_status": "active",
+  "worker_turn_started_at_utc": "2026-10-22T14:53:13.0000000+00:00",
+  "restart_incident": {
+    "checked_at_utc": "2026-10-22T15:10:44.5193707+00:00",
+    "checked_at_kst": "2026-10-23T00:10:44.5193707+09:00",
+    "observation": "Worker acknowledged HillsideOnsen then committed MountainStation checkpoint 8161768 and ended. No HillsideOnsen STATUS/RESULT or production files existed.",
+    "historical_stop_utc": "2026-10-21T16:03:56.807Z",
+    "later_human_continue_utc": "2026-10-22T12:32:56.025Z",
+    "new_scene_dispatch_utc": "2026-10-22T14:53:13Z",
+    "latest_human_request": "온천마을 진행안하는거같은데",
+    "cause_assessment": "Observed switch back to historical commit/stop workflow; exact internal cause not asserted.",
+    "correction": "Explicitly resume approved new scene only; preserve checkpoint; verify production file evidence before reporting started.",
+    "resume_acknowledged_at_utc": "2026-10-22T15:11:03.8705641+00:00",
+    "actual_start_evidence": {
+      "verified_at_utc": "2026-10-22T15:13:36.7706150+00:00",
+      "worker_status": "working",
+      "worker_started_at_utc": "2026-10-22T15:11:37+00:00",
+      "files": [
+        "DESIGN.md",
+        "PLAN.md",
+        "prepare_project.py",
+        "STATUS.json"
+      ],
+      "private_projects": [
+        "D:\\github\\AstraEffort\\ForestDemo\\Saved\\Workers\\HillsideOnsen\\ultra\\Project\\ForestDemo.uproject"
+      ],
+      "scene_build_complete": false
+    }
+  },
+  "commit_review": {
+    "verified_at_utc": "2026-10-25T05:11:31.8599466+00:00",
+    "verified_at_kst": "2026-10-25T14:11:31.8599466+09:00",
+    "work_dates_kst": [
+      "2026-10-23"
+    ],
+    "worker_started_at_utc": "2026-10-22T15:11:37+00:00",
+    "worker_finished_at_utc": "2026-10-22T16:26:50.932359+00:00",
+    "delivery_commit": "2d20ac2e1c652f8831bf03b709126cb87aef94dc",
+    "delivery_commit_at_utc": "2026-10-22T16:41:26.0000000+00:00",
+    "delivery_commit_at_kst": "2026-10-23T01:41:26.0000000+09:00",
+    "published_package_count": 48,
+    "package_hash_mismatches": 0,
+    "verification_basis": "Already committed delivery; current package hashes match publication manifest and no changes since delivery commit; no duplicate asset commit.",
+    "ue_rerun_during_this_commit_audit": false,
+    "comparison_measurement_included": false,
+    "existing_reports_modified": false
+  }
+}
