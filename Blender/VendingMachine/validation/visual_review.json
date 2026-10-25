@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-10-23T10:31:49+00:00",
+  "reviewer": "VendingMachine worker: direct inspection using view_image",
+  "passed": true,
+  "reviewed_final_renders": [
+    "renders/hero.png",
+    "renders/front.png",
+    "renders/rear.png",
+    "renders/side.png",
+    "renders/material_variations.png",
+    "renders/glb_reimport_hero.png"
+  ],
+  "checks": {
+    "all_twelve_modeled_products_visible": true,
+    "real_display_and_delivery_recesses_visible": true,
+    "rear_service_panel_and_vents_visible": true,
+    "exposed_light_body_side_is_separate_from_slate_armor": true,
+    "feet_seated_at_ground": true,
+    "header_lettering_seated_on_curved_shell": true,
+    "only_light_body_material_changes_in_variations": true,
+    "fresh_glb_reimport_matches_native_render_appearance": true,
+    "no_generated_scene_evidence_used": true
+  },
+  "notes": [
+    "Final capture timestamps are after both ground alignment and header seating fixes.",
+    "All six final renders are actual Cycles output with 32 samples and denoising.",
+    "GLB and native same-camera renders retain the same cabinet colors, glass/product visibility, lamps, recesses and silhouette.",
+    "UV and packed-atlas diagnostic PNGs were also inspected. Numeric raster overlap and subpixel limits are reported separately."
+  ]
+}

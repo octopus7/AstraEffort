@@ -1,0 +1,32 @@
+{
+  "resolution": 4096,
+  "strict_triangle_interior_overlap_pixels": 0,
+  "overlapping_triangle_ids": [],
+  "out_of_bounds_triangle_ids": [],
+  "triangles_with_no_pixel_center_coverage": 22497,
+  "occupied_pixels": 9009475,
+  "occupancy_fraction": 0.5370065569877625,
+  "method": "4096x4096 pixel-center triangle rasterization; strict barycentric interior epsilon 1e-7; shared edges excluded; subpixel overlap is not excluded analytically.",
+  "requested_pack_margin_fraction": 0.002,
+  "requested_margin_px": 8.192,
+  "island_dilation_first_collision_step": 9,
+  "raster_padding_note": "Eight-neighbor simultaneous island dilation; first collision step bounds occupied-pixel clearance to about 2*step-2 .. 2*step pixels. This is a raster measurement, not an exact edge-distance guarantee; tiny islands may cover no pixel centers.",
+  "overlap_objects": [],
+  "island_count": 1702,
+  "object_count": 255,
+  "density_target_px_per_m": 800,
+  "density_policy": "All UV islands normalized by physical surface area, then fitted together into one 4096 atlas with 0.002 packing margin. 800 px/m is the nominal target; actual density is bounded by the achieved packing.",
+  "total_surface_area_m2": 32.98097128145426,
+  "total_uv_area": 0.536743123393295,
+  "effective_global_density_px_per_m": 522.5302913979675,
+  "area_weighted_mean_density_px_per_m": 522.2180120380799,
+  "area_weighted_density_p05_p50_p95": [
+    478.42500055585145,
+    524.7940345880628,
+    537.8726964547733
+  ],
+  "zero_area_uv_triangles": 0,
+  "zero_area_3d_triangles": 0,
+  "uv_elapsed_seconds": 21.52966809272766,
+  "passed": true
+}

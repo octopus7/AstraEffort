@@ -1,0 +1,419 @@
+{
+  "timestamp_utc": "2026-10-23T10:26:45.901436+00:00",
+  "file_bytes": 13317748,
+  "sha256": "aed1d463bc03ada28eed418bfc6544bf4ec7e499963a52bef5318377367f6ca3",
+  "gltf_version": "2.0",
+  "mesh_count": 255,
+  "node_count": 255,
+  "primitive_count": 255,
+  "triangles": 62932,
+  "all_primitives_have_TEXCOORD_0": true,
+  "missing_texcoord_0": [],
+  "images": [
+    {
+      "index": 0,
+      "name": "VendingMachine_BaseColor_4096",
+      "mimeType": "image/png",
+      "embedded": true,
+      "sha256": "ec54891ff52cd443e241cbda3f321a8fcb790767ab70ce3540eaee93279bab8d",
+      "bytes": 11271156,
+      "matches_external_atlas": true
+    }
+  ],
+  "self_contained_images": true,
+  "all_image_bytes_match_external_atlas": true,
+  "external_buffer_uris": [],
+  "body_material": {
+    "index": 0,
+    "name": "BODY_VARIANT_WHITE",
+    "baseColorFactor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "hasBaseColorTexture": true,
+    "roughnessFactor": 0.38999998569488525,
+    "metallicFactor": 0.07999999821186066,
+    "alphaMode": "OPAQUE"
+  },
+  "body_material_is_white": true,
+  "body_material_nodes": [
+    "Body_MainShell_LightVariant",
+    "Front_Lower_Access_Plate",
+    "Side_-1_Ivory_Inset",
+    "Side_1_Ivory_Inset",
+    "Rear_ServicePanel_LightVariant"
+  ],
+  "body_primitive_count": 5,
+  "materials": [
+    {
+      "index": 0,
+      "name": "BODY_VARIANT_WHITE",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.38999998569488525,
+      "metallicFactor": 0.07999999821186066,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 1,
+      "name": "TRIM_Dark_Graphite",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3700000047683716,
+      "metallicFactor": 0.25,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 2,
+      "name": "DISPLAY_Interior",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.5199999809265137,
+      "metallicFactor": 0.11999999731779099,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 3,
+      "name": "GLASS_Display_Lightly_Transparent",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        0.03200000151991844
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.10000000149011612,
+      "metallicFactor": 0,
+      "alphaMode": "BLEND"
+    },
+    {
+      "index": 4,
+      "name": "SHELVES_Slate",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.4000000059604645,
+      "metallicFactor": 0.3199999928474426,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 5,
+      "name": "ARMOR_Slate_Powdercoat",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.4399999976158142,
+      "metallicFactor": 0.23000000417232513,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 6,
+      "name": "GRAPHICS_Warm_White_Separate",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.5099999904632568,
+      "metallicFactor": 0,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 7,
+      "name": "BOTTLE_Apricot",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3100000023841858,
+      "metallicFactor": 0.03999999910593033,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 8,
+      "name": "CAP_Apricot",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.41999998688697815,
+      "metallicFactor": 0.029999999329447746,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 9,
+      "name": "BOTTLE_Label_Cream",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.550000011920929,
+      "metallicFactor": 0,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 10,
+      "name": "BOTTLE_SeaBlue",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3100000023841858,
+      "metallicFactor": 0.03999999910593033,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 11,
+      "name": "CAP_SeaBlue",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.41999998688697815,
+      "metallicFactor": 0.029999999329447746,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 12,
+      "name": "BOTTLE_Coral",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3100000023841858,
+      "metallicFactor": 0.03999999910593033,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 13,
+      "name": "CAP_Coral",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.41999998688697815,
+      "metallicFactor": 0.029999999329447746,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 14,
+      "name": "BOTTLE_Sage",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3100000023841858,
+      "metallicFactor": 0.03999999910593033,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 15,
+      "name": "CAP_Sage",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.41999998688697815,
+      "metallicFactor": 0.029999999329447746,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 16,
+      "name": "BOTTLE_Golden",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3100000023841858,
+      "metallicFactor": 0.03999999910593033,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 17,
+      "name": "CAP_Golden",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.41999998688697815,
+      "metallicFactor": 0.029999999329447746,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 18,
+      "name": "BOTTLE_Berry",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3100000023841858,
+      "metallicFactor": 0.03999999910593033,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 19,
+      "name": "CAP_Berry",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.41999998688697815,
+      "metallicFactor": 0.029999999329447746,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 20,
+      "name": "LAMP_Recess_Frame",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.4300000071525574,
+      "metallicFactor": 0.30000001192092896,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 21,
+      "name": "LAMP_Amber_Emission",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.2800000011920929,
+      "metallicFactor": 0,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 22,
+      "name": "HARDWARE_Burnished_Metal",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.30000001192092896,
+      "metallicFactor": 0.7200000286102295,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 23,
+      "name": "CONTROL_Black_Screen",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.20000000298023224,
+      "metallicFactor": 0.07999999821186066,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 24,
+      "name": "CONTROL_Cyan_Graphics",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.3199999928474426,
+      "metallicFactor": 0,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 25,
+      "name": "FEET_Rubber",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hasBaseColorTexture": true,
+      "roughnessFactor": 0.6800000071525574,
+      "metallicFactor": 0,
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength"
+  ],
+  "passed": true
+}

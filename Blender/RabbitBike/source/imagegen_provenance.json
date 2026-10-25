@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "../../REF/rabbit_bike.png",
+  "sources": [
+    {
+      "path": "textures/generated_ivory.png",
+      "prompt": "Use case: stylized-concept. Asset type: flat UV albedo surface texture for a rabbit-themed autonomous three-wheel sci-fi bike. Generate one square edge-to-edge swatch of warm ivory ceramic-coated automotive metal, creamy off-white approximately #e9dfcc, clean maintained satin finish, extremely fine paint micrograin, very sparse tiny neutral scuffs and faint hairline scratches. Restrained rounded game-art vehicle, not grungy. Top-down orthographic unlit BASE COLOR only, even flat illumination and color everywhere. The whole image is a continuous seamless surface. No lighting, shadows, highlights, panels, seams, objects, perspective, borders, words, logos or symbols. The geometry will supply all panel boundaries; this image only supplies subtle material color texture."
+    },
+    {
+      "path": "textures/generated_orange.png",
+      "prompt": "Use case: stylized-concept. Asset type: UV albedo material for orange accent panels and wheel rims on a rounded sci-fi rabbit bike. Square edge-to-edge continuous seamless swatch of warm burnt tangerine orange painted metal, average color approximately #dd7938, restrained satin enamel, fine automotive micrograin, very subtle tonal variation and a few tiny hairline maintenance scratches. Clean and carefully maintained. Completely unlit flat BASE COLOR, evenly colored, no baked reflections or lighting. No objects, panel lines, seams, labels, symbols, borders, gradients, perspective, rust or heavy dirt."
+    },
+    {
+      "path": "textures/generated_rubber.png",
+      "prompt": "Use case: stylized-concept. Asset type: production UV base color texture for rubber tires and soft dark trim of a stylized sci-fi three-wheeled bike. Generate a square seamless flat material swatch of dense charcoal-black automotive rubber, average sRGB roughly #303336, extremely fine dry rubber grain and very subtle dark gray variation, tiny sparse subtle light specks. Tread grooves are modeled separately: do not draw tread, lines, blocks, patterns, cracks or shapes. Uniform orthographic surface, unlit albedo only, absolutely no highlights, shading, gradients, perspective, objects, text, logos or borders. Clean realistic rubber microtexture in restrained game-art styling."
+    }
+  ],
+  "workflow": "Independent new images, used as actual shader inputs then baked without lighting into a unique UV base-color atlas."
+}

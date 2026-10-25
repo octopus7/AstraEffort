@@ -1,0 +1,31 @@
+{
+  "asset": "VendingMachine",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T09:39:26+00:00",
+  "started_at_kst": "2026-10-23T18:39:26+09:00",
+  "finished_at_utc": "2026-10-23T10:34:15.418884+00:00",
+  "finished_at_kst": "2026-10-23T19:34:15.418884+09:00",
+  "elapsed_seconds": 3289.418884,
+  "imagegen_wall_seconds": 42.419,
+  "main_files": [
+    "VendingMachine.blend",
+    "VendingMachine.glb",
+    "README.txt"
+  ],
+  "validation_summary": {
+    "uv_passed": true,
+    "glb_passed": true,
+    "visual_review_passed": true,
+    "body_factor_white": true,
+    "images_identical": true,
+    "feet_at_z_zero": true,
+    "effective_texel_density_px_m": 522.5302913979675
+  },
+  "blockers": [],
+  "limitations": [
+    "No mechanics, rig, collision or LODs.",
+    "523 px/m achieved versus original nominal 800 px/m.",
+    "Raster UV test has explicitly reported subpixel limits.",
+    "Low-alpha glass is an artistic cross-viewer choice."
+  ]
+}

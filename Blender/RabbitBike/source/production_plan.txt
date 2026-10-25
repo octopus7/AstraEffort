@@ -1,0 +1,10 @@
+Rabbit Bike production plan — continuation authorized after SSTO commit c312bb7.
+Reference: REF/rabbit_bike.png, read-only.
+Scope: standalone exterior asset in Blender/RabbitBike, approximately 2.4 m length, 1.6 m width; the reference's nominal 1.0 m body height is interpreted independently of the tall decorative ears.
+Design: two smaller front wheels and a larger centered rear wheel, white aero hub covers/orange rims, exposed double-wishbone suspension and orange dampers, sculpted ivory front cowl with narrow orange eyes, two swept rabbit ears, dark recessed saddle, side battery covers, rear swingarm and four rear ducts.
+1. Author detailed but restrained rounded meshes in a separate Blender 4.5 background process; preserve editable named component groups and wheel assemblies.
+2. Use analytical tire and thin-shell UVs, project the central frame/individual other components, normalize chart scale and globally pack all unique faces without mirrored/stacked charts. Target approximately 512 px/m subject to total surface area and 4K atlas capacity; record achieved values.
+3. Apply three new image_gen albedos (ivory/orange/rubber), bake emission-only 4K base color and keep portable PBR material parameters.
+4. Save RabbitBike.blend and self-contained RabbitBike.glb; inspect hero, front/rear and side views from actual Blender rendering.
+5. Check UV bounds, collapsed charts, 4K pixel overlap, manifold component topology, GLB embedded images and fresh import. Preserve original generation prompts and actual verification data.
+No modification of committed SSTO assets, ForestDemo, other workers' content or live Blender scene. Bike changes remain uncommitted unless subsequently requested.

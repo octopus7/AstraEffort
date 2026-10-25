@@ -1,0 +1,25 @@
+Vending machine asset plan
+
+Reference: D:/github/AstraEffort/REF/vending.png (only supplied creative reference).
+Target: rounded 1.2 m wide x inferred 0.82 m deep x about 1.8 m tall cabinet.
+Coordinate system: Z up, front faces -Y; editable separate mesh parts.
+
+1. Generate independent ivory enamel and slate powdercoat albedo source textures.
+2. Model a genuinely inset 3 x 4 product cavity, separate cabinet shell rails,
+   side and foot armor, feet, lower delivery recess, rear panel/slats, service
+   top and beacon, lamps and front-right control module.
+3. Inspect actual Cycles preview; correct appearance and product visibility.
+4. Unique global non-overlapping UV map with physical area normalization.
+   Use explicit analytical mapping for lofted bottles and stable geometry.
+5. Bake source base colors through Emission into a 4096 albedo atlas, then use
+   portable separate PBR material slots sharing the unique atlas.
+6. Preserve BODY_VARIANT_WHITE as its own material with WHITE default tint
+   and GLB baseColorFactor. Ivory comes from the generated texture pixels.
+7. Pack blend textures; export embedded GLB; inspect re-import Cycles render.
+8. Validate UV bounds/areas/raster overlap, density, topology, material factors,
+   images and all GLB TEXCOORD_0; render hero/front/rear/side/body variations.
+9. Deliver editable .blend, .glb, scripts, originals, packed textures, PNG UV
+   layout, validation JSON and documented actual limits.
+
+User has explicitly authorized implementation without a design approval pause.
+No live Blender session, other creative asset, shared source, or Git mutation.
