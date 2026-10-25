@@ -1,0 +1,2041 @@
+{
+  "at_utc": "2026-10-23T10:57:42.704009+00:00",
+  "reloaded_saved_map": "/Game/Maps/NightMarket_max",
+  "world_partition_is_null": true,
+  "force_no_precomputed_lighting": true,
+  "ground_size_cm": [
+    10000.000976562498,
+    10000.000976562498,
+    300.99999237060547
+  ],
+  "game_dependency_packages": [
+    "/Game/Maps/NightMarket_max",
+    "/Game/NightMarket/max/Materials/M_NM_Blue",
+    "/Game/NightMarket/max/Materials/M_NM_Brass",
+    "/Game/NightMarket/max/Materials/M_NM_Clay",
+    "/Game/NightMarket/max/Materials/M_NM_Coping",
+    "/Game/NightMarket/max/Materials/M_NM_Court",
+    "/Game/NightMarket/max/Materials/M_NM_Cream",
+    "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+    "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+    "/Game/NightMarket/max/Materials/M_NM_Deep",
+    "/Game/NightMarket/max/Materials/M_NM_Dough",
+    "/Game/NightMarket/max/Materials/M_NM_EveningSky",
+    "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+    "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+    "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+    "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+    "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+    "/Game/NightMarket/max/Materials/M_NM_Green",
+    "/Game/NightMarket/max/Materials/M_NM_Leaf",
+    "/Game/NightMarket/max/Materials/M_NM_LightWood",
+    "/Game/NightMarket/max/Materials/M_NM_Orange",
+    "/Game/NightMarket/max/Materials/M_NM_Paving",
+    "/Game/NightMarket/max/Materials/M_NM_Peach",
+    "/Game/NightMarket/max/Materials/M_NM_Plinth",
+    "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+    "/Game/NightMarket/max/Materials/M_NM_Red",
+    "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+    "/Game/NightMarket/max/Materials/M_NM_RedRoof",
+    "/Game/NightMarket/max/Materials/M_NM_Roof",
+    "/Game/NightMarket/max/Materials/M_NM_Steel",
+    "/Game/NightMarket/max/Materials/M_NM_Teal",
+    "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+    "/Game/NightMarket/max/Materials/M_NM_Water",
+    "/Game/NightMarket/max/Materials/M_NM_White",
+    "/Game/NightMarket/max/Materials/M_NM_Wood",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_BlueInn",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_CornerCafe",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastBakery",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastGrocer",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_LanternSupply",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_MoonTea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NightFlorist",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NoodleHouse",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestBooks",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestKitchen",
+    "/Game/NightMarket/max/Meshes/SM_NM_CourtFurniture",
+    "/Game/NightMarket/max/Meshes/SM_NM_EntryGate",
+    "/Game/NightMarket/max/Meshes/SM_NM_Gardens",
+    "/Game/NightMarket/max/Meshes/SM_NM_Ground",
+    "/Game/NightMarket/max/Meshes/SM_NM_LanternCanopy",
+    "/Game/NightMarket/max/Meshes/SM_NM_Puddles",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Buns",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_BunsSouth",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Dumplings",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Fruit",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Greens",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_LateTea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Noodles",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Pastry",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Soup",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Tea",
+    "/Game/NightMarket/max/Meshes/SM_NM_StreetProps",
+    "/Game/NightMarket/max/Textures/T_cobble",
+    "/Game/NightMarket/max/Textures/T_fabric",
+    "/Game/NightMarket/max/Textures/T_plaster",
+    "/Game/NightMarket/max/Textures/T_roof",
+    "/Game/NightMarket/max/Textures/T_stone",
+    "/Game/NightMarket/max/Textures/T_wood"
+  ],
+  "dependency_graph": {
+    "/Game/Maps/NightMarket_max": [
+      "/Script/NavigationSystem",
+      "/Engine/BasicShapes/Sphere",
+      "/Engine/EngineMaterials/WorldGridMaterial",
+      "/Game/NightMarket/max/Materials/M_NM_EveningSky",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_BlueInn",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_CornerCafe",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_EastBakery",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_EastGrocer",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_LanternSupply",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_MoonTea",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_NightFlorist",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_NoodleHouse",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_WestBooks",
+      "/Game/NightMarket/max/Meshes/SM_NM_Building_WestKitchen",
+      "/Game/NightMarket/max/Meshes/SM_NM_CourtFurniture",
+      "/Game/NightMarket/max/Meshes/SM_NM_EntryGate",
+      "/Game/NightMarket/max/Meshes/SM_NM_Gardens",
+      "/Game/NightMarket/max/Meshes/SM_NM_Ground",
+      "/Game/NightMarket/max/Meshes/SM_NM_LanternCanopy",
+      "/Game/NightMarket/max/Meshes/SM_NM_Puddles",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Buns",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_BunsSouth",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Dumplings",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Fruit",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Greens",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_LateTea",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Noodles",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Pastry",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Soup",
+      "/Game/NightMarket/max/Meshes/SM_NM_Stall_Tea",
+      "/Game/NightMarket/max/Meshes/SM_NM_StreetProps",
+      "/Engine/EditorResources/LightIcons/S_LightError"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_StreetProps": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Green",
+      "/Game/NightMarket/max/Materials/M_NM_Leaf",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Orange",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Wood": [
+      "/Game/NightMarket/max/Textures/T_wood"
+    ],
+    "/Game/NightMarket/max/Textures/T_wood": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Orange": [],
+    "/Game/NightMarket/max/Materials/M_NM_LightWood": [
+      "/Game/NightMarket/max/Textures/T_wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Leaf": [],
+    "/Game/NightMarket/max/Materials/M_NM_Green": [],
+    "/Game/NightMarket/max/Materials/M_NM_DarkMetal": [],
+    "/Game/NightMarket/max/Materials/M_NM_CreamFabric": [
+      "/Game/NightMarket/max/Textures/T_fabric"
+    ],
+    "/Game/NightMarket/max/Textures/T_fabric": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Tea": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_White",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_White": [],
+    "/Game/NightMarket/max/Materials/M_NM_TealFabric": [
+      "/Game/NightMarket/max/Textures/T_fabric"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Teal": [
+      "/Game/NightMarket/max/Textures/T_plaster"
+    ],
+    "/Game/NightMarket/max/Textures/T_plaster": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_RedFabric": [
+      "/Game/NightMarket/max/Textures/T_fabric"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Porcelain": [],
+    "/Game/NightMarket/max/Materials/M_NM_GlowCream": [],
+    "/Game/NightMarket/max/Materials/M_NM_GlowCoral": [],
+    "/Game/NightMarket/max/Materials/M_NM_Deep": [
+      "/Game/NightMarket/max/Textures/T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Clay": [
+      "/Game/NightMarket/max/Textures/T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Brass": [],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Soup": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Steel",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_White",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Steel": [],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Pastry": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_Dough",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Steel",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_GlowGold": [],
+    "/Game/NightMarket/max/Materials/M_NM_Dough": [],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Noodles": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Steel",
+      "/Game/NightMarket/max/Materials/M_NM_White",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_LateTea": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_White",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Greens": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_Green",
+      "/Game/NightMarket/max/Materials/M_NM_Leaf",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Orange",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_Red",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Red": [],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Fruit": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_Green",
+      "/Game/NightMarket/max/Materials/M_NM_Leaf",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Orange",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_Red",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Dumplings": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_Dough",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Steel",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_BunsSouth": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_Dough",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Steel",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Buns": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_White",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Puddles": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_Water"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Water": [],
+    "/Game/NightMarket/max/Materials/M_NM_Coping": [
+      "/Game/NightMarket/max/Textures/T_stone"
+    ],
+    "/Game/NightMarket/max/Textures/T_stone": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_LanternCanopy": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Ground": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_Court",
+      "/Game/NightMarket/max/Materials/M_NM_Paving",
+      "/Game/NightMarket/max/Materials/M_NM_Plinth"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Plinth": [
+      "/Game/NightMarket/max/Textures/T_stone"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Paving": [
+      "/Game/NightMarket/max/Textures/T_cobble"
+    ],
+    "/Game/NightMarket/max/Textures/T_cobble": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Court": [
+      "/Game/NightMarket/max/Textures/T_cobble"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Gardens": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_Green",
+      "/Game/NightMarket/max/Materials/M_NM_Leaf",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_EntryGate": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_GlowMint": [],
+    "/Game/NightMarket/max/Meshes/SM_NM_CourtFurniture": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+      "/Game/NightMarket/max/Materials/M_NM_Steel",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_White",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestKitchen": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Peach",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Roof": [
+      "/Game/NightMarket/max/Textures/T_roof"
+    ],
+    "/Game/NightMarket/max/Textures/T_roof": [
+      "/Script/InterchangeEngine"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Peach": [
+      "/Game/NightMarket/max/Textures/T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_GlassDark": [],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestBooks": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Blue",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_RedRoof",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_RedRoof": [
+      "/Game/NightMarket/max/Textures/T_roof"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Blue": [
+      "/Game/NightMarket/max/Textures/T_plaster"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NoodleHouse": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_Cream",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_RedRoof",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Cream": [
+      "/Game/NightMarket/max/Textures/T_plaster"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NightFlorist": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Peach",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_MoonTea": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_LanternSupply": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_Peach",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastGrocer": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_RedRoof",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastBakery": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_Cream",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_CornerCafe": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_Teal",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_BlueInn": [
+      "/Script/NavigationSystem",
+      "/Game/NightMarket/max/Materials/M_NM_Blue",
+      "/Game/NightMarket/max/Materials/M_NM_Brass",
+      "/Game/NightMarket/max/Materials/M_NM_Clay",
+      "/Game/NightMarket/max/Materials/M_NM_Coping",
+      "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+      "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+      "/Game/NightMarket/max/Materials/M_NM_Deep",
+      "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+      "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+      "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+      "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+      "/Game/NightMarket/max/Materials/M_NM_LightWood",
+      "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+      "/Game/NightMarket/max/Materials/M_NM_Roof",
+      "/Game/NightMarket/max/Materials/M_NM_Wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_EveningSky": []
+  },
+  "forbidden_game_dependencies": [],
+  "external_actor_object_or_builtdata_files": [],
+  "missing_assemblies": [],
+  "null_or_foreign_materials": [],
+  "owned_asset_count": 67,
+  "owned_assets": [
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NoodleHouse",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NightFlorist",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_MoonTea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_LanternSupply",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastGrocer",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastBakery",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_CornerCafe",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_BlueInn",
+    "/Game/NightMarket/max/Materials/M_NM_RedRoof",
+    "/Game/NightMarket/max/Materials/M_NM_Roof",
+    "/Game/NightMarket/max/Textures/T_roof",
+    "/Game/NightMarket/max/Meshes/SM_NM_LanternCanopy",
+    "/Game/NightMarket/max/Meshes/SM_NM_EntryGate",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Tea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Soup",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Pastry",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Noodles",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_LateTea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Greens",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Fruit",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Dumplings",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_BunsSouth",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Buns",
+    "/Game/NightMarket/max/Meshes/SM_NM_StreetProps",
+    "/Game/NightMarket/max/Meshes/SM_NM_Gardens",
+    "/Game/NightMarket/max/Meshes/SM_NM_CourtFurniture",
+    "/Game/NightMarket/max/Materials/M_NM_Wood",
+    "/Game/NightMarket/max/Materials/M_NM_LightWood",
+    "/Game/NightMarket/max/Textures/T_wood",
+    "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+    "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+    "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+    "/Game/NightMarket/max/Textures/T_fabric",
+    "/Game/NightMarket/max/Materials/M_NM_Plinth",
+    "/Game/NightMarket/max/Meshes/SM_NM_Puddles",
+    "/Game/NightMarket/max/Materials/M_NM_Coping",
+    "/Game/NightMarket/max/Textures/T_stone",
+    "/Game/NightMarket/max/Materials/M_NM_Peach",
+    "/Game/NightMarket/max/Materials/M_NM_Cream",
+    "/Game/NightMarket/max/Materials/M_NM_Teal",
+    "/Game/NightMarket/max/Materials/M_NM_Deep",
+    "/Game/NightMarket/max/Materials/M_NM_Clay",
+    "/Game/NightMarket/max/Materials/M_NM_Blue",
+    "/Game/NightMarket/max/Textures/T_plaster",
+    "/Game/NightMarket/max/Materials/M_NM_Red",
+    "/Game/NightMarket/max/Materials/M_NM_Orange",
+    "/Game/NightMarket/max/Materials/M_NM_Dough",
+    "/Game/NightMarket/max/Materials/M_NM_Water",
+    "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+    "/Game/NightMarket/max/Materials/M_NM_Leaf",
+    "/Game/NightMarket/max/Materials/M_NM_Green",
+    "/Game/NightMarket/max/Materials/M_NM_White",
+    "/Game/NightMarket/max/Materials/M_NM_Steel",
+    "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+    "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+    "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+    "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+    "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+    "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+    "/Game/NightMarket/max/Materials/M_NM_Brass",
+    "/Game/NightMarket/max/Materials/M_NM_EveningSky",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestBooks",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestKitchen",
+    "/Game/NightMarket/max/Textures/T_cobble",
+    "/Game/NightMarket/max/Materials/M_NM_Court",
+    "/Game/NightMarket/max/Materials/M_NM_Paving",
+    "/Game/NightMarket/max/Meshes/SM_NM_Ground"
+  ],
+  "placed_mesh_actor_count": 28,
+  "placed_mesh_actors": [
+    {
+      "label": "SM_NM_Ground",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Ground.SM_NM_Ground",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Plinth.M_NM_Plinth",
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Paving.M_NM_Paving",
+        "/Game/NightMarket/max/Materials/M_NM_Court.M_NM_Court"
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        -79.50000381469727
+      ],
+      "bounds_extent_cm": [
+        5000.000488281249,
+        5000.000488281249,
+        150.49999618530273
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Puddles",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Puddles.SM_NM_Puddles",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Water.M_NM_Water",
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping"
+      ],
+      "bounds_origin_cm": [
+        -66.0068359375,
+        -394.30419921875,
+        40.286123275756836
+      ],
+      "bounds_extent_cm": [
+        3968.8295898437486,
+        3548.304199218749,
+        1.6861209869384766
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_MoonTea",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_MoonTea.SM_NM_Building_MoonTea",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal"
+      ],
+      "bounds_origin_cm": [
+        3200.000244140624,
+        3016.8433837890607,
+        782.9999108314514
+      ],
+      "bounds_extent_cm": [
+        914.9880371093748,
+        815.6229248046875,
+        767.9999670982361
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_NoodleHouse",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_NoodleHouse.SM_NM_Building_NoodleHouse",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Cream.M_NM_Cream",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_RedRoof.M_NM_RedRoof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric"
+      ],
+      "bounds_origin_cm": [
+        1200.0002899169922,
+        3413.930786132811,
+        982.9999718666077
+      ],
+      "bounds_extent_cm": [
+        914.9879913330074,
+        762.710327148437,
+        968.0000281333923
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_BlueInn",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_BlueInn.SM_NM_Building_BlueInn",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Blue.M_NM_Blue",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal"
+      ],
+      "bounds_origin_cm": [
+        -999.9998855590811,
+        3419.8964843749986,
+        1082.9999718666077
+      ],
+      "bounds_extent_cm": [
+        1064.8885421752925,
+        868.6757812499995,
+        1068.0000281333923
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_LanternSupply",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_LanternSupply.SM_NM_Building_LanternSupply",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Peach.M_NM_Peach",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric"
+      ],
+      "bounds_origin_cm": [
+        -3299.999755859373,
+        3016.8438720703116,
+        782.9999108314514
+      ],
+      "bounds_extent_cm": [
+        914.9880371093748,
+        815.6229248046875,
+        767.9999670982361
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_EastGrocer",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_EastGrocer.SM_NM_Building_EastGrocer",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_RedRoof.M_NM_RedRoof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal"
+      ],
+      "bounds_origin_cm": [
+        -3599.999999999998,
+        819.6583480834962,
+        682.9999108314514
+      ],
+      "bounds_extent_cm": [
+        815.06396484375,
+        868.4374771118162,
+        667.9999670982361
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_EastBakery",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_EastBakery.SM_NM_Building_EastBakery",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Cream.M_NM_Cream",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric"
+      ],
+      "bounds_origin_cm": [
+        -3700.0001220703107,
+        -1383.3066101074207,
+        582.9999227523804
+      ],
+      "bounds_extent_cm": [
+        765.1048583984375,
+        815.4724426269529,
+        567.9999551773071
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_WestKitchen",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_WestKitchen.SM_NM_Building_WestKitchen",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Peach.M_NM_Peach",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric"
+      ],
+      "bounds_origin_cm": [
+        3600.0001220703107,
+        722.521438598632,
+        732.9999108314514
+      ],
+      "bounds_extent_cm": [
+        765.1048583984375,
+        921.3011932373043,
+        717.9999670982361
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_WestBooks",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_WestBooks.SM_NM_Building_WestBooks",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Blue.M_NM_Blue",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_RedRoof.M_NM_RedRoof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal"
+      ],
+      "bounds_origin_cm": [
+        3599.9998779296857,
+        -1380.3949279785154,
+        582.9999227523804
+      ],
+      "bounds_extent_cm": [
+        765.1046142578125,
+        868.3846130371091,
+        567.9999551773071
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_CornerCafe",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_CornerCafe.SM_NM_Building_CornerCafe",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal"
+      ],
+      "bounds_origin_cm": [
+        3399.999755859373,
+        -3483.255126953124,
+        532.9999465942383
+      ],
+      "bounds_extent_cm": [
+        815.063720703125,
+        815.524658203125,
+        517.9999313354492
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Building_NightFlorist",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Building_NightFlorist.SM_NM_Building_NightFlorist",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Peach.M_NM_Peach",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric"
+      ],
+      "bounds_origin_cm": [
+        -3500.000244140624,
+        -3586.2148437499977,
+        507.9999771118164
+      ],
+      "bounds_extent_cm": [
+        765.104736328125,
+        762.5639648437495,
+        492.99996185302734
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Noodles",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Noodles.SM_NM_Stall_Noodles",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel",
+        "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White"
+      ],
+      "bounds_origin_cm": [
+        919.499908447265,
+        -918.8898010253903,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.49996948242176,
+        203.88973999023426,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Tea",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Tea.SM_NM_Stall_Tea",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCoral.M_NM_GlowCoral",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White"
+      ],
+      "bounds_origin_cm": [
+        -780.5000915527341,
+        -818.8896789550777,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.5000305175779,
+        203.88973999023438,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Buns",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Buns.SM_NM_Stall_Buns",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White"
+      ],
+      "bounds_origin_cm": [
+        1019.5001220703122,
+        781.110229492187,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.4999999999999,
+        203.8897705078125,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Fruit",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Fruit.SM_NM_Stall_Fruit",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Orange.M_NM_Orange",
+        "/Game/NightMarket/max/Materials/M_NM_Leaf.M_NM_Leaf",
+        "/Game/NightMarket/max/Materials/M_NM_Red.M_NM_Red",
+        "/Game/NightMarket/max/Materials/M_NM_Green.M_NM_Green"
+      ],
+      "bounds_origin_cm": [
+        -880.4999694824214,
+        881.1103820800779,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.5000305175779,
+        203.88973999023438,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Soup",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Soup.SM_NM_Stall_Soup",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCoral.M_NM_GlowCoral",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel",
+        "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White"
+      ],
+      "bounds_origin_cm": [
+        2011.8819580078118,
+        1788.7531127929678,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.0081787109373,
+        252.49847412109375,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Greens",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Greens.SM_NM_Stall_Greens",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCoral.M_NM_GlowCoral",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Orange.M_NM_Orange",
+        "/Game/NightMarket/max/Materials/M_NM_Leaf.M_NM_Leaf",
+        "/Game/NightMarket/max/Materials/M_NM_Red.M_NM_Red",
+        "/Game/NightMarket/max/Materials/M_NM_Green.M_NM_Green"
+      ],
+      "bounds_origin_cm": [
+        -1983.3486328124989,
+        1887.4356689453116,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        345.5500488281248,
+        245.1114501953124,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Pastry",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Pastry.SM_NM_Stall_Pastry",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel",
+        "/Game/NightMarket/max/Materials/M_NM_Dough.M_NM_Dough"
+      ],
+      "bounds_origin_cm": [
+        1918.6896972656239,
+        -2113.866088867187,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        331.6145019531248,
+        237.4259033203125,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_Dumplings",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_Dumplings.SM_NM_Stall_Dumplings",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel",
+        "/Game/NightMarket/max/Materials/M_NM_Dough.M_NM_Dough"
+      ],
+      "bounds_origin_cm": [
+        -1882.7358398437493,
+        -2313.865844726561,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        344.1738281249998,
+        237.4259033203125,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_LateTea",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_LateTea.SM_NM_Stall_LateTea",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCoral.M_NM_GlowCoral",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White"
+      ],
+      "bounds_origin_cm": [
+        219.50019454956075,
+        2281.110351562499,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.49998855590803,
+        203.8896484375,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Stall_BunsSouth",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Stall_BunsSouth.SM_NM_Stall_BunsSouth",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel",
+        "/Game/NightMarket/max/Materials/M_NM_Dough.M_NM_Dough"
+      ],
+      "bounds_origin_cm": [
+        19.499694824218352,
+        -3418.8898925781236,
+        241.00001430511475
+      ],
+      "bounds_extent_cm": [
+        334.49999999999983,
+        203.8896484375,
+        214.00001621246338
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_CourtFurniture",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_CourtFurniture.SM_NM_CourtFurniture",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain",
+        "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay",
+        "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White",
+        "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel",
+        "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric"
+      ],
+      "bounds_origin_cm": [
+        98.305419921875,
+        94.79248046875,
+        105.09931564331055
+      ],
+      "bounds_extent_cm": [
+        2923.102539062499,
+        2542.3242187499995,
+        73.29932022094727
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_StreetProps",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_StreetProps.SM_NM_StreetProps",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood",
+        "/Game/NightMarket/max/Materials/M_NM_Orange.M_NM_Orange",
+        "/Game/NightMarket/max/Materials/M_NM_Leaf.M_NM_Leaf",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric",
+        "/Game/NightMarket/max/Materials/M_NM_Green.M_NM_Green"
+      ],
+      "bounds_origin_cm": [
+        -125.0,
+        -94.7501220703125,
+        97.00000190734863
+      ],
+      "bounds_extent_cm": [
+        3003.999999999999,
+        3203.2498779296866,
+        76.99999809265137
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_LanternCanopy",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_LanternCanopy.SM_NM_LanternCanopy",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCoral.M_NM_GlowCoral",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold"
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        -96.6103515625,
+        429.49999618530273
+      ],
+      "bounds_extent_cm": [
+        2337.0473632812495,
+        2441.3896484374995,
+        394.50000381469727
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_EntryGate",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_EntryGate.SM_NM_EntryGate",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream",
+        "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold",
+        "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass",
+        "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric"
+      ],
+      "bounds_origin_cm": [
+        -0.0003662109380684342,
+        -4299.999999999998,
+        398.75000953674316
+      ],
+      "bounds_extent_cm": [
+        974.9999999999995,
+        58.77978515625,
+        368.74999046325684
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_NM_Gardens",
+      "mesh": "/Game/NightMarket/max/Meshes/SM_NM_Gardens.SM_NM_Gardens",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping",
+        "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood",
+        "/Game/NightMarket/max/Materials/M_NM_Leaf.M_NM_Leaf",
+        "/Game/NightMarket/max/Materials/M_NM_Green.M_NM_Green",
+        "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal",
+        "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream"
+      ],
+      "bounds_origin_cm": [
+        -4.208740234375,
+        50.0,
+        319.00000190734863
+      ],
+      "bounds_extent_cm": [
+        4572.791259765624,
+        4514.869140624999,
+        285.99999809265137
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "Evening backdrop",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "materials": [
+        "/Game/NightMarket/max/Materials/M_NM_EveningSky.M_NM_EveningSky"
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        0.0030517578125,
+        0.0
+      ],
+      "bounds_extent_cm": [
+        40000.0,
+        40000.0,
+        40000.0
+      ],
+      "scale": [
+        800.0,
+        800.0,
+        800.0
+      ]
+    }
+  ],
+  "camera_labels": [
+    "alley",
+    "market",
+    "overview",
+    "top_down"
+  ],
+  "source_uv_loops_finite": true,
+  "orientation_evidence": "Recomputed closed-component signed-volume audit plus explicit open font-cap inspection after correction. source_manifest aggregate signed volumes are initial/historical and are not used as final orientation proof.",
+  "expected_placed_resource_packages": [
+    "/Game/NightMarket/max/Materials/M_NM_Blue",
+    "/Game/NightMarket/max/Materials/M_NM_Brass",
+    "/Game/NightMarket/max/Materials/M_NM_Clay",
+    "/Game/NightMarket/max/Materials/M_NM_Coping",
+    "/Game/NightMarket/max/Materials/M_NM_Court",
+    "/Game/NightMarket/max/Materials/M_NM_Cream",
+    "/Game/NightMarket/max/Materials/M_NM_CreamFabric",
+    "/Game/NightMarket/max/Materials/M_NM_DarkMetal",
+    "/Game/NightMarket/max/Materials/M_NM_Deep",
+    "/Game/NightMarket/max/Materials/M_NM_Dough",
+    "/Game/NightMarket/max/Materials/M_NM_EveningSky",
+    "/Game/NightMarket/max/Materials/M_NM_GlassDark",
+    "/Game/NightMarket/max/Materials/M_NM_GlowCoral",
+    "/Game/NightMarket/max/Materials/M_NM_GlowCream",
+    "/Game/NightMarket/max/Materials/M_NM_GlowGold",
+    "/Game/NightMarket/max/Materials/M_NM_GlowMint",
+    "/Game/NightMarket/max/Materials/M_NM_Green",
+    "/Game/NightMarket/max/Materials/M_NM_Leaf",
+    "/Game/NightMarket/max/Materials/M_NM_LightWood",
+    "/Game/NightMarket/max/Materials/M_NM_Orange",
+    "/Game/NightMarket/max/Materials/M_NM_Paving",
+    "/Game/NightMarket/max/Materials/M_NM_Peach",
+    "/Game/NightMarket/max/Materials/M_NM_Plinth",
+    "/Game/NightMarket/max/Materials/M_NM_Porcelain",
+    "/Game/NightMarket/max/Materials/M_NM_Red",
+    "/Game/NightMarket/max/Materials/M_NM_RedFabric",
+    "/Game/NightMarket/max/Materials/M_NM_RedRoof",
+    "/Game/NightMarket/max/Materials/M_NM_Roof",
+    "/Game/NightMarket/max/Materials/M_NM_Steel",
+    "/Game/NightMarket/max/Materials/M_NM_Teal",
+    "/Game/NightMarket/max/Materials/M_NM_TealFabric",
+    "/Game/NightMarket/max/Materials/M_NM_Water",
+    "/Game/NightMarket/max/Materials/M_NM_White",
+    "/Game/NightMarket/max/Materials/M_NM_Wood",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_BlueInn",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_CornerCafe",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastBakery",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_EastGrocer",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_LanternSupply",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_MoonTea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NightFlorist",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_NoodleHouse",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestBooks",
+    "/Game/NightMarket/max/Meshes/SM_NM_Building_WestKitchen",
+    "/Game/NightMarket/max/Meshes/SM_NM_CourtFurniture",
+    "/Game/NightMarket/max/Meshes/SM_NM_EntryGate",
+    "/Game/NightMarket/max/Meshes/SM_NM_Gardens",
+    "/Game/NightMarket/max/Meshes/SM_NM_Ground",
+    "/Game/NightMarket/max/Meshes/SM_NM_LanternCanopy",
+    "/Game/NightMarket/max/Meshes/SM_NM_Puddles",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Buns",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_BunsSouth",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Dumplings",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Fruit",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Greens",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_LateTea",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Noodles",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Pastry",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Soup",
+    "/Game/NightMarket/max/Meshes/SM_NM_Stall_Tea",
+    "/Game/NightMarket/max/Meshes/SM_NM_StreetProps",
+    "/Game/NightMarket/max/Textures/T_cobble",
+    "/Game/NightMarket/max/Textures/T_fabric",
+    "/Game/NightMarket/max/Textures/T_plaster",
+    "/Game/NightMarket/max/Textures/T_roof",
+    "/Game/NightMarket/max/Textures/T_stone",
+    "/Game/NightMarket/max/Textures/T_wood"
+  ],
+  "missing_dependency_resources": [],
+  "actual_material_used_textures": {
+    "/Game/NightMarket/max/Materials/M_NM_Plinth.M_NM_Plinth": [
+      "/Game/NightMarket/max/Textures/T_stone.T_stone"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Coping.M_NM_Coping": [
+      "/Game/NightMarket/max/Textures/T_stone.T_stone"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Paving.M_NM_Paving": [
+      "/Game/NightMarket/max/Textures/T_cobble.T_cobble"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Court.M_NM_Court": [
+      "/Game/NightMarket/max/Textures/T_cobble.T_cobble"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Water.M_NM_Water": [],
+    "/Game/NightMarket/max/Materials/M_NM_Teal.M_NM_Teal": [
+      "/Game/NightMarket/max/Textures/T_plaster.T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Wood.M_NM_Wood": [
+      "/Game/NightMarket/max/Textures/T_wood.T_wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_GlowCream.M_NM_GlowCream": [],
+    "/Game/NightMarket/max/Materials/M_NM_GlassDark.M_NM_GlassDark": [],
+    "/Game/NightMarket/max/Materials/M_NM_Brass.M_NM_Brass": [],
+    "/Game/NightMarket/max/Materials/M_NM_GlowGold.M_NM_GlowGold": [],
+    "/Game/NightMarket/max/Materials/M_NM_LightWood.M_NM_LightWood": [
+      "/Game/NightMarket/max/Textures/T_wood.T_wood"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Roof.M_NM_Roof": [
+      "/Game/NightMarket/max/Textures/T_roof.T_roof"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Clay.M_NM_Clay": [
+      "/Game/NightMarket/max/Textures/T_plaster.T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_CreamFabric.M_NM_CreamFabric": [
+      "/Game/NightMarket/max/Textures/T_fabric.T_fabric"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_RedFabric.M_NM_RedFabric": [
+      "/Game/NightMarket/max/Textures/T_fabric.T_fabric"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Deep.M_NM_Deep": [
+      "/Game/NightMarket/max/Textures/T_plaster.T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_GlowMint.M_NM_GlowMint": [],
+    "/Game/NightMarket/max/Materials/M_NM_DarkMetal.M_NM_DarkMetal": [],
+    "/Game/NightMarket/max/Materials/M_NM_Cream.M_NM_Cream": [
+      "/Game/NightMarket/max/Textures/T_plaster.T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_RedRoof.M_NM_RedRoof": [
+      "/Game/NightMarket/max/Textures/T_roof.T_roof"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_TealFabric.M_NM_TealFabric": [
+      "/Game/NightMarket/max/Textures/T_fabric.T_fabric"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Blue.M_NM_Blue": [
+      "/Game/NightMarket/max/Textures/T_plaster.T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Peach.M_NM_Peach": [
+      "/Game/NightMarket/max/Textures/T_plaster.T_plaster"
+    ],
+    "/Game/NightMarket/max/Materials/M_NM_Porcelain.M_NM_Porcelain": [],
+    "/Game/NightMarket/max/Materials/M_NM_Steel.M_NM_Steel": [],
+    "/Game/NightMarket/max/Materials/M_NM_White.M_NM_White": [],
+    "/Game/NightMarket/max/Materials/M_NM_GlowCoral.M_NM_GlowCoral": [],
+    "/Game/NightMarket/max/Materials/M_NM_Orange.M_NM_Orange": [],
+    "/Game/NightMarket/max/Materials/M_NM_Leaf.M_NM_Leaf": [],
+    "/Game/NightMarket/max/Materials/M_NM_Red.M_NM_Red": [],
+    "/Game/NightMarket/max/Materials/M_NM_Green.M_NM_Green": [],
+    "/Game/NightMarket/max/Materials/M_NM_Dough.M_NM_Dough": [],
+    "/Game/NightMarket/max/Materials/M_NM_EveningSky.M_NM_EveningSky": []
+  },
+  "authored_texture_coverage": [
+    "/Game/NightMarket/max/Textures/T_cobble",
+    "/Game/NightMarket/max/Textures/T_fabric",
+    "/Game/NightMarket/max/Textures/T_plaster",
+    "/Game/NightMarket/max/Textures/T_roof",
+    "/Game/NightMarket/max/Textures/T_stone",
+    "/Game/NightMarket/max/Textures/T_wood"
+  ],
+  "dynamic_lighting": [
+    {
+      "actor": "Cool blue-hour key",
+      "class": "DirectionalLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 2.299999952316284
+    },
+    {
+      "actor": "Evening ambient",
+      "class": "SkyLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1.399999976158142
+    },
+    {
+      "actor": "Warm pool 00 shop_MoonTea",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 01 shop_NoodleHouse",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 02 shop_BlueInn",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 03 shop_LanternSupply",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 04 shop_EastGrocer",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 05 shop_EastBakery",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 06 shop_WestKitchen",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 07 shop_WestBooks",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 08 shop_CornerCafe",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 09 shop_NightFlorist",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 10 stall_Noodles",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 11 stall_Tea",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 12 stall_Buns",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 13 stall_Fruit",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 14 stall_Soup",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 15 stall_Greens",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 16 stall_Pastry",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 17 stall_Dumplings",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 18 stall_LateTea",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 19 stall_BunsSouth",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 420.0
+    },
+    {
+      "actor": "Warm pool 20 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 21 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 22 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 23 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 24 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 25 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 26 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 27 court_lantern",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 650.0
+    },
+    {
+      "actor": "Warm pool 28 entry",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1600.0
+    },
+    {
+      "actor": "Warm pool 29 perimeter_lamp",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1100.0
+    },
+    {
+      "actor": "Warm pool 30 perimeter_lamp",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1100.0
+    },
+    {
+      "actor": "Warm pool 31 perimeter_lamp",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1100.0
+    },
+    {
+      "actor": "Warm pool 32 perimeter_lamp",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1100.0
+    },
+    {
+      "actor": "Warm pool 33 perimeter_lamp",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1100.0
+    },
+    {
+      "actor": "Warm pool 34 perimeter_lamp",
+      "class": "PointLightComponent",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "movable": true,
+      "intensity": 1100.0
+    }
+  ],
+  "all_lighting_movable": true,
+  "closed_source_component_orientation_audit_passed": true
+}

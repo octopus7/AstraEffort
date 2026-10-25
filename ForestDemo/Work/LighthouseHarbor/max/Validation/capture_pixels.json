@@ -1,0 +1,115 @@
+{
+  "pass": true,
+  "images": [
+    {
+      "file": "overview.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "0b649299294ab348ccafe785aa80e5257f62ee976dfd54a53354ac57d81e7d2a",
+      "min_rgb": 0.0,
+      "max_rgb": 0.8941177129745483,
+      "mean_rgb": [
+        0.3681298792362213,
+        0.4972657263278961,
+        0.5188802480697632
+      ],
+      "black_pixel_fraction": 0.0
+    },
+    {
+      "file": "top_down.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "18df7bd3c0bfb35da0a7cc5e096814437bf5e4614bb35b49b09c9a5572fb4e15",
+      "min_rgb": 0.0,
+      "max_rgb": 0.8980392813682556,
+      "mean_rgb": [
+        0.3509781062602997,
+        0.48741042613983154,
+        0.4946187436580658
+      ],
+      "black_pixel_fraction": 0.0
+    },
+    {
+      "file": "lighthouse.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "b883f384a10cfa8ac84839086afb81e5058286920d492ef7d577b202a28441bc",
+      "min_rgb": 0.0,
+      "max_rgb": 1.0,
+      "mean_rgb": [
+        0.40794506669044495,
+        0.5187546014785767,
+        0.515996515750885
+      ],
+      "black_pixel_fraction": 0.0
+    },
+    {
+      "file": "harbor.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "da5f7595795e62e1c0c38d0beb27e60a262852ed1b9f4dbbc8f1b021bf71de60",
+      "min_rgb": 0.0,
+      "max_rgb": 1.0,
+      "mean_rgb": [
+        0.3636414110660553,
+        0.4740236699581146,
+        0.4309009313583374
+      ],
+      "black_pixel_fraction": 0.0
+    },
+    {
+      "file": "motion_t0.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "a855c4c39cbcc5f09274b5a2287f5bb796ae61d41778262feaa5b71e53bdb5ff",
+      "min_rgb": 0.0,
+      "max_rgb": 1.0,
+      "mean_rgb": [
+        0.374435693025589,
+        0.49259665608406067,
+        0.4900806248188019
+      ],
+      "black_pixel_fraction": 0.0
+    },
+    {
+      "file": "motion_t1.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "3136abd9fb53ec7276064b3053c5fef1885d783c2c030286d4acf76b3fc16af5",
+      "min_rgb": 0.0,
+      "max_rgb": 1.0,
+      "mean_rgb": [
+        0.37463241815567017,
+        0.4927363097667694,
+        0.49005985260009766
+      ],
+      "black_pixel_fraction": 0.0
+    }
+  ],
+  "same_camera_motion_pair": true,
+  "motion_changed_pixel_fraction_at_0_005_linear": 0.011302565586419754,
+  "motion_mean_absolute_rgb_delta_linear": 0.0009952803375199437,
+  "motion_max_rgb_delta_linear": 0.6352941393852234,
+  "requested_timestamp_delta_seconds": 5.502887,
+  "water_roi_top_left_pixels": [
+    80,
+    780,
+    350,
+    930
+  ],
+  "water_roi_changed_fraction_at_0_0005_linear": 0.2932345679012346,
+  "water_roi_mean_absolute_rgb_delta_linear": 0.0004411845584399998,
+  "note": "Pixel change includes temporal renderer sampling; material graph Time connections are separately preserved. This does not claim physical simulation or PIE testing."
+}

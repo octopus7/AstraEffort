@@ -1,0 +1,612 @@
+{
+  "theme": "LighthouseHarbor",
+  "effort": "max",
+  "reviewed_at_utc": "2026-10-23T10:34:24.623609+00:00",
+  "accepted": true,
+  "reviewer_agent": "/root/lighthouse_final_review",
+  "reviewer_requested_model": "gpt-6-astra",
+  "reviewer_requested_reasoning_effort": "max",
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_correction": "RESULT.md now accurately states final stair adjustment was saved and reloaded within capture_04; no additional UE execution was required.",
+  "published_private_recorded_sha256_match_count": 106,
+  "files": [
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Beacon.uasset",
+      "sha256": "d2402ad07079020d0ff730c5110f309f391f06b31db7f0bbc8160a8437e5e634",
+      "bytes": 12717
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_BrickRed.uasset",
+      "sha256": "92105ff88b190e1108860f1f8fe9743ae7895b994d7b09ac2eb10ecf9d5cafc3",
+      "bytes": 10507
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Chalk.uasset",
+      "sha256": "fbb2de8411fbc184ac17b51cbf7645584e26f3555b998e7a7c2b9deee9803496",
+      "bytes": 10745
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_CliffSand.uasset",
+      "sha256": "5de69bcb7b17388378ee46e30b919324c3007de49b85214c00ef868044815924",
+      "bytes": 11286
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_CliffShade.uasset",
+      "sha256": "4f9aba1aef8776f24a623e9b8524723bd7ccaa9d4f6600716dbbbc1139c80f4b",
+      "bytes": 10818
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Copper.uasset",
+      "sha256": "17321a1671911288626c0a848b70eee85cd43e370edaece3f20c91d2db0b2f05",
+      "bytes": 10786
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_DeepWater.uasset",
+      "sha256": "111f768424cd47281d35e99f5de17c8cc9685189954ae8289035cf28ca3c4fba",
+      "bytes": 10395
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Flower.uasset",
+      "sha256": "2c31fed7855925bbd978fb518cd3d299f263edf8223ab75d97f996a066e03ae8",
+      "bytes": 11231
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Foam.uasset",
+      "sha256": "6b28588aa281de4414779eff3c46ac001a055cb5af8da621d563622160f2385a",
+      "bytes": 13334
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Grass.uasset",
+      "sha256": "ccd0795a8bd12de30247a0e8682f5dc93f525626a38c4c8f0942bf10d078e5ce",
+      "bytes": 10910
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_GrassLight.uasset",
+      "sha256": "37d64780ba6837141ee4299d6b347f911702f8336a4d1926532adfbadb486276",
+      "bytes": 11068
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Iron.uasset",
+      "sha256": "e8dabfcfee149ab5d7b61f549655f9b11066a2d3604f260e7ac8240ca7f9078e",
+      "bytes": 9880
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Lamp.uasset",
+      "sha256": "6b906cbd004f6d30b7b814117f2989217f3e0046ca2a0cfbe4b82e82d0316d00",
+      "bytes": 13239
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Mustard.uasset",
+      "sha256": "4ecdb7e6055f0ffcacc72d3753d6dcf053ddc395401c9ee70faa0946a6082dfe",
+      "bytes": 11250
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Path.uasset",
+      "sha256": "4e882fb96e94e29834ada39b82eb3f11d60361ce07744fb7451ee1995217740b",
+      "bytes": 11250
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_RoofClay.uasset",
+      "sha256": "6f1ca5b5ea80ea24a843b9f952c54772c2528030d9e2df5a6583471985a0b78f",
+      "bytes": 10964
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_RoofLight.uasset",
+      "sha256": "9d161a509790816ffb6af4e7885433ea26a6c7a73bcd690bc469055739e73d45",
+      "bytes": 11269
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Rope.uasset",
+      "sha256": "51cc8f8672cbffe175aedade281e99193d0c008a52fe85c41ceb1c1c541acdd0",
+      "bytes": 12159
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_SeaPaint.uasset",
+      "sha256": "1231952a9128c2128208dc492e897ab82adb0960972f83277cd7c8298df35751",
+      "bytes": 11040
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_SkyBackdrop.uasset",
+      "sha256": "f3b477f8bb7ddd44ff4447fba509e44308c951718ae0553d8bfe774ea97d8e00",
+      "bytes": 9074
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Timber.uasset",
+      "sha256": "bfd969375fe8fbbc245cddf6c783fdcff6e2949327b090c5e03493132dd73085",
+      "bytes": 10588
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_TimberLight.uasset",
+      "sha256": "f93a0f62c0134c57462d39e7618b30b991de8f25c56f6b0648f4b5e06ac51729",
+      "bytes": 11947
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_WarmStone.uasset",
+      "sha256": "a37f274476e000e5f78d8ce36d2c4a62ddf4529921935e9ad43fa93b476e1225",
+      "bytes": 11131
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Water.uasset",
+      "sha256": "c3332a4b6ed5102e15c3b0323287a2ea574573d954c5a59d50baf48f7834ab5d",
+      "bytes": 13948
+    },
+    {
+      "path": "LighthouseHarbor/max/Materials/M_Window.uasset",
+      "sha256": "a3f454132c0f0b2520d2f8a8a216b0e74d4ec715e21761142a5c88fe76519a4d",
+      "bytes": 10351
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Beacon_Beam.uasset",
+      "sha256": "ed3db476563b75ea0aee2c2d2d912a99b46afaba2158844235d949a085be1521",
+      "bytes": 15904
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Boat_At_Sea.uasset",
+      "sha256": "fe26d54694675d7efde1c0bca38e2137ec24fb3168dceb126e4794c4c62f562f",
+      "bytes": 184741
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Boat_Blue.uasset",
+      "sha256": "b0af8e1123459583a1307022f75f2f34cf2d4a93fa5dc351d410c6ca8c4ddf0c",
+      "bytes": 163790
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Boat_Dinghy.uasset",
+      "sha256": "d412e55b5ca1e4827d0845a23502f8fc2a05c81f5fe3de8309cf747e43c9ce30",
+      "bytes": 162474
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Boat_Fishing.uasset",
+      "sha256": "341b18efac3132c72cf90ae4c53fea07133819580b3d6d8eeb52ba4ae4c0f7ae",
+      "bytes": 186995
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Boat_Wake.uasset",
+      "sha256": "c1f1cf9a96340c9b436d94e3b9f9abbc9b0eaa6fce0d5d8cacc5ad696c4bd55b",
+      "bytes": 29357
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Channel_Buoys.uasset",
+      "sha256": "427b7f6baddc8e3b7f68dcebb5f6bca5ecaada1518e5033b98e4b0e51df267f1",
+      "bytes": 87852
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Details.uasset",
+      "sha256": "027e8d4c341b8509bed8eec0910902e600e689ce39d99a536986f3f1bb1ae36f",
+      "bytes": 165970
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Lower.uasset",
+      "sha256": "c24c4eb034e128492c0ed219fa09045aaf07c15955b7600ba4a3bab8eac42d6b",
+      "bytes": 49630
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Lower_Grass.uasset",
+      "sha256": "a60eefb7b4efb038f06f11857d87b151dd9584b2cfe9d042ae8fabd528180ced",
+      "bytes": 17869
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Middle.uasset",
+      "sha256": "34716b50a676a29f72d41f3ee6855850954ff7f4290d6d4b3f36bbb107bac6b0",
+      "bytes": 44569
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Middle_Grass.uasset",
+      "sha256": "33bf88d37782a50b84ce2a8342db451b6bf66cc2d01885c783b4597ac9e14bec",
+      "bytes": 17860
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Upper.uasset",
+      "sha256": "3dc3b7f024d7d872a0ab15cbd9313319c0e69af2b7495c4b4678db3397f989a5",
+      "bytes": 37651
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Cliff_Upper_Grass.uasset",
+      "sha256": "430cca131bde094644768f6dda19378bb329462677a496e191cfbdb4477821a2",
+      "bytes": 17831
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Coastal_Paths.uasset",
+      "sha256": "80a0f07894e85835528c76edd269af70a11d7f6027898db8722c0b85f05df433",
+      "bytes": 429764
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Coastal_Rocks.uasset",
+      "sha256": "c41f30ca922209989a30e20cea8c73673a9c15f660ff27a0d617a3405872b4e3",
+      "bytes": 165608
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Coastal_Trees.uasset",
+      "sha256": "90ab5e3add914f2b178818e6346308d5cc37f9b7493c38e8e84e2feee8ab3869",
+      "bytes": 309390
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Coastal_Vegetation.uasset",
+      "sha256": "8c6b44ebc05439baa7f0381dc77a3ab2de1e015e4c11936dbca79cfc6272e78b",
+      "bytes": 358724
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Fishing_Barrels.uasset",
+      "sha256": "db460242133a381e92d07d08018e606a6d8f8b1f7cb3171849a55202825edea3",
+      "bytes": 264918
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Fishing_Crates.uasset",
+      "sha256": "6cb108b8f49c7adfcf1ea8b90423a0d409bfba4b45918d51f7494e4b1704aa99",
+      "bytes": 269372
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Fishing_Gear.uasset",
+      "sha256": "1aaf323aa4cecd696c4e39e5eac376ef2e386500cf9e184beabc490a08d2eccd",
+      "bytes": 413029
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Fishing_Net.uasset",
+      "sha256": "89716ef2a9b1fd7556a020ae0f49afada36d66ac54740e55d2e9ea1be4490748",
+      "bytes": 130328
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Garden_Fences.uasset",
+      "sha256": "3bcaf10b942cc74ecc7ca5ca04a9be9629352dac9461172a7c90a23775aa7419",
+      "bytes": 147872
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Garden_Pots.uasset",
+      "sha256": "a05d228998a9cf6b85ea880e0317c904f130fda4941c11fba001b7571bc62f0e",
+      "bytes": 316968
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Garden_Stones.uasset",
+      "sha256": "735f363005077397be5c01df70618612df10ce08f0ac7c730475f3d830645b2e",
+      "bytes": 42804
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Harbor_Boathouse.uasset",
+      "sha256": "46b29c590b408b4354e51b132571389d8d6e5039742392c9d62e5ee1f5827997",
+      "bytes": 413554
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Harbor_Buoys.uasset",
+      "sha256": "c43c3e82cf098513a87a6b97992b808f6cf1e31541d108e5c07c5d0cccea45cb",
+      "bytes": 61927
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Harbor_Details.uasset",
+      "sha256": "66d938f7f957ea1d300261fa6825893862349c9c0dd34efc2e34eca09812517f",
+      "bytes": 77114
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Harbor_Lamps.uasset",
+      "sha256": "2c4505144d7a3a6716e63dcb628db2d1c08afa029e3a847f0cc61d75c72c2e21",
+      "bytes": 178620
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Harbor_Masonry.uasset",
+      "sha256": "29cb79c0b743095ba588a7b93a2b40323e9477956d48926837cc2596d5e9dafe",
+      "bytes": 178321
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Harbor_Quay.uasset",
+      "sha256": "8fc4fb6d44cac8d278d593d2acbc9a0cc207362efb328a47f50908ff280d9b0d",
+      "bytes": 24209
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Keeper_House_A.uasset",
+      "sha256": "d77e771f629d5d17176c14f8fab9d933266a0999b616859b2b2e5b9ed03ef3c4",
+      "bytes": 467215
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Keeper_House_B.uasset",
+      "sha256": "8f0e47b9ef72e1db8a5597b8bc7e940f3d72f69af777b72358e91dd79b06c5c4",
+      "bytes": 398237
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Details.uasset",
+      "sha256": "3afef35f1d3de8ba7bc8ec149628add8ca4d071ab2e6ba09bdc598563fb5b7cf",
+      "bytes": 144374
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Foundation.uasset",
+      "sha256": "c8ed636f2f0150ccfd6fd05dfa9278c541b573d72d039ce5a7184c42c1905d85",
+      "bytes": 79223
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Gallery.uasset",
+      "sha256": "c5dcd45b64176e0a652ad05246c84c24002e4e0cde89919970d42f52791025c5",
+      "bytes": 268902
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Lantern.uasset",
+      "sha256": "f68dfc0d0eb18e61ad0a4fa18eee18973e5ed7db2dcf2363ddc1784efeaf3382",
+      "bytes": 171879
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Optic.uasset",
+      "sha256": "c8ce8cabd9d65a21491a9bbfefe0d272fd43167d0bff9a21ed5e2e4510f6fac2",
+      "bytes": 94751
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Plaque.uasset",
+      "sha256": "dc29d08cb80fa77517b9a41888f04074a13920ae7408e07768f10dea6e58a1a2",
+      "bytes": 60310
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lighthouse_Tower.uasset",
+      "sha256": "13855c6f852b0fad1421a24a4b5c079b25b93ffd92bf0b0aad841bb544c80796",
+      "bytes": 322161
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Lookout_Furniture.uasset",
+      "sha256": "ae31cf7547335e3fe2324513cd1587a60df5769378442e9673ce92fb3456c5a0",
+      "bytes": 150123
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Mooring_Ropes.uasset",
+      "sha256": "03246ac13c1b6fc63624ac85392f70fa9d1f31a384607f615b041919d8ebeb07",
+      "bytes": 20798
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Pier_Deck.uasset",
+      "sha256": "0c52fcb125d3ccebb4988e0259ef1b825ced4fd7931dc1116705bd4adcd99990",
+      "bytes": 264859
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Pier_Hardware.uasset",
+      "sha256": "553f784e97de07fefd3dadee6ee613086bd32cb995d340dd16c8d637d17e5233",
+      "bytes": 84929
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Pier_Piles.uasset",
+      "sha256": "3ebc9dc4500e8680ee647c4422fc18a5fb56717756d45f5ba1459cbbb277d013",
+      "bytes": 245420
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Pier_Structure.uasset",
+      "sha256": "38fef3f272f37c57edd15ed83f38c98d0b1a09cc97933f6981e98c03ff780796",
+      "bytes": 141130
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Sea_Ripples.uasset",
+      "sha256": "68c551a80b3b944b4cfd21ad4d20ac8b7a37d52acd1ec74908ee69aadad5abcc",
+      "bytes": 49001
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Seabirds.uasset",
+      "sha256": "9c9f2b44d093436e07feb2d74edce50e3e4532d1ea81549f74957a166f398c5c",
+      "bytes": 22354
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Shore_Foam.uasset",
+      "sha256": "c0f06df0ef5c1a7c939435717490fdaa85658795dba402bda9b6ed0e3915ec4c",
+      "bytes": 128289
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Stair_Footings.uasset",
+      "sha256": "1c6dbf5deb363157b09e11f064697e8ab0dd3462d3245be827e34cc54d369ce1",
+      "bytes": 110995
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Stair_Rails.uasset",
+      "sha256": "36d601a3592558f83d67dc457ec27d67c18eb62de8ae1e56c67fbf7dc81104b2",
+      "bytes": 531502
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Stairs.uasset",
+      "sha256": "0c4b0dcacf5dcf1a763fab294368b1d128000d7ed9487990172a030f8b4746e6",
+      "bytes": 488135
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Terrace_Gardens.uasset",
+      "sha256": "c9511361ecf3b7186df37660e19d41d22c50071bd0f753643b14340881788649",
+      "bytes": 568463
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Upper_Lookout_Wall.uasset",
+      "sha256": "502f425349dac37683c76e494be3c2db0d21d895b381d24cb349f61e7bc6ebcd",
+      "bytes": 75669
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Water_Base.uasset",
+      "sha256": "c267440fee7e5cf19c48206f9e228cbc1fb398aa3ed00254c6ed35a0bdf6cf60",
+      "bytes": 19277
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Water_Surface.uasset",
+      "sha256": "6cf1f1fd03d8670a937f1248f808ae7af0cc9cf00e3628a31cc3f59253792255",
+      "bytes": 75496
+    },
+    {
+      "path": "LighthouseHarbor/max/Meshes/SM_Workshop_Lettering.uasset",
+      "sha256": "4a860d4544f70a77711c0139c806d87051ce648f8e802600177f7cfa58232406",
+      "bytes": 151807
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_BrickRed.uasset",
+      "sha256": "9f1a7978909e7ee1a62fa61686826b5a29e186b5083bbd3788f7026528073d27",
+      "bytes": 168197
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Chalk.uasset",
+      "sha256": "b12fb8d4c5e6ac7b654432cc7e9d84407308458a72c68525203e44bd0b0123ed",
+      "bytes": 208963
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_CliffSand.uasset",
+      "sha256": "52e51d478c96d75f51b29ba9c99a1b6765f797c555559bbe1a7c0180e7351324",
+      "bytes": 200003
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_CliffShade.uasset",
+      "sha256": "75f97041a71ff79e2538df0ef6f7d7f00bb856c7f5f124f4e238671ef1577422",
+      "bytes": 187920
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Copper.uasset",
+      "sha256": "024f2db3e4f5329348b89827d47082ede99318504ddcb590ea43fa245739a264",
+      "bytes": 173824
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_DeepWater.uasset",
+      "sha256": "f193084d75d808d06bbd8af6d071cb06ba05e70faaa1ba0264303d2150f1f63d",
+      "bytes": 140454
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Flower.uasset",
+      "sha256": "b2b46f17615aa7941984726ffd9a92ede03bb1e1bf75a381acab2030e2c538a7",
+      "bytes": 198390
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Foam.uasset",
+      "sha256": "bf3ea9234005150687454f384189c5d1ea7eadb862ed57ffd9facb101a90a410",
+      "bytes": 209383
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Grass.uasset",
+      "sha256": "4824f4bf823ddc7b7dbbf3b87bbb8e62a94d1f4a34786ce7a8a5d8349c8e1296",
+      "bytes": 186249
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_GrassLight.uasset",
+      "sha256": "ad144d99d5eb0323b7fadfd59579a75cf64afd527786616af2a6110e5cc8b87d",
+      "bytes": 193916
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Iron.uasset",
+      "sha256": "acae7a889972eab90dbe6861ff184f7a874cdd7454e726996622a71dc00ea032",
+      "bytes": 134046
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Lamp.uasset",
+      "sha256": "b5aa7a08e5e73831941f1a8b334db270d6df8d2fba3ab1e71bd1c3fcd9ac3bc1",
+      "bytes": 191324
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Mustard.uasset",
+      "sha256": "8bb35e464d11cef9ebcad541d2f2ee379225833b4704534d4ce041f5e38978ab",
+      "bytes": 189720
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Path.uasset",
+      "sha256": "e918095473d315cf0c1c7286c4ef8c66a9f2aa012551104982627149b0e2d33d",
+      "bytes": 203221
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_RoofClay.uasset",
+      "sha256": "2ad4e43a5507dfb088872994064d819df95d6a98f5bc61777c6730c0f595b21a",
+      "bytes": 187294
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_RoofLight.uasset",
+      "sha256": "4fcaa2e0157740ffacb781443c0964fd046978d27138c28a6ccca6e26df3b748",
+      "bytes": 196641
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Rope.uasset",
+      "sha256": "7e33759f06ccc902afdb4cc45ca8e43803c0ce3972994ed7999627f45d2cef2e",
+      "bytes": 195090
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_SeaPaint.uasset",
+      "sha256": "e8e311f496e36a0f8be8c468fe1373586409e77ea269674669430e92fbbc3898",
+      "bytes": 178278
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Timber.uasset",
+      "sha256": "fe56b275dfe6c445099e405c324f1fff565243ba445a10dbdd3083857c663db9",
+      "bytes": 138613
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_TimberLight.uasset",
+      "sha256": "bafd584ddcb2ef8d91ccec3458b0bb38b0ac197bb036b42d464c63f92bb5be50",
+      "bytes": 177892
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_WarmStone.uasset",
+      "sha256": "54e43504f5954f19c336a55a92be91229bbcafb48a06d7e58a291f9d3b63bcef",
+      "bytes": 194487
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Water.uasset",
+      "sha256": "484d72ed5f2750d84034138d097aaaff9649566c6ea06bfc7b3d98d9dd3f1a72",
+      "bytes": 166043
+    },
+    {
+      "path": "LighthouseHarbor/max/Textures/T_Window.uasset",
+      "sha256": "fa5231eeb3a132f728c3b9a1fcc72874f0b591cf6f984a1bec7d865f0b2470b8",
+      "bytes": 145592
+    },
+    {
+      "path": "Maps/LighthouseHarbor_max.umap",
+      "sha256": "a3fd7fa9cbc008d1fc7278ddb8b19743a5452ab66f4cd63304582a974ec60995",
+      "bytes": 128372
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "overview.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0b649299294ab348ccafe785aa80e5257f62ee976dfd54a53354ac57d81e7d2a",
+      "parent_visual_review": "pass"
+    },
+    {
+      "file": "top_down.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "18df7bd3c0bfb35da0a7cc5e096814437bf5e4614bb35b49b09c9a5572fb4e15",
+      "parent_visual_review": "pass"
+    },
+    {
+      "file": "lighthouse.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b883f384a10cfa8ac84839086afb81e5058286920d492ef7d577b202a28441bc",
+      "parent_visual_review": "pass"
+    },
+    {
+      "file": "harbor.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "da5f7595795e62e1c0c38d0beb27e60a262852ed1b9f4dbbc8f1b021bf71de60",
+      "parent_visual_review": "pass"
+    },
+    {
+      "file": "motion_t0.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a855c4c39cbcc5f09274b5a2287f5bb796ae61d41778262feaa5b71e53bdb5ff",
+      "parent_visual_review": "pass"
+    },
+    {
+      "file": "motion_t1.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3136abd9fb53ec7276064b3053c5fef1885d783c2c030286d4acf76b3fc16af5",
+      "parent_visual_review": "pass"
+    }
+  ],
+  "local_report_links_checked": 20,
+  "saved_map_validation": "Validation/saved_map_validation.json",
+  "capture_manifest": "Screenshots/capture_manifest.json",
+  "independent_review_findings": {
+    "recursive_graph_complete_packages": 105,
+    "placed_mesh_material_records": 58,
+    "outside_game_dependencies": 0,
+    "world_partition_is_null": true,
+    "external_actor_object_or_builtdata_count": 0,
+    "common_cameras_match": true,
+    "final_stairs_translation_z_cm": 8.5,
+    "timed_capture_interval_seconds": 5.502887,
+    "visible_beacon_rotation": true,
+    "final_editor_exit_code": 0,
+    "wall_seconds": 3192.529703,
+    "ue_wait_seconds": 290.7265421,
+    "ue_execution_seconds": 409.6191827
+  },
+  "worker_finished_at_utc": "2026-10-23T10:26:16.736703+00:00",
+  "worker_timing_preserved": true,
+  "content_map_unchanged_by_supervisor": true,
+  "result_sha256": "7deea850851a3f1d8d0498bd1d07cc74ec0c2e5f7eda2f68d89843784a91adb8",
+  "status_sha256": "28484014e3d7613712e57bf4eac1e6180ac231a559f7380030d7c4e19ac7c130"
+}

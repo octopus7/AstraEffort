@@ -1,0 +1,552 @@
+{
+  "checked_at_utc": "2026-10-23T10:13:10.206146+00:00",
+  "triangle_count_nonzero_area": 493775,
+  "degenerate_uv_triangles": 0,
+  "degenerate_uv_details": [],
+  "materials": {
+    "Sand": {
+      "texture": "T_Sand",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 170.66666666666666,
+      "uv_repeat_m": 3,
+      "surface_area_m2": 10196.233158521143,
+      "uv_area_with_repeats": 1111.1110263401379,
+      "measured_area_weighted_density_px_per_m": 169.00379720340158,
+      "density_p05": 164.96502937852688,
+      "density_p95": 170.66477745966148,
+      "density_min": 159.45490497572112,
+      "density_max": 170.6668569213085
+    },
+    "Sandstone": {
+      "texture": "T_Stone",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 341.3333333333333,
+      "uv_repeat_m": 1.5,
+      "surface_area_m2": 25663.210526914427,
+      "uv_area_with_repeats": 11375.733735980026,
+      "measured_area_weighted_density_px_per_m": 340.8500116567207,
+      "density_p05": 283.48984060663247,
+      "density_p95": 341.33312506824916,
+      "density_min": 259.31484300033395,
+      "density_max": 341.33581223857067
+    },
+    "DuneLight": {
+      "texture": "T_Sand",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 170.66666666666666,
+      "uv_repeat_m": 3,
+      "surface_area_m2": 37.02126730784795,
+      "uv_area_with_repeats": 4.0444415866267445,
+      "measured_area_weighted_density_px_per_m": 169.22019957897788,
+      "density_p05": 165.29422966866073,
+      "density_p95": 170.5819422346565,
+      "density_min": 164.48325000347626,
+      "density_max": 170.63726348882346
+    },
+    "Limestone": {
+      "texture": "T_Stone",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 341.3333333333333,
+      "uv_repeat_m": 1.5,
+      "surface_area_m2": 4954.108365980295,
+      "uv_area_with_repeats": 2187.691412429941,
+      "measured_area_weighted_density_px_per_m": 340.16026539436933,
+      "density_p05": 283.54300150919215,
+      "density_p95": 341.33328272621264,
+      "density_min": 259.2695177627703,
+      "density_max": 341.3343890664597
+    },
+    "PlasterCream": {
+      "texture": "T_Plaster",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 256.0,
+      "uv_repeat_m": 2,
+      "surface_area_m2": 2290.905000424222,
+      "uv_area_with_repeats": 564.3983335271839,
+      "measured_area_weighted_density_px_per_m": 254.00444111190882,
+      "density_p05": 212.66918419626202,
+      "density_p95": 255.99999686015,
+      "density_min": 194.51804581384513,
+      "density_max": 256.00001701114815
+    },
+    "TrimCream": {
+      "texture": "T_Plaster",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 512.0,
+      "uv_repeat_m": 1,
+      "surface_area_m2": 2885.7169075374773,
+      "uv_area_with_repeats": 2856.17408324764,
+      "measured_area_weighted_density_px_per_m": 509.2062371770093,
+      "density_p05": 425.339691858754,
+      "density_p95": 511.9999978101921,
+      "density_min": 389.0358635288951,
+      "density_max": 512.0000287982213
+    },
+    "Wood": {
+      "texture": "T_Wood",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 731.4285714285714,
+      "uv_repeat_m": 0.7,
+      "surface_area_m2": 443.68186317523714,
+      "uv_area_with_repeats": 873.6200978719628,
+      "measured_area_weighted_density_px_per_m": 717.9598479697762,
+      "density_p05": 605.0799062842635,
+      "density_p95": 731.4274293535534,
+      "density_min": 514.5973499543621,
+      "density_max": 865.4379958544133
+    },
+    "Recess": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 77.95352182382204,
+      "uv_area_with_repeats": 77.95352287760167,
+      "measured_area_weighted_density_px_per_m": 512.0000034606213,
+      "density_p05": 511.99996046703103,
+      "density_p95": 512.0000388143404,
+      "density_min": 511.99990131104045,
+      "density_max": 512.00008149763
+    },
+    "PlasterWarm": {
+      "texture": "T_Plaster",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 256.0,
+      "uv_repeat_m": 2,
+      "surface_area_m2": 2334.9055511041474,
+      "uv_area_with_repeats": 578.5831848066712,
+      "measured_area_weighted_density_px_per_m": 254.79048971502095,
+      "density_p05": 212.66858111639613,
+      "density_p95": 255.9999981739111,
+      "density_min": 194.51793176444755,
+      "density_max": 256.0000084244048
+    },
+    "PlasterPeach": {
+      "texture": "T_Plaster",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 256.0,
+      "uv_repeat_m": 2,
+      "surface_area_m2": 1714.193949879028,
+      "uv_area_with_repeats": 423.60360224350825,
+      "measured_area_weighted_density_px_per_m": 254.41992482484386,
+      "density_p05": 212.66904354738372,
+      "density_p95": 255.9999967003181,
+      "density_min": 194.51793176444755,
+      "density_max": 256.00000961907097
+    },
+    "PlasterRose": {
+      "texture": "T_Plaster",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 256.0,
+      "uv_repeat_m": 2,
+      "surface_area_m2": 1020.1221346549551,
+      "uv_area_with_repeats": 252.92658742362318,
+      "measured_area_weighted_density_px_per_m": 254.86794228704665,
+      "density_p05": 212.66904354738372,
+      "density_p95": 255.99999655114888,
+      "density_min": 194.51793593712281,
+      "density_max": 256.00000782159066
+    },
+    "DoorTeal": {
+      "texture": "T_Wood",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 731.4285714285714,
+      "uv_repeat_m": 0.7,
+      "surface_area_m2": 33.97675325917449,
+      "uv_area_with_repeats": 69.34030785156517,
+      "measured_area_weighted_density_px_per_m": 731.4285454653686,
+      "density_p05": 731.4139103776301,
+      "density_p95": 731.4563260131073,
+      "density_min": 731.3772179834151,
+      "density_max": 731.4738529777052
+    },
+    "WoodLight": {
+      "texture": "T_Wood",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 731.4285714285714,
+      "uv_repeat_m": 0.7,
+      "surface_area_m2": 319.5177632204495,
+      "uv_area_with_repeats": 627.5847892283948,
+      "measured_area_weighted_density_px_per_m": 716.6361214186987,
+      "density_p05": 556.4722874091398,
+      "density_p95": 718.959978234781,
+      "density_min": 555.1219851100824,
+      "density_max": 731.4511964900491
+    },
+    "ClothCream": {
+      "texture": "T_Weave",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 1024.0,
+      "uv_repeat_m": 0.5,
+      "surface_area_m2": 139.6711151675459,
+      "uv_area_with_repeats": 538.1735002940227,
+      "measured_area_weighted_density_px_per_m": 1004.6122343677763,
+      "density_p05": 861.0749670668537,
+      "density_p95": 1024.000001506833,
+      "density_min": 861.0743876161898,
+      "density_max": 1024.0000278656867
+    },
+    "ClothTerracotta": {
+      "texture": "T_Weave",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 1024.0,
+      "uv_repeat_m": 0.5,
+      "surface_area_m2": 73.84615016034955,
+      "uv_area_with_repeats": 290.3635579475208,
+      "measured_area_weighted_density_px_per_m": 1015.1539239875165,
+      "density_p05": 960.7162876763214,
+      "density_p95": 1023.9999931104416,
+      "density_min": 930.8330248609745,
+      "density_max": 1024.0000163711059
+    },
+    "ClothTeal": {
+      "texture": "T_Weave",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 1024.0,
+      "uv_repeat_m": 0.5,
+      "surface_area_m2": 31.998638097826348,
+      "uv_area_with_repeats": 122.93762448762246,
+      "measured_area_weighted_density_px_per_m": 1003.3754273834511,
+      "density_p05": 963.7119536827327,
+      "density_p95": 1023.9999986354945,
+      "density_min": 940.0860121681012,
+      "density_max": 1024.0000278656867
+    },
+    "ClothGold": {
+      "texture": "T_Weave",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 1024.0,
+      "uv_repeat_m": 0.5,
+      "surface_area_m2": 29.60192935665642,
+      "uv_area_with_repeats": 113.20146907274147,
+      "measured_area_weighted_density_px_per_m": 1000.9863094141186,
+      "density_p05": 960.4852434504147,
+      "density_p95": 1023.9999850965107,
+      "density_min": 928.7937830172791,
+      "density_max": 1024.000023536449
+    },
+    "RugRust": {
+      "texture": "T_Rug_Rust",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 0,
+      "surface_area_m2": 18.256205044344775,
+      "uv_area_with_repeats": 2.0,
+      "measured_area_weighted_density_px_per_m": 169.01911708071376,
+      "density_p05": 158.35125712017143,
+      "density_p95": 183.30954375549325,
+      "density_min": 158.34838256502127,
+      "density_max": 183.31428732838538
+    },
+    "RugTeal": {
+      "texture": "T_Rug_Teal",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 0,
+      "surface_area_m2": 18.195936420703728,
+      "uv_area_with_repeats": 2.0,
+      "measured_area_weighted_density_px_per_m": 169.39254822303556,
+      "density_p05": 159.73051437710114,
+      "density_p95": 181.91506364982814,
+      "density_min": 159.72772507974003,
+      "density_max": 181.91933599753543
+    },
+    "RugGold": {
+      "texture": "T_Rug_Gold",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 0,
+      "surface_area_m2": 16.096991769287726,
+      "uv_area_with_repeats": 2.0,
+      "measured_area_weighted_density_px_per_m": 180.46807910096175,
+      "density_p05": 179.05235318314462,
+      "density_p95": 181.91523317488486,
+      "density_min": 179.04743632139474,
+      "density_max": 181.91930409534265
+    },
+    "Terracotta": {
+      "texture": "T_Stone",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 731.4285714285714,
+      "uv_repeat_m": 0.7,
+      "surface_area_m2": 44.43214472774613,
+      "uv_area_with_repeats": 76.37434348126214,
+      "measured_area_weighted_density_px_per_m": 669.7983602141213,
+      "density_p05": 601.9287803272049,
+      "density_p95": 731.4287494986868,
+      "density_min": 588.5749128297607,
+      "density_max": 731.4485717977766
+    },
+    "CeramicCream": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 15.1394854946883,
+      "uv_area_with_repeats": 12.82804090226631,
+      "measured_area_weighted_density_px_per_m": 470.19935481670393,
+      "density_p05": 424.8450318470209,
+      "density_p95": 512.0000088697487,
+      "density_min": 412.0112669420728,
+      "density_max": 512.0000419299832
+    },
+    "CeramicTeal": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 34.261860962420656,
+      "uv_area_with_repeats": 28.86677280648092,
+      "measured_area_weighted_density_px_per_m": 468.958466353075,
+      "density_p05": 421.35236846264036,
+      "density_p95": 511.9999979354372,
+      "density_min": 412.0123364058237,
+      "density_max": 512.0000332843632
+    },
+    "Basket": {
+      "texture": "T_Weave",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 2048.0,
+      "uv_repeat_m": 0.25,
+      "surface_area_m2": 44.533110704794865,
+      "uv_area_with_repeats": 611.7395265767436,
+      "measured_area_weighted_density_px_per_m": 1894.5713469925831,
+      "density_p05": 1718.4442872628015,
+      "density_p95": 2048.000019472141,
+      "density_min": 1558.952819402223,
+      "density_max": 2048.000123305436
+    },
+    "Orange": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 3.2784256244230496,
+      "uv_area_with_repeats": 2.874604004043732,
+      "measured_area_weighted_density_px_per_m": 479.3928496199255,
+      "density_p05": 475.59592216051345,
+      "density_p95": 489.0841510112625,
+      "density_min": 475.5927528662323,
+      "density_max": 489.08491847982515
+    },
+    "Olive": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 1.63921285776891,
+      "uv_area_with_repeats": 1.4373024523398499,
+      "measured_area_weighted_density_px_per_m": 479.39291853697335,
+      "density_p05": 475.5959348402935,
+      "density_p95": 489.0842824162931,
+      "density_min": 475.5927528662323,
+      "density_max": 489.08491847982515
+    },
+    "Dates": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 28.70840964262422,
+      "uv_area_with_repeats": 25.249026141794843,
+      "measured_area_weighted_density_px_per_m": 480.1347707509647,
+      "density_p05": 472.38670242843705,
+      "density_p95": 489.08401941596674,
+      "density_min": 472.3852620342629,
+      "density_max": 489.0853915367332
+    },
+    "Metal": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 6.882815306203098,
+      "uv_area_with_repeats": 6.542650402379145,
+      "measured_area_weighted_density_px_per_m": 498.90073463678425,
+      "density_p05": 419.6166817687561,
+      "density_p95": 511.99999265217866,
+      "density_min": 389.03587142748034,
+      "density_max": 512.0000213967431
+    },
+    "Water": {
+      "texture": "T_WaterRipples",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 85.33333333333333,
+      "uv_repeat_m": 6,
+      "surface_area_m2": 414.6224219743108,
+      "uv_area_with_repeats": 11.503006755147672,
+      "measured_area_weighted_density_px_per_m": 85.27661884579253,
+      "density_p05": 85.33226037832334,
+      "density_p95": 85.33357758216434,
+      "density_min": 64.8359467639774,
+      "density_max": 85.33472614431638
+    },
+    "Rock": {
+      "texture": "T_Stone",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 512.0,
+      "uv_repeat_m": 1,
+      "surface_area_m2": 122.78686741321994,
+      "uv_area_with_repeats": 105.2748812948374,
+      "measured_area_weighted_density_px_per_m": 473.34843881782655,
+      "density_p05": 426.9914413645781,
+      "density_p95": 509.4813859205734,
+      "density_min": 395.3096847260097,
+      "density_max": 510.81485245197797
+    },
+    "WaterEdge": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 1.6433975690234321,
+      "uv_area_with_repeats": 1.6433975737913897,
+      "measured_area_weighted_density_px_per_m": 512.0000007427273,
+      "density_p05": 511.99998169699444,
+      "density_p95": 512.0000191817029,
+      "density_min": 511.9999726924083,
+      "density_max": 512.0000327707779
+    },
+    "PalmTrunk": {
+      "texture": "T_Wood",
+      "texture_size": [
+        512,
+        512
+      ],
+      "target_pixels_per_m": 787.6923076923076,
+      "uv_repeat_m": 0.65,
+      "surface_area_m2": 141.6018509507597,
+      "uv_area_with_repeats": 308.52270173245176,
+      "measured_area_weighted_density_px_per_m": 754.7792366120827,
+      "density_p05": 667.843860582756,
+      "density_p95": 787.6002089946948,
+      "density_min": 659.5623410207444,
+      "density_max": 787.7007498140042
+    },
+    "PalmLeaf": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 307.404930390196,
+      "uv_area_with_repeats": 250.50453499556818,
+      "measured_area_weighted_density_px_per_m": 461.10392604068727,
+      "density_p05": 403.57355926794,
+      "density_p95": 504.42193726797194,
+      "density_min": 387.91246115977475,
+      "density_max": 505.8298974985403
+    },
+    "PalmLeafLight": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 141.56010395574643,
+      "uv_area_with_repeats": 120.19323749095179,
+      "measured_area_weighted_density_px_per_m": 471.146562165289,
+      "density_p05": 432.73828267886717,
+      "density_p95": 504.78377141577823,
+      "density_min": 423.3958991340256,
+      "density_max": 505.8289550034989
+    },
+    "Reed": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 9.032015901299829,
+      "uv_area_with_repeats": 8.101682561984202,
+      "measured_area_weighted_density_px_per_m": 484.2830079683533,
+      "density_p05": 439.7950549255706,
+      "density_p95": 511.5426443022311,
+      "density_min": 424.76135598631424,
+      "density_max": 511.97782127593115
+    },
+    "LanternGlass": {
+      "texture": null,
+      "texture_size": null,
+      "target_pixels_per_m": null,
+      "uv_repeat_m": 1.0,
+      "surface_area_m2": 2.5207223479896226,
+      "uv_area_with_repeats": 2.4938667487473225,
+      "measured_area_weighted_density_px_per_m": 509.075968352774,
+      "density_p05": 425.31503162298253,
+      "density_p95": 511.99999471111687,
+      "density_min": 389.03587142748034,
+      "density_max": 512.0000133457454
+    }
+  },
+  "mapping": "World-meter dominant-normal box projection AFTER bevel. Deliberate overlapping/repeating UVs; not a unique atlas or baked lightmap. Rugs preserve full0-1 artwork UVs and variable aspect ratio.",
+  "padding": "Repeating textures are full tile images with no UV-island packing or unique-atlas padding requirement; rug border artwork provides4% inset.",
+  "density_exception": "Curved/slope faces project onto dominant axis and have density reduced by square-root of normal projection. Small cloth weave uses0.5m repeats; rug dimensions produce different directional density. Untextured solids do not have meaningful texel-density targets.",
+  "passed": true
+}

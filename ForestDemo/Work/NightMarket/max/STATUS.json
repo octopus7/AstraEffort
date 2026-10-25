@@ -1,0 +1,41 @@
+{
+  "theme": "NightMarket",
+  "effort": "max",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T09:34:50.677000+00:00",
+  "started_at_kst": "2026-10-23T18:34:50.677000+09:00",
+  "manual_start_recorded_at_utc": "2026-10-23T09:35:02Z",
+  "finished_at_utc": "2026-10-23T11:04:33.466315+00:00",
+  "finished_at_kst": "2026-10-23T20:04:33.466315+09:00",
+  "elapsed_seconds": 5382.789315,
+  "map": "/Game/Maps/NightMarket_max",
+  "ue_wait_seconds": 0.8691422,
+  "ue_execution_seconds": 759.9700602,
+  "image_generation_seconds": 0,
+  "validation_summary": {
+    "saved_map_reloaded": true,
+    "world_partition_is_null": true,
+    "forbidden_game_dependencies": 0,
+    "expected_placed_resources": 67,
+    "game_dependency_packages": 68,
+    "all37lights_movable": true,
+    "closed_components_negative_orientation": 0,
+    "font_cap_correction_verified": true,
+    "actual_1920x1080_screenshots": 4,
+    "private_editor_closed": true,
+    "published_files": 68,
+    "sha256_all_match": true,
+    "map_sha256": "0b2ce61b71f7e539b03635fe64de38ceef591c7c2e343c32beb378400123bf8e"
+  },
+  "blockers": [],
+  "model": "gpt-6-astra",
+  "runtime_effort_verified": true,
+  "supervisor_review": {
+    "status": "accepted",
+    "reviewed_at_utc": "2026-10-23T11:08:12.320481+00:00",
+    "reviewer_agent": "/root/night_market_final_review",
+    "evidence": "Evidence/supervisor_acceptance.json",
+    "worker_finished_at_utc_preserved": "2026-10-23T11:04:33.466315+00:00",
+    "content_or_map_changed_during_review": false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "theme": "LighthouseHarbor",
+  "effort": "max",
+  "model": "gpt-6-astra",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T09:33:04.207000+00:00",
+  "started_at_kst": "2026-10-23T18:33:04.207000+09:00",
+  "manually_recorded_start_utc": "2026-10-23T09:33:34Z",
+  "finished_at_utc": "2026-10-23T10:26:16.736703+00:00",
+  "finished_at_kst": "2026-10-23T19:26:16.736703+09:00",
+  "elapsed_seconds": 3192.529703,
+  "map": "/Game/Maps/LighthouseHarbor_max",
+  "delivered_map": "ForestDemo/Content/Maps/LighthouseHarbor_max.umap",
+  "assets": "ForestDemo/Content/LighthouseHarbor/max",
+  "map_sha256": "a3fd7fa9cbc008d1fc7278ddb8b19743a5452ab66f4cd63304582a974ec60995",
+  "published_file_count": 106,
+  "ue_wait_seconds": 290.7265421,
+  "ue_execution_seconds": 409.6191827,
+  "ue_attempt_count": 8,
+  "image_generation_seconds": 0,
+  "validation_summary": {
+    "source_meshes": 57,
+    "fbx_roundtrip": "pass",
+    "saved_map_reload": "pass",
+    "world_partition": null,
+    "recursive_game_packages": 105,
+    "out_of_scope_dependencies": 0,
+    "missing_materials": 0,
+    "screenshots": 6,
+    "capture_resolution": [
+      1920,
+      1080
+    ],
+    "quality": 2,
+    "screen_percentage": 100,
+    "same_camera_motion_seconds": 5.502887,
+    "private_published_hash_match": true
+  },
+  "final_editor_exit_code": 0,
+  "earlier_process_status_anomalies": [
+    {
+      "attempt": "build_01",
+      "exit_code": -1073741819
+    },
+    {
+      "attempt": "build_04",
+      "exit_code": -1073741819
+    },
+    {
+      "attempt": "capture_03",
+      "exit_code": -1073741819
+    }
+  ],
+  "blockers": [],
+  "limitations": [
+    "Shader approximations for water/foam/beacon; no physical fluid or rotating spotlight.",
+    "Repeat projected UVs intentionally overlap with measured density exceptions.",
+    "No PIE/gameplay/collision/performance claim."
+  ],
+  "report": "ForestDemo/Work/LighthouseHarbor/max/RESULT.md",
+  "supervisor_review": {
+    "status": "accepted",
+    "reviewed_at_utc": "2026-10-23T10:34:24.623609+00:00",
+    "reviewer_agent": "/root/lighthouse_final_review",
+    "evidence": "Evidence/supervisor_acceptance.json",
+    "worker_finished_at_utc_preserved": "2026-10-23T10:26:16.736703+00:00",
+    "content_or_map_changed_during_review": false
+  }
+}

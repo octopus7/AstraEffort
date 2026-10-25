@@ -1,0 +1,522 @@
+{
+    "method":  "UV0 replaced by world-metric dominant-normal projection; 4m tile; 512px target128px/m,1024px cobble target256px/m",
+    "overlap":  "Intentional repeating tile UVs overlap across disconnected surfaces",
+    "padding":  "No packed atlas; tileable UV wrapping",
+    "limitations":  "Dominant-normal projection reduces apparent area density on oblique/curved faces; effective area-weighted density measured per assembly, not unique surface atlas",
+    "assemblies":  [
+                       {
+                           "mesh":  "SM_NM_Ground",
+                           "uv_channels":  1,
+                           "vertices":  4368,
+                           "surface_area_m2":  63390.25016138265,
+                           "uv_area":  3956.457250273473,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.91219951168627,
+                           "uv_area_ratio_min":  0.05539786433560188,
+                           "uv_area_ratio_max":  0.06250000379836272,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  78,
+                                                            "open_components":  0,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.010579684094071654,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  29668.13072154185
+                       },
+                       {
+                           "mesh":  "SM_NM_Puddles",
+                           "uv_channels":  1,
+                           "vertices":  1600,
+                           "surface_area_m2":  231.55446313036478,
+                           "uv_area":  14.433813202960623,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.83033383272019,
+                           "uv_area_ratio_min":  0.03843265308379364,
+                           "uv_area_ratio_max":  0.06250002749283805,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  0,
+                                                            "open_components":  30,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  14.074949703104103
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_MoonTea",
+                           "uv_channels":  1,
+                           "vertices":  17026,
+                           "surface_area_m2":  4344.227772966764,
+                           "uv_area":  268.5423589333018,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.297556352614,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250012055483481,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  206,
+                                                            "open_components":  57,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.0003080965183484922,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  3191.516258463282
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_NoodleHouse",
+                           "uv_channels":  1,
+                           "vertices":  20634,
+                           "surface_area_m2":  4402.7227749578815,
+                           "uv_area":  272.1677512510048,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.29977128514003,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.0625002093821884,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  221,
+                                                            "open_components":  70,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00030811268280149295,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  3775.988884021216
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_BlueInn",
+                           "uv_channels":  1,
+                           "vertices":  19978,
+                           "surface_area_m2":  5801.280864720143,
+                           "uv_area":  359.1172302927663,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.38730107382938,
+                           "uv_area_ratio_min":  0.03765016527751763,
+                           "uv_area_ratio_max":  0.06250012036140958,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  256,
+                                                            "open_components":  65,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00030811269799606306,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  5718.626524616819
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_LanternSupply",
+                           "uv_channels":  1,
+                           "vertices":  19386,
+                           "surface_area_m2":  4344.756752403779,
+                           "uv_area":  268.57411540064834,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.29733290365863,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250012055483481,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  206,
+                                                            "open_components":  68,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.0003080965135122034,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  3195.5398886348835
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_EastGrocer",
+                           "uv_channels":  1,
+                           "vertices":  16890,
+                           "surface_area_m2":  3956.465044625732,
+                           "uv_area":  244.57878227066,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.29920270701768,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250004157090944,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  179,
+                                                            "open_components":  69,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00030811900759358113,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  2604.4106851347833
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_EastBakery",
+                           "uv_channels":  1,
+                           "vertices":  16698,
+                           "surface_area_m2":  3423.2963797680295,
+                           "uv_area":  211.46267767067184,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.25198751017489,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250007389553917,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  173,
+                                                            "open_components":  61,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00030809650417359946,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  1906.4819575729996
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_WestKitchen",
+                           "uv_channels":  1,
+                           "vertices":  16530,
+                           "surface_area_m2":  4058.8424110043707,
+                           "uv_area":  250.9808035879014,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.31779803427503,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250004157090944,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  188,
+                                                            "open_components":  70,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.0003081001406602991,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  2814.612996287534
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_WestBooks",
+                           "uv_channels":  1,
+                           "vertices":  17402,
+                           "surface_area_m2":  3621.0570488328444,
+                           "uv_area":  223.76285400736643,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.27592843946647,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250012055483481,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  173,
+                                                            "open_components":  67,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.0003080965132578883,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  2047.1934096026202
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_CornerCafe",
+                           "uv_channels":  1,
+                           "vertices":  14802,
+                           "surface_area_m2":  3566.422586203635,
+                           "uv_area":  220.30954915240585,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.25364210942635,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.06250008752575166,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  179,
+                                                            "open_components":  64,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00030812742415688626,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  1847.9800849950595
+                       },
+                       {
+                           "mesh":  "SM_NM_Building_NightFlorist",
+                           "uv_channels":  1,
+                           "vertices":  16746,
+                           "surface_area_m2":  3144.1200046664103,
+                           "uv_area":  194.09251178030098,
+                           "metric_texel_density_512_mean_area_px_per_m":  127.21103738557888,
+                           "uv_area_ratio_min":  0.03765007833021091,
+                           "uv_area_ratio_max":  0.0625000778939052,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  173,
+                                                            "open_components":  67,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00030810860127637285,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  1522.2959567828589
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Noodles",
+                           "uv_channels":  1,
+                           "vertices":  16120,
+                           "surface_area_m2":  197.89385361661027,
+                           "uv_area":  12.077463376921724,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.48577111551,
+                           "uv_area_ratio_min":  0.03765013920720031,
+                           "uv_area_ratio_max":  0.06250009146010294,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  115,
+                                                            "open_components":  68,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00018940378525733283,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  29.129837070440725
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Tea",
+                           "uv_channels":  1,
+                           "vertices":  14164,
+                           "surface_area_m2":  193.96628151047793,
+                           "uv_area":  11.853003639375151,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.567164249901,
+                           "uv_area_ratio_min":  0.03765013920720031,
+                           "uv_area_ratio_max":  0.06250007718491737,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  119,
+                                                            "open_components":  56,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00018940591540933906,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  27.756302222526752
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Buns",
+                           "uv_channels":  1,
+                           "vertices":  15524,
+                           "surface_area_m2":  193.90174901628,
+                           "uv_area":  11.848902142217252,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.56632035524974,
+                           "uv_area_ratio_min":  0.03765019640485683,
+                           "uv_area_ratio_max":  0.0625001047067201,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  119,
+                                                            "open_components":  54,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00018940495108893613,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  26.637899875546072
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Fruit",
+                           "uv_channels":  1,
+                           "vertices":  16272,
+                           "surface_area_m2":  227.76300193754375,
+                           "uv_area":  13.909645385445279,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.52792939395742,
+                           "uv_area_ratio_min":  0.03765019640485683,
+                           "uv_area_ratio_max":  0.06250009146010294,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  170,
+                                                            "open_components":  48,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  2.9912750928088521E-05,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  27.667357565912358
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Soup",
+                           "uv_channels":  1,
+                           "vertices":  17344,
+                           "surface_area_m2":  197.0289182664052,
+                           "uv_area":  11.944252794535856,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.06207973662043,
+                           "uv_area_ratio_min":  0.037772318895026996,
+                           "uv_area_ratio_max":  0.06250001385880723,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  115,
+                                                            "open_components":  51,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00018940424688870407,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  27.590698345392155
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Greens",
+                           "uv_channels":  1,
+                           "vertices":  18424,
+                           "surface_area_m2":  230.68641630849822,
+                           "uv_area":  13.986625812207258,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.07106683229803,
+                           "uv_area_ratio_min":  0.038410963129276623,
+                           "uv_area_ratio_max":  0.06250001684779262,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  182,
+                                                            "open_components":  56,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  2.9912112853465133E-05,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  30.190903539360846
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Pastry",
+                           "uv_channels":  1,
+                           "vertices":  12372,
+                           "surface_area_m2":  202.94769498973895,
+                           "uv_area":  12.36349872937065,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.37134088997097,
+                           "uv_area_ratio_min":  0.03892131975201264,
+                           "uv_area_ratio_max":  0.06250000943312847,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  113,
+                                                            "open_components":  48,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.0002348402053798844,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  30.988649909178267
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_Dumplings",
+                           "uv_channels":  1,
+                           "vertices":  12804,
+                           "surface_area_m2":  202.7712857735156,
+                           "uv_area":  12.353409396163944,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.37470377957634,
+                           "uv_area_ratio_min":  0.03903864951100959,
+                           "uv_area_ratio_max":  0.06250000953808128,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  113,
+                                                            "open_components":  45,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00023483651215310696,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  30.67869690388661
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_LateTea",
+                           "uv_channels":  1,
+                           "vertices":  12756,
+                           "surface_area_m2":  193.83094991753072,
+                           "uv_area":  11.845469461235643,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.57109508824203,
+                           "uv_area_ratio_min":  0.037650423079614775,
+                           "uv_area_ratio_max":  0.06250002878951928,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  119,
+                                                            "open_components":  55,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00018941733613020483,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  30.095255112306454
+                       },
+                       {
+                           "mesh":  "SM_NM_Stall_BunsSouth",
+                           "uv_channels":  1,
+                           "vertices":  15404,
+                           "surface_area_m2":  206.4708923924144,
+                           "uv_area":  12.588453501523567,
+                           "metric_texel_density_512_mean_area_px_per_m":  126.42318680461787,
+                           "uv_area_ratio_min":  0.037650216848844516,
+                           "uv_area_ratio_max":  0.06250006816257979,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  116,
+                                                            "open_components":  48,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00023484806125274418,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  32.62016771126793
+                       },
+                       {
+                           "mesh":  "SM_NM_CourtFurniture",
+                           "uv_channels":  1,
+                           "vertices":  36108,
+                           "surface_area_m2":  124.27719643836545,
+                           "uv_area":  7.2400450354039405,
+                           "metric_texel_density_512_mean_area_px_per_m":  123.57905534020341,
+                           "uv_area_ratio_min":  0.03663195195453887,
+                           "uv_area_ratio_max":  0.06250002088448076,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  332,
+                                                            "open_components":  0,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  8.7140010531837537E-05,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  5.701566762110491
+                       },
+                       {
+                           "mesh":  "SM_NM_StreetProps",
+                           "uv_channels":  1,
+                           "vertices":  29698,
+                           "surface_area_m2":  258.3212222715706,
+                           "uv_area":  15.231063681578078,
+                           "metric_texel_density_512_mean_area_px_per_m":  124.32401712123924,
+                           "uv_area_ratio_min":  0.038389943901259056,
+                           "uv_area_ratio_max":  0.06250001553102769,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  452,
+                                                            "open_components":  0,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  2.991286440729574E-05,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  17.925622199383376
+                       },
+                       {
+                           "mesh":  "SM_NM_LanternCanopy",
+                           "uv_channels":  1,
+                           "vertices":  54830,
+                           "surface_area_m2":  238.5898635599705,
+                           "uv_area":  13.02887973564367,
+                           "metric_texel_density_512_mean_area_px_per_m":  119.64581275748331,
+                           "uv_area_ratio_min":  0.037649970397656364,
+                           "uv_area_ratio_max":  0.0625000068969304,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  262,
+                                                            "open_components":  407,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00026740370042132206,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  16.209812323688134
+                       },
+                       {
+                           "mesh":  "SM_NM_EntryGate",
+                           "uv_channels":  1,
+                           "vertices":  10004,
+                           "surface_area_m2":  131.62335777591693,
+                           "uv_area":  7.92753833742443,
+                           "metric_texel_density_512_mean_area_px_per_m":  125.6529397218582,
+                           "uv_area_ratio_min":  0.037650216848844516,
+                           "uv_area_ratio_max":  0.06250007160886946,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  14,
+                                                            "open_components":  108,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.00047095558886706845,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  66.76750318878786
+                       },
+                       {
+                           "mesh":  "SM_NM_Gardens",
+                           "uv_channels":  1,
+                           "vertices":  19440,
+                           "surface_area_m2":  1088.9062618662501,
+                           "uv_area":  59.54419833352269,
+                           "metric_texel_density_512_mean_area_px_per_m":  119.72764484885359,
+                           "uv_area_ratio_min":  0.037580144698720064,
+                           "uv_area_ratio_max":  0.06250008323863385,
+                           "uv_complete_finite":  true,
+                           "normal_orientation_audit":  {
+                                                            "closed_components":  186,
+                                                            "open_components":  0,
+                                                            "negative_volume_closed_components":  0,
+                                                            "smallest_closed_signed_volume_m3":  0.021336548767493472,
+                                                            "method":  "Consistent outward normals operation, then connected-component closed-edge and signed-volume audit. Open curves/puddle sheets explicitly counted."
+                                                        },
+                           "source_initial_aggregate_signed_volume_m3":  278.2742533701319
+                       }
+                   ],
+    "aggregate_volume_note":  "Initial aggregate volumes are historical. Final orientation proof uses recomputed connected closed-component volumes and explicit font_geometry_after open-cap tests."
+}

@@ -1,0 +1,126 @@
+{
+  "checked_at_utc": "2026-10-23T10:22:05.328412+00:00",
+  "screenshots": [
+    {
+      "file": "overview.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "2581bb808388af854bdf749537a90d47dc44f72b85c6d94e8d0345665f3df0d0",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_overview",
+      "size_bytes": 1452079
+    },
+    {
+      "file": "top_down.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "620c3df381a41dbf13d0b84660d0a18ac61cdfd2fafabdb6084da21a63781364",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_top_down",
+      "size_bytes": 1450851
+    },
+    {
+      "file": "plaza.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "975f0b70a7e6cc7ded777c7f35390766cf2bea5ae73cc0cc8279aebf55616b7e",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_plaza",
+      "size_bytes": 2700488
+    },
+    {
+      "file": "oasis.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "cdccd2bbe368b0d86ee5b1fc8b0a47d2953a1d88eb89a50b2aaf36fbec6bb97d",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_oasis",
+      "size_bytes": 2791048
+    },
+    {
+      "file": "water_t0.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "6448e589f4de694c720bcba62d671901aa7c154c2d5cf80bfe37f3cca5da4529",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_oasis",
+      "size_bytes": 2788613
+    },
+    {
+      "file": "water_later.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "4e072d1bfe494716b1c0c4fc8f06368579d8026ff165f30c55bb768fe34503c9",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_oasis",
+      "size_bytes": 2787493
+    },
+    {
+      "file": "hero.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "82de95336df74bb377bcf929da4dd15a6b7aef045d5548805b84b051dc7d79f8",
+      "actual_view_mode": "<ViewModeIndex.VMI_LIT: 3>",
+      "game_view": true,
+      "camera": "Camera_hero",
+      "size_bytes": 1885398
+    }
+  ],
+  "camera_match_for_timed_pair": true,
+  "request_time_delta_seconds": 7.018497,
+  "water_region": {
+    "rectangle_xyxy": [
+      850,
+      720,
+      1150,
+      950
+    ],
+    "mean_absolute_normalized_rgb_difference": 0.0006822210270911455,
+    "max_absolute_normalized_rgb_difference": 0.011764764785766602,
+    "fraction_pixels_changed_above_0_001": 0.3887826086956522
+  },
+  "static_wall_control": {
+    "rectangle_xyxy": [
+      760,
+      60,
+      1000,
+      120
+    ],
+    "mean_absolute_normalized_rgb_difference": 0.0025151607114821672,
+    "max_absolute_normalized_rgb_difference": 0.2039215862751007,
+    "fraction_pixels_changed_above_0_001": 0.48083333333333333
+  },
+  "measurement": "Blender PNG decoder; normalized decoded RGB pixels, no image edits. Water rectangle chosen within visible water; static facade control measures residual rendering noise.",
+  "motion_evidence_limit": "Actual same-camera timed pair, with configured material panning. Pixel differences also contain temporal rendering noise and do not isolate physical or shader motion. No fluid/refraction/PIE validation is claimed.",
+  "visually_reviewed_files": [
+    "overview.png",
+    "top_down.png",
+    "plaza.png",
+    "oasis.png",
+    "water_t0.png",
+    "water_later.png",
+    "hero.png"
+  ],
+  "visual_review": "Author opened all final PNGs: Lit overview/topdown, no UI/grid/selection, readable plaza, calm water and clean palms; parent independently accepted four common views.",
+  "passed": true
+}

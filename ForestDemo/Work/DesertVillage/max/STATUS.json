@@ -1,0 +1,37 @@
+{
+  "theme": "DesertVillage",
+  "effort": "max",
+  "status": "ready_for_review",
+  "model": "gpt-6-astra",
+  "runtime_effort_verified": true,
+  "started_at_utc": "2026-10-23T09:33:43.969000+00:00",
+  "started_at_kst": "2026-10-23T18:33:43.969000+09:00",
+  "manual_initial_record_at_utc": "2026-10-23T09:34:30.3864612Z",
+  "finished_at_utc": "2026-10-23T10:26:59.214537+00:00",
+  "finished_at_kst": "2026-10-23T19:26:59.214537+09:00",
+  "elapsed_seconds": 3195.245537,
+  "map": "/Game/Maps/DesertVillage_max",
+  "delivered_asset_root": "ForestDemo/Content/DesertVillage/max",
+  "ue_wait_seconds": 18.2848994,
+  "ue_execution_seconds": 524.9913705,
+  "image_generation_service_seconds": 0,
+  "published_file_count": 77,
+  "map_sha256": "42f341d453907f900433642313f44da787527caef9bb28f46dfa6258c3dccc2f",
+  "aggregate_sha256": "964a1447c59bdd718e58689f63109cbc87b5630f922084828536779e9dcc8241",
+  "validation_summary": "Fresh saved-map reload passed: world_partition None; 77 recursive owned /Game packages; 29 mesh assemblies with bounds error under0.001cm; all placed material slots owned; movable dynamic lights; no external actors/objects/BuiltData. Final FBX normals and UVs passed. Seven actual1920x1080 Lit/GameView captures reviewed. Private UE closed before77/77 copied-file SHA256 checks.",
+  "limitations": [
+    "Water is configured material Panner motion; timed-image differences do not isolate motion from temporal rendering noise.",
+    "Opaque artistic water; no refraction/caustic/fluid simulation. Cloth and palms static.",
+    "Repeating overlapping UVs are intentional; no unique-island atlas.",
+    "No PIE gameplay, collision/navigation, packaged build or performance benchmark validation."
+  ],
+  "blockers": [],
+  "supervisor_review": {
+    "status": "accepted",
+    "reviewed_at_utc": "2026-10-23T10:37:28.423739+00:00",
+    "reviewer_agent": "/root/desert_final_review",
+    "evidence": "Evidence/supervisor_acceptance.json",
+    "worker_finished_at_utc_preserved": "2026-10-23T10:26:59.214537+00:00",
+    "content_or_map_changed_during_review": false
+  }
+}

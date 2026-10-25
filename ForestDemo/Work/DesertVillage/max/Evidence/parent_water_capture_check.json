@@ -1,0 +1,41 @@
+﻿{
+    "checked_at_utc":  "2026-10-23T10:20:55.3503370+00:00",
+    "dimensions":  [
+                       1920,
+                       1080
+                   ],
+    "camera_fields_identical":  true,
+    "request_delta_seconds":  7.018497,
+    "first_sha256":  "6448E589F4DE694C720BCBA62D671901AA7C154C2D5CF80BFE37F3CCA5DA4529",
+    "later_sha256":  "4E072D1BFE494716B1C0C4FC8F06368579D8026FF165F30C55BB768FE34503C9",
+    "metrics":  [
+                    {
+                        "region":  "water",
+                        "bounds_pixels":  [
+                                              650,
+                                              800,
+                                              1100,
+                                              950
+                                          ],
+                        "stride":  4,
+                        "samples":  4294,
+                        "mean_absolute_rgb_difference":  0.16177612172023023,
+                        "fraction_over_two_rgb_levels":  0
+                    },
+                    {
+                        "region":  "static_architecture",
+                        "bounds_pixels":  [
+                                              850,
+                                              90,
+                                              1050,
+                                              190
+                                          ],
+                        "stride":  4,
+                        "samples":  1250,
+                        "mean_absolute_rgb_difference":  0.68400000000000283,
+                        "fraction_over_two_rgb_levels":  0.0536
+                    }
+                ],
+    "scope":  "Actual same-camera PNG regional difference. In these sampled regions, water change is weaker than static-scene residual noise; this does not establish visible shader motion, exact speed, or physical simulation.",
+    "visible_water_motion_established_by_this_check":  false
+}

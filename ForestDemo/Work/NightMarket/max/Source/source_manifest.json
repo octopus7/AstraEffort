@@ -1,0 +1,2129 @@
+{
+  "source": "Original deterministic Blender authoring; no external geometry or textures",
+  "uv": {
+    "method": "Dominant-normal planar tiling per face after transforms",
+    "world_tile_m": 4.0,
+    "texture_size_px": {
+      "cobble": 1024,
+      "other": 512
+    },
+    "density_px_per_m": {
+      "cobble": 256,
+      "other": 128
+    },
+    "overlap": "Intentional repeating planar UV overlap, not a unique lightmap atlas",
+    "padding": "Not applicable to tileable UVs; no atlas borders",
+    "exceptions": "Curved/beveled surfaces and text use dominant-axis projections and therefore local distortion; all mesh loops have finite UV coordinates"
+  },
+  "meshes": [
+    {
+      "name": "SM_NM_Ground",
+      "file": "SM_NM_Ground.fbx",
+      "vertices": 4368,
+      "triangles": 8424,
+      "bounds_min_m": [
+        -50.0,
+        -50.0,
+        -2.299999952316284
+      ],
+      "bounds_max_m": [
+        50.0,
+        50.0,
+        0.7099999189376831
+      ],
+      "uv_loops": 25272,
+      "uv_finite": true,
+      "signed_volume_m3": 29668.13072154185,
+      "materials": [
+        "Plinth",
+        "Coping",
+        "Paving",
+        "Court"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 63390.25016138265,
+      "uv_area": 3956.457250273473,
+      "measured_effective_density_512px": 127.91219951168627
+    },
+    {
+      "name": "SM_NM_Puddles",
+      "file": "SM_NM_Puddles.fbx",
+      "vertices": 1600,
+      "triangles": 2660,
+      "bounds_min_m": [
+        -39.028228759765625,
+        -39.426082611083984,
+        0.38600000739097595
+      ],
+      "bounds_max_m": [
+        40.348365783691406,
+        31.540000915527344,
+        0.41972243785858154
+      ],
+      "uv_loops": 7980,
+      "uv_finite": true,
+      "signed_volume_m3": 14.074949703104103,
+      "materials": [
+        "Water",
+        "Coping"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 231.55446313036478,
+      "uv_area": 14.433813202960623,
+      "measured_effective_density_512px": 127.83033383272019
+    },
+    {
+      "name": "SM_NM_Building_MoonTea",
+      "file": "SM_NM_Building_MoonTea.fbx",
+      "vertices": 17026,
+      "triangles": 31440,
+      "bounds_min_m": [
+        -41.149879455566406,
+        22.01220703125,
+        0.1499994397163391
+      ],
+      "bounds_max_m": [
+        -22.850120544433594,
+        38.32466506958008,
+        15.50999927520752
+      ],
+      "uv_loops": 94320,
+      "uv_finite": true,
+      "signed_volume_m3": 3191.516258463282,
+      "materials": [
+        "Coping",
+        "Teal",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "RedFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 4344.227772966764,
+      "uv_area": 268.5423589333018,
+      "measured_effective_density_512px": 127.297556352614
+    },
+    {
+      "name": "SM_NM_Building_NoodleHouse",
+      "file": "SM_NM_Building_NoodleHouse.fbx",
+      "vertices": 20634,
+      "triangles": 37200,
+      "bounds_min_m": [
+        -21.149879455566406,
+        26.51220703125,
+        0.1499994397163391
+      ],
+      "bounds_max_m": [
+        -2.8501205444335938,
+        41.76641082763672,
+        19.510000228881836
+      ],
+      "uv_loops": 111600,
+      "uv_finite": true,
+      "signed_volume_m3": 3775.988884021216,
+      "materials": [
+        "Coping",
+        "Cream",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "RedRoof",
+        "Clay",
+        "CreamFabric",
+        "TealFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal",
+        "RedFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 4402.7227749578815,
+      "uv_area": 272.1677512510048,
+      "measured_effective_density_512px": 127.29977128514003
+    },
+    {
+      "name": "SM_NM_Building_BlueInn",
+      "file": "SM_NM_Building_BlueInn.fbx",
+      "vertices": 19978,
+      "triangles": 37088,
+      "bounds_min_m": [
+        -0.6488828659057617,
+        25.51220703125,
+        0.1499994397163391
+      ],
+      "bounds_max_m": [
+        20.64888572692871,
+        42.885719299316406,
+        21.510000228881836
+      ],
+      "uv_loops": 111264,
+      "uv_finite": true,
+      "signed_volume_m3": 5718.626524616819,
+      "materials": [
+        "Coping",
+        "Blue",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "RedFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 5801.280864720143,
+      "uv_area": 359.1172302927663,
+      "measured_effective_density_512px": 127.38730107382938
+    },
+    {
+      "name": "SM_NM_Building_LanternSupply",
+      "file": "SM_NM_Building_LanternSupply.fbx",
+      "vertices": 19386,
+      "triangles": 34976,
+      "bounds_min_m": [
+        23.850120544433594,
+        22.01220703125,
+        0.1499994397163391
+      ],
+      "bounds_max_m": [
+        42.149879455566406,
+        38.32466506958008,
+        15.50999927520752
+      ],
+      "uv_loops": 104928,
+      "uv_finite": true,
+      "signed_volume_m3": 3195.5398886348835,
+      "materials": [
+        "Coping",
+        "Peach",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "TealFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal",
+        "RedFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 4344.756752403779,
+      "uv_area": 268.57411540064834,
+      "measured_effective_density_512px": 127.29733290365863
+    },
+    {
+      "name": "SM_NM_Building_EastGrocer",
+      "file": "SM_NM_Building_EastGrocer.fbx",
+      "vertices": 16890,
+      "triangles": 30508,
+      "bounds_min_m": [
+        27.849361419677734,
+        -0.4877939224243164,
+        0.1499994397163391
+      ],
+      "bounds_max_m": [
+        44.150638580322266,
+        16.88095474243164,
+        13.50999927520752
+      ],
+      "uv_loops": 91524,
+      "uv_finite": true,
+      "signed_volume_m3": 2604.4106851347833,
+      "materials": [
+        "Coping",
+        "Teal",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "RedRoof",
+        "Clay",
+        "CreamFabric",
+        "RedFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 3956.465044625732,
+      "uv_area": 244.57878227066,
+      "measured_effective_density_512px": 127.29920270701768
+    },
+    {
+      "name": "SM_NM_Building_EastBakery",
+      "file": "SM_NM_Building_EastBakery.fbx",
+      "vertices": 16698,
+      "triangles": 30112,
+      "bounds_min_m": [
+        29.348953247070312,
+        -21.98779296875,
+        0.1499996781349182
+      ],
+      "bounds_max_m": [
+        44.65104675292969,
+        -5.678345680236816,
+        11.50999927520752
+      ],
+      "uv_loops": 90336,
+      "uv_finite": true,
+      "signed_volume_m3": 1906.4819575729996,
+      "materials": [
+        "Coping",
+        "Cream",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "TealFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal",
+        "RedFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 3423.2963797680295,
+      "uv_area": 211.46267767067184,
+      "measured_effective_density_512px": 127.25198751017489
+    },
+    {
+      "name": "SM_NM_Building_WestKitchen",
+      "file": "SM_NM_Building_WestKitchen.fbx",
+      "vertices": 16530,
+      "triangles": 30192,
+      "bounds_min_m": [
+        -43.65104675292969,
+        -1.9877939224243164,
+        0.1499994397163391
+      ],
+      "bounds_max_m": [
+        -28.348953247070312,
+        16.438228607177734,
+        14.50999927520752
+      ],
+      "uv_loops": 90576,
+      "uv_finite": true,
+      "signed_volume_m3": 2814.612996287534,
+      "materials": [
+        "Coping",
+        "Peach",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "TealFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal",
+        "RedFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 4058.8424110043707,
+      "uv_area": 250.9808035879014,
+      "measured_effective_density_512px": 127.31779803427503
+    },
+    {
+      "name": "SM_NM_Building_WestBooks",
+      "file": "SM_NM_Building_WestBooks.fbx",
+      "vertices": 17402,
+      "triangles": 31160,
+      "bounds_min_m": [
+        -43.65104675292969,
+        -22.48779296875,
+        0.1499996781349182
+      ],
+      "bounds_max_m": [
+        -28.348953247070312,
+        -5.120100498199463,
+        11.50999927520752
+      ],
+      "uv_loops": 93480,
+      "uv_finite": true,
+      "signed_volume_m3": 2047.1934096026202,
+      "materials": [
+        "Coping",
+        "Blue",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "RedRoof",
+        "Clay",
+        "CreamFabric",
+        "RedFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 3621.0570488328444,
+      "uv_area": 223.76285400736643,
+      "measured_effective_density_512px": 127.27592843946647
+    },
+    {
+      "name": "SM_NM_Building_CornerCafe",
+      "file": "SM_NM_Building_CornerCafe.fbx",
+      "vertices": 14802,
+      "triangles": 27372,
+      "bounds_min_m": [
+        -42.150638580322266,
+        -42.98779296875,
+        0.15000015497207642
+      ],
+      "bounds_max_m": [
+        -25.849363327026367,
+        -26.677303314208984,
+        10.50999927520752
+      ],
+      "uv_loops": 82116,
+      "uv_finite": true,
+      "signed_volume_m3": 1847.9800849950595,
+      "materials": [
+        "Coping",
+        "Teal",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "RedFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 3566.422586203635,
+      "uv_area": 220.30954915240585,
+      "measured_effective_density_512px": 127.25364210942635
+    },
+    {
+      "name": "SM_NM_Building_NightFlorist",
+      "file": "SM_NM_Building_NightFlorist.fbx",
+      "vertices": 16746,
+      "triangles": 30176,
+      "bounds_min_m": [
+        27.348953247070312,
+        -43.48779296875,
+        0.15000015497207642
+      ],
+      "bounds_max_m": [
+        42.65104675292969,
+        -28.236513137817383,
+        10.00999927520752
+      ],
+      "uv_loops": 90528,
+      "uv_finite": true,
+      "signed_volume_m3": 1522.2959567828589,
+      "materials": [
+        "Coping",
+        "Peach",
+        "Wood",
+        "GlowCream",
+        "GlassDark",
+        "Brass",
+        "GlowGold",
+        "LightWood",
+        "Roof",
+        "Clay",
+        "CreamFabric",
+        "TealFabric",
+        "Deep",
+        "GlowMint",
+        "DarkMetal",
+        "RedFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 3144.1200046664103,
+      "uv_area": 194.09251178030098,
+      "measured_effective_density_512px": 127.21103738557888
+    },
+    {
+      "name": "SM_NM_Stall_Noodles",
+      "file": "SM_NM_Stall_Noodles.fbx",
+      "vertices": 16120,
+      "triangles": 29128,
+      "bounds_min_m": [
+        -12.539999961853027,
+        -11.227794647216797,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        -5.850000381469727,
+        -7.150000095367432,
+        4.550000190734863
+      ],
+      "uv_loops": 87384,
+      "uv_finite": true,
+      "signed_volume_m3": 29.129837070440725,
+      "materials": [
+        "Clay",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "RedFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowGold",
+        "Porcelain",
+        "Steel",
+        "White"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 197.89385361661027,
+      "uv_area": 12.077463376921724,
+      "measured_effective_density_512px": 126.48577111551
+    },
+    {
+      "name": "SM_NM_Stall_Tea",
+      "file": "SM_NM_Stall_Tea.fbx",
+      "vertices": 14164,
+      "triangles": 26112,
+      "bounds_min_m": [
+        4.460000038146973,
+        -10.227794647216797,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        11.15000057220459,
+        -6.150000095367432,
+        4.550000190734863
+      ],
+      "uv_loops": 78336,
+      "uv_finite": true,
+      "signed_volume_m3": 27.756302222526752,
+      "materials": [
+        "Teal",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "TealFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowCoral",
+        "RedFabric",
+        "Clay",
+        "Porcelain",
+        "White"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 193.96628151047793,
+      "uv_area": 11.853003639375151,
+      "measured_effective_density_512px": 126.567164249901
+    },
+    {
+      "name": "SM_NM_Stall_Buns",
+      "file": "SM_NM_Stall_Buns.fbx",
+      "vertices": 15524,
+      "triangles": 28160,
+      "bounds_min_m": [
+        -13.539999961853027,
+        5.772205829620361,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        -6.850000381469727,
+        9.850000381469727,
+        4.550000190734863
+      ],
+      "uv_loops": 84480,
+      "uv_finite": true,
+      "signed_volume_m3": 26.637899875546072,
+      "materials": [
+        "Clay",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowGold",
+        "RedFabric",
+        "Porcelain",
+        "White"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 193.90174901628,
+      "uv_area": 11.848902142217252,
+      "measured_effective_density_512px": 126.56632035524974
+    },
+    {
+      "name": "SM_NM_Stall_Fruit",
+      "file": "SM_NM_Stall_Fruit.fbx",
+      "vertices": 16272,
+      "triangles": 29864,
+      "bounds_min_m": [
+        5.460000038146973,
+        6.772205829620361,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        12.15000057220459,
+        10.850000381469727,
+        4.550000190734863
+      ],
+      "uv_loops": 89592,
+      "uv_finite": true,
+      "signed_volume_m3": 27.667357565912358,
+      "materials": [
+        "Clay",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "RedFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowGold",
+        "Porcelain",
+        "Orange",
+        "Leaf",
+        "Red",
+        "Green"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 227.76300193754375,
+      "uv_area": 13.909645385445279,
+      "measured_effective_density_512px": 126.52792939395742
+    },
+    {
+      "name": "SM_NM_Stall_Soup",
+      "file": "SM_NM_Stall_Soup.fbx",
+      "vertices": 17344,
+      "triangles": 30992,
+      "bounds_min_m": [
+        -23.458898544311523,
+        15.362547874450684,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        -16.778736114501953,
+        20.412517547607422,
+        4.550000190734863
+      ],
+      "uv_loops": 92976,
+      "uv_finite": true,
+      "signed_volume_m3": 27.590698345392155,
+      "materials": [
+        "Teal",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "TealFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowCoral",
+        "RedFabric",
+        "Clay",
+        "Porcelain",
+        "Steel",
+        "White"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 197.0289182664052,
+      "uv_area": 11.944252794535856,
+      "measured_effective_density_512px": 126.06207973662043
+    },
+    {
+      "name": "SM_NM_Stall_Greens",
+      "file": "SM_NM_Stall_Greens.fbx",
+      "vertices": 18424,
+      "triangles": 33356,
+      "bounds_min_m": [
+        16.377986907958984,
+        16.423240661621094,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        23.28898811340332,
+        21.325469970703125,
+        4.550000190734863
+      ],
+      "uv_loops": 100068,
+      "uv_finite": true,
+      "signed_volume_m3": 30.190903539360846,
+      "materials": [
+        "Teal",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "TealFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowCoral",
+        "RedFabric",
+        "Clay",
+        "Porcelain",
+        "Orange",
+        "Leaf",
+        "Red",
+        "Green"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 230.68641630849822,
+      "uv_area": 13.986625812207258,
+      "measured_effective_density_512px": 126.07106683229803
+    },
+    {
+      "name": "SM_NM_Stall_Pastry",
+      "file": "SM_NM_Stall_Pastry.fbx",
+      "vertices": 12372,
+      "triangles": 22496,
+      "bounds_min_m": [
+        -22.50304412841797,
+        -23.51291847229004,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        -15.87075424194336,
+        -18.764400482177734,
+        4.550000190734863
+      ],
+      "uv_loops": 67488,
+      "uv_finite": true,
+      "signed_volume_m3": 30.988649909178267,
+      "materials": [
+        "Clay",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowGold",
+        "RedFabric",
+        "Porcelain",
+        "Steel",
+        "Dough"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 202.94769498973895,
+      "uv_area": 12.36349872937065,
+      "measured_effective_density_512px": 126.37134088997097
+    },
+    {
+      "name": "SM_NM_Stall_Dumplings",
+      "file": "SM_NM_Stall_Dumplings.fbx",
+      "vertices": 12804,
+      "triangles": 23148,
+      "bounds_min_m": [
+        15.385618209838867,
+        -25.51291847229004,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        22.269094467163086,
+        -20.764400482177734,
+        4.550000190734863
+      ],
+      "uv_loops": 69444,
+      "uv_finite": true,
+      "signed_volume_m3": 30.67869690388661,
+      "materials": [
+        "Clay",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "RedFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowGold",
+        "Porcelain",
+        "Steel",
+        "Dough"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 202.7712857735156,
+      "uv_area": 12.353409396163944,
+      "measured_effective_density_512px": 126.37470377957634
+    },
+    {
+      "name": "SM_NM_Stall_LateTea",
+      "file": "SM_NM_Stall_LateTea.fbx",
+      "vertices": 12756,
+      "triangles": 23996,
+      "bounds_min_m": [
+        -5.539999961853027,
+        20.772207260131836,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        1.1499998569488525,
+        24.850000381469727,
+        4.550000190734863
+      ],
+      "uv_loops": 71988,
+      "uv_finite": true,
+      "signed_volume_m3": 30.095255112306454,
+      "materials": [
+        "Teal",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "TealFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowCoral",
+        "RedFabric",
+        "Clay",
+        "Porcelain",
+        "White"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 193.83094991753072,
+      "uv_area": 11.845469461235643,
+      "measured_effective_density_512px": 126.57109508824203
+    },
+    {
+      "name": "SM_NM_Stall_BunsSouth",
+      "file": "SM_NM_Stall_BunsSouth.fbx",
+      "vertices": 15404,
+      "triangles": 27256,
+      "bounds_min_m": [
+        -3.5399999618530273,
+        -36.2277946472168,
+        0.26999998092651367
+      ],
+      "bounds_max_m": [
+        3.1499998569488525,
+        -32.150001525878906,
+        4.550000190734863
+      ],
+      "uv_loops": 81768,
+      "uv_finite": true,
+      "signed_volume_m3": 32.62016771126793,
+      "materials": [
+        "Clay",
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "CreamFabric",
+        "RedFabric",
+        "Brass",
+        "Deep",
+        "GlowCream",
+        "GlowGold",
+        "Porcelain",
+        "Steel",
+        "Dough"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 206.4708923924144,
+      "uv_area": 12.588453501523567,
+      "measured_effective_density_512px": 126.42318680461787
+    },
+    {
+      "name": "SM_NM_CourtFurniture",
+      "file": "SM_NM_CourtFurniture.fbx",
+      "vertices": 36108,
+      "triangles": 71008,
+      "bounds_min_m": [
+        -30.214082717895508,
+        -24.47531509399414,
+        0.3179999589920044
+      ],
+      "bounds_max_m": [
+        28.247974395751953,
+        26.371164321899414,
+        1.7839863300323486
+      ],
+      "uv_loops": 213024,
+      "uv_finite": true,
+      "signed_volume_m3": 5.701566762110491,
+      "materials": [
+        "LightWood",
+        "DarkMetal",
+        "Wood",
+        "Porcelain",
+        "Clay",
+        "White",
+        "Steel",
+        "TealFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 124.27719643836545,
+      "uv_area": 7.2400450354039405,
+      "measured_effective_density_512px": 123.57905534020341
+    },
+    {
+      "name": "SM_NM_StreetProps",
+      "file": "SM_NM_StreetProps.fbx",
+      "vertices": 29698,
+      "triangles": 57672,
+      "bounds_min_m": [
+        -28.790000915527344,
+        -32.980003356933594,
+        0.20000004768371582
+      ],
+      "bounds_max_m": [
+        31.290000915527344,
+        31.084999084472656,
+        1.7400000095367432
+      ],
+      "uv_loops": 173016,
+      "uv_finite": true,
+      "signed_volume_m3": 17.925622199383376,
+      "materials": [
+        "Wood",
+        "LightWood",
+        "Orange",
+        "Leaf",
+        "DarkMetal",
+        "CreamFabric",
+        "Green"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 258.3212222715706,
+      "uv_area": 15.231063681578078,
+      "measured_effective_density_512px": 124.32401712123924
+    },
+    {
+      "name": "SM_NM_LanternCanopy",
+      "file": "SM_NM_LanternCanopy.fbx",
+      "vertices": 54830,
+      "triangles": 103728,
+      "bounds_min_m": [
+        -23.370471954345703,
+        -25.3799991607666,
+        0.34999990463256836
+      ],
+      "bounds_max_m": [
+        23.370471954345703,
+        23.447792053222656,
+        8.239999771118164
+      ],
+      "uv_loops": 311184,
+      "uv_finite": true,
+      "signed_volume_m3": 16.209812323688134,
+      "materials": [
+        "Wood",
+        "Coping",
+        "Brass",
+        "DarkMetal",
+        "GlowCoral",
+        "RedFabric",
+        "GlowGold"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 238.5898635599705,
+      "uv_area": 13.02887973564367,
+      "measured_effective_density_512px": 119.64581275748331
+    },
+    {
+      "name": "SM_NM_EntryGate",
+      "file": "SM_NM_EntryGate.fbx",
+      "vertices": 10004,
+      "triangles": 15828,
+      "bounds_min_m": [
+        -9.75,
+        -43.58779525756836,
+        0.3000001907348633
+      ],
+      "bounds_max_m": [
+        9.75,
+        -42.41220474243164,
+        7.675000190734863
+      ],
+      "uv_loops": 47484,
+      "uv_finite": true,
+      "signed_volume_m3": 66.76750318878786,
+      "materials": [
+        "Wood",
+        "Deep",
+        "GlowCream",
+        "GlowMint",
+        "DarkMetal",
+        "GlowGold",
+        "Brass",
+        "RedFabric"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 131.62335777591693,
+      "uv_area": 7.92753833742443,
+      "measured_effective_density_512px": 125.6529397218582
+    },
+    {
+      "name": "SM_NM_Gardens",
+      "file": "SM_NM_Gardens.fbx",
+      "vertices": 19440,
+      "triangles": 38136,
+      "bounds_min_m": [
+        -45.685821533203125,
+        -44.64868927001953,
+        0.33000004291534424
+      ],
+      "bounds_max_m": [
+        45.769996643066406,
+        45.64868927001953,
+        6.049999713897705
+      ],
+      "uv_loops": 114408,
+      "uv_finite": true,
+      "signed_volume_m3": 278.2742533701319,
+      "materials": [
+        "Coping",
+        "Wood",
+        "Leaf",
+        "Green",
+        "DarkMetal",
+        "GlowCream"
+      ],
+      "uv_channels": 1,
+      "surface_area_m2": 1088.9062618662501,
+      "uv_area": 59.54419833352269,
+      "measured_effective_density_512px": 119.72764484885359
+    }
+  ],
+  "materials": {
+    "Plinth": {
+      "color": [
+        0.13,
+        0.19,
+        0.24
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "texture": "T_stone",
+      "emissive": 0.0
+    },
+    "Coping": {
+      "color": [
+        0.32,
+        0.41,
+        0.43
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "texture": "T_stone",
+      "emissive": 0.0
+    },
+    "Paving": {
+      "color": [
+        0.16,
+        0.23,
+        0.27
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "texture": "T_cobble",
+      "emissive": 0.0
+    },
+    "Court": {
+      "color": [
+        0.3,
+        0.33,
+        0.32
+      ],
+      "roughness": 0.32,
+      "metallic": 0,
+      "texture": "T_cobble",
+      "emissive": 0.0
+    },
+    "Clay": {
+      "color": [
+        0.43,
+        0.21,
+        0.13
+      ],
+      "roughness": 0.62,
+      "metallic": 0,
+      "texture": "T_plaster",
+      "emissive": 0.0
+    },
+    "Cream": {
+      "color": [
+        0.73,
+        0.61,
+        0.4
+      ],
+      "roughness": 0.63,
+      "metallic": 0,
+      "texture": "T_plaster",
+      "emissive": 0.0
+    },
+    "Teal": {
+      "color": [
+        0.1,
+        0.35,
+        0.35
+      ],
+      "roughness": 0.56,
+      "metallic": 0,
+      "texture": "T_plaster",
+      "emissive": 0.0
+    },
+    "Blue": {
+      "color": [
+        0.16,
+        0.25,
+        0.41
+      ],
+      "roughness": 0.59,
+      "metallic": 0,
+      "texture": "T_plaster",
+      "emissive": 0.0
+    },
+    "Peach": {
+      "color": [
+        0.65,
+        0.36,
+        0.25
+      ],
+      "roughness": 0.62,
+      "metallic": 0,
+      "texture": "T_plaster",
+      "emissive": 0.0
+    },
+    "Deep": {
+      "color": [
+        0.055,
+        0.12,
+        0.17
+      ],
+      "roughness": 0.55,
+      "metallic": 0,
+      "texture": "T_plaster",
+      "emissive": 0.0
+    },
+    "Wood": {
+      "color": [
+        0.29,
+        0.14,
+        0.067
+      ],
+      "roughness": 0.58,
+      "metallic": 0,
+      "texture": "T_wood",
+      "emissive": 0.0
+    },
+    "LightWood": {
+      "color": [
+        0.58,
+        0.34,
+        0.14
+      ],
+      "roughness": 0.51,
+      "metallic": 0,
+      "texture": "T_wood",
+      "emissive": 0.0
+    },
+    "Roof": {
+      "color": [
+        0.13,
+        0.25,
+        0.29
+      ],
+      "roughness": 0.46,
+      "metallic": 0,
+      "texture": "T_roof",
+      "emissive": 0.0
+    },
+    "RedRoof": {
+      "color": [
+        0.42,
+        0.2,
+        0.16
+      ],
+      "roughness": 0.5,
+      "metallic": 0,
+      "texture": "T_roof",
+      "emissive": 0.0
+    },
+    "RedFabric": {
+      "color": [
+        0.66,
+        0.17,
+        0.12
+      ],
+      "roughness": 0.68,
+      "metallic": 0,
+      "texture": "T_fabric",
+      "emissive": 0.0
+    },
+    "CreamFabric": {
+      "color": [
+        0.83,
+        0.65,
+        0.39
+      ],
+      "roughness": 0.7,
+      "metallic": 0,
+      "texture": "T_fabric",
+      "emissive": 0.0
+    },
+    "TealFabric": {
+      "color": [
+        0.08,
+        0.46,
+        0.4
+      ],
+      "roughness": 0.67,
+      "metallic": 0,
+      "texture": "T_fabric",
+      "emissive": 0.0
+    },
+    "DarkMetal": {
+      "color": [
+        0.08,
+        0.12,
+        0.14
+      ],
+      "roughness": 0.3,
+      "metallic": 0.7,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Brass": {
+      "color": [
+        0.48,
+        0.28,
+        0.085
+      ],
+      "roughness": 0.3,
+      "metallic": 0.75,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Steel": {
+      "color": [
+        0.4,
+        0.49,
+        0.51
+      ],
+      "roughness": 0.25,
+      "metallic": 0.85,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "White": {
+      "color": [
+        0.86,
+        0.78,
+        0.6
+      ],
+      "roughness": 0.31,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Porcelain": {
+      "color": [
+        0.58,
+        0.76,
+        0.7
+      ],
+      "roughness": 0.22,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Red": {
+      "color": [
+        0.72,
+        0.14,
+        0.075
+      ],
+      "roughness": 0.4,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Orange": {
+      "color": [
+        0.92,
+        0.42,
+        0.055
+      ],
+      "roughness": 0.43,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Green": {
+      "color": [
+        0.19,
+        0.49,
+        0.17
+      ],
+      "roughness": 0.45,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Leaf": {
+      "color": [
+        0.1,
+        0.29,
+        0.2
+      ],
+      "roughness": 0.61,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Dough": {
+      "color": [
+        0.84,
+        0.64,
+        0.37
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "Water": {
+      "color": [
+        0.055,
+        0.14,
+        0.2
+      ],
+      "roughness": 0.065,
+      "metallic": 0.45,
+      "texture": null,
+      "emissive": 0.0
+    },
+    "GlowGold": {
+      "color": [
+        1.0,
+        0.38,
+        0.09
+      ],
+      "roughness": 0.35,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 3.5
+    },
+    "GlowCream": {
+      "color": [
+        1.0,
+        0.73,
+        0.34
+      ],
+      "roughness": 0.35,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 3.5
+    },
+    "GlowMint": {
+      "color": [
+        0.1,
+        0.8,
+        0.72
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 3.5
+    },
+    "GlowCoral": {
+      "color": [
+        1.0,
+        0.18,
+        0.1
+      ],
+      "roughness": 0.35,
+      "metallic": 0,
+      "texture": null,
+      "emissive": 3.5
+    },
+    "GlassDark": {
+      "color": [
+        0.07,
+        0.21,
+        0.26
+      ],
+      "roughness": 0.15,
+      "metallic": 0.2,
+      "texture": null,
+      "emissive": 0.0
+    }
+  },
+  "semantic_groups": {
+    "Building_MoonTea": {
+      "type": "shopfront",
+      "label": "MOON TEA",
+      "footprint_m": [
+        -32,
+        31,
+        17,
+        13
+      ],
+      "height_m": 12
+    },
+    "Building_NoodleHouse": {
+      "type": "shopfront",
+      "label": "NOODLE HOUSE",
+      "footprint_m": [
+        -12,
+        35,
+        17,
+        12
+      ],
+      "height_m": 16
+    },
+    "Building_BlueInn": {
+      "type": "shopfront",
+      "label": "THE BLUE INN",
+      "footprint_m": [
+        10,
+        35,
+        20,
+        14
+      ],
+      "height_m": 18
+    },
+    "Building_LanternSupply": {
+      "type": "shopfront",
+      "label": "LANTERN & CO",
+      "footprint_m": [
+        33,
+        31,
+        17,
+        13
+      ],
+      "height_m": 12
+    },
+    "Building_EastGrocer": {
+      "type": "shopfront",
+      "label": "DAILY GREENS",
+      "footprint_m": [
+        36,
+        9,
+        15,
+        14
+      ],
+      "height_m": 10
+    },
+    "Building_EastBakery": {
+      "type": "shopfront",
+      "label": "WARM BUNS",
+      "footprint_m": [
+        37,
+        -13,
+        14,
+        13
+      ],
+      "height_m": 8
+    },
+    "Building_WestKitchen": {
+      "type": "shopfront",
+      "label": "STEAM KITCHEN",
+      "footprint_m": [
+        -36,
+        8,
+        14,
+        15
+      ],
+      "height_m": 11
+    },
+    "Building_WestBooks": {
+      "type": "shopfront",
+      "label": "AFTER HOURS",
+      "footprint_m": [
+        -36,
+        -13,
+        14,
+        14
+      ],
+      "height_m": 8
+    },
+    "Building_CornerCafe": {
+      "type": "shopfront",
+      "label": "LITTLE CAFE",
+      "footprint_m": [
+        -34,
+        -34,
+        15,
+        13
+      ],
+      "height_m": 7
+    },
+    "Building_NightFlorist": {
+      "type": "shopfront",
+      "label": "NIGHT BLOOM",
+      "footprint_m": [
+        35,
+        -35,
+        14,
+        12
+      ],
+      "height_m": 6.5
+    },
+    "Stall_Noodles": {
+      "type": "food_cart",
+      "kind": "MIDNIGHT NOODLES",
+      "position_m": [
+        -9,
+        -9
+      ]
+    },
+    "Stall_Tea": {
+      "type": "food_cart",
+      "kind": "MOONLIGHT TEA",
+      "position_m": [
+        8,
+        -8
+      ]
+    },
+    "Stall_Buns": {
+      "type": "food_cart",
+      "kind": "STEAMED BUNS",
+      "position_m": [
+        -10,
+        8
+      ]
+    },
+    "Stall_Fruit": {
+      "type": "food_cart",
+      "kind": "FRESH FRUIT",
+      "position_m": [
+        9,
+        9
+      ]
+    },
+    "Stall_Soup": {
+      "type": "food_cart",
+      "kind": "SOUP & RICE",
+      "position_m": [
+        -20,
+        18
+      ]
+    },
+    "Stall_Greens": {
+      "type": "food_cart",
+      "kind": "GARDEN GREENS",
+      "position_m": [
+        20,
+        19
+      ]
+    },
+    "Stall_Pastry": {
+      "type": "food_cart",
+      "kind": "HONEY CAKES",
+      "position_m": [
+        -19,
+        -21
+      ]
+    },
+    "Stall_Dumplings": {
+      "type": "food_cart",
+      "kind": "DUMPLINGS",
+      "position_m": [
+        19,
+        -23
+      ]
+    },
+    "Stall_LateTea": {
+      "type": "food_cart",
+      "kind": "LATE NIGHT TEA",
+      "position_m": [
+        -2,
+        23
+      ]
+    },
+    "Stall_BunsSouth": {
+      "type": "food_cart",
+      "kind": "BAO & BUNS",
+      "position_m": [
+        0,
+        -34
+      ]
+    },
+    "CourtFurniture": {
+      "type": "social_court"
+    },
+    "LanternCanopy": {
+      "type": "overhead_lantern_network"
+    },
+    "EntryGate": {
+      "type": "entrance",
+      "label": "LANTERN MARKET"
+    }
+  },
+  "lights": [
+    {
+      "name": "shop_MoonTea",
+      "location": [
+        -32,
+        22.4,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_NoodleHouse",
+      "location": [
+        -12,
+        26.9,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_BlueInn",
+      "location": [
+        10,
+        25.9,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_LanternSupply",
+      "location": [
+        33,
+        22.4,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_EastGrocer",
+      "location": [
+        36,
+        -0.10000000000000009,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_EastBakery",
+      "location": [
+        37,
+        -21.6,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_WestKitchen",
+      "location": [
+        -36,
+        -1.6,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_WestBooks",
+      "location": [
+        -36,
+        -22.1,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_CornerCafe",
+      "location": [
+        -34,
+        -42.6,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "shop_NightFlorist",
+      "location": [
+        35,
+        -43.1,
+        3.3
+      ],
+      "color": [
+        1,
+        0.59,
+        0.3
+      ],
+      "intensity": 650,
+      "radius": 7.5
+    },
+    {
+      "name": "stall_Noodles",
+      "location": [
+        -9,
+        -10.8,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Tea",
+      "location": [
+        8,
+        -9.8,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Buns",
+      "location": [
+        -10,
+        6.2,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Fruit",
+      "location": [
+        9,
+        7.2,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Soup",
+      "location": [
+        -20,
+        16.2,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Greens",
+      "location": [
+        20,
+        17.2,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Pastry",
+      "location": [
+        -19,
+        -22.8,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_Dumplings",
+      "location": [
+        19,
+        -24.8,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_LateTea",
+      "location": [
+        -2,
+        21.2,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "stall_BunsSouth",
+      "location": [
+        0,
+        -35.8,
+        3.1
+      ],
+      "color": [
+        1,
+        0.47,
+        0.19
+      ],
+      "intensity": 420,
+      "radius": 6
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        -16,
+        -18,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        0,
+        -17,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        16,
+        -17,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        -16,
+        3,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        0,
+        4,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        16,
+        4,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        -14,
+        18,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "court_lantern",
+      "location": [
+        14,
+        18,
+        6.0
+      ],
+      "color": [
+        1,
+        0.5,
+        0.24
+      ],
+      "intensity": 650,
+      "radius": 10
+    },
+    {
+      "name": "entry",
+      "location": [
+        0,
+        -42,
+        6
+      ],
+      "color": [
+        1,
+        0.55,
+        0.28
+      ],
+      "intensity": 1600,
+      "radius": 14
+    },
+    {
+      "name": "perimeter_lamp",
+      "location": [
+        -44,
+        -8,
+        5.1
+      ],
+      "color": [
+        0.55,
+        0.74,
+        1.0
+      ],
+      "intensity": 1100,
+      "radius": 10
+    },
+    {
+      "name": "perimeter_lamp",
+      "location": [
+        -44,
+        10,
+        5.1
+      ],
+      "color": [
+        0.55,
+        0.74,
+        1.0
+      ],
+      "intensity": 1100,
+      "radius": 10
+    },
+    {
+      "name": "perimeter_lamp",
+      "location": [
+        -44,
+        39,
+        5.1
+      ],
+      "color": [
+        0.55,
+        0.74,
+        1.0
+      ],
+      "intensity": 1100,
+      "radius": 10
+    },
+    {
+      "name": "perimeter_lamp",
+      "location": [
+        44,
+        -8,
+        5.1
+      ],
+      "color": [
+        0.55,
+        0.74,
+        1.0
+      ],
+      "intensity": 1100,
+      "radius": 10
+    },
+    {
+      "name": "perimeter_lamp",
+      "location": [
+        44,
+        10,
+        5.1
+      ],
+      "color": [
+        0.55,
+        0.74,
+        1.0
+      ],
+      "intensity": 1100,
+      "radius": 10
+    },
+    {
+      "name": "perimeter_lamp",
+      "location": [
+        44,
+        39,
+        5.1
+      ],
+      "color": [
+        0.55,
+        0.74,
+        1.0
+      ],
+      "intensity": 1100,
+      "radius": 10
+    }
+  ],
+  "footprint_m": [
+    100,
+    100
+  ]
+}
