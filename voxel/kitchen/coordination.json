@@ -1,0 +1,79 @@
+{
+    "theme":  "kitchen",
+    "status":  "complete",
+    "coordination_started_at_utc":  "2026-10-25T05:25:31Z",
+    "coordination_started_at_kst":  "2026-10-25T14:25:31+09:00",
+    "model":  "gpt-6-astra",
+    "reasoning_effort":  "max",
+    "fast":  "requested; spawn API has no Fast parameter; not claimed",
+    "planned_models":  20,
+    "planned_native_variants":  40,
+    "planned_primary_previews":  40,
+    "main_role":  "coordination only",
+    "workers":  {
+                    "appliances":  {
+                                       "models":  7,
+                                       "status":  "complete",
+                                       "production_status":  "accepted_after_cross_review",
+                                       "root":  "voxel/kitchen/appliances",
+                                       "agent":  "/root/kitchen_appliances",
+                                       "started_at_utc":  "2026-10-25T05:26:45Z",
+                                       "cross_review":  "countertop/reviews/appliances_review.json"
+                                   },
+                    "furnishings":  {
+                                        "models":  6,
+                                        "status":  "complete",
+                                        "production_status":  "accepted_after_cross_review",
+                                        "root":  "voxel/kitchen/furnishings",
+                                        "agent":  "/root/kitchen_furnishings",
+                                        "started_at_utc":  "2026-10-25T05:26:58Z",
+                                        "cross_review":  "appliances/reviews/furnishings_review.json"
+                                    },
+                    "countertop":  {
+                                       "models":  7,
+                                       "status":  "complete",
+                                       "production_status":  "accepted_after_cross_review",
+                                       "root":  "voxel/kitchen/countertop",
+                                       "agent":  "/root/kitchen_countertop",
+                                       "started_at_utc":  "2026-10-25T05:26:50Z",
+                                       "cross_review":  "furnishings/reviews/countertop_review.json"
+                                   }
+                },
+    "rulings":  [
+                    "Current user instruction is direct execution authorization for the twenty kitchen proposals; no further design confirmation requested.",
+                    "User requires exactly three parallel workers and coordinator-only main; isolated batch ownership and later circular same-theme review replace sequential implementation/additional reviewer conventions.",
+                    "Main selected cozy household kitchen palette, as previously suggested; retain existing large/half size convention.",
+                    "Only native VOX plus rendered PNG product outputs; old exchange-mesh requirements are superseded for kitchen."
+                ],
+    "blockers":  [
+
+                 ],
+    "finished_at_utc":  "2026-10-25T05:45:03.1453351+00:00",
+    "finished_at_kst":  "2026-10-25T14:45:03.1453351+09:00",
+    "elapsed_seconds":  1172.145335,
+    "timing_note":  "Tracked coordination interval begins at first recorded clock sample after initial preflight; no invented earlier duration. Worker production, cross-review and assembly intervals are separately recorded and overlap.",
+    "validation_summary":  {
+                               "models":  20,
+                               "native_vox_files":  40,
+                               "primary_pngs":  40,
+                               "metadata_files":  40,
+                               "production_feature_probes":  178,
+                               "cross_review_batches_passed":  3,
+                               "frozen_evidence_hashes_verified":  211,
+                               "unchanged_original_files":  120,
+                               "forbidden_mesh_or_engine_files":  0,
+                               "all_previews_inspected_by_workers":  true,
+                               "main_inventory_and_final_hashes_confirmed":  true
+                           },
+    "deliverables":  {
+                         "readme":  "README.md",
+                         "overview":  "delivery/overview_half.png",
+                         "manifest":  "delivery/manifest.json",
+                         "validation":  "delivery/validation.json",
+                         "assembly_report":  "delivery/RESULT.md"
+                     },
+    "final_hashes":  {
+                         "overview_half_png":  "78cad17b1831a192cc6b4321379d4d76cf30f3e42d1cd5e1a330392902949dc0",
+                         "manifest_json":  "7b48b8997f217c24ceadfb222903df05d279ba6f93f47478d513d7de9702b056"
+                     }
+}

@@ -1,0 +1,242 @@
+{
+  "observed_at_utc": "2026-10-25T05:33:10+00:00",
+  "asset": "range_hood",
+  "finding": "Underside cavity intersected the narrowing side shell, visible as an unintended dark slit in both previews.",
+  "cause": "Constant-width empty box reached Z=30 while canopy half-width decreased with Z.",
+  "correction": "Shallower, narrower underside inlet; central airway connects it to the top duct.",
+  "regression": "Intact right canopy shell and continuous central airway now checked in both resolutions.",
+  "original_captures": [
+    {
+      "asset": "range_hood",
+      "variant": "large",
+      "image": "assets/range_hood/large/preview.png",
+      "native_file": "assets/range_hood/large/range_hood.vox",
+      "started_at_utc": "2026-10-25T05:32:34.141935+00:00",
+      "finished_at_utc": "2026-10-25T05:32:46.160937+00:00",
+      "elapsed_seconds": 12.019465300021693,
+      "settings": {
+        "camera_location": [
+          1.4179764986038208,
+          -1.869035243988037,
+          1.6780235767364502
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -2.2627610007930343e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 1.3136593103408813,
+        "target": [
+          0.0,
+          0.021600008010864258,
+          0.41759997606277466
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.44639999999999996,
+            -0.2304,
+            0.0864
+          ],
+          [
+            0.44639999999999996,
+            0.2736,
+            0.7488
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.785599946975708,
+              -2.6568000316619873,
+              3.988799810409546
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 47.32732391357422,
+            "shape": "DISK",
+            "size_m": 2.499840021133423
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.6784000396728516,
+              -0.8711999654769897,
+              2.203199863433838
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.8028742942988174e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 25.90548324584961,
+            "shape": "DISK",
+            "size_m": 2.856959819793701
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.892799973487854,
+              2.700000047683716,
+              3.0959999561309814
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 37.363677978515625,
+            "shape": "DISK",
+            "size_m": 2.2319998741149902
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "b4328f933b73bdc158b753c355f38d4eff09b0ffe7aaff9a933b6018a4750e54",
+      "image_sha256": "a21115a4299b0612ef15dd2c29f0a641d97d803eda7a3886d963c392211f56bb",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "range_hood",
+      "variant": "half",
+      "image": "assets/range_hood/half/preview.png",
+      "native_file": "assets/range_hood/half/range_hood.vox",
+      "started_at_utc": "2026-10-25T05:32:46.319934+00:00",
+      "finished_at_utc": "2026-10-25T05:32:57.773801+00:00",
+      "elapsed_seconds": 11.454038300085813,
+      "settings": {
+        "camera_location": [
+          1.4179764986038208,
+          -1.869035243988037,
+          1.6780235767364502
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -2.2627610007930343e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 1.3136593103408813,
+        "target": [
+          0.0,
+          0.021600008010864258,
+          0.41759997606277466
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.44639999999999996,
+            -0.2304,
+            0.0864
+          ],
+          [
+            0.44639999999999996,
+            0.2736,
+            0.7488
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.785599946975708,
+              -2.6568000316619873,
+              3.988799810409546
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 47.32732391357422,
+            "shape": "DISK",
+            "size_m": 2.499840021133423
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.6784000396728516,
+              -0.8711999654769897,
+              2.203199863433838
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.8028742942988174e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 25.90548324584961,
+            "shape": "DISK",
+            "size_m": 2.856959819793701
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.892799973487854,
+              2.700000047683716,
+              3.0959999561309814
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 37.363677978515625,
+            "shape": "DISK",
+            "size_m": 2.2319998741149902
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "8c5e30cc71f342ea087a506d83fff8f46637e54ace3084441783b13daf3f8014",
+      "image_sha256": "46051463c55f9793d44d9a31b2d8721c4f7454be96e7e14cf1f1ea7e07052708",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    }
+  ]
+}

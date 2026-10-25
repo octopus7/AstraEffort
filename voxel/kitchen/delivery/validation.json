@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "validated_at_utc": "2026-10-25T05:44:04.211546+00:00",
+  "validation_seconds": 1.0306343999691308,
+  "model_count": 20,
+  "native_vox_count": 40,
+  "primary_768px_png_count": 40,
+  "metadata_count": 40,
+  "contact_sheet": {
+    "path": "overview_half.png",
+    "dimensions": [
+      2000,
+      1900
+    ],
+    "layout": [
+      5,
+      4
+    ],
+    "sha256": "78cad17b1831a192cc6b4321379d4d76cf30f3e42d1cd5e1a330392902949dc0",
+    "bytes": 2192039,
+    "inspected_at_utc": "2026-10-25T05:43:29+00:00",
+    "full_source_images_preserved": true
+  },
+  "manifest_sha256": "7b48b8997f217c24ceadfb222903df05d279ba6f93f47478d513d7de9702b056",
+  "source_original_count": 120,
+  "source_originals_unchanged": true,
+  "frozen_source_evidence_unchanged": true,
+  "frozen_manifest_count": 3,
+  "frozen_files_verified": 211,
+  "batch_inventory": [
+    {
+      "batch": "appliances",
+      "models": 7,
+      "vox_files": 14,
+      "primary_pngs": 14,
+      "metadata_files": 14,
+      "forbidden_files": []
+    },
+    {
+      "batch": "furnishings",
+      "models": 6,
+      "vox_files": 12,
+      "primary_pngs": 12,
+      "metadata_files": 12,
+      "forbidden_files": []
+    },
+    {
+      "batch": "countertop",
+      "models": 7,
+      "vox_files": 14,
+      "primary_pngs": 14,
+      "metadata_files": 14,
+      "forbidden_files": []
+    }
+  ],
+  "checks": [
+    "Exact expected 20 slugs and large/half paths",
+    "40 VOX150 native files",
+    "40 CRC/decompression-valid 768px primary PNGs",
+    "40 metadata files and SHA256 agreement",
+    "Native dimensions, half-size scale relationship and decreased occupancy",
+    "All three original frozen manifests verified before and after composition",
+    "120 original VOX/PNG/metadata files byte-identical before and after assembly",
+    "No forbidden mesh or scene files in any source batch",
+    "Final 5x4 sheet directly inspected"
+  ],
+  "writes_confined_to": "voxel/kitchen/delivery",
+  "source_geometry_or_renders_regenerated": false
+}

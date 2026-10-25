@@ -1,0 +1,262 @@
+{
+  "asset": "kitchen_cart",
+  "label": "Kitchen cart",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center; grid bottom Z=0",
+  "notes": [
+    "0.9984 m grid height; four caster wheels, drawer, two slatted shelves and towel stack.",
+    "Open storage bays and raised transport handle survive half reduction.",
+    "No half postprocessing."
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "half_method": "2x2x2 nonempty majority; higher palette index breaks ties",
+  "half_postprocess": "none",
+  "same_physical_grid_extents": true,
+  "native_roundtrip_passed": true,
+  "render_only_surface": true,
+  "authored_at_utc": "2026-10-25T05:31:14.435030+00:00",
+  "grid_size": [
+    100,
+    72,
+    128
+  ],
+  "occupied_voxels": 255266,
+  "voxel_size_m": 0.0078,
+  "grid_extents_m": [
+    0.7799999999999999,
+    0.5616,
+    0.9984
+  ],
+  "occupied_bounds_voxels": [
+    [
+      3,
+      0,
+      2
+    ],
+    [
+      100,
+      66,
+      128
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.3666,
+      -0.2808,
+      0.0156
+    ],
+    [
+      0.38999999999999996,
+      0.23399999999999999,
+      0.9984
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "occupancy_sha256": "487cdd6fabd7a980a002a087c5d3f76e3e5eaf9702e015d7e93f20d67715815b",
+  "sha256": {
+    "kitchen_cart.vox": "d7e353eac7bf8787a8eba65fbcb6daf61e126e82d6e82752065ee1b6112fddad",
+    "preview.png": "dd33db167828e4e4113b797e198495f37b13a84f6731e46e71fec88263beb988"
+  },
+  "feature_probes": [
+    {
+      "feature": "middle shelf open bay",
+      "bounds_voxels": [
+        [
+          20,
+          18,
+          73
+        ],
+        [
+          80,
+          58,
+          81
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 19200,
+      "passed": true
+    },
+    {
+      "feature": "bottom shelf clearance over towels",
+      "bounds_voxels": [
+        [
+          20,
+          18,
+          50
+        ],
+        [
+          80,
+          54,
+          62
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 25920,
+      "passed": true
+    },
+    {
+      "feature": "transport handle loop",
+      "bounds_voxels": [
+        [
+          94,
+          22,
+          118
+        ],
+        [
+          98,
+          52,
+          122
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 480,
+      "passed": true
+    },
+    {
+      "feature": "drawer pull empty gap",
+      "bounds_voxels": [
+        [
+          42,
+          4,
+          94
+        ],
+        [
+          58,
+          6,
+          98
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 128,
+      "passed": true
+    }
+  ],
+  "surface": {
+    "quads": 1090,
+    "triangles": 2180,
+    "exposed_unit_faces": 58236,
+    "surface_area_m2": 3.54307824,
+    "materials": 8
+  },
+  "rendered_at_utc": "2026-10-25T05:33:00.337747+00:00"
+}

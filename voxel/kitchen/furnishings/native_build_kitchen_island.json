@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T05:34:28.261668+00:00",
+  "finished_at_utc": "2026-10-25T05:34:28.928225+00:00",
+  "elapsed_seconds": 0.6663811000762507,
+  "occupancy_authoring_seconds": 0.25660510000307113,
+  "variants": [
+    {
+      "asset": "kitchen_island",
+      "variant": "large",
+      "native_sha256": "5f90512ae5219d996f50d1d9fd780d294efc4329fc95e29cf2e1ad85f7e50188",
+      "occupied_voxels": 460550,
+      "feature_probes": [
+        {
+          "feature": "upper side shelf clear bay",
+          "bounds_voxels": [
+            [
+              94,
+              25,
+              52
+            ],
+            [
+              114,
+              60,
+              74
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 15400,
+          "passed": true
+        },
+        {
+          "feature": "lower side shelf clearance",
+          "bounds_voxels": [
+            [
+              94,
+              25,
+              34
+            ],
+            [
+              114,
+              60,
+              42
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 5600,
+          "passed": true
+        },
+        {
+          "feature": "right shelf floor",
+          "bounds_voxels": [
+            [
+              94,
+              25,
+              44
+            ],
+            [
+              114,
+              60,
+              48
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 2800,
+          "passed": true
+        },
+        {
+          "feature": "towel rail opening",
+          "bounds_voxels": [
+            [
+              118,
+              29,
+              62
+            ],
+            [
+              122,
+              33,
+              66
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 64,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "kitchen_island",
+      "variant": "half",
+      "native_sha256": "9c514b98ea927756ca1e6f26076a3b6cf5a9031313a62659f0fe87009a6b689b",
+      "occupied_voxels": 60719,
+      "feature_probes": [
+        {
+          "feature": "upper side shelf clear bay",
+          "bounds_voxels": [
+            [
+              47,
+              13,
+              26
+            ],
+            [
+              57,
+              30,
+              37
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 1870,
+          "passed": true
+        },
+        {
+          "feature": "lower side shelf clearance",
+          "bounds_voxels": [
+            [
+              47,
+              13,
+              17
+            ],
+            [
+              57,
+              30,
+              21
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 680,
+          "passed": true
+        },
+        {
+          "feature": "right shelf floor",
+          "bounds_voxels": [
+            [
+              47,
+              13,
+              22
+            ],
+            [
+              57,
+              30,
+              24
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 340,
+          "passed": true
+        },
+        {
+          "feature": "towel rail opening",
+          "bounds_voxels": [
+            [
+              59,
+              15,
+              31
+            ],
+            [
+              61,
+              16,
+              33
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 4,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

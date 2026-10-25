@@ -1,0 +1,180 @@
+{
+  "asset": "dishwasher",
+  "label": "Open dishwasher",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "notes": [
+    "Static open pose with lowered door, detergent recess and two true open wire racks.",
+    "Three plates in lower rack; two cups have hollow tops in upper rack.",
+    "Occupied height approximately 0.83 m; door is intentionally open. No half postprocess."
+  ],
+  "half_method": "2x2x2 nonempty majority, higher palette index breaks ties",
+  "half_postprocess": null,
+  "same_physical_grid_extents": true,
+  "camera_bounds_source": "large native occupied bounds",
+  "native_roundtrip_passed": true,
+  "rendered_from_reparsed_vox": true,
+  "surface": {
+    "quads": 1496,
+    "triangles": 2992,
+    "exposed_unit_faces": 98506,
+    "surface_area_m2": 6.304384,
+    "materials": 7
+  },
+  "grid_size": [
+    96,
+    128,
+    112
+  ],
+  "occupied_voxels": 388996,
+  "voxel_size_m": 0.008,
+  "grid_extents_m": [
+    0.768,
+    1.024,
+    0.896
+  ],
+  "occupied_bounds_voxels": [
+    [
+      6,
+      6,
+      6
+    ],
+    [
+      90,
+      126,
+      110
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.336,
+      -0.464,
+      0.048
+    ],
+    [
+      0.336,
+      0.496,
+      0.88
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    10,
+    15
+  ],
+  "occupancy_sha256": "567460adb808e4f20cdccf2d1fb505689b9a49892895139b640770c94389b9ba",
+  "timing": {
+    "native_write_roundtrip_started_at_utc": "2026-10-25T05:32:09.801738+00:00",
+    "native_write_roundtrip_seconds": 0.18059930007439107,
+    "surface_build_seconds": 0.6250521999318153,
+    "render_seconds": 11.66157499991823
+  },
+  "sha256": {
+    "native": "862fd649d8f3f7c650f0f490323baa02b1b98b137f0b9903d3f6ef3b20fa7f4f",
+    "preview": "ed2dc36b3ee75850db84ef6e31b22cfed7c7050440a8c201121456ade55f4523"
+  }
+}

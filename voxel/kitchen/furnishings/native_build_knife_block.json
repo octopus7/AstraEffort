@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T05:34:30.044130+00:00",
+  "finished_at_utc": "2026-10-25T05:34:30.491487+00:00",
+  "elapsed_seconds": 0.44737299997359514,
+  "occupancy_authoring_seconds": 0.28666640003211796,
+  "variants": [
+    {
+      "asset": "knife_block",
+      "variant": "large",
+      "native_sha256": "af336997c7323ae59c52bc4f376b821c8c7230c93b5f9c0f8a4a9ad6d6e6fb86",
+      "occupied_voxels": 222260,
+      "feature_probes": [
+        {
+          "feature": "unused front slot",
+          "bounds_voxels": [
+            [
+              34,
+              18,
+              46
+            ],
+            [
+              46,
+              26,
+              64
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 1728,
+          "passed": true
+        },
+        {
+          "feature": "air between handles",
+          "bounds_voxels": [
+            [
+              28,
+              40,
+              106
+            ],
+            [
+              32,
+              52,
+              114
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 384,
+          "passed": true
+        },
+        {
+          "feature": "left knife broad metal blade",
+          "bounds_voxels": [
+            [
+              18,
+              36,
+              80
+            ],
+            [
+              22,
+              46,
+              92
+            ]
+          ],
+          "expected_palette_index": 7,
+          "found_palette_indices": [
+            7
+          ],
+          "cells_checked": 480,
+          "passed": true
+        },
+        {
+          "feature": "oak block front solid",
+          "bounds_voxels": [
+            [
+              14,
+              12,
+              14
+            ],
+            [
+              62,
+              16,
+              46
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 6144,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "knife_block",
+      "variant": "half",
+      "native_sha256": "2dacecca905231e8b5e4d94f41a0b0a2344d8f5efd2d01e64e799651540a10f7",
+      "occupied_voxels": 30287,
+      "feature_probes": [
+        {
+          "feature": "unused front slot",
+          "bounds_voxels": [
+            [
+              17,
+              9,
+              23
+            ],
+            [
+              23,
+              13,
+              32
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 216,
+          "passed": true
+        },
+        {
+          "feature": "air between handles",
+          "bounds_voxels": [
+            [
+              14,
+              20,
+              53
+            ],
+            [
+              16,
+              26,
+              57
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 48,
+          "passed": true
+        },
+        {
+          "feature": "left knife broad metal blade",
+          "bounds_voxels": [
+            [
+              9,
+              18,
+              40
+            ],
+            [
+              11,
+              23,
+              46
+            ]
+          ],
+          "expected_palette_index": 7,
+          "found_palette_indices": [
+            7
+          ],
+          "cells_checked": 60,
+          "passed": true
+        },
+        {
+          "feature": "oak block front solid",
+          "bounds_voxels": [
+            [
+              7,
+              6,
+              7
+            ],
+            [
+              31,
+              8,
+              23
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 768,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,262 @@
+{
+  "asset": "kitchen_island",
+  "label": "Kitchen island",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center; grid bottom Z=0",
+  "notes": [
+    "1.408 m grid width; pale oak plank top with sage cupboards and drawers.",
+    "Open right-side shelves, ceramic stack and functional towel-rail loop.",
+    "No half postprocessing."
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "half_method": "2x2x2 nonempty majority; higher palette index breaks ties",
+  "half_postprocess": "none",
+  "same_physical_grid_extents": true,
+  "native_roundtrip_passed": true,
+  "render_only_surface": true,
+  "authored_at_utc": "2026-10-25T05:34:28.824611+00:00",
+  "grid_size": [
+    128,
+    84,
+    92
+  ],
+  "occupied_voxels": 460550,
+  "voxel_size_m": 0.011,
+  "grid_extents_m": [
+    1.408,
+    0.9239999999999999,
+    1.012
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      128,
+      80,
+      90
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.6819999999999999,
+      -0.46199999999999997,
+      0.022
+    ],
+    [
+      0.704,
+      0.418,
+      0.99
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11
+  ],
+  "occupancy_sha256": "f320a0df4a524bdbec095ab697f134f4f4c708c821761b26d2649a85ce206354",
+  "sha256": {
+    "kitchen_island.vox": "5f90512ae5219d996f50d1d9fd780d294efc4329fc95e29cf2e1ad85f7e50188",
+    "preview.png": "db7a573f722f68256ed9d1010155725cc886744591e0a6ae2067e95ec9d10d92"
+  },
+  "feature_probes": [
+    {
+      "feature": "upper side shelf clear bay",
+      "bounds_voxels": [
+        [
+          94,
+          25,
+          52
+        ],
+        [
+          114,
+          60,
+          74
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 15400,
+      "passed": true
+    },
+    {
+      "feature": "lower side shelf clearance",
+      "bounds_voxels": [
+        [
+          94,
+          25,
+          34
+        ],
+        [
+          114,
+          60,
+          42
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 5600,
+      "passed": true
+    },
+    {
+      "feature": "right shelf floor",
+      "bounds_voxels": [
+        [
+          94,
+          25,
+          44
+        ],
+        [
+          114,
+          60,
+          48
+        ]
+      ],
+      "expected_palette_index": 5,
+      "found_palette_indices": [
+        5
+      ],
+      "cells_checked": 2800,
+      "passed": true
+    },
+    {
+      "feature": "towel rail opening",
+      "bounds_voxels": [
+        [
+          118,
+          29,
+          62
+        ],
+        [
+          122,
+          33,
+          66
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 64,
+      "passed": true
+    }
+  ],
+  "surface": {
+    "quads": 659,
+    "triangles": 1318,
+    "exposed_unit_faces": 61650,
+    "surface_area_m2": 7.459649999999999,
+    "materials": 8
+  },
+  "rendered_at_utc": "2026-10-25T05:34:45.817485+00:00"
+}

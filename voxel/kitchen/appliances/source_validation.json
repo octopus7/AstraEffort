@@ -1,0 +1,1550 @@
+{
+  "passed": true,
+  "source_only": true,
+  "started_at_utc": "2026-10-25T05:33:56.250924+00:00",
+  "finished_at_utc": "2026-10-25T05:33:56.911130+00:00",
+  "elapsed_seconds": 0.6605493000242859,
+  "assets": 7,
+  "variants": 14,
+  "meaningful_feature_probe_count": 64,
+  "forbidden_output_files": [],
+  "checks": [
+    "VOX 150 and parser coordinate integrity",
+    "Full source-to-saved occupancy roundtrip",
+    "Palette roundtrip and index bounds",
+    "Exact half grid, doubled cell size and physical extents",
+    "Native occupancy genuinely reduces",
+    "Native functional feature probes at both sizes",
+    "Actual PNG dimensions",
+    "SHA256 agreement",
+    "Same large-bound camera/light/render settings"
+  ],
+  "records": [
+    {
+      "asset": "double_door_fridge",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        88,
+        76,
+        128
+      ],
+      "occupied_voxels": 538552,
+      "feature_probes": [
+        {
+          "name": "door_separation",
+          "large_grid_box": [
+            [
+              42,
+              14,
+              30
+            ],
+            [
+              46,
+              20,
+              110
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 1920,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "left_pull_clearance",
+          "large_grid_box": [
+            [
+              34,
+              10,
+              70
+            ],
+            [
+              38,
+              14,
+              92
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 352,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "right_pull_clearance",
+          "large_grid_box": [
+            [
+              50,
+              10,
+              70
+            ],
+            [
+              54,
+              14,
+              92
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 352,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "left_pull_structure",
+          "large_grid_box": [
+            [
+              34,
+              6,
+              70
+            ],
+            [
+              36,
+              8,
+              92
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 88,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "double_door_fridge",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        44,
+        38,
+        64
+      ],
+      "occupied_voxels": 67990,
+      "feature_probes": [
+        {
+          "name": "door_separation",
+          "large_grid_box": [
+            [
+              42,
+              14,
+              30
+            ],
+            [
+              46,
+              20,
+              110
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 240,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "left_pull_clearance",
+          "large_grid_box": [
+            [
+              34,
+              10,
+              70
+            ],
+            [
+              38,
+              14,
+              92
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 44,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "right_pull_clearance",
+          "large_grid_box": [
+            [
+              50,
+              10,
+              70
+            ],
+            [
+              54,
+              14,
+              92
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 44,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "left_pull_structure",
+          "large_grid_box": [
+            [
+              34,
+              6,
+              70
+            ],
+            [
+              36,
+              8,
+              92
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 11,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "range_oven",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        96,
+        88,
+        128
+      ],
+      "occupied_voxels": 650252,
+      "feature_probes": [
+        {
+          "name": "oven_pull_clearance",
+          "large_grid_box": [
+            [
+              30,
+              4,
+              78
+            ],
+            [
+              66,
+              8,
+              80
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 288,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "oven_pull_structure",
+          "large_grid_box": [
+            [
+              30,
+              0,
+              78
+            ],
+            [
+              66,
+              4,
+              80
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 288,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "front_left_pan_rest",
+          "large_grid_box": [
+            [
+              26,
+              32,
+              114
+            ],
+            [
+              30,
+              36,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 64,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        },
+        {
+          "name": "front_right_pan_rest",
+          "large_grid_box": [
+            [
+              66,
+              32,
+              114
+            ],
+            [
+              70,
+              36,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 64,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        },
+        {
+          "name": "rear_left_pan_rest",
+          "large_grid_box": [
+            [
+              26,
+              60,
+              114
+            ],
+            [
+              30,
+              64,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 64,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        },
+        {
+          "name": "rear_right_pan_rest",
+          "large_grid_box": [
+            [
+              66,
+              60,
+              114
+            ],
+            [
+              70,
+              64,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 64,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "range_oven",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        48,
+        44,
+        64
+      ],
+      "occupied_voxels": 82228,
+      "feature_probes": [
+        {
+          "name": "oven_pull_clearance",
+          "large_grid_box": [
+            [
+              30,
+              4,
+              78
+            ],
+            [
+              66,
+              8,
+              80
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 36,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "oven_pull_structure",
+          "large_grid_box": [
+            [
+              30,
+              0,
+              78
+            ],
+            [
+              66,
+              4,
+              80
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 36,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "front_left_pan_rest",
+          "large_grid_box": [
+            [
+              26,
+              32,
+              114
+            ],
+            [
+              30,
+              36,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 8,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        },
+        {
+          "name": "front_right_pan_rest",
+          "large_grid_box": [
+            [
+              66,
+              32,
+              114
+            ],
+            [
+              70,
+              36,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 8,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        },
+        {
+          "name": "rear_left_pan_rest",
+          "large_grid_box": [
+            [
+              26,
+              60,
+              114
+            ],
+            [
+              30,
+              64,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 8,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        },
+        {
+          "name": "rear_right_pan_rest",
+          "large_grid_box": [
+            [
+              66,
+              60,
+              114
+            ],
+            [
+              70,
+              64,
+              118
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 8,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "microwave",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        128,
+        92,
+        80
+      ],
+      "occupied_voxels": 558832,
+      "feature_probes": [
+        {
+          "name": "pull_clearance",
+          "large_grid_box": [
+            [
+              84,
+              6,
+              32
+            ],
+            [
+              86,
+              10,
+              52
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 160,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "pull_structure",
+          "large_grid_box": [
+            [
+              84,
+              2,
+              32
+            ],
+            [
+              86,
+              6,
+              52
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 160,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "right_side_vent",
+          "large_grid_box": [
+            [
+              116,
+              32,
+              30
+            ],
+            [
+              120,
+              36,
+              50
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 320,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "opaque_window",
+          "large_grid_box": [
+            [
+              30,
+              10,
+              30
+            ],
+            [
+              60,
+              14,
+              48
+            ]
+          ],
+          "expected_index": 9,
+          "sampled_cells": 2160,
+          "observed_indices": [
+            9
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "microwave",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        64,
+        46,
+        40
+      ],
+      "occupied_voxels": 70722,
+      "feature_probes": [
+        {
+          "name": "pull_clearance",
+          "large_grid_box": [
+            [
+              84,
+              6,
+              32
+            ],
+            [
+              86,
+              10,
+              52
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 20,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "pull_structure",
+          "large_grid_box": [
+            [
+              84,
+              2,
+              32
+            ],
+            [
+              86,
+              6,
+              52
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 20,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "right_side_vent",
+          "large_grid_box": [
+            [
+              116,
+              32,
+              30
+            ],
+            [
+              120,
+              36,
+              50
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 40,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "opaque_window",
+          "large_grid_box": [
+            [
+              30,
+              10,
+              30
+            ],
+            [
+              60,
+              14,
+              48
+            ]
+          ],
+          "expected_index": 9,
+          "sampled_cells": 270,
+          "observed_indices": [
+            9
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "dishwasher",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        96,
+        128,
+        112
+      ],
+      "occupied_voxels": 388996,
+      "feature_probes": [
+        {
+          "name": "lower_wire_rack_slot",
+          "large_grid_box": [
+            [
+              22,
+              70,
+              34
+            ],
+            [
+              26,
+              74,
+              38
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 64,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "upper_wire_rack_slot",
+          "large_grid_box": [
+            [
+              22,
+              70,
+              72
+            ],
+            [
+              26,
+              74,
+              76
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 64,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "wash_chamber_clearance",
+          "large_grid_box": [
+            [
+              70,
+              84,
+              48
+            ],
+            [
+              74,
+              88,
+              60
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 192,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "cup_open_top",
+          "large_grid_box": [
+            [
+              30,
+              88,
+              84
+            ],
+            [
+              34,
+              92,
+              96
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 192,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "lower_rack_front_rail",
+          "large_grid_box": [
+            [
+              22,
+              60,
+              44
+            ],
+            [
+              68,
+              64,
+              48
+            ]
+          ],
+          "expected_index": 7,
+          "sampled_cells": 736,
+          "observed_indices": [
+            7
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "dishwasher",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        48,
+        64,
+        56
+      ],
+      "occupied_voxels": 49860,
+      "feature_probes": [
+        {
+          "name": "lower_wire_rack_slot",
+          "large_grid_box": [
+            [
+              22,
+              70,
+              34
+            ],
+            [
+              26,
+              74,
+              38
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 8,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "upper_wire_rack_slot",
+          "large_grid_box": [
+            [
+              22,
+              70,
+              72
+            ],
+            [
+              26,
+              74,
+              76
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 8,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "wash_chamber_clearance",
+          "large_grid_box": [
+            [
+              70,
+              84,
+              48
+            ],
+            [
+              74,
+              88,
+              60
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 24,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "cup_open_top",
+          "large_grid_box": [
+            [
+              30,
+              88,
+              84
+            ],
+            [
+              34,
+              92,
+              96
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 24,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "lower_rack_front_rail",
+          "large_grid_box": [
+            [
+              22,
+              60,
+              44
+            ],
+            [
+              68,
+              64,
+              48
+            ]
+          ],
+          "expected_index": 7,
+          "sampled_cells": 92,
+          "observed_indices": [
+            7
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "range_hood",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        128,
+        80,
+        104
+      ],
+      "occupied_voxels": 193072,
+      "feature_probes": [
+        {
+          "name": "intact_right_canopy_shell",
+          "large_grid_box": [
+            [
+              104,
+              36,
+              26
+            ],
+            [
+              108,
+              50,
+              28
+            ]
+          ],
+          "expected_index": 1,
+          "sampled_cells": 112,
+          "observed_indices": [
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "continuous_central_airway",
+          "large_grid_box": [
+            [
+              54,
+              40,
+              24
+            ],
+            [
+              74,
+              54,
+              60
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 10080,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "open_chimney_duct",
+          "large_grid_box": [
+            [
+              54,
+              40,
+              60
+            ],
+            [
+              74,
+              54,
+              104
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 12320,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "filter_gap",
+          "large_grid_box": [
+            [
+              28,
+              32,
+              16
+            ],
+            [
+              32,
+              40,
+              20
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 128,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "chimney_wall",
+          "large_grid_box": [
+            [
+              44,
+              38,
+              62
+            ],
+            [
+              48,
+              54,
+              96
+            ]
+          ],
+          "expected_index": 1,
+          "sampled_cells": 2176,
+          "observed_indices": [
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "filter_bar",
+          "large_grid_box": [
+            [
+              34,
+              32,
+              16
+            ],
+            [
+              38,
+              40,
+              20
+            ]
+          ],
+          "expected_index": 8,
+          "sampled_cells": 128,
+          "observed_indices": [
+            8
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "range_hood",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        64,
+        40,
+        52
+      ],
+      "occupied_voxels": 25148,
+      "feature_probes": [
+        {
+          "name": "intact_right_canopy_shell",
+          "large_grid_box": [
+            [
+              104,
+              36,
+              26
+            ],
+            [
+              108,
+              50,
+              28
+            ]
+          ],
+          "expected_index": 1,
+          "sampled_cells": 14,
+          "observed_indices": [
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "continuous_central_airway",
+          "large_grid_box": [
+            [
+              54,
+              40,
+              24
+            ],
+            [
+              74,
+              54,
+              60
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 1260,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "open_chimney_duct",
+          "large_grid_box": [
+            [
+              54,
+              40,
+              60
+            ],
+            [
+              74,
+              54,
+              104
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 1540,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "filter_gap",
+          "large_grid_box": [
+            [
+              28,
+              32,
+              16
+            ],
+            [
+              32,
+              40,
+              20
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 16,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "chimney_wall",
+          "large_grid_box": [
+            [
+              44,
+              38,
+              62
+            ],
+            [
+              48,
+              54,
+              96
+            ]
+          ],
+          "expected_index": 1,
+          "sampled_cells": 272,
+          "observed_indices": [
+            1
+          ],
+          "passed": true
+        },
+        {
+          "name": "filter_bar",
+          "large_grid_box": [
+            [
+              34,
+              32,
+              16
+            ],
+            [
+              38,
+              40,
+              20
+            ]
+          ],
+          "expected_index": 8,
+          "sampled_cells": 16,
+          "observed_indices": [
+            8
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "rice_cooker",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        112,
+        112,
+        128
+      ],
+      "occupied_voxels": 609340,
+      "feature_probes": [
+        {
+          "name": "carry_handle_through_gap",
+          "large_grid_box": [
+            [
+              40,
+              54,
+              112
+            ],
+            [
+              72,
+              66,
+              118
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 2304,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "carry_handle_top_structure",
+          "large_grid_box": [
+            [
+              40,
+              56,
+              122
+            ],
+            [
+              72,
+              64,
+              124
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 512,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "opaque_front_display",
+          "large_grid_box": [
+            [
+              48,
+              8,
+              54
+            ],
+            [
+              64,
+              10,
+              58
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 128,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "rice_cooker",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        56,
+        56,
+        64
+      ],
+      "occupied_voxels": 79085,
+      "feature_probes": [
+        {
+          "name": "carry_handle_through_gap",
+          "large_grid_box": [
+            [
+              40,
+              54,
+              112
+            ],
+            [
+              72,
+              66,
+              118
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 288,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "carry_handle_top_structure",
+          "large_grid_box": [
+            [
+              40,
+              56,
+              122
+            ],
+            [
+              72,
+              64,
+              124
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 64,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        },
+        {
+          "name": "opaque_front_display",
+          "large_grid_box": [
+            [
+              48,
+              8,
+              54
+            ],
+            [
+              64,
+              10,
+              58
+            ]
+          ],
+          "expected_index": 6,
+          "sampled_cells": 16,
+          "observed_indices": [
+            6
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "electric_kettle",
+      "variant": "large",
+      "source_only": true,
+      "grid_size": [
+        128,
+        96,
+        128
+      ],
+      "occupied_voxels": 300951,
+      "feature_probes": [
+        {
+          "name": "handle_loop_clearance",
+          "large_grid_box": [
+            [
+              98,
+              48,
+              48
+            ],
+            [
+              110,
+              60,
+              80
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 4608,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "hollow_vessel",
+          "large_grid_box": [
+            [
+              52,
+              52,
+              52
+            ],
+            [
+              60,
+              60,
+              68
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 1024,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "spout_mouth_open",
+          "large_grid_box": [
+            [
+              16,
+              14,
+              90
+            ],
+            [
+              20,
+              18,
+              94
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 64,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "handle_outer_structure",
+          "large_grid_box": [
+            [
+              120,
+              50,
+              48
+            ],
+            [
+              122,
+              58,
+              80
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 512,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "electric_kettle",
+      "variant": "half",
+      "source_only": true,
+      "grid_size": [
+        64,
+        48,
+        64
+      ],
+      "occupied_voxels": 41706,
+      "feature_probes": [
+        {
+          "name": "handle_loop_clearance",
+          "large_grid_box": [
+            [
+              98,
+              48,
+              48
+            ],
+            [
+              110,
+              60,
+              80
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 576,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "hollow_vessel",
+          "large_grid_box": [
+            [
+              52,
+              52,
+              52
+            ],
+            [
+              60,
+              60,
+              68
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 128,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "spout_mouth_open",
+          "large_grid_box": [
+            [
+              16,
+              14,
+              90
+            ],
+            [
+              20,
+              18,
+              94
+            ]
+          ],
+          "expected_index": 0,
+          "sampled_cells": 8,
+          "observed_indices": [
+            0
+          ],
+          "passed": true
+        },
+        {
+          "name": "handle_outer_structure",
+          "large_grid_box": [
+            [
+              120,
+              50,
+              48
+            ],
+            [
+              122,
+              58,
+              80
+            ]
+          ],
+          "expected_index": 3,
+          "sampled_cells": 64,
+          "observed_indices": [
+            3
+          ],
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1521 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T05:37:29.056612+00:00",
+  "finished_at_utc": "2026-10-25T05:37:31.734055+00:00",
+  "elapsed_seconds": 2.6773993000388145,
+  "render_checks_included": true,
+  "native_count": 14,
+  "preview_count": 14,
+  "checks": [
+    {
+      "asset": "stand_mixer",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        96,
+        128,
+        128
+      ],
+      "occupied_voxels": 458676,
+      "voxel_size_m": 0.003125,
+      "grid_extents_m": [
+        0.30000000000000004,
+        0.4,
+        0.4
+      ],
+      "occupied_bounds_voxels": [
+        [
+          8,
+          8,
+          0
+        ],
+        [
+          94,
+          120,
+          121
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.125,
+          -0.17500000000000002,
+          0.0
+        ],
+        [
+          0.14375000000000002,
+          0.17500000000000002,
+          0.37812500000000004
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        10
+      ],
+      "occupancy_sha256": "1532253aaf3d109c4459ea2f876d40d76be8fed294b82305612340eb56fe443a",
+      "features": [
+        {
+          "feature": "bowl_inner_cavity",
+          "sample": [
+            48,
+            44,
+            42
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "working_clearance_beside_whisk",
+          "sample": [
+            25,
+            44,
+            76
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "bowl_floor",
+          "sample": [
+            48,
+            44,
+            23
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        },
+        {
+          "feature": "overhead_motor",
+          "sample": [
+            48,
+            44,
+            104
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        },
+        {
+          "feature": "bowl_handle_hole",
+          "sample": [
+            86,
+            44,
+            48
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        }
+      ],
+      "native_sha256": "11383957cdac3e4524edaaab9cc144289f4cccceccd5d0a153e8c3eb49dcf97a",
+      "preview_sha256": "825ae980fb4104e3f222c069422678b1a413ec2f7a362d9d4f2e001c0e2a6a7b"
+    },
+    {
+      "asset": "stand_mixer",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        48,
+        64,
+        64
+      ],
+      "occupied_voxels": 62218,
+      "voxel_size_m": 0.00625,
+      "grid_extents_m": [
+        0.30000000000000004,
+        0.4,
+        0.4
+      ],
+      "occupied_bounds_voxels": [
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          47,
+          60,
+          61
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.125,
+          -0.17500000000000002,
+          0.0
+        ],
+        [
+          0.14375000000000002,
+          0.17500000000000002,
+          0.38125000000000003
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        10
+      ],
+      "occupancy_sha256": "9afb4185d32c7f178a9f2cc6c20cb6f16687dbcaabcc930b45e68853b8d70532",
+      "features": [
+        {
+          "feature": "bowl_inner_cavity",
+          "sample": [
+            24,
+            22,
+            21
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "working_clearance_beside_whisk",
+          "sample": [
+            12,
+            22,
+            38
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "bowl_floor",
+          "sample": [
+            24,
+            22,
+            11
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        },
+        {
+          "feature": "overhead_motor",
+          "sample": [
+            24,
+            22,
+            52
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        },
+        {
+          "feature": "bowl_handle_hole",
+          "sample": [
+            43,
+            22,
+            24
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        }
+      ],
+      "native_sha256": "234bf8976befb9ab6ea1d239f1f7834504b4293bfa51aec87bfa371c7aa22267",
+      "preview_sha256": "0181f57669ed09acfe0f6abfd6aeb854db377017776e53f34e53bc840b61899a"
+    },
+    {
+      "asset": "espresso_machine",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        128,
+        104,
+        128
+      ],
+      "occupied_voxels": 730011,
+      "voxel_size_m": 0.003125,
+      "grid_extents_m": [
+        0.4,
+        0.325,
+        0.4
+      ],
+      "occupied_bounds_voxels": [
+        [
+          8,
+          1,
+          0
+        ],
+        [
+          120,
+          98,
+          125
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.17500000000000002,
+          -0.15937500000000002,
+          0.0
+        ],
+        [
+          0.17500000000000002,
+          0.14375000000000002,
+          0.390625
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15
+      ],
+      "occupancy_sha256": "f51b6d1a7bbf63f4751dd64e231398192a54946ec2e05921dead7d3aa0e9f21e",
+      "features": [
+        {
+          "feature": "cup_bay_clearance",
+          "sample": [
+            34,
+            40,
+            54
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "cup_inner_cavity",
+          "sample": [
+            58,
+            42,
+            43
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "cup_handle_loop",
+          "sample": [
+            74,
+            42,
+            40
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "group_head",
+          "sample": [
+            64,
+            35,
+            79
+          ],
+          "expected_occupied": true,
+          "palette_index": 8,
+          "passed": true
+        },
+        {
+          "feature": "steam_wand",
+          "sample": [
+            103,
+            19,
+            52
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        },
+        {
+          "feature": "rear_chassis",
+          "sample": [
+            64,
+            83,
+            60
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        }
+      ],
+      "native_sha256": "dab924b54a9d3615f5f7751481e576ba1c0f998f934b4d06a1884c4356b3d6bd",
+      "preview_sha256": "bcd5bb69522a78abc134dbf031e9f460659d17ee5068ef5c9ba2721cbd6bfaa0"
+    },
+    {
+      "asset": "espresso_machine",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        64,
+        52,
+        64
+      ],
+      "occupied_voxels": 96635,
+      "voxel_size_m": 0.00625,
+      "grid_extents_m": [
+        0.4,
+        0.325,
+        0.4
+      ],
+      "occupied_bounds_voxels": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          60,
+          49,
+          63
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.17500000000000002,
+          -0.1625,
+          0.0
+        ],
+        [
+          0.17500000000000002,
+          0.14375000000000002,
+          0.39375000000000004
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15
+      ],
+      "occupancy_sha256": "b0b43eb30ba6d1d7605ea6f1b21e0376048aadc62df2f05fea590857c8e1f5bc",
+      "features": [
+        {
+          "feature": "cup_bay_clearance",
+          "sample": [
+            17,
+            20,
+            27
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "cup_inner_cavity",
+          "sample": [
+            29,
+            21,
+            21
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "cup_handle_loop",
+          "sample": [
+            37,
+            21,
+            20
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "group_head",
+          "sample": [
+            32,
+            17,
+            39
+          ],
+          "expected_occupied": true,
+          "palette_index": 8,
+          "passed": true
+        },
+        {
+          "feature": "steam_wand",
+          "sample": [
+            51,
+            9,
+            26
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        },
+        {
+          "feature": "rear_chassis",
+          "sample": [
+            32,
+            41,
+            30
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        }
+      ],
+      "native_sha256": "5a7f45f1f7d7271e3a5342cb36dd5cbd1b3e31a0c3c56f9ce2338d6b75786598",
+      "preview_sha256": "189e7c64023afe3e41ecd32d13dd1bd372fe6b6429e6e995d1e6327da7753757"
+    },
+    {
+      "asset": "toaster",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        128,
+        84,
+        88
+      ],
+      "occupied_voxels": 466257,
+      "voxel_size_m": 0.002421875,
+      "grid_extents_m": [
+        0.31,
+        0.2034375,
+        0.213125
+      ],
+      "occupied_bounds_voxels": [
+        [
+          8,
+          2,
+          0
+        ],
+        [
+          128,
+          74,
+          85
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.135625,
+          -0.096875,
+          0.0
+        ],
+        [
+          0.155,
+          0.0775,
+          0.205859375
+        ]
+      ],
+      "palette_indices": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "occupancy_sha256": "871447cd5d09edef57f72bf41cd85dcc45edf1dba7f1bde591e5f7110e12f4a9",
+      "features": [
+        {
+          "feature": "front_slot_open",
+          "sample": [
+            64,
+            29,
+            58
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "rear_slot_end_open",
+          "sample": [
+            30,
+            55,
+            58
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "toast_slice",
+          "sample": [
+            64,
+            55,
+            76
+          ],
+          "expected_occupied": true,
+          "palette_index": 14,
+          "passed": true
+        },
+        {
+          "feature": "side_lever",
+          "sample": [
+            123,
+            42,
+            44
+          ],
+          "expected_occupied": true,
+          "palette_index": 6,
+          "passed": true
+        }
+      ],
+      "native_sha256": "a3f142226f646c13826edcd66b4d0c16b20639d1508880e5a1b82e9cf86ecce0",
+      "preview_sha256": "bb774effe7f7e3e49e32aede60a95e2fe46a5a997a6096bd1771ae672dc26563"
+    },
+    {
+      "asset": "toaster",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        64,
+        42,
+        44
+      ],
+      "occupied_voxels": 61672,
+      "voxel_size_m": 0.00484375,
+      "grid_extents_m": [
+        0.31,
+        0.2034375,
+        0.213125
+      ],
+      "occupied_bounds_voxels": [
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          64,
+          37,
+          43
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.135625,
+          -0.096875,
+          0.0
+        ],
+        [
+          0.155,
+          0.0775,
+          0.20828125
+        ]
+      ],
+      "palette_indices": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "occupancy_sha256": "d39417e4ddf4043ebcb7aa5b145275bfbb412ef1c1136c8a5d47e58c12cdb205",
+      "features": [
+        {
+          "feature": "front_slot_open",
+          "sample": [
+            32,
+            14,
+            29
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "rear_slot_end_open",
+          "sample": [
+            15,
+            27,
+            29
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "toast_slice",
+          "sample": [
+            32,
+            27,
+            38
+          ],
+          "expected_occupied": true,
+          "palette_index": 14,
+          "passed": true
+        },
+        {
+          "feature": "side_lever",
+          "sample": [
+            61,
+            21,
+            22
+          ],
+          "expected_occupied": true,
+          "palette_index": 6,
+          "passed": true
+        }
+      ],
+      "native_sha256": "c6a1b6c451d468d3d67a605a1351f8514ef3d63717f058d0ffb3a250cce1c5a0",
+      "preview_sha256": "9f25d9e6ee4513ab994f3e925fc5a24905139713f71a312b3089bcd5f3d49fe7"
+    },
+    {
+      "asset": "blender",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        96,
+        96,
+        128
+      ],
+      "occupied_voxels": 219676,
+      "voxel_size_m": 0.00328125,
+      "grid_extents_m": [
+        0.315,
+        0.315,
+        0.42
+      ],
+      "occupied_bounds_voxels": [
+        [
+          17,
+          5,
+          0
+        ],
+        [
+          92,
+          78,
+          126
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.10171875,
+          -0.14109375,
+          0.0
+        ],
+        [
+          0.144375,
+          0.0984375,
+          0.41343749999999996
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        15
+      ],
+      "occupancy_sha256": "ca470b937104a5963b86c770453be61ced17671dc5411c90f6f3cf4ec2f6da03",
+      "features": [
+        {
+          "feature": "jug_inner_cavity",
+          "sample": [
+            45,
+            45,
+            78
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "handle_loop",
+          "sample": [
+            79,
+            45,
+            80
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "lid",
+          "sample": [
+            45,
+            45,
+            114
+          ],
+          "expected_occupied": true,
+          "palette_index": 1,
+          "passed": true
+        },
+        {
+          "feature": "base_motor",
+          "sample": [
+            48,
+            45,
+            25
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        }
+      ],
+      "native_sha256": "b696ec72c2c92b38a79f8edbd7a9ce97db45cb5f7b20c36fa72d3d4ea133f410",
+      "preview_sha256": "9d72bbf9865d9fe17a2a464de8b5bc51b65bc1273f07c3651e67b14d8a7a51a1"
+    },
+    {
+      "asset": "blender",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        48,
+        48,
+        64
+      ],
+      "occupied_voxels": 30485,
+      "voxel_size_m": 0.0065625,
+      "grid_extents_m": [
+        0.315,
+        0.315,
+        0.42
+      ],
+      "occupied_bounds_voxels": [
+        [
+          8,
+          2,
+          0
+        ],
+        [
+          46,
+          39,
+          63
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.105,
+          -0.144375,
+          0.0
+        ],
+        [
+          0.144375,
+          0.0984375,
+          0.41343749999999996
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        15
+      ],
+      "occupancy_sha256": "a5b8279c6dc0c66d3125031884b39e49ece3493b7338444000fe15d5ec323c5d",
+      "features": [
+        {
+          "feature": "jug_inner_cavity",
+          "sample": [
+            22,
+            22,
+            39
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "handle_loop",
+          "sample": [
+            39,
+            22,
+            40
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "lid",
+          "sample": [
+            22,
+            22,
+            57
+          ],
+          "expected_occupied": true,
+          "palette_index": 1,
+          "passed": true
+        },
+        {
+          "feature": "base_motor",
+          "sample": [
+            24,
+            22,
+            12
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        }
+      ],
+      "native_sha256": "533bdc9333218bc4df91cbf2341718755cbb6fa2cc99a071941938b66ae9d4ae",
+      "preview_sha256": "ef2aeefedf812176bfa56d7177f31560cb1fe1fbd2066e15d4bacb7404a96314"
+    },
+    {
+      "asset": "stock_pot",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        128,
+        96,
+        92
+      ],
+      "occupied_voxels": 135034,
+      "voxel_size_m": 0.00296875,
+      "grid_extents_m": [
+        0.38,
+        0.28500000000000003,
+        0.273125
+      ],
+      "occupied_bounds_voxels": [
+        [
+          7,
+          11,
+          6
+        ],
+        [
+          121,
+          85,
+          79
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.16921875,
+          -0.10984375,
+          0.017812500000000002
+        ],
+        [
+          0.16921875,
+          0.10984375,
+          0.23453125
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        10
+      ],
+      "occupancy_sha256": "e912cdb966ed11f47f66dec96a9832a037e274ecabbeb5dbdaedd8a630ee59fa",
+      "features": [
+        {
+          "feature": "pot_inner_cavity",
+          "sample": [
+            64,
+            48,
+            45
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "left_handle_loop",
+          "sample": [
+            21,
+            48,
+            58
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "right_handle_loop",
+          "sample": [
+            107,
+            48,
+            58
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "pot_floor",
+          "sample": [
+            64,
+            48,
+            17
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        },
+        {
+          "feature": "left_wall_closed_below_handle",
+          "sample": [
+            29,
+            48,
+            60
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        },
+        {
+          "feature": "right_wall_closed_below_handle",
+          "sample": [
+            98,
+            48,
+            60
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        }
+      ],
+      "native_sha256": "100f7b47980d69a1d207689bdaa68031af2c9bcb9e5a6ef63f8c0b1403ffd1a4",
+      "preview_sha256": "d8cae049dff4a00f1d9d99230aadbde67dcd2d2364dc04443d1c8cecb234c484"
+    },
+    {
+      "asset": "stock_pot",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        64,
+        48,
+        46
+      ],
+      "occupied_voxels": 19662,
+      "voxel_size_m": 0.0059375,
+      "grid_extents_m": [
+        0.38,
+        0.28500000000000003,
+        0.273125
+      ],
+      "occupied_bounds_voxels": [
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          61,
+          43,
+          40
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.1721875,
+          -0.1128125,
+          0.017812500000000002
+        ],
+        [
+          0.1721875,
+          0.1128125,
+          0.2375
+        ]
+      ],
+      "palette_indices": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        10
+      ],
+      "occupancy_sha256": "a78098afdd222688737ad8b4ce2c2073ebe4446bca9f149933a11c7498ef99e9",
+      "features": [
+        {
+          "feature": "pot_inner_cavity",
+          "sample": [
+            32,
+            24,
+            22
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "left_handle_loop",
+          "sample": [
+            10,
+            24,
+            29
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "right_handle_loop",
+          "sample": [
+            53,
+            24,
+            29
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "pot_floor",
+          "sample": [
+            32,
+            24,
+            8
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        },
+        {
+          "feature": "left_wall_closed_below_handle",
+          "sample": [
+            14,
+            24,
+            30
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        },
+        {
+          "feature": "right_wall_closed_below_handle",
+          "sample": [
+            49,
+            24,
+            30
+          ],
+          "expected_occupied": true,
+          "palette_index": 2,
+          "passed": true
+        }
+      ],
+      "native_sha256": "7a3e5900c8a8152c8d211c8e43ed16d9445d8357c993bba82565fe7da506ecdd",
+      "preview_sha256": "bdbd19bc8145bad8755a8245e1919a2a334846cb36f6116298f6570382ddd2fd"
+    },
+    {
+      "asset": "frying_pan",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        128,
+        96,
+        32
+      ],
+      "occupied_voxels": 70730,
+      "voxel_size_m": 0.00375,
+      "grid_extents_m": [
+        0.48,
+        0.36,
+        0.12
+      ],
+      "occupied_bounds_voxels": [
+        [
+          8,
+          8,
+          4
+        ],
+        [
+          127,
+          88,
+          29
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.21,
+          -0.15,
+          0.015
+        ],
+        [
+          0.23625,
+          0.15,
+          0.10875
+        ]
+      ],
+      "palette_indices": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "occupancy_sha256": "6b45bbe61cd4bea429be79611d30976151366141f0e727a6d131d82b485af8ab",
+      "features": [
+        {
+          "feature": "pan_inner_cavity",
+          "sample": [
+            48,
+            48,
+            22
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "handle_hanging_hole",
+          "sample": [
+            119,
+            48,
+            20
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "pan_floor",
+          "sample": [
+            48,
+            48,
+            10
+          ],
+          "expected_occupied": true,
+          "palette_index": 6,
+          "passed": true
+        },
+        {
+          "feature": "handle_neck",
+          "sample": [
+            88,
+            48,
+            17
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        }
+      ],
+      "native_sha256": "e33c905a6f09c1e58f87d5a0ef09714b4ccb27ebaa052dbbf4390c8b677f4a55",
+      "preview_sha256": "e755fc5428a835cd356e4d061ee4bd9d3d27cf299343f64bfed8be3f29924ade"
+    },
+    {
+      "asset": "frying_pan",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        64,
+        48,
+        16
+      ],
+      "occupied_voxels": 10458,
+      "voxel_size_m": 0.0075,
+      "grid_extents_m": [
+        0.48,
+        0.36,
+        0.12
+      ],
+      "occupied_bounds_voxels": [
+        [
+          4,
+          4,
+          2
+        ],
+        [
+          64,
+          44,
+          15
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.21,
+          -0.15,
+          0.015
+        ],
+        [
+          0.24,
+          0.15,
+          0.11249999999999999
+        ]
+      ],
+      "palette_indices": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "occupancy_sha256": "2aad06ab74734bed534dea12d0901be3982431fe1fa9224bec59b01977ac8440",
+      "features": [
+        {
+          "feature": "pan_inner_cavity",
+          "sample": [
+            24,
+            24,
+            11
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "handle_hanging_hole",
+          "sample": [
+            59,
+            24,
+            10
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "pan_floor",
+          "sample": [
+            24,
+            24,
+            5
+          ],
+          "expected_occupied": true,
+          "palette_index": 6,
+          "passed": true
+        },
+        {
+          "feature": "handle_neck",
+          "sample": [
+            44,
+            24,
+            8
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        }
+      ],
+      "native_sha256": "84652e89eefd01511a911815d06aa408c4fad341b582ae93fffa4ba4571de22c",
+      "preview_sha256": "ce33f45f5ad3201ec88c14e119cbf9cfb724cdfa04f2b2860e4b16f880d4645a"
+    },
+    {
+      "asset": "cutting_board_knife",
+      "variant": "large",
+      "passed": true,
+      "grid_size": [
+        128,
+        96,
+        24
+      ],
+      "occupied_voxels": 73771,
+      "voxel_size_m": 0.00328125,
+      "grid_extents_m": [
+        0.42,
+        0.315,
+        0.07875
+      ],
+      "occupied_bounds_voxels": [
+        [
+          4,
+          8,
+          0
+        ],
+        [
+          128,
+          88,
+          21
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.196875,
+          -0.13125,
+          0.0
+        ],
+        [
+          0.21,
+          0.13125,
+          0.06890625
+        ]
+      ],
+      "palette_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "occupancy_sha256": "fb7c1f81abd8605927d75887a68089fe6062ff71b4133a7c6c470f2b5849c8c9",
+      "features": [
+        {
+          "feature": "board_handle_hole",
+          "sample": [
+            118,
+            48,
+            4
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "board_surface",
+          "sample": [
+            50,
+            60,
+            4
+          ],
+          "expected_occupied": true,
+          "palette_index": 5,
+          "passed": true
+        },
+        {
+          "feature": "knife_blade",
+          "sample": [
+            56,
+            36,
+            10
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        },
+        {
+          "feature": "knife_handle",
+          "sample": [
+            98,
+            44,
+            14
+          ],
+          "expected_occupied": true,
+          "palette_index": 6,
+          "passed": true
+        }
+      ],
+      "native_sha256": "754f1dd8b4ad0187b092b508474594cbae5f9fe3b9dbc1a33d486e05871c5f31",
+      "preview_sha256": "afe0c4a97d1fb0e7c8928fc42937ea9b8843fd1cf5f68d8f0491e7db7d2a35fd"
+    },
+    {
+      "asset": "cutting_board_knife",
+      "variant": "half",
+      "passed": true,
+      "grid_size": [
+        64,
+        48,
+        12
+      ],
+      "occupied_voxels": 9761,
+      "voxel_size_m": 0.0065625,
+      "grid_extents_m": [
+        0.42,
+        0.315,
+        0.07875
+      ],
+      "occupied_bounds_voxels": [
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          64,
+          44,
+          11
+        ]
+      ],
+      "bounds_m": [
+        [
+          -0.196875,
+          -0.13125,
+          0.0
+        ],
+        [
+          0.21,
+          0.13125,
+          0.0721875
+        ]
+      ],
+      "palette_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "occupancy_sha256": "a3798bbd37ef8e3cfa364bab55ed9645364f5debc2dc29a64a8cd1966de36bb0",
+      "features": [
+        {
+          "feature": "board_handle_hole",
+          "sample": [
+            59,
+            24,
+            2
+          ],
+          "expected_occupied": false,
+          "palette_index": 0,
+          "passed": true
+        },
+        {
+          "feature": "board_surface",
+          "sample": [
+            25,
+            30,
+            2
+          ],
+          "expected_occupied": true,
+          "palette_index": 5,
+          "passed": true
+        },
+        {
+          "feature": "knife_blade",
+          "sample": [
+            28,
+            18,
+            5
+          ],
+          "expected_occupied": true,
+          "palette_index": 7,
+          "passed": true
+        },
+        {
+          "feature": "knife_handle",
+          "sample": [
+            49,
+            22,
+            7
+          ],
+          "expected_occupied": true,
+          "palette_index": 6,
+          "passed": true
+        }
+      ],
+      "native_sha256": "1a69d9f6284a323377bb0a7d30b4e88c948ebacf912322fe9514deeee7417fd8",
+      "preview_sha256": "e1891407a5e4ab6842876360c0cc71bc296f7b7b0e18530efa409e5f739a2cf3"
+    }
+  ],
+  "forbidden_outputs": [],
+  "limitations": [
+    "Single standardized camera per variant",
+    "Glass is intentionally opaque palette material",
+    "Thin metal parts are exaggerated for half-scale readability"
+  ]
+}

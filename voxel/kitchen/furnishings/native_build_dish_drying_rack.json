@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T05:34:29.559065+00:00",
+  "finished_at_utc": "2026-10-25T05:34:30.043128+00:00",
+  "elapsed_seconds": 0.4832822000607848,
+  "occupancy_authoring_seconds": 0.3677836999995634,
+  "variants": [
+    {
+      "asset": "dish_drying_rack",
+      "variant": "large",
+      "native_sha256": "01d79eadc96123001029541fc6f9d4c0a70953c89980c6c001f14dd88da88581",
+      "occupied_voxels": 144578,
+      "feature_probes": [
+        {
+          "feature": "first plate slot front air",
+          "bounds_voxels": [
+            [
+              23,
+              12,
+              26
+            ],
+            [
+              31,
+              18,
+              40
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 672,
+          "passed": true
+        },
+        {
+          "feature": "between plates air",
+          "bounds_voxels": [
+            [
+              32,
+              34,
+              34
+            ],
+            [
+              34,
+              60,
+              44
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 520,
+          "passed": true
+        },
+        {
+          "feature": "utensil cup open interior",
+          "bounds_voxels": [
+            [
+              95,
+              49,
+              30
+            ],
+            [
+              102,
+              52,
+              44
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 294,
+          "passed": true
+        },
+        {
+          "feature": "left tray handle opening",
+          "bounds_voxels": [
+            [
+              2,
+              40,
+              14
+            ],
+            [
+              6,
+              54,
+              18
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 224,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "dish_drying_rack",
+      "variant": "half",
+      "native_sha256": "b5a23b49cd900641e9f3af82709a9c3e692e2d9acfe950643154ffcf3d9204e7",
+      "occupied_voxels": 22414,
+      "feature_probes": [
+        {
+          "feature": "first plate slot front air",
+          "bounds_voxels": [
+            [
+              12,
+              6,
+              13
+            ],
+            [
+              15,
+              9,
+              20
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 63,
+          "passed": true
+        },
+        {
+          "feature": "between plates air",
+          "bounds_voxels": [
+            [
+              16,
+              17,
+              17
+            ],
+            [
+              17,
+              30,
+              22
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 65,
+          "passed": true
+        },
+        {
+          "feature": "utensil cup open interior",
+          "bounds_voxels": [
+            [
+              48,
+              25,
+              15
+            ],
+            [
+              51,
+              26,
+              22
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 21,
+          "passed": true
+        },
+        {
+          "feature": "left tray handle opening",
+          "bounds_voxels": [
+            [
+              1,
+              20,
+              7
+            ],
+            [
+              3,
+              27,
+              9
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 28,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

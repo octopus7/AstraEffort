@@ -1,0 +1,260 @@
+{
+  "asset": "sink_cabinet",
+  "label": "Sink cabinet",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center; grid bottom Z=0",
+  "notes": [
+    "1.28 m grid width; cream worktop, sage twin doors.",
+    "Empty metal basin with real drain bore and overhead faucet.",
+    "Projecting handles have empty clearance. No half postprocessing."
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "half_method": "2x2x2 nonempty majority; higher palette index breaks ties",
+  "half_postprocess": "none",
+  "same_physical_grid_extents": true,
+  "native_roundtrip_passed": true,
+  "render_only_surface": true,
+  "authored_at_utc": "2026-10-25T05:31:13.628621+00:00",
+  "grid_size": [
+    128,
+    80,
+    124
+  ],
+  "occupied_voxels": 658722,
+  "voxel_size_m": 0.01,
+  "grid_extents_m": [
+    1.28,
+    0.8,
+    1.24
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      126,
+      78,
+      123
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.62,
+      -0.4,
+      0.02
+    ],
+    [
+      0.62,
+      0.38,
+      1.23
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+  ],
+  "occupancy_sha256": "0f5b917167732102b3b17b097c22bf0658a3c164948cdb01231776c6b7b0dc16",
+  "sha256": {
+    "sink_cabinet.vox": "aa2405e2a28f6abd3801c6794612658bee4c020032ca2c1611f8d21710e31896",
+    "preview.png": "12e74101cbf3713e02715d32caf4603b1c0a73c078821ab3d314cd3d693a8d9b"
+  },
+  "feature_probes": [
+    {
+      "feature": "sink basin open interior",
+      "bounds_voxels": [
+        [
+          38,
+          30,
+          80
+        ],
+        [
+          54,
+          50,
+          94
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 4480,
+      "passed": true
+    },
+    {
+      "feature": "sink metal floor",
+      "bounds_voxels": [
+        [
+          38,
+          30,
+          70
+        ],
+        [
+          54,
+          50,
+          74
+        ]
+      ],
+      "expected_palette_index": 7,
+      "found_palette_indices": [
+        7
+      ],
+      "cells_checked": 1280,
+      "passed": true
+    },
+    {
+      "feature": "left door pull air gap",
+      "bounds_voxels": [
+        [
+          44,
+          4,
+          58
+        ],
+        [
+          50,
+          7,
+          62
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 72,
+      "passed": true
+    },
+    {
+      "feature": "faucet suspended over basin",
+      "bounds_voxels": [
+        [
+          61,
+          49,
+          104
+        ],
+        [
+          67,
+          59,
+          113
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 540,
+      "passed": true
+    }
+  ],
+  "surface": {
+    "quads": 790,
+    "triangles": 1580,
+    "exposed_unit_faces": 59954,
+    "surface_area_m2": 5.9954,
+    "materials": 6
+  },
+  "rendered_at_utc": "2026-10-25T05:31:48.323615+00:00"
+}

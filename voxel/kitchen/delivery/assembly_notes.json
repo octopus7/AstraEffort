@@ -1,0 +1,13 @@
+{
+  "composition_attempts": 2,
+  "resolved_issues": [
+    {
+      "finding": "The first PowerShell composition attempt failed while recording its tile rectangle because unparenthesized addition inside an array expression was parsed as array addition.",
+      "correction": "Parenthesized each coordinate expression in the tile log.",
+      "verification": "The same assembly command exited successfully and the completed 20-tile image was directly inspected.",
+      "resolved_at_utc": "2026-10-25T05:43:27+00:00"
+    }
+  ],
+  "source_images_changed": false,
+  "timing_note": "Overall wall time includes the unsuccessful attempt; composition.json records the successful image-composition run only."
+}

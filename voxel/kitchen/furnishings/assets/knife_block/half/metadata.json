@@ -1,0 +1,259 @@
+{
+  "asset": "knife_block",
+  "label": "Knife block",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center; grid bottom Z=0",
+  "notes": [
+    "0.4096 m grid height; slanted pale-oak block with three inserted knives.",
+    "An unused front slot and air gaps beside used knife slots are real empty voxels.",
+    "Knife handles and exposed blade lengths vary. No half postprocessing."
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "half_method": "2x2x2 nonempty majority; higher palette index breaks ties",
+  "half_postprocess": "none",
+  "same_physical_grid_extents": true,
+  "native_roundtrip_passed": true,
+  "render_only_surface": true,
+  "authored_at_utc": "2026-10-25T05:34:30.488483+00:00",
+  "grid_size": [
+    39,
+    36,
+    64
+  ],
+  "occupied_voxels": 30287,
+  "voxel_size_m": 0.0064,
+  "grid_extents_m": [
+    0.24960000000000002,
+    0.23040000000000002,
+    0.4096
+  ],
+  "occupied_bounds_voxels": [
+    [
+      3,
+      4,
+      1
+    ],
+    [
+      36,
+      33,
+      64
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.1056,
+      -0.0896,
+      0.0064
+    ],
+    [
+      0.1056,
+      0.096,
+      0.4096
+    ]
+  ],
+  "palette_indices": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "occupancy_sha256": "be48967658aec3a37f686f008a44013c0f39cd422527647676c9307372024f7e",
+  "sha256": {
+    "knife_block.vox": "2dacecca905231e8b5e4d94f41a0b0a2344d8f5efd2d01e64e799651540a10f7",
+    "preview.png": "33fcdaba7049fb19fdc44ce5a2f52517978d740a0b35d95678c9ef7ca6d1682e"
+  },
+  "feature_probes": [
+    {
+      "feature": "unused front slot",
+      "bounds_voxels": [
+        [
+          17,
+          9,
+          23
+        ],
+        [
+          23,
+          13,
+          32
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 216,
+      "passed": true
+    },
+    {
+      "feature": "air between handles",
+      "bounds_voxels": [
+        [
+          14,
+          20,
+          53
+        ],
+        [
+          16,
+          26,
+          57
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 48,
+      "passed": true
+    },
+    {
+      "feature": "left knife broad metal blade",
+      "bounds_voxels": [
+        [
+          9,
+          18,
+          40
+        ],
+        [
+          11,
+          23,
+          46
+        ]
+      ],
+      "expected_palette_index": 7,
+      "found_palette_indices": [
+        7
+      ],
+      "cells_checked": 60,
+      "passed": true
+    },
+    {
+      "feature": "oak block front solid",
+      "bounds_voxels": [
+        [
+          7,
+          6,
+          7
+        ],
+        [
+          31,
+          8,
+          23
+        ]
+      ],
+      "expected_palette_index": 5,
+      "found_palette_indices": [
+        5
+      ],
+      "cells_checked": 768,
+      "passed": true
+    }
+  ],
+  "surface": {
+    "quads": 337,
+    "triangles": 674,
+    "exposed_unit_faces": 10554,
+    "surface_area_m2": 0.4322918400000001,
+    "materials": 5
+  },
+  "rendered_at_utc": "2026-10-25T05:36:02.407803+00:00"
+}

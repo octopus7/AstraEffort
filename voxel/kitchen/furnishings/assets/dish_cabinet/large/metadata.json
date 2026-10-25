@@ -1,0 +1,262 @@
+{
+  "asset": "dish_cabinet",
+  "label": "Dish cabinet",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center; grid bottom Z=0",
+  "notes": [
+    "1.792 m grid height; open-front sage hutch over a closed twin-door cupboard.",
+    "Two plate stands, a genuinely hollow bowl and mug; opaque blue-gray back.",
+    "Display shelves have open clearances. No half postprocessing."
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "half_method": "2x2x2 nonempty majority; higher palette index breaks ties",
+  "half_postprocess": "none",
+  "same_physical_grid_extents": true,
+  "native_roundtrip_passed": true,
+  "render_only_surface": true,
+  "authored_at_utc": "2026-10-25T05:34:29.477123+00:00",
+  "grid_size": [
+    92,
+    54,
+    128
+  ],
+  "occupied_voxels": 287172,
+  "voxel_size_m": 0.014,
+  "grid_extents_m": [
+    1.288,
+    0.756,
+    1.792
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      90,
+      52,
+      127
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.616,
+      -0.378,
+      0.028
+    ],
+    [
+      0.616,
+      0.35000000000000003,
+      1.778
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "occupancy_sha256": "7598db685e2ba29497c776af22ea0de0972e80394f1d91da940e141de1bd3b11",
+  "sha256": {
+    "dish_cabinet.vox": "e8ffbcdbd4410b5a6d35b8ac03325f0343fc0ba08a45cc4adcee45456df933ff",
+    "preview.png": "bd4af3bbd59d0b505dc73e30d2e58431b6c3650814613b8c3e2cd01dc5835a09"
+  },
+  "feature_probes": [
+    {
+      "feature": "lower display shelf front clearance",
+      "bounds_voxels": [
+        [
+          14,
+          12,
+          64
+        ],
+        [
+          78,
+          19,
+          82
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 8064,
+      "passed": true
+    },
+    {
+      "feature": "upper display shelf right clearance",
+      "bounds_voxels": [
+        [
+          46,
+          12,
+          94
+        ],
+        [
+          76,
+          18,
+          114
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 3600,
+      "passed": true
+    },
+    {
+      "feature": "mug cavity",
+      "bounds_voxels": [
+        [
+          60,
+          27,
+          104
+        ],
+        [
+          66,
+          31,
+          110
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 144,
+      "passed": true
+    },
+    {
+      "feature": "shelf solid base",
+      "bounds_voxels": [
+        [
+          14,
+          14,
+          86
+        ],
+        [
+          76,
+          42,
+          90
+        ]
+      ],
+      "expected_palette_index": 5,
+      "found_palette_indices": [
+        5
+      ],
+      "cells_checked": 6944,
+      "passed": true
+    }
+  ],
+  "surface": {
+    "quads": 1776,
+    "triangles": 3552,
+    "exposed_unit_faces": 67264,
+    "surface_area_m2": 13.183744,
+    "materials": 8
+  },
+  "rendered_at_utc": "2026-10-25T05:35:07.716931+00:00"
+}

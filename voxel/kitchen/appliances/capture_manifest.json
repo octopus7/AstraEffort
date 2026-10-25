@@ -1,0 +1,1632 @@
+{
+  "actual_blender_renders": true,
+  "source": "Every PNG rendered from native VOX reparsed before transient surface construction.",
+  "no_scene_or_exchange_mesh_saved": true,
+  "command": "blender.exe --background --factory-startup --threads 4 --python-exit-code 1 --python preview_pipeline.py",
+  "captures": [
+    {
+      "asset": "double_door_fridge",
+      "variant": "large",
+      "image": "assets/double_door_fridge/large/preview.png",
+      "native_file": "assets/double_door_fridge/large/double_door_fridge.vox",
+      "started_at_utc": "2026-10-25T05:31:04.801636+00:00",
+      "finished_at_utc": "2026-10-25T05:31:14.200441+00:00",
+      "elapsed_seconds": 9.398946000030264,
+      "settings": {
+        "camera_location": [
+          3.151059150695801,
+          -4.185412406921387,
+          3.824941635131836
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          5.010399561911072e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 3.219937801361084,
+        "target": [
+          0.0,
+          0.015999972820281982,
+          1.0240000486373901
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.608,
+            -0.544,
+            0.032
+          ],
+          [
+            0.608,
+            0.5760000000000001,
+            2.016
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -3.9680001735687256,
+              -5.936000347137451,
+              8.960000038146973
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 233.71522521972656,
+            "shape": "DISK",
+            "size_m": 5.555200099945068
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              5.952000141143799,
+              -1.9680001735687256,
+              4.992000102996826
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.038350619519406e-08,
+              1.249045968055725
+            ],
+            "energy_w": 127.92832946777344,
+            "shape": "DISK",
+            "size_m": 6.348800182342529
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              1.9840000867843628,
+              5.9679999351501465,
+              6.9760003089904785
+            ],
+            "rotation_radians": [
+              0.8117262721061707,
+              -2.180835068088527e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 184.5120086669922,
+            "shape": "DISK",
+            "size_m": 4.960000038146973
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "9aa7ee9a9474a7c0a578fae0c759cacdd78f82c7475e71bf6a76b984dc22b98b",
+      "image_sha256": "4e5a1e38e5f6f8fcdd7ce3b841d77624e58cb9b001284c509b15bcc1f8472aba",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "double_door_fridge",
+      "variant": "half",
+      "image": "assets/double_door_fridge/half/preview.png",
+      "native_file": "assets/double_door_fridge/half/double_door_fridge.vox",
+      "started_at_utc": "2026-10-25T05:31:14.340443+00:00",
+      "finished_at_utc": "2026-10-25T05:31:23.886639+00:00",
+      "elapsed_seconds": 9.545661199954338,
+      "settings": {
+        "camera_location": [
+          3.151059150695801,
+          -4.185412406921387,
+          3.824941635131836
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          5.010399561911072e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 3.219937801361084,
+        "target": [
+          0.0,
+          0.015999972820281982,
+          1.0240000486373901
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.608,
+            -0.544,
+            0.032
+          ],
+          [
+            0.608,
+            0.5760000000000001,
+            2.016
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -3.9680001735687256,
+              -5.936000347137451,
+              8.960000038146973
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 233.71522521972656,
+            "shape": "DISK",
+            "size_m": 5.555200099945068
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              5.952000141143799,
+              -1.9680001735687256,
+              4.992000102996826
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.038350619519406e-08,
+              1.249045968055725
+            ],
+            "energy_w": 127.92832946777344,
+            "shape": "DISK",
+            "size_m": 6.348800182342529
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              1.9840000867843628,
+              5.9679999351501465,
+              6.9760003089904785
+            ],
+            "rotation_radians": [
+              0.8117262721061707,
+              -2.180835068088527e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 184.5120086669922,
+            "shape": "DISK",
+            "size_m": 4.960000038146973
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "b67f876126df90de8e45a5f4bd587e0039dd192917035b44ab7cdec48a2105d5",
+      "image_sha256": "35d321eb68a0ba184fc052e5b9e8a841898f527a37f2b8b2bdd60f94d4c176e5",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "range_oven",
+      "variant": "large",
+      "image": "assets/range_oven/large/preview.png",
+      "native_file": "assets/range_oven/large/range_oven.vox",
+      "started_at_utc": "2026-10-25T05:31:24.914944+00:00",
+      "finished_at_utc": "2026-10-25T05:31:34.901701+00:00",
+      "elapsed_seconds": 9.9868901000591,
+      "settings": {
+        "camera_location": [
+          1.5755295753479004,
+          -2.108705997467041,
+          1.912470817565918
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          5.010399561911072e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 1.6947802305221558,
+        "target": [
+          0.0,
+          -0.008000001311302185,
+          0.5120000243186951
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.336,
+            -0.352,
+            0.016
+          ],
+          [
+            0.336,
+            0.336,
+            1.008
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.9840000867843628,
+              -2.9839999675750732,
+              4.480000019073486
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 58.42880630493164,
+            "shape": "DISK",
+            "size_m": 2.777600049972534
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.9760000705718994,
+              -1.0,
+              2.496000051498413
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.6379344458528067e-07,
+              1.249045968055725
+            ],
+            "energy_w": 31.98208236694336,
+            "shape": "DISK",
+            "size_m": 3.1744000911712646
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.9920000433921814,
+              2.9680001735687256,
+              3.4880001544952393
+            ],
+            "rotation_radians": [
+              0.8117262721061707,
+              -2.180835068088527e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 46.12800216674805,
+            "shape": "DISK",
+            "size_m": 2.4800000190734863
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "1de46a15c3d703303b6b5a9cdcbf958ffe787cc4b32fdcc61422b7b66433a952",
+      "image_sha256": "b9155d0750b492ddf8738dd75c3e2a59d92fe53b8a37c02a6053cb3be29f4b5d",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "range_oven",
+      "variant": "half",
+      "image": "assets/range_oven/half/preview.png",
+      "native_file": "assets/range_oven/half/range_oven.vox",
+      "started_at_utc": "2026-10-25T05:31:35.148494+00:00",
+      "finished_at_utc": "2026-10-25T05:31:46.601118+00:00",
+      "elapsed_seconds": 11.453396699973382,
+      "settings": {
+        "camera_location": [
+          1.5755295753479004,
+          -2.108705997467041,
+          1.912470817565918
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          5.010399561911072e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 1.6947802305221558,
+        "target": [
+          0.0,
+          -0.008000001311302185,
+          0.5120000243186951
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.336,
+            -0.352,
+            0.016
+          ],
+          [
+            0.336,
+            0.336,
+            1.008
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.9840000867843628,
+              -2.9839999675750732,
+              4.480000019073486
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 58.42880630493164,
+            "shape": "DISK",
+            "size_m": 2.777600049972534
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.9760000705718994,
+              -1.0,
+              2.496000051498413
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.6379344458528067e-07,
+              1.249045968055725
+            ],
+            "energy_w": 31.98208236694336,
+            "shape": "DISK",
+            "size_m": 3.1744000911712646
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.9920000433921814,
+              2.9680001735687256,
+              3.4880001544952393
+            ],
+            "rotation_radians": [
+              0.8117262721061707,
+              -2.180835068088527e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 46.12800216674805,
+            "shape": "DISK",
+            "size_m": 2.4800000190734863
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "37c468e03af1a73fd0ddbd2a228af4b9da44a0acd9c087a3b967f8f1f1403438",
+      "image_sha256": "47ad77041ca8bc555c586c29eea494edb8c267df906ada275090c804eefd4438",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "microwave",
+      "variant": "large",
+      "image": "assets/microwave/large/preview.png",
+      "native_file": "assets/microwave/large/microwave.vox",
+      "started_at_utc": "2026-10-25T05:31:47.362964+00:00",
+      "finished_at_utc": "2026-10-25T05:31:58.712763+00:00",
+      "elapsed_seconds": 11.349534600041807,
+      "settings": {
+        "camera_location": [
+          0.8843294978141785,
+          -1.1839059591293335,
+          0.9732705950737
+        ],
+        "camera_rotation_radians": [
+          1.080838918685913,
+          -7.11153447241486e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 0.8871936798095703,
+        "target": [
+          0.0,
+          -0.004799999296665192,
+          0.18719999492168427
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.2784,
+            -0.21119999999999997,
+            0.0192
+          ],
+          [
+            0.2784,
+            0.20159999999999997,
+            0.35519999999999996
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.1136000156402588,
+              -1.6751999855041504,
+              2.414400100708008
+            ],
+            "rotation_radians": [
+              0.73358154296875,
+              -4.937215436484621e-08,
+              -0.588002622127533
+            ],
+            "energy_w": 18.407808303833008,
+            "shape": "DISK",
+            "size_m": 1.5590400695800781
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.6704000234603882,
+              -0.5616000294685364,
+              1.3007999658584595
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              -2.526427067550685e-09,
+              1.249045729637146
+            ],
+            "energy_w": 10.07585334777832,
+            "shape": "DISK",
+            "size_m": 1.7817599773406982
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.5568000078201294,
+              1.665600061416626,
+              1.8575999736785889
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              -3.5526532826679613e-09,
+              2.8198421001434326
+            ],
+            "energy_w": 14.532480239868164,
+            "shape": "DISK",
+            "size_m": 1.3919999599456787
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "ab746b0525e6fc7e21f9d6385b8a56fabdeb295629a20f72b6797998c7d92370",
+      "image_sha256": "9a6ac18ce17cdc6d08892790bcf1efe8c7f3a120b1da4e66b77a742a9bb5169b",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "microwave",
+      "variant": "half",
+      "image": "assets/microwave/half/preview.png",
+      "native_file": "assets/microwave/half/microwave.vox",
+      "started_at_utc": "2026-10-25T05:31:58.908420+00:00",
+      "finished_at_utc": "2026-10-25T05:32:09.746738+00:00",
+      "elapsed_seconds": 10.837404999998398,
+      "settings": {
+        "camera_location": [
+          0.8843294978141785,
+          -1.1839059591293335,
+          0.9732705950737
+        ],
+        "camera_rotation_radians": [
+          1.080838918685913,
+          -7.11153447241486e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 0.8871936798095703,
+        "target": [
+          0.0,
+          -0.004799999296665192,
+          0.18719999492168427
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.2784,
+            -0.21119999999999997,
+            0.0192
+          ],
+          [
+            0.2784,
+            0.20159999999999997,
+            0.35519999999999996
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.1136000156402588,
+              -1.6751999855041504,
+              2.414400100708008
+            ],
+            "rotation_radians": [
+              0.73358154296875,
+              -4.937215436484621e-08,
+              -0.588002622127533
+            ],
+            "energy_w": 18.407808303833008,
+            "shape": "DISK",
+            "size_m": 1.5590400695800781
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.6704000234603882,
+              -0.5616000294685364,
+              1.3007999658584595
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              -2.526427067550685e-09,
+              1.249045729637146
+            ],
+            "energy_w": 10.07585334777832,
+            "shape": "DISK",
+            "size_m": 1.7817599773406982
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.5568000078201294,
+              1.665600061416626,
+              1.8575999736785889
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              -3.5526532826679613e-09,
+              2.8198421001434326
+            ],
+            "energy_w": 14.532480239868164,
+            "shape": "DISK",
+            "size_m": 1.3919999599456787
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "3d05fa1f0ab8b789c19cb9486358892ffc73bb752b94419bc51fea050a1fb01b",
+      "image_sha256": "bc03e4e46dae0c56dd227b95d8be7f0d2ee5005d9f566e0daa7178943fab66fb",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "dishwasher",
+      "variant": "large",
+      "image": "assets/dishwasher/large/preview.png",
+      "native_file": "assets/dishwasher/large/dishwasher.vox",
+      "started_at_utc": "2026-10-25T05:32:10.608847+00:00",
+      "finished_at_utc": "2026-10-25T05:32:22.270359+00:00",
+      "elapsed_seconds": 11.66157499991823,
+      "settings": {
+        "camera_location": [
+          1.5247060060501099,
+          -2.0169410705566406,
+          1.8192942142486572
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          1.131381033303569e-08,
+          0.643501341342926
+        ],
+        "orthographic_scale": 1.645146369934082,
+        "target": [
+          0.0,
+          0.01600000262260437,
+          0.46399998664855957
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.336,
+            -0.464,
+            0.048
+          ],
+          [
+            0.336,
+            0.496,
+            0.88
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.9199999570846558,
+              -2.863999843597412,
+              4.303999900817871
+            ],
+            "rotation_radians": [
+              0.7335813641548157,
+              4.626866711987532e-08,
+              -0.5880026817321777
+            ],
+            "energy_w": 54.71999740600586,
+            "shape": "DISK",
+            "size_m": 2.687999963760376
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.879999876022339,
+              -0.9440000057220459,
+              2.383999824523926
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.348268755118625e-08,
+              1.249045968055725
+            ],
+            "energy_w": 29.951997756958008,
+            "shape": "DISK",
+            "size_m": 3.072000026702881
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.9599999785423279,
+              2.8959999084472656,
+              3.3439998626708984
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              -3.5526532826679613e-09,
+              2.8198421001434326
+            ],
+            "energy_w": 43.19999694824219,
+            "shape": "DISK",
+            "size_m": 2.3999998569488525
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "862fd649d8f3f7c650f0f490323baa02b1b98b137f0b9903d3f6ef3b20fa7f4f",
+      "image_sha256": "ed2dc36b3ee75850db84ef6e31b22cfed7c7050440a8c201121456ade55f4523",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "dishwasher",
+      "variant": "half",
+      "image": "assets/dishwasher/half/preview.png",
+      "native_file": "assets/dishwasher/half/dishwasher.vox",
+      "started_at_utc": "2026-10-25T05:32:22.497568+00:00",
+      "finished_at_utc": "2026-10-25T05:32:33.524400+00:00",
+      "elapsed_seconds": 11.026661799987778,
+      "settings": {
+        "camera_location": [
+          1.5247060060501099,
+          -2.0169410705566406,
+          1.8192942142486572
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          1.131381033303569e-08,
+          0.643501341342926
+        ],
+        "orthographic_scale": 1.645146369934082,
+        "target": [
+          0.0,
+          0.01600000262260437,
+          0.46399998664855957
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.336,
+            -0.464,
+            0.048
+          ],
+          [
+            0.336,
+            0.496,
+            0.88
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.9199999570846558,
+              -2.863999843597412,
+              4.303999900817871
+            ],
+            "rotation_radians": [
+              0.7335813641548157,
+              4.626866711987532e-08,
+              -0.5880026817321777
+            ],
+            "energy_w": 54.71999740600586,
+            "shape": "DISK",
+            "size_m": 2.687999963760376
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.879999876022339,
+              -0.9440000057220459,
+              2.383999824523926
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.348268755118625e-08,
+              1.249045968055725
+            ],
+            "energy_w": 29.951997756958008,
+            "shape": "DISK",
+            "size_m": 3.072000026702881
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.9599999785423279,
+              2.8959999084472656,
+              3.3439998626708984
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              -3.5526532826679613e-09,
+              2.8198421001434326
+            ],
+            "energy_w": 43.19999694824219,
+            "shape": "DISK",
+            "size_m": 2.3999998569488525
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "887710655ef4edda268b5fe27365ff0d4d378e94cbc89ec24cb6813f438ce998",
+      "image_sha256": "172916ab8060f2ed9e3c6b3f36729f59d6269e4f08a8ae96db9838a91dc879ed",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "rice_cooker",
+      "variant": "large",
+      "image": "assets/rice_cooker/large/preview.png",
+      "native_file": "assets/rice_cooker/large/rice_cooker.vox",
+      "started_at_utc": "2026-10-25T05:32:59.810081+00:00",
+      "finished_at_utc": "2026-10-25T05:33:10.796103+00:00",
+      "elapsed_seconds": 10.986001699930057,
+      "settings": {
+        "camera_location": [
+          0.5425412058830261,
+          -0.7233882546424866,
+          0.6642588376998901
+        ],
+        "camera_rotation_radians": [
+          1.080838918685913,
+          -1.0020798413279408e-07,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.6158577799797058,
+        "target": [
+          0.0,
+          0.0,
+          0.18200001120567322
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.1316,
+            -0.13999999999999999,
+            0.0112
+          ],
+          [
+            0.1316,
+            0.13999999999999999,
+            0.3528
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.6832000017166138,
+              -1.0248000621795654,
+              1.5484000444412231
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 6.928502082824707,
+            "shape": "DISK",
+            "size_m": 0.9564800262451172
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.0248000621795654,
+              -0.3416000008583069,
+              0.8652000427246094
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              7.90839180808689e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 3.79244327545166,
+            "shape": "DISK",
+            "size_m": 1.0931199789047241
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.3416000008583069,
+              1.0248000621795654,
+              1.206800103187561
+            ],
+            "rotation_radians": [
+              0.8117261528968811,
+              -1.170337871059246e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 5.469870090484619,
+            "shape": "DISK",
+            "size_m": 0.8539999723434448
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "09e9a40757025dd40801bfb8d83626d0e237164a984b3fbd3d066db1e61f00b7",
+      "image_sha256": "faa507439027af2b3274339bf4783e12db5d68ae4bd9eb594a05790e85f4526b",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "rice_cooker",
+      "variant": "half",
+      "image": "assets/rice_cooker/half/preview.png",
+      "native_file": "assets/rice_cooker/half/rice_cooker.vox",
+      "started_at_utc": "2026-10-25T05:33:11.259030+00:00",
+      "finished_at_utc": "2026-10-25T05:33:23.469626+00:00",
+      "elapsed_seconds": 12.210382299963385,
+      "settings": {
+        "camera_location": [
+          0.5425412058830261,
+          -0.7233882546424866,
+          0.6642588376998901
+        ],
+        "camera_rotation_radians": [
+          1.080838918685913,
+          -1.0020798413279408e-07,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.6158577799797058,
+        "target": [
+          0.0,
+          0.0,
+          0.18200001120567322
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.1316,
+            -0.13999999999999999,
+            0.0112
+          ],
+          [
+            0.1316,
+            0.13999999999999999,
+            0.3528
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.6832000017166138,
+              -1.0248000621795654,
+              1.5484000444412231
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 6.928502082824707,
+            "shape": "DISK",
+            "size_m": 0.9564800262451172
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.0248000621795654,
+              -0.3416000008583069,
+              0.8652000427246094
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              7.90839180808689e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 3.79244327545166,
+            "shape": "DISK",
+            "size_m": 1.0931199789047241
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.3416000008583069,
+              1.0248000621795654,
+              1.206800103187561
+            ],
+            "rotation_radians": [
+              0.8117261528968811,
+              -1.170337871059246e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 5.469870090484619,
+            "shape": "DISK",
+            "size_m": 0.8539999723434448
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "5819491eab745a56101795c6ee407cc7e1f054087ac9d6c68175d3188e68d846",
+      "image_sha256": "d6e599c19bf327bcc92160b4f3f6dba992e431ed43c048fc545e6b429f36759d",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "electric_kettle",
+      "variant": "large",
+      "image": "assets/electric_kettle/large/preview.png",
+      "native_file": "assets/electric_kettle/large/electric_kettle.vox",
+      "started_at_utc": "2026-10-25T05:33:26.501107+00:00",
+      "finished_at_utc": "2026-10-25T05:33:37.964370+00:00",
+      "elapsed_seconds": 11.463295900030062,
+      "settings": {
+        "camera_location": [
+          0.49929115176200867,
+          -0.6621881723403931,
+          0.5991338491439819
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          1.6162573501787847e-09,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.5635907649993896,
+        "target": [
+          0.0026500001549720764,
+          0.0,
+          0.15767499804496765
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.1537,
+            -0.1166,
+            0.00795
+          ],
+          [
+            0.159,
+            0.1166,
+            0.3074
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.622749924659729,
+              -0.9380999207496643,
+              1.4084749221801758
+            ],
+            "rotation_radians": [
+              0.7335814237594604,
+              -3.8869455210033266e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 5.805763244628906,
+            "shape": "DISK",
+            "size_m": 0.87555992603302
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              0.9407499432563782,
+              -0.31269997358322144,
+              0.7830749750137329
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              7.90839180808689e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 3.177891492843628,
+            "shape": "DISK",
+            "size_m": 1.0006399154663086
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.3153499662876129,
+              0.9380999207496643,
+              1.0957748889923096
+            ],
+            "rotation_radians": [
+              0.8117260336875916,
+              3.295874861919401e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 4.583497047424316,
+            "shape": "DISK",
+            "size_m": 0.781749963760376
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "5d7aac8ddf9ec11ae0003bb8e348c4c9881056c9849194f047814ce79e6cfc98",
+      "image_sha256": "4d7c565145539e15addd448cc876b7dd9eb9fc02c074a616f5a60c41e2c5b8b5",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "electric_kettle",
+      "variant": "half",
+      "image": "assets/electric_kettle/half/preview.png",
+      "native_file": "assets/electric_kettle/half/electric_kettle.vox",
+      "started_at_utc": "2026-10-25T05:33:38.549435+00:00",
+      "finished_at_utc": "2026-10-25T05:33:49.663915+00:00",
+      "elapsed_seconds": 11.114666200010106,
+      "settings": {
+        "camera_location": [
+          0.49929115176200867,
+          -0.6621881723403931,
+          0.5991338491439819
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          1.6162573501787847e-09,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.5635907649993896,
+        "target": [
+          0.0026500001549720764,
+          0.0,
+          0.15767499804496765
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.1537,
+            -0.1166,
+            0.00795
+          ],
+          [
+            0.159,
+            0.1166,
+            0.3074
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.622749924659729,
+              -0.9380999207496643,
+              1.4084749221801758
+            ],
+            "rotation_radians": [
+              0.7335814237594604,
+              -3.8869455210033266e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 5.805763244628906,
+            "shape": "DISK",
+            "size_m": 0.87555992603302
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              0.9407499432563782,
+              -0.31269997358322144,
+              0.7830749750137329
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              7.90839180808689e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 3.177891492843628,
+            "shape": "DISK",
+            "size_m": 1.0006399154663086
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.3153499662876129,
+              0.9380999207496643,
+              1.0957748889923096
+            ],
+            "rotation_radians": [
+              0.8117260336875916,
+              3.295874861919401e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 4.583497047424316,
+            "shape": "DISK",
+            "size_m": 0.781749963760376
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "7cd8a9802cd54d6249fed634970105996d602bdf7b96aac80493b9c943775ba5",
+      "image_sha256": "d38d78b82355f40a842d32f125353d4c63288b375caf6b23596dfb8dcacbc131",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "range_hood",
+      "variant": "large",
+      "image": "assets/range_hood/large/preview.png",
+      "native_file": "assets/range_hood/large/range_hood.vox",
+      "started_at_utc": "2026-10-25T05:34:10.066570+00:00",
+      "finished_at_utc": "2026-10-25T05:34:20.174625+00:00",
+      "elapsed_seconds": 10.108186400029808,
+      "settings": {
+        "camera_location": [
+          1.4179764986038208,
+          -1.869035243988037,
+          1.6780235767364502
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -2.2627610007930343e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 1.3136593103408813,
+        "target": [
+          0.0,
+          0.021600008010864258,
+          0.41759997606277466
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.44639999999999996,
+            -0.2304,
+            0.0864
+          ],
+          [
+            0.44639999999999996,
+            0.2736,
+            0.7488
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.785599946975708,
+              -2.6568000316619873,
+              3.988799810409546
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 47.32732391357422,
+            "shape": "DISK",
+            "size_m": 2.499840021133423
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.6784000396728516,
+              -0.8711999654769897,
+              2.203199863433838
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.8028742942988174e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 25.90548324584961,
+            "shape": "DISK",
+            "size_m": 2.856959819793701
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.892799973487854,
+              2.700000047683716,
+              3.0959999561309814
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 37.363677978515625,
+            "shape": "DISK",
+            "size_m": 2.2319998741149902
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "8dc7e86c8336c906aeac4cf25767f3d84875f233a4458f9a428883699da13b13",
+      "image_sha256": "7f3a8e73174b9cfcd9b25327692e5ec6fa70beb074491f1c661979eaa49bbe90",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    },
+    {
+      "asset": "range_hood",
+      "variant": "half",
+      "image": "assets/range_hood/half/preview.png",
+      "native_file": "assets/range_hood/half/range_hood.vox",
+      "started_at_utc": "2026-10-25T05:34:20.306627+00:00",
+      "finished_at_utc": "2026-10-25T05:34:30.118129+00:00",
+      "elapsed_seconds": 9.811225099954754,
+      "settings": {
+        "camera_location": [
+          1.4179764986038208,
+          -1.869035243988037,
+          1.6780235767364502
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -2.2627610007930343e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 1.3136593103408813,
+        "target": [
+          0.0,
+          0.021600008010864258,
+          0.41759997606277466
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "camera_bounds_large_m": [
+          [
+            -0.44639999999999996,
+            -0.2304,
+            0.0864
+          ],
+          [
+            0.44639999999999996,
+            0.2736,
+            0.7488
+          ]
+        ],
+        "color_mode": "RGB",
+        "transparent": false,
+        "lights": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -1.785599946975708,
+              -2.6568000316619873,
+              3.988799810409546
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy_w": 47.32732391357422,
+            "shape": "DISK",
+            "size_m": 2.499840021133423
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              2.6784000396728516,
+              -0.8711999654769897,
+              2.203199863433838
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.8028742942988174e-08,
+              1.2490458488464355
+            ],
+            "energy_w": 25.90548324584961,
+            "shape": "DISK",
+            "size_m": 2.856959819793701
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.892799973487854,
+              2.700000047683716,
+              3.0959999561309814
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy_w": 37.363677978515625,
+            "shape": "DISK",
+            "size_m": 2.2319998741149902
+          }
+        ],
+        "world_background_rgba": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421
+      },
+      "source_vox_sha256": "9d6c7ad25e17ac1febe4014c95a5b8b72c1beb4fa6beed0057dd46bedf2ed818",
+      "image_sha256": "4f839e99035e7d2e05cd2fe8777e15d71bc1045be1602b5b01ccd5a0f91a3628",
+      "rendered_from_reparsed_vox": true,
+      "actual_blender_render": true,
+      "blender_version": "4.5.12 LTS"
+    }
+  ]
+}

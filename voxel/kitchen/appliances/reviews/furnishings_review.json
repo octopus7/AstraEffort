@@ -1,0 +1,176 @@
+{
+  "reviewer": "appliances worker",
+  "target": "voxel/kitchen/furnishings",
+  "review_mode": "independent read-only same-kitchen cross-review",
+  "started_at_utc": "2026-10-25T05:37:38+00:00",
+  "finished_at_utc": "2026-10-25T05:40:15.739016+00:00",
+  "started_at_kst": "2026-10-25T14:37:38+09:00",
+  "finished_at_kst": "2026-10-25T14:40:15.739016+09:00",
+  "elapsed_seconds": 157.739016,
+  "start_definition": "First recorded review clock sample after the initial brief/evidence read.",
+  "spec_compliance": {
+    "verdict": "pass",
+    "blocking_findings": [],
+    "summary": "All six exact slugs, twelve native files, twelve 768px final previews and required evidence are present. Large/half dimensions, doubled cell scale, common palette, exact saved-grid reduction and paired render settings meet the brief."
+  },
+  "visual_technical_quality": {
+    "verdict": "pass",
+    "blocking_findings": [],
+    "summary": "All twelve final previews directly inspected. Models remain distinct at half resolution and functional openings remain readable. All twelve saved native models independently form one six-neighbor connected assembly; 48 feature probes pass."
+  },
+  "findings_requiring_changes": [],
+  "known_limits": [
+    {
+      "asset": "dish_cabinet",
+      "detail": "The common camera partly occludes the upper-right mug; its cavity is covered by the saved-native probe, not an additional view."
+    },
+    {
+      "asset": "kitchen_island, kitchen_cart",
+      "detail": "Thin decorative oak top seams disappear at half size. This documented simplification does not close a functional opening."
+    },
+    {
+      "asset": "all",
+      "detail": "Single-view inspection and integer face connectivity do not establish mechanical strength or animation behavior; these static colored voxel models do not claim either."
+    },
+    {
+      "asset": "all",
+      "detail": "The target source-to-authored roundtrip claim was read in its validated evidence, not rerun. This review independently checked saved-native reduction, palette, dimensions/scales, supports, probe volumes, images and hashes without executing target code."
+    }
+  ],
+  "native_check_file": "furnishings_native_check.json",
+  "native_check_sha256": "27696711477a5173f744ff5c21c5c5dc46bba6249c5264d80f8ef1f6bc1a329f",
+  "frozen_target_manifest_sha256": "a597f6a8c2ec609797c190f8c86c6061f3620aede8a57e8a19c5596e0dba4a92",
+  "frozen_target_files_verified": 71,
+  "inspected_previews": [
+    {
+      "asset": "sink_cabinet",
+      "variant": "large",
+      "image": "assets/sink_cabinet/large/preview.png",
+      "sha256": "12e74101cbf3713e02715d32caf4603b1c0a73c078821ab3d314cd3d693a8d9b",
+      "inspected_at_utc": "2026-10-25T05:38:11+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Deep basin is visibly empty; faucet stands over it and both cabinet pulls project with clear gaps. Sage panels and cream top are distinct, with no cropping."
+    },
+    {
+      "asset": "sink_cabinet",
+      "variant": "half",
+      "image": "assets/sink_cabinet/half/preview.png",
+      "sha256": "452866e720617c69ff515bd8e31bc794fbc4f93c71f0a7e8e2321578ea4be7e5",
+      "inspected_at_utc": "2026-10-25T05:38:11+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Basin, tap clearance and pull openings survive. Chunkier corner steps preserve the cabinet identity and there is no visible detached part."
+    },
+    {
+      "asset": "kitchen_island",
+      "variant": "large",
+      "image": "assets/kitchen_island/large/preview.png",
+      "sha256": "db7a573f722f68256ed9d1010155725cc886744591e0a6ae2067e95ec9d10d92",
+      "inspected_at_utc": "2026-10-25T05:38:11+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Broad oak top, front storage and open right shelf identify the island. Side rail ends visibly meet the supporting posts, with the cloth hanging from the rail."
+    },
+    {
+      "asset": "kitchen_island",
+      "variant": "half",
+      "image": "assets/kitchen_island/half/preview.png",
+      "sha256": "95b94732929df0d27939809b481b2904e0e32b07bf6db48bc948b7f961abc48a",
+      "inspected_at_utc": "2026-10-25T05:38:11+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Side shelf bays and rail opening remain readable. Decorative plank seams on the top disappear as documented; the work surface and supports remain coherent."
+    },
+    {
+      "asset": "dish_cabinet",
+      "variant": "large",
+      "image": "assets/dish_cabinet/large/preview.png",
+      "sha256": "bd4af3bbd59d0b505dc73e30d2e58431b6c3650814613b8c3e2cd01dc5835a09",
+      "inspected_at_utc": "2026-10-25T05:38:16+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Display plates sit on the lower oak stands and the upper bowl rests on its shelf. Open shelf space is clear. The upper-right mug is partly hidden by the cabinet side and camera."
+    },
+    {
+      "asset": "dish_cabinet",
+      "variant": "half",
+      "image": "assets/dish_cabinet/half/preview.png",
+      "sha256": "f006cf87f1e95d7257fa384974addc956450aa03eb66dae0df7d2e594eb8e011",
+      "inspected_at_utc": "2026-10-25T05:38:16+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Tall hutch, lower cupboard and two shelf bays stay distinct. Bowl and plate contours become chunky, while the supported arrangement remains readable; mug occlusion remains."
+    },
+    {
+      "asset": "kitchen_cart",
+      "variant": "large",
+      "image": "assets/kitchen_cart/large/preview.png",
+      "sha256": "dd33db167828e4e4113b797e198495f37b13a84f6731e46e71fec88263beb988",
+      "inspected_at_utc": "2026-10-25T05:38:16+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Caster wheels connect to their stems, shelves span the upright posts, and the towel stack sits on the lower shelf. Drawer pull and top transport bar are identifiable."
+    },
+    {
+      "asset": "kitchen_cart",
+      "variant": "half",
+      "image": "assets/kitchen_cart/half/preview.png",
+      "sha256": "75e468b253f4786f7a4745ae9914800b92a666a2248162af40a991e6f6619dc3",
+      "inspected_at_utc": "2026-10-25T05:38:16+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Caster, shelf and drawer silhouettes survive. Open shelf bays and pull clearance remain; thin top inlay lines simplify without obscuring the cart."
+    },
+    {
+      "asset": "dish_drying_rack",
+      "variant": "large",
+      "image": "assets/dish_drying_rack/large/preview.png",
+      "sha256": "f64c9241759853fef7f94f1a7bc35140f9de3f02d3d986df842dc8839ca30504",
+      "inspected_at_utc": "2026-10-25T05:38:21+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Three plates are visibly separated, with lower support bars beneath them. Divider loops, draining gaps, hollow utensil cup and tray handle are clear."
+    },
+    {
+      "asset": "dish_drying_rack",
+      "variant": "half",
+      "image": "assets/dish_drying_rack/half/preview.png",
+      "sha256": "2d35809d121c0b7f40545f76287e064745e69bc1b3db1ccf5a6a0b9b9d8c683a",
+      "inspected_at_utc": "2026-10-25T05:38:21+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "All three plates remain separated; open slots, cup top and tray handle remain visible. Coarser plate stepping is consistent with the true lower resolution."
+    },
+    {
+      "asset": "knife_block",
+      "variant": "large",
+      "image": "assets/knife_block/large/preview.png",
+      "sha256": "434a45b053556a6660d0a282b4d947bc7f212226c561a3ae83c2a021a14b1922",
+      "inspected_at_utc": "2026-10-25T05:38:21+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "Three differently raised knife handles and exposed blade portions are distinct, and the unused front slot is visibly empty. No detached blade is apparent."
+    },
+    {
+      "asset": "knife_block",
+      "variant": "half",
+      "image": "assets/knife_block/half/preview.png",
+      "sha256": "33fcdaba7049fb19fdc44ce5a2f52517978d740a0b35d95678c9ef7ca6d1682e",
+      "inspected_at_utc": "2026-10-25T05:38:21+00:00",
+      "method": "Direct image-tool inspection of the final primary 768px PNG",
+      "verdict": "pass",
+      "observations": "The three knife silhouettes remain separate, the front slot stays hollow and the sloped oak body retains its stepped form. Native connectivity corroborates hidden blade contact."
+    }
+  ],
+  "contact_sheet": {
+    "image": "overview_half.png",
+    "inspected_at_utc": "2026-10-25T05:39:19+00:00",
+    "sha256": "bf69850168e2f9543253d07be54e111909f85d4c6d9a505dc4019daafa0cc554",
+    "observations": "Six actual half views are correctly labeled in a clear 3x2 layout. No missing image or clipped label observed."
+  },
+  "target_files_modified": false,
+  "target_code_executed": false,
+  "target_rerendered_or_rebuilt": false,
+  "writes_confined_to": "voxel/kitchen/appliances/reviews"
+}

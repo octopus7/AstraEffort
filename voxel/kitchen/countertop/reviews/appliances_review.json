@@ -1,0 +1,209 @@
+{
+  "reviewer": "countertop worker",
+  "target_batch": "appliances",
+  "target_path": "D:\\github\\AstraEffort\\voxel\\kitchen\\appliances",
+  "started_at_utc": "2026-10-25T05:38:00+00:00",
+  "finished_at_utc": "2026-10-25T05:40:42.880561+00:00",
+  "started_at_kst": "2026-10-25T14:38:00+09:00",
+  "finished_at_kst": "2026-10-25T14:40:42.880561+09:00",
+  "elapsed_seconds": 162.880561,
+  "review_mode": "Independent read-only same-kitchen review authorized by coordinator. No target authoring or renderer execution.",
+  "spec_compliance": {
+    "verdict": "pass",
+    "blocking_findings": [],
+    "evidence": [
+      "Exact seven required appliance slugs with fourteen VOX150 files and fourteen 768px PNGs.",
+      "All saved native dimensions, common palette, coordinates and metadata checked independently.",
+      "All seven saved half grids exactly match 2x reduction of their saved large grids, with doubled meter scale and identical physical extents.",
+      "All 64 declared functional probes independently resampled from saved native data.",
+      "All 67 frozen files match SHA256; native/PNG hashes agree across metadata, capture and validation evidence.",
+      "All seven camera/light/render pairs match, with Cycles CPU, four threads, 24 samples, denoising and AgX.",
+      "Read-only pipeline inspection confirms surface construction consumes reparsed VOX, using the shared build_surface and add_studio helpers.",
+      "No forbidden scene, exchange mesh or engine artifacts found."
+    ]
+  },
+  "visual_technical_quality": {
+    "verdict": "pass",
+    "blocking_findings": [],
+    "minor_findings": [],
+    "summary": "All fourteen primary previews were directly inspected. The seven models are distinct, fully framed and consistent with the cream/sage/charcoal kitchen style; important openings remain readable at half size. No demonstrated defect requiring owner correction was found.",
+    "repaired_hood": "Visible canopy slit is absent in both final previews. Independent saved-native checks pass intact shell, continuous airway, open duct, filter gap, chimney wall and filter bar at both resolutions."
+  },
+  "findings": [],
+  "known_limits": [
+    "Single prescribed three-quarter camera does not expose every rear/underside surface; those functional regions were checked in saved native data where probes are supplied.",
+    "Glass is intentionally opaque. Dishwasher uses one static lowered-door pose; no operation, animation or mechanics are implied.",
+    "This review parsed saved files and recomputed reduction/features, but did not rerun target authoring, rendering or the target development suite. Authored-to-saved roundtrip is supported by hash-matched producer evidence and pipeline inspection.",
+    "Production timings are reported by the producer; this review records its own real timestamps separately."
+  ],
+  "independent_checks": {
+    "evidence": "appliances_check.json",
+    "elapsed_seconds": 2.5151428999379277,
+    "frozen_files_checked": 67,
+    "native_files_checked": 14,
+    "png_files_checked": 14,
+    "functional_probes": 64,
+    "same_camera_pairs": 7,
+    "target_modified": false,
+    "own_frozen_production_unchanged": true,
+    "own_frozen_files_checked": 73
+  },
+  "inspected_previews": [
+    {
+      "asset": "double_door_fridge",
+      "variant": "large",
+      "path": "assets/double_door_fridge/large/preview.png",
+      "sha256": "4e5a1e38e5f6f8fcdd7ce3b841d77624e58cb9b001284c509b15bcc1f8472aba",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Cream double-door silhouette is clear. Door seam and the two sage pulls remain visibly separate, with clean stepped corner rounding, plinth and feet. Whole model is framed.",
+      "findings": []
+    },
+    {
+      "asset": "double_door_fridge",
+      "variant": "half",
+      "path": "assets/double_door_fridge/half/preview.png",
+      "sha256": "35d321eb68a0ba184fc052e5b9e8a841898f527a37f2b8b2bdd60f94d4c176e5",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Door separation, projecting pulls and base survive reduction. The outer form is intentionally more angular; no clipping or filled grip clearance is apparent.",
+      "findings": []
+    },
+    {
+      "asset": "range_oven",
+      "variant": "large",
+      "path": "assets/range_oven/large/preview.png",
+      "sha256": "b9155d0750b492ddf8738dd75c3e2a59d92fe53b8a37c02a6053cb3be29f4b5d",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Four burner rests, four front knobs, oven pull and opaque blue-gray oven window read clearly. Cream/sage body and charcoal grates suit the brief.",
+      "findings": []
+    },
+    {
+      "asset": "range_oven",
+      "variant": "half",
+      "path": "assets/range_oven/half/preview.png",
+      "sha256": "47ad77041ca8bc555c586c29eea494edb8c267df906ada275090c804eefd4438",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "All four burners and knobs remain distinct. Oven-pull clearance is visible and the closed door remains readable. Same-camera framing is preserved.",
+      "findings": []
+    },
+    {
+      "asset": "microwave",
+      "variant": "large",
+      "path": "assets/microwave/large/preview.png",
+      "sha256": "9a6ac18ce17cdc6d08892790bcf1efe8c7f3a120b1da4e66b77a742a9bb5169b",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Wide microwave shape, opaque framed window, sage handle, dial/button and right-side ventilation slots are recognizable. Vents are actual visible recesses.",
+      "findings": []
+    },
+    {
+      "asset": "microwave",
+      "variant": "half",
+      "path": "assets/microwave/half/preview.png",
+      "sha256": "bc03e4e46dae0c56dd227b95d8be7f0d2ee5005d9f566e0daa7178943fab66fb",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Handle remains separate from the front and all four side slots survive. Control shapes and the window border remain legible despite coarser steps.",
+      "findings": []
+    },
+    {
+      "asset": "dishwasher",
+      "variant": "large",
+      "path": "assets/dishwasher/large/preview.png",
+      "sha256": "ed2dc36b3ee75850db84ef6e31b22cfed7c7050440a8c201121456ade55f4523",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Lowered static door, open wash chamber, two rack fronts, visible plate spacing and door dispenser are readable. Interior is dark but the important rack structure is distinct.",
+      "findings": []
+    },
+    {
+      "asset": "dishwasher",
+      "variant": "half",
+      "path": "assets/dishwasher/half/preview.png",
+      "sha256": "172916ab8060f2ed9e3c6b3f36729f59d6269e4f08a8ae96db9838a91dc879ed",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Open chamber and rack gaps survive native reduction; plates remain individually separated. Some upper items are naturally hidden behind the top rack/roof in this one camera.",
+      "findings": []
+    },
+    {
+      "asset": "range_hood",
+      "variant": "large",
+      "path": "assets/range_hood/large/preview.png",
+      "sha256": "7f3a8e73174b9cfcd9b25327692e5ec6fa70beb074491f1c661979eaa49bbe90",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "FINAL repaired preview: both visible sloped canopy surfaces are continuous with no unintended slit. Top duct opening, cream chimney, sage trim and front controls are clear.",
+      "findings": []
+    },
+    {
+      "asset": "range_hood",
+      "variant": "half",
+      "path": "assets/range_hood/half/preview.png",
+      "sha256": "4f839e99035e7d2e05cd2fe8777e15d71bc1045be1602b5b01ccd5a0f91a3628",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "FINAL repaired preview: continuous stepped canopy, open top duct and three control buttons remain readable. Underside filter is outside this camera view and is assessed via saved-native probes.",
+      "findings": []
+    },
+    {
+      "asset": "rice_cooker",
+      "variant": "large",
+      "path": "assets/rice_cooker/large/preview.png",
+      "sha256": "faa507439027af2b3274339bf4783e12db5d68ae4bd9eb594a05790e85f4526b",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Rounded cream cooker, separated sage lid band, open carry-handle loop, lid fittings, front control panel and feet form a clear appliance silhouette.",
+      "findings": []
+    },
+    {
+      "asset": "rice_cooker",
+      "variant": "half",
+      "path": "assets/rice_cooker/half/preview.png",
+      "sha256": "d6e599c19bf327bcc92160b4f3f6dba992e431ed43c048fc545e6b429f36759d",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Carry-handle opening remains visible and control blocks stay distinct. Coarser circular steps are expected; no broken connection or unintended closure is visible.",
+      "findings": []
+    },
+    {
+      "asset": "electric_kettle",
+      "variant": "large",
+      "path": "assets/electric_kettle/large/preview.png",
+      "sha256": "4d7c565145539e15addd448cc876b7dd9eb9fc02c074a616f5a60c41e2c5b8b5",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Kettle has a visible open spout mouth, generous open handle, lid, electric base, switch and opaque level panel. Its full silhouette fits the image.",
+      "findings": []
+    },
+    {
+      "asset": "electric_kettle",
+      "variant": "half",
+      "path": "assets/electric_kettle/half/preview.png",
+      "sha256": "d38d78b82355f40a842d32f125353d4c63288b375caf6b23596dfb8dcacbc131",
+      "inspected": true,
+      "tool": "view_image",
+      "observations": "Handle loop and spout mouth remain open and readable. Lid, base and switch remain distinct. The chunky spout and handle match the restrained voxel style.",
+      "findings": []
+    }
+  ],
+  "contact_sheet": {
+    "path": "overview_half.png",
+    "sha256": "93b01574cc14877f63a7baebb7ec9337253649330af3841ec18a04d3e772258a",
+    "inspected": true,
+    "observations": "Seven labeled half previews match the inspected final models. Labels, dimensions/cell sizes and footer are clear and unclipped."
+  },
+  "target_evidence_hashes": {
+    "RESULT.md": "040e96b89e972e0154aa085bb13832356c0d017d40523a42786e3824fa79f03a",
+    "STATUS.json": "125e96e6f2a3a90b05de805387f22a386811978bfb39fe4c8bec7377ee370994",
+    "validation.json": "1f4ccfa0e28b03660aca64b6492f0a072ff5c755efd1f369de2faee500d0f442",
+    "capture_manifest.json": "118f57e9fa743c48a1ff5e43195b9d2ca17eae83514625e350e079c05439accf",
+    "frozen_file_hashes.json": "97c5f3f5d025f311860df0cd03cae45d3af23a0cbd9d92a17f76d35068f77d2c",
+    "image_inspection.json": "f29daec2bf064533d30703b1e1940b84d0693935bc83a49452e8afb9653629f7",
+    "visual_fix.json": "06cc352b3acbb13903d4649b048b0910dd9cf256e2a5cc88ff663eed4c9b904b",
+    "timing.json": "79d847e935aab31c956f34a8dd55c4cb26fbda1f936aa9787a4279ea7d65d089"
+  }
+}

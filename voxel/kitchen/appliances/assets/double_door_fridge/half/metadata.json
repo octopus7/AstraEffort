@@ -1,0 +1,180 @@
+{
+  "asset": "double_door_fridge",
+  "label": "Double-door fridge",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "notes": [
+    "Two closed vertical doors; separate stepped pulls with air behind each grip.",
+    "Sage toe plinth, small opaque temperature display; no modeled lettering.",
+    "Occupied height approximately 1.98 m. No half postprocess."
+  ],
+  "half_method": "2x2x2 nonempty majority, higher palette index breaks ties",
+  "half_postprocess": null,
+  "same_physical_grid_extents": true,
+  "camera_bounds_source": "large native occupied bounds",
+  "native_roundtrip_passed": true,
+  "rendered_from_reparsed_vox": true,
+  "surface": {
+    "quads": 171,
+    "triangles": 342,
+    "exposed_unit_faces": 11620,
+    "surface_area_m2": 11.898880000000002,
+    "materials": 7
+  },
+  "grid_size": [
+    44,
+    38,
+    64
+  ],
+  "occupied_voxels": 67990,
+  "voxel_size_m": 0.032,
+  "grid_extents_m": [
+    1.408,
+    1.216,
+    2.048
+  ],
+  "occupied_bounds_voxels": [
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      41,
+      37,
+      63
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.608,
+      -0.544,
+      0.032
+    ],
+    [
+      0.608,
+      0.5760000000000001,
+      2.016
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    6,
+    9,
+    10,
+    15
+  ],
+  "occupancy_sha256": "6a1a7f6f36965765b11af4b6f24fd720ea01f9b6db2bc6b1e05fa5e890c3dcef",
+  "timing": {
+    "native_write_roundtrip_started_at_utc": "2026-10-25T05:31:14.255441+00:00",
+    "native_write_roundtrip_seconds": 0.02483920007944107,
+    "surface_build_seconds": 0.05896639998536557,
+    "render_seconds": 9.545661199954338
+  },
+  "sha256": {
+    "native": "b67f876126df90de8e45a5f4bd587e0039dd192917035b44ab7cdec48a2105d5",
+    "preview": "35d321eb68a0ba184fc052e5b9e8a841898f527a37f2b8b2bdd60f94d4c176e5"
+  }
+}

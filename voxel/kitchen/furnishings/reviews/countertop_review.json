@@ -1,0 +1,201 @@
+{
+  "reviewer_batch": "furnishings",
+  "target_batch": "countertop",
+  "review_mode": "explicitly assigned read-only same-kitchen cross-review",
+  "started_at_utc": "2026-10-25T05:38:02+00:00",
+  "started_at_kst": "2026-10-25T14:38:02+09:00",
+  "finished_at_utc": "2026-10-25T05:40:20.411921+00:00",
+  "finished_at_kst": "2026-10-25T14:40:20.411921+09:00",
+  "elapsed_seconds": 138.411921,
+  "spec_compliance_verdict": "pass",
+  "visual_technical_quality_verdict": "pass",
+  "blocking_findings": [],
+  "nonblocking_findings": [],
+  "summary": "Seven required models, fourteen native/render pairs and the labeled contact sheet meet the reviewed brief. No change is required.",
+  "audit": {
+    "frozen_files_verified": 73,
+    "native_files": 14,
+    "primary_previews_inspected": 14,
+    "critical_empty_volume_checks": 32,
+    "exact_native_half_reductions": 7,
+    "matched_camera_light_pairs": 7,
+    "png_crc_and_decompression_checks": 14,
+    "forbidden_outputs": 0,
+    "target_modified": false,
+    "target_code_executed": false,
+    "own_frozen_production_unchanged": true
+  },
+  "evidence": [
+    {
+      "path": "RESULT.md",
+      "sha256": "92ffe854c35f9e00a2dacf7e6af190c1d957400846b77693fbabe33c1ae5dba8"
+    },
+    {
+      "path": "STATUS.json",
+      "sha256": "24ac228b466851dacad9660a44d88248321c6a0bc39d4fe90e7b89c16d9a636c"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "87fd54816c222dc10c9db68586b26986ac1d758e0ca007ec7970c4d0d976a21a"
+    },
+    {
+      "path": "capture_manifest.json",
+      "sha256": "91f643b9519aa2f3debe039b05bd2661c1b5cf11a342f6dcb39fdac7a39f31b0"
+    },
+    {
+      "path": "frozen_file_hashes.json",
+      "sha256": "14e9e71184dac398f8adc7860f30e3c341d6ffc3e56a079609ae5ba01c2e103d"
+    },
+    {
+      "path": "visual_inspection.json",
+      "sha256": "9370a1e7c05928c1a4ba5d400351570657877000605484d497b7a5359e046797"
+    },
+    {
+      "path": "preview_pipeline.py",
+      "sha256": "015f79bfaeeb2970c834be64765a5dbfaf030970cccc44bfbda30b9483dfd8fa"
+    }
+  ],
+  "independent_check_file": "countertop_checks.json",
+  "independent_check_sha256": "a3a1ea32345ed369d41d530dc149bd665de0445dfdb56f5a6b5b1098059bc7dd",
+  "images": [
+    {
+      "asset": "stand_mixer",
+      "variant": "large",
+      "image": "assets/stand_mixer/large/preview.png",
+      "sha256": "825ae980fb4104e3f222c069422678b1a413ec2f7a362d9d4f2e001c0e2a6a7b",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Mixer head, post, deep open bowl, right loop handle and working space around the beater are distinct and unclipped."
+    },
+    {
+      "asset": "stand_mixer",
+      "variant": "half",
+      "image": "assets/stand_mixer/half/preview.png",
+      "sha256": "0181f57669ed09acfe0f6abfd6aeb854db377017776e53f34e53bc840b61899a",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Bowl cavity, handle hole and clearance beside the beater remain visible. Larger voxel steps do not obscure the mixer silhouette."
+    },
+    {
+      "asset": "espresso_machine",
+      "variant": "large",
+      "image": "assets/espresso_machine/large/preview.png",
+      "sha256": "bcd5bb69522a78abc134dbf031e9f460659d17ee5068ef5c9ba2721cbd6bfaa0",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Open cup bay, mug, right steam wand, drip slats and control face read as an espresso machine. Portafilter grip overlaps the cup in projection, consistent with the common camera."
+    },
+    {
+      "asset": "espresso_machine",
+      "variant": "half",
+      "image": "assets/espresso_machine/half/preview.png",
+      "sha256": "189e7c64023afe3e41ecd32d13dd1bd372fe6b6429e6e995d1e6327da7753757",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Cup bay, cup loop and slats remain distinct; chunky controls preserve readability. Native checks confirm the cup cavity and handle remain empty."
+    },
+    {
+      "asset": "toaster",
+      "variant": "large",
+      "image": "assets/toaster/large/preview.png",
+      "sha256": "bb774effe7f7e3e49e32aede60a95e2fe46a5a997a6096bd1771ae672dc26563",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Two top slots, rear toast slice, side lever and front controls are clearly readable with complete framing."
+    },
+    {
+      "asset": "toaster",
+      "variant": "half",
+      "image": "assets/toaster/half/preview.png",
+      "sha256": "9f25d9e6ee4513ab994f3e925fc5a24905139713f71a312b3089bcd5f3d49fe7",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Both slots remain open around the toast/end gap. Lever and cream body preserve the toaster identity; reduced corner stepping is expected."
+    },
+    {
+      "asset": "blender",
+      "variant": "large",
+      "image": "assets/blender/large/preview.png",
+      "sha256": "9d72bbf9865d9fe17a2a464de8b5bc51b65bc1273f07c3651e67b14d8a7a51a1",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Blue-gray jug, cream lid, capacity marks and large handle loop are readable. Opaque glass intentionally hides the interior."
+    },
+    {
+      "asset": "blender",
+      "variant": "half",
+      "image": "assets/blender/half/preview.png",
+      "sha256": "ef2aeefedf812176bfa56d7177f31560cb1fe1fbd2066e15d4bacb7404a96314",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Handle opening remains visible; lid, jug and motor base remain separate silhouette features. Hidden jug cavity is confirmed from native occupancy."
+    },
+    {
+      "asset": "stock_pot",
+      "variant": "large",
+      "image": "assets/stock_pot/large/preview.png",
+      "sha256": "d8cae049dff4a00f1d9d99230aadbde67dcd2d2364dc04443d1c8cecb234c484",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Deep bowl, complete visible rim and two cream handle loops are clear. Dark interior rectangles are occupied dark-metal mounts, independently checked at saved coordinates."
+    },
+    {
+      "asset": "stock_pot",
+      "variant": "half",
+      "image": "assets/stock_pot/half/preview.png",
+      "sha256": "bdbd19bc8145bad8755a8245e1919a2a334846cb36f6116298f6570382ddd2fd",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "The bowl and both handle loops remain open. The visible wall is continuous and the previously documented handle-cutter puncture is not present in these final files."
+    },
+    {
+      "asset": "frying_pan",
+      "variant": "large",
+      "image": "assets/frying_pan/large/preview.png",
+      "sha256": "e755fc5428a835cd356e4d061ee4bd9d3d27cf299343f64bfed8be3f29924ade",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Open nonstick bowl, metal rim, connected neck and oak-inset handle are readable. Hanging hole is open; framing includes the full handle."
+    },
+    {
+      "asset": "frying_pan",
+      "variant": "half",
+      "image": "assets/frying_pan/half/preview.png",
+      "sha256": "ce33f45f5ad3201ec88c14e119cbf9cfb724cdfa04f2b2860e4b16f880d4645a",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Bowl remains hollow, hanging hole survives and neck remains visibly connected. Stout handle and stepped interior are intentional low-resolution geometry."
+    },
+    {
+      "asset": "cutting_board_knife",
+      "variant": "large",
+      "image": "assets/cutting_board_knife/large/preview.png",
+      "sha256": "afe0c4a97d1fb0e7c8928fc42937ea9b8843fd1cf5f68d8f0491e7db7d2a35fd",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Oak board, juice groove, hanging tab and resting chef knife are distinct. Knife edge and rivets remain legible without clipping."
+    },
+    {
+      "asset": "cutting_board_knife",
+      "variant": "half",
+      "image": "assets/cutting_board_knife/half/preview.png",
+      "sha256": "e1891407a5e4ab6842876360c0cc71bc296f7b7b0e18530efa409e5f739a2cf3",
+      "inspected_with": "tools.view_image",
+      "passed": true,
+      "observations": "Board hole and groove persist; blade, guard and handle remain identifiable. Fine grain and edge details simplify as documented."
+    }
+  ],
+  "contact_sheet": {
+    "image": "overview_half.png",
+    "sha256": "f9debfd6f7d1431618ff00b85044216021caf7c79edd7c0fad273c4fa6ed6b49",
+    "inspected": true,
+    "observations": "All seven actual half previews are labeled, captions are legible, and the title/footer are unclipped."
+  },
+  "known_limits": [
+    "One standardized three-quarter view per variant; no new views, target renders, rebuilds or full development-suite runs were performed.",
+    "Opaque blue-gray glass intentionally conceals the blender interior; saved native samples confirm the empty cavity.",
+    "Fine wires, knife edges and handles are stout to survive reduction; stair stepping and detail simplification are expected native voxel characteristics.",
+    "Owner full authored-grid roundtrip and original 66 feature probes were assessed through frozen evidence. This independent audit reparsed natives, verified exact saved-large to saved-half reduction and rechecked 32 critical empty volumes without importing target authoring code."
+  ],
+  "resolved_visual_question": "Dark stock-pot interior patches are palette index 8 at large-grid [35,48,64] and [92,48,64], not empty wall punctures."
+}

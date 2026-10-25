@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T05:34:28.929226+00:00",
+  "finished_at_utc": "2026-10-25T05:34:29.559065+00:00",
+  "elapsed_seconds": 0.6294596999650821,
+  "occupancy_authoring_seconds": 0.30463390005752444,
+  "variants": [
+    {
+      "asset": "dish_cabinet",
+      "variant": "large",
+      "native_sha256": "e8ffbcdbd4410b5a6d35b8ac03325f0343fc0ba08a45cc4adcee45456df933ff",
+      "occupied_voxels": 287172,
+      "feature_probes": [
+        {
+          "feature": "lower display shelf front clearance",
+          "bounds_voxels": [
+            [
+              14,
+              12,
+              64
+            ],
+            [
+              78,
+              19,
+              82
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 8064,
+          "passed": true
+        },
+        {
+          "feature": "upper display shelf right clearance",
+          "bounds_voxels": [
+            [
+              46,
+              12,
+              94
+            ],
+            [
+              76,
+              18,
+              114
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 3600,
+          "passed": true
+        },
+        {
+          "feature": "mug cavity",
+          "bounds_voxels": [
+            [
+              60,
+              27,
+              104
+            ],
+            [
+              66,
+              31,
+              110
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 144,
+          "passed": true
+        },
+        {
+          "feature": "shelf solid base",
+          "bounds_voxels": [
+            [
+              14,
+              14,
+              86
+            ],
+            [
+              76,
+              42,
+              90
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 6944,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "asset": "dish_cabinet",
+      "variant": "half",
+      "native_sha256": "f10405523360adf1e5ab25a00a9413f50c90bc41ebc49bcce9dd7e355af9d185",
+      "occupied_voxels": 40255,
+      "feature_probes": [
+        {
+          "feature": "lower display shelf front clearance",
+          "bounds_voxels": [
+            [
+              7,
+              6,
+              32
+            ],
+            [
+              39,
+              9,
+              41
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 864,
+          "passed": true
+        },
+        {
+          "feature": "upper display shelf right clearance",
+          "bounds_voxels": [
+            [
+              23,
+              6,
+              47
+            ],
+            [
+              38,
+              9,
+              57
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 450,
+          "passed": true
+        },
+        {
+          "feature": "mug cavity",
+          "bounds_voxels": [
+            [
+              30,
+              14,
+              52
+            ],
+            [
+              33,
+              15,
+              55
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 9,
+          "passed": true
+        },
+        {
+          "feature": "shelf solid base",
+          "bounds_voxels": [
+            [
+              7,
+              7,
+              43
+            ],
+            [
+              38,
+              21,
+              45
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 868,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

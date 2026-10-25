@@ -1,0 +1,178 @@
+{
+  "asset": "range_hood",
+  "label": "Range hood",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "notes": [
+    "Flared canopy with sage lower lip and an open chimney duct.",
+    "Underside has a real void and sparse filter bars, not a painted cavity.",
+    "Occupied width approximately 0.89 m. No half postprocess."
+  ],
+  "half_method": "2x2x2 nonempty majority, higher palette index breaks ties",
+  "half_postprocess": null,
+  "same_physical_grid_extents": true,
+  "camera_bounds_source": "large native occupied bounds",
+  "native_roundtrip_passed": true,
+  "rendered_from_reparsed_vox": true,
+  "surface": {
+    "quads": 372,
+    "triangles": 744,
+    "exposed_unit_faces": 13272,
+    "surface_area_m2": 2.7520819199999997,
+    "materials": 5
+  },
+  "grid_size": [
+    64,
+    40,
+    52
+  ],
+  "occupied_voxels": 25148,
+  "voxel_size_m": 0.0144,
+  "grid_extents_m": [
+    0.9216,
+    0.576,
+    0.7488
+  ],
+  "occupied_bounds_voxels": [
+    [
+      1,
+      4,
+      6
+    ],
+    [
+      63,
+      39,
+      52
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.44639999999999996,
+      -0.2304,
+      0.0864
+    ],
+    [
+      0.44639999999999996,
+      0.2736,
+      0.7488
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    6,
+    8,
+    15
+  ],
+  "occupancy_sha256": "67023a3530a599537af48ee3ffa852a4c436cdd52b5785728b09817dad2004c3",
+  "timing": {
+    "native_write_roundtrip_started_at_utc": "2026-10-25T05:34:20.202625+00:00",
+    "native_write_roundtrip_seconds": 0.0089725999860093,
+    "surface_build_seconds": 0.09361179999541491,
+    "render_seconds": 9.811225099954754
+  },
+  "sha256": {
+    "native": "9d6c7ad25e17ac1febe4014c95a5b8b72c1beb4fa6beed0057dd46bedf2ed818",
+    "preview": "4f839e99035e7d2e05cd2fe8777e15d71bc1045be1602b5b01ccd5a0f91a3628"
+  }
+}

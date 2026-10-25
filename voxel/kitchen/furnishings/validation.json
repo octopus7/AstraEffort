@@ -1,0 +1,1323 @@
+{
+  "passed": true,
+  "scope": "native_and_renders",
+  "started_at_utc": "2026-10-25T05:37:09.017221+00:00",
+  "finished_at_utc": "2026-10-25T05:37:13.098932+00:00",
+  "elapsed_seconds": 4.0818424000171944,
+  "asset_count": 6,
+  "native_count": 12,
+  "preview_count": 12,
+  "feature_probe_count": 48,
+  "forbidden_exports": [],
+  "errors": [],
+  "variants": [
+    {
+      "asset": "sink_cabinet",
+      "variant": "large",
+      "native_sha256": "aa2405e2a28f6abd3801c6794612658bee4c020032ca2c1611f8d21710e31896",
+      "grid_size": [
+        128,
+        80,
+        124
+      ],
+      "occupied_voxels": 658722,
+      "voxel_size_m": 0.01,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "sink basin open interior",
+          "bounds_voxels": [
+            [
+              38,
+              30,
+              80
+            ],
+            [
+              54,
+              50,
+              94
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 4480,
+          "passed": true
+        },
+        {
+          "feature": "sink metal floor",
+          "bounds_voxels": [
+            [
+              38,
+              30,
+              70
+            ],
+            [
+              54,
+              50,
+              74
+            ]
+          ],
+          "expected_palette_index": 7,
+          "found_palette_indices": [
+            7
+          ],
+          "cells_checked": 1280,
+          "passed": true
+        },
+        {
+          "feature": "left door pull air gap",
+          "bounds_voxels": [
+            [
+              44,
+              4,
+              58
+            ],
+            [
+              50,
+              7,
+              62
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 72,
+          "passed": true
+        },
+        {
+          "feature": "faucet suspended over basin",
+          "bounds_voxels": [
+            [
+              61,
+              49,
+              104
+            ],
+            [
+              67,
+              59,
+              113
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 540,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "12e74101cbf3713e02715d32caf4603b1c0a73c078821ab3d314cd3d693a8d9b",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "sink_cabinet",
+      "variant": "half",
+      "native_sha256": "e87998dd7d949181407d297032084a25179a965a90e8821f7041e9791c0d9ffd",
+      "grid_size": [
+        64,
+        40,
+        62
+      ],
+      "occupied_voxels": 84334,
+      "voxel_size_m": 0.02,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "sink basin open interior",
+          "bounds_voxels": [
+            [
+              19,
+              15,
+              40
+            ],
+            [
+              27,
+              25,
+              47
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 560,
+          "passed": true
+        },
+        {
+          "feature": "sink metal floor",
+          "bounds_voxels": [
+            [
+              19,
+              15,
+              35
+            ],
+            [
+              27,
+              25,
+              37
+            ]
+          ],
+          "expected_palette_index": 7,
+          "found_palette_indices": [
+            7
+          ],
+          "cells_checked": 160,
+          "passed": true
+        },
+        {
+          "feature": "left door pull air gap",
+          "bounds_voxels": [
+            [
+              22,
+              2,
+              29
+            ],
+            [
+              25,
+              3,
+              31
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 6,
+          "passed": true
+        },
+        {
+          "feature": "faucet suspended over basin",
+          "bounds_voxels": [
+            [
+              31,
+              25,
+              52
+            ],
+            [
+              33,
+              29,
+              56
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 32,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "452866e720617c69ff515bd8e31bc794fbc4f93c71f0a7e8e2321578ea4be7e5",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "kitchen_island",
+      "variant": "large",
+      "native_sha256": "5f90512ae5219d996f50d1d9fd780d294efc4329fc95e29cf2e1ad85f7e50188",
+      "grid_size": [
+        128,
+        84,
+        92
+      ],
+      "occupied_voxels": 460550,
+      "voxel_size_m": 0.011,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "upper side shelf clear bay",
+          "bounds_voxels": [
+            [
+              94,
+              25,
+              52
+            ],
+            [
+              114,
+              60,
+              74
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 15400,
+          "passed": true
+        },
+        {
+          "feature": "lower side shelf clearance",
+          "bounds_voxels": [
+            [
+              94,
+              25,
+              34
+            ],
+            [
+              114,
+              60,
+              42
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 5600,
+          "passed": true
+        },
+        {
+          "feature": "right shelf floor",
+          "bounds_voxels": [
+            [
+              94,
+              25,
+              44
+            ],
+            [
+              114,
+              60,
+              48
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 2800,
+          "passed": true
+        },
+        {
+          "feature": "towel rail opening",
+          "bounds_voxels": [
+            [
+              118,
+              29,
+              62
+            ],
+            [
+              122,
+              33,
+              66
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 64,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "db7a573f722f68256ed9d1010155725cc886744591e0a6ae2067e95ec9d10d92",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "kitchen_island",
+      "variant": "half",
+      "native_sha256": "9c514b98ea927756ca1e6f26076a3b6cf5a9031313a62659f0fe87009a6b689b",
+      "grid_size": [
+        64,
+        42,
+        46
+      ],
+      "occupied_voxels": 60719,
+      "voxel_size_m": 0.022,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "upper side shelf clear bay",
+          "bounds_voxels": [
+            [
+              47,
+              13,
+              26
+            ],
+            [
+              57,
+              30,
+              37
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 1870,
+          "passed": true
+        },
+        {
+          "feature": "lower side shelf clearance",
+          "bounds_voxels": [
+            [
+              47,
+              13,
+              17
+            ],
+            [
+              57,
+              30,
+              21
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 680,
+          "passed": true
+        },
+        {
+          "feature": "right shelf floor",
+          "bounds_voxels": [
+            [
+              47,
+              13,
+              22
+            ],
+            [
+              57,
+              30,
+              24
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 340,
+          "passed": true
+        },
+        {
+          "feature": "towel rail opening",
+          "bounds_voxels": [
+            [
+              59,
+              15,
+              31
+            ],
+            [
+              61,
+              16,
+              33
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 4,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "95b94732929df0d27939809b481b2904e0e32b07bf6db48bc948b7f961abc48a",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "dish_cabinet",
+      "variant": "large",
+      "native_sha256": "e8ffbcdbd4410b5a6d35b8ac03325f0343fc0ba08a45cc4adcee45456df933ff",
+      "grid_size": [
+        92,
+        54,
+        128
+      ],
+      "occupied_voxels": 287172,
+      "voxel_size_m": 0.014,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "lower display shelf front clearance",
+          "bounds_voxels": [
+            [
+              14,
+              12,
+              64
+            ],
+            [
+              78,
+              19,
+              82
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 8064,
+          "passed": true
+        },
+        {
+          "feature": "upper display shelf right clearance",
+          "bounds_voxels": [
+            [
+              46,
+              12,
+              94
+            ],
+            [
+              76,
+              18,
+              114
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 3600,
+          "passed": true
+        },
+        {
+          "feature": "mug cavity",
+          "bounds_voxels": [
+            [
+              60,
+              27,
+              104
+            ],
+            [
+              66,
+              31,
+              110
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 144,
+          "passed": true
+        },
+        {
+          "feature": "shelf solid base",
+          "bounds_voxels": [
+            [
+              14,
+              14,
+              86
+            ],
+            [
+              76,
+              42,
+              90
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 6944,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "bd4af3bbd59d0b505dc73e30d2e58431b6c3650814613b8c3e2cd01dc5835a09",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "dish_cabinet",
+      "variant": "half",
+      "native_sha256": "f10405523360adf1e5ab25a00a9413f50c90bc41ebc49bcce9dd7e355af9d185",
+      "grid_size": [
+        46,
+        27,
+        64
+      ],
+      "occupied_voxels": 40255,
+      "voxel_size_m": 0.028,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "lower display shelf front clearance",
+          "bounds_voxels": [
+            [
+              7,
+              6,
+              32
+            ],
+            [
+              39,
+              9,
+              41
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 864,
+          "passed": true
+        },
+        {
+          "feature": "upper display shelf right clearance",
+          "bounds_voxels": [
+            [
+              23,
+              6,
+              47
+            ],
+            [
+              38,
+              9,
+              57
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 450,
+          "passed": true
+        },
+        {
+          "feature": "mug cavity",
+          "bounds_voxels": [
+            [
+              30,
+              14,
+              52
+            ],
+            [
+              33,
+              15,
+              55
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 9,
+          "passed": true
+        },
+        {
+          "feature": "shelf solid base",
+          "bounds_voxels": [
+            [
+              7,
+              7,
+              43
+            ],
+            [
+              38,
+              21,
+              45
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 868,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "f006cf87f1e95d7257fa384974addc956450aa03eb66dae0df7d2e594eb8e011",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "kitchen_cart",
+      "variant": "large",
+      "native_sha256": "d7e353eac7bf8787a8eba65fbcb6daf61e126e82d6e82752065ee1b6112fddad",
+      "grid_size": [
+        100,
+        72,
+        128
+      ],
+      "occupied_voxels": 255266,
+      "voxel_size_m": 0.0078,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "middle shelf open bay",
+          "bounds_voxels": [
+            [
+              20,
+              18,
+              73
+            ],
+            [
+              80,
+              58,
+              81
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 19200,
+          "passed": true
+        },
+        {
+          "feature": "bottom shelf clearance over towels",
+          "bounds_voxels": [
+            [
+              20,
+              18,
+              50
+            ],
+            [
+              80,
+              54,
+              62
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 25920,
+          "passed": true
+        },
+        {
+          "feature": "transport handle loop",
+          "bounds_voxels": [
+            [
+              94,
+              22,
+              118
+            ],
+            [
+              98,
+              52,
+              122
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 480,
+          "passed": true
+        },
+        {
+          "feature": "drawer pull empty gap",
+          "bounds_voxels": [
+            [
+              42,
+              4,
+              94
+            ],
+            [
+              58,
+              6,
+              98
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 128,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "dd33db167828e4e4113b797e198495f37b13a84f6731e46e71fec88263beb988",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "kitchen_cart",
+      "variant": "half",
+      "native_sha256": "d1b2772a509372b97775df62dcc03e0a41f455092b02f7a9ad3b067d3aab021c",
+      "grid_size": [
+        50,
+        36,
+        64
+      ],
+      "occupied_voxels": 34918,
+      "voxel_size_m": 0.0156,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "middle shelf open bay",
+          "bounds_voxels": [
+            [
+              10,
+              9,
+              37
+            ],
+            [
+              40,
+              29,
+              40
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 1800,
+          "passed": true
+        },
+        {
+          "feature": "bottom shelf clearance over towels",
+          "bounds_voxels": [
+            [
+              10,
+              9,
+              25
+            ],
+            [
+              40,
+              27,
+              31
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 3240,
+          "passed": true
+        },
+        {
+          "feature": "transport handle loop",
+          "bounds_voxels": [
+            [
+              47,
+              11,
+              59
+            ],
+            [
+              49,
+              26,
+              61
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 60,
+          "passed": true
+        },
+        {
+          "feature": "drawer pull empty gap",
+          "bounds_voxels": [
+            [
+              21,
+              2,
+              47
+            ],
+            [
+              29,
+              3,
+              49
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 16,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "75e468b253f4786f7a4745ae9914800b92a666a2248162af40a991e6f6619dc3",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "dish_drying_rack",
+      "variant": "large",
+      "native_sha256": "01d79eadc96123001029541fc6f9d4c0a70953c89980c6c001f14dd88da88581",
+      "grid_size": [
+        128,
+        94,
+        72
+      ],
+      "occupied_voxels": 144578,
+      "voxel_size_m": 0.0046,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "first plate slot front air",
+          "bounds_voxels": [
+            [
+              23,
+              12,
+              26
+            ],
+            [
+              31,
+              18,
+              40
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 672,
+          "passed": true
+        },
+        {
+          "feature": "between plates air",
+          "bounds_voxels": [
+            [
+              32,
+              34,
+              34
+            ],
+            [
+              34,
+              60,
+              44
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 520,
+          "passed": true
+        },
+        {
+          "feature": "utensil cup open interior",
+          "bounds_voxels": [
+            [
+              95,
+              49,
+              30
+            ],
+            [
+              102,
+              52,
+              44
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 294,
+          "passed": true
+        },
+        {
+          "feature": "left tray handle opening",
+          "bounds_voxels": [
+            [
+              2,
+              40,
+              14
+            ],
+            [
+              6,
+              54,
+              18
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 224,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "f64c9241759853fef7f94f1a7bc35140f9de3f02d3d986df842dc8839ca30504",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "dish_drying_rack",
+      "variant": "half",
+      "native_sha256": "b5a23b49cd900641e9f3af82709a9c3e692e2d9acfe950643154ffcf3d9204e7",
+      "grid_size": [
+        64,
+        47,
+        36
+      ],
+      "occupied_voxels": 22414,
+      "voxel_size_m": 0.0092,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "first plate slot front air",
+          "bounds_voxels": [
+            [
+              12,
+              6,
+              13
+            ],
+            [
+              15,
+              9,
+              20
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 63,
+          "passed": true
+        },
+        {
+          "feature": "between plates air",
+          "bounds_voxels": [
+            [
+              16,
+              17,
+              17
+            ],
+            [
+              17,
+              30,
+              22
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 65,
+          "passed": true
+        },
+        {
+          "feature": "utensil cup open interior",
+          "bounds_voxels": [
+            [
+              48,
+              25,
+              15
+            ],
+            [
+              51,
+              26,
+              22
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 21,
+          "passed": true
+        },
+        {
+          "feature": "left tray handle opening",
+          "bounds_voxels": [
+            [
+              1,
+              20,
+              7
+            ],
+            [
+              3,
+              27,
+              9
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 28,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "2d35809d121c0b7f40545f76287e064745e69bc1b3db1ccf5a6a0b9b9d8c683a",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "knife_block",
+      "variant": "large",
+      "native_sha256": "af336997c7323ae59c52bc4f376b821c8c7230c93b5f9c0f8a4a9ad6d6e6fb86",
+      "grid_size": [
+        78,
+        72,
+        128
+      ],
+      "occupied_voxels": 222260,
+      "voxel_size_m": 0.0032,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "unused front slot",
+          "bounds_voxels": [
+            [
+              34,
+              18,
+              46
+            ],
+            [
+              46,
+              26,
+              64
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 1728,
+          "passed": true
+        },
+        {
+          "feature": "air between handles",
+          "bounds_voxels": [
+            [
+              28,
+              40,
+              106
+            ],
+            [
+              32,
+              52,
+              114
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 384,
+          "passed": true
+        },
+        {
+          "feature": "left knife broad metal blade",
+          "bounds_voxels": [
+            [
+              18,
+              36,
+              80
+            ],
+            [
+              22,
+              46,
+              92
+            ]
+          ],
+          "expected_palette_index": 7,
+          "found_palette_indices": [
+            7
+          ],
+          "cells_checked": 480,
+          "passed": true
+        },
+        {
+          "feature": "oak block front solid",
+          "bounds_voxels": [
+            [
+              14,
+              12,
+              14
+            ],
+            [
+              62,
+              16,
+              46
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 6144,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "434a45b053556a6660d0a282b4d947bc7f212226c561a3ae83c2a021a14b1922",
+      "render_settings_passed": true
+    },
+    {
+      "asset": "knife_block",
+      "variant": "half",
+      "native_sha256": "2dacecca905231e8b5e4d94f41a0b0a2344d8f5efd2d01e64e799651540a10f7",
+      "grid_size": [
+        39,
+        36,
+        64
+      ],
+      "occupied_voxels": 30287,
+      "voxel_size_m": 0.0064,
+      "native_roundtrip_passed": true,
+      "feature_probes": [
+        {
+          "feature": "unused front slot",
+          "bounds_voxels": [
+            [
+              17,
+              9,
+              23
+            ],
+            [
+              23,
+              13,
+              32
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 216,
+          "passed": true
+        },
+        {
+          "feature": "air between handles",
+          "bounds_voxels": [
+            [
+              14,
+              20,
+              53
+            ],
+            [
+              16,
+              26,
+              57
+            ]
+          ],
+          "expected_palette_index": 0,
+          "found_palette_indices": [
+            0
+          ],
+          "cells_checked": 48,
+          "passed": true
+        },
+        {
+          "feature": "left knife broad metal blade",
+          "bounds_voxels": [
+            [
+              9,
+              18,
+              40
+            ],
+            [
+              11,
+              23,
+              46
+            ]
+          ],
+          "expected_palette_index": 7,
+          "found_palette_indices": [
+            7
+          ],
+          "cells_checked": 60,
+          "passed": true
+        },
+        {
+          "feature": "oak block front solid",
+          "bounds_voxels": [
+            [
+              7,
+              6,
+              7
+            ],
+            [
+              31,
+              8,
+              23
+            ]
+          ],
+          "expected_palette_index": 5,
+          "found_palette_indices": [
+            5
+          ],
+          "cells_checked": 768,
+          "passed": true
+        }
+      ],
+      "six_neighbor_connected_components": 1,
+      "png": {
+        "width": 768,
+        "height": 768,
+        "bit_depth": 8,
+        "color_type": 2,
+        "crc_and_zlib_passed": true
+      },
+      "image_sha256": "33fcdaba7049fb19fdc44ce5a2f52517978d740a0b35d95678c9ef7ca6d1682e",
+      "render_settings_passed": true
+    }
+  ]
+}

@@ -1,0 +1,1560 @@
+{
+  "actual_blender_renders": true,
+  "blender_version": "4.5.12 LTS",
+  "captures": [
+    {
+      "asset": "stand_mixer",
+      "variant": "large",
+      "image": "assets/stand_mixer/large/preview.png",
+      "started_at_utc": "2026-10-25T05:31:22.618463+00:00",
+      "finished_at_utc": "2026-10-25T05:31:32.547488+00:00",
+      "elapsed_seconds": 9.928954599890858,
+      "surface_build_seconds": 2.1351561000337824,
+      "settings": {
+        "camera_location": [
+          0.6099264621734619,
+          -0.800735354423523,
+          0.7228860855102539
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          5.010399561911072e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 0.6928470730781555,
+        "target": [
+          0.00937499850988388,
+          0.0,
+          0.18906250596046448
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.7468750476837158,
+              -1.1343750953674316,
+              1.701562523841858
+            ],
+            "rotation_radians": [
+              0.7335812449455261,
+              7.625244791142904e-08,
+              -0.5880025625228882
+            ],
+            "energy": 8.489350318908691,
+            "size": 1.058750033378601
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.1437500715255737,
+              -0.37812501192092896,
+              0.9453125
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.8028742942988174e-08,
+              1.2490458488464355
+            ],
+            "energy": 4.646801948547363,
+            "size": 1.2100000381469727
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.38750001788139343,
+              1.1343750953674316,
+              1.3234375715255737
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy": 6.702118396759033,
+            "size": 0.9453125
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.125,
+            -0.17500000000000002,
+            0.0
+          ],
+          [
+            0.14375000000000002,
+            0.17500000000000002,
+            0.37812500000000004
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "11383957cdac3e4524edaaab9cc144289f4cccceccd5d0a153e8c3eb49dcf97a",
+      "image_sha256": "825ae980fb4104e3f222c069422678b1a413ec2f7a362d9d4f2e001c0e2a6a7b",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "stand_mixer",
+      "variant": "half",
+      "image": "assets/stand_mixer/half/preview.png",
+      "started_at_utc": "2026-10-25T05:31:32.946076+00:00",
+      "finished_at_utc": "2026-10-25T05:31:44.495846+00:00",
+      "elapsed_seconds": 11.549606699962169,
+      "surface_build_seconds": 0.34420700010377914,
+      "settings": {
+        "camera_location": [
+          0.6099264621734619,
+          -0.800735354423523,
+          0.7228860855102539
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          5.010399561911072e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 0.6928470730781555,
+        "target": [
+          0.00937499850988388,
+          0.0,
+          0.18906250596046448
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.7468750476837158,
+              -1.1343750953674316,
+              1.701562523841858
+            ],
+            "rotation_radians": [
+              0.7335812449455261,
+              7.625244791142904e-08,
+              -0.5880025625228882
+            ],
+            "energy": 8.489350318908691,
+            "size": 1.058750033378601
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.1437500715255737,
+              -0.37812501192092896,
+              0.9453125
+            ],
+            "rotation_radians": [
+              1.006853699684143,
+              1.8028742942988174e-08,
+              1.2490458488464355
+            ],
+            "energy": 4.646801948547363,
+            "size": 1.2100000381469727
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.38750001788139343,
+              1.1343750953674316,
+              1.3234375715255737
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy": 6.702118396759033,
+            "size": 0.9453125
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.125,
+            -0.17500000000000002,
+            0.0
+          ],
+          [
+            0.14375000000000002,
+            0.17500000000000002,
+            0.37812500000000004
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "234bf8976befb9ab6ea1d239f1f7834504b4293bfa51aec87bfa371c7aa22267",
+      "image_sha256": "0181f57669ed09acfe0f6abfd6aeb854db377017776e53f34e53bc840b61899a",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "espresso_machine",
+      "variant": "large",
+      "image": "assets/espresso_machine/large/preview.png",
+      "started_at_utc": "2026-10-25T05:31:47.003337+00:00",
+      "finished_at_utc": "2026-10-25T05:31:58.464924+00:00",
+      "elapsed_seconds": 11.46174629998859,
+      "surface_build_seconds": 1.5297759999521077,
+      "settings": {
+        "camera_location": [
+          0.6204044222831726,
+          -0.8350183963775635,
+          0.7467831373214722
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -3.2325147003575694e-09,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.7137411236763,
+        "target": [
+          0.0,
+          -0.0078125,
+          0.1953125
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.78125,
+              -1.1796875,
+              1.7578125
+            ],
+            "rotation_radians": [
+              0.73358154296875,
+              -4.937215436484621e-08,
+              -0.588002622127533
+            ],
+            "energy": 9.059906005859375,
+            "size": 1.09375
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.171875,
+              -0.3984375,
+              0.9765625
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              1.7871980162453838e-07,
+              1.249045968055725
+            ],
+            "energy": 4.9591064453125,
+            "size": 1.25
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.390625,
+              1.1640625,
+              1.3671875
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              9.961183877749136e-09,
+              2.8198421001434326
+            ],
+            "energy": 7.152557373046875,
+            "size": 0.9765625
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.17500000000000002,
+            -0.15937500000000002,
+            0.0
+          ],
+          [
+            0.17500000000000002,
+            0.14375000000000002,
+            0.390625
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "dab924b54a9d3615f5f7751481e576ba1c0f998f934b4d06a1884c4356b3d6bd",
+      "image_sha256": "bcd5bb69522a78abc134dbf031e9f460659d17ee5068ef5c9ba2721cbd6bfaa0",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "espresso_machine",
+      "variant": "half",
+      "image": "assets/espresso_machine/half/preview.png",
+      "started_at_utc": "2026-10-25T05:31:58.793792+00:00",
+      "finished_at_utc": "2026-10-25T05:32:09.728737+00:00",
+      "elapsed_seconds": 10.935353200067766,
+      "surface_build_seconds": 0.24415829998906702,
+      "settings": {
+        "camera_location": [
+          0.6204044222831726,
+          -0.8350183963775635,
+          0.7467831373214722
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -3.2325147003575694e-09,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.7137411236763,
+        "target": [
+          0.0,
+          -0.0078125,
+          0.1953125
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.78125,
+              -1.1796875,
+              1.7578125
+            ],
+            "rotation_radians": [
+              0.73358154296875,
+              -4.937215436484621e-08,
+              -0.588002622127533
+            ],
+            "energy": 9.059906005859375,
+            "size": 1.09375
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.171875,
+              -0.3984375,
+              0.9765625
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              1.7871980162453838e-07,
+              1.249045968055725
+            ],
+            "energy": 4.9591064453125,
+            "size": 1.25
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.390625,
+              1.1640625,
+              1.3671875
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              9.961183877749136e-09,
+              2.8198421001434326
+            ],
+            "energy": 7.152557373046875,
+            "size": 0.9765625
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.17500000000000002,
+            -0.15937500000000002,
+            0.0
+          ],
+          [
+            0.17500000000000002,
+            0.14375000000000002,
+            0.390625
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "5a7f45f1f7d7271e3a5342cb36dd5cbd1b3e31a0c3c56f9ce2338d6b75786598",
+      "image_sha256": "189e7c64023afe3e41ecd32d13dd1bd372fe6b6429e6e995d1e6327da7753757",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "toaster",
+      "variant": "large",
+      "image": "assets/toaster/large/preview.png",
+      "started_at_utc": "2026-10-25T05:32:10.902846+00:00",
+      "finished_at_utc": "2026-10-25T05:32:22.636311+00:00",
+      "elapsed_seconds": 11.73300830007065,
+      "surface_build_seconds": 0.7302806000225246,
+      "settings": {
+        "camera_location": [
+          0.4712684154510498,
+          -0.6251286864280701,
+          0.5132238864898682
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          4.040645151803801e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.431520015001297,
+        "target": [
+          0.009687498211860657,
+          -0.009687498211860657,
+          0.10292968899011612
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.5715625286102295,
+              -0.8815625309944153,
+              1.2654297351837158
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy": 5.014984130859375,
+            "size": 0.8137500286102295
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              0.8815625309944153,
+              -0.30031251907348633,
+              0.6841797232627869
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.348268755118625e-08,
+              1.249045968055725
+            ],
+            "energy": 2.745043992996216,
+            "size": 0.9300000071525574
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.30031251907348633,
+              0.8621875643730164,
+              0.9748047590255737
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.1575559117081866e-08,
+              2.8198421001434326
+            ],
+            "energy": 3.959198236465454,
+            "size": 0.7265625
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.135625,
+            -0.096875,
+            0.0
+          ],
+          [
+            0.155,
+            0.0775,
+            0.205859375
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "a3f142226f646c13826edcd66b4d0c16b20639d1508880e5a1b82e9cf86ecce0",
+      "image_sha256": "bb774effe7f7e3e49e32aede60a95e2fe46a5a997a6096bd1771ae672dc26563",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "toaster",
+      "variant": "half",
+      "image": "assets/toaster/half/preview.png",
+      "started_at_utc": "2026-10-25T05:32:22.817130+00:00",
+      "finished_at_utc": "2026-10-25T05:32:33.707205+00:00",
+      "elapsed_seconds": 10.890538399922661,
+      "surface_build_seconds": 0.12891810003202409,
+      "settings": {
+        "camera_location": [
+          0.4712684154510498,
+          -0.6251286864280701,
+          0.5132238864898682
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          4.040645151803801e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.431520015001297,
+        "target": [
+          0.009687498211860657,
+          -0.009687498211860657,
+          0.10292968899011612
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.5715625286102295,
+              -0.8815625309944153,
+              1.2654297351837158
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy": 5.014984130859375,
+            "size": 0.8137500286102295
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              0.8815625309944153,
+              -0.30031251907348633,
+              0.6841797232627869
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.348268755118625e-08,
+              1.249045968055725
+            ],
+            "energy": 2.745043992996216,
+            "size": 0.9300000071525574
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.30031251907348633,
+              0.8621875643730164,
+              0.9748047590255737
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.1575559117081866e-08,
+              2.8198421001434326
+            ],
+            "energy": 3.959198236465454,
+            "size": 0.7265625
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.135625,
+            -0.096875,
+            0.0
+          ],
+          [
+            0.155,
+            0.0775,
+            0.205859375
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "c6a1b6c451d468d3d67a605a1351f8514ef3d63717f058d0ffb3a250cce1c5a0",
+      "image_sha256": "9f25d9e6ee4513ab994f3e925fc5a24905139713f71a312b3089bcd5f3d49fe7",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "blender",
+      "variant": "large",
+      "image": "assets/blender/large/preview.png",
+      "started_at_utc": "2026-10-25T05:32:35.578731+00:00",
+      "finished_at_utc": "2026-10-25T05:32:47.603521+00:00",
+      "elapsed_seconds": 12.024597799987532,
+      "surface_build_seconds": 1.6564509000163525,
+      "settings": {
+        "camera_location": [
+          0.6779642105102539,
+          -0.8968428373336792,
+          0.790395200252533
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -7.596411677468495e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.6713082194328308,
+        "target": [
+          0.021328121423721313,
+          -0.021328121423721313,
+          0.20671874284744263
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.8055468797683716,
+              -1.2616405487060547,
+              1.8604686260223389
+            ],
+            "rotation_radians": [
+              0.7335813641548157,
+              -2.7389511103592667e-08,
+              -0.5880027413368225
+            ],
+            "energy": 10.149002075195312,
+            "size": 1.1576249599456787
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.2616405487060547,
+              -0.43476560711860657,
+              1.0335936546325684
+            ],
+            "rotation_radians": [
+              1.0068539381027222,
+              7.960976233789552e-08,
+              1.2490458488464355
+            ],
+            "energy": 5.555243015289307,
+            "size": 1.3229999542236328
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.43476560711860657,
+              1.2189843654632568,
+              1.4470312595367432
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              -3.465569520244571e-08,
+              2.8198421001434326
+            ],
+            "energy": 8.012370109558105,
+            "size": 1.0335936546325684
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.10171875,
+            -0.14109375,
+            0.0
+          ],
+          [
+            0.144375,
+            0.0984375,
+            0.41343749999999996
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "b696ec72c2c92b38a79f8edbd7a9ce97db45cb5f7b20c36fa72d3d4ea133f410",
+      "image_sha256": "9d72bbf9865d9fe17a2a464de8b5bc51b65bc1273f07c3651e67b14d8a7a51a1",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "blender",
+      "variant": "half",
+      "image": "assets/blender/half/preview.png",
+      "started_at_utc": "2026-10-25T05:32:47.908523+00:00",
+      "finished_at_utc": "2026-10-25T05:32:59.298632+00:00",
+      "elapsed_seconds": 11.390139000024647,
+      "surface_build_seconds": 0.26909970003180206,
+      "settings": {
+        "camera_location": [
+          0.6779642105102539,
+          -0.8968428373336792,
+          0.790395200252533
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -7.596411677468495e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.6713082194328308,
+        "target": [
+          0.021328121423721313,
+          -0.021328121423721313,
+          0.20671874284744263
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.8055468797683716,
+              -1.2616405487060547,
+              1.8604686260223389
+            ],
+            "rotation_radians": [
+              0.7335813641548157,
+              -2.7389511103592667e-08,
+              -0.5880027413368225
+            ],
+            "energy": 10.149002075195312,
+            "size": 1.1576249599456787
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.2616405487060547,
+              -0.43476560711860657,
+              1.0335936546325684
+            ],
+            "rotation_radians": [
+              1.0068539381027222,
+              7.960976233789552e-08,
+              1.2490458488464355
+            ],
+            "energy": 5.555243015289307,
+            "size": 1.3229999542236328
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.43476560711860657,
+              1.2189843654632568,
+              1.4470312595367432
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              -3.465569520244571e-08,
+              2.8198421001434326
+            ],
+            "energy": 8.012370109558105,
+            "size": 1.0335936546325684
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.10171875,
+            -0.14109375,
+            0.0
+          ],
+          [
+            0.144375,
+            0.0984375,
+            0.41343749999999996
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "533bdc9333218bc4df91cbf2341718755cbb6fa2cc99a071941938b66ae9d4ae",
+      "image_sha256": "ef2aeefedf812176bfa56d7177f31560cb1fe1fbd2066e15d4bacb7404a96314",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "frying_pan",
+      "variant": "large",
+      "image": "assets/frying_pan/large/preview.png",
+      "started_at_utc": "2026-10-25T05:33:26.622108+00:00",
+      "finished_at_utc": "2026-10-25T05:33:37.147927+00:00",
+      "elapsed_seconds": 10.52548279997427,
+      "surface_build_seconds": 1.0050943000242114,
+      "settings": {
+        "camera_location": [
+          0.721875011920929,
+          -0.9449999928474426,
+          0.6918749809265137
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          2.5860124708287913e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.6873599886894226,
+        "target": [
+          0.013125002384185791,
+          0.0,
+          0.06187500059604645
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.8793749809265137,
+              -1.3387500047683716,
+              1.8468749523162842
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy": 11.823881149291992,
+            "size": 1.249500036239624
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.3518750667572021,
+              -0.44624999165534973,
+              0.9543749690055847
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.348268755118625e-08,
+              1.249045968055725
+            ],
+            "energy": 6.472019195556641,
+            "size": 1.4279999732971191
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.4593749940395355,
+              1.3387500047683716,
+              1.4006249904632568
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy": 9.334643363952637,
+            "size": 1.115625023841858
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.21,
+            -0.15,
+            0.015
+          ],
+          [
+            0.23625,
+            0.15,
+            0.10875
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "e33c905a6f09c1e58f87d5a0ef09714b4ccb27ebaa052dbbf4390c8b677f4a55",
+      "image_sha256": "e755fc5428a835cd356e4d061ee4bd9d3d27cf299343f64bfed8be3f29924ade",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "frying_pan",
+      "variant": "half",
+      "image": "assets/frying_pan/half/preview.png",
+      "started_at_utc": "2026-10-25T05:33:37.368591+00:00",
+      "finished_at_utc": "2026-10-25T05:33:47.674156+00:00",
+      "elapsed_seconds": 10.305328899994493,
+      "surface_build_seconds": 0.1993326999945566,
+      "settings": {
+        "camera_location": [
+          0.721875011920929,
+          -0.9449999928474426,
+          0.6918749809265137
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          2.5860124708287913e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.6873599886894226,
+        "target": [
+          0.013125002384185791,
+          0.0,
+          0.06187500059604645
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.8793749809265137,
+              -1.3387500047683716,
+              1.8468749523162842
+            ],
+            "rotation_radians": [
+              0.7335814833641052,
+              -2.274588872808181e-08,
+              -0.5880025625228882
+            ],
+            "energy": 11.823881149291992,
+            "size": 1.249500036239624
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.3518750667572021,
+              -0.44624999165534973,
+              0.9543749690055847
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              6.348268755118625e-08,
+              1.249045968055725
+            ],
+            "energy": 6.472019195556641,
+            "size": 1.4279999732971191
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.4593749940395355,
+              1.3387500047683716,
+              1.4006249904632568
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy": 9.334643363952637,
+            "size": 1.115625023841858
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.21,
+            -0.15,
+            0.015
+          ],
+          [
+            0.23625,
+            0.15,
+            0.10875
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "84652e89eefd01511a911815d06aa408c4fad341b582ae93fffa4ba4571de22c",
+      "image_sha256": "ce33f45f5ad3201ec88c14e119cbf9cfb724cdfa04f2b2860e4b16f880d4645a",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "cutting_board_knife",
+      "variant": "large",
+      "image": "assets/cutting_board_knife/large/preview.png",
+      "started_at_utc": "2026-10-25T05:33:48.098156+00:00",
+      "finished_at_utc": "2026-10-25T05:33:58.723325+00:00",
+      "elapsed_seconds": 10.625593100092374,
+      "surface_build_seconds": 0.3162019000155851,
+      "settings": {
+        "camera_location": [
+          0.652775764465332,
+          -0.8616176843643188,
+          0.6088649034500122
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -2.2627610007930343e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 0.6182399988174438,
+        "target": [
+          0.006562493741512299,
+          0.0,
+          0.034453123807907104
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.807187557220459,
+              -1.2206250429153442,
+              1.6619532108306885
+            ],
+            "rotation_radians": [
+              0.7335813641548157,
+              5.3413856448969455e-08,
+              -0.5880027413368225
+            ],
+            "energy": 9.82936954498291,
+            "size": 1.1392500400543213
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.2271875143051147,
+              -0.40687501430511475,
+              0.848203182220459
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              7.90839180808689e-08,
+              1.2490458488464355
+            ],
+            "energy": 5.380286693572998,
+            "size": 1.3020000457763672
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.41343751549720764,
+              1.2206250429153442,
+              1.2550781965255737
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy": 7.760028839111328,
+            "size": 1.0171875953674316
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.196875,
+            -0.13125,
+            0.0
+          ],
+          [
+            0.21,
+            0.13125,
+            0.06890625
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "754f1dd8b4ad0187b092b508474594cbae5f9fe3b9dbc1a33d486e05871c5f31",
+      "image_sha256": "afe0c4a97d1fb0e7c8928fc42937ea9b8843fd1cf5f68d8f0491e7db7d2a35fd",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "cutting_board_knife",
+      "variant": "half",
+      "image": "assets/cutting_board_knife/half/preview.png",
+      "started_at_utc": "2026-10-25T05:33:58.830374+00:00",
+      "finished_at_utc": "2026-10-25T05:34:08.571624+00:00",
+      "elapsed_seconds": 9.741284899995662,
+      "surface_build_seconds": 0.08791080000810325,
+      "settings": {
+        "camera_location": [
+          0.652775764465332,
+          -0.8616176843643188,
+          0.6088649034500122
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          -2.2627610007930343e-08,
+          0.6435011625289917
+        ],
+        "orthographic_scale": 0.6182399988174438,
+        "target": [
+          0.006562493741512299,
+          0.0,
+          0.034453123807907104
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.807187557220459,
+              -1.2206250429153442,
+              1.6619532108306885
+            ],
+            "rotation_radians": [
+              0.7335813641548157,
+              5.3413856448969455e-08,
+              -0.5880027413368225
+            ],
+            "energy": 9.82936954498291,
+            "size": 1.1392500400543213
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.2271875143051147,
+              -0.40687501430511475,
+              0.848203182220459
+            ],
+            "rotation_radians": [
+              1.0068535804748535,
+              7.90839180808689e-08,
+              1.2490458488464355
+            ],
+            "energy": 5.380286693572998,
+            "size": 1.3020000457763672
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.41343751549720764,
+              1.2206250429153442,
+              1.2550781965255737
+            ],
+            "rotation_radians": [
+              0.8117262125015259,
+              2.3475022814523072e-08,
+              2.8198421001434326
+            ],
+            "energy": 7.760028839111328,
+            "size": 1.0171875953674316
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.196875,
+            -0.13125,
+            0.0
+          ],
+          [
+            0.21,
+            0.13125,
+            0.06890625
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "1a69d9f6284a323377bb0a7d30b4e88c948ebacf912322fe9514deeee7417fd8",
+      "image_sha256": "e1891407a5e4ab6842876360c0cc71bc296f7b7b0e18530efa409e5f739a2cf3",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "stock_pot",
+      "variant": "large",
+      "image": "assets/stock_pot/large/preview.png",
+      "started_at_utc": "2026-10-25T05:35:20.574941+00:00",
+      "finished_at_utc": "2026-10-25T05:35:32.037726+00:00",
+      "elapsed_seconds": 11.461169700021856,
+      "surface_build_seconds": 1.4157581999897957,
+      "settings": {
+        "camera_location": [
+          0.5375183820724487,
+          -0.7166911959648132,
+          0.6039659976959229
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          2.5860124708287913e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.51528000831604,
+        "target": [
+          0.0,
+          0.0,
+          0.12617187201976776
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.6768749952316284,
+              -1.0153124332427979,
+              1.479921817779541
+            ],
+            "rotation_radians": [
+              0.7335814237594604,
+              -3.8869455210033266e-08,
+              -0.5880025625228882
+            ],
+            "energy": 6.800808906555176,
+            "size": 0.9476249814033508
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.0153124332427979,
+              -0.3384374976158142,
+              0.8030468821525574
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              3.725500263840331e-08,
+              1.249045729637146
+            ],
+            "energy": 3.722548007965088,
+            "size": 1.0829999446868896
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.3384374976158142,
+              1.0153124332427979,
+              1.141484260559082
+            ],
+            "rotation_radians": [
+              0.8117262721061707,
+              -4.129701736133029e-08,
+              2.8198421001434326
+            ],
+            "energy": 5.3690595626831055,
+            "size": 0.8460937738418579
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.16921875,
+            -0.10984375,
+            0.017812500000000002
+          ],
+          [
+            0.16921875,
+            0.10984375,
+            0.23453125
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "100f7b47980d69a1d207689bdaa68031af2c9bcb9e5a6ef63f8c0b1403ffd1a4",
+      "image_sha256": "d8cae049dff4a00f1d9d99230aadbde67dcd2d2364dc04443d1c8cecb234c484",
+      "temporary_geometry_only": true
+    },
+    {
+      "asset": "stock_pot",
+      "variant": "half",
+      "image": "assets/stock_pot/half/preview.png",
+      "started_at_utc": "2026-10-25T05:35:32.456118+00:00",
+      "finished_at_utc": "2026-10-25T05:35:43.503974+00:00",
+      "elapsed_seconds": 11.047518299892545,
+      "surface_build_seconds": 0.39877830003388226,
+      "settings": {
+        "camera_location": [
+          0.5375183820724487,
+          -0.7166911959648132,
+          0.6039659976959229
+        ],
+        "camera_rotation_radians": [
+          1.0808390378952026,
+          2.5860124708287913e-08,
+          0.6435012221336365
+        ],
+        "orthographic_scale": 0.51528000831604,
+        "target": [
+          0.0,
+          0.0,
+          0.12617187201976776
+        ],
+        "engine": "CYCLES",
+        "device": "CPU",
+        "threads": 4,
+        "samples": 24,
+        "resolution": [
+          768,
+          768
+        ],
+        "denoising": true,
+        "view_transform": "AgX",
+        "lighting": [
+          {
+            "name": "Key",
+            "type": "AREA",
+            "location": [
+              -0.6768749952316284,
+              -1.0153124332427979,
+              1.479921817779541
+            ],
+            "rotation_radians": [
+              0.7335814237594604,
+              -3.8869455210033266e-08,
+              -0.5880025625228882
+            ],
+            "energy": 6.800808906555176,
+            "size": 0.9476249814033508
+          },
+          {
+            "name": "Fill",
+            "type": "AREA",
+            "location": [
+              1.0153124332427979,
+              -0.3384374976158142,
+              0.8030468821525574
+            ],
+            "rotation_radians": [
+              1.0068538188934326,
+              3.725500263840331e-08,
+              1.249045729637146
+            ],
+            "energy": 3.722548007965088,
+            "size": 1.0829999446868896
+          },
+          {
+            "name": "Rim",
+            "type": "AREA",
+            "location": [
+              0.3384374976158142,
+              1.0153124332427979,
+              1.141484260559082
+            ],
+            "rotation_radians": [
+              0.8117262721061707,
+              -4.129701736133029e-08,
+              2.8198421001434326
+            ],
+            "energy": 5.3690595626831055,
+            "size": 0.8460937738418579
+          }
+        ],
+        "world_color": [
+          0.7799999713897705,
+          0.8199999928474426,
+          0.8799999952316284,
+          1.0
+        ],
+        "world_strength": 0.6499999761581421,
+        "camera_bounds_source": "reparsed large native occupied bounds, reused for half",
+        "camera_bounds_m": [
+          [
+            -0.16921875,
+            -0.10984375,
+            0.017812500000000002
+          ],
+          [
+            0.16921875,
+            0.10984375,
+            0.23453125
+          ]
+        ]
+      },
+      "render_input": "reparsed native VOX",
+      "source_vox_sha256": "7a3e5900c8a8152c8d211c8e43ed16d9445d8357c993bba82565fe7da506ecdd",
+      "image_sha256": "bdbd19bc8145bad8755a8245e1919a2a334846cb36f6116298f6570382ddd2fd",
+      "temporary_geometry_only": true
+    }
+  ]
+}

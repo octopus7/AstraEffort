@@ -1,0 +1,22 @@
+{
+  "started_at_utc": "2026-10-25T05:26:58+00:00",
+  "started_at_kst": "2026-10-25T14:26:58+09:00",
+  "finished_at_utc": "2026-10-25T05:37:13.182933+00:00",
+  "finished_at_kst": "2026-10-25T14:37:13.182933+09:00",
+  "wall_seconds": 615.182933,
+  "successful_native_build_seconds": 4.633763400022872,
+  "preview_pipeline_seconds": 233.11071799998172,
+  "actual_render_seconds_including_corrective_renders": 220.19131249981,
+  "surface_extraction_seconds_including_corrective_renders": 6.8646957002347335,
+  "actual_frames_rendered": 20,
+  "delivered_frames": 12,
+  "final_validation_seconds": 4.0818424000171944,
+  "image_generation_seconds": 0,
+  "queue_wait_seconds": 0,
+  "timing_notes": [
+    "Tracked start is the first UTC clock reading after brief/helper preflight reads.",
+    "Failed exploratory native builds and source-authoring time are included in wall time; their internal CPU time was not retained.",
+    "Preview pipeline time overlaps actual render and surface extraction time; do not add these categories.",
+    "Two isolated Blender processes ran sequentially in this batch; each used four threads. No queue runner was required."
+  ]
+}

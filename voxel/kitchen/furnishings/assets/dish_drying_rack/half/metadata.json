@@ -1,0 +1,260 @@
+{
+  "asset": "dish_drying_rack",
+  "label": "Dish drying rack",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center; grid bottom Z=0",
+  "notes": [
+    "0.5888 m grid width; drained sage tray, metal loops, three upright plates.",
+    "Real slot air gaps, hollow utensil cup and open tray handles.",
+    "No half postprocessing."
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      232,
+      225,
+      205,
+      255
+    ],
+    [
+      121,
+      151,
+      133,
+      255
+    ],
+    [
+      75,
+      105,
+      91,
+      255
+    ],
+    [
+      181,
+      130,
+      78,
+      255
+    ],
+    [
+      217,
+      176,
+      113,
+      255
+    ],
+    [
+      48,
+      56,
+      57,
+      255
+    ],
+    [
+      156,
+      170,
+      170,
+      255
+    ],
+    [
+      91,
+      108,
+      112,
+      255
+    ],
+    [
+      92,
+      133,
+      145,
+      255
+    ],
+    [
+      244,
+      239,
+      225,
+      255
+    ],
+    [
+      191,
+      105,
+      70,
+      255
+    ],
+    [
+      35,
+      42,
+      44,
+      255
+    ],
+    [
+      217,
+      164,
+      85,
+      255
+    ],
+    [
+      151,
+      94,
+      48,
+      255
+    ],
+    [
+      203,
+      183,
+      106,
+      255
+    ]
+  ],
+  "half_method": "2x2x2 nonempty majority; higher palette index breaks ties",
+  "half_postprocess": "none",
+  "same_physical_grid_extents": true,
+  "native_roundtrip_passed": true,
+  "render_only_surface": true,
+  "authored_at_utc": "2026-10-25T05:34:30.038128+00:00",
+  "grid_size": [
+    64,
+    47,
+    36
+  ],
+  "occupied_voxels": 22414,
+  "voxel_size_m": 0.0092,
+  "grid_extents_m": [
+    0.5888,
+    0.4324,
+    0.3312
+  ],
+  "occupied_bounds_voxels": [
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      63,
+      45,
+      36
+    ]
+  ],
+  "bounds_m": [
+    [
+      -0.2852,
+      -0.1978,
+      0.0092
+    ],
+    [
+      0.2852,
+      0.1978,
+      0.3312
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    10
+  ],
+  "occupancy_sha256": "ad4e5d9fd4517bb9a325a128ffa876d85ce487e21af84eb6e32776492fccbd49",
+  "sha256": {
+    "dish_drying_rack.vox": "b5a23b49cd900641e9f3af82709a9c3e692e2d9acfe950643154ffcf3d9204e7",
+    "preview.png": "2d35809d121c0b7f40545f76287e064745e69bc1b3db1ccf5a6a0b9b9d8c683a"
+  },
+  "feature_probes": [
+    {
+      "feature": "first plate slot front air",
+      "bounds_voxels": [
+        [
+          12,
+          6,
+          13
+        ],
+        [
+          15,
+          9,
+          20
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 63,
+      "passed": true
+    },
+    {
+      "feature": "between plates air",
+      "bounds_voxels": [
+        [
+          16,
+          17,
+          17
+        ],
+        [
+          17,
+          30,
+          22
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 65,
+      "passed": true
+    },
+    {
+      "feature": "utensil cup open interior",
+      "bounds_voxels": [
+        [
+          48,
+          25,
+          15
+        ],
+        [
+          51,
+          26,
+          22
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 21,
+      "passed": true
+    },
+    {
+      "feature": "left tray handle opening",
+      "bounds_voxels": [
+        [
+          1,
+          20,
+          7
+        ],
+        [
+          3,
+          27,
+          9
+        ]
+      ],
+      "expected_palette_index": 0,
+      "found_palette_indices": [
+        0
+      ],
+      "cells_checked": 28,
+      "passed": true
+    }
+  ],
+  "surface": {
+    "quads": 1270,
+    "triangles": 2540,
+    "exposed_unit_faces": 17392,
+    "surface_area_m2": 1.4720588799999998,
+    "materials": 6
+  },
+  "rendered_at_utc": "2026-10-25T05:35:41.024402+00:00"
+}
