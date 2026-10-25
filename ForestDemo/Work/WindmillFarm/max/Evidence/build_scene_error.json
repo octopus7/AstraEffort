@@ -1,0 +1,5 @@
+{
+  "at_utc": "2026-10-23T08:24:19.172200+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/WindmillFarm/max/Scripts/build_scene.py\", line 143, in <module>\n    materials={name:make_material(name,p,textures,pivot) for name,p in SOURCE['palette'].items()}\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:/github/AstraEffort/ForestDemo/Work/WindmillFarm/max/Scripts/build_scene.py\", line 143, in <dictcomp>\n    materials={name:make_material(name,p,textures,pivot) for name,p in SOURCE['palette'].items()}\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:/github/AstraEffort/ForestDemo/Work/WindmillFarm/max/Scripts/build_scene.py\", line 78, in make_material\n    inputs=[unreal.CustomInput(input_name='P'),unreal.CustomInput(input_name='T')])\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: call() takes at most 0 arguments (1 given)\n",
+  "warnings": []
+}

@@ -1,0 +1,52 @@
+{
+  "at_utc": "2026-10-23T08:20:20.745778+00:00",
+  "passed": false,
+  "checks": [
+    {
+      "mesh": "SM_Terrain",
+      "imported_world_dimensions_m": [
+        10000.0,
+        10000.0,
+        394.1923065185547
+      ]
+    },
+    {
+      "mesh": "SM_Paths",
+      "imported_world_dimensions_m": [
+        6278.70458984375,
+        8142.901123046875,
+        22.428175926208496
+      ],
+      "up_triangles": 0,
+      "down_triangles": 532
+    },
+    {
+      "mesh": "SM_Stones",
+      "imported_world_dimensions_m": [
+        9316.93798828125,
+        8915.75,
+        188.26172256469727
+      ],
+      "component_count": 53,
+      "negative_volume_components": 53,
+      "signed_volume_sum": -17392031.984914154
+    },
+    {
+      "mesh": "SM_Orchard",
+      "imported_world_dimensions_m": [
+        1460.2845764160156,
+        1998.6455078125,
+        624.4919285774231
+      ],
+      "component_count": 125,
+      "negative_volume_components": 105,
+      "signed_volume_sum": -210237672.57752487
+    }
+  ],
+  "failures": [
+    "Terrain FBX transform does not span 100x100 meters",
+    "Path FBX has reversed top-surface faces",
+    "SM_Stones has inward closed primitive faces",
+    "SM_Orchard has inward closed primitive faces"
+  ]
+}

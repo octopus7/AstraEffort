@@ -1,0 +1,627 @@
+{
+  "site_dimensions_m": [
+    100,
+    100
+  ],
+  "created_at_utc": "2026-10-23T08:47:12.170951+00:00",
+  "coordinate_units": "meters in Blender; FBX applies its built-in x100 centimeter transform once; global_scale=1",
+  "rotor_pivot_m": [
+    -23,
+    11.0,
+    11.29682843485857
+  ],
+  "rotor_axis": [
+    0,
+    1,
+    0
+  ],
+  "meshes": [
+    {
+      "name": "SM_Terrain",
+      "category": "Terrain",
+      "vertices": 19297,
+      "polygons": 18145,
+      "loops": 72576,
+      "uv_loops": 72576,
+      "bounds_min": [
+        -50.0,
+        -50.0,
+        -1.7000000476837158
+      ],
+      "bounds_max": [
+        50.0,
+        50.0,
+        2.6288483142852783
+      ],
+      "materials": [
+        "Earth",
+        "GrassDark",
+        "Grass"
+      ]
+    },
+    {
+      "name": "SM_Paths",
+      "category": "Paths",
+      "vertices": 540,
+      "polygons": 266,
+      "loops": 1064,
+      "uv_loops": 1064,
+      "bounds_min": [
+        -25.47053337097168,
+        -49.1711540222168,
+        0.08023133128881454
+      ],
+      "bounds_max": [
+        37.31651306152344,
+        32.25785827636719,
+        0.3045130968093872
+      ],
+      "materials": [
+        "Path"
+      ]
+    },
+    {
+      "name": "SM_WindmillTower",
+      "category": "WindmillTower",
+      "vertices": 21576,
+      "polygons": 19852,
+      "loops": 77244,
+      "uv_loops": 77244,
+      "bounds_min": [
+        -28.100000381469727,
+        11.899999618530273,
+        0.14682842791080475
+      ],
+      "bounds_max": [
+        -17.899999618530273,
+        22.100000381469727,
+        17.146827697753906
+      ],
+      "materials": [
+        "Stone",
+        "Plaster",
+        "StoneLight",
+        "Trim",
+        "WoodDark",
+        "Glass",
+        "Wood",
+        "WoodLight",
+        "Iron",
+        "Slate",
+        "SlateLight"
+      ]
+    },
+    {
+      "name": "SM_WindmillRotor",
+      "category": "WindmillRotor",
+      "vertices": 4136,
+      "polygons": 3914,
+      "loops": 15684,
+      "uv_loops": 15684,
+      "bounds_min": [
+        -6.217487812042236,
+        -0.7300000190734863,
+        -6.217487812042236
+      ],
+      "bounds_max": [
+        6.217487812042236,
+        3.5,
+        6.217487812042236
+      ],
+      "materials": [
+        "RotorIron",
+        "RotorWood",
+        "RotorCanvas"
+      ]
+    },
+    {
+      "name": "SM_Farmhouse",
+      "category": "Farmhouse",
+      "vertices": 39652,
+      "polygons": 34472,
+      "loops": 127924,
+      "uv_loops": 127924,
+      "bounds_min": [
+        17.022144317626953,
+        8.800000190734863,
+        0.13160823285579681
+      ],
+      "bounds_max": [
+        33.67631912231445,
+        25.237375259399414,
+        9.531608581542969
+      ],
+      "materials": [
+        "Stone",
+        "Plaster",
+        "Terracotta",
+        "TileLight",
+        "Trim",
+        "WoodDark",
+        "Glass",
+        "Slate",
+        "SlateLight",
+        "WoodLight",
+        "WarmGlass",
+        "StoneLight",
+        "Wood"
+      ]
+    },
+    {
+      "name": "SM_Barn",
+      "category": "Barn",
+      "vertices": 23326,
+      "polygons": 20470,
+      "loops": 76502,
+      "uv_loops": 76502,
+      "bounds_min": [
+        27.272233963012695,
+        -6.747375965118408,
+        0.048788778483867645
+      ],
+      "bounds_max": [
+        38.72776412963867,
+        6.735000133514404,
+        9.068788528442383
+      ],
+      "materials": [
+        "Stone",
+        "BarnRed",
+        "Slate",
+        "SlateLight",
+        "WoodDark",
+        "WoodLight",
+        "Wood",
+        "Trim",
+        "Glass"
+      ]
+    },
+    {
+      "name": "SM_Wheat_West",
+      "category": "Wheat",
+      "vertices": 216808,
+      "polygons": 167526,
+      "loops": 591384,
+      "uv_loops": 591384,
+      "bounds_min": [
+        -41.114566802978516,
+        -35.899234771728516,
+        0.048517610877752304
+      ],
+      "bounds_max": [
+        -12.909542083740234,
+        -7.019170761108398,
+        1.6456166505813599
+      ],
+      "materials": [
+        "Soil",
+        "WheatDark",
+        "Wheat",
+        "WheatLight"
+      ]
+    },
+    {
+      "name": "SM_Wheat_East",
+      "category": "Wheat",
+      "vertices": 91264,
+      "polygons": 70518,
+      "loops": 248952,
+      "uv_loops": 248952,
+      "bounds_min": [
+        6.892239093780518,
+        -38.8968391418457,
+        0.05105174705386162
+      ],
+      "bounds_max": [
+        28.099124908447266,
+        -23.00556755065918,
+        1.584954857826233
+      ],
+      "materials": [
+        "Soil",
+        "WheatDark",
+        "Wheat",
+        "WheatLight"
+      ]
+    },
+    {
+      "name": "SM_Harvest",
+      "category": "Wheat",
+      "vertices": 20440,
+      "polygons": 15792,
+      "loops": 55776,
+      "uv_loops": 55776,
+      "bounds_min": [
+        -39.119834899902344,
+        27.129194259643555,
+        0.03726067394018173
+      ],
+      "bounds_max": [
+        -13.9996976852417,
+        36.98649978637695,
+        1.7932285070419312
+      ],
+      "materials": [
+        "Soil",
+        "WheatDark",
+        "Wheat",
+        "WheatLight"
+      ]
+    },
+    {
+      "name": "SM_Fences",
+      "category": "Fences",
+      "vertices": 27576,
+      "polygons": 26584,
+      "loops": 106296,
+      "uv_loops": 106296,
+      "bounds_min": [
+        -43.09193801879883,
+        -44.22612762451172,
+        0.04692995175719261
+      ],
+      "bounds_max": [
+        44.09193420410156,
+        40.09193801879883,
+        2.5417253971099854
+      ],
+      "materials": [
+        "Wood",
+        "WoodLight",
+        "WoodDark"
+      ]
+    },
+    {
+      "name": "SM_Orchard",
+      "category": "Orchard",
+      "vertices": 6840,
+      "polygons": 5790,
+      "loops": 21420,
+      "uv_loops": 21420,
+      "bounds_min": [
+        -1.2583755254745483,
+        16.043212890625,
+        0.05653640255331993
+      ],
+      "bounds_max": [
+        13.344470024108887,
+        36.029666900634766,
+        6.301455497741699
+      ],
+      "materials": [
+        "Wood",
+        "LeafLight",
+        "LeafDark",
+        "Leaf",
+        "Apple"
+      ]
+    },
+    {
+      "name": "SM_BoundaryTrees",
+      "category": "Orchard",
+      "vertices": 6000,
+      "polygons": 5180,
+      "loops": 19800,
+      "uv_loops": 19800,
+      "bounds_min": [
+        -48.80670166015625,
+        -27.5654296875,
+        0.12021533399820328
+      ],
+      "bounds_max": [
+        48.04780960083008,
+        46.84153366088867,
+        9.512593269348145
+      ],
+      "materials": [
+        "Wood",
+        "Leaf",
+        "LeafDark",
+        "LeafLight"
+      ]
+    },
+    {
+      "name": "SM_FarmProps",
+      "category": "Props",
+      "vertices": 30876,
+      "polygons": 29904,
+      "loops": 120672,
+      "uv_loops": 120672,
+      "bounds_min": [
+        -35.855682373046875,
+        -16.68279266357422,
+        0.0008103713043965399
+      ],
+      "bounds_max": [
+        40.95749282836914,
+        33.68279266357422,
+        3.720543146133423
+      ],
+      "materials": [
+        "Stone",
+        "Water",
+        "StoneLight",
+        "Wood",
+        "WoodDark",
+        "WoodLight",
+        "Slate",
+        "Iron",
+        "Wheat",
+        "WheatDark",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "SM_KitchenGarden",
+      "category": "Props",
+      "vertices": 6080,
+      "polygons": 5048,
+      "loops": 18400,
+      "uv_loops": 18400,
+      "bounds_min": [
+        33.025001525878906,
+        22.399999618530273,
+        0.22643138468265533
+      ],
+      "bounds_max": [
+        41.275001525878906,
+        29.600000381469727,
+        1.0899579524993896
+      ],
+      "materials": [
+        "Soil",
+        "Wood",
+        "Leaf",
+        "LeafLight",
+        "Pumpkin"
+      ]
+    },
+    {
+      "name": "SM_Stones",
+      "category": "Props",
+      "vertices": 2910,
+      "polygons": 2425,
+      "loops": 8730,
+      "uv_loops": 8730,
+      "bounds_min": [
+        -46.825225830078125,
+        -44.585411071777344,
+        -0.2142656296491623
+      ],
+      "bounds_max": [
+        46.344154357910156,
+        44.57209014892578,
+        1.6683515310287476
+      ],
+      "materials": [
+        "StoneLight",
+        "Stone"
+      ]
+    },
+    {
+      "name": "SM_Wildflowers",
+      "category": "Props",
+      "vertices": 20603,
+      "polygons": 15026,
+      "loops": 49394,
+      "uv_loops": 49394,
+      "bounds_min": [
+        -47.13270950317383,
+        -45.8441162109375,
+        0.040809132158756256
+      ],
+      "bounds_max": [
+        47.274757385253906,
+        45.13913345336914,
+        2.1716082096099854
+      ],
+      "materials": [
+        "LeafLight",
+        "GrassDark",
+        "Leaf",
+        "FlowerRed",
+        "FlowerBlue",
+        "FlowerCream"
+      ]
+    }
+  ],
+  "palette": {
+    "Grass": {
+      "srgb_hex": "#80974b",
+      "texture": "Grass.png",
+      "roughness": 0.92
+    },
+    "GrassLight": {
+      "srgb_hex": "#9ca75e",
+      "texture": "Grass.png",
+      "roughness": 0.9
+    },
+    "GrassDark": {
+      "srgb_hex": "#647d44",
+      "texture": "Grass.png",
+      "roughness": 0.95
+    },
+    "Earth": {
+      "srgb_hex": "#92704c",
+      "texture": "Earth.png",
+      "roughness": 0.96
+    },
+    "Soil": {
+      "srgb_hex": "#67503c",
+      "texture": "Earth.png",
+      "roughness": 0.95
+    },
+    "Path": {
+      "srgb_hex": "#c9aa72",
+      "texture": "Earth.png",
+      "roughness": 0.91
+    },
+    "Stone": {
+      "srgb_hex": "#9b9e8b",
+      "texture": "Stone.png",
+      "roughness": 0.86
+    },
+    "StoneLight": {
+      "srgb_hex": "#bab9a0",
+      "texture": "Stone.png",
+      "roughness": 0.85
+    },
+    "Plaster": {
+      "srgb_hex": "#eee1bd",
+      "texture": "Plaster.png",
+      "roughness": 0.85
+    },
+    "Wood": {
+      "srgb_hex": "#775039",
+      "texture": "Wood.png",
+      "roughness": 0.82
+    },
+    "WoodLight": {
+      "srgb_hex": "#b28a5a",
+      "texture": "Wood.png",
+      "roughness": 0.78
+    },
+    "WoodDark": {
+      "srgb_hex": "#493c30",
+      "texture": "Wood.png",
+      "roughness": 0.88
+    },
+    "BarnRed": {
+      "srgb_hex": "#aa5941",
+      "texture": "Wood.png",
+      "roughness": 0.85
+    },
+    "Terracotta": {
+      "srgb_hex": "#c57850",
+      "texture": "Clay.png",
+      "roughness": 0.82
+    },
+    "TileLight": {
+      "srgb_hex": "#dd986a",
+      "texture": "Clay.png",
+      "roughness": 0.78
+    },
+    "Slate": {
+      "srgb_hex": "#50767a",
+      "texture": "Stone.png",
+      "roughness": 0.76
+    },
+    "SlateLight": {
+      "srgb_hex": "#6b9190",
+      "texture": "Stone.png",
+      "roughness": 0.76
+    },
+    "Trim": {
+      "srgb_hex": "#efe7cc",
+      "texture": "Plaster.png",
+      "roughness": 0.8
+    },
+    "Glass": {
+      "srgb_hex": "#254c54",
+      "texture": null,
+      "roughness": 0.2
+    },
+    "WarmGlass": {
+      "srgb_hex": "#e6bc69",
+      "texture": null,
+      "roughness": 0.38
+    },
+    "Iron": {
+      "srgb_hex": "#3f4842",
+      "texture": null,
+      "roughness": 0.48
+    },
+    "Wheat": {
+      "srgb_hex": "#d8b254",
+      "texture": "Straw.png",
+      "roughness": 0.88
+    },
+    "WheatLight": {
+      "srgb_hex": "#efcf77",
+      "texture": "Straw.png",
+      "roughness": 0.86
+    },
+    "WheatDark": {
+      "srgb_hex": "#b48f3f",
+      "texture": "Straw.png",
+      "roughness": 0.9
+    },
+    "Leaf": {
+      "srgb_hex": "#567d46",
+      "texture": "Grass.png",
+      "roughness": 0.9
+    },
+    "LeafLight": {
+      "srgb_hex": "#78934e",
+      "texture": "Grass.png",
+      "roughness": 0.9
+    },
+    "LeafDark": {
+      "srgb_hex": "#3d6542",
+      "texture": "Grass.png",
+      "roughness": 0.94
+    },
+    "Apple": {
+      "srgb_hex": "#bd5e43",
+      "texture": null,
+      "roughness": 0.65
+    },
+    "Pumpkin": {
+      "srgb_hex": "#d88a3d",
+      "texture": null,
+      "roughness": 0.8
+    },
+    "FlowerRed": {
+      "srgb_hex": "#cb6252",
+      "texture": null,
+      "roughness": 0.8
+    },
+    "FlowerBlue": {
+      "srgb_hex": "#8d9abb",
+      "texture": null,
+      "roughness": 0.8
+    },
+    "FlowerCream": {
+      "srgb_hex": "#f1dfa4",
+      "texture": null,
+      "roughness": 0.8
+    },
+    "Canvas": {
+      "srgb_hex": "#f4e4b7",
+      "texture": "Canvas.png",
+      "roughness": 0.95
+    },
+    "RotorWood": {
+      "srgb_hex": "#896241",
+      "texture": "Wood.png",
+      "roughness": 0.8
+    },
+    "RotorIron": {
+      "srgb_hex": "#454a43",
+      "texture": null,
+      "roughness": 0.48
+    },
+    "RotorCanvas": {
+      "srgb_hex": "#f4e4b7",
+      "texture": "Canvas.png",
+      "roughness": 0.95
+    },
+    "Water": {
+      "srgb_hex": "#6b9b9a",
+      "texture": null,
+      "roughness": 0.27
+    }
+  },
+  "textures": [
+    "Canvas.png",
+    "Clay.png",
+    "Earth.png",
+    "Grass.png",
+    "Plaster.png",
+    "Stone.png",
+    "Straw.png",
+    "Wood.png"
+  ],
+  "seed": 23076,
+  "uv_policy": "Dominant-face planar UVs in meters divided by two. Repeating surface textures, intentional tiling/overlap. No unique bake atlas."
+}
