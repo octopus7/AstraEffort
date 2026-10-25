@@ -1,0 +1,280 @@
+{
+  "started_at_utc": "2026-10-25T05:32:40.958556+00:00",
+  "status": "working",
+  "planned_sets": 9,
+  "planned_models": 36,
+  "current_batch": 1,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "fast_setting": "No separately selectable tool field",
+  "review_policy": "Deferred by explicit user instruction; no visual or independent model validation",
+  "reference_policy": "Main only, built-in image_gen, one image per model, sequential calls",
+  "commit_policy": "Main commits after each completed group of three sets",
+  "voxel_completion_commit": "dcbaeb3",
+  "batches": [
+    {
+      "number": 1,
+      "sets": [
+        "Set03",
+        "Set04",
+        "Set05"
+      ],
+      "status": "produced_unreviewed",
+      "commit": "containing_commit",
+      "produced_at_utc": "2026-10-25T05:57:41.623315+00:00"
+    },
+    {
+      "number": 2,
+      "sets": [
+        "Set06",
+        "Set07",
+        "Set08"
+      ],
+      "status": "pending",
+      "commit": null
+    },
+    {
+      "number": 3,
+      "sets": [
+        "Set09",
+        "Set10",
+        "Set11"
+      ],
+      "status": "pending",
+      "commit": null
+    }
+  ],
+  "sets": {
+    "Set03": {
+      "theme": "Urban maintenance",
+      "assets": [
+        {
+          "slug": "street_sweeper",
+          "label": "소형 노면청소차"
+        },
+        {
+          "slug": "pipe_inspection_robot",
+          "label": "다관절 배관점검 로봇"
+        },
+        {
+          "slug": "road_maintenance_depot",
+          "label": "도로 관리 차고"
+        },
+        {
+          "slug": "compact_pump_station",
+          "label": "소형 펌프장"
+        }
+      ],
+      "status": "produced_unreviewed",
+      "reference_count": 4,
+      "worker": "set03",
+      "review_status": "deferred_by_user",
+      "modeling_dispatched_at_utc": "2026-10-25T05:36:32.965581+00:00",
+      "finished_at_utc": "2026-10-25T05:45:33.590331+00:00"
+    },
+    "Set04": {
+      "theme": "Aerial logistics",
+      "assets": [
+        {
+          "slug": "twin_rotor_cargo_drone",
+          "label": "쌍로터 화물 드론"
+        },
+        {
+          "slug": "airport_cargo_tug",
+          "label": "공항 화물 견인차"
+        },
+        {
+          "slug": "circular_drone_hangar",
+          "label": "원형 드론 격납고"
+        },
+        {
+          "slug": "low_control_building",
+          "label": "저층 관제동"
+        }
+      ],
+      "status": "produced_unreviewed",
+      "reference_count": 4,
+      "worker": "set04",
+      "review_status": "deferred_by_user",
+      "modeling_dispatched_at_utc": "2026-10-25T05:41:06.917335+00:00",
+      "finished_at_utc": "2026-10-25T05:48:36.162220+00:00"
+    },
+    "Set05": {
+      "theme": "Marine work",
+      "assets": [
+        {
+          "slug": "catamaran_workboat",
+          "label": "쌍동형 작업선"
+        },
+        {
+          "slug": "underwater_service_robot",
+          "label": "수중 정비 로봇"
+        },
+        {
+          "slug": "docking_lift_platform",
+          "label": "접안용 승강 도크"
+        },
+        {
+          "slug": "marine_equipment_workshop",
+          "label": "해양장비 정비소"
+        }
+      ],
+      "status": "produced_unreviewed",
+      "reference_count": 4,
+      "worker": "set05",
+      "review_status": "deferred_by_user",
+      "modeling_dispatched_at_utc": "2026-10-25T05:48:21.161979+00:00",
+      "finished_at_utc": "2026-10-25T05:57:15.735339+00:00"
+    },
+    "Set06": {
+      "theme": "Forestry care",
+      "assets": [
+        {
+          "slug": "tree_transplanter",
+          "label": "관절식 수목 이식차"
+        },
+        {
+          "slug": "nursery_carrier_robot",
+          "label": "종묘 운반 로봇"
+        },
+        {
+          "slug": "arched_nursery_greenhouse",
+          "label": "아치형 육묘 온실"
+        },
+        {
+          "slug": "forest_watchtower",
+          "label": "원형 산불 감시탑"
+        }
+      ],
+      "status": "awaiting_references",
+      "reference_count": 0,
+      "worker": null,
+      "review_status": "deferred_by_user"
+    },
+    "Set07": {
+      "theme": "Rail freight",
+      "assets": [
+        {
+          "slug": "rail_inspection_trolley",
+          "label": "레일 점검 소형차"
+        },
+        {
+          "slug": "side_loading_freight_shuttle",
+          "label": "측면 적재 화물 셔틀"
+        },
+        {
+          "slug": "barrel_roof_freight_station",
+          "label": "배럴 지붕 화물역"
+        },
+        {
+          "slug": "mechanical_signal_house",
+          "label": "기계식 신호소"
+        }
+      ],
+      "status": "awaiting_references",
+      "reference_count": 0,
+      "worker": null,
+      "review_status": "deferred_by_user"
+    },
+    "Set08": {
+      "theme": "Materials processing",
+      "assets": [
+        {
+          "slug": "articulated_welding_mech",
+          "label": "소형 관절형 용접 메카"
+        },
+        {
+          "slug": "cylindrical_mixer",
+          "label": "원통형 혼합기"
+        },
+        {
+          "slug": "rounded_foundry_workshop",
+          "label": "곡면 지붕 주조 작업장"
+        },
+        {
+          "slug": "vertical_material_tower",
+          "label": "수직 자재 저장탑"
+        }
+      ],
+      "status": "awaiting_references",
+      "reference_count": 0,
+      "worker": null,
+      "review_status": "deferred_by_user"
+    },
+    "Set09": {
+      "theme": "Alpine transport",
+      "assets": [
+        {
+          "slug": "tracked_snowplow",
+          "label": "궤도형 제설차"
+        },
+        {
+          "slug": "freight_cable_car",
+          "label": "소형 화물 케이블카"
+        },
+        {
+          "slug": "cable_drive_station",
+          "label": "케이블카 구동실"
+        },
+        {
+          "slug": "modular_mountain_shelter",
+          "label": "모듈형 산악 대피소"
+        }
+      ],
+      "status": "awaiting_references",
+      "reference_count": 0,
+      "worker": null,
+      "review_status": "deferred_by_user"
+    },
+    "Set10": {
+      "theme": "Coastal energy",
+      "assets": [
+        {
+          "slug": "turbine_service_crawler",
+          "label": "터빈 정비 크롤러"
+        },
+        {
+          "slug": "generator_transport_trailer",
+          "label": "발전기 운반 트레일러"
+        },
+        {
+          "slug": "tidal_power_module",
+          "label": "소형 조력 발전 모듈"
+        },
+        {
+          "slug": "circular_power_control_house",
+          "label": "원형 전력 제어동"
+        }
+      ],
+      "status": "awaiting_references",
+      "reference_count": 0,
+      "worker": null,
+      "review_status": "deferred_by_user"
+    },
+    "Set11": {
+      "theme": "Food production and delivery",
+      "assets": [
+        {
+          "slug": "mobile_grain_mill",
+          "label": "이동식 곡물 분쇄차"
+        },
+        {
+          "slug": "refrigerated_delivery_robot",
+          "label": "저상 냉장 배송 로봇"
+        },
+        {
+          "slug": "curved_roof_flour_mill",
+          "label": "곡면 지붕 제분소"
+        },
+        {
+          "slug": "modular_cold_store",
+          "label": "모듈형 저온 저장고"
+        }
+      ],
+      "status": "awaiting_references",
+      "reference_count": 0,
+      "worker": null,
+      "review_status": "deferred_by_user"
+    }
+  }
+}

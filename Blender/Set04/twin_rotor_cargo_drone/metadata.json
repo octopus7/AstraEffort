@@ -1,0 +1,283 @@
+{
+  "asset": "twin_rotor_cargo_drone",
+  "set": "Set04",
+  "theme": "aerial logistics",
+  "units": "meters",
+  "front_axis": "-Y",
+  "up_axis": "+Z",
+  "reference": "../REF/twin_rotor_cargo_drone.png",
+  "design": {
+    "design_dimensions_m": [
+      6.58,
+      2.45,
+      2.89
+    ],
+    "features": [
+      "two open protective rotor ducts with four blunt blades each",
+      "central unmanned sensor fuselage",
+      "single cargo crate and visible rigid cradle",
+      "splayed landing struts with two short skids"
+    ]
+  },
+  "authored_scene_bounds_m": {
+    "min": [
+      -3.2899999618530273,
+      -1.2825000286102295,
+      0.03999990597367287
+    ],
+    "max": [
+      3.28918194770813,
+      1.2717781066894531,
+      2.869999885559082
+    ],
+    "dimensions": [
+      6.579181671142578,
+      2.5542781352996826,
+      2.8299999237060547
+    ]
+  },
+  "production_measurements": {
+    "mesh_parts": 101,
+    "vertices": 30312,
+    "polygons": 29474,
+    "materials": [
+      {
+        "name": "Paint | warm ivory",
+        "base_color": [
+          0.6899999976158142,
+          0.6650000214576721,
+          0.574999988079071,
+          1.0
+        ],
+        "metallic": 0.23999999463558197,
+        "roughness": 0.41999998688697815
+      },
+      {
+        "name": "Paint | muted slate blue",
+        "base_color": [
+          0.11500000208616257,
+          0.20499999821186066,
+          0.26499998569488525,
+          1.0
+        ],
+        "metallic": 0.3499999940395355,
+        "roughness": 0.3799999952316284
+      },
+      {
+        "name": "Mechanisms | graphite",
+        "base_color": [
+          0.054999999701976776,
+          0.06800000369548798,
+          0.07500000298023224,
+          1.0
+        ],
+        "metallic": 0.550000011920929,
+        "roughness": 0.4000000059604645
+      },
+      {
+        "name": "Hardware | brushed steel",
+        "base_color": [
+          0.25,
+          0.28999999165534973,
+          0.30000001192092896,
+          1.0
+        ],
+        "metallic": 0.75,
+        "roughness": 0.3100000023841858
+      },
+      {
+        "name": "Safety | restrained ochre",
+        "base_color": [
+          0.9100000262260437,
+          0.5,
+          0.10999999940395355,
+          1.0
+        ],
+        "metallic": 0.2199999988079071,
+        "roughness": 0.3700000047683716
+      },
+      {
+        "name": "Tires and gaskets | charcoal rubber",
+        "base_color": [
+          0.024000000208616257,
+          0.028999999165534973,
+          0.03200000151991844,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.7599999904632568
+      },
+      {
+        "name": "Glazing | muted smoked blue",
+        "base_color": [
+          0.06499999761581421,
+          0.15000000596046448,
+          0.1899999976158142,
+          1.0
+        ],
+        "metallic": 0.44999998807907104,
+        "roughness": 0.20999999344348907
+      },
+      {
+        "name": "Equipment | inactive blue display",
+        "base_color": [
+          0.03500000014901161,
+          0.08500000089406967,
+          0.10499999672174454,
+          1.0
+        ],
+        "metallic": 0.25,
+        "roughness": 0.28999999165534973
+      },
+      {
+        "name": "Lighting | warm diffuser",
+        "base_color": [
+          1.0,
+          0.699999988079071,
+          0.3199999928474426,
+          1.0
+        ],
+        "metallic": 0.10000000149011612,
+        "roughness": 0.2800000011920929
+      },
+      {
+        "name": "Lighting | white diffuser",
+        "base_color": [
+          0.7400000095367432,
+          0.8799999952316284,
+          0.949999988079071,
+          1.0
+        ],
+        "metallic": 0.10000000149011612,
+        "roughness": 0.23999999463558197
+      },
+      {
+        "name": "Lighting | tail red",
+        "base_color": [
+          0.44999998807907104,
+          0.04500000178813934,
+          0.02500000037252903,
+          1.0
+        ],
+        "metallic": 0.10000000149011612,
+        "roughness": 0.30000001192092896
+      },
+      {
+        "name": "Foundation | warm concrete",
+        "base_color": [
+          0.38999998569488525,
+          0.4050000011920929,
+          0.38999998569488525,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.8399999737739563
+      },
+      {
+        "name": "Service deck | dark gray",
+        "base_color": [
+          0.17000000178813934,
+          0.20499999821186066,
+          0.2199999988079071,
+          1.0
+        ],
+        "metallic": 0.25,
+        "roughness": 0.6499999761581421
+      }
+    ]
+  },
+  "uv_authoring": {
+    "method": "individually packed Smart Project surface islands per editable component, after bevel application",
+    "angle_degrees": 66,
+    "island_margin": 0.025,
+    "map": "SurfaceUV",
+    "independent_uv_review": "deferred_by_user"
+  },
+  "native_collections": [
+    "ASSET",
+    "STUDIO"
+  ],
+  "exports": "ASSET mesh selection only, no studio cameras/lights/floor",
+  "render": {
+    "engine": "Cycles CPU",
+    "threads": 4,
+    "samples": 40,
+    "resolution": [
+      960,
+      960
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "background": "neutral warm-gray studio",
+    "records": [
+      {
+        "view": "hero",
+        "path": "twin_rotor_cargo_drone/renders/hero.png",
+        "started_at_utc": "2026-10-25T05:45:01.831219+00:00",
+        "finished_at_utc": "2026-10-25T05:45:27.185182+00:00",
+        "elapsed_seconds": 25.353,
+        "camera": {
+          "location": [
+            9.84512710571289,
+            -14.559630393981934,
+            10.444401741027832
+          ],
+          "rotation_euler": [
+            1.097922444343567,
+            -3.694424677291863e-08,
+            0.5947593450546265
+          ],
+          "orthographic_scale": 8.030343055725098,
+          "target": [
+            -0.00040900707244873047,
+            -0.005360960960388184,
+            1.4549999237060547
+          ]
+        }
+      },
+      {
+        "view": "rear",
+        "path": "twin_rotor_cargo_drone/renders/rear.png",
+        "started_at_utc": "2026-10-25T05:45:27.185182+00:00",
+        "finished_at_utc": "2026-10-25T05:45:52.344200+00:00",
+        "elapsed_seconds": 25.159,
+        "camera": {
+          "location": [
+            -10.363700866699219,
+            14.244166374206543,
+            10.35015869140625
+          ],
+          "rotation_euler": [
+            1.103278398513794,
+            -2.6478128134499457e-08,
+            -2.512796640396118
+          ],
+          "orthographic_scale": 7.958153247833252,
+          "target": [
+            -0.00040900707244873047,
+            -0.005360960960388184,
+            1.4549999237060547
+          ]
+        }
+      }
+    ]
+  },
+  "review_status": "deferred_by_user",
+  "checks_performed": "process completion and expected nonempty output file presence only, by runner",
+  "not_performed": [
+    "render opening or inspection",
+    "fresh native reopen",
+    "GLB or FBX reimport",
+    "geometry or UV validators",
+    "reviewer tasks"
+  ],
+  "limitations": [
+    "solid palette materials; no texture maps",
+    "static meshes; no rig, animation, collision or LOD",
+    "glazing is stylized opaque smoked PBR, not a detailed occupied interior",
+    "reference back sides interpreted from functional design"
+  ],
+  "started_at_utc": "2026-10-25T05:45:00.118300+00:00",
+  "finished_at_utc": "2026-10-25T05:45:52.344200+00:00",
+  "production_elapsed_seconds": 52.226
+}

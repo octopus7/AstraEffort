@@ -1,0 +1,364 @@
+{
+  "set": "Set05",
+  "theme": "Marine work",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T05:49:38.053153+00:00",
+  "started_at_kst": "2026-10-25T14:49:38.053153+09:00",
+  "finished_at_utc": "2026-10-25T05:57:15.735339+00:00",
+  "finished_at_kst": "2026-10-25T14:57:15.735339+09:00",
+  "elapsed_seconds": 457.682,
+  "blender_process_seconds": 205.695,
+  "required_output_count": 24,
+  "required_output_bytes": 51473173,
+  "process_results": [
+    {
+      "asset": "catamaran_workboat",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set05\\build.py",
+        "--",
+        "--asset",
+        "catamaran_workboat"
+      ],
+      "started_at_utc": "2026-10-25T05:53:49.696847+00:00",
+      "finished_at_utc": "2026-10-25T05:54:39.933888+00:00",
+      "started_at_kst": "2026-10-25T14:53:49.696847+09:00",
+      "finished_at_kst": "2026-10-25T14:54:39.933888+09:00",
+      "elapsed_seconds": 50.237,
+      "returncode": 0,
+      "log": "logs/catamaran_workboat.log"
+    },
+    {
+      "asset": "underwater_service_robot",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set05\\build.py",
+        "--",
+        "--asset",
+        "underwater_service_robot"
+      ],
+      "started_at_utc": "2026-10-25T05:54:39.934890+00:00",
+      "finished_at_utc": "2026-10-25T05:55:27.026697+00:00",
+      "started_at_kst": "2026-10-25T14:54:39.934890+09:00",
+      "finished_at_kst": "2026-10-25T14:55:27.026697+09:00",
+      "elapsed_seconds": 47.092,
+      "returncode": 0,
+      "log": "logs/underwater_service_robot.log"
+    },
+    {
+      "asset": "docking_lift_platform",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set05\\build.py",
+        "--",
+        "--asset",
+        "docking_lift_platform"
+      ],
+      "started_at_utc": "2026-10-25T05:55:27.026697+00:00",
+      "finished_at_utc": "2026-10-25T05:56:20.983002+00:00",
+      "started_at_kst": "2026-10-25T14:55:27.026697+09:00",
+      "finished_at_kst": "2026-10-25T14:56:20.983002+09:00",
+      "elapsed_seconds": 53.956,
+      "returncode": 0,
+      "log": "logs/docking_lift_platform.log"
+    },
+    {
+      "asset": "marine_equipment_workshop",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set05\\build.py",
+        "--",
+        "--asset",
+        "marine_equipment_workshop"
+      ],
+      "started_at_utc": "2026-10-25T05:56:20.984002+00:00",
+      "finished_at_utc": "2026-10-25T05:57:15.394208+00:00",
+      "started_at_kst": "2026-10-25T14:56:20.984002+09:00",
+      "finished_at_kst": "2026-10-25T14:57:15.394208+09:00",
+      "elapsed_seconds": 54.41,
+      "returncode": 0,
+      "log": "logs/marine_equipment_workshop.log"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "catamaran_workboat",
+      "review_status": "deferred_by_user",
+      "files": [
+        {
+          "path": "catamaran_workboat/catamaran_workboat.blend",
+          "bytes": 3729825,
+          "sha256": "f93d75636d39dbed81a84cf8c7c19f551c0f9105acca567b0c7227cd0adf6f07"
+        },
+        {
+          "path": "catamaran_workboat/catamaran_workboat.glb",
+          "bytes": 3731728,
+          "sha256": "73ef6060e9b93cbeeb119425ded6d24fef7a8b07bdcea746e4c29924661137ef"
+        },
+        {
+          "path": "catamaran_workboat/catamaran_workboat.fbx",
+          "bytes": 2227004,
+          "sha256": "d7a0158c9253c9211579c23480cbdf354aee8c35190b256c1ecfefaf3d7de6a6"
+        },
+        {
+          "path": "catamaran_workboat/metadata.json",
+          "bytes": 10927,
+          "sha256": "59ca512fdd4d158a1d3542fb9bfcaa8b36cd1264474ae5c53d631a023a4bf72f"
+        },
+        {
+          "path": "catamaran_workboat/renders/hero.png",
+          "bytes": 1053395,
+          "sha256": "3d9a1490a0e6ef8c7af247c4ea37d7021001fa83bd89334db250a85a18f90c18"
+        },
+        {
+          "path": "catamaran_workboat/renders/rear.png",
+          "bytes": 1093497,
+          "sha256": "aae29e8945c74693199249efffc128fc4519b7a63d20d314336645626399673b"
+        }
+      ],
+      "dimensions_m_from_authored_scene": [
+        5.154999732971191,
+        8.53499984741211,
+        5.119999885559082
+      ],
+      "production_counts": {
+        "mesh_objects": 227,
+        "authored_vertices": 17898,
+        "authored_polygons": 15656
+      },
+      "render_seconds": 45.668,
+      "source": "build.py",
+      "log": "logs/catamaran_workboat.log"
+    },
+    {
+      "asset": "underwater_service_robot",
+      "review_status": "deferred_by_user",
+      "files": [
+        {
+          "path": "underwater_service_robot/underwater_service_robot.blend",
+          "bytes": 2770840,
+          "sha256": "5a6199b567146d0075571c817f876819a64ba591989af7465149a94acfce85c4"
+        },
+        {
+          "path": "underwater_service_robot/underwater_service_robot.glb",
+          "bytes": 3202204,
+          "sha256": "eee9c884c2c41de4e5572f249a4eb201cd688c56b33e7306e07d34a82ddd4f78"
+        },
+        {
+          "path": "underwater_service_robot/underwater_service_robot.fbx",
+          "bytes": 1920428,
+          "sha256": "2cf40e531fb4255d7e5f296f8709870b64f5284818f71f34820c0f806c8b4b5d"
+        },
+        {
+          "path": "underwater_service_robot/metadata.json",
+          "bytes": 10959,
+          "sha256": "e39b014577a650b9f37b6f5ad727aa92bd8a091d2608ca9b553cc0f0ea4c8467"
+        },
+        {
+          "path": "underwater_service_robot/renders/hero.png",
+          "bytes": 1030057,
+          "sha256": "c7d90292f8a2c2132b3bcc28a4b984fee9aa94837f0c0d77699f366e8a1ada99"
+        },
+        {
+          "path": "underwater_service_robot/renders/rear.png",
+          "bytes": 1014681,
+          "sha256": "0676482df0d35b8e88cfbea277853432513211f589192985e34e84c7553f3d8b"
+        }
+      ],
+      "dimensions_m_from_authored_scene": [
+        2.492000102996826,
+        3.730057716369629,
+        1.7383614778518677
+      ],
+      "production_counts": {
+        "mesh_objects": 180,
+        "authored_vertices": 11256,
+        "authored_polygons": 9468
+      },
+      "render_seconds": 43.635,
+      "source": "build.py",
+      "log": "logs/underwater_service_robot.log"
+    },
+    {
+      "asset": "docking_lift_platform",
+      "review_status": "deferred_by_user",
+      "files": [
+        {
+          "path": "docking_lift_platform/docking_lift_platform.blend",
+          "bytes": 6476879,
+          "sha256": "0e05764209ee654838190cb00d6120fe39ed61dd812c778af1773109e1feebea"
+        },
+        {
+          "path": "docking_lift_platform/docking_lift_platform.glb",
+          "bytes": 6487420,
+          "sha256": "a6725d9a273e3c865d2b9571d442819d055c2b8d74b0ac29849de65c5feccc8e"
+        },
+        {
+          "path": "docking_lift_platform/docking_lift_platform.fbx",
+          "bytes": 4080220,
+          "sha256": "44b8a898d96cbd1bbac7df7b61c22730e95af84a7b00cae3d783b57fe7ad8bfc"
+        },
+        {
+          "path": "docking_lift_platform/metadata.json",
+          "bytes": 20109,
+          "sha256": "942499b9f1064dfc972f3ba44a9c892c318c421353d65bee6565ac1aa639e19a"
+        },
+        {
+          "path": "docking_lift_platform/renders/hero.png",
+          "bytes": 1085928,
+          "sha256": "35289b4eef4bc460eeefd010f9ce5c84ff72b5116d347f2b4c33a8e0aa774dd9"
+        },
+        {
+          "path": "docking_lift_platform/renders/rear.png",
+          "bytes": 1105862,
+          "sha256": "50f7ba0e09fb3a818599ae78e463b1cffe448856b05e45c6d74752c713d765cd"
+        }
+      ],
+      "dimensions_m_from_authored_scene": [
+        9.792500495910645,
+        8.399999618530273,
+        8.34000015258789
+      ],
+      "production_counts": {
+        "mesh_objects": 415,
+        "authored_vertices": 35296,
+        "authored_polygons": 32130
+      },
+      "render_seconds": 44.49,
+      "source": "build.py",
+      "log": "logs/docking_lift_platform.log"
+    },
+    {
+      "asset": "marine_equipment_workshop",
+      "review_status": "deferred_by_user",
+      "files": [
+        {
+          "path": "marine_equipment_workshop/marine_equipment_workshop.blend",
+          "bytes": 2899612,
+          "sha256": "b3f56d9a52e6c2c0d5fc84866f31225207a4fe03c96764fe137eba7df52f82a8"
+        },
+        {
+          "path": "marine_equipment_workshop/marine_equipment_workshop.glb",
+          "bytes": 3515124,
+          "sha256": "5a09e37219210187aecca23dca8fc8bdf93cb1c99ac4079e95577c81ad6e583e"
+        },
+        {
+          "path": "marine_equipment_workshop/marine_equipment_workshop.fbx",
+          "bytes": 1974092,
+          "sha256": "cb84db714f422b65a90eed022e58001c518b0b593b614ef22ace9bb27d26706f"
+        },
+        {
+          "path": "marine_equipment_workshop/metadata.json",
+          "bytes": 11635,
+          "sha256": "7189fd8d7ccda7526658eea70a46e5b5f61b5ce7610d2f8d4e3ed732869d28ec"
+        },
+        {
+          "path": "marine_equipment_workshop/renders/hero.png",
+          "bytes": 1016800,
+          "sha256": "82de8612f7294cfd14b4047bf076d364b0e8703dc3004c3a1dc84305ae1d0dad"
+        },
+        {
+          "path": "marine_equipment_workshop/renders/rear.png",
+          "bytes": 1003947,
+          "sha256": "586eb827518b7a97777af1a99e716bbc74bb4bdc2e7986fc7612dc4f899039da"
+        }
+      ],
+      "dimensions_m_from_authored_scene": [
+        11.815000534057617,
+        9.494998931884766,
+        7.269999980926514
+      ],
+      "production_counts": {
+        "mesh_objects": 224,
+        "authored_vertices": 9114,
+        "authored_polygons": 8008
+      },
+      "render_seconds": 48.19,
+      "source": "build.py",
+      "log": "logs/marine_equipment_workshop.log"
+    }
+  ],
+  "support_files": [
+    {
+      "path": "build.py",
+      "bytes": 46356,
+      "sha256": "b8b18198547c4499fb360156734f466d5682f9c2b25402eadcf8adee71d14390"
+    },
+    {
+      "path": "run_build.py",
+      "bytes": 7769,
+      "sha256": "eed11cbd676f4fd79c174a777f8641c150e292fa74e0612db1fa49e8a1ed6b30"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2086,
+      "sha256": "b201fa091c7b560e92eb7d4176b728d94979395c1857405e9f2bb5a5b05d387d"
+    },
+    {
+      "path": "RESULT.md",
+      "bytes": 2535,
+      "sha256": "e75b29250cbcdcca54aa71caf5f828c684d9ebb793a7d2ec1abcbbd19088bcf7"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 4289,
+      "sha256": "a481ba8497d2c73a6eea025c33228dd9d4d5ac2a94409c40cb0230cdbabed719"
+    },
+    {
+      "path": "logs/process_results.json",
+      "bytes": 3024,
+      "sha256": "4248942df9bc02e8d7a7cfbaf9ba1416e745f991fe4bc6097bec28d95c7cd4db"
+    },
+    {
+      "path": "logs/catamaran_workboat.log",
+      "bytes": 93468,
+      "sha256": "e622146ef9a920d1efb8d82b694b8e76a2ac6f72c1262b4db1a6d880a72e5cca"
+    },
+    {
+      "path": "logs/underwater_service_robot.log",
+      "bytes": 79633,
+      "sha256": "8b6a19f5a1fb440d8c65669cb9e4cc5039411066529367d37472dd6207ef3ae7"
+    },
+    {
+      "path": "logs/docking_lift_platform.log",
+      "bytes": 166181,
+      "sha256": "afd80c3f63abd98cd850b049dbab768991a06439bd7ef3d5262110be8e107934"
+    },
+    {
+      "path": "logs/marine_equipment_workshop.log",
+      "bytes": 93035,
+      "sha256": "043e0197d184ed4aeeb9aa5cb4fe2b6480bdc6c108c0dfd79bfe9cfdff329f6f"
+    }
+  ],
+  "inventory_note": "Only process completion and expected nonempty output presence checked. Hashes record delivered bytes. No independent model, UV, rendering or export-roundtrip review.",
+  "frozen": true
+}

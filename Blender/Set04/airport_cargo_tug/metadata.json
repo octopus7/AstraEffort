@@ -1,0 +1,283 @@
+{
+  "asset": "airport_cargo_tug",
+  "set": "Set04",
+  "theme": "aerial logistics",
+  "units": "meters",
+  "front_axis": "-Y",
+  "up_axis": "+Z",
+  "reference": "../REF/airport_cargo_tug.png",
+  "design": {
+    "design_dimensions_m": [
+      2.48,
+      4.5,
+      2.99
+    ],
+    "features": [
+      "four sturdy wheels with tread blocks",
+      "short raked hood and broad enclosed glazed cab",
+      "side steps, mirrors and compact beacon",
+      "heavy raised rear towing eye and front recovery clevis"
+    ]
+  },
+  "authored_scene_bounds_m": {
+    "min": [
+      -1.2400000095367432,
+      -2.484999895095825,
+      -0.007500005885958672
+    ],
+    "max": [
+      1.2400000095367432,
+      2.1575000286102295,
+      2.9499998092651367
+    ],
+    "dimensions": [
+      2.4800000190734863,
+      4.642499923706055,
+      2.9574997425079346
+    ]
+  },
+  "production_measurements": {
+    "mesh_parts": 225,
+    "vertices": 33752,
+    "polygons": 32608,
+    "materials": [
+      {
+        "name": "Paint | warm ivory",
+        "base_color": [
+          0.6899999976158142,
+          0.6650000214576721,
+          0.574999988079071,
+          1.0
+        ],
+        "metallic": 0.23999999463558197,
+        "roughness": 0.41999998688697815
+      },
+      {
+        "name": "Paint | muted slate blue",
+        "base_color": [
+          0.11500000208616257,
+          0.20499999821186066,
+          0.26499998569488525,
+          1.0
+        ],
+        "metallic": 0.3499999940395355,
+        "roughness": 0.3799999952316284
+      },
+      {
+        "name": "Mechanisms | graphite",
+        "base_color": [
+          0.054999999701976776,
+          0.06800000369548798,
+          0.07500000298023224,
+          1.0
+        ],
+        "metallic": 0.550000011920929,
+        "roughness": 0.4000000059604645
+      },
+      {
+        "name": "Hardware | brushed steel",
+        "base_color": [
+          0.25,
+          0.28999999165534973,
+          0.30000001192092896,
+          1.0
+        ],
+        "metallic": 0.75,
+        "roughness": 0.3100000023841858
+      },
+      {
+        "name": "Safety | restrained ochre",
+        "base_color": [
+          0.9100000262260437,
+          0.5,
+          0.10999999940395355,
+          1.0
+        ],
+        "metallic": 0.2199999988079071,
+        "roughness": 0.3700000047683716
+      },
+      {
+        "name": "Tires and gaskets | charcoal rubber",
+        "base_color": [
+          0.024000000208616257,
+          0.028999999165534973,
+          0.03200000151991844,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.7599999904632568
+      },
+      {
+        "name": "Glazing | muted smoked blue",
+        "base_color": [
+          0.06499999761581421,
+          0.15000000596046448,
+          0.1899999976158142,
+          1.0
+        ],
+        "metallic": 0.44999998807907104,
+        "roughness": 0.20999999344348907
+      },
+      {
+        "name": "Equipment | inactive blue display",
+        "base_color": [
+          0.03500000014901161,
+          0.08500000089406967,
+          0.10499999672174454,
+          1.0
+        ],
+        "metallic": 0.25,
+        "roughness": 0.28999999165534973
+      },
+      {
+        "name": "Lighting | warm diffuser",
+        "base_color": [
+          1.0,
+          0.699999988079071,
+          0.3199999928474426,
+          1.0
+        ],
+        "metallic": 0.10000000149011612,
+        "roughness": 0.2800000011920929
+      },
+      {
+        "name": "Lighting | white diffuser",
+        "base_color": [
+          0.7400000095367432,
+          0.8799999952316284,
+          0.949999988079071,
+          1.0
+        ],
+        "metallic": 0.10000000149011612,
+        "roughness": 0.23999999463558197
+      },
+      {
+        "name": "Lighting | tail red",
+        "base_color": [
+          0.44999998807907104,
+          0.04500000178813934,
+          0.02500000037252903,
+          1.0
+        ],
+        "metallic": 0.10000000149011612,
+        "roughness": 0.30000001192092896
+      },
+      {
+        "name": "Foundation | warm concrete",
+        "base_color": [
+          0.38999998569488525,
+          0.4050000011920929,
+          0.38999998569488525,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.8399999737739563
+      },
+      {
+        "name": "Service deck | dark gray",
+        "base_color": [
+          0.17000000178813934,
+          0.20499999821186066,
+          0.2199999988079071,
+          1.0
+        ],
+        "metallic": 0.25,
+        "roughness": 0.6499999761581421
+      }
+    ]
+  },
+  "uv_authoring": {
+    "method": "individually packed Smart Project surface islands per editable component, after bevel application",
+    "angle_degrees": 66,
+    "island_margin": 0.025,
+    "map": "SurfaceUV",
+    "independent_uv_review": "deferred_by_user"
+  },
+  "native_collections": [
+    "ASSET",
+    "STUDIO"
+  ],
+  "exports": "ASSET mesh selection only, no studio cameras/lights/floor",
+  "render": {
+    "engine": "Cycles CPU",
+    "threads": 4,
+    "samples": 40,
+    "resolution": [
+      960,
+      960
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "background": "neutral warm-gray studio",
+    "records": [
+      {
+        "view": "hero",
+        "path": "airport_cargo_tug/renders/hero.png",
+        "started_at_utc": "2026-10-25T05:45:57.009431+00:00",
+        "finished_at_utc": "2026-10-25T05:46:24.097196+00:00",
+        "elapsed_seconds": 27.087,
+        "camera": {
+          "location": [
+            6.947353363037109,
+            -10.43375015258789,
+            7.814485549926758
+          ],
+          "rotation_euler": [
+            1.0979223251342773,
+            -7.798126588909327e-09,
+            0.5947592854499817
+          ],
+          "orthographic_scale": 4.952467441558838,
+          "target": [
+            0.0,
+            -0.16374993324279785,
+            1.4712499380111694
+          ]
+        }
+      },
+      {
+        "view": "rear",
+        "path": "airport_cargo_tug/renders/rear.png",
+        "started_at_utc": "2026-10-25T05:46:24.097196+00:00",
+        "finished_at_utc": "2026-10-25T05:46:50.602117+00:00",
+        "elapsed_seconds": 26.505,
+        "camera": {
+          "location": [
+            -7.312700271606445,
+            9.891213417053223,
+            7.747983932495117
+          ],
+          "rotation_euler": [
+            1.1032782793045044,
+            -2.984282332363364e-08,
+            -2.512796640396118
+          ],
+          "orthographic_scale": 5.036767959594727,
+          "target": [
+            0.0,
+            -0.16374993324279785,
+            1.4712499380111694
+          ]
+        }
+      }
+    ]
+  },
+  "review_status": "deferred_by_user",
+  "checks_performed": "process completion and expected nonempty output file presence only, by runner",
+  "not_performed": [
+    "render opening or inspection",
+    "fresh native reopen",
+    "GLB or FBX reimport",
+    "geometry or UV validators",
+    "reviewer tasks"
+  ],
+  "limitations": [
+    "solid palette materials; no texture maps",
+    "static meshes; no rig, animation, collision or LOD",
+    "glazing is stylized opaque smoked PBR, not a detailed occupied interior",
+    "reference back sides interpreted from functional design"
+  ],
+  "started_at_utc": "2026-10-25T05:45:52.733681+00:00",
+  "finished_at_utc": "2026-10-25T05:46:50.602117+00:00",
+  "production_elapsed_seconds": 57.868
+}

@@ -1,0 +1,142 @@
+{
+  "set": "Set03",
+  "slug": "street_sweeper",
+  "theme": "Urban maintenance",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "reference": "REF/Set03/street_sweeper.png",
+  "created_with": "Blender 4.5.12, independent background process",
+  "units": "meters",
+  "front_direction": "-Y",
+  "up_axis": "+Z",
+  "asset_collection": "ASSET",
+  "studio_collection": "STUDIO",
+  "geometry_only_exports": true,
+  "editable_named_components": true,
+  "uv_method": "Per-component primitive unwraps and explicit parameterized/planar islands; no UV validator run.",
+  "materials": [
+    "Paint | Warm Ivory",
+    "Paint | Muted Sage",
+    "Paint | Light Sage Trim",
+    "Mechanism | Graphite Metal",
+    "Rubber | Soft Charcoal",
+    "Metal | Brushed Steel",
+    "Safety | Operational Orange",
+    "Glass | Muted Blue Grey",
+    "Optics | Deep Blue Lens",
+    "Lamp | Warm Diffuser",
+    "Lamp | Red Tail Lens",
+    "Masonry | Warm Cast Concrete",
+    "Interior | Pale Warm Wall",
+    "Brush | Sage Bristles"
+  ],
+  "design": {
+    "description": "Compact four-wheel sweeper with broad sloping glazing, enclosed hopper, twin powered side brushes and central suction shoe.",
+    "intended_dimensions_m": {
+      "width": 2.75,
+      "depth": 4.3,
+      "height": 2.8
+    }
+  },
+  "production_measurements": {
+    "mesh_objects": 282,
+    "base_mesh_vertices": 13108,
+    "base_mesh_polygons": 11622,
+    "authored_bounds_m": {
+      "minimum": [
+        -1.3648433685302734,
+        -2.454843282699585,
+        0.015499994158744812
+      ],
+      "maximum": [
+        1.3648433685302734,
+        1.9300000667572021,
+        2.7899999618530273
+      ],
+      "dimensions": [
+        2.729686737060547,
+        4.384843349456787,
+        2.7744998931884766
+      ]
+    },
+    "measurement_note": "Direct production measurements from the authored scene, not independent validation."
+  },
+  "render_settings": {
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 4,
+    "samples": 40,
+    "denoising": true,
+    "resolution": [
+      960,
+      960
+    ],
+    "color_transform": "AgX",
+    "views": {
+      "hero": {
+        "projection": "orthographic",
+        "location_m": [
+          7.015749454498291,
+          -10.566802978515625,
+          8.199256896972656
+        ],
+        "target_m": [
+          0.0,
+          -0.2624216079711914,
+          1.402750015258789
+        ],
+        "rotation_euler_radians": [
+          1.0716429948806763,
+          -6.812588537741249e-08,
+          0.5977585315704346
+        ],
+        "orthographic_scale_m": 5.887606143951416,
+        "render_started_at_utc": "2026-10-25T05:42:00.213529+00:00",
+        "render_finished_at_utc": "2026-10-25T05:42:25.910855+00:00",
+        "render_seconds": 25.69823209999595
+      },
+      "rear": {
+        "projection": "orthographic",
+        "location_m": [
+          -7.015749454498291,
+          10.041959762573242,
+          8.199256896972656
+        ],
+        "target_m": [
+          0.0,
+          -0.2624216079711914,
+          1.402750015258789
+        ],
+        "rotation_euler_radians": [
+          1.0716428756713867,
+          -6.155718068612259e-08,
+          -2.5438342094421387
+        ],
+        "orthographic_scale_m": 5.887607097625732,
+        "render_started_at_utc": "2026-10-25T05:42:25.911856+00:00",
+        "render_finished_at_utc": "2026-10-25T05:42:50.841204+00:00",
+        "render_seconds": 24.929282099939883
+      }
+    }
+  },
+  "started_at_utc": "2026-10-25T05:41:57.421332+00:00",
+  "finished_at_utc": "2026-10-25T05:42:50.841204+00:00",
+  "production_seconds": 53.4196316000307,
+  "export_timings": {
+    "glb_seconds": 0.6737998999888077,
+    "fbx_seconds": 0.38333240000065416
+  },
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "independent review"
+  ],
+  "limitations": [
+    "Static asset with solid-color PBR materials. No rig, animation, collision or LODs.",
+    "Reference proportions and small engineering details are artistically simplified.",
+    "Renders generated for future review and not inspected."
+  ]
+}

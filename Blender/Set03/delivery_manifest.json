@@ -1,0 +1,287 @@
+{
+  "set": "Set03",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T05:36:36.508155+00:00",
+  "finished_at_utc": "2026-10-25T05:45:33.590331+00:00",
+  "elapsed_seconds": 537.082176,
+  "processes": [
+    {
+      "slug": "street_sweeper",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "street_sweeper"
+      ],
+      "started_at_utc": "2026-10-25T05:41:57.146590+00:00",
+      "finished_at_utc": "2026-10-25T05:42:50.983674+00:00",
+      "duration_seconds": 53.83780990005471,
+      "returncode": 0,
+      "log": "logs/street_sweeper.log",
+      "expected_files_nonempty": true
+    },
+    {
+      "slug": "pipe_inspection_robot",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "pipe_inspection_robot"
+      ],
+      "started_at_utc": "2026-10-25T05:42:50.984675+00:00",
+      "finished_at_utc": "2026-10-25T05:43:41.965921+00:00",
+      "duration_seconds": 50.98105389997363,
+      "returncode": 0,
+      "log": "logs/pipe_inspection_robot.log",
+      "expected_files_nonempty": true
+    },
+    {
+      "slug": "road_maintenance_depot",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "road_maintenance_depot"
+      ],
+      "started_at_utc": "2026-10-25T05:43:41.966921+00:00",
+      "finished_at_utc": "2026-10-25T05:44:36.062106+00:00",
+      "duration_seconds": 54.09605049993843,
+      "returncode": 0,
+      "log": "logs/road_maintenance_depot.log",
+      "expected_files_nonempty": true
+    },
+    {
+      "slug": "compact_pump_station",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "compact_pump_station"
+      ],
+      "started_at_utc": "2026-10-25T05:44:36.063105+00:00",
+      "finished_at_utc": "2026-10-25T05:45:33.589331+00:00",
+      "duration_seconds": 57.52642090001609,
+      "returncode": 0,
+      "log": "logs/compact_pump_station.log",
+      "expected_files_nonempty": true
+    }
+  ],
+  "inventory_note": "File hashes and nonzero sizes record produced files only. Review and validation are deferred.",
+  "files": [
+    {
+      "asset": "street_sweeper",
+      "path": "street_sweeper/street_sweeper.blend",
+      "bytes": 3611046,
+      "sha256": "c4bb77d60bd522364fadd7a72a6258eb84e1ff053e2b81223064b5438026a4ae"
+    },
+    {
+      "asset": "street_sweeper",
+      "path": "street_sweeper/street_sweeper.glb",
+      "bytes": 3168796,
+      "sha256": "d80f432b3f1414be2dfc32677deddec601c8dd8ffc9c7c98e1099acdc7e35d5b"
+    },
+    {
+      "asset": "street_sweeper",
+      "path": "street_sweeper/street_sweeper.fbx",
+      "bytes": 2408940,
+      "sha256": "c3c23cba1cb854f7099b722f0604093462ff7fc52db8bcac7de681560d65ca96"
+    },
+    {
+      "asset": "street_sweeper",
+      "path": "street_sweeper/metadata.json",
+      "bytes": 4309,
+      "sha256": "de8806d881beb9fd9b0bf9749fc315dfc099564f1b300c4d1bff9b92b286f8a4"
+    },
+    {
+      "asset": "street_sweeper",
+      "path": "street_sweeper/renders/hero.png",
+      "bytes": 1098602,
+      "sha256": "f90d56328915dc25a9fa07de5f6b12e3ebd9db444560c40c0d513d47d0b0c12c"
+    },
+    {
+      "asset": "street_sweeper",
+      "path": "street_sweeper/renders/rear.png",
+      "bytes": 1065944,
+      "sha256": "74f01c293caeb436eaab8c3719df5349a31811726f0272f7655c54cf102b23c7"
+    },
+    {
+      "asset": "pipe_inspection_robot",
+      "path": "pipe_inspection_robot/pipe_inspection_robot.blend",
+      "bytes": 3470941,
+      "sha256": "4ecbd07c8f1f597c94c527b5bdb48ff01943388fb531a2b339e7aada092a77f2"
+    },
+    {
+      "asset": "pipe_inspection_robot",
+      "path": "pipe_inspection_robot/pipe_inspection_robot.glb",
+      "bytes": 2940756,
+      "sha256": "8bf97e28f31a107b76d111a3af6d12cddbda4fa2accd36fc8744e6fa7c1abd36"
+    },
+    {
+      "asset": "pipe_inspection_robot",
+      "path": "pipe_inspection_robot/pipe_inspection_robot.fbx",
+      "bytes": 2182956,
+      "sha256": "a6fd1ed528867fa2fa73706a646a06d27d1fb4ccd38b1a08d0f7415d589323e1"
+    },
+    {
+      "asset": "pipe_inspection_robot",
+      "path": "pipe_inspection_robot/metadata.json",
+      "bytes": 4386,
+      "sha256": "ddf47cedcce9233bd68ab1357fe538d9ede8d431dd9ad919b1e350ebca058e27"
+    },
+    {
+      "asset": "pipe_inspection_robot",
+      "path": "pipe_inspection_robot/renders/hero.png",
+      "bytes": 1060734,
+      "sha256": "735a013ffab4014a4a53b2680223e5f10285d5a3900204fe333ee84d905a155c"
+    },
+    {
+      "asset": "pipe_inspection_robot",
+      "path": "pipe_inspection_robot/renders/rear.png",
+      "bytes": 1045620,
+      "sha256": "cb5d8686c180b6a2863cd737b97b885b272ac018741dc6057e89963d7af3fb95"
+    },
+    {
+      "asset": "road_maintenance_depot",
+      "path": "road_maintenance_depot/road_maintenance_depot.blend",
+      "bytes": 3036048,
+      "sha256": "98b5de0cb19f0fa5b1e0748f44d8344a6b4e7409a90960774026c2481f01df12"
+    },
+    {
+      "asset": "road_maintenance_depot",
+      "path": "road_maintenance_depot/road_maintenance_depot.glb",
+      "bytes": 2358988,
+      "sha256": "d732a504cc916e64c3a3527c87a53ddfc6af9dbbee8dfb90eb8f6bf7bc077632"
+    },
+    {
+      "asset": "road_maintenance_depot",
+      "path": "road_maintenance_depot/road_maintenance_depot.fbx",
+      "bytes": 1516652,
+      "sha256": "3d2d6a7249c5d4dd774b1f997ab5c4d48e0ee6f738b60d80d9dea6403d259bba"
+    },
+    {
+      "asset": "road_maintenance_depot",
+      "path": "road_maintenance_depot/metadata.json",
+      "bytes": 4348,
+      "sha256": "e9647bdc0df43d8c1742dade7b1ce7bac31d5aa43a8d8c73af3db9bbd4016dfa"
+    },
+    {
+      "asset": "road_maintenance_depot",
+      "path": "road_maintenance_depot/renders/hero.png",
+      "bytes": 1083013,
+      "sha256": "ad96a2020e9c37d29e4fdbf75722c1424abd009985c2e7e33fba4d64ac3f5746"
+    },
+    {
+      "asset": "road_maintenance_depot",
+      "path": "road_maintenance_depot/renders/rear.png",
+      "bytes": 1004525,
+      "sha256": "26bd534437ae815a8043840ab6ad0e998cb57c5610be9152c716bd091849017d"
+    },
+    {
+      "asset": "compact_pump_station",
+      "path": "compact_pump_station/compact_pump_station.blend",
+      "bytes": 3600142,
+      "sha256": "06325ed285255b25131988e2c49de190b55fe2f33e60e4497bbeba8325845051"
+    },
+    {
+      "asset": "compact_pump_station",
+      "path": "compact_pump_station/compact_pump_station.glb",
+      "bytes": 3023808,
+      "sha256": "085027c9b1a0019fd71cb75c44d1b5346b988f8937265ec7a7e463af42be1273"
+    },
+    {
+      "asset": "compact_pump_station",
+      "path": "compact_pump_station/compact_pump_station.fbx",
+      "bytes": 2663212,
+      "sha256": "309ff86fc2f34e9cfd3dd43f2d582a0bebc0e50dfe3cabc64910370d08a343b9"
+    },
+    {
+      "asset": "compact_pump_station",
+      "path": "compact_pump_station/metadata.json",
+      "bytes": 4393,
+      "sha256": "4116c7a5ac9e56e757ee80305def8f2095fb18a98d303f286ecf1bd3fcf25235"
+    },
+    {
+      "asset": "compact_pump_station",
+      "path": "compact_pump_station/renders/hero.png",
+      "bytes": 1074960,
+      "sha256": "28089492ff8cb5982cabe58d05962db9e891db6a906b4e0771b79364476c866b"
+    },
+    {
+      "asset": "compact_pump_station",
+      "path": "compact_pump_station/renders/rear.png",
+      "bytes": 997370,
+      "sha256": "a733988a73721f82bb98e4def3e463f1e1b9e1cf07390cbf96c7caff85a4e33c"
+    },
+    {
+      "asset": null,
+      "path": "build.py",
+      "bytes": 46690,
+      "sha256": "77dde5eeea959b0cb386b29c050646d8ab05cdd872d785ae54dc31b740438a59"
+    },
+    {
+      "asset": null,
+      "path": "run_batch.py",
+      "bytes": 9258,
+      "sha256": "cf36df86130754dcbb19dfb6a80dc28ee0bc521f26530602b5b8b7d2b01b7e2b"
+    },
+    {
+      "asset": null,
+      "path": "production_start.json",
+      "bytes": 226,
+      "sha256": "48c8865e279e5a8b0a7a18fc045706ec4b122b9cd2a4321a9dca2e924c2a653f"
+    },
+    {
+      "asset": null,
+      "path": "logs/compact_pump_station.log",
+      "bytes": 109189,
+      "sha256": "55544739d6ffd52d873c023c2a3dd4d9c91ac1f487c34c0e553302986c1e9b17"
+    },
+    {
+      "asset": null,
+      "path": "logs/pipe_inspection_robot.log",
+      "bytes": 103664,
+      "sha256": "20de31ff4057488e6afa26338f546697e66a69b423745780e12f7e8246ba6892"
+    },
+    {
+      "asset": null,
+      "path": "logs/road_maintenance_depot.log",
+      "bytes": 79242,
+      "sha256": "4b5be6ad8999910be3ec4b408de31a62daddf67f42e562dcb823dc0837843b35"
+    },
+    {
+      "asset": null,
+      "path": "logs/street_sweeper.log",
+      "bytes": 112734,
+      "sha256": "12fe5155e6fd648787023bc2861031213d4b431f25a2a1b15aec7341d325051a"
+    }
+  ]
+}

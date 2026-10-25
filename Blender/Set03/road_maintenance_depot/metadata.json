@@ -1,0 +1,142 @@
+{
+  "set": "Set03",
+  "slug": "road_maintenance_depot",
+  "theme": "Urban maintenance",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "reference": "REF/Set03/road_maintenance_depot.png",
+  "created_with": "Blender 4.5.12, independent background process",
+  "units": "meters",
+  "front_direction": "-Y",
+  "up_axis": "+Z",
+  "asset_collection": "ASSET",
+  "studio_collection": "STUDIO",
+  "geometry_only_exports": true,
+  "editable_named_components": true,
+  "uv_method": "Per-component primitive unwraps and explicit parameterized/planar islands; no UV validator run.",
+  "materials": [
+    "Paint | Warm Ivory",
+    "Paint | Muted Sage",
+    "Paint | Light Sage Trim",
+    "Mechanism | Graphite Metal",
+    "Rubber | Soft Charcoal",
+    "Metal | Brushed Steel",
+    "Safety | Operational Orange",
+    "Glass | Muted Blue Grey",
+    "Optics | Deep Blue Lens",
+    "Lamp | Warm Diffuser",
+    "Lamp | Red Tail Lens",
+    "Masonry | Warm Cast Concrete",
+    "Interior | Pale Warm Wall",
+    "Brush | Sage Bristles"
+  ],
+  "design": {
+    "description": "Rounded barrel-roof maintenance depot with genuinely open service bay, raised shutter, interior benches and grating, glazed side office with separate door, recessed tool alcove and roof ventilation.",
+    "intended_dimensions_m": {
+      "width": 7.8,
+      "depth": 5.6,
+      "height": 4.3
+    }
+  },
+  "production_measurements": {
+    "mesh_objects": 188,
+    "base_mesh_vertices": 12876,
+    "base_mesh_polygons": 11928,
+    "authored_bounds_m": {
+      "minimum": [
+        -3.875,
+        -2.950000047683716,
+        0.0
+      ],
+      "maximum": [
+        3.875,
+        2.663888931274414,
+        4.324966907501221
+      ],
+      "dimensions": [
+        7.75,
+        5.613888740539551,
+        4.324966907501221
+      ]
+    },
+    "measurement_note": "Direct production measurements from the authored scene, not independent validation."
+  },
+  "render_settings": {
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 4,
+    "samples": 40,
+    "denoising": true,
+    "resolution": [
+      960,
+      960
+    ],
+    "color_transform": "AgX",
+    "views": {
+      "hero": {
+        "projection": "orthographic",
+        "location_m": [
+          12.40000057220459,
+          -18.355554580688477,
+          14.174983024597168
+        ],
+        "target_m": [
+          0.0,
+          -0.14305555820465088,
+          2.1624834537506104
+        ],
+        "rotation_euler_radians": [
+          1.0716428756713867,
+          -4.5803609793892974e-08,
+          0.597758412361145
+        ],
+        "orthographic_scale_m": 11.478708267211914,
+        "render_started_at_utc": "2026-10-25T05:43:43.664305+00:00",
+        "render_finished_at_utc": "2026-10-25T05:44:11.241578+00:00",
+        "render_seconds": 27.576700099976733
+      },
+      "rear": {
+        "projection": "orthographic",
+        "location_m": [
+          -12.40000057220459,
+          18.06944465637207,
+          14.174983024597168
+        ],
+        "target_m": [
+          0.0,
+          -0.14305555820465088,
+          2.1624834537506104
+        ],
+        "rotation_euler_radians": [
+          1.0716431140899658,
+          -1.2082072942121158e-07,
+          -2.5438342094421387
+        ],
+        "orthographic_scale_m": 11.47870922088623,
+        "render_started_at_utc": "2026-10-25T05:44:11.241578+00:00",
+        "render_finished_at_utc": "2026-10-25T05:44:35.918002+00:00",
+        "render_seconds": 24.67677569994703
+      }
+    }
+  },
+  "started_at_utc": "2026-10-25T05:43:42.224769+00:00",
+  "finished_at_utc": "2026-10-25T05:44:35.918002+00:00",
+  "production_seconds": 53.6933057999704,
+  "export_timings": {
+    "glb_seconds": 0.46588839998003095,
+    "fbx_seconds": 0.23530139995273203
+  },
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "independent review"
+  ],
+  "limitations": [
+    "Static asset with solid-color PBR materials. No rig, animation, collision or LODs.",
+    "Reference proportions and small engineering details are artistically simplified.",
+    "Renders generated for future review and not inspected."
+  ]
+}

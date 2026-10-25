@@ -1,0 +1,142 @@
+{
+  "set": "Set03",
+  "slug": "pipe_inspection_robot",
+  "theme": "Urban maintenance",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "reference": "REF/Set03/pipe_inspection_robot.png",
+  "created_with": "Blender 4.5.12, independent background process",
+  "units": "meters",
+  "front_direction": "-Y",
+  "up_axis": "+Z",
+  "asset_collection": "ASSET",
+  "studio_collection": "STUDIO",
+  "geometry_only_exports": true,
+  "editable_named_components": true,
+  "uv_method": "Per-component primitive unwraps and explicit parameterized/planar islands; no UV validator run.",
+  "materials": [
+    "Paint | Warm Ivory",
+    "Paint | Muted Sage",
+    "Paint | Light Sage Trim",
+    "Mechanism | Graphite Metal",
+    "Rubber | Soft Charcoal",
+    "Metal | Brushed Steel",
+    "Safety | Operational Orange",
+    "Glass | Muted Blue Grey",
+    "Optics | Deep Blue Lens",
+    "Lamp | Warm Diffuser",
+    "Lamp | Red Tail Lens",
+    "Masonry | Warm Cast Concrete",
+    "Interior | Pale Warm Wall",
+    "Brush | Sage Bristles"
+  ],
+  "design": {
+    "description": "Three compact capsule inspection modules, six rubber wheels, two exposed universal joints, forward camera with four work lamps and rear orange tether reel.",
+    "intended_dimensions_m": {
+      "width": 1.35,
+      "depth": 3.85,
+      "height": 1.7
+    }
+  },
+  "production_measurements": {
+    "mesh_objects": 250,
+    "base_mesh_vertices": 14016,
+    "base_mesh_polygons": 12176,
+    "authored_bounds_m": {
+      "minimum": [
+        -0.6500000357627869,
+        -1.758608341217041,
+        -0.01450000423938036
+      ],
+      "maximum": [
+        0.7823276519775391,
+        2.294341802597046,
+        1.684999942779541
+      ],
+      "dimensions": [
+        1.4323277473449707,
+        4.052949905395508,
+        1.6994999647140503
+      ]
+    },
+    "measurement_note": "Direct production measurements from the authored scene, not independent validation."
+  },
+  "render_settings": {
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 4,
+    "samples": 40,
+    "denoising": true,
+    "resolution": [
+      960,
+      960
+    ],
+    "color_transform": "AgX",
+    "views": {
+      "hero": {
+        "projection": "orthographic",
+        "location_m": [
+          6.550883769989014,
+          -9.25656509399414,
+          7.117321968078613
+        ],
+        "target_m": [
+          0.0661638081073761,
+          0.26786673069000244,
+          0.8352499604225159
+        ],
+        "rotation_euler_radians": [
+          1.0716428756713867,
+          3.225722267075071e-08,
+          0.5977583527565002
+        ],
+        "orthographic_scale_m": 4.178008079528809,
+        "render_started_at_utc": "2026-10-25T05:42:53.645508+00:00",
+        "render_finished_at_utc": "2026-10-25T05:43:17.764640+00:00",
+        "render_seconds": 24.119464100105688
+      },
+      "rear": {
+        "projection": "orthographic",
+        "location_m": [
+          -6.418555736541748,
+          9.792299270629883,
+          7.117321968078613
+        ],
+        "target_m": [
+          0.0661638081073761,
+          0.26786673069000244,
+          0.8352499604225159
+        ],
+        "rotation_euler_radians": [
+          1.0716429948806763,
+          -1.0704339103995153e-07,
+          -2.5438344478607178
+        ],
+        "orthographic_scale_m": 4.178007125854492,
+        "render_started_at_utc": "2026-10-25T05:43:17.765638+00:00",
+        "render_finished_at_utc": "2026-10-25T05:43:41.813921+00:00",
+        "render_seconds": 24.048144200001843
+      }
+    }
+  },
+  "started_at_utc": "2026-10-25T05:42:51.239994+00:00",
+  "finished_at_utc": "2026-10-25T05:43:41.813921+00:00",
+  "production_seconds": 50.573681300040334,
+  "export_timings": {
+    "glb_seconds": 0.6637817999580875,
+    "fbx_seconds": 0.3702904999954626
+  },
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "independent review"
+  ],
+  "limitations": [
+    "Static asset with solid-color PBR materials. No rig, animation, collision or LODs.",
+    "Reference proportions and small engineering details are artistically simplified.",
+    "Renders generated for future review and not inspected."
+  ]
+}

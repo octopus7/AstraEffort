@@ -1,0 +1,117 @@
+{
+  "set": "Set03",
+  "theme": "Urban maintenance",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T05:36:36.508155+00:00",
+  "started_at_kst": "2026-10-25T14:36:36.508155+09:00",
+  "assets": [
+    "street_sweeper",
+    "pipe_inspection_robot",
+    "road_maintenance_depot",
+    "compact_pump_station"
+  ],
+  "completed_assets": [
+    "street_sweeper",
+    "pipe_inspection_robot",
+    "road_maintenance_depot",
+    "compact_pump_station"
+  ],
+  "processes": [
+    {
+      "slug": "street_sweeper",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "street_sweeper"
+      ],
+      "started_at_utc": "2026-10-25T05:41:57.146590+00:00",
+      "finished_at_utc": "2026-10-25T05:42:50.983674+00:00",
+      "duration_seconds": 53.83780990005471,
+      "returncode": 0,
+      "log": "logs/street_sweeper.log",
+      "expected_files_nonempty": true
+    },
+    {
+      "slug": "pipe_inspection_robot",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "pipe_inspection_robot"
+      ],
+      "started_at_utc": "2026-10-25T05:42:50.984675+00:00",
+      "finished_at_utc": "2026-10-25T05:43:41.965921+00:00",
+      "duration_seconds": 50.98105389997363,
+      "returncode": 0,
+      "log": "logs/pipe_inspection_robot.log",
+      "expected_files_nonempty": true
+    },
+    {
+      "slug": "road_maintenance_depot",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "road_maintenance_depot"
+      ],
+      "started_at_utc": "2026-10-25T05:43:41.966921+00:00",
+      "finished_at_utc": "2026-10-25T05:44:36.062106+00:00",
+      "duration_seconds": 54.09605049993843,
+      "returncode": 0,
+      "log": "logs/road_maintenance_depot.log",
+      "expected_files_nonempty": true
+    },
+    {
+      "slug": "compact_pump_station",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set03\\build.py",
+        "--",
+        "compact_pump_station"
+      ],
+      "started_at_utc": "2026-10-25T05:44:36.063105+00:00",
+      "finished_at_utc": "2026-10-25T05:45:33.589331+00:00",
+      "duration_seconds": 57.52642090001609,
+      "returncode": 0,
+      "log": "logs/compact_pump_station.log",
+      "expected_files_nonempty": true
+    }
+  ],
+  "blockers": [],
+  "finished_at_utc": "2026-10-25T05:45:33.590331+00:00",
+  "finished_at_kst": "2026-10-25T14:45:33.590331+09:00",
+  "elapsed_seconds": 537.082176,
+  "total_blender_process_seconds": 216.44133519998286,
+  "completion_checks": "Process return codes and expected file existence/nonzero size only. Hashes are inventory, not validation.",
+  "review_and_validation": "Deferred by user; no generated render inspection, reopen, reimport or geometry/UV validators."
+}

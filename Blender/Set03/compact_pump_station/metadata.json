@@ -1,0 +1,142 @@
+{
+  "set": "Set03",
+  "slug": "compact_pump_station",
+  "theme": "Urban maintenance",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "reference": "REF/Set03/compact_pump_station.png",
+  "created_with": "Blender 4.5.12, independent background process",
+  "units": "meters",
+  "front_direction": "-Y",
+  "up_axis": "+Z",
+  "asset_collection": "ASSET",
+  "studio_collection": "STUDIO",
+  "geometry_only_exports": true,
+  "editable_named_components": true,
+  "uv_method": "Per-component primitive unwraps and explicit parameterized/planar islands; no UV validator run.",
+  "materials": [
+    "Paint | Warm Ivory",
+    "Paint | Muted Sage",
+    "Paint | Light Sage Trim",
+    "Mechanism | Graphite Metal",
+    "Rubber | Soft Charcoal",
+    "Metal | Brushed Steel",
+    "Safety | Operational Orange",
+    "Glass | Muted Blue Grey",
+    "Optics | Deep Blue Lens",
+    "Lamp | Warm Diffuser",
+    "Lamp | Red Tail Lens",
+    "Masonry | Warm Cast Concrete",
+    "Interior | Pale Warm Wall",
+    "Brush | Sage Bristles"
+  ],
+  "design": {
+    "description": "Small curved-roof utility station with open canopy, paired rounded volute pumps, rear finned electric motors, curved common manifold with two side outlets, orange gate valve handwheel and compact control cabinet.",
+    "intended_dimensions_m": {
+      "width": 5.8,
+      "depth": 4.05,
+      "height": 4.35
+    }
+  },
+  "production_measurements": {
+    "mesh_objects": 259,
+    "base_mesh_vertices": 14596,
+    "base_mesh_polygons": 12520,
+    "authored_bounds_m": {
+      "minimum": [
+        -2.921874761581421,
+        -1.899999976158142,
+        0.0
+      ],
+      "maximum": [
+        2.921874761581421,
+        2.1050000190734863,
+        4.339999675750732
+      ],
+      "dimensions": [
+        5.843749523162842,
+        4.005000114440918,
+        4.339999675750732
+      ]
+    },
+    "measurement_note": "Direct production measurements from the authored scene, not independent validation."
+  },
+  "render_settings": {
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 4,
+    "samples": 40,
+    "denoising": true,
+    "resolution": [
+      960,
+      960
+    ],
+    "color_transform": "AgX",
+    "views": {
+      "hero": {
+        "projection": "orthographic",
+        "location_m": [
+          9.34999942779541,
+          -13.630311012268066,
+          11.227811813354492
+        ],
+        "target_m": [
+          0.0,
+          0.10250002145767212,
+          2.169999837875366
+        ],
+        "rotation_euler_radians": [
+          1.0716428756713867,
+          -4.5803609793892974e-08,
+          0.597758412361145
+        ],
+        "orthographic_scale_m": 8.501300811767578,
+        "render_started_at_utc": "2026-10-25T05:44:38.931221+00:00",
+        "render_finished_at_utc": "2026-10-25T05:45:06.268789+00:00",
+        "render_seconds": 27.337307700072415
+      },
+      "rear": {
+        "projection": "orthographic",
+        "location_m": [
+          -9.34999942779541,
+          13.835310935974121,
+          11.227811813354492
+        ],
+        "target_m": [
+          0.0,
+          0.10250002145767212,
+          2.169999837875366
+        ],
+        "rotation_euler_radians": [
+          1.0716431140899658,
+          -1.2082072942121158e-07,
+          -2.5438342094421387
+        ],
+        "orthographic_scale_m": 8.501300811767578,
+        "render_started_at_utc": "2026-10-25T05:45:06.268789+00:00",
+        "render_finished_at_utc": "2026-10-25T05:45:33.442720+00:00",
+        "render_seconds": 27.173177300021052
+      }
+    }
+  },
+  "started_at_utc": "2026-10-25T05:44:36.331056+00:00",
+  "finished_at_utc": "2026-10-25T05:45:33.442720+00:00",
+  "production_seconds": 57.11172019992955,
+  "export_timings": {
+    "glb_seconds": 0.7620293999789283,
+    "fbx_seconds": 0.38847340003121644
+  },
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "independent review"
+  ],
+  "limitations": [
+    "Static asset with solid-color PBR materials. No rig, animation, collision or LODs.",
+    "Reference proportions and small engineering details are artistically simplified.",
+    "Renders generated for future review and not inspected."
+  ]
+}
