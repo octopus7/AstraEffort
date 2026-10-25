@@ -1,0 +1,1135 @@
+{
+  "mesh": "SM_ToolCluster",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_ToolCluster.fbx",
+  "source_before": {
+    "sha256": "8e9ab57ea3700a2e4a50d2c63d6e1ac126c6ef6c615b82dc94098a2468c64dff",
+    "bytes": 465404,
+    "mtime_ns": 1792675274178780500
+  },
+  "source_after": {
+    "sha256": "8e9ab57ea3700a2e4a50d2c63d6e1ac126c6ef6c615b82dc94098a2468c64dff",
+    "bytes": 465404,
+    "mtime_ns": 1792675274178780500
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_ToolCluster",
+      "vertices": 3764,
+      "polygons": 7252,
+      "triangles": 7252,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -0.8809432983398438,
+        -0.3044489324092865,
+        0.0
+      ],
+      "local_bbox_max_m": [
+        0.9750000834465027,
+        0.5750000476837158,
+        2.0124900341033936
+      ],
+      "materials": [
+        "Wood",
+        "WoodLight",
+        "Hay",
+        "Iron"
+      ]
+    }
+  ],
+  "triangle_count": 7252,
+  "world_bounds_min_m": [
+    -0.8809432983398438,
+    -0.3044489026069641,
+    0.0
+  ],
+  "world_bounds_max_m": [
+    0.9750000834465027,
+    0.5750001072883606,
+    2.0124900341033936
+  ],
+  "world_dimensions_m": [
+    1.8559433817863464,
+    0.8794490098953247,
+    2.0124900341033936
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.002234070561826229,
+        0.0022340298164635897
+      ],
+      "max": [
+        0.9977660179138184,
+        0.9946703314781189
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0011010366724804044,
+        0.0011010166490450501
+      ],
+      "max": [
+        0.49173784255981445,
+        0.49021217226982117
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 14999,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 7252,
+    "area_m2": 10.969424077277559,
+    "arithmetic_mean_px_per_m": 123.88620477622536,
+    "area_weighted_mean_px_per_m": 127.93291321911947,
+    "minimum_px_per_m": 102.99809436959404,
+    "maximum_px_per_m": 130.62111970602564,
+    "p01_px_per_m": 108.7068897563572,
+    "p05_px_per_m": 114.64300247042193,
+    "median_px_per_m": 124.81118467808443,
+    "p95_px_per_m": 130.59576861918043,
+    "p99_px_per_m": 130.6191137789559,
+    "outside_15percent_target_triangle_count": 100,
+    "outside_15percent_target_area_m2": 0.0012415076579357534,
+    "outside_15percent_target_area_fraction": 0.00011317892800839517,
+    "outlier_examples": [
+      {
+        "id": "SM_ToolCluster:tri6240:poly6240",
+        "material": "WoodLight",
+        "world_area_m2": 2.3027619147053327e-05,
+        "uv1_area": 2.329740256268309e-07,
+        "density_px_per_m": 102.99809436959404,
+        "world_centroid_m": [
+          0.6746124625205994,
+          -0.01631653867661953,
+          0.28529274463653564
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2672:poly2672",
+        "material": "WoodLight",
+        "world_area_m2": 2.3027871960858818e-05,
+        "uv1_area": 2.329816616176289e-07,
+        "density_px_per_m": 102.9992168977991,
+        "world_centroid_m": [
+          0.5730009078979492,
+          0.2863576412200928,
+          1.9588621854782104
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri5912:poly5912",
+        "material": "Iron",
+        "world_area_m2": 2.8885373452207942e-05,
+        "uv1_area": 2.9626682379602087e-07,
+        "density_px_per_m": 103.7056634027458,
+        "world_centroid_m": [
+          0.4295307993888855,
+          -0.15239688754081726,
+          0.3213346600532532
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2314:poly2314",
+        "material": "WoodLight",
+        "world_area_m2": 3.31590213473253e-05,
+        "uv1_area": 3.4011460647853653e-07,
+        "density_px_per_m": 103.7078775405793,
+        "world_centroid_m": [
+          0.3031103014945984,
+          -0.1650141179561615,
+          0.2907949686050415
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri5858:poly5858",
+        "material": "WoodLight",
+        "world_area_m2": 3.31598324335018e-05,
+        "uv1_area": 3.401241226441698e-07,
+        "density_px_per_m": 103.70805999924373,
+        "world_centroid_m": [
+          0.20149677991867065,
+          0.25418034195899963,
+          1.806577444076538
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2368:poly2368",
+        "material": "Iron",
+        "world_area_m2": 2.8885135151285236e-05,
+        "uv1_area": 2.962847700516136e-07,
+        "density_px_per_m": 103.70923211703564,
+        "world_centroid_m": [
+          0.24144890904426575,
+          -0.2771274447441101,
+          0.024233659729361534
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2364:poly2364",
+        "material": "Iron",
+        "world_area_m2": 2.888503689962678e-05,
+        "uv1_area": 2.980874361790953e-07,
+        "density_px_per_m": 104.0244262644731,
+        "world_centroid_m": [
+          0.4267776906490326,
+          -0.15245679020881653,
+          0.323855459690094
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri5916:poly5916",
+        "material": "Iron",
+        "world_area_m2": 2.888513611218e-05,
+        "uv1_area": 2.9810399482244065e-07,
+        "density_px_per_m": 104.02713683008292,
+        "world_centroid_m": [
+          0.24420201778411865,
+          -0.27706754207611084,
+          0.021712839603424072
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri5862:poly5862",
+        "material": "WoodLight",
+        "world_area_m2": 3.315895103551485e-05,
+        "uv1_area": 3.422126184648988e-07,
+        "density_px_per_m": 104.02735938921494,
+        "world_centroid_m": [
+          0.3060600757598877,
+          -0.1649499386548996,
+          0.28809410333633423
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2310:poly2310",
+        "material": "WoodLight",
+        "world_area_m2": 3.315853418386221e-05,
+        "uv1_area": 3.4221071459894503e-07,
+        "density_px_per_m": 104.02772390061696,
+        "world_centroid_m": [
+          0.19854699075222015,
+          0.2541161775588989,
+          1.8092782497406006
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6092:poly6092",
+        "material": "Iron",
+        "world_area_m2": 1.2821081778601855e-05,
+        "uv1_area": 1.358700920661704e-07,
+        "density_px_per_m": 105.41430658635952,
+        "world_centroid_m": [
+          0.2909899950027466,
+          -0.1361408531665802,
+          0.45810097455978394
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2506:poly2506",
+        "material": "Iron",
+        "world_area_m2": 1.2821079072553038e-05,
+        "uv1_area": 1.3587007652304806e-07,
+        "density_px_per_m": 105.41431168132402,
+        "world_centroid_m": [
+          0.3455279469490051,
+          -0.1859438121318817,
+          0.25032973289489746
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6054:poly6054",
+        "material": "Iron",
+        "world_area_m2": 3.0750320482148234e-05,
+        "uv1_area": 3.259036187586162e-07,
+        "density_px_per_m": 105.41920211357883,
+        "world_centroid_m": [
+          0.34329837560653687,
+          -0.18706879019737244,
+          0.24844412505626678
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2544:poly2544",
+        "material": "Iron",
+        "world_area_m2": 3.075048385429403e-05,
+        "uv1_area": 3.259143781519924e-07,
+        "density_px_per_m": 105.42066221358007,
+        "world_centroid_m": [
+          0.29321956634521484,
+          -0.1350158452987671,
+          0.4599866271018982
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2490:poly2490",
+        "material": "Iron",
+        "world_area_m2": 1.2821107215432819e-05,
+        "uv1_area": 1.366755246756668e-07,
+        "density_px_per_m": 105.72618598254557,
+        "world_centroid_m": [
+          0.34552788734436035,
+          -0.1361408531665802,
+          0.4581010043621063
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6072:poly6072",
+        "material": "Iron",
+        "world_area_m2": 1.2821081778601855e-05,
+        "uv1_area": 1.3667551757023944e-07,
+        "density_px_per_m": 105.72628811383876,
+        "world_centroid_m": [
+          0.29099005460739136,
+          -0.1859438121318817,
+          0.25032973289489746
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2524:poly2524",
+        "material": "Iron",
+        "world_area_m2": 3.075043466221991e-05,
+        "uv1_area": 3.278164140141371e-07,
+        "density_px_per_m": 105.7279166919244,
+        "world_centroid_m": [
+          0.2932196259498596,
+          -0.18706879019737244,
+          0.24844412505626678
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6038:poly6038",
+        "material": "Iron",
+        "world_area_m2": 3.0750339888277275e-05,
+        "uv1_area": 3.278271627493723e-07,
+        "density_px_per_m": 105.72981295971665,
+        "world_centroid_m": [
+          0.3432982861995697,
+          -0.1350158452987671,
+          0.4599866271018982
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6074:poly6074",
+        "material": "Iron",
+        "world_area_m2": 3.07504450422054e-05,
+        "uv1_area": 3.3095128282312203e-07,
+        "density_px_per_m": 106.23222757665798,
+        "world_centroid_m": [
+          0.2932196259498596,
+          -0.18706879019737244,
+          0.4599866271018982
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6036:poly6036",
+        "material": "Iron",
+        "world_area_m2": 1.2821115536512843e-05,
+        "uv1_area": 1.3799133657954599e-07,
+        "density_px_per_m": 106.23385963838541,
+        "world_centroid_m": [
+          0.34552788734436035,
+          -0.1361408531665802,
+          0.25032973289489746
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2526:poly2526",
+        "material": "Iron",
+        "world_area_m2": 1.2821073457499921e-05,
+        "uv1_area": 1.3799133657954599e-07,
+        "density_px_per_m": 106.23403396904108,
+        "world_centroid_m": [
+          0.29099005460739136,
+          -0.1859438121318817,
+          0.4581010043621063
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2488:poly2488",
+        "material": "Iron",
+        "world_area_m2": 3.075032905695095e-05,
+        "uv1_area": 3.3096237928020855e-07,
+        "density_px_per_m": 106.23420883908618,
+        "world_centroid_m": [
+          0.3432982861995697,
+          -0.1350158452987671,
+          0.24844412505626678
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2676:poly2676",
+        "material": "WoodLight",
+        "world_area_m2": 2.3027181914242738e-05,
+        "uv1_area": 2.4818905397516744e-07,
+        "density_px_per_m": 106.30920551099476,
+        "world_centroid_m": [
+          0.6722579002380371,
+          -0.016825418919324875,
+          0.28759679198265076
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6236:poly6236",
+        "material": "WoodLight",
+        "world_area_m2": 2.3026646586543756e-05,
+        "uv1_area": 2.4818491554164795e-07,
+        "density_px_per_m": 106.30955491023512,
+        "world_centroid_m": [
+          0.5753554105758667,
+          0.28686654567718506,
+          1.9565582275390625
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6056:poly6056",
+        "material": "Iron",
+        "world_area_m2": 1.2821115536512843e-05,
+        "uv1_area": 1.3884083527315738e-07,
+        "density_px_per_m": 106.56035498695465,
+        "world_centroid_m": [
+          0.3455279469490051,
+          -0.1859438121318817,
+          0.45810097455978394
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2542:poly2542",
+        "material": "Iron",
+        "world_area_m2": 3.0750371028319215e-05,
+        "uv1_area": 3.3301549251518736e-07,
+        "density_px_per_m": 106.56313671750861,
+        "world_centroid_m": [
+          0.292232483625412,
+          -0.13600294291973114,
+          0.24844412505626678
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2508:poly2508",
+        "material": "Iron",
+        "world_area_m2": 3.075037870049862e-05,
+        "uv1_area": 3.330167737125578e-07,
+        "density_px_per_m": 106.56332841167975,
+        "world_centroid_m": [
+          0.34329837560653687,
+          -0.18706879019737244,
+          0.4599866271018982
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6090:poly6090",
+        "material": "Iron",
+        "world_area_m2": 1.2821098488440649e-05,
+        "uv1_area": 1.3885321292761432e-07,
+        "density_px_per_m": 106.56517565580788,
+        "world_centroid_m": [
+          0.2933574914932251,
+          -0.13377338647842407,
+          0.25032973289489746
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri2667:poly2667",
+        "material": "WoodLight",
+        "world_area_m2": 2.3027433828853685e-05,
+        "uv1_area": 2.5236054312406664e-07,
+        "density_px_per_m": 107.19830337605994,
+        "world_centroid_m": [
+          0.56360924243927,
+          0.3212853670120239,
+          1.9511579275131226
+        ]
+      },
+      {
+        "id": "SM_ToolCluster:tri6246:poly6246",
+        "material": "WoodLight",
+        "world_area_m2": 2.3027341847193454e-05,
+        "uv1_area": 2.5236993161925625e-07,
+        "density_px_per_m": 107.2005114941376,
+        "world_centroid_m": [
+          0.6840041875839233,
+          -0.051244258880615234,
+          0.29299697279930115
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 1272,
+      "area_m2": 1.8992381032797463,
+      "arithmetic_mean_px_per_m": 124.32476174365729,
+      "area_weighted_mean_px_per_m": 128.51481221740863,
+      "minimum_px_per_m": 110.02930328804175,
+      "maximum_px_per_m": 130.61927854388546,
+      "p01_px_per_m": 110.09889152801681,
+      "p05_px_per_m": 116.29244782743034,
+      "median_px_per_m": 124.81266237718353,
+      "p95_px_per_m": 130.595797176415,
+      "p99_px_per_m": 130.61913002423697,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "WoodLight": {
+      "valid_triangle_count": 3888,
+      "area_m2": 7.928550971119175,
+      "arithmetic_mean_px_per_m": 124.66508387281212,
+      "area_weighted_mean_px_per_m": 128.6364016367016,
+      "minimum_px_per_m": 102.99809436959404,
+      "maximum_px_per_m": 130.61974877276572,
+      "p01_px_per_m": 112.07363124892912,
+      "p05_px_per_m": 122.19674627379825,
+      "median_px_per_m": 124.82665404218461,
+      "p95_px_per_m": 130.5958563527301,
+      "p99_px_per_m": 130.6191058391233,
+      "outside_15percent_target_triangle_count": 16,
+      "outside_15percent_target_area_m2": 0.0004089632135731797,
+      "outside_15percent_target_area_fraction": 5.158107894656714e-05,
+      "outlier_examples": [
+        {
+          "id": "SM_ToolCluster:tri6240:poly6240",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027619147053327e-05,
+          "uv1_area": 2.329740256268309e-07,
+          "density_px_per_m": 102.99809436959404,
+          "world_centroid_m": [
+            0.6746124625205994,
+            -0.01631653867661953,
+            0.28529274463653564
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2672:poly2672",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027871960858818e-05,
+          "uv1_area": 2.329816616176289e-07,
+          "density_px_per_m": 102.9992168977991,
+          "world_centroid_m": [
+            0.5730009078979492,
+            0.2863576412200928,
+            1.9588621854782104
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2314:poly2314",
+          "material": "WoodLight",
+          "world_area_m2": 3.31590213473253e-05,
+          "uv1_area": 3.4011460647853653e-07,
+          "density_px_per_m": 103.7078775405793,
+          "world_centroid_m": [
+            0.3031103014945984,
+            -0.1650141179561615,
+            0.2907949686050415
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri5858:poly5858",
+          "material": "WoodLight",
+          "world_area_m2": 3.31598324335018e-05,
+          "uv1_area": 3.401241226441698e-07,
+          "density_px_per_m": 103.70805999924373,
+          "world_centroid_m": [
+            0.20149677991867065,
+            0.25418034195899963,
+            1.806577444076538
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri5862:poly5862",
+          "material": "WoodLight",
+          "world_area_m2": 3.315895103551485e-05,
+          "uv1_area": 3.422126184648988e-07,
+          "density_px_per_m": 104.02735938921494,
+          "world_centroid_m": [
+            0.3060600757598877,
+            -0.1649499386548996,
+            0.28809410333633423
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2310:poly2310",
+          "material": "WoodLight",
+          "world_area_m2": 3.315853418386221e-05,
+          "uv1_area": 3.4221071459894503e-07,
+          "density_px_per_m": 104.02772390061696,
+          "world_centroid_m": [
+            0.19854699075222015,
+            0.2541161775588989,
+            1.8092782497406006
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2676:poly2676",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027181914242738e-05,
+          "uv1_area": 2.4818905397516744e-07,
+          "density_px_per_m": 106.30920551099476,
+          "world_centroid_m": [
+            0.6722579002380371,
+            -0.016825418919324875,
+            0.28759679198265076
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6236:poly6236",
+          "material": "WoodLight",
+          "world_area_m2": 2.3026646586543756e-05,
+          "uv1_area": 2.4818491554164795e-07,
+          "density_px_per_m": 106.30955491023512,
+          "world_centroid_m": [
+            0.5753554105758667,
+            0.28686654567718506,
+            1.9565582275390625
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2667:poly2667",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027433828853685e-05,
+          "uv1_area": 2.5236054312406664e-07,
+          "density_px_per_m": 107.19830337605994,
+          "world_centroid_m": [
+            0.56360924243927,
+            0.3212853670120239,
+            1.9511579275131226
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6246:poly6246",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027341847193454e-05,
+          "uv1_area": 2.5236993161925625e-07,
+          "density_px_per_m": 107.2005114941376,
+          "world_centroid_m": [
+            0.6840041875839233,
+            -0.051244258880615234,
+            0.29299697279930115
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6551:poly6551",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027013768746287e-05,
+          "uv1_area": 2.54615095007793e-07,
+          "density_px_per_m": 107.67706767053174,
+          "world_centroid_m": [
+            -0.6412485837936401,
+            -0.03402738273143768,
+            0.29840368032455444
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri3009:poly3009",
+          "material": "WoodLight",
+          "world_area_m2": 2.302742388490813e-05,
+          "uv1_area": 2.5462338176795996e-07,
+          "density_px_per_m": 107.67786101842758,
+          "world_centroid_m": [
+            -0.5935234427452087,
+            0.243864506483078,
+            1.8763206005096436
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6248:poly6248",
+          "material": "WoodLight",
+          "world_area_m2": 2.302655663580481e-05,
+          "uv1_area": 2.5824484259362457e-07,
+          "density_px_per_m": 108.4429406058162,
+          "world_centroid_m": [
+            0.5385195016860962,
+            0.27395689487457275,
+            1.955855369567871
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2664:poly2664",
+          "material": "WoodLight",
+          "world_area_m2": 2.3027055051894082e-05,
+          "uv1_area": 2.582615171720093e-07,
+          "density_px_per_m": 108.44526791119358,
+          "world_centroid_m": [
+            0.7090939283370972,
+            -0.003915782086551189,
+            0.2882996201515198
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2987:poly2987",
+          "material": "WoodLight",
+          "world_area_m2": 2.302714635669532e-05,
+          "uv1_area": 2.5879388676486315e-07,
+          "density_px_per_m": 108.55676744168493,
+          "world_centroid_m": [
+            -0.6436407566070557,
+            -0.03379041329026222,
+            0.29609447717666626
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6573:poly6573",
+          "material": "WoodLight",
+          "world_area_m2": 2.302758359018105e-05,
+          "uv1_area": 2.5880111878540113e-07,
+          "density_px_per_m": 108.55725362223971,
+          "world_centroid_m": [
+            -0.5911312103271484,
+            0.24362753331661224,
+            1.8786296844482422
+          ]
+        }
+      ]
+    },
+    "Hay": {
+      "valid_triangle_count": 140,
+      "area_m2": 0.6702082306834397,
+      "arithmetic_mean_px_per_m": 119.68354085093192,
+      "area_weighted_mean_px_per_m": 119.68354300674231,
+      "minimum_px_per_m": 115.28825139688253,
+      "maximum_px_per_m": 129.4644277331404,
+      "p01_px_per_m": 115.28831699230564,
+      "p05_px_per_m": 115.28841522741035,
+      "median_px_per_m": 116.82724841045969,
+      "p95_px_per_m": 129.46418406043438,
+      "p99_px_per_m": 129.46426209268503,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "Iron": {
+      "valid_triangle_count": 1952,
+      "area_m2": 0.4714267721952583,
+      "arithmetic_mean_px_per_m": 122.35047043167471,
+      "area_weighted_mean_px_per_m": 125.48499812396813,
+      "minimum_px_per_m": 103.7056634027458,
+      "maximum_px_per_m": 130.62111970602564,
+      "p01_px_per_m": 107.58331818399033,
+      "p05_px_per_m": 110.0230571888064,
+      "median_px_per_m": 123.17713839054241,
+      "p95_px_per_m": 130.22996238256553,
+      "p99_px_per_m": 130.61921922430363,
+      "outside_15percent_target_triangle_count": 84,
+      "outside_15percent_target_area_m2": 0.0008325444443625741,
+      "outside_15percent_target_area_fraction": 0.0017660101069053118,
+      "outlier_examples": [
+        {
+          "id": "SM_ToolCluster:tri5912:poly5912",
+          "material": "Iron",
+          "world_area_m2": 2.8885373452207942e-05,
+          "uv1_area": 2.9626682379602087e-07,
+          "density_px_per_m": 103.7056634027458,
+          "world_centroid_m": [
+            0.4295307993888855,
+            -0.15239688754081726,
+            0.3213346600532532
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2368:poly2368",
+          "material": "Iron",
+          "world_area_m2": 2.8885135151285236e-05,
+          "uv1_area": 2.962847700516136e-07,
+          "density_px_per_m": 103.70923211703564,
+          "world_centroid_m": [
+            0.24144890904426575,
+            -0.2771274447441101,
+            0.024233659729361534
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2364:poly2364",
+          "material": "Iron",
+          "world_area_m2": 2.888503689962678e-05,
+          "uv1_area": 2.980874361790953e-07,
+          "density_px_per_m": 104.0244262644731,
+          "world_centroid_m": [
+            0.4267776906490326,
+            -0.15245679020881653,
+            0.323855459690094
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri5916:poly5916",
+          "material": "Iron",
+          "world_area_m2": 2.888513611218e-05,
+          "uv1_area": 2.9810399482244065e-07,
+          "density_px_per_m": 104.02713683008292,
+          "world_centroid_m": [
+            0.24420201778411865,
+            -0.27706754207611084,
+            0.021712839603424072
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6092:poly6092",
+          "material": "Iron",
+          "world_area_m2": 1.2821081778601855e-05,
+          "uv1_area": 1.358700920661704e-07,
+          "density_px_per_m": 105.41430658635952,
+          "world_centroid_m": [
+            0.2909899950027466,
+            -0.1361408531665802,
+            0.45810097455978394
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2506:poly2506",
+          "material": "Iron",
+          "world_area_m2": 1.2821079072553038e-05,
+          "uv1_area": 1.3587007652304806e-07,
+          "density_px_per_m": 105.41431168132402,
+          "world_centroid_m": [
+            0.3455279469490051,
+            -0.1859438121318817,
+            0.25032973289489746
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6054:poly6054",
+          "material": "Iron",
+          "world_area_m2": 3.0750320482148234e-05,
+          "uv1_area": 3.259036187586162e-07,
+          "density_px_per_m": 105.41920211357883,
+          "world_centroid_m": [
+            0.34329837560653687,
+            -0.18706879019737244,
+            0.24844412505626678
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2544:poly2544",
+          "material": "Iron",
+          "world_area_m2": 3.075048385429403e-05,
+          "uv1_area": 3.259143781519924e-07,
+          "density_px_per_m": 105.42066221358007,
+          "world_centroid_m": [
+            0.29321956634521484,
+            -0.1350158452987671,
+            0.4599866271018982
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2490:poly2490",
+          "material": "Iron",
+          "world_area_m2": 1.2821107215432819e-05,
+          "uv1_area": 1.366755246756668e-07,
+          "density_px_per_m": 105.72618598254557,
+          "world_centroid_m": [
+            0.34552788734436035,
+            -0.1361408531665802,
+            0.4581010043621063
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6072:poly6072",
+          "material": "Iron",
+          "world_area_m2": 1.2821081778601855e-05,
+          "uv1_area": 1.3667551757023944e-07,
+          "density_px_per_m": 105.72628811383876,
+          "world_centroid_m": [
+            0.29099005460739136,
+            -0.1859438121318817,
+            0.25032973289489746
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2524:poly2524",
+          "material": "Iron",
+          "world_area_m2": 3.075043466221991e-05,
+          "uv1_area": 3.278164140141371e-07,
+          "density_px_per_m": 105.7279166919244,
+          "world_centroid_m": [
+            0.2932196259498596,
+            -0.18706879019737244,
+            0.24844412505626678
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6038:poly6038",
+          "material": "Iron",
+          "world_area_m2": 3.0750339888277275e-05,
+          "uv1_area": 3.278271627493723e-07,
+          "density_px_per_m": 105.72981295971665,
+          "world_centroid_m": [
+            0.3432982861995697,
+            -0.1350158452987671,
+            0.4599866271018982
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6074:poly6074",
+          "material": "Iron",
+          "world_area_m2": 3.07504450422054e-05,
+          "uv1_area": 3.3095128282312203e-07,
+          "density_px_per_m": 106.23222757665798,
+          "world_centroid_m": [
+            0.2932196259498596,
+            -0.18706879019737244,
+            0.4599866271018982
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6036:poly6036",
+          "material": "Iron",
+          "world_area_m2": 1.2821115536512843e-05,
+          "uv1_area": 1.3799133657954599e-07,
+          "density_px_per_m": 106.23385963838541,
+          "world_centroid_m": [
+            0.34552788734436035,
+            -0.1361408531665802,
+            0.25032973289489746
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2526:poly2526",
+          "material": "Iron",
+          "world_area_m2": 1.2821073457499921e-05,
+          "uv1_area": 1.3799133657954599e-07,
+          "density_px_per_m": 106.23403396904108,
+          "world_centroid_m": [
+            0.29099005460739136,
+            -0.1859438121318817,
+            0.4581010043621063
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2488:poly2488",
+          "material": "Iron",
+          "world_area_m2": 3.075032905695095e-05,
+          "uv1_area": 3.3096237928020855e-07,
+          "density_px_per_m": 106.23420883908618,
+          "world_centroid_m": [
+            0.3432982861995697,
+            -0.1350158452987671,
+            0.24844412505626678
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6056:poly6056",
+          "material": "Iron",
+          "world_area_m2": 1.2821115536512843e-05,
+          "uv1_area": 1.3884083527315738e-07,
+          "density_px_per_m": 106.56035498695465,
+          "world_centroid_m": [
+            0.3455279469490051,
+            -0.1859438121318817,
+            0.45810097455978394
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2542:poly2542",
+          "material": "Iron",
+          "world_area_m2": 3.0750371028319215e-05,
+          "uv1_area": 3.3301549251518736e-07,
+          "density_px_per_m": 106.56313671750861,
+          "world_centroid_m": [
+            0.292232483625412,
+            -0.13600294291973114,
+            0.24844412505626678
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri2508:poly2508",
+          "material": "Iron",
+          "world_area_m2": 3.075037870049862e-05,
+          "uv1_area": 3.330167737125578e-07,
+          "density_px_per_m": 106.56332841167975,
+          "world_centroid_m": [
+            0.34329837560653687,
+            -0.18706879019737244,
+            0.4599866271018982
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6090:poly6090",
+          "material": "Iron",
+          "world_area_m2": 1.2821098488440649e-05,
+          "uv1_area": 1.3885321292761432e-07,
+          "density_px_per_m": 106.56517565580788,
+          "world_centroid_m": [
+            0.2933574914932251,
+            -0.13377338647842407,
+            0.25032973289489746
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri3103:poly3103",
+          "material": "Iron",
+          "world_area_m2": 5.756738525980038e-06,
+          "uv1_area": 6.470361268995362e-08,
+          "density_px_per_m": 108.56153355420483,
+          "world_centroid_m": [
+            -0.8655840754508972,
+            -0.13257239758968353,
+            0.15877118706703186
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6670:poly6670",
+          "material": "Iron",
+          "world_area_m2": 5.756744703403594e-06,
+          "uv1_area": 6.470626345844721e-08,
+          "density_px_per_m": 108.56369904965226,
+          "world_centroid_m": [
+            -0.8533025979995728,
+            -0.05042056739330292,
+            0.27148863673210144
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6832:poly6832",
+          "material": "Iron",
+          "world_area_m2": 5.7567321225461835e-06,
+          "uv1_area": 6.470626345844721e-08,
+          "density_px_per_m": 108.56381767803747,
+          "world_centroid_m": [
+            -0.6874454021453857,
+            -0.05042053759098053,
+            0.27148863673210144
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri7048:poly7048",
+          "material": "Iron",
+          "world_area_m2": 5.75682636530661e-06,
+          "uv1_area": 6.47074576143325e-08,
+          "density_px_per_m": 108.56393080774015,
+          "world_centroid_m": [
+            -0.4663025736808777,
+            -0.050420500338077545,
+            0.27148863673210144
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri3211:poly3211",
+          "material": "Iron",
+          "world_area_m2": 5.756738525980038e-06,
+          "uv1_area": 6.470805469227514e-08,
+          "density_px_per_m": 108.56525994820235,
+          "world_centroid_m": [
+            -0.7550126910209656,
+            -0.13257236778736115,
+            0.15877118706703186
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri3319:poly3319",
+          "material": "Iron",
+          "world_area_m2": 5.756725869774488e-06,
+          "uv1_area": 6.470865177021778e-08,
+          "density_px_per_m": 108.56588016816083,
+          "world_centroid_m": [
+            -0.6444412469863892,
+            -0.13257236778736115,
+            0.15877118706703186
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri3373:poly3373",
+          "material": "Iron",
+          "world_area_m2": 5.756738525980038e-06,
+          "uv1_area": 6.471296409849003e-08,
+          "density_px_per_m": 108.56937829834679,
+          "world_centroid_m": [
+            -0.5891554355621338,
+            -0.13257233798503876,
+            0.15877118706703186
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6994:poly6994",
+          "material": "Iron",
+          "world_area_m2": 5.756744703403594e-06,
+          "uv1_area": 6.471417757225595e-08,
+          "density_px_per_m": 108.57033796800484,
+          "world_centroid_m": [
+            -0.5215883255004883,
+            -0.05042050778865814,
+            0.27148863673210144
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri6886:poly6886",
+          "material": "Iron",
+          "world_area_m2": 5.7567321225461835e-06,
+          "uv1_area": 6.471415803233072e-08,
+          "density_px_per_m": 108.57044021265528,
+          "world_centroid_m": [
+            -0.6321597099304199,
+            -0.05042053014039993,
+            0.27148863673210144
+          ]
+        },
+        {
+          "id": "SM_ToolCluster:tri3481:poly3481",
+          "material": "Iron",
+          "world_area_m2": 5.756820037303869e-06,
+          "uv1_area": 6.471539104602186e-08,
+          "density_px_per_m": 108.5706454935715,
+          "world_centroid_m": [
+            -0.47858405113220215,
+            -0.13257233798503876,
+            0.15877118706703186
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.33290280000073835,
+  "strict_uv_integrity_passed": true
+}

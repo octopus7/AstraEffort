@@ -1,0 +1,184 @@
+{
+  "mesh": "SM_HayBale",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_HayBale.fbx",
+  "source_before": {
+    "sha256": "e0940c4b5c5a155670168cf7037900174d83843b1755a2bb58fa930a6bdd1a3f",
+    "bytes": 221692,
+    "mtime_ns": 1792675273685419700
+  },
+  "source_after": {
+    "sha256": "e0940c4b5c5a155670168cf7037900174d83843b1755a2bb58fa930a6bdd1a3f",
+    "bytes": 221692,
+    "mtime_ns": 1792675273685419700
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_HayBale",
+      "vertices": 1624,
+      "polygons": 3132,
+      "triangles": 3132,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -0.6192860007286072,
+        -0.3815000057220459,
+        0.0
+      ],
+      "local_bbox_max_m": [
+        0.6000000238418579,
+        0.3815000057220459,
+        0.784500002861023
+      ],
+      "materials": [
+        "Hay",
+        "WoodLight"
+      ]
+    }
+  ],
+  "triangle_count": 3132,
+  "world_bounds_min_m": [
+    -0.6192860007286072,
+    -0.3815000355243683,
+    0.0
+  ],
+  "world_bounds_max_m": [
+    0.6000000238418579,
+    0.3815000355243683,
+    0.784500002861023
+  ],
+  "world_dimensions_m": [
+    1.219286024570465,
+    0.7630000710487366,
+    0.784500002861023
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0008353335433639586,
+        0.0008353231241926551
+      ],
+      "max": [
+        0.9991648197174072,
+        0.9450029134750366
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.00025299732806161046,
+        0.0002529941557440907
+      ],
+      "max": [
+        0.3026168644428253,
+        0.28621286153793335
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 2908,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 3132,
+    "area_m2": 4.656016771396082,
+    "arithmetic_mean_px_per_m": 124.53300245960712,
+    "area_weighted_mean_px_per_m": 127.97156755178511,
+    "minimum_px_per_m": 115.08202676487197,
+    "maximum_px_per_m": 130.38775921904318,
+    "p01_px_per_m": 116.71952363321824,
+    "p05_px_per_m": 119.90253255474295,
+    "median_px_per_m": 125.08565374262157,
+    "p95_px_per_m": 130.38576684238504,
+    "p99_px_per_m": 130.38710078511565,
+    "outside_15percent_target_triangle_count": 0,
+    "outside_15percent_target_area_m2": 0,
+    "outside_15percent_target_area_fraction": 0.0,
+    "outlier_examples": []
+  },
+  "uv1_density_by_material": {
+    "Hay": {
+      "valid_triangle_count": 2268,
+      "area_m2": 4.172892647934971,
+      "arithmetic_mean_px_per_m": 124.45111533453836,
+      "area_weighted_mean_px_per_m": 128.02161532484024,
+      "minimum_px_per_m": 115.08202676487197,
+      "maximum_px_per_m": 130.38729928112753,
+      "p01_px_per_m": 116.52763403369185,
+      "p05_px_per_m": 118.75570539104663,
+      "median_px_per_m": 124.70176719100365,
+      "p95_px_per_m": 130.38364307799992,
+      "p99_px_per_m": 130.3863263559985,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "WoodLight": {
+      "valid_triangle_count": 864,
+      "area_m2": 0.48312412346109257,
+      "arithmetic_mean_px_per_m": 124.74795616291304,
+      "area_weighted_mean_px_per_m": 127.53928943921703,
+      "minimum_px_per_m": 122.73606277570988,
+      "maximum_px_per_m": 130.38775921904318,
+      "p01_px_per_m": 122.73806563070532,
+      "p05_px_per_m": 122.74062379953494,
+      "median_px_per_m": 125.3049045541903,
+      "p95_px_per_m": 130.38591637368253,
+      "p99_px_per_m": 130.3877486959601,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    }
+  },
+  "elapsed_seconds": 0.15983520000008866,
+  "strict_uv_integrity_passed": true
+}

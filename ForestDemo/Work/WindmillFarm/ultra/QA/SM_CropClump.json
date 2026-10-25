@@ -1,0 +1,906 @@
+{
+  "mesh": "SM_CropClump",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_CropClump.fbx",
+  "source_before": {
+    "sha256": "6b3eeac7b26c0873549abfe8a6d02982bbc2f9755e3b1e69b8a9bcbb2a9341e9",
+    "bytes": 197804,
+    "mtime_ns": 1792675273405160600
+  },
+  "source_after": {
+    "sha256": "6b3eeac7b26c0873549abfe8a6d02982bbc2f9755e3b1e69b8a9bcbb2a9341e9",
+    "bytes": 197804,
+    "mtime_ns": 1792675273405160600
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_CropClump",
+      "vertices": 1908,
+      "polygons": 3060,
+      "triangles": 3060,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -0.3525494635105133,
+        -0.35480791330337524,
+        0.014753401279449463
+      ],
+      "local_bbox_max_m": [
+        0.38977620005607605,
+        0.3751036822795868,
+        0.7720023393630981
+      ],
+      "materials": [
+        "Hay",
+        "Leaf"
+      ]
+    }
+  ],
+  "triangle_count": 3060,
+  "world_bounds_min_m": [
+    -0.3525494635105133,
+    -0.35480794310569763,
+    0.014753401279449463
+  ],
+  "world_bounds_max_m": [
+    0.38977620005607605,
+    0.3751036822795868,
+    0.7720023393630981
+  ],
+  "world_dimensions_m": [
+    0.7423256635665894,
+    0.7299116253852844,
+    0.7572489380836487
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.002604920882731676,
+        0.002604872453957796
+      ],
+      "max": [
+        0.9963018298149109,
+        0.9973950386047363
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0006600571214221418,
+        0.000660044839605689
+      ],
+      "max": [
+        0.25245147943496704,
+        0.25272849202156067
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 4280,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 3060,
+    "area_m2": 1.7370489079000304,
+    "arithmetic_mean_px_per_m": 124.66205747471567,
+    "area_weighted_mean_px_per_m": 127.34668995892956,
+    "minimum_px_per_m": 97.0664628003862,
+    "maximum_px_per_m": 141.09369340796675,
+    "p01_px_per_m": 97.06695085016553,
+    "p05_px_per_m": 102.1294717942614,
+    "median_px_per_m": 126.89002690063995,
+    "p95_px_per_m": 140.58513096587856,
+    "p99_px_per_m": 141.071703683098,
+    "outside_15percent_target_triangle_count": 469,
+    "outside_15percent_target_area_m2": 0.22163067208622708,
+    "outside_15percent_target_area_fraction": 0.12759034652292142,
+    "outlier_examples": [
+      {
+        "id": "SM_CropClump:tri1776:poly1776",
+        "material": "Hay",
+        "world_area_m2": 0.0005525364370712055,
+        "uv1_area": 4.964773237414732e-06,
+        "density_px_per_m": 97.0664628003862,
+        "world_centroid_m": [
+          -0.010698238387703896,
+          0.17554575204849243,
+          0.41465863585472107
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1280:poly1280",
+        "material": "Hay",
+        "world_area_m2": 0.0005525359747262673,
+        "uv1_area": 4.964773237414732e-06,
+        "density_px_per_m": 97.06650341147798,
+        "world_centroid_m": [
+          -0.17099353671073914,
+          -0.040051717311143875,
+          0.5077941417694092
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1658:poly1658",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362118262839,
+        "uv1_area": 4.964778547389415e-06,
+        "density_px_per_m": 97.06653449301758,
+        "world_centroid_m": [
+          0.18968403339385986,
+          -0.10925281047821045,
+          0.5075815916061401
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1558:poly1558",
+        "material": "Hay",
+        "world_area_m2": 0.0005525361368785778,
+        "uv1_area": 4.964778547389415e-06,
+        "density_px_per_m": 97.06654107621945,
+        "world_centroid_m": [
+          0.14168402552604675,
+          -0.10925283282995224,
+          0.44758161902427673
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1260:poly1260",
+        "material": "Hay",
+        "world_area_m2": 0.000552536473439913,
+        "uv1_area": 4.964781681646158e-06,
+        "density_px_per_m": 97.066542152563,
+        "world_centroid_m": [
+          -0.1229935735464096,
+          -0.04005170613527298,
+          0.47779417037963867
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1518:poly1518",
+        "material": "Hay",
+        "world_area_m2": 0.0005525364097444402,
+        "uv1_area": 4.96478462419514e-06,
+        "density_px_per_m": 97.06657651231039,
+        "world_centroid_m": [
+          0.14168402552604675,
+          -0.10925283282995224,
+          0.41758161783218384
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri208:poly208",
+        "material": "Hay",
+        "world_area_m2": 0.0005525359168577732,
+        "uv1_area": 4.964781585792277e-06,
+        "density_px_per_m": 97.0665901042101,
+        "world_centroid_m": [
+          0.06392029672861099,
+          -0.012111957184970379,
+          0.5581459403038025
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1380:poly1380",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362584425464,
+        "uv1_area": 4.964789934169822e-06,
+        "density_px_per_m": 97.0666417099474,
+        "world_centroid_m": [
+          -0.12299355119466782,
+          -0.04005170613527298,
+          0.567794144153595
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri2074:poly2074",
+        "material": "Hay",
+        "world_area_m2": 0.0005525369134809913,
+        "uv1_area": 4.96479592432264e-06,
+        "density_px_per_m": 97.06664272986409,
+        "world_centroid_m": [
+          -0.10625235736370087,
+          -0.19553601741790771,
+          0.5744648575782776
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri804:poly804",
+        "material": "Hay",
+        "world_area_m2": 0.0005525360944818816,
+        "uv1_area": 4.964792972572685e-06,
+        "density_px_per_m": 97.0666858137383,
+        "world_centroid_m": [
+          0.00144777144305408,
+          -0.1386638581752777,
+          0.732689380645752
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri446:poly446",
+        "material": "Hay",
+        "world_area_m2": 0.000552535523633158,
+        "uv1_area": 4.964788391004921e-06,
+        "density_px_per_m": 97.06669116849645,
+        "world_centroid_m": [
+          -0.08581730723381042,
+          0.05801606923341751,
+          0.6160643100738525
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri386:poly386",
+        "material": "Hay",
+        "world_area_m2": 0.0005525361312524761,
+        "uv1_area": 4.964803658080719e-06,
+        "density_px_per_m": 97.06678704004837,
+        "world_centroid_m": [
+          -0.03781731799244881,
+          0.05801607295870781,
+          0.5560643076896667
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri248:poly248",
+        "material": "Hay",
+        "world_area_m2": 0.0005525352145990026,
+        "uv1_area": 4.964797581052949e-06,
+        "density_px_per_m": 97.06680815070206,
+        "world_centroid_m": [
+          0.0639202892780304,
+          -0.012111957184970379,
+          0.5881459712982178
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1876:poly1876",
+        "material": "Hay",
+        "world_area_m2": 0.0005525361419018828,
+        "uv1_area": 4.964805929430494e-06,
+        "density_px_per_m": 97.06680830818765,
+        "world_centroid_m": [
+          -0.05869822949171066,
+          0.17554575204849243,
+          0.5046586394309998
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1638:poly1638",
+        "material": "Hay",
+        "world_area_m2": 0.000552536405323934,
+        "uv1_area": 4.9648089679443785e-06,
+        "density_px_per_m": 97.06681487280282,
+        "world_centroid_m": [
+          0.14168404042720795,
+          -0.10925283282995224,
+          0.5075815916061401
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri942:poly942",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362558304283,
+        "uv1_area": 4.9648089679443785e-06,
+        "density_px_per_m": 97.06682800393884,
+        "world_centroid_m": [
+          0.12816062569618225,
+          0.1040244847536087,
+          0.5479268431663513
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri744:poly744",
+        "material": "Hay",
+        "world_area_m2": 0.0005525361545606112,
+        "uv1_area": 4.9648089679443785e-06,
+        "density_px_per_m": 97.06683689922956,
+        "world_centroid_m": [
+          0.04944777488708496,
+          -0.13866382837295532,
+          0.6726893782615662
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1896:poly1896",
+        "material": "Hay",
+        "world_area_m2": 0.0005525361256263744,
+        "uv1_area": 4.9648089679443785e-06,
+        "density_px_per_m": 97.06683944074194,
+        "world_centroid_m": [
+          -0.010698235593736172,
+          0.17554575204849243,
+          0.5046586394309998
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri2392:poly2392",
+        "material": "Hay",
+        "world_area_m2": 0.0005525359857775415,
+        "uv1_area": 4.9648089679443785e-06,
+        "density_px_per_m": 97.06685172472318,
+        "world_centroid_m": [
+          0.19781306385993958,
+          0.06176191568374634,
+          0.514140784740448
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1498:poly1498",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362487978027,
+        "uv1_area": 4.9648123030543445e-06,
+        "density_px_per_m": 97.06686122397834,
+        "world_centroid_m": [
+          0.18968403339385986,
+          -0.10925282537937164,
+          0.38758158683776855
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1816:poly1816",
+        "material": "Hay",
+        "world_area_m2": 0.0005525364929303243,
+        "uv1_area": 4.964814751984292e-06,
+        "density_px_per_m": 97.06686371944382,
+        "world_centroid_m": [
+          -0.010698238387703896,
+          0.17554573714733124,
+          0.4446586072444916
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1022:poly1022",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362397558554,
+        "uv1_area": 4.964813290486703e-06,
+        "density_px_per_m": 97.06687167082714,
+        "world_centroid_m": [
+          0.12816059589385986,
+          0.1040244847536087,
+          0.6079267859458923
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri2332:poly2332",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362011768786,
+        "uv1_area": 4.964813290486703e-06,
+        "density_px_per_m": 97.06687505951056,
+        "world_centroid_m": [
+          0.2458130568265915,
+          0.06176193803548813,
+          0.4541407823562622
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1796:poly1796",
+        "material": "Hay",
+        "world_area_m2": 0.0005525359938148317,
+        "uv1_area": 4.964813290486703e-06,
+        "density_px_per_m": 97.06689327369412,
+        "world_centroid_m": [
+          -0.05869823694229126,
+          0.17554573714733124,
+          0.44465863704681396
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri2094:poly2094",
+        "material": "Hay",
+        "world_area_m2": 0.000552536921518268,
+        "uv1_area": 4.964822923003709e-06,
+        "density_px_per_m": 97.06690594891388,
+        "world_centroid_m": [
+          -0.05825235694646835,
+          -0.19553598761558533,
+          0.5744648575782776
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri644:poly644",
+        "material": "Hay",
+        "world_area_m2": 0.0005525368889672966,
+        "uv1_area": 4.964823009767638e-06,
+        "density_px_per_m": 97.06690965626721,
+        "world_centroid_m": [
+          0.00144777144305408,
+          -0.13866382837295532,
+          0.6126894354820251
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri426:poly426",
+        "material": "Hay",
+        "world_area_m2": 0.0005525362076067083,
+        "uv1_area": 4.964817756802908e-06,
+        "density_px_per_m": 97.06691815510868,
+        "world_centroid_m": [
+          -0.03781730309128761,
+          0.05801607295870781,
+          0.586064338684082
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri1598:poly1598",
+        "material": "Hay",
+        "world_area_m2": 0.0005525366562880748,
+        "uv1_area": 4.964822223119114e-06,
+        "density_px_per_m": 97.06692240437583,
+        "world_centroid_m": [
+          0.14168402552604675,
+          -0.10925283282995224,
+          0.47758159041404724
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri704:poly704",
+        "material": "Hay",
+        "world_area_m2": 0.0005525353007990542,
+        "uv1_area": 4.964811536112279e-06,
+        "density_px_per_m": 97.06693699673869,
+        "world_centroid_m": [
+          0.04944777488708496,
+          -0.13866382837295532,
+          0.6426894664764404
+        ]
+      },
+      {
+        "id": "SM_CropClump:tri784:poly784",
+        "material": "Hay",
+        "world_area_m2": 0.0005525364453094212,
+        "uv1_area": 4.964822923003709e-06,
+        "density_px_per_m": 97.06694777792785,
+        "world_centroid_m": [
+          0.049447767436504364,
+          -0.13866382837295532,
+          0.7026894092559814
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Hay": {
+      "valid_triangle_count": 2772,
+      "area_m2": 1.1877965706960807,
+      "arithmetic_mean_px_per_m": 123.50077964854361,
+      "area_weighted_mean_px_per_m": 122.95170730097801,
+      "minimum_px_per_m": 97.0664628003862,
+      "maximum_px_per_m": 141.09369340796675,
+      "p01_px_per_m": 97.06693276495346,
+      "p05_px_per_m": 102.12936801780972,
+      "median_px_per_m": 126.27712928013781,
+      "p95_px_per_m": 140.79599098037227,
+      "p99_px_per_m": 141.0717150943152,
+      "outside_15percent_target_triangle_count": 469,
+      "outside_15percent_target_area_m2": 0.22163067208622708,
+      "outside_15percent_target_area_fraction": 0.18658975581681092,
+      "outlier_examples": [
+        {
+          "id": "SM_CropClump:tri1776:poly1776",
+          "material": "Hay",
+          "world_area_m2": 0.0005525364370712055,
+          "uv1_area": 4.964773237414732e-06,
+          "density_px_per_m": 97.0664628003862,
+          "world_centroid_m": [
+            -0.010698238387703896,
+            0.17554575204849243,
+            0.41465863585472107
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1280:poly1280",
+          "material": "Hay",
+          "world_area_m2": 0.0005525359747262673,
+          "uv1_area": 4.964773237414732e-06,
+          "density_px_per_m": 97.06650341147798,
+          "world_centroid_m": [
+            -0.17099353671073914,
+            -0.040051717311143875,
+            0.5077941417694092
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1658:poly1658",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362118262839,
+          "uv1_area": 4.964778547389415e-06,
+          "density_px_per_m": 97.06653449301758,
+          "world_centroid_m": [
+            0.18968403339385986,
+            -0.10925281047821045,
+            0.5075815916061401
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1558:poly1558",
+          "material": "Hay",
+          "world_area_m2": 0.0005525361368785778,
+          "uv1_area": 4.964778547389415e-06,
+          "density_px_per_m": 97.06654107621945,
+          "world_centroid_m": [
+            0.14168402552604675,
+            -0.10925283282995224,
+            0.44758161902427673
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1260:poly1260",
+          "material": "Hay",
+          "world_area_m2": 0.000552536473439913,
+          "uv1_area": 4.964781681646158e-06,
+          "density_px_per_m": 97.066542152563,
+          "world_centroid_m": [
+            -0.1229935735464096,
+            -0.04005170613527298,
+            0.47779417037963867
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1518:poly1518",
+          "material": "Hay",
+          "world_area_m2": 0.0005525364097444402,
+          "uv1_area": 4.96478462419514e-06,
+          "density_px_per_m": 97.06657651231039,
+          "world_centroid_m": [
+            0.14168402552604675,
+            -0.10925283282995224,
+            0.41758161783218384
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri208:poly208",
+          "material": "Hay",
+          "world_area_m2": 0.0005525359168577732,
+          "uv1_area": 4.964781585792277e-06,
+          "density_px_per_m": 97.0665901042101,
+          "world_centroid_m": [
+            0.06392029672861099,
+            -0.012111957184970379,
+            0.5581459403038025
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1380:poly1380",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362584425464,
+          "uv1_area": 4.964789934169822e-06,
+          "density_px_per_m": 97.0666417099474,
+          "world_centroid_m": [
+            -0.12299355119466782,
+            -0.04005170613527298,
+            0.567794144153595
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri2074:poly2074",
+          "material": "Hay",
+          "world_area_m2": 0.0005525369134809913,
+          "uv1_area": 4.96479592432264e-06,
+          "density_px_per_m": 97.06664272986409,
+          "world_centroid_m": [
+            -0.10625235736370087,
+            -0.19553601741790771,
+            0.5744648575782776
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri804:poly804",
+          "material": "Hay",
+          "world_area_m2": 0.0005525360944818816,
+          "uv1_area": 4.964792972572685e-06,
+          "density_px_per_m": 97.0666858137383,
+          "world_centroid_m": [
+            0.00144777144305408,
+            -0.1386638581752777,
+            0.732689380645752
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri446:poly446",
+          "material": "Hay",
+          "world_area_m2": 0.000552535523633158,
+          "uv1_area": 4.964788391004921e-06,
+          "density_px_per_m": 97.06669116849645,
+          "world_centroid_m": [
+            -0.08581730723381042,
+            0.05801606923341751,
+            0.6160643100738525
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri386:poly386",
+          "material": "Hay",
+          "world_area_m2": 0.0005525361312524761,
+          "uv1_area": 4.964803658080719e-06,
+          "density_px_per_m": 97.06678704004837,
+          "world_centroid_m": [
+            -0.03781731799244881,
+            0.05801607295870781,
+            0.5560643076896667
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri248:poly248",
+          "material": "Hay",
+          "world_area_m2": 0.0005525352145990026,
+          "uv1_area": 4.964797581052949e-06,
+          "density_px_per_m": 97.06680815070206,
+          "world_centroid_m": [
+            0.0639202892780304,
+            -0.012111957184970379,
+            0.5881459712982178
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1876:poly1876",
+          "material": "Hay",
+          "world_area_m2": 0.0005525361419018828,
+          "uv1_area": 4.964805929430494e-06,
+          "density_px_per_m": 97.06680830818765,
+          "world_centroid_m": [
+            -0.05869822949171066,
+            0.17554575204849243,
+            0.5046586394309998
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1638:poly1638",
+          "material": "Hay",
+          "world_area_m2": 0.000552536405323934,
+          "uv1_area": 4.9648089679443785e-06,
+          "density_px_per_m": 97.06681487280282,
+          "world_centroid_m": [
+            0.14168404042720795,
+            -0.10925283282995224,
+            0.5075815916061401
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri942:poly942",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362558304283,
+          "uv1_area": 4.9648089679443785e-06,
+          "density_px_per_m": 97.06682800393884,
+          "world_centroid_m": [
+            0.12816062569618225,
+            0.1040244847536087,
+            0.5479268431663513
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri744:poly744",
+          "material": "Hay",
+          "world_area_m2": 0.0005525361545606112,
+          "uv1_area": 4.9648089679443785e-06,
+          "density_px_per_m": 97.06683689922956,
+          "world_centroid_m": [
+            0.04944777488708496,
+            -0.13866382837295532,
+            0.6726893782615662
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1896:poly1896",
+          "material": "Hay",
+          "world_area_m2": 0.0005525361256263744,
+          "uv1_area": 4.9648089679443785e-06,
+          "density_px_per_m": 97.06683944074194,
+          "world_centroid_m": [
+            -0.010698235593736172,
+            0.17554575204849243,
+            0.5046586394309998
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri2392:poly2392",
+          "material": "Hay",
+          "world_area_m2": 0.0005525359857775415,
+          "uv1_area": 4.9648089679443785e-06,
+          "density_px_per_m": 97.06685172472318,
+          "world_centroid_m": [
+            0.19781306385993958,
+            0.06176191568374634,
+            0.514140784740448
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1498:poly1498",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362487978027,
+          "uv1_area": 4.9648123030543445e-06,
+          "density_px_per_m": 97.06686122397834,
+          "world_centroid_m": [
+            0.18968403339385986,
+            -0.10925282537937164,
+            0.38758158683776855
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1816:poly1816",
+          "material": "Hay",
+          "world_area_m2": 0.0005525364929303243,
+          "uv1_area": 4.964814751984292e-06,
+          "density_px_per_m": 97.06686371944382,
+          "world_centroid_m": [
+            -0.010698238387703896,
+            0.17554573714733124,
+            0.4446586072444916
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1022:poly1022",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362397558554,
+          "uv1_area": 4.964813290486703e-06,
+          "density_px_per_m": 97.06687167082714,
+          "world_centroid_m": [
+            0.12816059589385986,
+            0.1040244847536087,
+            0.6079267859458923
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri2332:poly2332",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362011768786,
+          "uv1_area": 4.964813290486703e-06,
+          "density_px_per_m": 97.06687505951056,
+          "world_centroid_m": [
+            0.2458130568265915,
+            0.06176193803548813,
+            0.4541407823562622
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1796:poly1796",
+          "material": "Hay",
+          "world_area_m2": 0.0005525359938148317,
+          "uv1_area": 4.964813290486703e-06,
+          "density_px_per_m": 97.06689327369412,
+          "world_centroid_m": [
+            -0.05869823694229126,
+            0.17554573714733124,
+            0.44465863704681396
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri2094:poly2094",
+          "material": "Hay",
+          "world_area_m2": 0.000552536921518268,
+          "uv1_area": 4.964822923003709e-06,
+          "density_px_per_m": 97.06690594891388,
+          "world_centroid_m": [
+            -0.05825235694646835,
+            -0.19553598761558533,
+            0.5744648575782776
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri644:poly644",
+          "material": "Hay",
+          "world_area_m2": 0.0005525368889672966,
+          "uv1_area": 4.964823009767638e-06,
+          "density_px_per_m": 97.06690965626721,
+          "world_centroid_m": [
+            0.00144777144305408,
+            -0.13866382837295532,
+            0.6126894354820251
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri426:poly426",
+          "material": "Hay",
+          "world_area_m2": 0.0005525362076067083,
+          "uv1_area": 4.964817756802908e-06,
+          "density_px_per_m": 97.06691815510868,
+          "world_centroid_m": [
+            -0.03781730309128761,
+            0.05801607295870781,
+            0.586064338684082
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri1598:poly1598",
+          "material": "Hay",
+          "world_area_m2": 0.0005525366562880748,
+          "uv1_area": 4.964822223119114e-06,
+          "density_px_per_m": 97.06692240437583,
+          "world_centroid_m": [
+            0.14168402552604675,
+            -0.10925283282995224,
+            0.47758159041404724
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri704:poly704",
+          "material": "Hay",
+          "world_area_m2": 0.0005525353007990542,
+          "uv1_area": 4.964811536112279e-06,
+          "density_px_per_m": 97.06693699673869,
+          "world_centroid_m": [
+            0.04944777488708496,
+            -0.13866382837295532,
+            0.6426894664764404
+          ]
+        },
+        {
+          "id": "SM_CropClump:tri784:poly784",
+          "material": "Hay",
+          "world_area_m2": 0.0005525364453094212,
+          "uv1_area": 4.964822923003709e-06,
+          "density_px_per_m": 97.06694777792785,
+          "world_centroid_m": [
+            0.049447767436504364,
+            -0.13866382837295532,
+            0.7026894092559814
+          ]
+        }
+      ]
+    },
+    "Leaf": {
+      "valid_triangle_count": 288,
+      "area_m2": 0.5492523372039511,
+      "arithmetic_mean_px_per_m": 135.83935655162227,
+      "area_weighted_mean_px_per_m": 136.85114715606827,
+      "minimum_px_per_m": 125.96772720279256,
+      "maximum_px_per_m": 140.67205782113942,
+      "p01_px_per_m": 126.12263181632011,
+      "p05_px_per_m": 127.38616809890111,
+      "median_px_per_m": 136.74481770080834,
+      "p95_px_per_m": 140.40508920354557,
+      "p99_px_per_m": 140.6502121409141,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    }
+  },
+  "elapsed_seconds": 0.17769129999214783,
+  "strict_uv_integrity_passed": true
+}

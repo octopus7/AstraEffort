@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-22T13:12:59.126287+00:00",
+  "ground_bounds": "<Struct 'Box' (0x000001FA9B7BAA40) {min: {x: -5000.000488, y: -5000.000488, z: -9.999417}, max: {x: 5000.000488, y: 5000.000488, z: 92.115334}, is_valid: True}>",
+  "uvs": 1,
+  "scene_capture_methods": [
+    "capture_every_frame",
+    "capture_gpu_next_render",
+    "capture_on_movement",
+    "capture_scene",
+    "capture_sort_priority",
+    "capture_source",
+    "inherit_main_view_camera_post_process_settings",
+    "post_process_blend_weight",
+    "post_process_settings",
+    "set_capture_sort_priority"
+  ],
+  "play_methods": [
+    "editor_play_simulate",
+    "editor_request_begin_play",
+    "editor_request_end_play",
+    "is_in_play_in_editor"
+  ],
+  "editorlibrary_play": [
+    "editor_end_play",
+    "editor_play_simulate",
+    "get_game_world"
+  ],
+  "trace_doc": "X.line_trace_single(world_context_object, start, end, trace_channel, trace_complex, actors_to_ignore, draw_debug_type, ignore_self=True, trace_color=[1.000000, 0.000000, 0.000000, 1.000000], trace_hit_color=[0.000000, 1.000000, 0.000000, 1.000000], draw_time=5.000000) -> HitResult or None\r\nDoes a collision trace along the given line and returns the first blocking hit encountered.\nThis trace finds the objects that RESPONDS to the given TraceChannel\r\n\r\nArgs:\r\n    world_context_object (Object): \r\n    start (Vector): Start of line segment.\r\n    end (Vector): End of line segment.\r\n    trace_channel (TraceTypeQuery): \r\n    trace_complex (bool): True to test against complex collision, false to test against simplified collision.\r\n    actors_to_ignore (Array[Actor]): \r\n    draw_debug_type (DrawDebugTrace): \r\n    ignore_self (bool): \r\n    trace_color (LinearColor): \r\n    trace_hit_color (LinearColor): \r\n    draw_time (float): \r\n\r\nReturns:\r\n    HitResult or None: True if there was a hit, false otherwise.\r\n\r\n    out_hit (HitResult): Properties of the trace hit.",
+  "request_play_doc": "<built-in method editor_play_simulate of LevelEditorSubsystem object at 0x000001FA80E32BD0>",
+  "actor_sweep_doc": "x.set_actor_location(new_location, sweep, teleport) -> HitResult or None\r\nMove the Actor to the specified location.\r\n\r\nArgs:\r\n    new_location (Vector): The new location to move the Actor to.\r\n    sweep (bool): Whether we sweep to the destination location, triggering overlaps along the way and stopping short of the target if blocked by something. Only the root component is swept and checked for blocking collision, child components move without sweeping. If collision is off, this has no effect.\r\n    teleport (bool): Whether we teleport the physics state (if physics collision is enabled for this object). If true, physics velocity for this object is unchanged (so ragdoll parts are not affected by change in location). If false, physics velocity is updated based on the change in position (affecting ragdoll parts). If CCD is on and not teleporting, this will affect objects along the entire swept volume. Note that when teleporting, any child/attached components will be teleported too, maintaining their current offset even if they are being simulated. Setting the location without teleporting will not update the location of simulated child/attached components.\r\n\r\nReturns:\r\n    HitResult or None: Whether the location was successfully set (if not swept), or whether movement occurred at all (if swept).\r\n\r\n    sweep_hit_result (HitResult): The hit result from the move if swept.",
+  "get_game_world_doc": "X.get_game_world() -> World\r\nGet Game World\r\ndeprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem\r\n\r\nReturns:\r\n    World:",
+  "rt_formats": "['RTF_R16F', 'RTF_R32F', 'RTF_R8', 'RTF_RG16F', 'RTF_RG32F', 'RTF_RG8', 'RTF_RGB10A2', 'RTF_RGBA16F', 'RTF_RGBA32F', 'RTF_RGBA8', 'RTF_RGBA8_SRGB', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_wrapper_meta_data', 'cast', 'get_display_name', 'name', 'static_enum', 'value']",
+  "capturesource": "['SCS_BASE_COLOR', 'SCS_DEVICE_DEPTH', 'SCS_FINAL_COLOR_HDR', 'SCS_FINAL_COLOR_LDR', 'SCS_FINAL_TONE_CURVE_HDR', 'SCS_NORMAL', 'SCS_SCENE_COLOR_HDR', 'SCS_SCENE_COLOR_HDR_NO_ALPHA', 'SCS_SCENE_COLOR_SCENE_DEPTH', 'SCS_SCENE_DEPTH', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_wrapper_meta_data', 'cast', 'get_display_name', 'name', 'static_enum', 'value']"
+}

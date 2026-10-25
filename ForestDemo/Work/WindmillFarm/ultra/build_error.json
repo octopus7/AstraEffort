@@ -1,0 +1,5 @@
+{
+  "utc": "2026-10-22T13:21:46.820840+00:00",
+  "exception": "call() takes at most 0 arguments (1 given)",
+  "traceback": "Traceback (most recent call last):\n  File \"D:/github/AstraEffort/ForestDemo/Work/WindmillFarm/ultra/ue_build.py\", line 6, in <module>\n    ue_import.run()\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\ue_import.py\", line 99, in run\n    rotor_motion(m);u.MaterialEditingLibrary.recompile_material(m);u.EditorAssetLibrary.save_loaded_asset(m);rotor.set_material(i,m)\n    ^^^^^^^^^^^^^^^\n  File \"D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\ue_import.py\", line 31, in rotor_motion\n    custom.set_editor_property('inputs',[u.CustomInput(input_name='P'),u.CustomInput(input_name='O'),u.CustomInput(input_name='T')])\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: call() takes at most 0 arguments (1 given)\n"
+}

@@ -1,0 +1,997 @@
+{
+  "mesh": "SM_Gate",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_Gate.fbx",
+  "source_before": {
+    "sha256": "0d47ded441d047c5c0a85941163ba2b41de4018512352c69db74c8a1ee4a6048",
+    "bytes": 163692,
+    "mtime_ns": 1792675273590758700
+  },
+  "source_after": {
+    "sha256": "0d47ded441d047c5c0a85941163ba2b41de4018512352c69db74c8a1ee4a6048",
+    "bytes": 163692,
+    "mtime_ns": 1792675273590758700
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_Gate",
+      "vertices": 1192,
+      "polygons": 2320,
+      "triangles": 2320,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -1.5214838981628418,
+        -0.1703922003507614,
+        0.019999980926513672
+      ],
+      "local_bbox_max_m": [
+        1.586206316947937,
+        0.08500012755393982,
+        1.2200000286102295
+      ],
+      "materials": [
+        "Wood",
+        "WoodLight",
+        "Iron"
+      ]
+    }
+  ],
+  "triangle_count": 2320,
+  "world_bounds_min_m": [
+    -1.5214838981628418,
+    -0.17039209604263306,
+    0.019999980926513672
+  ],
+  "world_bounds_max_m": [
+    1.586206316947937,
+    0.08500025421380997,
+    1.2200000286102295
+  ],
+  "world_dimensions_m": [
+    3.107690215110779,
+    0.255392350256443,
+    1.2000000476837158
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0011421788949519396,
+        0.001142227090895176
+      ],
+      "max": [
+        0.9958180785179138,
+        0.998857855796814
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0004532324674073607,
+        0.00045325158862397075
+      ],
+      "max": [
+        0.3951544463634491,
+        0.39636069536209106
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 3082,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 2320,
+    "area_m2": 8.789047157025104,
+    "arithmetic_mean_px_per_m": 123.34462478970451,
+    "area_weighted_mean_px_per_m": 127.95892858809104,
+    "minimum_px_per_m": 100.03170075525512,
+    "maximum_px_per_m": 130.66971992081716,
+    "p01_px_per_m": 105.61358569412211,
+    "p05_px_per_m": 112.56050571616407,
+    "median_px_per_m": 124.24413187920935,
+    "p95_px_per_m": 130.66754927267368,
+    "p99_px_per_m": 130.6688702301766,
+    "outside_15percent_target_triangle_count": 54,
+    "outside_15percent_target_area_m2": 0.004985480620741652,
+    "outside_15percent_target_area_fraction": 0.0005672378964034511,
+    "outlier_examples": [
+      {
+        "id": "SM_Gate:tri1426:poly1426",
+        "material": "Wood",
+        "world_area_m2": 0.00013263591379507282,
+        "uv1_area": 1.2657167463014929e-06,
+        "density_px_per_m": 100.03170075525512,
+        "world_centroid_m": [
+          -1.3080695867538452,
+          -0.048724621534347534,
+          0.2322361171245575
+        ]
+      },
+      {
+        "id": "SM_Gate:tri270:poly270",
+        "material": "Wood",
+        "world_area_m2": 0.00013263628795390946,
+        "uv1_area": 1.2657281713845947e-06,
+        "density_px_per_m": 100.03201113351757,
+        "world_centroid_m": [
+          -1.3080695867538452,
+          -0.1312759518623352,
+          0.2322361171245575
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1099:poly1099",
+        "material": "Iron",
+        "world_area_m2": 0.00014166672111601663,
+        "uv1_area": 1.432132447298784e-06,
+        "density_px_per_m": 102.95741447059318,
+        "world_centroid_m": [
+          1.262387752532959,
+          -0.1530715823173523,
+          0.8924927711486816
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2275:poly2275",
+        "material": "Iron",
+        "world_area_m2": 0.00012318865122438327,
+        "uv1_area": 1.2453351403429735e-06,
+        "density_px_per_m": 102.95743824160076,
+        "world_centroid_m": [
+          1.258507490158081,
+          -0.15653568506240845,
+          0.8858803510665894
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1098:poly1098",
+        "material": "Iron",
+        "world_area_m2": 0.00014166671798127042,
+        "uv1_area": 1.4321485397594813e-06,
+        "density_px_per_m": 102.95799405951306,
+        "world_centroid_m": [
+          1.262387752532959,
+          -0.1669279932975769,
+          0.8924927711486816
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2274:poly2274",
+        "material": "Iron",
+        "world_area_m2": 0.00012318865122438327,
+        "uv1_area": 1.2453491338160205e-06,
+        "density_px_per_m": 102.95801669154692,
+        "world_centroid_m": [
+          1.258507490158081,
+          -0.16346389055252075,
+          0.8858803510665894
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2313:poly2313",
+        "material": "Iron",
+        "world_area_m2": 0.00017862286144170256,
+        "uv1_area": 1.8057671125060182e-06,
+        "density_px_per_m": 102.95852332524807,
+        "world_centroid_m": [
+          1.3348851203918457,
+          -0.1530715525150299,
+          0.8229235410690308
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1137:poly1137",
+        "material": "Iron",
+        "world_area_m2": 0.0001971016127740384,
+        "uv1_area": 1.9925862793090943e-06,
+        "density_px_per_m": 102.95879129598418,
+        "world_centroid_m": [
+          1.3288086652755737,
+          -0.15653565526008606,
+          0.8141149878501892
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2308:poly2308",
+        "material": "Iron",
+        "world_area_m2": 0.00017862286392788602,
+        "uv1_area": 1.8057874031640608e-06,
+        "density_px_per_m": 102.95910105826653,
+        "world_centroid_m": [
+          1.3348851203918457,
+          -0.1669279783964157,
+          0.8229235410690308
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1132:poly1132",
+        "material": "Iron",
+        "world_area_m2": 0.0001971016127740384,
+        "uv1_area": 1.992608669176832e-06,
+        "density_px_per_m": 102.95936974703238,
+        "world_centroid_m": [
+          1.3288086652755737,
+          -0.16346386075019836,
+          0.8141149878501892
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2256:poly2256",
+        "material": "Iron",
+        "world_area_m2": 0.00012318886391638454,
+        "uv1_area": 1.264819128987682e-06,
+        "density_px_per_m": 103.75963711959123,
+        "world_centroid_m": [
+          1.315880537033081,
+          -0.16346386075019836,
+          0.8914927244186401
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1080:poly1080",
+        "material": "Iron",
+        "world_area_m2": 0.00014166650481836653,
+        "uv1_area": 1.4545410103039558e-06,
+        "density_px_per_m": 103.75985408273503,
+        "world_centroid_m": [
+          1.3224928379058838,
+          -0.1669279783964157,
+          0.8876123428344727
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2295:poly2295",
+        "material": "Iron",
+        "world_area_m2": 0.0001786237465208338,
+        "uv1_area": 1.834004533574074e-06,
+        "density_px_per_m": 103.76014309168313,
+        "world_centroid_m": [
+          1.2529234886169434,
+          -0.1530715823173523,
+          0.8151149749755859
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2257:poly2257",
+        "material": "Iron",
+        "world_area_m2": 0.00012318886391638454,
+        "uv1_area": 1.2648333413967094e-06,
+        "density_px_per_m": 103.76022007656384,
+        "world_centroid_m": [
+          1.315880537033081,
+          -0.15653565526008606,
+          0.8914927840232849
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1119:poly1119",
+        "material": "Iron",
+        "world_area_m2": 0.00019710129959319558,
+        "uv1_area": 2.0237264148903478e-06,
+        "density_px_per_m": 103.76027471808672,
+        "world_centroid_m": [
+          1.2441151142120361,
+          -0.15653568506240845,
+          0.8211914896965027
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1081:poly1081",
+        "material": "Iron",
+        "world_area_m2": 0.0001416665095204929,
+        "uv1_area": 1.454557354563235e-06,
+        "density_px_per_m": 103.76043531894345,
+        "world_centroid_m": [
+          1.3224928379058838,
+          -0.1530715525150299,
+          0.8876123428344727
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2290:poly2290",
+        "material": "Iron",
+        "world_area_m2": 0.0001971016127740384,
+        "uv1_area": 2.023771894954507e-06,
+        "density_px_per_m": 103.76135820100889,
+        "world_centroid_m": [
+          1.25119149684906,
+          -0.16346389055252075,
+          0.8141149878501892
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1114:poly1114",
+        "material": "Iron",
+        "world_area_m2": 0.00017862344320769286,
+        "uv1_area": 1.8340457499377294e-06,
+        "density_px_per_m": 103.76139710441221,
+        "world_centroid_m": [
+          1.245115041732788,
+          -0.1669279932975769,
+          0.8229235410690308
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1414:poly1414",
+        "material": "Wood",
+        "world_area_m2": 0.00013263683161235151,
+        "uv1_area": 1.3889692363766581e-06,
+        "density_px_per_m": 104.78863919195271,
+        "world_centroid_m": [
+          -1.3062868118286133,
+          -0.1256190836429596,
+          0.22686752676963806
+        ]
+      },
+      {
+        "id": "SM_Gate:tri282:poly282",
+        "material": "Wood",
+        "world_area_m2": 0.00013263666755245596,
+        "uv1_area": 1.3889809161995656e-06,
+        "density_px_per_m": 104.78914458154709,
+        "world_centroid_m": [
+          -1.3062868118286133,
+          -0.05438147485256195,
+          0.22686752676963806
+        ]
+      },
+      {
+        "id": "SM_Gate:tri748:poly748",
+        "material": "Iron",
+        "world_area_m2": 8.642627377791045e-06,
+        "uv1_area": 9.193086492054192e-08,
+        "density_px_per_m": 105.61065477135467,
+        "world_centroid_m": [
+          -1.4524496793746948,
+          -0.06980833411216736,
+          0.3423570394515991
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2120:poly2120",
+        "material": "Iron",
+        "world_area_m2": 3.6656857861917654e-05,
+        "uv1_area": 3.8992789191949484e-07,
+        "density_px_per_m": 105.61229734533845,
+        "world_centroid_m": [
+          -1.4517450332641602,
+          -0.06772293150424957,
+          1.1547141075134277
+        ]
+      },
+      {
+        "id": "SM_Gate:tri782:poly782",
+        "material": "Iron",
+        "world_area_m2": 8.642585427806333e-06,
+        "uv1_area": 9.193368777360433e-08,
+        "density_px_per_m": 105.61253252684234,
+        "world_centroid_m": [
+          -1.5098083019256592,
+          -0.012449963018298149,
+          0.19764301180839539
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1908:poly1908",
+        "material": "Iron",
+        "world_area_m2": 3.665712211427152e-05,
+        "uv1_area": 3.899398182127811e-07,
+        "density_px_per_m": 105.61353178297057,
+        "world_centroid_m": [
+          -1.5082550048828125,
+          -0.06772294640541077,
+          0.19528596103191376
+        ]
+      },
+      {
+        "id": "SM_Gate:tri1926:poly1926",
+        "material": "Iron",
+        "world_area_m2": 3.665718401264924e-05,
+        "uv1_area": 3.899425718989491e-07,
+        "density_px_per_m": 105.61381552587338,
+        "world_centroid_m": [
+          -1.5077228546142578,
+          -0.011745268478989601,
+          0.19528596103191376
+        ]
+      },
+      {
+        "id": "SM_Gate:tri942:poly942",
+        "material": "Iron",
+        "world_area_m2": 8.642523004246405e-06,
+        "uv1_area": 9.193537020557585e-08,
+        "density_px_per_m": 105.61388031722802,
+        "world_centroid_m": [
+          -1.450191855430603,
+          -0.012449951842427254,
+          1.1523571014404297
+        ]
+      },
+      {
+        "id": "SM_Gate:tri994:poly994",
+        "material": "Iron",
+        "world_area_m2": 8.642523004246405e-06,
+        "uv1_area": 9.193537020557585e-08,
+        "density_px_per_m": 105.61388031722802,
+        "world_centroid_m": [
+          -1.5098083019256592,
+          -0.012449963018298149,
+          1.0076429843902588
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2154:poly2154",
+        "material": "Iron",
+        "world_area_m2": 3.665691976074159e-05,
+        "uv1_area": 3.899408894669776e-07,
+        "density_px_per_m": 105.61396835908863,
+        "world_centroid_m": [
+          -1.5077228546142578,
+          -0.011745268478989601,
+          1.0052859783172607
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2102:poly2102",
+        "material": "Iron",
+        "world_area_m2": 3.665691275690437e-05,
+        "uv1_area": 3.899408894669776e-07,
+        "density_px_per_m": 105.6139784486318,
+        "world_centroid_m": [
+          -1.4522771835327148,
+          -0.01174525823444128,
+          1.1547141075134277
+        ]
+      },
+      {
+        "id": "SM_Gate:tri2136:poly2136",
+        "material": "Iron",
+        "world_area_m2": 3.6656857861917654e-05,
+        "uv1_area": 3.899407711727143e-07,
+        "density_px_per_m": 105.61404150921736,
+        "world_centroid_m": [
+          -1.5082550048828125,
+          -0.06772294640541077,
+          1.0052859783172607
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 324,
+      "area_m2": 2.4071294467973003,
+      "arithmetic_mean_px_per_m": 123.46105844617009,
+      "area_weighted_mean_px_per_m": 126.81612945819568,
+      "minimum_px_per_m": 100.03170075525512,
+      "maximum_px_per_m": 130.66893504647635,
+      "p01_px_per_m": 105.29261856212841,
+      "p05_px_per_m": 114.04806686079566,
+      "median_px_per_m": 124.24421833969406,
+      "p95_px_per_m": 130.65400840760157,
+      "p99_px_per_m": 130.66859594524857,
+      "outside_15percent_target_triangle_count": 6,
+      "outside_15percent_target_area_m2": 0.0016694167630766862,
+      "outside_15percent_target_area_fraction": 0.0006935301154235203,
+      "outlier_examples": [
+        {
+          "id": "SM_Gate:tri1426:poly1426",
+          "material": "Wood",
+          "world_area_m2": 0.00013263591379507282,
+          "uv1_area": 1.2657167463014929e-06,
+          "density_px_per_m": 100.03170075525512,
+          "world_centroid_m": [
+            -1.3080695867538452,
+            -0.048724621534347534,
+            0.2322361171245575
+          ]
+        },
+        {
+          "id": "SM_Gate:tri270:poly270",
+          "material": "Wood",
+          "world_area_m2": 0.00013263628795390946,
+          "uv1_area": 1.2657281713845947e-06,
+          "density_px_per_m": 100.03201113351757,
+          "world_centroid_m": [
+            -1.3080695867538452,
+            -0.1312759518623352,
+            0.2322361171245575
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1414:poly1414",
+          "material": "Wood",
+          "world_area_m2": 0.00013263683161235151,
+          "uv1_area": 1.3889692363766581e-06,
+          "density_px_per_m": 104.78863919195271,
+          "world_centroid_m": [
+            -1.3062868118286133,
+            -0.1256190836429596,
+            0.22686752676963806
+          ]
+        },
+        {
+          "id": "SM_Gate:tri282:poly282",
+          "material": "Wood",
+          "world_area_m2": 0.00013263666755245596,
+          "uv1_area": 1.3889809161995656e-06,
+          "density_px_per_m": 104.78914458154709,
+          "world_centroid_m": [
+            -1.3062868118286133,
+            -0.05438147485256195,
+            0.22686752676963806
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1458:poly1458",
+          "material": "Wood",
+          "world_area_m2": 0.0005694355497984766,
+          "uv1_area": 6.214911180720114e-06,
+          "density_px_per_m": 106.97816188842236,
+          "world_centroid_m": [
+            -1.3069448471069336,
+            -0.07966694235801697,
+            0.22555522620677948
+          ]
+        },
+        {
+          "id": "SM_Gate:tri314:poly314",
+          "material": "Wood",
+          "world_area_m2": 0.0005694355123644197,
+          "uv1_area": 6.214911295848724e-06,
+          "density_px_per_m": 106.97816639559767,
+          "world_centroid_m": [
+            -1.3109513521194458,
+            -0.10033361613750458,
+            0.2301853597164154
+          ]
+        }
+      ]
+    },
+    "WoodLight": {
+      "valid_triangle_count": 864,
+      "area_m2": 5.846219459050991,
+      "arithmetic_mean_px_per_m": 124.40646948555069,
+      "area_weighted_mean_px_per_m": 128.4918337586007,
+      "minimum_px_per_m": 114.04736441462285,
+      "maximum_px_per_m": 130.66886599804195,
+      "p01_px_per_m": 114.0483446204553,
+      "p05_px_per_m": 116.27765461530024,
+      "median_px_per_m": 125.24354558128135,
+      "p95_px_per_m": 130.66754088978564,
+      "p99_px_per_m": 130.66860439881071,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "Iron": {
+      "valid_triangle_count": 1132,
+      "area_m2": 0.5356982511768322,
+      "arithmetic_mean_px_per_m": 122.50084535339286,
+      "area_weighted_mean_px_per_m": 127.27829328731333,
+      "minimum_px_per_m": 102.95741447059318,
+      "maximum_px_per_m": 130.66971992081716,
+      "p01_px_per_m": 103.76023701543593,
+      "p05_px_per_m": 109.87846498129444,
+      "median_px_per_m": 123.45592762821438,
+      "p95_px_per_m": 130.66787999173758,
+      "p99_px_per_m": 130.66907595821294,
+      "outside_15percent_target_triangle_count": 48,
+      "outside_15percent_target_area_m2": 0.003316063857664965,
+      "outside_15percent_target_area_fraction": 0.006190171146499306,
+      "outlier_examples": [
+        {
+          "id": "SM_Gate:tri1099:poly1099",
+          "material": "Iron",
+          "world_area_m2": 0.00014166672111601663,
+          "uv1_area": 1.432132447298784e-06,
+          "density_px_per_m": 102.95741447059318,
+          "world_centroid_m": [
+            1.262387752532959,
+            -0.1530715823173523,
+            0.8924927711486816
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2275:poly2275",
+          "material": "Iron",
+          "world_area_m2": 0.00012318865122438327,
+          "uv1_area": 1.2453351403429735e-06,
+          "density_px_per_m": 102.95743824160076,
+          "world_centroid_m": [
+            1.258507490158081,
+            -0.15653568506240845,
+            0.8858803510665894
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1098:poly1098",
+          "material": "Iron",
+          "world_area_m2": 0.00014166671798127042,
+          "uv1_area": 1.4321485397594813e-06,
+          "density_px_per_m": 102.95799405951306,
+          "world_centroid_m": [
+            1.262387752532959,
+            -0.1669279932975769,
+            0.8924927711486816
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2274:poly2274",
+          "material": "Iron",
+          "world_area_m2": 0.00012318865122438327,
+          "uv1_area": 1.2453491338160205e-06,
+          "density_px_per_m": 102.95801669154692,
+          "world_centroid_m": [
+            1.258507490158081,
+            -0.16346389055252075,
+            0.8858803510665894
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2313:poly2313",
+          "material": "Iron",
+          "world_area_m2": 0.00017862286144170256,
+          "uv1_area": 1.8057671125060182e-06,
+          "density_px_per_m": 102.95852332524807,
+          "world_centroid_m": [
+            1.3348851203918457,
+            -0.1530715525150299,
+            0.8229235410690308
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1137:poly1137",
+          "material": "Iron",
+          "world_area_m2": 0.0001971016127740384,
+          "uv1_area": 1.9925862793090943e-06,
+          "density_px_per_m": 102.95879129598418,
+          "world_centroid_m": [
+            1.3288086652755737,
+            -0.15653565526008606,
+            0.8141149878501892
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2308:poly2308",
+          "material": "Iron",
+          "world_area_m2": 0.00017862286392788602,
+          "uv1_area": 1.8057874031640608e-06,
+          "density_px_per_m": 102.95910105826653,
+          "world_centroid_m": [
+            1.3348851203918457,
+            -0.1669279783964157,
+            0.8229235410690308
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1132:poly1132",
+          "material": "Iron",
+          "world_area_m2": 0.0001971016127740384,
+          "uv1_area": 1.992608669176832e-06,
+          "density_px_per_m": 102.95936974703238,
+          "world_centroid_m": [
+            1.3288086652755737,
+            -0.16346386075019836,
+            0.8141149878501892
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2256:poly2256",
+          "material": "Iron",
+          "world_area_m2": 0.00012318886391638454,
+          "uv1_area": 1.264819128987682e-06,
+          "density_px_per_m": 103.75963711959123,
+          "world_centroid_m": [
+            1.315880537033081,
+            -0.16346386075019836,
+            0.8914927244186401
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1080:poly1080",
+          "material": "Iron",
+          "world_area_m2": 0.00014166650481836653,
+          "uv1_area": 1.4545410103039558e-06,
+          "density_px_per_m": 103.75985408273503,
+          "world_centroid_m": [
+            1.3224928379058838,
+            -0.1669279783964157,
+            0.8876123428344727
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2295:poly2295",
+          "material": "Iron",
+          "world_area_m2": 0.0001786237465208338,
+          "uv1_area": 1.834004533574074e-06,
+          "density_px_per_m": 103.76014309168313,
+          "world_centroid_m": [
+            1.2529234886169434,
+            -0.1530715823173523,
+            0.8151149749755859
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2257:poly2257",
+          "material": "Iron",
+          "world_area_m2": 0.00012318886391638454,
+          "uv1_area": 1.2648333413967094e-06,
+          "density_px_per_m": 103.76022007656384,
+          "world_centroid_m": [
+            1.315880537033081,
+            -0.15653565526008606,
+            0.8914927840232849
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1119:poly1119",
+          "material": "Iron",
+          "world_area_m2": 0.00019710129959319558,
+          "uv1_area": 2.0237264148903478e-06,
+          "density_px_per_m": 103.76027471808672,
+          "world_centroid_m": [
+            1.2441151142120361,
+            -0.15653568506240845,
+            0.8211914896965027
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1081:poly1081",
+          "material": "Iron",
+          "world_area_m2": 0.0001416665095204929,
+          "uv1_area": 1.454557354563235e-06,
+          "density_px_per_m": 103.76043531894345,
+          "world_centroid_m": [
+            1.3224928379058838,
+            -0.1530715525150299,
+            0.8876123428344727
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2290:poly2290",
+          "material": "Iron",
+          "world_area_m2": 0.0001971016127740384,
+          "uv1_area": 2.023771894954507e-06,
+          "density_px_per_m": 103.76135820100889,
+          "world_centroid_m": [
+            1.25119149684906,
+            -0.16346389055252075,
+            0.8141149878501892
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1114:poly1114",
+          "material": "Iron",
+          "world_area_m2": 0.00017862344320769286,
+          "uv1_area": 1.8340457499377294e-06,
+          "density_px_per_m": 103.76139710441221,
+          "world_centroid_m": [
+            1.245115041732788,
+            -0.1669279932975769,
+            0.8229235410690308
+          ]
+        },
+        {
+          "id": "SM_Gate:tri748:poly748",
+          "material": "Iron",
+          "world_area_m2": 8.642627377791045e-06,
+          "uv1_area": 9.193086492054192e-08,
+          "density_px_per_m": 105.61065477135467,
+          "world_centroid_m": [
+            -1.4524496793746948,
+            -0.06980833411216736,
+            0.3423570394515991
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2120:poly2120",
+          "material": "Iron",
+          "world_area_m2": 3.6656857861917654e-05,
+          "uv1_area": 3.8992789191949484e-07,
+          "density_px_per_m": 105.61229734533845,
+          "world_centroid_m": [
+            -1.4517450332641602,
+            -0.06772293150424957,
+            1.1547141075134277
+          ]
+        },
+        {
+          "id": "SM_Gate:tri782:poly782",
+          "material": "Iron",
+          "world_area_m2": 8.642585427806333e-06,
+          "uv1_area": 9.193368777360433e-08,
+          "density_px_per_m": 105.61253252684234,
+          "world_centroid_m": [
+            -1.5098083019256592,
+            -0.012449963018298149,
+            0.19764301180839539
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1908:poly1908",
+          "material": "Iron",
+          "world_area_m2": 3.665712211427152e-05,
+          "uv1_area": 3.899398182127811e-07,
+          "density_px_per_m": 105.61353178297057,
+          "world_centroid_m": [
+            -1.5082550048828125,
+            -0.06772294640541077,
+            0.19528596103191376
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1926:poly1926",
+          "material": "Iron",
+          "world_area_m2": 3.665718401264924e-05,
+          "uv1_area": 3.899425718989491e-07,
+          "density_px_per_m": 105.61381552587338,
+          "world_centroid_m": [
+            -1.5077228546142578,
+            -0.011745268478989601,
+            0.19528596103191376
+          ]
+        },
+        {
+          "id": "SM_Gate:tri942:poly942",
+          "material": "Iron",
+          "world_area_m2": 8.642523004246405e-06,
+          "uv1_area": 9.193537020557585e-08,
+          "density_px_per_m": 105.61388031722802,
+          "world_centroid_m": [
+            -1.450191855430603,
+            -0.012449951842427254,
+            1.1523571014404297
+          ]
+        },
+        {
+          "id": "SM_Gate:tri994:poly994",
+          "material": "Iron",
+          "world_area_m2": 8.642523004246405e-06,
+          "uv1_area": 9.193537020557585e-08,
+          "density_px_per_m": 105.61388031722802,
+          "world_centroid_m": [
+            -1.5098083019256592,
+            -0.012449963018298149,
+            1.0076429843902588
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2154:poly2154",
+          "material": "Iron",
+          "world_area_m2": 3.665691976074159e-05,
+          "uv1_area": 3.899408894669776e-07,
+          "density_px_per_m": 105.61396835908863,
+          "world_centroid_m": [
+            -1.5077228546142578,
+            -0.011745268478989601,
+            1.0052859783172607
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2102:poly2102",
+          "material": "Iron",
+          "world_area_m2": 3.665691275690437e-05,
+          "uv1_area": 3.899408894669776e-07,
+          "density_px_per_m": 105.6139784486318,
+          "world_centroid_m": [
+            -1.4522771835327148,
+            -0.01174525823444128,
+            1.1547141075134277
+          ]
+        },
+        {
+          "id": "SM_Gate:tri2136:poly2136",
+          "material": "Iron",
+          "world_area_m2": 3.6656857861917654e-05,
+          "uv1_area": 3.899407711727143e-07,
+          "density_px_per_m": 105.61404150921736,
+          "world_centroid_m": [
+            -1.5082550048828125,
+            -0.06772294640541077,
+            1.0052859783172607
+          ]
+        },
+        {
+          "id": "SM_Gate:tri976:poly976",
+          "material": "Iron",
+          "world_area_m2": 8.642564954534114e-06,
+          "uv1_area": 9.193611005819946e-08,
+          "density_px_per_m": 105.61404895997823,
+          "world_centroid_m": [
+            -1.5075504779815674,
+            -0.06980834901332855,
+            1.0076429843902588
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1874:poly1874",
+          "material": "Iron",
+          "world_area_m2": 3.665717700886251e-05,
+          "uv1_area": 3.8994979623119264e-07,
+          "density_px_per_m": 105.61480394628119,
+          "world_centroid_m": [
+            -1.4522771835327148,
+            -0.01174525823444128,
+            0.34471404552459717
+          ]
+        },
+        {
+          "id": "SM_Gate:tri730:poly730",
+          "material": "Iron",
+          "world_area_m2": 8.642585427806333e-06,
+          "uv1_area": 9.193840672105935e-08,
+          "density_px_per_m": 105.6152430326883,
+          "world_centroid_m": [
+            -1.450191855430603,
+            -0.012449951842427254,
+            0.3423570394515991
+          ]
+        },
+        {
+          "id": "SM_Gate:tri1892:poly1892",
+          "material": "Iron",
+          "world_area_m2": 3.665712211427152e-05,
+          "uv1_area": 3.899526974660006e-07,
+          "density_px_per_m": 105.61527591389057,
+          "world_centroid_m": [
+            -1.4517450332641602,
+            -0.06772293150424957,
+            0.34471404552459717
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.24042079999344423,
+  "strict_uv_integrity_passed": true
+}

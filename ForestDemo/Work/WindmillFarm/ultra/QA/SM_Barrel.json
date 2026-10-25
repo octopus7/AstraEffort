@@ -1,0 +1,324 @@
+{
+  "mesh": "SM_Barrel",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_Barrel.fbx",
+  "source_before": {
+    "sha256": "b2c0b48a546a8b5796b8f03b13b409827858abd47f2e52f808670039269b6149",
+    "bytes": 296252,
+    "mtime_ns": 1792675272955098100
+  },
+  "source_after": {
+    "sha256": "b2c0b48a546a8b5796b8f03b13b409827858abd47f2e52f808670039269b6149",
+    "bytes": 296252,
+    "mtime_ns": 1792675272955098100
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_Barrel",
+      "vertices": 2504,
+      "polygons": 4900,
+      "triangles": 4900,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -0.4099704921245575,
+        -0.4099704921245575,
+        -0.002500000409781933
+      ],
+      "local_bbox_max_m": [
+        0.4099704921245575,
+        0.4099704921245575,
+        1.003999948501587
+      ],
+      "materials": [
+        "Wood",
+        "WoodLight",
+        "Iron"
+      ]
+    }
+  ],
+  "triangle_count": 4900,
+  "world_bounds_min_m": [
+    -0.4099704921245575,
+    -0.4099704921245575,
+    -0.002500000409781933
+  ],
+  "world_bounds_max_m": [
+    0.4099704921245575,
+    0.4099704921245575,
+    1.003999948501587
+  ],
+  "world_dimensions_m": [
+    0.819940984249115,
+    0.819940984249115,
+    1.0064999489113688
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0014151178766041994,
+        0.0014151097275316715
+      ],
+      "max": [
+        0.9936016201972961,
+        0.9985849261283875
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0008204590412788093,
+        0.0008204543264582753
+      ],
+      "max": [
+        0.5760717391967773,
+        0.5789609551429749
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 10474,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 4900,
+    "area_m2": 8.266604626694496,
+    "arithmetic_mean_px_per_m": 127.53212597986462,
+    "area_weighted_mean_px_per_m": 127.84680429459473,
+    "minimum_px_per_m": 108.75654004063807,
+    "maximum_px_per_m": 134.60094886491206,
+    "p01_px_per_m": 110.17977545949876,
+    "p05_px_per_m": 115.2063958226833,
+    "median_px_per_m": 129.36014711487599,
+    "p95_px_per_m": 134.5886260198117,
+    "p99_px_per_m": 134.58923267331826,
+    "outside_15percent_target_triangle_count": 5,
+    "outside_15percent_target_area_m2": 0.00011642752985312149,
+    "outside_15percent_target_area_fraction": 1.4084081084167742e-05,
+    "outlier_examples": [
+      {
+        "id": "SM_Barrel:tri2360:poly2360",
+        "material": "Wood",
+        "world_area_m2": 2.0484023353377333e-05,
+        "uv1_area": 2.3106071567191577e-07,
+        "density_px_per_m": 108.75654004063807,
+        "world_centroid_m": [
+          0.06471771001815796,
+          -0.04866833984851837,
+          0.9898215532302856
+        ]
+      },
+      {
+        "id": "SM_Barrel:tri2342:poly2342",
+        "material": "Wood",
+        "world_area_m2": 2.7487582003333042e-05,
+        "uv1_area": 3.100775887165952e-07,
+        "density_px_per_m": 108.75941845431777,
+        "world_centroid_m": [
+          0.1178918331861496,
+          -0.04536847025156021,
+          0.9886430501937866
+        ]
+      },
+      {
+        "id": "SM_Barrel:tri4824:poly4824",
+        "material": "Wood",
+        "world_area_m2": 2.0484028265202898e-05,
+        "uv1_area": 2.3108586288955735e-07,
+        "density_px_per_m": 108.76244503386789,
+        "world_centroid_m": [
+          0.1152823194861412,
+          -0.048668332397937775,
+          0.9898215532302856
+        ]
+      },
+      {
+        "id": "SM_Barrel:tri4842:poly4842",
+        "material": "Wood",
+        "world_area_m2": 2.7487578847865287e-05,
+        "uv1_area": 3.1009866852116375e-07,
+        "density_px_per_m": 108.76312149495394,
+        "world_centroid_m": [
+          0.062108203768730164,
+          -0.045368485152721405,
+          0.9886430501937866
+        ]
+      },
+      {
+        "id": "SM_Barrel:tri2362:poly2362",
+        "material": "Wood",
+        "world_area_m2": 2.0484317383342927e-05,
+        "uv1_area": 2.3124554049402946e-07,
+        "density_px_per_m": 108.79924751688327,
+        "world_centroid_m": [
+          0.06133165955543518,
+          -0.04528229683637619,
+          1.000178575515747
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 1508,
+      "area_m2": 2.207938935596059,
+      "arithmetic_mean_px_per_m": 127.99622488329129,
+      "area_weighted_mean_px_per_m": 128.36725714125234,
+      "minimum_px_per_m": 108.75654004063807,
+      "maximum_px_per_m": 134.60094886491206,
+      "p01_px_per_m": 112.79878167154865,
+      "p05_px_per_m": 118.42363544432723,
+      "median_px_per_m": 129.02535358055087,
+      "p95_px_per_m": 134.58640657716205,
+      "p99_px_per_m": 134.59163925507755,
+      "outside_15percent_target_triangle_count": 5,
+      "outside_15percent_target_area_m2": 0.00011642752985312149,
+      "outside_15percent_target_area_fraction": 5.273131787120305e-05,
+      "outlier_examples": [
+        {
+          "id": "SM_Barrel:tri2360:poly2360",
+          "material": "Wood",
+          "world_area_m2": 2.0484023353377333e-05,
+          "uv1_area": 2.3106071567191577e-07,
+          "density_px_per_m": 108.75654004063807,
+          "world_centroid_m": [
+            0.06471771001815796,
+            -0.04866833984851837,
+            0.9898215532302856
+          ]
+        },
+        {
+          "id": "SM_Barrel:tri2342:poly2342",
+          "material": "Wood",
+          "world_area_m2": 2.7487582003333042e-05,
+          "uv1_area": 3.100775887165952e-07,
+          "density_px_per_m": 108.75941845431777,
+          "world_centroid_m": [
+            0.1178918331861496,
+            -0.04536847025156021,
+            0.9886430501937866
+          ]
+        },
+        {
+          "id": "SM_Barrel:tri4824:poly4824",
+          "material": "Wood",
+          "world_area_m2": 2.0484028265202898e-05,
+          "uv1_area": 2.3108586288955735e-07,
+          "density_px_per_m": 108.76244503386789,
+          "world_centroid_m": [
+            0.1152823194861412,
+            -0.048668332397937775,
+            0.9898215532302856
+          ]
+        },
+        {
+          "id": "SM_Barrel:tri4842:poly4842",
+          "material": "Wood",
+          "world_area_m2": 2.7487578847865287e-05,
+          "uv1_area": 3.1009866852116375e-07,
+          "density_px_per_m": 108.76312149495394,
+          "world_centroid_m": [
+            0.062108203768730164,
+            -0.045368485152721405,
+            0.9886430501937866
+          ]
+        },
+        {
+          "id": "SM_Barrel:tri2362:poly2362",
+          "material": "Wood",
+          "world_area_m2": 2.0484317383342927e-05,
+          "uv1_area": 2.3124554049402946e-07,
+          "density_px_per_m": 108.79924751688327,
+          "world_centroid_m": [
+            0.06133165955543518,
+            -0.04528229683637619,
+            1.000178575515747
+          ]
+        }
+      ]
+    },
+    "WoodLight": {
+      "valid_triangle_count": 1088,
+      "area_m2": 4.7657917520010775,
+      "arithmetic_mean_px_per_m": 126.57454177475726,
+      "area_weighted_mean_px_per_m": 127.55642191837114,
+      "minimum_px_per_m": 110.0403455665165,
+      "maximum_px_per_m": 134.59014057909295,
+      "p01_px_per_m": 110.1799852416879,
+      "p05_px_per_m": 115.20590688819492,
+      "median_px_per_m": 128.82868966575276,
+      "p95_px_per_m": 134.58850703895368,
+      "p99_px_per_m": 134.58894052023135,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "Iron": {
+      "valid_triangle_count": 2304,
+      "area_m2": 1.2928739390973636,
+      "arithmetic_mean_px_per_m": 127.68055934305464,
+      "area_weighted_mean_px_per_m": 128.0283949525514,
+      "minimum_px_per_m": 110.1737020090762,
+      "maximum_px_per_m": 134.59096571440247,
+      "p01_px_per_m": 110.17856841850517,
+      "p05_px_per_m": 115.2045801494475,
+      "median_px_per_m": 129.3643693551121,
+      "p95_px_per_m": 134.58873976787532,
+      "p99_px_per_m": 134.58917405894587,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    }
+  },
+  "elapsed_seconds": 0.2454009999637492,
+  "strict_uv_integrity_passed": true
+}

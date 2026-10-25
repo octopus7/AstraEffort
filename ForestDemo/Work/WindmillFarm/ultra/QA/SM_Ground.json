@@ -1,0 +1,166 @@
+{
+  "mesh": "SM_Ground",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_Ground.fbx",
+  "source_before": {
+    "sha256": "d968608fee2f6541b2b98132a9d1f08684525d0aea514854921a2fe8e3a6ad6e",
+    "bytes": 689756,
+    "mtime_ns": 1792675274764337300
+  },
+  "source_after": {
+    "sha256": "d968608fee2f6541b2b98132a9d1f08684525d0aea514854921a2fe8e3a6ad6e",
+    "bytes": 689756,
+    "mtime_ns": 1792675274764337300
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_Ground",
+      "vertices": 10201,
+      "polygons": 20000,
+      "triangles": 20000,
+      "uv_layer_names": [
+        "UVMap",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -50.000003814697266,
+        -50.000003814697266,
+        -0.09999417513608932
+      ],
+      "local_bbox_max_m": [
+        50.000003814697266,
+        50.000003814697266,
+        0.9211533665657043
+      ],
+      "materials": [
+        "Ground"
+      ]
+    }
+  ],
+  "triangle_count": 20000,
+  "world_bounds_min_m": [
+    -50.00000762939453,
+    -50.00000762939453,
+    -0.09999417513608932
+  ],
+  "world_bounds_max_m": [
+    50.00000762939453,
+    50.00000762939453,
+    0.9211533665657043
+  ],
+  "world_dimensions_m": [
+    100.00001525878906,
+    100.00001525878906,
+    1.0211475417017937
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        12.5039644241333,
+        12.5039644241333
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 10000,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 20000,
+    "area_m2": 10006.344079469587,
+    "arithmetic_mean_px_per_m": 128.00002445614672,
+    "area_weighted_mean_px_per_m": 127.99999188716087,
+    "minimum_px_per_m": 127.67994627418092,
+    "maximum_px_per_m": 128.04113767455416,
+    "p01_px_per_m": 127.85596706325376,
+    "p05_px_per_m": 127.90961256769985,
+    "median_px_per_m": 128.01794189274815,
+    "p95_px_per_m": 128.0399792690702,
+    "p99_px_per_m": 128.04056495475632,
+    "outside_15percent_target_triangle_count": 0,
+    "outside_15percent_target_area_m2": 0,
+    "outside_15percent_target_area_fraction": 0.0,
+    "outlier_examples": []
+  },
+  "uv1_density_by_material": {
+    "Ground": {
+      "valid_triangle_count": 20000,
+      "area_m2": 10006.344079469587,
+      "arithmetic_mean_px_per_m": 128.00002445614672,
+      "area_weighted_mean_px_per_m": 127.99999188716087,
+      "minimum_px_per_m": 127.67994627418092,
+      "maximum_px_per_m": 128.04113767455416,
+      "p01_px_per_m": 127.85596706325376,
+      "p05_px_per_m": 127.90961256769985,
+      "median_px_per_m": 128.01794189274815,
+      "p95_px_per_m": 128.0399792690702,
+      "p99_px_per_m": 128.04056495475632,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    }
+  },
+  "elapsed_seconds": 0.6768401000299491,
+  "strict_uv_integrity_passed": true
+}

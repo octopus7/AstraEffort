@@ -1,0 +1,203 @@
+{
+  "utc": "2026-10-22T13:37:56.393460+00:00",
+  "checks": {
+    "saved_map_reload": true,
+    "non_world_partition": true,
+    "no_external_packages": true,
+    "owned_dependencies": true,
+    "footprint_100m": true,
+    "materials_and_uvs": true,
+    "dynamic_lighting": true,
+    "player_start": true,
+    "upright_placement": true,
+    "pipeline_completed": false
+  },
+  "all_passed": false,
+  "detail": {
+    "invalid_files": [],
+    "game_packages": [
+      "/Game/Maps/WindmillFarm_ultra",
+      "/Game/WindmillFarm/ultra/Materials/M_Canvas",
+      "/Game/WindmillFarm/ultra/Materials/M_Glass",
+      "/Game/WindmillFarm/ultra/Materials/M_Ground",
+      "/Game/WindmillFarm/ultra/Materials/M_Hay",
+      "/Game/WindmillFarm/ultra/Materials/M_Iron",
+      "/Game/WindmillFarm/ultra/Materials/M_Leaf",
+      "/Game/WindmillFarm/ultra/Materials/M_Plaster",
+      "/Game/WindmillFarm/ultra/Materials/M_Roof",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_Canvas",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_Iron",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_Wood",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_WoodLight",
+      "/Game/WindmillFarm/ultra/Materials/M_Sky",
+      "/Game/WindmillFarm/ultra/Materials/M_Soil",
+      "/Game/WindmillFarm/ultra/Materials/M_Stone",
+      "/Game/WindmillFarm/ultra/Materials/M_Wood",
+      "/Game/WindmillFarm/ultra/Materials/M_WoodLight",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Barn",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Barrel",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Cart",
+      "/Game/WindmillFarm/ultra/Meshes/SM_CropClump",
+      "/Game/WindmillFarm/ultra/Meshes/SM_EarthEdge",
+      "/Game/WindmillFarm/ultra/Meshes/SM_FenceSegment",
+      "/Game/WindmillFarm/ultra/Meshes/SM_FieldRock",
+      "/Game/WindmillFarm/ultra/Meshes/SM_GrassTuft",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Ground",
+      "/Game/WindmillFarm/ultra/Meshes/SM_HayBale",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MillRotor",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MillSteps",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MillTower",
+      "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree1",
+      "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree2",
+      "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree3",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Shed",
+      "/Game/WindmillFarm/ultra/Meshes/SM_ToolCluster",
+      "/Game/WindmillFarm/ultra/Meshes/SM_WheatPatch",
+      "/Game/WindmillFarm/ultra/Textures/T_Canvas_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Canvas_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Canvas_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Glass_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Glass_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Glass_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Ground_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Ground_Detail",
+      "/Game/WindmillFarm/ultra/Textures/T_Hay_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Hay_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Hay_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Iron_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Iron_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Iron_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Leaf_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Leaf_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Leaf_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Plaster_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Plaster_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Plaster_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Roof_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Roof_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Roof_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Soil_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Soil_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Soil_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Stone_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Stone_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Stone_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_WoodLight_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_WoodLight_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_WoodLight_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Wood_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Wood_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Wood_Roughness"
+    ],
+    "bad_dependencies": [],
+    "ground_extent_cm": [
+      10000.001953125,
+      10000.001953125,
+      102.11475086212158
+    ],
+    "mesh_checks": [
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Barn.SM_Barn",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Barrel.SM_Barrel",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Cart.SM_Cart",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_CropClump.SM_CropClump",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_EarthEdge.SM_EarthEdge",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_FenceSegment.SM_FenceSegment",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_FieldRock.SM_FieldRock",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Gate.SM_Gate",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_GrassTuft.SM_GrassTuft",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Ground.SM_Ground",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_HayBale.SM_HayBale",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MillRotor.SM_MillRotor",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MillSteps.SM_MillSteps",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MillTower.SM_MillTower",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree1.SM_OrchardTree1",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree2.SM_OrchardTree2",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree3.SM_OrchardTree3",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Shed.SM_Shed",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_ToolCluster.SM_ToolCluster",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_WheatPatch.SM_WheatPatch",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      }
+    ],
+    "editor_actor_count": 1224,
+    "trace_api": "<method 'to_tuple' of 'StructBase' objects>"
+  }
+}

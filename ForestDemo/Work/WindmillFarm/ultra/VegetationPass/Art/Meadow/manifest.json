@@ -1,0 +1,245 @@
+{
+  "started_at_utc": "2026-10-22T14:02:40.019181+00:00",
+  "finished_at_utc": "2026-10-22T14:02:40.639209+00:00",
+  "elapsed_seconds": 0.620028,
+  "units": "meters",
+  "fbx_axes": {
+    "forward": "-Y",
+    "up": "Z"
+  },
+  "original_authoring": true,
+  "external_references": [],
+  "image_generation_used": false,
+  "all_readback_checks_passed": true,
+  "wind_integration": "Material vertex animation; world-height Col.R squared for rooted bend, Col.G for fine leaf/seed modulation. Bound by max localheight; base z0 black R exactly. No wind is baked into mesh.",
+  "root_placement_note": "Origin z0 at ground. Leaf diamond cross sections extend4mm belowground deliberately to hide root gaps; all z<=0 vertices have Col.R=0.",
+  "uv0_overlap_check": "Constructive guarantee: every triangle confined to separate grid cell with 10 percent cell padding, shape preserving; no charts share a cell. FBX readback checks UV range and nonzero triangles.",
+  "uv_density_note": "UV1 density exact128px/m for unscaled instance; instance scaling changes density inversely. UV1 intentionally overlaps for repeatable non-directional texture; UV0 unique.",
+  "assets": [
+    {
+      "name": "SM_MeadowTall",
+      "kind": "tall",
+      "blade_count": 22,
+      "stalk_count": 7,
+      "uv0_chart_method": "one shape-preserving triangle per non-overlapping square cell",
+      "uv0_chart_count": 1396,
+      "uv0_grid": 38,
+      "uv0_cell_padding_uv": 0.002631578947368421,
+      "uv0_cell_padding_px_at1024": 2.694736842105263,
+      "uv1_method": "each triangle projected isometrically at 0.125UV/metre; intentional tiled chart overlap",
+      "vertex_color": "Col linear FLOAT_COLOR; R=height/globalmaxheight; G=.6 leaf,1 seed,0 stem; B0 A1",
+      "file": "SM_MeadowTall.fbx",
+      "sha256": "cee62c23d9758b1c486298085e6c5cca4e09675139697746a5280b9869ace5a2",
+      "fbx_readback": {
+        "vertices": 784,
+        "triangles": 1396,
+        "bounds_m": [
+          [
+            -0.7021132111549377,
+            0.5268821716308594
+          ],
+          [
+            -0.6650262475013733,
+            0.6775912642478943
+          ],
+          [
+            -0.004000000189989805,
+            1.309078335762024
+          ]
+        ],
+        "materials": [
+          "MeadowLeaf",
+          "MeadowStem",
+          "MeadowSeed"
+        ],
+        "uv_layers": [
+          "UV0_Unique",
+          "UV1_Density128"
+        ],
+        "uv0_outside01_loops": 0,
+        "uv0_collapsed_triangles": 0,
+        "uv0_cell_duplicates": 0,
+        "uv0_padding_cell_violations": 0,
+        "uv1_collapsed_triangles": 0,
+        "uv1_density_area_weighted_px_m": 128.00000058067596,
+        "uv1_density_min_max_px_m": [
+          127.9998743940026,
+          128.00010204704566
+        ],
+        "color_name": "Col",
+        "color_domain": "CORNER",
+        "color_anchor_max_error": 2.9709178450687546e-08,
+        "color_R_range": [
+          0.0,
+          1.0
+        ],
+        "color_G_values": [
+          0.0,
+          0.6,
+          1.0
+        ],
+        "unscaled_transform": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "surface_area_m2": 1.8644015330981782
+    },
+    {
+      "name": "SM_MeadowPlume",
+      "kind": "plume",
+      "blade_count": 20,
+      "stalk_count": 8,
+      "uv0_chart_method": "one shape-preserving triangle per non-overlapping square cell",
+      "uv0_chart_count": 1400,
+      "uv0_grid": 38,
+      "uv0_cell_padding_uv": 0.002631578947368421,
+      "uv0_cell_padding_px_at1024": 2.694736842105263,
+      "uv1_method": "each triangle projected isometrically at 0.125UV/metre; intentional tiled chart overlap",
+      "vertex_color": "Col linear FLOAT_COLOR; R=height/globalmaxheight; G=.6 leaf,1 seed,0 stem; B0 A1",
+      "file": "SM_MeadowPlume.fbx",
+      "sha256": "2223522f53d557aca0a0033725ca4ccf9d8484bffa2e04396fe3d9a5556e0edc",
+      "fbx_readback": {
+        "vertices": 788,
+        "triangles": 1400,
+        "bounds_m": [
+          [
+            -0.5331926941871643,
+            0.6539956331253052
+          ],
+          [
+            -0.5374475717544556,
+            0.650343120098114
+          ],
+          [
+            -0.004000000189989805,
+            0.8883591890335083
+          ]
+        ],
+        "materials": [
+          "MeadowLeaf",
+          "MeadowStem",
+          "MeadowSeed"
+        ],
+        "uv_layers": [
+          "UV0_Unique",
+          "UV1_Density128"
+        ],
+        "uv0_outside01_loops": 0,
+        "uv0_collapsed_triangles": 0,
+        "uv0_cell_duplicates": 0,
+        "uv0_padding_cell_violations": 0,
+        "uv1_collapsed_triangles": 0,
+        "uv1_density_area_weighted_px_m": 128.0000010534879,
+        "uv1_density_min_max_px_m": [
+          127.99988121452257,
+          128.0001387408351
+        ],
+        "color_name": "Col",
+        "color_domain": "CORNER",
+        "color_anchor_max_error": 2.9782082466844884e-08,
+        "color_R_range": [
+          0.0,
+          1.0
+        ],
+        "color_G_values": [
+          0.0,
+          0.6,
+          1.0
+        ],
+        "unscaled_transform": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "surface_area_m2": 1.4421908454361065
+    },
+    {
+      "name": "SM_MeadowReed",
+      "kind": "reed",
+      "blade_count": 26,
+      "stalk_count": 9,
+      "uv0_chart_method": "one shape-preserving triangle per non-overlapping square cell",
+      "uv0_chart_count": 2284,
+      "uv0_grid": 48,
+      "uv0_cell_padding_uv": 0.0020833333333333333,
+      "uv0_cell_padding_px_at1024": 2.1333333333333333,
+      "uv1_method": "each triangle projected isometrically at 0.125UV/metre; intentional tiled chart overlap",
+      "vertex_color": "Col linear FLOAT_COLOR; R=height/globalmaxheight; G=.6 leaf,1 seed,0 stem; B0 A1",
+      "file": "SM_MeadowReed.fbx",
+      "sha256": "ae028a29e3a7112df2f9d76b0de4a25ca3da74c94707ca4d0454a8bca27621ba",
+      "fbx_readback": {
+        "vertices": 1356,
+        "triangles": 2284,
+        "bounds_m": [
+          [
+            -0.6582812070846558,
+            0.6366878747940063
+          ],
+          [
+            -0.4817982614040375,
+            0.5985573530197144
+          ],
+          [
+            -0.004000000189989805,
+            1.710801124572754
+          ]
+        ],
+        "materials": [
+          "MeadowLeaf",
+          "MeadowStem",
+          "MeadowSeed"
+        ],
+        "uv_layers": [
+          "UV0_Unique",
+          "UV1_Density128"
+        ],
+        "uv0_outside01_loops": 0,
+        "uv0_collapsed_triangles": 0,
+        "uv0_cell_duplicates": 0,
+        "uv0_padding_cell_violations": 0,
+        "uv1_collapsed_triangles": 0,
+        "uv1_density_area_weighted_px_m": 128.00000057027154,
+        "uv1_density_min_max_px_m": [
+          127.99978396476516,
+          128.00017496391678
+        ],
+        "color_name": "Col",
+        "color_domain": "CORNER",
+        "color_anchor_max_error": 2.9799514744688338e-08,
+        "color_R_range": [
+          0.0,
+          1.0
+        ],
+        "color_G_values": [
+          0.0,
+          0.6,
+          1.0
+        ],
+        "unscaled_transform": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "surface_area_m2": 2.583537027589132
+    }
+  ]
+}

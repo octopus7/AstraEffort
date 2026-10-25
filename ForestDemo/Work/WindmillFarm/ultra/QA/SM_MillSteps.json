@@ -1,0 +1,166 @@
+{
+  "mesh": "SM_MillSteps",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_MillSteps.fbx",
+  "source_before": {
+    "sha256": "8d6101a6c4267dd14dd841bd09f6d82c91918c99414042412c4874de7588966a",
+    "bytes": 72860,
+    "mtime_ns": 1792675275693223600
+  },
+  "source_after": {
+    "sha256": "8d6101a6c4267dd14dd841bd09f6d82c91918c99414042412c4874de7588966a",
+    "bytes": 72860,
+    "mtime_ns": 1792675275693223600
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_MillSteps",
+      "vertices": 672,
+      "polygons": 1296,
+      "triangles": 1296,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -1.1099997758865356,
+        -4.389999866485596,
+        0.0
+      ],
+      "local_bbox_max_m": [
+        1.1100002527236938,
+        -3.190000057220459,
+        0.25999999046325684
+      ],
+      "materials": [
+        "Stone"
+      ]
+    }
+  ],
+  "triangle_count": 1296,
+  "world_bounds_min_m": [
+    -1.1099995374679565,
+    -4.389999866485596,
+    0.0
+  ],
+  "world_bounds_max_m": [
+    1.1100006103515625,
+    -3.190000057220459,
+    0.25999999046325684
+  ],
+  "world_dimensions_m": [
+    2.220000147819519,
+    1.1999998092651367,
+    0.25999999046325684
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0011393979657441378,
+        0.0011392240412533283
+      ],
+      "max": [
+        0.9965355396270752,
+        0.9988605380058289
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0004543247341644019,
+        0.0004542553797364235
+      ],
+      "max": [
+        0.39735960960388184,
+        0.39828670024871826
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 1173,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 1296,
+    "area_m2": 8.899074865169052,
+    "arithmetic_mean_px_per_m": 123.79325440133536,
+    "area_weighted_mean_px_per_m": 127.96447568826073,
+    "minimum_px_per_m": 113.18869022376556,
+    "maximum_px_per_m": 130.23246031557866,
+    "p01_px_per_m": 113.19048075303763,
+    "p05_px_per_m": 114.8949760977842,
+    "median_px_per_m": 125.17709308482705,
+    "p95_px_per_m": 130.23224288894772,
+    "p99_px_per_m": 130.23230535449335,
+    "outside_15percent_target_triangle_count": 0,
+    "outside_15percent_target_area_m2": 0,
+    "outside_15percent_target_area_fraction": 0.0,
+    "outlier_examples": []
+  },
+  "uv1_density_by_material": {
+    "Stone": {
+      "valid_triangle_count": 1296,
+      "area_m2": 8.899074865169052,
+      "arithmetic_mean_px_per_m": 123.79325440133536,
+      "area_weighted_mean_px_per_m": 127.96447568826073,
+      "minimum_px_per_m": 113.18869022376556,
+      "maximum_px_per_m": 130.23246031557866,
+      "p01_px_per_m": 113.19048075303763,
+      "p05_px_per_m": 114.8949760977842,
+      "median_px_per_m": 125.17709308482705,
+      "p95_px_per_m": 130.23224288894772,
+      "p99_px_per_m": 130.23230535449335,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    }
+  },
+  "elapsed_seconds": 0.13857479998841882,
+  "strict_uv_integrity_passed": true
+}

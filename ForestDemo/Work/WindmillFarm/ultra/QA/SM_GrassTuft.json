@@ -1,0 +1,240 @@
+{
+  "mesh": "SM_GrassTuft",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_GrassTuft.fbx",
+  "source_before": {
+    "sha256": "c58584d4bba1329b0b18a212f900c984b129e5260b8025d2bba4fb1127061807",
+    "bytes": 21420,
+    "mtime_ns": 1792675274343624700
+  },
+  "source_after": {
+    "sha256": "c58584d4bba1329b0b18a212f900c984b129e5260b8025d2bba4fb1127061807",
+    "bytes": 21420,
+    "mtime_ns": 1792675274343624700
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_GrassTuft",
+      "vertices": 115,
+      "polygons": 69,
+      "triangles": 69,
+      "uv_layer_names": [
+        "UVMap",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -0.5723612904548645,
+        -0.6679607629776001,
+        0.0
+      ],
+      "local_bbox_max_m": [
+        0.5988349914550781,
+        0.6220644116401672,
+        0.46881750226020813
+      ],
+      "materials": [
+        "Leaf"
+      ]
+    }
+  ],
+  "triangle_count": 69,
+  "world_bounds_min_m": [
+    -0.5723612904548645,
+    -0.6679607629776001,
+    0.0
+  ],
+  "world_bounds_max_m": [
+    0.5988349914550781,
+    0.6220644116401672,
+    0.46881750226020813
+  ],
+  "world_dimensions_m": [
+    1.1711962819099426,
+    1.2900251746177673,
+    0.46881750226020813
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.003224362386390567,
+        0.003224333981052041
+      ],
+      "max": [
+        0.9776796698570251,
+        0.9967756867408752
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0004051164141856134,
+        0.0004051128344144672
+      ],
+      "max": [
+        0.12283795326948166,
+        0.12523722648620605
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 48,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 69,
+    "area_m2": 0.3889377252384475,
+    "arithmetic_mean_px_per_m": 127.1848952269605,
+    "area_weighted_mean_px_per_m": 127.81182845735519,
+    "minimum_px_per_m": 105.38313947829874,
+    "maximum_px_per_m": 133.42610973188306,
+    "p01_px_per_m": 105.38315795961627,
+    "p05_px_per_m": 111.30498862639368,
+    "median_px_per_m": 130.77928021419245,
+    "p95_px_per_m": 133.35791031885495,
+    "p99_px_per_m": 133.39755925971556,
+    "outside_15percent_target_triangle_count": 3,
+    "outside_15percent_target_area_m2": 0.010508315499682338,
+    "outside_15percent_target_area_fraction": 0.027017989816338763,
+    "outlier_examples": [
+      {
+        "id": "SM_GrassTuft:tri36:poly36",
+        "material": "Leaf",
+        "world_area_m2": 0.005065290599993329,
+        "uv1_area": 5.364715777986251e-05,
+        "density_px_per_m": 105.38313947829874,
+        "world_centroid_m": [
+          -0.13462775945663452,
+          -0.5061782598495483,
+          0.06024762615561485
+        ]
+      },
+      {
+        "id": "SM_GrassTuft:tri64:poly64",
+        "material": "Leaf",
+        "world_area_m2": 0.002785909665540912,
+        "uv1_area": 2.9505950256372704e-05,
+        "density_px_per_m": 105.38316665670686,
+        "world_centroid_m": [
+          -0.128044992685318,
+          -0.5341978073120117,
+          0.1204952523112297
+        ]
+      },
+      {
+        "id": "SM_GrassTuft:tri37:poly37",
+        "material": "Leaf",
+        "world_area_m2": 0.0026571152341480974,
+        "uv1_area": 2.9401825161937123e-05,
+        "density_px_per_m": 107.71641908190655,
+        "world_centroid_m": [
+          -0.15221144258975983,
+          -0.5938341021537781,
+          0.23003637790679932
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Leaf": {
+      "valid_triangle_count": 69,
+      "area_m2": 0.3889377252384475,
+      "arithmetic_mean_px_per_m": 127.1848952269605,
+      "area_weighted_mean_px_per_m": 127.81182845735519,
+      "minimum_px_per_m": 105.38313947829874,
+      "maximum_px_per_m": 133.42610973188306,
+      "p01_px_per_m": 105.38315795961627,
+      "p05_px_per_m": 111.30498862639368,
+      "median_px_per_m": 130.77928021419245,
+      "p95_px_per_m": 133.35791031885495,
+      "p99_px_per_m": 133.39755925971556,
+      "outside_15percent_target_triangle_count": 3,
+      "outside_15percent_target_area_m2": 0.010508315499682338,
+      "outside_15percent_target_area_fraction": 0.027017989816338763,
+      "outlier_examples": [
+        {
+          "id": "SM_GrassTuft:tri36:poly36",
+          "material": "Leaf",
+          "world_area_m2": 0.005065290599993329,
+          "uv1_area": 5.364715777986251e-05,
+          "density_px_per_m": 105.38313947829874,
+          "world_centroid_m": [
+            -0.13462775945663452,
+            -0.5061782598495483,
+            0.06024762615561485
+          ]
+        },
+        {
+          "id": "SM_GrassTuft:tri64:poly64",
+          "material": "Leaf",
+          "world_area_m2": 0.002785909665540912,
+          "uv1_area": 2.9505950256372704e-05,
+          "density_px_per_m": 105.38316665670686,
+          "world_centroid_m": [
+            -0.128044992685318,
+            -0.5341978073120117,
+            0.1204952523112297
+          ]
+        },
+        {
+          "id": "SM_GrassTuft:tri37:poly37",
+          "material": "Leaf",
+          "world_area_m2": 0.0026571152341480974,
+          "uv1_area": 2.9401825161937123e-05,
+          "density_px_per_m": 107.71641908190655,
+          "world_centroid_m": [
+            -0.15221144258975983,
+            -0.5938341021537781,
+            0.23003637790679932
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.05510529997991398,
+  "strict_uv_integrity_passed": true
+}

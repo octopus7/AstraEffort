@@ -1,0 +1,428 @@
+{
+  "utc": "2026-10-22T14:17:31.368406+00:00",
+  "checks": {
+    "saved_map_reload": true,
+    "non_world_partition": true,
+    "no_external_packages": true,
+    "owned_dependencies": true,
+    "footprint_100m": true,
+    "materials_and_uvs": true,
+    "dynamic_lighting": true,
+    "player_start": true,
+    "upright_placement": true,
+    "prop_contact_and_clearance": true,
+    "corn_separate_field": true,
+    "meadow_population": true,
+    "saved_foliage_counts": true,
+    "wind_materials": true,
+    "vegetation_vertex_colors": true,
+    "paths_clear": true,
+    "wind_bounds_cover_motion": true,
+    "pie_possession": true,
+    "ground_collision": true,
+    "building_collision": true,
+    "pawn_sweep_blocks": true,
+    "pawn_can_move": true,
+    "pie_ended": true
+  },
+  "all_passed": true,
+  "detail": {
+    "invalid_files": [],
+    "game_packages": [
+      "/Game/Maps/WindmillFarm_ultra",
+      "/Game/WindmillFarm/ultra/Foliage/FT_CornA",
+      "/Game/WindmillFarm/ultra/Foliage/FT_CornB",
+      "/Game/WindmillFarm/ultra/Foliage/FT_CornC",
+      "/Game/WindmillFarm/ultra/Foliage/FT_MeadowPlume",
+      "/Game/WindmillFarm/ultra/Foliage/FT_MeadowReed",
+      "/Game/WindmillFarm/ultra/Foliage/FT_MeadowTall",
+      "/Game/WindmillFarm/ultra/Materials/M_Canvas",
+      "/Game/WindmillFarm/ultra/Materials/M_Glass",
+      "/Game/WindmillFarm/ultra/Materials/M_Ground",
+      "/Game/WindmillFarm/ultra/Materials/M_Hay",
+      "/Game/WindmillFarm/ultra/Materials/M_Iron",
+      "/Game/WindmillFarm/ultra/Materials/M_Leaf",
+      "/Game/WindmillFarm/ultra/Materials/M_Plaster",
+      "/Game/WindmillFarm/ultra/Materials/M_Roof",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_Canvas",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_Iron",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_Wood",
+      "/Game/WindmillFarm/ultra/Materials/M_Rotor_WoodLight",
+      "/Game/WindmillFarm/ultra/Materials/M_Sky",
+      "/Game/WindmillFarm/ultra/Materials/M_Soil",
+      "/Game/WindmillFarm/ultra/Materials/M_Stone",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_CornKernel",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_CornLeaf",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_CornStalk",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_CornTassel",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_MeadowLeaf",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_MeadowSeed",
+      "/Game/WindmillFarm/ultra/Materials/M_Wind_MeadowStem",
+      "/Game/WindmillFarm/ultra/Materials/M_Wood",
+      "/Game/WindmillFarm/ultra/Materials/M_WoodLight",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Barn",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Barrel",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Cart",
+      "/Game/WindmillFarm/ultra/Meshes/SM_CornA",
+      "/Game/WindmillFarm/ultra/Meshes/SM_CornB",
+      "/Game/WindmillFarm/ultra/Meshes/SM_CornC",
+      "/Game/WindmillFarm/ultra/Meshes/SM_CropClump",
+      "/Game/WindmillFarm/ultra/Meshes/SM_EarthEdge",
+      "/Game/WindmillFarm/ultra/Meshes/SM_FenceSegment",
+      "/Game/WindmillFarm/ultra/Meshes/SM_FieldRock",
+      "/Game/WindmillFarm/ultra/Meshes/SM_GrassTuft",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Ground",
+      "/Game/WindmillFarm/ultra/Meshes/SM_HayBale",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MeadowPlume",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MeadowReed",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MeadowTall",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MillRotor",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MillSteps",
+      "/Game/WindmillFarm/ultra/Meshes/SM_MillTower",
+      "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree1",
+      "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree2",
+      "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree3",
+      "/Game/WindmillFarm/ultra/Meshes/SM_Shed",
+      "/Game/WindmillFarm/ultra/Meshes/SM_ToolCluster",
+      "/Game/WindmillFarm/ultra/Meshes/SM_WheatPatch",
+      "/Game/WindmillFarm/ultra/Textures/T_Canvas_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Canvas_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Canvas_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_CornKernel_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_CornLeaf_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_CornStalk_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_CornTassel_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Glass_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Glass_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Glass_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Ground_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Ground_Detail",
+      "/Game/WindmillFarm/ultra/Textures/T_Hay_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Hay_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Hay_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Iron_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Iron_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Iron_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Leaf_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Leaf_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Leaf_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_MeadowLeaf_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_MeadowSeed_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_MeadowStem_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Plaster_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Plaster_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Plaster_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Roof_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Roof_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Roof_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Soil_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Soil_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Soil_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Stone_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Stone_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Stone_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_WoodLight_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_WoodLight_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_WoodLight_Roughness",
+      "/Game/WindmillFarm/ultra/Textures/T_Wood_BaseColor",
+      "/Game/WindmillFarm/ultra/Textures/T_Wood_Normal",
+      "/Game/WindmillFarm/ultra/Textures/T_Wood_Roughness"
+    ],
+    "bad_dependencies": [],
+    "ground_extent_cm": [
+      10000.001953125,
+      10000.001953125,
+      102.11475086212158
+    ],
+    "mesh_checks": [
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Barn.SM_Barn",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Barrel.SM_Barrel",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Cart.SM_Cart",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_CornA.SM_CornA",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_CornB.SM_CornB",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_CornC.SM_CornC",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_CropClump.SM_CropClump",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_EarthEdge.SM_EarthEdge",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_FenceSegment.SM_FenceSegment",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_FieldRock.SM_FieldRock",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Gate.SM_Gate",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_GrassTuft.SM_GrassTuft",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Ground.SM_Ground",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_HayBale.SM_HayBale",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MeadowPlume.SM_MeadowPlume",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MeadowReed.SM_MeadowReed",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MeadowTall.SM_MeadowTall",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MillRotor.SM_MillRotor",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MillSteps.SM_MillSteps",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_MillTower.SM_MillTower",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree1.SM_OrchardTree1",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree2.SM_OrchardTree2",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_OrchardTree3.SM_OrchardTree3",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_Shed.SM_Shed",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_ToolCluster.SM_ToolCluster",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      },
+      {
+        "path": "/Game/WindmillFarm/ultra/Meshes/SM_WheatPatch.SM_WheatPatch",
+        "uv_channels": 2,
+        "all_materials_owned": true
+      }
+    ],
+    "prop_contact": {
+      "top_to_support_gaps_cm": [
+        0.48540178624783437,
+        0.0
+      ],
+      "rear_barn_clearance_cm": 162.34987258911133,
+      "barrel_wall_clearance_cm": 31.002952575683594,
+      "overlaps_both_supports_xy": true
+    },
+    "uv_precision_note": "UE verifies two channels and owned materials. Independent QA/final_mesh_qa.json finds microscopic tower degeneracies/UV0 overlaps and instance-scale density variation; disclosed accepted limitations, not a strict zero-defect UV certification.",
+    "editor_actor_count": 1223,
+    "trace_api": "<method 'to_tuple' of 'StructBase' objects>",
+    "vegetation": {
+      "saved_counts": {
+        "SM_CornA": 70,
+        "SM_CornB": 70,
+        "SM_CornC": 70,
+        "SM_MeadowPlume": 769,
+        "SM_MeadowReed": 97,
+        "SM_MeadowTall": 591
+      },
+      "expected_counts": {
+        "SM_CornA": 70,
+        "SM_CornB": 70,
+        "SM_CornC": 70,
+        "SM_MeadowPlume": 769,
+        "SM_MeadowReed": 97,
+        "SM_MeadowTall": 591
+      },
+      "wind_material_nodes": {
+        "M_Wind_CornLeaf": true,
+        "M_Wind_CornStalk": true,
+        "M_Wind_CornKernel": true,
+        "M_Wind_CornTassel": true,
+        "M_Wind_MeadowLeaf": true,
+        "M_Wind_MeadowStem": true,
+        "M_Wind_MeadowSeed": true
+      },
+      "imported_mesh_vertex_colors": {
+        "SM_CornA": true,
+        "SM_CornB": true,
+        "SM_CornC": true,
+        "SM_MeadowPlume": true,
+        "SM_MeadowReed": true,
+        "SM_MeadowTall": true
+      },
+      "corn_field": {
+        "center": [
+          31.0,
+          30.0
+        ],
+        "size": [
+          15.0,
+          12.0
+        ],
+        "kind": "corn",
+        "row_spacing": 0.85,
+        "plant_spacing": 0.7
+      },
+      "corn_rows": 14,
+      "corn_count": 210,
+      "meadow_count": 1457,
+      "wind_bounds": {
+        "SM_CornA": {
+          "min_world_padding_cm": 27.929101094038735,
+          "max_wind_x_cm": 17.06
+        },
+        "SM_CornB": {
+          "min_world_padding_cm": 27.953973127474132,
+          "max_wind_x_cm": 17.06
+        },
+        "SM_CornC": {
+          "min_world_padding_cm": 27.977497636596436,
+          "max_wind_x_cm": 17.06
+        },
+        "SM_MeadowPlume": {
+          "min_world_padding_cm": 23.4225679446144,
+          "max_wind_x_cm": 21.46
+        },
+        "SM_MeadowReed": {
+          "min_world_padding_cm": 31.437061729498193,
+          "max_wind_x_cm": 21.46
+        },
+        "SM_MeadowTall": {
+          "min_world_padding_cm": 31.21257844808313,
+          "max_wind_x_cm": 21.46
+        }
+      }
+    },
+    "pawn_class": "DefaultPawn",
+    "ground_traces": [
+      {
+        "blocking": true,
+        "initial_overlap": false,
+        "time": 0.5010882019996643,
+        "distance": 501.08819580078125,
+        "location": [
+          -400.0,
+          1500.0,
+          -1.0882019996643066
+        ],
+        "actor": "FarmGround",
+        "component": "StaticMeshComponent0"
+      },
+      {
+        "blocking": true,
+        "initial_overlap": false,
+        "time": 0.5,
+        "distance": 500.0,
+        "location": [
+          0.0,
+          500.0,
+          0.0
+        ],
+        "actor": "FarmGround",
+        "component": "StaticMeshComponent0"
+      },
+      {
+        "blocking": true,
+        "initial_overlap": false,
+        "time": 0.499660462141037,
+        "distance": 499.66046142578125,
+        "location": [
+          2500.0,
+          2100.0,
+          0.3395378589630127
+        ],
+        "actor": "FarmGround",
+        "component": "StaticMeshComponent0"
+      }
+    ],
+    "building_trace": {
+      "blocking": true,
+      "initial_overlap": false,
+      "time": 0.6751111745834351,
+      "distance": 607.6000366210938,
+      "location": [
+        -600.0,
+        -1007.6000571250916,
+        150.0
+      ],
+      "actor": "WindmillTower",
+      "component": "StaticMeshComponent0"
+    },
+    "pawn_ground_sweep": {
+      "blocking": true,
+      "initial_overlap": false,
+      "time": 0.4769727885723114,
+      "distance": 216.08775329589844,
+      "location": [
+        -400.0,
+        1500.0,
+        33.91224294900894
+      ],
+      "actor": "FarmGround",
+      "component": "StaticMeshComponent0"
+    },
+    "pawn_horizontal_movement_cm": 200.0
+  }
+}

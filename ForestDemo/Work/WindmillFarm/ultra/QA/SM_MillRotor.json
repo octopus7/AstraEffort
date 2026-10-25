@@ -1,0 +1,1303 @@
+{
+  "mesh": "SM_MillRotor",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_MillRotor.fbx",
+  "source_before": {
+    "sha256": "349cd6ead88fce1c9a5c6d3c33f5b53659acaf17068653b2b1fcfb02aab9603f",
+    "bytes": 1506508,
+    "mtime_ns": 1792675275623468400
+  },
+  "source_after": {
+    "sha256": "349cd6ead88fce1c9a5c6d3c33f5b53659acaf17068653b2b1fcfb02aab9603f",
+    "bytes": 1506508,
+    "mtime_ns": 1792675275623468400
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_MillRotor",
+      "vertices": 14824,
+      "polygons": 28612,
+      "triangles": 28612,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        -5.960464477539063e-08,
+        -7.450580596923828e-09,
+        -2.384185791015625e-07
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        -5.960464477539063e-08,
+        -7.450580596923828e-09,
+        -2.384185791015625e-07
+      ],
+      "local_bbox_min_m": [
+        -5.6773271560668945,
+        -0.42500001192092896,
+        -5.6773271560668945
+      ],
+      "local_bbox_max_m": [
+        5.6773271560668945,
+        0.20500005781650543,
+        5.6773271560668945
+      ],
+      "materials": [
+        "Wood",
+        "WoodLight",
+        "Canvas",
+        "Iron"
+      ]
+    }
+  ],
+  "triangle_count": 28612,
+  "world_bounds_min_m": [
+    -5.6773271560668945,
+    -0.42500004172325134,
+    -5.6773271560668945
+  ],
+  "world_bounds_max_m": [
+    5.6773271560668945,
+    0.20500008761882782,
+    5.6773271560668945
+  ],
+  "world_dimensions_m": [
+    11.354654312133789,
+    0.6300001293420792,
+    11.354654312133789
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.00254831206984818,
+        0.002548275515437126
+      ],
+      "max": [
+        0.9974517226219177,
+        0.992385745048523
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.004725910723209381,
+        0.0047258432023227215
+      ],
+      "max": [
+        1.8498001098632812,
+        1.8404051065444946
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 50120,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 28612,
+    "area_m2": 98.73913648120799,
+    "arithmetic_mean_px_per_m": 122.80410561567874,
+    "area_weighted_mean_px_per_m": 127.95631471354156,
+    "minimum_px_per_m": 103.024769355455,
+    "maximum_px_per_m": 129.91353652036267,
+    "p01_px_per_m": 106.32024562812789,
+    "p05_px_per_m": 110.86926960497016,
+    "median_px_per_m": 124.71088877793792,
+    "p95_px_per_m": 129.90022808496028,
+    "p99_px_per_m": 129.90325580843646,
+    "outside_15percent_target_triangle_count": 736,
+    "outside_15percent_target_area_m2": 0.11987700704201183,
+    "outside_15percent_target_area_fraction": 0.0012140779362074612,
+    "outlier_examples": [
+      {
+        "id": "SM_MillRotor:tri25967:poly25967",
+        "material": "Wood",
+        "world_area_m2": 0.0006591391062410768,
+        "uv1_area": 6.6720680536036525e-06,
+        "density_px_per_m": 103.024769355455,
+        "world_centroid_m": [
+          -3.8940367698669434,
+          -0.07077943533658981,
+          2.3589186668395996
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri18953:poly18953",
+        "material": "Wood",
+        "world_area_m2": 0.0006591207209332512,
+        "uv1_area": 6.671996992224649e-06,
+        "density_px_per_m": 103.02565757006158,
+        "world_centroid_m": [
+          2.416865825653076,
+          -0.07011912018060684,
+          -1.1098874807357788
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri18629:poly18629",
+        "material": "Wood",
+        "world_area_m2": 0.0006591196105757536,
+        "uv1_area": 6.672053245893039e-06,
+        "density_px_per_m": 103.02617866892415,
+        "world_centroid_m": [
+          2.331632375717163,
+          -0.07077834010124207,
+          -1.0836957693099976
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri11185:poly11185",
+        "material": "Wood",
+        "world_area_m2": 0.0006591125656911547,
+        "uv1_area": 6.672019168263432e-06,
+        "density_px_per_m": 103.02646615622321,
+        "world_centroid_m": [
+          -2.2396368980407715,
+          -0.006124611012637615,
+          1.8213717937469482
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19115:poly19115",
+        "material": "Wood",
+        "world_area_m2": 0.0006591134442845449,
+        "uv1_area": 6.672054702505648e-06,
+        "density_px_per_m": 103.02667184117462,
+        "world_centroid_m": [
+          2.9996814727783203,
+          -0.07011900842189789,
+          -2.0668234825134277
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19061:poly19061",
+        "material": "Wood",
+        "world_area_m2": 0.000659112527960124,
+        "uv1_area": 6.672066508173202e-06,
+        "density_px_per_m": 103.02683460578972,
+        "world_centroid_m": [
+          3.225264072418213,
+          -0.0701189637184143,
+          -1.3725522756576538
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri5401:poly5401",
+        "material": "Wood",
+        "world_area_m2": 0.0006591120536269821,
+        "uv1_area": 6.672079884140203e-06,
+        "density_px_per_m": 103.02697495026273,
+        "world_centroid_m": [
+          3.9420289993286133,
+          -0.006123529281467199,
+          -2.3745126724243164
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri4375:poly4375",
+        "material": "Wood",
+        "world_area_m2": 0.0006591067658673668,
+        "uv1_area": 6.672061183543576e-06,
+        "density_px_per_m": 103.02724383890806,
+        "world_centroid_m": [
+          1.5708646774291992,
+          -0.00546471681445837,
+          -0.8350050449371338
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19493:poly19493",
+        "material": "Wood",
+        "world_area_m2": 0.0006591053266838582,
+        "uv1_area": 6.6720680536036525e-06,
+        "density_px_per_m": 103.02740936332772,
+        "world_centroid_m": [
+          4.119618892669678,
+          -0.07077804207801819,
+          -1.6646475791931152
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19385:poly19385",
+        "material": "Wood",
+        "world_area_m2": 0.0006591001358947592,
+        "uv1_area": 6.672053245893039e-06,
+        "density_px_per_m": 103.02770073441435,
+        "world_centroid_m": [
+          3.311220645904541,
+          -0.07077818363904953,
+          -1.4019831418991089
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri10861:poly10861",
+        "material": "Wood",
+        "world_area_m2": 0.0006590943036198152,
+        "uv1_area": 6.672076864333576e-06,
+        "density_px_per_m": 103.02833893034443,
+        "world_centroid_m": [
+          -2.1536803245544434,
+          -0.0054653785191476345,
+          1.791940450668335
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri10753:poly10753",
+        "material": "Wood",
+        "world_area_m2": 0.0006590936136615097,
+        "uv1_area": 6.672076864333576e-06,
+        "density_px_per_m": 103.02839285685658,
+        "world_centroid_m": [
+          -1.3452825546264648,
+          -0.005465224385261536,
+          1.529275894165039
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri11239:poly11239",
+        "material": "Wood",
+        "world_area_m2": 0.0006590792860828436,
+        "uv1_area": 6.6720680536036525e-06,
+        "density_px_per_m": 103.02944467927323,
+        "world_centroid_m": [
+          -3.273256301879883,
+          -0.005465568508952856,
+          1.3881452083587646
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri5725:poly5725",
+        "material": "Wood",
+        "world_area_m2": 0.0006591335276398632,
+        "uv1_area": 6.673538344159624e-06,
+        "density_px_per_m": 103.0365562830623,
+        "world_centroid_m": [
+          4.027261734008789,
+          -0.005464281886816025,
+          -2.4007043838500977
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19439:poly19439",
+        "material": "Wood",
+        "world_area_m2": 0.0006591331018316476,
+        "uv1_area": 6.673538344159624e-06,
+        "density_px_per_m": 103.036589564508,
+        "world_centroid_m": [
+          3.0856380462646484,
+          -0.07077822089195251,
+          -2.09625506401062
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri26237:poly26237",
+        "material": "Wood",
+        "world_area_m2": 0.0006591199016405213,
+        "uv1_area": 6.67351471861366e-06,
+        "density_px_per_m": 103.03743892981507,
+        "world_centroid_m": [
+          -4.20521354675293,
+          -0.07077948749065399,
+          1.6924588680267334
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri4429:poly4429",
+        "material": "Wood",
+        "world_area_m2": 0.0006591201495844812,
+        "uv1_area": 6.673525151823512e-06,
+        "density_px_per_m": 103.03750009286348,
+        "world_centroid_m": [
+          1.3452824354171753,
+          -0.005464752670377493,
+          -1.5292762517929077
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19817:poly19817",
+        "material": "Wood",
+        "world_area_m2": 0.0006591186295787383,
+        "uv1_area": 6.67351471861366e-06,
+        "density_px_per_m": 103.03753835799017,
+        "world_centroid_m": [
+          4.20521354675293,
+          -0.070778027176857,
+          -1.6924593448638916
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri18683:poly18683",
+        "material": "Wood",
+        "world_area_m2": 0.000659119653696468,
+        "uv1_area": 6.673526563361065e-06,
+        "density_px_per_m": 103.03754974982701,
+        "world_centroid_m": [
+          2.1056878566741943,
+          -0.07011916488409042,
+          -1.7763476371765137
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri5671:poly5671",
+        "material": "Wood",
+        "world_area_m2": 0.0006591194327027768,
+        "uv1_area": 6.673526531386642e-06,
+        "density_px_per_m": 103.03756677652451,
+        "world_centroid_m": [
+          4.252843856811523,
+          -0.005464266054332256,
+          -1.7064330577850342
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri11995:poly11995",
+        "material": "Wood",
+        "world_area_m2": 0.0006591194327027768,
+        "uv1_area": 6.673526531386642e-06,
+        "density_px_per_m": 103.03756677652451,
+        "world_centroid_m": [
+          -4.252843856811523,
+          -0.005465741269290447,
+          1.706432580947876
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri24941:poly24941",
+        "material": "Wood",
+        "world_area_m2": 0.0006591189044736535,
+        "uv1_area": 6.67352798799925e-06,
+        "density_px_per_m": 103.03761930941685,
+        "world_centroid_m": [
+          -1.523234248161316,
+          -0.07077904045581818,
+          0.8210307955741882
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19547:poly19547",
+        "material": "Wood",
+        "world_area_m2": 0.0006591113475167864,
+        "uv1_area": 6.673473272655883e-06,
+        "density_px_per_m": 103.03778759108518,
+        "world_centroid_m": [
+          3.893674850463867,
+          -0.07011885195970535,
+          -2.357299327850342
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri25103:poly25103",
+        "material": "Wood",
+        "world_area_m2": 0.0006591128513688886,
+        "uv1_area": 6.673499910903047e-06,
+        "density_px_per_m": 103.037875689481,
+        "world_centroid_m": [
+          -2.1060500144958496,
+          -0.07077912986278534,
+          1.7779664993286133
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri4969:poly4969",
+        "material": "Wood",
+        "world_area_m2": 0.0006591129645619187,
+        "uv1_area": 6.673510263510707e-06,
+        "density_px_per_m": 103.03794676320149,
+        "world_centroid_m": [
+          3.0480356216430664,
+          -0.006123694591224194,
+          -2.0840368270874023
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri19007:poly19007",
+        "material": "Wood",
+        "world_area_m2": 0.0006591129861224937,
+        "uv1_area": 6.673517638944304e-06,
+        "density_px_per_m": 103.03800201568808,
+        "world_centroid_m": [
+          2.1912829875946045,
+          -0.07011914253234863,
+          -1.8041589260101318
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri26291:poly26291",
+        "material": "Wood",
+        "world_area_m2": 0.000659110916304081,
+        "uv1_area": 6.673499910903047e-06,
+        "density_px_per_m": 103.03802694233984,
+        "world_centroid_m": [
+          -3.979631185531616,
+          -0.0707794576883316,
+          2.386730194091797
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri4915:poly4915",
+        "material": "Wood",
+        "world_area_m2": 0.0006591119350436433,
+        "uv1_area": 6.673542799262577e-06,
+        "density_px_per_m": 103.0382784079986,
+        "world_centroid_m": [
+          3.273618221282959,
+          -0.006123646162450314,
+          -1.389765739440918
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri5239:poly5239",
+        "material": "Wood",
+        "world_area_m2": 0.0006591073641786872,
+        "uv1_area": 6.673499910903047e-06,
+        "density_px_per_m": 103.03830459323466,
+        "world_centroid_m": [
+          3.358851194381714,
+          -0.005464424844831228,
+          -1.415956974029541
+        ]
+      },
+      {
+        "id": "SM_MillRotor:tri11617:poly11617",
+        "material": "Wood",
+        "world_area_m2": 0.0006591109809860047,
+        "uv1_area": 6.673538344159624e-06,
+        "density_px_per_m": 103.0383185884778,
+        "world_centroid_m": [
+          -3.1332690715789795,
+          -0.005465561058372259,
+          2.1102283000946045
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 8428,
+      "area_m2": 28.34713019922342,
+      "arithmetic_mean_px_per_m": 118.95405628097798,
+      "area_weighted_mean_px_per_m": 126.86093563471958,
+      "minimum_px_per_m": 103.024769355455,
+      "maximum_px_per_m": 129.91229638242504,
+      "p01_px_per_m": 103.39734641472067,
+      "p05_px_per_m": 107.01814909020153,
+      "median_px_per_m": 119.90427694135833,
+      "p95_px_per_m": 128.46533541107166,
+      "p99_px_per_m": 129.90102950889866,
+      "outside_15percent_target_triangle_count": 704,
+      "outside_15percent_target_area_m2": 0.09552017917250347,
+      "outside_15percent_target_area_fraction": 0.003369659591683121,
+      "outlier_examples": [
+        {
+          "id": "SM_MillRotor:tri25967:poly25967",
+          "material": "Wood",
+          "world_area_m2": 0.0006591391062410768,
+          "uv1_area": 6.6720680536036525e-06,
+          "density_px_per_m": 103.024769355455,
+          "world_centroid_m": [
+            -3.8940367698669434,
+            -0.07077943533658981,
+            2.3589186668395996
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri18953:poly18953",
+          "material": "Wood",
+          "world_area_m2": 0.0006591207209332512,
+          "uv1_area": 6.671996992224649e-06,
+          "density_px_per_m": 103.02565757006158,
+          "world_centroid_m": [
+            2.416865825653076,
+            -0.07011912018060684,
+            -1.1098874807357788
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri18629:poly18629",
+          "material": "Wood",
+          "world_area_m2": 0.0006591196105757536,
+          "uv1_area": 6.672053245893039e-06,
+          "density_px_per_m": 103.02617866892415,
+          "world_centroid_m": [
+            2.331632375717163,
+            -0.07077834010124207,
+            -1.0836957693099976
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri11185:poly11185",
+          "material": "Wood",
+          "world_area_m2": 0.0006591125656911547,
+          "uv1_area": 6.672019168263432e-06,
+          "density_px_per_m": 103.02646615622321,
+          "world_centroid_m": [
+            -2.2396368980407715,
+            -0.006124611012637615,
+            1.8213717937469482
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19115:poly19115",
+          "material": "Wood",
+          "world_area_m2": 0.0006591134442845449,
+          "uv1_area": 6.672054702505648e-06,
+          "density_px_per_m": 103.02667184117462,
+          "world_centroid_m": [
+            2.9996814727783203,
+            -0.07011900842189789,
+            -2.0668234825134277
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19061:poly19061",
+          "material": "Wood",
+          "world_area_m2": 0.000659112527960124,
+          "uv1_area": 6.672066508173202e-06,
+          "density_px_per_m": 103.02683460578972,
+          "world_centroid_m": [
+            3.225264072418213,
+            -0.0701189637184143,
+            -1.3725522756576538
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri5401:poly5401",
+          "material": "Wood",
+          "world_area_m2": 0.0006591120536269821,
+          "uv1_area": 6.672079884140203e-06,
+          "density_px_per_m": 103.02697495026273,
+          "world_centroid_m": [
+            3.9420289993286133,
+            -0.006123529281467199,
+            -2.3745126724243164
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri4375:poly4375",
+          "material": "Wood",
+          "world_area_m2": 0.0006591067658673668,
+          "uv1_area": 6.672061183543576e-06,
+          "density_px_per_m": 103.02724383890806,
+          "world_centroid_m": [
+            1.5708646774291992,
+            -0.00546471681445837,
+            -0.8350050449371338
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19493:poly19493",
+          "material": "Wood",
+          "world_area_m2": 0.0006591053266838582,
+          "uv1_area": 6.6720680536036525e-06,
+          "density_px_per_m": 103.02740936332772,
+          "world_centroid_m": [
+            4.119618892669678,
+            -0.07077804207801819,
+            -1.6646475791931152
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19385:poly19385",
+          "material": "Wood",
+          "world_area_m2": 0.0006591001358947592,
+          "uv1_area": 6.672053245893039e-06,
+          "density_px_per_m": 103.02770073441435,
+          "world_centroid_m": [
+            3.311220645904541,
+            -0.07077818363904953,
+            -1.4019831418991089
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri10861:poly10861",
+          "material": "Wood",
+          "world_area_m2": 0.0006590943036198152,
+          "uv1_area": 6.672076864333576e-06,
+          "density_px_per_m": 103.02833893034443,
+          "world_centroid_m": [
+            -2.1536803245544434,
+            -0.0054653785191476345,
+            1.791940450668335
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri10753:poly10753",
+          "material": "Wood",
+          "world_area_m2": 0.0006590936136615097,
+          "uv1_area": 6.672076864333576e-06,
+          "density_px_per_m": 103.02839285685658,
+          "world_centroid_m": [
+            -1.3452825546264648,
+            -0.005465224385261536,
+            1.529275894165039
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri11239:poly11239",
+          "material": "Wood",
+          "world_area_m2": 0.0006590792860828436,
+          "uv1_area": 6.6720680536036525e-06,
+          "density_px_per_m": 103.02944467927323,
+          "world_centroid_m": [
+            -3.273256301879883,
+            -0.005465568508952856,
+            1.3881452083587646
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri5725:poly5725",
+          "material": "Wood",
+          "world_area_m2": 0.0006591335276398632,
+          "uv1_area": 6.673538344159624e-06,
+          "density_px_per_m": 103.0365562830623,
+          "world_centroid_m": [
+            4.027261734008789,
+            -0.005464281886816025,
+            -2.4007043838500977
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19439:poly19439",
+          "material": "Wood",
+          "world_area_m2": 0.0006591331018316476,
+          "uv1_area": 6.673538344159624e-06,
+          "density_px_per_m": 103.036589564508,
+          "world_centroid_m": [
+            3.0856380462646484,
+            -0.07077822089195251,
+            -2.09625506401062
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri26237:poly26237",
+          "material": "Wood",
+          "world_area_m2": 0.0006591199016405213,
+          "uv1_area": 6.67351471861366e-06,
+          "density_px_per_m": 103.03743892981507,
+          "world_centroid_m": [
+            -4.20521354675293,
+            -0.07077948749065399,
+            1.6924588680267334
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri4429:poly4429",
+          "material": "Wood",
+          "world_area_m2": 0.0006591201495844812,
+          "uv1_area": 6.673525151823512e-06,
+          "density_px_per_m": 103.03750009286348,
+          "world_centroid_m": [
+            1.3452824354171753,
+            -0.005464752670377493,
+            -1.5292762517929077
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19817:poly19817",
+          "material": "Wood",
+          "world_area_m2": 0.0006591186295787383,
+          "uv1_area": 6.67351471861366e-06,
+          "density_px_per_m": 103.03753835799017,
+          "world_centroid_m": [
+            4.20521354675293,
+            -0.070778027176857,
+            -1.6924593448638916
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri18683:poly18683",
+          "material": "Wood",
+          "world_area_m2": 0.000659119653696468,
+          "uv1_area": 6.673526563361065e-06,
+          "density_px_per_m": 103.03754974982701,
+          "world_centroid_m": [
+            2.1056878566741943,
+            -0.07011916488409042,
+            -1.7763476371765137
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri5671:poly5671",
+          "material": "Wood",
+          "world_area_m2": 0.0006591194327027768,
+          "uv1_area": 6.673526531386642e-06,
+          "density_px_per_m": 103.03756677652451,
+          "world_centroid_m": [
+            4.252843856811523,
+            -0.005464266054332256,
+            -1.7064330577850342
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri11995:poly11995",
+          "material": "Wood",
+          "world_area_m2": 0.0006591194327027768,
+          "uv1_area": 6.673526531386642e-06,
+          "density_px_per_m": 103.03756677652451,
+          "world_centroid_m": [
+            -4.252843856811523,
+            -0.005465741269290447,
+            1.706432580947876
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri24941:poly24941",
+          "material": "Wood",
+          "world_area_m2": 0.0006591189044736535,
+          "uv1_area": 6.67352798799925e-06,
+          "density_px_per_m": 103.03761930941685,
+          "world_centroid_m": [
+            -1.523234248161316,
+            -0.07077904045581818,
+            0.8210307955741882
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19547:poly19547",
+          "material": "Wood",
+          "world_area_m2": 0.0006591113475167864,
+          "uv1_area": 6.673473272655883e-06,
+          "density_px_per_m": 103.03778759108518,
+          "world_centroid_m": [
+            3.893674850463867,
+            -0.07011885195970535,
+            -2.357299327850342
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri25103:poly25103",
+          "material": "Wood",
+          "world_area_m2": 0.0006591128513688886,
+          "uv1_area": 6.673499910903047e-06,
+          "density_px_per_m": 103.037875689481,
+          "world_centroid_m": [
+            -2.1060500144958496,
+            -0.07077912986278534,
+            1.7779664993286133
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri4969:poly4969",
+          "material": "Wood",
+          "world_area_m2": 0.0006591129645619187,
+          "uv1_area": 6.673510263510707e-06,
+          "density_px_per_m": 103.03794676320149,
+          "world_centroid_m": [
+            3.0480356216430664,
+            -0.006123694591224194,
+            -2.0840368270874023
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri19007:poly19007",
+          "material": "Wood",
+          "world_area_m2": 0.0006591129861224937,
+          "uv1_area": 6.673517638944304e-06,
+          "density_px_per_m": 103.03800201568808,
+          "world_centroid_m": [
+            2.1912829875946045,
+            -0.07011914253234863,
+            -1.8041589260101318
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri26291:poly26291",
+          "material": "Wood",
+          "world_area_m2": 0.000659110916304081,
+          "uv1_area": 6.673499910903047e-06,
+          "density_px_per_m": 103.03802694233984,
+          "world_centroid_m": [
+            -3.979631185531616,
+            -0.0707794576883316,
+            2.386730194091797
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri4915:poly4915",
+          "material": "Wood",
+          "world_area_m2": 0.0006591119350436433,
+          "uv1_area": 6.673542799262577e-06,
+          "density_px_per_m": 103.0382784079986,
+          "world_centroid_m": [
+            3.273618221282959,
+            -0.006123646162450314,
+            -1.389765739440918
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri5239:poly5239",
+          "material": "Wood",
+          "world_area_m2": 0.0006591073641786872,
+          "uv1_area": 6.673499910903047e-06,
+          "density_px_per_m": 103.03830459323466,
+          "world_centroid_m": [
+            3.358851194381714,
+            -0.005464424844831228,
+            -1.415956974029541
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri11617:poly11617",
+          "material": "Wood",
+          "world_area_m2": 0.0006591109809860047,
+          "uv1_area": 6.673538344159624e-06,
+          "density_px_per_m": 103.0383185884778,
+          "world_centroid_m": [
+            -3.1332690715789795,
+            -0.005465561058372259,
+            2.1102283000946045
+          ]
+        }
+      ]
+    },
+    "WoodLight": {
+      "valid_triangle_count": 7344,
+      "area_m2": 40.99913185427494,
+      "arithmetic_mean_px_per_m": 124.28309914843311,
+      "area_weighted_mean_px_per_m": 128.2880403281463,
+      "minimum_px_per_m": 122.0696771071892,
+      "maximum_px_per_m": 129.90367302073037,
+      "p01_px_per_m": 122.07974269784613,
+      "p05_px_per_m": 122.16931821576206,
+      "median_px_per_m": 124.74335350921075,
+      "p95_px_per_m": 129.90037281921298,
+      "p99_px_per_m": 129.9013900350798,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "Canvas": {
+      "valid_triangle_count": 8128,
+      "area_m2": 26.204858098802728,
+      "arithmetic_mean_px_per_m": 125.00652532009325,
+      "area_weighted_mean_px_per_m": 128.68156694073573,
+      "minimum_px_per_m": 122.05472024619314,
+      "maximum_px_per_m": 129.91353652036267,
+      "p01_px_per_m": 122.07722690495868,
+      "p05_px_per_m": 122.1814375089881,
+      "median_px_per_m": 124.83461225015023,
+      "p95_px_per_m": 129.90097088784916,
+      "p99_px_per_m": 129.90617560616218,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "Iron": {
+      "valid_triangle_count": 4712,
+      "area_m2": 3.188016328906679,
+      "arithmetic_mean_px_per_m": 123.58619813070989,
+      "area_weighted_mean_px_per_m": 127.46863197078392,
+      "minimum_px_per_m": 104.91805378433556,
+      "maximum_px_per_m": 129.91345845253989,
+      "p01_px_per_m": 110.53222776549262,
+      "p05_px_per_m": 114.50477385992836,
+      "median_px_per_m": 124.85588541840036,
+      "p95_px_per_m": 129.90129309502274,
+      "p99_px_per_m": 129.90554702117188,
+      "outside_15percent_target_triangle_count": 32,
+      "outside_15percent_target_area_m2": 0.024356827869508286,
+      "outside_15percent_target_area_fraction": 0.0076401201739959065,
+      "outlier_examples": [
+        {
+          "id": "SM_MillRotor:tri12906:poly12906",
+          "material": "Iron",
+          "world_area_m2": 0.0006824594760751075,
+          "uv1_area": 7.16436010606003e-06,
+          "density_px_per_m": 104.91805378433556,
+          "world_centroid_m": [
+            0.16888460516929626,
+            -0.402071088552475,
+            0.07545197010040283
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27300:poly27300",
+          "material": "Iron",
+          "world_area_m2": 0.0006505046183370068,
+          "uv1_area": 6.828947107351269e-06,
+          "density_px_per_m": 104.9183951691378,
+          "world_centroid_m": [
+            -0.15748970210552216,
+            -0.4091421961784363,
+            -0.09136476367712021
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12946:poly12946",
+          "material": "Iron",
+          "world_area_m2": 0.0006824598144487984,
+          "uv1_area": 7.164557779049119e-06,
+          "density_px_per_m": 104.91947516930743,
+          "world_centroid_m": [
+            -0.16888462007045746,
+            -0.40207111835479736,
+            -0.07545248419046402
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27260:poly27260",
+          "material": "Iron",
+          "world_area_m2": 0.0006505048695647353,
+          "uv1_area": 6.829303771382911e-06,
+          "density_px_per_m": 104.92111472553107,
+          "world_centroid_m": [
+            0.15748967230319977,
+            -0.4091421365737915,
+            0.09136425703763962
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12926:poly12926",
+          "material": "Iron",
+          "world_area_m2": 0.0006824596947165885,
+          "uv1_area": 7.195698259465644e-06,
+          "density_px_per_m": 105.14725143872468,
+          "world_centroid_m": [
+            0.07545217871665955,
+            -0.402071088552475,
+            -0.16888487339019775
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12966:poly12966",
+          "material": "Iron",
+          "world_area_m2": 0.0006824594812808578,
+          "uv1_area": 7.195697683926028e-06,
+          "density_px_per_m": 105.14726367581588,
+          "world_centroid_m": [
+            -0.07545217871665955,
+            -0.402071088552475,
+            0.16888436675071716
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27280:poly27280",
+          "material": "Iron",
+          "world_area_m2": 0.0006505049296409169,
+          "uv1_area": 6.8589816883957155e-06,
+          "density_px_per_m": 105.14883912614391,
+          "world_centroid_m": [
+            0.09136446565389633,
+            -0.4091421961784363,
+            -0.15748995542526245
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27320:poly27320",
+          "material": "Iron",
+          "world_area_m2": 0.0006505050825620813,
+          "uv1_area": 6.859061784325604e-06,
+          "density_px_per_m": 105.1494407041463,
+          "world_centroid_m": [
+            -0.09136446565389633,
+            -0.4091421961784363,
+            0.15748943388462067
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12904:poly12904",
+          "material": "Iron",
+          "world_area_m2": 0.0006505050334088538,
+          "uv1_area": 6.864633171232981e-06,
+          "density_px_per_m": 105.1921407002227,
+          "world_centroid_m": [
+            0.15748965740203857,
+            -0.26085788011550903,
+            0.09136426448822021
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12944:poly12944",
+          "material": "Iron",
+          "world_area_m2": 0.0006505046893361573,
+          "uv1_area": 6.864633171232981e-06,
+          "density_px_per_m": 105.19216851995968,
+          "world_centroid_m": [
+            -0.15748971700668335,
+            -0.2608579099178314,
+            -0.09136476367712021
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27258:poly27258",
+          "material": "Iron",
+          "world_area_m2": 0.000682459850889032,
+          "uv1_area": 7.201926081279453e-06,
+          "density_px_per_m": 105.19273163253203,
+          "world_centroid_m": [
+            0.16888460516929626,
+            -0.26792892813682556,
+            0.07545198500156403
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27298:poly27298",
+          "material": "Iron",
+          "world_area_m2": 0.0006824594812808578,
+          "uv1_area": 7.202085562596494e-06,
+          "density_px_per_m": 105.1939248192233,
+          "world_centroid_m": [
+            -0.16888463497161865,
+            -0.26792898774147034,
+            -0.07545247673988342
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27318:poly27318",
+          "material": "Iron",
+          "world_area_m2": 0.0006824597675970666,
+          "uv1_area": 7.231781484762223e-06,
+          "density_px_per_m": 105.41054947755606,
+          "world_centroid_m": [
+            -0.07545220851898193,
+            -0.26792895793914795,
+            0.16888436675071716
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27278:poly27278",
+          "material": "Iron",
+          "world_area_m2": 0.0006824593719600918,
+          "uv1_area": 7.231781484762223e-06,
+          "density_px_per_m": 105.41058003197921,
+          "world_centroid_m": [
+            0.07545215636491776,
+            -0.26792895793914795,
+            -0.16888487339019775
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12924:poly12924",
+          "material": "Iron",
+          "world_area_m2": 0.0006505051044079591,
+          "uv1_area": 6.893343051928014e-06,
+          "density_px_per_m": 105.411877404077,
+          "world_centroid_m": [
+            0.09136444330215454,
+            -0.26085788011550903,
+            -0.15748994052410126
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12964:poly12964",
+          "material": "Iron",
+          "world_area_m2": 0.0006505049951785631,
+          "uv1_area": 6.893343051928014e-06,
+          "density_px_per_m": 105.41188625418215,
+          "world_centroid_m": [
+            -0.09136448800563812,
+            -0.2608579099178314,
+            0.15748944878578186
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27050:poly27050",
+          "material": "Iron",
+          "world_area_m2": 0.0008489206216187422,
+          "uv1_area": 9.027401095096366e-06,
+          "density_px_per_m": 105.59607709586386,
+          "world_centroid_m": [
+            0.39234042167663574,
+            -0.2817850708961487,
+            0.2267516702413559
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12816:poly12816",
+          "material": "Iron",
+          "world_area_m2": 0.0008627184067899602,
+          "uv1_area": 9.174273262857469e-06,
+          "density_px_per_m": 105.59692227672633,
+          "world_centroid_m": [
+            -0.4085492491722107,
+            -0.27589261531829834,
+            -0.2016054391860962
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27114:poly27114",
+          "material": "Iron",
+          "world_area_m2": 0.0008489217641168238,
+          "uv1_area": 9.027780720316514e-06,
+          "density_px_per_m": 105.59822630627522,
+          "world_centroid_m": [
+            -0.3923404812812805,
+            -0.28178519010543823,
+            -0.2267521619796753
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12752:poly12752",
+          "material": "Iron",
+          "world_area_m2": 0.0008627196998552876,
+          "uv1_area": 9.174943730982932e-06,
+          "density_px_per_m": 105.60070164964426,
+          "world_centroid_m": [
+            0.4085491895675659,
+            -0.2758924961090088,
+            0.201604962348938
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12848:poly12848",
+          "material": "Iron",
+          "world_area_m2": 0.0008489190438807683,
+          "uv1_area": 9.06391718302757e-06,
+          "density_px_per_m": 105.80952941365771,
+          "world_centroid_m": [
+            -0.20024257898330688,
+            -0.2817852199077606,
+            0.40650972723960876
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12784:poly12784",
+          "material": "Iron",
+          "world_area_m2": 0.0008627224877634282,
+          "uv1_area": 9.211354967675334e-06,
+          "density_px_per_m": 105.8098641151009,
+          "world_centroid_m": [
+            0.20160514116287231,
+            -0.2758924961090088,
+            -0.40854939818382263
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27082:poly27082",
+          "material": "Iron",
+          "world_area_m2": 0.0008489176502795355,
+          "uv1_area": 9.064573074368809e-06,
+          "density_px_per_m": 105.81344453934172,
+          "world_centroid_m": [
+            0.22675184905529022,
+            -0.28178510069847107,
+            -0.39234063029289246
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27146:poly27146",
+          "material": "Iron",
+          "world_area_m2": 0.0008627185921019891,
+          "uv1_area": 9.212010859016573e-06,
+          "density_px_per_m": 105.8138700292828,
+          "world_centroid_m": [
+            -0.2276904582977295,
+            -0.2758926749229431,
+            0.3946060538291931
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27048:poly27048",
+          "material": "Iron",
+          "world_area_m2": 0.0008627184809147765,
+          "uv1_area": 9.219747667543743e-06,
+          "density_px_per_m": 105.8583019956467,
+          "world_centroid_m": [
+            0.4085491895675659,
+            -0.2141074240207672,
+            0.2016049474477768
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27112:poly27112",
+          "material": "Iron",
+          "world_area_m2": 0.0008489172401502085,
+          "uv1_area": 9.072340994009664e-06,
+          "density_px_per_m": 105.85879901410259,
+          "world_centroid_m": [
+            -0.40650996565818787,
+            -0.20821496844291687,
+            -0.2002428025007248
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12750:poly12750",
+          "material": "Iron",
+          "world_area_m2": 0.0008489206216187422,
+          "uv1_area": 9.072582670910379e-06,
+          "density_px_per_m": 105.85999814964791,
+          "world_centroid_m": [
+            0.39234042167663574,
+            -0.2082148641347885,
+            0.2267516702413559
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12814:poly12814",
+          "material": "Iron",
+          "world_area_m2": 0.000862721676511915,
+          "uv1_area": 9.220159888911894e-06,
+          "density_px_per_m": 105.86047240975917,
+          "world_centroid_m": [
+            -0.394606351852417,
+            -0.21410751342773438,
+            -0.2276906669139862
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri12782:poly12782",
+          "material": "Iron",
+          "world_area_m2": 0.0008627185015050022,
+          "uv1_area": 9.25868994272605e-06,
+          "density_px_per_m": 106.08162676019488,
+          "world_centroid_m": [
+            0.22769038379192352,
+            -0.2141074240207672,
+            -0.3946065604686737
+          ]
+        },
+        {
+          "id": "SM_MillRotor:tri27080:poly27080",
+          "material": "Iron",
+          "world_area_m2": 0.0008489196465184307,
+          "uv1_area": 9.110727962280407e-06,
+          "density_px_per_m": 106.0823675978041,
+          "world_centroid_m": [
+            0.20024250447750092,
+            -0.2082148641347885,
+            -0.40651020407676697
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 1.2687170000281185,
+  "strict_uv_integrity_passed": true
+}

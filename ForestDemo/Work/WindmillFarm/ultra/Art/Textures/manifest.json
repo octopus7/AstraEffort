@@ -1,0 +1,1252 @@
+{
+  "theme": "WindmillFarm",
+  "effort": "ultra",
+  "art_type": "original procedural source textures",
+  "generator": "generator.py",
+  "generator_sha256": "6a63b19e81738f0e3201399a25278bf3f45f8dff093de73e10e2be3fe3d00b14",
+  "global_seed": 2026102201,
+  "started_at_utc": "2026-10-22T13:06:30.697966+00:00",
+  "finished_at_utc": "2026-10-22T13:06:53.481314+00:00",
+  "elapsed_seconds": 22.783,
+  "resolution": [
+    1024,
+    1024
+  ],
+  "source_provenance": {
+    "original": true,
+    "external_images": [],
+    "image_generation_service_used": false,
+    "method": "Original numpy Fourier-periodic fields and analytic integer-frequency grain/weave; Pillow PNG encoding.",
+    "ownership": "All source and outputs authored solely for WindmillFarm/ultra."
+  },
+  "algorithm": "Seeded Gaussian white noise is Fourier-filtered on a 2D torus; periodic analytic waves add surface-specific grain, weave and veins. No light, shadows, text, AO, seams or edge borders are painted into the albedos.",
+  "normal_convention": "Tangent space DirectX (+X red, +Y green), U right and texture V down. Wrapped central differences: nx=-dH/dU, ny=+dH/dV, nz=1, normalized. No green-channel flip required in UE.",
+  "tiling_validation": "Compare wrapping-edge finite differences with mean adjacent interior differences on both axes. Pass when ratio<1.75 or mean edge jump<1 8-bit level. Last texel is adjacent to first, not a duplicated sample. Every PNG is reopened and verified lossless/nonconstant.",
+  "limitations": [
+    "Physical tile width is a shading recommendation; mesh UV density is verified by the parent scene author.",
+    "Glass is a color/roughness source; transparency and reflections require material setup.",
+    "Procedural source-art previews do not constitute scene evidence.",
+    "No image-generation service was used; no image-generation prompts or outputs exist."
+  ],
+  "source_art_preview": "source_art_contact_sheet.png",
+  "textures": [
+    {
+      "slot": "Wood",
+      "description": "Vertical weathered walnut grain; align V with timber length.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Wood_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "9a1039958319e0538cfe3a11737ca3364ab3c1b9d6c305bce884ca83f190dede",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.59245,
+              "interior_mean_abs_8bit": 0.60423,
+              "seam_to_interior_ratio": 0.98051,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.04329,
+              "interior_mean_abs_8bit": 0.04334,
+              "seam_to_interior_ratio": 0.99899,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Wood_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "677303d4b73d9480d5183cb0d6c6018adaa107f900f29fddf3563fbd7976c6cd",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.38965,
+              "interior_mean_abs_8bit": 1.53127,
+              "seam_to_interior_ratio": 0.90751,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.09961,
+              "interior_mean_abs_8bit": 0.11763,
+              "seam_to_interior_ratio": 0.8468,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Wood_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "75f0d60ae1e615ba5358e6958903012dd3510a7800cf40530bb3b470d4210a89",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 3.42253,
+              "interior_mean_abs_8bit": 2.79955,
+              "seam_to_interior_ratio": 1.22253,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.11816,
+              "interior_mean_abs_8bit": 0.11838,
+              "seam_to_interior_ratio": 0.99818,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        109.39,
+        95.43,
+        78.49
+      ],
+      "base_color_std_srgb_8bit": [
+        4.31,
+        4.06,
+        3.58
+      ],
+      "roughness_mean_linear": 0.7997,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.2,
+        "actual_gradient_magnitude_p95": 0.19999999999843482,
+        "max_tilt_degrees": 23.39074215614439
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "WoodLight",
+      "description": "Vertical pale weathered timber grain; align V with timber length.",
+      "files": {
+        "BaseColor": {
+          "path": "T_WoodLight_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "ea748db8985b27013d2b7e30d17722b45412c530e06be2b1eda497c5d09932c0",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.53353,
+              "interior_mean_abs_8bit": 0.59745,
+              "seam_to_interior_ratio": 0.89302,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.03776,
+              "interior_mean_abs_8bit": 0.04374,
+              "seam_to_interior_ratio": 0.86334,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_WoodLight_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "09bd4838a88e05db246602e737cc58ab9038c6394054d4d8816d17175143dd81",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.39551,
+              "interior_mean_abs_8bit": 1.55782,
+              "seam_to_interior_ratio": 0.89581,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.10742,
+              "interior_mean_abs_8bit": 0.11529,
+              "seam_to_interior_ratio": 0.93177,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_WoodLight_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "0afd1f1b27bad7f1cf226aa4ddfe319b8063def1f46448b16106068edfa5f9d5",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.71842,
+              "interior_mean_abs_8bit": 2.54993,
+              "seam_to_interior_ratio": 1.06608,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.1224,
+              "interior_mean_abs_8bit": 0.11019,
+              "seam_to_interior_ratio": 1.11074,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        152.41,
+        135.44,
+        108.51
+      ],
+      "base_color_std_srgb_8bit": [
+        4.31,
+        4.06,
+        3.58
+      ],
+      "roughness_mean_linear": 0.7996,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.18,
+        "actual_gradient_magnitude_p95": 0.17999999999858518,
+        "max_tilt_degrees": 20.962432296580186
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Stone",
+      "description": "Rounded mineral cloud, small pores and grains; no baked mortar.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Stone_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "a7d54c29803aa46929dd5f83a8573f23af1978493bf89c4a61d9a0e30d848062",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.36198,
+              "interior_mean_abs_8bit": 0.37624,
+              "seam_to_interior_ratio": 0.96209,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.38672,
+              "interior_mean_abs_8bit": 0.37632,
+              "seam_to_interior_ratio": 1.02763,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Stone_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "c2b92a921a85e269cc3b7dbc5690133722f562d1dd9f391aa7592da6d0c30163",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.25684,
+              "interior_mean_abs_8bit": 1.27235,
+              "seam_to_interior_ratio": 0.98781,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 1.3623,
+              "interior_mean_abs_8bit": 1.2704,
+              "seam_to_interior_ratio": 1.07234,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Stone_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "37e462278a4aaeaea6900e860b871d84de7f4945e2a6d261daf4624cbafeae8f",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.7002,
+              "interior_mean_abs_8bit": 2.56796,
+              "seam_to_interior_ratio": 1.05149,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 2.6123,
+              "interior_mean_abs_8bit": 2.5649,
+              "seam_to_interior_ratio": 1.01848,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        143.92,
+        139.93,
+        125.95
+      ],
+      "base_color_std_srgb_8bit": [
+        4.24,
+        4.11,
+        3.82
+      ],
+      "roughness_mean_linear": 0.86,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.2,
+        "actual_gradient_magnitude_p95": 0.1999999999975414,
+        "max_tilt_degrees": 23.487828347011924
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Plaster",
+      "description": "Muted ochre trowel clouds and fine sand.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Plaster_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "3fd94b289e5eed79c0b08ee78c29fa7a9a3275b44eb2ea62df8faded7846fa75",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.41504,
+              "interior_mean_abs_8bit": 0.40377,
+              "seam_to_interior_ratio": 1.02791,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.3903,
+              "interior_mean_abs_8bit": 0.39974,
+              "seam_to_interior_ratio": 0.97637,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Plaster_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "c83426fe731405e9dea7d885fe3aa33b72df70ae12d3958c57a1fcd586f4002b",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.63379,
+              "interior_mean_abs_8bit": 1.55705,
+              "seam_to_interior_ratio": 1.04929,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 1.52344,
+              "interior_mean_abs_8bit": 1.54822,
+              "seam_to_interior_ratio": 0.98399,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Plaster_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "b8fa89fa74b5af9186f660f931d2bcd6e2103ab53f4f58f4670c13db7d3a89b8",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.74512,
+              "interior_mean_abs_8bit": 2.65201,
+              "seam_to_interior_ratio": 1.03511,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 2.62826,
+              "interior_mean_abs_8bit": 2.64653,
+              "seam_to_interior_ratio": 0.99309,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        195.02,
+        184.02,
+        153.02
+      ],
+      "base_color_std_srgb_8bit": [
+        2.71,
+        2.52,
+        2.17
+      ],
+      "roughness_mean_linear": 0.8801,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.12,
+        "actual_gradient_magnitude_p95": 0.11999999999904955,
+        "max_tilt_degrees": 11.598699804549062
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Roof",
+      "description": "Faded warm terracotta kiln variation; tile geometry supplies courses.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Roof_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "a94945f777c104772360a3b28436c14bbad42166d128fa5910b5fdd82cc2df07",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.39453,
+              "interior_mean_abs_8bit": 0.37915,
+              "seam_to_interior_ratio": 1.04057,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.41536,
+              "interior_mean_abs_8bit": 0.38562,
+              "seam_to_interior_ratio": 1.07715,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Roof_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "fbdbcf5ebf291f0c7ae6b76ef0b45cbe8256b4a425be93c7929c9396ed4814dd",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.69238,
+              "interior_mean_abs_8bit": 1.64184,
+              "seam_to_interior_ratio": 1.03078,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 1.7002,
+              "interior_mean_abs_8bit": 1.63627,
+              "seam_to_interior_ratio": 1.03907,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Roof_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "7baf9e6fb378132c4eadaa8b9f9f59a714cb17072e1da41327200cf30fd00332",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 3.90592,
+              "interior_mean_abs_8bit": 3.95177,
+              "seam_to_interior_ratio": 0.9884,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 4.14974,
+              "interior_mean_abs_8bit": 3.94384,
+              "seam_to_interior_ratio": 1.05221,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        145.0,
+        97.01,
+        76.01
+      ],
+      "base_color_std_srgb_8bit": [
+        4.24,
+        3.3,
+        2.92
+      ],
+      "roughness_mean_linear": 0.8399,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.17,
+        "actual_gradient_magnitude_p95": 0.16999999999870108,
+        "max_tilt_degrees": 16.509509587494406
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Iron",
+      "description": "Rough dark iron, faint drawn streaks and sparse muted patina.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Iron_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "aefb11d1fc70e4ae78ab0023008a61ca0cd12f1dde5d49c58f5ad117295bdd48",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.4222,
+              "interior_mean_abs_8bit": 0.41936,
+              "seam_to_interior_ratio": 1.00678,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.36491,
+              "interior_mean_abs_8bit": 0.37132,
+              "seam_to_interior_ratio": 0.98273,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Iron_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "ea449b17faccae9c291b823e4ee9f1d4d598bf9e38a35ac1f443bb7c1bbe0586",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.29199,
+              "interior_mean_abs_8bit": 0.25168,
+              "seam_to_interior_ratio": 1.16016,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.21289,
+              "interior_mean_abs_8bit": 0.24547,
+              "seam_to_interior_ratio": 0.86729,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Iron_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "bdbef8e2080f5407e9be6afe3cd8042334daaee21bbc49a58186521695f58eab",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.64681,
+              "interior_mean_abs_8bit": 2.57027,
+              "seam_to_interior_ratio": 1.02978,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 2.51204,
+              "interior_mean_abs_8bit": 2.55088,
+              "seam_to_interior_ratio": 0.98478,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        67.68,
+        71.44,
+        70.2
+      ],
+      "base_color_std_srgb_8bit": [
+        2.41,
+        2.2,
+        2.08
+      ],
+      "roughness_mean_linear": 0.6745,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.1,
+        "actual_gradient_magnitude_p95": 0.09999999999942386,
+        "max_tilt_degrees": 9.735448290152876
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 0.7,
+        "metallic": 0.85,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Canvas",
+      "description": "Flax plain weave with yarn slubs; no shading painted in.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Canvas_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "fb0acd7b95e81201f6626064bcdd6307d3ddd15c00c71788bac5ce955778acdd",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.75749,
+              "interior_mean_abs_8bit": 0.46253,
+              "seam_to_interior_ratio": 1.63771,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.61849,
+              "interior_mean_abs_8bit": 0.46136,
+              "seam_to_interior_ratio": 1.34057,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Canvas_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "3f2931c706933e7f5622170973bfe2f3b356c64d35a3205f3e07e7acbf59fd02",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.25586,
+              "interior_mean_abs_8bit": 1.59308,
+              "seam_to_interior_ratio": 1.41604,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 2.2627,
+              "interior_mean_abs_8bit": 1.59314,
+              "seam_to_interior_ratio": 1.42027,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Canvas_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "1043550801feafd42e17363dbe51f88ebac42e13633037f2871de3e9d04cb981",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.39258,
+              "interior_mean_abs_8bit": 2.98341,
+              "seam_to_interior_ratio": 0.80196,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 2.39583,
+              "interior_mean_abs_8bit": 2.98041,
+              "seam_to_interior_ratio": 0.80386,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        212.06,
+        204.06,
+        176.05
+      ],
+      "base_color_std_srgb_8bit": [
+        2.3,
+        2.14,
+        1.85
+      ],
+      "roughness_mean_linear": 0.9203,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.16,
+        "actual_gradient_magnitude_p95": 0.15999999999943024,
+        "max_tilt_degrees": 10.059746194715922
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 0.75,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Glass",
+      "description": "Low contrast bluegrey uneven old glass; opacity left to shader.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Glass_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "a694953ef03dcba4b8354201361a7a956a40f1eff9fb45beb14d1bd9d898c6bb",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.02441,
+              "interior_mean_abs_8bit": 0.03043,
+              "seam_to_interior_ratio": 0.80222,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.0127,
+              "interior_mean_abs_8bit": 0.01571,
+              "seam_to_interior_ratio": 0.63477,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Glass_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "6713c2f5ad189ff88608f9ccbe1a27a78e9360317f6ccf4432e975bf8d47aa9a",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.03613,
+              "interior_mean_abs_8bit": 0.03972,
+              "seam_to_interior_ratio": 0.90977,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.04199,
+              "interior_mean_abs_8bit": 0.04513,
+              "seam_to_interior_ratio": 0.93037,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Glass_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "fe51ac28b017eb3ce75b7b6f2d4962dd56e3727707d6338a494ac6a4b9afe86b",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.0306,
+              "interior_mean_abs_8bit": 0.0417,
+              "seam_to_interior_ratio": 0.73371,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.01107,
+              "interior_mean_abs_8bit": 0.01533,
+              "seam_to_interior_ratio": 0.55339,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        66.02,
+        88.01,
+        95.02
+      ],
+      "base_color_std_srgb_8bit": [
+        0.91,
+        1.33,
+        1.46
+      ],
+      "roughness_mean_linear": 0.2701,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.025,
+        "actual_gradient_magnitude_p95": 0.02499999999812729,
+        "max_tilt_degrees": 3.0534005443100156
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 0.5,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Hay",
+      "description": "Ochre bundled fibers; align V with straw length.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Hay_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "e5544c30ded089582babe71f64771889f7afd0b0a10892a3f4a461c15fa73d01",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.35417,
+              "interior_mean_abs_8bit": 1.18336,
+              "seam_to_interior_ratio": 1.14434,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.0957,
+              "interior_mean_abs_8bit": 0.08624,
+              "seam_to_interior_ratio": 1.10967,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Hay_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "3237911d23b403c21490c9ae02a36264d9f633abc3eebbef12e17c502b0d68e3",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 1.82422,
+              "interior_mean_abs_8bit": 1.62244,
+              "seam_to_interior_ratio": 1.12437,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.12598,
+              "interior_mean_abs_8bit": 0.10772,
+              "seam_to_interior_ratio": 1.16945,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Hay_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "02cba14d71bc7c491288a6c37a3ea8295edfe580aa546ab41b06a6926ca795da",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 2.9502,
+              "interior_mean_abs_8bit": 2.72312,
+              "seam_to_interior_ratio": 1.08339,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.16048,
+              "interior_mean_abs_8bit": 0.15172,
+              "seam_to_interior_ratio": 1.05774,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        183.0,
+        166.0,
+        112.0
+      ],
+      "base_color_std_srgb_8bit": [
+        3.99,
+        3.71,
+        3.2
+      ],
+      "roughness_mean_linear": 0.9001,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.2,
+        "actual_gradient_magnitude_p95": 0.19999999999936574,
+        "max_tilt_degrees": 20.29210856118457
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Leaf",
+      "description": "Sage cellular variation and understated periodic diagonal veins.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Leaf_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "656c6ed6bb548b47454dc57e678b06ef42fe0e30db9b8b04985e1fae74b295d9",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.09342,
+              "interior_mean_abs_8bit": 0.09635,
+              "seam_to_interior_ratio": 0.96961,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.09831,
+              "interior_mean_abs_8bit": 0.09342,
+              "seam_to_interior_ratio": 1.05235,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Leaf_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "a1765c38560a04247b685248a4e57bbd14b2ae1623f849d0be8e460bfb7b0840",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.30859,
+              "interior_mean_abs_8bit": 0.32965,
+              "seam_to_interior_ratio": 0.93612,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.36621,
+              "interior_mean_abs_8bit": 0.33092,
+              "seam_to_interior_ratio": 1.10663,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Leaf_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "65f611153a017365b6c555dc7dd0855d13cf2df8f13e21647d58dd9609088095",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.54395,
+              "interior_mean_abs_8bit": 0.56767,
+              "seam_to_interior_ratio": 0.95821,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.58008,
+              "interior_mean_abs_8bit": 0.56767,
+              "seam_to_interior_ratio": 1.02185,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        112.07,
+        131.08,
+        87.05
+      ],
+      "base_color_std_srgb_8bit": [
+        2.05,
+        2.49,
+        1.46
+      ],
+      "roughness_mean_linear": 0.7698,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.07,
+        "actual_gradient_magnitude_p95": 0.06999999999836265,
+        "max_tilt_degrees": 8.65016794238849
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 0.65,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    },
+    {
+      "slot": "Soil",
+      "description": "Muted earth with soft clumps and fine grit; no landscape atlas.",
+      "files": {
+        "BaseColor": {
+          "path": "T_Soil_BaseColor.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "sRGB",
+          "channels": 3,
+          "sha256": "7da37ae76df2868e99fb8280128160681b53bf7548aff351759ffe530b49dfdd",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.5026,
+              "interior_mean_abs_8bit": 0.51486,
+              "seam_to_interior_ratio": 0.97619,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.54688,
+              "interior_mean_abs_8bit": 0.51609,
+              "seam_to_interior_ratio": 1.05966,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Roughness": {
+          "path": "T_Soil_Roughness.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear",
+          "channels": 1,
+          "sha256": "08c86e25f1298967f56e68a3521a464d9b4ac74f32307406fe24d387690c04d7",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 0.29199,
+              "interior_mean_abs_8bit": 0.29063,
+              "seam_to_interior_ratio": 1.0047,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 0.29199,
+              "interior_mean_abs_8bit": 0.28995,
+              "seam_to_interior_ratio": 1.00704,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        },
+        "Normal": {
+          "path": "T_Soil_Normal.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "color_space": "linear tangent-space DirectX",
+          "channels": 3,
+          "sha256": "8460e562e235f7159058add5c7b829fbbb1ac70319e76e68ca9095c82144eb9d",
+          "tiling": {
+            "u": {
+              "seam_mean_abs_8bit": 3.94206,
+              "interior_mean_abs_8bit": 3.78668,
+              "seam_to_interior_ratio": 1.04103,
+              "pass": true
+            },
+            "v": {
+              "seam_mean_abs_8bit": 3.81152,
+              "interior_mean_abs_8bit": 3.80218,
+              "seam_to_interior_ratio": 1.00246,
+              "pass": true
+            }
+          },
+          "png_roundtrip_exact": true
+        }
+      },
+      "base_color_mean_srgb_8bit": [
+        123.07,
+        109.07,
+        83.06
+      ],
+      "base_color_std_srgb_8bit": [
+        3.42,
+        3.18,
+        2.74
+      ],
+      "roughness_mean_linear": 0.94,
+      "normal_metrics": {
+        "target_gradient_magnitude_p95": 0.2,
+        "actual_gradient_magnitude_p95": 0.19999999999874774,
+        "max_tilt_degrees": 23.739892089352754
+      },
+      "ue_recommendations": {
+        "base_color_srgb": true,
+        "roughness_srgb": false,
+        "roughness_compression": "Masks (no sRGB)",
+        "normal_srgb": false,
+        "normal_compression": "Normalmap",
+        "flip_green_channel": false,
+        "normal_strength": 1.0,
+        "metallic": 0.0,
+        "sampler_address_u": "Wrap",
+        "sampler_address_v": "Wrap",
+        "physical_tile_width_m": 1.0
+      }
+    }
+  ],
+  "validation_summary": {
+    "slot_count": 11,
+    "texture_count": 33,
+    "all_dimension_checks_pass": true,
+    "all_png_roundtrips_exact": true,
+    "all_nonconstant_checks_pass": true,
+    "all_edge_tests_pass": true
+  }
+}

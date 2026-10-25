@@ -1,0 +1,217 @@
+{
+  "utc": "2026-10-22T14:23:57.092956+00:00",
+  "images": [
+    {
+      "name": "overview",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "b686cb5b6005c73af97b48841a336cf989c1c265a9da4ff288a831780e2e238d",
+      "rgb_std": [
+        43.516686179888666,
+        44.69502059889249,
+        68.7147935658394
+      ]
+    },
+    {
+      "name": "top_down",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "d2ae6316af4d688f699fdb16e25c4fd93b60c314ac5f110b04929aa9ef0b4ced",
+      "rgb_std": [
+        39.519203983254464,
+        40.43148503242607,
+        67.53435804391994
+      ]
+    },
+    {
+      "name": "windmill",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "6026a624c00a2ea4efda7f388eef868bbaffc86ba34735a7f1454cbdc92baf51",
+      "rgb_std": [
+        57.268467073284086,
+        57.89531943102297,
+        73.98165230756932
+      ]
+    },
+    {
+      "name": "farm_detail",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "60fe5393492cba0e36c4b9b54d99f9ddbf7e9303727088fd554a19470e244b57",
+      "rgb_std": [
+        46.91977127783397,
+        47.41186075231917,
+        53.77834208554649
+      ]
+    },
+    {
+      "name": "prop_contact",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "d0fe1c79261da303c17c7389dd66f90a1684d33bb7fbd73ca4f22e271f6d0a0a",
+      "rgb_std": [
+        36.30993944392898,
+        32.151765654507855,
+        21.31127067419753
+      ]
+    },
+    {
+      "name": "corn",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "f917fb5b9f7b93ae41ebe3d374ab347e092a8e0afbec5b41dd834d6c9d6a5872",
+      "rgb_std": [
+        52.1939769308566,
+        53.99182902041683,
+        56.371837648954454
+      ]
+    },
+    {
+      "name": "meadow",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "4676133aef2726519488bc085d25866032c98ff6adcc87b5e063550838e1f25f",
+      "rgb_std": [
+        61.037275393191216,
+        62.74031543002796,
+        67.67149605859623
+      ]
+    },
+    {
+      "name": "windmill_motion_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "853c4a82f42f1d0bc5805bdcaef8a0cd2a85d1eb24f8002abf988173ff1ab9e3",
+      "rgb_std": [
+        57.46490798452212,
+        58.267184275266445,
+        74.18374824286131
+      ]
+    },
+    {
+      "name": "windmill_motion_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "8efefa850953095e44cbf8dfaf890eed4ca160b744dc312f506a3342be8acf6e",
+      "rgb_std": [
+        57.451419687328176,
+        58.19078478315026,
+        74.122245965003
+      ]
+    },
+    {
+      "name": "corn_motion_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "4b64f0fd10ec83136472ebb90cdec3403e4515672a5cd11984212e8337cffcc3",
+      "rgb_std": [
+        52.20873453083536,
+        53.9777157698939,
+        56.350238824482254
+      ]
+    },
+    {
+      "name": "corn_motion_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "46c16493f10ad68febbb3b7410e92d935d72f0332414d8256e5d184660bdffaf",
+      "rgb_std": [
+        52.2254869079347,
+        53.99692795550095,
+        56.370110370494395
+      ]
+    },
+    {
+      "name": "meadow_motion_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "36dc86417b238aac57cd7500092129f910b0ef8e6d4c023c1dc3214c41cc7e31",
+      "rgb_std": [
+        61.0913089990093,
+        62.798890200566994,
+        67.74793862018387
+      ]
+    },
+    {
+      "name": "meadow_motion_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "525f8f2af6e9148d9befcaf8b30d0253b5c3ce11b9f7d11543d7bf8e8fec4052",
+      "rgb_std": [
+        61.04263223302467,
+        62.765232569345685,
+        67.6576903518047
+      ]
+    }
+  ],
+  "all_1920x1080": true,
+  "all_nonblank": true,
+  "motion": {
+    "corn": {
+      "changed_pixels_threshold12": 871938,
+      "world_time_t0": 27.775645811110735,
+      "world_time_t1": 29.680886212736368,
+      "delta_seconds": 1.9052404016256332,
+      "difference_bbox_xyxy": [
+        0,
+        6,
+        1919,
+        1079
+      ],
+      "interpretation": "Same-camera actual UE renders: visible wind movement plus shadows/temporal differences; not a physics measurement."
+    },
+    "meadow": {
+      "changed_pixels_threshold12": 658481,
+      "world_time_t0": 31.588269714266062,
+      "world_time_t1": 33.50048792362213,
+      "delta_seconds": 1.9122182093560696,
+      "difference_bbox_xyxy": [
+        0,
+        4,
+        1919,
+        1079
+      ],
+      "interpretation": "Same-camera actual UE renders: visible wind movement plus shadows/temporal differences; not a physics measurement."
+    },
+    "windmill": {
+      "changed_pixels_threshold12": 243059,
+      "world_time_t0": 21.646657921373844,
+      "world_time_t1": 25.863199818879366,
+      "delta_seconds": 4.216541897505522,
+      "difference_bbox_xyxy": [
+        0,
+        147,
+        1919,
+        1079
+      ],
+      "interpretation": "Same-camera actual UE renders: visible wind movement plus shadows/temporal differences; not a physics measurement."
+    }
+  }
+}

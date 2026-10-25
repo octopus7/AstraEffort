@@ -1,0 +1,739 @@
+{
+  "mesh": "SM_OrchardTree2",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_OrchardTree2.fbx",
+  "source_before": {
+    "sha256": "22284e6f0fb23ef88170022886cdd43980f6fe1ef24bce382a363bae3c94e433",
+    "bytes": 59500,
+    "mtime_ns": 1792675274909735700
+  },
+  "source_after": {
+    "sha256": "22284e6f0fb23ef88170022886cdd43980f6fe1ef24bce382a363bae3c94e433",
+    "bytes": 59500,
+    "mtime_ns": 1792675274909735700
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_OrchardTree2",
+      "vertices": 472,
+      "polygons": 880,
+      "triangles": 880,
+      "uv_layer_names": [
+        "UVMap",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        -7.450580596923828e-09,
+        3.725290298461914e-09,
+        -1.1920928955078125e-07
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        -7.450580596923828e-09,
+        3.725290298461914e-09,
+        -1.1920928955078125e-07
+      ],
+      "local_bbox_min_m": [
+        -3.5031332969665527,
+        -2.632500648498535,
+        -0.012790125794708729
+      ],
+      "local_bbox_max_m": [
+        3.4171388149261475,
+        2.7408671379089355,
+        6.65000057220459
+      ],
+      "materials": [
+        "Wood",
+        "Leaf"
+      ]
+    }
+  ],
+  "triangle_count": 880,
+  "world_bounds_min_m": [
+    -3.5031332969665527,
+    -2.632500648498535,
+    -0.01279024500399828
+  ],
+  "world_bounds_max_m": [
+    3.4171388149261475,
+    2.7408671379089355,
+    6.65000057220459
+  ],
+  "world_dimensions_m": [
+    6.9202721118927,
+    5.373367786407471,
+    6.662790817208588
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.005416238680481911,
+        0.005416242405772209
+      ],
+      "max": [
+        0.994583785533905,
+        0.9894157648086548
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.015019656158983707,
+        0.015019666403532028
+      ],
+      "max": [
+        2.758059024810791,
+        2.743727684020996
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 1405,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 880,
+    "area_m2": 235.95373201121745,
+    "arithmetic_mean_px_per_m": 127.64038268860625,
+    "area_weighted_mean_px_per_m": 127.69153850911788,
+    "minimum_px_per_m": 100.49378991589828,
+    "maximum_px_per_m": 141.018450767498,
+    "p01_px_per_m": 106.5406700195425,
+    "p05_px_per_m": 110.24722663205374,
+    "median_px_per_m": 128.94851910047885,
+    "p95_px_per_m": 140.27598087429044,
+    "p99_px_per_m": 140.9714945781232,
+    "outside_15percent_target_triangle_count": 23,
+    "outside_15percent_target_area_m2": 7.242800685360321,
+    "outside_15percent_target_area_fraction": 0.03069585135875703,
+    "outlier_examples": [
+      {
+        "id": "SM_OrchardTree2:tri726:poly726",
+        "material": "Wood",
+        "world_area_m2": 0.13040542047379802,
+        "uv1_area": 0.0012559552932884799,
+        "density_px_per_m": 100.49378991589828,
+        "world_centroid_m": [
+          0.18891529738903046,
+          0.06267943978309631,
+          2.5803232192993164
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri2:poly2",
+        "material": "Wood",
+        "world_area_m2": 0.2808731613351446,
+        "uv1_area": 0.0027051397243553765,
+        "density_px_per_m": 100.49389666907197,
+        "world_centroid_m": [
+          0.1367592215538025,
+          0.1618514060974121,
+          1.2927881479263306
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri417:poly417",
+        "material": "Leaf",
+        "world_area_m2": 0.4311346372292882,
+        "uv1_area": 0.004449629103760344,
+        "density_px_per_m": 104.02923504855437,
+        "world_centroid_m": [
+          -0.9825608134269714,
+          -0.7811673879623413,
+          5.208587646484375
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri98:poly98",
+        "material": "Leaf",
+        "world_area_m2": 0.34581176349315673,
+        "uv1_area": 0.0036021588451546904,
+        "density_px_per_m": 104.51088018967714,
+        "world_centroid_m": [
+          2.907668113708496,
+          0.4105954170227051,
+          3.1760480403900146
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri188:poly188",
+        "material": "Leaf",
+        "world_area_m2": 0.3011779244009563,
+        "uv1_area": 0.0031373710453834747,
+        "density_px_per_m": 104.51324463898516,
+        "world_centroid_m": [
+          0.025585662573575974,
+          1.2255219221115112,
+          3.2158477306365967
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri548:poly548",
+        "material": "Leaf",
+        "world_area_m2": 0.2875403993277768,
+        "uv1_area": 0.003052694514593668,
+        "density_px_per_m": 105.50965282738456,
+        "world_centroid_m": [
+          2.275275468826294,
+          -0.5769878625869751,
+          2.925469160079956
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri368:poly368",
+        "material": "Leaf",
+        "world_area_m2": 0.3594183532853416,
+        "uv1_area": 0.0038678422028013415,
+        "density_px_per_m": 106.2268260711715,
+        "world_centroid_m": [
+          1.9193902015686035,
+          1.4202673435211182,
+          3.0710649490356445
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri278:poly278",
+        "material": "Leaf",
+        "world_area_m2": 0.3417827644160254,
+        "uv1_area": 0.003686437933971831,
+        "density_px_per_m": 106.34775852213035,
+        "world_centroid_m": [
+          1.3565505743026733,
+          -0.7403413653373718,
+          3.061809539794922
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri327:poly327",
+        "material": "Leaf",
+        "world_area_m2": 0.44262272390374513,
+        "uv1_area": 0.00477511964140831,
+        "density_px_per_m": 106.35924164044272,
+        "world_centroid_m": [
+          1.5505411624908447,
+          0.4611547887325287,
+          5.108786582946777
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri155:poly155",
+        "material": "Leaf",
+        "world_area_m2": 0.2943295529071132,
+        "uv1_area": 0.0031890248267387733,
+        "density_px_per_m": 106.5888978165184,
+        "world_centroid_m": [
+          -2.31014347076416,
+          1.2255219221115112,
+          4.56364107131958
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri597:poly597",
+        "material": "Leaf",
+        "world_area_m2": 0.3652434067450899,
+        "uv1_area": 0.003962527337904476,
+        "density_px_per_m": 106.65835958552451,
+        "world_centroid_m": [
+          0.3349829316139221,
+          0.9778231382369995,
+          5.1707916259765625
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri237:poly237",
+        "material": "Leaf",
+        "world_area_m2": 0.42609452394429875,
+        "uv1_area": 0.004624211211785134,
+        "density_px_per_m": 106.67577616039566,
+        "world_centroid_m": [
+          0.9787754416465759,
+          -1.6456449031829834,
+          5.050895690917969
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri335:poly335",
+        "material": "Leaf",
+        "world_area_m2": 0.3397912308242633,
+        "uv1_area": 0.0036952661624392036,
+        "density_px_per_m": 106.786594293926,
+        "world_centroid_m": [
+          -0.7587138414382935,
+          1.4202673435211182,
+          4.4779052734375
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri638:poly638",
+        "material": "Leaf",
+        "world_area_m2": 0.2886897152884143,
+        "uv1_area": 0.003152090425857068,
+        "density_px_per_m": 106.9999647140165,
+        "world_centroid_m": [
+          0.700831413269043,
+          1.7865018844604492,
+          3.3702821731567383
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri65:poly65",
+        "material": "Leaf",
+        "world_area_m2": 0.32908331766691595,
+        "uv1_area": 0.003603785710813767,
+        "density_px_per_m": 107.15846961735268,
+        "world_centroid_m": [
+          0.20697566866874695,
+          0.41059547662734985,
+          4.618074417114258
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri677:poly677",
+        "material": "Leaf",
+        "world_area_m2": 0.42285498734424126,
+        "uv1_area": 0.004637022867093776,
+        "density_px_per_m": 107.23186189463418,
+        "world_centroid_m": [
+          0.7340666651725769,
+          -0.566662073135376,
+          6.3021697998046875
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri809:poly809",
+        "material": "Wood",
+        "world_area_m2": 0.028446754016832117,
+        "uv1_area": 0.00031390562153887913,
+        "density_px_per_m": 107.56801255281172,
+        "world_centroid_m": [
+          0.46362584829330444,
+          0.6834715604782104,
+          3.4055628776550293
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri285:poly285",
+        "material": "Wood",
+        "world_area_m2": 0.09753122134251802,
+        "uv1_area": 0.001076272533580891,
+        "density_px_per_m": 107.56952574290716,
+        "world_centroid_m": [
+          0.2181309312582016,
+          0.3451777696609497,
+          2.8338382244110107
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri507:poly507",
+        "material": "Leaf",
+        "world_area_m2": 0.3603878416495156,
+        "uv1_area": 0.004007070321620176,
+        "density_px_per_m": 107.97628303378819,
+        "world_centroid_m": [
+          1.9173126220703125,
+          -1.3802375793457031,
+          4.789315223693848
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri164:poly164",
+        "material": "Leaf",
+        "world_area_m2": 0.30993083289061873,
+        "uv1_area": 0.003456530574766248,
+        "density_px_per_m": 108.14034887989152,
+        "world_centroid_m": [
+          -0.5605052709579468,
+          2.102695941925049,
+          4.310264587402344
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri57:poly57",
+        "material": "Leaf",
+        "world_area_m2": 0.42626844102298406,
+        "uv1_area": 0.004764767576954654,
+        "density_px_per_m": 108.26279293749072,
+        "world_centroid_m": [
+          2.535707950592041,
+          -0.4918811321258545,
+          5.264735221862793
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri653:poly653",
+        "material": "Leaf",
+        "world_area_m2": 0.3156887472806272,
+        "uv1_area": 0.0035540978356465303,
+        "density_px_per_m": 108.65134206658965,
+        "world_centroid_m": [
+          0.8396060466766357,
+          1.2147940397262573,
+          4.8621697425842285
+        ]
+      },
+      {
+        "id": "SM_OrchardTree2:tri245:poly245",
+        "material": "Leaf",
+        "world_area_m2": 0.3176929645716575,
+        "uv1_area": 0.0035772277269070507,
+        "density_px_per_m": 108.6599378068354,
+        "world_centroid_m": [
+          -1.3863623142242432,
+          -0.7403413653373718,
+          4.43507194519043
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 240,
+      "area_m2": 13.273357070626792,
+      "arithmetic_mean_px_per_m": 127.64903525756932,
+      "area_weighted_mean_px_per_m": 127.81033381251228,
+      "minimum_px_per_m": 100.49378991589828,
+      "maximum_px_per_m": 140.9720887903825,
+      "p01_px_per_m": 107.56860269694894,
+      "p05_px_per_m": 110.06155877335537,
+      "median_px_per_m": 129.93691089913932,
+      "p95_px_per_m": 140.3582406042915,
+      "p99_px_per_m": 140.93271558559363,
+      "outside_15percent_target_triangle_count": 4,
+      "outside_15percent_target_area_m2": 0.5372565571682928,
+      "outside_15percent_target_area_fraction": 0.04047631313687868,
+      "outlier_examples": [
+        {
+          "id": "SM_OrchardTree2:tri726:poly726",
+          "material": "Wood",
+          "world_area_m2": 0.13040542047379802,
+          "uv1_area": 0.0012559552932884799,
+          "density_px_per_m": 100.49378991589828,
+          "world_centroid_m": [
+            0.18891529738903046,
+            0.06267943978309631,
+            2.5803232192993164
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri2:poly2",
+          "material": "Wood",
+          "world_area_m2": 0.2808731613351446,
+          "uv1_area": 0.0027051397243553765,
+          "density_px_per_m": 100.49389666907197,
+          "world_centroid_m": [
+            0.1367592215538025,
+            0.1618514060974121,
+            1.2927881479263306
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri809:poly809",
+          "material": "Wood",
+          "world_area_m2": 0.028446754016832117,
+          "uv1_area": 0.00031390562153887913,
+          "density_px_per_m": 107.56801255281172,
+          "world_centroid_m": [
+            0.46362584829330444,
+            0.6834715604782104,
+            3.4055628776550293
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri285:poly285",
+          "material": "Wood",
+          "world_area_m2": 0.09753122134251802,
+          "uv1_area": 0.001076272533580891,
+          "density_px_per_m": 107.56952574290716,
+          "world_centroid_m": [
+            0.2181309312582016,
+            0.3451777696609497,
+            2.8338382244110107
+          ]
+        }
+      ]
+    },
+    "Leaf": {
+      "valid_triangle_count": 640,
+      "area_m2": 222.6803749405908,
+      "arithmetic_mean_px_per_m": 127.6371379752452,
+      "area_weighted_mean_px_per_m": 127.68445745188187,
+      "minimum_px_per_m": 104.02923504855437,
+      "maximum_px_per_m": 141.018450767498,
+      "p01_px_per_m": 106.44880754911223,
+      "p05_px_per_m": 110.43443792041417,
+      "median_px_per_m": 128.7969024503238,
+      "p95_px_per_m": 140.20619008248897,
+      "p99_px_per_m": 140.99000817045794,
+      "outside_15percent_target_triangle_count": 19,
+      "outside_15percent_target_area_m2": 6.705544128192029,
+      "outside_15percent_target_area_fraction": 0.03011286526700438,
+      "outlier_examples": [
+        {
+          "id": "SM_OrchardTree2:tri417:poly417",
+          "material": "Leaf",
+          "world_area_m2": 0.4311346372292882,
+          "uv1_area": 0.004449629103760344,
+          "density_px_per_m": 104.02923504855437,
+          "world_centroid_m": [
+            -0.9825608134269714,
+            -0.7811673879623413,
+            5.208587646484375
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri98:poly98",
+          "material": "Leaf",
+          "world_area_m2": 0.34581176349315673,
+          "uv1_area": 0.0036021588451546904,
+          "density_px_per_m": 104.51088018967714,
+          "world_centroid_m": [
+            2.907668113708496,
+            0.4105954170227051,
+            3.1760480403900146
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri188:poly188",
+          "material": "Leaf",
+          "world_area_m2": 0.3011779244009563,
+          "uv1_area": 0.0031373710453834747,
+          "density_px_per_m": 104.51324463898516,
+          "world_centroid_m": [
+            0.025585662573575974,
+            1.2255219221115112,
+            3.2158477306365967
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri548:poly548",
+          "material": "Leaf",
+          "world_area_m2": 0.2875403993277768,
+          "uv1_area": 0.003052694514593668,
+          "density_px_per_m": 105.50965282738456,
+          "world_centroid_m": [
+            2.275275468826294,
+            -0.5769878625869751,
+            2.925469160079956
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri368:poly368",
+          "material": "Leaf",
+          "world_area_m2": 0.3594183532853416,
+          "uv1_area": 0.0038678422028013415,
+          "density_px_per_m": 106.2268260711715,
+          "world_centroid_m": [
+            1.9193902015686035,
+            1.4202673435211182,
+            3.0710649490356445
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri278:poly278",
+          "material": "Leaf",
+          "world_area_m2": 0.3417827644160254,
+          "uv1_area": 0.003686437933971831,
+          "density_px_per_m": 106.34775852213035,
+          "world_centroid_m": [
+            1.3565505743026733,
+            -0.7403413653373718,
+            3.061809539794922
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri327:poly327",
+          "material": "Leaf",
+          "world_area_m2": 0.44262272390374513,
+          "uv1_area": 0.00477511964140831,
+          "density_px_per_m": 106.35924164044272,
+          "world_centroid_m": [
+            1.5505411624908447,
+            0.4611547887325287,
+            5.108786582946777
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri155:poly155",
+          "material": "Leaf",
+          "world_area_m2": 0.2943295529071132,
+          "uv1_area": 0.0031890248267387733,
+          "density_px_per_m": 106.5888978165184,
+          "world_centroid_m": [
+            -2.31014347076416,
+            1.2255219221115112,
+            4.56364107131958
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri597:poly597",
+          "material": "Leaf",
+          "world_area_m2": 0.3652434067450899,
+          "uv1_area": 0.003962527337904476,
+          "density_px_per_m": 106.65835958552451,
+          "world_centroid_m": [
+            0.3349829316139221,
+            0.9778231382369995,
+            5.1707916259765625
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri237:poly237",
+          "material": "Leaf",
+          "world_area_m2": 0.42609452394429875,
+          "uv1_area": 0.004624211211785134,
+          "density_px_per_m": 106.67577616039566,
+          "world_centroid_m": [
+            0.9787754416465759,
+            -1.6456449031829834,
+            5.050895690917969
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri335:poly335",
+          "material": "Leaf",
+          "world_area_m2": 0.3397912308242633,
+          "uv1_area": 0.0036952661624392036,
+          "density_px_per_m": 106.786594293926,
+          "world_centroid_m": [
+            -0.7587138414382935,
+            1.4202673435211182,
+            4.4779052734375
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri638:poly638",
+          "material": "Leaf",
+          "world_area_m2": 0.2886897152884143,
+          "uv1_area": 0.003152090425857068,
+          "density_px_per_m": 106.9999647140165,
+          "world_centroid_m": [
+            0.700831413269043,
+            1.7865018844604492,
+            3.3702821731567383
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri65:poly65",
+          "material": "Leaf",
+          "world_area_m2": 0.32908331766691595,
+          "uv1_area": 0.003603785710813767,
+          "density_px_per_m": 107.15846961735268,
+          "world_centroid_m": [
+            0.20697566866874695,
+            0.41059547662734985,
+            4.618074417114258
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri677:poly677",
+          "material": "Leaf",
+          "world_area_m2": 0.42285498734424126,
+          "uv1_area": 0.004637022867093776,
+          "density_px_per_m": 107.23186189463418,
+          "world_centroid_m": [
+            0.7340666651725769,
+            -0.566662073135376,
+            6.3021697998046875
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri507:poly507",
+          "material": "Leaf",
+          "world_area_m2": 0.3603878416495156,
+          "uv1_area": 0.004007070321620176,
+          "density_px_per_m": 107.97628303378819,
+          "world_centroid_m": [
+            1.9173126220703125,
+            -1.3802375793457031,
+            4.789315223693848
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri164:poly164",
+          "material": "Leaf",
+          "world_area_m2": 0.30993083289061873,
+          "uv1_area": 0.003456530574766248,
+          "density_px_per_m": 108.14034887989152,
+          "world_centroid_m": [
+            -0.5605052709579468,
+            2.102695941925049,
+            4.310264587402344
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri57:poly57",
+          "material": "Leaf",
+          "world_area_m2": 0.42626844102298406,
+          "uv1_area": 0.004764767576954654,
+          "density_px_per_m": 108.26279293749072,
+          "world_centroid_m": [
+            2.535707950592041,
+            -0.4918811321258545,
+            5.264735221862793
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri653:poly653",
+          "material": "Leaf",
+          "world_area_m2": 0.3156887472806272,
+          "uv1_area": 0.0035540978356465303,
+          "density_px_per_m": 108.65134206658965,
+          "world_centroid_m": [
+            0.8396060466766357,
+            1.2147940397262573,
+            4.8621697425842285
+          ]
+        },
+        {
+          "id": "SM_OrchardTree2:tri245:poly245",
+          "material": "Leaf",
+          "world_area_m2": 0.3176929645716575,
+          "uv1_area": 0.0035772277269070507,
+          "density_px_per_m": 108.6599378068354,
+          "world_centroid_m": [
+            -1.3863623142242432,
+            -0.7403413653373718,
+            4.43507194519043
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.07235209998907521,
+  "strict_uv_integrity_passed": true
+}

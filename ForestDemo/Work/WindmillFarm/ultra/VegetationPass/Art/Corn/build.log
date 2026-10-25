@@ -1,0 +1,274 @@
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\blendue\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\.cache\\compat.dat').
+
+FBX export starting... 'D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\VegetationPass\\Art\\Corn\\SM_CornA.fbx'
+export finished in 0.0063 sec.
+
+FBX export starting... 'D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\VegetationPass\\Art\\Corn\\SM_CornB.fbx'
+export finished in 0.0070 sec.
+
+FBX export starting... 'D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\VegetationPass\\Art\\Corn\\SM_CornC.fbx'
+export finished in 0.0065 sec.
+Info: Saved as "source.blend"
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\blendue\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\.cache\\compat.dat').
+FBX version: 7400
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\blendue\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\.cache\\compat.dat').
+FBX version: 7400
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\blendue\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\.cache\\compat.dat').
+FBX version: 7400
+{
+  "created_utc": "2026-10-22T14:00:28.333421+00:00",
+  "elapsed_build_and_reimport_seconds": 0.6645007133483887,
+  "assets": [
+    {
+      "name": "SM_CornA",
+      "file": "SM_CornA.fbx",
+      "triangles": 2168,
+      "vertices": 1520,
+      "bounds_m": [
+        [
+          -0.8843107223510742,
+          0.9098904728889465
+        ],
+        [
+          -0.5261428356170654,
+          0.4006379544734955
+        ],
+        [
+          0.0,
+          2.3509230613708496
+        ]
+      ],
+      "material_slots": [
+        "CornLeaf",
+        "CornStalk",
+        "CornKernel",
+        "CornTassel"
+      ],
+      "uv0_grid_cells_per_axis": 47,
+      "uv0_triangle_islands": 2168,
+      "uv0_padding_each_cell_px_at1024": 2,
+      "uv0_min_island_gap_px_at1024": 4,
+      "uv0_density_px_m_at1024": 52.03824117862845,
+      "uv1_density_px_m_at1024": 128,
+      "uv_method": "Per-triangle physical-shape islands in disjoint grid cells; shared scale preserves exact area density. UV1 intentionally repeats.",
+      "vertex_color": {
+        "name": "Col",
+        "storage": "FLOAT_COLOR CORNER",
+        "fbx_colors_type": "LINEAR",
+        "R": "clamp(local_z / plant_height, 0, 1)",
+        "G": "stalk 0; leaf 0.7\u21921 tips; ear 0.3\u20130.35; tassel 1",
+        "B": 0,
+        "A": 1
+      },
+      "leaf_surface": "Single geometry ribbon with ridge; set CornLeaf two_sided=True in UE.",
+      "wind_integration": "Multiply global sway by R (or R squared); G gates leaf flutter. Import vertex colors REPLACE. Materials read UV1 (index 1)."
+    },
+    {
+      "name": "SM_CornB",
+      "file": "SM_CornB.fbx",
+      "triangles": 2168,
+      "vertices": 1520,
+      "bounds_m": [
+        [
+          -0.7008875608444214,
+          0.7927259206771851
+        ],
+        [
+          -0.7164579629898071,
+          0.813490629196167
+        ],
+        [
+          0.0,
+          2.1809229850769043
+        ]
+      ],
+      "material_slots": [
+        "CornLeaf",
+        "CornStalk",
+        "CornKernel",
+        "CornTassel"
+      ],
+      "uv0_grid_cells_per_axis": 47,
+      "uv0_triangle_islands": 2168,
+      "uv0_padding_each_cell_px_at1024": 2,
+      "uv0_min_island_gap_px_at1024": 4,
+      "uv0_density_px_m_at1024": 52.03822511602049,
+      "uv1_density_px_m_at1024": 128,
+      "uv_method": "Per-triangle physical-shape islands in disjoint grid cells; shared scale preserves exact area density. UV1 intentionally repeats.",
+      "vertex_color": {
+        "name": "Col",
+        "storage": "FLOAT_COLOR CORNER",
+        "fbx_colors_type": "LINEAR",
+        "R": "clamp(local_z / plant_height, 0, 1)",
+        "G": "stalk 0; leaf 0.7\u21921 tips; ear 0.3\u20130.35; tassel 1",
+        "B": 0,
+        "A": 1
+      },
+      "leaf_surface": "Single geometry ribbon with ridge; set CornLeaf two_sided=True in UE.",
+      "wind_integration": "Multiply global sway by R (or R squared); G gates leaf flutter. Import vertex colors REPLACE. Materials read UV1 (index 1)."
+    },
+    {
+      "name": "SM_CornC",
+      "file": "SM_CornC.fbx",
+      "triangles": 2168,
+      "vertices": 1520,
+      "bounds_m": [
+        [
+          -0.684038519859314,
+          0.5910085439682007
+        ],
+        [
+          -0.7050623893737793,
+          0.8607757687568665
+        ],
+        [
+          0.0,
+          2.4809229373931885
+        ]
+      ],
+      "material_slots": [
+        "CornLeaf",
+        "CornStalk",
+        "CornKernel",
+        "CornTassel"
+      ],
+      "uv0_grid_cells_per_axis": 47,
+      "uv0_triangle_islands": 2168,
+      "uv0_padding_each_cell_px_at1024": 2,
+      "uv0_min_island_gap_px_at1024": 4,
+      "uv0_density_px_m_at1024": 52.038224552136214,
+      "uv1_density_px_m_at1024": 128,
+      "uv_method": "Per-triangle physical-shape islands in disjoint grid cells; shared scale preserves exact area density. UV1 intentionally repeats.",
+      "vertex_color": {
+        "name": "Col",
+        "storage": "FLOAT_COLOR CORNER",
+        "fbx_colors_type": "LINEAR",
+        "R": "clamp(local_z / plant_height, 0, 1)",
+        "G": "stalk 0; leaf 0.7\u21921 tips; ear 0.3\u20130.35; tassel 1",
+        "B": 0,
+        "A": 1
+      },
+      "leaf_surface": "Single geometry ribbon with ridge; set CornLeaf two_sided=True in UE.",
+      "wind_integration": "Multiply global sway by R (or R squared); G gates leaf flutter. Import vertex colors REPLACE. Materials read UV1 (index 1)."
+    }
+  ],
+  "export_roundtrip_validation": [
+    {
+      "file": "SM_CornA.fbx",
+      "reimported_triangles": 2168,
+      "reimported_uv_channels": 2,
+      "reimported_color_domain": "CORNER",
+      "uv0_outside01_count": 0,
+      "degenerate_geometry_or_uv_count": 0,
+      "uv1_area_equivalent_density_px_m": 127.99973654199395,
+      "uv1_triangle_density_min_max": [
+        127.9461846229819,
+        128.03680201552922
+      ],
+      "max_color_R_anchor_error": 2.97859470421713e-08,
+      "minimum_root_color_R": 0.0,
+      "color_ranges": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1,
+          1.0
+        ]
+      ],
+      "passed": true,
+      "sha256": "6ea09b1eac65624a3d332d0ea7539830e7811c524d07d409692c1debeaff7504"
+    },
+    {
+      "file": "SM_CornB.fbx",
+      "reimported_triangles": 2168,
+      "reimported_uv_channels": 2,
+      "reimported_color_domain": "CORNER",
+      "uv0_outside01_count": 0,
+      "degenerate_geometry_or_uv_count": 0,
+      "uv1_area_equivalent_density_px_m": 128.0000834009395,
+      "uv1_triangle_density_min_max": [
+        127.94620051236804,
+        128.06900127251015
+      ],
+      "max_color_R_anchor_error": 2.976315482960956e-08,
+      "minimum_root_color_R": 0.0,
+      "color_ranges": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1,
+          1.0
+        ]
+      ],
+      "passed": true,
+      "sha256": "33b4acabbb2dea32f2cd250e06415273bcceb35ae274d554f4b511cb566801d1"
+    },
+    {
+      "file": "SM_CornC.fbx",
+      "reimported_triangles": 2168,
+      "reimported_uv_channels": 2,
+      "reimported_color_domain": "CORNER",
+      "uv0_outside01_count": 0,
+      "degenerate_geometry_or_uv_count": 0,
+      "uv1_area_equivalent_density_px_m": 128.00008658011646,
+      "uv1_triangle_density_min_max": [
+        127.94603867363422,
+        128.06910220004826
+      ],
+      "max_color_R_anchor_error": 2.978742086323649e-08,
+      "minimum_root_color_R": 0.0,
+      "color_ranges": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1,
+          1.0
+        ]
+      ],
+      "passed": true,
+      "sha256": "107c888874e5fced4a8f44f3917b25f6c6c530c5fa0affe99a09533483a67d74"
+    }
+  ],
+  "all_passed": true,
+  "external_assets": [],
+  "image_generation_used": false,
+  "notes": [
+    "Actual FBX roundtrip verifies two UV channels, nondegenerate triangles, 128px/m density, and linear wind vertex colors.",
+    "UV0 islands are each triangle. Cell allocation guarantees no UV0 overlap analytically; 2px interior cell padding gives at least 4px between occupied cell contents. UV1 is intentional tiled repeat.",
+    "Mesh height is local Z in metres. UE uses centimetres. All origins at root (0,0,0).",
+    "Source.blend contains all three original plant meshes at origin for convenient individual export, not a combined planting."
+  ]
+}
+Blender 4.5.12 LTS (hash 84afd5f785f7 built 2026-07-21 01:33:53)
+
+Blender quit

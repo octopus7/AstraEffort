@@ -1,0 +1,234 @@
+{
+  "mesh": "SM_OrchardTree3",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_OrchardTree3.fbx",
+  "source_before": {
+    "sha256": "504619dc0ed68a2acee7405010073d460abfeb850662e99adc6f27ea0ac3399d",
+    "bytes": 58604,
+    "mtime_ns": 1792675274972609400
+  },
+  "source_after": {
+    "sha256": "504619dc0ed68a2acee7405010073d460abfeb850662e99adc6f27ea0ac3399d",
+    "bytes": 58604,
+    "mtime_ns": 1792675274972609400
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_OrchardTree3",
+      "vertices": 472,
+      "polygons": 880,
+      "triangles": 880,
+      "uv_layer_names": [
+        "UVMap",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -3.239975690841675,
+        -2.91925311088562,
+        -0.011689567007124424
+      ],
+      "local_bbox_max_m": [
+        3.085894823074341,
+        3.082944869995117,
+        7.15000057220459
+      ],
+      "materials": [
+        "Wood",
+        "Leaf"
+      ]
+    }
+  ],
+  "triangle_count": 880,
+  "world_bounds_min_m": [
+    -3.239975690841675,
+    -2.91925311088562,
+    -0.011689567007124424
+  ],
+  "world_bounds_max_m": [
+    3.085894823074341,
+    3.082944869995117,
+    7.15000057220459
+  ],
+  "world_dimensions_m": [
+    6.325870513916016,
+    6.002197980880737,
+    7.161690139211714
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.005441265180706978,
+        0.005441274493932724
+      ],
+      "max": [
+        0.9902867078781128,
+        0.9945588111877441
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.014149999246001244,
+        0.014150023460388184
+      ],
+      "max": [
+        2.5752384662628174,
+        2.586348056793213
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 1413,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 880,
+    "area_m2": 223.2190555096462,
+    "arithmetic_mean_px_per_m": 127.89607455034559,
+    "area_weighted_mean_px_per_m": 127.77427866461123,
+    "minimum_px_per_m": 108.44173161434398,
+    "maximum_px_per_m": 140.20174341550793,
+    "p01_px_per_m": 111.08383392953672,
+    "p05_px_per_m": 114.78814389564305,
+    "median_px_per_m": 127.39473813616524,
+    "p95_px_per_m": 139.24772317281372,
+    "p99_px_per_m": 140.09919844240542,
+    "outside_15percent_target_triangle_count": 2,
+    "outside_15percent_target_area_m2": 0.44994913831740585,
+    "outside_15percent_target_area_fraction": 0.0020157290661861156,
+    "outlier_examples": [
+      {
+        "id": "SM_OrchardTree3:tri7:poly7",
+        "material": "Wood",
+        "world_area_m2": 0.307282366338656,
+        "uv1_area": 0.0034461217198611394,
+        "density_px_per_m": 108.44173161434398,
+        "world_centroid_m": [
+          0.06331393867731094,
+          -0.2614395320415497,
+          1.4044437408447266
+        ]
+      },
+      {
+        "id": "SM_OrchardTree3:tri731:poly731",
+        "material": "Wood",
+        "world_area_m2": 0.14266677197874983,
+        "uv1_area": 0.0015999922127036825,
+        "density_px_per_m": 108.441988755213,
+        "world_centroid_m": [
+          0.06941057741641998,
+          -0.2546306252479553,
+          2.8182473182678223
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 240,
+      "area_m2": 14.430614635721758,
+      "arithmetic_mean_px_per_m": 127.85940018113082,
+      "area_weighted_mean_px_per_m": 125.95952895849997,
+      "minimum_px_per_m": 108.44173161434398,
+      "maximum_px_per_m": 140.15494842147598,
+      "p01_px_per_m": 110.73702736251649,
+      "p05_px_per_m": 114.13792278369303,
+      "median_px_per_m": 127.61298422025487,
+      "p95_px_per_m": 138.52409325007426,
+      "p99_px_per_m": 140.0526347965783,
+      "outside_15percent_target_triangle_count": 2,
+      "outside_15percent_target_area_m2": 0.44994913831740585,
+      "outside_15percent_target_area_fraction": 0.03118017836909005,
+      "outlier_examples": [
+        {
+          "id": "SM_OrchardTree3:tri7:poly7",
+          "material": "Wood",
+          "world_area_m2": 0.307282366338656,
+          "uv1_area": 0.0034461217198611394,
+          "density_px_per_m": 108.44173161434398,
+          "world_centroid_m": [
+            0.06331393867731094,
+            -0.2614395320415497,
+            1.4044437408447266
+          ]
+        },
+        {
+          "id": "SM_OrchardTree3:tri731:poly731",
+          "material": "Wood",
+          "world_area_m2": 0.14266677197874983,
+          "uv1_area": 0.0015999922127036825,
+          "density_px_per_m": 108.441988755213,
+          "world_centroid_m": [
+            0.06941057741641998,
+            -0.2546306252479553,
+            2.8182473182678223
+          ]
+        }
+      ]
+    },
+    "Leaf": {
+      "valid_triangle_count": 640,
+      "area_m2": 208.78844087392451,
+      "arithmetic_mean_px_per_m": 127.90982743880132,
+      "area_weighted_mean_px_per_m": 127.8997068423377,
+      "minimum_px_per_m": 108.8179655109026,
+      "maximum_px_per_m": 140.20174341550793,
+      "p01_px_per_m": 112.06430167917003,
+      "p05_px_per_m": 115.34674493308962,
+      "median_px_per_m": 127.10927924073931,
+      "p95_px_per_m": 139.42922284572214,
+      "p99_px_per_m": 140.1044869294778,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    }
+  },
+  "elapsed_seconds": 0.0817743000225164,
+  "strict_uv_integrity_passed": true
+}

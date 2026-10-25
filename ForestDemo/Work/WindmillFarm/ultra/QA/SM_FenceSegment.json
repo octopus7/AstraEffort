@@ -1,0 +1,906 @@
+{
+  "mesh": "SM_FenceSegment",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_FenceSegment.fbx",
+  "source_before": {
+    "sha256": "621587f2c80de79b10b0e707a9aa57f934483c93e021140fe34b16ab80931de4",
+    "bytes": 150668,
+    "mtime_ns": 1792675273501865900
+  },
+  "source_after": {
+    "sha256": "621587f2c80de79b10b0e707a9aa57f934483c93e021140fe34b16ab80931de4",
+    "bytes": 150668,
+    "mtime_ns": 1792675273501865900
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_FenceSegment",
+      "vertices": 1008,
+      "polygons": 1968,
+      "triangles": 1968,
+      "uv_layer_names": [
+        "UV0_Unique",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -1.5304603576660156,
+        -0.16900011897087097,
+        -0.0012968182563781738
+      ],
+      "local_bbox_max_m": [
+        1.5204607248306274,
+        0.11500012874603271,
+        1.2957611083984375
+      ],
+      "materials": [
+        "Wood",
+        "WoodLight"
+      ]
+    }
+  ],
+  "triangle_count": 1968,
+  "world_bounds_min_m": [
+    -1.5304603576660156,
+    -0.16900023818016052,
+    -0.0012968182563781738
+  ],
+  "world_bounds_max_m": [
+    1.5204607248306274,
+    0.11500025540590286,
+    1.2957611083984375
+  ],
+  "world_dimensions_m": [
+    3.050921082496643,
+    0.2840004935860634,
+    1.2970579266548157
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0006371179479174316,
+        0.0006370972259901464
+      ],
+      "max": [
+        0.6181405186653137,
+        0.9993628859519958
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.00024611223489046097,
+        0.00024610423133708537
+      ],
+      "max": [
+        0.23878143727779388,
+        0.3860437870025635
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 3588,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 1968,
+    "area_m2": 4.726533007385627,
+    "arithmetic_mean_px_per_m": 123.31250216916813,
+    "area_weighted_mean_px_per_m": 127.9724668871842,
+    "minimum_px_per_m": 107.83152533179369,
+    "maximum_px_per_m": 130.20947371321452,
+    "p01_px_per_m": 108.2570427208694,
+    "p05_px_per_m": 112.18034278185834,
+    "median_px_per_m": 123.94556096667922,
+    "p95_px_per_m": 130.20489452493842,
+    "p99_px_per_m": 130.20740567701162,
+    "outside_15percent_target_triangle_count": 32,
+    "outside_15percent_target_area_m2": 0.0004105960946863763,
+    "outside_15percent_target_area_fraction": 8.687045960427727e-05,
+    "outlier_examples": [
+      {
+        "id": "SM_FenceSegment:tri280:poly280",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831184213223373e-05,
+        "uv1_area": 1.4228473976807265e-07,
+        "density_px_per_m": 107.83152533179369,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.1644144505262375,
+          0.9047198295593262
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri652:poly652",
+        "material": "WoodLight",
+        "world_area_m2": 1.283095174177032e-05,
+        "uv1_area": 1.4228473976807265e-07,
+        "density_px_per_m": 107.83250217428908,
+        "world_centroid_m": [
+          1.3852137327194214,
+          -0.16441397368907928,
+          0.9047197699546814
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri620:poly620",
+        "material": "WoodLight",
+        "world_area_m2": 1.2830914224173959e-05,
+        "uv1_area": 1.4228473976807265e-07,
+        "density_px_per_m": 107.83265982530533,
+        "world_centroid_m": [
+          1.4147870540618896,
+          -0.11358553171157837,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri622:poly622",
+        "material": "WoodLight",
+        "world_area_m2": 1.2830913683378975e-05,
+        "uv1_area": 1.4228473976807265e-07,
+        "density_px_per_m": 107.83266209776083,
+        "world_centroid_m": [
+          1.4147870540618896,
+          -0.16441397368907928,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri116:poly116",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831077340420685e-05,
+        "uv1_area": 1.4228858091769325e-07,
+        "density_px_per_m": 107.83342992467415,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.11358603090047836,
+          0.415280282497406
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri118:poly118",
+        "material": "WoodLight",
+        "world_area_m2": 1.283107720522366e-05,
+        "uv1_area": 1.4228858091769325e-07,
+        "density_px_per_m": 107.83343049277761,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.1644144505262375,
+          0.415280282497406
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri248:poly248",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831008389752993e-05,
+        "uv1_area": 1.4228858091769325e-07,
+        "density_px_per_m": 107.83371965938471,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.11358603090047836,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri250:poly250",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831008389752993e-05,
+        "uv1_area": 1.4228858091769325e-07,
+        "density_px_per_m": 107.83371965938471,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.1644144505262375,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri488:poly488",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831658404074536e-05,
+        "uv1_area": 1.422967974562539e-07,
+        "density_px_per_m": 107.83410169148475,
+        "world_centroid_m": [
+          1.414786696434021,
+          -0.11358553171157837,
+          0.415280282497406
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri490:poly490",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831658404074536e-05,
+        "uv1_area": 1.422967974562539e-07,
+        "density_px_per_m": 107.83410169148475,
+        "world_centroid_m": [
+          1.414786696434021,
+          -0.16441397368907928,
+          0.415280282497406
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri650:poly650",
+        "material": "WoodLight",
+        "world_area_m2": 1.28309522825637e-05,
+        "uv1_area": 1.4228968447937973e-07,
+        "density_px_per_m": 107.83437359522755,
+        "world_centroid_m": [
+          1.3852137327194214,
+          -0.11358555406332016,
+          0.9047197699546814
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri278:poly278",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831184213223373e-05,
+        "uv1_area": 1.4229754508043868e-07,
+        "density_px_per_m": 107.83637752220012,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.11358603835105896,
+          0.9047198295593262
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri520:poly520",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831187119934857e-05,
+        "uv1_area": 1.423006392720083e-07,
+        "density_px_per_m": 107.83753772638354,
+        "world_centroid_m": [
+          1.3852136135101318,
+          -0.16441397368907928,
+          0.38471969962120056
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri518:poly518",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831186984738988e-05,
+        "uv1_area": 1.423006392720083e-07,
+        "density_px_per_m": 107.83753829449894,
+        "world_centroid_m": [
+          1.3852136135101318,
+          -0.11358555406332016,
+          0.38471969962120056
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri146:poly146",
+        "material": "WoodLight",
+        "world_area_m2": 1.28309705343269e-05,
+        "uv1_area": 1.423006392720083e-07,
+        "density_px_per_m": 107.838447866425,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.11358603835105896,
+          0.38471969962120056
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri148:poly148",
+        "material": "WoodLight",
+        "world_area_m2": 1.28309705343269e-05,
+        "uv1_area": 1.4230448064367351e-07,
+        "density_px_per_m": 107.83990339313443,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.1644144505262375,
+          0.38471969962120056
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri269:poly269",
+        "material": "WoodLight",
+        "world_area_m2": 1.2830932340792746e-05,
+        "uv1_area": 1.4340610476892834e-07,
+        "density_px_per_m": 108.2566712485899,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.1644144505262375,
+          0.9047198295593262
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri667:poly667",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831260328288357e-05,
+        "uv1_area": 1.434101239983221e-07,
+        "density_px_per_m": 108.256804652835,
+        "world_centroid_m": [
+          1.3852136135101318,
+          -0.11358555406332016,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri535:poly535",
+        "material": "WoodLight",
+        "world_area_m2": 1.2830900501494196e-05,
+        "uv1_area": 1.4340610476892834e-07,
+        "density_px_per_m": 108.25680556552022,
+        "world_centroid_m": [
+          1.3852136135101318,
+          -0.11358555406332016,
+          0.415280282497406
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri671:poly671",
+        "material": "WoodLight",
+        "world_area_m2": 1.28312403193985e-05,
+        "uv1_area": 1.434101239983221e-07,
+        "density_px_per_m": 108.25688906001554,
+        "world_centroid_m": [
+          1.3852136135101318,
+          -0.16441397368907928,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri539:poly539",
+        "material": "WoodLight",
+        "world_area_m2": 1.2830826344689997e-05,
+        "uv1_area": 1.4340610476892834e-07,
+        "density_px_per_m": 108.25711840457355,
+        "world_centroid_m": [
+          1.3852136135101318,
+          -0.16441397368907928,
+          0.41528022289276123
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri265:poly265",
+        "material": "WoodLight",
+        "world_area_m2": 1.2830952485361212e-05,
+        "uv1_area": 1.4341402732043207e-07,
+        "density_px_per_m": 108.25957657410369,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.11358603090047836,
+          0.9047198295593262
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri509:poly509",
+        "material": "WoodLight",
+        "world_area_m2": 1.283120604734237e-05,
+        "uv1_area": 1.4341804677187042e-07,
+        "density_px_per_m": 108.26002395587051,
+        "world_centroid_m": [
+          1.4147868156433105,
+          -0.16441397368907928,
+          0.38471969962120056
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri133:poly133",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831028399004522e-05,
+        "uv1_area": 1.4341804677187042e-07,
+        "density_px_per_m": 108.26077339489227,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.11358603090047836,
+          0.38471972942352295
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri137:poly137",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831008389752993e-05,
+        "uv1_area": 1.4341804677187042e-07,
+        "density_px_per_m": 108.26085780821877,
+        "world_centroid_m": [
+          -1.3852136135101318,
+          -0.1644144505262375,
+          0.38471972942352295
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri163:poly163",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831097214367878e-05,
+        "uv1_area": 1.4342206622330878e-07,
+        "density_px_per_m": 108.26200013403901,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.11358603835105896,
+          0.415280282497406
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri295:poly295",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831097214367878e-05,
+        "uv1_area": 1.4342206622330878e-07,
+        "density_px_per_m": 108.26200013403901,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.11358603835105896,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri505:poly505",
+        "material": "WoodLight",
+        "world_area_m2": 1.283117258637085e-05,
+        "uv1_area": 1.434230008090509e-07,
+        "density_px_per_m": 108.26203489486169,
+        "world_centroid_m": [
+          1.4147868156433105,
+          -0.11358553171157837,
+          0.38471972942352295
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri299:poly299",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831077340420685e-05,
+        "uv1_area": 1.4342206622330878e-07,
+        "density_px_per_m": 108.26208397705481,
+        "world_centroid_m": [
+          -1.414786696434021,
+          -0.1644144505262375,
+          0.9352803230285645
+        ]
+      },
+      {
+        "id": "SM_FenceSegment:tri641:poly641",
+        "material": "WoodLight",
+        "world_area_m2": 1.2831673748232758e-05,
+        "uv1_area": 1.4342917009635414e-07,
+        "density_px_per_m": 108.26224905457623,
+        "world_centroid_m": [
+          1.4147870540618896,
+          -0.16441397368907928,
+          0.9047198295593262
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Wood": {
+      "valid_triangle_count": 432,
+      "area_m2": 1.9218860024835702,
+      "arithmetic_mean_px_per_m": 124.53397165568467,
+      "area_weighted_mean_px_per_m": 128.16486244381574,
+      "minimum_px_per_m": 120.82469940631228,
+      "maximum_px_per_m": 130.20742963432207,
+      "p01_px_per_m": 120.82583511404857,
+      "p05_px_per_m": 121.28230974010994,
+      "median_px_per_m": 124.53896971693493,
+      "p95_px_per_m": 130.19123483731994,
+      "p99_px_per_m": 130.20719490410062,
+      "outside_15percent_target_triangle_count": 0,
+      "outside_15percent_target_area_m2": 0,
+      "outside_15percent_target_area_fraction": 0.0,
+      "outlier_examples": []
+    },
+    "WoodLight": {
+      "valid_triangle_count": 1536,
+      "area_m2": 2.804647004902048,
+      "arithmetic_mean_px_per_m": 122.9689638760853,
+      "area_weighted_mean_px_per_m": 127.84062771933752,
+      "minimum_px_per_m": 107.83152533179369,
+      "maximum_px_per_m": 130.20947371321452,
+      "p01_px_per_m": 107.98577214254385,
+      "p05_px_per_m": 112.09505164117357,
+      "median_px_per_m": 123.87745585214313,
+      "p95_px_per_m": 130.2051493339494,
+      "p99_px_per_m": 130.2074893780165,
+      "outside_15percent_target_triangle_count": 32,
+      "outside_15percent_target_area_m2": 0.0004105960946863763,
+      "outside_15percent_target_area_fraction": 0.00014639849291861822,
+      "outlier_examples": [
+        {
+          "id": "SM_FenceSegment:tri280:poly280",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831184213223373e-05,
+          "uv1_area": 1.4228473976807265e-07,
+          "density_px_per_m": 107.83152533179369,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.1644144505262375,
+            0.9047198295593262
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri652:poly652",
+          "material": "WoodLight",
+          "world_area_m2": 1.283095174177032e-05,
+          "uv1_area": 1.4228473976807265e-07,
+          "density_px_per_m": 107.83250217428908,
+          "world_centroid_m": [
+            1.3852137327194214,
+            -0.16441397368907928,
+            0.9047197699546814
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri620:poly620",
+          "material": "WoodLight",
+          "world_area_m2": 1.2830914224173959e-05,
+          "uv1_area": 1.4228473976807265e-07,
+          "density_px_per_m": 107.83265982530533,
+          "world_centroid_m": [
+            1.4147870540618896,
+            -0.11358553171157837,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri622:poly622",
+          "material": "WoodLight",
+          "world_area_m2": 1.2830913683378975e-05,
+          "uv1_area": 1.4228473976807265e-07,
+          "density_px_per_m": 107.83266209776083,
+          "world_centroid_m": [
+            1.4147870540618896,
+            -0.16441397368907928,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri116:poly116",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831077340420685e-05,
+          "uv1_area": 1.4228858091769325e-07,
+          "density_px_per_m": 107.83342992467415,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.11358603090047836,
+            0.415280282497406
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri118:poly118",
+          "material": "WoodLight",
+          "world_area_m2": 1.283107720522366e-05,
+          "uv1_area": 1.4228858091769325e-07,
+          "density_px_per_m": 107.83343049277761,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.1644144505262375,
+            0.415280282497406
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri248:poly248",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831008389752993e-05,
+          "uv1_area": 1.4228858091769325e-07,
+          "density_px_per_m": 107.83371965938471,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.11358603090047836,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri250:poly250",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831008389752993e-05,
+          "uv1_area": 1.4228858091769325e-07,
+          "density_px_per_m": 107.83371965938471,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.1644144505262375,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri488:poly488",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831658404074536e-05,
+          "uv1_area": 1.422967974562539e-07,
+          "density_px_per_m": 107.83410169148475,
+          "world_centroid_m": [
+            1.414786696434021,
+            -0.11358553171157837,
+            0.415280282497406
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri490:poly490",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831658404074536e-05,
+          "uv1_area": 1.422967974562539e-07,
+          "density_px_per_m": 107.83410169148475,
+          "world_centroid_m": [
+            1.414786696434021,
+            -0.16441397368907928,
+            0.415280282497406
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri650:poly650",
+          "material": "WoodLight",
+          "world_area_m2": 1.28309522825637e-05,
+          "uv1_area": 1.4228968447937973e-07,
+          "density_px_per_m": 107.83437359522755,
+          "world_centroid_m": [
+            1.3852137327194214,
+            -0.11358555406332016,
+            0.9047197699546814
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri278:poly278",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831184213223373e-05,
+          "uv1_area": 1.4229754508043868e-07,
+          "density_px_per_m": 107.83637752220012,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.11358603835105896,
+            0.9047198295593262
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri520:poly520",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831187119934857e-05,
+          "uv1_area": 1.423006392720083e-07,
+          "density_px_per_m": 107.83753772638354,
+          "world_centroid_m": [
+            1.3852136135101318,
+            -0.16441397368907928,
+            0.38471969962120056
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri518:poly518",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831186984738988e-05,
+          "uv1_area": 1.423006392720083e-07,
+          "density_px_per_m": 107.83753829449894,
+          "world_centroid_m": [
+            1.3852136135101318,
+            -0.11358555406332016,
+            0.38471969962120056
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri146:poly146",
+          "material": "WoodLight",
+          "world_area_m2": 1.28309705343269e-05,
+          "uv1_area": 1.423006392720083e-07,
+          "density_px_per_m": 107.838447866425,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.11358603835105896,
+            0.38471969962120056
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri148:poly148",
+          "material": "WoodLight",
+          "world_area_m2": 1.28309705343269e-05,
+          "uv1_area": 1.4230448064367351e-07,
+          "density_px_per_m": 107.83990339313443,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.1644144505262375,
+            0.38471969962120056
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri269:poly269",
+          "material": "WoodLight",
+          "world_area_m2": 1.2830932340792746e-05,
+          "uv1_area": 1.4340610476892834e-07,
+          "density_px_per_m": 108.2566712485899,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.1644144505262375,
+            0.9047198295593262
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri667:poly667",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831260328288357e-05,
+          "uv1_area": 1.434101239983221e-07,
+          "density_px_per_m": 108.256804652835,
+          "world_centroid_m": [
+            1.3852136135101318,
+            -0.11358555406332016,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri535:poly535",
+          "material": "WoodLight",
+          "world_area_m2": 1.2830900501494196e-05,
+          "uv1_area": 1.4340610476892834e-07,
+          "density_px_per_m": 108.25680556552022,
+          "world_centroid_m": [
+            1.3852136135101318,
+            -0.11358555406332016,
+            0.415280282497406
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri671:poly671",
+          "material": "WoodLight",
+          "world_area_m2": 1.28312403193985e-05,
+          "uv1_area": 1.434101239983221e-07,
+          "density_px_per_m": 108.25688906001554,
+          "world_centroid_m": [
+            1.3852136135101318,
+            -0.16441397368907928,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri539:poly539",
+          "material": "WoodLight",
+          "world_area_m2": 1.2830826344689997e-05,
+          "uv1_area": 1.4340610476892834e-07,
+          "density_px_per_m": 108.25711840457355,
+          "world_centroid_m": [
+            1.3852136135101318,
+            -0.16441397368907928,
+            0.41528022289276123
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri265:poly265",
+          "material": "WoodLight",
+          "world_area_m2": 1.2830952485361212e-05,
+          "uv1_area": 1.4341402732043207e-07,
+          "density_px_per_m": 108.25957657410369,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.11358603090047836,
+            0.9047198295593262
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri509:poly509",
+          "material": "WoodLight",
+          "world_area_m2": 1.283120604734237e-05,
+          "uv1_area": 1.4341804677187042e-07,
+          "density_px_per_m": 108.26002395587051,
+          "world_centroid_m": [
+            1.4147868156433105,
+            -0.16441397368907928,
+            0.38471969962120056
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri133:poly133",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831028399004522e-05,
+          "uv1_area": 1.4341804677187042e-07,
+          "density_px_per_m": 108.26077339489227,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.11358603090047836,
+            0.38471972942352295
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri137:poly137",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831008389752993e-05,
+          "uv1_area": 1.4341804677187042e-07,
+          "density_px_per_m": 108.26085780821877,
+          "world_centroid_m": [
+            -1.3852136135101318,
+            -0.1644144505262375,
+            0.38471972942352295
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri163:poly163",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831097214367878e-05,
+          "uv1_area": 1.4342206622330878e-07,
+          "density_px_per_m": 108.26200013403901,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.11358603835105896,
+            0.415280282497406
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri295:poly295",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831097214367878e-05,
+          "uv1_area": 1.4342206622330878e-07,
+          "density_px_per_m": 108.26200013403901,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.11358603835105896,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri505:poly505",
+          "material": "WoodLight",
+          "world_area_m2": 1.283117258637085e-05,
+          "uv1_area": 1.434230008090509e-07,
+          "density_px_per_m": 108.26203489486169,
+          "world_centroid_m": [
+            1.4147868156433105,
+            -0.11358553171157837,
+            0.38471972942352295
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri299:poly299",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831077340420685e-05,
+          "uv1_area": 1.4342206622330878e-07,
+          "density_px_per_m": 108.26208397705481,
+          "world_centroid_m": [
+            -1.414786696434021,
+            -0.1644144505262375,
+            0.9352803230285645
+          ]
+        },
+        {
+          "id": "SM_FenceSegment:tri641:poly641",
+          "material": "WoodLight",
+          "world_area_m2": 1.2831673748232758e-05,
+          "uv1_area": 1.4342917009635414e-07,
+          "density_px_per_m": 108.26224905457623,
+          "world_centroid_m": [
+            1.4147870540618896,
+            -0.16441397368907928,
+            0.9047198295593262
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.17382780002662912,
+  "strict_uv_integrity_passed": true
+}

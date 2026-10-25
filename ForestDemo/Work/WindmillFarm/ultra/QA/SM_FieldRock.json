@@ -1,0 +1,888 @@
+{
+  "mesh": "SM_FieldRock",
+  "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\WindmillFarm\\ultra\\Art\\FinalMeshes\\SM_FieldRock.fbx",
+  "source_before": {
+    "sha256": "e04ae7b807d22676846284d2149dd1800f362a55fddb4479a711752732b14503",
+    "bytes": 21436,
+    "mtime_ns": 1792675274294979400
+  },
+  "source_after": {
+    "sha256": "e04ae7b807d22676846284d2149dd1800f362a55fddb4479a711752732b14503",
+    "bytes": 21436,
+    "mtime_ns": 1792675274294979400
+  },
+  "source_unmodified": true,
+  "object_count": 1,
+  "objects": [
+    {
+      "name": "SM_FieldRock",
+      "vertices": 72,
+      "polygons": 120,
+      "triangles": 120,
+      "uv_layer_names": [
+        "UVMap",
+        "UV1_Density128"
+      ],
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        -0.0,
+        8.742277657347586e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_bbox_min_m": [
+        -0.6572916507720947,
+        -0.4365958273410797,
+        -0.06000000238418579
+      ],
+      "local_bbox_max_m": [
+        0.6948693990707397,
+        0.4365958273410797,
+        0.5
+      ],
+      "materials": [
+        "Stone"
+      ]
+    }
+  ],
+  "triangle_count": 120,
+  "world_bounds_min_m": [
+    -0.6572916507720947,
+    -0.4365958571434021,
+    -0.06000000238418579
+  ],
+  "world_bounds_max_m": [
+    0.6948693990707397,
+    0.4365958571434021,
+    0.5
+  ],
+  "world_dimensions_m": [
+    1.3521610498428345,
+    0.8731917142868042,
+    0.5600000023841858
+  ],
+  "uv_ranges": {
+    "uv0": {
+      "min": [
+        0.0032715778797864914,
+        0.003271587658673525
+      ],
+      "max": [
+        0.905809760093689,
+        0.9967283606529236
+      ]
+    },
+    "uv1": {
+      "min": [
+        0.0015553443226963282,
+        0.0015553489793092012
+      ],
+      "max": [
+        0.43063196539878845,
+        0.4738556742668152
+      ]
+    }
+  },
+  "uv0_within_unit_tile": true,
+  "objects_missing_two_uv_layers": [],
+  "degenerate_triangles": {
+    "world": {
+      "count": 0,
+      "threshold": 1e-12,
+      "examples": []
+    },
+    "uv0": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    },
+    "uv1": {
+      "count": 0,
+      "threshold": 1e-14,
+      "examples": []
+    }
+  },
+  "uv0_overlap": {
+    "method": "Sutherland-Hodgman exact triangle clipping after 128x128 spatial-hash broadphase; shared zero-area edges allowed",
+    "positive_threshold_uv2": 1e-10,
+    "candidate_pairs_clipped": 116,
+    "positive_overlap_pair_count": 0,
+    "maximum_intersection_uv2": 0.0,
+    "maximum_intersection_px2_at_1024": 0.0,
+    "examples": [],
+    "passed": true
+  },
+  "uv1_density": {
+    "valid_triangle_count": 120,
+    "area_m2": 7.655357381782297,
+    "arithmetic_mean_px_per_m": 126.62778141658104,
+    "area_weighted_mean_px_per_m": 127.14506681148737,
+    "minimum_px_per_m": 105.81594073405066,
+    "maximum_px_per_m": 147.93683081216398,
+    "p01_px_per_m": 105.93919431083559,
+    "p05_px_per_m": 106.81441016021245,
+    "median_px_per_m": 125.58559425060587,
+    "p95_px_per_m": 147.8886437582552,
+    "p99_px_per_m": 147.93632026814024,
+    "outside_15percent_target_triangle_count": 34,
+    "outside_15percent_target_area_m2": 1.9881584036539477,
+    "outside_15percent_target_area_fraction": 0.25970811086955037,
+    "outlier_examples": [
+      {
+        "id": "SM_FieldRock:tri96:poly96",
+        "material": "Stone",
+        "world_area_m2": 0.06356152702021828,
+        "uv1_area": 0.0006787293093371005,
+        "density_px_per_m": 105.81594073405066,
+        "world_centroid_m": [
+          -0.17370057106018066,
+          -0.30728423595428467,
+          0.3968134820461273
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri84:poly84",
+        "material": "Stone",
+        "world_area_m2": 0.06356152295649425,
+        "uv1_area": 0.0006787297915347712,
+        "density_px_per_m": 105.81598170468158,
+        "world_centroid_m": [
+          -0.04629933834075928,
+          -0.004484990146011114,
+          0.04318653792142868
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri32:poly32",
+        "material": "Stone",
+        "world_area_m2": 0.04633128373595433,
+        "uv1_area": 0.0005008224702438557,
+        "density_px_per_m": 106.4644691054922,
+        "world_centroid_m": [
+          -0.3137269616127014,
+          0.1558845341205597,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri25:poly25",
+        "material": "Stone",
+        "world_area_m2": 0.04633128436412174,
+        "uv1_area": 0.0005008224799933174,
+        "density_px_per_m": 106.46446942002719,
+        "world_centroid_m": [
+          0.5337269306182861,
+          0.15588466823101044,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri104:poly104",
+        "material": "Stone",
+        "world_area_m2": 0.07034128077301267,
+        "uv1_area": 0.0007645750293017173,
+        "density_px_per_m": 106.75909308641333,
+        "world_centroid_m": [
+          0.18060728907585144,
+          -0.004484940320253372,
+          0.04318653792142868
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri116:poly116",
+        "material": "Stone",
+        "world_area_m2": 0.07034127632518085,
+        "uv1_area": 0.0007645752496097113,
+        "density_px_per_m": 106.7591118427335,
+        "world_centroid_m": [
+          0.039392780512571335,
+          -0.3072841763496399,
+          0.3968134820461273
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri5:poly5",
+        "material": "Stone",
+        "world_area_m2": 0.046209595405097705,
+        "uv1_area": 0.0005028235531423508,
+        "density_px_per_m": 106.8173205979745,
+        "world_centroid_m": [
+          0.634406328201294,
+          1.1997113347206323e-07,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri12:poly12",
+        "material": "Stone",
+        "world_area_m2": 0.04620959540509831,
+        "uv1_area": 0.0005028239255852607,
+        "density_px_per_m": 106.81736015792092,
+        "world_centroid_m": [
+          -0.19440627098083496,
+          -3.476937848745365e-08,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri64:poly64",
+        "material": "Stone",
+        "world_area_m2": 0.07257671007299288,
+        "uv1_area": 0.0007928518349440417,
+        "density_px_per_m": 107.02798168744513,
+        "world_centroid_m": [
+          -0.1471177041530609,
+          0.15139958262443542,
+          0.04318653792142868
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri76:poly76",
+        "material": "Stone",
+        "world_area_m2": 0.07257670205283544,
+        "uv1_area": 0.0007928521494044993,
+        "density_px_per_m": 107.028008825748,
+        "world_centroid_m": [
+          -0.2928823232650757,
+          -0.1513996422290802,
+          0.3968134820461273
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri56:poly56",
+        "material": "Stone",
+        "world_area_m2": 0.07440302026836712,
+        "uv1_area": 0.000815945034835508,
+        "density_px_per_m": 107.2346468675794,
+        "world_centroid_m": [
+          -0.1847403347492218,
+          0.004484936594963074,
+          0.3968134820461273
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri44:poly44",
+        "material": "Stone",
+        "world_area_m2": 0.07440302408222224,
+        "uv1_area": 0.0008159461420160774,
+        "density_px_per_m": 107.2347168741331,
+        "world_centroid_m": [
+          -0.03525971621274948,
+          0.3072841763496399,
+          0.04318653792142868
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri52:poly52",
+        "material": "Stone",
+        "world_area_m2": 0.04591878845004723,
+        "uv1_area": 0.0005077758748004181,
+        "density_px_per_m": 107.68142093179554,
+        "world_centroid_m": [
+          -0.5013416409492493,
+          0.1558845043182373,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri45:poly45",
+        "material": "Stone",
+        "world_area_m2": 0.04591879177755454,
+        "uv1_area": 0.0005077763715911621,
+        "density_px_per_m": 107.68146970614151,
+        "world_centroid_m": [
+          0.2813416123390198,
+          0.15588462352752686,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri4:poly4",
+        "material": "Stone",
+        "world_area_m2": 0.07873510223911051,
+        "uv1_area": 0.0008706967750122946,
+        "density_px_per_m": 107.68351583395192,
+        "world_centroid_m": [
+          0.29914534091949463,
+          0.1513996571302414,
+          0.04318653792142868
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri16:poly16",
+        "material": "Stone",
+        "world_area_m2": 0.07873509780340185,
+        "uv1_area": 0.0008706967345022409,
+        "density_px_per_m": 107.68351636219877,
+        "world_centroid_m": [
+          0.14085471630096436,
+          -0.15139958262443542,
+          0.3968134820461273
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri36:poly36",
+        "material": "Stone",
+        "world_area_m2": 0.08048651791180866,
+        "uv1_area": 0.0008928219900964374,
+        "density_px_per_m": 107.85016810121567,
+        "world_centroid_m": [
+          0.029074545949697495,
+          0.004484986420720816,
+          0.3968134820461273
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri24:poly24",
+        "material": "Stone",
+        "world_area_m2": 0.08048651985540232,
+        "uv1_area": 0.0008928221939470404,
+        "density_px_per_m": 107.85017911129337,
+        "world_centroid_m": [
+          0.19092540442943573,
+          0.30728423595428467,
+          0.04318653792142868
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri72:poly72",
+        "material": "Stone",
+        "world_area_m2": 0.04580060237852643,
+        "uv1_area": 0.000509864759184353,
+        "density_px_per_m": 108.04181203221711,
+        "world_centroid_m": [
+          -0.6016131639480591,
+          -9.934107936260261e-08,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri65:poly65",
+        "material": "Stone",
+        "world_area_m2": 0.045800599519017896,
+        "uv1_area": 0.0005098656187937194,
+        "density_px_per_m": 108.04190648176674,
+        "world_centroid_m": [
+          0.16161313652992249,
+          3.253237679246013e-08,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri112:poly112",
+        "material": "Stone",
+        "world_area_m2": 0.045659532221320145,
+        "uv1_area": 0.000512422980266436,
+        "density_px_per_m": 108.47971279523311,
+        "world_centroid_m": [
+          -0.25970086455345154,
+          -0.15588462352752686,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri105:poly105",
+        "material": "Stone",
+        "world_area_m2": 0.04565952903427135,
+        "uv1_area": 0.0005124235080815609,
+        "density_px_per_m": 108.47977245029026,
+        "world_centroid_m": [
+          0.47970089316368103,
+          -0.1558845043182373,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri70:poly70",
+        "material": "Stone",
+        "world_area_m2": 0.053639022545287574,
+        "uv1_area": 0.0011195243999071736,
+        "density_px_per_m": 147.93683081216398,
+        "world_centroid_m": [
+          0.0887308344244957,
+          -0.15139958262443542,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri68:poly68",
+        "material": "Stone",
+        "world_area_m2": 0.05363902308787446,
+        "uv1_area": 0.001119523477564499,
+        "density_px_per_m": 147.93676912355687,
+        "world_centroid_m": [
+          -0.5287308692932129,
+          0.15139952301979065,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri50:poly50",
+        "material": "Stone",
+        "world_area_m2": 0.054423426926614484,
+        "uv1_area": 0.0011358588348225895,
+        "density_px_per_m": 147.93440672662726,
+        "world_centroid_m": [
+          0.2066013067960739,
+          0.004485011100769043,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri48:poly48",
+        "material": "Stone",
+        "world_area_m2": 0.054423416899739986,
+        "uv1_area": 0.0011358584934212743,
+        "density_px_per_m": 147.93439812213373,
+        "world_centroid_m": [
+          -0.4266013503074646,
+          0.3072841167449951,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri110:poly110",
+        "material": "Stone",
+        "world_area_m2": 0.05269021734098198,
+        "uv1_area": 0.0010995232947978995,
+        "density_px_per_m": 147.92350170989624,
+        "world_centroid_m": [
+          0.4090936779975891,
+          -0.3072841167449951,
+          0.2617400884628296
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri108:poly108",
+        "material": "Stone",
+        "world_area_m2": 0.05269022396927014,
+        "uv1_area": 0.001099522671522024,
+        "density_px_per_m": 147.92345047973888,
+        "world_centroid_m": [
+          -0.18909361958503723,
+          -0.004485010169446468,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri8:poly8",
+        "material": "Stone",
+        "world_area_m2": 0.05631515570341446,
+        "uv1_area": 0.001174584508849108,
+        "density_px_per_m": 147.88681182554552,
+        "world_centroid_m": [
+          -0.11526095867156982,
+          0.15139958262443542,
+          0.178259938955307
+        ]
+      },
+      {
+        "id": "SM_FieldRock:tri10:poly10",
+        "material": "Stone",
+        "world_area_m2": 0.056315158804231207,
+        "uv1_area": 0.0011745843362973019,
+        "density_px_per_m": 147.88679689146215,
+        "world_centroid_m": [
+          0.5552610158920288,
+          -0.15139950811862946,
+          0.2617400884628296
+        ]
+      }
+    ]
+  },
+  "uv1_density_by_material": {
+    "Stone": {
+      "valid_triangle_count": 120,
+      "area_m2": 7.655357381782297,
+      "arithmetic_mean_px_per_m": 126.62778141658104,
+      "area_weighted_mean_px_per_m": 127.14506681148737,
+      "minimum_px_per_m": 105.81594073405066,
+      "maximum_px_per_m": 147.93683081216398,
+      "p01_px_per_m": 105.93919431083559,
+      "p05_px_per_m": 106.81441016021245,
+      "median_px_per_m": 125.58559425060587,
+      "p95_px_per_m": 147.8886437582552,
+      "p99_px_per_m": 147.93632026814024,
+      "outside_15percent_target_triangle_count": 34,
+      "outside_15percent_target_area_m2": 1.9881584036539477,
+      "outside_15percent_target_area_fraction": 0.25970811086955037,
+      "outlier_examples": [
+        {
+          "id": "SM_FieldRock:tri96:poly96",
+          "material": "Stone",
+          "world_area_m2": 0.06356152702021828,
+          "uv1_area": 0.0006787293093371005,
+          "density_px_per_m": 105.81594073405066,
+          "world_centroid_m": [
+            -0.17370057106018066,
+            -0.30728423595428467,
+            0.3968134820461273
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri84:poly84",
+          "material": "Stone",
+          "world_area_m2": 0.06356152295649425,
+          "uv1_area": 0.0006787297915347712,
+          "density_px_per_m": 105.81598170468158,
+          "world_centroid_m": [
+            -0.04629933834075928,
+            -0.004484990146011114,
+            0.04318653792142868
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri32:poly32",
+          "material": "Stone",
+          "world_area_m2": 0.04633128373595433,
+          "uv1_area": 0.0005008224702438557,
+          "density_px_per_m": 106.4644691054922,
+          "world_centroid_m": [
+            -0.3137269616127014,
+            0.1558845341205597,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri25:poly25",
+          "material": "Stone",
+          "world_area_m2": 0.04633128436412174,
+          "uv1_area": 0.0005008224799933174,
+          "density_px_per_m": 106.46446942002719,
+          "world_centroid_m": [
+            0.5337269306182861,
+            0.15588466823101044,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri104:poly104",
+          "material": "Stone",
+          "world_area_m2": 0.07034128077301267,
+          "uv1_area": 0.0007645750293017173,
+          "density_px_per_m": 106.75909308641333,
+          "world_centroid_m": [
+            0.18060728907585144,
+            -0.004484940320253372,
+            0.04318653792142868
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri116:poly116",
+          "material": "Stone",
+          "world_area_m2": 0.07034127632518085,
+          "uv1_area": 0.0007645752496097113,
+          "density_px_per_m": 106.7591118427335,
+          "world_centroid_m": [
+            0.039392780512571335,
+            -0.3072841763496399,
+            0.3968134820461273
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri5:poly5",
+          "material": "Stone",
+          "world_area_m2": 0.046209595405097705,
+          "uv1_area": 0.0005028235531423508,
+          "density_px_per_m": 106.8173205979745,
+          "world_centroid_m": [
+            0.634406328201294,
+            1.1997113347206323e-07,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri12:poly12",
+          "material": "Stone",
+          "world_area_m2": 0.04620959540509831,
+          "uv1_area": 0.0005028239255852607,
+          "density_px_per_m": 106.81736015792092,
+          "world_centroid_m": [
+            -0.19440627098083496,
+            -3.476937848745365e-08,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri64:poly64",
+          "material": "Stone",
+          "world_area_m2": 0.07257671007299288,
+          "uv1_area": 0.0007928518349440417,
+          "density_px_per_m": 107.02798168744513,
+          "world_centroid_m": [
+            -0.1471177041530609,
+            0.15139958262443542,
+            0.04318653792142868
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri76:poly76",
+          "material": "Stone",
+          "world_area_m2": 0.07257670205283544,
+          "uv1_area": 0.0007928521494044993,
+          "density_px_per_m": 107.028008825748,
+          "world_centroid_m": [
+            -0.2928823232650757,
+            -0.1513996422290802,
+            0.3968134820461273
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri56:poly56",
+          "material": "Stone",
+          "world_area_m2": 0.07440302026836712,
+          "uv1_area": 0.000815945034835508,
+          "density_px_per_m": 107.2346468675794,
+          "world_centroid_m": [
+            -0.1847403347492218,
+            0.004484936594963074,
+            0.3968134820461273
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri44:poly44",
+          "material": "Stone",
+          "world_area_m2": 0.07440302408222224,
+          "uv1_area": 0.0008159461420160774,
+          "density_px_per_m": 107.2347168741331,
+          "world_centroid_m": [
+            -0.03525971621274948,
+            0.3072841763496399,
+            0.04318653792142868
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri52:poly52",
+          "material": "Stone",
+          "world_area_m2": 0.04591878845004723,
+          "uv1_area": 0.0005077758748004181,
+          "density_px_per_m": 107.68142093179554,
+          "world_centroid_m": [
+            -0.5013416409492493,
+            0.1558845043182373,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri45:poly45",
+          "material": "Stone",
+          "world_area_m2": 0.04591879177755454,
+          "uv1_area": 0.0005077763715911621,
+          "density_px_per_m": 107.68146970614151,
+          "world_centroid_m": [
+            0.2813416123390198,
+            0.15588462352752686,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri4:poly4",
+          "material": "Stone",
+          "world_area_m2": 0.07873510223911051,
+          "uv1_area": 0.0008706967750122946,
+          "density_px_per_m": 107.68351583395192,
+          "world_centroid_m": [
+            0.29914534091949463,
+            0.1513996571302414,
+            0.04318653792142868
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri16:poly16",
+          "material": "Stone",
+          "world_area_m2": 0.07873509780340185,
+          "uv1_area": 0.0008706967345022409,
+          "density_px_per_m": 107.68351636219877,
+          "world_centroid_m": [
+            0.14085471630096436,
+            -0.15139958262443542,
+            0.3968134820461273
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri36:poly36",
+          "material": "Stone",
+          "world_area_m2": 0.08048651791180866,
+          "uv1_area": 0.0008928219900964374,
+          "density_px_per_m": 107.85016810121567,
+          "world_centroid_m": [
+            0.029074545949697495,
+            0.004484986420720816,
+            0.3968134820461273
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri24:poly24",
+          "material": "Stone",
+          "world_area_m2": 0.08048651985540232,
+          "uv1_area": 0.0008928221939470404,
+          "density_px_per_m": 107.85017911129337,
+          "world_centroid_m": [
+            0.19092540442943573,
+            0.30728423595428467,
+            0.04318653792142868
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri72:poly72",
+          "material": "Stone",
+          "world_area_m2": 0.04580060237852643,
+          "uv1_area": 0.000509864759184353,
+          "density_px_per_m": 108.04181203221711,
+          "world_centroid_m": [
+            -0.6016131639480591,
+            -9.934107936260261e-08,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri65:poly65",
+          "material": "Stone",
+          "world_area_m2": 0.045800599519017896,
+          "uv1_area": 0.0005098656187937194,
+          "density_px_per_m": 108.04190648176674,
+          "world_centroid_m": [
+            0.16161313652992249,
+            3.253237679246013e-08,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri112:poly112",
+          "material": "Stone",
+          "world_area_m2": 0.045659532221320145,
+          "uv1_area": 0.000512422980266436,
+          "density_px_per_m": 108.47971279523311,
+          "world_centroid_m": [
+            -0.25970086455345154,
+            -0.15588462352752686,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri105:poly105",
+          "material": "Stone",
+          "world_area_m2": 0.04565952903427135,
+          "uv1_area": 0.0005124235080815609,
+          "density_px_per_m": 108.47977245029026,
+          "world_centroid_m": [
+            0.47970089316368103,
+            -0.1558845043182373,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri70:poly70",
+          "material": "Stone",
+          "world_area_m2": 0.053639022545287574,
+          "uv1_area": 0.0011195243999071736,
+          "density_px_per_m": 147.93683081216398,
+          "world_centroid_m": [
+            0.0887308344244957,
+            -0.15139958262443542,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri68:poly68",
+          "material": "Stone",
+          "world_area_m2": 0.05363902308787446,
+          "uv1_area": 0.001119523477564499,
+          "density_px_per_m": 147.93676912355687,
+          "world_centroid_m": [
+            -0.5287308692932129,
+            0.15139952301979065,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri50:poly50",
+          "material": "Stone",
+          "world_area_m2": 0.054423426926614484,
+          "uv1_area": 0.0011358588348225895,
+          "density_px_per_m": 147.93440672662726,
+          "world_centroid_m": [
+            0.2066013067960739,
+            0.004485011100769043,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri48:poly48",
+          "material": "Stone",
+          "world_area_m2": 0.054423416899739986,
+          "uv1_area": 0.0011358584934212743,
+          "density_px_per_m": 147.93439812213373,
+          "world_centroid_m": [
+            -0.4266013503074646,
+            0.3072841167449951,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri110:poly110",
+          "material": "Stone",
+          "world_area_m2": 0.05269021734098198,
+          "uv1_area": 0.0010995232947978995,
+          "density_px_per_m": 147.92350170989624,
+          "world_centroid_m": [
+            0.4090936779975891,
+            -0.3072841167449951,
+            0.2617400884628296
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri108:poly108",
+          "material": "Stone",
+          "world_area_m2": 0.05269022396927014,
+          "uv1_area": 0.001099522671522024,
+          "density_px_per_m": 147.92345047973888,
+          "world_centroid_m": [
+            -0.18909361958503723,
+            -0.004485010169446468,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri8:poly8",
+          "material": "Stone",
+          "world_area_m2": 0.05631515570341446,
+          "uv1_area": 0.001174584508849108,
+          "density_px_per_m": 147.88681182554552,
+          "world_centroid_m": [
+            -0.11526095867156982,
+            0.15139958262443542,
+            0.178259938955307
+          ]
+        },
+        {
+          "id": "SM_FieldRock:tri10:poly10",
+          "material": "Stone",
+          "world_area_m2": 0.056315158804231207,
+          "uv1_area": 0.0011745843362973019,
+          "density_px_per_m": 147.88679689146215,
+          "world_centroid_m": [
+            0.5552610158920288,
+            -0.15139950811862946,
+            0.2617400884628296
+          ]
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.14855829998850822,
+  "strict_uv_integrity_passed": true
+}

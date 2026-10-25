@@ -1,0 +1,385 @@
+{
+  "theme": "WindmillFarm",
+  "effort": "ultra",
+  "started_at_utc": "2026-10-22T13:13:08.577662+00:00",
+  "blender_version": "4.5.12 LTS",
+  "units": "metres",
+  "up": "Z",
+  "front": "-Y",
+  "rotor_spin_axis": "local Y",
+  "source_assets": "None. All geometry authored independently by this script.",
+  "export_settings": {
+    "global_scale": 1,
+    "apply_unit_scale": true,
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "bake_space_transform": false,
+    "use_selection": true,
+    "add_leaf_bones": false,
+    "embed_textures": false
+  },
+  "assembly_offsets_m": {
+    "SM_MillTower": [
+      0,
+      0,
+      0
+    ],
+    "SM_MillRotor": [
+      0,
+      -3.95,
+      9.2
+    ],
+    "SM_MillSteps": [
+      0,
+      0,
+      0
+    ]
+  },
+  "assembly_rotation_degrees": {
+    "SM_MillTower": [
+      0,
+      0,
+      0
+    ],
+    "SM_MillRotor": [
+      0,
+      0,
+      0
+    ],
+    "SM_MillSteps": [
+      0,
+      0,
+      0
+    ]
+  },
+  "source_component_counts": {
+    "tower_components": 797,
+    "rotor_components": 259,
+    "steps_components": 12
+  },
+  "assets": [
+    {
+      "name": "SM_MillTower",
+      "vertices": 57942,
+      "triangles": 112724,
+      "surface_area_m2": 834.0649663785374,
+      "bounds_local_m": {
+        "min": [
+          -3.619469165802002,
+          -4.019999980926514,
+          0.0
+        ],
+        "max": [
+          3.619469165802002,
+          3.619469165802002,
+          12.629999160766602
+        ]
+      },
+      "material_slots": [
+        "Stone",
+        "Plaster",
+        "Wood",
+        "Iron",
+        "WoodLight",
+        "Roof",
+        "Glass"
+      ],
+      "uv_layer": "UV0",
+      "target_texture_resolution": 1024,
+      "target_texel_density_px_per_m": 128,
+      "actual_density_px_per_m": {
+        "min": 0.0,
+        "median": 33.820236987144526,
+        "max": 1435.8231277013017
+      },
+      "degenerate_uv_triangles": 93,
+      "uv_coordinates_outside_01": 7689,
+      "material_surface_statistics": {
+        "Stone": {
+          "area_m2": 201.66596202608542,
+          "uv_area": 0.4267683474057126,
+          "triangles": 19464,
+          "density_px_per_m": {
+            "min": 0.0,
+            "median": 46.38234368149327,
+            "max": 70.47881510728179,
+            "area_weighted_equivalent": 47.10638269405924
+          }
+        },
+        "Plaster": {
+          "area_m2": 191.77722126047627,
+          "uv_area": 191.82702367987525,
+          "triangles": 2563,
+          "density_px_per_m": {
+            "min": 0.0,
+            "median": 1025.5556210252175,
+            "max": 1435.8231277013017,
+            "area_weighted_equivalent": 1024.132952095865
+          }
+        },
+        "Wood": {
+          "area_m2": 145.90071309367522,
+          "uv_area": 0.14860057087214001,
+          "triangles": 22328,
+          "density_px_per_m": {
+            "min": 25.79223632655254,
+            "median": 32.49593912919171,
+            "max": 33.82194180841714,
+            "area_weighted_equivalent": 32.6799578936708
+          }
+        },
+        "Iron": {
+          "area_m2": 17.8721860136975,
+          "uv_area": 0.7840539015857844,
+          "triangles": 5156,
+          "density_px_per_m": {
+            "min": 173.8443299779644,
+            "median": 208.8494788501236,
+            "max": 217.3610707774789,
+            "area_weighted_equivalent": 214.47865564260226
+          }
+        },
+        "WoodLight": {
+          "area_m2": 110.64372642892226,
+          "uv_area": 0.16666054672466007,
+          "triangles": 26574,
+          "density_px_per_m": {
+            "min": 0.0,
+            "median": 38.974451258366486,
+            "max": 40.56374159653962,
+            "area_weighted_equivalent": 39.74229663980112
+          }
+        },
+        "Roof": {
+          "area_m2": 158.59179993196176,
+          "uv_area": 0.11033752904986538,
+          "triangles": 35324,
+          "density_px_per_m": {
+            "min": 20.664773300262542,
+            "median": 27.871096507246293,
+            "max": 30.685289487660874,
+            "area_weighted_equivalent": 27.009790743493014
+          }
+        },
+        "Glass": {
+          "area_m2": 7.613357623718912,
+          "uv_area": 0.8044256420529037,
+          "triangles": 1280,
+          "density_px_per_m": {
+            "min": 276.9458858898316,
+            "median": 322.2049231109653,
+            "max": 335.22145984108425,
+            "area_weighted_equivalent": 332.8547771198612
+          }
+        }
+      },
+      "uv_overlap": {
+        "Stone": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Plaster": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Wood": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Iron": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "WoodLight": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Roof": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Glass": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        }
+      },
+      "uv_padding_fraction": 0.004,
+      "uv_padding_nominal_px_at_1024": 4.096,
+      "uv_note": "Unique Smart Project islands packed in 0..1 independently per material. Plaster recess triangles use intrinsic per-face planar islands after Smart Project to prevent narrow-cut collapses. Cross-material UV domains intentionally reused. No intentional overlap within a material. At 1024 resolution large material surfaces fall below 128px/m; measured exceptions are provided per slot."
+    },
+    {
+      "name": "SM_MillRotor",
+      "vertices": 14824,
+      "triangles": 28612,
+      "surface_area_m2": 98.73913788700702,
+      "bounds_local_m": {
+        "min": [
+          -5.6773271560668945,
+          -0.42500001192092896,
+          -5.6773271560668945
+        ],
+        "max": [
+          5.6773271560668945,
+          0.20500002801418304,
+          5.6773271560668945
+        ]
+      },
+      "material_slots": [
+        "Wood",
+        "WoodLight",
+        "Canvas",
+        "Iron"
+      ],
+      "uv_layer": "UV0",
+      "target_texture_resolution": 1024,
+      "target_texel_density_px_per_m": 128,
+      "actual_density_px_per_m": {
+        "min": 91.94869036460759,
+        "median": 139.99128832259575,
+        "max": 509.99964109594544
+      },
+      "degenerate_uv_triangles": 0,
+      "uv_coordinates_outside_01": 0,
+      "material_surface_statistics": {
+        "Wood": {
+          "area_m2": 28.347133003358977,
+          "uv_area": 0.6497303438539648,
+          "triangles": 8428,
+          "density_px_per_m": {
+            "min": 124.7688176295428,
+            "median": 145.71241730846347,
+            "max": 158.59464799391702,
+            "area_weighted_equivalent": 155.02864844145506
+          }
+        },
+        "WoodLight": {
+          "area_m2": 40.99913040009051,
+          "uv_area": 0.3643261132343669,
+          "triangles": 7344,
+          "density_px_per_m": {
+            "min": 91.94869036460759,
+            "median": 93.93126850832749,
+            "max": 97.72655052418101,
+            "area_weighted_equivalent": 96.52899492489502
+          }
+        },
+        "Canvas": {
+          "area_m2": 26.204858190503728,
+          "uv_area": 0.5205033528253579,
+          "triangles": 8128,
+          "density_px_per_m": {
+            "min": 136.2126106254263,
+            "median": 139.9854386501766,
+            "max": 145.67792472314733,
+            "area_weighted_equivalent": 144.31810425911073
+          }
+        },
+        "Iron": {
+          "area_m2": 3.1880162930538063,
+          "uv_area": 0.7147092264711973,
+          "triangles": 4712,
+          "density_px_per_m": {
+            "min": 330.2580798808095,
+            "median": 489.7650109480533,
+            "max": 509.99964109594544,
+            "area_weighted_equivalent": 484.84663388501366
+          }
+        }
+      },
+      "uv_overlap": {
+        "Wood": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "WoodLight": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Canvas": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        },
+        "Iron": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        }
+      },
+      "uv_padding_fraction": 0.004,
+      "uv_padding_nominal_px_at_1024": 4.096,
+      "uv_note": "Unique Smart Project islands packed in 0..1 independently per material. Plaster recess triangles use intrinsic per-face planar islands after Smart Project to prevent narrow-cut collapses. Cross-material UV domains intentionally reused. No intentional overlap within a material. At 1024 resolution large material surfaces fall below 128px/m; measured exceptions are provided per slot."
+    },
+    {
+      "name": "SM_MillSteps",
+      "vertices": 672,
+      "triangles": 1296,
+      "surface_area_m2": 8.899074841407128,
+      "bounds_local_m": {
+        "min": [
+          -1.1100000143051147,
+          -4.389999866485596,
+          0.0
+        ],
+        "max": [
+          1.1099998950958252,
+          -3.190000057220459,
+          0.25999999046325684
+        ]
+      },
+      "material_slots": [
+        "Stone"
+      ],
+      "uv_layer": "UV0",
+      "target_texture_resolution": 1024,
+      "target_texel_density_px_per_m": 128,
+      "actual_density_px_per_m": {
+        "min": 295.7411323417272,
+        "median": 301.9211451346017,
+        "max": 314.113667482093
+      },
+      "degenerate_uv_triangles": 0,
+      "uv_coordinates_outside_01": 0,
+      "material_surface_statistics": {
+        "Stone": {
+          "area_m2": 8.899074841407128,
+          "uv_area": 0.814578928165206,
+          "triangles": 1296,
+          "density_px_per_m": {
+            "min": 295.7411323417272,
+            "median": 301.9211451346017,
+            "max": 314.113667482093,
+            "area_weighted_equivalent": 309.80905907045354
+          }
+        }
+      },
+      "uv_overlap": {
+        "Stone": {
+          "overlapping_triangle_pairs": 0,
+          "examples": [],
+          "method": "exact convex triangle clipping, area threshold 1e-10, per material; shared borders excluded"
+        }
+      },
+      "uv_padding_fraction": 0.004,
+      "uv_padding_nominal_px_at_1024": 4.096,
+      "uv_note": "Unique Smart Project islands packed in 0..1 independently per material. Plaster recess triangles use intrinsic per-face planar islands after Smart Project to prevent narrow-cut collapses. Cross-material UV domains intentionally reused. No intentional overlap within a material. At 1024 resolution large material surfaces fall below 128px/m; measured exceptions are provided per slot."
+    }
+  ],
+  "limitations": [
+    "No Unreal import, collision or in-engine render performed by this asset task. Parent handles these checks.",
+    "Arch and window openings are shallow facade recesses, not traversable building interiors.",
+    "Static mesh only; independent rotor pivot supports parent animation if desired."
+  ],
+  "finished_at_utc": "2026-10-22T13:14:27.989233+00:00",
+  "elapsed_seconds": 79.411571,
+  "preview": "windmill_source_preview.png \u2014 Blender source-art QA only, not Unreal scene evidence."
+}
