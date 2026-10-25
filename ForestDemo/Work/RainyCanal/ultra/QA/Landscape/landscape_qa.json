@@ -1,0 +1,2130 @@
+{
+  "started_at_utc": "2026-10-22T15:45:40.402873+00:00",
+  "blender_version": "5.2.0 LTS",
+  "method": "Separate background Blender factory-startup process. Reset to empty scene before each independent FBX import. No source execution or scene editing.",
+  "source_manifest_sha256": "3825b0d98c40e13ae17d2b194862d5acfefbf2ee7983ceb656bcad456b5d8815",
+  "source_blend_sha256": "2bdf3b373e6b2071b5e4e2fa3f7bae5aeb7a91fd53db9c66700ced991e0707f5",
+  "changed_fbx_since_previous_audit": [
+    "SM_QuayWall"
+  ],
+  "superseding_manifests": [
+    {
+      "file": "dock_ramp.json",
+      "sha256": "b5602d27f1a286652fd0d24be27f67eac54fca726a6d9e48ed9c7235c503b992"
+    },
+    {
+      "file": "wall_notch.json",
+      "sha256": "0ef106c0d98536a98c2faf7f0065f497dddb77029591011da6ecaa7a03a8074e"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_BankWest",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_BankWest.fbx",
+      "file_sha256": "0f7ace22d98ff61a4768f114983882da2a1b97e764d07c4f5d9f551b0eb1556d",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Ground"
+      ],
+      "world_bounds_m": [
+        [
+          -50.000003814697266,
+          -50.000003814697266,
+          0.0
+        ],
+        [
+          -5.999995708465576,
+          50.0,
+          0.0
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -50.0,
+          -50.0,
+          0.0
+        ],
+        [
+          -6.0,
+          50.0,
+          0.0
+        ]
+      ],
+      "max_world_bounds_error_m": 4.291534423828125e-06,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        44.0,
+        100.0,
+        0.0
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999758291244506,
+        "50": 2.099987745285034,
+        "99": 2.099999661445618,
+        "100": 2.0999999046325684
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 128.0,
+        "1": 128.00000007771044,
+        "50": 128.0000038855217,
+        "99": 128.00000769333295,
+        "100": 128.00000777104339
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 3.6637359812630166e-15,
+        "1": 3.6637359812630166e-15,
+        "50": 3.248785107601293e-08,
+        "99": 8.450054970188248e-08,
+        "100": 8.544921237252368e-08
+      }
+    },
+    {
+      "name": "SM_BankEast",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_BankEast.fbx",
+      "file_sha256": "74b25d0bc42fc749a2e41baa0d282a53388c98f3016ed11587366429be0133c2",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Ground"
+      ],
+      "world_bounds_m": [
+        [
+          5.999995708465576,
+          -50.0,
+          0.0
+        ],
+        [
+          50.000003814697266,
+          50.000003814697266,
+          0.0
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          6.0,
+          -50.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          0.0
+        ]
+      ],
+      "max_world_bounds_error_m": 4.291534423828125e-06,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        44.0,
+        100.0,
+        0.0
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999758291244506,
+        "50": 2.099987745285034,
+        "99": 2.099999661445618,
+        "100": 2.0999999046325684
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 128.0,
+        "1": 128.00000007771044,
+        "50": 128.0000038855217,
+        "99": 128.00000769333295,
+        "100": 128.00000777104339
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 2.886579864025407e-15,
+        "1": 2.9254376698872876e-15,
+        "50": 3.248785107601293e-08,
+        "99": 8.450054885811298e-08,
+        "100": 8.544921148434526e-08
+      }
+    },
+    {
+      "name": "SM_CanalWater",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_CanalWater.fbx",
+      "file_sha256": "fa9280425af98096dd21b5cb498ef4bd76d7028466bee63888395d658e98fdb4",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "CanalWater"
+      ],
+      "world_bounds_m": [
+        [
+          -6.000004291534424,
+          -50.0,
+          0.0
+        ],
+        [
+          6.000004291534424,
+          50.0,
+          0.0
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -6.0,
+          -50.0,
+          0.0
+        ],
+        [
+          6.0,
+          50.0,
+          0.0
+        ]
+      ],
+      "max_world_bounds_error_m": 4.291534423828125e-06,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        12.0,
+        100.0,
+        0.0
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999758291244506,
+        "50": 2.099987745285034,
+        "99": 2.099999661445618,
+        "100": 2.0999999046325684
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99998806706922,
+        "1": 127.99998818639854,
+        "50": 127.99999403353462,
+        "99": 127.99999988067069,
+        "100": 128.0
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 1.8318679906315084e-16,
+        "50": 4.8134984054204466e-08,
+        "99": 1.0962692528204699e-07,
+        "100": 1.0986329102014025e-07
+      }
+    },
+    {
+      "name": "SM_CanalBed",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_CanalBed.fbx",
+      "file_sha256": "bbd93bd6e9446a5dca0f0f4c9977678f9f7ab07b5feedaf8311e02c9c4e7ccc4",
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Stone"
+      ],
+      "world_bounds_m": [
+        [
+          -6.000004291534424,
+          -50.0,
+          -1.9499999284744263
+        ],
+        [
+          6.000004291534424,
+          50.0,
+          -1.649999976158142
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -6.0,
+          -50.0,
+          -1.9499999582767487
+        ],
+        [
+          6.0,
+          50.0,
+          -1.6499999463558197
+        ]
+      ],
+      "max_world_bounds_error_m": 4.291534423828125e-06,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        -1.7999999523162842
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.7999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        12.0,
+        100.0,
+        0.30000001192092896
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999755859375,
+        "50": 2.0999755859375,
+        "99": 2.100005421638489,
+        "100": 2.100006103515625
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99998806706922,
+        "1": 127.99998806706922,
+        "50": 128.00001154581867,
+        "99": 128.0000157949572,
+        "100": 128.0000157949572
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 2.0010704038231353e-08,
+        "99": 2.1910741887509744e-07,
+        "100": 2.1910741887509744e-07
+      }
+    },
+    {
+      "name": "SM_QuayWall",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_QuayWall.fbx",
+      "file_sha256": "49bc8d314f17727b01f083523ff08d074d91d1660c2199f136264abd3dc94479",
+      "vertices": 24,
+      "triangles": 44,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Stone"
+      ],
+      "world_bounds_m": [
+        [
+          -0.32500436902046204,
+          -50.0,
+          -2.0
+        ],
+        [
+          0.32500436902046204,
+          50.0,
+          0.10000000149011612
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -0.325,
+          -50,
+          -2
+        ],
+        [
+          0.325,
+          50,
+          0.1
+        ]
+      ],
+      "max_world_bounds_error_m": 4.369020462025031e-06,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        0.6499999761581421,
+        100.0,
+        2.0999999046325684
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999755859375,
+        "50": 2.099993024553555,
+        "99": 2.1000067138671827,
+        "100": 2.1000104631696104
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99999185449207,
+        "1": 127.999993422322,
+        "50": 128.00000180236353,
+        "99": 128.00001280871226,
+        "100": 128.00001280871226
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 2.885596206425589e-09,
+        "99": 1.214986809627838e-07,
+        "100": 1.6856460582914679e-07
+      },
+      "wall_notch_validation": {
+        "replacement_manifest": "wall_notch.json",
+        "replacement_manifest_sha256": "0ef106c0d98536a98c2faf7f0065f497dddb77029591011da6ecaa7a03a8074e",
+        "manifest_override_note": "SM_QuayWall entry in original manifest.json is superseded by wall_notch.json.",
+        "measured_sections": [
+          {
+            "y_m": -50,
+            "vertex_count": 4,
+            "measured_top_z_m": 0.10000000149011612,
+            "expected_top_z_m": 0.1,
+            "top_error_m": 1.4901161138336505e-09,
+            "measured_bottom_z_m": -2.0,
+            "bottom_error_m": 0.0
+          },
+          {
+            "y_m": 25.8,
+            "vertex_count": 4,
+            "measured_top_z_m": 0.10000000149011612,
+            "expected_top_z_m": 0.1,
+            "top_error_m": 1.4901161138336505e-09,
+            "measured_bottom_z_m": -2.0,
+            "bottom_error_m": 0.0
+          },
+          {
+            "y_m": 26,
+            "vertex_count": 4,
+            "measured_top_z_m": -0.11999999731779099,
+            "expected_top_z_m": -0.12,
+            "top_error_m": 2.682209010451686e-09,
+            "measured_bottom_z_m": -2.0,
+            "bottom_error_m": 0.0
+          },
+          {
+            "y_m": 30,
+            "vertex_count": 4,
+            "measured_top_z_m": -0.11999999731779099,
+            "expected_top_z_m": -0.12,
+            "top_error_m": 2.682209010451686e-09,
+            "measured_bottom_z_m": -2.0,
+            "bottom_error_m": 0.0
+          },
+          {
+            "y_m": 30.2,
+            "vertex_count": 4,
+            "measured_top_z_m": 0.10000000149011612,
+            "expected_top_z_m": 0.1,
+            "top_error_m": 1.4901161138336505e-09,
+            "measured_bottom_z_m": -2.0,
+            "bottom_error_m": 0.0
+          },
+          {
+            "y_m": 50,
+            "vertex_count": 4,
+            "measured_top_z_m": 0.10000000149011612,
+            "expected_top_z_m": 0.1,
+            "top_error_m": 1.4901161138336505e-09,
+            "measured_bottom_z_m": -2.0,
+            "bottom_error_m": 0.0
+          }
+        ],
+        "vertical_ray_samples": [
+          {
+            "ray_x_y_m": [
+              0,
+              -49
+            ],
+            "measured_top_z_m": 0.10000038146972656,
+            "expected_top_z_m": 0.1,
+            "error_m": 3.814697265569489e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              0
+            ],
+            "measured_top_z_m": 0.10000133514404297,
+            "expected_top_z_m": 0.1,
+            "error_m": 1.3351440429631989e-06
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              25.8
+            ],
+            "measured_top_z_m": 0.10000133514404297,
+            "expected_top_z_m": 0.1,
+            "error_m": 1.3351440429631989e-06
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              25.9
+            ],
+            "measured_top_z_m": -0.010000228881835938,
+            "expected_top_z_m": -0.009999999999998038,
+            "error_m": 2.2888183789926408e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              26
+            ],
+            "measured_top_z_m": -0.11999988555908203,
+            "expected_top_z_m": -0.12,
+            "error_m": 1.1444091796430911e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              28
+            ],
+            "measured_top_z_m": -0.11999988555908203,
+            "expected_top_z_m": -0.12,
+            "error_m": 1.1444091796430911e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              30
+            ],
+            "measured_top_z_m": -0.11999988555908203,
+            "expected_top_z_m": -0.12,
+            "error_m": 1.1444091796430911e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              30.1
+            ],
+            "measured_top_z_m": -0.009999275207519531,
+            "expected_top_z_m": -0.009999999999998038,
+            "error_m": 7.247924785069859e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              30.2
+            ],
+            "measured_top_z_m": 0.10000038146972656,
+            "expected_top_z_m": 0.1,
+            "error_m": 3.814697265569489e-07
+          },
+          {
+            "ray_x_y_m": [
+              0,
+              49
+            ],
+            "measured_top_z_m": 0.09999942779541016,
+            "expected_top_z_m": 0.1,
+            "error_m": 5.722045898493011e-07
+          }
+        ],
+        "measured_width_m": 0.6500087380409241,
+        "edge_face_use_counts": [
+          2
+        ],
+        "design_y_note": "These are Blender/design-space Y coordinates. UE coordinate conversion/placement remains scene-level verification.",
+        "nominal_clearance_to_z0_deck_m": 0.11999988555908203
+      }
+    },
+    {
+      "name": "SM_QuayCap",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_QuayCap.fbx",
+      "file_sha256": "bc835d5963e27690201c1e1a6de5afcca7015659ed31a9dcbcaf78ec834fca44",
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Stone"
+      ],
+      "world_bounds_m": [
+        [
+          -0.40000009536743164,
+          -1.0,
+          -7.450580596923828e-09
+        ],
+        [
+          0.40000009536743164,
+          1.0,
+          0.19999998807907104
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -0.4000000059604645,
+          -1.0,
+          0.0
+        ],
+        [
+          0.4000000059604645,
+          1.0,
+          0.20000000298023224
+        ]
+      ],
+      "max_world_bounds_error_m": 8.940696716308594e-08,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.09999999403953552
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.09999999403953552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        0.800000011920929,
+        2.0,
+        0.20000000298023224
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.09997003728688,
+        "1": 2.09997003728688,
+        "50": 2.099986683238626,
+        "99": 2.100000554865062,
+        "100": 2.100014426491498
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.19994007457376,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99996990440269,
+        "1": 127.99997088750142,
+        "50": 127.99999896649297,
+        "99": 128.00004020644636,
+        "100": 128.00004021189457
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 5.962017579630441e-08,
+        "99": 6.309789108804864e-07,
+        "100": 6.707258113358705e-07
+      }
+    },
+    {
+      "name": "SM_Dock",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_Dock.fbx",
+      "file_sha256": "73aaf7671a77ace6f8ef45fb5942b289a8ad0849a9ab30e113fddf1f3207b086",
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Timber"
+      ],
+      "world_bounds_m": [
+        [
+          -2.000000238418579,
+          -2.000000238418579,
+          -0.2800000011920929
+        ],
+        [
+          2.000000238418579,
+          2.000000238418579,
+          0.0
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -2.0,
+          -2.0,
+          -0.2800000011920929
+        ],
+        [
+          2.0,
+          2.0,
+          0.0
+        ]
+      ],
+      "max_world_bounds_error_m": 2.384185791015625e-07,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        -0.14000000059604645
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.14000000059604645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        4.0,
+        4.0,
+        0.2800000011920929
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.09997003728688,
+        "1": 2.09997003728688,
+        "50": 2.099986683238626,
+        "99": 2.100000554865062,
+        "100": 2.100014426491498
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.19994007457376,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99988510164548,
+        "1": 127.99988510164548,
+        "50": 127.99999402594057,
+        "99": 128.000005688515,
+        "100": 128.000005688515
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 6.231896076958066e-08,
+        "99": 1.5206798266242927e-06,
+        "100": 1.5352137531232657e-06
+      }
+    },
+    {
+      "name": "SM_DockStep",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_DockStep.fbx",
+      "file_sha256": "b93c57816f06e17a8614d927feacec5c0e0cb3c5d945a4302b23cba8e789559a",
+      "vertices": 16,
+      "triangles": 28,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Timber"
+      ],
+      "world_bounds_m": [
+        [
+          -1.4000000953674316,
+          -1.3500001430511475,
+          -0.41999998688697815
+        ],
+        [
+          1.8000000715255737,
+          1.3500001430511475,
+          0.1599999964237213
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -1.4,
+          -1.35,
+          -0.42
+        ],
+        [
+          1.8,
+          1.35,
+          0.16
+        ]
+      ],
+      "max_world_bounds_error_m": 1.4305114737211966e-07,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        3.1999998092651367,
+        2.700000047683716,
+        0.5799999833106995
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999755859375,
+        "50": 2.0999857584635606,
+        "99": 2.099998831748957,
+        "100": 2.0999999046325684
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99999169789277,
+        "1": 127.99999197712332,
+        "50": 127.99999923057776,
+        "99": 128.00002074743102,
+        "100": 128.0000238508496
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 2.1883574674586015e-08,
+        "99": 1.1579384080806516e-07,
+        "100": 2.0210991680258417e-07
+      },
+      "dock_ramp_validation": {
+        "replacement_manifest": "dock_ramp.json",
+        "replacement_manifest_sha256": "b5602d27f1a286652fd0d24be27f67eac54fca726a6d9e48ed9c7235c503b992",
+        "manifest_override_note": "SM_DockStep entry in the original manifest.json is superseded by dock_ramp.json.",
+        "geometry_origin_note": "FBX geometry remains local to origin (0,0,0). Applying actor placement (6.4,1,0) yields the following intended scene coordinates; placement is not baked into this FBX.",
+        "actor_placement_m": [
+          6.400000095367432,
+          1.0,
+          0.0
+        ],
+        "measured_sections": [
+          {
+            "local_x_m": -1.4,
+            "local_top_z_m": -0.30000001192092896,
+            "world_x_z_m": [
+              5.000000095367431,
+              -0.30000001192092896
+            ],
+            "section_vertices": 4,
+            "expected_local_top_z_m": -0.3,
+            "top_error_m": 1.1920928966180355e-08
+          },
+          {
+            "local_x_m": -0.35,
+            "local_top_z_m": 0.1599999964237213,
+            "world_x_z_m": [
+              6.050000095367432,
+              0.1599999964237213
+            ],
+            "section_vertices": 4,
+            "expected_local_top_z_m": 0.16,
+            "top_error_m": 3.5762786898541066e-09
+          },
+          {
+            "local_x_m": 0.3,
+            "local_top_z_m": 0.1599999964237213,
+            "world_x_z_m": [
+              6.7000000953674315,
+              0.1599999964237213
+            ],
+            "section_vertices": 4,
+            "expected_local_top_z_m": 0.16,
+            "top_error_m": 3.5762786898541066e-09
+          },
+          {
+            "local_x_m": 1.8,
+            "local_top_z_m": 0.0,
+            "world_x_z_m": [
+              8.200000095367432,
+              0.0
+            ],
+            "section_vertices": 4,
+            "expected_local_top_z_m": 0,
+            "top_error_m": 0.0
+          }
+        ],
+        "world_y_bounds_after_placement_m": [
+          -0.35000014305114746,
+          2.3500001430511475
+        ],
+        "width_m": 2.700000286102295,
+        "crest_clearance_above_wall_top_m": 0.05999999642372131,
+        "edge_face_use_counts": [
+          2
+        ],
+        "section_continuity": "Three contiguous slope/crest intervals sharing all section boundary vertices; no gap between ramp segments.",
+        "maximum_top_slope_degrees": 23.657996998762698
+      }
+    },
+    {
+      "name": "SM_Puddle",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_Puddle.fbx",
+      "file_sha256": "bad6a56c64779b7608e7651a54851beccf0770c0150382584386b0b6b56cd44f",
+      "vertices": 49,
+      "triangles": 48,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "PuddleWater"
+      ],
+      "world_bounds_m": [
+        [
+          -1.050477147102356,
+          -0.9735812544822693,
+          0.0
+        ],
+        [
+          1.0439552068710327,
+          1.074630856513977,
+          0.0
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -1.050477147102356,
+          -0.9735812544822693,
+          0.0
+        ],
+        [
+          1.0439552068710327,
+          1.074630856513977,
+          0.0
+        ]
+      ],
+      "max_world_bounds_error_m": 0.0,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        2.0944323539733887,
+        2.0482120513916016,
+        0.0
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999755859375,
+        "50": 2.099993024553555,
+        "99": 2.100006365094864,
+        "100": 2.1000104631696104
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99997371327788,
+        "1": 127.9999743043036,
+        "50": 128.00000108725143,
+        "99": 128.00002615273232,
+        "100": 128.00002878501178
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 4.034654887963285e-08,
+        "99": 3.272362812023476e-07,
+        "100": 3.960707877226355e-07
+      }
+    },
+    {
+      "name": "SM_RainVolume",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_RainVolume.fbx",
+      "file_sha256": "53dc7fc684fc947c2cd15c0c371a64a06dc4131ced07444e8192c470c65bdbf3",
+      "vertices": 15472,
+      "triangles": 7736,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Rain"
+      ],
+      "world_bounds_m": [
+        [
+          -48.94105529785156,
+          -49.00816345214844,
+          -0.699999988079071
+        ],
+        [
+          48.995445251464844,
+          48.99549102783203,
+          0.6298431754112244
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -48.9410514831543,
+          -49.00816345214844,
+          -0.699999988079071
+        ],
+        [
+          48.99544143676758,
+          48.99549102783203,
+          0.6298431754112244
+        ]
+      ],
+      "max_world_bounds_error_m": 3.814697265625e-06,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        97.93649291992188,
+        98.00365447998047,
+        1.3298431634902954
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 1.396334561434628,
+        "1": 1.396334561434628,
+        "50": 1.396351207386374,
+        "99": 1.3963664661754365,
+        "100": 1.396367853338063
+      },
+      "uv0_min_axis_separation_lower_bound_px": 2.792669122869256,
+      "uv0_manifest_cell_margin_px": 1.3963636363636363,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99956788731576,
+        "1": 127.9999856881843,
+        "50": 127.99999921540808,
+        "99": 128.00001163026897,
+        "100": 128.0026454445225
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 1.4681826920881491e-08,
+        "99": 1.364575941009694e-07,
+        "100": 4.141383322409098e-05
+      },
+      "rain_colors": {
+        "attributes": [
+          {
+            "name": "Col",
+            "domain": "CORNER",
+            "data_type": "BYTE_COLOR",
+            "data_length": 23208
+          }
+        ],
+        "linear_channel_min": [
+          0.0006070539820939302,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "linear_channel_max": [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        "triangle_max_red_phase_spread": 0.0,
+        "vertex_corner_max_channel_disagreement": 0.0,
+        "connected_strip_count": 3868,
+        "expected_strip_count": 3868,
+        "per_strip_vertex_counts": [
+          4
+        ],
+        "per_strip_green_unique_counts": [
+          4
+        ],
+        "max_per_strip_red_phase_spread": 0.0,
+        "paired_drop_count": 1934,
+        "drop_pair_sizes": [
+          2
+        ],
+        "expected_drop_count": 1934,
+        "pair_distance_tolerance_m": 0.0001,
+        "maximum_paired_strip_center_distance_m": 5.3947966093944364e-06,
+        "red_phase_note": "R is intentionally constant per crossed drop; no height-varying R expectation. G is the exported per-corner 0,1/3,2/3,1 sequence.",
+        "shader_height_note": "FBX consists of base streaks only. Claimed 14 m rain travel requires material WPO/runtime verification, not geometric height."
+      }
+    },
+    {
+      "name": "SM_CanalTree",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_CanalTree.fbx",
+      "file_sha256": "ac3f05a2152801b2c801ba343aa7079e289a44e47f94454509b533951abee1c3",
+      "vertices": 266,
+      "triangles": 508,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Timber",
+        "Leaf"
+      ],
+      "world_bounds_m": [
+        [
+          -2.0912694931030273,
+          -2.0299999713897705,
+          0.0
+        ],
+        [
+          2.0363752841949463,
+          1.5200001001358032,
+          5.232999801635742
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -2.0912694931030273,
+          -2.0299999713897705,
+          0.0
+        ],
+        [
+          2.0363752841949463,
+          1.5199999809265137,
+          5.232999801635742
+        ]
+      ],
+      "max_world_bounds_error_m": 1.1920928955078125e-07,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        4.1276445388793945,
+        3.549999952316284,
+        5.232999801635742
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999702785326235,
+        "1": 2.0999702785326235,
+        "50": 2.0999915081521863,
+        "99": 2.1000074303668725,
+        "100": 2.100010084069254
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199940557065247,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99998104236155,
+        "1": 127.99998380128743,
+        "50": 128.00000095343032,
+        "99": 128.00001859938695,
+        "100": 128.00002666002396
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 4.293619737527621e-08,
+        "99": 1.7627352093207978e-07,
+        "100": 2.5558643867995556e-07
+      }
+    },
+    {
+      "name": "SM_Shrub",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_Shrub.fbx",
+      "file_sha256": "ff3831ad52df858e493ab56e00952c68ec919892d8750652738dd84d22a5744f",
+      "vertices": 36,
+      "triangles": 60,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Leaf"
+      ],
+      "world_bounds_m": [
+        [
+          -0.7972124814987183,
+          -0.5562304258346558,
+          -0.030000030994415283
+        ],
+        [
+          0.8366550207138062,
+          0.5593456625938416,
+          0.9300000071525574
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -0.7972124814987183,
+          -0.5562304258346558,
+          -0.030000030994415283
+        ],
+        [
+          0.8366550207138062,
+          0.5593456029891968,
+          0.9300000071525574
+        ]
+      ],
+      "max_world_bounds_error_m": 5.960464477539063e-08,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        1.6338675022125244,
+        1.1155760288238525,
+        0.9600000381469727
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999755859375,
+        "50": 2.0999755859375,
+        "99": 2.100006103515625,
+        "100": 2.100006103515625
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99998623695261,
+        "1": 127.99998685308674,
+        "50": 127.99999799029611,
+        "99": 128.00000826887697,
+        "100": 128.00000998218408
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 0.0,
+        "50": 3.5118821073432116e-08,
+        "99": 1.4278587500138343e-07,
+        "100": 1.5729616120729872e-07
+      }
+    },
+    {
+      "name": "SM_GrassFringe",
+      "file": "D:\\github\\AstraEffort\\ForestDemo\\Work\\RainyCanal\\ultra\\Art\\Landscape\\FBX\\SM_GrassFringe.fbx",
+      "file_sha256": "922e3a8f67b6ff11630e791bf8628b13502b7cee1a82d11ad9e3f8ddbf3e3075",
+      "vertices": 33,
+      "triangles": 11,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "materials": [
+        "Leaf"
+      ],
+      "world_bounds_m": [
+        [
+          -0.20833104848861694,
+          -0.18346136808395386,
+          0.0
+        ],
+        [
+          0.21329562366008759,
+          0.24086450040340424,
+          0.4893609881401062
+        ]
+      ],
+      "expected_local_plus_location_bounds_m": [
+        [
+          -0.20833104848861694,
+          -0.18346138298511505,
+          0.0
+        ],
+        [
+          0.21329563856124878,
+          0.24086451530456543,
+          0.4893609881401062
+        ]
+      ],
+      "max_world_bounds_error_m": 1.4901161193847656e-08,
+      "imported_object_location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          -8.742277657347586e-08,
+          0.0,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_m": [
+        0.4216266870498657,
+        0.4243258833885193,
+        0.4893609881401062
+      ],
+      "geometry_degenerate_triangles": 0,
+      "nonfinite_coordinates": 0,
+      "uv0_degenerate_triangles": 0,
+      "uv1_degenerate_triangles": 0,
+      "uv0_aabb_positive_overlaps": 0,
+      "uv0_duplicate_triangles": 0,
+      "uv0_outside_unit_square": 0,
+      "uv0_cell_margin_px_percentiles": {
+        "0": 2.0999755859375,
+        "1": 2.0999755859375,
+        "50": 2.0999755859375,
+        "99": 2.1000054836273194,
+        "100": 2.100006103515625
+      },
+      "uv0_min_axis_separation_lower_bound_px": 4.199951171875,
+      "uv0_manifest_cell_margin_px": 2.1,
+      "uv1_density_px_per_m_percentiles": {
+        "0": 127.99998960037696,
+        "1": 127.99999019841566,
+        "50": 128.00000159690592,
+        "99": 128.0000114260876,
+        "100": 128.00001169279196
+      },
+      "uv1_density_outside_one_percent_target_count": 0,
+      "uv1_edge_length_relative_error_percentiles": {
+        "0": 0.0,
+        "1": 1.2434497875801754e-15,
+        "50": 4.6533969122464214e-08,
+        "99": 1.3908364837611487e-07,
+        "100": 1.3969842060923554e-07
+      }
+    }
+  ],
+  "issues": [],
+  "observations": [
+    "Final current-hash audit reimports all 13 FBXs, then opens current source.blend read-only to compare all 13 geometry counts and transformed bounds. No creative source is executed or saved.",
+    "SM_QuayWall is now the 44-triangle closed notched wall described by wall_notch.json, superseding its original manifest entry. Actual ray intersections confirm top Z=-0.12 m across design Y=26..30 m, linear transitions across 25.8..26 and 30..30.2, top +0.1 m elsewhere and bottom -2 m throughout. Nominal clearance to a Z=0 deck is 0.12 m; final deck placement/collision is a UE check.",
+    "SM_DockStep remains the 28-triangle closed continuous Timber ramp described by dock_ramp.json, superseding its original manifest entry. Local Z is -0.42..+0.16 m. Intended actor placement (6.4,1,0) yields top endpoints (x=5,z=-0.3) and (x=8.2,z=0), with +0.16 m crest. The prior 0.06 m clearance remains relative to the normal +0.1 m quay top; the new wall notch is at a separate design-Y range.",
+    "UV0 is a unique per-triangle atlas. Its density varies with physical triangle size by design; texture density is on UV1.",
+    "UV1 is physically isometric at 128 px/m per triangle and intentionally overlaps/repeats. Each triangle has a separate local origin and orientation, so directional textures can show discontinuities across triangle boundaries. Use the intended world-coherent material sampling for broad architectural courses.",
+    "UV0 inter-island cell margin is 2.1 px for ordinary meshes and approximately 1.396 px for RainVolume at 1024. Rain uses dynamic vertex-driven translucency; there is no baked-lightmap validation in this audit.",
+    "CanalWater FBX is a zero-height source plane at Z=0. The parent scene must place its waterline at the desired canal elevation.",
+    "Shrub source extends about 0.03 m below its origin, suitable for slight ground embedding; final placement is not verified here.",
+    "No UE import, mesh bounds in UE, materials, collision, WPO or runtime rendering were checked."
+  ],
+  "world_height_checks": {
+    "SM_BankWest": {
+      "expected_z_bounds_m": [
+        0,
+        0
+      ],
+      "actual_z_bounds_m": [
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    "SM_BankEast": {
+      "expected_z_bounds_m": [
+        0,
+        0
+      ],
+      "actual_z_bounds_m": [
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    "SM_Dock": {
+      "expected_z_bounds_m": [
+        -0.28,
+        0
+      ],
+      "actual_z_bounds_m": [
+        -0.2800000011920929,
+        0.0
+      ],
+      "pass": true
+    },
+    "SM_DockStep": {
+      "expected_z_bounds_m": [
+        -0.42,
+        0.16
+      ],
+      "actual_z_bounds_m": [
+        -0.41999998688697815,
+        0.1599999964237213
+      ],
+      "pass": true
+    },
+    "SM_QuayWall": {
+      "expected_z_bounds_m": [
+        -2,
+        0.1
+      ],
+      "actual_z_bounds_m": [
+        -2.0,
+        0.10000000149011612
+      ],
+      "pass": true
+    },
+    "SM_QuayCap": {
+      "expected_z_bounds_m": [
+        0,
+        0.2
+      ],
+      "actual_z_bounds_m": [
+        -7.450580596923828e-09,
+        0.19999998807907104
+      ],
+      "pass": true
+    },
+    "SM_CanalBed": {
+      "expected_z_bounds_m": [
+        -1.95,
+        -1.65
+      ],
+      "actual_z_bounds_m": [
+        -1.9499999284744263,
+        -1.649999976158142
+      ],
+      "pass": true
+    }
+  },
+  "source_blend_readback": [
+    {
+      "name": "SM_BankWest",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -50.0,
+          -50.0,
+          0.0
+        ],
+        [
+          -6.0,
+          50.0,
+          0.0
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 4.291534423828125e-06,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_BankEast",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          6.0,
+          -50.0,
+          0.0
+        ],
+        [
+          50.0,
+          50.0,
+          0.0
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 4.291534423828125e-06,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_CanalWater",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -6.0,
+          -50.0,
+          0.0
+        ],
+        [
+          6.0,
+          50.0,
+          0.0
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 4.291534423828125e-06,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_CanalBed",
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -6.0,
+          -50.0,
+          -1.9499999284744263
+        ],
+        [
+          6.0,
+          50.0,
+          -1.649999976158142
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 4.291534423828125e-06,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_QuayWall",
+      "vertices": 24,
+      "triangles": 44,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -0.32499998807907104,
+          -50.0,
+          -2.0
+        ],
+        [
+          0.32499998807907104,
+          50.0,
+          0.10000000149011612
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 4.380941390991211e-06,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_QuayCap",
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -0.4000000059604645,
+          -1.0,
+          0.0
+        ],
+        [
+          0.4000000059604645,
+          1.0,
+          0.20000000298023224
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 8.940696716308594e-08,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_Dock",
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -2.0,
+          -2.0,
+          -0.2800000011920929
+        ],
+        [
+          2.0,
+          2.0,
+          0.0
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 2.384185791015625e-07,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_DockStep",
+      "vertices": 16,
+      "triangles": 28,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -1.399999976158142,
+          -1.350000023841858,
+          -0.41999998688697815
+        ],
+        [
+          1.7999999523162842,
+          1.350000023841858,
+          0.1599999964237213
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 1.1920928955078125e-07,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_Puddle",
+      "vertices": 49,
+      "triangles": 48,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -1.050477147102356,
+          -0.9735812544822693,
+          0.0
+        ],
+        [
+          1.0439552068710327,
+          1.074630856513977,
+          0.0
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 0.0,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_RainVolume",
+      "vertices": 15472,
+      "triangles": 7736,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -48.9410514831543,
+          -49.00816345214844,
+          -0.699999988079071
+        ],
+        [
+          48.99544143676758,
+          48.99549102783203,
+          0.6298431754112244
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 3.814697265625e-06,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_CanalTree",
+      "vertices": 266,
+      "triangles": 508,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -2.0912694931030273,
+          -2.0299999713897705,
+          0.0
+        ],
+        [
+          2.0363752841949463,
+          1.5199999809265137,
+          5.232999801635742
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 1.1920928955078125e-07,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_Shrub",
+      "vertices": 36,
+      "triangles": 60,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -0.7972124814987183,
+          -0.5562304258346558,
+          -0.030000030994415283
+        ],
+        [
+          0.8366550207138062,
+          0.5593456029891968,
+          0.9300000071525574
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 5.960464477539063e-08,
+      "matches_exported_geometry_counts": true
+    },
+    {
+      "name": "SM_GrassFringe",
+      "vertices": 33,
+      "triangles": 11,
+      "uv_layers": [
+        "Unique",
+        "Physical128"
+      ],
+      "world_bounds_m": [
+        [
+          -0.20833104848861694,
+          -0.18346138298511505,
+          0.0
+        ],
+        [
+          0.21329563856124878,
+          0.24086451530456543,
+          0.4893609881401062
+        ]
+      ],
+      "max_source_to_imported_bounds_error_m": 1.4901161193847656e-08,
+      "matches_exported_geometry_counts": true
+    }
+  ],
+  "finished_at_utc": "2026-10-22T15:45:41.737550+00:00",
+  "elapsed_seconds": 1.334677,
+  "result": "pass_source_fbx_checks"
+}

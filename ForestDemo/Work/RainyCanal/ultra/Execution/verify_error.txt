@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "ue_verify.py", line 13, in tick
+    STATE['data']=validate.runtime(ED.get_game_world(),STATE['data']);LEV.editor_request_end_play();STATE['stage']=1;STATE['start']=time.monotonic();return
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\validate.py", line 92, in runtime
+    ground=[trace(world,(x,y,400),(x,y,-200)) for x,y in [(-1050,2100),(1050,800),(-3200,1500)]];checks['ground_collision']=all(r['hit'] and abs(r['location'][2])<2 for r in ground);detail['ground_traces']=ground
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\validate.py", line 92, in <listcomp>
+    ground=[trace(world,(x,y,400),(x,y,-200)) for x,y in [(-1050,2100),(1050,800),(-3200,1500)]];checks['ground_collision']=all(r['hit'] and abs(r['location'][2])<2 for r in ground);detail['ground_traces']=ground
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\validate.py", line 12, in trace
+    loc=hit.get_editor_property('location');comp=hit.get_editor_property('component')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: HitResult: Property 'Location' for attribute 'location' on 'HitResult' is protected and cannot be read

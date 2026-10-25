@@ -1,0 +1,1358 @@
+{
+  "theme": "RainyCanal",
+  "effort": "ultra",
+  "provenance": "Original deterministic procedural surface artwork authored for this assignment. No external or previous-theme artwork read or used.",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "repeat_m": [
+    8.0,
+    8.0
+  ],
+  "nominal_density_px_per_m": 128.0,
+  "sample_density_px_per_m": 127.875,
+  "seed": 2026102207,
+  "base_color_encoding": "8-bit RGB sRGB, opaque, import sRGB=true",
+  "roughness_encoding": "8-bit grayscale linear, import sRGB=false; metallic not encoded",
+  "normal_encoding": "8-bit tangent-space RGB DirectX; flat (128,128,255), +green points down texture V; UE normal-map compression, sRGB=false, no green flip",
+  "seam_method": "Analytic periodic domain; final column duplicates first, final row duplicates first before export. Periodic central differences are computed on 1023 unique samples; normals receive matching terminal edges. PNG QA reopens files and compares every opposite-edge channel exactly.",
+  "texture_filtering": "Wrap address on both axes. Bilinear/trilinear. Do not use clamp.",
+  "materials": {
+    "Stone": {
+      "parameters": {
+        "seed": 2026102307,
+        "layout": "13 columns by 24 staggered rows",
+        "block_size_m": [
+          0.6153846153846154,
+          0.3333333333333333
+        ],
+        "gap_px": 2.3,
+        "corner_radius_px": 6.0,
+        "base_srgb": [
+          145,
+          145,
+          131
+        ],
+        "mortar_srgb": [
+          94,
+          103,
+          94
+        ],
+        "roughness_target": [
+          0.24,
+          0.6
+        ],
+        "normal_height_m": 0.0034,
+        "use": "Quay, bridge and building foundation limestone; softly bevelled warm-gray blocks, damp variable face roughness."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_Stone_BaseColor.png",
+          "sha256": "06b8c003a70624baf7c9fce3f441ea8ae654a64666a988c517cc98566744c603",
+          "size_bytes": 309307,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 8.531901041666666,
+            "first_interior_y_mean_abs_step": 11.646158854166666
+          },
+          "channel_min": [
+            88,
+            97,
+            89
+          ],
+          "channel_max": [
+            156,
+            156,
+            140
+          ],
+          "channel_mean": [
+            137.22196102142334,
+            138.15612506866455,
+            125.16967296600342
+          ]
+        },
+        "Roughness": {
+          "file": "T_Stone_Roughness.png",
+          "sha256": "3f7da6779d63c9894a57bc975f5c8c9058461754f856e1fadc65412b44dfbc7d",
+          "size_bytes": 155600,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.9697265625,
+            "first_interior_y_mean_abs_step": 2.349609375
+          },
+          "channel_min": 61,
+          "channel_max": 148,
+          "channel_mean": 108.06068229675293,
+          "linear_percentiles_0_5_50_95_100": [
+            0.23921568627450981,
+            0.28627450980392155,
+            0.43137254901960786,
+            0.5450980392156862,
+            0.5803921568627451
+          ]
+        },
+        "Normal": {
+          "file": "T_Stone_Normal.png",
+          "sha256": "a72afb8eee210e37b2b3851fce2c39afc4a2810973fcad89536ff9e6144edbd0",
+          "size_bytes": 227374,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.3365885416666667,
+            "first_interior_y_mean_abs_step": 2.009765625
+          },
+          "channel_min": [
+            102,
+            102,
+            252
+          ],
+          "channel_max": [
+            153,
+            153,
+            255
+          ],
+          "channel_mean": [
+            127.50037097930908,
+            127.50004196166992,
+            254.7853832244873
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.00012994560259032626,
+        0.003956692523244015
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        9.279850348001109,
+        10.608218171447168,
+        12.280787284417693
+      ],
+      "normal_blue_min": 252
+    },
+    "Cobble": {
+      "parameters": {
+        "seed": 2026102407,
+        "layout": "27 columns by 28 staggered rows with smooth periodic distortion",
+        "paver_size_m": [
+          0.2962962962962963,
+          0.2857142857142857
+        ],
+        "gap_px": 2.0,
+        "corner_radius_px": 7.2,
+        "base_srgb": [
+          112,
+          117,
+          110
+        ],
+        "mortar_srgb": [
+          67,
+          80,
+          74
+        ],
+        "roughness_target": [
+          0.2,
+          0.6
+        ],
+        "normal_height_m": 0.0038,
+        "use": "Wet rounded lane pavers; shallow water sheen is material roughness variation, not baked lighting."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_Cobble_BaseColor.png",
+          "sha256": "50bd581b7d6aba342f58443a1d50ad7441723acc7bd460b67c9da037db2def47",
+          "size_bytes": 366722,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 4.597005208333333,
+            "first_interior_y_mean_abs_step": 11.9462890625
+          },
+          "channel_min": [
+            62,
+            75,
+            69
+          ],
+          "channel_max": [
+            127,
+            131,
+            124
+          ],
+          "channel_mean": [
+            103.70463275909424,
+            109.92857456207275,
+            103.07357025146484
+          ]
+        },
+        "Roughness": {
+          "file": "T_Cobble_Roughness.png",
+          "sha256": "cddc9db5318d7974ce822632b23a9eb1dc458f2eace0a18782039437b71783a6",
+          "size_bytes": 199424,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.66015625,
+            "first_interior_y_mean_abs_step": 2.1142578125
+          },
+          "channel_min": 51,
+          "channel_max": 151,
+          "channel_mean": 105.22960567474365,
+          "linear_percentiles_0_5_50_95_100": [
+            0.2,
+            0.25882352941176473,
+            0.4196078431372549,
+            0.5529411764705883,
+            0.592156862745098
+          ]
+        },
+        "Normal": {
+          "file": "T_Cobble_Normal.png",
+          "sha256": "eace81755b1d6d193c8e8356c75de6cc2cb50c6b3e87e60f376bf236db2d597a",
+          "size_bytes": 414149,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.341796875,
+            "first_interior_y_mean_abs_step": 2.7288411458333335
+          },
+          "channel_min": [
+            98,
+            99,
+            251
+          ],
+          "channel_max": [
+            157,
+            156,
+            255
+          ],
+          "channel_mean": [
+            127.50006008148193,
+            127.49921035766602,
+            254.6298589706421
+          ]
+        }
+      },
+      "height_range_m": [
+        -9.144332127111729e-05,
+        0.0043786535332280595
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        10.626964672651617,
+        12.034836163698946,
+        14.227305408159923
+      ],
+      "normal_blue_min": 251
+    },
+    "PlasterCream": {
+      "parameters": {
+        "seed": 2026102508,
+        "base_srgb": [
+          202,
+          193,
+          173
+        ],
+        "pattern": "Low contrast mineral limewash and broad trowel variation, no baked shadows or fixture marks",
+        "roughness_target": [
+          0.6,
+          0.85
+        ],
+        "use": "Dry protected building facades. Broad low-frequency variation remains calm at distance."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_PlasterCream_BaseColor.png",
+          "sha256": "0614f0be0541f2bfd9da18df26edf6c24484e5e903e8a40eacc3552e4c0ce1a8",
+          "size_bytes": 191022,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.0859375,
+            "first_interior_y_mean_abs_step": 0.0625
+          },
+          "channel_min": [
+            196,
+            187,
+            167
+          ],
+          "channel_max": [
+            208,
+            198,
+            178
+          ],
+          "channel_mean": [
+            201.99889469146729,
+            192.99917697906494,
+            173.00014305114746
+          ]
+        },
+        "Roughness": {
+          "file": "T_PlasterCream_Roughness.png",
+          "sha256": "02b6987909e707be908bc766299b78c5b7d09cfabbc38357f36c0e398c4f6e4e",
+          "size_bytes": 164806,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.3828125,
+            "first_interior_y_mean_abs_step": 0.251953125
+          },
+          "channel_min": 171,
+          "channel_max": 210,
+          "channel_mean": 191.25008869171143,
+          "linear_percentiles_0_5_50_95_100": [
+            0.6705882352941176,
+            0.7176470588235294,
+            0.7490196078431373,
+            0.7803921568627451,
+            0.8235294117647058
+          ]
+        },
+        "Normal": {
+          "file": "T_PlasterCream_Normal.png",
+          "sha256": "943cd16b2d1b48d99c06e761a3629ec3e6cf2227e66193d27ff9af75bcc69235",
+          "size_bytes": 108456,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.0302734375,
+            "first_interior_y_mean_abs_step": 0.03125
+          },
+          "channel_min": [
+            127,
+            127,
+            255
+          ],
+          "channel_max": [
+            128,
+            128,
+            255
+          ],
+          "channel_mean": [
+            127.50167083740234,
+            127.49814796447754,
+            255.0
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.000305632222881489,
+        0.0002707357268206876
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286
+      ],
+      "normal_blue_min": 255
+    },
+    "PlasterSage": {
+      "parameters": {
+        "seed": 2026102509,
+        "base_srgb": [
+          135,
+          151,
+          133
+        ],
+        "pattern": "Low contrast mineral limewash and broad trowel variation, no baked shadows or fixture marks",
+        "roughness_target": [
+          0.6,
+          0.85
+        ],
+        "use": "Dry protected building facades. Broad low-frequency variation remains calm at distance."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_PlasterSage_BaseColor.png",
+          "sha256": "49e2be8eb7624d435f967bf938aee4d1f655c27cff33683ede33f2d116053bca",
+          "size_bytes": 186601,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.0673828125,
+            "first_interior_y_mean_abs_step": 0.0478515625
+          },
+          "channel_min": [
+            130,
+            146,
+            128
+          ],
+          "channel_max": [
+            142,
+            157,
+            139
+          ],
+          "channel_mean": [
+            134.99913024902344,
+            151.00112533569336,
+            132.99967861175537
+          ]
+        },
+        "Roughness": {
+          "file": "T_PlasterSage_Roughness.png",
+          "sha256": "3edfea10c39bcbb2db6e52ce2bfb0211d647b900db20acb096219265f40526e7",
+          "size_bytes": 161156,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.3310546875,
+            "first_interior_y_mean_abs_step": 0.2666015625
+          },
+          "channel_min": 173,
+          "channel_max": 211,
+          "channel_mean": 191.2500343322754,
+          "linear_percentiles_0_5_50_95_100": [
+            0.6784313725490196,
+            0.7215686274509804,
+            0.7490196078431373,
+            0.7803921568627451,
+            0.8274509803921568
+          ]
+        },
+        "Normal": {
+          "file": "T_PlasterSage_Normal.png",
+          "sha256": "aecc683034ae09afd9762d8b93d6f59c96450b885320ee1a3e25eeca7c069b92",
+          "size_bytes": 102535,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.031575520833333336,
+            "first_interior_y_mean_abs_step": 0.0341796875
+          },
+          "channel_min": [
+            127,
+            127,
+            255
+          ],
+          "channel_max": [
+            128,
+            128,
+            255
+          ],
+          "channel_mean": [
+            127.49924087524414,
+            127.50119304656982,
+            255.0
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.00026209792388255025,
+        0.000278886284156508
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286
+      ],
+      "normal_blue_min": 255
+    },
+    "PlasterRose": {
+      "parameters": {
+        "seed": 2026102510,
+        "base_srgb": [
+          183,
+          145,
+          128
+        ],
+        "pattern": "Low contrast mineral limewash and broad trowel variation, no baked shadows or fixture marks",
+        "roughness_target": [
+          0.6,
+          0.85
+        ],
+        "use": "Dry protected building facades. Broad low-frequency variation remains calm at distance."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_PlasterRose_BaseColor.png",
+          "sha256": "25409d11c5301a025db138e2f6ad4d7d9e0a5c6b3342a8d2399938d1fb5a92dc",
+          "size_bytes": 177023,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.059895833333333336,
+            "first_interior_y_mean_abs_step": 0.07942708333333333
+          },
+          "channel_min": [
+            177,
+            139,
+            123
+          ],
+          "channel_max": [
+            188,
+            150,
+            134
+          ],
+          "channel_mean": [
+            183.0033941268921,
+            145.00094604492188,
+            128.00055694580078
+          ]
+        },
+        "Roughness": {
+          "file": "T_PlasterRose_Roughness.png",
+          "sha256": "7fdce9bb70804a33be953f0f7b7c086341526681c6d6580f9e97c2d783fce2ce",
+          "size_bytes": 160234,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.2958984375,
+            "first_interior_y_mean_abs_step": 0.28515625
+          },
+          "channel_min": 172,
+          "channel_max": 210,
+          "channel_mean": 191.2500696182251,
+          "linear_percentiles_0_5_50_95_100": [
+            0.6745098039215687,
+            0.7176470588235294,
+            0.7490196078431373,
+            0.7843137254901961,
+            0.8235294117647058
+          ]
+        },
+        "Normal": {
+          "file": "T_PlasterRose_Normal.png",
+          "sha256": "0cec9324004ac0037d2134fbf7e43545f802191557204be95ea74478b190e5f2",
+          "size_bytes": 104301,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.031575520833333336,
+            "first_interior_y_mean_abs_step": 0.03125
+          },
+          "channel_min": [
+            127,
+            127,
+            255
+          ],
+          "channel_max": [
+            128,
+            128,
+            255
+          ],
+          "channel_mean": [
+            127.4998779296875,
+            127.49805355072021,
+            255.0
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.0002761332010497224,
+        0.00026680907491402904
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286
+      ],
+      "normal_blue_min": 255
+    },
+    "Timber": {
+      "parameters": {
+        "seed": 2026102707,
+        "base_srgb": [
+          112,
+          88,
+          63
+        ],
+        "plank_width_m": 0.25,
+        "plank_length_m": 2.0,
+        "grain_direction": "Vertical / V; orient plank UV V along timber length",
+        "roughness_target": [
+          0.3,
+          0.65
+        ],
+        "normal_height_m": 0.0022,
+        "use": "Weathered warm wooden trim, shutters, benches and deck details; periodic restrained grain."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_Timber_BaseColor.png",
+          "sha256": "15180c9b1b7cc68d3f51ad4491f29f1c62d62f57f024c9e8ad19b1566d325bd5",
+          "size_bytes": 144715,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 6.0498046875,
+            "first_interior_y_mean_abs_step": 1.39453125
+          },
+          "channel_min": [
+            66,
+            59,
+            45
+          ],
+          "channel_max": [
+            127,
+            101,
+            74
+          ],
+          "channel_mean": [
+            107.26210975646973,
+            84.92091751098633,
+            61.01212501525879
+          ]
+        },
+        "Roughness": {
+          "file": "T_Timber_Roughness.png",
+          "sha256": "54fb90e136783660dbed81ce1a331b07acde11d3963d7c8276d61e620f33217a",
+          "size_bytes": 96330,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 5.0087890625,
+            "first_interior_y_mean_abs_step": 0.78515625
+          },
+          "channel_min": 82,
+          "channel_max": 156,
+          "channel_mean": 122.6921968460083,
+          "linear_percentiles_0_5_50_95_100": [
+            0.3215686274509804,
+            0.4117647058823529,
+            0.4823529411764706,
+            0.5490196078431373,
+            0.611764705882353
+          ]
+        },
+        "Normal": {
+          "file": "T_Timber_Normal.png",
+          "sha256": "78ee703150b6bff352a7658b208cb3e39780a66b26d78e5043689595f5a86cdc",
+          "size_bytes": 63796,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 6.022786458333333,
+            "first_interior_y_mean_abs_step": 0.9290364583333334
+          },
+          "channel_min": [
+            108,
+            110,
+            253
+          ],
+          "channel_max": [
+            146,
+            145,
+            255
+          ],
+          "channel_mean": [
+            127.50095272064209,
+            127.4995641708374,
+            254.88109874725342
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.00016898763558545363,
+        0.0023696836765240924
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        7.879475908760337,
+        8.32323820961248,
+        10.55176029786871
+      ],
+      "normal_blue_min": 253
+    },
+    "RoofSlate": {
+      "parameters": {
+        "seed": 2026102807,
+        "base_srgb": [
+          81,
+          103,
+          108
+        ],
+        "tile_size_m": [
+          0.3333333333333333,
+          0.2857142857142857
+        ],
+        "layout": "24 columns by 28 staggered rows",
+        "gap_px": 1.6,
+        "roughness_target": [
+          0.3,
+          0.65
+        ],
+        "use": "Muted roof tiles, glazed by rain without a uniform mirror surface; geometric roof slope supplies drainage direction."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_RoofSlate_BaseColor.png",
+          "sha256": "f4c7912116ec06e2e42311fd6be144c6770fddd4a1b91f177f5e533981f30346",
+          "size_bytes": 262637,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 7.622395833333333,
+            "first_interior_y_mean_abs_step": 12.870442708333334
+          },
+          "channel_min": [
+            52,
+            69,
+            71
+          ],
+          "channel_max": [
+            92,
+            113,
+            118
+          ],
+          "channel_mean": [
+            78.19232368469238,
+            99.68551826477051,
+            104.38895034790039
+          ]
+        },
+        "Roughness": {
+          "file": "T_RoofSlate_Roughness.png",
+          "sha256": "870b2829a423dc8b1c87e20a712f4af1c702e254cf149190a06715560fb7e3d1",
+          "size_bytes": 170555,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.7939453125,
+            "first_interior_y_mean_abs_step": 2.7861328125
+          },
+          "channel_min": 85,
+          "channel_max": 163,
+          "channel_mean": 125.38765239715576,
+          "linear_percentiles_0_5_50_95_100": [
+            0.3333333333333333,
+            0.3803921568627451,
+            0.5019607843137255,
+            0.592156862745098,
+            0.6392156862745098
+          ]
+        },
+        "Normal": {
+          "file": "T_RoofSlate_Normal.png",
+          "sha256": "ac4b8a70a52fc8c990127e9e276894f32572a1cbf052c5473efff6775d8716b5",
+          "size_bytes": 164591,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.0667317708333333,
+            "first_interior_y_mean_abs_step": 1.9235026041666667
+          },
+          "channel_min": [
+            110,
+            110,
+            254
+          ],
+          "channel_max": [
+            145,
+            145,
+            255
+          ],
+          "channel_mean": [
+            127.50010871887207,
+            127.49955749511719,
+            254.8540916442871
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.00010447305634979297,
+        0.0027887135343461125
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        6.989208512663415,
+        7.434781066155461,
+        8.251024389061925
+      ],
+      "normal_blue_min": 254
+    },
+    "RoofClay": {
+      "parameters": {
+        "seed": 2026102907,
+        "base_srgb": [
+          137,
+          98,
+          80
+        ],
+        "tile_size_m": [
+          0.2857142857142857,
+          0.3333333333333333
+        ],
+        "layout": "28 columns by 24 staggered rows",
+        "gap_px": 1.6,
+        "roughness_target": [
+          0.3,
+          0.65
+        ],
+        "use": "Muted roof tiles, glazed by rain without a uniform mirror surface; geometric roof slope supplies drainage direction."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_RoofClay_BaseColor.png",
+          "sha256": "9d4a8fb4a34e4766d787f0b117d65f8db03d3aac9962a65164ff76b1c4ce8d01",
+          "size_bytes": 276573,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 9.293619791666666,
+            "first_interior_y_mean_abs_step": 16.352213541666668
+          },
+          "channel_min": [
+            88,
+            66,
+            53
+          ],
+          "channel_max": [
+            149,
+            109,
+            91
+          ],
+          "channel_mean": [
+            132.04841804504395,
+            94.7415599822998,
+            77.27309799194336
+          ]
+        },
+        "Roughness": {
+          "file": "T_RoofClay_Roughness.png",
+          "sha256": "9182c9b801027478e7d9a5baa03d2c64a6fe68eb2ac3d77d088af5fd7eb64bb3",
+          "size_bytes": 175364,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.8251953125,
+            "first_interior_y_mean_abs_step": 3.326171875
+          },
+          "channel_min": 83,
+          "channel_max": 163,
+          "channel_mean": 125.10828304290771,
+          "linear_percentiles_0_5_50_95_100": [
+            0.3254901960784314,
+            0.3803921568627451,
+            0.49411764705882355,
+            0.592156862745098,
+            0.6392156862745098
+          ]
+        },
+        "Normal": {
+          "file": "T_RoofClay_Normal.png",
+          "sha256": "992e47e2691677a132da503621f00993cc4aed0766569e24e4799b3253dff117",
+          "size_bytes": 178151,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 1.2080078125,
+            "first_interior_y_mean_abs_step": 2.677734375
+          },
+          "channel_min": [
+            109,
+            102,
+            252
+          ],
+          "channel_max": [
+            146,
+            153,
+            255
+          ],
+          "channel_mean": [
+            127.5001392364502,
+            127.49935817718506,
+            254.8017578125
+          ]
+        }
+      },
+      "height_range_m": [
+        -0.00010169123760744399,
+        0.003964129075970184
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.7104936331709029,
+        7.879475908760337,
+        9.723820880332848,
+        11.577353682032244
+      ],
+      "normal_blue_min": 252
+    },
+    "Metal": {
+      "parameters": {
+        "seed": 2026103007,
+        "base_srgb": [
+          36,
+          48,
+          43
+        ],
+        "roughness_target": [
+          0.2,
+          0.4
+        ],
+        "recommended_metallic": 0.7,
+        "recommended_metallic_note": "Parent may use 0.7-0.9 for iron or 0 for painted finish. This PNG set does not encode metallic.",
+        "use": "Dark green-black iron railings, lamps and brackets; subtle broad weathering, no repetitive heavy corrosion."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_Metal_BaseColor.png",
+          "sha256": "35370e907ef0a559e528752044af2e6b9da7fb79573e1cdbbd26729dc4e42194",
+          "size_bytes": 92697,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.032877604166666664,
+            "first_interior_y_mean_abs_step": 0.048177083333333336
+          },
+          "channel_min": [
+            31,
+            43,
+            38
+          ],
+          "channel_max": [
+            43,
+            53,
+            47
+          ],
+          "channel_mean": [
+            36.356693267822266,
+            48.07392978668213,
+            42.85872745513916
+          ]
+        },
+        "Roughness": {
+          "file": "T_Metal_Roughness.png",
+          "sha256": "8159a5b8134ec615e5d78dbf229c9cd2770e62391539318bdda7a475204d0399",
+          "size_bytes": 128259,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.193359375,
+            "first_interior_y_mean_abs_step": 0.2373046875
+          },
+          "channel_min": 51,
+          "channel_max": 102,
+          "channel_mean": 76.50006675720215,
+          "linear_percentiles_0_5_50_95_100": [
+            0.2,
+            0.25882352941176473,
+            0.2980392156862745,
+            0.3411764705882353,
+            0.4
+          ]
+        },
+        "Normal": {
+          "file": "T_Metal_Normal.png",
+          "sha256": "cad003b06a132fe96f5675b59483397df29073ff3a8cefc0bc7f63efa745995b",
+          "size_bytes": 117246,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.040364583333333336,
+            "first_interior_y_mean_abs_step": 0.04296875
+          },
+          "channel_min": [
+            127,
+            127,
+            255
+          ],
+          "channel_max": [
+            128,
+            128,
+            255
+          ],
+          "channel_mean": [
+            127.49980926513672,
+            127.49985122680664,
+            255.0
+          ]
+        }
+      },
+      "height_range_m": [
+        -7.419886963772523e-05,
+        8.418313623686069e-05
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286,
+        0.31775544206983286
+      ],
+      "normal_blue_min": 255
+    },
+    "Leaf": {
+      "parameters": {
+        "seed": 2026103107,
+        "base_srgb": [
+          82,
+          107,
+          67
+        ],
+        "background_srgb": [
+          62,
+          85,
+          57
+        ],
+        "pattern": "24 by 24 alternating rows of individually rotated soft leaf forms",
+        "cell_size_m": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "opacity": "Opaque; this is a foliage-surface pattern, not a cutout/opacity atlas",
+        "roughness_target": [
+          0.4,
+          0.68
+        ],
+        "use": "Rounded shrub and canopy forms with a calm muted leaf surface. Not intended as an individual leaf card texture."
+      },
+      "files": {
+        "BaseColor": {
+          "file": "T_Leaf_BaseColor.png",
+          "sha256": "b58f89079bd6bdd0fb796ed3436b5a168fd473b44ed895110347a51a7b9ca62b",
+          "size_bytes": 430358,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.28515625,
+            "first_interior_y_mean_abs_step": 0.0302734375
+          },
+          "channel_min": [
+            58,
+            81,
+            53
+          ],
+          "channel_max": [
+            95,
+            121,
+            78
+          ],
+          "channel_mean": [
+            69.32205009460449,
+            93.0398063659668,
+            60.7369441986084
+          ]
+        },
+        "Roughness": {
+          "file": "T_Leaf_Roughness.png",
+          "sha256": "5b35fc0563523029e79e15a33a739826b00cc313c0bf04889ff85d67ae8f4a21",
+          "size_bytes": 222484,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "L",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.294921875,
+            "first_interior_y_mean_abs_step": 0.1591796875
+          },
+          "channel_min": 111,
+          "channel_max": 161,
+          "channel_mean": 139.71989822387695,
+          "linear_percentiles_0_5_50_95_100": [
+            0.43529411764705883,
+            0.47058823529411764,
+            0.5647058823529412,
+            0.6039215686274509,
+            0.6313725490196078
+          ]
+        },
+        "Normal": {
+          "file": "T_Leaf_Normal.png",
+          "sha256": "8753f15fa3985677bfbcdab3f0c9903b49863b4107eaf4dcd1d3a0e37945f234",
+          "size_bytes": 308854,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "opposite_edges": {
+            "left_right_max_abs_channel_error": 0,
+            "top_bottom_max_abs_channel_error": 0,
+            "left_right_unequal_channels": 0,
+            "top_bottom_unequal_channels": 0,
+            "pass_exact": true,
+            "first_interior_x_mean_abs_step": 0.12239583333333333,
+            "first_interior_y_mean_abs_step": 0.0
+          },
+          "channel_min": [
+            121,
+            121,
+            255
+          ],
+          "channel_max": [
+            134,
+            134,
+            255
+          ],
+          "channel_mean": [
+            127.77167129516602,
+            127.77184104919434,
+            255.0
+          ]
+        }
+      },
+      "height_range_m": [
+        0.0,
+        0.0009407987289648081
+      ],
+      "decoded_normal_tilt_degrees_50_95_99_max": [
+        0.31775544206983286,
+        2.4802244240262143,
+        3.190134760909484,
+        3.8206483709531476
+      ],
+      "normal_blue_min": 255
+    }
+  },
+  "started_at_utc": "2026-10-22T15:02:18.286426+00:00",
+  "finished_at_utc": "2026-10-22T15:02:41.166624+00:00",
+  "generation_wall_seconds": 22.880198,
+  "qa": {
+    "png_count": 30,
+    "expected_png_count": 30,
+    "all_1024_square": true,
+    "all_opposite_edges_exact": true,
+    "all_normals_positive_z": true,
+    "normal_max_tilt_degrees": 14.227305408159923,
+    "ue_import_or_render_performed": false,
+    "note": "These are material source assets, not scene evidence. Final UE lighting/UV/material validation belongs to the scene builder."
+  },
+  "source": {
+    "file": "build_textures.py",
+    "sha256": "d979b749be7359e17815e6dc045dbaa754364b43022c0c0a7242c12c73864f5f"
+  },
+  "previews": [
+    {
+      "file": "Texture_Collage.png",
+      "sha256": "bee1455a85bb27a262a6851db52d25c687a54ecc2d549d91eed03a93fbf7d48f"
+    },
+    {
+      "file": "Tile_Seam_Preview.png",
+      "sha256": "6e783cfec393de7c4edd037ba68ad2b41d38985acf8d337b620a14a2ca67d579"
+    }
+  ]
+}

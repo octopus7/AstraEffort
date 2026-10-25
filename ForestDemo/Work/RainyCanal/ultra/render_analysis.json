@@ -1,0 +1,214 @@
+{
+  "utc": "2026-10-22T15:46:17.743979+00:00",
+  "images": [
+    {
+      "name": "rainy_street",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "09af587b3dd5de1dfbe74436679d4ff6347152657a9c7430b0504a242f0647bc",
+      "rgb_std": [
+        44.83661557943404,
+        44.29646627909395,
+        48.101853071443934
+      ]
+    },
+    {
+      "name": "canal",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "06b18165ac5633bbc55c8eb37e53c1f1a2740d1777071632e6fb6ce0793e3b5b",
+      "rgb_std": [
+        47.52654765461292,
+        42.73069723057519,
+        44.01433867788864
+      ]
+    },
+    {
+      "name": "dock",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "32a8ba77f4652817ef2f24e69bf2c46ab632790db2f150b3dc8832e9dcecdf7d",
+      "rgb_std": [
+        47.40450024614315,
+        44.158273135796,
+        44.778624872347486
+      ]
+    },
+    {
+      "name": "top_down",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "b450b1713d97c4a803f23e8914690cc11344cc7090b5f92079b6f51f11aeff3a",
+      "rgb_std": [
+        44.548551559447695,
+        34.7049391507592,
+        41.27708165848496
+      ]
+    },
+    {
+      "name": "overview",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "88c96179946b826fcbf4eca326a003ac1d25a82b37c8706be3b9577e2c288fb7",
+      "rgb_std": [
+        37.61771476695124,
+        30.386165477719686,
+        36.4445658437544
+      ]
+    },
+    {
+      "name": "canal_motion_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "9c385b5f8808cf64aff1cebdfbbdef0c0a74ede8d3811a93923765b443b14335",
+      "rgb_std": [
+        47.530604036042945,
+        42.74973456363841,
+        44.03258704996234
+      ]
+    },
+    {
+      "name": "canal_motion_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "0c30d10fb69f12243f03bec36ced817fad68e38538a844489699b80c891a2c4d",
+      "rgb_std": [
+        47.486652742231975,
+        42.722728709193255,
+        44.021174811640236
+      ]
+    },
+    {
+      "name": "rainy_street_motion_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "7438572a8f0e9a7abb5632c6c7b16b25ee975031ee55274c89575fac0517302a",
+      "rgb_std": [
+        44.880027948779926,
+        44.34619589815912,
+        48.17096217428257
+      ]
+    },
+    {
+      "name": "rainy_street_motion_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "8b5caa3cc9b507528d7b9660e70d71a08e8ffb0b316f5670bdc4a02efaf6d1ab",
+      "rgb_std": [
+        44.816808043368354,
+        44.26396151353493,
+        48.08567188898673
+      ]
+    },
+    {
+      "name": "water_only_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "09ce44fbfa01c219a48218fa79a332445b4f97b666412414d1359a025ecde62a",
+      "rgb_std": [
+        47.46282419728808,
+        42.71102198483282,
+        44.018881721260286
+      ]
+    },
+    {
+      "name": "water_only_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "aae1859572aa7dec8df45e4f05c84ad07cd7bc6485c42c2c98845a253274cd50",
+      "rgb_std": [
+        47.4738510063171,
+        42.68515003674176,
+        43.98318973427076
+      ]
+    },
+    {
+      "name": "puddle_t0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "a7cb946bfc5ce1915e1d7f77634d03a88179bfe589ec8d9b3f66bd6b590d1f08",
+      "rgb_std": [
+        40.340977062288694,
+        38.575017269855316,
+        38.46971674250874
+      ]
+    },
+    {
+      "name": "puddle_t1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "a5809d206e0da3bd43c2075b92d2a6714a0790c482b5e5d007dd0ada8b10f675",
+      "rgb_std": [
+        40.550450641388736,
+        38.704448246028896,
+        38.51991329037193
+      ]
+    }
+  ],
+  "all_1920x1080": true,
+  "all_nonblank": true,
+  "motion": {
+    "canal": {
+      "world_time_t0": 26.98236682638526,
+      "world_time_t1": 29.422013334929943,
+      "delta_seconds": 2.4396465085446835,
+      "changed_pixels_threshold12": 40462,
+      "changed_pixels_threshold4": 346490,
+      "rain_hidden": false,
+      "interpretation": "Same-camera actual UE images; rain hidden in water_only/puddle pairs to isolate water, remaining differences include shading and temporal rendering."
+    },
+    "rainy_street": {
+      "world_time_t0": 31.849151138216257,
+      "world_time_t1": 34.26474283635616,
+      "delta_seconds": 2.415591698139906,
+      "changed_pixels_threshold12": 34477,
+      "changed_pixels_threshold4": 110153,
+      "rain_hidden": false,
+      "interpretation": "Same-camera actual UE images; rain hidden in water_only/puddle pairs to isolate water, remaining differences include shading and temporal rendering."
+    },
+    "water_only": {
+      "world_time_t0": 36.67086233943701,
+      "world_time_t1": 39.1135363355279,
+      "delta_seconds": 2.442673996090889,
+      "changed_pixels_threshold12": 23400,
+      "changed_pixels_threshold4": 324077,
+      "rain_hidden": true,
+      "interpretation": "Same-camera actual UE images; rain hidden in water_only/puddle pairs to isolate water, remaining differences include shading and temporal rendering."
+    },
+    "puddle": {
+      "world_time_t0": 41.535701636224985,
+      "world_time_t1": 43.93517043069005,
+      "delta_seconds": 2.399468794465065,
+      "changed_pixels_threshold12": 56799,
+      "changed_pixels_threshold4": 330959,
+      "rain_hidden": true,
+      "interpretation": "Same-camera actual UE images; rain hidden in water_only/puddle pairs to isolate water, remaining differences include shading and temporal rendering."
+    }
+  }
+}

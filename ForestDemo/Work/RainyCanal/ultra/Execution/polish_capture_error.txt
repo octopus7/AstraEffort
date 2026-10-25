@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\capture.py", line 65, in tick
+    self.result=validate.saved(self.world)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\validate.py", line 18, in saved
+    ws=next(a for a in actors if isinstance(a,unreal.WorldSettings));checks['non_world_partition']=ws.get_editor_property('world_partition') is None
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

@@ -1,0 +1,555 @@
+{
+  "started_at_utc": "2026-10-22T15:08:33.879922+00:00",
+  "finished_at_utc": "2026-10-22T15:08:37.897282+00:00",
+  "method": "Fresh Blender FBX import of each mesh. 2D separating-axis test on all UV0 triangle candidates, adjacency-based island boundaries and segment-distance padding audit.",
+  "all_passed": true,
+  "assets": [
+    {
+      "name": "SM_StoneBridge",
+      "passed": true,
+      "triangles": 8948,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          -8.0,
+          8.0
+        ],
+        [
+          -2.020000696182251,
+          2.020000696182251
+        ],
+        [
+          -0.949999988079071,
+          2.099592924118042
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 7.152557373046875e-07,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.009067703038454056,
+          0.985809326171875
+        ],
+        [
+          0.009067704901099205,
+          0.990932285785675
+        ]
+      ],
+      "uv0_island_count": 1186,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 8.0,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.99764065298412,
+        "p01": 127.99881613707477,
+        "median": 128.0000014676607,
+        "p99": 128.00103888763132,
+        "max": 128.00265711838938,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {
+        "centerline_downward_rays": [
+          {
+            "x_m": -7.999,
+            "hit": true,
+            "deck_z_m": 0.00026798248291015625
+          },
+          {
+            "x_m": -6,
+            "hit": true,
+            "deck_z_m": 0.4812498092651367
+          },
+          {
+            "x_m": -4,
+            "hit": true,
+            "deck_z_m": 0.8249998092651367
+          },
+          {
+            "x_m": -2,
+            "hit": true,
+            "deck_z_m": 1.03125
+          },
+          {
+            "x_m": 0,
+            "hit": true,
+            "deck_z_m": 1.0999996662139893
+          },
+          {
+            "x_m": 2,
+            "hit": true,
+            "deck_z_m": 1.03125
+          },
+          {
+            "x_m": 4,
+            "hit": true,
+            "deck_z_m": 0.8249998092651367
+          },
+          {
+            "x_m": 6,
+            "hit": true,
+            "deck_z_m": 0.4812498092651367
+          },
+          {
+            "x_m": 7.999,
+            "hit": true,
+            "deck_z_m": 0.00026798248291015625
+          }
+        ],
+        "open_transverse_ray_at_x0_z_minus0_5": true,
+        "analytic_max_deck_slope_degrees": 15.37625124882619
+      },
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_TimberBridge",
+      "passed": true,
+      "triangles": 9720,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -8.0,
+          8.0
+        ],
+        [
+          -1.735000729560852,
+          1.735000729560852
+        ],
+        [
+          -0.45499998331069946,
+          1.059999942779541
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 7.152557373046875e-07,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.0076394760981202126,
+          0.9901682138442993
+        ],
+        [
+          0.007639436516910791,
+          0.9923604130744934
+        ]
+      ],
+      "uv0_island_count": 540,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 8.0,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.87897426635737,
+        "p01": 127.87991519322728,
+        "median": 127.99934700317638,
+        "p99": 128.00163988775415,
+        "max": 128.00228761059407,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_CanalLamp",
+      "passed": true,
+      "triangles": 2842,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Metal",
+        "WindowGlass"
+      ],
+      "bounds_m": [
+        [
+          -0.28038790822029114,
+          0.28038790822029114
+        ],
+        [
+          -0.28038790822029114,
+          0.28038790822029114
+        ],
+        [
+          0.0,
+          3.799999952316284
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 2.9802322387695312e-08,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.006046807859092951,
+          0.9939533472061157
+        ],
+        [
+          0.006046786904335022,
+          0.979858934879303
+        ]
+      ],
+      "uv0_island_count": 124,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 6.23968505859375,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.01251494921569,
+        "p01": 127.87753006457534,
+        "median": 127.99999642183387,
+        "p99": 128.00405990509856,
+        "max": 128.00405990509856,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_Bench",
+      "passed": true,
+      "triangles": 1944,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Timber",
+        "Metal"
+      ],
+      "bounds_m": [
+        [
+          -0.8500000238418579,
+          0.8500000238418579
+        ],
+        [
+          -0.2825000584125519,
+          0.32790008187294006
+        ],
+        [
+          0.0,
+          0.9957129955291748
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 5.960464477539063e-08,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.005909916013479233,
+          0.9850962162017822
+        ],
+        [
+          0.00590989924967289,
+          0.9940900206565857
+        ]
+      ],
+      "uv0_island_count": 108,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 5.9593505859375,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.88228182644048,
+        "p01": 127.88255723086932,
+        "median": 127.99979651952778,
+        "p99": 128.00037371024305,
+        "max": 128.0004826470515,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_Planter",
+      "passed": true,
+      "triangles": 738,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "RoofClay",
+        "Timber",
+        "Leaf"
+      ],
+      "bounds_m": [
+        [
+          -0.6000000238418579,
+          0.6000000238418579
+        ],
+        [
+          -0.30000007152557373,
+          0.30000007152557373
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 5.960464477539063e-08,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.005860574543476105,
+          0.9941392540931702
+        ],
+        [
+          0.005860599689185619,
+          0.9924020171165466
+        ]
+      ],
+      "uv0_island_count": 95,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 5.858400045045101,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.88238397911918,
+        "p01": 127.88261479281597,
+        "median": 127.99993086336522,
+        "p99": 128.0006585033635,
+        "max": 128.00082713737436,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_MooringBollard",
+      "passed": true,
+      "triangles": 1360,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Metal"
+      ],
+      "bounds_m": [
+        [
+          -0.25,
+          0.25
+        ],
+        [
+          -0.2199999988079071,
+          0.2199999988079071
+        ],
+        [
+          0.0,
+          0.6499999761581421
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 0.0,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.0048658824525773525,
+          0.9573339223861694
+        ],
+        [
+          0.004865891765803099,
+          0.995134174823761
+        ]
+      ],
+      "uv0_island_count": 48,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 3.8212890625,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.91839179154357,
+        "p01": 127.91854236782123,
+        "median": 127.99999451329005,
+        "p99": 128.00025771950516,
+        "max": 128.00039748104913,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_Boat",
+      "passed": true,
+      "triangles": 2988,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -2.020298719406128,
+          2.020298719406128
+        ],
+        [
+          -0.8361718058586121,
+          0.8361717462539673
+        ],
+        [
+          -0.3499999940395355,
+          0.41892197728157043
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 0.0,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.007821873761713505,
+          0.992178201675415
+        ],
+        [
+          0.00782185047864914,
+          0.992085337638855
+        ]
+      ],
+      "uv0_island_count": 382,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 8.0,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.88154329975157,
+        "p01": 127.88236612794111,
+        "median": 127.99992279230118,
+        "p99": 128.0004492930054,
+        "max": 128.00078985491,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    },
+    {
+      "name": "SM_RailingSegment",
+      "passed": true,
+      "triangles": 2916,
+      "uv_channels": [
+        "UVMap",
+        "Physical128"
+      ],
+      "materials": [
+        "Metal"
+      ],
+      "bounds_m": [
+        [
+          -1.5,
+          1.4999998807907104
+        ],
+        [
+          -0.09000013023614883,
+          0.09000013023614883
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "fbx_roundtrip_max_bounds_error_m": 1.2665987014770508e-07,
+      "geometry_degenerate_triangles": 0,
+      "uv_degenerate_triangles": [
+        0,
+        0
+      ],
+      "uv0_bounds": [
+        [
+          0.004522027913480997,
+          0.36696699261665344
+        ],
+        [
+          0.004521979950368404,
+          0.9954779744148254
+        ]
+      ],
+      "uv0_island_count": 90,
+      "uv0_positive_area_overlap_pairs": 0,
+      "uv0_overlap_sample": [],
+      "uv0_minimum_island_gap_px_at1024": 3.116943359375,
+      "uv0_gap_search_limit_px": 8,
+      "uv0_gap_at_search_limit_means_at_least": true,
+      "uv0_padding_below2px_pairs": 0,
+      "uv0_padding_violation_sample": [],
+      "uv1_texel_density_px_per_m_at1024": {
+        "min": 127.66587192498376,
+        "p01": 127.66678080111434,
+        "median": 127.99986687529628,
+        "p99": 128.00088133549335,
+        "max": 128.0019393116447,
+        "target": 128,
+        "outside_1pct_count": 0
+      },
+      "source_geometry_bridge_probes": {},
+      "uv1_overlap_policy": "Intentional periodic physical-space mapping; UV1 is not a lightmap."
+    }
+  ],
+  "scope_limitations": [
+    "No Unreal runtime or collision test performed by this prop subagent.",
+    "UV1 overlap is intentional to maintain physical density. Use channel 1 in tiled surface materials.",
+    "Material slots are supplied with source preview colors; parent supplies final UE textures/materials."
+  ]
+}

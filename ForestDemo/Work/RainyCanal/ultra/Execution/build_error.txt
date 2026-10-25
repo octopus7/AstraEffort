@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/RainyCanal/ultra/ue_build.py", line 7, in <module>
+    assemble.build()
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\assemble.py", line 37, in build
+    mats=materials.build(textures)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\materials.py", line 57, in build
+    coord=custom(m,'return P.xy/800.0;',{'P':pos},unreal.CustomMaterialOutputType.CMOT_FLOAT2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\materials.py", line 18, in custom
+    n=node(mat,unreal.MaterialExpressionCustom,code=code,output_type=kind,inputs=[unreal.CustomInput(input_name=k) for k in inputs])
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\materials.py", line 18, in <listcomp>
+    n=node(mat,unreal.MaterialExpressionCustom,code=code,output_type=kind,inputs=[unreal.CustomInput(input_name=k) for k in inputs])
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: call() takes at most 0 arguments (1 given)

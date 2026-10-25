@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\capture.py", line 98, in tick
+    (ROOT/'validation.json').write_text(json.dumps(self.result,indent=2));assert self.result['all_passed'],self.result['checks']
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'saved_map_reload': True, 'non_world_partition': True, 'no_external_packages': True, 'owned_dependencies': True, 'footprint_100m': True, 'building_grounding': True, 'bridge_contacts': False, 'mesh_uvs_and_materials': True, 'material_graphs': True, 'roughness_sampler_types': True, 'rain_vertex_colors': True, 'rain_bounds': True, 'dynamic_lighting': True, 'scene_contents': True, 'player_start': True, 'pie_possession': True, 'ground_collision': True, 'bridge_collision': True, 'building_collision': True, 'pawn_can_move': True, 'pawn_sweep_blocks': True, 'bridge_traversal': True, 'pie_ended': True}

@@ -1,0 +1,1303 @@
+{
+  "utc": "2026-10-22T15:45:30.509936+00:00",
+  "checks": {
+    "saved_map_reload": true,
+    "non_world_partition": true,
+    "no_external_packages": true,
+    "owned_dependencies": true,
+    "footprint_100m": true,
+    "building_grounding": true,
+    "bridge_contacts": true,
+    "mesh_uvs_and_materials": true,
+    "material_graphs": true,
+    "roughness_sampler_types": true,
+    "rain_vertex_colors": true,
+    "rain_bounds": true,
+    "dynamic_lighting": true,
+    "scene_contents": true,
+    "player_start": true,
+    "pie_possession": true,
+    "ground_collision": true,
+    "bridge_collision": true,
+    "building_collision": true,
+    "pawn_can_move": true,
+    "pawn_sweep_blocks": true,
+    "bridge_traversal": true,
+    "pie_ended": true
+  },
+  "details": {
+    "dependencies": {
+      "packages": [
+        "/Game/Maps/RainyCanal_ultra",
+        "/Game/RainyCanal/ultra/Materials/M_CanalWater",
+        "/Game/RainyCanal/ultra/Materials/M_Ground",
+        "/Game/RainyCanal/ultra/Materials/M_Leaf",
+        "/Game/RainyCanal/ultra/Materials/M_Metal",
+        "/Game/RainyCanal/ultra/Materials/M_OvercastSky",
+        "/Game/RainyCanal/ultra/Materials/M_PlasterCream",
+        "/Game/RainyCanal/ultra/Materials/M_PlasterRose",
+        "/Game/RainyCanal/ultra/Materials/M_PlasterSage",
+        "/Game/RainyCanal/ultra/Materials/M_PuddleWater",
+        "/Game/RainyCanal/ultra/Materials/M_Rain",
+        "/Game/RainyCanal/ultra/Materials/M_RoofClay",
+        "/Game/RainyCanal/ultra/Materials/M_RoofSlate",
+        "/Game/RainyCanal/ultra/Materials/M_Stone",
+        "/Game/RainyCanal/ultra/Materials/M_Timber",
+        "/Game/RainyCanal/ultra/Materials/M_WindowGlass",
+        "/Game/RainyCanal/ultra/Meshes/SM_BankEast",
+        "/Game/RainyCanal/ultra/Meshes/SM_BankWest",
+        "/Game/RainyCanal/ultra/Meshes/SM_Bench",
+        "/Game/RainyCanal/ultra/Meshes/SM_Boat",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalBed",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalHouseA",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalHouseB",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalLamp",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalShop",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalTree",
+        "/Game/RainyCanal/ultra/Meshes/SM_CanalWater",
+        "/Game/RainyCanal/ultra/Meshes/SM_Dock",
+        "/Game/RainyCanal/ultra/Meshes/SM_DockStep",
+        "/Game/RainyCanal/ultra/Meshes/SM_GrassFringe",
+        "/Game/RainyCanal/ultra/Meshes/SM_MooringBollard",
+        "/Game/RainyCanal/ultra/Meshes/SM_Planter",
+        "/Game/RainyCanal/ultra/Meshes/SM_Puddle",
+        "/Game/RainyCanal/ultra/Meshes/SM_QuayCap",
+        "/Game/RainyCanal/ultra/Meshes/SM_QuayWall",
+        "/Game/RainyCanal/ultra/Meshes/SM_RailingSegment",
+        "/Game/RainyCanal/ultra/Meshes/SM_RainVolume",
+        "/Game/RainyCanal/ultra/Meshes/SM_Shrub",
+        "/Game/RainyCanal/ultra/Meshes/SM_StoneBridge",
+        "/Game/RainyCanal/ultra/Meshes/SM_TimberBridge",
+        "/Game/RainyCanal/ultra/Textures/T_Cobble_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_Cobble_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_Cobble_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_Leaf_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_Leaf_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_Leaf_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_Metal_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_Metal_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_Metal_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterCream_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterCream_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterCream_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterRose_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterRose_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterRose_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterSage_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterSage_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_PlasterSage_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_RoofClay_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_RoofClay_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_RoofClay_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_RoofSlate_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_RoofSlate_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_RoofSlate_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_Stone_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_Stone_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_Stone_Roughness",
+        "/Game/RainyCanal/ultra/Textures/T_Timber_BaseColor",
+        "/Game/RainyCanal/ultra/Textures/T_Timber_Normal",
+        "/Game/RainyCanal/ultra/Textures/T_Timber_Roughness"
+      ],
+      "violations": []
+    },
+    "bank_bounds": [
+      [
+        [
+          -5000.00048828125,
+          -5000.0,
+          0.0
+        ],
+        [
+          -599.9995727539062,
+          5000.00048828125,
+          0.0
+        ]
+      ],
+      [
+        [
+          599.9995727539062,
+          -5000.00048828125,
+          0.0
+        ],
+        [
+          5000.00048828125,
+          5000.0,
+          0.0
+        ]
+      ]
+    ],
+    "buildings": [
+      {
+        "label": "Building_0_SM_CanalHouseA",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_1_SM_CanalShop",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_2_SM_CanalHouseB",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_3_SM_CanalHouseA",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_4_SM_CanalHouseB",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_5_SM_CanalHouseA",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_6_SM_CanalShop",
+        "bottom_cm": 0.0
+      },
+      {
+        "label": "Building_7_SM_CanalHouseB",
+        "bottom_cm": 0.0
+      }
+    ],
+    "bridge_surface_traces": [
+      {
+        "hit": true,
+        "location": [
+          -790.0,
+          1500.0,
+          2.6812493801116943
+        ],
+        "actor": "SM_StoneBridge",
+        "mesh": "SM_StoneBridge",
+        "distance": 497.3187561035156,
+        "bridge": "stone",
+        "x": -790
+      },
+      {
+        "hit": true,
+        "location": [
+          -600.0,
+          1500.0,
+          48.12500476837158
+        ],
+        "actor": "SM_StoneBridge",
+        "mesh": "SM_StoneBridge",
+        "distance": 451.875,
+        "bridge": "stone",
+        "x": -600
+      },
+      {
+        "hit": true,
+        "location": [
+          0.0,
+          1500.0,
+          110.00000238418579
+        ],
+        "actor": "SM_StoneBridge",
+        "mesh": "SM_StoneBridge",
+        "distance": 390.0,
+        "bridge": "stone",
+        "x": 0
+      },
+      {
+        "hit": true,
+        "location": [
+          600.0,
+          1500.0,
+          48.12500476837158
+        ],
+        "actor": "SM_StoneBridge",
+        "mesh": "SM_StoneBridge",
+        "distance": 451.875,
+        "bridge": "stone",
+        "x": 600
+      },
+      {
+        "hit": true,
+        "location": [
+          790.0,
+          1500.0,
+          2.6812493801116943
+        ],
+        "actor": "SM_StoneBridge",
+        "mesh": "SM_StoneBridge",
+        "distance": 497.3187561035156,
+        "bridge": "stone",
+        "x": 790
+      },
+      {
+        "hit": true,
+        "location": [
+          -790.0,
+          -2800.0,
+          -1.1920928955078125e-05
+        ],
+        "actor": "SM_TimberBridge",
+        "mesh": "SM_TimberBridge",
+        "distance": 500.0,
+        "bridge": "timber",
+        "x": -790
+      },
+      {
+        "hit": true,
+        "location": [
+          -600.0,
+          -2800.0,
+          -11.99999451637268
+        ],
+        "actor": "QuayWall_-6.05",
+        "mesh": "SM_QuayWall",
+        "distance": 512.0,
+        "bridge": "timber",
+        "x": -600
+      },
+      {
+        "hit": true,
+        "location": [
+          0.0,
+          -2800.0,
+          -164.99999165534973
+        ],
+        "actor": "SM_CanalBed",
+        "mesh": "SM_CanalBed",
+        "distance": 665.0,
+        "bridge": "timber",
+        "x": 0
+      },
+      {
+        "hit": true,
+        "location": [
+          600.0,
+          -2800.0,
+          -1.1920928955078125e-05
+        ],
+        "actor": "SM_BankEast",
+        "mesh": "SM_BankEast",
+        "distance": 500.0,
+        "bridge": "timber",
+        "x": 600
+      },
+      {
+        "hit": true,
+        "location": [
+          790.0,
+          -2800.0,
+          -1.1920928955078125e-05
+        ],
+        "actor": "SM_TimberBridge",
+        "mesh": "SM_TimberBridge",
+        "distance": 500.0,
+        "bridge": "timber",
+        "x": 790
+      }
+    ],
+    "meshes": [
+      {
+        "name": "SM_Shrub",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Leaf.M_Leaf"
+        ]
+      },
+      {
+        "name": "SM_Planter",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_RoofClay.M_RoofClay",
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber",
+          "/Game/RainyCanal/ultra/Materials/M_Leaf.M_Leaf"
+        ]
+      },
+      {
+        "name": "SM_GrassFringe",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Leaf.M_Leaf"
+        ]
+      },
+      {
+        "name": "SM_CanalTree",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber",
+          "/Game/RainyCanal/ultra/Materials/M_Leaf.M_Leaf"
+        ]
+      },
+      {
+        "name": "SM_CanalShop",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone",
+          "/Game/RainyCanal/ultra/Materials/M_PlasterRose.M_PlasterRose",
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber",
+          "/Game/RainyCanal/ultra/Materials/M_RoofSlate.M_RoofSlate",
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal",
+          "/Game/RainyCanal/ultra/Materials/M_WindowGlass.M_WindowGlass"
+        ]
+      },
+      {
+        "name": "SM_CanalHouseB",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone",
+          "/Game/RainyCanal/ultra/Materials/M_PlasterSage.M_PlasterSage",
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber",
+          "/Game/RainyCanal/ultra/Materials/M_RoofClay.M_RoofClay",
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal",
+          "/Game/RainyCanal/ultra/Materials/M_WindowGlass.M_WindowGlass"
+        ]
+      },
+      {
+        "name": "SM_CanalHouseA",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone",
+          "/Game/RainyCanal/ultra/Materials/M_PlasterCream.M_PlasterCream",
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber",
+          "/Game/RainyCanal/ultra/Materials/M_RoofSlate.M_RoofSlate",
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal",
+          "/Game/RainyCanal/ultra/Materials/M_WindowGlass.M_WindowGlass"
+        ]
+      },
+      {
+        "name": "SM_StoneBridge",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone"
+        ]
+      },
+      {
+        "name": "SM_QuayWall",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone"
+        ]
+      },
+      {
+        "name": "SM_QuayCap",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone"
+        ]
+      },
+      {
+        "name": "SM_CanalBed",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Stone.M_Stone"
+        ]
+      },
+      {
+        "name": "SM_Bench",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber",
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal"
+        ]
+      },
+      {
+        "name": "SM_TimberBridge",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber"
+        ]
+      },
+      {
+        "name": "SM_DockStep",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber"
+        ]
+      },
+      {
+        "name": "SM_Dock",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber"
+        ]
+      },
+      {
+        "name": "SM_Boat",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Timber.M_Timber"
+        ]
+      },
+      {
+        "name": "SM_RailingSegment",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal"
+        ]
+      },
+      {
+        "name": "SM_MooringBollard",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal"
+        ]
+      },
+      {
+        "name": "SM_CanalLamp",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Metal.M_Metal",
+          "/Game/RainyCanal/ultra/Materials/M_WindowGlass.M_WindowGlass"
+        ]
+      },
+      {
+        "name": "SM_BankWest",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Ground.M_Ground"
+        ]
+      },
+      {
+        "name": "SM_BankEast",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Ground.M_Ground"
+        ]
+      },
+      {
+        "name": "SM_RainVolume",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_Rain.M_Rain"
+        ]
+      },
+      {
+        "name": "SM_Puddle",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_PuddleWater.M_PuddleWater"
+        ]
+      },
+      {
+        "name": "SM_CanalWater",
+        "uv_channels": 2,
+        "materials": [
+          "/Game/RainyCanal/ultra/Materials/M_CanalWater.M_CanalWater"
+        ]
+      }
+    ],
+    "weather_graphs": [
+      {
+        "material": "Rain",
+        "custom_nodes": [
+          {
+            "code": "float a=frac(V.r-T*.72);return float3((a-.5)*65,(a-.5)*22,a*1400);",
+            "connected_inputs": [
+              "MaterialExpressionWorldPosition",
+              "MaterialExpressionTime",
+              "MaterialExpressionVertexColor"
+            ]
+          }
+        ]
+      },
+      {
+        "material": "CanalWater",
+        "custom_nodes": [
+          {
+            "code": "float2 cell=floor(P.xy/145.0);float2 local=frac(P.xy/145.0)*145.0;\nfloat h=frac(sin(dot(cell,float2(127.1,311.7)))*43758.5453);\nfloat h2=frac(sin(dot(cell,float2(269.5,183.3)))*23421.631);\nfloat2 dv=local-float2(30+h*85,30+h2*85);float d=length(dv)+.001;\nfloat age=frac(T*.72+h);float radius=age*62;\nfloat ring=cos((d-radius)*.45)*exp(-abs(d-radius)*.17)*(1-age)*.28;\nfloat2 slopes=dv/d*ring;\nslopes+=float2(sin(P.x*.028+T*.9+sin(P.y*.018)),cos(P.y*.031-T*.7+sin(P.x*.02)))*.035;\nreturn normalize(float3(slopes,1));",
+            "connected_inputs": [
+              "MaterialExpressionWorldPosition",
+              "MaterialExpressionTime"
+            ]
+          }
+        ]
+      },
+      {
+        "material": "PuddleWater",
+        "custom_nodes": [
+          {
+            "code": "float2 cell=floor(P.xy/145.0);float2 local=frac(P.xy/145.0)*145.0;\nfloat h=frac(sin(dot(cell,float2(127.1,311.7)))*43758.5453);\nfloat h2=frac(sin(dot(cell,float2(269.5,183.3)))*23421.631);\nfloat2 dv=local-float2(30+h*85,30+h2*85);float d=length(dv)+.001;\nfloat age=frac(T*.72+h);float radius=age*62;\nfloat ring=cos((d-radius)*.45)*exp(-abs(d-radius)*.17)*(1-age)*.28;\nfloat2 slopes=dv/d*ring;\nslopes+=float2(sin(P.x*.028+T*.9+sin(P.y*.018)),cos(P.y*.031-T*.7+sin(P.x*.02)))*.035;\nreturn normalize(float3(slopes,1));",
+            "connected_inputs": [
+              "MaterialExpressionWorldPosition",
+              "MaterialExpressionTime"
+            ]
+          }
+        ]
+      }
+    ],
+    "roughness_samplers": [
+      {
+        "material": "M_Leaf",
+        "texture": "T_Leaf_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_PlasterRose",
+        "texture": "T_PlasterRose_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_RoofClay",
+        "texture": "T_RoofClay_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_PlasterSage",
+        "texture": "T_PlasterSage_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_RoofSlate",
+        "texture": "T_RoofSlate_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_PlasterCream",
+        "texture": "T_PlasterCream_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_Stone",
+        "texture": "T_Stone_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_Timber",
+        "texture": "T_Timber_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_Metal",
+        "texture": "T_Metal_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_Ground",
+        "texture": "T_Cobble_Roughness",
+        "linear_grayscale": true
+      },
+      {
+        "material": "M_Cobble",
+        "texture": "T_Cobble_Roughness",
+        "linear_grayscale": true
+      }
+    ],
+    "actor_count": 325,
+    "placed_density": {
+      "Tree_": {
+        "count": 16,
+        "scale_range": [
+          0.9673822568109843,
+          1.3145229109351826
+        ],
+        "nominal_uv1_pixels_per_metre_range": [
+          97.3737307544817,
+          132.3158442268285
+        ]
+      },
+      "Shrub_": {
+        "count": 37,
+        "scale_range": [
+          0.8036878818127904,
+          1.2955714082615508
+        ],
+        "nominal_uv1_pixels_per_metre_range": [
+          98.79810497806176,
+          159.26580815338968
+        ]
+      },
+      "GrassFringe_": {
+        "count": 69,
+        "scale_range": [
+          0.6553499224673656,
+          1.1805190562991763
+        ],
+        "nominal_uv1_pixels_per_metre_range": [
+          108.4268816475261,
+          195.31550338494776
+        ]
+      }
+    },
+    "final_lighting": {
+      "skylight": 1.2000000476837158,
+      "fill": 0.30000001192092896,
+      "fog_density": 0.0024999999441206455
+    },
+    "runtime": {
+      "pawn_class": "DefaultPawn",
+      "ground_traces": [
+        {
+          "hit": true,
+          "location": [
+            -1050.0,
+            2100.0,
+            -1.1920928955078125e-05
+          ],
+          "actor": "SM_BankWest",
+          "mesh": "SM_BankWest",
+          "distance": 400.0
+        },
+        {
+          "hit": true,
+          "location": [
+            1050.0,
+            800.0,
+            -1.1920928955078125e-05
+          ],
+          "actor": "SM_BankEast",
+          "mesh": "SM_BankEast",
+          "distance": 400.0
+        },
+        {
+          "hit": true,
+          "location": [
+            -3200.0,
+            1500.0,
+            -1.1920928955078125e-05
+          ],
+          "actor": "SM_BankWest",
+          "mesh": "SM_BankWest",
+          "distance": 400.0
+        }
+      ],
+      "bridge_traces": [
+        {
+          "hit": true,
+          "location": [
+            0.0,
+            1500.0,
+            109.99998450279236
+          ],
+          "actor": "SM_StoneBridge",
+          "mesh": "SM_StoneBridge",
+          "distance": 390.0
+        },
+        {
+          "hit": true,
+          "location": [
+            16.6667,
+            -2800.0,
+            -8.940696716308594e-06
+          ],
+          "actor": "SM_TimberBridge",
+          "mesh": "SM_TimberBridge",
+          "distance": 500.0
+        }
+      ],
+      "bridge_contact_traces": [
+        {
+          "hit": true,
+          "location": [
+            -790.0,
+            1500.0,
+            2.681240439414978
+          ],
+          "actor": "SM_StoneBridge",
+          "mesh": "SM_StoneBridge",
+          "distance": 497.3187561035156,
+          "bridge": "stone",
+          "x": -790
+        },
+        {
+          "hit": true,
+          "location": [
+            -600.0,
+            1500.0,
+            48.12498092651367
+          ],
+          "actor": "SM_StoneBridge",
+          "mesh": "SM_StoneBridge",
+          "distance": 451.875,
+          "bridge": "stone",
+          "x": -600
+        },
+        {
+          "hit": true,
+          "location": [
+            0.0,
+            1500.0,
+            109.99998450279236
+          ],
+          "actor": "SM_StoneBridge",
+          "mesh": "SM_StoneBridge",
+          "distance": 390.0,
+          "bridge": "stone",
+          "x": 0
+        },
+        {
+          "hit": true,
+          "location": [
+            600.0,
+            1500.0,
+            48.12498092651367
+          ],
+          "actor": "SM_StoneBridge",
+          "mesh": "SM_StoneBridge",
+          "distance": 451.875,
+          "bridge": "stone",
+          "x": 600
+        },
+        {
+          "hit": true,
+          "location": [
+            790.0,
+            1500.0,
+            2.681240439414978
+          ],
+          "actor": "SM_StoneBridge",
+          "mesh": "SM_StoneBridge",
+          "distance": 497.3187561035156,
+          "bridge": "stone",
+          "x": 790
+        },
+        {
+          "hit": true,
+          "location": [
+            -783.333,
+            -2800.0,
+            -8.940696716308594e-06
+          ],
+          "actor": "SM_TimberBridge",
+          "mesh": "SM_TimberBridge",
+          "distance": 500.0,
+          "bridge": "timber",
+          "x": -783.333
+        },
+        {
+          "hit": true,
+          "location": [
+            -616.667,
+            -2800.0,
+            -8.940696716308594e-06
+          ],
+          "actor": "SM_TimberBridge",
+          "mesh": "SM_TimberBridge",
+          "distance": 500.0,
+          "bridge": "timber",
+          "x": -616.667
+        },
+        {
+          "hit": true,
+          "location": [
+            16.667,
+            -2800.0,
+            -8.940696716308594e-06
+          ],
+          "actor": "SM_TimberBridge",
+          "mesh": "SM_TimberBridge",
+          "distance": 500.0,
+          "bridge": "timber",
+          "x": 16.667
+        },
+        {
+          "hit": true,
+          "location": [
+            616.667,
+            -2800.0,
+            -8.940696716308594e-06
+          ],
+          "actor": "SM_TimberBridge",
+          "mesh": "SM_TimberBridge",
+          "distance": 500.0,
+          "bridge": "timber",
+          "x": 616.667
+        },
+        {
+          "hit": true,
+          "location": [
+            783.333,
+            -2800.0,
+            -8.940696716308594e-06
+          ],
+          "actor": "SM_TimberBridge",
+          "mesh": "SM_TimberBridge",
+          "distance": 500.0,
+          "bridge": "timber",
+          "x": 783.333
+        }
+      ],
+      "building_trace": {
+        "hit": true,
+        "location": [
+          -1680.4999709129333,
+          3500.0,
+          200.0
+        ],
+        "actor": "Building_0_SM_CanalHouseA",
+        "mesh": "SM_CanalHouseA",
+        "distance": 180.49996948242188
+      },
+      "quay_move_end": [
+        -1050.0,
+        1800.0,
+        100.0
+      ],
+      "blocked_at_z": 36.29999905824661,
+      "bridge_dock_swept_routes": [
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            -750,
+            1500,
+            83.26873898506165
+          ],
+          "actual": [
+            -750.0,
+            1500.0,
+            83.26873898506165
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            -600,
+            1500,
+            118.12498092651367
+          ],
+          "actual": [
+            -600.0,
+            1500.0,
+            118.12498092651367
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            -450,
+            1500,
+            145.14374256134033
+          ],
+          "actual": [
+            -450.0,
+            1500.0,
+            145.14374256134033
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            -300,
+            1500,
+            164.46248412132263
+          ],
+          "actual": [
+            -300.0,
+            1500.0,
+            164.46248412132263
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            -150,
+            1500,
+            176.08124434947968
+          ],
+          "actual": [
+            -150.0,
+            1500.0,
+            176.08124434947968
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            0,
+            1500,
+            179.99998450279236
+          ],
+          "actual": [
+            0.0,
+            1500.0,
+            179.99998450279236
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            150,
+            1500,
+            176.08124434947968
+          ],
+          "actual": [
+            150.0,
+            1500.0,
+            176.08124434947968
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            300,
+            1500,
+            164.46248412132263
+          ],
+          "actual": [
+            300.0,
+            1500.0,
+            164.46248412132263
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            450,
+            1500,
+            145.14374256134033
+          ],
+          "actual": [
+            450.0,
+            1500.0,
+            145.14374256134033
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            600,
+            1500,
+            118.12498092651367
+          ],
+          "actual": [
+            600.0,
+            1500.0,
+            118.12498092651367
+          ]
+        },
+        {
+          "route": "stone",
+          "surface_hit": true,
+          "surface_mesh": "SM_StoneBridge",
+          "target": [
+            750,
+            1500,
+            83.26873898506165
+          ],
+          "actual": [
+            750.0,
+            1500.0,
+            83.26873898506165
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            -742,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            -742.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            -592,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            -592.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            -442,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            -442.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            -292,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            -292.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            -142,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            -142.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            8,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            8.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            158,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            158.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            308,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            308.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            458,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            458.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            608,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            608.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "timber",
+          "surface_hit": true,
+          "surface_mesh": "SM_TimberBridge",
+          "target": [
+            758,
+            -2800,
+            69.99999105930328
+          ],
+          "actual": [
+            758.0,
+            -2800.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_BankEast",
+          "target": [
+            850,
+            -100,
+            69.99999105930328
+          ],
+          "actual": [
+            850.0,
+            -100.0,
+            69.99999105930328
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_DockStep",
+          "target": [
+            800,
+            -100,
+            72.13333666324615
+          ],
+          "actual": [
+            800.0,
+            -100.0,
+            72.13333666324615
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_DockStep",
+          "target": [
+            750,
+            -100,
+            77.46666193008423
+          ],
+          "actual": [
+            750.0,
+            -100.0,
+            77.46666193008423
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_DockStep",
+          "target": [
+            700,
+            -100,
+            82.7999871969223
+          ],
+          "actual": [
+            700.0,
+            -100.0,
+            82.7999871969223
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_DockStep",
+          "target": [
+            650,
+            -100,
+            86.00000560283661
+          ],
+          "actual": [
+            650.0,
+            -100.0,
+            86.00000560283661
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_DockStep",
+          "target": [
+            600,
+            -100,
+            83.80951404571533
+          ],
+          "actual": [
+            600.0,
+            -100.0,
+            83.80951404571533
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_DockStep",
+          "target": [
+            550,
+            -100,
+            61.90475344657898
+          ],
+          "actual": [
+            550.0,
+            -100.0,
+            61.90475344657898
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_Dock",
+          "target": [
+            500,
+            -100,
+            39.99999284744263
+          ],
+          "actual": [
+            500.0,
+            -100.0,
+            39.99999284744263
+          ]
+        },
+        {
+          "route": "dock",
+          "surface_hit": true,
+          "surface_mesh": "SM_Dock",
+          "target": [
+            450,
+            -100,
+            39.99999284744263
+          ],
+          "actual": [
+            450.0,
+            -100.0,
+            39.99999284744263
+          ]
+        }
+      ]
+    }
+  },
+  "all_passed": true
+}

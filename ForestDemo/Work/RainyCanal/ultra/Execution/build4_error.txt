@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/RainyCanal/ultra/ue_build4.py", line 6, in <module>
+    assemble.build()
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\assemble.py", line 106, in build
+    fog=actor(unreal.ExponentialHeightFog,'RainHaze',z=-6);fc=fog.get_component_by_class(unreal.ExponentialHeightFogComponent);fc.set_editor_property('fog_density',.006);fc.set_editor_property('fog_height_falloff',.18);fc.set_editor_property('fog_inscattering_color',unreal.LinearColor(.27,.33,.36,1))
+                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: ExponentialHeightFogComponent: Failed to find property 'fog_inscattering_color' for attribute 'fog_inscattering_color' on 'ExponentialHeightFogComponent'

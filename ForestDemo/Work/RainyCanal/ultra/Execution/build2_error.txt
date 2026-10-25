@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:/github/AstraEffort/ForestDemo/Work/RainyCanal/ultra/ue_build2.py", line 6, in <module>
+    assemble.build()
+  File "D:\github\AstraEffort\ForestDemo\Work\RainyCanal\ultra\assemble.py", line 98, in build
+    sun=actor(unreal.DirectionalLight,'OvercastSun');sun.set_actor_rotation(unreal.Rotator(pitch=-48,yaw=-35,roll=0),False);sun.directional_light_component.set_editor_property('mobility',unreal.ComponentMobility.MOVABLE);sun.directional_light_component.set_editor_property('intensity',3.0);sun.directional_light_component.set_editor_property('light_source_angle',12.0);sun.directional_light_component.set_editor_property('light_color',unreal.Color(207,220,236,255))
+                                                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DirectionalLight' object has no attribute 'directional_light_component'
