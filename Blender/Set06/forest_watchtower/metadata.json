@@ -1,0 +1,126 @@
+{
+  "set": "Set06",
+  "slug": "forest_watchtower",
+  "label": "Circular forest lookout tower",
+  "design": "Short splayed four-leg lookout, individual footings, glazed observation cabin, wraparound balcony, shallow cap roof and return staircase.",
+  "front": "-Y",
+  "intended_dimensions_m": [
+    6.1,
+    6.1,
+    7.6
+  ],
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "source_reference": "../REF/forest_watchtower.png",
+  "source_prompt": "../REF/forest_watchtower.prompt.txt",
+  "geometry_style": "Original ordinary rounded mesh geometry; no voxels, no external creative geometry.",
+  "units": "meters",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "blender_version": "4.5.12 LTS",
+  "authored_bounds_min_m": [
+    -2.4800000190734863,
+    -3.2792322635650635,
+    0.0
+  ],
+  "authored_bounds_max_m": [
+    3.700000047683716,
+    2.4800000190734863,
+    7.550000190734863
+  ],
+  "authored_dimensions_m": [
+    6.180000305175781,
+    5.759232521057129,
+    7.550000190734863
+  ],
+  "measurements_note": "Authored scene bounds before render; production measurements only, not independent validation.",
+  "editable_mesh_parts": 233,
+  "source_vertices": 8616,
+  "source_polygons": 6028,
+  "uv_authoring": "UV0_Component_Unwrap: per-component Smart Project, 66 degree angle, 0.025 island margin. No UV validation performed.",
+  "materials": [
+    "S06_Brushed_Hydraulic_Steel",
+    "S06_Dark_Steel",
+    "S06_Muted_Blue_Glazing",
+    "S06_Nursery_Bench_Timber",
+    "S06_Pine_Painted_Metal",
+    "S06_Sage_Painted_Metal",
+    "S06_Terracotta_Enamel",
+    "S06_Warm_Cream_Enamel",
+    "S06_Warm_Masonry"
+  ],
+  "material_note": "Named solid-color Principled PBR palette. Glazing uses transmission; FBX material fidelity remains unreviewed.",
+  "collections": {
+    "ASSET": "Named editable mesh parts with softening modifiers",
+    "STUDIO": "Neutral ground, camera and three area lights; omitted from geometry exports"
+  },
+  "export_note": "Selected ASSET meshes only; modifiers applied by GLB/FBX exporters, no camera/light/animation export.",
+  "started_at_utc": "2026-10-25T06:07:34.152923+00:00",
+  "finished_at_utc": "2026-10-25T06:08:12.780053+00:00",
+  "captures": [
+    {
+      "view": "hero",
+      "started_at_utc": "2026-10-25T06:07:36.916354+00:00",
+      "finished_at_utc": "2026-10-25T06:07:53.622556+00:00",
+      "camera_location_m": [
+        14.386822700500488,
+        -20.166362762451172,
+        16.353837966918945
+      ],
+      "camera_rotation_radians": [
+        1.089647650718689,
+        -9.74048575130837e-08,
+        0.6086892485618591
+      ],
+      "orthographic_scale_m": 11.614729881286621,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "denoising": true
+    },
+    {
+      "view": "rear",
+      "started_at_utc": "2026-10-25T06:07:53.622556+00:00",
+      "finished_at_utc": "2026-10-25T06:08:12.780053+00:00",
+      "camera_location_m": [
+        -13.166823387145996,
+        19.367130279541016,
+        16.353837966918945
+      ],
+      "camera_rotation_radians": [
+        1.0896481275558472,
+        -6.315911349474845e-08,
+        -2.5329034328460693
+      ],
+      "orthographic_scale_m": 10.983246803283691,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "denoising": true
+    }
+  ],
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "reviewer agents"
+  ],
+  "limitations": [
+    "Static model; no rig, animation, collision or LOD set.",
+    "Generated previews have not been viewed.",
+    "Export roundtrip and visual/material fidelity remain unreviewed."
+  ]
+}

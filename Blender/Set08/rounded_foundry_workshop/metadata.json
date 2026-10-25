@@ -1,0 +1,1162 @@
+{
+  "set": "Set08",
+  "slug": "rounded_foundry_workshop",
+  "theme": "Materials processing",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "blender_version": "4.5.12 LTS",
+  "source": "../build.py",
+  "reference_image": "../REF/rounded_foundry_workshop.png",
+  "reference_prompt": "../REF/rounded_foundry_workshop.prompt.txt",
+  "authoring": "Original ordinary rounded mesh components; solid named PBR palette; no voxel source or generated surface textures.",
+  "design": {
+    "intent": "Small foundry building with an open service bay, protected furnace, raised roof vent and office annex.",
+    "nominal_dimensions_m": [
+      8.0,
+      6.6,
+      5.1
+    ],
+    "details": [
+      "Curved split roof",
+      "Five clerestory panels",
+      "Open service bay",
+      "Enclosed furnace",
+      "Office annex",
+      "External blower and rain-capped stack",
+      "Shallow building foundation"
+    ]
+  },
+  "units": "meters",
+  "front_axis": "-Y",
+  "up_axis": "Z",
+  "authored_bounds_m": {
+    "minimum": [
+      -3.5450000762939453,
+      -4.284999847412109,
+      0.0
+    ],
+    "maximum": [
+      4.460000038146973,
+      2.6700000762939453,
+      5.090000152587891
+    ],
+    "dimensions": [
+      8.005000114440918,
+      6.954999923706055,
+      5.090000152587891
+    ]
+  },
+  "dimension_note": "Measured from authored base-mesh bounding boxes for production framing. Not independent geometry validation.",
+  "uv_authoring": {
+    "method": "Angle-based per-component smart projection",
+    "angle_degrees": 66,
+    "island_margin": 0.025,
+    "map": "UVMap",
+    "coverage_or_overlap_validation": "deferred_by_user"
+  },
+  "editable_components": [
+    {
+      "name": "Foundation.Main",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Foundation.Office",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Workshop.InteriorFloor",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.Left",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.Right",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.Rear",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontLeft",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontRightPier",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.BayLintel",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.SoftSteelSurround",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.RollerCase",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.RaisedDoorBottom",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.RolledDoorSlat.0",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.RolledDoorSlat.1",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.RolledDoorSlat.2",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.RolledDoorSlat.3",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.GuardPost.-0.91",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.GuardBoot.-0.91",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.GuardPost.2.86",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Bay.GuardBoot.2.86",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontCurvedSheet",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearCurvedSheet",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.ClerestoryBack",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.ClerestoryLowerRail",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.ClerestoryTopRail",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentWindowFrame.0",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentGlazing.0",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentMullion.0",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentWindowFrame.1",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentGlazing.1",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentMullion.1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentWindowFrame.2",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentGlazing.2",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentMullion.2",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentWindowFrame.3",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentGlazing.3",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentMullion.3",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentWindowFrame.4",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentGlazing.4",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.VentMullion.4",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.0",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.0",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.2",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.2",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.3",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.3",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.4",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.4",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.5",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.5",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.6",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.6",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontStandingSeam.7",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearStandingSeam.7",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.SideGable.-1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontFascia.-1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearFascia.-1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.SideGable.+1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.FrontFascia.+1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Roof.RearFascia.+1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.1.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.1.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.1.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.1.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.1.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.2.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.2.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.2.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.2.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.2.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.3.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.3.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.3.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.3.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.3.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.4.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.4.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.4.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.4.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.4.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.5",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.5",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.5.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.5.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.5.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.5.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.5.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.6",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.6",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.6.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.6.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.6.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.6.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.6.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightCourse.7",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RearCourse.7",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.7.0",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.7.1",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.7.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.7.3",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Masonry.RightJoint.7.4",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Facade.SteelUpright.-3.0",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Facade.SteelUpright.-0.93",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Facade.SteelUpright.2.9",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.RightPlinth.-2.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.RightPlinth.2.2",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.Walls",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.RoundedRoof",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.RoofLowerTrim",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.DoorRecess",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.DoorLeaf",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.DoorWindowFrame",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.DoorWindow",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.DoorHandle",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.FrontWindow.Recess",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.FrontWindow.Glazing",
+      "material": "MutedGlazing",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.FrontWindow.Mullion",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.FrontWindow.Transom",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.FrontWindow.Sill",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.SideWindow.Recess",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.SideWindow.Glazing",
+      "material": "MutedGlazing",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.SideWindow.Mullion",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.SideWindow.Transom",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.SideWindow.Sill",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.EntryStepLower",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.EntryStepUpper",
+      "material": "Masonry",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.EntryLamp.Neck",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.EntryLamp.Shade",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Office.EntryLamp.Lens",
+      "material": "AmberGlass",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontHighVent.Recess",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontHighVent.Louver.00",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontHighVent.Louver.01",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontHighVent.Louver.02",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Wall.FrontHighVent.Louver.03",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.MainHousing",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.Band.0.53",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.Band.1.93",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.TopVent",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.HatchSurround",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.ClosedHatch",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.HatchHinge.1.02",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.HatchHinge.1.56",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.HatchHandle",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.RaisedPad",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardPost.-0.27",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardPost.0.4",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardPost.1.07",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardPost.1.74",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardPost.2.18",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardRail.0.77",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.FrontGuardRail.1.23",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.SideGuard.-1",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Furnace.SideGuard.+1",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.Foundation",
+      "material": "Concrete",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.BlowerHousing",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.BlowerFlange",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceCabinet",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceVent.Recess",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceVent.Louver.00",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceVent.Louver.01",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceVent.Louver.02",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceVent.Louver.03",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.ServiceVent.Louver.04",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.StackLower",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.RoofConnector",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.UpperStack",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.StackCollar.0",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.StackCollar.1",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.StackCollar.2",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.StackCollar.3",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.StackDarkMouth",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.CapSupport.0",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.CapSupport.3.141592653589793",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Exhaust.RainCap",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.ServiceDoor",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.ServiceDoorInset",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.ServiceDoorHandle",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.HighWindowFrame.0.3",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.HighWindowGlass.0.3",
+      "material": "MutedGlazing",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.HighWindowFrame.1.6",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Rear.HighWindowGlass.1.6",
+      "material": "MutedGlazing",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    }
+  ],
+  "palette": {
+    "SteelBlue": {
+      "srgb_hex": "5D7C8C",
+      "metallic": 0.35,
+      "roughness": 0.38
+    },
+    "BlueEdge": {
+      "srgb_hex": "3E5666",
+      "metallic": 0.48,
+      "roughness": 0.33
+    },
+    "WarmIvory": {
+      "srgb_hex": "D3CEC1",
+      "metallic": 0.18,
+      "roughness": 0.43
+    },
+    "Graphite": {
+      "srgb_hex": "343C41",
+      "metallic": 0.55,
+      "roughness": 0.36
+    },
+    "CopperOrange": {
+      "srgb_hex": "B97742",
+      "metallic": 0.4,
+      "roughness": 0.38
+    },
+    "BrushedSteel": {
+      "srgb_hex": "919A9E",
+      "metallic": 0.72,
+      "roughness": 0.3
+    },
+    "Rubber": {
+      "srgb_hex": "242B2E",
+      "metallic": 0.0,
+      "roughness": 0.68
+    },
+    "Masonry": {
+      "srgb_hex": "BDB7A8",
+      "metallic": 0.0,
+      "roughness": 0.76
+    },
+    "Concrete": {
+      "srgb_hex": "92958E",
+      "metallic": 0.0,
+      "roughness": 0.8
+    },
+    "MutedGlazing": {
+      "srgb_hex": "5E757A",
+      "metallic": 0.22,
+      "roughness": 0.24
+    },
+    "AmberGlass": {
+      "srgb_hex": "AA8A55",
+      "metallic": 0.12,
+      "roughness": 0.32
+    },
+    "PanelGreen": {
+      "srgb_hex": "729B8B",
+      "metallic": 0.15,
+      "roughness": 0.42
+    }
+  },
+  "collections": {
+    "ASSET": "Editable named model meshes",
+    "STUDIO": "Ground, area lights and cameras; excluded from exports"
+  },
+  "exports": {
+    "blend": "rounded_foundry_workshop.blend",
+    "glb": "rounded_foundry_workshop.glb",
+    "fbx": "rounded_foundry_workshop.fbx",
+    "geometry_only": "Only selected asset meshes and their solid materials; no studio, cameras or lights."
+  },
+  "render_records": [
+    {
+      "view": "hero",
+      "path": "rounded_foundry_workshop/renders/hero.png",
+      "started_at_utc": "2026-10-25T06:14:23.106201+00:00",
+      "finished_at_utc": "2026-10-25T06:14:48.468132+00:00",
+      "elapsed_seconds": 25.362,
+      "camera_location_m": [
+        15.741317749023438,
+        -21.593490600585938,
+        15.383405685424805
+      ],
+      "camera_rotation_radians": [
+        1.1090642213821411,
+        -5.156972449071873e-08,
+        0.6340227127075195
+      ],
+      "projection": "orthographic",
+      "orthographic_scale_m": 12.26040267944336,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "Cycles CPU",
+      "samples": 40,
+      "denoising": true,
+      "color_management": "AgX / Medium High Contrast",
+      "preview_inspected": false
+    },
+    {
+      "view": "rear",
+      "path": "rounded_foundry_workshop/renders/rear.png",
+      "started_at_utc": "2026-10-25T06:14:48.468132+00:00",
+      "finished_at_utc": "2026-10-25T06:15:09.361793+00:00",
+      "elapsed_seconds": 20.893,
+      "camera_location_m": [
+        -14.826316833496094,
+        19.978492736816406,
+        15.383405685424805
+      ],
+      "camera_rotation_radians": [
+        1.1090643405914307,
+        5.978570527531701e-08,
+        -2.5075700283050537
+      ],
+      "projection": "orthographic",
+      "orthographic_scale_m": 12.260401725769043,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "Cycles CPU",
+      "samples": 40,
+      "denoising": true,
+      "color_management": "AgX / Medium High Contrast",
+      "preview_inspected": false
+    }
+  ],
+  "started_at_utc": "2026-10-25T06:14:20.148365+00:00",
+  "finished_at_utc": "2026-10-25T06:15:09.361793+00:00",
+  "started_at_kst": "2026-10-25T15:14:20.148365+09:00",
+  "finished_at_kst": "2026-10-25T15:15:09.361793+09:00",
+  "blender_script_seconds": 49.214,
+  "not_performed": [
+    "generated preview inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validator",
+    "UV validator",
+    "reviewer pass"
+  ],
+  "limitations": [
+    "Static asset; no rig, animation, collision or LOD authored.",
+    "Solid palette surfaces only.",
+    "Visual quality and export roundtrips remain unreviewed by user request."
+  ]
+}

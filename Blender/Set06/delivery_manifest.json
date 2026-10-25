@@ -1,0 +1,433 @@
+{
+  "set": "Set06",
+  "theme": "Forestry care",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T06:00:47+00:00",
+  "started_at_kst": "2026-10-25T15:00:47+09:00",
+  "finished_at_utc": "2026-10-25T06:08:12.912907+00:00",
+  "finished_at_kst": "2026-10-25T15:08:12.912907+09:00",
+  "elapsed_seconds": 445.912907,
+  "blender_process_seconds_total": 149.21811160014477,
+  "checks_performed": [
+    "Actual subprocess return code",
+    "Expected file exists and is nonempty"
+  ],
+  "inventory_note": "Bytes and SHA256 are inventory only. Manifest excludes its own hash and main-owned REF files.",
+  "deferred_checks": [
+    "Visual inspection",
+    "BLEND reopen",
+    "GLB/FBX reimport",
+    "Geometry validation",
+    "UV validation",
+    "Reviewer agents"
+  ],
+  "processes": [
+    {
+      "asset": "tree_transplanter",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set06\\build.py",
+        "--",
+        "tree_transplanter"
+      ],
+      "started_at_utc": "2026-10-25T06:05:43.690864+00:00",
+      "finished_at_utc": "2026-10-25T06:06:16.833967+00:00",
+      "process_elapsed_seconds": 33.143291100044735,
+      "returncode": 0,
+      "log": "Blender/Set06/logs/tree_transplanter.log",
+      "expected_file_presence": [
+        {
+          "path": "Blender/Set06/tree_transplanter/tree_transplanter.blend",
+          "exists": true,
+          "bytes": 2281809
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/tree_transplanter.glb",
+          "exists": true,
+          "bytes": 2424508
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/tree_transplanter.fbx",
+          "exists": true,
+          "bytes": 1564572
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/metadata.json",
+          "exists": true,
+          "bytes": 3899
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/renders/hero.png",
+          "exists": true,
+          "bytes": 1074419
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/renders/rear.png",
+          "exists": true,
+          "bytes": 1078574
+        }
+      ]
+    },
+    {
+      "asset": "nursery_carrier_robot",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set06\\build.py",
+        "--",
+        "nursery_carrier_robot"
+      ],
+      "started_at_utc": "2026-10-25T06:06:16.834964+00:00",
+      "finished_at_utc": "2026-10-25T06:06:51.259090+00:00",
+      "process_elapsed_seconds": 34.42447990004439,
+      "returncode": 0,
+      "log": "Blender/Set06/logs/nursery_carrier_robot.log",
+      "expected_file_presence": [
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.blend",
+          "exists": true,
+          "bytes": 3721806
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.glb",
+          "exists": true,
+          "bytes": 3306776
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.fbx",
+          "exists": true,
+          "bytes": 2509084
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/metadata.json",
+          "exists": true,
+          "bytes": 4022
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/renders/hero.png",
+          "exists": true,
+          "bytes": 1166482
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/renders/rear.png",
+          "exists": true,
+          "bytes": 1176995
+        }
+      ]
+    },
+    {
+      "asset": "arched_nursery_greenhouse",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set06\\build.py",
+        "--",
+        "arched_nursery_greenhouse"
+      ],
+      "started_at_utc": "2026-10-25T06:06:51.260090+00:00",
+      "finished_at_utc": "2026-10-25T06:07:33.894621+00:00",
+      "process_elapsed_seconds": 42.633942499989644,
+      "returncode": 0,
+      "log": "Blender/Set06/logs/arched_nursery_greenhouse.log",
+      "expected_file_presence": [
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.blend",
+          "exists": true,
+          "bytes": 5213777
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.glb",
+          "exists": true,
+          "bytes": 3484252
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.fbx",
+          "exists": true,
+          "bytes": 3006764
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/metadata.json",
+          "exists": true,
+          "bytes": 4000
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/renders/hero.png",
+          "exists": true,
+          "bytes": 1107459
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/renders/rear.png",
+          "exists": true,
+          "bytes": 1104713
+        }
+      ]
+    },
+    {
+      "asset": "forest_watchtower",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set06\\build.py",
+        "--",
+        "forest_watchtower"
+      ],
+      "started_at_utc": "2026-10-25T06:07:33.895620+00:00",
+      "finished_at_utc": "2026-10-25T06:08:12.911907+00:00",
+      "process_elapsed_seconds": 39.016398100066,
+      "returncode": 0,
+      "log": "Blender/Set06/logs/forest_watchtower.log",
+      "expected_file_presence": [
+        {
+          "path": "Blender/Set06/forest_watchtower/forest_watchtower.blend",
+          "exists": true,
+          "bytes": 2811488
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/forest_watchtower.glb",
+          "exists": true,
+          "bytes": 2351664
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/forest_watchtower.fbx",
+          "exists": true,
+          "bytes": 1995852
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/metadata.json",
+          "exists": true,
+          "bytes": 3925
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/renders/hero.png",
+          "exists": true,
+          "bytes": 1100678
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/renders/rear.png",
+          "exists": true,
+          "bytes": 1077795
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "slug": "tree_transplanter",
+      "files": [
+        {
+          "path": "Blender/Set06/tree_transplanter/tree_transplanter.blend",
+          "bytes": 2281809,
+          "sha256": "359357361865a7da19182657c954b7ca09f0a536ea56d0279fee7595bb351f0f"
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/tree_transplanter.glb",
+          "bytes": 2424508,
+          "sha256": "5942ebb7c415cd88260985e990f12ab79037335c4e48ae66d5dfcafc2f1835cc"
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/tree_transplanter.fbx",
+          "bytes": 1564572,
+          "sha256": "380c7bdad2951d1de82b9421c9fd562df2298ce037329d20d472db8c5ad6c575"
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/metadata.json",
+          "bytes": 3899,
+          "sha256": "9391524051fa8f41f50e7dbe4a58adc6a76586b9320fd0d6a2b1f5e8184e1db5"
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/renders/hero.png",
+          "bytes": 1074419,
+          "sha256": "725690e495279e1cf6d1987edabc80f16ec4bb9946b532f778d73d08e0508d23"
+        },
+        {
+          "path": "Blender/Set06/tree_transplanter/renders/rear.png",
+          "bytes": 1078574,
+          "sha256": "ade7331759b591c2d8864862b790ef1e026dfcd32bf233a2c991d28f6d07be27"
+        }
+      ]
+    },
+    {
+      "slug": "nursery_carrier_robot",
+      "files": [
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.blend",
+          "bytes": 3721806,
+          "sha256": "e611bfb9171d7725843a05cd64a06f0ccdcdb6e36cef34a2114f8befe4ed9afb"
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.glb",
+          "bytes": 3306776,
+          "sha256": "0dca33bfa969e4ce32d8230290c228e80f7f04d7589d8fa05aad0bf020dc7277"
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.fbx",
+          "bytes": 2509084,
+          "sha256": "4de5b5bbf11660ea5399bb4b8ba4d3d049e59f447c038b2cf127bebd622c648d"
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/metadata.json",
+          "bytes": 4022,
+          "sha256": "68874d13c7bd105e04377d35ad18b9301f3cca306fa1d9bc1896bc40a85fff98"
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/renders/hero.png",
+          "bytes": 1166482,
+          "sha256": "9706ff3c3ddd906ac716c3d9efbffdd18ce3b7ae03a73198c6056cf7338eb948"
+        },
+        {
+          "path": "Blender/Set06/nursery_carrier_robot/renders/rear.png",
+          "bytes": 1176995,
+          "sha256": "967080a16debee454167d0df52bea19a8c0f1ae5f6d7ae78b29c242f8ef517e2"
+        }
+      ]
+    },
+    {
+      "slug": "arched_nursery_greenhouse",
+      "files": [
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.blend",
+          "bytes": 5213777,
+          "sha256": "9aeea31bee093b0b2ac3707cf4b5b067779576f2f225b8bb3c3a4a007810b38f"
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.glb",
+          "bytes": 3484252,
+          "sha256": "46a7de8aae47eeddeb09fc40630ed67177015807b2e73d8fc728a9936c4ad1b2"
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.fbx",
+          "bytes": 3006764,
+          "sha256": "bc9ebb37f392c86c160f1ae02db1d755da92a4603c61486a6c7491c724802841"
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/metadata.json",
+          "bytes": 4000,
+          "sha256": "479e793d179088de044b3ab33feb4f205cfc5a79c655a71a70804e7afdec276a"
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/renders/hero.png",
+          "bytes": 1107459,
+          "sha256": "4023b743c9944cf0bbc8be90edae3a7dcfce4a81540b1e52ded70113d263acaa"
+        },
+        {
+          "path": "Blender/Set06/arched_nursery_greenhouse/renders/rear.png",
+          "bytes": 1104713,
+          "sha256": "78fd4f6d2a6fe9b821a424f05a815dcf84c8f2b3f199367a3530022b30fcc294"
+        }
+      ]
+    },
+    {
+      "slug": "forest_watchtower",
+      "files": [
+        {
+          "path": "Blender/Set06/forest_watchtower/forest_watchtower.blend",
+          "bytes": 2811488,
+          "sha256": "77f3bca1a7a14a55a5e7a470563633d36e6037027ce431c33129fec055736136"
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/forest_watchtower.glb",
+          "bytes": 2351664,
+          "sha256": "cfddc79c246657e745dc7a4064cad9ad645f75a1802bfe01ecee145b1a72578f"
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/forest_watchtower.fbx",
+          "bytes": 1995852,
+          "sha256": "d5f995ddf2d2ec95ee639647dc6929055aa0cae22dcd469e17fe3fe6e22a5874"
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/metadata.json",
+          "bytes": 3925,
+          "sha256": "8a92b9decc5b35f1681939d8c40a5e99aacd1db5be6655e490c1ec70b35b0940"
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/renders/hero.png",
+          "bytes": 1100678,
+          "sha256": "1d2fcfa043329bf443fc0bd3ea7226fe828c279a8e391a5613c438978a579e87"
+        },
+        {
+          "path": "Blender/Set06/forest_watchtower/renders/rear.png",
+          "bytes": 1077795,
+          "sha256": "318583632a6eefe451c15cd5ef7fb77c1525950bf029da611d354505562ab6bc"
+        }
+      ]
+    }
+  ],
+  "supporting_files": [
+    {
+      "path": "Blender/Set06/build.py",
+      "bytes": 41504,
+      "sha256": "69de5238c74561c6712160a25d80a3c0afc9b67bc42a2b9694e565de5defab23"
+    },
+    {
+      "path": "Blender/Set06/run_build.py",
+      "bytes": 8753,
+      "sha256": "6a476abcec16a998ba48602dad1863481cfeac94a1e4cc7962d5cdf8a0e5b840"
+    },
+    {
+      "path": "Blender/Set06/README.md",
+      "bytes": 3413,
+      "sha256": "54e819f6f6cd5cd5ef3bb18406c766244bdaade8f405ef09f3fed3621ee2384c"
+    },
+    {
+      "path": "Blender/Set06/RESULT.md",
+      "bytes": 3014,
+      "sha256": "77d1d91d67d6c036be68764258898d69a15a287982a126841c6be1f5618e2e55"
+    },
+    {
+      "path": "Blender/Set06/STATUS.json",
+      "bytes": 1148,
+      "sha256": "6359a31c9a5834a673f6caae15d80af1062c780cabed4db16f468968d4cb1716"
+    },
+    {
+      "path": "Blender/Set06/process_records.json",
+      "bytes": 6233,
+      "sha256": "493ed416a4aa862c6011f87a3992c028e11f14e078ed724dd327490ac9225566"
+    },
+    {
+      "path": "Blender/Set06/logs/tree_transplanter.log",
+      "bytes": 80454,
+      "sha256": "2179621ed9ee8f0b05a8504d027a197bbda719d4aca9e0d2327919f7db2c2c05"
+    },
+    {
+      "path": "Blender/Set06/logs/nursery_carrier_robot.log",
+      "bytes": 132705,
+      "sha256": "1c6ab77c9e3419a15606acecbf46a65b61809492ba05d6f308fb17cae201c54a"
+    },
+    {
+      "path": "Blender/Set06/logs/arched_nursery_greenhouse.log",
+      "bytes": 173794,
+      "sha256": "75521c095ffe4fa0b66fbd09e3644047f3591c4b5a6e737194abe2cc0697e698"
+    },
+    {
+      "path": "Blender/Set06/logs/forest_watchtower.log",
+      "bytes": 93881,
+      "sha256": "3f984fda05217ce8a2990ecd144e28cbac88bc7bb1aa2ee61ce74442798d9bb0"
+    }
+  ]
+}

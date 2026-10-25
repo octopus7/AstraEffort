@@ -38,8 +38,10 @@ def process_records(value):
             yield from process_records(child)
 
 def catalog(state):
-    lines = ['# Rounded model sets 03–11', '',
-             'Production inventory for 36 ordinary mesh assets. Model review is deferred by user instruction.', '',
+    last_set=list(state['sets'])[-1]
+    lines = [f'# Rounded model sets 03–{last_set[3:]}', '',
+             f'Production inventory for {len(state["sets"])*4} planned ordinary mesh assets. Model review is deferred by user instruction.', '',
+             'Production continues in groups of three sets until the user says to stop.', '',
              'Each set includes its own REF directory. Original references remain under ../REF/SetNN.', '',
              '| Set | Theme | Production status | Outputs |', '|---|---|---|---|']
     for name, spec in state['sets'].items():
@@ -106,8 +108,12 @@ elif action == 'collect':
                           'recorded_process_returncodes':[p['returncode'] for p in processes]})
         spec.update(status='produced_unreviewed',finished_at_utc=status.get('finished_at_utc'))
     batch.update(status='produced_unreviewed',commit='containing_commit',produced_at_utc=now())
+    state['produced_models']=sum(4 for s in state['sets'].values() if s['status']=='produced_unreviewed')
     if all(s['status']=='produced_unreviewed' for s in state['sets'].values()):
-        state.update(status='produced_unreviewed',finished_at_utc=now(),produced_models=36)
+        if state.get('continuation_mode')=='until_user_stop':
+            state.update(status='working',next_action='Commit this batch, then select the next three sets')
+        else:
+            state.update(status='produced_unreviewed',finished_at_utc=now())
     write_json(STATE,state)
     write_json(ROOT/f'Blender/BatchTools/batch{number}_inventory.json',{
         'batch':number,'sets':batch['sets'],'models':12,'status':'produced_unreviewed',
@@ -130,7 +136,7 @@ elif action == 'stage-list':
     if number==1:
         roots += [ROOT/'Blender/Set01/REF', ROOT/'Blender/Set02/REF']
     paths={p.relative_to(ROOT).as_posix() for root in roots for p in root.rglob('*') if eligible(p)}
-    paths.update('Blender/'+f for f in ('SET_BATCH_PLAN.md','SET_BATCH_STATE.json','SET_WORKER_BRIEF.md','SET_CATALOG.md'))
+    paths.update('Blender/'+f for f in ('SET_BATCH_PLAN.md','SET_BATCH_STATE.json','SET_WORKER_BRIEF.md','SET_CATALOG.md','SET_RESUME.md'))
     SCRATCH.mkdir(parents=True,exist_ok=True)
     out=SCRATCH/f'batch{number}_paths.bin'
     out.write_bytes(b'\0'.join(p.encode('utf-8') for p in sorted(paths))+b'\0')
@@ -144,7 +150,7 @@ elif action == 'commit':
     actual={s.decode('utf-8') for s in git('diff','--cached','--name-only','-z').split(b'\0') if s}
     assert actual and actual <= expected, 'Staged paths outside task inventory.'
     message=f'feat: add rounded model sets {batch["sets"][0]}-{batch["sets"][-1]} with references'
-    subprocess.check_call(['git','commit','-m',message],cwd=ROOT)
+    subprocess.check_call(['git','commit','--quiet','-m',message],cwd=ROOT)
     sha=git('rev-parse','HEAD').decode().strip()
     write_json(SCRATCH/f'batch{number}_commit.json',{'batch':number,'commit':sha,'committed_at_utc':now(),'subject':message})
     print(json.dumps({'batch':number,'commit':sha,'staged_files':len(actual)}))

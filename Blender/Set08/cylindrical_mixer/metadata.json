@@ -1,0 +1,751 @@
+{
+  "set": "Set08",
+  "slug": "cylindrical_mixer",
+  "theme": "Materials processing",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "blender_version": "4.5.12 LTS",
+  "source": "../build.py",
+  "reference_image": "../REF/cylindrical_mixer.png",
+  "reference_prompt": "../REF/cylindrical_mixer.prompt.txt",
+  "authoring": "Original ordinary rounded mesh components; solid named PBR palette; no voxel source or generated surface textures.",
+  "design": {
+    "intent": "Stationary materials mixer with a tilted open drum, visible paddles and empty discharge trough.",
+    "nominal_dimensions_m": [
+      3.5,
+      3.1,
+      3.2
+    ],
+    "details": [
+      "Open thick drum shell",
+      "Three internal paddles",
+      "Drive band and teeth",
+      "Hollow feed funnel",
+      "Four isolation feet",
+      "Motor and controls"
+    ]
+  },
+  "units": "meters",
+  "front_axis": "-Y",
+  "up_axis": "Z",
+  "authored_bounds_m": {
+    "minimum": [
+      -1.6649999618530273,
+      -1.8424203395843506,
+      0.0
+    ],
+    "maximum": [
+      1.6649999618530273,
+      1.34499990940094,
+      3.309288263320923
+    ],
+    "dimensions": [
+      3.3299999237060547,
+      3.18742036819458,
+      3.309288263320923
+    ]
+  },
+  "dimension_note": "Measured from authored base-mesh bounding boxes for production framing. Not independent geometry validation.",
+  "uv_authoring": {
+    "method": "Angle-based per-component smart projection",
+    "angle_degrees": 66,
+    "island_margin": 0.025,
+    "map": "UVMap",
+    "coverage_or_overlap_validation": "deferred_by_user"
+  },
+  "editable_components": [
+    {
+      "name": "Drum.ThickOpenShell",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.FrontLoadingRim",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.CopperDriveBand",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.RearDriveFlange",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.00",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.01",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.02",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.03",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.04",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.05",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.06",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.07",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.08",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.09",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.10",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.11",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.12",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.13",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.14",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.15",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.16",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.17",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.18",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.19",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.20",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.21",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.22",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.23",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.24",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.25",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.26",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.27",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.28",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.29",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.30",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.31",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.32",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.33",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.34",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.35",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.36",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.37",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.38",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.39",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.40",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.41",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.42",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.43",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.44",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.45",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.46",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.DriveTooth.47",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.InternalPaddle.0",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.InternalPaddle.1",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drum.InternalPaddle.2",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.Foot.-1.0",
+      "material": "Rubber",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorPlate.-1.0",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.-1.0.-0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.-1.0.0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.Foot.-1.1",
+      "material": "Rubber",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorPlate.-1.1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.-1.1.-0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.-1.1.0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.SupportCheek.-1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.Trunnion.-1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.TrunnionSeal.-1",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.TrunnionCap.-1",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.Foot.+1.0",
+      "material": "Rubber",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorPlate.+1.0",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.+1.0.-0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.+1.0.0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.Foot.+1.1",
+      "material": "Rubber",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorPlate.+1.1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.+1.1.-0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.AnchorBolt.+1.1.0.17",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.SupportCheek.+1",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.Trunnion.+1",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.TrunnionSeal.+1",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.TrunnionCap.+1",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.CrossRail.-0.58",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Frame.CrossRail.0.7",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Chute.Floor",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Chute.Sidewall.-1",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Chute.Hinge.-1",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Chute.Sidewall.+1",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Chute.Hinge.+1",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Feed.HollowFunnel",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Feed.Throat",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Feed.TopLip.0",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Feed.TopLip.1",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Feed.TopLip.2",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Feed.TopLip.3",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.MotorBracket",
+      "material": "BlueEdge",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.MotorBody",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.0",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.1",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.2",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.3",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.4",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.5",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.6",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.CoolingRib.7",
+      "material": "BrushedSteel",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.EndCover",
+      "material": "SteelBlue",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.Gearbox",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Drive.PowerConduit",
+      "material": "Rubber",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Controls.FrontPanel",
+      "material": "WarmIvory",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Controls.FaceInset",
+      "material": "Graphite",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Controls.StopButton",
+      "material": "CopperOrange",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    },
+    {
+      "name": "Controls.ReadyLamp",
+      "material": "PanelGreen",
+      "uv_method": "Per-component angle-based projection with packed 2.5% island margin; no validation run."
+    }
+  ],
+  "palette": {
+    "SteelBlue": {
+      "srgb_hex": "5D7C8C",
+      "metallic": 0.35,
+      "roughness": 0.38
+    },
+    "BlueEdge": {
+      "srgb_hex": "3E5666",
+      "metallic": 0.48,
+      "roughness": 0.33
+    },
+    "WarmIvory": {
+      "srgb_hex": "D3CEC1",
+      "metallic": 0.18,
+      "roughness": 0.43
+    },
+    "Graphite": {
+      "srgb_hex": "343C41",
+      "metallic": 0.55,
+      "roughness": 0.36
+    },
+    "CopperOrange": {
+      "srgb_hex": "B97742",
+      "metallic": 0.4,
+      "roughness": 0.38
+    },
+    "BrushedSteel": {
+      "srgb_hex": "919A9E",
+      "metallic": 0.72,
+      "roughness": 0.3
+    },
+    "Rubber": {
+      "srgb_hex": "242B2E",
+      "metallic": 0.0,
+      "roughness": 0.68
+    },
+    "Masonry": {
+      "srgb_hex": "BDB7A8",
+      "metallic": 0.0,
+      "roughness": 0.76
+    },
+    "Concrete": {
+      "srgb_hex": "92958E",
+      "metallic": 0.0,
+      "roughness": 0.8
+    },
+    "MutedGlazing": {
+      "srgb_hex": "5E757A",
+      "metallic": 0.22,
+      "roughness": 0.24
+    },
+    "AmberGlass": {
+      "srgb_hex": "AA8A55",
+      "metallic": 0.12,
+      "roughness": 0.32
+    },
+    "PanelGreen": {
+      "srgb_hex": "729B8B",
+      "metallic": 0.15,
+      "roughness": 0.42
+    }
+  },
+  "collections": {
+    "ASSET": "Editable named model meshes",
+    "STUDIO": "Ground, area lights and cameras; excluded from exports"
+  },
+  "exports": {
+    "blend": "cylindrical_mixer.blend",
+    "glb": "cylindrical_mixer.glb",
+    "fbx": "cylindrical_mixer.fbx",
+    "geometry_only": "Only selected asset meshes and their solid materials; no studio, cameras or lights."
+  },
+  "render_records": [
+    {
+      "view": "hero",
+      "path": "cylindrical_mixer/renders/hero.png",
+      "started_at_utc": "2026-10-25T06:13:28.246852+00:00",
+      "finished_at_utc": "2026-10-25T06:13:54.591522+00:00",
+      "elapsed_seconds": 26.345,
+      "camera_location_m": [
+        6.357914924621582,
+        -8.895475387573242,
+        6.9952921867370605
+      ],
+      "camera_rotation_radians": [
+        1.1090642213821411,
+        -5.156972449071873e-08,
+        0.6340227127075195
+      ],
+      "projection": "orthographic",
+      "orthographic_scale_m": 5.783279895782471,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "Cycles CPU",
+      "samples": 40,
+      "denoising": true,
+      "color_management": "AgX / Medium High Contrast",
+      "preview_inspected": false
+    },
+    {
+      "view": "rear",
+      "path": "cylindrical_mixer/renders/rear.png",
+      "started_at_utc": "2026-10-25T06:13:54.591522+00:00",
+      "finished_at_utc": "2026-10-25T06:14:19.709918+00:00",
+      "elapsed_seconds": 25.119,
+      "camera_location_m": [
+        -6.357914924621582,
+        8.398054122924805,
+        6.9952921867370605
+      ],
+      "camera_rotation_radians": [
+        1.1090643405914307,
+        5.978570527531701e-08,
+        -2.5075700283050537
+      ],
+      "projection": "orthographic",
+      "orthographic_scale_m": 5.783278942108154,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "Cycles CPU",
+      "samples": 40,
+      "denoising": true,
+      "color_management": "AgX / Medium High Contrast",
+      "preview_inspected": false
+    }
+  ],
+  "started_at_utc": "2026-10-25T06:13:26.377081+00:00",
+  "finished_at_utc": "2026-10-25T06:14:19.709918+00:00",
+  "started_at_kst": "2026-10-25T15:13:26.377081+09:00",
+  "finished_at_kst": "2026-10-25T15:14:19.709918+09:00",
+  "blender_script_seconds": 53.333,
+  "not_performed": [
+    "generated preview inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validator",
+    "UV validator",
+    "reviewer pass"
+  ],
+  "limitations": [
+    "Static asset; no rig, animation, collision or LOD authored.",
+    "Solid palette surfaces only.",
+    "Visual quality and export roundtrips remain unreviewed by user request."
+  ]
+}

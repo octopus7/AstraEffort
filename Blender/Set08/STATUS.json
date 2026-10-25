@@ -1,0 +1,129 @@
+{
+  "set": "Set08",
+  "theme": "Materials processing",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T06:06:25+00:00",
+  "finished_at_utc": "2026-10-25T06:15:57.787163+00:00",
+  "started_at_kst": "2026-10-25T15:06:25+09:00",
+  "finished_at_kst": "2026-10-25T15:15:57.787163+09:00",
+  "elapsed_seconds": 572.787,
+  "timing_note": "Production clock starts at the first explicit clock capture after initial brief/skill reads. Process times use perf_counter around subprocess.run.",
+  "blender_process_seconds": 200.939,
+  "subprocess_returncodes": {
+    "articulated_welding_mech": 0,
+    "cylindrical_mixer": 0,
+    "rounded_foundry_workshop": 0,
+    "vertical_material_tower": 0
+  },
+  "processes": [
+    {
+      "slug": "articulated_welding_mech",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "articulated_welding_mech"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:12:36.585362+00:00",
+      "finished_at_utc": "2026-10-25T06:13:26.057517+00:00",
+      "started_at_kst": "2026-10-25T15:12:36.585362+09:00",
+      "finished_at_kst": "2026-10-25T15:13:26.057517+09:00",
+      "elapsed_seconds": 49.473,
+      "log": "logs/articulated_welding_mech.log"
+    },
+    {
+      "slug": "cylindrical_mixer",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "cylindrical_mixer"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:13:26.057517+00:00",
+      "finished_at_utc": "2026-10-25T06:14:19.839593+00:00",
+      "started_at_kst": "2026-10-25T15:13:26.057517+09:00",
+      "finished_at_kst": "2026-10-25T15:14:19.839593+09:00",
+      "elapsed_seconds": 53.781,
+      "log": "logs/cylindrical_mixer.log"
+    },
+    {
+      "slug": "rounded_foundry_workshop",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "rounded_foundry_workshop"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:14:19.839593+00:00",
+      "finished_at_utc": "2026-10-25T06:15:09.485131+00:00",
+      "started_at_kst": "2026-10-25T15:14:19.839593+09:00",
+      "finished_at_kst": "2026-10-25T15:15:09.485131+09:00",
+      "elapsed_seconds": 49.645,
+      "log": "logs/rounded_foundry_workshop.log"
+    },
+    {
+      "slug": "vertical_material_tower",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "vertical_material_tower"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:15:09.485131+00:00",
+      "finished_at_utc": "2026-10-25T06:15:57.524545+00:00",
+      "started_at_kst": "2026-10-25T15:15:09.485131+09:00",
+      "finished_at_kst": "2026-10-25T15:15:57.524545+09:00",
+      "elapsed_seconds": 48.04,
+      "log": "logs/vertical_material_tower.log"
+    }
+  ],
+  "completion_checks": {
+    "expected_file_count": 24,
+    "nonempty_file_count": 24,
+    "missing_or_empty_files": [],
+    "failed_processes": [],
+    "scope": "Only process return codes and expected nonempty file presence."
+  },
+  "review_deferred": [
+    "generated preview inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "independent reviewer"
+  ],
+  "blockers": []
+}

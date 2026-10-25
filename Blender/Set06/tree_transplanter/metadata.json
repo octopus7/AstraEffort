@@ -1,0 +1,125 @@
+{
+  "set": "Set06",
+  "slug": "tree_transplanter",
+  "label": "Articulated tree transplanter",
+  "design": "Empty circular root cradle, four curved blunt digging petals, hydraulic rams, compact articulated cab and four tires.",
+  "front": "-Y",
+  "intended_dimensions_m": [
+    3.25,
+    6.45,
+    3.32
+  ],
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "source_reference": "../REF/tree_transplanter.png",
+  "source_prompt": "../REF/tree_transplanter.prompt.txt",
+  "geometry_style": "Original ordinary rounded mesh geometry; no voxels, no external creative geometry.",
+  "units": "meters",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "blender_version": "4.5.12 LTS",
+  "authored_bounds_min_m": [
+    -1.4525001049041748,
+    -3.6247377395629883,
+    -0.0035000082571059465
+  ],
+  "authored_bounds_max_m": [
+    1.4525001049041748,
+    2.5799999237060547,
+    3.305000066757202
+  ],
+  "authored_dimensions_m": [
+    2.9050002098083496,
+    6.204737663269043,
+    3.308500051498413
+  ],
+  "measurements_note": "Authored scene bounds before render; production measurements only, not independent validation.",
+  "editable_mesh_parts": 195,
+  "source_vertices": 4960,
+  "source_polygons": 3862,
+  "uv_authoring": "UV0_Component_Unwrap: per-component Smart Project, 66 degree angle, 0.025 island margin. No UV validation performed.",
+  "materials": [
+    "S06_Brushed_Hydraulic_Steel",
+    "S06_Charcoal_Rubber",
+    "S06_Dark_Steel",
+    "S06_Muted_Blue_Glazing",
+    "S06_Pine_Painted_Metal",
+    "S06_Terracotta_Enamel",
+    "S06_Warm_Cream_Enamel",
+    "S06_Warm_Lamp_Diffuser"
+  ],
+  "material_note": "Named solid-color Principled PBR palette. Glazing uses transmission; FBX material fidelity remains unreviewed.",
+  "collections": {
+    "ASSET": "Named editable mesh parts with softening modifiers",
+    "STUDIO": "Neutral ground, camera and three area lights; omitted from geometry exports"
+  },
+  "export_note": "Selected ASSET meshes only; modifiers applied by GLB/FBX exporters, no camera/light/animation export.",
+  "started_at_utc": "2026-10-25T06:05:43.968614+00:00",
+  "finished_at_utc": "2026-10-25T06:06:16.692246+00:00",
+  "captures": [
+    {
+      "view": "hero",
+      "started_at_utc": "2026-10-25T06:05:46.072883+00:00",
+      "finished_at_utc": "2026-10-25T06:06:01.885874+00:00",
+      "camera_location_m": [
+        11.322062492370605,
+        -16.767066955566406,
+        11.988286018371582
+      ],
+      "camera_rotation_radians": [
+        1.089647650718689,
+        -1.1744127448309882e-08,
+        0.6086893677711487
+      ],
+      "orthographic_scale_m": 6.682018756866455,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "denoising": true
+    },
+    {
+      "view": "rear",
+      "started_at_utc": "2026-10-25T06:06:01.886877+00:00",
+      "finished_at_utc": "2026-10-25T06:06:16.692246+00:00",
+      "camera_location_m": [
+        -11.322062492370605,
+        15.722328186035156,
+        11.988286018371582
+      ],
+      "camera_rotation_radians": [
+        1.0896481275558472,
+        -8.747528568164853e-08,
+        -2.5329034328460693
+      ],
+      "orthographic_scale_m": 6.682018280029297,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "denoising": true
+    }
+  ],
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "reviewer agents"
+  ],
+  "limitations": [
+    "Static model; no rig, animation, collision or LOD set.",
+    "Generated previews have not been viewed.",
+    "Export roundtrip and visual/material fidelity remain unreviewed."
+  ]
+}

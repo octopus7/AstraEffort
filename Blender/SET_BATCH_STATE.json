@@ -3,7 +3,7 @@
   "status": "working",
   "planned_sets": 9,
   "planned_models": 36,
-  "current_batch": 1,
+  "current_batch": 2,
   "model": "gpt-6-astra",
   "reasoning_effort": "max",
   "fast_setting": "No separately selectable tool field",
@@ -19,8 +19,8 @@
         "Set04",
         "Set05"
       ],
-      "status": "produced_unreviewed",
-      "commit": "containing_commit",
+      "status": "committed",
+      "commit": "2140c8bf1ae5196efb92cb486076688118f1d66b",
       "produced_at_utc": "2026-10-25T05:57:41.623315+00:00"
     },
     {
@@ -30,8 +30,10 @@
         "Set07",
         "Set08"
       ],
-      "status": "pending",
-      "commit": null
+      "status": "produced_unreviewed",
+      "commit": "containing_commit",
+      "started_at_utc": "2026-10-25T05:58:01.205668+00:00",
+      "produced_at_utc": "2026-10-25T06:16:24.017546+00:00"
     },
     {
       "number": 3,
@@ -146,10 +148,12 @@
           "label": "원형 산불 감시탑"
         }
       ],
-      "status": "awaiting_references",
-      "reference_count": 0,
-      "worker": null,
-      "review_status": "deferred_by_user"
+      "status": "produced_unreviewed",
+      "reference_count": 4,
+      "worker": "set06",
+      "review_status": "deferred_by_user",
+      "modeling_dispatched_at_utc": "2026-10-25T06:00:21.448374+00:00",
+      "finished_at_utc": "2026-10-25T06:08:12.912907+00:00"
     },
     "Set07": {
       "theme": "Rail freight",
@@ -171,10 +175,12 @@
           "label": "기계식 신호소"
         }
       ],
-      "status": "awaiting_references",
-      "reference_count": 0,
-      "worker": null,
-      "review_status": "deferred_by_user"
+      "status": "produced_unreviewed",
+      "reference_count": 4,
+      "worker": "set07",
+      "review_status": "deferred_by_user",
+      "modeling_dispatched_at_utc": "2026-10-25T06:02:45.334344+00:00",
+      "finished_at_utc": "2026-10-25T06:14:44.924450+00:00"
     },
     "Set08": {
       "theme": "Materials processing",
@@ -196,10 +202,12 @@
           "label": "수직 자재 저장탑"
         }
       ],
-      "status": "awaiting_references",
-      "reference_count": 0,
-      "worker": null,
-      "review_status": "deferred_by_user"
+      "status": "produced_unreviewed",
+      "reference_count": 4,
+      "worker": "set08",
+      "review_status": "deferred_by_user",
+      "modeling_dispatched_at_utc": "2026-10-25T06:06:18.911837+00:00",
+      "finished_at_utc": "2026-10-25T06:15:57.787163+00:00"
     },
     "Set09": {
       "theme": "Alpine transport",
@@ -276,5 +284,10 @@
       "worker": null,
       "review_status": "deferred_by_user"
     }
-  }
+  },
+  "continuation_mode": "until_user_stop",
+  "initial_planned_sets": 9,
+  "continuation_authorized_at_utc": "2026-10-25T06:04:45.095144+00:00",
+  "continuation_policy": "Main selects additional groups of three sets after prior group commit; same Astra/max workers, sequential main imagegen, local REF mirrors, deferred review. Continue until user stops.",
+  "produced_models": 24
 }

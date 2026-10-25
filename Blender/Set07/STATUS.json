@@ -1,0 +1,29 @@
+{
+  "set": "Set07",
+  "theme": "Rail freight",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T06:02:52+00:00",
+  "started_at_kst": "2026-10-25T15:02:52+09:00",
+  "finished_at_utc": "2026-10-25T06:14:44.924450+00:00",
+  "finished_at_kst": "2026-10-25T15:14:44.924450+09:00",
+  "elapsed_seconds": 712.92445,
+  "completed_assets": [
+    "rail_inspection_trolley",
+    "side_loading_freight_shuttle",
+    "barrel_roof_freight_station",
+    "mechanical_signal_house"
+  ],
+  "active_asset": null,
+  "successful_blender_processes": 4,
+  "process_seconds": 273.88031849998515,
+  "blockers": [],
+  "checks": "Only actual subprocess return codes and required nonempty file presence. SHA256 inventory is not model validation.",
+  "deferred": [
+    "visual inspection",
+    "BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry/UV validation",
+    "reviewer agents"
+  ]
+}

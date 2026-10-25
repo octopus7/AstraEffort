@@ -1,0 +1,128 @@
+{
+  "set": "Set06",
+  "slug": "arched_nursery_greenhouse",
+  "label": "Arched nursery greenhouse",
+  "design": "Single-span curved glazing over seven pine-green ribs, low masonry curb, sliding entrance, three opening side vents and six planting benches.",
+  "front": "-Y",
+  "intended_dimensions_m": [
+    4.95,
+    6.75,
+    3.95
+  ],
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "source_reference": "../REF/arched_nursery_greenhouse.png",
+  "source_prompt": "../REF/arched_nursery_greenhouse.prompt.txt",
+  "geometry_style": "Original ordinary rounded mesh geometry; no voxels, no external creative geometry.",
+  "units": "meters",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "blender_version": "4.5.12 LTS",
+  "authored_bounds_min_m": [
+    -2.31499981880188,
+    -3.484999895095825,
+    0.0
+  ],
+  "authored_bounds_max_m": [
+    2.62749981880188,
+    3.4149999618530273,
+    3.9250001907348633
+  ],
+  "authored_dimensions_m": [
+    4.94249963760376,
+    6.899999618530273,
+    3.9250001907348633
+  ],
+  "measurements_note": "Authored scene bounds before render; production measurements only, not independent validation.",
+  "editable_mesh_parts": 440,
+  "source_vertices": 19864,
+  "source_polygons": 17105,
+  "uv_authoring": "UV0_Component_Unwrap: per-component Smart Project, 66 degree angle, 0.025 island margin. No UV validation performed.",
+  "materials": [
+    "S06_Dark_Steel",
+    "S06_Nursery_Bench_Timber",
+    "S06_Nursery_Frosted_Glazing",
+    "S06_Nursery_Terracotta",
+    "S06_Pine_Painted_Metal",
+    "S06_Potting_Soil",
+    "S06_Sapling_Leaf_Green",
+    "S06_Sapling_Leaf_Sage",
+    "S06_Sapling_Stem",
+    "S06_Terracotta_Enamel",
+    "S06_Warm_Masonry"
+  ],
+  "material_note": "Named solid-color Principled PBR palette. Glazing uses transmission; FBX material fidelity remains unreviewed.",
+  "collections": {
+    "ASSET": "Named editable mesh parts with softening modifiers",
+    "STUDIO": "Neutral ground, camera and three area lights; omitted from geometry exports"
+  },
+  "export_note": "Selected ASSET meshes only; modifiers applied by GLB/FBX exporters, no camera/light/animation export.",
+  "started_at_utc": "2026-10-25T06:06:51.526493+00:00",
+  "finished_at_utc": "2026-10-25T06:07:33.743836+00:00",
+  "captures": [
+    {
+      "view": "hero",
+      "started_at_utc": "2026-10-25T06:06:56.025407+00:00",
+      "finished_at_utc": "2026-10-25T06:07:14.865347+00:00",
+      "camera_location_m": [
+        12.746987342834473,
+        -18.099971771240234,
+        13.458391189575195
+      ],
+      "camera_rotation_radians": [
+        1.089647650718689,
+        -7.308866400990155e-08,
+        0.6086893081665039
+      ],
+      "orthographic_scale_m": 9.29983139038086,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "denoising": true
+    },
+    {
+      "view": "rear",
+      "started_at_utc": "2026-10-25T06:07:14.866347+00:00",
+      "finished_at_utc": "2026-10-25T06:07:33.743836+00:00",
+      "camera_location_m": [
+        -12.434487342834473,
+        18.029972076416016,
+        13.458391189575195
+      ],
+      "camera_rotation_radians": [
+        1.0896480083465576,
+        -1.4514824897560175e-07,
+        -2.5329034328460693
+      ],
+      "orthographic_scale_m": 9.299832344055176,
+      "resolution": [
+        960,
+        960
+      ],
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "denoising": true
+    }
+  ],
+  "deferred_checks": [
+    "visual inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "reviewer agents"
+  ],
+  "limitations": [
+    "Static model; no rig, animation, collision or LOD set.",
+    "Generated previews have not been viewed.",
+    "Export roundtrip and visual/material fidelity remain unreviewed."
+  ]
+}

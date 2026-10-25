@@ -1,0 +1,22 @@
+# Set07 · Rail freight
+
+Four original ordinary rounded mesh game assets, authored from this set's supplied references. Brick red, warm ivory, graphite and restrained brass form a shared solid PBR palette. Named editable parts remain grouped by their mechanical or architectural function.
+
+Status: **produced_unreviewed**. Review: **deferred_by_user**. The linked preview files are actual 1024 × 1024 Cycles studio renders, generated without opening them for inspection.
+
+| Asset | Local reference | Editable / geometry exports | Actual renders | Authoring dimensions X × Y × Z |
+|---|---|---|---|---|
+| Rail inspection trolley | [Reference](REF/rail_inspection_trolley.png) · [Prompt](REF/rail_inspection_trolley.prompt.txt) | [BLEND](rail_inspection_trolley/rail_inspection_trolley.blend) · [GLB](rail_inspection_trolley/rail_inspection_trolley.glb) · [FBX](rail_inspection_trolley/rail_inspection_trolley.fbx) | [Hero](rail_inspection_trolley/renders/hero.png) · [Rear](rail_inspection_trolley/renders/rear.png) | 3.95 × 2.37 × 3.00 m |
+| Side-loading freight shuttle | [Reference](REF/side_loading_freight_shuttle.png) · [Prompt](REF/side_loading_freight_shuttle.prompt.txt) | [BLEND](side_loading_freight_shuttle/side_loading_freight_shuttle.blend) · [GLB](side_loading_freight_shuttle/side_loading_freight_shuttle.glb) · [FBX](side_loading_freight_shuttle/side_loading_freight_shuttle.fbx) | [Hero](side_loading_freight_shuttle/renders/hero.png) · [Rear](side_loading_freight_shuttle/renders/rear.png) | 6.12 × 3.85 × 3.60 m |
+| Barrel-roof freight station | [Reference](REF/barrel_roof_freight_station.png) · [Prompt](REF/barrel_roof_freight_station.prompt.txt) | [BLEND](barrel_roof_freight_station/barrel_roof_freight_station.blend) · [GLB](barrel_roof_freight_station/barrel_roof_freight_station.glb) · [FBX](barrel_roof_freight_station/barrel_roof_freight_station.fbx) | [Hero](barrel_roof_freight_station/renders/hero.png) · [Rear](barrel_roof_freight_station/renders/rear.png) | 9.68 × 7.77 × 5.55 m |
+| Mechanical signal house | [Reference](REF/mechanical_signal_house.png) · [Prompt](REF/mechanical_signal_house.prompt.txt) | [BLEND](mechanical_signal_house/mechanical_signal_house.blend) · [GLB](mechanical_signal_house/mechanical_signal_house.glb) · [FBX](mechanical_signal_house/mechanical_signal_house.fbx) | [Hero](mechanical_signal_house/renders/hero.png) · [Rear](mechanical_signal_house/renders/rear.png) | 7.21 × 4.91 × 5.95 m |
+
+The rail trolley has four flanged steel wheels, exposed axles, an open protective cab, steps, front inspection sensors and a rear toolbox. The six-wheel shuttle carries a secured container and has a side-facing hydraulic mast with two blunt forks. The station includes a raised loading deck, attached ramp, open cargo doorway, column-supported canopy and side office under barrel roofs. The signal house includes an upper glazed room, external stairs, an open mechanical linkage cabinet and a short semaphore.
+
+Each BLEND has separate `ASSET` and `STUDIO` collections. GLB/FBX exports select only asset meshes; studio floor, cameras and lights are excluded. Bevel and weighted-normal modifiers remain editable in BLEND and are evaluated on export. Primitive side/cap UVs, planar component islands and authored tube/roof strips provide per-component surface coordinates. Glazing uses a solid muted blue-gray PBR material. No rigging, animation, collision or LOD deliverables were requested.
+
+[Production source](build.py) · [Process wrapper](produce.py) · [Process records](process_records.json) · [Delivery inventory](delivery_manifest.json) · [Result and timing](RESULT.md) · [Status](STATUS.json) · [Local reference generation record](REF/generation_manifest.json)
+
+Reproduction on the assigned machine: run the bundled Blender Python with `-X utf8 produce.py`. The wrapper launches a separate Blender 4.5.12 background process for each asset using `--factory-startup --threads 4 --python-exit-code 1`. A completed asset is skipped when its successful process record and nonempty required files already exist.
+
+Only subprocess return codes and expected nonempty file presence were checked. SHA256 values are an inventory, not validation. Visual inspection, model/UV/geometry validation, fresh BLEND reopen and export roundtrips are deliberately deferred by the user. No preview inspection or reviewer agent was used. Set07 is frozen after production; Git integration belongs to the coordinating chat.

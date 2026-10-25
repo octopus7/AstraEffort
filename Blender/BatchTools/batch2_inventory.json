@@ -1,0 +1,750 @@
+{
+  "batch": 2,
+  "sets": [
+    "Set06",
+    "Set07",
+    "Set08"
+  ],
+  "models": 12,
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "recorded_at_utc": "2026-10-25T06:16:24.018548+00:00",
+  "checks": "Expected nonempty files and worker completion records only. No visual or model validation.",
+  "worker_summaries": [
+    {
+      "set": "Set06",
+      "worker_status_file": "Blender/Set06/STATUS.json",
+      "started_at_utc": "2026-10-25T06:00:47+00:00",
+      "finished_at_utc": "2026-10-25T06:08:12.912907+00:00",
+      "elapsed_seconds": 445.912907,
+      "recorded_process_returncodes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "set": "Set07",
+      "worker_status_file": "Blender/Set07/STATUS.json",
+      "started_at_utc": "2026-10-25T06:02:52+00:00",
+      "finished_at_utc": "2026-10-25T06:14:44.924450+00:00",
+      "elapsed_seconds": 712.92445,
+      "recorded_process_returncodes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "set": "Set08",
+      "worker_status_file": "Blender/Set08/STATUS.json",
+      "started_at_utc": "2026-10-25T06:06:25+00:00",
+      "finished_at_utc": "2026-10-25T06:15:57.787163+00:00",
+      "elapsed_seconds": 572.787,
+      "recorded_process_returncodes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "Blender/Set06/STATUS.json",
+      "bytes": 1148,
+      "sha256": "6359a31c9a5834a673f6caae15d80af1062c780cabed4db16f468968d4cb1716"
+    },
+    {
+      "path": "Blender/Set06/RESULT.md",
+      "bytes": 3014,
+      "sha256": "77d1d91d67d6c036be68764258898d69a15a287982a126841c6be1f5618e2e55"
+    },
+    {
+      "path": "Blender/Set06/README.md",
+      "bytes": 3413,
+      "sha256": "54e819f6f6cd5cd5ef3bb18406c766244bdaade8f405ef09f3fed3621ee2384c"
+    },
+    {
+      "path": "Blender/Set06/delivery_manifest.json",
+      "bytes": 14834,
+      "sha256": "83734024ebf92179ce47ba47d6333e02c68573bc91073b6551f756f95e67b674"
+    },
+    {
+      "path": "Blender/Set06/tree_transplanter/tree_transplanter.blend",
+      "bytes": 2281809,
+      "sha256": "359357361865a7da19182657c954b7ca09f0a536ea56d0279fee7595bb351f0f"
+    },
+    {
+      "path": "Blender/Set06/tree_transplanter/tree_transplanter.glb",
+      "bytes": 2424508,
+      "sha256": "5942ebb7c415cd88260985e990f12ab79037335c4e48ae66d5dfcafc2f1835cc"
+    },
+    {
+      "path": "Blender/Set06/tree_transplanter/tree_transplanter.fbx",
+      "bytes": 1564572,
+      "sha256": "380c7bdad2951d1de82b9421c9fd562df2298ce037329d20d472db8c5ad6c575"
+    },
+    {
+      "path": "Blender/Set06/tree_transplanter/metadata.json",
+      "bytes": 3899,
+      "sha256": "9391524051fa8f41f50e7dbe4a58adc6a76586b9320fd0d6a2b1f5e8184e1db5"
+    },
+    {
+      "path": "Blender/Set06/tree_transplanter/renders/hero.png",
+      "bytes": 1074419,
+      "sha256": "725690e495279e1cf6d1987edabc80f16ec4bb9946b532f778d73d08e0508d23"
+    },
+    {
+      "path": "Blender/Set06/tree_transplanter/renders/rear.png",
+      "bytes": 1078574,
+      "sha256": "ade7331759b591c2d8864862b790ef1e026dfcd32bf233a2c991d28f6d07be27"
+    },
+    {
+      "path": "Blender/Set06/REF/tree_transplanter.png",
+      "bytes": 2071473,
+      "sha256": "7e241bccb806ed099ca7ed130b1534b55d7fead36308c9c611f68fd4aa7182d1"
+    },
+    {
+      "path": "Blender/Set06/REF/tree_transplanter.prompt.txt",
+      "bytes": 1441,
+      "sha256": "63b23f78961631ae092c56eb874c2163d7feb0a3abb24468ec39651f3888d243"
+    },
+    {
+      "path": "REF/Set06/tree_transplanter.png",
+      "bytes": 2071473,
+      "sha256": "7e241bccb806ed099ca7ed130b1534b55d7fead36308c9c611f68fd4aa7182d1"
+    },
+    {
+      "path": "REF/Set06/tree_transplanter.prompt.txt",
+      "bytes": 1441,
+      "sha256": "63b23f78961631ae092c56eb874c2163d7feb0a3abb24468ec39651f3888d243"
+    },
+    {
+      "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.blend",
+      "bytes": 3721806,
+      "sha256": "e611bfb9171d7725843a05cd64a06f0ccdcdb6e36cef34a2114f8befe4ed9afb"
+    },
+    {
+      "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.glb",
+      "bytes": 3306776,
+      "sha256": "0dca33bfa969e4ce32d8230290c228e80f7f04d7589d8fa05aad0bf020dc7277"
+    },
+    {
+      "path": "Blender/Set06/nursery_carrier_robot/nursery_carrier_robot.fbx",
+      "bytes": 2509084,
+      "sha256": "4de5b5bbf11660ea5399bb4b8ba4d3d049e59f447c038b2cf127bebd622c648d"
+    },
+    {
+      "path": "Blender/Set06/nursery_carrier_robot/metadata.json",
+      "bytes": 4022,
+      "sha256": "68874d13c7bd105e04377d35ad18b9301f3cca306fa1d9bc1896bc40a85fff98"
+    },
+    {
+      "path": "Blender/Set06/nursery_carrier_robot/renders/hero.png",
+      "bytes": 1166482,
+      "sha256": "9706ff3c3ddd906ac716c3d9efbffdd18ce3b7ae03a73198c6056cf7338eb948"
+    },
+    {
+      "path": "Blender/Set06/nursery_carrier_robot/renders/rear.png",
+      "bytes": 1176995,
+      "sha256": "967080a16debee454167d0df52bea19a8c0f1ae5f6d7ae78b29c242f8ef517e2"
+    },
+    {
+      "path": "Blender/Set06/REF/nursery_carrier_robot.png",
+      "bytes": 2176230,
+      "sha256": "1281722572c1ccd970aa7b72260a359631a9cde75f314d79e2a2fe9122c786ba"
+    },
+    {
+      "path": "Blender/Set06/REF/nursery_carrier_robot.prompt.txt",
+      "bytes": 1412,
+      "sha256": "0bf3b509ccc9b6f90d1ecf3376a62c2d230b19227f0214f428fb68ea64e59c62"
+    },
+    {
+      "path": "REF/Set06/nursery_carrier_robot.png",
+      "bytes": 2176230,
+      "sha256": "1281722572c1ccd970aa7b72260a359631a9cde75f314d79e2a2fe9122c786ba"
+    },
+    {
+      "path": "REF/Set06/nursery_carrier_robot.prompt.txt",
+      "bytes": 1412,
+      "sha256": "0bf3b509ccc9b6f90d1ecf3376a62c2d230b19227f0214f428fb68ea64e59c62"
+    },
+    {
+      "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.blend",
+      "bytes": 5213777,
+      "sha256": "9aeea31bee093b0b2ac3707cf4b5b067779576f2f225b8bb3c3a4a007810b38f"
+    },
+    {
+      "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.glb",
+      "bytes": 3484252,
+      "sha256": "46a7de8aae47eeddeb09fc40630ed67177015807b2e73d8fc728a9936c4ad1b2"
+    },
+    {
+      "path": "Blender/Set06/arched_nursery_greenhouse/arched_nursery_greenhouse.fbx",
+      "bytes": 3006764,
+      "sha256": "bc9ebb37f392c86c160f1ae02db1d755da92a4603c61486a6c7491c724802841"
+    },
+    {
+      "path": "Blender/Set06/arched_nursery_greenhouse/metadata.json",
+      "bytes": 4000,
+      "sha256": "479e793d179088de044b3ab33feb4f205cfc5a79c655a71a70804e7afdec276a"
+    },
+    {
+      "path": "Blender/Set06/arched_nursery_greenhouse/renders/hero.png",
+      "bytes": 1107459,
+      "sha256": "4023b743c9944cf0bbc8be90edae3a7dcfce4a81540b1e52ded70113d263acaa"
+    },
+    {
+      "path": "Blender/Set06/arched_nursery_greenhouse/renders/rear.png",
+      "bytes": 1104713,
+      "sha256": "78fd4f6d2a6fe9b821a424f05a815dcf84c8f2b3f199367a3530022b30fcc294"
+    },
+    {
+      "path": "Blender/Set06/REF/arched_nursery_greenhouse.png",
+      "bytes": 2154278,
+      "sha256": "a6510ff9111a4ce85e561f47d16fb82759799b3fbe7b7abdd2b4698fa5b07ea2"
+    },
+    {
+      "path": "Blender/Set06/REF/arched_nursery_greenhouse.prompt.txt",
+      "bytes": 1389,
+      "sha256": "b96a2798591df62a00558b0019582796d7cc78a2e4c863c13e91d158bc4f2e17"
+    },
+    {
+      "path": "REF/Set06/arched_nursery_greenhouse.png",
+      "bytes": 2154278,
+      "sha256": "a6510ff9111a4ce85e561f47d16fb82759799b3fbe7b7abdd2b4698fa5b07ea2"
+    },
+    {
+      "path": "REF/Set06/arched_nursery_greenhouse.prompt.txt",
+      "bytes": 1389,
+      "sha256": "b96a2798591df62a00558b0019582796d7cc78a2e4c863c13e91d158bc4f2e17"
+    },
+    {
+      "path": "Blender/Set06/forest_watchtower/forest_watchtower.blend",
+      "bytes": 2811488,
+      "sha256": "77f3bca1a7a14a55a5e7a470563633d36e6037027ce431c33129fec055736136"
+    },
+    {
+      "path": "Blender/Set06/forest_watchtower/forest_watchtower.glb",
+      "bytes": 2351664,
+      "sha256": "cfddc79c246657e745dc7a4064cad9ad645f75a1802bfe01ecee145b1a72578f"
+    },
+    {
+      "path": "Blender/Set06/forest_watchtower/forest_watchtower.fbx",
+      "bytes": 1995852,
+      "sha256": "d5f995ddf2d2ec95ee639647dc6929055aa0cae22dcd469e17fe3fe6e22a5874"
+    },
+    {
+      "path": "Blender/Set06/forest_watchtower/metadata.json",
+      "bytes": 3925,
+      "sha256": "8a92b9decc5b35f1681939d8c40a5e99aacd1db5be6655e490c1ec70b35b0940"
+    },
+    {
+      "path": "Blender/Set06/forest_watchtower/renders/hero.png",
+      "bytes": 1100678,
+      "sha256": "1d2fcfa043329bf443fc0bd3ea7226fe828c279a8e391a5613c438978a579e87"
+    },
+    {
+      "path": "Blender/Set06/forest_watchtower/renders/rear.png",
+      "bytes": 1077795,
+      "sha256": "318583632a6eefe451c15cd5ef7fb77c1525950bf029da611d354505562ab6bc"
+    },
+    {
+      "path": "Blender/Set06/REF/forest_watchtower.png",
+      "bytes": 2012323,
+      "sha256": "9bd6d46e27724eb883097779a0d3ec3cf0e9ba535daa79485dea87847b0d4cc3"
+    },
+    {
+      "path": "Blender/Set06/REF/forest_watchtower.prompt.txt",
+      "bytes": 1390,
+      "sha256": "f43013db32a19d77e8fb34b1252a43fca36bd7a45514999debc4363518114bd1"
+    },
+    {
+      "path": "REF/Set06/forest_watchtower.png",
+      "bytes": 2012323,
+      "sha256": "9bd6d46e27724eb883097779a0d3ec3cf0e9ba535daa79485dea87847b0d4cc3"
+    },
+    {
+      "path": "REF/Set06/forest_watchtower.prompt.txt",
+      "bytes": 1390,
+      "sha256": "f43013db32a19d77e8fb34b1252a43fca36bd7a45514999debc4363518114bd1"
+    },
+    {
+      "path": "Blender/Set06/REF/generation_manifest.json",
+      "bytes": 2588,
+      "sha256": "d50904afbb5f4d6d10027eaddc7744b8d71c88c0be006000713beb973f428d58"
+    },
+    {
+      "path": "REF/Set06/generation_manifest.json",
+      "bytes": 2588,
+      "sha256": "d50904afbb5f4d6d10027eaddc7744b8d71c88c0be006000713beb973f428d58"
+    },
+    {
+      "path": "Blender/Set07/STATUS.json",
+      "bytes": 946,
+      "sha256": "40121daf16b3ca74ca2e593a510a46eebf36c729bd023ab7184e5058475350b7"
+    },
+    {
+      "path": "Blender/Set07/RESULT.md",
+      "bytes": 2093,
+      "sha256": "8a6d31e57caa448a07e848cac9e590a1e7919f8138c07babae34a9f91323ec4b"
+    },
+    {
+      "path": "Blender/Set07/README.md",
+      "bytes": 4512,
+      "sha256": "bb4b14f7b57aaf1bf14c67c5424b3be442762db7d6f8dfa2c9b2c9a387669486"
+    },
+    {
+      "path": "Blender/Set07/delivery_manifest.json",
+      "bytes": 15541,
+      "sha256": "69ecd21a6f56dd0b394cc44d145283a1f9e98517a55dc8e1290e27c7c4c33028"
+    },
+    {
+      "path": "Blender/Set07/rail_inspection_trolley/rail_inspection_trolley.blend",
+      "bytes": 2458686,
+      "sha256": "7488bb063500bfd60fcd23fa7463a1d687536d276489fabb0043349676bf3aaa"
+    },
+    {
+      "path": "Blender/Set07/rail_inspection_trolley/rail_inspection_trolley.glb",
+      "bytes": 1825728,
+      "sha256": "63f0ff8f830de4b33f5aa3763ddde1b73f31ebb57d9cb45ffe185bb18769eb90"
+    },
+    {
+      "path": "Blender/Set07/rail_inspection_trolley/rail_inspection_trolley.fbx",
+      "bytes": 1772412,
+      "sha256": "895889d2a395204cf675e6c273cce543c1306ab21f672cefd0c99f21e051c6e6"
+    },
+    {
+      "path": "Blender/Set07/rail_inspection_trolley/metadata.json",
+      "bytes": 52567,
+      "sha256": "3c5bef7cd108c16dc128ec010749b3de4070434925ab3178ae706a065bc6d0aa"
+    },
+    {
+      "path": "Blender/Set07/rail_inspection_trolley/renders/hero.png",
+      "bytes": 1145406,
+      "sha256": "a1a2b7b480ad0de87f1898424960de21a225c46bc3db185cb3b39624a39f2ad5"
+    },
+    {
+      "path": "Blender/Set07/rail_inspection_trolley/renders/rear.png",
+      "bytes": 1112717,
+      "sha256": "a7131d5c4130e51a292e89f592b0e864863442c29a16f623bfaa2043a586a79a"
+    },
+    {
+      "path": "Blender/Set07/REF/rail_inspection_trolley.png",
+      "bytes": 2094873,
+      "sha256": "2b8837aba9c48b8fc0d397d6843c2aa13373464d98b6cfddb6d1a79315741871"
+    },
+    {
+      "path": "Blender/Set07/REF/rail_inspection_trolley.prompt.txt",
+      "bytes": 1381,
+      "sha256": "e6dbe606ca6bb6be5e48f7f24db554ffe76eb727beca1a9ec2e0ef50f68157ff"
+    },
+    {
+      "path": "REF/Set07/rail_inspection_trolley.png",
+      "bytes": 2094873,
+      "sha256": "2b8837aba9c48b8fc0d397d6843c2aa13373464d98b6cfddb6d1a79315741871"
+    },
+    {
+      "path": "REF/Set07/rail_inspection_trolley.prompt.txt",
+      "bytes": 1381,
+      "sha256": "e6dbe606ca6bb6be5e48f7f24db554ffe76eb727beca1a9ec2e0ef50f68157ff"
+    },
+    {
+      "path": "Blender/Set07/side_loading_freight_shuttle/side_loading_freight_shuttle.blend",
+      "bytes": 2740056,
+      "sha256": "d3dfb5ce4516ed6707bb24e8e5c0cba5b77aa33e60866d190eb9afe18bb93037"
+    },
+    {
+      "path": "Blender/Set07/side_loading_freight_shuttle/side_loading_freight_shuttle.glb",
+      "bytes": 2128680,
+      "sha256": "e3bcd912dde44adb21c5e5cf12b4dc1f2777724b4c771bb17d5aa891e099d67e"
+    },
+    {
+      "path": "Blender/Set07/side_loading_freight_shuttle/side_loading_freight_shuttle.fbx",
+      "bytes": 2099132,
+      "sha256": "be25d1790c478f04c3deecb0086e0503f8d566065f596d164694bba907dfc1ba"
+    },
+    {
+      "path": "Blender/Set07/side_loading_freight_shuttle/metadata.json",
+      "bytes": 67992,
+      "sha256": "9d89544d282580134233938e115de943f1145ae8ee2ddfcbee90da27e3030e0c"
+    },
+    {
+      "path": "Blender/Set07/side_loading_freight_shuttle/renders/hero.png",
+      "bytes": 1110415,
+      "sha256": "9fc081e850c0977a3dad615ff95f205d0d47edd95e01d78a505e42e59d091952"
+    },
+    {
+      "path": "Blender/Set07/side_loading_freight_shuttle/renders/rear.png",
+      "bytes": 1085614,
+      "sha256": "11c77f61dbf4a87e5c6ad3dbc866bb8c4e7e5cb6efd49897c16e6b0d748339de"
+    },
+    {
+      "path": "Blender/Set07/REF/side_loading_freight_shuttle.png",
+      "bytes": 2024869,
+      "sha256": "292395415626c37e3a568dbba031658fde8e348e4d2a26e958daf1f09a973878"
+    },
+    {
+      "path": "Blender/Set07/REF/side_loading_freight_shuttle.prompt.txt",
+      "bytes": 1406,
+      "sha256": "6e2f97d9e5ec82755e5eadd04a6ae0a2c4afe79b796bc3683aefb0c37e08b016"
+    },
+    {
+      "path": "REF/Set07/side_loading_freight_shuttle.png",
+      "bytes": 2024869,
+      "sha256": "292395415626c37e3a568dbba031658fde8e348e4d2a26e958daf1f09a973878"
+    },
+    {
+      "path": "REF/Set07/side_loading_freight_shuttle.prompt.txt",
+      "bytes": 1406,
+      "sha256": "6e2f97d9e5ec82755e5eadd04a6ae0a2c4afe79b796bc3683aefb0c37e08b016"
+    },
+    {
+      "path": "Blender/Set07/barrel_roof_freight_station/barrel_roof_freight_station.blend",
+      "bytes": 4580215,
+      "sha256": "f180dc5172f4362759a5813f3f226073376b9ae5ebfecc87fa7bbcf9e6f60c3d"
+    },
+    {
+      "path": "Blender/Set07/barrel_roof_freight_station/barrel_roof_freight_station.glb",
+      "bytes": 2488096,
+      "sha256": "c9f099202564126b09caae19c6b80c816019d52565c594663bdbe0ac3fc9dc35"
+    },
+    {
+      "path": "Blender/Set07/barrel_roof_freight_station/barrel_roof_freight_station.fbx",
+      "bytes": 2490172,
+      "sha256": "efb17bf0e727b3cafd6a6858672c30cce40d8d22ee83e12ae5ec635e802d5b97"
+    },
+    {
+      "path": "Blender/Set07/barrel_roof_freight_station/metadata.json",
+      "bytes": 67918,
+      "sha256": "f90df0aa630590ad20a244ea5a4b60d8e6bcfafc732e2f09177aeb4637361edc"
+    },
+    {
+      "path": "Blender/Set07/barrel_roof_freight_station/renders/hero.png",
+      "bytes": 1177912,
+      "sha256": "d9837773108b0e7e8d5df200dcaac9c08ae2a2e4ae42951b2f4ef5c80ab95143"
+    },
+    {
+      "path": "Blender/Set07/barrel_roof_freight_station/renders/rear.png",
+      "bytes": 1102811,
+      "sha256": "38731c1d823cdbf7befcee58cace5c68d865340e7717a1eafea976e7ba4819b3"
+    },
+    {
+      "path": "Blender/Set07/REF/barrel_roof_freight_station.png",
+      "bytes": 2384245,
+      "sha256": "133ded2764dcf38b603a358f6729f1982771fea9dbead640705e540da81e5818"
+    },
+    {
+      "path": "Blender/Set07/REF/barrel_roof_freight_station.prompt.txt",
+      "bytes": 1368,
+      "sha256": "4cebc0d23cca2e4a4740df3f871896f8c189c815cda86116ea318ea7cc9bb6ca"
+    },
+    {
+      "path": "REF/Set07/barrel_roof_freight_station.png",
+      "bytes": 2384245,
+      "sha256": "133ded2764dcf38b603a358f6729f1982771fea9dbead640705e540da81e5818"
+    },
+    {
+      "path": "REF/Set07/barrel_roof_freight_station.prompt.txt",
+      "bytes": 1368,
+      "sha256": "4cebc0d23cca2e4a4740df3f871896f8c189c815cda86116ea318ea7cc9bb6ca"
+    },
+    {
+      "path": "Blender/Set07/mechanical_signal_house/mechanical_signal_house.blend",
+      "bytes": 3863778,
+      "sha256": "52877302dd78d68b6a2847e4cb7b54fd02544c931e8518a0638be7d2528b1365"
+    },
+    {
+      "path": "Blender/Set07/mechanical_signal_house/mechanical_signal_house.glb",
+      "bytes": 2220836,
+      "sha256": "6dc4be60938aeeea3c20584ee5acfb429ce1db2c8120f2c906f5d546b852f862"
+    },
+    {
+      "path": "Blender/Set07/mechanical_signal_house/mechanical_signal_house.fbx",
+      "bytes": 2224316,
+      "sha256": "667599ee73f9b609aadc78ff8610bbc1b524d22b0671a5205a460ac600123b2c"
+    },
+    {
+      "path": "Blender/Set07/mechanical_signal_house/metadata.json",
+      "bytes": 64655,
+      "sha256": "aa9c808dbab48ff222a8cf4df3a02124d63a3d8d4fd8700fc43d0a1652f1c56e"
+    },
+    {
+      "path": "Blender/Set07/mechanical_signal_house/renders/hero.png",
+      "bytes": 1235845,
+      "sha256": "1c8754833bc2b98edebeb9f76f09e153eed007332c35cdcee845332e3775132a"
+    },
+    {
+      "path": "Blender/Set07/mechanical_signal_house/renders/rear.png",
+      "bytes": 1177932,
+      "sha256": "bde69b257a1d285529a34b8af616c698d7516c2328fd850281862c9cdbef8923"
+    },
+    {
+      "path": "Blender/Set07/REF/mechanical_signal_house.png",
+      "bytes": 2124497,
+      "sha256": "9f37f474c182712df52515dfa6a82530d3e11d8cc1601304d7daf25eb1850bf6"
+    },
+    {
+      "path": "Blender/Set07/REF/mechanical_signal_house.prompt.txt",
+      "bytes": 1402,
+      "sha256": "92907142df1fa78cc877b6f213a875f26dcd3245cb0f356e793d6bcb2256dbf7"
+    },
+    {
+      "path": "REF/Set07/mechanical_signal_house.png",
+      "bytes": 2124497,
+      "sha256": "9f37f474c182712df52515dfa6a82530d3e11d8cc1601304d7daf25eb1850bf6"
+    },
+    {
+      "path": "REF/Set07/mechanical_signal_house.prompt.txt",
+      "bytes": 1402,
+      "sha256": "92907142df1fa78cc877b6f213a875f26dcd3245cb0f356e793d6bcb2256dbf7"
+    },
+    {
+      "path": "Blender/Set07/REF/generation_manifest.json",
+      "bytes": 2651,
+      "sha256": "00da2b20164b297120eeda4315096ad1760ecf43d9c69908b8ec599afc65f82a"
+    },
+    {
+      "path": "REF/Set07/generation_manifest.json",
+      "bytes": 2651,
+      "sha256": "00da2b20164b297120eeda4315096ad1760ecf43d9c69908b8ec599afc65f82a"
+    },
+    {
+      "path": "Blender/Set08/STATUS.json",
+      "bytes": 4365,
+      "sha256": "0a9425830f4bbe25bcddfb2a2a3998d5ab231ace65a508f6c67c2fb63f754a0c"
+    },
+    {
+      "path": "Blender/Set08/RESULT.md",
+      "bytes": 2211,
+      "sha256": "c200c090974109b7b22c5dec670e308b1af6039910bf4ebe0255cecc481ae5e4"
+    },
+    {
+      "path": "Blender/Set08/README.md",
+      "bytes": 3994,
+      "sha256": "638628c018c3fab0166deb80550cdf773c87e42181c38cb5f4c54c6ee8e41147"
+    },
+    {
+      "path": "Blender/Set08/delivery_manifest.json",
+      "bytes": 11507,
+      "sha256": "5ef9b97f43f3f54e05f52cd611345aed0d753d3a4aaec18c54e4683865e87d12"
+    },
+    {
+      "path": "Blender/Set08/articulated_welding_mech/articulated_welding_mech.blend",
+      "bytes": 2302085,
+      "sha256": "b9d7fc255a3a98ca4a47b3dc5dc34634fa2f822d5ea0cdf2e6f995149335a4ea"
+    },
+    {
+      "path": "Blender/Set08/articulated_welding_mech/articulated_welding_mech.glb",
+      "bytes": 2867504,
+      "sha256": "6485c04de018d705e96a30f3cc9ca688007ab2974e6a25f69baa65e277cf03d1"
+    },
+    {
+      "path": "Blender/Set08/articulated_welding_mech/articulated_welding_mech.fbx",
+      "bytes": 1625548,
+      "sha256": "3a2823292b4455b13db6a8413d449a916bb882112ffc5226d7cb473c71014f22"
+    },
+    {
+      "path": "Blender/Set08/articulated_welding_mech/metadata.json",
+      "bytes": 30276,
+      "sha256": "550ebeb82649503af50be06871462ae7331282c879e24da0e9dc20742e2a7ad7"
+    },
+    {
+      "path": "Blender/Set08/articulated_welding_mech/renders/hero.png",
+      "bytes": 1034582,
+      "sha256": "b15008e107caca6516dd5cded7c6980f4ab84623e5ab732c404f3c9c0f3be402"
+    },
+    {
+      "path": "Blender/Set08/articulated_welding_mech/renders/rear.png",
+      "bytes": 1030240,
+      "sha256": "7229e4852ebd4d814b8de7dce5520b54cf542b480efd658267396169766b43a5"
+    },
+    {
+      "path": "Blender/Set08/REF/articulated_welding_mech.png",
+      "bytes": 1937647,
+      "sha256": "0b9a55163ce9aad79d5293fd5cb5b6192b0e5467af4691cb6e318fd085bcd67d"
+    },
+    {
+      "path": "Blender/Set08/REF/articulated_welding_mech.prompt.txt",
+      "bytes": 1398,
+      "sha256": "51aeffd3ba4ed849d174071c9ab6bf19982857a122cf3fbb14cce07c9af52123"
+    },
+    {
+      "path": "REF/Set08/articulated_welding_mech.png",
+      "bytes": 1937647,
+      "sha256": "0b9a55163ce9aad79d5293fd5cb5b6192b0e5467af4691cb6e318fd085bcd67d"
+    },
+    {
+      "path": "REF/Set08/articulated_welding_mech.prompt.txt",
+      "bytes": 1398,
+      "sha256": "51aeffd3ba4ed849d174071c9ab6bf19982857a122cf3fbb14cce07c9af52123"
+    },
+    {
+      "path": "Blender/Set08/cylindrical_mixer/cylindrical_mixer.blend",
+      "bytes": 2435460,
+      "sha256": "db083d2d77ddea7e9b232ce94ee3c9a36b1a7043ddb793e5f04ae899f95a3385"
+    },
+    {
+      "path": "Blender/Set08/cylindrical_mixer/cylindrical_mixer.glb",
+      "bytes": 2094212,
+      "sha256": "368718c30c8476fbd9c528e3830436fbced56c500414309e86bfa78de7b186a2"
+    },
+    {
+      "path": "Blender/Set08/cylindrical_mixer/cylindrical_mixer.fbx",
+      "bytes": 1242252,
+      "sha256": "07346e987270a892cf6a449f8ccc7f193ff41fa27415aa15d45b5b43a33dc5a0"
+    },
+    {
+      "path": "Blender/Set08/cylindrical_mixer/metadata.json",
+      "bytes": 26936,
+      "sha256": "9f0a0c6494fad2092649419d603dce082076b6c4692953be7d0bf3929ad3c422"
+    },
+    {
+      "path": "Blender/Set08/cylindrical_mixer/renders/hero.png",
+      "bytes": 1046224,
+      "sha256": "046597653f61f4e4fc8b93846ffea5571acb9458baf9d2b4baa6689378e9f2e0"
+    },
+    {
+      "path": "Blender/Set08/cylindrical_mixer/renders/rear.png",
+      "bytes": 1020367,
+      "sha256": "ac411df6316079e82985cd5e1b8e6f3bf71eda2ff289ccb5a736d0fc7f3909fb"
+    },
+    {
+      "path": "Blender/Set08/REF/cylindrical_mixer.png",
+      "bytes": 2350128,
+      "sha256": "962d15a957aed3b9e653a45b36012a8b6472dbc1dd8b2312422bf0ca9dd9468d"
+    },
+    {
+      "path": "Blender/Set08/REF/cylindrical_mixer.prompt.txt",
+      "bytes": 1401,
+      "sha256": "82f1125adfcbff87eb078103ffe538f2d1282c0cd4cc67bfd2243796d8be0b5a"
+    },
+    {
+      "path": "REF/Set08/cylindrical_mixer.png",
+      "bytes": 2350128,
+      "sha256": "962d15a957aed3b9e653a45b36012a8b6472dbc1dd8b2312422bf0ca9dd9468d"
+    },
+    {
+      "path": "REF/Set08/cylindrical_mixer.prompt.txt",
+      "bytes": 1401,
+      "sha256": "82f1125adfcbff87eb078103ffe538f2d1282c0cd4cc67bfd2243796d8be0b5a"
+    },
+    {
+      "path": "Blender/Set08/rounded_foundry_workshop/rounded_foundry_workshop.blend",
+      "bytes": 2450781,
+      "sha256": "61115b2b5683ea86dfad7653b96f299421bc75915626df7c32af68ce5017aac1"
+    },
+    {
+      "path": "Blender/Set08/rounded_foundry_workshop/rounded_foundry_workshop.glb",
+      "bytes": 3394716,
+      "sha256": "6ffdef795bad32c28ed874425dde798f7532263ac5486b433ec1a288b7aa5886"
+    },
+    {
+      "path": "Blender/Set08/rounded_foundry_workshop/rounded_foundry_workshop.fbx",
+      "bytes": 1688908,
+      "sha256": "580e2664fa3228877df07eb5f9ce922d1d5b8a1819f0c47b4494802f001983c2"
+    },
+    {
+      "path": "Blender/Set08/rounded_foundry_workshop/metadata.json",
+      "bytes": 43510,
+      "sha256": "a1e0bc07750540b3622586aec24941edd25f902d078269d5083fd8fde67c25a7"
+    },
+    {
+      "path": "Blender/Set08/rounded_foundry_workshop/renders/hero.png",
+      "bytes": 1078971,
+      "sha256": "7e552bbc0a5e93fac525a670a4e7b9db08429d535ddbc67263473978fc50e6ab"
+    },
+    {
+      "path": "Blender/Set08/rounded_foundry_workshop/renders/rear.png",
+      "bytes": 1014295,
+      "sha256": "9c83ac29698d5c88751d9f6ee7e18742ae956cc33b4b600550d0ea1fef1184bd"
+    },
+    {
+      "path": "Blender/Set08/REF/rounded_foundry_workshop.png",
+      "bytes": 2245032,
+      "sha256": "529f605e68a16495025efa48913ea7def87640477b1e982959e6129d178e70ad"
+    },
+    {
+      "path": "Blender/Set08/REF/rounded_foundry_workshop.prompt.txt",
+      "bytes": 1395,
+      "sha256": "e94269c3af67c908d5c340a7300ef1c7c3a16b7562aa1ea7fb0db9c951997055"
+    },
+    {
+      "path": "REF/Set08/rounded_foundry_workshop.png",
+      "bytes": 2245032,
+      "sha256": "529f605e68a16495025efa48913ea7def87640477b1e982959e6129d178e70ad"
+    },
+    {
+      "path": "REF/Set08/rounded_foundry_workshop.prompt.txt",
+      "bytes": 1395,
+      "sha256": "e94269c3af67c908d5c340a7300ef1c7c3a16b7562aa1ea7fb0db9c951997055"
+    },
+    {
+      "path": "Blender/Set08/vertical_material_tower/vertical_material_tower.blend",
+      "bytes": 4428545,
+      "sha256": "3c54f9f047050c5341962d127f5784c515a4d28accbda8565371b69707f3242b"
+    },
+    {
+      "path": "Blender/Set08/vertical_material_tower/vertical_material_tower.glb",
+      "bytes": 4459580,
+      "sha256": "c0b8b5021df724988944176c321461ce32cc5ac52f3f312dbc3877c7ffcf5295"
+    },
+    {
+      "path": "Blender/Set08/vertical_material_tower/vertical_material_tower.fbx",
+      "bytes": 2791324,
+      "sha256": "1589a4c0ee54aabd499538d2e913a10566dea9120158880d2568225f05ba3e7c"
+    },
+    {
+      "path": "Blender/Set08/vertical_material_tower/metadata.json",
+      "bytes": 55194,
+      "sha256": "5188adf7151507759b4cffd098abedc365e7e08db2649a372fba19153089cd10"
+    },
+    {
+      "path": "Blender/Set08/vertical_material_tower/renders/hero.png",
+      "bytes": 1087247,
+      "sha256": "b740576d792c53bc8f3defbf895596068ca5987f21b4b3b21ce6d2e34964978a"
+    },
+    {
+      "path": "Blender/Set08/vertical_material_tower/renders/rear.png",
+      "bytes": 1095535,
+      "sha256": "8fdaf2f9b2624f844e11d24f3bb90708f48e4ade6452d4b92b349638a2b332d4"
+    },
+    {
+      "path": "Blender/Set08/REF/vertical_material_tower.png",
+      "bytes": 1884369,
+      "sha256": "bc21b8dbfc80c311306f75caffa400d665385cf91643ec721f8bf9d5aab8e469"
+    },
+    {
+      "path": "Blender/Set08/REF/vertical_material_tower.prompt.txt",
+      "bytes": 1405,
+      "sha256": "7f0fd01944e50b41d2c1af5dc87f9e987b28e843254b2c7d252eae9ff73c48bc"
+    },
+    {
+      "path": "REF/Set08/vertical_material_tower.png",
+      "bytes": 1884369,
+      "sha256": "bc21b8dbfc80c311306f75caffa400d665385cf91643ec721f8bf9d5aab8e469"
+    },
+    {
+      "path": "REF/Set08/vertical_material_tower.prompt.txt",
+      "bytes": 1405,
+      "sha256": "7f0fd01944e50b41d2c1af5dc87f9e987b28e843254b2c7d252eae9ff73c48bc"
+    },
+    {
+      "path": "Blender/Set08/REF/generation_manifest.json",
+      "bytes": 2612,
+      "sha256": "064ea0782d6f833873cfa2bb8f5941a8f8798cd1b9bfb33724696c1f70d4ace2"
+    },
+    {
+      "path": "REF/Set08/generation_manifest.json",
+      "bytes": 2612,
+      "sha256": "064ea0782d6f833873cfa2bb8f5941a8f8798cd1b9bfb33724696c1f70d4ace2"
+    }
+  ]
+}

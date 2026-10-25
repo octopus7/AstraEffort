@@ -1,8 +1,10 @@
-# Nine rounded model sets Implementation Plan
+# Rounded model set production plan
 
 > **For agentic workers:** Use the established subagent-driven execution, with one Astra/max worker per set. The user's explicit instruction defers visual inspection and independent validation; do not add reviewer agents or review gates.
 
 **Goal:** Produce Set03 through Set11: nine ordinary mesh sets, four original assets each, in three consecutive groups of three sets. Commit after each group.
+
+**Latest user extension (2026-10-25 KST):** After the original nine sets, main selects further sets and continues until the user says to stop. Preserve the same workflow: three Astra/max set workers per group, four models per set, main-only sequential image generation, local REF mirrors, deferred review, and one commit after each completed group. The original nine-set milestone is not a stopping condition. Append subsequent groups before starting their references. Do not push.
 
 **Architecture:** Main generates one reference image per asset sequentially and saves it under REF/SetNN. A worker begins modeling its four assets after its four references are ready. Three set workers run independently in parallel; main owns coordination and Git. All output remains separate from the completed voxel library and Set01/Set02.
 
@@ -53,7 +55,7 @@ Each worker supplies `STATUS.json`, concise `RESULT.md`, `delivery_manifest.json
 ## Execution
 
 - [x] Group 1: generate 12 references in sequence; dispatch Set03/04/05 as each complete set of four references becomes ready; collect the four assets per worker; record deferred review; commit the group.
-- [ ] Group 2: announce selected Set06/07/08 themes; repeat the sequential-reference and three-worker workflow; commit the group.
+- [x] Group 2: announce selected Set06/07/08 themes; repeat the sequential-reference and three-worker workflow; commit the group.
 - [ ] Group 3: announce selected Set09/10/11 themes; repeat the workflow; commit the group.
 - [ ] Record all three commits and the 36-asset output inventory, with review still deferred.
 

@@ -1,0 +1,324 @@
+{
+  "set": "Set08",
+  "theme": "Materials processing",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "started_at_utc": "2026-10-25T06:06:25+00:00",
+  "finished_at_utc": "2026-10-25T06:15:57.787163+00:00",
+  "started_at_kst": "2026-10-25T15:06:25+09:00",
+  "finished_at_kst": "2026-10-25T15:15:57.787163+09:00",
+  "elapsed_seconds": 572.787,
+  "timing_note": "Production clock starts at the first explicit clock capture after initial brief/skill reads. Process times use perf_counter around subprocess.run.",
+  "blender_process_seconds": 200.939,
+  "subprocess_returncodes": {
+    "articulated_welding_mech": 0,
+    "cylindrical_mixer": 0,
+    "rounded_foundry_workshop": 0,
+    "vertical_material_tower": 0
+  },
+  "processes": [
+    {
+      "slug": "articulated_welding_mech",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "articulated_welding_mech"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:12:36.585362+00:00",
+      "finished_at_utc": "2026-10-25T06:13:26.057517+00:00",
+      "started_at_kst": "2026-10-25T15:12:36.585362+09:00",
+      "finished_at_kst": "2026-10-25T15:13:26.057517+09:00",
+      "elapsed_seconds": 49.473,
+      "log": "logs/articulated_welding_mech.log"
+    },
+    {
+      "slug": "cylindrical_mixer",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "cylindrical_mixer"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:13:26.057517+00:00",
+      "finished_at_utc": "2026-10-25T06:14:19.839593+00:00",
+      "started_at_kst": "2026-10-25T15:13:26.057517+09:00",
+      "finished_at_kst": "2026-10-25T15:14:19.839593+09:00",
+      "elapsed_seconds": 53.781,
+      "log": "logs/cylindrical_mixer.log"
+    },
+    {
+      "slug": "rounded_foundry_workshop",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "rounded_foundry_workshop"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:14:19.839593+00:00",
+      "finished_at_utc": "2026-10-25T06:15:09.485131+00:00",
+      "started_at_kst": "2026-10-25T15:14:19.839593+09:00",
+      "finished_at_kst": "2026-10-25T15:15:09.485131+09:00",
+      "elapsed_seconds": 49.645,
+      "log": "logs/rounded_foundry_workshop.log"
+    },
+    {
+      "slug": "vertical_material_tower",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "D:\\github\\AstraEffort\\Blender\\Set08\\build.py",
+        "--",
+        "vertical_material_tower"
+      ],
+      "returncode": 0,
+      "started_at_utc": "2026-10-25T06:15:09.485131+00:00",
+      "finished_at_utc": "2026-10-25T06:15:57.524545+00:00",
+      "started_at_kst": "2026-10-25T15:15:09.485131+09:00",
+      "finished_at_kst": "2026-10-25T15:15:57.524545+09:00",
+      "elapsed_seconds": 48.04,
+      "log": "logs/vertical_material_tower.log"
+    }
+  ],
+  "completion_checks": {
+    "expected_file_count": 24,
+    "nonempty_file_count": 24,
+    "missing_or_empty_files": [],
+    "failed_processes": [],
+    "scope": "Only process return codes and expected nonempty file presence."
+  },
+  "review_deferred": [
+    "generated preview inspection",
+    "fresh BLEND reopen",
+    "GLB/FBX reimport",
+    "geometry validation",
+    "UV validation",
+    "independent reviewer"
+  ],
+  "blockers": [],
+  "assets": [
+    {
+      "slug": "articulated_welding_mech",
+      "files": [
+        {
+          "path": "articulated_welding_mech/articulated_welding_mech.blend",
+          "bytes": 2302085,
+          "sha256": "b9d7fc255a3a98ca4a47b3dc5dc34634fa2f822d5ea0cdf2e6f995149335a4ea"
+        },
+        {
+          "path": "articulated_welding_mech/articulated_welding_mech.glb",
+          "bytes": 2867504,
+          "sha256": "6485c04de018d705e96a30f3cc9ca688007ab2974e6a25f69baa65e277cf03d1"
+        },
+        {
+          "path": "articulated_welding_mech/articulated_welding_mech.fbx",
+          "bytes": 1625548,
+          "sha256": "3a2823292b4455b13db6a8413d449a916bb882112ffc5226d7cb473c71014f22"
+        },
+        {
+          "path": "articulated_welding_mech/metadata.json",
+          "bytes": 30276,
+          "sha256": "550ebeb82649503af50be06871462ae7331282c879e24da0e9dc20742e2a7ad7"
+        },
+        {
+          "path": "articulated_welding_mech/renders/hero.png",
+          "bytes": 1034582,
+          "sha256": "b15008e107caca6516dd5cded7c6980f4ab84623e5ab732c404f3c9c0f3be402"
+        },
+        {
+          "path": "articulated_welding_mech/renders/rear.png",
+          "bytes": 1030240,
+          "sha256": "7229e4852ebd4d814b8de7dce5520b54cf542b480efd658267396169766b43a5"
+        }
+      ]
+    },
+    {
+      "slug": "cylindrical_mixer",
+      "files": [
+        {
+          "path": "cylindrical_mixer/cylindrical_mixer.blend",
+          "bytes": 2435460,
+          "sha256": "db083d2d77ddea7e9b232ce94ee3c9a36b1a7043ddb793e5f04ae899f95a3385"
+        },
+        {
+          "path": "cylindrical_mixer/cylindrical_mixer.glb",
+          "bytes": 2094212,
+          "sha256": "368718c30c8476fbd9c528e3830436fbced56c500414309e86bfa78de7b186a2"
+        },
+        {
+          "path": "cylindrical_mixer/cylindrical_mixer.fbx",
+          "bytes": 1242252,
+          "sha256": "07346e987270a892cf6a449f8ccc7f193ff41fa27415aa15d45b5b43a33dc5a0"
+        },
+        {
+          "path": "cylindrical_mixer/metadata.json",
+          "bytes": 26936,
+          "sha256": "9f0a0c6494fad2092649419d603dce082076b6c4692953be7d0bf3929ad3c422"
+        },
+        {
+          "path": "cylindrical_mixer/renders/hero.png",
+          "bytes": 1046224,
+          "sha256": "046597653f61f4e4fc8b93846ffea5571acb9458baf9d2b4baa6689378e9f2e0"
+        },
+        {
+          "path": "cylindrical_mixer/renders/rear.png",
+          "bytes": 1020367,
+          "sha256": "ac411df6316079e82985cd5e1b8e6f3bf71eda2ff289ccb5a736d0fc7f3909fb"
+        }
+      ]
+    },
+    {
+      "slug": "rounded_foundry_workshop",
+      "files": [
+        {
+          "path": "rounded_foundry_workshop/rounded_foundry_workshop.blend",
+          "bytes": 2450781,
+          "sha256": "61115b2b5683ea86dfad7653b96f299421bc75915626df7c32af68ce5017aac1"
+        },
+        {
+          "path": "rounded_foundry_workshop/rounded_foundry_workshop.glb",
+          "bytes": 3394716,
+          "sha256": "6ffdef795bad32c28ed874425dde798f7532263ac5486b433ec1a288b7aa5886"
+        },
+        {
+          "path": "rounded_foundry_workshop/rounded_foundry_workshop.fbx",
+          "bytes": 1688908,
+          "sha256": "580e2664fa3228877df07eb5f9ce922d1d5b8a1819f0c47b4494802f001983c2"
+        },
+        {
+          "path": "rounded_foundry_workshop/metadata.json",
+          "bytes": 43510,
+          "sha256": "a1e0bc07750540b3622586aec24941edd25f902d078269d5083fd8fde67c25a7"
+        },
+        {
+          "path": "rounded_foundry_workshop/renders/hero.png",
+          "bytes": 1078971,
+          "sha256": "7e552bbc0a5e93fac525a670a4e7b9db08429d535ddbc67263473978fc50e6ab"
+        },
+        {
+          "path": "rounded_foundry_workshop/renders/rear.png",
+          "bytes": 1014295,
+          "sha256": "9c83ac29698d5c88751d9f6ee7e18742ae956cc33b4b600550d0ea1fef1184bd"
+        }
+      ]
+    },
+    {
+      "slug": "vertical_material_tower",
+      "files": [
+        {
+          "path": "vertical_material_tower/vertical_material_tower.blend",
+          "bytes": 4428545,
+          "sha256": "3c54f9f047050c5341962d127f5784c515a4d28accbda8565371b69707f3242b"
+        },
+        {
+          "path": "vertical_material_tower/vertical_material_tower.glb",
+          "bytes": 4459580,
+          "sha256": "c0b8b5021df724988944176c321461ce32cc5ac52f3f312dbc3877c7ffcf5295"
+        },
+        {
+          "path": "vertical_material_tower/vertical_material_tower.fbx",
+          "bytes": 2791324,
+          "sha256": "1589a4c0ee54aabd499538d2e913a10566dea9120158880d2568225f05ba3e7c"
+        },
+        {
+          "path": "vertical_material_tower/metadata.json",
+          "bytes": 55194,
+          "sha256": "5188adf7151507759b4cffd098abedc365e7e08db2649a372fba19153089cd10"
+        },
+        {
+          "path": "vertical_material_tower/renders/hero.png",
+          "bytes": 1087247,
+          "sha256": "b740576d792c53bc8f3defbf895596068ca5987f21b4b3b21ce6d2e34964978a"
+        },
+        {
+          "path": "vertical_material_tower/renders/rear.png",
+          "bytes": 1095535,
+          "sha256": "8fdaf2f9b2624f844e11d24f3bb90708f48e4ade6452d4b92b349638a2b332d4"
+        }
+      ]
+    }
+  ],
+  "inventory_note": "Paths, bytes and SHA256 are inventory only, not content or visual validation.",
+  "source_and_logs": [
+    {
+      "path": "build.py",
+      "bytes": 51955,
+      "sha256": "81256e103e04ed7e27a69e510cb50d93291614274b9c65fdd2dd7e66eec63a33"
+    },
+    {
+      "path": "run_builds.py",
+      "bytes": 8476,
+      "sha256": "40e4655a869c31d3f5fcf0f8e92405a09176f90f16a09f4e0f725477d5a7d401"
+    },
+    {
+      "path": "logs/articulated_welding_mech.log",
+      "bytes": 58755,
+      "sha256": "4370bc44a070ad96548bc8c7b91d154a3c107d18ba45cb01c96aafb8374fad11"
+    },
+    {
+      "path": "logs/cylindrical_mixer.log",
+      "bytes": 50515,
+      "sha256": "4d8de2457f546839f48371f0c92fd48b267f16506866368d426ff1dcd25974d0"
+    },
+    {
+      "path": "logs/rounded_foundry_workshop.log",
+      "bytes": 83099,
+      "sha256": "5d7b7228e8c6163d71485c29823569e37400294da706746ef49fb0b2a6639dbe"
+    },
+    {
+      "path": "logs/vertical_material_tower.log",
+      "bytes": 105373,
+      "sha256": "2ddc79e98915e68508c3ee67121085d5fcacecf046ce282ed4ba5f8f4ffaa19e"
+    },
+    {
+      "path": "logs/articulated_welding_mech.process.json",
+      "bytes": 693,
+      "sha256": "7cbed86ee3d44a0f3e4e0ef093431421e5809b6526ea6ed19a1f70833602143a"
+    },
+    {
+      "path": "logs/cylindrical_mixer.process.json",
+      "bytes": 672,
+      "sha256": "3ee01bc611f51f9c332efe4da8c9f9073231deb07b18f113719ae481ab8e7ca7"
+    },
+    {
+      "path": "logs/rounded_foundry_workshop.process.json",
+      "bytes": 693,
+      "sha256": "6520f0c9d6220101c4c9e7136b27d03fc694e6466c74a000bee7ee283cd52248"
+    },
+    {
+      "path": "logs/vertical_material_tower.process.json",
+      "bytes": 689,
+      "sha256": "cda87a72f75c990ab7ee3287e7a35534589d372834c44ac0846ec89bc50f1b04"
+    }
+  ]
+}

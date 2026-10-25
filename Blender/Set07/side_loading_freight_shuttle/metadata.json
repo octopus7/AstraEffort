@@ -1,0 +1,1748 @@
+{
+  "asset": "side_loading_freight_shuttle",
+  "set": "Set07",
+  "theme": "Rail freight",
+  "authoring": "original procedural polygon mesh",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "reference": "../REF/side_loading_freight_shuttle.png",
+  "prompt": "../REF/side_loading_freight_shuttle.prompt.txt",
+  "units": "meters",
+  "vertical_axis_native": "+Z",
+  "vehicle_front_native": "-X",
+  "dimensions_m_at_authoring": [
+    6.1215,
+    3.855,
+    3.5965
+  ],
+  "bounds_m_at_authoring": {
+    "minimum": [
+      -3.0850000381469727,
+      -2.4800000190734863,
+      0.008499995805323124
+    ],
+    "maximum": [
+      3.0364999771118164,
+      1.375,
+      3.6050000190734863
+    ]
+  },
+  "dimensions_note": "Production measurements used for studio framing, not independent validation.",
+  "collections": {
+    "ASSET": "Editable named mesh parts by functional group",
+    "STUDIO": "Cameras, lights and neutral floor; not exported"
+  },
+  "export_selection": "Only ASSET mesh objects; evaluated bevel and weighted-normal modifiers; no camera/light/animation exports",
+  "uv_authoring": "Planar face islands for manufactured boxes/custom solids; cylindrical/cap UVs for wheels and rods; arc-length swept tube UVs; continuous outer/inner barrel shell islands. UVs are authored without validators.",
+  "material_style": "Solid named PBR palette; no generated or photographic surface textures. Glazing is an opaque stylized blue-gray metal/roughness material.",
+  "palette": [
+    {
+      "name": "PAINT_BrickRed",
+      "srgb": "#AE5E50"
+    },
+    {
+      "name": "PAINT_WarmIvory",
+      "srgb": "#E8DFC8"
+    },
+    {
+      "name": "METAL_Graphite",
+      "srgb": "#394448"
+    },
+    {
+      "name": "METAL_SatinSteel",
+      "srgb": "#879294"
+    },
+    {
+      "name": "RUBBER_Charcoal",
+      "srgb": "#242B2E"
+    },
+    {
+      "name": "ACCENT_BrassYellow",
+      "srgb": "#C6A04C"
+    },
+    {
+      "name": "GLASS_MutedBlueGray",
+      "srgb": "#57747C"
+    },
+    {
+      "name": "MASONRY_Terracotta",
+      "srgb": "#A66C59"
+    },
+    {
+      "name": "MASONRY_MortarShadow",
+      "srgb": "#7B6458"
+    },
+    {
+      "name": "MASONRY_WarmStone",
+      "srgb": "#BDB09A"
+    },
+    {
+      "name": "WOOD_CrateTimber",
+      "srgb": "#A28A65"
+    },
+    {
+      "name": "LENS_WarmWhite",
+      "srgb": "#FFF1C8"
+    },
+    {
+      "name": "LENS_Amber",
+      "srgb": "#E4A033"
+    }
+  ],
+  "parts": [
+    {
+      "name": "RoadAxle_1",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_L_Tire",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_L_Sidewall",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_L_Rim",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_L_Hub",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_L_HubCap",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_01",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_02",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_03",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_04",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_05",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_06",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_07",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_08",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_09",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_10",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_11",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_12",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_13",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_14",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_15",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_L_Tread_16",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tire",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_R_Sidewall",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_R_Rim",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_R_Hub",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_R_HubCap",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_01",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_02",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_03",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_04",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_05",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_06",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_07",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_08",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_09",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_10",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_11",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_12",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_13",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_14",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_15",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_1_R_Tread_16",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadAxle_2",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_L_Tire",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_L_Sidewall",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_L_Rim",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_L_Hub",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_L_HubCap",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_01",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_02",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_03",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_04",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_05",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_06",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_07",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_08",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_09",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_10",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_11",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_12",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_13",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_14",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_15",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_L_Tread_16",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tire",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_R_Sidewall",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_R_Rim",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_R_Hub",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_R_HubCap",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_01",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_02",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_03",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_04",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_05",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_06",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_07",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_08",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_09",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_10",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_11",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_12",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_13",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_14",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_15",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_2_R_Tread_16",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadAxle_3",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_L_Tire",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_L_Sidewall",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_L_Rim",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_L_Hub",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_L_HubCap",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_01",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_02",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_03",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_04",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_05",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_06",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_07",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_08",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_09",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_10",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_11",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_12",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_13",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_14",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_15",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_L_Tread_16",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tire",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_R_Sidewall",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_R_Rim",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_R_Hub",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_R_HubCap",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_01",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_02",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_03",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_04",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_05",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_06",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_07",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_08",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_09",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_10",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_11",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_12",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_13",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_14",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_15",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoadWheel_3_R_Tread_16",
+      "group": "01_Six_Wheel_Running_Gear",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "LongLowChassis",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DarkLowerSill",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RecessedLoadDeck",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BaySideRail_-1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ChassisAmberMarker_-1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "LENS_Amber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontWheelFender_-1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearWheelFender_-1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BaySideRail_1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ChassisAmberMarker_1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "LENS_Amber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontWheelFender_1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearWheelFender_1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearPowerPack",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearCoolingSlat_0",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearCoolingSlat_1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearCoolingSlat_2",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearCoolingSlat_3",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearCoolingSlat_4",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearImpactBuffer",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearLamp_-1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "LENS_Amber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearLamp_1",
+      "group": "02_Chassis_And_Load_Bay",
+      "material": "LENS_Amber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CabIvoryShell",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CabLowerRedDoorBand",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CabRoofCap",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontGlazingFrame",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontGlazing",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WindshieldDivider",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SideWindowFrame_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SideWindowPane_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorHandle_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MirrorStem_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "SideMirror_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SideWindowFrame_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SideWindowPane_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorHandle_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MirrorStem_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "SideMirror_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RedFrontNose",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontRadiator",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontRadiatorLouver_0",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontRadiatorLouver_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontRadiatorLouver_2",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontRadiatorLouver_3",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontLampFrame_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontHeadlamp_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontIndicator_-1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_Amber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontLampFrame_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontHeadlamp_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontIndicator_1",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_Amber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontImpactBuffer",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BoardingStep",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BoardingStepSafetyLip",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CabBeaconBase",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "CabBeacon",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_Amber",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoofWorkLamp_-0.45",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoofWorkLampLens_-0.45",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoofWorkLamp_0.78",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RoofWorkLampLens_0.78",
+      "group": "03_Offset_Operator_Cabin",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "TraverseRail_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastOuterRedHousing_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastInnerGuide_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastFoot_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastGuideBolt_0_1.3",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "MastGuideBolt_0_3.28",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "TraverseRail_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastOuterRedHousing_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastInnerGuide_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastFoot_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MastGuideBolt_1_1.3",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "MastGuideBolt_1_3.28",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "MastTopBridge",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CarriageCrosshead",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MainLiftCylinder",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "PolishedHydraulicRam",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "HydraulicRamAnchor",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ForkVerticalHeel_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SidewaysFork_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BluntForkSafetyTip_1",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ForkVerticalHeel_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SidewaysFork_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BluntForkSafetyTip_2",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "HydraulicHose",
+      "group": "04_Side_Loading_Mast_And_Forks",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ContainerBody",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_00",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_01",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_02",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_03",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_04",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_05",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_06",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_07",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_08",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_09",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_-1_10",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerEdgeRail_-1_1.19",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerEdgeRail_-1_2.73",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_00",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_01",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_02",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_03",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_04",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_05",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_06",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_07",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_08",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_09",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCorrugation_1_10",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerEdgeRail_1_1.19",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerEdgeRail_1_2.73",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerPost_-0.63_-0.46",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_-0.63_-0.46_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_-0.63_-0.46_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_-0.63_-0.46_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_-0.63_-0.46_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerPost_-0.63_0.96",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_-0.63_0.96_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_-0.63_0.96_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_-0.63_0.96_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_-0.63_0.96_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerPost_2.01_-0.46",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_2.01_-0.46_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_2.01_-0.46_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_2.01_-0.46_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_2.01_-0.46_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerPost_2.01_0.96",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_2.01_0.96_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_2.01_0.96_1.18",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerCasting_2.01_0.96_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerCornerSocket_2.01_0.96_2.74",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerRearDoorSeam",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerLockRod_-0.16",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "ContainerLockHandle_-0.16",
+      "group": "05_Secured_Freight_Container",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ContainerLockRod_0.66",
+      "group": "05_Secured_Freight_Container",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "ContainerLockHandle_0.66",
+      "group": "05_Secured_Freight_Container",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoSecuringStop_-0.68",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoSecuringStop_2.06",
+      "group": "05_Secured_Freight_Container",
+      "material": "PAINT_BrickRed",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    }
+  ],
+  "studio": {
+    "engine": "Cycles CPU",
+    "threads": 4,
+    "samples": 48,
+    "denoise": true,
+    "resolution_px": [
+      1024,
+      1024
+    ],
+    "view_transform": "AgX",
+    "background": "neutral soft studio",
+    "captures": [
+      {
+        "file": "renders/hero.png",
+        "camera": "STUDIO_hero",
+        "location_m": [
+          -9.522947311401367,
+          -13.76807975769043,
+          10.314278602600098
+        ],
+        "rotation_euler_radians": [
+          1.089126706123352,
+          9.552848467819786e-08,
+          -0.6231994032859802
+        ],
+        "orthographic_scale_m": 7.7125325202941895,
+        "target_m": [
+          -0.024250030517578125,
+          -0.5525000095367432,
+          1.8067500591278076
+        ],
+        "started_at_utc": "2026-10-25T06:11:23.741895+00:00",
+        "finished_at_utc": "2026-10-25T06:11:55.039550+00:00",
+        "render_seconds": 31.297723300056532
+      },
+      {
+        "file": "renders/rear.png",
+        "camera": "STUDIO_rear",
+        "location_m": [
+          9.474447250366211,
+          12.663080215454102,
+          10.314278602600098
+        ],
+        "rotation_euler_radians": [
+          1.0891265869140625,
+          -8.274756879700362e-09,
+          2.5183932781219482
+        ],
+        "orthographic_scale_m": 7.712532043457031,
+        "target_m": [
+          -0.024250030517578125,
+          -0.5525000095367432,
+          1.8067500591278076
+        ],
+        "started_at_utc": "2026-10-25T06:11:55.039550+00:00",
+        "finished_at_utc": "2026-10-25T06:12:25.709251+00:00",
+        "render_seconds": 30.67014239996206
+      }
+    ]
+  },
+  "process_start_utc": "2026-10-25T06:11:20.896653+00:00",
+  "process_end_utc": "2026-10-25T06:12:25.709251+00:00",
+  "process_start_kst": "2026-10-25T15:11:20.896653+09:00",
+  "process_end_kst": "2026-10-25T15:12:25.709251+09:00",
+  "authoring_export_render_seconds": 64.81549269997049,
+  "limitations": [
+    "Visual/model/UV review and export roundtrip are deferred by explicit user instruction.",
+    "No animation, rigging, collision or LOD assets were requested.",
+    "Hero/rear images are actual Blender renders and have not been opened for inspection."
+  ]
+}

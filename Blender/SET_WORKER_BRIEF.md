@@ -1,6 +1,6 @@
 # Ordinary rounded model set worker brief
 
-The user explicitly authorized nine sets in three groups, one Astra/max worker per set, and instructed that review be deferred. Main owns references, dispatch and Git. Do not ask for further design approval or add review gates. Fast has no separate field in the agent API.
+The user initially authorized nine sets in three groups, then explicitly extended production to further main-selected groups until the user says to stop. Keep one Astra/max worker per set and defer review. Main owns references, dispatch and Git. A worker stops after its assigned four models and awaits explicit dispatch; it must not start another set on its own. Do not ask for further design approval or add review gates. Fast has no separate field in the agent API.
 
 Read SET_BATCH_PLAN.md and your own set TASK.md/STATUS. Write only Blender/SetNN; read only REF/SetNN for creative references. No voxel, other set or ForestDemo creative resource reads/copies. Generic Blender/Python APIs are allowed; invent original geometry matching the assigned references. No shared Blender MCP scene, installations, worker Git, extra agents or image generation.
 

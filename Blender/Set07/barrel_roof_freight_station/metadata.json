@@ -1,0 +1,1694 @@
+{
+  "asset": "barrel_roof_freight_station",
+  "set": "Set07",
+  "theme": "Rail freight",
+  "authoring": "original procedural polygon mesh",
+  "status": "produced_unreviewed",
+  "review_status": "deferred_by_user",
+  "reference": "../REF/barrel_roof_freight_station.png",
+  "prompt": "../REF/barrel_roof_freight_station.prompt.txt",
+  "units": "meters",
+  "vertical_axis_native": "+Z",
+  "vehicle_front_native": "-Y",
+  "dimensions_m_at_authoring": [
+    9.675,
+    7.77,
+    5.55
+  ],
+  "bounds_m_at_authoring": {
+    "minimum": [
+      -4.654999732971191,
+      -5.050000190734863,
+      0.0
+    ],
+    "maximum": [
+      5.019999980926514,
+      2.7200000286102295,
+      5.550000190734863
+    ]
+  },
+  "dimensions_note": "Production measurements used for studio framing, not independent validation.",
+  "collections": {
+    "ASSET": "Editable named mesh parts by functional group",
+    "STUDIO": "Cameras, lights and neutral floor; not exported"
+  },
+  "export_selection": "Only ASSET mesh objects; evaluated bevel and weighted-normal modifiers; no camera/light/animation exports",
+  "uv_authoring": "Planar face islands for manufactured boxes/custom solids; cylindrical/cap UVs for wheels and rods; arc-length swept tube UVs; continuous outer/inner barrel shell islands. UVs are authored without validators.",
+  "material_style": "Solid named PBR palette; no generated or photographic surface textures. Glazing is an opaque stylized blue-gray metal/roughness material.",
+  "palette": [
+    {
+      "name": "PAINT_BrickRed",
+      "srgb": "#AE5E50"
+    },
+    {
+      "name": "PAINT_WarmIvory",
+      "srgb": "#E8DFC8"
+    },
+    {
+      "name": "METAL_Graphite",
+      "srgb": "#394448"
+    },
+    {
+      "name": "METAL_SatinSteel",
+      "srgb": "#879294"
+    },
+    {
+      "name": "RUBBER_Charcoal",
+      "srgb": "#242B2E"
+    },
+    {
+      "name": "ACCENT_BrassYellow",
+      "srgb": "#C6A04C"
+    },
+    {
+      "name": "GLASS_MutedBlueGray",
+      "srgb": "#57747C"
+    },
+    {
+      "name": "MASONRY_Terracotta",
+      "srgb": "#A66C59"
+    },
+    {
+      "name": "MASONRY_MortarShadow",
+      "srgb": "#7B6458"
+    },
+    {
+      "name": "MASONRY_WarmStone",
+      "srgb": "#BDB09A"
+    },
+    {
+      "name": "WOOD_CrateTimber",
+      "srgb": "#A28A65"
+    },
+    {
+      "name": "LENS_WarmWhite",
+      "srgb": "#FFF1C8"
+    },
+    {
+      "name": "LENS_Amber",
+      "srgb": "#E4A033"
+    }
+  ],
+  "parts": [
+    {
+      "name": "LoadingPlatformFoundation",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformDeck",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformSafetyEdge",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DockRubberBumper_1",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DockBumperAnchor_0_0.23",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockBumperAnchor_0_0.62",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockRubberBumper_2",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DockBumperAnchor_1_0.23",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockBumperAnchor_1_0.62",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockRubberBumper_3",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DockBumperAnchor_2_0.23",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockBumperAnchor_2_0.62",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockRubberBumper_4",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DockBumperAnchor_3_0.23",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockBumperAnchor_3_0.62",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockRubberBumper_5",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "RUBBER_Charcoal",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DockBumperAnchor_4_0.23",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "DockBumperAnchor_4_0.62",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "PlatformPanelJoint_0",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_1",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_2",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_3",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_4",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_5",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_6",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_7",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "PlatformPanelJoint_8",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "AttachedLoadingRamp",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "planar face atlas"
+    },
+    {
+      "name": "RampSafetyEdge_3.16",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RampSafetyEdge_4.63",
+      "group": "01_Raised_Loading_Platform_And_Ramp",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseRearWall",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseLeftEndWall",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseRightEndWall",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoOpeningLeftPier",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoOpeningRightPier",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoDoorHeader",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "InteriorWarehouseFloor",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "WOOD_CrateTimber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BarrelGable_-3.87",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "planar face atlas"
+    },
+    {
+      "name": "BarrelGable_2.58",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "planar face atlas"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_5",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_5",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_5",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_6",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_6",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_6",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_7",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_7",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_7",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_-2.97_8",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FrontMortarCourse_1.99_8",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearMortarCourse_8",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_-1.43_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_-1.43_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_-1.43_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_-1.43_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_-1.43_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_2.23_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_2.23_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_2.23_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_2.23_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_-3.86_2.23_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_-1.43_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_-1.43_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_-1.43_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_-1.43_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_-1.43_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_2.23_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_2.23_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_2.23_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_2.23_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "WarehouseCornerQuoin_2.58_2.23_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoDoorLintel",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoOpeningJamb_-2.1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoOpeningJamb_1.58",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OpenSlidingDoorLeaf_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_0_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_0_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_0_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_0_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_0_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPull_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OpenSlidingDoorLeaf_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_1_0",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_1_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_1_2",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_1_3",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPanelRib_1_4",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "DoorPull_1",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "SlidingDoorTrack",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_0_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_0_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_0_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_0_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_1_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_1_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_1_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_1_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_2_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_2_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_2_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_2_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_3_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_3_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_3_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_3_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_4_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_4_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_4_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CargoTransom_4_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_0_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_0_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_0_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_0_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_1_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_1_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_1_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_1_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_2_Frame",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_2_Pane",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_2_Mullion",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "RearServiceWindow_2_Transom",
+      "group": "02_Warehouse_Masonry_And_Cargo_Opening",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "MainBarrelRoof",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "RoofEndFascia_-4.23",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "RoofEndFascia_2.93",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_0",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_2",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_3",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_4",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_5",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_6",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_7",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "StandingRoofSeam_8",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "RoofEaveGutter_-1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RearDownpipe_-1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "RoofEaveGutter_1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RearDownpipe_1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "RoofVentStem_0",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoofVentBand_0",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoofVentMushroom_0",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoofVentStem_1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoofVentBand_1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "RoofVentMushroom_1",
+      "group": "03_Barrel_Roof_And_Ventilation",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "LoadingCanopyRoof",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CanopyIvoryFascia",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CanopySafetyTrim",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CanopyColumn_0",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CanopyColumnFoot_0",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ColumnCurvedBrace_0_-1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ColumnCurvedBrace_0_1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ColumnCollisionGuard_0",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "CanopyColumn_1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CanopyColumnFoot_1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ColumnCurvedBrace_1_-1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ColumnCurvedBrace_1_1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ColumnCollisionGuard_1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "CanopyColumn_2",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "CanopyColumnFoot_2",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "ColumnCurvedBrace_2_-1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ColumnCurvedBrace_2_1",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "ColumnCollisionGuard_2",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "CanopyWorkLight_0_Stem",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "CanopyWorkLight_0_Shade",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "conical side strip and caps"
+    },
+    {
+      "name": "CanopyWorkLight_0_WarmLens",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "CanopyWorkLight_1_Stem",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "CanopyWorkLight_1_Shade",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "METAL_Graphite",
+      "uv_authoring": "conical side strip and caps"
+    },
+    {
+      "name": "CanopyWorkLight_1_WarmLens",
+      "group": "04_Loading_Canopy_And_Stout_Columns",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "OfficeMasonry",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_Terracotta",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeStonePlinth",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeCornice",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeShallowBarrelRoof",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofEnd_2.57",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofEnd_4.81",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofSeam_0",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofSeam_1",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofSeam_2",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofSeam_3",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeRoofSeam_4",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_SatinSteel",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeDoorSurround",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeDoor",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeDoorUpperGlass",
+      "group": "05_Attached_Side_Office",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeDoorHandle",
+      "group": "05_Attached_Side_Office",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeFrontWindow_Frame",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeFrontWindow_Pane",
+      "group": "05_Attached_Side_Office",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeFrontWindow_Mullion",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeFrontWindow_Transom",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeSideWindowFrame",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeSideGlazing",
+      "group": "05_Attached_Side_Office",
+      "material": "GLASS_MutedBlueGray",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeSideMullion_-0.13",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeSideMullion_0.35",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeSideMullion_0.83",
+      "group": "05_Attached_Side_Office",
+      "material": "PAINT_WarmIvory",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeMasonryCourse_0",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeMasonryCourse_1",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeMasonryCourse_2",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeMasonryCourse_3",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeMasonryCourse_4",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficeMasonryCourse_5",
+      "group": "05_Attached_Side_Office",
+      "material": "MASONRY_MortarShadow",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "OfficePlatformGuard",
+      "group": "05_Attached_Side_Office",
+      "material": "METAL_Graphite",
+      "uv_authoring": "surface-specific strip and cap islands"
+    },
+    {
+      "name": "OfficeGuardUpright_-0.5",
+      "group": "05_Attached_Side_Office",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "OfficeGuardUpright_0.8",
+      "group": "05_Attached_Side_Office",
+      "material": "ACCENT_BrassYellow",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "InteriorPallet",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "WOOD_CrateTimber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_Body",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "WOOD_CrateTimber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontStile_-1_-1.8920000000000001",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontStile_-1_-1.268",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontRail_-1_1.1246",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontRail_-1_1.7953999999999999",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_DiagonalBrace_-1",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontStile_1_-1.8920000000000001",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontStile_1_-1.268",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontRail_1_1.1246",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_FrontRail_1_1.7953999999999999",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_A_DiagonalBrace_1",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_Body",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "WOOD_CrateTimber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontStile_-1_-0.9920000000000001",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontStile_-1_-0.368",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontRail_-1_1.1246",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontRail_-1_1.7953999999999999",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_DiagonalBrace_-1",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontStile_1_-0.9920000000000001",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontStile_1_-0.368",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontRail_1_1.1246",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_FrontRail_1_1.7953999999999999",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_B_DiagonalBrace_1",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_Body",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "WOOD_CrateTimber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontStile_-1_-1.8686",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontStile_-1_-1.2914",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontRail_-1_1.9791999999999998",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontRail_-1_2.5408",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_DiagonalBrace_-1",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontStile_1_-1.8686",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontStile_1_-1.2914",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontRail_1_1.9791999999999998",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_FrontRail_1_2.5408",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "FreightCrate_C_DiagonalBrace_1",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "MASONRY_WarmStone",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "InteriorRearBench",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "WOOD_CrateTimber",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BenchLeg_0.05",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "BenchLeg_1.3",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "METAL_Graphite",
+      "uv_authoring": "six separate planar islands; aspect preserved per face; bevel UV interpolation"
+    },
+    {
+      "name": "InteriorPendant_Stem",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "METAL_Graphite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    },
+    {
+      "name": "InteriorPendant_Shade",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "METAL_Graphite",
+      "uv_authoring": "conical side strip and caps"
+    },
+    {
+      "name": "InteriorPendant_WarmLens",
+      "group": "06_Interior_Freight_And_Attached_Fixtures",
+      "material": "LENS_WarmWhite",
+      "uv_authoring": "continuous cylindrical side strip and separate cap islands"
+    }
+  ],
+  "studio": {
+    "engine": "Cycles CPU",
+    "threads": 4,
+    "samples": 48,
+    "denoise": true,
+    "resolution_px": [
+      1024,
+      1024
+    ],
+    "view_transform": "AgX",
+    "background": "neutral soft studio",
+    "captures": [
+      {
+        "file": "renders/hero.png",
+        "camera": "STUDIO_hero",
+        "location_m": [
+          15.195141792297363,
+          -22.052156448364258,
+          16.221105575561523
+        ],
+        "rotation_euler_radians": [
+          1.0891265869140625,
+          1.3447470692540264e-08,
+          0.6231992840766907
+        ],
+        "orthographic_scale_m": 13.944685935974121,
+        "target_m": [
+          0.18250012397766113,
+          -1.165000081062317,
+          2.7750000953674316
+        ],
+        "started_at_utc": "2026-10-25T06:12:28.558159+00:00",
+        "finished_at_utc": "2026-10-25T06:13:01.016850+00:00",
+        "render_seconds": 32.45912270003464
+      },
+      {
+        "file": "renders/rear.png",
+        "camera": "STUDIO_rear",
+        "location_m": [
+          -14.8301420211792,
+          19.72215461730957,
+          16.221105575561523
+        ],
+        "rotation_euler_radians": [
+          1.0891269445419312,
+          -1.3212019212005544e-07,
+          -2.5183935165405273
+        ],
+        "orthographic_scale_m": 13.944685935974121,
+        "target_m": [
+          0.18250012397766113,
+          -1.165000081062317,
+          2.7750000953674316
+        ],
+        "started_at_utc": "2026-10-25T06:13:01.016850+00:00",
+        "finished_at_utc": "2026-10-25T06:13:32.458460+00:00",
+        "render_seconds": 31.441017600009218
+      }
+    ]
+  },
+  "process_start_utc": "2026-10-25T06:12:26.114617+00:00",
+  "process_end_utc": "2026-10-25T06:13:32.458460+00:00",
+  "process_start_kst": "2026-10-25T15:12:26.114617+09:00",
+  "process_end_kst": "2026-10-25T15:13:32.458460+09:00",
+  "authoring_export_render_seconds": 66.34640090004541,
+  "limitations": [
+    "Visual/model/UV review and export roundtrip are deferred by explicit user instruction.",
+    "No animation, rigging, collision or LOD assets were requested.",
+    "Hero/rear images are actual Blender renders and have not been opened for inspection."
+  ]
+}
