@@ -1,0 +1,1051 @@
+{
+  "asset": "arched_workshop",
+  "validated_at_utc": "2026-10-23T09:54:36.126942+00:00",
+  "blender_version": "4.5.12 LTS",
+  "geometry_area_epsilon_m2": 1e-14,
+  "checks": {
+    "native_reopened_in_fresh_process": true,
+    "meters": true,
+    "floor_min_z_zero": true,
+    "garage_opening_lower_ray": {
+      "hit": true,
+      "first_hit_object": "Interior workbench | drawer 2-2",
+      "first_hit_y": 1.350303053855896,
+      "clear_through_front_wall": true
+    },
+    "garage_shutter_upper_ray": {
+      "hit": true,
+      "first_hit_object": "Shutter | articulated horizontal slat 06",
+      "first_hit_y": -2.438000202178955,
+      "hits_raised_shutter": true
+    },
+    "matching_export_triangle_counts": true,
+    "matching_export_dimensions": true
+  },
+  "formats": {
+    "blend": {
+      "objects": 562,
+      "mesh_objects": 562,
+      "vertices": 94710,
+      "evaluated_triangles": 185864,
+      "bounds_min_m": [
+        -3.868499994277954,
+        -3.680000066757202,
+        0.0
+      ],
+      "bounds_max_m": [
+        3.620544672012329,
+        2.7200000286102295,
+        4.499391555786133
+      ],
+      "dimensions_m": [
+        7.489044666290283,
+        6.400000095367432,
+        4.499391555786133
+      ],
+      "material_count": 27,
+      "material_names": [
+        "Charcoal | rubber and shadow recess",
+        "Concrete | cast foundation",
+        "Concrete | ramp and sill",
+        "Floor | muted safety paint",
+        "Glazing | smoked green inset glass",
+        "Graphite | alternate shutter slats",
+        "Graphite | painted steel",
+        "Graphite | shutter slats",
+        "Graphite | trim edge",
+        "Interior | sealed concrete",
+        "Interior | tool board",
+        "Interior | worn worktop",
+        "Ivory | cut arch fascia",
+        "Ivory | light panel variation",
+        "Ivory | shadow panel variation",
+        "Ivory | warm mineral wall",
+        "Label | warm paper enamel",
+        "Light | interior strip diffuser",
+        "Light | warm practical lens",
+        "Masonry | recessed joint",
+        "Metal | fasteners and handles",
+        "Ochre orange | painted detail",
+        "Ochre orange | tool cabinet enamel",
+        "Sage | curved standing seam metal",
+        "Sage | folded panel variation",
+        "Sage | raised seam edges",
+        "Sage | service door and utility casing"
+      ],
+      "uv_mesh_coverage": 1.0,
+      "uv_loop_count": 373198,
+      "missing_uv": [],
+      "missing_materials": [],
+      "nonfinite_geometry_or_uv": [],
+      "zero_area_triangle_count": 1060,
+      "zero_area_triangle_objects": [
+        {
+          "object": "Entry | poured tapered concrete ramp",
+          "triangles": 4
+        },
+        {
+          "object": "Front personnel door | recessed lower field",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | inner field",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | brushed kick plate",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | recessed lower field",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | inner field",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | brushed kick plate",
+          "triangles": 32
+        },
+        {
+          "object": "HVAC | dark grille recess",
+          "triangles": 32
+        },
+        {
+          "object": "HVAC | lower access panel",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.001",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.002",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.003",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | small enamel label",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.001",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.002",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.004",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.005",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.006",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.007",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.008",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.009",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.011",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.012",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.013",
+          "triangles": 32
+        },
+        {
+          "object": "Lamp | spun metal bell shade",
+          "triangles": 64
+        },
+        {
+          "object": "Lamp | spun metal bell shade.001",
+          "triangles": 64
+        },
+        {
+          "object": "Front sign | ivory illuminated face",
+          "triangles": 32
+        },
+        {
+          "object": "Front | small workshop number plaque",
+          "triangles": 32
+        },
+        {
+          "object": "Rear electrical | inset meter window",
+          "triangles": 32
+        },
+        {
+          "object": "Rear electrical | fuse access panel",
+          "triangles": 32
+        }
+      ],
+      "zero_area_uv_triangle_count": 834,
+      "zero_area_uv_triangle_objects": [
+        {
+          "object": "Entry | poured tapered concrete ramp",
+          "triangles": 4
+        },
+        {
+          "object": "Front personnel door | recessed lower field",
+          "triangles": 30
+        },
+        {
+          "object": "Front personnel door | inner field",
+          "triangles": 28
+        },
+        {
+          "object": "Front personnel door | brushed kick plate",
+          "triangles": 30
+        },
+        {
+          "object": "Rear maintenance door | recessed lower field",
+          "triangles": 30
+        },
+        {
+          "object": "Rear maintenance door | inner field",
+          "triangles": 28
+        },
+        {
+          "object": "Rear maintenance door | brushed kick plate",
+          "triangles": 30
+        },
+        {
+          "object": "HVAC | dark grille recess",
+          "triangles": 24
+        },
+        {
+          "object": "HVAC | lower access panel",
+          "triangles": 29
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.001",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.002",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.003",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | small enamel label",
+          "triangles": 27
+        },
+        {
+          "object": "Gutter | external retention strap",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.001",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.002",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.003",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.004",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.005",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.006",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.007",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.008",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.009",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.010",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.011",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.012",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.013",
+          "triangles": 21
+        },
+        {
+          "object": "Lamp | spun metal bell shade",
+          "triangles": 64
+        },
+        {
+          "object": "Lamp | spun metal bell shade.001",
+          "triangles": 64
+        },
+        {
+          "object": "Front sign | ivory illuminated face",
+          "triangles": 32
+        },
+        {
+          "object": "Front | small workshop number plaque",
+          "triangles": 28
+        },
+        {
+          "object": "Rear electrical | inset meter window",
+          "triangles": 27
+        },
+        {
+          "object": "Rear electrical | fuse access panel",
+          "triangles": 21
+        }
+      ],
+      "nonmanifold_edge_count": 1356,
+      "unapplied_modifier_count": 0,
+      "camera_count": 0,
+      "light_count": 0,
+      "studio_named_objects": [],
+      "external_images": [],
+      "pass": false
+    },
+    "glb": {
+      "objects": 562,
+      "mesh_objects": 562,
+      "vertices": 139359,
+      "evaluated_triangles": 185864,
+      "bounds_min_m": [
+        -3.868499994277954,
+        -3.680000066757202,
+        0.0
+      ],
+      "bounds_max_m": [
+        3.620544672012329,
+        2.7200000286102295,
+        4.499391555786133
+      ],
+      "dimensions_m": [
+        7.489044666290283,
+        6.400000095367432,
+        4.499391555786133
+      ],
+      "material_count": 27,
+      "material_names": [
+        "Charcoal | rubber and shadow recess",
+        "Concrete | cast foundation",
+        "Concrete | ramp and sill",
+        "Floor | muted safety paint",
+        "Glazing | smoked green inset glass",
+        "Graphite | alternate shutter slats",
+        "Graphite | painted steel",
+        "Graphite | shutter slats",
+        "Graphite | trim edge",
+        "Interior | sealed concrete",
+        "Interior | tool board",
+        "Interior | worn worktop",
+        "Ivory | cut arch fascia",
+        "Ivory | light panel variation",
+        "Ivory | shadow panel variation",
+        "Ivory | warm mineral wall",
+        "Label | warm paper enamel",
+        "Light | interior strip diffuser",
+        "Light | warm practical lens",
+        "Masonry | recessed joint",
+        "Metal | fasteners and handles",
+        "Ochre orange | painted detail",
+        "Ochre orange | tool cabinet enamel",
+        "Sage | curved standing seam metal",
+        "Sage | folded panel variation",
+        "Sage | raised seam edges",
+        "Sage | service door and utility casing"
+      ],
+      "uv_mesh_coverage": 1.0,
+      "uv_loop_count": 557592,
+      "missing_uv": [],
+      "missing_materials": [],
+      "nonfinite_geometry_or_uv": [],
+      "zero_area_triangle_count": 1060,
+      "zero_area_triangle_objects": [
+        {
+          "object": "Entry | poured tapered concrete ramp",
+          "triangles": 4
+        },
+        {
+          "object": "Front personnel door | recessed lower field",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | inner field",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | brushed kick plate",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | recessed lower field",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | inner field",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | brushed kick plate",
+          "triangles": 32
+        },
+        {
+          "object": "HVAC | dark grille recess",
+          "triangles": 32
+        },
+        {
+          "object": "HVAC | lower access panel",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.001",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.002",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.003",
+          "triangles": 32
+        },
+        {
+          "object": "Exterior tools | small enamel label",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.001",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.002",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.004",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.005",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.006",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.007",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.008",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.009",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.011",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.012",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.013",
+          "triangles": 32
+        },
+        {
+          "object": "Lamp | spun metal bell shade",
+          "triangles": 64
+        },
+        {
+          "object": "Lamp | spun metal bell shade.001",
+          "triangles": 64
+        },
+        {
+          "object": "Front sign | ivory illuminated face",
+          "triangles": 32
+        },
+        {
+          "object": "Front | small workshop number plaque",
+          "triangles": 32
+        },
+        {
+          "object": "Rear electrical | inset meter window",
+          "triangles": 32
+        },
+        {
+          "object": "Rear electrical | fuse access panel",
+          "triangles": 32
+        }
+      ],
+      "zero_area_uv_triangle_count": 840,
+      "zero_area_uv_triangle_objects": [
+        {
+          "object": "Entry | poured tapered concrete ramp",
+          "triangles": 4
+        },
+        {
+          "object": "Front personnel door | recessed lower field",
+          "triangles": 30
+        },
+        {
+          "object": "Front personnel door | inner field",
+          "triangles": 28
+        },
+        {
+          "object": "Front personnel door | brushed kick plate",
+          "triangles": 30
+        },
+        {
+          "object": "Rear maintenance door | recessed lower field",
+          "triangles": 30
+        },
+        {
+          "object": "Rear maintenance door | inner field",
+          "triangles": 28
+        },
+        {
+          "object": "Rear maintenance door | brushed kick plate",
+          "triangles": 30
+        },
+        {
+          "object": "HVAC | dark grille recess",
+          "triangles": 24
+        },
+        {
+          "object": "HVAC | lower access panel",
+          "triangles": 30
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot",
+          "triangles": 12
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.001",
+          "triangles": 12
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.002",
+          "triangles": 12
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.003",
+          "triangles": 12
+        },
+        {
+          "object": "Exterior tools | small enamel label",
+          "triangles": 28
+        },
+        {
+          "object": "Gutter | external retention strap",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.001",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.002",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.003",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.004",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.005",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.006",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.007",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.008",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.009",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.010",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.011",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.012",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.013",
+          "triangles": 21
+        },
+        {
+          "object": "Lamp | spun metal bell shade",
+          "triangles": 64
+        },
+        {
+          "object": "Lamp | spun metal bell shade.001",
+          "triangles": 64
+        },
+        {
+          "object": "Front sign | ivory illuminated face",
+          "triangles": 32
+        },
+        {
+          "object": "Front | small workshop number plaque",
+          "triangles": 28
+        },
+        {
+          "object": "Rear electrical | inset meter window",
+          "triangles": 27
+        },
+        {
+          "object": "Rear electrical | fuse access panel",
+          "triangles": 21
+        }
+      ],
+      "nonmanifold_edge_count": 85508,
+      "unapplied_modifier_count": 0,
+      "camera_count": 0,
+      "light_count": 0,
+      "studio_named_objects": [],
+      "external_images": [],
+      "pass": false
+    },
+    "fbx": {
+      "objects": 562,
+      "mesh_objects": 562,
+      "vertices": 94710,
+      "evaluated_triangles": 185864,
+      "bounds_min_m": [
+        -3.868499994277954,
+        -3.6800003051757812,
+        0.0
+      ],
+      "bounds_max_m": [
+        3.620544910430908,
+        2.7200002670288086,
+        4.499391555786133
+      ],
+      "dimensions_m": [
+        7.489045143127441,
+        6.40000057220459,
+        4.499391555786133
+      ],
+      "material_count": 27,
+      "material_names": [
+        "Charcoal | rubber and shadow recess",
+        "Concrete | cast foundation",
+        "Concrete | ramp and sill",
+        "Floor | muted safety paint",
+        "Glazing | smoked green inset glass",
+        "Graphite | alternate shutter slats",
+        "Graphite | painted steel",
+        "Graphite | shutter slats",
+        "Graphite | trim edge",
+        "Interior | sealed concrete",
+        "Interior | tool board",
+        "Interior | worn worktop",
+        "Ivory | cut arch fascia",
+        "Ivory | light panel variation",
+        "Ivory | shadow panel variation",
+        "Ivory | warm mineral wall",
+        "Label | warm paper enamel",
+        "Light | interior strip diffuser",
+        "Light | warm practical lens",
+        "Masonry | recessed joint",
+        "Metal | fasteners and handles",
+        "Ochre orange | painted detail",
+        "Ochre orange | tool cabinet enamel",
+        "Sage | curved standing seam metal",
+        "Sage | folded panel variation",
+        "Sage | raised seam edges",
+        "Sage | service door and utility casing"
+      ],
+      "uv_mesh_coverage": 1.0,
+      "uv_loop_count": 373198,
+      "missing_uv": [],
+      "missing_materials": [],
+      "nonfinite_geometry_or_uv": [],
+      "zero_area_triangle_count": 1044,
+      "zero_area_triangle_objects": [
+        {
+          "object": "Entry | poured tapered concrete ramp",
+          "triangles": 4
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot",
+          "triangles": 28
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.001",
+          "triangles": 28
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.002",
+          "triangles": 28
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.003",
+          "triangles": 28
+        },
+        {
+          "object": "Exterior tools | small enamel label",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | brushed kick plate",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | inner field",
+          "triangles": 32
+        },
+        {
+          "object": "Front personnel door | recessed lower field",
+          "triangles": 32
+        },
+        {
+          "object": "Front sign | ivory illuminated face",
+          "triangles": 32
+        },
+        {
+          "object": "Front | small workshop number plaque",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.001",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.002",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.004",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.005",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.006",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.007",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.008",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.009",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.011",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.012",
+          "triangles": 32
+        },
+        {
+          "object": "Gutter | external retention strap.013",
+          "triangles": 32
+        },
+        {
+          "object": "HVAC | dark grille recess",
+          "triangles": 32
+        },
+        {
+          "object": "HVAC | lower access panel",
+          "triangles": 32
+        },
+        {
+          "object": "Lamp | spun metal bell shade",
+          "triangles": 64
+        },
+        {
+          "object": "Lamp | spun metal bell shade.001",
+          "triangles": 64
+        },
+        {
+          "object": "Rear electrical | fuse access panel",
+          "triangles": 32
+        },
+        {
+          "object": "Rear electrical | inset meter window",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | brushed kick plate",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | inner field",
+          "triangles": 32
+        },
+        {
+          "object": "Rear maintenance door | recessed lower field",
+          "triangles": 32
+        }
+      ],
+      "zero_area_uv_triangle_count": 834,
+      "zero_area_uv_triangle_objects": [
+        {
+          "object": "Entry | poured tapered concrete ramp",
+          "triangles": 4
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.001",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.002",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | door lower ventilation slot.003",
+          "triangles": 11
+        },
+        {
+          "object": "Exterior tools | small enamel label",
+          "triangles": 27
+        },
+        {
+          "object": "Front personnel door | brushed kick plate",
+          "triangles": 30
+        },
+        {
+          "object": "Front personnel door | inner field",
+          "triangles": 28
+        },
+        {
+          "object": "Front personnel door | recessed lower field",
+          "triangles": 30
+        },
+        {
+          "object": "Front sign | ivory illuminated face",
+          "triangles": 32
+        },
+        {
+          "object": "Front | small workshop number plaque",
+          "triangles": 28
+        },
+        {
+          "object": "Gutter | external retention strap",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.001",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.002",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.003",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.004",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.005",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.006",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.007",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.008",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.009",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.010",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.011",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.012",
+          "triangles": 21
+        },
+        {
+          "object": "Gutter | external retention strap.013",
+          "triangles": 21
+        },
+        {
+          "object": "HVAC | dark grille recess",
+          "triangles": 24
+        },
+        {
+          "object": "HVAC | lower access panel",
+          "triangles": 29
+        },
+        {
+          "object": "Lamp | spun metal bell shade",
+          "triangles": 64
+        },
+        {
+          "object": "Lamp | spun metal bell shade.001",
+          "triangles": 64
+        },
+        {
+          "object": "Rear electrical | fuse access panel",
+          "triangles": 21
+        },
+        {
+          "object": "Rear electrical | inset meter window",
+          "triangles": 27
+        },
+        {
+          "object": "Rear maintenance door | brushed kick plate",
+          "triangles": 30
+        },
+        {
+          "object": "Rear maintenance door | inner field",
+          "triangles": 28
+        },
+        {
+          "object": "Rear maintenance door | recessed lower field",
+          "triangles": 30
+        }
+      ],
+      "nonmanifold_edge_count": 1356,
+      "unapplied_modifier_count": 0,
+      "camera_count": 0,
+      "light_count": 0,
+      "studio_named_objects": [],
+      "external_images": [],
+      "pass": false
+    }
+  },
+  "limitations": [
+    "Solid named PBR materials; no painted or baked texture maps.",
+    "Static architecture; shutter and doors are separate editable geometry but are not rigged."
+  ],
+  "files": {
+    "arched_workshop.blend": {
+      "bytes": 15752393
+    },
+    "arched_workshop.glb": {
+      "bytes": 5438040
+    },
+    "arched_workshop.fbx": {
+      "bytes": 5889676
+    },
+    "renders/hero.png": {
+      "bytes": 1919042
+    },
+    "renders/rear.png": {
+      "bytes": 1824016
+    },
+    "renders/front_detail.png": {
+      "bytes": 1949137
+    }
+  },
+  "passed": false
+}

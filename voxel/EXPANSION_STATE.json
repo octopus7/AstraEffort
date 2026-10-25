@@ -1,6 +1,6 @@
 {
   "started_at_utc": "2026-10-23T15:28:58Z",
-  "status": "paused",
+  "status": "checkpoint_hold",
   "original_models": 39,
   "planned_additions": 6,
   "planned_new_theme_models": 36,
@@ -12,7 +12,11 @@
     "farm",
     "antarctic",
     "mine",
-    "harbor"
+    "harbor",
+    "forestry",
+    "construction",
+    "bakery",
+    "fire_rescue"
   ],
   "units": {
     "farm": {
@@ -79,7 +83,7 @@
         "sawmill",
         "log_rack"
       ],
-      "worker": "voxel_worker_1"
+      "worker": "voxel_new_1"
     },
     "construction": {
       "label": "건설 현장",
@@ -91,7 +95,7 @@
         "tower_crane",
         "site_office"
       ],
-      "worker": "voxel_worker_2"
+      "worker": "voxel_new_2"
     },
     "fire_rescue": {
       "label": "소방·구조 기지",
@@ -103,7 +107,7 @@
         "fire_station",
         "rescue_helicopter"
       ],
-      "worker": "voxel_worker_3"
+      "worker": "voxel_new_3"
     },
     "airfield": {
       "label": "소형 비행장",
@@ -115,7 +119,7 @@
         "maintenance_hangar",
         "control_tower"
       ],
-      "worker": "voxel_worker_1"
+      "worker": "voxel_new_1"
     },
     "recycling": {
       "label": "재활용 센터",
@@ -127,7 +131,7 @@
         "compactor",
         "recycling_center"
       ],
-      "worker": "voxel_worker_2"
+      "worker": "voxel_new_2"
     },
     "geothermal": {
       "label": "화산·지열 기지",
@@ -139,7 +143,7 @@
         "cooling_tower",
         "volcano_observatory"
       ],
-      "worker": "voxel_worker_3"
+      "worker": "voxel_new_3"
     },
     "canal": {
       "label": "운하·수문 마을",
@@ -151,7 +155,7 @@
         "drawbridge",
         "lockkeepers_house"
       ],
-      "worker": "voxel_worker_1"
+      "worker": "voxel_new_1"
     },
     "camping": {
       "label": "캠핑·휴양지",
@@ -163,7 +167,7 @@
         "generator_trailer",
         "shower_block"
       ],
-      "worker": "voxel_worker_2"
+      "worker": "voxel_new_2"
     },
     "bakery": {
       "label": "제과·제빵 마을",
@@ -179,9 +183,37 @@
     }
   },
   "phase_a_complete": true,
-  "paused_at_utc": "2026-10-23T16:03:52.742472+00:00",
-  "pause_reason": "User explicitly requested commit validated outputs and stop; resume later.",
-  "new_themes_started": false,
-  "completed_models": 45,
-  "completed_variants": 90
+  "new_themes_started": true,
+  "completed_models": 61,
+  "completed_variants": 122,
+  "phase_b_started_at_utc": "2026-10-23T16:28:05.456465+00:00",
+  "resume_history": [
+    {
+      "resumed_at_utc": "2026-10-23T16:28:05.456465+00:00",
+      "authorization": "User: ??? ???",
+      "checkpoint_commit": "63e475d"
+    }
+  ],
+  "checkpoint_at_utc": "2026-10-25T04:50:21.846945+00:00",
+  "checkpoint_reason": "User requested: 일단 지금까지 내용 커밋",
+  "exported_models": 73,
+  "exported_variants": 146,
+  "awaiting_primary_review": [
+    "airfield",
+    "recycling"
+  ],
+  "work_in_progress": [
+    "geothermal"
+  ],
+  "not_started": [
+    "canal",
+    "camping"
+  ],
+  "new_theme_references_complete": true,
+  "pause_history": [
+    {
+      "paused_at_utc": "2026-10-23T16:03:52.742472+00:00",
+      "reason": "User explicitly requested commit validated outputs and stop; resume later."
+    }
+  ]
 }

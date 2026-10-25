@@ -1,0 +1,181 @@
+{
+  "asset": "collection_truck",
+  "label": "Rear-loading collection truck",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      39,
+      101,
+      82,
+      255
+    ],
+    [
+      64,
+      129,
+      103,
+      255
+    ],
+    [
+      26,
+      70,
+      59,
+      255
+    ],
+    [
+      226,
+      221,
+      194,
+      255
+    ],
+    [
+      246,
+      241,
+      218,
+      255
+    ],
+    [
+      45,
+      50,
+      52,
+      255
+    ],
+    [
+      75,
+      89,
+      93,
+      255
+    ],
+    [
+      143,
+      153,
+      150,
+      255
+    ],
+    [
+      237,
+      185,
+      48,
+      255
+    ],
+    [
+      191,
+      129,
+      34,
+      255
+    ],
+    [
+      58,
+      81,
+      91,
+      255
+    ],
+    [
+      105,
+      133,
+      143,
+      255
+    ],
+    [
+      177,
+      73,
+      48,
+      255
+    ],
+    [
+      163,
+      116,
+      65,
+      255
+    ],
+    [
+      197,
+      151,
+      91,
+      255
+    ]
+  ],
+  "notes": [
+    "Original six-wheel collection truck with rounded cream body, external tail hydraulics, real sloped rear loading hopper and low rear step.",
+    "Functional rear loading face points -Y; cab/vehicle travel direction is +Y so the common preview exposes the hopper.",
+    "Native half occupancy uses conservative 2x reduction with no manual size-only edits. Opaque glass, static mechanism."
+  ],
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    74,
+    128,
+    88
+  ],
+  "occupied_voxels": 333701,
+  "voxel_size_m": 0.055,
+  "grid_extents_m": [
+    4.07,
+    7.04,
+    4.84
+  ],
+  "occupied_bounds_voxels": [
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      70,
+      127,
+      86
+    ]
+  ],
+  "bounds_m": [
+    [
+      -1.815,
+      -3.52,
+      0.0
+    ],
+    [
+      1.815,
+      3.465,
+      4.73
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13
+  ],
+  "occupancy_sha256": "22951e4ad32f846501f8b6f7d480d3342424096c656ca5cb0d24bdf9fde7d720",
+  "surface": {
+    "quads": 4544,
+    "triangles": 9088,
+    "exposed_unit_faces": 61160,
+    "surface_area_m2": 185.00900000000001,
+    "materials": 12
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "collection_truck.vox": "b19c60e4b0873a1f5962cc2363383f3232f8ad7b854790c61e47e6c64db55b3a",
+    "collection_truck.blend": "ba5d1c39916b284780ca3c16c7fde5113acb3155a1ef63c881848d0b71acb2dd",
+    "collection_truck.glb": "629df577d4d481182d10c6d3a7996b5d8669caa8493e2c7b6e89cf4cc7dce3c7",
+    "collection_truck.fbx": "561e1865e7490f5d1d634df2ca1ff0613667b91e6894acf7d6eee96aff94b0a6",
+    "preview.png": "4c47b34edab61e4891ca4bacf80dfebe0c4f26291e45a40ddcef6c792945aa8e"
+  }
+}

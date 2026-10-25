@@ -1,0 +1,203 @@
+{
+  "asset": "mountain_observatory",
+  "validation_started_at_utc": "2026-10-23T12:32:32.799830+00:00",
+  "validation_finished_at_utc": "2026-10-23T12:32:43.534783+00:00",
+  "validation_seconds": 10.73540070001036,
+  "blender_version": "4.5.12 LTS",
+  "method": "Separate Blender process; saved BLEND ASSET, then fresh empty-scene imports of GLB and FBX; true matrix_world transformed vertices, evaluated triangulation, area and UV area tests. Topology measured after position-only weld at 1 micrometer.",
+  "tolerances": {
+    "geometry_triangle_area_m2": 1e-12,
+    "uv_triangle_area": 1e-14,
+    "bounds_m": 0.0001
+  },
+  "checks": {
+    "native_geometry_uv_material_pass": true,
+    "glb_geometry_uv_material_pass": true,
+    "fbx_geometry_uv_material_pass": true,
+    "all_modifiers_baked": true,
+    "exports_exact_triangle_consistency": true,
+    "exports_transformed_vertex_bounds_consistency": true,
+    "asset_bottom_z_is_zero": true,
+    "required_actual_renders_present": true,
+    "optical_lens_visible_in_hollow_barrel": true,
+    "real_open_front_slit_closed_rear": true,
+    "native_closed_component_topology": true
+  },
+  "passed": true,
+  "native": {
+    "label": "Saved BLEND / ASSET",
+    "mesh_objects": 335,
+    "vertices": 114060,
+    "evaluated_triangles": 226944,
+    "bounds_min_m": [
+      -2.6600000858306885,
+      -3.4000000953674316,
+      0.0
+    ],
+    "bounds_max_m": [
+      4.389999866485596,
+      2.6600000858306885,
+      5.994852542877197
+    ],
+    "dimensions_m": [
+      7.049999952316284,
+      6.06000018119812,
+      5.994852542877197
+    ],
+    "finite_geometry": true,
+    "zero_area_triangles": 0,
+    "degenerate_uv_triangles": 0,
+    "missing_uv_objects": [],
+    "uv_outside_unit_square_objects": [],
+    "missing_material_objects": [],
+    "missing_external_images": [],
+    "studio_objects_in_asset_export": [],
+    "topology_exception_details": [],
+    "metric_pass": true,
+    "asset_collection_present": true,
+    "studio_collection_present": true,
+    "unapplied_modifier_count": 0,
+    "render_resolution": [
+      1440,
+      1080
+    ],
+    "optical_axis_ray": {
+      "hit": true,
+      "first_object": "Telescope deeply inset coated lens",
+      "hit_location_m": [
+        0.0,
+        -1.5299700498580933,
+        4.897082805633545
+      ],
+      "lens_visible_through_open_barrel": true
+    },
+    "open_slit_ray": {
+      "origin_m": [
+        0,
+        -3.5,
+        5.45
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "first_object": "Dome closed rear shutter panel",
+      "hit_location_m": [
+        0.0,
+        1.2558894157409668,
+        5.449999809265137
+      ],
+      "front_open_to_closed_rear_panel": true
+    }
+  },
+  "glb": {
+    "label": "Fresh GLB import",
+    "mesh_objects": 335,
+    "vertices": 157787,
+    "evaluated_triangles": 226944,
+    "bounds_min_m": [
+      -2.6600000858306885,
+      -3.4000000953674316,
+      0.0
+    ],
+    "bounds_max_m": [
+      4.389999866485596,
+      2.6600000858306885,
+      5.994852542877197
+    ],
+    "dimensions_m": [
+      7.049999952316284,
+      6.06000018119812,
+      5.994852542877197
+    ],
+    "finite_geometry": true,
+    "zero_area_triangles": 0,
+    "degenerate_uv_triangles": 0,
+    "missing_uv_objects": [],
+    "uv_outside_unit_square_objects": [],
+    "missing_material_objects": [],
+    "missing_external_images": [],
+    "studio_objects_in_asset_export": [],
+    "topology_exception_details": [],
+    "metric_pass": true
+  },
+  "fbx": {
+    "label": "Fresh FBX import",
+    "mesh_objects": 335,
+    "vertices": 114060,
+    "evaluated_triangles": 226944,
+    "bounds_min_m": [
+      -2.6600000858306885,
+      -3.4000000953674316,
+      -2.419371867290465e-07
+    ],
+    "bounds_max_m": [
+      4.389999866485596,
+      2.6600000858306885,
+      5.994852542877197
+    ],
+    "dimensions_m": [
+      7.049999952316284,
+      6.06000018119812,
+      5.994852784814384
+    ],
+    "finite_geometry": true,
+    "zero_area_triangles": 0,
+    "degenerate_uv_triangles": 0,
+    "missing_uv_objects": [],
+    "uv_outside_unit_square_objects": [],
+    "missing_material_objects": [],
+    "missing_external_images": [],
+    "studio_objects_in_asset_export": [],
+    "topology_exception_details": [],
+    "metric_pass": true
+  },
+  "cross_format": {
+    "glb": {
+      "exact_triangle_match": true,
+      "max_bounds_delta_m": 0.0,
+      "bounds_match_within_0_1_mm": true
+    },
+    "fbx": {
+      "exact_triangle_match": true,
+      "max_bounds_delta_m": 2.419371867290465e-07,
+      "bounds_match_within_0_1_mm": true
+    }
+  },
+  "stable_artifact_hashes": {
+    "mountain_observatory.blend": {
+      "bytes": 21452323,
+      "sha256": "410d8fb0a4e89ea1d36071bebadafc50d4edd1994f51b868b7bd1e120b5bac8d"
+    },
+    "mountain_observatory.glb": {
+      "bytes": 6393504,
+      "sha256": "8fb9f21da124c05999ebe3815be23cc9fee4ed85a199c597e0b26ef5ece600a0"
+    },
+    "mountain_observatory.fbx": {
+      "bytes": 7494588,
+      "sha256": "3522a05a86ada6cb701cef8cf877ac5a83740d85d478896d0e22e8bb130b3f09"
+    },
+    "renders/hero.png": {
+      "bytes": 1798645,
+      "sha256": "8cdb008b2636263040d3212f86ec48f488a1d43a31e67edaa70baf74c5dde44e"
+    },
+    "renders/rear.png": {
+      "bytes": 1775146,
+      "sha256": "d750bc0262d256eb594620b83cf4d9c511ecfb25671d88fcef0f110b28fa0005"
+    },
+    "build.py": {
+      "bytes": 31880,
+      "sha256": "1e5fde66e9445284f743093e5216a478b0a5e3f4a487907ddb639ab3a1ab9c6b"
+    },
+    "capture_manifest.json": {
+      "bytes": 1435,
+      "sha256": "67272b4b3a69ae68739bf37162ec432ada26e7412d302f455ae5c704614b44b7"
+    }
+  },
+  "limits": [
+    "Static production asset; no animations, collision, LODs or rig.",
+    "Independent component UV layouts and solid PBR colors; no generated or bitmap surface textures.",
+    "Intersecting assembled components are intentional; mesh topology checks are component-wise, not a boolean union of the building."
+  ]
+}

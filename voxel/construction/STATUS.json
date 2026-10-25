@@ -1,0 +1,34 @@
+{
+  "theme": "construction",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T16:32:50.3677116Z",
+  "started_at_kst": "2026-10-24T01:32:50.3677116+09:00",
+  "start_basis": "First recorded clock after reading brief and reference; preliminary reading time is unmeasured.",
+  "finished_at_utc": "2026-10-23T16:48:15.481761+00:00",
+  "elapsed_seconds": 925.11405,
+  "assets": [
+    "concrete_mixer",
+    "wheel_loader",
+    "tower_crane",
+    "site_office"
+  ],
+  "blockers": [],
+  "finished_at_kst": "2026-10-24T01:48:15.481761+09:00",
+  "validation_summary": {
+    "fresh_formats_passed": true,
+    "assets": 4,
+    "variants": 8,
+    "fresh_format_imports": 24,
+    "native_function_checks": 22,
+    "primary_previews_visually_inspected": 8,
+    "same_camera_pairs": 4
+  },
+  "limitations": [
+    "Static assets: no rig, animation, collision, LOD chain, or game-engine integration.",
+    "Flat opaque glazing; site-office interior is not modeled.",
+    "Conservative half reduction thickens some lattice and cable details and simplifies small tread, grille and trim colors.",
+    "Crane feet and mechanism checks verify modeled geometry, not real engineering load capacity.",
+    "Initial brief/reference reading occurred before the first recorded clock and is unmeasured.",
+    "Pre-existing ValveSource addon handler emitted a missing scene.vs warning during import; the fresh generic verifier finished with zero validation errors and process exit code 0. No addon changes were made."
+  ]
+}

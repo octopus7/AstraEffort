@@ -1,6 +1,18 @@
+# 현재 복셀 제작 체크포인트
+
+이 문서는 초기 일반 메시 모델 2세트·8종과 별도로 제작한 복셀 모델의 기록입니다.
+
+[작은 버전 73종 한 장으로 둘러보기](overview_half_all.png) · [모음 이미지 출처 및 원본 보존 확인](overview_half_all.json)
+
+사용자 요청으로 현재 작업을 고정해 커밋합니다. **최종 승인 13테마·61모델·122버전**, 메인 검수 대기 8모델(비행장·재활용), 출력 후 검증 전인 지열 4모델입니다. 운하·캠핑 8모델은 아직 시작하지 않았습니다. 전체 목표는 18테마·81모델·162버전입니다.
+
+[진행 및 이어서 할 작업](RESUME.md) · [체크포인트 검사 기록](CHECKPOINT.json) · [진행 상태](EXPANSION_STATE.json)
+
+이번에 승인한 테마: [산림·제재소](forestry/RESULT.md), [건설 현장](construction/RESULT.md), [소방·구조](fire_rescue/RESULT.md), [제과·제빵](bakery/RESULT.md). 검수 대기: [비행장](airfield/RESULT.md), [재활용](recycling/RESULT.md). 작업 중: [지열](geothermal/RESULT.md). 신규 9테마 레퍼런스는 모두 REF/voxel에 저장되어 있습니다.
+
 # 복셀 모델 9테마 · 45종 · 90버전
 
-**출력 검사와 렌더 검토를 마친 상태에서 사용자 요청으로 중단했습니다. 신규 9테마는 아직 시작하지 않았습니다.**
+**아래 목록과 비교 갤러리는 이전 커밋 63e475d의 45종 카탈로그입니다. 현재 제작 진행은 위 체크포인트와 RESUME.md를 기준으로 합니다.**
 
 [큰·절반 비교 갤러리](index.html) · [전체 파일 목록](delivery_manifest.json) · [다음 작업 인계](RESUME.md)
 

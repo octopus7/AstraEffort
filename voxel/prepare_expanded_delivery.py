@@ -72,10 +72,15 @@ class CheckHTML(HTMLParser):
         self.links.extend(v for k,v in attrs if k in ('src','href'))
 check=CheckHTML();check.feed(page);assert check.counts['article']==81 and check.counts['img']==162
 assert all((ROOT/p).exists() for p in check.links)
-state.update(status='ready_for_review',finished_at_utc=now.isoformat(),models=81,variants=162,original_hashes_preserved=True)
+state.update(status='ready_for_review',finished_at_utc=now.isoformat(),phase_b_completed_at_utc=now.isoformat(),models=81,variants=162,completed_models=81,completed_variants=162,original_hashes_preserved=True,checkpoint_45_models_preserved=True)
+if state.get('phase_b_started_at_utc'):
+    state['phase_b_elapsed_seconds']=(now-datetime.fromisoformat(state['phase_b_started_at_utc'].replace('Z','+00:00'))).total_seconds()
+if state.get('paused_at_utc'):
+    state.setdefault('pause_history',[]).append({'paused_at_utc':state.pop('paused_at_utc'),'reason':state.pop('pause_reason','User pause')})
 (ROOT/'EXPANSION_STATE.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'RESUME.md').write_text('# Voxel production completed\n\nAll 18 themes, 81 models and 162 large/half variants are complete and parent-accepted. No model task remains queued. The original 45-model checkpoint from commit 63e475d remains intact. The later nine themes add 36 models.\n\nUse README.md, index.html and delivery_manifest.json for the current delivery. EXPANSION_STATE.json retains actual acceptance, pause/resume and completion records. Per-theme RESULT/STATUS and validation evidence retain timings and limitations. References and prompts live in REF/voxel.\n\nThe old prepare_delivery.py and prepare_checkpoint.py target historical snapshots; do not run them over the final catalog. prepare_expanded_delivery.py verifies and reconstructs the final catalog/archive from frozen results.\n',encoding='utf-8')
 p=ROOT/'EXPANSION_PLAN.md';p.write_text(p.read_text(encoding='utf-8').replace('- [ ]','- [x]'),encoding='utf-8')
-allowed={'.vox','.blend','.glb','.fbx','.png','.json','.md','.py','.txt','.log','.html'}
+allowed={'.vox','.blend','.glb','.fbx','.png','.json','.md','.py','.ps1','.txt','.log','.html'}
 files=[p for p in ROOT.iterdir() if p.is_file() and p.suffix in allowed]
 for t in theme_order:files.extend(p for p in (ROOT/t).rglob('*') if p.is_file() and p.suffix in allowed and '__pycache__' not in p.parts)
 files.extend(p for p in (ROOT/'_tools').iterdir() if p.is_file() and p.suffix in {'.py','.md'})

@@ -1,0 +1,25 @@
+{
+  "reviewed_at_utc": "2026-10-23T12:42:49.658161+00:00",
+  "method": "Assistant inspected both actual final PNGs with view_image after final geometry correction.",
+  "views": [
+    {
+      "path": "renders/hero.png",
+      "sha256": "f5218b014af11e3d1fcaa8cdaac15a47466a7442163a42fb56fd7912ca052e16"
+    },
+    {
+      "path": "renders/rear.png",
+      "sha256": "61434af183c055fd9bfd8b256976a13ef80cebed9d1dbb1d48c3f7ec9006bcb7"
+    }
+  ],
+  "findings": [
+    "Entire canopy and ground-contact feet are in frame at 80 percent of image height.",
+    "Open portal and separate safety cage/gate remain visible in hero.",
+    "Four posts, spoked sheave, taut rope paths, roof winch and annex are readable.",
+    "Rear image shows complete ground-to-deck stair, landings, guardrails and structural bracing."
+  ],
+  "corrections": [
+    "Corrected initial landscape orthographic cropping.",
+    "Lowered sheave and axle carrier 0.12 m for nominal 0.097 m canopy liner clearance; rebuilt analytical tangent ropes."
+  ],
+  "no_further_changes_after_validation": true
+}

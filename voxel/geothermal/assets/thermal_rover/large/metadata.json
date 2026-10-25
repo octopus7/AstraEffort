@@ -1,0 +1,173 @@
+{
+  "asset": "thermal_rover",
+  "label": "Protected thermal sampling rover",
+  "variant": "large",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      217,
+      206,
+      171,
+      255
+    ],
+    [
+      167,
+      158,
+      135,
+      255
+    ],
+    [
+      153,
+      62,
+      35,
+      255
+    ],
+    [
+      187,
+      86,
+      42,
+      255
+    ],
+    [
+      39,
+      43,
+      42,
+      255
+    ],
+    [
+      76,
+      84,
+      82,
+      255
+    ],
+    [
+      139,
+      149,
+      143,
+      255
+    ],
+    [
+      48,
+      76,
+      88,
+      255
+    ],
+    [
+      83,
+      123,
+      137,
+      255
+    ],
+    [
+      218,
+      146,
+      36,
+      255
+    ],
+    [
+      239,
+      213,
+      135,
+      255
+    ],
+    [
+      24,
+      30,
+      29,
+      255
+    ],
+    [
+      190,
+      163,
+      67,
+      255
+    ],
+    [
+      107,
+      117,
+      109,
+      255
+    ]
+  ],
+  "notes": [
+    "Original tracked enclosed rover with ceramic armor, radiator and articulated sampling arm.",
+    "Sampler crown has a genuinely empty core bore. Window protection is structural.",
+    "No manual half correction; purposeful details use broad native cell features."
+  ],
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    98,
+    128,
+    104
+  ],
+  "occupied_voxels": 321961,
+  "voxel_size_m": 0.035,
+  "grid_extents_m": [
+    3.43,
+    4.48,
+    3.6400000000000006
+  ],
+  "occupied_bounds_voxels": [
+    [
+      4,
+      8,
+      3
+    ],
+    [
+      96,
+      122,
+      103
+    ]
+  ],
+  "bounds_m": [
+    [
+      -1.5750000000000002,
+      -1.9600000000000002,
+      0.10500000000000001
+    ],
+    [
+      1.6450000000000002,
+      2.0300000000000002,
+      3.6050000000000004
+    ]
+  ],
+  "palette_indices": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "occupancy_sha256": "65f788e8142605645841566dffa9a524beaa42d11ee7e3d67b587bc2bb10cf12",
+  "surface": {
+    "quads": 9712,
+    "triangles": 19424,
+    "exposed_unit_faces": 63750,
+    "surface_area_m2": 78.09375000000001,
+    "materials": 10
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "thermal_rover.vox": "16c64977d314f0acdd1300e56d6d437ac84b9d5ec4737d56e5608b0c148de9ed",
+    "thermal_rover.blend": "664de59f8d6998d6890bf9a36664edfcdc7f88fd40af443a4d98013b05f6b3e3",
+    "thermal_rover.glb": "96c013b35e3df80dfac90140fa1c104a4128ffd65c69f3cd2c81ed3c61f627b2",
+    "thermal_rover.fbx": "4e9300312dfd2981c1df353c5519737f317b9cc71a32beabe1bc3f98e9fe4007",
+    "preview.png": "34aaba6b9b6b80cbd72bcf8b20a6fbab08e3a77265d1d1e788c567f3b445cb33"
+  }
+}

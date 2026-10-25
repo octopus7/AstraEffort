@@ -1,0 +1,316 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T17:05:01.275608+00:00",
+  "finished_at_utc": "2026-10-23T17:05:01.783608+00:00",
+  "elapsed_seconds": 0.5076888999901712,
+  "source": "Reopened saved VOX occupancy; source make_assets() was not called",
+  "check_count": 20,
+  "records": [
+    {
+      "asset": "collection_truck",
+      "variant": "large",
+      "description": "Rear hopper has an empty cavity, sloped floor, back and loading lip",
+      "passed": true,
+      "evidence": {
+        "empty_cells": 9360,
+        "cavity_cells": 9360,
+        "floor_back_lip_colors": [
+          7,
+          3,
+          8
+        ]
+      }
+    },
+    {
+      "asset": "collection_truck",
+      "variant": "large",
+      "description": "Hopper cavity connects to the rear exterior through a real opening",
+      "passed": true,
+      "evidence": {
+        "empty_access_cells": 5400,
+        "access_cells": 5400
+      }
+    },
+    {
+      "asset": "collection_truck",
+      "variant": "half",
+      "description": "Rear hopper has an empty cavity, sloped floor, back and loading lip",
+      "passed": true,
+      "evidence": {
+        "empty_cells": 1170,
+        "cavity_cells": 1170,
+        "floor_back_lip_colors": [
+          7,
+          3,
+          8
+        ]
+      }
+    },
+    {
+      "asset": "collection_truck",
+      "variant": "half",
+      "description": "Hopper cavity connects to the rear exterior through a real opening",
+      "passed": true,
+      "evidence": {
+        "empty_access_cells": 675,
+        "access_cells": 675
+      }
+    },
+    {
+      "asset": "sorting_machine",
+      "variant": "large",
+      "description": "Both receiving funnels have open bowls and lateral throats over solid floors",
+      "passed": true,
+      "evidence": [
+        {
+          "empty": true,
+          "empty_cells": 800,
+          "total_cells": 800,
+          "throat_color": 0,
+          "throat_floor_color": 7
+        },
+        {
+          "empty": true,
+          "empty_cells": 800,
+          "total_cells": 800,
+          "throat_color": 0,
+          "throat_floor_color": 7
+        }
+      ]
+    },
+    {
+      "asset": "sorting_machine",
+      "variant": "large",
+      "description": "Sorting belt surface is continuous along its working run",
+      "passed": true,
+      "evidence": {
+        "occupied_belt_cells": 11968,
+        "tested_cells": 11968
+      }
+    },
+    {
+      "asset": "sorting_machine",
+      "variant": "large",
+      "description": "Two overhead sensor heads retain a clear sensing gap above the belt",
+      "passed": true,
+      "evidence": {
+        "empty_gap_cells": 8096,
+        "gap_cells": 8096,
+        "emitter_colors": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "asset": "sorting_machine",
+      "variant": "half",
+      "description": "Both receiving funnels have open bowls and lateral throats over solid floors",
+      "passed": true,
+      "evidence": [
+        {
+          "empty": true,
+          "empty_cells": 100,
+          "total_cells": 100,
+          "throat_color": 0,
+          "throat_floor_color": 7
+        },
+        {
+          "empty": true,
+          "empty_cells": 100,
+          "total_cells": 100,
+          "throat_color": 0,
+          "throat_floor_color": 7
+        }
+      ]
+    },
+    {
+      "asset": "sorting_machine",
+      "variant": "half",
+      "description": "Sorting belt surface is continuous along its working run",
+      "passed": true,
+      "evidence": {
+        "occupied_belt_cells": 1496,
+        "tested_cells": 1496
+      }
+    },
+    {
+      "asset": "sorting_machine",
+      "variant": "half",
+      "description": "Two overhead sensor heads retain a clear sensing gap above the belt",
+      "passed": true,
+      "evidence": {
+        "empty_gap_cells": 1012,
+        "gap_cells": 1012,
+        "emitter_colors": [
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "asset": "compactor",
+      "variant": "large",
+      "description": "Press chamber is open from the front and above the bale",
+      "passed": true,
+      "evidence": {
+        "empty_chamber_cells": 19584,
+        "chamber_cells": 19584,
+        "empty_entry_cells": 14400,
+        "entry_cells": 14400
+      }
+    },
+    {
+      "asset": "compactor",
+      "variant": "large",
+      "description": "Exposed ram, guide column and raised platen remain distinct materials",
+      "passed": true,
+      "evidence": {
+        "ram_guide_platen_colors": [
+          9,
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "asset": "compactor",
+      "variant": "large",
+      "description": "Strapped bale remains seated on the chamber floor",
+      "passed": true,
+      "evidence": {
+        "bale_strap_floor_colors": [
+          15,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "asset": "compactor",
+      "variant": "half",
+      "description": "Press chamber is open from the front and above the bale",
+      "passed": true,
+      "evidence": {
+        "empty_chamber_cells": 2448,
+        "chamber_cells": 2448,
+        "empty_entry_cells": 1800,
+        "entry_cells": 1800
+      }
+    },
+    {
+      "asset": "compactor",
+      "variant": "half",
+      "description": "Exposed ram, guide column and raised platen remain distinct materials",
+      "passed": true,
+      "evidence": {
+        "ram_guide_platen_colors": [
+          9,
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "asset": "compactor",
+      "variant": "half",
+      "description": "Strapped bale remains seated on the chamber floor",
+      "passed": true,
+      "evidence": {
+        "bale_strap_floor_colors": [
+          15,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "asset": "recycling_center",
+      "variant": "large",
+      "description": "Receiving portal opens into a hollow hall with retained floor and rear wall",
+      "passed": true,
+      "evidence": {
+        "empty_hall_cells": 95200,
+        "hall_cells": 95200,
+        "floor_rear_access_colors": [
+          8,
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "asset": "recycling_center",
+      "variant": "large",
+      "description": "All three bin bays contain separate open-topped bins with retained floors and rims",
+      "passed": true,
+      "evidence": [
+        {
+          "empty_cells": 1792,
+          "interior_cells": 1792,
+          "floor_color": 7,
+          "front_rim_color": 8,
+          "sidewall_color": 1
+        },
+        {
+          "empty_cells": 1792,
+          "interior_cells": 1792,
+          "floor_color": 7,
+          "front_rim_color": 8,
+          "sidewall_color": 9
+        },
+        {
+          "empty_cells": 1792,
+          "interior_cells": 1792,
+          "floor_color": 7,
+          "front_rim_color": 8,
+          "sidewall_color": 7
+        }
+      ]
+    },
+    {
+      "asset": "recycling_center",
+      "variant": "half",
+      "description": "Receiving portal opens into a hollow hall with retained floor and rear wall",
+      "passed": true,
+      "evidence": {
+        "empty_hall_cells": 11900,
+        "hall_cells": 11900,
+        "floor_rear_access_colors": [
+          8,
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "asset": "recycling_center",
+      "variant": "half",
+      "description": "All three bin bays contain separate open-topped bins with retained floors and rims",
+      "passed": true,
+      "evidence": [
+        {
+          "empty_cells": 224,
+          "interior_cells": 224,
+          "floor_color": 7,
+          "front_rim_color": 8,
+          "sidewall_color": 1
+        },
+        {
+          "empty_cells": 224,
+          "interior_cells": 224,
+          "floor_color": 7,
+          "front_rim_color": 8,
+          "sidewall_color": 9
+        },
+        {
+          "empty_cells": 224,
+          "interior_cells": 224,
+          "floor_color": 7,
+          "front_rim_color": 8,
+          "sidewall_color": 7
+        }
+      ]
+    }
+  ]
+}

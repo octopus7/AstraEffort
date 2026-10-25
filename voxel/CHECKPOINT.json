@@ -1,0 +1,149 @@
+{
+  "recorded_at_utc": "2026-10-25T04:50:21.846945+00:00",
+  "status": "frozen_progress_checkpoint",
+  "authorization": "User requested: 일단 지금까지 내용 커밋",
+  "previous_checkpoint_commit": "63e475d",
+  "accepted_themes": 13,
+  "accepted_models": 61,
+  "accepted_variants": 122,
+  "worker_ready_pending_primary_review": [
+    "airfield",
+    "recycling"
+  ],
+  "worker_ready_pending_primary_review_models": 8,
+  "work_in_progress": [
+    "geothermal"
+  ],
+  "work_in_progress_models": 4,
+  "not_started": [
+    "canal",
+    "camping"
+  ],
+  "not_started_models": 8,
+  "exported_models": 73,
+  "exported_variants": 146,
+  "planned_models": 81,
+  "planned_variants": 162,
+  "checks_at_checkpoint": {
+    "model_and_preview_hashes_matching_metadata": 730,
+    "worker_frozen_file_hashes_matching": 328,
+    "accepted_evidence_hash_continuity": true,
+    "resolution_and_physical_grid_extent_pairs": 73,
+    "python_sources_syntax_checked": 25,
+    "new_reference_sheets": 9,
+    "no_new_visual_or_format_acceptance_claimed": true
+  },
+  "reference_files": [
+    {
+      "path": "REF/voxel/forestry/reference.png",
+      "sha256": "932c4e16f5b1e5f0c049394512b17bb3fdf3c3fd7d84f66c80e208d90061cf82"
+    },
+    {
+      "path": "REF/voxel/forestry/prompt.txt",
+      "sha256": "8abe0a4b3526964f98aa60e10f6863ceeae2047ca9e66b27b5b3ca39150428aa"
+    },
+    {
+      "path": "REF/voxel/forestry/generation.json",
+      "sha256": "4bbbd323f057f28725345c8a45288e22932e2ecfd6739e5e49aac8ad15f16868"
+    },
+    {
+      "path": "REF/voxel/construction/reference.png",
+      "sha256": "45b68f1b49974d276491d15c4a95590828d030b6dafa13a554b612417e5f2976"
+    },
+    {
+      "path": "REF/voxel/construction/prompt.txt",
+      "sha256": "4e05184916d55b78fcd2741e8f99eb27dd9c27cd0ed939d98a1a545f868922aa"
+    },
+    {
+      "path": "REF/voxel/construction/generation.json",
+      "sha256": "952361f51392f4d344217b307984601532979f991522e806e8cd6e5aa1325edc"
+    },
+    {
+      "path": "REF/voxel/fire_rescue/reference.png",
+      "sha256": "1510872641cc416b92d5b31e240eb254398836a8e8cd07fe1bda77999dab969b"
+    },
+    {
+      "path": "REF/voxel/fire_rescue/prompt.txt",
+      "sha256": "28614c9e6c719793a95a78a25d81bfa3aa871828b3e0b32e49a6c79fb955b81b"
+    },
+    {
+      "path": "REF/voxel/fire_rescue/generation.json",
+      "sha256": "d8adf56c0c32da96b65bd39f39019cab1bf256de1c241199390caf41e97a4e53"
+    },
+    {
+      "path": "REF/voxel/airfield/reference.png",
+      "sha256": "817a71ef88b923d416d8aa109758350bf5fc9bc7794104101b3e5aa0f30efa1c"
+    },
+    {
+      "path": "REF/voxel/airfield/prompt.txt",
+      "sha256": "a58b5a339c09975e0211af1d6941a5dd7aaab88df3ee7974aaeb270aace86a6e"
+    },
+    {
+      "path": "REF/voxel/airfield/generation.json",
+      "sha256": "b82eb322b50b2adbd5b5a3836b6460070441497f0884c9bd0a3b063a6499725e"
+    },
+    {
+      "path": "REF/voxel/recycling/reference.png",
+      "sha256": "109e2a11e8aa620a9ff6c987ce0bd4fda3e2b901d79e85bcd53c8897ec465a42"
+    },
+    {
+      "path": "REF/voxel/recycling/prompt.txt",
+      "sha256": "9e6534ce79d56277da53b57eaeef7c51c5a944d460dfc22e508d538bde55a604"
+    },
+    {
+      "path": "REF/voxel/recycling/generation.json",
+      "sha256": "60057d39cb0513091b22f4fef9c78b964a0a671ce46827e27abec11f6d0490c1"
+    },
+    {
+      "path": "REF/voxel/geothermal/reference.png",
+      "sha256": "0c04501a977603d78c84abf97f99ec2365defb1179f14e5978a815e381c230a2"
+    },
+    {
+      "path": "REF/voxel/geothermal/prompt.txt",
+      "sha256": "533eda5d38e1ccf59ae57172029333c4c97457c255fcb152d09399dd3534ca31"
+    },
+    {
+      "path": "REF/voxel/geothermal/generation.json",
+      "sha256": "466434863f60b7327ef30ed1e52707f2a06da4dc023f2bf8e1d0fcff87b702eb"
+    },
+    {
+      "path": "REF/voxel/canal/reference.png",
+      "sha256": "77b6a9cc0c39c33daedcbda9dc694ffffb1a7d9d584d830f9f241cd335655cd3"
+    },
+    {
+      "path": "REF/voxel/canal/prompt.txt",
+      "sha256": "ea88ae2303989fb469d348d12dfab984d765b5f3decb1e10df1f01cbfddea2cd"
+    },
+    {
+      "path": "REF/voxel/canal/generation.json",
+      "sha256": "da98ef973df7c1fda33e787059428a17c28fbf46ac242be0589265252ac45e01"
+    },
+    {
+      "path": "REF/voxel/camping/reference.png",
+      "sha256": "6f70a47c6ee9070ee2ab40603a6f2bb72a50dab013f19c2ecbb0eb153aa4ea93"
+    },
+    {
+      "path": "REF/voxel/camping/prompt.txt",
+      "sha256": "97c08e526fce300324de57d57fec45d04d28b061249286d65cc1a2fe9b1c9fdd"
+    },
+    {
+      "path": "REF/voxel/camping/generation.json",
+      "sha256": "fcbb9596e55397c5152d26436286d11317e7bbbb1afa670d0e1d3d53a74d8d65"
+    },
+    {
+      "path": "REF/voxel/bakery/reference.png",
+      "sha256": "aad06e5ce16c45adb6a32e0183f9980f8683a58079cf949d4f28559c26959afd"
+    },
+    {
+      "path": "REF/voxel/bakery/prompt.txt",
+      "sha256": "9b907fba53457bed83dc76c677552960eec53b790c167cc5c301e3df8e4360e8"
+    },
+    {
+      "path": "REF/voxel/bakery/generation.json",
+      "sha256": "98cf706455263d5d23a4387b84b7fdf06a19bb5f809a63ee56bf81b9edc915ac"
+    }
+  ],
+  "catalog_note": "README/index/delivery_manifest 45-model catalog is preserved as the earlier checkpoint; see this record and RESUME.md for current production.",
+  "remaining_review": "Airfield has parent format verification but awaits primary image inspection. Recycling has worker verification only. Geothermal exports are WIP and need native/import/visual checks.",
+  "final_packaging": "Do not run prepare_expanded_delivery.py until all 15 expansion units are parent-accepted."
+}

@@ -1,0 +1,320 @@
+{
+  "passed": false,
+  "source": "Reopened final native VOX files; no in-memory source grids used",
+  "started_at_utc": "2026-10-23T16:44:19.430990+00:00",
+  "finished_at_utc": "2026-10-23T16:44:19.843366+00:00",
+  "elapsed_seconds": 0.4130310999462381,
+  "check_count": 22,
+  "records": [
+    {
+      "asset": "concrete_mixer",
+      "variant": "large",
+      "check": "Discharge chute has a floor, a sidewall and empty space above its floor",
+      "passed": true,
+      "evidence": {
+        "floor_color": 6,
+        "wall_color": 5,
+        "channel_empty_cells": 144,
+        "channel_total_cells": 144
+      }
+    },
+    {
+      "asset": "concrete_mixer",
+      "variant": "large",
+      "check": "Feed hopper remains open from above",
+      "passed": true,
+      "evidence": {
+        "empty_cells": 256,
+        "total_cells": 256
+      }
+    },
+    {
+      "asset": "concrete_mixer",
+      "variant": "large",
+      "check": "Drum swells toward its center rather than a rectangular cargo box",
+      "passed": true,
+      "evidence": {
+        "middle_width_cells": 44,
+        "end_width_cells": 22
+      }
+    },
+    {
+      "asset": "concrete_mixer",
+      "variant": "half",
+      "check": "Discharge chute has a floor, a sidewall and empty space above its floor",
+      "passed": true,
+      "evidence": {
+        "floor_color": 6,
+        "wall_color": 5,
+        "channel_empty_cells": 18,
+        "channel_total_cells": 18
+      }
+    },
+    {
+      "asset": "concrete_mixer",
+      "variant": "half",
+      "check": "Feed hopper remains open from above",
+      "passed": true,
+      "evidence": {
+        "empty_cells": 32,
+        "total_cells": 32
+      }
+    },
+    {
+      "asset": "concrete_mixer",
+      "variant": "half",
+      "check": "Drum swells toward its center rather than a rectangular cargo box",
+      "passed": true,
+      "evidence": {
+        "middle_width_cells": 23,
+        "end_width_cells": 13
+      }
+    },
+    {
+      "asset": "wheel_loader",
+      "variant": "large",
+      "check": "Scoop interior is empty with retained floor and back wall",
+      "passed": false,
+      "evidence": {
+        "empty_cells": 12960,
+        "interior_cells": 13104,
+        "floor_color": 5,
+        "back_color": 5
+      }
+    },
+    {
+      "asset": "wheel_loader",
+      "variant": "large",
+      "check": "Two lift arms remain separate across the open center",
+      "passed": true,
+      "evidence": {
+        "arm_colors": [
+          1,
+          1
+        ],
+        "center_color": 0
+      }
+    },
+    {
+      "asset": "wheel_loader",
+      "variant": "half",
+      "check": "Scoop interior is empty with retained floor and back wall",
+      "passed": false,
+      "evidence": {
+        "empty_cells": 1602,
+        "interior_cells": 1638,
+        "floor_color": 5,
+        "back_color": 5
+      }
+    },
+    {
+      "asset": "wheel_loader",
+      "variant": "half",
+      "check": "Two lift arms remain separate across the open center",
+      "passed": true,
+      "evidence": {
+        "arm_colors": [
+          1,
+          1
+        ],
+        "center_color": 0
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "large",
+      "check": "Tower has a continuous empty central shaft",
+      "passed": true,
+      "evidence": {
+        "empty_cells": 992,
+        "shaft_cells": 992
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "large",
+      "check": "Jib truss bay contains an opening beside its upper rail",
+      "passed": true,
+      "evidence": {
+        "opening_color": 0,
+        "rail_color": 1
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "large",
+      "check": "Suspended block has two ropes and a blunt hook with an open throat",
+      "passed": true,
+      "evidence": {
+        "throat_empty_cells": 64,
+        "throat_cells": 64,
+        "hook_color": 4,
+        "block_color": 5,
+        "rope_colors": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "large",
+      "check": "All four separated support shoes contact Z=0 around the tower",
+      "passed": true,
+      "evidence": {
+        "contact_centers_large_grid": [
+          [
+            19,
+            10
+          ],
+          [
+            19,
+            50
+          ],
+          [
+            61,
+            10
+          ],
+          [
+            61,
+            50
+          ]
+        ],
+        "tower_center_large_grid": [
+          40,
+          30
+        ]
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "half",
+      "check": "Tower has a continuous empty central shaft",
+      "passed": true,
+      "evidence": {
+        "empty_cells": 124,
+        "shaft_cells": 124
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "half",
+      "check": "Jib truss bay contains an opening beside its upper rail",
+      "passed": true,
+      "evidence": {
+        "opening_color": 0,
+        "rail_color": 1
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "half",
+      "check": "Suspended block has two ropes and a blunt hook with an open throat",
+      "passed": true,
+      "evidence": {
+        "throat_empty_cells": 8,
+        "throat_cells": 8,
+        "hook_color": 4,
+        "block_color": 5,
+        "rope_colors": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "half",
+      "check": "All four separated support shoes contact Z=0 around the tower",
+      "passed": true,
+      "evidence": {
+        "contact_centers_large_grid": [
+          [
+            19,
+            10
+          ],
+          [
+            19,
+            50
+          ],
+          [
+            61,
+            10
+          ],
+          [
+            61,
+            50
+          ]
+        ],
+        "tower_center_large_grid": [
+          40,
+          30
+        ]
+      }
+    },
+    {
+      "asset": "site_office",
+      "variant": "large",
+      "check": "Three framed blue windows and closed glazed door retain their readable palette regions",
+      "passed": true,
+      "evidence": {
+        "window_colors": [
+          9,
+          9,
+          9
+        ],
+        "door_color": 5,
+        "door_glass_color": 9
+      }
+    },
+    {
+      "asset": "site_office",
+      "variant": "large",
+      "check": "Three rising access treads have clear space above the lower steps",
+      "passed": true,
+      "evidence": {
+        "tread_colors": [
+          5,
+          6,
+          5
+        ],
+        "above_lower_steps": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset": "site_office",
+      "variant": "half",
+      "check": "Three framed blue windows and closed glazed door retain their readable palette regions",
+      "passed": true,
+      "evidence": {
+        "window_colors": [
+          9,
+          9,
+          9
+        ],
+        "door_color": 5,
+        "door_glass_color": 9
+      }
+    },
+    {
+      "asset": "site_office",
+      "variant": "half",
+      "check": "Three rising access treads have clear space above the lower steps",
+      "passed": true,
+      "evidence": {
+        "tread_colors": [
+          5,
+          6,
+          5
+        ],
+        "above_lower_steps": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

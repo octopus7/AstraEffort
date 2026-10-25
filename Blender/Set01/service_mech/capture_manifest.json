@@ -1,0 +1,51 @@
+{
+  "engine": "Cycles",
+  "device": "CPU",
+  "threads": 4,
+  "samples": 32,
+  "denoise": true,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "cameras": [
+    {
+      "name": "Camera | hero front right",
+      "file": "renders/hero.png",
+      "location": [
+        4.199999809265137,
+        -7.400000095367432,
+        4.0
+      ],
+      "rotation_euler": [
+        1.2704424858093262,
+        -3.0782182136590563e-08,
+        0.5173932909965515
+      ],
+      "orthographic_scale": 4.449999809265137,
+      "started_at_utc": "2026-10-23T09:57:19.109175+00:00",
+      "finished_at_utc": "2026-10-23T09:58:03.450716+00:00",
+      "render_seconds": 44.34154200553894
+    },
+    {
+      "name": "Camera | rear left",
+      "file": "renders/rear.png",
+      "location": [
+        -4.099999904632568,
+        7.0,
+        3.75
+      ],
+      "rotation_euler": [
+        1.2848329544067383,
+        5.106969069856859e-08,
+        -2.6079816818237305
+      ],
+      "orthographic_scale": 4.449999809265137,
+      "started_at_utc": "2026-10-23T09:58:03.450716+00:00",
+      "finished_at_utc": "2026-10-23T09:58:40.097804+00:00",
+      "render_seconds": 36.64708733558655
+    }
+  ]
+}

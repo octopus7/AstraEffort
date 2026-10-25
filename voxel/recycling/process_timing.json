@@ -1,0 +1,54 @@
+{
+  "started_at_utc": "2026-10-23T16:52:06.820630+00:00",
+  "finished_at_utc": "2026-10-23T17:06:53.126617+00:00",
+  "elapsed_wall_seconds": 886.305987,
+  "build_process": {
+    "phase": "build",
+    "started_at_utc": "2026-10-23T17:03:31.170911+00:00",
+    "finished_at_utc": "2026-10-23T17:05:00.197510+00:00",
+    "elapsed_seconds": 89.02665339992382,
+    "exit_code": 0,
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 4.5/blender.exe",
+      "--background",
+      "--threads",
+      "4",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "D:\\github\\AstraEffort\\voxel\\recycling\\build.py"
+    ],
+    "threads": 4
+  },
+  "format_verification_process": {
+    "phase": "verify",
+    "started_at_utc": "2026-10-23T17:05:01.003786+00:00",
+    "finished_at_utc": "2026-10-23T17:05:07.286008+00:00",
+    "elapsed_seconds": 6.282311699935235,
+    "exit_code": 0,
+    "command": [
+      "C:/Program Files/Blender Foundation/Blender 4.5/blender.exe",
+      "--background",
+      "--threads",
+      "4",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "D:\\github\\AstraEffort\\voxel\\_tools\\verify_theme.py",
+      "--",
+      "D:\\github\\AstraEffort\\voxel\\recycling",
+      "D:\\github\\AstraEffort\\voxel\\recycling\\validation_export.json"
+    ],
+    "threads": 4
+  },
+  "native_function_check_seconds": 0.5076888999901712,
+  "blender_process_seconds_total": 95.30896509985905,
+  "build_pass_count": 1,
+  "geometry_fix_passes": 0,
+  "queue_wait_seconds": 0,
+  "worker_image_generation_seconds": 0,
+  "notes": [
+    "Processes launched directly with four threads; no application queue was used.",
+    "Main supplied the design reference; worker made no image-generation call."
+  ]
+}

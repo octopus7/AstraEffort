@@ -1,0 +1,1624 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T16:58:37.229371+00:00",
+  "finished_at_utc": "2026-10-23T17:00:04.525047+00:00",
+  "elapsed_seconds": 87.29514509998262,
+  "assets": [
+    {
+      "asset": "propeller_plane",
+      "large": {
+        "asset": "propeller_plane",
+        "label": "Propeller plane",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Original low-wing utility plane: broad blunt wing tips, opaque rounded cockpit, diagonal two-blade propeller and three-point gear.",
+          "Native 2x reduction, no manual half-resolution edits; static propeller and landing gear."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          104,
+          64
+        ],
+        "occupied_voxels": 45290,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          6.4,
+          5.2,
+          3.2
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            124,
+            101,
+            62
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.0,
+            -2.5,
+            0.05
+          ],
+          [
+            3.0,
+            2.45,
+            3.1
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "occupancy_sha256": "c003a406f169e89cde604b48773142bcac2dbd6530d2de509e24d03fcfabca29",
+        "surface": {
+          "quads": 3393,
+          "triangles": 6786,
+          "exposed_unit_faces": 18646,
+          "surface_area_m2": 46.61500000000001,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "propeller_plane.vox": "0fbb36e86a3ad2c4a59b256cf51c3d0907c092d91435e1860996e7d573069db4",
+          "propeller_plane.blend": "cc79d42e69e52b5b828d7cf7855c24359cf36b27ecd76b822f42438b6f564182",
+          "propeller_plane.glb": "9b1be629193e935e0cec32d5bf9d6b3401d646c660ac9475b497517309461a36",
+          "propeller_plane.fbx": "aa1f4937adc486335fb5d64599923a9db0d6b761ed30562ec1633253ccdc8f3b",
+          "preview.png": "85cfd1ce599afc936f2e6c993ceafd641a61b9fddcf7c04abd99b8ed16ae0a39"
+        }
+      },
+      "half": {
+        "asset": "propeller_plane",
+        "label": "Propeller plane",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Original low-wing utility plane: broad blunt wing tips, opaque rounded cockpit, diagonal two-blade propeller and three-point gear.",
+          "Native 2x reduction, no manual half-resolution edits; static propeller and landing gear."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          52,
+          32
+        ],
+        "occupied_voxels": 6850,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          6.4,
+          5.2,
+          3.2
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            62,
+            51,
+            31
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.0,
+            -2.5,
+            0.0
+          ],
+          [
+            3.0,
+            2.5,
+            3.1
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "occupancy_sha256": "a4772cf3de84d227c188bbf680cdaca85abbf3446e7a21a90f6416080900b000",
+        "surface": {
+          "quads": 1122,
+          "triangles": 2244,
+          "exposed_unit_faces": 5096,
+          "surface_area_m2": 50.96000000000001,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "propeller_plane.vox": "2862cdf25a16f7d21f7e8a3c2d5398c20eae754fd6f57a6666cfb7f1f67b2496",
+          "propeller_plane.blend": "3ae2467504c73e28931ac0892d09f762bb2a1c5c0ac152e9a249cec170911caf",
+          "propeller_plane.glb": "bf04aa03fa31a1e80efbc115c0eea632d46722b75bb9685fe05e51f551740452",
+          "propeller_plane.fbx": "05502b7679fd866773560a15d0cba24f3559c1ff722c51d1e935457a9c13cace",
+          "preview.png": "0503f170e36a44e2c00887667db805f16a0f0ea4bd5d370b2472d2d42d16d3e1"
+        }
+      }
+    },
+    {
+      "asset": "airport_tug",
+      "large": {
+        "asset": "airport_tug",
+        "label": "Airport tug",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Low aviation tug with tall opaque cab glass, beacon, compact rear power cover and four main tires.",
+          "Connected front towbar has a genuinely open coupling eye and a separate support wheel; static geometry.",
+          "Native 2x reduction, no manual half-resolution edits."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          80,
+          128,
+          72
+        ],
+        "occupied_voxels": 156576,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          4.0,
+          6.4,
+          3.6
+        ],
+        "occupied_bounds_voxels": [
+          [
+            7,
+            1,
+            1
+          ],
+          [
+            73,
+            121,
+            72
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.6500000000000001,
+            -3.1500000000000004,
+            0.05
+          ],
+          [
+            1.6500000000000001,
+            2.85,
+            3.6
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          17
+        ],
+        "occupancy_sha256": "b790874cb0a7be6deb7668bdaba38dab44bb0c697762f94343654a4d2072b445",
+        "surface": {
+          "quads": 2705,
+          "triangles": 5410,
+          "exposed_unit_faces": 30878,
+          "surface_area_m2": 77.19500000000001,
+          "materials": 12
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "airport_tug.vox": "33c570606d4a9f87a81d8632c107c90c58130cdc057ed24ec4bb9e1c8aef4c46",
+          "airport_tug.blend": "14b5ffbdaa2ee50b696e519a856f71a2675031f5c8f59f52cbc5f330e6cd930c",
+          "airport_tug.glb": "7a857bbe3cd0178dcbd6b0c4deb29d7949764ffce9c3f09acdbde7642f837aa9",
+          "airport_tug.fbx": "c4d4168da71feb062da03bd53aa89e715a6d1117943e2e5a9b0e369030d7c5db",
+          "preview.png": "5499215192b4cbf5d037614489ceddff830610c7282ae3f81c4e59927ec4e113"
+        }
+      },
+      "half": {
+        "asset": "airport_tug",
+        "label": "Airport tug",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Low aviation tug with tall opaque cab glass, beacon, compact rear power cover and four main tires.",
+          "Connected front towbar has a genuinely open coupling eye and a separate support wheel; static geometry.",
+          "Native 2x reduction, no manual half-resolution edits."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          40,
+          64,
+          36
+        ],
+        "occupied_voxels": 21780,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          4.0,
+          6.4,
+          3.6
+        ],
+        "occupied_bounds_voxels": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            37,
+            61,
+            36
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.7000000000000002,
+            -3.2,
+            0.0
+          ],
+          [
+            1.7000000000000002,
+            2.9000000000000004,
+            3.6
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          17
+        ],
+        "occupancy_sha256": "32bffe2dcc30841fdeffd2044ea194859bb009ed877dd2e05d18b80c29880cea",
+        "surface": {
+          "quads": 1136,
+          "triangles": 2272,
+          "exposed_unit_faces": 7766,
+          "surface_area_m2": 77.66000000000001,
+          "materials": 12
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "airport_tug.vox": "a904fcfcb4248191c0396711afbb2d7b59f98c036aa5a4aca51e73d27b0437b4",
+          "airport_tug.blend": "b972114e30739c237fa1083ef5012dd605ba8a1fdaeb204d8f23ce84113fdc38",
+          "airport_tug.glb": "98641be30ff9078045fe8769a17accb2872c073ccbee7a8c3852fe908a020603",
+          "airport_tug.fbx": "44e3e1b32949fe1d545cbda0984ef63211f9bf575a1b6acdbf0c163486f82368",
+          "preview.png": "47e4848a5407ac1858089be86a0955d5b235d6d78d49535c624f9a83af0b070a"
+        }
+      }
+    },
+    {
+      "asset": "maintenance_hangar",
+      "large": {
+        "asset": "maintenance_hangar",
+        "label": "Open maintenance hangar",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Broad arched native roof above a genuinely empty front maintenance bay. Structural floor, portal posts, rear workbench and service door are part of the building.",
+          "Upper and side windows use opaque glazing palette colors. Palette luminaires do not emit light.",
+          "No hidden door panel; native 2x reduction with no manual half-resolution edits."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          112,
+          104
+        ],
+        "occupied_voxels": 296860,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          6.4,
+          5.6000000000000005,
+          5.2
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            10,
+            0
+          ],
+          [
+            125,
+            110,
+            101
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.0,
+            -2.3000000000000003,
+            0.0
+          ],
+          [
+            3.0500000000000003,
+            2.7,
+            5.050000000000001
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18
+        ],
+        "occupancy_sha256": "99b556f04c69ef3a3414853754f21487ba10686d5aedcfe9236856cb6a06772b",
+        "surface": {
+          "quads": 1820,
+          "triangles": 3640,
+          "exposed_unit_faces": 117300,
+          "surface_area_m2": 293.25,
+          "materials": 13
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "maintenance_hangar.vox": "70f780a361d50d2369e8dfaa20020c291953a918fad38180f85f14f24368ff37",
+          "maintenance_hangar.blend": "f0ca041f31c2e55d89cb17d0f064396677db1b7512e19e8469d1b47c9d657fcb",
+          "maintenance_hangar.glb": "94a2914629debb712c8b3d640eff1f64e404b6fc3db524896903ef3213a9dcd0",
+          "maintenance_hangar.fbx": "4383eea78c9a27cd3736abdae15c39f60dd1d76ee3a6be927946dbfc38d91bbe",
+          "preview.png": "3a1a276dec85405bff3e17d10345419369d24c18ea787434a2d6c69ed17e4f4c"
+        }
+      },
+      "half": {
+        "asset": "maintenance_hangar",
+        "label": "Open maintenance hangar",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Broad arched native roof above a genuinely empty front maintenance bay. Structural floor, portal posts, rear workbench and service door are part of the building.",
+          "Upper and side windows use opaque glazing palette colors. Palette luminaires do not emit light.",
+          "No hidden door panel; native 2x reduction with no manual half-resolution edits."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          56,
+          52
+        ],
+        "occupied_voxels": 44778,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          6.4,
+          5.6000000000000005,
+          5.2
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            5,
+            0
+          ],
+          [
+            63,
+            55,
+            51
+          ]
+        ],
+        "bounds_m": [
+          [
+            -3.0,
+            -2.3000000000000003,
+            0.0
+          ],
+          [
+            3.1,
+            2.7,
+            5.1000000000000005
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18
+        ],
+        "occupancy_sha256": "ac2dffecfd6625311c7b9e3e407fca58b05235f83cf04c17dd1b18213383809d",
+        "surface": {
+          "quads": 970,
+          "triangles": 1940,
+          "exposed_unit_faces": 28672,
+          "surface_area_m2": 286.72,
+          "materials": 13
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "maintenance_hangar.vox": "d0c5b006ac3fadb98c2fe9fc1210b7f8201f49f291d1a134419ce7359089d14b",
+          "maintenance_hangar.blend": "2387f41a4c32037c914e712807d4e446bd7968aaea9b0f80491d7e237c94f2a2",
+          "maintenance_hangar.glb": "c83d882fba19f1d4ebf02b8564d517aff11fcf1d55f468db046e8b3880bc00bb",
+          "maintenance_hangar.fbx": "b591f9f1bacb41c2fe0dc8ded852212535f9a061ab554682d2d08d51a0c44f1f",
+          "preview.png": "b6bb9bd8bf74962c40c38316c0fcf958a914dc99901c9f60dde33b64049f3828"
+        }
+      }
+    },
+    {
+      "asset": "control_tower",
+      "large": {
+        "asset": "control_tower",
+        "label": "Airfield control tower",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Tapered ivory tower, stepped front entry, low octagonal balcony rail and broad outward-tapering panoramic opaque glazing.",
+          "Roof overhang is shallow; window band begins above railing. Native saved-grid visibility rays check the shared camera direction.",
+          "Static roof radio hardware; native 2x reduction with no manual half-resolution edits."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          92,
+          92,
+          128
+        ],
+        "occupied_voxels": 258788,
+        "voxel_size_m": 0.05,
+        "grid_extents_m": [
+          4.6000000000000005,
+          4.6000000000000005,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            10,
+            7,
+            0
+          ],
+          [
+            82,
+            84,
+            128
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.8,
+            -1.9500000000000002,
+            0.0
+          ],
+          [
+            1.8,
+            1.9000000000000001,
+            6.4
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "occupancy_sha256": "9085d30ba284650aa48fa0fe23f635b98b07cdaa23cdee812a1ea42a7cd77436",
+        "surface": {
+          "quads": 3791,
+          "triangles": 7582,
+          "exposed_unit_faces": 43932,
+          "surface_area_m2": 109.83,
+          "materials": 15
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "control_tower.vox": "1bdb4a6473717e0f65631ce52ece9fe5b83e4b596047d5f914a221abacdd404d",
+          "control_tower.blend": "70faf8d457658b4266e4e7c5b46a5de8fb43154466bf88e16bbfe92dfcb764bf",
+          "control_tower.glb": "105854ea17e7724fbb44128ba6d7564e455a9de58745bcff148e50d74ad7d719",
+          "control_tower.fbx": "0f17ccf6c16a486c89c69cd7eff4b3c4e1e651d1a99e590e01444420dadbe9c8",
+          "preview.png": "4241b88de107130a21ba7445613ec66573af62a61a2be4927df6bfddf7fb3714"
+        }
+      },
+      "half": {
+        "asset": "control_tower",
+        "label": "Airfield control tower",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            225,
+            214,
+            187,
+            255
+          ],
+          [
+            244,
+            234,
+            209,
+            255
+          ],
+          [
+            191,
+            180,
+            152,
+            255
+          ],
+          [
+            68,
+            106,
+            132,
+            255
+          ],
+          [
+            91,
+            133,
+            156,
+            255
+          ],
+          [
+            42,
+            67,
+            85,
+            255
+          ],
+          [
+            219,
+            158,
+            53,
+            255
+          ],
+          [
+            246,
+            189,
+            77,
+            255
+          ],
+          [
+            43,
+            47,
+            47,
+            255
+          ],
+          [
+            65,
+            73,
+            76,
+            255
+          ],
+          [
+            112,
+            151,
+            170,
+            255
+          ],
+          [
+            151,
+            186,
+            198,
+            255
+          ],
+          [
+            148,
+            158,
+            157,
+            255
+          ],
+          [
+            197,
+            202,
+            188,
+            255
+          ],
+          [
+            145,
+            144,
+            130,
+            255
+          ],
+          [
+            112,
+            114,
+            107,
+            255
+          ],
+          [
+            250,
+            221,
+            153,
+            255
+          ],
+          [
+            167,
+            121,
+            70,
+            255
+          ]
+        ],
+        "notes": [
+          "Tapered ivory tower, stepped front entry, low octagonal balcony rail and broad outward-tapering panoramic opaque glazing.",
+          "Roof overhang is shallow; window band begins above railing. Native saved-grid visibility rays check the shared camera direction.",
+          "Static roof radio hardware; native 2x reduction with no manual half-resolution edits."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          46,
+          46,
+          64
+        ],
+        "occupied_voxels": 34686,
+        "voxel_size_m": 0.1,
+        "grid_extents_m": [
+          4.6000000000000005,
+          4.6000000000000005,
+          6.4
+        ],
+        "occupied_bounds_voxels": [
+          [
+            5,
+            3,
+            0
+          ],
+          [
+            41,
+            42,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.8,
+            -2.0,
+            0.0
+          ],
+          [
+            1.8,
+            1.9000000000000001,
+            6.4
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "occupancy_sha256": "812cfc82bd2f79e9a093b2ac357387fc8f26982a620e70fa18be9c21c16d0a05",
+        "surface": {
+          "quads": 1347,
+          "triangles": 2694,
+          "exposed_unit_faces": 11226,
+          "surface_area_m2": 112.26000000000002,
+          "materials": 15
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "control_tower.vox": "37ffdfee89527fad59cd2de838c3f8482eff5aefeef079f082a4a83bd35b3e60",
+          "control_tower.blend": "039e4db75a3384c3e16f46affe5f8a91634027de7ecfd2742ebf8371b4a4cb31",
+          "control_tower.glb": "87813dc3dd8435ca5fb9b5d03604c5385f96534f86982d7b8f4d61837f6e330b",
+          "control_tower.fbx": "a2618b245c9822a1a50aedc63c5fb52ccad0d04db868a8d083d155c4abc2fb4e",
+          "preview.png": "4a53407d1ef588c22df4540c8c69690a9db722a10a016632611ff86a07008678"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}

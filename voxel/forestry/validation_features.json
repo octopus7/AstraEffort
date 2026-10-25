@@ -1,0 +1,1427 @@
+{
+  "passed": true,
+  "source": "saved VOX occupancy only",
+  "started_at_utc": "2026-10-23T16:42:11.724568+00:00",
+  "finished_at_utc": "2026-10-23T16:42:12.111974+00:00",
+  "elapsed_seconds": 0.3872759999940172,
+  "check_count": 56,
+  "failures": [],
+  "checks": [
+    {
+      "asset": "logging_harvester",
+      "variant": "large",
+      "check": "Feed throat stays open between rollers",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            108,
+            8,
+            40
+          ],
+          [
+            110,
+            20,
+            66
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 624
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "large",
+      "check": "Distinct feed roller 101/44",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            98,
+            6,
+            41
+          ],
+          [
+            104,
+            12,
+            47
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 216,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "large",
+      "check": "Distinct feed roller 101/61",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            98,
+            6,
+            58
+          ],
+          [
+            104,
+            12,
+            64
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 216,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "large",
+      "check": "Distinct feed roller 116/44",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            113,
+            6,
+            41
+          ],
+          [
+            119,
+            12,
+            47
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 216,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "large",
+      "check": "Distinct feed roller 116/61",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            113,
+            6,
+            58
+          ],
+          [
+            119,
+            12,
+            64
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 216,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "large",
+      "check": "Hanging head top frame survives",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            98,
+            22,
+            70
+          ],
+          [
+            120,
+            30,
+            76
+          ]
+        ],
+        "palette_indices": [
+          4,
+          5
+        ],
+        "matched_cells": 920,
+        "minimum": 12
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "half",
+      "check": "Feed throat stays open between rollers",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            108,
+            8,
+            40
+          ],
+          [
+            110,
+            20,
+            66
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 78
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "half",
+      "check": "Distinct feed roller 101/44",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            98,
+            6,
+            41
+          ],
+          [
+            104,
+            12,
+            47
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 36,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "half",
+      "check": "Distinct feed roller 101/61",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            98,
+            6,
+            58
+          ],
+          [
+            104,
+            12,
+            64
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 27,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "half",
+      "check": "Distinct feed roller 116/44",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            113,
+            6,
+            41
+          ],
+          [
+            119,
+            12,
+            47
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 48,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "half",
+      "check": "Distinct feed roller 116/61",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            113,
+            6,
+            58
+          ],
+          [
+            119,
+            12,
+            64
+          ]
+        ],
+        "palette_indices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "matched_cells": 36,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "logging_harvester",
+      "variant": "half",
+      "check": "Hanging head top frame survives",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            98,
+            22,
+            70
+          ],
+          [
+            120,
+            30,
+            76
+          ]
+        ],
+        "palette_indices": [
+          4,
+          5
+        ],
+        "matched_cells": 114,
+        "minimum": 12
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "large",
+      "check": "Grapple central opening above upper log",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            36,
+            102,
+            94
+          ],
+          [
+            44,
+            108,
+            96
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 96
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "large",
+      "check": "Grapple claw 25",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            23,
+            102,
+            88
+          ],
+          [
+            27,
+            108,
+            94
+          ]
+        ],
+        "palette_indices": [
+          4,
+          5
+        ],
+        "matched_cells": 84,
+        "minimum": 3
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "large",
+      "check": "Grapple claw 55",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            53,
+            102,
+            88
+          ],
+          [
+            57,
+            108,
+            94
+          ]
+        ],
+        "palette_indices": [
+          4,
+          5
+        ],
+        "matched_cells": 84,
+        "minimum": 3
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "large",
+      "check": "Bunk stake row 13",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            10,
+            59,
+            36
+          ],
+          [
+            16,
+            121,
+            86
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4
+        ],
+        "matched_cells": 5580,
+        "minimum": 100
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "large",
+      "check": "Bunk stake row 67",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            64,
+            59,
+            36
+          ],
+          [
+            70,
+            121,
+            86
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4
+        ],
+        "matched_cells": 5580,
+        "minimum": 100
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "large",
+      "check": "Five-log load and native end grain",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            18,
+            58,
+            38
+          ],
+          [
+            63,
+            120,
+            93
+          ]
+        ],
+        "palette_indices": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "matched_cells": 82394,
+        "minimum": 500
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "half",
+      "check": "Grapple central opening above upper log",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            36,
+            102,
+            94
+          ],
+          [
+            44,
+            108,
+            96
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 12
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "half",
+      "check": "Grapple claw 25",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            23,
+            102,
+            88
+          ],
+          [
+            27,
+            108,
+            94
+          ]
+        ],
+        "palette_indices": [
+          4,
+          5
+        ],
+        "matched_cells": 24,
+        "minimum": 3
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "half",
+      "check": "Grapple claw 55",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            53,
+            102,
+            88
+          ],
+          [
+            57,
+            108,
+            94
+          ]
+        ],
+        "palette_indices": [
+          4,
+          5
+        ],
+        "matched_cells": 24,
+        "minimum": 3
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "half",
+      "check": "Bunk stake row 13",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            10,
+            59,
+            36
+          ],
+          [
+            16,
+            121,
+            86
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4
+        ],
+        "matched_cells": 786,
+        "minimum": 100
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "half",
+      "check": "Bunk stake row 67",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            64,
+            59,
+            36
+          ],
+          [
+            70,
+            121,
+            86
+          ]
+        ],
+        "palette_indices": [
+          1,
+          4
+        ],
+        "matched_cells": 786,
+        "minimum": 100
+      }
+    },
+    {
+      "asset": "timber_forwarder",
+      "variant": "half",
+      "check": "Five-log load and native end grain",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            18,
+            58,
+            38
+          ],
+          [
+            63,
+            120,
+            93
+          ]
+        ],
+        "palette_indices": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "matched_cells": 11421,
+        "minimum": 500
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Front portal left walking clearance",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            24,
+            42,
+            24
+          ],
+          [
+            36,
+            56,
+            54
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 5040
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Exposed transverse feed roller 14",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            12,
+            24
+          ],
+          [
+            84,
+            16,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 160,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Exposed transverse feed roller 26",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            24,
+            24
+          ],
+          [
+            84,
+            28,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 160,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Exposed transverse feed roller 38",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            36,
+            24
+          ],
+          [
+            84,
+            40,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 160,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Exposed transverse feed roller 50",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            48,
+            24
+          ],
+          [
+            84,
+            52,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 160,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Circular saw blade remains silver",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            78,
+            70,
+            38
+          ],
+          [
+            80,
+            78,
+            56
+          ]
+        ],
+        "palette_indices": [
+          10
+        ],
+        "matched_cells": 288,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "large",
+      "check": "Right portal upright remains structural",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            96,
+            44,
+            12
+          ],
+          [
+            104,
+            52,
+            78
+          ]
+        ],
+        "palette_indices": [
+          14,
+          15
+        ],
+        "matched_cells": 4224,
+        "minimum": 30
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Front portal left walking clearance",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            24,
+            42,
+            24
+          ],
+          [
+            36,
+            56,
+            54
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 630
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Exposed transverse feed roller 14",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            12,
+            24
+          ],
+          [
+            84,
+            16,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 20,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Exposed transverse feed roller 26",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            24,
+            24
+          ],
+          [
+            84,
+            28,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 20,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Exposed transverse feed roller 38",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            36,
+            24
+          ],
+          [
+            84,
+            40,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 20,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Exposed transverse feed roller 50",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            74,
+            48,
+            24
+          ],
+          [
+            84,
+            52,
+            28
+          ]
+        ],
+        "palette_indices": [
+          9
+        ],
+        "matched_cells": 20,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Circular saw blade remains silver",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            78,
+            70,
+            38
+          ],
+          [
+            80,
+            78,
+            56
+          ]
+        ],
+        "palette_indices": [
+          10
+        ],
+        "matched_cells": 36,
+        "minimum": 4
+      }
+    },
+    {
+      "asset": "sawmill",
+      "variant": "half",
+      "check": "Right portal upright remains structural",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            96,
+            44,
+            12
+          ],
+          [
+            104,
+            52,
+            78
+          ]
+        ],
+        "palette_indices": [
+          14,
+          15
+        ],
+        "matched_cells": 528,
+        "minimum": 30
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Gap separates lower and middle logs",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            38,
+            30,
+            38
+          ],
+          [
+            92,
+            40,
+            40
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 1080
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Gap separates middle and upper logs",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            38,
+            30,
+            64
+          ],
+          [
+            92,
+            40,
+            66
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 1080
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Concave cradle at 24/10",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            22,
+            34,
+            10
+          ],
+          [
+            26,
+            36,
+            12
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 16,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Concave cradle at 24/38",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            22,
+            34,
+            38
+          ],
+          [
+            26,
+            36,
+            40
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 16,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Concave cradle at 24/64",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            22,
+            34,
+            64
+          ],
+          [
+            26,
+            36,
+            66
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 16,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Concave cradle at 104/10",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            102,
+            34,
+            10
+          ],
+          [
+            106,
+            36,
+            12
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 16,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Concave cradle at 104/38",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            102,
+            34,
+            38
+          ],
+          [
+            106,
+            36,
+            40
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 16,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Concave cradle at 104/64",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            102,
+            34,
+            64
+          ],
+          [
+            106,
+            36,
+            66
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 16,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "large",
+      "check": "Native concentric end-grain survives",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            118,
+            27,
+            16
+          ],
+          [
+            121,
+            43,
+            88
+          ]
+        ],
+        "palette_indices": [
+          19,
+          20
+        ],
+        "matched_cells": 1720,
+        "minimum": 40
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Gap separates lower and middle logs",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            38,
+            30,
+            38
+          ],
+          [
+            92,
+            40,
+            40
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 135
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Gap separates middle and upper logs",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            38,
+            30,
+            64
+          ],
+          [
+            92,
+            40,
+            66
+          ]
+        ],
+        "occupied_cells": 0,
+        "tested_cells": 135
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Concave cradle at 24/10",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            22,
+            34,
+            10
+          ],
+          [
+            26,
+            36,
+            12
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 2,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Concave cradle at 24/38",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            22,
+            34,
+            38
+          ],
+          [
+            26,
+            36,
+            40
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 2,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Concave cradle at 24/64",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            22,
+            34,
+            64
+          ],
+          [
+            26,
+            36,
+            66
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 2,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Concave cradle at 104/10",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            102,
+            34,
+            10
+          ],
+          [
+            106,
+            36,
+            12
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 2,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Concave cradle at 104/38",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            102,
+            34,
+            38
+          ],
+          [
+            106,
+            36,
+            40
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 2,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Concave cradle at 104/64",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            102,
+            34,
+            64
+          ],
+          [
+            106,
+            36,
+            66
+          ]
+        ],
+        "palette_indices": [
+          1
+        ],
+        "matched_cells": 2,
+        "minimum": 1
+      }
+    },
+    {
+      "asset": "log_rack",
+      "variant": "half",
+      "check": "Native concentric end-grain survives",
+      "passed": true,
+      "evidence": {
+        "bounds_large_grid": [
+          [
+            118,
+            27,
+            16
+          ],
+          [
+            121,
+            43,
+            88
+          ]
+        ],
+        "palette_indices": [
+          19,
+          20
+        ],
+        "matched_cells": 312,
+        "minimum": 40
+      }
+    }
+  ]
+}

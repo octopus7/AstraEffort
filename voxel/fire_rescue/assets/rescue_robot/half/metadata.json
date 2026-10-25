@@ -1,0 +1,173 @@
+{
+  "asset": "rescue_robot",
+  "label": "Tracked rescue manipulator",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      192,
+      48,
+      32,
+      255
+    ],
+    [
+      123,
+      35,
+      29,
+      255
+    ],
+    [
+      237,
+      226,
+      201,
+      255
+    ],
+    [
+      39,
+      45,
+      49,
+      255
+    ],
+    [
+      82,
+      92,
+      97,
+      255
+    ],
+    [
+      163,
+      174,
+      178,
+      255
+    ],
+    [
+      47,
+      91,
+      116,
+      255
+    ],
+    [
+      96,
+      155,
+      178,
+      255
+    ],
+    [
+      239,
+      162,
+      38,
+      255
+    ],
+    [
+      251,
+      225,
+      136,
+      255
+    ],
+    [
+      103,
+      107,
+      103,
+      255
+    ],
+    [
+      195,
+      190,
+      174,
+      255
+    ],
+    [
+      221,
+      78,
+      42,
+      255
+    ],
+    [
+      24,
+      33,
+      38,
+      255
+    ]
+  ],
+  "notes": [
+    "Single-lens camera pod and separate articulated mechanical manipulator; no character face.",
+    "Two track loops, five road wheels per side and an open two-jaw gripper.",
+    "No manual half corrections."
+  ],
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    48,
+    64,
+    54
+  ],
+  "occupied_voxels": 29032,
+  "voxel_size_m": 0.05,
+  "grid_extents_m": [
+    2.4000000000000004,
+    3.2,
+    2.7
+  ],
+  "occupied_bounds_voxels": [
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      45,
+      62,
+      51
+    ]
+  ],
+  "bounds_m": [
+    [
+      -1.1,
+      -1.6,
+      0.05
+    ],
+    [
+      1.05,
+      1.5,
+      2.5500000000000003
+    ]
+  ],
+  "palette_indices": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14
+  ],
+  "occupancy_sha256": "ced1f56445d05420a2d858044457ff2eb1315414d148dcc435828b86855e9e39",
+  "surface": {
+    "quads": 2826,
+    "triangles": 5652,
+    "exposed_unit_faces": 12956,
+    "surface_area_m2": 32.39000000000001,
+    "materials": 10
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "rescue_robot.vox": "0cdfb85092b16f20d5a430500b9ed9322473ade3ba43a5d7359ab32cd41c67df",
+    "rescue_robot.blend": "320e62304ec7a06fc5c5d0f70367056a20b3dc6a8f818c9d5d02bb638dc63846",
+    "rescue_robot.glb": "0b772de9aafa92977663d0963bff925e42d9e399dfa95e0ee3513e4bd8023e55",
+    "rescue_robot.fbx": "5783f84b36a2cc50e02eb08424e9b1ff6d51e6346b11b3a7c88ba830f689914d",
+    "preview.png": "708d15c7efe58a7f2289f3804daff0844e6322ae68909541e9b3cdce1e6e143d"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "asset": "quadruped_surveyor",
+  "reference": "REF/Set02/quadruped_surveyor.png",
+  "render_engine": "Cycles",
+  "device": "CPU",
+  "threads": 4,
+  "samples": 32,
+  "denoising": true,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "color_management": {
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.25
+  },
+  "background": "Warm pale gray floor and world; three broad area lights",
+  "views": [
+    {
+      "name": "hero",
+      "path": "renders/hero.png",
+      "camera_location_m": [
+        3.7,
+        -5.3,
+        2.15
+      ],
+      "target_m": [
+        0,
+        0,
+        0.8
+      ],
+      "orthographic_scale_m": 3.65,
+      "started_at_utc": "2026-10-23T12:31:30.261197+00:00",
+      "finished_at_utc": "2026-10-23T12:32:09.577017+00:00",
+      "elapsed_seconds": 39.316,
+      "sha256": "af2abc3bea43006ea49917f39c935e402bf78f6d25bc8ed1bed1684ab353f6af"
+    },
+    {
+      "name": "rear",
+      "path": "renders/rear.png",
+      "camera_location_m": [
+        -3.9,
+        5.3,
+        2.15
+      ],
+      "target_m": [
+        0,
+        0,
+        0.8
+      ],
+      "orthographic_scale_m": 3.65,
+      "started_at_utc": "2026-10-23T12:32:09.589017+00:00",
+      "finished_at_utc": "2026-10-23T12:32:48.681826+00:00",
+      "elapsed_seconds": 39.093,
+      "sha256": "66038a92a13485830b6f561864ed3b1e44feeb7ca97754e29c2837afdfb9c2d5"
+    }
+  ]
+}

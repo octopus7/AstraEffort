@@ -1,0 +1,1452 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-23T17:03:32.301666+00:00",
+  "finished_at_utc": "2026-10-23T17:05:00.046867+00:00",
+  "elapsed_seconds": 87.7450916999951,
+  "assets": [
+    {
+      "asset": "collection_truck",
+      "large": {
+        "asset": "collection_truck",
+        "label": "Rear-loading collection truck",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original six-wheel collection truck with rounded cream body, external tail hydraulics, real sloped rear loading hopper and low rear step.",
+          "Functional rear loading face points -Y; cab/vehicle travel direction is +Y so the common preview exposes the hopper.",
+          "Native half occupancy uses conservative 2x reduction with no manual size-only edits. Opaque glass, static mechanism."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          74,
+          128,
+          88
+        ],
+        "occupied_voxels": 333701,
+        "voxel_size_m": 0.055,
+        "grid_extents_m": [
+          4.07,
+          7.04,
+          4.84
+        ],
+        "occupied_bounds_voxels": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            70,
+            127,
+            86
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.815,
+            -3.52,
+            0.0
+          ],
+          [
+            1.815,
+            3.465,
+            4.73
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13
+        ],
+        "occupancy_sha256": "22951e4ad32f846501f8b6f7d480d3342424096c656ca5cb0d24bdf9fde7d720",
+        "surface": {
+          "quads": 4544,
+          "triangles": 9088,
+          "exposed_unit_faces": 61160,
+          "surface_area_m2": 185.00900000000001,
+          "materials": 12
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "collection_truck.vox": "b19c60e4b0873a1f5962cc2363383f3232f8ad7b854790c61e47e6c64db55b3a",
+          "collection_truck.blend": "ba5d1c39916b284780ca3c16c7fde5113acb3155a1ef63c881848d0b71acb2dd",
+          "collection_truck.glb": "629df577d4d481182d10c6d3a7996b5d8669caa8493e2c7b6e89cf4cc7dce3c7",
+          "collection_truck.fbx": "561e1865e7490f5d1d634df2ca1ff0613667b91e6894acf7d6eee96aff94b0a6",
+          "preview.png": "4c47b34edab61e4891ca4bacf80dfebe0c4f26291e45a40ddcef6c792945aa8e"
+        }
+      },
+      "half": {
+        "asset": "collection_truck",
+        "label": "Rear-loading collection truck",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original six-wheel collection truck with rounded cream body, external tail hydraulics, real sloped rear loading hopper and low rear step.",
+          "Functional rear loading face points -Y; cab/vehicle travel direction is +Y so the common preview exposes the hopper.",
+          "Native half occupancy uses conservative 2x reduction with no manual size-only edits. Opaque glass, static mechanism."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          37,
+          64,
+          44
+        ],
+        "occupied_voxels": 45248,
+        "voxel_size_m": 0.11,
+        "grid_extents_m": [
+          4.07,
+          7.04,
+          4.84
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            35,
+            64,
+            43
+          ]
+        ],
+        "bounds_m": [
+          [
+            -1.815,
+            -3.52,
+            0.0
+          ],
+          [
+            1.815,
+            3.52,
+            4.73
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13
+        ],
+        "occupancy_sha256": "f49110ee226a1f0671cdd15ad220b5e041cc308b714096f8350a9f58dd5a6f2c",
+        "surface": {
+          "quads": 1711,
+          "triangles": 3422,
+          "exposed_unit_faces": 14456,
+          "surface_area_m2": 174.91760000000002,
+          "materials": 12
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "collection_truck.vox": "d7cc29f34bd7384e87ce6b3dd00c9d12e21bcc6bb834e7227662696985c20482",
+          "collection_truck.blend": "a6ff70795d3ce00428d6bd615749209ea2bb33bee5bc5a08ce55aa40c6888c2c",
+          "collection_truck.glb": "a9484f446b475c5b8bb6d9b5a46eefe1e028d89ee6f17ebb67474dbf36638d9a",
+          "collection_truck.fbx": "ab94de7c7fa0d19270518e02f86218f46da233ae1327793e25d1bc22e343c99c",
+          "preview.png": "4fe16b6b117f16b2e0526f2a93a68919c2f2f603ceb383428d1782e06fdb32f2"
+        }
+      }
+    },
+    {
+      "asset": "sorting_machine",
+      "large": {
+        "asset": "sorting_machine",
+        "label": "Optical sorting conveyor",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original exposed belt with front/rear rollers, two flared receiving funnels with open lateral throats, twin overhead sensor heads, drive motor and separate mounting feet.",
+          "The loose feedstock is static palette geometry. No sorting simulation, conveyor animation or transparency."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          102,
+          96
+        ],
+        "occupied_voxels": 144862,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          5.76,
+          4.59,
+          4.32
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            5,
+            0
+          ],
+          [
+            128,
+            98,
+            95
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.88,
+            -2.07,
+            0.0
+          ],
+          [
+            2.88,
+            2.1149999999999998,
+            4.2749999999999995
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "occupancy_sha256": "a8acd46ccfe83c5727f63250ca95122a0f45315ffa7bd08bb8cb75f2bda57a5d",
+        "surface": {
+          "quads": 2347,
+          "triangles": 4694,
+          "exposed_unit_faces": 66406,
+          "surface_area_m2": 134.47215,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "sorting_machine.vox": "41b9966a649557805bc039948acbbbb8d2d69de09b8ba5d19aa1d54f3dfa32ba",
+          "sorting_machine.blend": "382bfa4cff70bb8f2ac988cb05a215e2341ecf0ee307a2e6a05d5ea85679db49",
+          "sorting_machine.glb": "85c8330db3538aa2f99e6582e1b6f5860f531a2a5edbd4621b7eab3b91474ded",
+          "sorting_machine.fbx": "e081502888cc77b3b9f9e80c87301ec7e0bd3b8d6edb4e82e960332384a3c6f4",
+          "preview.png": "999c12ded9397f776815ba2aa97353f1489e9717806185d9083e6a1cffd5f5e7"
+        }
+      },
+      "half": {
+        "asset": "sorting_machine",
+        "label": "Optical sorting conveyor",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original exposed belt with front/rear rollers, two flared receiving funnels with open lateral throats, twin overhead sensor heads, drive motor and separate mounting feet.",
+          "The loose feedstock is static palette geometry. No sorting simulation, conveyor animation or transparency."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          51,
+          48
+        ],
+        "occupied_voxels": 22307,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          5.76,
+          4.59,
+          4.32
+        ],
+        "occupied_bounds_voxels": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            64,
+            49,
+            48
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.88,
+            -2.1149999999999998,
+            0.0
+          ],
+          [
+            2.88,
+            2.1149999999999998,
+            4.32
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "occupancy_sha256": "7b051b753fff66346f60629b03594d2dda8164c724a6cf704c4fb8666ce355ad",
+        "surface": {
+          "quads": 993,
+          "triangles": 1986,
+          "exposed_unit_faces": 14852,
+          "surface_area_m2": 120.3012,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "sorting_machine.vox": "67b96a84b9516ef678001ac4069c28adbfaf2b25276ded1b82f34c9ed33fb2c1",
+          "sorting_machine.blend": "ffac8b47eea754c190809f2f2cf6860b7b5bd08b42c7e2695c346066a74f4de0",
+          "sorting_machine.glb": "57d86c778854d042d5c7c21e419afc17f2f74b68905c8ac654d84cbb8acf649e",
+          "sorting_machine.fbx": "d6faed3b8af00fa2555b137c346d69162ac80f4ac41feee8c54ed8105146c4a2",
+          "preview.png": "1d76cab46ae613fece30b801ab38e504e0e20447944e1af96e535c94c98ec046"
+        }
+      }
+    },
+    {
+      "asset": "compactor",
+      "large": {
+        "asset": "compactor",
+        "label": "Vertical hydraulic baler",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original vertical press with open front chamber, raised compression platen, exposed ram and guide columns, strapped cardboard bale, side hydraulic pump and console.",
+          "Idle static pose deliberately retains a clear air gap above the bale. No animated press, physics or operational safety claim."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          102,
+          84,
+          128
+        ],
+        "occupied_voxels": 319808,
+        "voxel_size_m": 0.045,
+        "grid_extents_m": [
+          4.59,
+          3.78,
+          5.76
+        ],
+        "occupied_bounds_voxels": [
+          [
+            2,
+            11,
+            0
+          ],
+          [
+            100,
+            76,
+            127
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.205,
+            -1.395,
+            0.0
+          ],
+          [
+            2.205,
+            1.53,
+            5.715
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          15
+        ],
+        "occupancy_sha256": "149e4fa2040d981035053d5c12ade9d6684e761a5cd90338337b7690ecd37e71",
+        "surface": {
+          "quads": 2039,
+          "triangles": 4078,
+          "exposed_unit_faces": 67664,
+          "surface_area_m2": 137.0196,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "compactor.vox": "24b09bcc1a4b99ef1be72203d3efd58fe7762ec2bfa5866dd9f5d82c918e7100",
+          "compactor.blend": "c57d2bcb2deaf15b901b8969726140aa0cf63f5330dcd40b7081a4343f9fde0d",
+          "compactor.glb": "d4b843964c50b7e0500f2b33927f6f98b3eb22b7c98d00c0d6154bcedc2a9af8",
+          "compactor.fbx": "270bbc8a429ade475d07596fb34ee4f3644704d6f76e04bcde18b5128b55086d",
+          "preview.png": "354be0b781cf256d4ea5074ca93b7aa87cb664b4d4974535a0eb3b70b22e16fb"
+        }
+      },
+      "half": {
+        "asset": "compactor",
+        "label": "Vertical hydraulic baler",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original vertical press with open front chamber, raised compression platen, exposed ram and guide columns, strapped cardboard bale, side hydraulic pump and console.",
+          "Idle static pose deliberately retains a clear air gap above the bale. No animated press, physics or operational safety claim."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          51,
+          42,
+          64
+        ],
+        "occupied_voxels": 44508,
+        "voxel_size_m": 0.09,
+        "grid_extents_m": [
+          4.59,
+          3.78,
+          5.76
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            5,
+            0
+          ],
+          [
+            50,
+            38,
+            64
+          ]
+        ],
+        "bounds_m": [
+          [
+            -2.205,
+            -1.44,
+            0.0
+          ],
+          [
+            2.205,
+            1.53,
+            5.76
+          ]
+        ],
+        "palette_indices": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          15
+        ],
+        "occupancy_sha256": "768bdae57054702ae6c2ae3d2f74e797d0195120f4fe6ddf674889323ba5271c",
+        "surface": {
+          "quads": 874,
+          "triangles": 1748,
+          "exposed_unit_faces": 17210,
+          "surface_area_m2": 139.40099999999998,
+          "materials": 11
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "compactor.vox": "0999767c93d41bc70f7631eb269658d83ced7e42bf07a6da32a6645278975f45",
+          "compactor.blend": "d8f40175f05d567d0bc8eaf650e7728deb2699801dd4c564bf535be9b76dd0ee",
+          "compactor.glb": "9533c1c6350b96fe329f5cd5acd808e7d2be2a981cc8ef955705124fd2b20922",
+          "compactor.fbx": "c61ce995bfedfde32210dba429530a87d8742f6fc74a5ae66e6ed85a8d14eac7",
+          "preview.png": "f83fa5ce0a5e136bb2b75ab18f47008420f9db0293af10e146e3eec592674242"
+        }
+      }
+    },
+    {
+      "asset": "recycling_center",
+      "large": {
+        "asset": "recycling_center",
+        "label": "Recycling receiving center",
+        "variant": "large",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original stepped-roof hall with a genuinely open vehicle receiving portal, hollow receiving interior, sheltered three-bay annex, three open-topped collection bins, corner guards and roof vent.",
+          "Main hall is hollow; annex space is modeled only to the receiving-bay depth. Structural floor is part of the building, not a common diorama base."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          128,
+          96,
+          90
+        ],
+        "occupied_voxels": 429351,
+        "voxel_size_m": 0.075,
+        "grid_extents_m": [
+          9.6,
+          7.199999999999999,
+          6.75
+        ],
+        "occupied_bounds_voxels": [
+          [
+            3,
+            13,
+            3
+          ],
+          [
+            128,
+            94,
+            89
+          ]
+        ],
+        "bounds_m": [
+          [
+            -4.575,
+            -2.625,
+            0.22499999999999998
+          ],
+          [
+            4.8,
+            3.4499999999999997,
+            6.675
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "occupancy_sha256": "20cd1c16c7f2219abfa577ddadb04d291cea5631eb9e0de512ae60926a840d16",
+        "surface": {
+          "quads": 1059,
+          "triangles": 2118,
+          "exposed_unit_faces": 91052,
+          "surface_area_m2": 512.1674999999999,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "recycling_center.vox": "eae78603ed07220a44e2896c5579f55287d6829bf12c47b232aa478969255db5",
+          "recycling_center.blend": "7a047c21db24e51b8f10fbec8bcc3ac3885b65118e5fa04d88b395c11d3e0130",
+          "recycling_center.glb": "be3ab6d1f166a24869c28444218355df6a97cbb80bd5a504849734891bcc21a7",
+          "recycling_center.fbx": "63957cd8ef3baa8f23c459780d3259a5b0b10e62f3035683e7777a5e0660a97c",
+          "preview.png": "eb0e6a2c683bc13b4047a770b13be17c9780aec911115b0a657f96aa6ab48138"
+        }
+      },
+      "half": {
+        "asset": "recycling_center",
+        "label": "Recycling receiving center",
+        "variant": "half",
+        "format": "MagicaVoxel VOX 150",
+        "coordinate_system": "X right, Y back, Z up; front -Y",
+        "origin": "XY grid center, bottom grid plane Z=0",
+        "palette": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            101,
+            82,
+            255
+          ],
+          [
+            64,
+            129,
+            103,
+            255
+          ],
+          [
+            26,
+            70,
+            59,
+            255
+          ],
+          [
+            226,
+            221,
+            194,
+            255
+          ],
+          [
+            246,
+            241,
+            218,
+            255
+          ],
+          [
+            45,
+            50,
+            52,
+            255
+          ],
+          [
+            75,
+            89,
+            93,
+            255
+          ],
+          [
+            143,
+            153,
+            150,
+            255
+          ],
+          [
+            237,
+            185,
+            48,
+            255
+          ],
+          [
+            191,
+            129,
+            34,
+            255
+          ],
+          [
+            58,
+            81,
+            91,
+            255
+          ],
+          [
+            105,
+            133,
+            143,
+            255
+          ],
+          [
+            177,
+            73,
+            48,
+            255
+          ],
+          [
+            163,
+            116,
+            65,
+            255
+          ],
+          [
+            197,
+            151,
+            91,
+            255
+          ]
+        ],
+        "notes": [
+          "Original stepped-roof hall with a genuinely open vehicle receiving portal, hollow receiving interior, sheltered three-bay annex, three open-topped collection bins, corner guards and roof vent.",
+          "Main hall is hollow; annex space is modeled only to the receiving-bay depth. Structural floor is part of the building, not a common diorama base."
+        ],
+        "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+        "same_physical_grid_extents": true,
+        "grid_size": [
+          64,
+          48,
+          45
+        ],
+        "occupied_voxels": 58803,
+        "voxel_size_m": 0.15,
+        "grid_extents_m": [
+          9.6,
+          7.199999999999999,
+          6.75
+        ],
+        "occupied_bounds_voxels": [
+          [
+            1,
+            6,
+            1
+          ],
+          [
+            64,
+            47,
+            45
+          ]
+        ],
+        "bounds_m": [
+          [
+            -4.6499999999999995,
+            -2.6999999999999997,
+            0.15
+          ],
+          [
+            4.8,
+            3.4499999999999997,
+            6.75
+          ]
+        ],
+        "palette_indices": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "occupancy_sha256": "2a0ebb31c9825cbf6f1103da87122712a6dbbe55e5c705743528100faae9c9b2",
+        "surface": {
+          "quads": 613,
+          "triangles": 1226,
+          "exposed_unit_faces": 21722,
+          "surface_area_m2": 488.74499999999995,
+          "materials": 8
+        },
+        "native_roundtrip_passed": true,
+        "exported_geometry_only": true,
+        "uv": "No texture UV required: per-face solid palette PBR materials",
+        "sha256": {
+          "recycling_center.vox": "8b8cc68d0d5d1dc8efcc9e87abc1c460c2cfa7e2394d4a661271d45ea4effeb7",
+          "recycling_center.blend": "5b3d13030266d2d2b5c1f317b78423aa7b3ad608c612ed98ae65de408dfc559a",
+          "recycling_center.glb": "20280e4c7b5776f7333019b680233ec058c5b579c5cd9760a7eb85cba72f68c6",
+          "recycling_center.fbx": "419e2f78744dfcb620241ed756fa6ef3f90a2b809c8e28c35322fa4710605b9e",
+          "preview.png": "15d56f7d677237991e78247d41ce11bc9d1f9568ae9b2ede59b7da8289987df0"
+        }
+      }
+    }
+  ],
+  "checks": [
+    "Native occupancy and palette roundtrip",
+    "Exact exposed boundary area",
+    "No zero-area triangles or nonfinite positions",
+    "True separate half-resolution occupancy",
+    "Both actual previews generated"
+  ],
+  "remaining_validation": "Fresh separate BLEND/GLB/FBX reimport and visual review"
+}

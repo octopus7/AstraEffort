@@ -1,0 +1,1118 @@
+Error in bpy.app.handlers.load_pre[1]:
+Blender 4.5.12 LTS (hash 84afd5f785f7 built 2026-07-21 01:33:53)
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\collection_truck\half\collection_truck.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\blendue\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\.cache\\compat.dat').
+Reloading external rigs...
+Reloading external metarigs...
+Cannot read ARP prefs
+Update armature presets...
+addon_utils.disable: bl_ext.UserRepository.shape_key_linker not enabled
+02:05:02 | INFO: Data are loaded, start creating Blender stuff
+02:05:02 | INFO: Blender create Mesh node collection_truck_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:02 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\collection_truck\large\collection_truck.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:03 | INFO: Data are loaded, start creating Blender stuff
+02:05:03 | INFO: Blender create Mesh node collection_truck_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:03 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\compactor\half\compactor.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:04 | INFO: Data are loaded, start creating Blender stuff
+02:05:04 | INFO: Blender create Mesh node compactor_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:04 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\compactor\large\compactor.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:04 | INFO: Data are loaded, start creating Blender stuff
+02:05:04 | INFO: Blender create Mesh node compactor_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:04 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\recycling_center\half\recycling_center.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:05 | INFO: Data are loaded, start creating Blender stuff
+02:05:05 | INFO: Blender create Mesh node recycling_center_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:05 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\recycling_center\large\recycling_center.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:05 | INFO: Data are loaded, start creating Blender stuff
+02:05:05 | INFO: Blender create Mesh node recycling_center_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:05 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\sorting_machine\half\sorting_machine.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:06 | INFO: Data are loaded, start creating Blender stuff
+02:05:06 | INFO: Blender create Mesh node sorting_machine_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:06 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Read blend: "D:\github\AstraEffort\voxel\recycling\assets\sorting_machine\large\sorting_machine.blend"
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+02:05:06 | INFO: Data are loaded, start creating Blender stuff
+02:05:06 | INFO: Blender create Mesh node sorting_machine_voxel_surface
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:05:06 | INFO: glTF import finished in 0.01s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+FBX version: 7400
+{"passed": true, "asset_count": 4, "variant_count": 8, "errors": [], "report": "D:\\github\\AstraEffort\\voxel\\recycling\\validation_export.json"}
+
+Blender quit

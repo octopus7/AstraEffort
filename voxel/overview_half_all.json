@@ -1,0 +1,2257 @@
+{
+  "schema_version": 1,
+  "description": "One contact sheet of all 73 existing real SMALL/HALF rendered previews.",
+  "started_at_utc": "2026-10-25T04:53:22.083736+00:00",
+  "finished_at_utc": "2026-10-25T04:53:24.826657+00:00",
+  "elapsed_seconds": 2.743,
+  "source_count": 73,
+  "unique_source_count": 73,
+  "theme_count": 16,
+  "status_counts": {
+    "accepted": 61,
+    "pending_review": 8,
+    "wip_unverified": 4
+  },
+  "status_basis": "Original 45 delivery-manifest models plus accepted expansion units; airfield/recycling pending main review; geothermal WIP/unverified, as dispatched.",
+  "status_sources": [
+    {
+      "path": "voxel/EXPANSION_STATE.json",
+      "sha256": "2ee4f026f0e08f3f0781f8d370e4cd9fbce25465c2c2b139c67c155d0e29252f"
+    },
+    {
+      "path": "voxel/delivery_manifest.json",
+      "sha256": "f91a1796ae0bd2f0c11ef19867c3825afa1c6286726fb890583cf62bec24504f"
+    }
+  ],
+  "compositor": "Windows System.Drawing, invoked from Python; full-frame high-quality bicubic scaling only",
+  "columns": 9,
+  "rows": 9,
+  "thumbnail_size": [
+    384,
+    384
+  ],
+  "exclusions": [
+    "voxel/_tools/smoke/**",
+    "underscore/cache/scratch roots",
+    "all LARGE previews",
+    "canal and camping (no existing previews)"
+  ],
+  "source_previews_unchanged": true,
+  "source_metadata_unchanged": true,
+  "all_labels_fit": true,
+  "output": {
+    "path": "voxel/overview_half_all.png",
+    "dimensions": [
+      3664,
+      4720
+    ],
+    "sha256": "6836db2f017decdc224e33356f129af2dc3d49647d2d8884b97606325756a8e2",
+    "bytes": 11899453
+  },
+  "sources": [
+    {
+      "index": 1,
+      "theme": "farm",
+      "theme_display": "Farm",
+      "asset": "barn",
+      "label": "Timber harvest barn",
+      "status": "accepted",
+      "row": 0,
+      "column": 0,
+      "source_path": "voxel/farm/assets/barn/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "1c616cfc2726c6fcb8c20803bdba18796ef408f79092547581f1eed8c809ee50",
+      "metadata_path": "voxel/farm/assets/barn/half/metadata.json",
+      "metadata_sha256_before": "785de831af9558b069ede9f583bdaf77d35eab403c1516b9cc5540bb6cdb77f7",
+      "thumbnail_rectangle": [
+        40,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "01 Timber harvest barn"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "1c616cfc2726c6fcb8c20803bdba18796ef408f79092547581f1eed8c809ee50",
+      "metadata_sha256_after": "785de831af9558b069ede9f583bdaf77d35eab403c1516b9cc5540bb6cdb77f7"
+    },
+    {
+      "index": 2,
+      "theme": "farm",
+      "theme_display": "Farm",
+      "asset": "combine_harvester",
+      "label": "Farm combine harvester",
+      "status": "accepted",
+      "row": 0,
+      "column": 1,
+      "source_path": "voxel/farm/additions/assets/combine_harvester/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "844606320ed270fb6e582cfd0a963b74f7224ec70bfc679a756a1281543ac7d6",
+      "metadata_path": "voxel/farm/additions/assets/combine_harvester/half/metadata.json",
+      "metadata_sha256_before": "6c2f64e37d85e8d61622751f6f75953f032dd40dc8dc512b83711586b6b999d9",
+      "thumbnail_rectangle": [
+        440,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "02 Farm combine harvester"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "844606320ed270fb6e582cfd0a963b74f7224ec70bfc679a756a1281543ac7d6",
+      "metadata_sha256_after": "6c2f64e37d85e8d61622751f6f75953f032dd40dc8dc512b83711586b6b999d9"
+    },
+    {
+      "index": 3,
+      "theme": "farm",
+      "theme_display": "Farm",
+      "asset": "silo",
+      "label": "Raised grain silo",
+      "status": "accepted",
+      "row": 0,
+      "column": 2,
+      "source_path": "voxel/farm/assets/silo/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "85c35e4c8775be66fa9a0cd94d5f650cbf267704c9bec969c7198f69a855f620",
+      "metadata_path": "voxel/farm/assets/silo/half/metadata.json",
+      "metadata_sha256_before": "fb869f6edc14354c072871dd9eb0fae5f02cce909e2a2166d5d46466b19755e5",
+      "thumbnail_rectangle": [
+        840,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "03 Raised grain silo"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "85c35e4c8775be66fa9a0cd94d5f650cbf267704c9bec969c7198f69a855f620",
+      "metadata_sha256_after": "fb869f6edc14354c072871dd9eb0fae5f02cce909e2a2166d5d46466b19755e5"
+    },
+    {
+      "index": 4,
+      "theme": "farm",
+      "theme_display": "Farm",
+      "asset": "tractor",
+      "label": "Orchard tractor",
+      "status": "accepted",
+      "row": 0,
+      "column": 3,
+      "source_path": "voxel/farm/assets/tractor/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "5fc04abd02eaa555aa783f80f9bf3e765ea4b20132a3bff8a00f66e789314dd0",
+      "metadata_path": "voxel/farm/assets/tractor/half/metadata.json",
+      "metadata_sha256_before": "b4e7c32cd9d5b57f642feed48005b82a62f5f8928fbb4fc8329359898ec78b9b",
+      "thumbnail_rectangle": [
+        1240,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "04 Orchard tractor"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "5fc04abd02eaa555aa783f80f9bf3e765ea4b20132a3bff8a00f66e789314dd0",
+      "metadata_sha256_after": "b4e7c32cd9d5b57f642feed48005b82a62f5f8928fbb4fc8329359898ec78b9b"
+    },
+    {
+      "index": 5,
+      "theme": "farm",
+      "theme_display": "Farm",
+      "asset": "windmill",
+      "label": "Four-sail grain windmill",
+      "status": "accepted",
+      "row": 0,
+      "column": 4,
+      "source_path": "voxel/farm/assets/windmill/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "4e8c16800fc0a38ef164f0d5454ac74057490fdc930fe497c5a14c8dadf2824d",
+      "metadata_path": "voxel/farm/assets/windmill/half/metadata.json",
+      "metadata_sha256_before": "a87f9fabc76bbe21cecbf1dc3295d602e398ed9c5309461a485a56074ff64052",
+      "thumbnail_rectangle": [
+        1640,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "05 Four-sail grain windmill"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "4e8c16800fc0a38ef164f0d5454ac74057490fdc930fe497c5a14c8dadf2824d",
+      "metadata_sha256_after": "a87f9fabc76bbe21cecbf1dc3295d602e398ed9c5309461a485a56074ff64052"
+    },
+    {
+      "index": 6,
+      "theme": "forestry",
+      "theme_display": "Forestry",
+      "asset": "log_rack",
+      "label": "Three-tier log rack",
+      "status": "accepted",
+      "row": 0,
+      "column": 5,
+      "source_path": "voxel/forestry/assets/log_rack/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "43e057ec9326c845e3febfb396d6dff21ad92cc541d3b1b7b2179532fd7f7617",
+      "metadata_path": "voxel/forestry/assets/log_rack/half/metadata.json",
+      "metadata_sha256_before": "be5ba9eeeaec0a753ba330dbf58c9706ca309eed433efeabc5f6180db298ce66",
+      "thumbnail_rectangle": [
+        2040,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "06 Three-tier log rack"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "43e057ec9326c845e3febfb396d6dff21ad92cc541d3b1b7b2179532fd7f7617",
+      "metadata_sha256_after": "be5ba9eeeaec0a753ba330dbf58c9706ca309eed433efeabc5f6180db298ce66"
+    },
+    {
+      "index": 7,
+      "theme": "forestry",
+      "theme_display": "Forestry",
+      "asset": "logging_harvester",
+      "label": "Logging harvester",
+      "status": "accepted",
+      "row": 0,
+      "column": 6,
+      "source_path": "voxel/forestry/assets/logging_harvester/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "1485faeaa33d814070515029fdfdf403dc8b783edcf33f7124e95161558ed3de",
+      "metadata_path": "voxel/forestry/assets/logging_harvester/half/metadata.json",
+      "metadata_sha256_before": "4daaf5301996760f6774bd6d37e30109f4b81b33956fd64e75cacfbc266793ff",
+      "thumbnail_rectangle": [
+        2440,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "07 Logging harvester"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "1485faeaa33d814070515029fdfdf403dc8b783edcf33f7124e95161558ed3de",
+      "metadata_sha256_after": "4daaf5301996760f6774bd6d37e30109f4b81b33956fd64e75cacfbc266793ff"
+    },
+    {
+      "index": 8,
+      "theme": "forestry",
+      "theme_display": "Forestry",
+      "asset": "sawmill",
+      "label": "Open timber sawmill",
+      "status": "accepted",
+      "row": 0,
+      "column": 7,
+      "source_path": "voxel/forestry/assets/sawmill/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "cf4fc842c64954ce3fb1cb950eee6a827c8298b02ca394c0febc3ee25d5710b3",
+      "metadata_path": "voxel/forestry/assets/sawmill/half/metadata.json",
+      "metadata_sha256_before": "068e1abe214462b99c436b995291f4bf6f534c75be578eee79fdda0f9a14ea32",
+      "thumbnail_rectangle": [
+        2840,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "08 Open timber sawmill"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "cf4fc842c64954ce3fb1cb950eee6a827c8298b02ca394c0febc3ee25d5710b3",
+      "metadata_sha256_after": "068e1abe214462b99c436b995291f4bf6f534c75be578eee79fdda0f9a14ea32"
+    },
+    {
+      "index": 9,
+      "theme": "forestry",
+      "theme_display": "Forestry",
+      "asset": "timber_forwarder",
+      "label": "Timber forwarder",
+      "status": "accepted",
+      "row": 0,
+      "column": 8,
+      "source_path": "voxel/forestry/assets/timber_forwarder/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "9175b4bce5488cab08777c261329591b58624483d64e85a0a9df46ea1db354d4",
+      "metadata_path": "voxel/forestry/assets/timber_forwarder/half/metadata.json",
+      "metadata_sha256_before": "d26fd9eb03227dc0a1ade262fafa4f6afd1e7d88b0ccb5cca7ce6c357a75a4b9",
+      "thumbnail_rectangle": [
+        3240,
+        196,
+        384,
+        384
+      ],
+      "label_lines": [
+        "09 Timber forwarder"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "9175b4bce5488cab08777c261329591b58624483d64e85a0a9df46ea1db354d4",
+      "metadata_sha256_after": "d26fd9eb03227dc0a1ade262fafa4f6afd1e7d88b0ccb5cca7ce6c357a75a4b9"
+    },
+    {
+      "index": 10,
+      "theme": "factory",
+      "theme_display": "Factory",
+      "asset": "conveyor",
+      "label": "Roller-end factory conveyor",
+      "status": "accepted",
+      "row": 1,
+      "column": 0,
+      "source_path": "voxel/factory/assets/conveyor/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "c90b0eff23dd3de320b26a9b94d874b23f31ec702ac5a3f11934258ca57a7398",
+      "metadata_path": "voxel/factory/assets/conveyor/half/metadata.json",
+      "metadata_sha256_before": "db6f2e78f201e6f7819c52b5678b304758b70b3ee70e0552708116b89ea6747c",
+      "thumbnail_rectangle": [
+        40,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "10 Roller-end factory conveyor"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "c90b0eff23dd3de320b26a9b94d874b23f31ec702ac5a3f11934258ca57a7398",
+      "metadata_sha256_after": "db6f2e78f201e6f7819c52b5678b304758b70b3ee70e0552708116b89ea6747c"
+    },
+    {
+      "index": 11,
+      "theme": "factory",
+      "theme_display": "Factory",
+      "asset": "forklift",
+      "label": "Counterbalance factory forklift",
+      "status": "accepted",
+      "row": 1,
+      "column": 1,
+      "source_path": "voxel/factory/assets/forklift/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "233c77204ed60fdb9d4c608ebc47b84189b1944ad4ee81346adf631cd0b490fc",
+      "metadata_path": "voxel/factory/assets/forklift/half/metadata.json",
+      "metadata_sha256_before": "defc01f37983a475d51503051a0aedf1a960d1a1274ae8c31505796061af9998",
+      "thumbnail_rectangle": [
+        440,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "11 Counterbalance factory forklift"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "233c77204ed60fdb9d4c608ebc47b84189b1944ad4ee81346adf631cd0b490fc",
+      "metadata_sha256_after": "defc01f37983a475d51503051a0aedf1a960d1a1274ae8c31505796061af9998"
+    },
+    {
+      "index": 12,
+      "theme": "factory",
+      "theme_display": "Factory",
+      "asset": "generator",
+      "label": "Skid-mounted factory generator",
+      "status": "accepted",
+      "row": 1,
+      "column": 2,
+      "source_path": "voxel/factory/assets/generator/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "7171230c387bf5711902d086aca0f2d0d08dffc3befc3d41b2e6faa6aa10f74a",
+      "metadata_path": "voxel/factory/assets/generator/half/metadata.json",
+      "metadata_sha256_before": "482d6105a29ff6771ff5279dd1a21a4912dee7abb706c2378e80ce17c56c7e88",
+      "thumbnail_rectangle": [
+        840,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "12 Skid-mounted factory generator"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "7171230c387bf5711902d086aca0f2d0d08dffc3befc3d41b2e6faa6aa10f74a",
+      "metadata_sha256_after": "482d6105a29ff6771ff5279dd1a21a4912dee7abb706c2378e80ce17c56c7e88"
+    },
+    {
+      "index": 13,
+      "theme": "factory",
+      "theme_display": "Factory",
+      "asset": "production_machine",
+      "label": "Hydraulic production press",
+      "status": "accepted",
+      "row": 1,
+      "column": 3,
+      "source_path": "voxel/factory/assets/production_machine/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "6b7f0b9efd2cdbb5f67a7f9dd0f7c591949ac89ec35e098cd057fc326ab5d81e",
+      "metadata_path": "voxel/factory/assets/production_machine/half/metadata.json",
+      "metadata_sha256_before": "a5a139fa8c63f6fe84e00542151e2f482f5faef07c6bedbe5ce34975934ccb19",
+      "thumbnail_rectangle": [
+        1240,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "13 Hydraulic production press"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "6b7f0b9efd2cdbb5f67a7f9dd0f7c591949ac89ec35e098cd057fc326ab5d81e",
+      "metadata_sha256_after": "a5a139fa8c63f6fe84e00542151e2f482f5faef07c6bedbe5ce34975934ccb19"
+    },
+    {
+      "index": 14,
+      "theme": "factory",
+      "theme_display": "Factory",
+      "asset": "robot_workcell",
+      "label": "Articulated robot assembly workcell",
+      "status": "accepted",
+      "row": 1,
+      "column": 4,
+      "source_path": "voxel/factory/additions/assets/robot_workcell/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "346b15cffa313656c84380d765b7385c271972341c4ebbfb8061f4031bfa1b1e",
+      "metadata_path": "voxel/factory/additions/assets/robot_workcell/half/metadata.json",
+      "metadata_sha256_before": "85d67e96524731d90c6b351cd50b8863bc09ad9d96c7c7419c0464dcd5535a66",
+      "thumbnail_rectangle": [
+        1640,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "14 Articulated robot assembly workcell"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "346b15cffa313656c84380d765b7385c271972341c4ebbfb8061f4031bfa1b1e",
+      "metadata_sha256_after": "85d67e96524731d90c6b351cd50b8863bc09ad9d96c7c7419c0464dcd5535a66"
+    },
+    {
+      "index": 15,
+      "theme": "construction",
+      "theme_display": "Construction",
+      "asset": "concrete_mixer",
+      "label": "Concrete mixer truck",
+      "status": "accepted",
+      "row": 1,
+      "column": 5,
+      "source_path": "voxel/construction/assets/concrete_mixer/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "633c846599c1106ecaeb6767f69a146b95e31dad828e71335dce977d6779d891",
+      "metadata_path": "voxel/construction/assets/concrete_mixer/half/metadata.json",
+      "metadata_sha256_before": "6c1bf2cbbcdfbc96de97a39aedcdd3774179abbf2ec7bf8f59492e41d6075e59",
+      "thumbnail_rectangle": [
+        2040,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "15 Concrete mixer truck"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "633c846599c1106ecaeb6767f69a146b95e31dad828e71335dce977d6779d891",
+      "metadata_sha256_after": "6c1bf2cbbcdfbc96de97a39aedcdd3774179abbf2ec7bf8f59492e41d6075e59"
+    },
+    {
+      "index": 16,
+      "theme": "construction",
+      "theme_display": "Construction",
+      "asset": "site_office",
+      "label": "Portable site office",
+      "status": "accepted",
+      "row": 1,
+      "column": 6,
+      "source_path": "voxel/construction/assets/site_office/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "bc3b15cb2309933c33b878d913e758d66061729cfc04e9730a2b03a19c3d6573",
+      "metadata_path": "voxel/construction/assets/site_office/half/metadata.json",
+      "metadata_sha256_before": "6329e6e6c21441c702564fcb085cb5d149b978f7f5d25e2a9c117089c0e14f37",
+      "thumbnail_rectangle": [
+        2440,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "16 Portable site office"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "bc3b15cb2309933c33b878d913e758d66061729cfc04e9730a2b03a19c3d6573",
+      "metadata_sha256_after": "6329e6e6c21441c702564fcb085cb5d149b978f7f5d25e2a9c117089c0e14f37"
+    },
+    {
+      "index": 17,
+      "theme": "construction",
+      "theme_display": "Construction",
+      "asset": "tower_crane",
+      "label": "Tower crane",
+      "status": "accepted",
+      "row": 1,
+      "column": 7,
+      "source_path": "voxel/construction/assets/tower_crane/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "4f537a18496c3fd9922177ca2349de57dc7a3643a9a6eed6d3cc5771fe912ad9",
+      "metadata_path": "voxel/construction/assets/tower_crane/half/metadata.json",
+      "metadata_sha256_before": "59bf2a9a02168c01019a17c70a2b55b5c35f9fb8541bd03c691ac9a1c7c742fc",
+      "thumbnail_rectangle": [
+        2840,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "17 Tower crane"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "4f537a18496c3fd9922177ca2349de57dc7a3643a9a6eed6d3cc5771fe912ad9",
+      "metadata_sha256_after": "59bf2a9a02168c01019a17c70a2b55b5c35f9fb8541bd03c691ac9a1c7c742fc"
+    },
+    {
+      "index": 18,
+      "theme": "construction",
+      "theme_display": "Construction",
+      "asset": "wheel_loader",
+      "label": "Wheel loader",
+      "status": "accepted",
+      "row": 1,
+      "column": 8,
+      "source_path": "voxel/construction/assets/wheel_loader/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "418ca1b70803731a976cf0c891f6d9e1d76572ce05e7d3ade20d5c086597313b",
+      "metadata_path": "voxel/construction/assets/wheel_loader/half/metadata.json",
+      "metadata_sha256_before": "ad96548bccfb4e7a9bcd0c5a4ec1514ead28861c1a049a5501e108f719b035de",
+      "thumbnail_rectangle": [
+        3240,
+        700,
+        384,
+        384
+      ],
+      "label_lines": [
+        "18 Wheel loader"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "418ca1b70803731a976cf0c891f6d9e1d76572ce05e7d3ade20d5c086597313b",
+      "metadata_sha256_after": "ad96548bccfb4e7a9bcd0c5a4ec1514ead28861c1a049a5501e108f719b035de"
+    },
+    {
+      "index": 19,
+      "theme": "antarctic",
+      "theme_display": "Antarctic",
+      "asset": "ice_core_drill",
+      "label": "Sled-mounted Antarctic ice core drill",
+      "status": "accepted",
+      "row": 2,
+      "column": 0,
+      "source_path": "voxel/antarctic/additions/assets/ice_core_drill/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "8ddf9cbd065831c3b86dbefb24b1d0660b4a4abaed936f82e342f45fece6e481",
+      "metadata_path": "voxel/antarctic/additions/assets/ice_core_drill/half/metadata.json",
+      "metadata_sha256_before": "069276097ddf94f0dd04d5562837f8b5fb458c61494848a9c975c241fcedad4c",
+      "thumbnail_rectangle": [
+        40,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "19 Sled-mounted Antarctic ice core",
+        "drill"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "8ddf9cbd065831c3b86dbefb24b1d0660b4a4abaed936f82e342f45fece6e481",
+      "metadata_sha256_after": "069276097ddf94f0dd04d5562837f8b5fb458c61494848a9c975c241fcedad4c"
+    },
+    {
+      "index": 20,
+      "theme": "antarctic",
+      "theme_display": "Antarctic",
+      "asset": "radar",
+      "label": "Open polar radar antenna",
+      "status": "accepted",
+      "row": 2,
+      "column": 1,
+      "source_path": "voxel/antarctic/assets/radar/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "15fdbf20562a4af04399bfe26714e7cceb3f3c2254ac553516142cfc76d9ef39",
+      "metadata_path": "voxel/antarctic/assets/radar/half/metadata.json",
+      "metadata_sha256_before": "e86acae2d6f642775ce5bd46c766f63f2d147a3e2ba13c7b8f675b02d97267fe",
+      "thumbnail_rectangle": [
+        440,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "20 Open polar radar antenna"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "15fdbf20562a4af04399bfe26714e7cceb3f3c2254ac553516142cfc76d9ef39",
+      "metadata_sha256_after": "e86acae2d6f642775ce5bd46c766f63f2d147a3e2ba13c7b8f675b02d97267fe"
+    },
+    {
+      "index": 21,
+      "theme": "antarctic",
+      "theme_display": "Antarctic",
+      "asset": "research_station",
+      "label": "Six-leg polar research station",
+      "status": "accepted",
+      "row": 2,
+      "column": 2,
+      "source_path": "voxel/antarctic/assets/research_station/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "0474cea7b1a26fe5e714a3120155b75e642d0d889117cadc98a92894b1a22e9b",
+      "metadata_path": "voxel/antarctic/assets/research_station/half/metadata.json",
+      "metadata_sha256_before": "c51e0cc29ca98e66c781040dbc615420e6c4e202efcbdf65485276ea85b2c02c",
+      "thumbnail_rectangle": [
+        840,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "21 Six-leg polar research station"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "0474cea7b1a26fe5e714a3120155b75e642d0d889117cadc98a92894b1a22e9b",
+      "metadata_sha256_after": "c51e0cc29ca98e66c781040dbc615420e6c4e202efcbdf65485276ea85b2c02c"
+    },
+    {
+      "index": 22,
+      "theme": "antarctic",
+      "theme_display": "Antarctic",
+      "asset": "snowcat",
+      "label": "Tracked Antarctic utility snowcat",
+      "status": "accepted",
+      "row": 2,
+      "column": 3,
+      "source_path": "voxel/antarctic/assets/snowcat/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "92ccfc4186a9e7a41a5186e34055efb72d38fa86a311792b80f9f982cd14f4a4",
+      "metadata_path": "voxel/antarctic/assets/snowcat/half/metadata.json",
+      "metadata_sha256_before": "91476ec99ba9dbd05f0c2ad4166f38e9e64ce0ec7ec41606f51ac0955ae47358",
+      "thumbnail_rectangle": [
+        1240,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "22 Tracked Antarctic utility snowcat"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "92ccfc4186a9e7a41a5186e34055efb72d38fa86a311792b80f9f982cd14f4a4",
+      "metadata_sha256_after": "91476ec99ba9dbd05f0c2ad4166f38e9e64ce0ec7ec41606f51ac0955ae47358"
+    },
+    {
+      "index": 23,
+      "theme": "antarctic",
+      "theme_display": "Antarctic",
+      "asset": "weather_instrument",
+      "label": "Autonomous polar weather mast",
+      "status": "accepted",
+      "row": 2,
+      "column": 4,
+      "source_path": "voxel/antarctic/assets/weather_instrument/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f27eb7bb99f982a7e37d47dc0717146c3834f3a739b5a9540e25efadabe38ed9",
+      "metadata_path": "voxel/antarctic/assets/weather_instrument/half/metadata.json",
+      "metadata_sha256_before": "d84948f49dbcb94e07e14e74b00455599a203350e3b9030583ed7c355d1b740d",
+      "thumbnail_rectangle": [
+        1640,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "23 Autonomous polar weather mast"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f27eb7bb99f982a7e37d47dc0717146c3834f3a739b5a9540e25efadabe38ed9",
+      "metadata_sha256_after": "d84948f49dbcb94e07e14e74b00455599a203350e3b9030583ed7c355d1b740d"
+    },
+    {
+      "index": 24,
+      "theme": "fire_rescue",
+      "theme_display": "Fire Rescue",
+      "asset": "fire_engine",
+      "label": "Ladder fire engine",
+      "status": "accepted",
+      "row": 2,
+      "column": 5,
+      "source_path": "voxel/fire_rescue/assets/fire_engine/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f4469973e53e5a607feacb425bfd52ecd378e40ebe3b31f7e28d44fc910a7a12",
+      "metadata_path": "voxel/fire_rescue/assets/fire_engine/half/metadata.json",
+      "metadata_sha256_before": "a48dc744860c135bf45fe601c5ea0dfecc4f48d48f930496f768cf80b8bf4c00",
+      "thumbnail_rectangle": [
+        2040,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "24 Ladder fire engine"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f4469973e53e5a607feacb425bfd52ecd378e40ebe3b31f7e28d44fc910a7a12",
+      "metadata_sha256_after": "a48dc744860c135bf45fe601c5ea0dfecc4f48d48f930496f768cf80b8bf4c00"
+    },
+    {
+      "index": 25,
+      "theme": "fire_rescue",
+      "theme_display": "Fire Rescue",
+      "asset": "fire_station",
+      "label": "Two-bay rescue station",
+      "status": "accepted",
+      "row": 2,
+      "column": 6,
+      "source_path": "voxel/fire_rescue/assets/fire_station/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "283138a9085563c94a89891e8d8f913eed6b94b5442aa6093b6fae20a95858cf",
+      "metadata_path": "voxel/fire_rescue/assets/fire_station/half/metadata.json",
+      "metadata_sha256_before": "fb920f53864201c80df41f81b7214f0c5343b83114fac317705b3fbbb6ff40ab",
+      "thumbnail_rectangle": [
+        2440,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "25 Two-bay rescue station"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "283138a9085563c94a89891e8d8f913eed6b94b5442aa6093b6fae20a95858cf",
+      "metadata_sha256_after": "fb920f53864201c80df41f81b7214f0c5343b83114fac317705b3fbbb6ff40ab"
+    },
+    {
+      "index": 26,
+      "theme": "fire_rescue",
+      "theme_display": "Fire Rescue",
+      "asset": "rescue_helicopter",
+      "label": "Winch rescue helicopter",
+      "status": "accepted",
+      "row": 2,
+      "column": 7,
+      "source_path": "voxel/fire_rescue/assets/rescue_helicopter/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "74c62161ed99e02725777af26806e8b0e7d087af64e967d1540a2dbea7642fe7",
+      "metadata_path": "voxel/fire_rescue/assets/rescue_helicopter/half/metadata.json",
+      "metadata_sha256_before": "6b3778e687fc5b31da78313c8d221d519f1e075ba90db0e24ef31b258039daaf",
+      "thumbnail_rectangle": [
+        2840,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "26 Winch rescue helicopter"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "74c62161ed99e02725777af26806e8b0e7d087af64e967d1540a2dbea7642fe7",
+      "metadata_sha256_after": "6b3778e687fc5b31da78313c8d221d519f1e075ba90db0e24ef31b258039daaf"
+    },
+    {
+      "index": 27,
+      "theme": "fire_rescue",
+      "theme_display": "Fire Rescue",
+      "asset": "rescue_robot",
+      "label": "Tracked rescue manipulator",
+      "status": "accepted",
+      "row": 2,
+      "column": 8,
+      "source_path": "voxel/fire_rescue/assets/rescue_robot/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "708d15c7efe58a7f2289f3804daff0844e6322ae68909541e9b3cdce1e6e143d",
+      "metadata_path": "voxel/fire_rescue/assets/rescue_robot/half/metadata.json",
+      "metadata_sha256_before": "85fa1ed9a2133920be1a3d1508907a31dca91198c4ca1cde311af84b36c311cd",
+      "thumbnail_rectangle": [
+        3240,
+        1204,
+        384,
+        384
+      ],
+      "label_lines": [
+        "27 Tracked rescue manipulator"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "708d15c7efe58a7f2289f3804daff0844e6322ae68909541e9b3cdce1e6e143d",
+      "metadata_sha256_after": "85fa1ed9a2133920be1a3d1508907a31dca91198c4ca1cde311af84b36c311cd"
+    },
+    {
+      "index": 28,
+      "theme": "harbor",
+      "theme_display": "Harbor",
+      "asset": "cargo_crane",
+      "label": "Four-leg harbor cargo crane",
+      "status": "accepted",
+      "row": 3,
+      "column": 0,
+      "source_path": "voxel/harbor/assets/cargo_crane/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "507fb7e3bc3abd3b36b921de2ec6d0fc0b2c9976746c952603858ce2d043583b",
+      "metadata_path": "voxel/harbor/assets/cargo_crane/half/metadata.json",
+      "metadata_sha256_before": "5b2cb86eb9a199026f2a8c5a0e6065ed1c29026602ecb93e4e6ec3ad8852567e",
+      "thumbnail_rectangle": [
+        40,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "28 Four-leg harbor cargo crane"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "507fb7e3bc3abd3b36b921de2ec6d0fc0b2c9976746c952603858ce2d043583b",
+      "metadata_sha256_after": "5b2cb86eb9a199026f2a8c5a0e6065ed1c29026602ecb93e4e6ec3ad8852567e"
+    },
+    {
+      "index": 29,
+      "theme": "harbor",
+      "theme_display": "Harbor",
+      "asset": "fishing_boat",
+      "label": "Harbor working fishing boat",
+      "status": "accepted",
+      "row": 3,
+      "column": 1,
+      "source_path": "voxel/harbor/assets/fishing_boat/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f6e39ede69d9c49a89b77f5cbea2b7e72544746c3966243d7d5f7d6777739efd",
+      "metadata_path": "voxel/harbor/assets/fishing_boat/half/metadata.json",
+      "metadata_sha256_before": "dd2f008f082337b70487d95f1ee2055197b99fc67303594281b68a5b115de8bf",
+      "thumbnail_rectangle": [
+        440,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "29 Harbor working fishing boat"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f6e39ede69d9c49a89b77f5cbea2b7e72544746c3966243d7d5f7d6777739efd",
+      "metadata_sha256_after": "dd2f008f082337b70487d95f1ee2055197b99fc67303594281b68a5b115de8bf"
+    },
+    {
+      "index": 30,
+      "theme": "harbor",
+      "theme_display": "Harbor",
+      "asset": "lighthouse",
+      "label": "Lantern harbor lighthouse",
+      "status": "accepted",
+      "row": 3,
+      "column": 2,
+      "source_path": "voxel/harbor/assets/lighthouse/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "459ada4ffffa43ecb719fe60640df951a63e545b08185eb4dfd66a9f9dafa9fb",
+      "metadata_path": "voxel/harbor/assets/lighthouse/half/metadata.json",
+      "metadata_sha256_before": "b9e1ce2712dbcb9fe9c8df500cd99126addaa51e0742ec9a6878b3cbe85dc037",
+      "thumbnail_rectangle": [
+        840,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "30 Lantern harbor lighthouse"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "459ada4ffffa43ecb719fe60640df951a63e545b08185eb4dfd66a9f9dafa9fb",
+      "metadata_sha256_after": "b9e1ce2712dbcb9fe9c8df500cd99126addaa51e0742ec9a6878b3cbe85dc037"
+    },
+    {
+      "index": 31,
+      "theme": "harbor",
+      "theme_display": "Harbor",
+      "asset": "repair_dock",
+      "label": "Empty harbor repair dock",
+      "status": "accepted",
+      "row": 3,
+      "column": 3,
+      "source_path": "voxel/harbor/additions/assets/repair_dock/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "ed60b8dc1c2b24c6e783f54b38cdd37d1f07cc88048d7ef3053d297baf12c08e",
+      "metadata_path": "voxel/harbor/additions/assets/repair_dock/half/metadata.json",
+      "metadata_sha256_before": "2cca5f2cc5fb2261afacf8c95f727dc7935607f76cee1fd258cea8829d57d415",
+      "thumbnail_rectangle": [
+        1240,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "31 Empty harbor repair dock"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "ed60b8dc1c2b24c6e783f54b38cdd37d1f07cc88048d7ef3053d297baf12c08e",
+      "metadata_sha256_after": "2cca5f2cc5fb2261afacf8c95f727dc7935607f76cee1fd258cea8829d57d415"
+    },
+    {
+      "index": 32,
+      "theme": "harbor",
+      "theme_display": "Harbor",
+      "asset": "warehouse",
+      "label": "Barrel-roof harbor warehouse",
+      "status": "accepted",
+      "row": 3,
+      "column": 4,
+      "source_path": "voxel/harbor/assets/warehouse/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "b4619f5effe0eb511a5957d87d46fb7f6df68b13643e45f7439ec177b9360287",
+      "metadata_path": "voxel/harbor/assets/warehouse/half/metadata.json",
+      "metadata_sha256_before": "c2911c339fe1328c57bf186ed6caa964512970da7d518f738296352820ec3619",
+      "thumbnail_rectangle": [
+        1640,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "32 Barrel-roof harbor warehouse"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "b4619f5effe0eb511a5957d87d46fb7f6df68b13643e45f7439ec177b9360287",
+      "metadata_sha256_after": "c2911c339fe1328c57bf186ed6caa964512970da7d518f738296352820ec3619"
+    },
+    {
+      "index": 33,
+      "theme": "bakery",
+      "theme_display": "Bakery",
+      "asset": "bakery_shop",
+      "label": "동네 빵집",
+      "status": "accepted",
+      "row": 3,
+      "column": 5,
+      "source_path": "voxel/bakery/assets/bakery_shop/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "8a9197a40abe9abebb72c2411c00c8b8809da66ccb906fc71e6d033b1a47b821",
+      "metadata_path": "voxel/bakery/assets/bakery_shop/half/metadata.json",
+      "metadata_sha256_before": "63f957f5c6167d826df92efc2448fd5dd12929ffb858bdbf96eb46fe99f48ff4",
+      "thumbnail_rectangle": [
+        2040,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "33 동네 빵집"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "8a9197a40abe9abebb72c2411c00c8b8809da66ccb906fc71e6d033b1a47b821",
+      "metadata_sha256_after": "63f957f5c6167d826df92efc2448fd5dd12929ffb858bdbf96eb46fe99f48ff4"
+    },
+    {
+      "index": 34,
+      "theme": "bakery",
+      "theme_display": "Bakery",
+      "asset": "bread_oven",
+      "label": "벽돌 빵 화덕",
+      "status": "accepted",
+      "row": 3,
+      "column": 6,
+      "source_path": "voxel/bakery/assets/bread_oven/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "83584964c629ac3b391d617d388864f98cc25c953d2e98f6d5b6e1658f2bd125",
+      "metadata_path": "voxel/bakery/assets/bread_oven/half/metadata.json",
+      "metadata_sha256_before": "43228ccb484cef91fb88905e34fa419136aa0f6fb8902ca4792bd8072fa7576f",
+      "thumbnail_rectangle": [
+        2440,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "34 벽돌 빵 화덕"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "83584964c629ac3b391d617d388864f98cc25c953d2e98f6d5b6e1658f2bd125",
+      "metadata_sha256_after": "43228ccb484cef91fb88905e34fa419136aa0f6fb8902ca4792bd8072fa7576f"
+    },
+    {
+      "index": 35,
+      "theme": "bakery",
+      "theme_display": "Bakery",
+      "asset": "delivery_van",
+      "label": "빵 배달 밴",
+      "status": "accepted",
+      "row": 3,
+      "column": 7,
+      "source_path": "voxel/bakery/assets/delivery_van/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "40e24f16ee7bdde877a83eabd41835441df53282a5dd0b22aa478355655f4a8b",
+      "metadata_path": "voxel/bakery/assets/delivery_van/half/metadata.json",
+      "metadata_sha256_before": "e5334b0c4fc76c4f9c9a6993ea8619bd96537fc33b56c832062831c49937861d",
+      "thumbnail_rectangle": [
+        2840,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "35 빵 배달 밴"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "40e24f16ee7bdde877a83eabd41835441df53282a5dd0b22aa478355655f4a8b",
+      "metadata_sha256_after": "e5334b0c4fc76c4f9c9a6993ea8619bd96537fc33b56c832062831c49937861d"
+    },
+    {
+      "index": 36,
+      "theme": "bakery",
+      "theme_display": "Bakery",
+      "asset": "dough_mixer",
+      "label": "반죽 혼합기",
+      "status": "accepted",
+      "row": 3,
+      "column": 8,
+      "source_path": "voxel/bakery/assets/dough_mixer/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "19e4a1000c639ceae6c098af6e690aaae5084588fc59dfe62bf35efe728e9371",
+      "metadata_path": "voxel/bakery/assets/dough_mixer/half/metadata.json",
+      "metadata_sha256_before": "c43d80560101389be25830a911c4e1c73233c8e1227528de7f6c3f75618770ed",
+      "thumbnail_rectangle": [
+        3240,
+        1708,
+        384,
+        384
+      ],
+      "label_lines": [
+        "36 반죽 혼합기"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "19e4a1000c639ceae6c098af6e690aaae5084588fc59dfe62bf35efe728e9371",
+      "metadata_sha256_after": "c43d80560101389be25830a911c4e1c73233c8e1227528de7f6c3f75618770ed"
+    },
+    {
+      "index": 37,
+      "theme": "mine",
+      "theme_display": "Mine",
+      "asset": "excavator",
+      "label": "Compact tracked mine excavator",
+      "status": "accepted",
+      "row": 4,
+      "column": 0,
+      "source_path": "voxel/mine/assets/excavator/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "af58ec4c1f5726750628b8c0b64de3b149dd0cc639cbdb4f7a333a6e67cbe191",
+      "metadata_path": "voxel/mine/assets/excavator/half/metadata.json",
+      "metadata_sha256_before": "19ca55d11c8d033754c4d4c66368831d50ec0015b16974102e0c95ba297c6269",
+      "thumbnail_rectangle": [
+        40,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "37 Compact tracked mine excavator"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "af58ec4c1f5726750628b8c0b64de3b149dd0cc639cbdb4f7a333a6e67cbe191",
+      "metadata_sha256_after": "19ca55d11c8d033754c4d4c66368831d50ec0015b16974102e0c95ba297c6269"
+    },
+    {
+      "index": 38,
+      "theme": "mine",
+      "theme_display": "Mine",
+      "asset": "haul_truck",
+      "label": "Six-wheel open-bed mine haul truck",
+      "status": "accepted",
+      "row": 4,
+      "column": 1,
+      "source_path": "voxel/mine/additions/assets/haul_truck/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "d03d195ce4d8179202d79331c180ec626b5fb069539a3b55245289cd79de799a",
+      "metadata_path": "voxel/mine/additions/assets/haul_truck/half/metadata.json",
+      "metadata_sha256_before": "a30971c3e2da534ab1bdfc3a4800ffd679602343d62f47b4b2904d61d0ca05f5",
+      "thumbnail_rectangle": [
+        440,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "38 Six-wheel open-bed mine haul truck"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "d03d195ce4d8179202d79331c180ec626b5fb069539a3b55245289cd79de799a",
+      "metadata_sha256_after": "a30971c3e2da534ab1bdfc3a4800ffd679602343d62f47b4b2904d61d0ca05f5"
+    },
+    {
+      "index": 39,
+      "theme": "mine",
+      "theme_display": "Mine",
+      "asset": "mine_cart",
+      "label": "Tapered mine ore cart",
+      "status": "accepted",
+      "row": 4,
+      "column": 2,
+      "source_path": "voxel/mine/assets/mine_cart/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "d6dc0addd9a95a115b8213afd1e1960b0900d735b5929a1f24f8c603f66d4db2",
+      "metadata_path": "voxel/mine/assets/mine_cart/half/metadata.json",
+      "metadata_sha256_before": "543252bacb294d334e43a453385546cd63d92c8716d06e1c697401fe66ff7a09",
+      "thumbnail_rectangle": [
+        840,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "39 Tapered mine ore cart"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "d6dc0addd9a95a115b8213afd1e1960b0900d735b5929a1f24f8c603f66d4db2",
+      "metadata_sha256_after": "543252bacb294d334e43a453385546cd63d92c8716d06e1c697401fe66ff7a09"
+    },
+    {
+      "index": 40,
+      "theme": "mine",
+      "theme_display": "Mine",
+      "asset": "mine_elevator",
+      "label": "Cable mine service elevator",
+      "status": "accepted",
+      "row": 4,
+      "column": 3,
+      "source_path": "voxel/mine/assets/mine_elevator/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "a7d784b65b0e2e601444986d86e4bab12a8771c4860119e0098356caf116b322",
+      "metadata_path": "voxel/mine/assets/mine_elevator/half/metadata.json",
+      "metadata_sha256_before": "d0e5e0af2b9d6ac2e568e6141de789db331537668e1ff3ca17258e2f6e15fb85",
+      "thumbnail_rectangle": [
+        1240,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "40 Cable mine service elevator"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "a7d784b65b0e2e601444986d86e4bab12a8771c4860119e0098356caf116b322",
+      "metadata_sha256_after": "d0e5e0af2b9d6ac2e568e6141de789db331537668e1ff3ca17258e2f6e15fb85"
+    },
+    {
+      "index": 41,
+      "theme": "mine",
+      "theme_display": "Mine",
+      "asset": "ore_sorter",
+      "label": "Hopper and inclined mine ore sorter",
+      "status": "accepted",
+      "row": 4,
+      "column": 4,
+      "source_path": "voxel/mine/assets/ore_sorter/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "da862ba59a024668d9cf74f72b9636a99ecbfc8f345c6d060d93bece0db2e0e8",
+      "metadata_path": "voxel/mine/assets/ore_sorter/half/metadata.json",
+      "metadata_sha256_before": "45bfeb01637dd9ed99f75c0143ab41ead8d7bbdca43a917edaca05445c903669",
+      "thumbnail_rectangle": [
+        1640,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "41 Hopper and inclined mine ore",
+        "sorter"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "da862ba59a024668d9cf74f72b9636a99ecbfc8f345c6d060d93bece0db2e0e8",
+      "metadata_sha256_after": "45bfeb01637dd9ed99f75c0143ab41ead8d7bbdca43a917edaca05445c903669"
+    },
+    {
+      "index": 42,
+      "theme": "airfield",
+      "theme_display": "Airfield",
+      "asset": "airport_tug",
+      "label": "Airport tug",
+      "status": "pending_review",
+      "row": 4,
+      "column": 5,
+      "source_path": "voxel/airfield/assets/airport_tug/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "47e4848a5407ac1858089be86a0955d5b235d6d78d49535c624f9a83af0b070a",
+      "metadata_path": "voxel/airfield/assets/airport_tug/half/metadata.json",
+      "metadata_sha256_before": "6449aeef56b3b47a2cfbd24fe85a6cd40577f0c341a0e00008da2b5a7b3745ee",
+      "thumbnail_rectangle": [
+        2040,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "42 Airport tug"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "47e4848a5407ac1858089be86a0955d5b235d6d78d49535c624f9a83af0b070a",
+      "metadata_sha256_after": "6449aeef56b3b47a2cfbd24fe85a6cd40577f0c341a0e00008da2b5a7b3745ee"
+    },
+    {
+      "index": 43,
+      "theme": "airfield",
+      "theme_display": "Airfield",
+      "asset": "control_tower",
+      "label": "Airfield control tower",
+      "status": "pending_review",
+      "row": 4,
+      "column": 6,
+      "source_path": "voxel/airfield/assets/control_tower/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "4a53407d1ef588c22df4540c8c69690a9db722a10a016632611ff86a07008678",
+      "metadata_path": "voxel/airfield/assets/control_tower/half/metadata.json",
+      "metadata_sha256_before": "549ceb52d2132c616f6ecbbe77036179ca1c545b4afb45887af738ac09b3bb0b",
+      "thumbnail_rectangle": [
+        2440,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "43 Airfield control tower"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "4a53407d1ef588c22df4540c8c69690a9db722a10a016632611ff86a07008678",
+      "metadata_sha256_after": "549ceb52d2132c616f6ecbbe77036179ca1c545b4afb45887af738ac09b3bb0b"
+    },
+    {
+      "index": 44,
+      "theme": "airfield",
+      "theme_display": "Airfield",
+      "asset": "maintenance_hangar",
+      "label": "Open maintenance hangar",
+      "status": "pending_review",
+      "row": 4,
+      "column": 7,
+      "source_path": "voxel/airfield/assets/maintenance_hangar/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "b6bb9bd8bf74962c40c38316c0fcf958a914dc99901c9f60dde33b64049f3828",
+      "metadata_path": "voxel/airfield/assets/maintenance_hangar/half/metadata.json",
+      "metadata_sha256_before": "3021e06074543227e7eef11be5c5f7e8cf73a25d307eb216f0881928f4839133",
+      "thumbnail_rectangle": [
+        2840,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "44 Open maintenance hangar"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "b6bb9bd8bf74962c40c38316c0fcf958a914dc99901c9f60dde33b64049f3828",
+      "metadata_sha256_after": "3021e06074543227e7eef11be5c5f7e8cf73a25d307eb216f0881928f4839133"
+    },
+    {
+      "index": 45,
+      "theme": "airfield",
+      "theme_display": "Airfield",
+      "asset": "propeller_plane",
+      "label": "Propeller plane",
+      "status": "pending_review",
+      "row": 4,
+      "column": 8,
+      "source_path": "voxel/airfield/assets/propeller_plane/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "0503f170e36a44e2c00887667db805f16a0f0ea4bd5d370b2472d2d42d16d3e1",
+      "metadata_path": "voxel/airfield/assets/propeller_plane/half/metadata.json",
+      "metadata_sha256_before": "3c5a6d05b568ab2abb3ef83ceb607c50a83a9092d3f379e92d5ba1cd9478e240",
+      "thumbnail_rectangle": [
+        3240,
+        2212,
+        384,
+        384
+      ],
+      "label_lines": [
+        "45 Propeller plane"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "0503f170e36a44e2c00887667db805f16a0f0ea4bd5d370b2472d2d42d16d3e1",
+      "metadata_sha256_after": "3c5a6d05b568ab2abb3ef83ceb607c50a83a9092d3f379e92d5ba1cd9478e240"
+    },
+    {
+      "index": 46,
+      "theme": "desert",
+      "theme_display": "Desert",
+      "asset": "exploration_rover",
+      "label": "Six-wheel desert exploration rover",
+      "status": "accepted",
+      "row": 5,
+      "column": 0,
+      "source_path": "voxel/desert/assets/exploration_rover/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "c123b8568c7629f1fff2213e318d95c5369dff5b7f3217c620d05a5d958ee78a",
+      "metadata_path": "voxel/desert/assets/exploration_rover/half/metadata.json",
+      "metadata_sha256_before": "3df007ae6b4573410dbeb96e929f05588d937160a9d22be082f8c153e41f19b0",
+      "thumbnail_rectangle": [
+        40,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "46 Six-wheel desert exploration rover"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "c123b8568c7629f1fff2213e318d95c5369dff5b7f3217c620d05a5d958ee78a",
+      "metadata_sha256_after": "3df007ae6b4573410dbeb96e929f05588d937160a9d22be082f8c153e41f19b0"
+    },
+    {
+      "index": 47,
+      "theme": "desert",
+      "theme_display": "Desert",
+      "asset": "repair_garage",
+      "label": "Open-front desert repair garage",
+      "status": "accepted",
+      "row": 5,
+      "column": 1,
+      "source_path": "voxel/desert/assets/repair_garage/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "37568008477a2a762f84f08e0ff3b49e7a1581d2760ab5c872da7d1762b49ace",
+      "metadata_path": "voxel/desert/assets/repair_garage/half/metadata.json",
+      "metadata_sha256_before": "80840f3432e72470d56440e11d7ba692070cdcc3f0a71d55739eae2312ead193",
+      "thumbnail_rectangle": [
+        440,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "47 Open-front desert repair garage"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "37568008477a2a762f84f08e0ff3b49e7a1581d2760ab5c872da7d1762b49ace",
+      "metadata_sha256_after": "80840f3432e72470d56440e11d7ba692070cdcc3f0a71d55739eae2312ead193"
+    },
+    {
+      "index": 48,
+      "theme": "desert",
+      "theme_display": "Desert",
+      "asset": "solar_array",
+      "label": "Three-section desert solar array",
+      "status": "accepted",
+      "row": 5,
+      "column": 2,
+      "source_path": "voxel/desert/assets/solar_array/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "8903d6799db366107c76d51e664015f76155941cd201807e331ad14a2ba7c68a",
+      "metadata_path": "voxel/desert/assets/solar_array/half/metadata.json",
+      "metadata_sha256_before": "cce7fd3423a151f0a4c1375182d8ff2195ac16d84d92f92ad1caf3c366e0a964",
+      "thumbnail_rectangle": [
+        840,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "48 Three-section desert solar array"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "8903d6799db366107c76d51e664015f76155941cd201807e331ad14a2ba7c68a",
+      "metadata_sha256_after": "cce7fd3423a151f0a4c1375182d8ff2195ac16d84d92f92ad1caf3c366e0a964"
+    },
+    {
+      "index": 49,
+      "theme": "desert",
+      "theme_display": "Desert",
+      "asset": "water_purifier",
+      "label": "사막 정수 장치",
+      "status": "accepted",
+      "row": 5,
+      "column": 3,
+      "source_path": "voxel/desert/additions/assets/water_purifier/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "2681365a6e1328fabbfe54c797c6cd90b0890f96af591814cfc8a16629c2b062",
+      "metadata_path": "voxel/desert/additions/assets/water_purifier/half/metadata.json",
+      "metadata_sha256_before": "a97530399524121b064ce4069bad9d9dd1c58e353ddd3f46f20b5db0ef8abf41",
+      "thumbnail_rectangle": [
+        1240,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "49 사막 정수 장치"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "2681365a6e1328fabbfe54c797c6cd90b0890f96af591814cfc8a16629c2b062",
+      "metadata_sha256_after": "a97530399524121b064ce4069bad9d9dd1c58e353ddd3f46f20b5db0ef8abf41"
+    },
+    {
+      "index": 50,
+      "theme": "desert",
+      "theme_display": "Desert",
+      "asset": "water_tower",
+      "label": "Four-leg desert reservoir",
+      "status": "accepted",
+      "row": 5,
+      "column": 4,
+      "source_path": "voxel/desert/assets/water_tower/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "a53cfbf7db1c2fa0bd7a8a97a7f2aeab18bb61d9501b6a1e75085c090698439c",
+      "metadata_path": "voxel/desert/assets/water_tower/half/metadata.json",
+      "metadata_sha256_before": "18cda86995c30a6e29006277f20d899f803fb2429a1342f36f832381ce979a64",
+      "thumbnail_rectangle": [
+        1640,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "50 Four-leg desert reservoir"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "a53cfbf7db1c2fa0bd7a8a97a7f2aeab18bb61d9501b6a1e75085c090698439c",
+      "metadata_sha256_after": "18cda86995c30a6e29006277f20d899f803fb2429a1342f36f832381ce979a64"
+    },
+    {
+      "index": 51,
+      "theme": "recycling",
+      "theme_display": "Recycling",
+      "asset": "collection_truck",
+      "label": "Rear-loading collection truck",
+      "status": "pending_review",
+      "row": 5,
+      "column": 5,
+      "source_path": "voxel/recycling/assets/collection_truck/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "4fe16b6b117f16b2e0526f2a93a68919c2f2f603ceb383428d1782e06fdb32f2",
+      "metadata_path": "voxel/recycling/assets/collection_truck/half/metadata.json",
+      "metadata_sha256_before": "c671270c077f92e5162f349f53e851bb582eaba48cde7b358bd00ec5a2c396de",
+      "thumbnail_rectangle": [
+        2040,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "51 Rear-loading collection truck"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "4fe16b6b117f16b2e0526f2a93a68919c2f2f603ceb383428d1782e06fdb32f2",
+      "metadata_sha256_after": "c671270c077f92e5162f349f53e851bb582eaba48cde7b358bd00ec5a2c396de"
+    },
+    {
+      "index": 52,
+      "theme": "recycling",
+      "theme_display": "Recycling",
+      "asset": "compactor",
+      "label": "Vertical hydraulic baler",
+      "status": "pending_review",
+      "row": 5,
+      "column": 6,
+      "source_path": "voxel/recycling/assets/compactor/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f83fa5ce0a5e136bb2b75ab18f47008420f9db0293af10e146e3eec592674242",
+      "metadata_path": "voxel/recycling/assets/compactor/half/metadata.json",
+      "metadata_sha256_before": "15b0ae2a50cd7202daad3a7ccdd9ce265041bee5815db62232d6c2b7c1642adc",
+      "thumbnail_rectangle": [
+        2440,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "52 Vertical hydraulic baler"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f83fa5ce0a5e136bb2b75ab18f47008420f9db0293af10e146e3eec592674242",
+      "metadata_sha256_after": "15b0ae2a50cd7202daad3a7ccdd9ce265041bee5815db62232d6c2b7c1642adc"
+    },
+    {
+      "index": 53,
+      "theme": "recycling",
+      "theme_display": "Recycling",
+      "asset": "recycling_center",
+      "label": "Recycling receiving center",
+      "status": "pending_review",
+      "row": 5,
+      "column": 7,
+      "source_path": "voxel/recycling/assets/recycling_center/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "15d56f7d677237991e78247d41ce11bc9d1f9568ae9b2ede59b7da8289987df0",
+      "metadata_path": "voxel/recycling/assets/recycling_center/half/metadata.json",
+      "metadata_sha256_before": "ed6efe4834aae0b6c26a0c793e32537820827dbeac58480f7235bbf68fc223ff",
+      "thumbnail_rectangle": [
+        2840,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "53 Recycling receiving center"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "15d56f7d677237991e78247d41ce11bc9d1f9568ae9b2ede59b7da8289987df0",
+      "metadata_sha256_after": "ed6efe4834aae0b6c26a0c793e32537820827dbeac58480f7235bbf68fc223ff"
+    },
+    {
+      "index": 54,
+      "theme": "recycling",
+      "theme_display": "Recycling",
+      "asset": "sorting_machine",
+      "label": "Optical sorting conveyor",
+      "status": "pending_review",
+      "row": 5,
+      "column": 8,
+      "source_path": "voxel/recycling/assets/sorting_machine/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "1d76cab46ae613fece30b801ab38e504e0e20447944e1af96e535c94c98ec046",
+      "metadata_path": "voxel/recycling/assets/sorting_machine/half/metadata.json",
+      "metadata_sha256_before": "cbc0f0e776806c5dbd9cf748f21dc4aa82b969b683113a93cc455b16c28038b9",
+      "thumbnail_rectangle": [
+        3240,
+        2716,
+        384,
+        384
+      ],
+      "label_lines": [
+        "54 Optical sorting conveyor"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "1d76cab46ae613fece30b801ab38e504e0e20447944e1af96e535c94c98ec046",
+      "metadata_sha256_after": "cbc0f0e776806c5dbd9cf748f21dc4aa82b969b683113a93cc455b16c28038b9"
+    },
+    {
+      "index": 55,
+      "theme": "mountain_railway",
+      "theme_display": "Mountain Railway",
+      "asset": "cable_car",
+      "label": "Alpine capsule cable car",
+      "status": "accepted",
+      "row": 6,
+      "column": 0,
+      "source_path": "voxel/mountain_railway/assets/cable_car/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "f74992a5177b06e8f058e21106f6c481a3ac2c31f6e5767d0d999fa62e13e69d",
+      "metadata_path": "voxel/mountain_railway/assets/cable_car/half/metadata.json",
+      "metadata_sha256_before": "04dd48b213acaae86b4a4a97666e5b44307c0579c3e18e85d0e21262574c1765",
+      "thumbnail_rectangle": [
+        40,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "55 Alpine capsule cable car"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "f74992a5177b06e8f058e21106f6c481a3ac2c31f6e5767d0d999fa62e13e69d",
+      "metadata_sha256_after": "04dd48b213acaae86b4a4a97666e5b44307c0579c3e18e85d0e21262574c1765"
+    },
+    {
+      "index": 56,
+      "theme": "mountain_railway",
+      "theme_display": "Mountain Railway",
+      "asset": "locomotive",
+      "label": "Mountain diesel locomotive",
+      "status": "accepted",
+      "row": 6,
+      "column": 1,
+      "source_path": "voxel/mountain_railway/assets/locomotive/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "d6a4b60643c041cd2c51980a10e21e8dacd70263d558b42514c90c96e469aa3b",
+      "metadata_path": "voxel/mountain_railway/assets/locomotive/half/metadata.json",
+      "metadata_sha256_before": "e66b50eff887fa3e7e64fcd780c2f4bce551bca4b64a964ecf1d568beedfe4f8",
+      "thumbnail_rectangle": [
+        440,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "56 Mountain diesel locomotive"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "d6a4b60643c041cd2c51980a10e21e8dacd70263d558b42514c90c96e469aa3b",
+      "metadata_sha256_after": "e66b50eff887fa3e7e64fcd780c2f4bce551bca4b64a964ecf1d568beedfe4f8"
+    },
+    {
+      "index": 57,
+      "theme": "mountain_railway",
+      "theme_display": "Mountain Railway",
+      "asset": "passenger_car",
+      "label": "Mountain passenger coach",
+      "status": "accepted",
+      "row": 6,
+      "column": 2,
+      "source_path": "voxel/mountain_railway/assets/passenger_car/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "864450b6d4f69af14959166a2f7256c65d722eb62566048a9fe9566919253d04",
+      "metadata_path": "voxel/mountain_railway/assets/passenger_car/half/metadata.json",
+      "metadata_sha256_before": "049a8511c6a5d41eb78c1d30be9cac3d26fffd1c4731db3a55774830f8f180d1",
+      "thumbnail_rectangle": [
+        840,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "57 Mountain passenger coach"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "864450b6d4f69af14959166a2f7256c65d722eb62566048a9fe9566919253d04",
+      "metadata_sha256_after": "049a8511c6a5d41eb78c1d30be9cac3d26fffd1c4731db3a55774830f8f180d1"
+    },
+    {
+      "index": 58,
+      "theme": "mountain_railway",
+      "theme_display": "Mountain Railway",
+      "asset": "railway_bridge",
+      "label": "Open-arch masonry railway bridge",
+      "status": "accepted",
+      "row": 6,
+      "column": 3,
+      "source_path": "voxel/mountain_railway/assets/railway_bridge/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "bff5b86ce4bc8a92611e20ff7c84aa18914030b7e0c68abd58e2ecca4832e639",
+      "metadata_path": "voxel/mountain_railway/assets/railway_bridge/half/metadata.json",
+      "metadata_sha256_before": "88247102f79740cca420744b7f1b02e745793f3d5a3d42d29d8fd1b46f836e52",
+      "thumbnail_rectangle": [
+        1240,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "58 Open-arch masonry railway bridge"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "bff5b86ce4bc8a92611e20ff7c84aa18914030b7e0c68abd58e2ecca4832e639",
+      "metadata_sha256_after": "88247102f79740cca420744b7f1b02e745793f3d5a3d42d29d8fd1b46f836e52"
+    },
+    {
+      "index": 59,
+      "theme": "mountain_railway",
+      "theme_display": "Mountain Railway",
+      "asset": "station",
+      "label": "Sheltered mountain station",
+      "status": "accepted",
+      "row": 6,
+      "column": 4,
+      "source_path": "voxel/mountain_railway/assets/station/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "3df2cf51f568904d454bd93a37865c0a15ef19730306b52cdc73d210f2c02d78",
+      "metadata_path": "voxel/mountain_railway/assets/station/half/metadata.json",
+      "metadata_sha256_before": "78cbf8d56dd78857b398bb36e48522564de9ac64c2c9747a76745a98a89e58e5",
+      "thumbnail_rectangle": [
+        1640,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "59 Sheltered mountain station"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "3df2cf51f568904d454bd93a37865c0a15ef19730306b52cdc73d210f2c02d78",
+      "metadata_sha256_after": "78cbf8d56dd78857b398bb36e48522564de9ac64c2c9747a76745a98a89e58e5"
+    },
+    {
+      "index": 60,
+      "theme": "geothermal",
+      "theme_display": "Geothermal",
+      "asset": "cooling_tower",
+      "label": "Open-throat geothermal cooling tower",
+      "status": "wip_unverified",
+      "row": 6,
+      "column": 5,
+      "source_path": "voxel/geothermal/assets/cooling_tower/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "e5d7bb45c61b809a3b5f14e4c6879486ca8216be44fc6f5f0d428865b4bfc2dd",
+      "metadata_path": "voxel/geothermal/assets/cooling_tower/half/metadata.json",
+      "metadata_sha256_before": "583f75240965fbc918730f3cad5d0799c61e4b7ba736edfdc6984e91a10faeb9",
+      "thumbnail_rectangle": [
+        2040,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "60 Open-throat geothermal cooling",
+        "tower"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "e5d7bb45c61b809a3b5f14e4c6879486ca8216be44fc6f5f0d428865b4bfc2dd",
+      "metadata_sha256_after": "583f75240965fbc918730f3cad5d0799c61e4b7ba736edfdc6984e91a10faeb9"
+    },
+    {
+      "index": 61,
+      "theme": "geothermal",
+      "theme_display": "Geothermal",
+      "asset": "geothermal_drill",
+      "label": "Stabilized geothermal drilling plant",
+      "status": "wip_unverified",
+      "row": 6,
+      "column": 6,
+      "source_path": "voxel/geothermal/assets/geothermal_drill/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "7cec3a59e454aa27fe6f1d8e6368a0bccd790fd5986cb19435503192efdcd8e2",
+      "metadata_path": "voxel/geothermal/assets/geothermal_drill/half/metadata.json",
+      "metadata_sha256_before": "b160a9e851c9fcc1eec22efac9dcae2ea5bd3f6d16eeefd6ee57eb1d86bba478",
+      "thumbnail_rectangle": [
+        2440,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "61 Stabilized geothermal drilling plant"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "7cec3a59e454aa27fe6f1d8e6368a0bccd790fd5986cb19435503192efdcd8e2",
+      "metadata_sha256_after": "b160a9e851c9fcc1eec22efac9dcae2ea5bd3f6d16eeefd6ee57eb1d86bba478"
+    },
+    {
+      "index": 62,
+      "theme": "geothermal",
+      "theme_display": "Geothermal",
+      "asset": "thermal_rover",
+      "label": "Protected thermal sampling rover",
+      "status": "wip_unverified",
+      "row": 6,
+      "column": 7,
+      "source_path": "voxel/geothermal/assets/thermal_rover/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "9824b28703f991075b64cd5aa972aacc122801d1379572c5f22a5f9f21380fdb",
+      "metadata_path": "voxel/geothermal/assets/thermal_rover/half/metadata.json",
+      "metadata_sha256_before": "237d9257d658352a94c6e0a050a57d8aad9a084f66b89a6ed585c71fdcbbc3fc",
+      "thumbnail_rectangle": [
+        2840,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "62 Protected thermal sampling rover"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "9824b28703f991075b64cd5aa972aacc122801d1379572c5f22a5f9f21380fdb",
+      "metadata_sha256_after": "237d9257d658352a94c6e0a050a57d8aad9a084f66b89a6ed585c71fdcbbc3fc"
+    },
+    {
+      "index": 63,
+      "theme": "geothermal",
+      "theme_display": "Geothermal",
+      "asset": "volcano_observatory",
+      "label": "Glazed volcano monitoring observatory",
+      "status": "wip_unverified",
+      "row": 6,
+      "column": 8,
+      "source_path": "voxel/geothermal/assets/volcano_observatory/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "7f0ff5e35f0c2f95c5cf461fa508bd39e03feaa4c1db02bb42a89e6b1aa99076",
+      "metadata_path": "voxel/geothermal/assets/volcano_observatory/half/metadata.json",
+      "metadata_sha256_before": "3da856d4727fea7a7fec2b9bd0213aa2a9890ef04b08aa423639b5683d76c0a6",
+      "thumbnail_rectangle": [
+        3240,
+        3220,
+        384,
+        384
+      ],
+      "label_lines": [
+        "63 Glazed volcano monitoring",
+        "observatory"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "7f0ff5e35f0c2f95c5cf461fa508bd39e03feaa4c1db02bb42a89e6b1aa99076",
+      "metadata_sha256_after": "3da856d4727fea7a7fec2b9bd0213aa2a9890ef04b08aa423639b5683d76c0a6"
+    },
+    {
+      "index": 64,
+      "theme": "spaceport",
+      "theme_display": "Spaceport",
+      "asset": "control_tower",
+      "label": "Rounded spaceport control tower",
+      "status": "accepted",
+      "row": 7,
+      "column": 0,
+      "source_path": "voxel/spaceport/assets/control_tower/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "bd75697f126a9acd951c1a38e4ce939c308ad4e7d1c09610c0f0ad197f99a204",
+      "metadata_path": "voxel/spaceport/assets/control_tower/half/metadata.json",
+      "metadata_sha256_before": "2bca22e10d0a2345ee25d5db3a7a7444abc1fd2941b659a6cbab72f85167f8dc",
+      "thumbnail_rectangle": [
+        40,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "64 Rounded spaceport control tower"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "bd75697f126a9acd951c1a38e4ce939c308ad4e7d1c09610c0f0ad197f99a204",
+      "metadata_sha256_after": "2bca22e10d0a2345ee25d5db3a7a7444abc1fd2941b659a6cbab72f85167f8dc"
+    },
+    {
+      "index": 65,
+      "theme": "spaceport",
+      "theme_display": "Spaceport",
+      "asset": "exploration_rover",
+      "label": "Six-wheel pressurized exploration rover",
+      "status": "accepted",
+      "row": 7,
+      "column": 1,
+      "source_path": "voxel/spaceport/assets/exploration_rover/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "09846afc3f7392498a86495632fd3b10d2bf532a198a4f5b06919c7fb5b407bb",
+      "metadata_path": "voxel/spaceport/assets/exploration_rover/half/metadata.json",
+      "metadata_sha256_before": "a989f2e11d377322eb2bb4c553cf71e89bfb68348847efeed6f35df63f266108",
+      "thumbnail_rectangle": [
+        440,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "65 Six-wheel pressurized exploration",
+        "rover"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "09846afc3f7392498a86495632fd3b10d2bf532a198a4f5b06919c7fb5b407bb",
+      "metadata_sha256_after": "a989f2e11d377322eb2bb4c553cf71e89bfb68348847efeed6f35df63f266108"
+    },
+    {
+      "index": 66,
+      "theme": "spaceport",
+      "theme_display": "Spaceport",
+      "asset": "fuel_tank",
+      "label": "Twin capsule fuel-storage skid",
+      "status": "accepted",
+      "row": 7,
+      "column": 2,
+      "source_path": "voxel/spaceport/assets/fuel_tank/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "63a48f77ed2bedbe721ffc23c4794f83332586d38281ac0082a2252613ea8092",
+      "metadata_path": "voxel/spaceport/assets/fuel_tank/half/metadata.json",
+      "metadata_sha256_before": "dadcdb11a060c391b8e2cb6c684eaed4ea43c9e6a703eeda7869c15ed22052df",
+      "thumbnail_rectangle": [
+        840,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "66 Twin capsule fuel-storage skid"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "63a48f77ed2bedbe721ffc23c4794f83332586d38281ac0082a2252613ea8092",
+      "metadata_sha256_after": "dadcdb11a060c391b8e2cb6c684eaed4ea43c9e6a703eeda7869c15ed22052df"
+    },
+    {
+      "index": 67,
+      "theme": "spaceport",
+      "theme_display": "Spaceport",
+      "asset": "hangar",
+      "label": "Low barrel-vault spacecraft hangar",
+      "status": "accepted",
+      "row": 7,
+      "column": 3,
+      "source_path": "voxel/spaceport/assets/hangar/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "ac37ac2782aee26fb8b969bcec9b0c5fe8d60d68c27e04c1a02da8bdf08952a7",
+      "metadata_path": "voxel/spaceport/assets/hangar/half/metadata.json",
+      "metadata_sha256_before": "5b763aef083bcbbbdbda0438af87a54fc6dcdf6421723b370fd2bc9311302b36",
+      "thumbnail_rectangle": [
+        1240,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "67 Low barrel-vault spacecraft hangar"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "ac37ac2782aee26fb8b969bcec9b0c5fe8d60d68c27e04c1a02da8bdf08952a7",
+      "metadata_sha256_after": "5b763aef083bcbbbdbda0438af87a54fc6dcdf6421723b370fd2bc9311302b36"
+    },
+    {
+      "index": 68,
+      "theme": "spaceport",
+      "theme_display": "Spaceport",
+      "asset": "transport_rocket",
+      "label": "Four-leg capsule transport rocket",
+      "status": "accepted",
+      "row": 7,
+      "column": 4,
+      "source_path": "voxel/spaceport/assets/transport_rocket/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "0c600367313c7641f0cc6dfad1034e7460927d9822eafaf237820350e1865671",
+      "metadata_path": "voxel/spaceport/assets/transport_rocket/half/metadata.json",
+      "metadata_sha256_before": "e8087842a7714d87c98cee0bf00f021d93b7df6548791760b2a08ee38c1daac6",
+      "thumbnail_rectangle": [
+        1640,
+        3724,
+        384,
+        384
+      ],
+      "label_lines": [
+        "68 Four-leg capsule transport rocket"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "0c600367313c7641f0cc6dfad1034e7460927d9822eafaf237820350e1865671",
+      "metadata_sha256_after": "e8087842a7714d87c98cee0bf00f021d93b7df6548791760b2a08ee38c1daac6"
+    },
+    {
+      "index": 69,
+      "theme": "underwater",
+      "theme_display": "Underwater",
+      "asset": "connecting_tunnel",
+      "label": "Open-ended pressure connecting tunnel",
+      "status": "accepted",
+      "row": 8,
+      "column": 0,
+      "source_path": "voxel/underwater/assets/connecting_tunnel/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "6cb8f2ace6a83f8611d6109a51d213c43f25de526149f983f916b32675791fe0",
+      "metadata_path": "voxel/underwater/assets/connecting_tunnel/half/metadata.json",
+      "metadata_sha256_before": "aa3a87fe5c8b2c329f13cc016b080c193430b8c43717ffb59dcd1510ce67e198",
+      "thumbnail_rectangle": [
+        40,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "69 Open-ended pressure connecting",
+        "tunnel"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "6cb8f2ace6a83f8611d6109a51d213c43f25de526149f983f916b32675791fe0",
+      "metadata_sha256_after": "aa3a87fe5c8b2c329f13cc016b080c193430b8c43717ffb59dcd1510ce67e198"
+    },
+    {
+      "index": 70,
+      "theme": "underwater",
+      "theme_display": "Underwater",
+      "asset": "docking_station",
+      "label": "Dual-guide undersea docking platform",
+      "status": "accepted",
+      "row": 8,
+      "column": 1,
+      "source_path": "voxel/underwater/assets/docking_station/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "e5644ebac4c5427bd037850dafc755cafd8789f7551c833deb5f10a80e1bad58",
+      "metadata_path": "voxel/underwater/assets/docking_station/half/metadata.json",
+      "metadata_sha256_before": "92f40496c189a9e62dd945c46b53550050253202201dd5df409575f12808c65c",
+      "thumbnail_rectangle": [
+        440,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "70 Dual-guide undersea docking",
+        "platform"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "e5644ebac4c5427bd037850dafc755cafd8789f7551c833deb5f10a80e1bad58",
+      "metadata_sha256_after": "92f40496c189a9e62dd945c46b53550050253202201dd5df409575f12808c65c"
+    },
+    {
+      "index": 71,
+      "theme": "underwater",
+      "theme_display": "Underwater",
+      "asset": "dome_laboratory",
+      "label": "Ribbed undersea dome laboratory",
+      "status": "accepted",
+      "row": 8,
+      "column": 2,
+      "source_path": "voxel/underwater/assets/dome_laboratory/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "8368305ec20b930592d92757ce179a75ec00fe7c86a8fd6eb6374d5ce077bafb",
+      "metadata_path": "voxel/underwater/assets/dome_laboratory/half/metadata.json",
+      "metadata_sha256_before": "395a3b4bc450af2a8edf2ad382c646ad848002d8971ba761c023a9a233869c86",
+      "thumbnail_rectangle": [
+        840,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "71 Ribbed undersea dome laboratory"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "8368305ec20b930592d92757ce179a75ec00fe7c86a8fd6eb6374d5ce077bafb",
+      "metadata_sha256_after": "395a3b4bc450af2a8edf2ad382c646ad848002d8971ba761c023a9a233869c86"
+    },
+    {
+      "index": 72,
+      "theme": "underwater",
+      "theme_display": "Underwater",
+      "asset": "seabed_miner",
+      "label": "Six-leg seabed drilling crawler",
+      "status": "accepted",
+      "row": 8,
+      "column": 3,
+      "source_path": "voxel/underwater/assets/seabed_miner/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "5a56b0178a30d98992a5ddf951651e373685e029357ed729ba7cb682466d97bd",
+      "metadata_path": "voxel/underwater/assets/seabed_miner/half/metadata.json",
+      "metadata_sha256_before": "af68c73c6532e2b4858f797f4ef92dea830ce5426e993354f96b2d65cd511387",
+      "thumbnail_rectangle": [
+        1240,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "72 Six-leg seabed drilling crawler"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "5a56b0178a30d98992a5ddf951651e373685e029357ed729ba7cb682466d97bd",
+      "metadata_sha256_after": "af68c73c6532e2b4858f797f4ef92dea830ce5426e993354f96b2d65cd511387"
+    },
+    {
+      "index": 73,
+      "theme": "underwater",
+      "theme_display": "Underwater",
+      "asset": "submersible",
+      "label": "Ducted-thruster research submersible",
+      "status": "accepted",
+      "row": 8,
+      "column": 4,
+      "source_path": "voxel/underwater/assets/submersible/half/preview.png",
+      "source_dimensions": [
+        768,
+        768
+      ],
+      "sha256_before": "771e0d178f6953f05b6c64fdafaa4f82a1cdbb25b16f0449a27562ee19b00e21",
+      "metadata_path": "voxel/underwater/assets/submersible/half/metadata.json",
+      "metadata_sha256_before": "42e11212910df9b0da89b2f3b094e73e025d888a9bb7be4433bb00d65c8e43dd",
+      "thumbnail_rectangle": [
+        1640,
+        4228,
+        384,
+        384
+      ],
+      "label_lines": [
+        "73 Ducted-thruster research",
+        "submersible"
+      ],
+      "label_bounds_checked": true,
+      "sha256_after": "771e0d178f6953f05b6c64fdafaa4f82a1cdbb25b16f0449a27562ee19b00e21",
+      "metadata_sha256_after": "42e11212910df9b0da89b2f3b094e73e025d888a9bb7be4433bb00d65c8e43dd"
+    }
+  ],
+  "visual_inspection": {
+    "inspected_at_utc": "2026-10-25T04:53:54.099351+00:00",
+    "method": "view_image of the finished PNG at original detail",
+    "output_sha256_inspected": "6836db2f017decdc224e33356f129af2dc3d49647d2d8884b97606325756a8e2",
+    "result": "All 73 numbered cards and full-frame thumbnails visible; theme/status badges and model labels fit; no omitted or clipped cards observed."
+  }
+}

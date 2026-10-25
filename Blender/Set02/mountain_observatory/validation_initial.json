@@ -1,0 +1,195 @@
+{
+  "asset": "mountain_observatory",
+  "validation_started_at_utc": "2026-10-23T12:28:05.268279+00:00",
+  "validation_finished_at_utc": "2026-10-23T12:28:14.216192+00:00",
+  "validation_seconds": 8.947595200035721,
+  "blender_version": "4.5.12 LTS",
+  "method": "Separate Blender process; saved BLEND ASSET, then fresh empty-scene imports of GLB and FBX; true matrix_world transformed vertices, evaluated triangulation, area and UV area tests. Topology measured after position-only weld at 1 micrometer.",
+  "tolerances": {
+    "geometry_triangle_area_m2": 1e-12,
+    "uv_triangle_area": 1e-14,
+    "bounds_m": 0.0001
+  },
+  "checks": {
+    "native_geometry_uv_material_pass": false,
+    "glb_geometry_uv_material_pass": false,
+    "fbx_geometry_uv_material_pass": false,
+    "all_modifiers_baked": true,
+    "exports_exact_triangle_consistency": true,
+    "exports_transformed_vertex_bounds_consistency": true,
+    "asset_bottom_z_is_zero": true,
+    "required_actual_renders_present": true
+  },
+  "passed": false,
+  "native": {
+    "label": "Saved BLEND / ASSET",
+    "mesh_objects": 335,
+    "vertices": 113870,
+    "evaluated_triangles": 225924,
+    "bounds_min_m": [
+      -2.6600000858306885,
+      -3.4000000953674316,
+      0.0
+    ],
+    "bounds_max_m": [
+      4.389999866485596,
+      2.6600000858306885,
+      5.994852542877197
+    ],
+    "dimensions_m": [
+      7.049999952316284,
+      6.06000018119812,
+      5.994852542877197
+    ],
+    "finite_geometry": true,
+    "zero_area_triangles": 0,
+    "degenerate_uv_triangles": 4,
+    "missing_uv_objects": [],
+    "uv_outside_unit_square_objects": [],
+    "missing_material_objects": [],
+    "missing_external_images": [],
+    "studio_objects_in_asset_export": [],
+    "topology_exception_details": [
+      {
+        "object": "Dome west continuous shell",
+        "zero_area_triangles": 0,
+        "degenerate_uv_triangles": 4,
+        "position_weld_boundary_edges": 0,
+        "position_weld_nonmanifold_edges": 0
+      }
+    ],
+    "metric_pass": false,
+    "asset_collection_present": true,
+    "studio_collection_present": true,
+    "unapplied_modifier_count": 0,
+    "render_resolution": [
+      1440,
+      1080
+    ]
+  },
+  "glb": {
+    "label": "Fresh GLB import",
+    "mesh_objects": 335,
+    "vertices": 157117,
+    "evaluated_triangles": 225924,
+    "bounds_min_m": [
+      -2.6600000858306885,
+      -3.4000000953674316,
+      0.0
+    ],
+    "bounds_max_m": [
+      4.389999866485596,
+      2.6600000858306885,
+      5.994852542877197
+    ],
+    "dimensions_m": [
+      7.049999952316284,
+      6.06000018119812,
+      5.994852542877197
+    ],
+    "finite_geometry": true,
+    "zero_area_triangles": 0,
+    "degenerate_uv_triangles": 4,
+    "missing_uv_objects": [],
+    "uv_outside_unit_square_objects": [],
+    "missing_material_objects": [],
+    "missing_external_images": [],
+    "studio_objects_in_asset_export": [],
+    "topology_exception_details": [
+      {
+        "object": "Dome west continuous shell",
+        "zero_area_triangles": 0,
+        "degenerate_uv_triangles": 4,
+        "position_weld_boundary_edges": 0,
+        "position_weld_nonmanifold_edges": 0
+      }
+    ],
+    "metric_pass": false
+  },
+  "fbx": {
+    "label": "Fresh FBX import",
+    "mesh_objects": 335,
+    "vertices": 113870,
+    "evaluated_triangles": 225924,
+    "bounds_min_m": [
+      -2.6600000858306885,
+      -3.4000000953674316,
+      -2.419371867290465e-07
+    ],
+    "bounds_max_m": [
+      4.389999866485596,
+      2.6600000858306885,
+      5.994852542877197
+    ],
+    "dimensions_m": [
+      7.049999952316284,
+      6.06000018119812,
+      5.994852784814384
+    ],
+    "finite_geometry": true,
+    "zero_area_triangles": 0,
+    "degenerate_uv_triangles": 4,
+    "missing_uv_objects": [],
+    "uv_outside_unit_square_objects": [],
+    "missing_material_objects": [],
+    "missing_external_images": [],
+    "studio_objects_in_asset_export": [],
+    "topology_exception_details": [
+      {
+        "object": "Dome west continuous shell",
+        "zero_area_triangles": 0,
+        "degenerate_uv_triangles": 4,
+        "position_weld_boundary_edges": 0,
+        "position_weld_nonmanifold_edges": 0
+      }
+    ],
+    "metric_pass": false
+  },
+  "cross_format": {
+    "glb": {
+      "exact_triangle_match": true,
+      "max_bounds_delta_m": 0.0,
+      "bounds_match_within_0_1_mm": true
+    },
+    "fbx": {
+      "exact_triangle_match": true,
+      "max_bounds_delta_m": 2.419371867290465e-07,
+      "bounds_match_within_0_1_mm": true
+    }
+  },
+  "stable_artifact_hashes": {
+    "mountain_observatory.blend": {
+      "bytes": 21375388,
+      "sha256": "df818d52aa03ff29055276157054d874f97995d8a8fb14c3dc0439a29d5a8f31"
+    },
+    "mountain_observatory.glb": {
+      "bytes": 6368220,
+      "sha256": "66c7562473c852a2edae47d2118d1ba9d53a4dabb9cc91a221e441e203370708"
+    },
+    "mountain_observatory.fbx": {
+      "bytes": 7467420,
+      "sha256": "b53620cfef5801232e0e1a0ec08936410e47d035921df2032a5484714005eaa0"
+    },
+    "renders/hero.png": {
+      "bytes": 1851388,
+      "sha256": "7f206ada316176483800ce780f5f4da678933040871c5df1d6bc85800972f957"
+    },
+    "renders/rear.png": {
+      "bytes": 1793312,
+      "sha256": "b2b8c1d79175fd315eaa0cbb83853c2dc906f99e3493883e5d07672e5610c650"
+    },
+    "build.py": {
+      "bytes": 31468,
+      "sha256": "74042d1d813d661d6c0b86e9c02455217b0ba96f602de3b0a2b76fd34cba3c5e"
+    },
+    "capture_manifest.json": {
+      "bytes": 1438,
+      "sha256": "06e620ce6edfc6f189a75a8bf8c864b1e12d79c2ee65518c50207292eb3fbca9"
+    }
+  },
+  "limits": [
+    "Static production asset; no animations, collision, LODs or rig.",
+    "Independent component UV layouts and solid PBR colors; no generated or bitmap surface textures.",
+    "Intersecting assembled components are intentional; mesh topology checks are component-wise, not a boolean union of the building."
+  ]
+}

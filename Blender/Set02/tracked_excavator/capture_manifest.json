@@ -1,0 +1,49 @@
+{
+  "renderer": "Blender Cycles CPU",
+  "threads": 4,
+  "samples": 40,
+  "denoising": true,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "projection": "ORTHO",
+  "ortho_scale": 6.7,
+  "actual_renders": true,
+  "views": [
+    {
+      "name": "hero",
+      "file": "renders/hero.png",
+      "camera": [
+        6.4,
+        -9.5,
+        5.1
+      ],
+      "target": [
+        -0.10000000149011612,
+        -0.8999999761581421,
+        1.399999976158142
+      ],
+      "started_at_utc": "2026-10-23T12:32:25.977103+00:00",
+      "finished_at_utc": "2026-10-23T12:33:18.068641+00:00",
+      "seconds": 52.09400000004098
+    },
+    {
+      "name": "rear",
+      "file": "renders/rear.png",
+      "camera": [
+        -6.8,
+        7.3,
+        4.7
+      ],
+      "target": [
+        -0.10000000149011612,
+        -0.8999999761581421,
+        1.399999976158142
+      ],
+      "started_at_utc": "2026-10-23T12:33:18.068641+00:00",
+      "finished_at_utc": "2026-10-23T12:34:04.372945+00:00",
+      "seconds": 46.311999999918044
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+﻿{
+    "asset":  "cargo_rover",
+    "renderer":  "Blender 4.5.12 LTS / Cycles CPU",
+    "threads":  4,
+    "resolution":  [
+                       1440,
+                       1080
+                   ],
+    "samples":  40,
+    "denoising":  true,
+    "color_transform":  "AgX",
+    "projection":  "orthographic",
+    "ortho_scale":  5.2,
+    "target":  [
+                   0,
+                   0,
+                   1.12
+               ],
+    "views":  [
+                  {
+                      "name":  "hero",
+                      "image":  "renders/hero.png",
+                      "camera_location":  [
+                                              6.4,
+                                              -8.4,
+                                              5.1
+                                          ],
+                      "file_written_at_utc":  "2026-10-23T09:50:30.2265244Z"
+                  },
+                  {
+                      "name":  "rear",
+                      "image":  "renders/rear.png",
+                      "camera_location":  [
+                                              -6.2,
+                                              8.2,
+                                              4.8
+                                          ],
+                      "file_written_at_utc":  "2026-10-23T09:51:19.6633944Z"
+                  }
+              ],
+    "source":  "cargo_rover.blend",
+    "evidence":  "Actual Blender renders; not generated concept images"
+}

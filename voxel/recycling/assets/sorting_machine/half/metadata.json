@@ -1,0 +1,176 @@
+{
+  "asset": "sorting_machine",
+  "label": "Optical sorting conveyor",
+  "variant": "half",
+  "format": "MagicaVoxel VOX 150",
+  "coordinate_system": "X right, Y back, Z up; front -Y",
+  "origin": "XY grid center, bottom grid plane Z=0",
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      39,
+      101,
+      82,
+      255
+    ],
+    [
+      64,
+      129,
+      103,
+      255
+    ],
+    [
+      26,
+      70,
+      59,
+      255
+    ],
+    [
+      226,
+      221,
+      194,
+      255
+    ],
+    [
+      246,
+      241,
+      218,
+      255
+    ],
+    [
+      45,
+      50,
+      52,
+      255
+    ],
+    [
+      75,
+      89,
+      93,
+      255
+    ],
+    [
+      143,
+      153,
+      150,
+      255
+    ],
+    [
+      237,
+      185,
+      48,
+      255
+    ],
+    [
+      191,
+      129,
+      34,
+      255
+    ],
+    [
+      58,
+      81,
+      91,
+      255
+    ],
+    [
+      105,
+      133,
+      143,
+      255
+    ],
+    [
+      177,
+      73,
+      48,
+      255
+    ],
+    [
+      163,
+      116,
+      65,
+      255
+    ],
+    [
+      197,
+      151,
+      91,
+      255
+    ]
+  ],
+  "notes": [
+    "Original exposed belt with front/rear rollers, two flared receiving funnels with open lateral throats, twin overhead sensor heads, drive motor and separate mounting feet.",
+    "The loose feedstock is static palette geometry. No sorting simulation, conveyor animation or transparency."
+  ],
+  "half_method": "2x2x2 nonempty majority; color index breaks ties; optional documented detail correction",
+  "same_physical_grid_extents": true,
+  "grid_size": [
+    64,
+    51,
+    48
+  ],
+  "occupied_voxels": 22307,
+  "voxel_size_m": 0.09,
+  "grid_extents_m": [
+    5.76,
+    4.59,
+    4.32
+  ],
+  "occupied_bounds_voxels": [
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      64,
+      49,
+      48
+    ]
+  ],
+  "bounds_m": [
+    [
+      -2.88,
+      -2.1149999999999998,
+      0.0
+    ],
+    [
+      2.88,
+      2.1149999999999998,
+      4.32
+    ]
+  ],
+  "palette_indices": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "occupancy_sha256": "7b051b753fff66346f60629b03594d2dda8164c724a6cf704c4fb8666ce355ad",
+  "surface": {
+    "quads": 993,
+    "triangles": 1986,
+    "exposed_unit_faces": 14852,
+    "surface_area_m2": 120.3012,
+    "materials": 8
+  },
+  "native_roundtrip_passed": true,
+  "exported_geometry_only": true,
+  "uv": "No texture UV required: per-face solid palette PBR materials",
+  "sha256": {
+    "sorting_machine.vox": "67b96a84b9516ef678001ac4069c28adbfaf2b25276ded1b82f34c9ed33fb2c1",
+    "sorting_machine.blend": "ffac8b47eea754c190809f2f2cf6860b7b5bd08b42c7e2695c346066a74f4de0",
+    "sorting_machine.glb": "57d86c778854d042d5c7c21e419afc17f2f74b68905c8ac654d84cbb8acf649e",
+    "sorting_machine.fbx": "d6faed3b8af00fa2555b137c346d69162ac80f4ac41feee8c54ed8105146c4a2",
+    "preview.png": "1d76cab46ae613fece30b801ab38e504e0e20447944e1af96e535c94c98ec046"
+  }
+}

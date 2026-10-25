@@ -1,0 +1,52 @@
+{
+  "asset": "cargo_rover",
+  "started_at_utc": "2026-10-23T09:49:30.694746+00:00",
+  "finished_at_utc": "2026-10-23T09:51:19.678393+00:00",
+  "blender": "4.5.12 LTS",
+  "mesh_objects": 320,
+  "triangles": 156628,
+  "dimensions_m": [
+    2.3300998210906982,
+    4.050449967384338,
+    2.406796932220459
+  ],
+  "bounds_min": [
+    -1.1650499105453491,
+    -1.9984499216079712,
+    0.0
+  ],
+  "bounds_max": [
+    1.1650499105453491,
+    2.052000045776367,
+    2.406796932220459
+  ],
+  "missing_uv": [],
+  "nonfinite_vertices": [],
+  "wheel_count": 4,
+  "geometry_only_exports": true,
+  "materials": [
+    "Rover_Amber_Lens",
+    "Rover_Brushed_Steel",
+    "Rover_Charcoal_Upholstery",
+    "Rover_Graphite_Metal",
+    "Rover_Red_Taillight",
+    "Rover_Sage_Edge",
+    "Rover_Sage_Enamel",
+    "Rover_Sage_Inset",
+    "Rover_Smoky_Blue_Glass",
+    "Rover_Tread_Rubber",
+    "Rover_Tyre_Rubber",
+    "Rover_Utility_Orange",
+    "Rover_Warm_Headlamp",
+    "Rover_Warm_Ivory_Paint"
+  ],
+  "renders": [
+    "renders/hero.png",
+    "renders/rear.png"
+  ],
+  "limitations": [
+    "Static model; no armature, collision mesh or LOD chain.",
+    "UVs are per component and may overlap across different objects; no single atlas or measured uniform texel density was requested.",
+    "Solid PBR materials; concept-art micro-weathering is intentionally not baked into texture maps."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "theme": "airfield",
+  "worker": "worker1",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T16:47:30Z",
+  "started_at_kst": "2026-10-24T01:47:30+09:00",
+  "finished_at_utc": "2026-10-23T17:01:51.491334+00:00",
+  "elapsed_seconds": 861.491334,
+  "assets": [
+    "propeller_plane",
+    "airport_tug",
+    "maintenance_hangar",
+    "control_tower"
+  ],
+  "blockers": [],
+  "finished_at_kst": "2026-10-24T02:01:51.491334+09:00",
+  "frozen": true,
+  "process_timing_seconds": {
+    "build": 87.88993750000373,
+    "rendering_included_in_build": 83.16333770006895,
+    "fresh_three_format_validation": 6.929979300010018,
+    "saved_native_feature_checks": 0.3646040998864919
+  },
+  "validation": {
+    "passed": true,
+    "variants": 8,
+    "fresh_imports": 24,
+    "saved_native_feature_checks": 42,
+    "actual_previews_inspected": 8,
+    "same_camera_pairs": 4,
+    "tower_unoccluded_front_glass_cells": {
+      "large": 571,
+      "half": 123
+    }
+  },
+  "limitations": [
+    "Static opaque palette assets; no rig, animation, collision, LOD chain or game-engine integration.",
+    "Rear hangar equipment is dark in common studio view; the maintenance bay remains visibly open.",
+    "Conservative reduction may expand occupied bounds by one large cell (0.05m)."
+  ]
+}

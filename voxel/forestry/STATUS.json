@@ -1,0 +1,37 @@
+{
+  "theme": "forestry",
+  "worker": "worker1",
+  "status": "ready_for_review",
+  "started_at_utc": "2026-10-23T16:30:32Z",
+  "started_at_kst": "2026-10-24T01:30:32+09:00",
+  "finished_at_utc": "2026-10-23T16:44:37.744296+00:00",
+  "elapsed_seconds": 845.744296,
+  "assets": [
+    "logging_harvester",
+    "timber_forwarder",
+    "sawmill",
+    "log_rack"
+  ],
+  "blockers": [],
+  "finished_at_kst": "2026-10-24T01:44:37.744296+09:00",
+  "frozen": true,
+  "process_timing_seconds": {
+    "build": 86.95866779994685,
+    "fresh_three_format_validation": 15.264019900001585,
+    "saved_native_feature_checks": 0.3872759999940172,
+    "rendering_included_in_build": 79.05228639987763
+  },
+  "validation": {
+    "fresh_imports": 24,
+    "variants": 8,
+    "native_feature_checks": 56,
+    "actual_previews_inspected": 8,
+    "same_camera_pairs": 4,
+    "passed": true
+  },
+  "limitations": [
+    "Static opaque palette assets; no rig, animation, collision, LOD chain or game-engine integration.",
+    "Sawmill blade is partly obscured by its portal post in the required common camera.",
+    "Conservative half reduction can expand occupied bounds by one large cell (0.05m)."
+  ]
+}

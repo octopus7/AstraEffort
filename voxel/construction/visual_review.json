@@ -1,0 +1,78 @@
+{
+  "reviewed_at_utc": "2026-10-23T16:48:15.481761+00:00",
+  "reviewer": "Construction worker; actual primary PNGs opened and visually inspected",
+  "preview_count": 8,
+  "captures": [
+    {
+      "asset": "concrete_mixer",
+      "variant": "large",
+      "image": "assets/concrete_mixer/large/preview.png",
+      "sha256": "8fcccf66612220adba2d0e6f107fb759c323495ad7504ff28e25d644eb102001"
+    },
+    {
+      "asset": "concrete_mixer",
+      "variant": "half",
+      "image": "assets/concrete_mixer/half/preview.png",
+      "sha256": "633c846599c1106ecaeb6767f69a146b95e31dad828e71335dce977d6779d891"
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "large",
+      "image": "assets/tower_crane/large/preview.png",
+      "sha256": "56c8bab67c2e809c52de0dd49d726d651111d6ea7c130ca2a412044d6840764f"
+    },
+    {
+      "asset": "tower_crane",
+      "variant": "half",
+      "image": "assets/tower_crane/half/preview.png",
+      "sha256": "4f537a18496c3fd9922177ca2349de57dc7a3643a9a6eed6d3cc5771fe912ad9"
+    },
+    {
+      "asset": "site_office",
+      "variant": "large",
+      "image": "assets/site_office/large/preview.png",
+      "sha256": "b7680eb601bd507272d5c717c6b6283e33c1d1ad6cd2ec13c1c35302b0b869a8"
+    },
+    {
+      "asset": "site_office",
+      "variant": "half",
+      "image": "assets/site_office/half/preview.png",
+      "sha256": "bc3b15cb2309933c33b878d913e758d66061729cfc04e9730a2b03a19c3d6573"
+    },
+    {
+      "asset": "wheel_loader",
+      "variant": "large",
+      "image": "assets/wheel_loader/large/preview.png",
+      "sha256": "44045b7cda3049bdc86ccedc1ae3f83b8159459b2c08559b5b8158e53b23143f"
+    },
+    {
+      "asset": "wheel_loader",
+      "variant": "half",
+      "image": "assets/wheel_loader/half/preview.png",
+      "sha256": "418ca1b70803731a976cf0c891f6d9e1d76572ce05e7d3ade20d5c086597313b"
+    }
+  ],
+  "findings": [
+    "Rounded mixer drum, six wheels, rear hopper and discharge channel are readable in both sizes.",
+    "Hollow loader bucket and twin lift arms are readable; the demonstrated arm-tip intrusion was corrected and both final renders inspected.",
+    "Crane open lattice, four structural support shoes, paired ropes, suspended block and blunt open hook remain readable at both sizes.",
+    "Office doorway, framed glazing, access steps, corrugation and roof are readable at both sizes."
+  ],
+  "documented_fix": {
+    "issue": "Lift-arm capsules protruded through the loader back wall into the scoop",
+    "before_native_occupied_cells_in_tested_cavity": {
+      "large": 144,
+      "half": 36
+    },
+    "fix": "Clear the intended bucket interior at the source-grid level while retaining the back wall and arm connection behind it",
+    "final_native_occupied_cells_in_tested_cavity": {
+      "large": 0,
+      "half": 0
+    },
+    "before_images": [
+      "defect_evidence/loader_large_before.png",
+      "defect_evidence/loader_half_before.png"
+    ]
+  },
+  "probe_correction": "Initial office glass point hit a center mullion; moved the probe to the pane without changing office geometry."
+}

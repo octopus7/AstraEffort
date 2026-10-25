@@ -1,0 +1,137 @@
+{
+  "asset": "arched_workshop",
+  "reference": "D:\\github\\AstraEffort\\REF\\Set01\\arched_workshop.png",
+  "work_started_at_utc": "2026-10-23T09:37:09Z",
+  "build_started_at_utc": "2026-10-23T09:56:25.640754+00:00",
+  "engine": "Blender Cycles CPU",
+  "blender_version": "4.5.12 LTS",
+  "samples": 32,
+  "denoising": true,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "threads": 4,
+  "color_management": "AgX / Medium High Contrast",
+  "units": "meters",
+  "up_axis": "Z",
+  "front_axis": "-Y",
+  "exports_geometry_only": true,
+  "views": [
+    {
+      "view": "hero",
+      "path": "renders/hero.png",
+      "camera_location": [
+        -9.800000190734863,
+        -13.199999809265137,
+        7.099999904632568
+      ],
+      "camera_rotation_euler": [
+        1.2725406885147095,
+        -7.372530319571524e-08,
+        -0.6466982960700989
+      ],
+      "orthographic_scale": 11.399999618530273,
+      "started_at_utc": "2026-10-23T10:02:08.647708+00:00",
+      "finished_at_utc": "2026-10-23T10:02:51.416063+00:00",
+      "render_seconds": 42.78099999995902
+    },
+    {
+      "view": "rear",
+      "path": "renders/rear.png",
+      "camera_location": [
+        10.199999809265137,
+        12.199999809265137,
+        7.599999904632568
+      ],
+      "camera_rotation_euler": [
+        1.2389345169067383,
+        -6.5170475238574e-08,
+        2.445244073867798
+      ],
+      "orthographic_scale": 11.0,
+      "started_at_utc": "2026-10-23T10:02:51.416063+00:00",
+      "finished_at_utc": "2026-10-23T10:03:28.098672+00:00",
+      "render_seconds": 36.67200000002049
+    },
+    {
+      "view": "front_detail",
+      "path": "renders/front_detail.png",
+      "camera_location": [
+        -4.900000095367432,
+        -15.699999809265137,
+        4.150000095367432
+      ],
+      "camera_rotation_euler": [
+        1.432328701019287,
+        1.1405557387433873e-08,
+        -0.30233556032180786
+      ],
+      "orthographic_scale": 9.25,
+      "started_at_utc": "2026-10-23T10:03:28.099676+00:00",
+      "finished_at_utc": "2026-10-23T10:04:13.522578+00:00",
+      "render_seconds": 45.42200000002049
+    }
+  ],
+  "build_finished_at_utc": "2026-10-23T09:59:45.050914+00:00",
+  "build_elapsed_seconds": 199.41016,
+  "previous_render_views": [
+    {
+      "view": "hero",
+      "path": "renders/hero.png",
+      "camera_location": [
+        -9.800000190734863,
+        -13.199999809265137,
+        7.099999904632568
+      ],
+      "camera_rotation_euler": [
+        1.2725406885147095,
+        -7.372530319571524e-08,
+        -0.6466982960700989
+      ],
+      "orthographic_scale": 11.399999618530273,
+      "started_at_utc": "2026-10-23T09:57:35.411904+00:00",
+      "finished_at_utc": "2026-10-23T09:58:20.639198+00:00",
+      "render_seconds": 45.23400000005495
+    },
+    {
+      "view": "rear",
+      "path": "renders/rear.png",
+      "camera_location": [
+        10.199999809265137,
+        12.199999809265137,
+        7.599999904632568
+      ],
+      "camera_rotation_euler": [
+        1.2389345169067383,
+        -6.5170475238574e-08,
+        2.445244073867798
+      ],
+      "orthographic_scale": 11.0,
+      "started_at_utc": "2026-10-23T09:58:20.639198+00:00",
+      "finished_at_utc": "2026-10-23T09:59:00.937555+00:00",
+      "render_seconds": 40.29700000002049
+    },
+    {
+      "view": "front_detail",
+      "path": "renders/front_detail.png",
+      "camera_location": [
+        -4.900000095367432,
+        -15.699999809265137,
+        4.150000095367432
+      ],
+      "camera_rotation_euler": [
+        1.432328701019287,
+        1.1405557387433873e-08,
+        -0.30233556032180786
+      ],
+      "orthographic_scale": 9.25,
+      "started_at_utc": "2026-10-23T09:59:00.938556+00:00",
+      "finished_at_utc": "2026-10-23T09:59:45.011914+00:00",
+      "render_seconds": 44.07799999997951
+    }
+  ],
+  "lighting_revision_started_at_utc": "2026-10-23T10:02:08.647708+00:00",
+  "lighting_revision_reason": "Interior area emitters contained inside masonry shell to remove exterior light spill.",
+  "lighting_revision_finished_at_utc": "2026-10-23T10:04:13.565576+00:00"
+}

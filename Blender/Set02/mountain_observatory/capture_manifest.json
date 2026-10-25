@@ -1,0 +1,60 @@
+{
+  "asset": "mountain_observatory",
+  "reference": "D:/github/AstraEffort/REF/Set02/mountain_observatory.png",
+  "actual_scene_renders": true,
+  "engine": "Cycles CPU",
+  "threads": 4,
+  "samples": 32,
+  "denoising": true,
+  "resolution": [
+    1440,
+    1080
+  ],
+  "color_management": {
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.05
+  },
+  "background": "Warm pale gray studio",
+  "asset_front": "-Y",
+  "up": "Z",
+  "units": "meters",
+  "captures": [
+    {
+      "view": "hero",
+      "path": "renders/hero.png",
+      "started_at_utc": "2026-10-23T12:34:15.874308+00:00",
+      "finished_at_utc": "2026-10-23T12:34:56.103427+00:00",
+      "render_seconds": 40.229316300014034,
+      "camera_location_m": [
+        7.5,
+        -17.0,
+        9.5
+      ],
+      "camera_target_m": [
+        0.75,
+        -0.1,
+        2.82
+      ],
+      "orthographic_scale_m": 11.350000381469727
+    },
+    {
+      "view": "rear",
+      "path": "renders/rear.png",
+      "started_at_utc": "2026-10-23T12:34:56.103427+00:00",
+      "finished_at_utc": "2026-10-23T12:35:34.557125+00:00",
+      "render_seconds": 38.453254299936816,
+      "camera_location_m": [
+        10.5,
+        15.0,
+        9.2
+      ],
+      "camera_target_m": [
+        0.65,
+        0,
+        2.83
+      ],
+      "orthographic_scale_m": 11.350000381469727
+    }
+  ]
+}

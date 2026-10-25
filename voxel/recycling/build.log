@@ -1,0 +1,1229 @@
+Error in bpy.app.handlers.load_pre[1]:
+Blender 4.5.12 LTS (hash 84afd5f785f7 built 2026-07-21 01:33:53)
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\blendue\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\.cache\\compat.dat').
+Reloading external rigs...
+Reloading external metarigs...
+Cannot read ARP prefs
+Update armature presets...
+addon_utils.disable: bl_ext.UserRepository.shape_key_linker not enabled
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 4.5\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+02:03:33 | INFO: Starting glTF 2.0 export
+02:03:33 | INFO: Extracting primitive: collection_truck_voxel_surface
+02:03:33 | INFO: Primitives created: 12
+02:03:33 | INFO: Finished glTF 2.0 export in 0.02426910400390625 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:13.81M (Peak 13.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | collection_truck
+Fra:1 Mem:13.81M (Peak 13.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:14.24M (Peak 14.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:14.24M (Peak 14.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:15.14M (Peak 15.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:14.37M (Peak 15.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:14.37M (Peak 15.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:14.37M (Peak 15.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:14.37M (Peak 15.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.47M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.68M (Peak 15.42M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.68M (Peak 15.42M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.68M (Peak 15.42M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.68M (Peak 15.42M) | Time:00:00.00 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.68M (Peak 15.42M) | Time:00:00.00 | Mem:0.83M, Peak:1.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.68M (Peak 15.42M) | Time:00:00.00 | Mem:0.83M, Peak:1.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:0.83M, Peak:1.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.39M, Peak:1.39M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.39M, Peak:1.39M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.39M, Peak:1.39M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.39M, Peak:1.39M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.39M, Peak:1.39M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.39M, Peak:1.47M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:15.23M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.24M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.24M (Peak 15.42M) | Time:00:00.00 | Mem:1.47M, Peak:1.47M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:58.03M (Peak 58.03M) | Time:00:00.32 | Remaining:00:07.45 | Mem:44.22M, Peak:44.22M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:76.03M (Peak 103.03M) | Time:00:10.51 | Mem:44.22M, Peak:44.22M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:76.03M (Peak 103.03M) | Time:00:10.51 | Mem:44.22M, Peak:44.22M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\collection_truck\large\preview.png'
+Time: 00:10.62 (Saving: 00:00.10)
+
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\collection_truck\\large\\collection_truck.fbx'
+export finished in 0.0066 sec.
+Info: Saved as "collection_truck.blend"
+02:03:44 | INFO: Starting glTF 2.0 export
+02:03:44 | INFO: Extracting primitive: collection_truck_voxel_surface
+02:03:44 | INFO: Primitives created: 12
+02:03:44 | INFO: Finished glTF 2.0 export in 0.015000343322753906 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.89M (Peak 12.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | collection_truck
+Fra:1 Mem:12.89M (Peak 12.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:12.89M (Peak 12.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:13.05M (Peak 13.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:13.39M (Peak 13.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:12.62M (Peak 13.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:12.62M (Peak 13.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:12.62M (Peak 13.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:12.62M (Peak 13.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:12.71M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:12.71M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:12.71M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:12.71M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:12.71M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:12.71M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:12.72M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:12.72M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:12.72M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:12.72M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:12.72M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:12.80M (Peak 13.39M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:12.79M (Peak 13.39M) | Time:00:00.00 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:12.79M (Peak 13.39M) | Time:00:00.00 | Mem:0.09M, Peak:0.09M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:12.79M (Peak 13.39M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:12.79M (Peak 13.39M) | Time:00:00.00 | Mem:0.32M, Peak:0.43M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:12.79M (Peak 13.39M) | Time:00:00.00 | Mem:0.32M, Peak:0.43M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.32M, Peak:0.43M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.53M, Peak:0.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.53M, Peak:0.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.53M, Peak:0.53M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.53M, Peak:0.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.53M, Peak:0.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.61M, Peak:0.61M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.61M, Peak:0.61M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.61M, Peak:0.61M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:13.00M (Peak 13.39M) | Time:00:00.00 | Mem:0.61M, Peak:0.61M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:13.01M (Peak 13.39M) | Time:00:00.00 | Mem:0.53M, Peak:0.61M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:13.01M (Peak 13.39M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:13.01M (Peak 13.39M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:13.01M (Peak 13.39M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:13.01M (Peak 13.39M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:55.80M (Peak 55.80M) | Time:00:00.30 | Remaining:00:06.95 | Mem:43.37M, Peak:43.37M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.81M (Peak 100.81M) | Time:00:10.37 | Mem:43.37M, Peak:43.37M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.81M (Peak 100.81M) | Time:00:10.37 | Mem:43.37M, Peak:43.37M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\collection_truck\half\preview.png'
+Time: 00:10.41 (Saving: 00:00.03)
+
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\collection_truck\\half\\collection_truck.fbx'
+export finished in 0.0051 sec.
+Info: Saved as "collection_truck.blend"
+VOXEL_ASSET_COMPLETE collection_truck
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:03:55 | INFO: Starting glTF 2.0 export
+02:03:55 | INFO: Extracting primitive: sorting_machine_voxel_surface
+02:03:55 | INFO: Primitives created: 8
+02:03:55 | INFO: Finished glTF 2.0 export in 0.019019365310668945 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.61M (Peak 12.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:12.61M (Peak 12.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:12.61M (Peak 12.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:12.61M (Peak 12.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio_floor
+Fra:1 Mem:12.61M (Peak 12.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sorting_machine
+Fra:1 Mem:13.29M (Peak 13.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:12.69M (Peak 13.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:12.69M (Peak 13.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:12.69M (Peak 13.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:12.69M (Peak 13.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:12.78M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:12.89M (Peak 13.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:12.89M (Peak 13.29M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:12.89M (Peak 13.29M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:12.89M (Peak 13.29M) | Time:00:00.00 | Mem:0.26M, Peak:0.26M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:12.89M (Peak 13.29M) | Time:00:00.00 | Mem:0.43M, Peak:0.58M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:12.89M (Peak 13.29M) | Time:00:00.00 | Mem:0.43M, Peak:0.58M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.43M, Peak:0.58M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.80M, Peak:0.80M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.80M, Peak:0.80M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.80M, Peak:0.80M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.80M, Peak:0.80M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.72M, Peak:0.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.81M, Peak:0.81M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.81M, Peak:0.81M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.81M, Peak:0.81M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:13.18M (Peak 13.29M) | Time:00:00.00 | Mem:0.81M, Peak:0.81M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:55.98M (Peak 55.98M) | Time:00:00.34 | Remaining:00:07.70 | Mem:43.56M, Peak:43.56M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.98M (Peak 100.98M) | Time:00:10.37 | Mem:43.56M, Peak:43.56M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.98M (Peak 100.98M) | Time:00:10.37 | Mem:43.56M, Peak:43.56M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\sorting_machine\large\preview.png'
+Time: 00:10.41 (Saving: 00:00.03)
+
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\sorting_machine\\large\\sorting_machine.fbx'
+export finished in 0.0050 sec.
+Info: Saved as "sorting_machine.blend"
+02:04:06 | INFO: Starting glTF 2.0 export
+02:04:06 | INFO: Extracting primitive: sorting_machine_voxel_surface
+02:04:06 | INFO: Primitives created: 8
+02:04:06 | INFO: Finished glTF 2.0 export in 0.010002613067626953 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.16M (Peak 12.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sorting_machine
+Fra:1 Mem:12.16M (Peak 12.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:12.32M (Peak 12.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:12.41M (Peak 12.41M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:12.45M (Peak 12.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:11.86M (Peak 12.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:11.86M (Peak 12.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:11.86M (Peak 12.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:11.86M (Peak 12.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:11.94M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:11.94M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:11.94M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:11.94M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:11.94M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:11.94M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:11.95M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:11.95M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:11.95M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:11.95M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:11.95M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:11.99M (Peak 12.45M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:11.99M (Peak 12.45M) | Time:00:00.00 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:11.99M (Peak 12.45M) | Time:00:00.00 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:11.99M (Peak 12.45M) | Time:00:00.00 | Mem:0.11M, Peak:0.11M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:11.99M (Peak 12.45M) | Time:00:00.00 | Mem:0.19M, Peak:0.25M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:11.99M (Peak 12.45M) | Time:00:00.00 | Mem:0.19M, Peak:0.25M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.19M, Peak:0.25M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.39M, Peak:0.39M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.39M, Peak:0.39M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.39M, Peak:0.39M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:12.11M (Peak 12.45M) | Time:00:00.00 | Mem:0.39M, Peak:0.39M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:12.12M (Peak 12.45M) | Time:00:00.00 | Mem:0.31M, Peak:0.39M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:12.12M (Peak 12.45M) | Time:00:00.00 | Mem:0.40M, Peak:0.40M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:12.12M (Peak 12.45M) | Time:00:00.00 | Mem:0.40M, Peak:0.40M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:12.12M (Peak 12.45M) | Time:00:00.00 | Mem:0.40M, Peak:0.40M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:12.12M (Peak 12.45M) | Time:00:00.00 | Mem:0.40M, Peak:0.40M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:54.91M (Peak 54.91M) | Time:00:00.29 | Remaining:00:06.84 | Mem:43.15M, Peak:43.15M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:72.91M (Peak 99.92M) | Time:00:10.36 | Mem:43.15M, Peak:43.15M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:72.91M (Peak 99.92M) | Time:00:10.36 | Mem:43.15M, Peak:43.15M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\sorting_machine\half\preview.png'
+Time: 00:10.40 (Saving: 00:00.03)
+
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\sorting_machine\\half\\sorting_machine.fbx'
+export finished in 0.0103 sec.
+Info: Saved as "sorting_machine.blend"
+VOXEL_ASSET_COMPLETE sorting_machine
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:04:17 | INFO: Starting glTF 2.0 export
+02:04:17 | INFO: Extracting primitive: compactor_voxel_surface
+02:04:17 | INFO: Primitives created: 11
+02:04:17 | INFO: Finished glTF 2.0 export in 0.01984858512878418 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.87M (Peak 12.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | compactor
+Fra:1 Mem:12.87M (Peak 12.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:13.07M (Peak 13.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:13.19M (Peak 13.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:13.47M (Peak 13.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:12.75M (Peak 13.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:12.75M (Peak 13.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:12.75M (Peak 13.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:12.75M (Peak 13.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:12.84M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:12.93M (Peak 13.47M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:12.93M (Peak 13.47M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:12.93M (Peak 13.47M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:12.93M (Peak 13.47M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:12.93M (Peak 13.47M) | Time:00:00.00 | Mem:0.39M, Peak:0.52M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:12.93M (Peak 13.47M) | Time:00:00.00 | Mem:0.39M, Peak:0.52M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.39M, Peak:0.52M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.72M, Peak:0.72M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.73M, Peak:0.73M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.73M, Peak:0.73M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.64M, Peak:0.73M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.73M, Peak:0.73M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:13.18M (Peak 13.47M) | Time:00:00.00 | Mem:0.73M, Peak:0.73M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:13.19M (Peak 13.47M) | Time:00:00.00 | Mem:0.73M, Peak:0.73M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:13.19M (Peak 13.47M) | Time:00:00.00 | Mem:0.73M, Peak:0.73M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:55.98M (Peak 55.98M) | Time:00:00.33 | Remaining:00:07.62 | Mem:43.48M, Peak:43.48M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.98M (Peak 100.98M) | Time:00:10.45 | Mem:43.48M, Peak:43.48M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.98M (Peak 100.98M) | Time:00:10.45 | Mem:43.48M, Peak:43.48M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\compactor\large\preview.png'
+Time: 00:10.48 (Saving: 00:00.03)
+
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\compactor\\large\\compactor.fbx'
+export finished in 0.0060 sec.
+Info: Saved as "compactor.blend"
+02:04:28 | INFO: Starting glTF 2.0 export
+02:04:28 | INFO: Extracting primitive: compactor_voxel_surface
+02:04:28 | INFO: Primitives created: 11
+02:04:28 | INFO: Finished glTF 2.0 export in 0.018862485885620117 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.49M (Peak 12.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | compactor
+Fra:1 Mem:12.49M (Peak 12.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:12.71M (Peak 12.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:12.75M (Peak 12.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:12.03M (Peak 12.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:12.03M (Peak 12.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:12.03M (Peak 12.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:12.03M (Peak 12.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:12.12M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:12.16M (Peak 12.75M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:12.16M (Peak 12.75M) | Time:00:00.00 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:12.16M (Peak 12.75M) | Time:00:00.00 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:12.16M (Peak 12.75M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:12.16M (Peak 12.75M) | Time:00:00.00 | Mem:0.17M, Peak:0.22M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:12.16M (Peak 12.75M) | Time:00:00.00 | Mem:0.17M, Peak:0.22M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.17M, Peak:0.22M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:12.26M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.28M, Peak:0.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:12.27M (Peak 12.75M) | Time:00:00.00 | Mem:0.36M, Peak:0.36M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:55.06M (Peak 55.06M) | Time:00:00.30 | Remaining:00:06.90 | Mem:43.11M, Peak:43.11M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:73.07M (Peak 100.07M) | Time:00:10.29 | Mem:43.11M, Peak:43.11M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:73.07M (Peak 100.07M) | Time:00:10.29 | Mem:43.11M, Peak:43.11M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\compactor\half\preview.png'
+Time: 00:10.33 (Saving: 00:00.04)
+
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\compactor\\half\\compactor.fbx'
+export finished in 0.0040 sec.
+Info: Saved as "compactor.blend"
+VOXEL_ASSET_COMPLETE compactor
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+02:04:39 | INFO: Starting glTF 2.0 export
+02:04:39 | INFO: Extracting primitive: recycling_center_voxel_surface
+02:04:39 | INFO: Primitives created: 8
+02:04:39 | INFO: Finished glTF 2.0 export in 0.010001182556152344 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.18M (Peak 12.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | recycling_center
+Fra:1 Mem:12.19M (Peak 12.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:12.28M (Peak 12.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:12.45M (Peak 12.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:12.50M (Peak 12.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:11.90M (Peak 12.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:11.90M (Peak 12.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:11.90M (Peak 12.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:11.90M (Peak 12.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:11.98M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:11.98M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:11.98M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:11.98M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:11.98M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:11.98M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:11.99M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:11.99M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:11.99M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:11.99M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:11.99M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:12.04M (Peak 12.50M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:12.03M (Peak 12.50M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:12.03M (Peak 12.50M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:12.03M (Peak 12.50M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:12.03M (Peak 12.50M) | Time:00:00.00 | Mem:0.20M, Peak:0.27M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:12.03M (Peak 12.50M) | Time:00:00.00 | Mem:0.20M, Peak:0.27M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.20M, Peak:0.27M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.33M, Peak:0.33M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.33M, Peak:0.33M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.33M, Peak:0.33M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.33M, Peak:0.33M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.33M, Peak:0.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:12.16M (Peak 12.50M) | Time:00:00.00 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.41M, Peak:0.41M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.33M, Peak:0.41M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.42M, Peak:0.42M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.42M, Peak:0.42M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.42M, Peak:0.42M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:12.17M (Peak 12.50M) | Time:00:00.00 | Mem:0.42M, Peak:0.42M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:54.96M (Peak 54.96M) | Time:00:00.29 | Remaining:00:06.70 | Mem:43.17M, Peak:43.17M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:72.97M (Peak 99.97M) | Time:00:10.04 | Mem:43.17M, Peak:43.17M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:72.97M (Peak 99.97M) | Time:00:10.04 | Mem:43.17M, Peak:43.17M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\recycling_center\large\preview.png'
+Time: 00:10.07 (Saving: 00:00.03)
+
+Error in bpy.app.handlers.load_pre[1]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47259, in cleanup_line_fx
+    bpy.types.SpaceView3D.draw_handler_remove(handles_lines[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig.py", line 47263, in cleanup_line_fx
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_pre[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7531, in cleanup
+    bpy.types.SpaceView3D.draw_handler_remove(handles[0], 'WINDOW')
+ValueError: callback_remove(handler): nullptr handler given, invalid or already removed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\extensions\user_default\auto_rig_pro\src\auto_rig_smart.py", line 7535, in cleanup
+    if bpy.context.scene.arp_debug_mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'arp_debug_mode'
+Error in bpy.app.handlers.load_post[2]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 206, in _onLoad
+    State.update_scene()
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\recycling_center\\large\\recycling_center.fbx'
+export finished in 0.0040 sec.
+Info: Saved as "recycling_center.blend"
+02:04:49 | INFO: Starting glTF 2.0 export
+02:04:49 | INFO: Extracting primitive: recycling_center_voxel_surface
+02:04:49 | INFO: Primitives created: 8
+02:04:49 | INFO: Finished glTF 2.0 export in 0.00899648666381836 s
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Error in bpy.app.handlers.depsgraph_update_post[0]:
+Traceback (most recent call last):
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 201, in _onDepsgraphUpdate
+    State.update_scene(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 194, in update_scene
+    make_export_list(scene)
+  File "C:\Users\blendue\AppData\Roaming\Blender Foundation\Blender\4.5\scripts\addons\io_scene_valvesource\utils.py", line 602, in make_export_list
+    scene.vs.export_list.clear()
+    ^^^^^^^^
+AttributeError: 'Scene' object has no attribute 'vs'
+Fra:1 Mem:12.04M (Peak 12.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | recycling_center
+Fra:1 Mem:12.04M (Peak 12.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:12.10M (Peak 12.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:12.22M (Peak 12.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:11.62M (Peak 12.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:11.62M (Peak 12.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:11.62M (Peak 12.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:11.62M (Peak 12.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:11.71M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:11.74M (Peak 12.22M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:11.74M (Peak 12.22M) | Time:00:00.00 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:11.74M (Peak 12.22M) | Time:00:00.00 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:11.74M (Peak 12.22M) | Time:00:00.00 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:11.74M (Peak 12.22M) | Time:00:00.00 | Mem:0.12M, Peak:0.16M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:11.74M (Peak 12.22M) | Time:00:00.00 | Mem:0.12M, Peak:0.16M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.12M, Peak:0.16M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:11.81M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:11.82M (Peak 12.22M) | Time:00:00.00 | Mem:0.20M, Peak:0.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:11.82M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:11.82M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:11.82M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:11.82M (Peak 12.22M) | Time:00:00.00 | Mem:0.28M, Peak:0.28M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:54.61M (Peak 54.61M) | Time:00:00.28 | Remaining:00:06.52 | Mem:43.03M, Peak:43.03M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:72.62M (Peak 99.62M) | Time:00:10.35 | Mem:43.03M, Peak:43.03M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:72.62M (Peak 99.62M) | Time:00:10.35 | Mem:43.03M, Peak:43.03M | Scene, ViewLayer | Finished
+Saved: 'D:\github\AstraEffort\voxel\recycling\assets\recycling_center\half\preview.png'
+Time: 00:10.40 (Saving: 00:00.04)
+
+
+
+FBX export starting... 'D:\\github\\AstraEffort\\voxel\\recycling\\assets\\recycling_center\\half\\recycling_center.fbx'
+export finished in 0.0040 sec.
+Info: Saved as "recycling_center.blend"
+VOXEL_ASSET_COMPLETE recycling_center
+
+Blender quit

@@ -1,0 +1,100 @@
+{
+  "set": "Set01",
+  "status": "ready_for_review",
+  "packaged_at_utc": "2026-10-23T10:08:24.990360+00:00",
+  "references": "../../REF/Set01",
+  "imagegen": "built-in tool; four sequential main-agent generations before modeling",
+  "modeling": "main cargo_rover plus three gpt-6-astra workers explicitly set to reasoning_effort=max",
+  "assets": [
+    {
+      "slug": "cargo_rover",
+      "name_ko": "4륜 화물 운반차",
+      "triangles": 156628,
+      "dimensions_m": [
+        2.3300998210906982,
+        4.050449967384338,
+        2.406796932220459
+      ],
+      "mesh_objects": 320,
+      "validation": "validation/cargo_rover.json",
+      "sha256": {
+        "cargo_rover.blend": "da9e361b296a60dbde37e8379e4e4be4a36c530f8bd56a37398a5731b3f5f0bf",
+        "cargo_rover.glb": "d7f5e7338d9c4b696a3d1efcb7690f924953c928a6c9a2715f79858da5f15f66",
+        "cargo_rover.fbx": "6366efc591236412d29292644c19dc41f1abe6c0ea61da681f950983f303d996"
+      },
+      "renders": {
+        "hero.png": "11785b1b387528c05bccafc6b943150a9c20eaa351fbaf78298642e8c8dc8d30",
+        "rear.png": "aad1fcc7663233786046a45cf242ce46b6b88b6a72907e5c3167b20daecffabb"
+      }
+    },
+    {
+      "slug": "service_mech",
+      "name_ko": "2족 정비 메카",
+      "triangles": 151052,
+      "dimensions_m": [
+        2.583494186401367,
+        1.2883111834526062,
+        2.799999952316284
+      ],
+      "mesh_objects": 395,
+      "validation": "validation/service_mech.json",
+      "sha256": {
+        "service_mech.blend": "2ee140f80448bb3376cccbf257c88ec564de5571cf270d6a4f1477d3ac10bc52",
+        "service_mech.glb": "24af6bc6947d6f6866ec26c0a9968f6856a3967e3c0162c95b1e4aecddb4820d",
+        "service_mech.fbx": "26781da7a803ccd6b4f23e32ba96c0bdf46b28d2d37577c0a5d3d172266f5fcf"
+      },
+      "renders": {
+        "hero.png": "c2f92efb458d27c866bc461eba76f5dce4201d1f539c6eb1253345e1bfd1edcb",
+        "rear.png": "ee6e226078598d4dfe0419b00d6cbc683cf97f97c31fb35e97f061e43337ddee"
+      }
+    },
+    {
+      "slug": "arched_workshop",
+      "name_ko": "아치 지붕 정비소",
+      "triangles": 184984,
+      "dimensions_m": [
+        7.489044666290283,
+        6.400000095367432,
+        4.499391555786133
+      ],
+      "mesh_objects": 558,
+      "validation": "validation/arched_workshop.json",
+      "sha256": {
+        "arched_workshop.blend": "75e71f9523ce3259936fdb60666031465181101bbabbecd54ecb2b2e929d6097",
+        "arched_workshop.glb": "bbc62a3271347ec658a10acc514ff02ffe04137c060c7d5d06d169ba45c0df07",
+        "arched_workshop.fbx": "793e8f7ef5b9be69a30193bf2b11ecd5e3c8f88d394ff4cc903e8ca7ca12f834"
+      },
+      "renders": {
+        "hero.png": "d35bc16f946c2b30a53fcd93be80b2ac37e4fcaeba972728c6f667768b4f202c",
+        "rear.png": "c68aadccb688b3ff70b5a45dc8f9cca805cf280cea7c60789722a3c2bd8385bd"
+      }
+    },
+    {
+      "slug": "water_station",
+      "name_ko": "물탱크 급수소",
+      "triangles": 245200,
+      "dimensions_m": [
+        6.5,
+        4.882499694824219,
+        5.430999755859375
+      ],
+      "mesh_objects": 648,
+      "validation": "validation/water_station.json",
+      "sha256": {
+        "water_station.blend": "45499284400b292e4196712c3f29b47a07c3b7b93bd642c53228d08c64a38e91",
+        "water_station.glb": "e0bd5cc1b36affb3c12de2c87ac0e8435bc53044e12bb23e7dd87fc5be48b64d",
+        "water_station.fbx": "e7989cb43c23158e53c285b185da999c821a07d07a79ffda02a0746726116f60"
+      },
+      "renders": {
+        "hero.png": "3f7339bef21741b781b7af9b3096181629454ad3b7cce2c91fe1aad69ea37203",
+        "rear.png": "d93aa207cd754decdfb6c4ed8ee27ee1befa81a5891c5e0b142256a74b41019e"
+      }
+    }
+  ],
+  "limitations": [
+    "Static geometry; no rigging, animation, LOD chain or collision assets.",
+    "Per-component UVs; no cross-object atlas or uniform measured texel density.",
+    "Solid named PBR materials; FBX target-engine shader adjustment may be required.",
+    "Validated in Blender, not imported into Unreal or another game engine."
+  ]
+}

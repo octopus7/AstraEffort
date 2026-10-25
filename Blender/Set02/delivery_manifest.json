@@ -1,0 +1,100 @@
+{
+  "set": "Set02",
+  "status": "ready_for_review",
+  "packaged_at_utc": "2026-10-23T12:46:12.325860+00:00",
+  "references": "../../REF/Set02",
+  "imagegen": "built-in tool; four sequential main-agent generations before modeling",
+  "modeling": "main tracked_excavator plus three gpt-6-astra workers explicitly set to reasoning_effort=max",
+  "assets": [
+    {
+      "slug": "tracked_excavator",
+      "name_ko": "궤도형 탐사 굴착차",
+      "triangles": 244868,
+      "dimensions_m": [
+        2.555999994277954,
+        5.165639042854309,
+        3.272500039429347
+      ],
+      "mesh_objects": 726,
+      "validation": "validation/tracked_excavator.json",
+      "sha256": {
+        "tracked_excavator.blend": "6bad219ddf90e1f0edcb9b19a1fff7c4a5d453b46cbbc6e66ce027ef7e531c68",
+        "tracked_excavator.glb": "525949d8e06475526812b8576798ae578d8c7291784add98cae9c3f6114270fd",
+        "tracked_excavator.fbx": "279de61f043ff019fede759c241b75589f1d9397928877b8dd664d49a3ac1141"
+      },
+      "renders": {
+        "hero.png": "f352d7bd9a313584e829d5782a37e4cf3e7a38d2d734f501ddea118f693692a4",
+        "rear.png": "d3c1d9aa3fd55e839f12b3cb9159e5ea438575b9e5b46bcbca4d5d61a12cf386"
+      }
+    },
+    {
+      "slug": "quadruped_surveyor",
+      "name_ko": "4족 측량 로봇",
+      "triangles": 210512,
+      "dimensions_m": [
+        2.2300000190734863,
+        2.4000000953674316,
+        1.7828000783920288
+      ],
+      "mesh_objects": 444,
+      "validation": "validation/quadruped_surveyor.json",
+      "sha256": {
+        "quadruped_surveyor.blend": "d7ca5f000120af23c92720c57a6fd159ef0603532aed4d3b549acc976d70fbcb",
+        "quadruped_surveyor.glb": "f9d1683cbf8383bd055db61a7caa364090bcfcf5b22f9db59b5966c1b84cc679",
+        "quadruped_surveyor.fbx": "022871a09059b26d3f9a25ede734a6a27a11ef28f1def55ccd4eb7f0a17de51b"
+      },
+      "renders": {
+        "hero.png": "af2abc3bea43006ea49917f39c935e402bf78f6d25bc8ed1bed1684ab353f6af",
+        "rear.png": "66038a92a13485830b6f561864ed3b1e44feeb7ca97754e29c2837afdfb9c2d5"
+      }
+    },
+    {
+      "slug": "mountain_observatory",
+      "name_ko": "산악 관측소",
+      "triangles": 226944,
+      "dimensions_m": [
+        7.049999952316284,
+        6.06000018119812,
+        5.994852542877197
+      ],
+      "mesh_objects": 335,
+      "validation": "validation/mountain_observatory.json",
+      "sha256": {
+        "mountain_observatory.blend": "30eb1cb1607b8d59171df5bd4ed5752b9c9aac29468b4b3828ac54a292c0c5f2",
+        "mountain_observatory.glb": "ea1e7a833670b3bda185d04bb6c9f9b5abd13b1fde153baa1f4f21b71a807963",
+        "mountain_observatory.fbx": "0f9334bd52f3e899081dcf2b44651364caa78104eb17d18a648960fb39df6f27"
+      },
+      "renders": {
+        "hero.png": "0ef33c614211f176fd1f80ce0be9259a7cc823613077bf22650056f5d8da9757",
+        "rear.png": "785497d60a637ebcef5f5a8b3b3ebf936cbbf64693fd76c2d3d4e32ee27b7c1c"
+      }
+    },
+    {
+      "slug": "mine_elevator",
+      "name_ko": "광산 승강기 건물",
+      "triangles": 145712,
+      "dimensions_m": [
+        5.220000267028809,
+        4.879265546798706,
+        8.0600004196167
+      ],
+      "mesh_objects": 626,
+      "validation": "validation/mine_elevator.json",
+      "sha256": {
+        "mine_elevator.blend": "af0e7666730c0d85e1a9587fcbc4eee5b33aeacf72d121c49b3e698a6cb8a4de",
+        "mine_elevator.glb": "1339afe53402c17c33663c3bbf0dfa0bd60b60c0a26ca43e91437379138b71c1",
+        "mine_elevator.fbx": "0e02ffc5dfc72c51e9f0513c2db8557f4eb653c0e541d3a2b5804a7ef5e6221d"
+      },
+      "renders": {
+        "hero.png": "f5218b014af11e3d1fcaa8cdaac15a47466a7442163a42fb56fd7912ca052e16",
+        "rear.png": "61434af183c055fd9bfd8b256976a13ef80cebed9d1dbb1d48c3f7ec9006bcb7"
+      }
+    }
+  ],
+  "limitations": [
+    "Static geometry; no rigging, animation, LOD chain or collision assets.",
+    "Per-component UVs; no cross-object atlas or uniform measured texel density.",
+    "Solid named PBR materials; FBX target-engine shader adjustment may be required.",
+    "Validated in Blender, not imported into Unreal or another game engine."
+  ]
+}
