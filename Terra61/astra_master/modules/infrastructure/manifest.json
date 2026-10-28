@@ -1,0 +1,240 @@
+{
+  "description": "Repeating Victorian station infrastructure. Coordinates in meters.",
+  "author_axes": "X right, Y depth, Z up; ground Z=0",
+  "export_axes": "glTF Y-up: one root rotation of -90 degrees about X",
+  "texture_sampler": "MIRRORED_REPEAT reduces discontinuities at generated tile edges; embedded maps are power-of-two for WebGL 1 support.",
+  "repeat": "Platform and track are 8 m long; place succeeding pieces at Y + 8 m in author space.",
+  "rail_center_gauge": 1.435,
+  "rail_running_surface_z": 0.22,
+  "ramp_join": "At author Y=8 m ramp is Z=1 m; join it to Y=0 m of a platform segment.",
+  "plaza_top_z": 0.12,
+  "modules": {
+    "platform_segment": {
+      "file": "platform_segment.glb",
+      "author_bounds_m": [
+        [
+          -2.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0,
+          1.0
+        ]
+      ],
+      "triangle_count": 140,
+      "material_images": {
+        "stone": {
+          "basecolor": "stone_basecolor.png",
+          "normal": "stone_normal.png",
+          "orm": "stone_orm.png"
+        },
+        "brick": {
+          "basecolor": "retaining_brick_basecolor.png",
+          "normal": "retaining_brick_normal.png",
+          "orm": "retaining_brick_orm.png"
+        },
+        "paving": {
+          "basecolor": "paving_basecolor.png",
+          "normal": "paving_normal.png",
+          "orm": "paving_orm.png"
+        },
+        "safety": {
+          "basecolor": "stone_basecolor.png",
+          "normal": "stone_normal.png",
+          "orm": "stone_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "stone": [
+          1.0,
+          1.0
+        ],
+        "brick": [
+          0.68,
+          0.56
+        ],
+        "paving": [
+          0.7,
+          0.7
+        ],
+        "safety": [
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_names": [
+        "platform_foundation",
+        "brick_retaining_wall",
+        "stone_wall_piers",
+        "stone_coping",
+        "platform_paving"
+      ]
+    },
+    "track_segment": {
+      "file": "track_segment.glb",
+      "author_bounds_m": [
+        [
+          -1.5,
+          0.0,
+          0.0
+        ],
+        [
+          1.5,
+          8.0,
+          0.22
+        ]
+      ],
+      "triangle_count": 244,
+      "material_images": {
+        "ballast": {
+          "basecolor": "ballast_basecolor.png",
+          "normal": "ballast_normal.png",
+          "orm": "ballast_orm.png"
+        },
+        "wood": {
+          "basecolor": "wood_basecolor.png",
+          "normal": "wood_normal.png",
+          "orm": "wood_orm.png"
+        },
+        "rail": {
+          "basecolor": "rail_basecolor.png",
+          "normal": "rail_normal.png",
+          "orm": "rail_orm.png"
+        },
+        "rail_top": {
+          "basecolor": "rail_basecolor.png",
+          "normal": "rail_normal.png",
+          "orm": "rail_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "ballast": [
+          0.35,
+          0.35
+        ],
+        "wood": [
+          2.0,
+          1.2
+        ],
+        "rail": [
+          0.8,
+          0.8
+        ],
+        "rail_top": [
+          0.8,
+          0.8
+        ]
+      },
+      "mesh_names": [
+        "ballast_bed",
+        "wooden_sleepers",
+        "rail_left",
+        "rail_right"
+      ]
+    },
+    "platform_ramp": {
+      "file": "platform_ramp.glb",
+      "author_bounds_m": [
+        [
+          -2.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0,
+          1.0
+        ]
+      ],
+      "triangle_count": 20,
+      "material_images": {
+        "brick": {
+          "basecolor": "retaining_brick_basecolor.png",
+          "normal": "retaining_brick_normal.png",
+          "orm": "retaining_brick_orm.png"
+        },
+        "stone": {
+          "basecolor": "stone_basecolor.png",
+          "normal": "stone_normal.png",
+          "orm": "stone_orm.png"
+        },
+        "paving": {
+          "basecolor": "paving_basecolor.png",
+          "normal": "paving_normal.png",
+          "orm": "paving_orm.png"
+        },
+        "safety": {
+          "basecolor": "stone_basecolor.png",
+          "normal": "stone_normal.png",
+          "orm": "stone_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "brick": [
+          0.68,
+          0.56
+        ],
+        "stone": [
+          1.0,
+          1.0
+        ],
+        "paving": [
+          0.7,
+          0.7
+        ],
+        "safety": [
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_names": [
+        "ramp_retaining_wall",
+        "ramp_sloped_deck"
+      ]
+    },
+    "plaza_tile": {
+      "file": "plaza_tile.glb",
+      "author_bounds_m": [
+        [
+          -4.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          8.0,
+          0.12
+        ]
+      ],
+      "triangle_count": 24,
+      "material_images": {
+        "stone": {
+          "basecolor": "stone_basecolor.png",
+          "normal": "stone_normal.png",
+          "orm": "stone_orm.png"
+        },
+        "plaza_paving": {
+          "basecolor": "paving_basecolor.png",
+          "normal": "paving_normal.png",
+          "orm": "paving_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "stone": [
+          1.0,
+          1.0
+        ],
+        "plaza_paving": [
+          0.8,
+          0.8
+        ]
+      },
+      "mesh_names": [
+        "plaza_stone_base",
+        "plaza_continuous_paving"
+      ]
+    }
+  }
+}

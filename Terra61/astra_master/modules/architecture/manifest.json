@@ -1,0 +1,210 @@
+{
+  "coordinate_system": {
+    "units": "meters",
+    "authored_up": "Z",
+    "front": "-Y",
+    "gltf_root_rotation_xyzw": [
+      -0.7071067811865476,
+      0,
+      0,
+      0.7071067811865476
+    ],
+    "origins": "centered X, ground Z=0; facade canopy front at Y=0"
+  },
+  "modules": {
+    "central_hall": {
+      "file": "central_hall.glb",
+      "bounds_author_z_up": [
+        [
+          -8.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          10.0,
+          20.18
+        ]
+      ],
+      "triangles": 5105,
+      "materials": [
+        "stone",
+        "slate",
+        "door",
+        "brick",
+        "grand_window",
+        "gold",
+        "clock",
+        "iron",
+        "sign"
+      ],
+      "uv_coverage": "all triangles",
+      "origin": "center X, floor Z=0; facade fronts toward -Y"
+    },
+    "facade_bay": {
+      "file": "facade_bay.glb",
+      "bounds_author_z_up": [
+        [
+          -2.0,
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          10.0,
+          11.791
+        ]
+      ],
+      "triangles": 951,
+      "materials": [
+        "brick",
+        "stone",
+        "window",
+        "iron"
+      ],
+      "uv_coverage": "all triangles",
+      "origin": "center X, floor Z=0; facade fronts toward -Y"
+    },
+    "dome_tower": {
+      "file": "dome_tower.glb",
+      "bounds_author_z_up": [
+        [
+          -4.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          10.0,
+          24.36
+        ]
+      ],
+      "triangles": 2642,
+      "materials": [
+        "brick",
+        "stone",
+        "door",
+        "window",
+        "slate",
+        "iron",
+        "gold"
+      ],
+      "uv_coverage": "all triangles",
+      "origin": "center X, floor Z=0; facade fronts toward -Y"
+    }
+  },
+  "assembly": {
+    "file": "architecture_assembled.glb",
+    "placements": [
+      {
+        "module": "facade_bay",
+        "node": "west_outer_bay",
+        "x_m": -22
+      },
+      {
+        "module": "facade_bay",
+        "node": "west_inner_bay",
+        "x_m": -18
+      },
+      {
+        "module": "dome_tower",
+        "node": "west_tower",
+        "x_m": -12
+      },
+      {
+        "module": "central_hall",
+        "node": "clock_hall",
+        "x_m": 0
+      },
+      {
+        "module": "dome_tower",
+        "node": "east_tower",
+        "x_m": 12
+      },
+      {
+        "module": "facade_bay",
+        "node": "east_inner_bay",
+        "x_m": 18
+      },
+      {
+        "module": "facade_bay",
+        "node": "east_outer_bay",
+        "x_m": 22
+      }
+    ],
+    "bounds_author_z_up": [
+      [
+        -24.0,
+        0.0,
+        0.0
+      ],
+      [
+        24.0,
+        10.0,
+        24.36
+      ]
+    ],
+    "unique_triangles": 8698,
+    "drawn_triangles": 14193
+  },
+  "textures": {
+    "stone": {
+      "source": "textures/stone_basecolor.png",
+      "base": "modules/architecture/mat_stone_basecolor.png",
+      "normal": "modules/architecture/mat_stone_normal.png",
+      "orm": "modules/architecture/mat_stone_orm.png"
+    },
+    "brick": {
+      "source": "textures/brick_basecolor.png",
+      "base": "modules/architecture/mat_brick_basecolor.png",
+      "normal": "modules/architecture/mat_brick_normal.png",
+      "orm": "modules/architecture/mat_brick_orm.png"
+    },
+    "iron": {
+      "source": "textures/iron_basecolor.png",
+      "base": "modules/architecture/mat_iron_basecolor.png",
+      "normal": "modules/architecture/mat_iron_normal.png",
+      "orm": "modules/architecture/mat_iron_orm.png"
+    },
+    "slate": {
+      "source": "textures/slate_basecolor.png",
+      "base": "modules/architecture/mat_slate_basecolor.png",
+      "normal": "modules/architecture/mat_slate_normal.png",
+      "orm": "modules/architecture/mat_slate_orm.png"
+    },
+    "gold": {
+      "source": "textures/ornament_basecolor.png",
+      "base": "modules/architecture/mat_gold_basecolor.png",
+      "normal": "modules/architecture/mat_gold_normal.png",
+      "orm": "modules/architecture/mat_gold_orm.png"
+    },
+    "window": {
+      "source": "textures/window_basecolor.png crop (95, 75, 533, 628)",
+      "base": "modules/architecture/mat_window_basecolor.png",
+      "normal": "modules/architecture/mat_window_normal.png",
+      "orm": "modules/architecture/mat_window_orm.png"
+    },
+    "grand_window": {
+      "source": "textures/window_basecolor.png crop (95, 75, 533, 628)",
+      "base": "modules/architecture/mat_grand_window_basecolor.png",
+      "normal": "modules/architecture/mat_grand_window_normal.png",
+      "orm": "modules/architecture/mat_grand_window_orm.png"
+    },
+    "clock": {
+      "source": "textures/clock_basecolor.png crop (16, 25, 613, 628)",
+      "base": "modules/architecture/mat_clock_basecolor.png",
+      "normal": "modules/architecture/mat_clock_normal.png",
+      "orm": "modules/architecture/mat_clock_orm.png"
+    },
+    "sign": {
+      "source": "textures/sign_basecolor.png",
+      "base": "modules/architecture/mat_sign_basecolor.png",
+      "normal": "modules/architecture/mat_sign_normal.png",
+      "orm": "modules/architecture/mat_sign_orm.png"
+    },
+    "door": {
+      "base": "modules/architecture/panel_door.png",
+      "source": "textures/door_basecolor.png crop (48, 0, 976, 1536)"
+    }
+  }
+}

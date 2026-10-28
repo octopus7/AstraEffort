@@ -1,0 +1,84 @@
+{
+  "units": "meters",
+  "authoring_axes": {
+    "X": "across track",
+    "Y": "front to rear",
+    "Z": "up"
+  },
+  "front_direction": "-Y",
+  "gltf_root_rotation_quaternion_xyzw": [
+    -0.7071067811865476,
+    0,
+    0,
+    0.7071067811865476
+  ],
+  "modules": {
+    "passenger_carriage": {
+      "file": "passenger_carriage.glb",
+      "design_dimensions_m": {
+        "width": 2.9,
+        "length": 15,
+        "height": 4.2
+      },
+      "authored_bounds_m": {
+        "min": [
+          -1.45,
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.45,
+          15.0,
+          4.2
+        ]
+      },
+      "wheel_radius_m": 0.45,
+      "wheel_centers_x_m": [
+        -0.7175,
+        0.7175
+      ],
+      "rail_alignment": "Wheel bottoms are Z=0; translate asset +0.22 m in authoring Z onto the specified rail top.",
+      "triangles_instanced": 4464,
+      "triangles_unique_meshes": 380,
+      "window_texture_single_panel_uv": [
+        0.34,
+        0.145,
+        0.65,
+        0.573
+      ],
+      "mesh_nodes": 274,
+      "export": {
+        "nodes": 277,
+        "meshes": 10,
+        "embedded_images": 15,
+        "materials": {
+          "wood": {
+            "base": "textures/carriage_wood_basecolor.png",
+            "normal": "textures/carriage_wood_normal.png",
+            "orm": "textures/carriage_wood_orm.png"
+          },
+          "metal": {
+            "base": "textures/boiler_basecolor.png",
+            "normal": "textures/boiler_normal.png",
+            "orm": "textures/boiler_orm.png"
+          },
+          "brass": {
+            "base": "textures/brass_basecolor.png",
+            "normal": "textures/brass_normal.png",
+            "orm": "textures/brass_orm.png"
+          },
+          "wheel": {
+            "base": "textures/wheel_basecolor.png",
+            "normal": "textures/wheel_normal.png",
+            "orm": "textures/wheel_orm.png"
+          },
+          "window": {
+            "base": "textures/carriage_window_basecolor.png",
+            "normal": "textures/carriage_window_normal.png",
+            "orm": "textures/carriage_window_orm.png"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "coordinate_system": {
+    "units": "meters",
+    "authored_up": "Z",
+    "front": "-Y",
+    "origin": "centered X/Y and on ground Z=0",
+    "gltf_root_rotation_xyzw": [
+      -0.7071067811865476,
+      0,
+      0,
+      0.7071067811865476
+    ]
+  },
+  "modules": {
+    "station_gaslamp": {
+      "file": "station_gaslamp.glb",
+      "bounds_author_z_up": [
+        [
+          -0.29,
+          -0.29,
+          0.0
+        ],
+        [
+          0.29,
+          0.29,
+          4.0
+        ]
+      ],
+      "triangles": 690,
+      "materials": [
+        "iron",
+        "brass",
+        "ornament",
+        "lantern"
+      ],
+      "uv_coverage": "all triangles",
+      "emission": "emissive amber lantern texture, no external light required"
+    },
+    "station_bench": {
+      "file": "station_bench.glb",
+      "bounds_author_z_up": [
+        [
+          -1.05,
+          -0.34,
+          0.0
+        ],
+        [
+          1.05,
+          0.3968,
+          0.9934
+        ]
+      ],
+      "triangles": 540,
+      "materials": [
+        "wood",
+        "iron",
+        "ornament"
+      ],
+      "uv_coverage": "all triangles"
+    },
+    "station_clock_sign": {
+      "file": "station_clock_sign.glb",
+      "bounds_author_z_up": [
+        [
+          -0.73,
+          -0.22,
+          0.0
+        ],
+        [
+          0.72,
+          0.22,
+          3.78
+        ]
+      ],
+      "triangles": 854,
+      "materials": [
+        "iron",
+        "brass",
+        "ornament",
+        "clock",
+        "sign3"
+      ],
+      "uv_coverage": "all triangles"
+    }
+  },
+  "source_textures": {
+    "iron": {
+      "base": "textures/iron_basecolor.png",
+      "normal": "textures/iron_normal.png",
+      "orm": "textures/iron_orm.png"
+    },
+    "wood": {
+      "base": "textures/wood_basecolor.png",
+      "normal": "textures/wood_normal.png",
+      "orm": "textures/wood_orm.png"
+    },
+    "brass": {
+      "base": "textures/brass_basecolor.png",
+      "normal": "textures/brass_normal.png",
+      "orm": "textures/brass_orm.png"
+    },
+    "ornament": {
+      "base": "textures/ornament_basecolor.png",
+      "normal": "textures/ornament_normal.png",
+      "orm": "textures/ornament_orm.png"
+    },
+    "lantern": {
+      "base": "modules/props/gaslight_basecolor.png"
+    },
+    "clock": {
+      "base": "modules/props/clock_basecolor.png",
+      "normal": "modules/props/clock_normal.png",
+      "orm": "modules/props/clock_orm.png"
+    },
+    "sign3": {
+      "base": "modules/props/platform_3_basecolor.png"
+    }
+  }
+}

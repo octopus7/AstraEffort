@@ -1,0 +1,69 @@
+{
+  "units": "metres",
+  "axis": "Y up",
+  "pivot": "local origin at ground level",
+  "assets": [
+    {
+      "file": "platform_sign.glb",
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.19
+      ],
+      "bounds_max": [
+        1.02,
+        3.11,
+        0.19
+      ],
+      "triangles_by_material": {
+        "iron_plain": 830,
+        "aged_gold": 232,
+        "platform_3": 4
+      },
+      "triangles": 1066,
+      "bytes": 226592
+    },
+    {
+      "file": "cargo_crate.glb",
+      "bounds_min": [
+        -0.5670000000000001,
+        0.0,
+        -0.5670000000000001
+      ],
+      "bounds_max": [
+        0.5670000000000001,
+        1.1225,
+        0.5670000000000001
+      ],
+      "triangles_by_material": {
+        "crate_planks": 12,
+        "wood_beam": 312,
+        "iron_plain": 192,
+        "rivet_plate": 32
+      },
+      "triangles": 548,
+      "bytes": 688320
+    },
+    {
+      "file": "cargo_barrel.glb",
+      "bounds_min": [
+        -0.43,
+        0.0,
+        -0.43
+      ],
+      "bounds_max": [
+        0.43,
+        1.04,
+        0.43
+      ],
+      "triangles_by_material": {
+        "barrel_staves": 128,
+        "barrel_lid": 32,
+        "iron_riveted": 128
+      },
+      "triangles": 288,
+      "bytes": 598292
+    }
+  ],
+  "texture_sources": "Procedural wood, painted numeral, gold, and rivets; iron textures are resized or decorated derivatives of the supplied AI cast iron image."
+}

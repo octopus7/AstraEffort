@@ -1,0 +1,68 @@
+{
+  "axis": "Y up",
+  "units": "meters",
+  "repeat_offset": [
+    0,
+    0,
+    6
+  ],
+  "bay": {
+    "bounds_min": [
+      -9.989999999999998,
+      0.0,
+      0.0
+    ],
+    "bounds_max": [
+      9.989999999999998,
+      12.071,
+      6.0
+    ],
+    "vertices": {
+      "iron_plain": 10440,
+      "iron_riveted": 1488,
+      "iron_cast_ai": 3264,
+      "aged_brass": 856,
+      "roof_glass": 128,
+      "lantern_glass": 96
+    },
+    "triangles": {
+      "iron_plain": 5220,
+      "iron_riveted": 744,
+      "iron_cast_ai": 1632,
+      "aged_brass": 376,
+      "roof_glass": 64,
+      "lantern_glass": 48
+    },
+    "total_triangles": 8084,
+    "bytes": 4728840
+  },
+  "end_frame": {
+    "bounds_min": [
+      -9.989999999999998,
+      0.0,
+      0.02999999999999997
+    ],
+    "bounds_max": [
+      9.989999999999998,
+      11.962479943977653,
+      0.55
+    ],
+    "vertices": {
+      "iron_plain": 3024,
+      "iron_riveted": 816,
+      "iron_cast_ai": 1728,
+      "aged_brass": 536
+    },
+    "triangles": {
+      "iron_plain": 1512,
+      "iron_riveted": 408,
+      "iron_cast_ai": 864,
+      "aged_brass": 248
+    },
+    "total_triangles": 3032,
+    "bytes": 4295260
+  },
+  "glass": "BLEND, double sided",
+  "texture_sources": "AI-generated aged cast iron supplied by assembly lead, embedded and UV-applied to arch chords and column cores; other textures procedurally generated with deterministic seed 8126",
+  "notes": "Repeat the bay every 6m. To support the final roof edge, add the separate end frame at z=(6*number_of_bays)-0.28m."
+}

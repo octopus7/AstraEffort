@@ -1,0 +1,9 @@
+# Station forecourt module
+
+`station_forecourt.glb` is one UV-mapped ground slab with **12 triangles and 24 vertices**, not a collection of individual paving meshes. It is glTF 2.0 in metres with Y up. Its shared façade pivot is `(0, 0, 0)`, at the centre of the rear top edge. Bounds are **X −10 to 10 m, Y −0.2 to 0 m, Z −10 to 0 m**. Place it at the same origin as `station_facade.glb`: the slab meets the station's front at Z=0 and the walkway sits at Y=0. The independent canopy posts sit on the surface.
+
+The wear, joints and individual stones are **base-color texture details** on the six faces of the single solid slab. The geometry has no displaced joints or separate paver objects. It does not include a separate collider or normal/roughness maps.
+
+The source image `textures/ai_worn_platform_paving.png` is the supplied AI-generated paving base-color texture. `generate_forecourt.py` downsamples it and makes a 2×2 mirrored repeating image, `textures/paving_mirrored_repeat.png`, which is embedded in the GLB. This reduces visible color seams and still works with a standard repeat sampler if the GLB is imported and re-exported. Each source-image cell covers about 2.2 × 1.8 m; the resulting four-cell texture repeat covers 4.4 × 3.6 m.
+
+Run `python generate_forecourt.py` to rebuild with Pillow, NumPy and trimesh. Run `python render_glb_preview.py` to reimport and render the actual GLB on the CPU. `preview_forecourt.png` shows the module alone; `preview_forecourt_station_fit.png` shows it alongside the reimported façade and canopy at the shared origin. `verification.json` records counts and bounds. Validation confirmed one embedded PNG, no external URI, explicit normals and UVs, outward face winding, finite data and no degenerate triangles. The reference is `../../references/14_station_forecourt_reference.png`.

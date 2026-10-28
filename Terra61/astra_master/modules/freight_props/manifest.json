@@ -1,0 +1,194 @@
+{
+  "description": "Victorian luggage cart with three trunks, wooden crate and barrel.",
+  "author_axes": "X right, Y rearward, Z up; front Y=0 and ground Z=0",
+  "export_axes": "glTF Y-up with one -90 degree X root rotation",
+  "reference_image": "../../references/11_luggage_cart_reference.png",
+  "trunk_source_crops_pixels": {
+    "case_tan": [
+      1194,
+      68,
+      1368,
+      124
+    ],
+    "case_brown": [
+      1152,
+      130,
+      1405,
+      209
+    ],
+    "case_blue": [
+      1134,
+      216,
+      1429,
+      284
+    ]
+  },
+  "materials_note": "Individual reference crops map luggage side panels; approximate normal/ORM maps are generated from their colour. Wood, iron, and brass use shared generated surface maps.",
+  "modules": {
+    "luggage_cart": {
+      "file": "luggage_cart.glb",
+      "author_bounds_m": [
+        [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        [
+          0.6,
+          2.0,
+          1.5
+        ]
+      ],
+      "triangle_count": 1144,
+      "material_images": {
+        "freight_wood": {
+          "basecolor": "wood_basecolor.png",
+          "normal": "wood_normal.png",
+          "orm": "wood_orm.png"
+        },
+        "freight_iron": {
+          "basecolor": "iron_basecolor.png",
+          "normal": "iron_normal.png",
+          "orm": "iron_orm.png"
+        },
+        "brass": {
+          "basecolor": "brass_basecolor.png",
+          "normal": "brass_normal.png",
+          "orm": "brass_orm.png"
+        },
+        "case_blue": {
+          "basecolor": "case_blue_basecolor.png",
+          "normal": "case_blue_normal.png",
+          "orm": "case_blue_orm.png"
+        },
+        "case_blue_top": {
+          "basecolor": "case_blue_top_basecolor.png",
+          "normal": "case_blue_top_normal.png",
+          "orm": "case_blue_top_orm.png"
+        },
+        "case_brown": {
+          "basecolor": "case_brown_basecolor.png",
+          "normal": "case_brown_normal.png",
+          "orm": "case_brown_orm.png"
+        },
+        "case_brown_top": {
+          "basecolor": "case_brown_top_basecolor.png",
+          "normal": "case_brown_top_normal.png",
+          "orm": "case_brown_top_orm.png"
+        },
+        "case_tan": {
+          "basecolor": "case_tan_basecolor.png",
+          "normal": "case_tan_normal.png",
+          "orm": "case_tan_orm.png"
+        },
+        "case_tan_top": {
+          "basecolor": "case_tan_top_basecolor.png",
+          "normal": "case_tan_top_normal.png",
+          "orm": "case_tan_top_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "freight_wood": [
+          0.8,
+          0.65
+        ],
+        "freight_iron": [
+          0.7,
+          0.7
+        ],
+        "brass": [
+          1,
+          1
+        ]
+      },
+      "mesh_names": [
+        "cart_wooden_platform",
+        "cart_wooden_end_rails",
+        "cart_handle",
+        "cart_axles",
+        "cart_wheel_L_1",
+        "cart_wheel_R_1",
+        "cart_wheel_L_2",
+        "cart_wheel_R_2",
+        "trunk_blue",
+        "trunk_brown",
+        "trunk_tan"
+      ],
+      "explicit_uv_charts": "Individual case face crops and custom top charts made from leather/strap details in those crops."
+    },
+    "crate": {
+      "file": "crate.glb",
+      "author_bounds_m": [
+        [
+          -0.4,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.8,
+          0.8
+        ]
+      ],
+      "triangle_count": 12,
+      "material_images": {
+        "freight_wood": {
+          "basecolor": "wood_basecolor.png",
+          "normal": "wood_normal.png",
+          "orm": "wood_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "freight_wood": [
+          0.8,
+          0.65
+        ]
+      },
+      "mesh_names": [
+        "wooden_crate"
+      ]
+    },
+    "barrel": {
+      "file": "barrel.glb",
+      "author_bounds_m": [
+        [
+          -0.325,
+          0.0,
+          0.0
+        ],
+        [
+          0.325,
+          0.65,
+          0.9
+        ]
+      ],
+      "triangle_count": 216,
+      "material_images": {
+        "freight_wood": {
+          "basecolor": "wood_basecolor.png",
+          "normal": "wood_normal.png",
+          "orm": "wood_orm.png"
+        },
+        "freight_iron": {
+          "basecolor": "iron_basecolor.png",
+          "normal": "iron_normal.png",
+          "orm": "iron_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "freight_wood": [
+          0.8,
+          0.65
+        ],
+        "freight_iron": [
+          0.7,
+          0.7
+        ]
+      },
+      "mesh_names": [
+        "barrel_wood_staves",
+        "barrel_iron_hoops"
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "units": "meters",
+  "authoring_axes": {
+    "X": "right",
+    "Y": "depth toward rear",
+    "Z": "up"
+  },
+  "gltf_root_rotation_quaternion_xyzw": [
+    -0.7071067811865476,
+    0,
+    0,
+    0.7071067811865476
+  ],
+  "front_direction": "-Y in authoring space",
+  "texture_regions": {
+    "iron": {
+      "base": "textures/iron_basecolor.png",
+      "normal": "textures/iron_normal.png",
+      "orm": "textures/iron_orm.png",
+      "uv": [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    },
+    "ornament": {
+      "base": "textures/ornament_basecolor.png",
+      "normal": "textures/ornament_normal.png",
+      "orm": "textures/ornament_orm.png",
+      "uv": [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    },
+    "glass": {
+      "base": "modules/shed/glass_basecolor.png",
+      "normal": "textures/slate_normal.png",
+      "orm": "textures/slate_orm.png",
+      "base_source": "textures/slate_basecolor.png",
+      "uv": [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    }
+  },
+  "modules": {
+    "shed_bay": {
+      "file": "shed_bay.glb",
+      "design_dimensions_m": {
+        "clear_span": 28,
+        "eaves_height": 11,
+        "roof_crown": 22,
+        "depth": 8
+      },
+      "authored_bounds_m": {
+        "min": [
+          -14.4,
+          0.0,
+          0.0
+        ],
+        "max": [
+          14.4,
+          8.0,
+          22.1198
+        ]
+      },
+      "triangles_instanced": 2748,
+      "triangles_unique_meshes": 152,
+      "repeat_pitch_m": [
+        0,
+        8,
+        0
+      ],
+      "mesh_nodes": 212,
+      "export": {
+        "images": 9,
+        "meshes": 5,
+        "nodes": 213
+      },
+      "placement": "Roof covers Y=0..8; main rib and columns at the far seam Y=8. Add front_arch at Y=0 for the initial support."
+    },
+    "front_arch": {
+      "file": "front_arch.glb",
+      "design_dimensions_m": {
+        "clear_span": 28,
+        "eaves_height": 11,
+        "roof_crown": 22
+      },
+      "authored_bounds_m": {
+        "min": [
+          -14.4,
+          0.0,
+          0.0
+        ],
+        "max": [
+          14.4,
+          0.8,
+          22.57
+        ]
+      },
+      "triangles_instanced": 2672,
+      "triangles_unique_meshes": 144,
+      "repeat_pitch_m": null,
+      "mesh_nodes": 204,
+      "export": {
+        "images": 6,
+        "meshes": 5,
+        "nodes": 205
+      },
+      "placement": "Place at station front Y=0; open arched frame, with decorative crown details rising above roof crown."
+    },
+    "platform_canopy_bay": {
+      "file": "platform_canopy_bay.glb",
+      "design_dimensions_m": {
+        "width": 6,
+        "depth": 8,
+        "height": 5
+      },
+      "authored_bounds_m": {
+        "min": [
+          -3.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          8.0,
+          4.999
+        ]
+      },
+      "triangles_instanced": 640,
+      "triangles_unique_meshes": 108,
+      "repeat_pitch_m": [
+        0,
+        8,
+        0
+      ],
+      "mesh_nodes": 40,
+      "export": {
+        "images": 9,
+        "meshes": 5,
+        "nodes": 41
+      },
+      "placement": "Roof covers Y=0..8, columns at Y=4; repeat along +Y. Ground base Z=0; place on top of platform."
+    }
+  }
+}

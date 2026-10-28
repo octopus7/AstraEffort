@@ -1,0 +1,17 @@
+# Victorian station façade module
+
+`station_facade.glb` is a single self-contained glTF 2.0 asset, with nine embedded PNG base-color textures, explicit vertex normals and UVs. Coordinates are metres, Y up. The asset's origin/pivot is `(0, 0, 0)` at the front centre on the ground, and the building extends back in positive Z. Its bounds are **X −10 to 10 m, Y 0 to 12.5 m, Z 0 to 8 m**. Export has **30,786 triangles** in nine material meshes. This is intended as a prominent station building rather than a mobile-optimized distant LOD.
+
+The ground-floor front has nine recessed arched openings; the middle three contain closed double doors. Windows continue on the two returns and the rear. The central great window is a semicircular aperture through the front wall. Ground- and upper-storey wall openings are actual cut-out mesh shapes. Glazing is a separate recessed, opaque material plane, so it looks glazed but does not provide true transparency. Door leaves and inset panels are geometry; they are static and cannot be opened. The surrounds, cornices, columns, curved central arch, mullions, clock case and hands' dial surface, dome silhouettes and finials use geometry. Stone joints, brick courses, metal wear and the clock numerals/hands are texture details. There is no modeled station interior, collision mesh or lighting setup.
+
+The façade intentionally excludes the front canopy so that the independent canopy module can be positioned at Z ≤ 0. The back edge at Z=8 can be attached to a train shed.
+
+## Materials and reproducibility
+
+`textures/ai_victorian_brick.png` and `textures/ai_victorian_stone.png` are the supplied AI-generated base-color textures. They are actually UV-mapped to the brick and stone wall meshes, with an approximately 1.95 × 1.11 m brick repeat and a 2.4 × 2 m stone repeat. All other textures and the clock face are procedurally drawn by `generate_facade.py`; `cut_stone.png` is a generated spare that is not used in this GLB. The source references are the provided station concept and `../../references/01_facade_reference.png`. No external texture assets were used.
+
+Run `python generate_facade.py` from this directory to rebuild. It requires Python, NumPy, Pillow and trimesh; it uses the local texture copies if the shared materials folder is absent. `render_glb_preview.py` reimports the exported GLB and rasterizes its geometry, UVs and embedded textures on the CPU. `preview_facade_front.png` and `preview_facade_threequarter.png` are actual model renders, not the concept image. `model_stats.json` records the export counts and bounds.
+
+## Clock WebGL verification
+
+The clock's iron and brass bezels have open centres: placing full discs directly behind the dial caused depth-buffer fighting from distant oblique views. The clock dial faces −Z and is single-sided, which also avoids self-shadow striping in the Three.js back-face shadow pass. `qa_before_depth_conflict.png` and `qa_angled_noshadow.png` show the before and after through Three.js `GLTFLoader`; `qa_angled_shadow.png` is the corrected view with shadows enabled. `test_clock_webgl.py` launches headless Chromium with Playwright and compares real WebGL renders of the angled dial with and without the bezel, under the same lighting, with shadows both on and off. The test needs the adjacent project `viewer/vendor` files, Node with Playwright, and Chromium; set `STATION_CHROMIUM` if the executable is not at the default path in `qa_clock.cjs`.

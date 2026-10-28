@@ -1,0 +1,201 @@
+{
+  "description": "Victorian steam locomotive and separate coal tender.",
+  "author_axes": "X right, Y rearward, Z up; front Y=0 and wheel contact Z=0",
+  "export_axes": "glTF Y-up with one -90 degree X root rotation",
+  "wheel_center_gauge": 1.435,
+  "wheel_contact_z": 0,
+  "rail_placement_z": 0.22,
+  "assembly": "Place the tender behind the locomotive at author Y approximately 10.1 m. Both roots are raised 0.22 m to touch the rail tops.",
+  "materials_note": "Image textures, approximate normal maps and packed metallic/roughness maps are embedded; wheel spokes and cab number are image charts.",
+  "modules": {
+    "locomotive": {
+      "file": "locomotive.glb",
+      "author_bounds_m": [
+        [
+          -1.4,
+          0.0,
+          0.0
+        ],
+        [
+          1.4,
+          10.0,
+          4.5
+        ]
+      ],
+      "triangle_count": 2928,
+      "material_images": {
+        "loco_iron": {
+          "basecolor": "iron_basecolor.png",
+          "normal": "iron_normal.png",
+          "orm": "iron_orm.png"
+        },
+        "red_paint": {
+          "basecolor": "carriage_wood_basecolor.png",
+          "normal": "carriage_wood_normal.png",
+          "orm": "carriage_wood_orm.png"
+        },
+        "brass": {
+          "basecolor": "brass_basecolor.png",
+          "normal": "brass_normal.png",
+          "orm": "brass_orm.png"
+        },
+        "boiler": {
+          "basecolor": "boiler_basecolor.png",
+          "normal": "boiler_normal.png",
+          "orm": "boiler_orm.png"
+        },
+        "lamp_amber": {
+          "basecolor": "brass_basecolor.png",
+          "normal": "brass_normal.png",
+          "orm": "brass_orm.png"
+        },
+        "cab_number": {
+          "basecolor": "cab_basecolor.png",
+          "normal": "cab_normal.png",
+          "orm": "cab_orm.png"
+        },
+        "dark_metal": {
+          "basecolor": "rail_basecolor.png",
+          "normal": "rail_normal.png",
+          "orm": "rail_orm.png"
+        },
+        "wheel_face": {
+          "basecolor": "wheel_basecolor.png",
+          "normal": "wheel_normal.png",
+          "orm": "wheel_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "loco_iron": [
+          1.5,
+          1.5
+        ],
+        "red_paint": [
+          2.0,
+          1.0
+        ],
+        "brass": [
+          1,
+          1
+        ],
+        "boiler": [
+          4.2,
+          2.0
+        ],
+        "lamp_amber": [
+          1,
+          1
+        ],
+        "dark_metal": [
+          1.5,
+          1.5
+        ]
+      },
+      "mesh_names": [
+        "locomotive_frame_and_footplate",
+        "inner_chassis",
+        "front_buffer_beam",
+        "front_buffers",
+        "round_boiler",
+        "smokebox_and_front_disk",
+        "front_headlamp",
+        "boiler_bands",
+        "chimney",
+        "steam_domes",
+        "boiler_side_pipes",
+        "cab_lower_body",
+        "cab_number_726",
+        "cab_window_frames",
+        "cab_roof",
+        "driving_wheel_L_1",
+        "driving_wheel_R_1",
+        "driving_wheel_L_2",
+        "driving_wheel_R_2",
+        "driving_wheel_L_3",
+        "driving_wheel_R_3",
+        "leading_wheel_L",
+        "leading_wheel_R",
+        "driving_rod_assembly"
+      ],
+      "explicit_uv_charts": {
+        "wheel_face": "One complete wheel image per side disk.",
+        "cab_number": "Central 50% of the image, mapped to the side panel."
+      }
+    },
+    "tender": {
+      "file": "tender.glb",
+      "author_bounds_m": [
+        [
+          -1.4,
+          0.0,
+          0.0
+        ],
+        [
+          1.4,
+          5.0,
+          3.6
+        ]
+      ],
+      "triangle_count": 772,
+      "material_images": {
+        "dark_metal": {
+          "basecolor": "rail_basecolor.png",
+          "normal": "rail_normal.png",
+          "orm": "rail_orm.png"
+        },
+        "red_paint": {
+          "basecolor": "carriage_wood_basecolor.png",
+          "normal": "carriage_wood_normal.png",
+          "orm": "carriage_wood_orm.png"
+        },
+        "boiler": {
+          "basecolor": "boiler_basecolor.png",
+          "normal": "boiler_normal.png",
+          "orm": "boiler_orm.png"
+        },
+        "coal": {
+          "basecolor": "ballast_basecolor.png",
+          "normal": "ballast_normal.png",
+          "orm": "ballast_orm.png"
+        },
+        "wheel_face": {
+          "basecolor": "wheel_basecolor.png",
+          "normal": "wheel_normal.png",
+          "orm": "wheel_orm.png"
+        }
+      },
+      "texture_repeat_m": {
+        "dark_metal": [
+          1.5,
+          1.5
+        ],
+        "red_paint": [
+          2.0,
+          1.0
+        ],
+        "boiler": [
+          4.2,
+          2.0
+        ],
+        "coal": [
+          0.42,
+          0.42
+        ]
+      },
+      "mesh_names": [
+        "tender_frame",
+        "tender_coal_bunker",
+        "tender_red_border",
+        "textured_coal_load",
+        "tender_wheel_L_1",
+        "tender_wheel_R_1",
+        "tender_wheel_L_2",
+        "tender_wheel_R_2",
+        "tender_buffers"
+      ],
+      "explicit_uv_charts": {
+        "wheel_face": "One complete wheel image per side disk."
+      }
+    }
+  }
+}

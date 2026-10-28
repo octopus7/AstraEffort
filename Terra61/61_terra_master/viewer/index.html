@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Riverdale Station — 3D Preview</title>
+  <style>
+    :root{color-scheme:dark;font-family:system-ui,-apple-system,sans-serif;background:#1b1e21;color:#f3ecdb}
+    *{box-sizing:border-box}body{margin:0;overflow:hidden}canvas{display:block;width:100vw;height:100vh}
+    .panel{position:absolute;left:18px;top:18px;z-index:2;max-width:min(440px,calc(100vw - 36px));padding:15px 17px;background:rgba(19,22,24,.9);border:1px solid #a78d61;border-radius:8px;box-shadow:0 8px 32px #0008}
+    h1{font-family:Georgia,serif;letter-spacing:.035em;margin:0 0 5px;font-size:19px}p{margin:0;color:#cfc8ba;font-size:12px;line-height:1.5}.tools{display:flex;gap:7px;margin:11px 0 8px;flex-wrap:wrap}button{font:inherit;font-size:12px;cursor:pointer;color:#f2e6cb;background:#363b3c;border:1px solid #796b55;padding:6px 9px;border-radius:4px}button:hover{background:#57513e}#status{font-size:11px;color:#dcc8a4}.error{color:#ffa9a9!important}
+    .foot{position:absolute;right:14px;bottom:12px;color:#fff9;font-size:11px;text-shadow:0 1px 3px #000;pointer-events:none}
+  </style>
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+</head>
+<body>
+  <div class="panel"><h1>RIVERDALE CENTRAL STATION</h1><p>모듈식 증기기관 시대 기차역 · 실제 GLB 모델 미리보기</p><div class="tools"><button data-camera="overview">전체 보기</button><button data-camera="front">정면</button><button data-camera="inside">승강장</button><button data-camera="top">위에서</button></div><div id="status">모델을 불러오는 중입니다…</div><p>마우스 드래그: 회전 · 휠: 확대/축소 · 오른쪽 드래그: 이동</p></div>
+  <div class="foot">실제 모델의 미리보기 · 조명과 재질 표현은 엔진마다 다를 수 있습니다</div>
+  <script type="module" src="./preview.js"></script>
+</body>
+</html>
