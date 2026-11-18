@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ed">
+  <title>엘프 여궁수 · Sprite Lab</title>
+  <link rel="icon" type="image/png" href="./assets/quill.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./lab.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="#preview" aria-label="Sprite Lab 미리보기">
+        <span class="brand-mark"><img src="./assets/quill.png" width="24" height="24" alt=""></span>
+        <span lang="en">Sprite Lab</span>
+      </a>
+      <span class="brand-context">걷기 애니메이션 테스트</span>
+      <nav aria-label="페이지 탐색">
+        <a href="#preview">픽셀아트</a>
+        <a href="#sheets">스프라이트 시트</a>
+        <a href="#anime">애니 일러스트</a>
+        <a href="#blonde-pixel">금발 픽셀아트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="preview" aria-labelledby="title">
+      <div class="preview-heading">
+        <div>
+          <h1 id="title">엘프 여궁수</h1>
+          <ul class="metadata" aria-label="애니메이션 사양">
+            <li><span class="direction" aria-hidden="true">→</span> 오른쪽 걷기</li>
+            <li>한 칸 <b>64 × 64 px</b></li>
+            <li><b>1</b>초 루프</li>
+          </ul>
+        </div>
+        <div class="backdrop-control js-only" data-backdrop-controls="stage" role="group" aria-label="미리보기 배경">
+          <span class="control-label" aria-hidden="true">배경</span>
+          <div class="segmented">
+            <button type="button" data-backdrop="forest" aria-pressed="true">
+              <span class="icon tree-icon" aria-hidden="true"></span>숲
+            </button>
+            <button type="button" data-backdrop="grid" aria-pressed="false">
+              <span class="icon grid-icon" aria-hidden="true"></span>격자
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-player">
+        <div class="stage" id="stage" data-backdrop="forest" role="group" aria-label="프레임 수별 걷기 비교">
+          <div class="stage-pair">
+            <figure class="lane" data-count="4" style="--count: 4">
+              <div class="walker" aria-hidden="true"><img src="./assets/elf-walk-04.png" alt="" width="256" height="64"></div>
+              <figcaption><a href="#sheet-4" aria-label="4프레임 시트로 이동"><strong>4</strong>프레임</a></figcaption>
+            </figure>
+            <figure class="lane" data-count="6" style="--count: 6">
+              <div class="walker" aria-hidden="true"><img src="./assets/elf-walk-06.png" alt="" width="384" height="64"></div>
+              <figcaption><a href="#sheet-6" aria-label="6프레임 시트로 이동"><strong>6</strong>프레임</a></figcaption>
+            </figure>
+          </div>
+          <div class="stage-pair">
+            <figure class="lane" data-count="8" style="--count: 8">
+              <div class="walker" aria-hidden="true"><img src="./assets/elf-walk-08.png" alt="" width="512" height="64"></div>
+              <figcaption><a href="#sheet-8" aria-label="8프레임 시트로 이동"><strong>8</strong>프레임</a></figcaption>
+            </figure>
+            <figure class="lane" data-count="12" style="--count: 12">
+              <div class="walker" aria-hidden="true"><img src="./assets/elf-walk-12.png" alt="" width="768" height="64"></div>
+              <figcaption><a href="#sheet-12" aria-label="12프레임 시트로 이동"><strong>12</strong>프레임</a></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="transport js-only">
+          <button class="play-toggle" id="play-toggle" type="button">
+            <span class="play-icon" aria-hidden="true"></span><span class="play-label" id="play-label">일시정지</span>
+          </button>
+          <div class="timeline">
+            <span aria-hidden="true">0 s</span>
+            <input type="range" id="position" min="0" max="1000" step="1" value="0"
+                   aria-label="보행 주기 위치" aria-valuetext="0%">
+            <span aria-hidden="true">1 s</span>
+          </div>
+          <div class="speed-control" role="group" aria-label="재생 속도">
+            <span class="control-label" aria-hidden="true">속도</span>
+            <div class="speed-options">
+              <button type="button" data-speed="0.5" aria-label="0.5배속" aria-pressed="false">0.5×</button>
+              <button type="button" data-speed="1" aria-label="1배속" aria-pressed="true">1×</button>
+              <button type="button" data-speed="2" aria-label="2배속" aria-pressed="false">2×</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sheets" class="sheets-section" aria-labelledby="sheets-title">
+      <div class="sheets-heading">
+        <div>
+          <h2 id="sheets-title">스프라이트 시트</h2>
+          <p class="js-only">프레임을 누르면 모든 버전이 같은 시점에서 멈춥니다.</p>
+        </div>
+        <span class="sheet-format"><span class="icon grid-icon" aria-hidden="true"></span>투명 PNG</span>
+      </div>
+      <div class="sheet-list">
+        <article class="sheet" id="sheet-4" data-count="4" aria-labelledby="label-4">
+          <header class="sheet-info"><h3 id="label-4"><b>4</b> 프레임</h3><p>256 × 64 px</p></header>
+          <div class="sheet-art"><img class="original" src="./assets/elf-walk-04.png" width="256" height="64" alt="오른쪽을 걷는 엘프 여궁수의 4프레임 원본 시트"></div>
+          <a class="download" href="./assets/elf-walk-04.png" download="elf-walk-04.png" aria-label="4프레임 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+        </article>
+        <article class="sheet" id="sheet-6" data-count="6" aria-labelledby="label-6">
+          <header class="sheet-info"><h3 id="label-6"><b>6</b> 프레임</h3><p>384 × 64 px</p></header>
+          <div class="sheet-art"><img class="original" src="./assets/elf-walk-06.png" width="384" height="64" alt="오른쪽을 걷는 엘프 여궁수의 6프레임 원본 시트"></div>
+          <a class="download" href="./assets/elf-walk-06.png" download="elf-walk-06.png" aria-label="6프레임 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+        </article>
+        <article class="sheet" id="sheet-8" data-count="8" aria-labelledby="label-8">
+          <header class="sheet-info"><h3 id="label-8"><b>8</b> 프레임</h3><p>512 × 64 px</p></header>
+          <div class="sheet-art"><img class="original" src="./assets/elf-walk-08.png" width="512" height="64" alt="오른쪽을 걷는 엘프 여궁수의 8프레임 원본 시트"></div>
+          <a class="download" href="./assets/elf-walk-08.png" download="elf-walk-08.png" aria-label="8프레임 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+        </article>
+        <article class="sheet" id="sheet-12" data-count="12" aria-labelledby="label-12">
+          <header class="sheet-info"><h3 id="label-12"><b>12</b> 프레임</h3><p>768 × 64 px</p></header>
+          <div class="sheet-art"><img class="original" src="./assets/elf-walk-12.png" width="768" height="64" alt="오른쪽을 걷는 엘프 여궁수의 12프레임 원본 시트"></div>
+          <a class="download" href="./assets/elf-walk-12.png" download="elf-walk-12.png" aria-label="12프레임 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="anime" data-scene-study aria-labelledby="anime-medium anime-title">
+      <div class="preview-heading">
+        <div>
+          <p class="art-medium" id="anime-medium">애니 일러스트</p>
+          <h2 class="study-title" id="anime-title">금발 엘프 여궁수</h2>
+          <ul class="metadata" aria-label="일러스트 애니메이션 사양">
+            <li><span class="direction" aria-hidden="true">→</span> 오른쪽 걷기</li>
+            <li>한 칸 <b>64 × 64 px</b></li>
+            <li><b>1</b>초 루프</li>
+          </ul>
+        </div>
+        <a class="scene-link" id="scene-link" href="./scene.html?frames=12" target="_blank" rel="noopener">장면만 보기 <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="preview-player anime-player">
+        <figure class="illustrated-scene" id="anime-stage" role="img" aria-label="꽃장식 활을 든 금발 엘프가 폭포와 석조 유적 앞에서 오른쪽을 향해 걷는 12프레임 장면">
+          <img class="scene-plate" src="./assets/anime-ruins.png" width="1672" height="941" loading="lazy" alt="">
+          <span class="cel-shadow" aria-hidden="true"></span>
+            <span class="scene-actor" data-count="4" style="--count: 4" hidden><img class="cel-film" src="./assets/anime-walk-04-hd.png" width="2048" height="512" loading="lazy" alt=""></span>
+            <span class="scene-actor" data-count="6" style="--count: 6" hidden><img class="cel-film" src="./assets/anime-walk-06-hd.png" width="3072" height="512" loading="lazy" alt=""></span>
+            <span class="scene-actor" data-count="8" style="--count: 8" hidden><img class="cel-film" src="./assets/anime-walk-08-hd.png" width="4096" height="512" loading="lazy" alt=""></span>
+            <span class="scene-actor" data-count="12" style="--count: 12"><img class="cel-film" src="./assets/anime-walk-12-hd.png" width="6144" height="512" loading="lazy" alt=""></span>
+        </figure>
+        <div class="scene-options">
+          <div class="version-selector js-only" role="group" aria-label="큰 장면의 프레임 수">
+            <span class="control-label">프레임 수</span>
+            <div class="segmented">
+                <button type="button" data-feature="4" aria-label="큰 장면에서 4프레임 재생" aria-pressed="false">4</button>
+                <button type="button" data-feature="6" aria-label="큰 장면에서 6프레임 재생" aria-pressed="false">6</button>
+                <button type="button" data-feature="8" aria-label="큰 장면에서 8프레임 재생" aria-pressed="false">8</button>
+                <button type="button" data-feature="12" aria-label="큰 장면에서 12프레임 재생" aria-pressed="true">12</button>
+            </div>
+          </div>
+          <a class="plate-link" href="./assets/anime-ruins.png" download aria-label="캐릭터 없는 유적 배경 PNG 저장"><span class="icon download-icon" aria-hidden="true"></span>배경 PNG</a>
+        </div>
+        <div class="transport js-only" aria-label="일러스트 재생 제어">
+          <button class="play-toggle" id="anime-play-toggle" type="button">
+            <span class="play-icon" aria-hidden="true"></span><span class="play-label">일시정지</span>
+          </button>
+          <div class="timeline">
+            <span aria-hidden="true">0 s</span>
+            <input type="range" id="anime-position" min="0" max="1000" step="1" value="0" aria-label="일러스트 보행 주기 위치" aria-valuetext="0%">
+            <span aria-hidden="true">1 s</span>
+          </div>
+          <div class="speed-control" role="group" aria-label="일러스트 재생 속도">
+            <span class="control-label" aria-hidden="true">속도</span>
+            <div class="speed-options">
+              <button type="button" data-speed="0.5" aria-label="0.5배속" aria-pressed="false">0.5×</button>
+              <button type="button" data-speed="1" aria-label="1배속" aria-pressed="true">1×</button>
+              <button type="button" data-speed="2" aria-label="2배속" aria-pressed="false">2×</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <details class="layer-sheet" id="anime-layers">
+        <summary>팔·망토 레이어 시트 <span>투명 PNG</span></summary>
+        <div class="layer-parts">
+          <a class="layer-part" href="./art/anime/layers/body.png" download="body.png" aria-label="몸통 레이어 PNG 저장">
+            <span class="layer-thumb" style="--tile: 0%" aria-hidden="true"></span>
+            <span class="layer-caption">몸통<span class="icon download-icon" aria-hidden="true"></span></span>
+          </a>
+          <a class="layer-part" href="./art/anime/layers/far-arm-bow.png" download="far-arm-bow.png" aria-label="먼팔 · 활 레이어 PNG 저장">
+            <span class="layer-thumb" style="--tile: 25%" aria-hidden="true"></span>
+            <span class="layer-caption">먼팔 · 활<span class="icon download-icon" aria-hidden="true"></span></span>
+          </a>
+          <a class="layer-part" href="./art/anime/layers/near-arm.png" download="near-arm.png" aria-label="가까운 팔 · 빈손 레이어 PNG 저장">
+            <span class="layer-thumb" style="--tile: 50%" aria-hidden="true"></span>
+            <span class="layer-caption">가까운 팔 · 빈손<span class="icon download-icon" aria-hidden="true"></span></span>
+          </a>
+          <a class="layer-part" href="./art/anime/layers/cape-back.png" download="cape-back.png" aria-label="망토 뒷자락 레이어 PNG 저장">
+            <span class="layer-thumb" style="--tile: 75%" aria-hidden="true"></span>
+            <span class="layer-caption">망토 뒷자락<span class="icon download-icon" aria-hidden="true"></span></span>
+          </a>
+          <a class="layer-part" href="./art/anime/layers/cape-front.png" download="cape-front.png" aria-label="망토 어깨깃 레이어 PNG 저장">
+            <span class="layer-thumb" style="--tile: 100%" aria-hidden="true"></span>
+            <span class="layer-caption">망토 어깨깃<span class="icon download-icon" aria-hidden="true"></span></span>
+          </a>
+        </div>
+      </details>
+
+      <section id="anime-sheets" class="sheets-section" aria-labelledby="anime-sheets-title">
+        <div class="sheets-heading">
+          <div>
+            <h3 class="sheet-title" id="anime-sheets-title">일러스트 시트</h3>
+            <p>64 px 테스트 시트와 512 px 원화 시트를 받을 수 있습니다.<span class="js-only"> 칸을 누르면 모든 버전이 같은 시점에 멈춥니다.</span></p>
+          </div>
+          <span class="sheet-format"><span class="icon grid-icon" aria-hidden="true"></span>투명 PNG</span>
+        </div>
+        <div class="sheet-list">
+          <article class="sheet anime-sheet" id="anime-sheet-4" data-count="4" aria-labelledby="anime-label-4">
+            <header class="sheet-info"><h4 id="anime-label-4"><b>4</b> 프레임</h4><p>256 × 64 px</p></header>
+            <div class="sheet-live" data-count="4" style="--count: 4" role="img" aria-label="애니 일러스트 4프레임 걷기 재생">
+              <img class="cel-film" src="./assets/anime-walk-04-hd.png" width="2048" height="512" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/anime-walk-04.png" width="256" height="64" alt="금발 엘프 여궁수의 4프레임 일러스트 시트"></div>
+            <div class="downloads" role="group" aria-label="4프레임 PNG 셀 크기">
+              <a class="download" href="./assets/anime-walk-04.png" download aria-label="4프레임 64픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>64 px</a>
+              <a class="download" href="./assets/anime-walk-04-hd.png" download aria-label="4프레임 512픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>512 px</a>
+            </div>
+          </article>
+          <article class="sheet anime-sheet" id="anime-sheet-6" data-count="6" aria-labelledby="anime-label-6">
+            <header class="sheet-info"><h4 id="anime-label-6"><b>6</b> 프레임</h4><p>384 × 64 px</p></header>
+            <div class="sheet-live" data-count="6" style="--count: 6" role="img" aria-label="애니 일러스트 6프레임 걷기 재생">
+              <img class="cel-film" src="./assets/anime-walk-06-hd.png" width="3072" height="512" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/anime-walk-06.png" width="384" height="64" alt="금발 엘프 여궁수의 6프레임 일러스트 시트"></div>
+            <div class="downloads" role="group" aria-label="6프레임 PNG 셀 크기">
+              <a class="download" href="./assets/anime-walk-06.png" download aria-label="6프레임 64픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>64 px</a>
+              <a class="download" href="./assets/anime-walk-06-hd.png" download aria-label="6프레임 512픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>512 px</a>
+            </div>
+          </article>
+          <article class="sheet anime-sheet" id="anime-sheet-8" data-count="8" aria-labelledby="anime-label-8">
+            <header class="sheet-info"><h4 id="anime-label-8"><b>8</b> 프레임</h4><p>512 × 64 px</p></header>
+            <div class="sheet-live" data-count="8" style="--count: 8" role="img" aria-label="애니 일러스트 8프레임 걷기 재생">
+              <img class="cel-film" src="./assets/anime-walk-08-hd.png" width="4096" height="512" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/anime-walk-08.png" width="512" height="64" alt="금발 엘프 여궁수의 8프레임 일러스트 시트"></div>
+            <div class="downloads" role="group" aria-label="8프레임 PNG 셀 크기">
+              <a class="download" href="./assets/anime-walk-08.png" download aria-label="8프레임 64픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>64 px</a>
+              <a class="download" href="./assets/anime-walk-08-hd.png" download aria-label="8프레임 512픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>512 px</a>
+            </div>
+          </article>
+          <article class="sheet anime-sheet" id="anime-sheet-12" data-count="12" aria-labelledby="anime-label-12">
+            <header class="sheet-info"><h4 id="anime-label-12"><b>12</b> 프레임</h4><p>768 × 64 px</p></header>
+            <div class="sheet-live" data-count="12" style="--count: 12" role="img" aria-label="애니 일러스트 12프레임 걷기 재생">
+              <img class="cel-film" src="./assets/anime-walk-12-hd.png" width="6144" height="512" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/anime-walk-12.png" width="768" height="64" alt="금발 엘프 여궁수의 12프레임 일러스트 시트"></div>
+            <div class="downloads" role="group" aria-label="12프레임 PNG 셀 크기">
+              <a class="download" href="./assets/anime-walk-12.png" download aria-label="12프레임 64픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>64 px</a>
+              <a class="download" href="./assets/anime-walk-12-hd.png" download aria-label="12프레임 512픽셀 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>512 px</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section id="blonde-pixel" data-scene-study aria-labelledby="blonde-pixel-medium blonde-pixel-title">
+      <div class="preview-heading">
+        <div>
+          <p class="art-medium" id="blonde-pixel-medium">픽셀아트</p>
+          <h2 class="study-title" id="blonde-pixel-title">금발 엘프 여궁수</h2>
+          <ul class="metadata" aria-label="픽셀아트 애니메이션 사양">
+            <li><span class="direction" aria-hidden="true">→</span> 오른쪽 걷기</li>
+            <li>한 칸 <b>64 × 64 px</b></li>
+            <li><b>1</b>초 루프</li>
+          </ul>
+        </div>
+        <a class="scene-link" href="./scene.html?frames=12#blonde-pixel" target="_blank" rel="noopener">장면만 보기 <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="preview-player">
+        <figure class="illustrated-scene pixel-scene" id="blonde-pixel-stage" data-backdrop="ruins" role="img" aria-label="꽃활을 든 금발 엘프의 12프레임 오른쪽 걷기 픽셀아트">
+          <img class="scene-plate" src="./assets/blonde-pixel-ruins.png" width="208" height="117" loading="lazy" alt="">
+          <span class="cel-shadow" aria-hidden="true"></span>
+          <span class="scene-actor" data-count="4" style="--count: 4" hidden><img class="cel-film" src="./assets/blonde-pixel-walk-04.png" width="256" height="64" loading="lazy" alt=""></span>
+          <span class="scene-actor" data-count="6" style="--count: 6" hidden><img class="cel-film" src="./assets/blonde-pixel-walk-06.png" width="384" height="64" loading="lazy" alt=""></span>
+          <span class="scene-actor" data-count="8" style="--count: 8" hidden><img class="cel-film" src="./assets/blonde-pixel-walk-08.png" width="512" height="64" loading="lazy" alt=""></span>
+          <span class="scene-actor" data-count="12" style="--count: 12"><img class="cel-film" src="./assets/blonde-pixel-walk-12.png" width="768" height="64" loading="lazy" alt=""></span>
+        </figure>
+        <div class="scene-options js-only">
+          <div class="version-selector">
+            <span class="control-label">프레임 수</span>
+            <div class="segmented" role="group" aria-label="픽셀 장면의 프레임 수">
+                <button type="button" data-feature="4" aria-label="픽셀 장면에서 4프레임 재생" aria-pressed="false">4</button>
+                <button type="button" data-feature="6" aria-label="픽셀 장면에서 6프레임 재생" aria-pressed="false">6</button>
+                <button type="button" data-feature="8" aria-label="픽셀 장면에서 8프레임 재생" aria-pressed="false">8</button>
+                <button type="button" data-feature="12" aria-label="픽셀 장면에서 12프레임 재생" aria-pressed="true">12</button>
+            </div>
+          </div>
+          <div class="backdrop-control" data-backdrop-controls="blonde-pixel-stage" role="group" aria-label="금발 엘프 픽셀아트 배경">
+            <span class="control-label">배경</span>
+            <div class="segmented">
+              <button type="button" data-backdrop="ruins" aria-pressed="true">유적</button>
+              <button type="button" data-backdrop="grid" aria-pressed="false"><span class="icon grid-icon" aria-hidden="true"></span>격자</button>
+            </div>
+          </div>
+        </div>
+        <div class="transport js-only" aria-label="픽셀아트 재생 제어">
+          <button class="play-toggle" id="blonde-pixel-play" type="button"><span class="play-icon" aria-hidden="true"></span><span class="play-label">일시정지</span></button>
+          <div class="timeline">
+            <span aria-hidden="true">0 s</span>
+            <input type="range" id="blonde-pixel-position" min="0" max="1000" step="1" value="0" aria-label="금발 엘프 픽셀아트 보행 주기 위치" aria-valuetext="0%">
+            <span aria-hidden="true">1 s</span>
+          </div>
+          <div class="speed-control" role="group" aria-label="픽셀아트 재생 속도">
+            <span class="control-label" aria-hidden="true">속도</span>
+            <div class="speed-options">
+              <button type="button" data-speed="0.5" aria-label="0.5배속" aria-pressed="false">0.5×</button>
+              <button type="button" data-speed="1" aria-label="1배속" aria-pressed="true">1×</button>
+              <button type="button" data-speed="2" aria-label="2배속" aria-pressed="false">2×</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="sheets-section" id="blonde-pixel-sheets" aria-labelledby="blonde-pixel-sheets-title">
+        <div class="sheets-heading">
+          <h3 class="sheet-title" id="blonde-pixel-sheets-title">픽셀아트 시트</h3>
+          <span class="sheet-format"><span class="icon grid-icon" aria-hidden="true"></span>투명 PNG</span>
+        </div>
+        <div class="sheet-list">
+          <article class="sheet pixel-sheet" id="blonde-pixel-sheet-4" data-count="4" aria-labelledby="blonde-pixel-label-4">
+            <header class="sheet-info"><h4 id="blonde-pixel-label-4"><b>4</b> 프레임</h4><p>256 × 64 px</p></header>
+            <div class="sheet-live" data-count="4" style="--count: 4" role="img" aria-label="금발 엘프 픽셀아트 4프레임 걷기 재생">
+              <img class="cel-film" src="./assets/blonde-pixel-walk-04.png" width="256" height="64" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/blonde-pixel-walk-04.png" width="256" height="64" loading="lazy" alt="오른쪽을 걷는 금발 엘프의 4프레임 픽셀아트 시트"></div>
+            <a class="download" href="./assets/blonde-pixel-walk-04.png" download="blonde-pixel-walk-04.png" aria-label="금발 엘프 4프레임 픽셀아트 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+          </article>
+          <article class="sheet pixel-sheet" id="blonde-pixel-sheet-6" data-count="6" aria-labelledby="blonde-pixel-label-6">
+            <header class="sheet-info"><h4 id="blonde-pixel-label-6"><b>6</b> 프레임</h4><p>384 × 64 px</p></header>
+            <div class="sheet-live" data-count="6" style="--count: 6" role="img" aria-label="금발 엘프 픽셀아트 6프레임 걷기 재생">
+              <img class="cel-film" src="./assets/blonde-pixel-walk-06.png" width="384" height="64" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/blonde-pixel-walk-06.png" width="384" height="64" loading="lazy" alt="오른쪽을 걷는 금발 엘프의 6프레임 픽셀아트 시트"></div>
+            <a class="download" href="./assets/blonde-pixel-walk-06.png" download="blonde-pixel-walk-06.png" aria-label="금발 엘프 6프레임 픽셀아트 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+          </article>
+          <article class="sheet pixel-sheet" id="blonde-pixel-sheet-8" data-count="8" aria-labelledby="blonde-pixel-label-8">
+            <header class="sheet-info"><h4 id="blonde-pixel-label-8"><b>8</b> 프레임</h4><p>512 × 64 px</p></header>
+            <div class="sheet-live" data-count="8" style="--count: 8" role="img" aria-label="금발 엘프 픽셀아트 8프레임 걷기 재생">
+              <img class="cel-film" src="./assets/blonde-pixel-walk-08.png" width="512" height="64" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/blonde-pixel-walk-08.png" width="512" height="64" loading="lazy" alt="오른쪽을 걷는 금발 엘프의 8프레임 픽셀아트 시트"></div>
+            <a class="download" href="./assets/blonde-pixel-walk-08.png" download="blonde-pixel-walk-08.png" aria-label="금발 엘프 8프레임 픽셀아트 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+          </article>
+          <article class="sheet pixel-sheet" id="blonde-pixel-sheet-12" data-count="12" aria-labelledby="blonde-pixel-label-12">
+            <header class="sheet-info"><h4 id="blonde-pixel-label-12"><b>12</b> 프레임</h4><p>768 × 64 px</p></header>
+            <div class="sheet-live" data-count="12" style="--count: 12" role="img" aria-label="금발 엘프 픽셀아트 12프레임 걷기 재생">
+              <img class="cel-film" src="./assets/blonde-pixel-walk-12.png" width="768" height="64" loading="lazy" alt="">
+            </div>
+            <div class="sheet-art"><img class="original" src="./assets/blonde-pixel-walk-12.png" width="768" height="64" loading="lazy" alt="오른쪽을 걷는 금발 엘프의 12프레임 픽셀아트 시트"></div>
+            <a class="download" href="./assets/blonde-pixel-walk-12.png" download="blonde-pixel-walk-12.png" aria-label="금발 엘프 12프레임 픽셀아트 PNG 시트 저장"><span class="icon download-icon" aria-hidden="true"></span>PNG 저장</a>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

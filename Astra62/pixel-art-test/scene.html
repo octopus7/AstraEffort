@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14221c">
+  <title>금발 엘프 여궁수 · 유적 장면</title>
+  <link rel="icon" type="image/png" href="./assets/quill.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="clean-view">
+  <main>
+    <figure class="illustrated-scene" role="img" aria-label="꽃장식 활을 든 금발 엘프가 폭포와 석조 아치 앞에서 오른쪽을 향해 걷습니다.">
+      <img class="scene-plate" src="./assets/anime-ruins.png" width="1672" height="941" loading="lazy" alt="">
+      <span class="cel-shadow" aria-hidden="true"></span>
+      <span class="scene-actor" style="--count: 12">
+        <img class="cel-film" src="./assets/anime-walk-12-hd.png" width="6144" height="512" loading="lazy" alt="">
+      </span>
+    </figure>
+    <figure class="illustrated-scene pixel-scene" id="blonde-pixel" role="img" aria-label="금발 엘프가 꽃활을 들고 유적 앞에서 오른쪽으로 걷는 픽셀아트">
+      <img class="scene-plate" src="./assets/blonde-pixel-ruins.png" width="208" height="117" loading="lazy" alt="">
+      <span class="cel-shadow" aria-hidden="true"></span>
+      <span class="scene-actor" style="--count: 12">
+        <img class="cel-film" src="./assets/blonde-pixel-walk-12.png" width="768" height="64" loading="lazy" alt="">
+      </span>
+    </figure>
+  </main>
+  <script>
+    function selectScene() {
+      const pixel = location.hash === "#blonde-pixel";
+      document.title = "금발 엘프 여궁수 · " + (pixel ? "픽셀아트" : "유적 장면");
+      const count = Number(new URLSearchParams(location.search).get("frames"));
+      if (![4, 6, 8].includes(count)) return;
+      const scene = document.querySelector(pixel ? ".pixel-scene" : ".illustrated-scene:not(.pixel-scene)");
+      const actor = scene.querySelector(".scene-actor");
+      const film = actor.querySelector("img");
+      const id = String(count).padStart(2, "0");
+      actor.style.setProperty("--count", count);
+      film.width = count * Number(film.getAttribute("height"));
+      film.src = pixel ? "./assets/blonde-pixel-walk-" + id + ".png" : "./assets/anime-walk-" + id + "-hd.png";
+    }
+    selectScene();
+    window.addEventListener("hashchange", selectScene);
+  </script>
+</body>
+</html>
