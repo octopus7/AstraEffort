@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1224">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./viewer.css">
+  <title></title>
+  <script defer src="./assets/three-viewer.min.js"></script>
+  <script defer src="./viewer.js"></script>
+</head>
+<body>
+  <header>
+    <h1 data-string="park.title"></h1>
+    <a class="download" href="./assets/moonlit-park.glb" download="moonlit-park.glb">
+      <span class="download-icon" aria-hidden="true">↓</span><span data-string="park.download"></span>
+    </a>
+  </header>
+  <main id="stage">
+    <img id="poster" src="./assets/park-preview.webp" alt="" data-alt="park.title" draggable="false">
+    <canvas id="scene" tabindex="0" data-aria="park.scene"></canvas>
+    <div class="notice" id="notice">
+      <span id="status" role="status" aria-live="polite"></span>
+      <button id="open-model" type="button" data-string="park.open" hidden></button>
+      <input id="model-file" type="file" accept=".glb,model/gltf-binary" hidden>
+    </div>
+  </main>
+  <footer>
+    <p id="gesture"><span class="pointer-hint" data-string="park.gesture"></span><span class="touch-hint" data-string="park.touch"></span></p>
+    <div class="controls" role="group" data-aria="park.controls">
+      <button type="button" id="zoom-out" data-aria="park.out" disabled><span aria-hidden="true">−</span></button>
+      <button type="button" id="zoom-in" data-aria="park.in" disabled><span aria-hidden="true">+</span></button>
+      <span class="divider" aria-hidden="true"></span>
+      <button type="button" id="home" data-aria="park.home" disabled><span aria-hidden="true">↺</span></button>
+    </div>
+  </footer>
+  <!-- This standalone table uses the project's string_key and language columns. -->
+  <script id="strings" type="text/csv">
+string_key,ko,en,ja,zh-Hans,zh-Hant,ru
+park.title,비 내린 마을 공원,The park after rain,雨上がりの村の公園,雨后的小镇公园,雨後的小鎮公園,Парк после дождя
+park.download,GLB 다운로드,Download GLB,GLBをダウンロード,下载 GLB,下載 GLB,Скачать GLB
+park.scene,비 내린 마을 공원 3D 모델. 방향키로 회전하고 더하기와 빼기 키로 확대 또는 축소합니다.,3D park model. Use the arrow keys to orbit and plus or minus to zoom.,公園の3Dモデル。矢印キーで回転しプラスとマイナスで拡大縮小します。,公园三维模型。用方向键旋转并用加减键缩放。,公園立體模型。用方向鍵旋轉並用加減鍵縮放。,Трёхмерная модель парка. Стрелки вращают вид. Плюс и минус меняют масштаб.
+park.gesture,드래그로 회전 · 휠이나 두 손가락으로 확대,Drag to orbit · Scroll or pinch to zoom,ドラッグで回転 · スクロールまたはピンチで拡大,拖动旋转 · 滚轮或双指缩放,拖曳旋轉 · 滾輪或雙指縮放,Перетаскивайте для вращения · Колесо или жест для масштаба
+park.touch,쓸어 회전 · 두 손가락으로 확대,Drag to orbit · Pinch to zoom,ドラッグで回転 · ピンチで拡大,拖动旋转 · 双指缩放,拖曳旋轉 · 雙指縮放,Вращение пальцем · Масштаб двумя
+park.controls,카메라 조작,Camera controls,カメラ操作,镜头控制,鏡頭控制,Управление камерой
+park.in,확대,Zoom in,拡大,放大,放大,Приблизить
+park.out,축소,Zoom out,縮小,缩小,縮小,Отдалить
+park.home,처음 시점으로,Reset view,最初の視点に戻す,恢复初始视角,回到初始視角,Исходный вид
+park.loading,공원 불러오는 중…,Loading the park…,公園を読み込み中…,正在载入公园…,正在載入公園…,Загрузка парка…
+park.local,3D로 보려면 assets 폴더의 moonlit-park.glb를 선택하세요.,To explore in 3D choose moonlit-park.glb from the assets folder.,3D表示にはassetsフォルダーのmoonlit-park.glbを選択してください。,从 assets 文件夹选择 moonlit-park.glb 即可查看三维模型。,從 assets 資料夾選取 moonlit-park.glb 即可查看立體模型。,Для просмотра в 3D выберите moonlit-park.glb из папки assets.
+park.open,GLB 파일 열기,Open GLB file,GLBファイルを開く,打开 GLB 文件,開啟 GLB 檔案,Открыть файл GLB
+park.failed,모델을 불러올 수 없습니다. GLB 파일을 직접 열 수 있습니다.,The model could not load. You can open the GLB file directly.,モデルを読み込めません。GLBファイルを直接開けます。,模型载入失败。可以直接打开 GLB 文件。,模型載入失敗。可以直接開啟 GLB 檔案。,Не удалось загрузить модель. Можно открыть файл GLB вручную.
+park.unavailable,이 브라우저에서는 미리보기로 표시합니다.,This browser is displaying the still preview.,このブラウザーではプレビュー画像を表示します。,此浏览器显示静态预览。,此瀏覽器顯示靜態預覽。,В этом браузере показано изображение парка.
+  </script>
+</body>
+</html>
