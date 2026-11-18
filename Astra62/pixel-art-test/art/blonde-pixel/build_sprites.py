@@ -1,9 +1,8 @@
-"""Hand-pixelled 64 px version of the approved blonde elf, on a one-second walk.
+"""Hand-pixelled, compact blonde elf in one-second, right-facing walk cycles.
 
-The illustration rig supplies the joints, and the shared stride supplies
-independent heel and toe angles. The boot, cloth, flowers and hair are drawn
-on the 64 px grid. Pass --preview-dir for joint positions, transparent limbs
-and enlarged pose sheets. Pillow is the only external dependency.
+The illustration supplies the gait timing. The shorter limbs, broad skirt and
+large head are drawn on the 64 px grid. Pass --preview-dir for joint positions,
+transparent limbs and enlarged pose sheets. Pillow is the only dependency.
 """
 
 import argparse
@@ -14,7 +13,9 @@ import math
 from pathlib import Path
 import sys
 
-from PIL import Image, ImageDraw
+from PIL import Image
+from compact_head import draw_head, draw_ponytail
+from pixel_brush import Brush, PALETTE, ip
 
 
 ART=Path(__file__).resolve().parent
@@ -26,26 +27,6 @@ COUNTS=(4,6,8,12)
 TAU=math.tau
 SOURCE_SCALE=.542/8
 FLOOR=59
-
-# Deliberate, shared ramps keep the eye, the leaf motifs and the white flowers
-# distinct from the gold, skin and pale-pink ramps even on a green background.
-PALETTE={
-    'ink':'#3b3231','brown':'#69453a','leather':'#946044','tan':'#be8253',
-    'umber':'#8e563d','ochre':'#b97349','honey':'#e8a160','blonde':'#fac480',
-    'goldlight':'#ffe1a0','shine':'#fff2c9','metal':'#bd813f','gold':'#edb45b',
-    'roseink':'#985b68','rose':'#c78091','pink':'#e8a7b5','blush':'#f8ced5',
-    'pearl':'#fff0e3','white':'#fff8e8','skinrim':'#ae6e60','shade':'#dc9b84',
-    'skin':'#f4c2a6','skinlit':'#ffe0bd','olivedeep':'#464737','oliveshade':'#5d6045',
-    'olive':'#74794d','olivelit':'#959a5f','leafdark':'#527040','leaf':'#91a455',
-    'lime':'#bcca68','limelit':'#e1e792','ivoryshade':'#b7989a','ivorymid':'#e1c3c2',
-    'eyedark':'#355c45','eye':'#77a758','sole':'#4c3736','rear':'#c99694',
-    'rearboot':'#795648','rearshaft':'#59453e',
-}
-
-
-def ip(p):
-    return tuple(math.floor(n+.5) for n in p)
-
 
 def unit(v):
     length=math.hypot(*v) or 1
@@ -59,21 +40,6 @@ def along(a,b):
 
 def move(dx=0,dy=0):
     return lambda pts:[(x+dx,y+dy) for x,y in pts]
-
-
-class Brush:
-    def __init__(self,image,coordinates=None):
-        self.draw=ImageDraw.Draw(image);self.coordinates=coordinates or (lambda x:x)
-
-    def p(self,fill,pts,edge=None):
-        self.draw.polygon([ip(x) for x in self.coordinates(pts)],fill=PALETTE[fill],
-                          outline=PALETTE[edge] if edge else None)
-
-    def l(self,fill,pts,width=1):
-        self.draw.line([ip(x) for x in self.coordinates(pts)],fill=PALETTE[fill],width=width)
-
-    def d(self,fill,*pts):
-        self.draw.point([ip(x) for x in self.coordinates(pts)],fill=PALETTE[fill])
 
 
 def clamp(value):
@@ -90,233 +56,177 @@ def offset(a,b):
     return a[0]+b[0],a[1]+b[1]
 
 
-def torso_points(phase,bob,points):
-    stride=TAU*phase
-    pelvis=math.cos(stride-.12)
-    transfer=math.cos(2*stride-.82)
-    result=[]
-    for x,y in points:
-        hip=clamp((y-18)/12)
-        hem=clamp((y-29)/10)
-        side=max(-1.,min(1.,(x-38)/7))
-        dx=(1.44*hip-.75)*pelvis+hem*(1.05*math.sin(stride-.72)+1.05*side*transfer)
-        dy=bob+hem*(.80*side*math.sin(stride-.50)-.65*transfer)
-        result.append((x+dx,y+dy))
+def compact_joints(pose, near):
+    """Retarget the shared walking poses around the planted ankles and carrying shoulder."""
+    hip, knee, ankle, shoulder, elbow, wrist = pose
+    legs = [(37.4 + (x - 38) * .83, 55 + (y - 55) * .78) for x, y in (hip, knee, ankle)]
+    if near:
+        socket = (34.2 + (shoulder[0] - 35.6) * .85, 27.4 + (shoulder[1] - 20.9) * .80)
+        reach = 0
+    else:
+        socket = (40.5 + (shoulder[0] - 37.9) * .85, 27.9 + (shoulder[1] - 21.6) * .80)
+        reach = 2.15
+    arm_joints = [(socket[0] + (x - shoulder[0]) * .83 + reach * fraction,
+                   socket[1] + (y - shoulder[1]) * .83)
+                  for (x, y), fraction in ((elbow, .46), (wrist, 1))]
+    return [*legs, socket, *arm_joints]
+
+
+def torso_points(phase, bob, points):
+    stride = TAU * phase
+    rotation = math.cos(stride - .12)
+    weight = math.cos(2 * stride - .82)
+    result = []
+    for x, y in points:
+        hip = clamp((y - 25) / 13)
+        hem = clamp((y - 35) / 9)
+        side = max(-1., min(1., (x - 37) / 9))
+        dx = (1.20 * hip - .56) * rotation + hem * (.70 * math.sin(stride - .72) + .38 * side * weight)
+        dy = bob + hem * (.90 * side * math.sin(stride - .50) - .48 * weight)
+        result.append((x + dx, y + dy))
     return result
 
 
-def trail(phase,kind):
-    if kind=='hair':
-        def warp(pts):
-            result=[]
-            for x,y in pts:
-                free=min(1,max(0,(33-x)/18))*min(1,max(0,(y-10)/7))
-                rest=.28*math.cos(TAU*phase)
-                result.append((x-rest+free*1.40*math.sin(TAU*phase-.45-.45*free),
-                               y+free*(1.8*math.sin(TAU*phase-.48-.55*free)+.36*math.cos(2*TAU*phase))))
-            return result
-    else:
-        def warp(pts):
-            result=[]
-            for x,y in pts:
-                free=min(1,max(0,(37-x)/17))*min(1,max(0,(y-23)/11))
-                delay=.50+.72*free
-                result.append((x-.5*(1-free)*math.cos(TAU*phase)+free*2.20*math.sin(TAU*phase-delay),
-                               y+free*(2.25*math.sin(TAU*phase-delay)+.54*math.sin(2*TAU*phase-.68))))
-            return result
-    return warp
+def back_cape(image, phase, bob):
+    stride = TAU * phase
 
-
-def flutter(image,phase,bob,kind):
-    deform=trail(phase,kind)
-    return Brush(image,lambda pts:[(x,y+bob) for x,y in deform(pts)])
-
-
-def back_cape(image,phase,bob):
-    b=flutter(image,phase,bob,'cape')
-    b.p('rose',[(36,21),(37,31),(36,36),(33,39),(31,40),(30,40),(29,41),
-        (27,40),(26,41),(24,40),(23,40),(21,39),(20,40),(17,37),(15,36),
-        (13,35),(13,33),(21,31),(28,27)],'roseink')
-    b.p('blush',[(16,34),(21,33),(26,33),(32,34),(34,35),(32,38),(31,39),
-        (30,39),(29,40),(28,39),(27,40),(25,39),(24,40),(22,39),(20,39),
-        (18,37),(16,36)])
-    b.l('pink',[(23,38),(24,39),(25,39)]);b.d('pearl',(27,39),(30,38),(18,36))
-    b.p('olive',[(36,20),(37,23),(36,27),(36,32),(36,35),(34,37),(31,39),
-        (27,39),(24,38),(22,39),(19,42),(18,43),(17,41),(16,37),(16,35),
-        (14,35),(12,37),(10,39),(9,40),(9,37),(10,35),(13,32),(17,31),
-        (21,30),(25,28),(28,25),(33,22)],'olivedeep')
-    b.p('oliveshade',[(35,23),(34,27),(32,31),(31,34),(32,36),(34,36),
-        (31,38),(28,38),(25,37),(24,37),(23,36),(27,31),(31,27)])
-    b.p('olivelit',[(32,23),(29,27),(24,30),(20,32),(15,33),(13,35),
-        (11,36),(12,34),(15,32),(21,30),(26,28)])
-    b.p('gold',[(25,28),(22,30),(17,31),(14,32),(11,34),(9,37),(9,40),
-        (10,38),(12,36),(15,34),(19,32),(22,31)],'metal')
-    b.l('goldlight',[(10,37),(11,35),(14,33),(17,32)]);b.d('shine',(13,34),(16,32))
-    b.l('gold',[(17,37),(18,41),(18,42),(21,40),(23,39)])
-    b.l('metal',[(19,39),(19,37),(21,36)]);b.l('gold',[(19,38),(20,37),(21,37)])
-    b.d('goldlight',(19,40),(21,35),(22,36));b.l('gold',[(25,37),(28,38),(31,38),(33,37)])
-
-
-def hair_tail(image,phase,bob):
-    b=flutter(image,phase,bob,'hair')
-    b.p('ochre',[(31,10),(35,11),(35,15),(33,19),(30,21),(26,23),(23,24),
-        (20,24),(17,23),(15,23),(13,25),(13,27),(14,28),(16,27),(15,29),
-        (13,30),(11,29),(9,27),(9,24),(10,22),(13,20),(12,20),(12,18),
-        (13,16),(16,15),(20,15),(22,16),(25,16),(28,15),(30,13)],'umber')
-    b.p('honey',[(31,12),(34,12),(34,15),(32,18),(29,20),(26,21),(23,21),
-        (21,20),(18,20),(16,21),(14,22),(12,24),(12,27),(13,29),(11,28),
-        (10,26),(10,24),(12,22),(15,20),(17,19),(21,18),(25,18),(28,16)])
-    b.p('blonde',[(30,13),(32,11),(34,12),(33,15),(30,18),(27,20),(24,20),
-        (21,19),(18,18),(16,18),(13,19),(14,17),(16,16),(19,16),(22,17),
-        (25,17),(28,16)])
-    b.p('goldlight',[(14,17),(17,15.8),(19,16),(21,17),(24,17),(26,16.5),
-        (24,18),(22,18),(19,17),(16,17),(14,18)])
-    b.l('shine',[(16,16),(18,16),(20,17)]);b.l('goldlight',[(27,17),(29,16),(31,14)])
-    b.p('blonde',[(32,17),(31,19),(28,22),(25,24),(22,25),(18,25),(16,24),
-        (14,24),(12,26),(12,27),(11,27),(10,25),(11,23),(13,21),(16,20),
-        (19,20),(22,21),(25,21),(29,20)])
-    b.p('honey',[(32,18),(31,20),(28,22),(24,24),(21,24),(18,23),
-        (16,23),(18,22),(21,22),(25,23),(29,21)])
-    b.l('goldlight',[(11,24),(13,22),(16,21),(18,21)]);b.d('shine',(14,21),(16,20))
-    b.l('goldlight',[(11,26),(11,27),(13,29)]);b.d('ochre',(14,29))
-
-
-def neck_and_head(image,bob,phase):
-    stride=TAU*phase
-    shift=-.28*math.cos(stride)
-    head=move(shift,.84*bob)
-    b=Brush(image,head)
-    # Nape and profile under the separately clustered fringe.
-    b.p('honey',[(33,10),(35,8),(38,7),(40,8),(42,8),(43,10),(44,11),(43,13),
-        (42,14),(41,15),(39,17),(37,19),(35,20),(36,18),(33,19),
-        (34,17),(31,18),(32,16),(30,17),(31,14)],'umber')
-    b.p('ochre',[(32,14),(37,12),(39,14),(38,17),(36,18),(33,18),(35,16),
-        (32,17),(34,15),(31,16)])
-    b.p('shade',[(37,13),(39,12),(41,11),(42,12),(42,14),(43,15),(43,16),
-        (42,16),(42,17),(41,18),(40,19),(38,19),(37,20),(36,19),(37,17),(35,16)],'skinrim')
-    b.p('skinlit',[(38,13),(41,12),(41,14),(42,15),(42,16),(41,16),
-        (41,17),(40,18),(38,18),(37,17),(37,15)])
-    b.d('skin',(41,17),(38,17),(37,18));b.d('skinlit',(42,15));b.d('brown',(43,16))
-    b.l('skinrim',[(39,19),(40,19)]);b.d('skin',(41,18))
-    # Sharp swept ear, warm rose interior and pale upper ridge.
-    b.p('roseink',[(30,13),(32,13),(35,14),(37,14),(36,16),(35,17),(33,16),(31,15)])
-    b.p('pink',[(30,13),(32,14),(35,14),(36,15),(35,16),(33,15)])
-    b.l('blush',[(30,13),(32,13),(34,14)]);b.d('rose',(34,15));b.d('gold',(35,17))
-    b.p('blonde',[(32,11),(33,9),(35,8),(37,7),(40,7),(42,8),(43,10),
-        (44,11),(44,12),(43,13),(43,11),(42,12),(40,13),(39,13),(38,14),
-        (37,16),(37,17),(38,18),(36,18),(35,17),(35,15),(36,13),(34,14),(33,14)],'umber')
-    b.p('honey',[(33,11),(35,9),(37,8),(40,8),(41,9),(39,10),(37,12),
-        (35,14),(34,13),(35,12),(33,13)])
-    b.p('blonde',[(35,10),(37,8),(40,8),(42,9),(43,11),(42,11),(41,10),
-        (40,12),(37,13),(36,16),(36,13),(37,11)])
-    b.l('goldlight',[(35,10),(37,9),(39,8)]);b.l('shine',[(37,8),(39,8)])
-    b.l('goldlight',[(40,9),(39,11),(37,13)]);b.d('goldlight',(42,10),(36,16))
-    # A four-pixel eye group at native resolution keeps the expression steady.
-    b.l('brown',[(39,13),(40,13),(41,13)]);b.d('ivorymid',(38,14));b.d('pearl',(39,14))
-    b.d('eyedark',(40,14));b.d('ink',(41,14));b.d('eye',(40,15));b.d('skin',(41,15))
-    # Tall ribbon, its two loops and folded tails.
-    def ribbon(points):
-        result=[]
-        for x,y in points:
-            tip=clamp((33-x)/9)*clamp((y-6)/6)
-            loop=clamp((10-y)/7)
-            dx=tip*.95*math.sin(stride-.75)+loop*.40*math.sin(stride-.52)
-            dy=tip*1.35*math.sin(stride-1.02)+loop*.43*math.cos(2*stride-.76)
-            result.append((x+shift+dx,y+.84*bob+dy))
+    def drape(points):
+        result = []
+        for x, y in points:
+            free = clamp((36 - x) / 19) * clamp((y - 25) / 11)
+            delay = .55 + .65 * free
+            dx = -.56 * (1 - free) * math.cos(stride) + 1.7 * free * math.sin(stride - delay)
+            dy = bob + free * (1.75 * math.sin(stride - delay) + .45 * math.sin(2 * stride - .68))
+            result.append((x + dx, y + dy))
         return result
-    b=Brush(image,ribbon)
-    b.p('pink',[(33,9),(33,7),(34,5),(35,3),(36,4),(37,6),(37,8),
-        (36,9),(34,11),(32,11)],'roseink')
-    b.p('blush',[(34,8),(34,6),(35,4),(36,5),(36,7),(35,9)])
-    b.l('pearl',[(35,4),(36,5),(36,6)]);b.d('rose',(34,9),(35,8))
-    b.p('pink',[(33,10),(32,11),(30,10),(28,10),(27,9),(26,8),(25,6),(27,5),
-        (29,5),(31,6),(33,8),(34,9),(34,10)],'roseink')
-    b.p('blush',[(26,6),(28,6),(30,6),(32,8),(33,9),(31,9),(29,8),(28,9),(27,8)])
-    b.l('pearl',[(26,6),(28,6),(30,7)]);b.l('rose',[(29,8),(31,9),(32,10)])
-    b.p('pink',[(33,9),(33,11),(31,13),(30,15),(29,16),(29,14),(27,14),
-        (29,12),(26,13),(24,13),(23,14),(23,12),(22,11),(24,11),(26,12),
-        (28,11),(30,10)],'roseink')
-    b.l('blush',[(23,11),(25,12),(27,12),(29,11)]);b.l('pearl',[(30,13),(31,12)])
-    b.d('rose',(29,14),(32,10));b.d('blush',(29,15))
-    b=Brush(image,head)
-    b.p('leafdark',[(33,9),(36,9),(36,11),(35,13),(33,14),(32,12)])
-    b.d('limelit',(35,9),(36,11));b.d('pearl',(32,10),(34,9),(34,11),(33,11),(36,12))
-    b.d('white',(33,9),(34,10),(32,11),(35,11),(34,12),(35,13));b.d('gold',(33,10),(35,12))
-    # The ear crosses in front of the ribbon tails. Its rose underside and
-    # long pale ridge form a separate silhouette from the golden side lock.
-    b.p('roseink',[(29,13),(31,13),(34,14),(36,14),(36,16),(35,17),(33,16),(31,15)])
-    b.p('pink',[(30,13),(32,14),(34,14),(35,15),(35,16),(33,15)])
-    b.l('blush',[(29,13),(31,13),(34,14)]);b.d('rose',(33,15),(34,15));b.d('gold',(35,16))
-    b.l('honey',[(36,14),(36,16),(37,17)]);b.d('goldlight',(36,16))
-    b.d('white',(39,14));b.d('eye',(40,14));b.d('eyedark',(41,14));b.d('ink',(41,13))
-    b.d('skinlit',(41,15),(42,15));b.d('skin',(40,16),(39,17))
+
+    b = Brush(image, drape)
+    # The pink lining is visible between the two ends of the green traveling cloak.
+    b.p('pink', [(34,26),(37,29),(37,38),(34,42),(32,43),(30,43),(29,44),
+                 (27,44),(26,43),(24,44),(22,44),(21,43),(19,44),(17,42),
+                 (15,41),(13,39),(13,37),(23,32)], 'roseink')
+    b.p('blush', [(15,38),(21,37),(26,38),(31,36),(35,36),(34,40),
+                  (31,42),(29,42),(28,43),(26,42),(24,43),(22,42),(20,43),(17,40)])
+    b.l('pearl', [(23,42),(24,42),(25,41)])
+    b.p('olive', [(35,24),(37,26),(37,32),(36,36),(34,39),(31,41),(28,42),
+                  (25,42),(22,44),(20,46),(19,46),(18,43),(17,40),(16,39),
+                  (13,40),(11,42),(8,43),(9,40),(10,38),(13,36),(17,35),
+                  (21,34),(26,31),(31,27)], 'olivedeep')
+    b.p('oliveshade', [(34,27),(34,31),(32,34),(28,37),(26,40),(25,41),
+                       (22,43),(20,45),(19,42),(19,40),(22,38),(27,34),(31,29)])
+    b.p('olivelit', [(31,27),(29,30),(25,33),(20,35),(17,36),
+                     (13,37),(10,40),(13,39),(16,38),(21,37),(27,33)])
+    b.l('gold', [(9,42),(11,40),(14,38),(17,37),(20,36)])
+    b.l('goldlight', [(10,41),(12,39),(14,38)])
+    b.l('metal', [(19,42),(20,45),(23,42),(26,41),(29,41),(32,39)])
+    b.l('gold', [(20,44),(22,42),(25,41),(28,41)])
+    # A forked gold sprig follows the wide, shaded lower fold.
+    b.l('gold', [(21,42),(22,40),(24,38),(25,37)])
+    b.l('gold', [(23,39),(21,38),(20,38)])
+    b.d('goldlight', (25,37),(20,38))
 
 
-def torso(image,bob,phase):
-    b=Brush(image,lambda points:torso_points(phase,bob,points))
-    b.p('olive',[(36,18),(38,19),(39,21),(41,22),(42,24),(41,26),(41,29),
-        (42,31),(43,32),(44,33),(42,35),(33,35),(32,33),(34,30),(34,27),
-        (33,25),(33,21)],'olivedeep')
-    b.p('ivorymid',[(36,19),(38,20),(40,21),(41,22),(42,24),(41,25),
-        (39,26),(36,25),(35,24),(35,21)],'ivoryshade')
-    b.p('pearl',[(37,20),(39,21),(40,22),(40,24),(39,25),(37,24),(36,22)])
-    b.l('white',[(39,21),(40,22),(41,23)]);b.d('ivorymid',(38,23),(40,24))
-    b.p('oliveshade',[(35,25),(38,26),(41,25),(41,30),(38,31),(34,30)],'olivedeep')
-    b.l('olive',[(36,26),(36,29)]);b.l('gold',[(40,25),(40,28)]);b.d('goldlight',(41,26),(40,28))
-    b.p('rose',[(35,29),(40,29),(42,31),(43,32),(45,34),(46,36),
-        (46,37),(45,38),(44,38),(43,39),(42,39),(41,38),(40,39),(39,40),
-        (38,39),(37,40),(36,39),(35,39),(34,40),(33,39),(32,39),(32,38),
-        (31,38),(31,36),(33,33)],'roseink')
-    b.p('blush',[(32,36),(34,35),(43,35),(45,36),(45,37),(44,38),
-        (42,38),(41,37),(40,39),(39,39),(38,38),(37,39),(36,38),
-        (35,39),(34,38),(33,39),(32,38)])
-    b.d('pearl',(33,37),(35,38),(38,38),(41,38),(44,37));b.d('pink',(34,38),(37,38),(43,38))
-    b.p('lime',[(35,30),(40,30),(42,31),(43,33),(44,34),(46,36),
-        (44,37),(42,37),(41,36),(40,37),(38,37),(36,36),(35,37),(33,37),
-        (31,36),(33,34)],'leafdark')
-    b.p('limelit',[(35,32),(39,31),(42,33),(44,35),(43,36),(41,35),
-        (39,36),(37,35),(35,36),(33,35)])
-    b.l('lime',[(35,32),(34,34),(33,35)]);b.l('lime',[(38,32),(38,35)])
-    # Individual dark-green leaf emblems, large enough for the 1× preview.
-    for x,y in [(34,35),(38,35),(42,35)]:
-        b.d('leafdark',(x-1,y-1),(x,y),(x+1,y-1));b.d('leaf',(x-1,y),(x,y))
-    b.l('leafdark',[(40,35),(41,34)]);b.d('limelit',(36,36),(44,35))
-    b.p('ivorymid',[(35,29),(40,29),(41,30),(42,31),(44,33),(42,33),(41,32),
-        (39,33),(38,32),(37,33),(35,32),(33,33),(32,33),(34,30)],'metal')
-    b.l('pearl',[(33,32),(35,31),(36,32),(37,32),(38,31)]);b.l('goldlight',[(39,31),(40,30),(41,31),(43,32)])
-    b.p('leather',[(34,28),(37,28),(40,27),(41,28),(40,29),(37,30),(34,30)],'brown')
-    b.l('tan',[(35,28),(37,28)]);b.d('goldlight',(39,28),(40,28));b.d('brown',(40,29))
-    b.p('leather',[(34,28),(36,27),(37,28),(36,30),(35,31),(33,31)],'brown')
-    b.d('gold',(35,29));b.d('tan',(34,29))
+def torso(image, bob, phase):
+    def fabric(points):
+        return torso_points(phase, bob, points)
+
+    b = Brush(image, fabric)
+    # White puffed blouse, moss-green bodice and a leather belt with a square buckle.
+    b.p('olive', [(34,25),(38,25),(41,27),(43,28),(44,30),(43,32),(43,35),
+                  (45,37),(44,39),(32,40),(31,37),(32,34),(32,29)], 'olivedeep')
+    b.p('ivorymid', [(36,25),(39,26),(42,27),(44,29),(44,31),
+                     (42,33),(37,32),(34,29)], 'ivoryshade')
+    b.p('pearl', [(37,26),(40,27),(42,28),(43,29),(43,31),(41,32),
+                  (38,31),(37,29)])
+    b.l('white', [(39,27),(41,28),(42,29)])
+    b.l('ivorymid', [(39,29),(39,31),(40,32)])
+    b.p('oliveshade', [(33,30),(37,31),(40,32),(43,31),(43,35),(41,37),
+                       (34,37),(32,35)], 'olivedeep')
+    b.p('olive', [(35,32),(38,33),(39,35),(37,36),(34,35)])
+    b.l('metal', [(42,32),(41,34),(42,35)])
+    b.d('goldlight', (42,32),(41,34))
+
+    # Pink scalloped petticoat under a full yellow-green skirt. Each major fold
+    # gets a continuous area of one value so the embroidery has room to read.
+    b.p('rose', [(33,36),(42,36),(45,38),(47,40),(48,42),(48,43),
+                 (47,44),(45,44),(44,45),(42,45),(41,44),(39,46),
+                 (37,46),(36,45),(34,46),(32,45),(30,45),(29,44),(27,43),(28,41)], 'roseink')
+    b.p('blush', [(29,41),(33,41),(38,42),(43,41),(47,41),(47,43),
+                  (45,43),(44,44),(42,44),(41,43),(39,45),(37,45),
+                  (36,44),(34,45),(32,44),(30,44),(29,43)])
+    b.l('pearl', [(30,43),(32,44),(33,44)])
+    b.l('pearl', [(37,44),(38,45),(40,44)])
+    b.d('pearl', (44,43),(46,43))
+
+    b.p('lime', [(33,35),(41,35),(43,36),(45,38),(46,39),(48,41),
+                 (46,42),(44,43),(42,43),(41,42),(38,44),(36,44),
+                 (34,43),(32,44),(30,43),(27,42),(29,39)], 'leafdark')
+    b.p('leaf', [(33,37),(35,36),(34,39),(32,42),(30,42),(29,41),(31,39)])
+    b.p('limelit', [(35,37),(38,36),(42,37),(44,39),(46,41),(43,42),
+                    (41,41),(38,43),(36,43),(34,42),(32,43),(33,41)])
+    b.l('lime', [(38,37),(38,39),(37,40)])
+    b.l('lime', [(42,38),(42,39),(44,41)])
+    # Register each two-leaf sprig to its fold, then stamp its pixels together.
+    for x, y in ((32,40), (38,41), (44,40)):
+        anchor = ip(fabric([(x,y)])[0])
+        leaf = Brush(image, move(*anchor))
+        leaf.p('leafdark', [(-2,-1),(-1,-1),(0,1),(-1,1),(-2,0)])
+        leaf.l('leafdark', [(0,1),(1,0),(2,-2)])
+        leaf.d('leaf', (1,-1),(2,-1))
+    b.p('ivorymid', [(33,35),(40,35),(43,36),(45,38),(43,38),(42,37),
+                     (40,38),(39,39),(37,38),(36,39),(34,38),(32,39),
+                     (30,39),(31,37)], 'metal')
+    b.l('pearl', [(31,38),(33,37),(35,37),(36,38),(38,37)])
+    b.l('goldlight', [(40,37),(41,36),(43,37)])
+    b.p('leather', [(32,34),(35,34),(39,33),(42,33),(43,34),(42,35),
+                    (39,36),(35,36),(33,37),(32,36)], 'brown')
+    b.l('tan', [(33,35),(35,35),(37,34)])
+    b.p('gold', [(39,33),(42,33),(42,35),(39,35)])
+    b.d('brown', (40,34),(41,34))
+    b.d('shine', (39,33))
 
 
-def quiver(image,bob,phase):
-    stride=TAU*phase
-    dx=.68*math.cos(stride-.1)
-    b=Brush(image,lambda pts:[(x+dx+.88*math.sin(stride-.56)*clamp((35-y)/9),
-                              y+bob+.50*math.sin(2*stride-.72)*clamp((35-y)/9)) for x,y in pts])
-    for x,y in [(27,27),(28.5,26),(30,26.5),(31,26)]:
-        b.l('brown',[(x,y),(x+2,32)])
-        b.p('pink',[(x-1,y-1),(x,y),(x,y-1),(x+1,y),(x+1,y+2),(x,y+1)],'roseink')
-        b.l('blush',[(x-1,y-1),(x,y+1)]);b.d('pearl',(x,y))
-    b.p('leather',[(28,31),(32,29),(33,30),(34,34),(33,36),(32,37),(30,36)],'brown')
-    b.l('tan',[(29,31),(32,30)]);b.l('tan',[(30,33),(31,35)]);b.d('gold',(30,32),(33,35))
+def quiver(image, bob, phase):
+    stride = TAU * phase
+
+    def shoulder_strap(points):
+        return [(x - 3 + .65 * math.cos(stride - .1) + .70 * math.sin(stride - .56) * clamp((40 - y) / 9),
+                 y - .5 + bob + .40 * math.sin(2 * stride - .72) * clamp((40 - y) / 9)) for x,y in points]
+
+    b = Brush(image, shoulder_strap)
+    for x, y in [(25,32),(28,31),(30,32)]:
+        b.l('brown', [(x,y),(x+2,38)])
+        b.l('roseink', [(x-1,y-2),(x-1,y),(x+1,y+2)])
+        b.l('pink', [(x,y-2),(x,y),(x+1,y+1)])
+        b.d('pearl', (x,y-2),(x-1,y-1))
+    b.p('leather', [(25,35),(30,33),(32,34),(33,40),(32,42),
+                    (29,43),(27,41)], 'brown')
+    b.l('tan', [(26,36),(28,35),(31,34)])
+    b.l('metal', [(28,39),(30,40),(32,39)])
+    b.d('goldlight', (29,40))
+    b.l('tan', [(29,41),(30,42)])
 
 
-def mantle(image,phase,bob):
-    stride=TAU*phase
-    def shoulder(points):
-        return [(x-.61*math.cos(stride)+.65*clamp((38-x)/12)*math.sin(stride-.86),
-                 y+bob+.75*clamp((38-x)/12)*math.sin(2*stride-.75)) for x,y in points]
-    b=Brush(image,shoulder); d=.36*math.sin(stride-.78)
-    b.p('olive',[(32,20),(34,18),(37,18),(39,20),(40,20),(41,22),(42,23),
-        (41,23),(39,22),(37,23),(34,25),(31,26),(28,26),(26+d,26),(25+d,25),
-        (28,24),(30,23),(32,21)],'olivedeep')
-    b.p('oliveshade',[(32,21),(34,19),(36,19),(38,20),(36,20),(34,21),(33,22)])
-    b.l('olivelit',[(27+d,25),(30,24),(33,23),(35,21)]);b.l('gold',[(26+d,25),(28,26),(31,26),(34,25),(37,23),(39,21)])
-    b.d('goldlight',(28,25),(32,25),(35,23));b.d('metal',(30,24),(34,22))
-    b.l('olivelit',[(34,19),(36,19)]);b.l('gold',[(38,20),(39,21),(41,22)])
-    b.d('goldlight',(39,20),(40,21));b.d('metal',(40,22))
+def mantle(image, phase, bob):
+    stride = TAU * phase
+
+    def shoulders(points):
+        return [(x - .56 * math.cos(stride) + .42 * clamp((38-x)/13) * math.sin(stride-.85),
+                 y + bob + .58 * clamp((38-x)/13) * math.sin(2*stride-.74)) for x,y in points]
+
+    b = Brush(image, shoulders)
+    b.p('olive', [(32,26),(34,24),(37,24),(39,25),(41,26),(42,27),(43,28),
+                  (41,28),(40,27),(39,28),(37,29),(34,31),(31,32),(28,32),
+                  (25,31),(23,30),(26,30),(29,28)], 'olivedeep')
+    b.p('oliveshade', [(31,28),(34,26),(37,25),(38,26),(35,27),
+                       (33,29),(31,30),(27,30)])
+    b.l('olivelit', [(27,30),(30,29),(32,28),(34,26)])
+    b.l('gold', [(25,30),(28,31),(31,31),(34,30),(37,28),(39,26)])
+    b.l('goldlight', [(29,31),(31,31),(33,30)])
+    b.d('gold', (33,28),(36,26))
+    b.p('metal', [(39,25),(41,25),(42,27),(41,28),(39,27),(38,26)])
+    b.d('goldlight', (39,26),(40,25))
+    b.d('lime', (40,26))
 
 
 @dataclass(frozen=True)
@@ -353,12 +263,12 @@ def boot_pose(phase,ankle_x):
     toe_length=3.65-.40*flex-.18*compression
     ankle_from_heel=turn((2.0,-3.55+.38*compression),rear_pitch)
     ball_from_heel=turn((5.85,-.07),rear_pitch)
-    # The illustrated pose keys carry the solved ankle X as the planted ball rolls.
+    # Keep the ball's rolling motion from the source stride at the shorter stride length.
     heel=(ankle_x-ankle_from_heel[0],0)
     ball=offset(heel,ball_from_heel)
     upper=offset(heel,ankle_from_heel)
     boot=BootPose(heel,ball,upper,rear_pitch,toe_pitch,toe_length,flex,compression)
-    floor_shift=FLOOR-key.lift*SOURCE_SCALE-max(y for _,y in boot.outsole())
+    floor_shift=FLOOR-key.lift*SOURCE_SCALE*.86-max(y for _,y in boot.outsole())
     return BootPose(offset(heel,(0,floor_shift)),offset(ball,(0,floor_shift)),
                     offset(upper,(0,floor_shift)),rear_pitch,toe_pitch,toe_length,flex,compression)
 
@@ -432,6 +342,9 @@ def shin_and_ribbon(image,knee,fit,phase,near):
     def ribbon(points):
         result=[]
         for x,y in points:
+            if not near:
+                x*=.85
+                y*=.80
             tail=clamp(y/2.5)
             warp_x=x+tail*.77*twist
             warp_y=y+tail*.43*math.sin(2*TAU*phase-.77)
@@ -439,14 +352,15 @@ def shin_and_ribbon(image,knee,fit,phase,near):
                            cuff[1]-ux*warp_x+uy*warp_y*(1-.35*tail)+.35*tail*warp_y))
         return result
     r=Brush(image,ribbon)
-    r.p('pink',[(-3.15,-.7),(-3.12,-2),(-2,-2.1),(-.1,-.45),(1,-1.05),
+    r.p('pink' if near else 'rose',[(-3.15,-.7),(-3.12,-2),(-2,-2.1),(-.1,-.45),(1,-1.05),
                 (2.2,-2.0),(3.05,-1.65),(2.95,.05),(1.35,.85),(1.86,2.80),
                 (.77,2.45),(.03,1.06),(-1.48,2.5),(-2.25,2.35),(-1.55,.8),(-2.8,.73)],'roseink')
-    r.l('blush',[(-2.5,-1.4),(-1.35,-.74),(-.30,-.15)])
-    r.l('pearl' if near else 'blush',[(.78,-.05),(1.76,-.82),(2.45,-1.05)])
-    r.d('pearl',(-2.20,-1.30));r.d('white' if near else 'pearl',(2,-1.16))
-    r.d('pink',(-1.05,1.12),(1.12,1.40));r.d('blush',(-1.62,1.91))
-    r.d('gold',(0,0))
+    r.l('blush' if near else 'pink',[(-2.5,-1.4),(-1.35,-.74),(-.30,-.15)])
+    r.l('pearl' if near else 'pink',[(.78,-.05),(1.76,-.82),(2.45,-1.05)])
+    r.d('pearl' if near else 'pink',(-2.20,-1.30));r.d('white' if near else 'blush',(2,-1.16))
+    r.d('pink' if near else 'rose',(-1.05,1.12),(1.12,1.40))
+    r.d('blush' if near else 'pink',(-1.62,1.91))
+    r.d('gold' if near else 'metal',(0,0))
     return cuff
 
 
@@ -462,11 +376,11 @@ def leg(nodes,phase,near):
     lower_right=lower([(.03,1.8),(.29,1.85),(.56,1.5),(.87,1.2)])
     lower_left=lower([(.87,-1.2),(.53,-1.55),(.25,-1.85),(.02,-1.78)])
     upper_back=upper([(.82,-1.88),(.50,-2.32),(.20,-2.65)])
-    limb.p('skin' if near else 'shade',upper_face+lower_right+lower_left+upper_back,
+    limb.p('skin' if near else 'rear',upper_face+lower_right+lower_left+upper_back,
            'skinrim' if near else 'roseink')
-    limb.p('skinlit' if near else 'skin',upper([(.13,-.48),(.13,1.4),(.47,1.63),
+    limb.p('skinlit' if near else 'shade',upper([(.13,-.48),(.13,1.4),(.47,1.63),
            (.84,1.32),(.92,.72),(.82,.08),(.45,-.70)]))
-    limb.l('skinlit' if near else 'skin',lower([(.03,.82),(.25,.82),(.48,.48)]))
+    limb.l('skinlit' if near else 'shade',lower([(.03,.82),(.25,.82),(.48,.48)]))
     limb.d('shade' if near else 'rear',*upper([(.93,-.58)]))
     boot=Image.new('RGBA',(64,64))
     cuff=shin_and_ribbon(boot,knee,fit,phase,near)
@@ -511,10 +425,12 @@ def arm(image,nodes,phase,near):
     el=offset(el,(-.91*direction*math.cos(stride+.31),.54*direction*math.cos(stride+.68)))
     wr=offset(wr,(-.82*direction*math.cos(stride-.42),.45*direction*math.sin(stride-.28)))
     b=Brush(image);upper=along(sh,el);lower=along(el,wr)
-    b.p('skin',upper([(-.05,-1.6),(-.03,1.7),(.64,1.6),(1.08,1.30),(1.10,-1.3),(.52,-1.6)]),'skinrim')
-    b.p('skin',lower([(-.11,-1.45),(-.12,1.42),(.52,1.4),(.96,1.05),
-        (1.06,-1.05),(.57,-1.3)]),'skinrim')
-    b.l('skinlit',lower([(.06,.55),(.45,.5),(.73,.4)]))
+    skin='skin' if near else 'shade'
+    skin_light='skinlit' if near else 'skin'
+    b.p(skin,upper([(-.05,-1.65),(-.03,1.85),(.64,1.75),(1.08,1.45),(1.10,-1.4),(.52,-1.68)]),'skinrim')
+    b.p(skin,lower([(-.11,-1.50),(-.12,1.55),(.52,1.49),(.96,1.15),
+        (1.06,-1.10),(.57,-1.4)]),'skinrim')
+    b.l(skin_light,lower([(.06,.58),(.45,.55),(.73,.45)]))
     sleeve=Brush(image,upper)
     sleeve.p('ivorymid',[(-.34,-1.6),(-.19,1.7),(.21,2.35),(.52,1.75),(.63,1.7),
          (.62,.25),(.76,-.7),(.57,-1.7),(.41,-2.2),(.1,-2.3)],'roseink')
@@ -527,10 +443,10 @@ def arm(image,nodes,phase,near):
         open_hand=.5-.5*math.cos(stride-.70)
         dx,dy=turn((dx,dy),.38*math.sin(stride-.81)-.09)
         hand=along(wr,(wx+dx*(2.75+.52*open_hand),wy+dy*(2.75+.52*open_hand)))
-        b.p('skin',hand([(-.1,-.92),(-.16,.86),(.32,1.32),(.57,1.06),(.70,.65),
-            (1.10,.47),(1.10+.16*open_hand,-.24),(.91,-.64),(.76,-1.05),(.34,-1.20)]),'skinrim')
-        b.l('skinlit',hand([(.05,.35),(.42,.72)]))
-        b.d('skin',*hand([(.84,.12)]))
+        b.p('skin',hand([(-.1,-1.08),(-.16,.95),(.30,1.52),(.57,1.24),(.76,.82),
+            (1.12,.51),(1.13+.16*open_hand,-.30),(.90,-.84),(.73,-1.27),(.30,-1.27)]),'skinrim')
+        b.l('skinlit',hand([(.05,.30),(.43,.74),(.77,.47)]))
+        b.d('skin',*hand([(.91,.06)]))
         hand_end=hand([(1.10+.16*open_hand,-.24)])[0]
     else:
         dx,dy=unit((wr[0]-el[0],wr[1]-el[1]));grip=(wr[0]+dx*1.8,wr[1]+dy*1.8)
@@ -545,19 +461,20 @@ def sprite(pose,phase,proof=None):
     p=float(phase)
     bob=body_drop(p)*SOURCE_SCALE
     img=Image.new('RGBA',(64,64))
-    front,rear=pose
+    front=compact_joints(pose[0],True)
+    rear=compact_joints(pose[1],False)
     back_cape(img,p,bob)
+    draw_ponytail(img,p,bob,PALETTE)
     rear_arm=arm(img,rear,p,False)
     far_leg,far_boot,far_joints=leg(rear,(p+.5)%1,False)
     near_leg,near_boot,near_joints=leg(front,p,True)
     img.alpha_composite(far_leg)
     img.alpha_composite(near_leg)
-    hair_tail(img,p,bob)
     torso(img,bob,p)
     quiver(img,bob,p)
     near_arm=arm(img,front,p,True)
     mantle(img,p,bob)
-    neck_and_head(img,bob,p)
+    draw_head(img,p,bob,PALETTE)
     if proof is not None:
         proof.update({'near-leg':near_leg,'far-leg':far_leg,'near-boot':near_boot,'far-boot':far_boot})
     return img,{'near':{**near_joints,**near_arm},'far':{**far_joints,**rear_arm}}
