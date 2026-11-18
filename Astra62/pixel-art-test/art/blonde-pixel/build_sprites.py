@@ -1,23 +1,31 @@
 """Hand-pixelled 64 px version of the approved blonde elf, on a one-second walk.
 
-Only the joint positions come from the illustration rig. Every visible shape,
-highlight, leaf, flower and strand below is drawn on the 64 px grid. Pillow is
-the only dependency. Pass --preview-dir for enlarged contacts and a pose table.
+The illustration rig supplies the joints, and the shared stride supplies
+independent heel and toe angles. The boot, cloth, flowers and hair are drawn
+on the 64 px grid. Pass --preview-dir for joint positions, transparent limbs
+and enlarged pose sheets. Pillow is the only external dependency.
 """
 
 import argparse
+from dataclasses import dataclass
 from fractions import Fraction
 import json
 import math
 from pathlib import Path
+import sys
 
 from PIL import Image, ImageDraw
 
 
 ART=Path(__file__).resolve().parent
 OUT=ART.parent.parent/'assets'
+sys.path.insert(0,str(ART.parent))
+from walk_cycle import body_drop, sample_foot
+
 COUNTS=(4,6,8,12)
 TAU=math.tau
+SOURCE_SCALE=.542/8
+FLOOR=59
 
 # Deliberate, shared ramps keep the eye, the leaf motifs and the white flowers
 # distinct from the gold, skin and pale-pink ramps even on a green background.
@@ -68,19 +76,33 @@ class Brush:
         self.draw.point([ip(x) for x in self.coordinates(pts)],fill=PALETTE[fill])
 
 
-def track(keys,t):
-    for (a,x),(b,y) in zip(keys,keys[1:]):
-        if t<=b:
-            return x+(y-x)*(t-a)/(b-a)
-    return keys[-1][1]
+def clamp(value):
+    return min(1.,max(0.,value))
 
 
-ANGLE=[(0,-24),(.09,-4),(.24,0),(.36,5),(.44,15),(.50,25),(.58,35),
-       (.66,29),(.75,9),(.84,-9),(.925,-20),(1,-24)]
-LIFT=[(0,0),(.5,0),(.58,1.7),(.66,4.2),(.75,5.0),(.84,4.5),(.925,2.4),(1,0)]
-BOB=[(0,0),(.085,1),(.16,.55),(.24,-.7),(.32,-1),(.42,-.7),(.5,0)]
-SHOE=[(-2.2,-1.1),(-.9,-2),(1,-1.65),(2.4,.1),(3.6,.8),(5.6,.45),
-      (6.2,1.2),(6.1,2.45),(4.9,3.0),(2,3.35),(.4,3.55),(-.3,4.05),(-2.3,3.8)]
+def turn(point,angle):
+    x,y=point
+    c,s=math.cos(angle),math.sin(angle)
+    return x*c-y*s,x*s+y*c
+
+
+def offset(a,b):
+    return a[0]+b[0],a[1]+b[1]
+
+
+def torso_points(phase,bob,points):
+    stride=TAU*phase
+    pelvis=math.cos(stride-.12)
+    transfer=math.cos(2*stride-.82)
+    result=[]
+    for x,y in points:
+        hip=clamp((y-18)/12)
+        hem=clamp((y-29)/10)
+        side=max(-1.,min(1.,(x-38)/7))
+        dx=(1.44*hip-.75)*pelvis+hem*(1.05*math.sin(stride-.72)+1.05*side*transfer)
+        dy=bob+hem*(.80*side*math.sin(stride-.50)-.65*transfer)
+        result.append((x+dx,y+dy))
+    return result
 
 
 def trail(phase,kind):
@@ -89,16 +111,18 @@ def trail(phase,kind):
             result=[]
             for x,y in pts:
                 free=min(1,max(0,(33-x)/18))*min(1,max(0,(y-10)/7))
-                result.append((x+free*.85*math.sin(TAU*phase-.55),
-                               y+free*1.25*math.sin(TAU*phase-.8)))
+                rest=.28*math.cos(TAU*phase)
+                result.append((x-rest+free*1.40*math.sin(TAU*phase-.45-.45*free),
+                               y+free*(1.8*math.sin(TAU*phase-.48-.55*free)+.36*math.cos(2*TAU*phase))))
             return result
     else:
         def warp(pts):
             result=[]
             for x,y in pts:
                 free=min(1,max(0,(37-x)/17))*min(1,max(0,(y-23)/11))
-                result.append((x+free*1.15*math.sin(TAU*phase-1.05),
-                               y+free*1.4*math.sin(TAU*phase-.85)))
+                delay=.50+.72*free
+                result.append((x-.5*(1-free)*math.cos(TAU*phase)+free*2.20*math.sin(TAU*phase-delay),
+                               y+free*(2.25*math.sin(TAU*phase-delay)+.54*math.sin(2*TAU*phase-.68))))
             return result
     return warp
 
@@ -157,8 +181,11 @@ def hair_tail(image,phase,bob):
     b.l('goldlight',[(11,26),(11,27),(13,29)]);b.d('ochre',(14,29))
 
 
-def neck_and_head(image,bob):
-    b=Brush(image,move(0,bob))
+def neck_and_head(image,bob,phase):
+    stride=TAU*phase
+    shift=-.28*math.cos(stride)
+    head=move(shift,.84*bob)
+    b=Brush(image,head)
     # Nape and profile under the separately clustered fringe.
     b.p('honey',[(33,10),(35,8),(38,7),(40,8),(42,8),(43,10),(44,11),(43,13),
         (42,14),(41,15),(39,17),(37,19),(35,20),(36,18),(33,19),
@@ -188,6 +215,16 @@ def neck_and_head(image,bob):
     b.l('brown',[(39,13),(40,13),(41,13)]);b.d('ivorymid',(38,14));b.d('pearl',(39,14))
     b.d('eyedark',(40,14));b.d('ink',(41,14));b.d('eye',(40,15));b.d('skin',(41,15))
     # Tall ribbon, its two loops and folded tails.
+    def ribbon(points):
+        result=[]
+        for x,y in points:
+            tip=clamp((33-x)/9)*clamp((y-6)/6)
+            loop=clamp((10-y)/7)
+            dx=tip*.95*math.sin(stride-.75)+loop*.40*math.sin(stride-.52)
+            dy=tip*1.35*math.sin(stride-1.02)+loop*.43*math.cos(2*stride-.76)
+            result.append((x+shift+dx,y+.84*bob+dy))
+        return result
+    b=Brush(image,ribbon)
     b.p('pink',[(33,9),(33,7),(34,5),(35,3),(36,4),(37,6),(37,8),
         (36,9),(34,11),(32,11)],'roseink')
     b.p('blush',[(34,8),(34,6),(35,4),(36,5),(36,7),(35,9)])
@@ -201,6 +238,7 @@ def neck_and_head(image,bob):
         (28,11),(30,10)],'roseink')
     b.l('blush',[(23,11),(25,12),(27,12),(29,11)]);b.l('pearl',[(30,13),(31,12)])
     b.d('rose',(29,14),(32,10));b.d('blush',(29,15))
+    b=Brush(image,head)
     b.p('leafdark',[(33,9),(36,9),(36,11),(35,13),(33,14),(32,12)])
     b.d('limelit',(35,9),(36,11));b.d('pearl',(32,10),(34,9),(34,11),(33,11),(36,12))
     b.d('white',(33,9),(34,10),(32,11),(35,11),(34,12),(35,13));b.d('gold',(33,10),(35,12))
@@ -215,7 +253,7 @@ def neck_and_head(image,bob):
 
 
 def torso(image,bob,phase):
-    b=Brush(image,move(0,bob)); drag=round(.75*math.sin(TAU*phase-.45))
+    b=Brush(image,lambda points:torso_points(phase,bob,points))
     b.p('olive',[(36,18),(38,19),(39,21),(41,22),(42,24),(41,26),(41,29),
         (42,31),(43,32),(44,33),(42,35),(33,35),(32,33),(34,30),(34,27),
         (33,25),(33,21)],'olivedeep')
@@ -235,7 +273,7 @@ def torso(image,bob,phase):
     b.d('pearl',(33,37),(35,38),(38,38),(41,38),(44,37));b.d('pink',(34,38),(37,38),(43,38))
     b.p('lime',[(35,30),(40,30),(42,31),(43,33),(44,34),(46,36),
         (44,37),(42,37),(41,36),(40,37),(38,37),(36,36),(35,37),(33,37),
-        (31+drag,36),(33,34)],'leafdark')
+        (31,36),(33,34)],'leafdark')
     b.p('limelit',[(35,32),(39,31),(42,33),(44,35),(43,36),(41,35),
         (39,36),(37,35),(35,36),(33,35)])
     b.l('lime',[(35,32),(34,34),(33,35)]);b.l('lime',[(38,32),(38,35)])
@@ -253,8 +291,10 @@ def torso(image,bob,phase):
 
 
 def quiver(image,bob,phase):
-    dx=.55*math.sin(TAU*phase-.3)
-    b=Brush(image,lambda pts:[(x+dx*min(1,max(0,(35-y)/9)),y+bob) for x,y in pts])
+    stride=TAU*phase
+    dx=.68*math.cos(stride-.1)
+    b=Brush(image,lambda pts:[(x+dx+.88*math.sin(stride-.56)*clamp((35-y)/9),
+                              y+bob+.50*math.sin(2*stride-.72)*clamp((35-y)/9)) for x,y in pts])
     for x,y in [(27,27),(28.5,26),(30,26.5),(31,26)]:
         b.l('brown',[(x,y),(x+2,32)])
         b.p('pink',[(x-1,y-1),(x,y),(x,y-1),(x+1,y),(x+1,y+2),(x,y+1)],'roseink')
@@ -264,7 +304,11 @@ def quiver(image,bob,phase):
 
 
 def mantle(image,phase,bob):
-    b=Brush(image,move(0,bob)); d=round(.55*math.sin(TAU*phase-.6))
+    stride=TAU*phase
+    def shoulder(points):
+        return [(x-.61*math.cos(stride)+.65*clamp((38-x)/12)*math.sin(stride-.86),
+                 y+bob+.75*clamp((38-x)/12)*math.sin(2*stride-.75)) for x,y in points]
+    b=Brush(image,shoulder); d=.36*math.sin(stride-.78)
     b.p('olive',[(32,20),(34,18),(37,18),(39,20),(40,20),(41,22),(42,23),
         (41,23),(39,22),(37,23),(34,25),(31,26),(28,26),(26+d,26),(25+d,25),
         (28,24),(30,23),(32,21)],'olivedeep')
@@ -275,43 +319,164 @@ def mantle(image,phase,bob):
     b.d('goldlight',(39,20),(40,21));b.d('metal',(40,22))
 
 
-def shape_foot(ankle,angle,points):
-    c,s=math.cos(angle),math.sin(angle)
-    return [(ankle[0]+x*c-y*s,ankle[1]+x*s+y*c) for x,y in points]
+@dataclass(frozen=True)
+class BootPose:
+    heel: tuple
+    ball: tuple
+    ankle: tuple
+    rear_pitch: float
+    toe_pitch: float
+    toe_length: float
+    flex: float
+    compression: float
+
+    def back(self,x,y):
+        return offset(self.heel,turn((x,y),self.rear_pitch))
+
+    def front(self,x,y):
+        return offset(self.ball,turn((x,y),self.toe_pitch))
+
+    def outsole(self):
+        back=self.back
+        front=self.front
+        return [back(0,0),back(1.75,0),back(2.0,-.66),back(3.30,-.73),
+                back(4.65,-.18),self.ball,front(self.toe_length-.95,0),
+                front(self.toe_length-.30,-.25),front(self.toe_length,-.65)]
 
 
-def leg(image,nodes,phase,near):
-    hip,knee,ankle=nodes[:3];angle=math.radians(track(ANGLE,phase))
-    lift=track(LIFT,phase)
-    sole=max(y for _,y in shape_foot((0,0),angle,SHOE))
-    ankle=(ankle[0],59-lift-sole)
-    upper=along(hip,knee);lower=along(knee,ankle)
+def boot_pose(phase,ankle_x):
+    key=sample_foot(phase)
+    rear_pitch=math.radians(key.heel_deg)
+    toe_pitch=math.radians(key.toe_deg)
+    flex=clamp((key.heel_deg-key.toe_deg)/48)
+    compression=clamp(body_drop(phase)/11)*clamp(1-key.lift/17)
+    toe_length=3.65-.40*flex-.18*compression
+    ankle_from_heel=turn((2.0,-3.55+.38*compression),rear_pitch)
+    ball_from_heel=turn((5.85,-.07),rear_pitch)
+    # The illustrated pose keys carry the solved ankle X as the planted ball rolls.
+    heel=(ankle_x-ankle_from_heel[0],0)
+    ball=offset(heel,ball_from_heel)
+    upper=offset(heel,ankle_from_heel)
+    boot=BootPose(heel,ball,upper,rear_pitch,toe_pitch,toe_length,flex,compression)
+    floor_shift=FLOOR-key.lift*SOURCE_SCALE-max(y for _,y in boot.outsole())
+    return BootPose(offset(heel,(0,floor_shift)),offset(ball,(0,floor_shift)),
+                    offset(upper,(0,floor_shift)),rear_pitch,toe_pitch,toe_length,flex,compression)
+
+
+def knee_for_boot(nodes,ankle):
+    hip,reference_knee,reference_ankle=nodes[:3]
+    upper=math.dist(hip,reference_knee)
+    lower=math.dist(reference_knee,reference_ankle)
+    reach=math.dist(hip,ankle)
+    # Retain the drawing's two segment lengths and the right-facing knee bend.
+    stretch=max(1.,(reach+.08)/(upper+lower))
+    upper*=stretch
+    lower*=stretch
+    forward=(upper*upper-lower*lower+reach*reach)/(2*reach)
+    height=math.sqrt(max(0,upper*upper-forward*forward))
+    ux,uy=unit((ankle[0]-hip[0],ankle[1]-hip[1]))
+    return hip[0]+ux*forward+uy*height,hip[1]+uy*forward-ux*height
+
+
+def shoe_leather(image,fit,near):
+    b=Brush(image)
+    back,front=fit.back,fit.front
+    flex,load=fit.flex,fit.compression
+    tip=fit.toe_length
+    toe_height=2.92-.43*flex-.23*load
+    base='leather' if near else 'rearboot'
+    shade='brown' if near else 'rearshaft'
+    light='tan' if near else 'leather'
+    # The welt spans a heel block, recessed arch, ball pad and round toe.
+    # The two leather panels meet over the ball even when their sole angles differ.
+    top=[back(-.35,-.55),back(-.40,-2.35),back(.18,-3.35),back(1.35,-4.32+.28*load),
+         back(2.65,-4.10+.45*load),back(3.55,-3.62+.34*load),back(4.46,-3.16+.35*flex),
+         front(.10,-toe_height+.18*flex),front(1.05,-toe_height-.07),
+         front(tip-1.24,-toe_height-.22),front(tip-.46,-toe_height+.21),front(tip+.12,-1.52)]
+    b.p(base,top+list(reversed(fit.outsole())),shade)
+    b.p(light,[back(.42,-2.67),back(1.56,-3.42+.30*load),back(2.42,-3.16+.32*load),
+               back(3.46,-2.67+.30*flex),back(3.14,-2.08),back(1.45,-2.04)])
+    # A flexible toe cap holds its own highlight and sole edge while the heel rises.
+    b.l(light,[front(.87,-toe_height+.52),front(tip-1.10,-toe_height+.38),
+               front(tip-.35,-toe_height+.80)])
+    b.l('sole',fit.outsole())
+    b.l(shade,[back(.12,-.62),back(1.52,-.63),back(2.05,-1.08)])
+    b.d('sole',back(.05,0),back(1.58,0))
+    if flex>.34:
+        b.l(shade,[back(4.25,-2.24),front(.48,-1.02)])
+        b.d(light,front(.76,-1.86))
+    elif fit.toe_pitch<-.13:
+        b.l(shade,[back(4.12,-1.92),back(4.90,-1.51)])
+    else:
+        b.d(shade,back(4.65,-1.80+.45*load))
+    b.d('gold' if near else 'tan',back(2.30,-3.14+.36*load))
+
+
+def shin_and_ribbon(image,knee,fit,phase,near):
+    lower=along(knee,fit.ankle)
+    boot=Brush(image,lower)
+    base='leather' if near else 'rearboot'
+    shadow='brown' if near else 'rearshaft'
+    light='tan' if near else 'leather'
+    pinch=.42*fit.flex+.26*fit.compression
+    boot.p(base,[(.39,-2.06),(.39,2.18),(.56,2.08),(.72,1.63+pinch),
+                 (.83,1.48),(.97,1.40),(1.07,1.48),(1.09,-1.64),(.89,-1.55),
+                 (.78,-1.86+pinch),(.70,-1.72),(.61,-2.1)],'sole')
+    boot.l(light,[(.57,.86),(.69,1.03),(.82,.62)])
+    boot.l(shadow,[(.71,-1.10),(.76,-.15),(.81,.14+pinch)])
+    boot.l('metal' if near else 'tan',[(.62,.66),(.71,-.10),(.78,.66)])
+    shoe_leather(image,fit,near)
+    ux,uy=unit((fit.ankle[0]-knee[0],fit.ankle[1]-knee[1]))
+    cuff=lower([(.41,.05)])[0]
+    twist=math.sin(TAU*phase-.56)
+    def ribbon(points):
+        result=[]
+        for x,y in points:
+            tail=clamp(y/2.5)
+            warp_x=x+tail*.77*twist
+            warp_y=y+tail*.43*math.sin(2*TAU*phase-.77)
+            result.append((cuff[0]+uy*warp_x+ux*warp_y*(1-.35*tail),
+                           cuff[1]-ux*warp_x+uy*warp_y*(1-.35*tail)+.35*tail*warp_y))
+        return result
+    r=Brush(image,ribbon)
+    r.p('pink',[(-3.15,-.7),(-3.12,-2),(-2,-2.1),(-.1,-.45),(1,-1.05),
+                (2.2,-2.0),(3.05,-1.65),(2.95,.05),(1.35,.85),(1.86,2.80),
+                (.77,2.45),(.03,1.06),(-1.48,2.5),(-2.25,2.35),(-1.55,.8),(-2.8,.73)],'roseink')
+    r.l('blush',[(-2.5,-1.4),(-1.35,-.74),(-.30,-.15)])
+    r.l('pearl' if near else 'blush',[(.78,-.05),(1.76,-.82),(2.45,-1.05)])
+    r.d('pearl',(-2.20,-1.30));r.d('white' if near else 'pearl',(2,-1.16))
+    r.d('pink',(-1.05,1.12),(1.12,1.40));r.d('blush',(-1.62,1.91))
+    r.d('gold',(0,0))
+    return cuff
+
+
+def leg(nodes,phase,near):
+    hip=nodes[0]
+    fit=boot_pose(phase,nodes[2][0])
+    knee=knee_for_boot(nodes,fit.ankle)
+    upper=along(hip,knee)
+    lower=along(knee,fit.ankle)
+    image=Image.new('RGBA',(64,64))
     limb=Brush(image)
-    upper_face=upper([(-.15,-2.45),(-.12,2.8),(.47,2.75),(.84,2.15),(1.0,1.8)])
-    lower_right=lower([(.02,1.8),(.32,1.85),(.57,1.45),(.86,1.2)])
-    lower_left=lower([(.87,-1.2),(.55,-1.5),(.25,-1.8),(0,-1.8)])
-    upper_back=upper([(.82,-1.85),(.49,-2.3),(.20,-2.65)])
-    limb.p('skin' if near else 'shade',upper_face+lower_right+lower_left+upper_back,'skinrim' if near else 'roseink')
-    limb.p('skinlit' if near else 'skin',upper([(.12,-.5),(.13,1.35),(.49,1.65),(.89,1.2),
-         (.90,.15),(.48,-.75)]))
-    limb.l('skinlit' if near else 'skin',lower([(.02,.80),(.3,.85),(.53,.50)]))
-    limb.d('shade' if near else 'rear',*upper([(.88,-.85)]))
-    boot=Brush(image,lower);base='leather' if near else 'rearboot';shadow='brown' if near else 'rearshaft'
-    boot.p(base,[(.48,-2.05),(.45,2.25),(.64,2.0),(.91,1.65),(1.1,1.8),
-        (1.1,-1.7),(.82,-1.65),(.68,-2.1)],'sole')
-    boot.l('tan' if near else 'leather',[(.64,1.05),(.88,.85)]);boot.l(shadow,[(.70,-1),(.89,-.85)])
-    shoe=Brush(image,lambda pts:shape_foot(ankle,angle,pts))
-    shoe.p(base,SHOE,'sole');shoe.p('tan' if near else 'leather',[(-1.4,-.4),(.35,-.9),(2,.4),
-        (3.5,1.1),(5.65,1),(5.65,1.8),(3.2,2),(1.5,1.5),(-.2,1.1)])
-    shoe.l(shadow,[(-1.9,2.55),(.35,2.75),(1.9,2.65)]);shoe.d('gold' if near else 'tan',(0,-.65))
-    # Pale bow loops are drawn around the boot shaft rather than on the foot.
-    bx,by=lower([(.48,.1)])[0];r=Brush(image,move(bx,by))
-    r.p('pink',[(-3,-1),(-3,-2),(-2,-2),(0,-.5),(1,-1),(2,-2),(3,-2),
-        (3,0),(2,1),(1,1),(2,2),(1,2),(0,1),(-1,2),(-2,2),(-1,1),(-3,1)],'roseink')
-    r.l('blush',[(-2,-1),(-1,-1),(0,0)]);r.l('pearl' if near else 'blush',[(1,0),(2,-1),(3,-1)])
-    r.d('pearl',(-2,-1));r.d('white' if near else 'pearl',(2,-1));r.d('gold',(0,0))
-    r.d('pink',(-1,1),(1,1));r.d('blush',(-2,2),(1,2))
-    return ankle
+    upper_face=upper([(-.16,-2.45),(-.15,2.80),(.47,2.70),(.83,2.02),(.97,1.85)])
+    lower_right=lower([(.03,1.8),(.29,1.85),(.56,1.5),(.87,1.2)])
+    lower_left=lower([(.87,-1.2),(.53,-1.55),(.25,-1.85),(.02,-1.78)])
+    upper_back=upper([(.82,-1.88),(.50,-2.32),(.20,-2.65)])
+    limb.p('skin' if near else 'shade',upper_face+lower_right+lower_left+upper_back,
+           'skinrim' if near else 'roseink')
+    limb.p('skinlit' if near else 'skin',upper([(.13,-.48),(.13,1.4),(.47,1.63),
+           (.84,1.32),(.92,.72),(.82,.08),(.45,-.70)]))
+    limb.l('skinlit' if near else 'skin',lower([(.03,.82),(.25,.82),(.48,.48)]))
+    limb.d('shade' if near else 'rear',*upper([(.93,-.58)]))
+    boot=Image.new('RGBA',(64,64))
+    cuff=shin_and_ribbon(boot,knee,fit,phase,near)
+    image.alpha_composite(boot)
+    toe=fit.front(fit.toe_length-.95,0)
+    coords={'hip':hip,'knee':knee,'ankle':fit.ankle,'heel':fit.heel,'ball':fit.ball,
+            'toe':toe,'toe_tip':fit.front(fit.toe_length,-.65),'cuff':cuff,
+            'heel_pitch_deg':math.degrees(fit.rear_pitch),'toe_pitch_deg':math.degrees(fit.toe_pitch),
+            'sole_clearance_px':FLOOR-max(y for _,y in fit.outsole())}
+    return image,boot,coords
 
 
 def flower(b,x,y,large):
@@ -326,8 +491,8 @@ def flower(b,x,y,large):
 
 
 def bow(image,grip,phase):
-    theta=.055*math.cos(TAU*phase-.14)
-    b=Brush(image,lambda pts:shape_foot(grip,theta,pts))
+    theta=.076*math.cos(TAU*phase-.24)
+    b=Brush(image,lambda pts:[offset(grip,turn(point,theta)) for point in pts])
     b.l('tan',[(1,-15),(-8,10)])
     wood=[(3,-16),(2,-16),(1,-15),(0,-14),(0,-13),(2,-11),(3,-9),(4,-7),
           (4,-5),(3,-3),(1,-1),(0,0),(-.8,2),(-2,4),(-3,6),(-5,7),
@@ -339,7 +504,13 @@ def bow(image,grip,phase):
 
 
 def arm(image,nodes,phase,near):
-    sh,el,wr=nodes[3:];b=Brush(image);upper=along(sh,el);lower=along(el,wr)
+    stride=TAU*phase
+    sh,el,wr=nodes[3:]
+    direction=1. if near else -.48
+    sh=offset(sh,(-.51*direction*math.cos(stride-.14),-.22*direction*math.sin(stride)))
+    el=offset(el,(-.91*direction*math.cos(stride+.31),.54*direction*math.cos(stride+.68)))
+    wr=offset(wr,(-.82*direction*math.cos(stride-.42),.45*direction*math.sin(stride-.28)))
+    b=Brush(image);upper=along(sh,el);lower=along(el,wr)
     b.p('skin',upper([(-.05,-1.6),(-.03,1.7),(.64,1.6),(1.08,1.30),(1.10,-1.3),(.52,-1.6)]),'skinrim')
     b.p('skin',lower([(-.11,-1.45),(-.12,1.42),(.52,1.4),(.96,1.05),
         (1.06,-1.05),(.57,-1.3)]),'skinrim')
@@ -353,39 +524,62 @@ def arm(image,nodes,phase,near):
     cuff.l('goldlight',[(.7,-.8),(.70,.8)]);cuff.d('leafdark',(.86,0))
     if near:
         dx,dy=unit((wr[0]-el[0],wr[1]-el[1]));wx,wy=wr
-        hand=along((wx,wy),(wx+dx*2.6,wy+dy*2.8))
-        b.p('skin',hand([(-.1,-1),(-.16,.9),(.38,1.35),(.74,1.05),(.74,.65),
-            (1.12,.54),(1.15,-.32),(.85,-.75),(.74,-1.15),(.35,-1.25)]),'skinrim')
-        b.l('skinlit',hand([(.12,.45),(.50,.65)]));b.d('skin',*hand([(.86,.20)]))
+        open_hand=.5-.5*math.cos(stride-.70)
+        dx,dy=turn((dx,dy),.38*math.sin(stride-.81)-.09)
+        hand=along(wr,(wx+dx*(2.75+.52*open_hand),wy+dy*(2.75+.52*open_hand)))
+        b.p('skin',hand([(-.1,-.92),(-.16,.86),(.32,1.32),(.57,1.06),(.70,.65),
+            (1.10,.47),(1.10+.16*open_hand,-.24),(.91,-.64),(.76,-1.05),(.34,-1.20)]),'skinrim')
+        b.l('skinlit',hand([(.05,.35),(.42,.72)]))
+        b.d('skin',*hand([(.84,.12)]))
+        hand_end=hand([(1.10+.16*open_hand,-.24)])[0]
     else:
         dx,dy=unit((wr[0]-el[0],wr[1]-el[1]));grip=(wr[0]+dx*1.8,wr[1]+dy*1.8)
         bow(image,grip,phase);h=Brush(image,move(*grip))
         h.p('skin',[(-1.7,-.5),(-.7,-1.3),(.9,-1),(1.45,-.1),(1.20,1),(.1,1.65),(-1.3,.9)],'skinrim')
         h.l('skinlit',[(-.75,-.45),(.75,-.45)]);h.d('skin',(.65,1))
+        hand_end=grip
+    return {'shoulder':sh,'elbow':el,'wrist':wr,'hand':hand_end}
 
 
-def sprite(pose,phase):
-    p=float(phase);bob=round(track(BOB,p%.5));img=Image.new('RGBA',(64,64))
-    rear=pose[1];front=pose[0]
-    back_cape(img,p,bob);arm(img,rear,p,False)
-    far_ankle=leg(img,rear,(p+.5)%1,False);near_ankle=leg(img,front,p,True)
-    hair_tail(img,p,bob);torso(img,bob,p);quiver(img,bob,p)
-    arm(img,front,p,True);mantle(img,p,bob);neck_and_head(img,bob)
-    return img,{'near':{'shoulder':front[3],'wrist':front[5],'hip':front[0],'ankle':near_ankle},
-                'far':{'shoulder':rear[3],'wrist':rear[5],'hip':rear[0],'ankle':far_ankle}}
+def sprite(pose,phase,proof=None):
+    p=float(phase)
+    bob=body_drop(p)*SOURCE_SCALE
+    img=Image.new('RGBA',(64,64))
+    front,rear=pose
+    back_cape(img,p,bob)
+    rear_arm=arm(img,rear,p,False)
+    far_leg,far_boot,far_joints=leg(rear,(p+.5)%1,False)
+    near_leg,near_boot,near_joints=leg(front,p,True)
+    img.alpha_composite(far_leg)
+    img.alpha_composite(near_leg)
+    hair_tail(img,p,bob)
+    torso(img,bob,p)
+    quiver(img,bob,p)
+    near_arm=arm(img,front,p,True)
+    mantle(img,p,bob)
+    neck_and_head(img,bob,p)
+    if proof is not None:
+        proof.update({'near-leg':near_leg,'far-leg':far_leg,'near-boot':near_boot,'far-boot':far_boot})
+    return img,{'near':{**near_joints,**near_arm},'far':{**far_joints,**rear_arm}}
 
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--preview-dir',type=Path)
+    parser.add_argument('--output-dir',type=Path,default=OUT)
     args=parser.parse_args();poses=json.loads((ART/'pose-keys.json').read_text(encoding='utf8'))
-    frames={};joints={}
+    args.output_dir.mkdir(parents=True,exist_ok=True)
+    frames={};joints={};isolated={}
     for key,pose in poses.items():
-        phase=Fraction(key);frames[phase],joints[key]=sprite(pose,phase)
+        phase=Fraction(key)
+        layers={} if args.preview_dir and (phase*12).denominator==1 else None
+        frames[phase],joints[key]=sprite(pose,phase,layers)
+        if layers is not None:
+            isolated[int(12*phase)]=layers
     for count in COUNTS:
         strip=Image.new('RGBA',(64*count,64))
         for i in range(count):
             strip.paste(frames[Fraction(i,count)],(i*64,0))
-        strip.save(OUT/f'blonde-pixel-walk-{count:02d}.png',optimize=True)
+        strip.save(args.output_dir/f'blonde-pixel-walk-{count:02d}.png',optimize=True)
     if args.preview_dir:
         folder=args.preview_dir;folder.mkdir(parents=True,exist_ok=True)
         for count,cols,zoom in [(4,4,4),(12,6,3)]:
@@ -397,6 +591,26 @@ def main():
         b=Image.new('RGBA',(64,64),'#8ba194');b.alpha_composite(frames[Fraction(0)])
         b.resize((384,384),Image.Resampling.NEAREST).convert('RGB').save(folder/'contact.png')
         (folder/'joint-coordinates.json').write_text(json.dumps(joints,indent=2),encoding='utf8')
+        samples=folder/'leg-samples'
+        samples.mkdir(exist_ok=True)
+        leg_sheet=Image.new('RGB',(6*50,4*33),'#a5aba0')
+        boot_sheet=Image.new('RGB',(6*28,4*23),'#a5aba0')
+        for i,layers in sorted(isolated.items()):
+            for name,tile in layers.items():
+                tile.save(samples/f'{name}-{i:02d}.png')
+            for side,row in [('near',0),('far',2)]:
+                color=('#a5aba0','#879c98')[i%2]
+                cell=Image.new('RGBA',(50,33),color)
+                cell.alpha_composite(layers[f'{side}-leg'].crop((12,30,62,63)))
+                leg_sheet.paste(cell,(i%6*50,(i//6+row)*33))
+                fit=joints[str(Fraction(i,12))][side]
+                heelx=ip(fit['heel'])[0]
+                shoe=layers[f'{side}-boot'].crop((heelx-11,39,heelx+17,62))
+                cell=Image.new('RGBA',shoe.size,color)
+                cell.alpha_composite(shoe)
+                boot_sheet.paste(cell,(i%6*28,(i//6+row)*23))
+        leg_sheet.resize((leg_sheet.width*3,leg_sheet.height*3),Image.Resampling.NEAREST).save(folder/'leg-poses.png')
+        boot_sheet.resize((boot_sheet.width*5,boot_sheet.height*5),Image.Resampling.NEAREST).save(folder/'boot-poses.png')
 
 
 if __name__=='__main__':

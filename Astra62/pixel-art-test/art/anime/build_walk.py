@@ -7,13 +7,18 @@ plates, contact sheets, tracked joint coordinates and cape-motion landmarks.
 import argparse
 import json
 import math
+import sys
 from fractions import Fraction
 from pathlib import Path
 
 import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageFilter
 
+from boot_deform import Boot
 from extract_arms import ART, NATIVE, arm_coords, extract_arms
+
+sys.path.insert(0,str(ART.parent))
+from walk_cycle import body_drop, sample_foot
 
 
 ASSETS=ART.parent.parent/'assets'
@@ -62,6 +67,7 @@ class Patch:
         w,h = tight.size
         gx = np.linspace(0,w-1,max(2,math.ceil(w/spacing)+1))
         gy = np.linspace(0,h-1,max(2,math.ceil(h/spacing)+1))
+        self.x_grid,self.y_grid=gx+left,gy+top
         self.positions = np.stack(np.meshgrid(gx,gy),axis=-1).reshape(-1,2)+self.origin
         self.triangles = []
         alpha = self.texture[:,:,3]
@@ -74,9 +80,24 @@ class Patch:
                 b,c,d=a+1,a+len(gx),a+len(gx)+1
                 self.triangles.extend([(a,b,d),(a,d,c)])
 
-    def paint(self, transform):
+    def attachments(self,points):
+        """Barycentric attachments on the exact triangles used to draw the cel."""
+        x,y=np.asarray(points).T
+        ix=np.clip(np.searchsorted(self.x_grid,x,side='right')-1,0,len(self.x_grid)-2)
+        iy=np.clip(np.searchsorted(self.y_grid,y,side='right')-1,0,len(self.y_grid)-2)
+        fx=np.clip((x-self.x_grid[ix])/(self.x_grid[ix+1]-self.x_grid[ix]),0,1)
+        fy=np.clip((y-self.y_grid[iy])/(self.y_grid[iy+1]-self.y_grid[iy]),0,1)
+        base=iy*len(self.x_grid)+ix; right=fx>=fy
+        ids=np.stack((base,np.where(right,base+1,base+len(self.x_grid)),base+len(self.x_grid)+1),axis=1)
+        weights=np.stack((1-np.maximum(fx,fy),np.abs(fx-fy),np.minimum(fx,fy)),axis=1)
+        return lambda vertices:np.sum(vertices[ids]*weights[:,:,None],axis=1)
+
+    def paint(self,transform):
+        return self.paint_vertices(transform(self.positions))
+
+    def paint_vertices(self,vertices):
         size = round(HD*AA)
-        screen = in_world(transform(self.positions))*AA
+        screen = in_world(vertices)*AA
         local = self.positions-self.origin
         pixels = np.zeros((size,size,4),dtype=np.float32)
         sh,sw = self.texture.shape[:2]
@@ -135,15 +156,6 @@ def joint(start,end,length_a,length_b,side):
 
 
 
-def track(keys,phase):
-    return np.array([np.interp(phase,keys[:,0],column) for column in keys.T[1:]])
-
-
-# In-phase heel contact, flat stance, toe-off, lift, passing and recovery.
-FOOT=np.array([(0,579,-26,0),(.09,530,-4,0),(.24,455,0,0),(.36,392,5,0),
-               (.44,338,15,0),(.5,289,26,0),(.58,288,36,16),(.66,318,30,43),
-               (.75,389,10,57),(.84,473,-10,48),(.925,541,-22,24),(1,579,-26,0)])
-BOB=np.array([(0,0),(.1,7),(.21,1),(.31,-7),(.405,-8),(.5,0)])
 FAR_LEG=np.array([(433,501),(380,620),(289,765)],float)
 NEAR_LEG=np.array([(495,497),(529,629),(579,768)],float)
 NEAR_ARM=arm_coords([(805,412),(772,554),(853,683)],True)
@@ -212,58 +224,122 @@ def split_legs(art):
     return body,far_art,near_art
 
 
+def pelvis_drift(phase):
+    return 3.1*math.sin(2*TAU*phase-.24)
+
+
 class Leg:
-    def __init__(self,artwork,nodes,angle,side):
-        self.patch=Patch(artwork,18)
-        self.nodes,self.angle,self.side=nodes,angle,side
+    def __init__(self,artwork,nodes,side):
+        self.patch=Patch(artwork,9)
+        self.nodes,self.side=nodes,side
         hip,knee,ankle=nodes
-        axis=(ankle-hip)/np.linalg.norm(ankle-hip)
-        self.knee=smooth(((self.patch.positions-knee)@axis+28)/56)[:,None]
-        axis=(ankle-knee)/np.linalg.norm(ankle-knee)
-        foot=smooth(((self.patch.positions-ankle)@axis+22)/46)
-        self.foot=np.maximum(foot,smooth((self.patch.positions[:,1]-ankle[1]+1)/33))[:,None]
-        alpha=np.asarray(artwork)[:,:,3]
-        yy,xx=np.where(alpha>90)
-        points=np.stack((xx,yy),axis=1)
-        self.sole=points[yy>ankle[1]]-ankle
+        self.boot=Boot(artwork,ankle,side>0)
+        directions=(ankle-hip)/np.linalg.norm(ankle-hip)
+        self.knee=smooth(((self.patch.positions-knee)@directions+29)/58)[:,None]
+        shaft=(ankle-knee)/np.linalg.norm(ankle-knee)
+        p=self.patch.positions-ankle
+        shoe=np.maximum(smooth((p@shaft+18)/48),smooth((p[:,1]+3)/35))
+        # At the toe this weight is one even when the reference tibia slopes
+        # backwards. The boot ribbon and the upper shaft stay on the shin.
+        forward=(self.patch.positions-self.boot.ball)@self.boot.axis
+        shoe=np.maximum(shoe,smooth((forward+32)/32)*smooth((p[:,1]+30)/23))
+        self.foot=shoe[:,None]
+        self.outsole_attachment=self.patch.attachments(self.boot.sole_pixels)
+        self.mark_attachment=self.patch.attachments([self.boot.heel,self.boot.ball,self.boot.toe])
+        self.fold_attachments=[self.patch.attachments(path) for path in self.boot.crease_paths]
+        flat=self.boot.local(self.patch.positions,sample_foot(.16))
+        self.flat_ball_x=self.mark_attachment(flat)[1,0]
+
+    def pose(self,phase,bob):
+        foot=sample_foot(phase)
+        hip,knee,ankle=self.nodes
+        cosine=math.cos(TAU*phase)
+        start=v(464+27*cosine+self.side*3+pelvis_drift(phase),
+                hip[1]+bob+2.+3.1*math.sin(TAU*phase-.15))
+        boot_local=self.boot.local(self.patch.positions,foot)
+        support=self.outsole_attachment(boot_local)[:,1].max()
+        # On the treadmill the flat ankle track is also the planted ball's
+        # transport track. Rolling over that ball moves the ankle forward;
+        # release the correction as the airborne leg takes over.
+        planted=smooth((foot.heel_deg-.3)/20)*(1-smooth((phase-.565)/.15))
+        ball_x=self.mark_attachment(boot_local)[1,0]
+        end=v(foot.x+planted*(self.flat_ball_x-ball_x),GROUND-foot.lift-support)
+        thigh_length=np.linalg.norm(knee-hip)
+        shin_length=np.linalg.norm(ankle-knee)
+
+        def position_vertices():
+            middle=joint(start,end,thigh_length,shin_length,1)
+            upper=align(self.patch.positions,hip,knee,start,middle)
+            lower=align(self.patch.positions,knee,ankle,middle,end)
+            leg=upper*(1-self.knee)+lower*self.knee
+            vertices=leg*(1-self.foot)+(boot_local+end)*self.foot
+            return middle,vertices
+
+        middle,vertices=position_vertices()
+        sole=self.outsole_attachment(vertices)
+        delta=GROUND-foot.lift-sole[:,1].max()
+        if abs(delta)>.025:
+            end[1]+=delta
+            middle,vertices=position_vertices()
+            sole=self.outsole_attachment(vertices)
+        marks=self.mark_attachment(vertices)
+        contact=sole[np.argmax(sole[:,1])]
+        return vertices,(start,middle,end,*marks,contact),foot
 
     def draw(self,phase,bob):
-        x,angle,lift=track(FOOT,phase)
-        hip,knee,ankle=self.nodes
-        rotation=math.radians(angle-self.angle)
-        support=np.max(self.sole[:,0]*math.sin(rotation)+self.sole[:,1]*math.cos(rotation))
-        end=v(x,GROUND-lift-support)
-        start=v(464+28*math.cos(TAU*phase)+self.side*3,hip[1]+bob)
-        middle=joint(start,end,np.linalg.norm(knee-hip),np.linalg.norm(ankle-knee),1)
-        def flex(points):
-            upper=align(points,hip,knee,start,middle)
-            lower=align(points,knee,ankle,middle,end)
-            foot=rotated(points,ankle,end,rotation)
-            limb=upper*(1-self.knee)+lower*self.knee
-            return limb*(1-self.foot)+foot*self.foot
-        return self.patch.paint(flex),(start,middle,end)
+        vertices,joints,foot=self.pose(phase,bob)
+        layer=self.patch.paint_vertices(vertices)
+        strength=float(smooth((foot.heel_deg-foot.toe_deg-4)/42))
+        if strength>0:
+            size=round(HD*AA)
+            crease=Image.new('L',(size,size))
+            brush=ImageDraw.Draw(crease)
+            for index,attachment in enumerate(self.fold_attachments):
+                points=in_world(attachment(vertices))*AA
+                brush.line([tuple(p) for p in points],fill=123-index*33,width=2,joint='curve')
+            self.boot.tint_folds(layer,np.asarray(crease,dtype=np.float32)/255,strength)
+        return layer,joints
+
+
+def trunk_frame(points,phase,bob):
+    pelvis=v(464,500)
+    angle=math.radians(1.05)*math.sin(TAU*phase-.28)
+    return rotated(points,pelvis,pelvis+v(pelvis_drift(phase),bob),angle)
 
 
 def body_motion(points,phase,bob):
-    x,y=points.T; roll=math.sin(TAU*phase)
-    hair=smooth((401-x)/224)*smooth((421-y)/84)*smooth((y-83)/101)
-    skirt=smooth((y-384)/124)*smooth((610-x)/75)
-    dx=2.5*roll*smooth((529-y)/220)+hair*9.2*math.sin(TAU*phase-.7)+skirt*3*roll
-    dy=bob+hair*13*math.sin(TAU*phase-.52)+skirt*1.7*math.sin(2*TAU*phase-.25)
-    return np.stack((x+dx,y+dy),axis=1)
+    x,y=points.T; phase_angle=TAU*phase
+    torso=trunk_frame(points,phase,bob)
+    neck=v(456,230)
+    neck_world=trunk_frame(neck[None,:],phase,bob)[0]
+    head=rotated(points,neck,neck_world,math.radians(.26)*math.sin(phase_angle-.46))
+    # Face, ribbon and ear share a rigid head. Only the neck transition and
+    # the distal ponytail are allowed to bend.
+    head_weight=1-smooth((y-222)/44)
+    tail=smooth((408-x)/224)*smooth((426-y)/92)*smooth((y-86)/107)
+    head_weight=np.maximum(head_weight,tail)
+    pose=torso*(1-head_weight[:,None])+head*head_weight[:,None]
+    skirt=smooth((y-388)/150)*smooth((611-x)/76)
+    lateral=np.clip((x-463)/92,-1,1)
+    pose[:,0]+=tail*(11.2*math.sin(phase_angle-.76)+1.7*math.sin(2*phase_angle-.38))
+    pose[:,1]+=tail*(16.0*math.sin(phase_angle-.71)-2.3*math.cos(2*phase_angle))
+    pose[:,0]+=skirt*(5.0*math.sin(phase_angle-.58)+1.1*math.sin(2*phase_angle))
+    pose[:,1]+=skirt*(2.5*math.sin(2*phase_angle-.45)-2.9*lateral*math.cos(phase_angle-.22))
+    return pose
 
 
 def cape_motion(points,phase,bob,front):
-    x,y=points.T; roll=math.sin(TAU*phase)
+    x,y=points.T; a=TAU*phase
+    result=trunk_frame(points,phase,bob)
     if front:
-        free=smooth((460-x)/164)*smooth((y-229)/66)
-        dx=2.5*roll+free*4*math.sin(TAU*phase-1.1)
-        dy=bob+free*4.7*math.sin(TAU*phase-.77)
+        free=smooth((472-x)/170)*smooth((y-242)/71)
+        result[:,0]+=free*(5.4*math.sin(a-1.03)+.8*math.sin(2*a-.37))
+        result[:,1]+=free*(6.5*math.sin(a-.9)+.9*math.sin(2*a-.65))
     else:
-        free=np.maximum(smooth((462-x)/212)*smooth((y-239)/190),.22*smooth((y-335)/196))
-        dx=2.2*roll*(1-free)+free*14*math.sin(TAU*phase-1.05)
-        dy=bob+free*17*math.sin(TAU*phase-.8)
-    return np.stack((x+dx,y+dy),axis=1)
+        free=np.maximum(smooth((459-x)/214)*smooth((y-258)/185),.28*smooth((y-338)/195))
+        result[:,0]+=free*(17*math.sin(a-1.08)+2.2*math.sin(2*a-.55))
+        result[:,1]+=free*(20*math.sin(a-.88)-2.6*math.cos(2*a-.23))
+    return result
 
 
 def hair_protection(body):
@@ -286,29 +362,33 @@ def hair_protection(body):
 def arm_joints(nodes,phase,bob,near):
     sh,el,wr=nodes
     wave,roll=math.cos(TAU*phase),math.sin(TAU*phase)
-    shoulder=sh+v(2.5*roll,bob)
     same_phase=phase if near else (phase+.5)%1
     same_cos=math.cos(TAU*same_phase)
-    ankle_x=track(FOOT,same_phase)[0]
-    stride=(ankle_x-(464+28*same_cos)+30)/117
-    swing=.62*same_cos+.38*stride
+    shoulder=trunk_frame(sh[None,:],phase,bob)[0]+v(-3.4*same_cos,-1.8*math.sin(TAU*same_phase))
+    ankle_x=sample_foot(same_phase).x
+    stride=(ankle_x-(464+27*same_cos)+15)/103
+    swing=.58*same_cos+.42*stride
     if near:
-        wrist=v(sh[0]+3-70*swing,sh[1]+158+bob-10*wave**2+2*roll)
+        wrist=shoulder+v(5-70*swing+2*roll,153-11*wave**2+5.4*roll+10*swing)
     else:
-        wrist=wr+v(-8-25*swing,bob-4*math.cos(2*TAU*phase-.48))
+        wrist=shoulder+(wr-sh)+v(-12-22*swing,2.5*roll-5.4*math.cos(2*TAU*phase-.48)-2*wave)
     elbow=joint(shoulder,wrist,np.linalg.norm(el-sh),np.linalg.norm(wr-el),-1)
     return shoulder,elbow,wrist
 
 
-def arm_flex(patch,nodes,target):
+def arm_vertices(patch,nodes,target,hand_angle=0.):
     sh,el,wr=nodes; shoulder,elbow,wrist=target
     axis=(wr-sh)/np.linalg.norm(wr-sh)
     weight=smooth(((patch.positions-el)@axis+20)/41)[:,None]
-    def transformed(points):
-        upper=align(points,sh,el,shoulder,elbow)
-        lower=align(points,el,wr,elbow,wrist)
-        return upper*(1-weight)+lower*weight
-    return patch.paint(transformed)
+    points=patch.positions
+    upper=align(points,sh,el,shoulder,elbow)
+    lower=align(points,el,wr,elbow,wrist)
+    result=upper*(1-weight)+lower*weight
+    if hand_angle:
+        hand_axis=(wr-el)/np.linalg.norm(wr-el)
+        hand=smooth(((points-wr)@hand_axis+2)/20)[:,None]
+        result=result*(1-hand)+rotated(lower,wrist,wrist,hand_angle)*hand
+    return result
 
 
 class FarArm:
@@ -341,15 +421,16 @@ class FarArm:
 
     def draw(self,phase,bob):
         target=arm_joints(FAR_ARM,phase,bob,False)
-        rotation=.042*math.cos(TAU*phase-.14)
+        rotation=.051*math.cos(TAU*phase-.27)+.012*math.sin(2*TAU*phase-.18)
         follow=lambda points:rotated(points,FAR_ARM[2],target[2],rotation)
         endpoints=follow(arm_coords([(1342,212),(1148,783)],False))
         screen=in_world(endpoints)*AA
         plane=Image.new('RGBA',(round(HD*AA),round(HD*AA)))
         ImageDraw.Draw(plane).line([tuple(k) for k in screen],fill=(171,106,71,235),width=1)
         string=np.asarray(plane.convert('RGBa'),dtype=np.float32)/255
-        layer=over(string,arm_flex(self.upper,FAR_ARM,target))
-        return over(layer,self.distal.paint(follow)),target
+        layer=over(string,self.upper.paint_vertices(arm_vertices(self.upper,FAR_ARM,target)))
+        grip=follow(arm_coords([[1364,551]],False))[0]
+        return over(layer,self.distal.paint(follow)),target,(grip,*endpoints)
 
 
 def rasterize(pixels):
@@ -374,21 +455,24 @@ class Ranger:
         self.hair=Patch(hair_protection(body),22)
         self.front=Patch(registered_layer(directory,'cape-front'),16)
         self.back=Patch(registered_layer(directory,'cape-back'),23)
-        self.far_leg=Leg(far,FAR_LEG,26,-1)
-        self.near_leg=Leg(near,NEAR_LEG,-26,1)
+        self.far_leg=Leg(far,FAR_LEG,-1)
+        self.near_leg=Leg(near,NEAR_LEG,1)
         self.far_arm=FarArm(registered_layer(directory,'far-arm-bow'))
         self.near_arm=Patch(registered_layer(directory,'near-arm'),12)
+        self.fingertip=self.near_arm.attachments(arm_coords([[897,801]],True))
 
     def frame(self,phase):
-        bob=track(BOB,phase%.5)[0]
+        bob=body_drop(phase)
         torso=lambda pts:body_motion(pts,phase,bob)
         front=lambda pts:cape_motion(pts,phase,bob,True)
         back=lambda pts:cape_motion(pts,phase,bob,False)
         far_leg,far_lower=self.far_leg.draw((phase+.5)%1,bob)
         near_leg,near_lower=self.near_leg.draw(phase,bob)
-        far_arm,far_upper=self.far_arm.draw(phase,bob)
+        far_arm,far_upper,bow_marks=self.far_arm.draw(phase,bob)
         near_upper=arm_joints(NEAR_ARM,phase,bob,True)
-        near_arm=arm_flex(self.near_arm,NEAR_ARM,near_upper)
+        hand_vertices=arm_vertices(self.near_arm,NEAR_ARM,near_upper,
+                                   math.radians(11)*math.sin(TAU*phase-.78))
+        near_arm=self.near_arm.paint_vertices(hand_vertices)
         hair=self.hair.paint(torso)
         layers={'cape-back':self.back.paint(back),'far-arm-bow':far_arm,
                 'far-leg':far_leg,'near-leg':near_leg,'body':self.body.paint(torso),
@@ -402,12 +486,21 @@ class Ranger:
             frame.alpha_composite(plate)
         skeleton={}
         for side,lower,upper in [('near',near_lower,near_upper),('far',far_lower,far_upper)]:
-            skeleton[side]=keypoints([*lower,*upper],['hip','knee','ankle','shoulder','elbow','wrist'])
+            skeleton[side]=keypoints([*lower,*upper],
+                ['hip','knee','ankle','heel','ball','toe','contact','shoulder','elbow','wrist'])
+        skeleton['near'].update(keypoints(self.fingertip(hand_vertices),['fingertip']))
+        skeleton['far'].update(keypoints(bow_marks,['grip','bow_top','bow_bottom']))
         cloth={'back_tip':back(np.array([[190.,606.]]))[0],
                'back_upper':back(np.array([[430.,277.]]))[0],
                'front_tip':front(np.array([[288.,330.]]))[0],
                'front_clasp':front(np.array([[484.,267.]]))[0],
-               'hair_tip':torso(np.array([[87.,384.]]))[0]}
+               'clasp_on_torso':torso(np.array([[484.,267.]]))[0],
+               'hair_tip':torso(np.array([[87.,384.]]))[0],
+               'hair_tie':torso(np.array([[391.,110.]]))[0],
+               'eye':torso(np.array([[498.,182.]]))[0],
+               'face_nose':torso(np.array([[541.,204.]]))[0],
+               'skirt_hem':torso(np.array([[548.,513.]]))[0],
+               'belt':torso(np.array([[477.,378.]]))[0]}
         skeleton['landmarks']=keypoints(cloth.values(),cloth.keys())
         return frame,plates,skeleton
 
@@ -430,6 +523,27 @@ def contacts(frames,count,width,cols):
         bg.alpha_composite(f)
         proof.paste(bg,(i%cols*width,i//cols*width))
     return proof
+
+
+def foot_measurements(chain):
+    def pitch(start,end):
+        dx,dy=np.subtract(chain[end],chain[start])
+        return round(math.degrees(math.atan2(dy,dx)),2)
+
+    def flex(start,middle,end):
+        first=np.subtract(chain[middle],chain[start])
+        second=np.subtract(chain[end],chain[middle])
+        cosine=np.dot(first,second)/(np.linalg.norm(first)*np.linalg.norm(second))
+        return round(math.degrees(math.acos(np.clip(cosine,-1,1))),2)
+
+    heel_pitch=pitch('heel','ball')
+    toe_pitch=pitch('ball','toe')
+    return {'hindfoot_pitch_deg':heel_pitch,'forefoot_pitch_deg':toe_pitch,
+            'ball_flex_deg':round(heel_pitch-toe_pitch,2),
+            'sole_clearance':round(480-chain['contact'][1],2),
+            'heel_clearance':round(480-chain['heel'][1],2),
+            'knee_flex_deg':flex('hip','knee','ankle'),
+            'elbow_flex_deg':flex('shoulder','elbow','wrist')}
 
 
 def report(frames,poses):
@@ -458,15 +572,47 @@ def report(frames,poses):
             sheets[f'anime-walk-{count:02d}{suffix}.png']={'width':size*count,'height':size,
                 'unique_cells':len({frames[Fraction(i,count)].tobytes() for i in range(count)}),
                 'ground_range_at_alpha110':[min(ground),max(ground)]}
+    all_phases=sorted(poses,key=Fraction)
+    foot_roll={p:{s:foot_measurements(poses[p][s]) for s in ('near','far')} for p in all_phases}
     return {'cycle_seconds':1,'direction':'right','layer_order_back_to_front':ORDER,
             'native_layer_size':NATIVE,'camera_near_arm':'empty, in front of torso',
             'camera_far_arm':'carrying floral bow, behind torso',
             'units':'512px cell; relative x with each side’s 12-sample mean subtracted',
-            'evidence':evidence,'sheets':sheets,'joint_positions_512':{p:poses[p] for p in phase_names}}
+            'evidence':evidence,'sheets':sheets,
+            'foot_roll_512':{'floor_y':480,'pitch':'positive points down in the right-facing profile',
+                 'contact':'lowest opaque outsole sample after mesh deformation','phases':foot_roll},
+            'joint_positions_512':{p:poses[p] for p in all_phases}}
 
 
 def write_json(path,data):
     path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+
+
+def write_pixel_keys(path,poses):
+    names=('hip','knee','ankle','shoulder','elbow','wrist')
+    keys={p:[[[round(coord/8,3) for coord in pose[s][name]] for name in names]
+             for s in ('near','far')] for p,pose in poses.items()}
+    lines=['  '+json.dumps(p)+': '+json.dumps(rows,separators=(',',':')) for p,rows in keys.items()]
+    path.write_text('{\n'+',\n'.join(lines)+'\n}\n',encoding='utf8')
+
+
+def foot_contacts(proof,poses):
+    side_length=192
+    board=Image.new('RGB',(side_length*4,side_length*2),'#b5c0ac')
+    for row,side in enumerate(('near','far')):
+        for column,local in enumerate((0,3,6,9)):
+            i=(local+row*6)%12
+            chain=poses[str(Fraction(i,12))][side]
+            left=round(chain['ankle'][0])-side_length//2
+            top=302
+            tile=Image.new('RGBA',(side_length,side_length),'#a7b7ab')
+            ink=ImageDraw.Draw(tile)
+            ink.line((0,480-top,side_length-1,480-top),fill='#75897e',width=1)
+            with Image.open(proof/'isolated-legs'/f'{side}-{i:02d}.png') as leg:
+                tile.alpha_composite(leg.crop((left,top,left+side_length,top+side_length)))
+            ink.text((6,5),f'{side}  {local}/12',fill='#25392d')
+            board.paste(tile,(column*side_length,row*side_length))
+    board.save(proof/'foot-roll-proof.png')
 
 
 def render(layer_dir,output,proof=None):
@@ -476,6 +622,14 @@ def render(layer_dir,output,proof=None):
     for phase in sorted({Fraction(i,n) for n in COUNTS for i in range(n)}):
         f,plates,skeleton=hero.frame(float(phase))
         frames[phase]=f; poses[str(phase)]=skeleton
+        if proof and (phase*12).denominator==1:
+            i=int(phase*12)
+            dest=proof/'isolated-legs'
+            dest.mkdir(parents=True,exist_ok=True)
+            for side in ('near','far'):
+                plates[side+'-leg'].save(dest/f'{side}-{i:02d}.png')
+            if i%3==0:
+                f.save(proof/f'contact-{i:02d}.png')
         if proof and phase==0:
             dest=proof/'layers'
             dest.mkdir(parents=True,exist_ok=True)
@@ -490,6 +644,8 @@ def render(layer_dir,output,proof=None):
     if proof:
         contacts(frames,4,256,4).save(proof/'walk-04-proof.png')
         contacts(frames,12,205,6).save(proof/'walk-12-proof.png')
+        foot_contacts(proof,poses)
+        write_pixel_keys(proof/'pixel-pose-keys.json',poses)
         write_json(proof/'joint-coordinates.json',poses)
         write_json(proof/'gait-verification.json',validation)
     return validation

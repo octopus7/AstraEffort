@@ -19,112 +19,112 @@
   "units": "512px cell; relative x with each side’s 12-sample mean subtracted",
   "evidence": {
     "near": {
-      "neutral_wrist_minus_shoulder_x": 2.679,
-      "neutral_ankle_minus_hip_x": -22.519,
-      "pearson_r_12": -0.979309,
+      "neutral_wrist_minus_shoulder_x": 5.134,
+      "neutral_ankle_minus_hip_x": -10.633,
+      "pearson_r_12": -0.913685,
       "sample_offsets_512px": {
         "0": {
-          "wrist": -38.99,
-          "ankle": 68.05
+          "wrist": -40.36,
+          "ankle": 57.1
         },
         "1/12": {
-          "wrist": -31.39,
-          "ankle": 45.49
+          "wrist": -31.78,
+          "ankle": 37.65
         },
         "1/6": {
-          "wrist": -19.37,
-          "ankle": 28.3
+          "wrist": -18.52,
+          "ankle": 20.4
         },
         "1/4": {
-          "wrist": -4.35,
-          "ankle": 13.17
+          "wrist": -2.27,
+          "ankle": 3.73
         },
         "1/3": {
-          "wrist": 11.26,
-          "ankle": -2.95
+          "wrist": 13.11,
+          "ankle": -8.44
         },
         "5/12": {
-          "wrist": 25.54,
-          "ankle": -25.72
+          "wrist": 26.75,
+          "ankle": -14.56
         },
         "1/2": {
-          "wrist": 36.89,
-          "ankle": -58.78
+          "wrist": 35.52,
+          "ankle": -23.03
         },
         "7/12": {
-          "wrist": 34.84,
-          "ankle": -60.68
+          "wrist": 37.23,
+          "ankle": -39.16
         },
         "2/3": {
-          "wrist": 23.8,
-          "ankle": -47.8
+          "wrist": 26.18,
+          "ankle": -59.59
         },
         "3/4": {
-          "wrist": 5.85,
-          "ankle": -19.76
+          "wrist": 5.62,
+          "ankle": -31.5
         },
         "5/6": {
-          "wrist": -13.96,
-          "ankle": 14.81
+          "wrist": -17.11,
+          "ankle": 11.71
         },
         "11/12": {
-          "wrist": -30.12,
-          "ankle": 45.87
+          "wrist": -34.36,
+          "ankle": 45.71
         }
       }
     },
     "far": {
-      "neutral_wrist_minus_shoulder_x": 65.6,
-      "neutral_ankle_minus_hip_x": -19.267,
-      "pearson_r_12": -0.948293,
+      "neutral_wrist_minus_shoulder_x": 63.818,
+      "neutral_ankle_minus_hip_x": -8.229,
+      "pearson_r_12": -0.93014,
       "sample_offsets_512px": {
         "0": {
-          "wrist": 13.17,
-          "ankle": -58.78
+          "wrist": 11.16,
+          "ankle": -25.56
         },
         "1/12": {
-          "wrist": 11.52,
-          "ankle": -60.68
+          "wrist": 11.87,
+          "ankle": -41.6
         },
         "1/6": {
-          "wrist": 6.91,
-          "ankle": -47.8
+          "wrist": 8.52,
+          "ankle": -59.49
         },
         "1/4": {
-          "wrist": 0.25,
-          "ankle": -19.76
+          "wrist": 2.11,
+          "ankle": -30.65
         },
         "1/3": {
-          "wrist": -6.58,
-          "ankle": 14.81
+          "wrist": -5.08,
+          "ankle": 12.55
         },
         "5/12": {
-          "wrist": -11.68,
-          "ankle": 45.87
+          "wrist": -10.63,
+          "ankle": 46.55
         },
         "1/2": {
-          "wrist": -13.93,
-          "ankle": 68.05
+          "wrist": -12.69,
+          "ankle": 57.95
         },
         "7/12": {
-          "wrist": -10.29,
-          "ankle": 45.49
+          "wrist": -10.16,
+          "ankle": 38.49
         },
         "2/3": {
-          "wrist": -5.33,
-          "ankle": 28.3
+          "wrist": -6.12,
+          "ankle": 21.25
         },
         "3/4": {
-          "wrist": 0.29,
-          "ankle": 13.17
+          "wrist": -1.05,
+          "ankle": 4.58
         },
         "5/6": {
-          "wrist": 5.61,
-          "ankle": -2.95
+          "wrist": 3.82,
+          "ankle": -7.95
         },
         "11/12": {
-          "wrist": 10.04,
-          "ankle": -25.72
+          "wrist": 8.24,
+          "ankle": -16.12
         }
       }
     }
@@ -203,916 +203,2699 @@
       ]
     }
   },
+  "foot_roll_512": {
+    "floor_y": 480,
+    "pitch": "positive points down in the right-facing profile",
+    "contact": "lowest opaque outsole sample after mesh deformation",
+    "phases": {
+      "0": {
+        "near": {
+          "hindfoot_pitch_deg": -16.97,
+          "forefoot_pitch_deg": -22.03,
+          "ball_flex_deg": 5.06,
+          "sole_clearance": 0.0,
+          "heel_clearance": 0.6,
+          "knee_flex_deg": 14.54,
+          "elbow_flex_deg": 53.14
+        },
+        "far": {
+          "hindfoot_pitch_deg": 44.98,
+          "forefoot_pitch_deg": 0.88,
+          "ball_flex_deg": 44.1,
+          "sole_clearance": 0.0,
+          "heel_clearance": 23.73,
+          "knee_flex_deg": 49.8,
+          "elbow_flex_deg": 40.06
+        }
+      },
+      "1/12": {
+        "near": {
+          "hindfoot_pitch_deg": -3.8,
+          "forefoot_pitch_deg": -7.52,
+          "ball_flex_deg": 3.72,
+          "sole_clearance": 0.0,
+          "heel_clearance": 1.29,
+          "knee_flex_deg": 45.77,
+          "elbow_flex_deg": 56.37
+        },
+        "far": {
+          "hindfoot_pitch_deg": 52.96,
+          "forefoot_pitch_deg": 18.89,
+          "ball_flex_deg": 34.07,
+          "sole_clearance": 4.31,
+          "heel_clearance": 38.18,
+          "knee_flex_deg": 64.98,
+          "elbow_flex_deg": 35.83
+        }
+      },
+      "1/8": {
+        "near": {
+          "hindfoot_pitch_deg": -1.25,
+          "forefoot_pitch_deg": -2.08,
+          "ball_flex_deg": 0.83,
+          "sole_clearance": 0.0,
+          "heel_clearance": 1.7,
+          "knee_flex_deg": 47.28,
+          "elbow_flex_deg": 57.4
+        },
+        "far": {
+          "hindfoot_pitch_deg": 48.93,
+          "forefoot_pitch_deg": 33.04,
+          "ball_flex_deg": 15.89,
+          "sole_clearance": 17.13,
+          "heel_clearance": 55.39,
+          "knee_flex_deg": 78.51,
+          "elbow_flex_deg": 36.75
+        }
+      },
+      "1/6": {
+        "near": {
+          "hindfoot_pitch_deg": 0.04,
+          "forefoot_pitch_deg": 0.07,
+          "ball_flex_deg": -0.03,
+          "sole_clearance": 0.0,
+          "heel_clearance": 1.91,
+          "knee_flex_deg": 46.0,
+          "elbow_flex_deg": 58.44
+        },
+        "far": {
+          "hindfoot_pitch_deg": 35.55,
+          "forefoot_pitch_deg": 38.27,
+          "ball_flex_deg": -2.72,
+          "sole_clearance": 34.17,
+          "heel_clearance": 68.99,
+          "knee_flex_deg": 91.51,
+          "elbow_flex_deg": 40.64
+        }
+      },
+      "1/4": {
+        "near": {
+          "hindfoot_pitch_deg": 0.92,
+          "forefoot_pitch_deg": 0.07,
+          "ball_flex_deg": 0.85,
+          "sole_clearance": 0.0,
+          "heel_clearance": 2.16,
+          "knee_flex_deg": 36.83,
+          "elbow_flex_deg": 61.65
+        },
+        "far": {
+          "hindfoot_pitch_deg": 9.46,
+          "forefoot_pitch_deg": 19.35,
+          "ball_flex_deg": -9.89,
+          "sole_clearance": 47.7,
+          "heel_clearance": 61.55,
+          "knee_flex_deg": 101.99,
+          "elbow_flex_deg": 52.57
+        }
+      },
+      "1/3": {
+        "near": {
+          "hindfoot_pitch_deg": 8.27,
+          "forefoot_pitch_deg": 0.11,
+          "ball_flex_deg": 8.16,
+          "sole_clearance": 0.0,
+          "heel_clearance": 5.5,
+          "knee_flex_deg": 28.8,
+          "elbow_flex_deg": 66.27
+        },
+        "far": {
+          "hindfoot_pitch_deg": -5.46,
+          "forefoot_pitch_deg": -0.32,
+          "ball_flex_deg": -5.14,
+          "sole_clearance": 32.93,
+          "heel_clearance": 34.09,
+          "knee_flex_deg": 81.3,
+          "elbow_flex_deg": 67.14
+        }
+      },
+      "3/8": {
+        "near": {
+          "hindfoot_pitch_deg": 14.28,
+          "forefoot_pitch_deg": 0.11,
+          "ball_flex_deg": 14.17,
+          "sole_clearance": 0.0,
+          "heel_clearance": 8.54,
+          "knee_flex_deg": 31.01,
+          "elbow_flex_deg": 68.41
+        },
+        "far": {
+          "hindfoot_pitch_deg": -11.22,
+          "forefoot_pitch_deg": -10.57,
+          "ball_flex_deg": -0.65,
+          "sole_clearance": 21.62,
+          "heel_clearance": 23.69,
+          "knee_flex_deg": 68.01,
+          "elbow_flex_deg": 74.11
+        }
+      },
+      "5/12": {
+        "near": {
+          "hindfoot_pitch_deg": 23.47,
+          "forefoot_pitch_deg": 0.07,
+          "ball_flex_deg": 23.4,
+          "sole_clearance": 0.0,
+          "heel_clearance": 13.01,
+          "knee_flex_deg": 32.65,
+          "elbow_flex_deg": 69.62
+        },
+        "far": {
+          "hindfoot_pitch_deg": -15.76,
+          "forefoot_pitch_deg": -18.19,
+          "ball_flex_deg": 2.43,
+          "sole_clearance": 13.07,
+          "heel_clearance": 16.05,
+          "knee_flex_deg": 54.65,
+          "elbow_flex_deg": 80.12
+        }
+      },
+      "1/2": {
+        "near": {
+          "hindfoot_pitch_deg": 44.77,
+          "forefoot_pitch_deg": 1.01,
+          "ball_flex_deg": 43.76,
+          "sole_clearance": 0.0,
+          "heel_clearance": 22.11,
+          "knee_flex_deg": 27.79,
+          "elbow_flex_deg": 69.57
+        },
+        "far": {
+          "hindfoot_pitch_deg": -16.66,
+          "forefoot_pitch_deg": -22.42,
+          "ball_flex_deg": 5.76,
+          "sole_clearance": 0.0,
+          "heel_clearance": 3.16,
+          "knee_flex_deg": 32.39,
+          "elbow_flex_deg": 86.9
+        }
+      },
+      "7/12": {
+        "near": {
+          "hindfoot_pitch_deg": 52.84,
+          "forefoot_pitch_deg": 18.83,
+          "ball_flex_deg": 34.01,
+          "sole_clearance": 4.31,
+          "heel_clearance": 37.18,
+          "knee_flex_deg": 49.72,
+          "elbow_flex_deg": 68.34
+        },
+        "far": {
+          "hindfoot_pitch_deg": -3.4,
+          "forefoot_pitch_deg": -8.14,
+          "ball_flex_deg": 4.74,
+          "sole_clearance": 0.0,
+          "heel_clearance": 0.81,
+          "knee_flex_deg": 49.98,
+          "elbow_flex_deg": 83.89
+        }
+      },
+      "5/8": {
+        "near": {
+          "hindfoot_pitch_deg": 48.68,
+          "forefoot_pitch_deg": 33.3,
+          "ball_flex_deg": 15.38,
+          "sole_clearance": 17.13,
+          "heel_clearance": 56.38,
+          "knee_flex_deg": 69.09,
+          "elbow_flex_deg": 69.59
+        },
+        "far": {
+          "hindfoot_pitch_deg": -0.8,
+          "forefoot_pitch_deg": -2.83,
+          "ball_flex_deg": 2.03,
+          "sole_clearance": 0.0,
+          "heel_clearance": 1.25,
+          "knee_flex_deg": 51.82,
+          "elbow_flex_deg": 80.17
+        }
+      },
+      "2/3": {
+        "near": {
+          "hindfoot_pitch_deg": 35.23,
+          "forefoot_pitch_deg": 38.73,
+          "ball_flex_deg": -3.5,
+          "sole_clearance": 34.17,
+          "heel_clearance": 71.06,
+          "knee_flex_deg": 85.17,
+          "elbow_flex_deg": 72.15
+        },
+        "far": {
+          "hindfoot_pitch_deg": 0.49,
+          "forefoot_pitch_deg": -0.68,
+          "ball_flex_deg": 1.17,
+          "sole_clearance": 0.0,
+          "heel_clearance": 1.79,
+          "knee_flex_deg": 51.6,
+          "elbow_flex_deg": 75.26
+        }
+      },
+      "3/4": {
+        "near": {
+          "hindfoot_pitch_deg": 9.12,
+          "forefoot_pitch_deg": 19.85,
+          "ball_flex_deg": -10.73,
+          "sole_clearance": 47.7,
+          "heel_clearance": 62.49,
+          "knee_flex_deg": 98.7,
+          "elbow_flex_deg": 75.11
+        },
+        "far": {
+          "hindfoot_pitch_deg": 1.37,
+          "forefoot_pitch_deg": -0.67,
+          "ball_flex_deg": 2.04,
+          "sole_clearance": 0.0,
+          "heel_clearance": 2.18,
+          "knee_flex_deg": 44.97,
+          "elbow_flex_deg": 63.59
+        }
+      },
+      "5/6": {
+        "near": {
+          "hindfoot_pitch_deg": -5.79,
+          "forefoot_pitch_deg": 0.15,
+          "ball_flex_deg": -5.94,
+          "sole_clearance": 32.93,
+          "heel_clearance": 33.99,
+          "knee_flex_deg": 78.62,
+          "elbow_flex_deg": 70.64
+        },
+        "far": {
+          "hindfoot_pitch_deg": 8.7,
+          "forefoot_pitch_deg": -0.57,
+          "ball_flex_deg": 9.27,
+          "sole_clearance": 0.0,
+          "heel_clearance": 5.78,
+          "knee_flex_deg": 41.09,
+          "elbow_flex_deg": 53.58
+        }
+      },
+      "7/8": {
+        "near": {
+          "hindfoot_pitch_deg": -11.54,
+          "forefoot_pitch_deg": -10.12,
+          "ball_flex_deg": -1.42,
+          "sole_clearance": 21.62,
+          "heel_clearance": 22.42,
+          "knee_flex_deg": 63.53,
+          "elbow_flex_deg": 65.85
+        },
+        "far": {
+          "hindfoot_pitch_deg": 14.67,
+          "forefoot_pitch_deg": -0.48,
+          "ball_flex_deg": 15.15,
+          "sole_clearance": 0.0,
+          "heel_clearance": 8.95,
+          "knee_flex_deg": 43.8,
+          "elbow_flex_deg": 49.59
+        }
+      },
+      "11/12": {
+        "near": {
+          "hindfoot_pitch_deg": -16.08,
+          "forefoot_pitch_deg": -17.77,
+          "ball_flex_deg": 1.69,
+          "sole_clearance": 13.07,
+          "heel_clearance": 13.7,
+          "knee_flex_deg": 47.11,
+          "elbow_flex_deg": 60.46
+        },
+        "far": {
+          "hindfoot_pitch_deg": 23.79,
+          "forefoot_pitch_deg": -0.36,
+          "ball_flex_deg": 24.15,
+          "sole_clearance": 0.0,
+          "heel_clearance": 13.8,
+          "knee_flex_deg": 47.07,
+          "elbow_flex_deg": 45.9
+        }
+      }
+    }
+  },
   "joint_positions_512": {
     "0": {
       "near": {
         "hip": [
-          321.04,
-          293.01
+          320.099,
+          293.843
         ],
         "knee": [
-          349.799,
-          361.062
+          351.647,
+          360.647
         ],
         "ankle": [
           366.568,
-          439.35
+          439.308
+        ],
+        "heel": [
+          365.564,
+          479.404
+        ],
+        "ball": [
+          393.414,
+          470.906
+        ],
+        "toe": [
+          420.625,
+          459.897
+        ],
+        "contact": [
+          367.717,
+          480.0
         ],
         "shoulder": [
-          285.81,
-          167.808
+          282.926,
+          167.903
         ],
         "elbow": [
-          246.417,
-          196.93
+          245.205,
+          199.161
         ],
         "wrist": [
-          249.496,
-          248.024
+          247.696,
+          250.287
+        ],
+        "fingertip": [
+          246.846,
+          292.598
         ]
       },
       "far": {
         "hip": [
-          287.436,
-          295.178
+          287.579,
+          296.513
         ],
         "knee": [
-          253.709,
-          357.479
+          306.271,
+          364.6
         ],
         "ankle": [
-          209.388,
-          439.35
+          253.79,
+          441.116
+        ],
+        "heel": [
+          225.723,
+          456.272
+        ],
+        "ball": [
+          248.272,
+          478.803
+        ],
+        "toe": [
+          272.659,
+          479.177
+        ],
+        "contact": [
+          251.004,
+          480.0
         ],
         "shoulder": [
-          303.154,
-          173.228
+          303.983,
+          173.235
         ],
         "elbow": [
-          335.197,
-          197.832
+          330.28,
+          203.903
         ],
         "wrist": [
-          381.928,
-          213.646
+          378.963,
+          211.896
+        ],
+        "grip": [
+          395.091,
+          212.318
+        ],
+        "bow_top": [
+          393.059,
+          98.179
+        ],
+        "bow_bottom": [
+          318.923,
+          286.783
         ]
       },
       "landmarks": {
         "back_tip": [
-          149.148,
-          345.478
+          146.874,
+          343.112
         ],
         "back_upper": [
-          285.768,
-          173.728
+          284.786,
+          173.851
         ],
         "front_tip": [
-          206.914,
-          200.723
+          205.315,
+          199.925
         ],
         "front_clasp": [
-          315.078,
-          168.35
+          314.039,
+          168.297
+        ],
+        "clasp_on_torso": [
+          314.039,
+          168.297
         ],
         "hair_tip": [
-          98.583,
-          230.325
+          97.11,
+          229.534
+        ],
+        "hair_tie": [
+          263.391,
+          83.336
+        ],
+        "eye": [
+          321.473,
+          122.258
+        ],
+        "face_nose": [
+          344.803,
+          134.135
+        ],
+        "skirt_hem": [
+          348.134,
+          299.738
+        ],
+        "belt": [
+          310.55,
+          228.477
         ]
       }
     },
     "1/12": {
       "near": {
         "hip": [
-          319.007,
-          296.172
+          319.751,
+          300.664
         ],
         "knee": [
-          355.218,
-          360.568
+          361.951,
+          361.305
         ],
         "ankle": [
-          341.977,
-          439.53
+          346.763,
+          439.915
+        ],
+        "heel": [
+          336.594,
+          478.712
+        ],
+        "ball": [
+          365.639,
+          476.783
+        ],
+        "toe": [
+          394.747,
+          472.942
+        ],
+        "contact": [
+          345.782,
+          480.0
         ],
         "shoulder": [
-          286.488,
-          170.97
+          285.989,
+          173.197
         ],
         "elbow": [
-          249.108,
-          202.636
+          250.501,
+          206.969
         ],
         "wrist": [
-          257.776,
-          253.083
+          259.342,
+          257.386
+        ],
+        "fingertip": [
+          260.126,
+          299.698
         ]
       },
       "far": {
         "hip": [
-          289.469,
-          298.34
+          291.152,
+          301.606
         ],
         "knee": [
-          280.648,
-          368.392
+          310.988,
+          369.368
         ],
         "ankle": [
-          209.524,
-          427.977
+          241.323,
+          430.653
+        ],
+        "heel": [
+          211.445,
+          441.82
+        ],
+        "ball": [
+          230.641,
+          467.258
+        ],
+        "toe": [
+          253.757,
+          475.17
+        ],
+        "contact": [
+          253.606,
+          475.687
         ],
         "shoulder": [
-          303.832,
-          176.39
+          306.5,
+          179.669
         ],
         "elbow": [
-          333.345,
-          203.976
+          333.853,
+          209.399
         ],
         "wrist": [
-          380.957,
-          216.902
+          382.189,
+          219.28
+        ],
+        "grip": [
+          398.31,
+          219.888
+        ],
+        "bow_top": [
+          397.593,
+          105.733
+        ],
+        "bow_bottom": [
+          321.29,
+          293.471
         ]
       },
       "landmarks": {
         "back_tip": [
-          151.918,
-          352.735
+          152.394,
+          352.641
         ],
         "back_upper": [
-          286.378,
-          176.916
+          287.552,
+          179.64
         ],
         "front_tip": [
-          208.342,
-          205.036
+          209.32,
+          206.926
         ],
         "front_clasp": [
-          315.756,
-          171.512
+          316.85,
+          174.356
+        ],
+        "clasp_on_torso": [
+          316.85,
+          174.356
         ],
         "hair_tip": [
-          100.039,
-          234.936
+          101.176,
+          236.208
+        ],
+        "hair_tie": [
+          266.55,
+          89.18
+        ],
+        "eye": [
+          324.534,
+          128.226
+        ],
+        "face_nose": [
+          347.837,
+          140.156
+        ],
+        "skirt_hem": [
+          351.259,
+          307.307
+        ],
+        "belt": [
+          312.79,
+          234.501
+        ]
+      }
+    },
+    "1/8": {
+      "near": {
+        "hip": [
+          317.844,
+          300.133
+        ],
+        "knee": [
+          357.054,
+          362.748
+        ],
+        "ankle": [
+          336.022,
+          440.0
+        ],
+        "heel": [
+          324.118,
+          478.3
+        ],
+        "ball": [
+          353.205,
+          477.666
+        ],
+        "toe": [
+          382.561,
+          476.598
+        ],
+        "contact": [
+          333.238,
+          480.0
+        ],
+        "shoulder": [
+          287.265,
+          172.001
+        ],
+        "elbow": [
+          253.919,
+          207.89
+        ],
+        "wrist": [
+          266.742,
+          257.444
+        ],
+        "fingertip": [
+          268.79,
+          299.714
+        ]
+      },
+      "far": {
+        "hip": [
+          293.896,
+          300.306
+        ],
+        "knee": [
+          313.674,
+          368.085
+        ],
+        "ankle": [
+          231.562,
+          411.292
+        ],
+        "heel": [
+          202.587,
+          424.608
+        ],
+        "ball": [
+          223.492,
+          448.599
+        ],
+        "toe": [
+          244.025,
+          461.954
+        ],
+        "contact": [
+          246.633,
+          462.873
+        ],
+        "shoulder": [
+          307.166,
+          178.954
+        ],
+        "elbow": [
+          333.579,
+          209.523
+        ],
+        "wrist": [
+          381.759,
+          220.136
+        ],
+        "grip": [
+          397.883,
+          220.706
+        ],
+        "bow_top": [
+          396.898,
+          106.553
+        ],
+        "bow_bottom": [
+          321.035,
+          294.468
+        ]
+      },
+      "landmarks": {
+        "back_tip": [
+          155.199,
+          354.464
+        ],
+        "back_upper": [
+          288.513,
+          178.651
+        ],
+        "front_tip": [
+          210.995,
+          206.68
+        ],
+        "front_clasp": [
+          317.83,
+          173.493
+        ],
+        "clasp_on_torso": [
+          317.83,
+          173.493
+        ],
+        "hair_tip": [
+          102.807,
+          235.926
+        ],
+        "hair_tie": [
+          267.699,
+          88.215
+        ],
+        "eye": [
+          325.634,
+          127.322
+        ],
+        "face_nose": [
+          348.923,
+          139.28
+        ],
+        "skirt_hem": [
+          352.315,
+          307.122
+        ],
+        "belt": [
+          313.502,
+          233.619
         ]
       }
     },
     "1/6": {
       "near": {
         "hip": [
-          313.452,
-          294.833
+          314.794,
+          298.673
         ],
         "knee": [
-          344.047,
-          362.08
+          349.397,
+          363.948
         ],
         "ankle": [
-          319.233,
-          438.201
+          324.56,
+          440.062
+        ],
+        "heel": [
+          311.804,
+          478.087
+        ],
+        "ball": [
+          340.894,
+          478.106
+        ],
+        "toe": [
+          370.274,
+          478.14
+        ],
+        "contact": [
+          326.026,
+          480.0
         ],
         "shoulder": [
-          286.983,
-          169.631
+          288.116,
+          170.005
         ],
         "elbow": [
-          254.385,
-          206.2
+          257.466,
+          208.222
         ],
         "wrist": [
-          270.294,
-          254.851
+          274.73,
+          256.409
+        ],
+        "fingertip": [
+          278.515,
+          298.559
         ]
       },
       "far": {
         "hip": [
-          295.024,
-          297.001
+          296.908,
+          298.215
         ],
         "knee": [
-          307.152,
-          366.558
+          318.314,
+          365.497
         ],
         "ankle": [
-          227.957,
-          414.902
+          229.186,
+          391.292
+        ],
+        "heel": [
+          204.132,
+          411.014
+        ],
+        "ball": [
+          229.957,
+          429.472
+        ],
+        "toe": [
+          249.213,
+          444.661
+        ],
+        "contact": [
+          251.718,
+          445.827
         ],
         "shoulder": [
-          304.327,
-          175.051
+          307.233,
+          177.335
         ],
         "elbow": [
-          328.546,
-          207.386
+          331.423,
+          209.691
         ],
         "wrist": [
-          376.836,
-          217.487
+          379.574,
+          220.435
+        ],
+        "grip": [
+          395.701,
+          220.868
+        ],
+        "bow_top": [
+          393.744,
+          106.727
+        ],
+        "bow_bottom": [
+          319.485,
+          295.283
         ]
       },
       "landmarks": {
         "back_tip": [
-          155.709,
-          356.166
+          157.514,
+          355.672
         ],
         "back_upper": [
-          286.836,
-          175.608
+          288.963,
+          176.815
         ],
         "front_tip": [
-          209.905,
-          205.016
+          212.118,
+          205.557
         ],
         "front_clasp": [
-          316.251,
-          170.173
+          318.297,
+          171.764
+        ],
+        "clasp_on_torso": [
+          318.297,
+          171.764
         ],
         "hair_tip": [
-          101.459,
-          235.045
+          103.842,
+          234.845
+        ],
+        "hair_tie": [
+          268.316,
+          86.398
+        ],
+        "eye": [
+          326.206,
+          125.56
+        ],
+        "face_nose": [
+          349.482,
+          137.542
+        ],
+        "skirt_hem": [
+          352.769,
+          305.841
+        ],
+        "belt": [
+          313.738,
+          231.873
         ]
       }
     },
     "1/4": {
       "near": {
         "hip": [
-          305.864,
-          291.818
+          306.263,
+          294.111
         ],
         "knee": [
-          325.924,
-          362.921
+          327.216,
+          364.956
         ],
         "ankle": [
-          296.514,
-          437.388
+          299.362,
+          440.019
+        ],
+        "heel": [
+          286.017,
+          477.842
+        ],
+        "ball": [
+          315.108,
+          478.309
+        ],
+        "toe": [
+          344.483,
+          478.347
+        ],
+        "contact": [
+          301.92,
+          480.0
         ],
         "shoulder": [
-          287.165,
-          166.616
+          288.446,
+          164.883
         ],
         "elbow": [
-          261.307,
-          208.225
+          264.2,
+          207.452
         ],
         "wrist": [
-          285.495,
-          253.336
+          291.312,
+          250.868
+        ],
+        "fingertip": [
+          300.462,
+          292.187
         ]
       },
       "far": {
         "hip": [
-          302.612,
-          293.986
+          303.011,
+          292.956
         ],
         "knee": [
-          337.823,
-          355.185
+          347.075,
+          348.124
         ],
         "ankle": [
-          263.588,
-          410.847
+          264.13,
+          389.707
+        ],
+        "heel": [
+          250.328,
+          418.452
+        ],
+        "ball": [
+          281.603,
+          423.662
+        ],
+        "toe": [
+          304.745,
+          431.787
+        ],
+        "contact": [
+          304.583,
+          432.304
         ],
         "shoulder": [
-          304.509,
-          172.036
+          305.692,
+          172.559
         ],
         "elbow": [
-          321.623,
-          208.63
+          323.291,
+          208.923
         ],
         "wrist": [
-          370.359,
-          216.3
+          371.617,
+          218.851
+        ],
+        "grip": [
+          387.75,
+          218.769
+        ],
+        "bow_top": [
+          382.152,
+          104.749
+        ],
+        "bow_bottom": [
+          313.946,
+          295.577
         ]
       },
       "landmarks": {
         "back_tip": [
-          159.506,
-          357.315
+          160.107,
+          356.098
         ],
         "back_upper": [
-          287.019,
-          172.619
+          288.348,
+          171.832
         ],
         "front_tip": [
-          211.184,
-          203.132
+          212.546,
+          201.671
         ],
         "front_clasp": [
-          316.433,
-          167.158
+          317.7,
+          166.916
+        ],
+        "clasp_on_torso": [
+          317.7,
+          166.916
         ],
         "hair_tip": [
-          102.462,
-          233.086
+          103.984,
+          231.117
+        ],
+        "hair_tie": [
+          267.924,
+          81.431
+        ],
+        "eye": [
+          325.749,
+          120.674
+        ],
+        "face_nose": [
+          349.006,
+          132.693
+        ],
+        "skirt_hem": [
+          351.97,
+          301.071
+        ],
+        "belt": [
+          312.847,
+          227.002
         ]
       }
     },
     "1/3": {
       "near": {
         "hip": [
-          298.276,
-          289.083
+          297.333,
+          290.818
         ],
         "knee": [
-          304.854,
-          362.669
+          307.155,
+          364.041
         ],
         "ankle": [
-          272.802,
-          436.037
+          278.259,
+          438.709
+        ],
+        "heel": [
+          260.161,
+          474.501
+        ],
+        "ball": [
+          288.982,
+          478.691
+        ],
+        "toe": [
+          318.319,
+          478.749
+        ],
+        "contact": [
+          291.623,
+          480.0
         ],
         "shoulder": [
-          286.983,
-          163.881
+          287.776,
+          161.815
         ],
         "elbow": [
-          268.699,
-          209.33
+          269.901,
+          207.427
         ],
         "wrist": [
-          300.923,
-          249.101
+          306.015,
+          243.701
+        ],
+        "fingertip": [
+          322.249,
+          282.783
         ]
       },
       "far": {
         "hip": [
-          310.2,
-          291.251
+          308.715,
+          289.857
         ],
         "knee": [
-          358.593,
-          342.664
+          362.233,
+          335.912
         ],
         "ankle": [
-          305.744,
-          418.927
+          313.039,
+          414.582
+        ],
+        "heel": [
+          307.088,
+          445.908
+        ],
+        "ball": [
+          338.675,
+          442.886
+        ],
+        "toe": [
+          363.201,
+          442.748
+        ],
+        "contact": [
+          297.931,
+          447.066
         ],
         "shoulder": [
-          304.327,
-          169.301
+          303.178,
+          169.232
         ],
         "elbow": [
-          314.272,
-          208.457
+          313.133,
+          208.386
         ],
         "wrist": [
-          363.351,
-          213.47
+          361.914,
+          215.757
+        ],
+        "grip": [
+          378.033,
+          215.067
+        ],
+        "bow_top": [
+          368.142,
+          101.34
+        ],
+        "bow_bottom": [
+          307.176,
+          294.603
         ]
       },
       "landmarks": {
         "back_tip": [
-          162.291,
-          357.025
+          160.774,
+          355.72
         ],
         "back_upper": [
-          286.878,
-          169.9
+          286.759,
+          168.637
         ],
         "front_tip": [
-          211.837,
-          201.039
+          211.574,
+          199.061
         ],
         "front_clasp": [
-          316.251,
-          164.423
+          316.108,
+          163.722
+        ],
+        "clasp_on_torso": [
+          316.108,
+          163.722
         ],
         "hair_tip": [
-          102.78,
-          230.734
+          102.628,
+          228.436
+        ],
+        "hair_tie": [
+          266.368,
+          78.222
+        ],
+        "eye": [
+          324.173,
+          117.489
+        ],
+        "face_nose": [
+          347.425,
+          129.518
+        ],
+        "skirt_hem": [
+          350.289,
+          297.37
+        ],
+        "belt": [
+          311.245,
+          223.807
+        ]
+      }
+    },
+    "3/8": {
+      "near": {
+        "hip": [
+          293.884,
+          291.1
+        ],
+        "knee": [
+          303.535,
+          364.346
+        ],
+        "ankle": [
+          271.6,
+          437.765
+        ],
+        "heel": [
+          249.849,
+          471.463
+        ],
+        "ball": [
+          278.096,
+          478.653
+        ],
+        "toe": [
+          307.403,
+          478.71
+        ],
+        "contact": [
+          280.68,
+          480.0
+        ],
+        "shoulder": [
+          287.517,
+          162.492
+        ],
+        "elbow": [
+          272.973,
+          209.273
+        ],
+        "wrist": [
+          312.832,
+          241.387
+        ],
+        "fingertip": [
+          333.004,
+          278.59
+        ]
+      },
+      "far": {
+        "hip": [
+          311.328,
+          290.563
+        ],
+        "knee": [
+          364.734,
+          336.747
+        ],
+        "ankle": [
+          334.734,
+          424.549
+        ],
+        "heel": [
+          331.935,
+          456.312
+        ],
+        "ball": [
+          363.082,
+          450.135
+        ],
+        "toe": [
+          387.19,
+          445.638
+        ],
+        "contact": [
+          320.229,
+          458.378
+        ],
+        "shoulder": [
+          302.166,
+          169.569
+        ],
+        "elbow": [
+          308.774,
+          209.424
+        ],
+        "wrist": [
+          357.795,
+          214.987
+        ],
+        "grip": [
+          373.901,
+          214.055
+        ],
+        "bow_top": [
+          362.306,
+          100.488
+        ],
+        "bow_bottom": [
+          304.246,
+          294.644
+        ]
+      },
+      "landmarks": {
+        "back_tip": [
+          160.996,
+          356.466
+        ],
+        "back_upper": [
+          286.13,
+          169.16
+        ],
+        "front_tip": [
+          211.139,
+          199.743
+        ],
+        "front_clasp": [
+          315.469,
+          164.193
+        ],
+        "clasp_on_torso": [
+          315.469,
+          164.193
+        ],
+        "hair_tip": [
+          101.989,
+          228.935
+        ],
+        "hair_tie": [
+          265.678,
+          78.726
+        ],
+        "eye": [
+          323.493,
+          117.981
+        ],
+        "face_nose": [
+          346.747,
+          130.005
+        ],
+        "skirt_hem": [
+          349.771,
+          297.687
+        ],
+        "belt": [
+          310.711,
+          224.287
         ]
       }
     },
     "5/12": {
       "near": {
         "hip": [
-          292.721,
-          289.206
+          291.578,
+          291.615
         ],
         "knee": [
-          282.929,
-          362.434
+          300.81,
+          364.915
         ],
         "ankle": [
-          244.482,
-          432.663
+          266.38,
+          437.198
+        ],
+        "heel": [
+          239.523,
+          466.988
+        ],
+        "ball": [
+          266.292,
+          478.613
+        ],
+        "toe": [
+          295.557,
+          478.65
+        ],
+        "contact": [
+          268.792,
+          480.0
         ],
         "shoulder": [
-          286.488,
-          164.004
+          287.468,
+          163.561
         ],
         "elbow": [
-          276.569,
-          211.979
+          276.55,
+          211.319
         ],
         "wrist": [
-          314.708,
-          246.117
+          319.353,
+          239.389
+        ],
+        "fingertip": [
+          343.297,
+          274.283
         ]
       },
       "far": {
         "hip": [
-          315.755,
-          291.374
+          313.672,
+          291.687
         ],
         "knee": [
-          363.789,
-          343.122
+          364.98,
+          340.192
         ],
         "ankle": [
-          342.359,
-          433.399
+          351.996,
+          432.064
+        ],
+        "heel": [
+          351.711,
+          463.949
+        ],
+        "ball": [
+          382.284,
+          455.318
+        ],
+        "toe": [
+          405.579,
+          447.662
+        ],
+        "contact": [
+          340.204,
+          466.932
         ],
         "shoulder": [
-          303.832,
-          169.424
+          301.547,
+          170.185
         ],
         "elbow": [
-          308.465,
-          209.557
+          305.535,
+          210.387
         ],
         "wrist": [
-          357.754,
-          211.671
+          354.737,
+          214.015
+        ],
+        "grip": [
+          370.833,
+          212.92
+        ],
+        "bow_top": [
+          358.089,
+          99.477
+        ],
+        "bow_bottom": [
+          301.997,
+          294.21
         ]
       },
       "landmarks": {
         "back_tip": [
-          163.318,
-          357.218
+          161.389,
+          356.878
         ],
         "back_upper": [
-          286.451,
-          170.024
+          285.805,
+          170.026
         ],
         "front_tip": [
-          211.688,
-          201.143
+          210.955,
+          200.72
         ],
         "front_clasp": [
-          315.756,
-          164.546
+          315.13,
+          164.977
+        ],
+        "clasp_on_torso": [
+          315.13,
+          164.977
         ],
         "hair_tip": [
-          102.327,
-          230.464
+          101.608,
+          229.657
+        ],
+        "hair_tie": [
+          265.246,
+          79.568
+        ],
+        "eye": [
+          323.082,
+          118.795
+        ],
+        "face_nose": [
+          346.343,
+          130.807
+        ],
+        "skirt_hem": [
+          349.681,
+          298.514
+        ],
+        "belt": [
+          310.543,
+          225.084
         ]
       }
     },
     "1/2": {
       "near": {
         "hip": [
-          290.688,
-          293.01
+          290.831,
+          294.345
         ],
         "knee": [
-          251.671,
-          357.063
+          292.696,
+          368.201
         ],
         "ankle": [
-          209.388,
-          426.478
+          257.165,
+          439.949
+        ],
+        "heel": [
+          221.29,
+          457.887
+        ],
+        "ball": [
+          242.055,
+          478.484
+        ],
+        "toe": [
+          271.223,
+          478.998
+        ],
+        "contact": [
+          244.337,
+          480.0
         ],
         "shoulder": [
-          285.81,
-          167.808
+          287.896,
+          167.716
         ],
         "elbow": [
-          284.826,
-          216.787
+          282.732,
+          216.433
         ],
         "wrist": [
-          325.376,
-          248.024
+          328.546,
+          239.26
+        ],
+        "fingertip": [
+          357.998,
+          269.65
         ]
       },
       "far": {
         "hip": [
-          317.788,
-          295.178
+          316.847,
+          296.011
         ],
         "knee": [
-          356.579,
-          354.173
+          359.255,
+          352.462
         ],
         "ankle": [
           366.568,
-          446.419
+          444.958
+        ],
+        "heel": [
+          366.764,
+          476.843
+        ],
+        "ball": [
+          397.213,
+          467.733
+        ],
+        "toe": [
+          419.875,
+          458.381
+        ],
+        "contact": [
+          355.303,
+          480.0
         ],
         "shoulder": [
-          303.154,
-          173.228
+          301.527,
+          173.224
         ],
         "elbow": [
-          305.493,
-          213.559
+          303.326,
+          213.583
         ],
         "wrist": [
-          354.828,
-          213.646
+          352.659,
+          214.053
+        ],
+        "grip": [
+          368.75,
+          212.89
+        ],
+        "bow_top": [
+          355.526,
+          99.502
+        ],
+        "bow_bottom": [
+          300.259,
+          294.471
         ]
       },
       "landmarks": {
         "back_tip": [
-          162.312,
-          358.698
+          162.545,
+          358.318
         ],
         "back_upper": [
-          285.852,
-          173.812
+          286.034,
+          173.689
         ],
         "front_tip": [
-          210.778,
-          204.269
+          211.267,
+          204.479
         ],
         "front_clasp": [
-          315.078,
-          168.35
+          315.318,
+          168.407
+        ],
+        "clasp_on_torso": [
+          315.318,
+          168.407
         ],
         "hair_tip": [
-          101.225,
-          233.203
+          101.606,
+          232.912
+        ],
+        "hair_tie": [
+          265.153,
+          83.174
+        ],
+        "eye": [
+          323.06,
+          122.306
+        ],
+        "face_nose": [
+          346.342,
+          134.277
+        ],
+        "skirt_hem": [
+          350.599,
+          302.619
+        ],
+        "belt": [
+          311.219,
+          228.549
         ]
       }
     },
     "7/12": {
       "near": {
         "hip": [
-          292.721,
-          296.172
+          294.404,
+          299.438
         ],
         "knee": [
-          275.046,
-          367.905
+          300.898,
+          373.031
         ],
         "ankle": [
-          209.524,
-          413.917
+          244.608,
+          429.966
+        ],
+        "heel": [
+          206.614,
+          442.823
+        ],
+        "ball": [
+          224.283,
+          466.138
+        ],
+        "toe": [
+          251.949,
+          475.571
+        ],
+        "contact": [
+          256.547,
+          475.687
         ],
         "shoulder": [
-          285.132,
-          170.97
+          288.059,
+          174.335
         ],
         "elbow": [
-          282.783,
-          219.903
+          284.394,
+          223.187
         ],
         "wrist": [
-          322.656,
-          251.999
+          330.42,
+          245.585
+        ],
+        "fingertip": [
+          362.641,
+          273.021
         ]
       },
       "far": {
         "hip": [
-          315.755,
-          298.34
+          316.499,
+          302.832
         ],
         "knee": [
-          359.74,
-          353.571
+          362.239,
+          356.619
         ],
         "ankle": [
-          341.977,
-          444.639
+          346.763,
+          448.104
+        ],
+        "heel": [
+          339.644,
+          479.185
+        ],
+        "ball": [
+          371.366,
+          477.302
+        ],
+        "toe": [
+          395.638,
+          473.83
+        ],
+        "contact": [
+          330.451,
+          480.0
         ],
         "shoulder": [
-          302.476,
-          176.39
+          302.235,
+          178.703
         ],
         "elbow": [
-          308.454,
-          216.344
+          306.56,
+          218.87
         ],
         "wrist": [
-          357.785,
-          216.902
+          355.895,
+          218.837
+        ],
+        "grip": [
+          371.998,
+          217.853
+        ],
+        "bow_top": [
+          360.031,
+          104.324
+        ],
+        "bow_bottom": [
+          302.607,
+          298.669
         ]
       },
       "landmarks": {
         "back_tip": [
-          159.542,
-          357.764
+          162.634,
+          361.519
         ],
         "back_upper": [
-          285.242,
-          176.948
+          286.498,
+          179.814
         ],
         "front_tip": [
-          209.35,
-          206.279
+          211.345,
+          210.359
         ],
         "front_clasp": [
-          314.4,
-          171.512
+          315.733,
+          174.26
+        ],
+        "clasp_on_torso": [
+          315.733,
+          174.26
         ],
         "hair_tip": [
-          99.769,
-          234.915
+          101.557,
+          238.693
+        ],
+        "hair_tie": [
+          265.224,
+          89.246
+        ],
+        "eye": [
+          323.225,
+          128.251
+        ],
+        "face_nose": [
+          346.535,
+          140.168
+        ],
+        "skirt_hem": [
+          351.582,
+          309.272
+        ],
+        "belt": [
+          312.205,
+          234.438
+        ]
+      }
+    },
+    "5/8": {
+      "near": {
+        "hip": [
+          297.148,
+          298.138
+        ],
+        "knee": [
+          305.063,
+          371.592
+        ],
+        "ankle": [
+          233.767,
+          408.021
+        ],
+        "heel": [
+          196.818,
+          423.624
+        ],
+        "ball": [
+          216.077,
+          445.529
+        ],
+        "toe": [
+          240.57,
+          461.618
+        ],
+        "contact": [
+          244.995,
+          462.873
+        ],
+        "shoulder": [
+          287.621,
+          173.708
+        ],
+        "elbow": [
+          281.102,
+          222.261
+        ],
+        "wrist": [
+          326.272,
+          246.339
+        ],
+        "fingertip": [
+          358.844,
+          273.358
+        ]
+      },
+      "far": {
+        "hip": [
+          314.592,
+          302.301
+        ],
+        "knee": [
+          358.111,
+          357.9
+        ],
+        "ankle": [
+          336.022,
+          448.017
+        ],
+        "heel": [
+          327.512,
+          478.747
+        ],
+        "ball": [
+          359.274,
+          478.304
+        ],
+        "toe": [
+          383.767,
+          477.093
+        ],
+        "contact": [
+          351.86,
+          480.0
+        ],
+        "shoulder": [
+          302.406,
+          177.594
+        ],
+        "elbow": [
+          308.592,
+          217.516
+        ],
+        "wrist": [
+          357.919,
+          218.392
+        ],
+        "grip": [
+          374.03,
+          217.531
+        ],
+        "bow_top": [
+          362.931,
+          103.914
+        ],
+        "bow_bottom": [
+          304.022,
+          297.814
+        ]
+      },
+      "landmarks": {
+        "back_tip": [
+          161.57,
+          359.147
+        ],
+        "back_upper": [
+          286.376,
+          178.981
+        ],
+        "front_tip": [
+          210.777,
+          209.179
+        ],
+        "front_clasp": [
+          315.589,
+          173.3
+        ],
+        "clasp_on_torso": [
+          315.589,
+          173.3
+        ],
+        "hair_tip": [
+          101.019,
+          237.692
+        ],
+        "hair_tie": [
+          264.913,
+          88.391
+        ],
+        "eye": [
+          322.962,
+          127.333
+        ],
+        "face_nose": [
+          346.285,
+          139.223
+        ],
+        "skirt_hem": [
+          351.496,
+          308.408
+        ],
+        "belt": [
+          312.329,
+          233.493
         ]
       }
     },
     "2/3": {
       "near": {
         "hip": [
-          298.276,
-          294.833
+          300.16,
+          296.047
         ],
         "knee": [
-          300.928,
-          368.665
+          308.456,
+          369.459
         ],
         "ankle": [
-          227.957,
-          401.61
+          229.939,
+          385.121
+        ],
+        "heel": [
+          197.665,
+          408.935
+        ],
+        "ball": [
+          221.415,
+          425.705
+        ],
+        "toe": [
+          244.346,
+          444.093
+        ],
+        "contact": [
+          249.841,
+          445.827
         ],
         "shoulder": [
-          284.637,
-          169.631
+          286.733,
+          172.163
         ],
         "elbow": [
-          274.218,
-          217.5
+          274.682,
+          219.648
         ],
         "wrist": [
-          311.118,
-          252.973
+          318.046,
+          246.844
+        ],
+        "fingertip": [
+          350.049,
+          274.534
         ]
       },
       "far": {
         "hip": [
-          310.2,
-          297.001
+          311.542,
+          300.841
         ],
         "knee": [
-          348.983,
-          356.001
+          351.659,
+          358.943
         ],
         "ankle": [
-          319.233,
-          443.888
+          324.56,
+          447.683
+        ],
+        "heel": [
+          315.366,
+          478.214
+        ],
+        "ball": [
+          347.126,
+          478.485
+        ],
+        "toe": [
+          371.648,
+          478.192
+        ],
+        "contact": [
+          339.678,
+          480.0
         ],
         "shoulder": [
-          301.981,
-          175.051
+          302.301,
+          175.673
         ],
         "elbow": [
-          313.051,
-          213.904
+          310.724,
+          215.184
         ],
         "wrist": [
-          362.256,
-          217.487
+          360.004,
+          217.51
+        ],
+        "grip": [
+          376.12,
+          216.77
+        ],
+        "bow_top": [
+          365.875,
+          103.073
+        ],
+        "bow_bottom": [
+          305.512,
+          296.525
         ]
       },
       "landmarks": {
         "back_tip": [
-          155.751,
-          351.657
+          159.58,
+          355.842
         ],
         "back_upper": [
-          284.784,
-          175.579
+          285.889,
+          177.278
         ],
         "front_tip": [
-          207.787,
-          203.622
+          209.673,
+          206.95
         ],
         "front_clasp": [
-          313.905,
-          170.173
+          315.084,
+          171.488
+        ],
+        "clasp_on_torso": [
+          315.084,
+          171.488
         ],
         "hair_tip": [
-          98.349,
-          232.13
+          100.005,
+          235.772
+        ],
+        "hair_tie": [
+          264.259,
+          86.673
+        ],
+        "eye": [
+          322.352,
+          125.556
+        ],
+        "face_nose": [
+          345.688,
+          137.421
+        ],
+        "skirt_hem": [
+          350.864,
+          306.362
+        ],
+        "belt": [
+          312.055,
+          231.694
         ]
       }
     },
     "3/4": {
       "near": {
         "hip": [
-          305.864,
-          291.818
+          306.263,
+          290.788
         ],
         "knee": [
-          331.93,
-          360.946
+          340.049,
+          356.489
         ],
         "ankle": [
-          263.588,
-          402.655
+          264.13,
+          381.915
+        ],
+        "heel": [
+          245.651,
+          417.512
+        ],
+        "ball": [
+          274.318,
+          422.113
+        ],
+        "toe": [
+          301.993,
+          432.102
+        ],
+        "contact": [
+          306.588,
+          432.304
         ],
         "shoulder": [
-          284.455,
-          166.616
+          283.979,
+          167.483
         ],
         "elbow": [
-          262.21,
-          210.263
+          258.938,
+          209.589
         ],
         "wrist": [
-          292.981,
-          251.168
+          294.732,
+          246.178
+        ],
+        "fingertip": [
+          322.225,
+          278.351
         ]
       },
       "far": {
         "hip": [
-          302.612,
-          293.986
+          303.011,
+          296.279
         ],
         "knee": [
-          332.565,
-          357.923
+          332.089,
+          360.619
         ],
         "ankle": [
-          296.514,
-          443.418
+          299.362,
+          447.44
+        ],
+        "heel": [
+          289.695,
+          477.825
+        ],
+        "ball": [
+          321.451,
+          478.586
+        ],
+        "toe": [
+          345.972,
+          478.298
+        ],
+        "contact": [
+          313.978,
+          480.0
         ],
         "shoulder": [
-          301.799,
-          172.036
+          301.415,
+          170.646
         ],
         "elbow": [
-          318.953,
-          208.612
+          315.163,
+          208.633
         ],
         "wrist": [
-          367.685,
-          216.3
+          364.18,
+          214.228
+        ],
+        "grip": [
+          380.305,
+          213.707
+        ],
+        "bow_top": [
+          371.608,
+          99.882
+        ],
+        "bow_bottom": [
+          308.618,
+          292.495
         ]
       },
       "landmarks": {
         "back_tip": [
-          151.954,
-          344.476
+          153.445,
+          347.515
         ],
         "back_upper": [
-          284.601,
-          172.537
+          284.078,
+          172.46
         ],
         "front_tip": [
-          206.508,
-          199.475
+          206.287,
+          200.651
         ],
         "front_clasp": [
-          313.723,
-          167.158
+          313.252,
+          166.534
+        ],
+        "clasp_on_torso": [
+          313.252,
+          166.534
         ],
         "hair_tip": [
-          97.346,
-          228.058
+          96.958,
+          230.237
+        ],
+        "hair_tie": [
+          262.222,
+          81.843
+        ],
+        "eye": [
+          320.383,
+          120.642
+        ],
+        "face_nose": [
+          343.737,
+          132.471
+        ],
+        "skirt_hem": [
+          348.347,
+          300.008
+        ],
+        "belt": [
+          310.518,
+          226.754
         ]
       }
     },
     "5/6": {
       "near": {
         "hip": [
-          313.452,
-          289.083
+          311.967,
+          287.689
         ],
         "knee": [
-          354.785,
-          350.318
+          361.125,
+          342.84
         ],
         "ankle": [
-          305.744,
-          413.605
+          313.039,
+          406.856
+        ],
+        "heel": [
+          304.329,
+          446.006
+        ],
+        "ball": [
+          333.242,
+          443.072
+        ],
+        "toe": [
+          362.645,
+          443.15
+        ],
+        "contact": [
+          309.091,
+          447.066
         ],
         "shoulder": [
-          284.637,
-          163.881
+          281.422,
+          164.16
         ],
         "elbow": [
-          252.216,
-          200.608
+          247.003,
+          199.021
         ],
         "wrist": [
-          273.361,
-          247.223
+          269.447,
+          245.025
+        ],
+        "fingertip": [
+          287.312,
+          283.389
         ]
       },
       "far": {
         "hip": [
-          295.024,
-          291.251
+          294.081,
+          292.986
         ],
         "knee": [
-          313.583,
-          359.374
+          315.188,
+          360.363
         ],
         "ankle": [
-          272.802,
-          442.716
+          277.902,
+          445.327
+        ],
+        "heel": [
+          264.408,
+          474.218
+        ],
+        "ball": [
+          295.838,
+          479.027
+        ],
+        "toe": [
+          320.348,
+          478.784
+        ],
+        "contact": [
+          294.892,
+          480.0
         ],
         "shoulder": [
-          301.981,
-          169.301
+          300.703,
+          167.581
         ],
         "elbow": [
-          325.113,
-          202.421
+          319.563,
+          203.308
         ],
         "wrist": [
-          373.195,
-          213.47
+          368.345,
+          210.675
+        ],
+        "grip": [
+          384.476,
+          210.398
+        ],
+        "bow_top": [
+          377.498,
+          96.454
+        ],
+        "bow_bottom": [
+          311.607,
+          288.094
         ]
       },
       "landmarks": {
         "back_tip": [
-          149.169,
-          339.297
+          147.169,
+          340.685
         ],
         "back_upper": [
-          284.742,
-          169.786
+          282.437,
+          169.263
         ],
         "front_tip": [
-          205.855,
-          196.098
+          203.178,
+          195.902
         ],
         "front_clasp": [
-          313.905,
-          164.423
+          311.617,
+          163.337
+        ],
+        "clasp_on_torso": [
+          311.617,
+          163.337
         ],
         "hair_tip": [
-          97.028,
-          224.94
+          94.296,
+          225.984
+        ],
+        "hair_tie": [
+          260.549,
+          78.659
+        ],
+        "eye": [
+          318.732,
+          117.437
+        ],
+        "face_nose": [
+          342.092,
+          129.255
+        ],
+        "skirt_hem": [
+          345.919,
+          295.009
+        ],
+        "belt": [
+          308.893,
+          223.557
+        ]
+      }
+    },
+    "7/8": {
+      "near": {
+        "hip": [
+          314.58,
+          288.395
+        ],
+        "knee": [
+          364.059,
+          343.258
+        ],
+        "ankle": [
+          334.734,
+          417.759
+        ],
+        "heel": [
+          329.969,
+          457.583
+        ],
+        "ball": [
+          358.467,
+          451.764
+        ],
+        "toe": [
+          387.394,
+          446.6
+        ],
+        "contact": [
+          332.058,
+          458.378
+        ],
+        "shoulder": [
+          280.844,
+          164.463
+        ],
+        "elbow": [
+          244.05,
+          196.808
+        ],
+        "wrist": [
+          259.155,
+          245.714
+        ],
+        "fingertip": [
+          271.166,
+          286.294
+        ]
+      },
+      "far": {
+        "hip": [
+          290.632,
+          293.268
+        ],
+        "knee": [
+          311.668,
+          360.667
+        ],
+        "ankle": [
+          270.321,
+          443.73
+        ],
+        "heel": [
+          253.872,
+          471.048
+        ],
+        "ball": [
+          284.652,
+          479.106
+        ],
+        "toe": [
+          309.148,
+          478.899
+        ],
+        "contact": [
+          283.673,
+          480.0
+        ],
+        "shoulder": [
+          300.878,
+          168.225
+        ],
+        "elbow": [
+          322.046,
+          202.634
+        ],
+        "wrist": [
+          370.798,
+          210.192
+        ],
+        "grip": [
+          386.931,
+          210.071
+        ],
+        "bow_top": [
+          381.058,
+          96.065
+        ],
+        "bow_bottom": [
+          313.314,
+          287.058
+        ]
+      },
+      "landmarks": {
+        "back_tip": [
+          145.205,
+          339.645
+        ],
+        "back_upper": [
+          282.228,
+          169.719
+        ],
+        "front_tip": [
+          202.505,
+          195.803
+        ],
+        "front_clasp": [
+          311.42,
+          163.846
+        ],
+        "clasp_on_torso": [
+          311.42,
+          163.846
+        ],
+        "hair_tip": [
+          93.842,
+          225.924
+        ],
+        "hair_tie": [
+          260.4,
+          79.132
+        ],
+        "eye": [
+          318.576,
+          117.924
+        ],
+        "face_nose": [
+          341.933,
+          129.748
+        ],
+        "skirt_hem": [
+          345.466,
+          294.898
+        ],
+        "belt": [
+          308.591,
+          224.061
         ]
       }
     },
     "11/12": {
       "near": {
         "hip": [
-          319.007,
-          289.206
+          316.924,
+          289.519
         ],
         "knee": [
-          363.905,
-          347.878
+          363.366,
+          346.976
         ],
         "ankle": [
-          342.359,
-          424.988
+          351.996,
+          426.228
+        ],
+        "heel": [
+          350.387,
+          466.304
+        ],
+        "ball": [
+          378.35,
+          458.242
+        ],
+        "toe": [
+          406.318,
+          449.278
+        ],
+        "contact": [
+          352.532,
+          466.932
         ],
         "shoulder": [
-          285.132,
-          164.004
+          280.93,
+          165.023
         ],
         "elbow": [
-          247.15,
-          194.944
+          243.022,
+          196.054
         ],
         "wrist": [
-          257.689,
-          245.033
+          251.705,
+          246.499
+        ],
+        "fingertip": [
+          258.108,
+          288.331
         ]
       },
       "far": {
         "hip": [
-          289.469,
-          291.374
+          288.326,
+          293.783
         ],
         "knee": [
-          292.258,
-          361.925
+          309.651,
+          361.091
         ],
         "ankle": [
-          244.483,
-          441.465
+          263.973,
+          441.854
+        ],
+        "heel": [
+          243.371,
+          466.198
+        ],
+        "ball": [
+          272.51,
+          479.042
+        ],
+        "toe": [
+          296.98,
+          478.888
+        ],
+        "contact": [
+          275.378,
+          480.0
         ],
         "shoulder": [
-          302.476,
-          169.424
+          301.535,
+          169.238
         ],
         "elbow": [
-          330.592,
-          198.435
+          324.845,
+          202.234
         ],
         "wrist": [
-          378.118,
-          211.671
+          373.591,
+          209.835
+        ],
+        "grip": [
+          389.724,
+          209.894
+        ],
+        "bow_top": [
+          385.12,
+          95.83
+        ],
+        "bow_bottom": [
+          315.254,
+          286.056
         ]
       },
       "landmarks": {
         "back_tip": [
-          148.142,
-          339.351
+          144.487,
+          339.419
         ],
         "back_upper": [
-          285.169,
-          169.909
+          282.589,
+          170.48
         ],
         "front_tip": [
-          206.004,
-          196.242
+          202.671,
+          196.267
         ],
         "front_clasp": [
-          314.4,
-          164.546
+          311.798,
+          164.691
+        ],
+        "clasp_on_torso": [
+          311.798,
+          164.691
         ],
         "hair_tip": [
-          97.481,
-          225.457
+          94.202,
+          226.292
+        ],
+        "hair_tie": [
+          260.869,
+          79.914
+        ],
+        "eye": [
+          319.024,
+          118.737
+        ],
+        "face_nose": [
+          342.375,
+          130.573
+        ],
+        "skirt_hem": [
+          345.735,
+          295.487
+        ],
+        "belt": [
+          308.798,
+          224.898
         ]
       }
     }
